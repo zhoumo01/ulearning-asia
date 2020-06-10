@@ -275,8 +275,16 @@
     "message": "No. of students who should take the exam is",
     "description": "2.0 exam.js"
   },
+  "referenceRate": {
+    "message": "Attendance rate",
+    "description": "2.0 exam.js"
+  },
   "exceptionRate": {
     "message": "Abnormality rate",
+    "description": "2.0 exam.js"
+  },
+  "abandonRate": {
+    "message": "Abandonment rate",
     "description": "2.0 exam.js"
   },
   "averageAnswerTime": {
@@ -557,14 +565,6 @@
   },
   "peopleNum": {
     "message": "No. of examinees",
-    "description": "2.0 exam.js"
-  },
-  "referenceRate": {
-    "message": "Attendance rate",
-    "description": "2.0 exam.js"
-  },
-  "abandonRate": {
-    "message": "Abandonment rate",
     "description": "2.0 exam.js"
   },
   "day": {
@@ -905,6 +905,126 @@
   },
   "remarkTips5": {
     "message": "pieces of similar answers. If you accept results of the system recognition, click OK to save the score.",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[0]": {
+    "message": "single answer",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[1]": {
+    "message": "multiple answer",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[2]": {
+    "message": "fill-in-the-blank",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[3]": {
+    "message": "true-false question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[4]": {
+    "message": "short-answer question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[5]": {
+    "message": "matching",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[6]": {
+    "message": "reading question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[7]": {
+    "message": "listening question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[8]": {
+    "message": "writing question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[9]": {
+    "message": "translation question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[10]": {
+    "message": "cloze",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[11]": {
+    "message": "sequencing",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[12]": {
+    "message": "description module",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[13]": {
+    "message": "grammar question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[14]": {
+    "message": "vocabularyquestion",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[15]": {
+    "message": "subjective oral question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[16]": {
+    "message": "gap filling",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[17]": {
+    "message": "upload attachment question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[18]": {
+    "message": "oral reading question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[19]": {
+    "message": "reading(gap filling)",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[20]": {
+    "message": "essay question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[21]": {
+    "message": "material analysis",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[22]": {
+    "message": "drop down multiple choice",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[23]": {
+    "message": "comprehensive question",
+    "description": "2.0 exam.js"
+  },
+  "queTypeArray[24]": {
+    "message": "formula computing question",
+    "description": "2.0 exam.js"
+  },
+  "difficultyLevelArray[0]": {
+    "message": "easy",
+    "description": "2.0 exam.js"
+  },
+  "difficultyLevelArray[1]": {
+    "message": "simple",
+    "description": "2.0 exam.js"
+  },
+  "difficultyLevelArray[2]": {
+    "message": "general",
+    "description": "2.0 exam.js"
+  },
+  "difficultyLevelArray[3]": {
+    "message": "harder",
+    "description": "2.0 exam.js"
+  },
+  "difficultyLevelArray[4]": {
+    "message": "hard",
     "description": "2.0 exam.js"
   },
   "remarkTips6": {
@@ -1771,6 +1891,10 @@
     "message": "Are these the verified photos of students？",
     "description": "2.0 exam.js"
   },
+  "auditTips11": {
+    "message": "Please fill in the reasons for not passing, for example: the photo is not the right person, please upload again",
+    "description": "2.0 exam.js"
+  },
   "auditTips12": {
     "message": "Please wait for the last picture to be uploaded",
     "description": "2.0 exam.js"
@@ -2429,6 +2553,10 @@
   },
   "setExamTips17": {
     "message": "The passing marks should be between 0~",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips18": {
+    "message": "",
     "description": "2.0 exam.js"
   },
   "setExamTips19": {
