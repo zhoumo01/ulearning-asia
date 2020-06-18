@@ -143,12 +143,20 @@
     "message": "小时",
     "description": "小组作业"
   },
+  "时": {
+    "message": "{{n}}小时",
+    "description": "小组作业"
+  },
   "天": {
     "message": "天",
     "description": "小组作业"
   },
   "分": {
     "message": "分",
+    "description": "小组作业"
+  },
+  "分钟": {
+    "message": "{{n}}分",
     "description": "小组作业"
   },
   "选项不能为空": {
@@ -1364,83 +1372,83 @@
     "description": "小组作业"
   },
   "包含未分组的同学": {
-    "message": "包含未分组的同学！",
+    "message": "{{classes}}包含未分组的同学！",
     "description": "小组作业"
   },
   "发布失败，请稍后重试": {
-    "message":  "发布失败，请稍后重试",
+    "message": "发布失败，请稍后重试",
     "description": "小组作业"
   },
   "上传文件中": {
-    "message":  "上传文件中",
+    "message": "上传文件中",
     "description": "小组作业"
   },
   "作业分组": {
-    "message":  "作业分组",
+    "message": "作业分组",
     "description": "小组作业"
   },
   "当前作业分组引用自“班级固定分组”，修改分组不会对“班级固定分组”造成影响。": {
-    "message":  "当前作业分组引用自“班级固定分组”，修改分组不会对“班级固定分组”造成影响。",
+    "message": "当前作业分组引用自“班级固定分组”，修改分组不会对“班级固定分组”造成影响。",
     "description": "小组作业"
   },
   "未分组": {
-    "message":  "未分组",
+    "message": "未分组",
     "description": "小组作业"
   },
   "移动至新的分组": {
-    "message":  "移动至新的分组",
+    "message": "移动至新的分组",
     "description": "小组作业"
   },
   "每个组至少有一个学生": {
-    "message":  "每个组至少有一个学生",
+    "message": "每个组至少有一个学生",
     "description": "小组作业"
   },
   "作业讨论": {
-    "message":  "作业讨论",
+    "message": "作业讨论",
     "description": "小组作业"
   },
   "在这里留言，记录作业过程": {
-    "message":  "在这里留言，记录作业过程",
+    "message": "在这里留言，记录作业过程",
     "description": "小组作业"
   },
   "请求失败": {
-    "message":  "请求失败",
+    "message": "请求失败",
     "description": "小组作业"
   },
   "查看更多条讨论": {
-    "message":  "查看更多{{count}}条讨论",
+    "message": "查看更多{{count}}条讨论",
     "description": "小组作业"
   },
   "条": {
-    "message":  "条",
+    "message": "条",
     "description": "小组作业"
   },
   "评价作业": {
-    "message":  "评价作业",
+    "message": "评价作业",
     "description": "小组作业"
   },
   "下拉刷新": {
-    "message":  "下拉刷新",
+    "message": "下拉刷新",
     "description": "小组作业"
   },
   "没有人留言": {
-    "message":  "没有人留言",
+    "message": "没有人留言",
     "description": "小组作业"
   },
   "打开": {
-    "message":  "打开",
+    "message": "打开",
     "description": "小组作业"
   },
   "系统异常，请检查你的网络": {
-    "message":  "系统异常，请检查你的网络",
+    "message": "系统异常，请检查你的网络",
     "description": "小组作业"
   },
   "确定删除该留言": {
-    "message":  "确定删除该留言",
+    "message": "确定删除该留言",
     "description": "小组作业"
   },
   "相册权限未打开": {
-    "message":  "相册权限未打开",
+    "message": "相册权限未打开",
     "description": "小组作业"
   },
   "请选择提交截止时间": {
@@ -1448,15 +1456,15 @@
     "description": "小组作业"
   },
   "请选择分组数": {
-    "message":  "请选择分组数",
+    "message": "请选择分组数",
     "description": "小组作业"
   },
   "请对未分组的学生进行分组": {
-    "message":  "请对未分组的学生进行分组",
+    "message": "请对未分组的学生进行分组",
     "description": "小组作业"
   },
   "请求出错了，请稍后重试": {
-    "message":  "请求出错了，请稍后重试",
+    "message": "请求出错了，请稍后重试",
     "description": "小组作业"
   },
   "限制时长": {
@@ -1480,27 +1488,99 @@
     "description": "小组作业"
   },
   "未投": {
-    "message":  "未投",
+    "message": "未投",
     "description": "小组作业"
   },
   "全部": {
-    "message":  "全部",
+    "message": "全部",
     "description": "小组作业"
   },
   "人": {
-    "message":  "人",
+    "message": "人",
     "description": "小组作业"
   },
   "投此选项的学生": {
-    "message":  "投此选项的学生",
+    "message": "投此选项的学生",
     "description": "小组作业"
   },
   "未投票学生名单": {
-    "message":  "未投票学生名单",
+    "message": "未投票学生名单",
     "description": "小组作业"
   },
   "班": {
-    "message":  "班",
+    "message": "班",
+    "description": "小组作业"
+  },
+  "months[0]": {
+    "message": "1月",
+    "description": "小组作业"
+  },
+  "months[1]": {
+    "message": "2月",
+    "description": "小组作业"
+  },
+  "months[2]": {
+    "message": "3月",
+    "description": "小组作业"
+  },
+  "months[3]": {
+    "message": "4月",
+    "description": "小组作业"
+  },
+  "months[4]": {
+    "message": "5月",
+    "description": "小组作业"
+  },
+  "months[5]": {
+    "message": "6月",
+    "description": "小组作业"
+  },
+  "months[6]": {
+    "message": "7月",
+    "description": "小组作业"
+  },
+  "months[7]": {
+    "message": "8月",
+    "description": "小组作业"
+  },
+  "months[8]": {
+    "message": "9月",
+    "description": "小组作业"
+  },
+  "months[9]": {
+    "message": "10月",
+    "description": "小组作业"
+  },
+  "months[10]": {
+    "message": "11月",
+    "description": "小组作业"
+  },
+  "months[11]": {
+    "message": "12月",
+    "description": "小组作业"
+  },
+  "currentMonthFmt": {
+    "message": "{{y}}年{{m}}",
+    "description": "小组作业"
+  },
+  "delimiter": {
+    "message": "、",
+    "description": "小组作业"
+  },
+  "selectAll": {
+    "message": "全选",
+    "description": "小组作业"
+  },
+  "allTeacher": {
+    "message": "全部教师",
+    "description": "小组作业"
+  },
+  "noClass": {
+    "message": "没有符合条件的班级",
+    "description": "小组作业"
+  },
+  "search": {
+    "message": "搜索",
     "description": "小组作业"
   }
 }

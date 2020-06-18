@@ -1,10 +1,14 @@
 {
+  "langCss": {
+    "message": "idCss",
+    "description": "小应用"
+  },
   "confirm": {
     "message": "OK",
     "description": "小应用"
   },
   "cancel": {
-    "message": "Batalkan",
+    "message": "Batal",
     "description": "小应用"
   },
   "delete": {
@@ -28,7 +32,7 @@
     "description": "小应用"
   },
   "deleteSuccess": {
-    "message": "Berhasil dihapus",
+    "message": "Penghapusan berhasil",
     "description": "小应用"
   },
   "move": {
@@ -40,7 +44,7 @@
     "description": "小应用"
   },
   "moveSuccess": {
-    "message": "Berhasil dipindahkan",
+    "message": "Berhasil memindahkan",
     "description": "小应用"
   },
   "operateFailed": {
@@ -96,7 +100,7 @@
     "description": "小应用"
   },
   "publishSuccess": {
-    "message": "Berhasil dirilis",
+    "message": "Berhasil merilis",
     "description": "小应用"
   },
   "publishFailed": {
@@ -104,7 +108,7 @@
     "description": "小应用"
   },
   "isConfirmDeleteDraft": {
-    "message": "Apakah anda yakin untuk menghapus draft?",
+    "message": "Apakah anda yakin untuk menghapus rancangan/draft?",
     "description": "小应用"
   },
   "isConfrimDeleteActivity": {
@@ -112,7 +116,7 @@
     "description": "小应用"
   },
   "endActivity": {
-    "message": "Akhiri kegiatan",
+    "message": "Kegiatan berakhir",
     "description": "小应用"
   },
   "restartActivity": {
@@ -128,7 +132,7 @@
     "description": "小应用"
   },
   "tips": {
-    "message": "Tips",
+    "message": "Pengingat",
     "description": "小应用"
   },
   "pleaseSelectPublishClass": {
@@ -156,7 +160,7 @@
     "description": "小应用"
   },
   "title": {
-    "message": "Judul",
+    "message": "Tema",
     "description": "小应用"
   },
   "selectedCount": {
@@ -168,11 +172,11 @@
     "description": "小应用"
   },
   "specialStu": {
-    "message": "Mahasiswa tertentu",
+    "message": "Siswa yang ditentukan",
     "description": "小应用"
   },
   "noStuToSelect": {
-    "message": "Tidak ada mahasiswa yang dapat dipilih untuk saat ini",
+    "message": "Tidak ada siswa yang dapat dipilih untuk saat ini",
     "description": "小应用"
   },
   "giveAMark": {
@@ -180,7 +184,7 @@
     "description": "小应用"
   },
   "giveStuAMark": {
-    "message": "Beri nilai untuk mahasiswa",
+    "message": "Beri nilai untuk siswa",
     "description": "小应用"
   },
   "ge": {
@@ -188,11 +192,11 @@
     "description": "小应用"
   },
   "unknown": {
-    "message": "Belum diketahui",
+    "message": "Belum diketaui",
     "description": "小应用"
   },
   "orderByStudentNo": {
-    "message": "Urutkan sesuai NIM",
+    "message": "Urutkan sesuai nomor siswa",
     "description": "小应用"
   },
   "complete": {
@@ -216,7 +220,7 @@
     "description": "小应用"
   },
   "pleaseInputTitle": {
-    "message": "Silahkan masukkan judul",
+    "message": "Silahkan masukkan tema",
     "description": "小应用"
   },
   "create": {
@@ -228,7 +232,7 @@
     "description": "小应用"
   },
   "saveSuccess": {
-    "message": "Berhasil disimpan",
+    "message": "Berhasil menyimpan",
     "description": "小应用"
   },
   "saveFail": {
@@ -312,31 +316,39 @@
     "description": "小应用"
   },
   "mon": {
-    "message": "Senin",
+    "message": "Satu",
     "description": "小应用"
   },
   "tue": {
-    "message": "Selasa",
+    "message": "Dua",
     "description": "小应用"
   },
   "wed": {
-    "message": "Rabu",
+    "message": "Tiga",
     "description": "小应用"
   },
   "thu": {
-    "message": "Kamis",
+    "message": "Empat",
     "description": "小应用"
   },
   "frid": {
-    "message": "Jumat",
+    "message": "Lima",
     "description": "小应用"
   },
   "sat": {
-    "message": "Sabtu",
+    "message": "Enam",
     "description": "小应用"
   },
   "sun": {
-    "message": "Minggu",
+    "message": "Hari",
+    "description": "小应用"
+  },
+  "ulearn": {
+    "message": "ULearn",
+    "description": "小应用"
+  },
+  "noStudentInClass": {
+    "message": "Kelas ini tidak ada siswa",
     "description": "小应用"
   },
   "teacher.title": {
@@ -360,7 +372,7 @@
     "description": "小应用"
   },
   "teacher.roleManager": {
-    "message": "Admin",
+    "message": "Pengelola administrasi",
     "description": "小应用"
   },
   "teacher.roleAssistant": {
@@ -376,7 +388,7 @@
     "description": "小应用"
   },
   "teacher.pleaseAddMoreThanOne": {
-    "message": "Silahkan pilih minimal 1 dosen",
+    "message": "Silahkan pilih setidaknya 1 dosen",
     "description": "小应用"
   },
   "teacher.managedClass": {
@@ -400,7 +412,7 @@
     "description": "小应用"
   },
   "student.title": {
-    "message": "Mahasiswa",
+    "message": "Siswa",
     "description": "小应用"
   },
   "student.add": {
@@ -408,27 +420,27 @@
     "description": "小应用"
   },
   "student.select": {
-    "message": "Pilih mahasiswa",
+    "message": "Pilih siswa",
     "description": "小应用"
   },
   "student.number": {
-    "message": "NIM",
+    "message": "Nomor siswa",
     "description": "小应用"
   },
   "student.pleaseAddMoreThanOne": {
-    "message": "Silahkan pilih minimal 1 mahasiswa",
+    "message": "Silahkan pilih minimal 1 siswa",
     "description": "小应用"
   },
   "student.total": {
-    "message": "Jumlah mahasiswa",
+    "message": "Jumlah siswa",
     "description": "小应用"
   },
   "student.selected": {
-    "message": "Mahasiswa yang telah memilih",
+    "message": "Siswa yang telah dipilih",
     "description": "小应用"
   },
   "student.unSelected": {
-    "message": "Belum memilih mahasiswa",
+    "message": "Siswa yang belum dipilih",
     "description": "小应用"
   },
   "screen.title": {
@@ -480,7 +492,7 @@
     "description": "小应用"
   },
   "vote.title": {
-    "message": "Voting",
+    "message": "Pemilihan suara",
     "description": "小应用"
   },
   "vote.publishVote": {
@@ -488,7 +500,7 @@
     "description": "小应用"
   },
   "vote.titlePlaceholder": {
-    "message": "Silahkan masukkan penjelasan tema, tidak boleh lebih dari 200 kata",
+    "message": "Silahkan masukkan penjelasan topik, tidak lebih dari 200 kata",
     "description": "小应用"
   },
   "vote.addImageTips": {
@@ -504,15 +516,15 @@
     "description": "小应用"
   },
   "vote.setVoteDuration": {
-    "message": "Atur durasi voting",
+    "message": "Atur durasi ",
     "description": "小应用"
   },
   "vote.multipleSelectionText": {
-    "message": "Pilih lebih dari satu, maksimum pilih {mutipleCount}",
+    "message": "Pilih lebih dari satu, paling banyak memilih {mutipleCount} buah",
     "description": "小应用"
   },
   "vote.voteDetail": {
-    "message": "Rincian voting",
+    "message": "Rincian informasi voting",
     "description": "小应用"
   },
   "vote.ballot": {
@@ -532,7 +544,7 @@
     "description": "小应用"
   },
   "vote.end": {
-    "message": "Voting telah selesai",
+    "message": "Pemilihan suara telah berakhir",
     "description": "小应用"
   },
   "vote.optionNoVotedTips": {
@@ -544,19 +556,19 @@
     "description": "小应用"
   },
   "vote.deleteConfirmTips": {
-    "message": "Yakin untuk menghapus voting?",
+    "message": "Yakin untuk menghapus pemilihan suara?",
     "description": "小应用"
   },
   "vote.voteStuList": {
-    "message": "Daftar nama voting",
+    "message": "Daftar nama pemilihan suara",
     "description": "小应用"
   },
   "vote.notVoteStuList": {
-    "message": "Daftar mahasiswa yang belum memilih",
+    "message": "Daftar nama siswa yang belum memilih",
     "description": "小应用"
   },
   "vote.votedStuList": {
-    "message": "Mahasiswa yang memilih ini",
+    "message": "Siswa yang memilih pilihan ini",
     "description": "小应用"
   },
   "vote.limitDuration": {
@@ -564,7 +576,7 @@
     "description": "小应用"
   },
   "vote.confirmEnd": {
-    "message": "Yakin untuk mengakhiri voting?",
+    "message": "Yakin untuk mengakhiri pemilihan suara?",
     "description": "小应用"
   },
   "vote.onlyCount": {
@@ -572,27 +584,27 @@
     "description": "小应用"
   },
   "pick.title": {
-    "message": "Pilih mahasiswa",
+    "message": "Pilih orang",
     "description": "小应用"
   },
   "pick.publish": {
-    "message": "Mulai pilih mahasiswa",
+    "message": "Memulai pemilihan",
     "description": "小应用"
   },
   "pick.contentPlaceholder": {
-    "message": "Silahkan masukkan pertanyaan yang perlu dijawab oleh mahasiswa atau tugas yang harus diselesaikan (tidak harus diisi) paling banyak 50 kata",
+    "message": "Silahkan masukkan pertanyaan yang perlu dijawabn oleh siswa atau tugas yang harus diselesaikan (tidak harus diisi) paling banyak 50 kata",
     "description": "小应用"
   },
   "pick.noStuTipsForStu": {
-    "message": "Silahkan tunggu dosen untuk pilih mahasiswa",
+    "message": "Silahkan tunggu dosen untuk memilih",
     "description": "小应用"
   },
   "pick.teaNoReasonTips": {
-    "message": "Dosen belum mengisi alasan pilih mahasiswa",
+    "message": "Dosen belum mengisi alasan memilih",
     "description": "小应用"
   },
   "pick.stuSelectedTips": {
-    "message": "Para mahasiswa di bawah ini telah terpilih, mohon untuk bekerjasama dengan dosen menyelesaikan interaksi dalam kelas",
+    "message": "Siswa-siswa di bawah ini telah terpilih, mohon untuk bekerjasama dengan dosen menyelesaikan interaksi dalam kelas",
     "description": "小应用"
   },
   "pick.participateTimes": {
@@ -600,11 +612,11 @@
     "description": "小应用"
   },
   "pick.orderByTimesAsc": {
-    "message": "Urutkan sesuai jumlah partisipasi dari sedikit ke banyak",
+    "message": "Mengurutkan sesuai dengan jumlah partisipasi dari sedikit ke banyak",
     "description": "小应用"
   },
   "pick.orderByTimesDesc": {
-    "message": "Urutkan sesuai jumlah partisipasi dari banyak ke sedikit",
+    "message": "Mengurutkan sesuai dengan jumlah partisipasi dari banyak ke sedikit",
     "description": "小应用"
   },
   "pick.repickTips": {
@@ -612,19 +624,19 @@
     "description": "小应用"
   },
   "pick.success": {
-    "message": "Berhasil pilih mahasiswa",
+    "message": "Berhasil memilih",
     "description": "小应用"
   },
   "pick.deleteConfirm": {
-    "message": "Yakin untuk menghapus mahasiswa ini?",
+    "message": "Yakin untuk menghapus siswa ini?",
     "description": "小应用"
   },
   "pick.unmarkedTips": {
-    "message": "Ada {count} mahasiswa yang belum dinilai, akan mendapat nilai 0 setelah kegiatan berakhir",
+    "message": "Ada{count}siswa yang belum dinilai, setelah kegiatan berakhir, akan ditentukan 0 poin",
     "description": "小应用"
   },
   "score.title": {
-    "message": "Beri nilai",
+    "message": "Pemberian nilai",
     "description": "小应用"
   },
   "score.unit": {
@@ -632,7 +644,7 @@
     "description": "小应用"
   },
   "score.publish": {
-    "message": "Mulai beri nilai",
+    "message": "Mulai member nilai",
     "description": "小应用"
   },
   "score.rule": {
@@ -660,19 +672,19 @@
     "description": "小应用"
   },
   "score.markKeyPlaceholder": {
-    "message": "Silahkan masukkan isi penilaian",
+    "message": "Silahkan masukkan poin penilaian",
     "description": "小应用"
   },
   "score.markKeyEmptyTips": {
-    "message": "Isi penilaian tidak boleh kosong",
+    "message": "Poin penilaian tidak boleh kosong",
     "description": "小应用"
   },
   "score.markKeyMoreThanTips": {
-    "message": "Kata dalam isi penilaian tidak boleh lebih dari",
+    "message": "Angka penilaian tidak boleh lebih dari",
     "description": "小应用"
   },
   "score.addMarkKey": {
-    "message": "Tambah isi penilaian",
+    "message": "Tambah poin penilaian",
     "description": "小应用"
   },
   "score.valuePlaceholder": {
@@ -700,7 +712,7 @@
     "description": "小应用"
   },
   "score.evaluating": {
-    "message": "Sedang menilai",
+    "message": "Sedang dinilai",
     "description": "小应用"
   },
   "score.evaluateStarted": {
@@ -708,7 +720,7 @@
     "description": "小应用"
   },
   "score.evaluateEnd": {
-    "message": "Penilaian telah selesai",
+    "message": "Telah selesai",
     "description": "小应用"
   },
   "score.addGroup": {
@@ -716,7 +728,7 @@
     "description": "小应用"
   },
   "score.publishedTips": {
-    "message": "Setelah memulai kegiatan, anda dapat menambah mahasiswa di halaman kegiatan; dapat menambah mahasiswa tertentu atau memilih mahasiswa secara acak.",
+    "message": "Setelah memulai kegiatan, anda dapat menambah siswa di halaman kegiatan; mendukung penentuan siswa dan pemilihan siswa secara acak.",
     "description": "小应用"
   },
   "score.activityTips": {
@@ -724,11 +736,11 @@
     "description": "小应用"
   },
   "score.tips": {
-    "message": "Pilih mahasiswa/kelompok untuk ditampilkan di dalam kelas, mahasiswa lainnya memberi penilaian untuk mereka.",
+    "message": "Pilih siswa/kelompok untuk ditampilkan di dalam kelas, siswa lainnya memberi penilaian untuk mereka.",
     "description": "小应用"
   },
   "score.activityTypeTips1": {
-    "message": "Setelah dimulai, tambah mahasiswa di halaman kegiatan. Mahasiswa lainnya memberikan penilaian untuk mahasiswa yang terpilih.",
+    "message": "Setelah dimulai, tambah siswa di halaman kegiatan.Mahasiswa lainnya memberikan penilaian untuk mahasiswa yang terpilih.",
     "description": "小应用"
   },
   "score.activityTypeTips2": {
@@ -736,11 +748,11 @@
     "description": "小应用"
   },
   "score.activityTypeTips3": {
-    "message": "Silahkan tentukan subjek yang perlu dinilai untuk mahasiswa di kelas.",
+    "message": "Silahkan tentukan subjek yang perlu dinilai untuk siswa.",
     "description": "小应用"
   },
   "score.pleaseAddStu": {
-    "message": "Silahkan tambah mahasiswa",
+    "message": "Silahkan tambah siswa",
     "description": "小应用"
   },
   "score.pleaseAddGroup": {
@@ -760,7 +772,7 @@
     "description": "小应用"
   },
   "score.endEvaluationTips": {
-    "message": "Setelah diakhiri, mahasiswa yang belum melakukan penilaian tidak akan bisa memberi nilai, yakin untuk mengakhirinya?",
+    "message": "Setelah diakhiri, siswa yang belum melakukan penilaian tidak akan bisa member nilai, yakin untuk mengakhirinya?",
     "description": "小应用"
   },
   "score.startEvaluation": {
@@ -768,7 +780,7 @@
     "description": "小应用"
   },
   "score.endEvaluation": {
-    "message": "Akhiri penilaian",
+    "message": "Mengakhiri penilaian",
     "description": "小应用"
   },
   "score.evaluationDetail": {
@@ -780,11 +792,11 @@
     "description": "小应用"
   },
   "score.noStuEvaluated": {
-    "message": "Tidak ada mahasiswa yang menilai",
+    "message": "Tidak ada siswa yang menilai",
     "description": "小应用"
   },
   "score.allStuEvaluated": {
-    "message": "Semua mahasiswa telah menilai",
+    "message": "Semua siswa telah menilai",
     "description": "小应用"
   },
   "score.member": {
@@ -800,7 +812,7 @@
     "description": "小应用"
   },
   "score.nameAndCount": {
-    "message": "{name} dll total {count} orang",
+    "message": "{name} dll {count} orang",
     "description": "小应用"
   },
   "score.evaluated": {
@@ -828,7 +840,7 @@
     "description": "小应用"
   },
   "score.myMark": {
-    "message": "Pemberian nilai dari saya",
+    "message": "Penilaian saya",
     "description": "小应用"
   },
   "score.noEvaluatingScore": {
@@ -852,11 +864,11 @@
     "description": "小应用"
   },
   "score.markByItem": {
-    "message": "Pemberian nilai setiap bagian",
+    "message": "Pemberian nilai dari masing-masing bagian",
     "description": "小应用"
   },
   "score.markItemEmptyTips": {
-    "message": "Isi penilaian tidak boleh kosong",
+    "message": "Poin penilaian tidak boleh kosong",
     "description": "小应用"
   },
   "score.unite": {
@@ -864,11 +876,11 @@
     "description": "小应用"
   },
   "score.scoreByItems": {
-    "message": "Penilaian per bagian",
+    "message": "Penilaian per poin",
     "description": "小应用"
   },
   "score.setItems": {
-    "message": "Mengatur isi penilaian dan nilainya, dengan begitu, mahasiswa memiliki acuan saat memberi nilai",
+    "message": "Mengatur poin penilaian dan nilainya, dengan begitu, siswa memiliki acuan saat member nilai",
     "description": "小应用"
   },
   "score.rules": {
@@ -876,7 +888,7 @@
     "description": "小应用"
   },
   "score.itemsCount": {
-    "message": "Telah mengatur {count} buah",
+    "message": "Telah mengatur {count} poin",
     "description": "小应用"
   },
   "score.setRule": {
@@ -884,7 +896,7 @@
     "description": "小应用"
   },
   "attendance.create": {
-    "message": "Mulai absensi",
+    "message": "Memulai absensi",
     "description": "小应用"
   },
   "attendance.title": {
@@ -892,7 +904,7 @@
     "description": "小应用"
   },
   "attendance.sign": {
-    "message": "Absensi",
+    "message": "Hadir",
     "description": "小应用"
   },
   "attendance.signing": {
@@ -920,7 +932,7 @@
     "description": "小应用"
   },
   "attendance.oneKeySign": {
-    "message": "Absensi 1 kali klik",
+    "message": "Absensi dengan satu kali klik",
     "description": "小应用"
   },
   "attendance.qrCodeSign": {
@@ -952,7 +964,7 @@
     "description": "小应用"
   },
   "attendance.confirmTips": {
-    "message": "Anda disarankan untuk memastikan kondisi absensi untuk para mahasiswa di bawah ini yang berjarak jauh.",
+    "message": "Anda disarankan untuk memastikan kondisi absensi untuk para siswa di bawah ini yang berjarak jauh.",
     "description": "小应用"
   },
   "attendance.endConfirmTips": {
@@ -972,7 +984,7 @@
     "description": "小应用"
   },
   "attendance.tooFarAway": {
-    "message": "Jarak agak jauh",
+    "message": "Berjarak jauh",
     "description": "小应用"
   },
   "attendance.unSign": {
@@ -1000,11 +1012,11 @@
     "description": "小应用"
   },
   "attendance.stuAllSgin": {
-    "message": "Semua mahasiswa sudah absen",
+    "message": "Semua siswa sudah absen",
     "description": "小应用"
   },
   "attendance.noStuUnSign": {
-    "message": "Belum ada mahasiswa yang absen",
+    "message": "Belum ada siswa yang absen",
     "description": "小应用"
   },
   "attendance.tooLate": {
@@ -1012,7 +1024,7 @@
     "description": "小应用"
   },
   "attendance.deleteConfirm": {
-    "message": "Yakin untuk hapus?",
+    "message": "Yakin untuk menghapus?",
     "description": "小应用"
   },
   "attendance.modifySignStatus": {
@@ -1028,11 +1040,11 @@
     "description": "小应用"
   },
   "attendance.qrCodeErrorTips": {
-    "message": "Silahkan scan kode QR absensi",
+    "message": "Silahkan scan kode QR absensi yang tepat",
     "description": "小应用"
   },
   "attendance.deviceSignedTips": {
-    "message": "Sistem menemukan bahwa perangkat tersebut telah melakukan absensi, mohon untuk tidak membantu mahasiswa lain untuk melakukan absensi",
+    "message": "Sistem menemukan bahwa perlengkapan tersebut telah melakukan absensi, mohon untuk tidak membantu siswa lain untuk melakukan absensi",
     "description": "小应用"
   },
   "attendance.absenteeism": {
@@ -1060,11 +1072,11 @@
     "description": "小应用"
   },
   "attendance.notInCourseTips": {
-    "message": "Anda tidak ada di dalam mata kuliah, oleh karena itu tidak dapat ikut serta dalam kegiatan, silahkan hubungi dosen untuk ikut bergabung dalam kelas",
+    "message": "Anda tidak ada di dalam pelajaran, tidak dapat ikut serta dalam kegiatan, silahkan hubungi dosen untuk ikut bergabung dalam kelas",
     "description": "小应用"
   },
   "attendance.tooFar": {
-    "message": "Jarak agak jauh",
+    "message": "Berjarak jauh",
     "description": "小应用"
   },
   "attendance.distanceUnknow": {
@@ -1072,15 +1084,15 @@
     "description": "小应用"
   },
   "attendance.qrCodeUpdateSepTips": {
-    "message": "Refresh kode QR",
+    "message": "refresh kode QR",
     "description": "小应用"
   },
   "attendance.rangeTitle": {
-    "message": "Jarak absensi efektif",
+    "message": "Jarak absensi",
     "description": "小应用"
   },
   "attendance.rangTip": {
-    "message": "Perhatian:",
+    "message": "Perhatian: ",
     "description": "小应用"
   },
   "attendance.rangeTipContent": {
@@ -1095,12 +1107,32 @@
     "message": "Jarak anda dengan dosen terlalu jauh! Jika anda berada di dalam kelas, coba ganti ke jaringan internet yang berbeda dan lakukan absensi ulang. Apabila setelah dicoba berkali-kali lokasi tetap tidak tepat, silahkan beritahu dosen, dosen akan mengganti status absensi anda secara manual.",
     "description": "小应用"
   },
+  "attendance.mobilePluginTips1": {
+    "message": "Mohon ijinkan ULearn untuk menggunakan layanan lokasi, lalu coba kembali",
+    "description": "小应用"
+  },
+  "attendance.mobilePluginTips2": {
+    "message": "Mohon aktifkan layanan lokasi di ponsel anda, serta ijinkan ULearn untuk menggunakan layanan lokasi",
+    "description": "小应用"
+  },
+  "attendance.mobilePluginTips3": {
+    "message": "Layanan lokasi tidak stabil, informasi lokasi anda tidak terbaca, anda dapat mencobanya kembali",
+    "description": "小应用"
+  },
+  "attendance.mobilePluginTips4": {
+    "message": "Akses kamera belum diaktifkan",
+    "description": "小应用"
+  },
+  "attendance.mobilePluginTips5": {
+    "message": "Silahkan aktifkan akses ponsel",
+    "description": "小应用"
+  },
   "announcement.title": {
     "message": "Pengumuman",
     "description": "小应用"
   },
   "announcement.publish": {
-    "message": "Rilis pengumuman",
+    "message": "Merilis pengumuman",
     "description": "小应用"
   },
   "announcement.contentInputTips": {
@@ -1132,7 +1164,7 @@
     "description": "小应用"
   },
   "announcement.classNameAndCount": {
-    "message": "{className} dll total {count} kelas",
+    "message": "{className}dll {count} kelas",
     "description": "小应用"
   },
   "announcement.list": {
@@ -1184,7 +1216,7 @@
     "description": "小应用"
   },
   "upload.success": {
-    "message": "Berhasil diunggah",
+    "message": "Berhasil mengunggah",
     "description": "小应用"
   },
   "upload.fail": {
@@ -1204,11 +1236,11 @@
     "description": "小应用"
   },
   "upload.waiting": {
-    "message": "Menunggu untuk diunggah",
+    "message": "Menunggu untuk mengunggah",
     "description": "小应用"
   },
   "upload.maxFileCount": {
-    "message": "Pilih maksimum 5 lampiran",
+    "message": "Paling banyak memilih 5 lampiran",
     "description": "小应用"
   },
   "upload.retry": {
@@ -1220,7 +1252,7 @@
     "description": "小应用"
   },
   "upload.maxFileCount2": {
-    "message": "Unggah maksimum {count} lampiran",
+    "message": "Paling banyak mengunggah {count} lampiran",
     "description": "小应用"
   },
   "upload.video1GLimit": {
@@ -1232,15 +1264,15 @@
     "description": "小应用"
   },
   "answer.publish": {
-    "message": "Mulai jawab cepat",
+    "message": "Mulai kegiatan menjawab cepat",
     "description": "小应用"
   },
   "answer.contentPlaceholder": {
-    "message": "Silahkan masukkan konten jawab cepat, tidak harus diisi",
+    "message": "Silahkan masukkan konten kegiatan menjawab cepat, tidak harus diisi",
     "description": "小应用"
   },
   "answer.participantsCount": {
-    "message": "Jumlah peserta",
+    "message": "Jumlah orang yang berpartisipasi",
     "description": "小应用"
   },
   "answer.publishNow": {
@@ -1248,15 +1280,15 @@
     "description": "小应用"
   },
   "answer.classroomAnswer": {
-    "message": "Jawab cepat di kelas",
+    "message": "Menjawab cepat",
     "description": "小应用"
   },
   "answer.deleteConfirm": {
-    "message": "Yakin untuk menghapus kegiatan jawab cepat ini?",
+    "message": "Yakin untuk menghapus kegiatan menjawab cepat?",
     "description": "小应用"
   },
   "answer.backConfirm": {
-    "message": "Belum disimpan, yakin untuk kembali",
+    "message": "Belum disimpan, konfirmasi untuk kembali",
     "description": "小应用"
   },
   "answer.publishing": {
@@ -1264,27 +1296,27 @@
     "description": "小应用"
   },
   "answer.pleaseSelectParticipant": {
-    "message": "Silahkan pilih peserta",
+    "message": "Silahkan pilih orang yang berpartisipasi",
     "description": "小应用"
   },
   "answer.stuAnswering": {
-    "message": "Mahasiswa sedang jawab cepat",
+    "message": "Siswa sedang menjawab cepat",
     "description": "小应用"
   },
   "answer.manualSelecting": {
-    "message": "Sedang pilih mahasiswa secara manual",
+    "message": "Sedang memilih secara manual",
     "description": "小应用"
   },
   "answer.manualSelect": {
-    "message": "Pilih mahasiswa secara manual",
+    "message": "Memilih secara manual",
     "description": "小应用"
   },
   "answer.cannotAnswer": {
-    "message": "Mahasiswa tidak bisa jawab cepat pada saat pemilihan mahasiswa sedang berlangsung",
+    "message": "Siswa untuk saat ini tidak dapat menjawab cepat pada saat memilih",
     "description": "小应用"
   },
   "answer.special": {
-    "message": "Tertentu",
+    "message": "Ditentukan",
     "description": "小应用"
   },
   "answer.random": {
@@ -1292,7 +1324,7 @@
     "description": "小应用"
   },
   "answer.deleteStuConfirm": {
-    "message": "Yakin untuk menghapus mahasiswa ini",
+    "message": "Yakin untuk menghapus siswa ini",
     "description": "小应用"
   },
   "answer.switching": {
@@ -1300,11 +1332,11 @@
     "description": "小应用"
   },
   "answer.someStuUnScore": {
-    "message": "Ada {count} mahasiswa yang belum dinilai, akan mendapat nilai 0 setelah berakhir",
+    "message": "Ada {count} siswa yang belum dinilai, setelah berakhir akan ditentukan menjadi 0 poin",
     "description": "小应用"
   },
   "answer.requestFail": {
-    "message": "Permintaan gagal, silahkan coba kembali",
+    "message": "Gagal memohon, silahkan coba kembali",
     "description": "小应用"
   },
   "answer.checkYourNetwork": {
@@ -1332,7 +1364,7 @@
     "description": "小应用"
   },
   "answer.toJoin": {
-    "message": "Akan bergabung",
+    "message": "Menunggu untuk ikut bergabung",
     "description": "小应用"
   },
   "answer.error": {
@@ -1340,11 +1372,11 @@
     "description": "小应用"
   },
   "answer.selectStu": {
-    "message": "Pilih mahasiswa",
+    "message": "Pilih siswa",
     "description": "小应用"
   },
   "answer.noStuToSelect": {
-    "message": "Tidak ada mahasiswa yang dapat dipilih untuk saat ini",
+    "message": "Tidak ada siswa yang dapat dipilih untuk saat ini",
     "description": "小应用"
   },
   "answer.participateTimes": {
@@ -1352,19 +1384,19 @@
     "description": "小应用"
   },
   "answer.orderByStuNo": {
-    "message": "Urutkan sesuai NIM",
+    "message": "Pengurutan nomor siswa",
     "description": "小应用"
   },
   "answer.orderByTimes": {
-    "message": "Urutan jumlah partisipasi",
+    "message": "Pengurutan jumlah partisipasi",
     "description": "小应用"
   },
   "answer.stuMax": {
-    "message": "Pilih maksimum {count} mahasiswa",
+    "message": "Paling banyak dapat memilih {count} siswa",
     "description": "小应用"
   },
   "answer.record": {
-    "message": "Catatan jawab cepat",
+    "message": "Catatan menjawab cepat",
     "description": "小应用"
   },
   "answer.unsetContent": {
@@ -1376,11 +1408,11 @@
     "description": "小应用"
   },
   "answer.stuThisQuestion": {
-    "message": "Mahasiswa yang menjawab pertanyaan kali ini",
+    "message": "Siswa yang menjawab pertanyaan kali ini",
     "description": "小应用"
   },
   "answer.noStuparticipate": {
-    "message": "Tidak ada mahasiswa yang berpartisipasi",
+    "message": "Tidak ada siswa yang berpartisipasi",
     "description": "小应用"
   },
   "answer.teacherStartSelect": {
@@ -1388,7 +1420,7 @@
     "description": "小应用"
   },
   "answer.stuGrowthCongratulations": {
-    "message": "Selamat, mahasiswa di bawah ini mendapatkan nilai pertumbuhan karena menjawab pertanyaan",
+    "message": "Selamat, siswa di bawah ini mendapatkan nilai pertumbuhan karena menjawab pertanyaan",
     "description": "小应用"
   },
   "answer.remainingQuota": {
@@ -1400,7 +1432,7 @@
     "description": "小应用"
   },
   "answer.grab": {
-    "message": "Jawab cepat",
+    "message": "Menjawab cepat",
     "description": "小应用"
   },
   "class.create": {
@@ -1452,7 +1484,7 @@
     "description": "小应用"
   },
   "class.nameRepeatTips": {
-    "message": "Nama kelas sudah ada",
+    "message": "Nama kelas dan pengulangan kelas yang sudah ada",
     "description": "小应用"
   },
   "class.needCheck": {
@@ -1480,11 +1512,11 @@
     "description": "小应用"
   },
   "class.enterCourse": {
-    "message": "Masuk ke mata kuliah",
+    "message": "Masuk ke pelajaran",
     "description": "小应用"
   },
   "class.defaultClassTips": {
-    "message": "Anda belum membuat kelas, sistem telah membuat kelas default untuk anda; Anda dapat masuk ke dalam mata kuliah kemudian ubah informasi kelas",
+    "message": "Anda belum membuat kelas, sistem telah membuat kelas default untuk anda; Anda dapat masuk ke dalam pelajaran kemudian ubah informasi kelas",
     "description": "小应用"
   },
   "class.default": {
@@ -1516,7 +1548,7 @@
     "description": "小应用"
   },
   "class.special": {
-    "message": "Kelas tertentu",
+    "message": "Kelas yang ditentukan",
     "description": "小应用"
   },
   "class.otherClass": {
@@ -1524,11 +1556,11 @@
     "description": "小应用"
   },
   "class.other": {
-    "message": "Kelas berwenang lainnya",
+    "message": "Kelas pengawas lainnya",
     "description": "小应用"
   },
   "class.courseTeaGroup": {
-    "message": "Tim pengajaran mata kuliah ini",
+    "message": "Kelompok pengajaran pelajaran ini",
     "description": "小应用"
   },
   "class.null": {
@@ -1540,7 +1572,7 @@
     "description": "小应用"
   },
   "class.noStudent": {
-    "message": "Tidak ada mahasiswa di dalam kelas",
+    "message": "Tidak ada siswa di dalam kelas",
     "description": "小应用"
   },
   "class.manager": {
@@ -1548,11 +1580,11 @@
     "description": "小应用"
   },
   "class.changeStuClass": {
-    "message": "Ganti kelas mahasiswa",
+    "message": "Ganti kelas siswa",
     "description": "小应用"
   },
   "class.changeStuClassConfirm": {
-    "message": "Yakin untuk mengganti kelas mahasiswa",
+    "message": "Yakin untuk mengganti kelas siswa",
     "description": "小应用"
   },
   "class.noTeacherTips": {
@@ -1560,15 +1592,15 @@
     "description": "小应用"
   },
   "class.setTeacherClass": {
-    "message": "Menentukan kelas dosen",
+    "message": "Menentukan dosen dan kelas",
     "description": "小应用"
   },
   "class.deleteStuNoAccess": {
-    "message": "Anda tidak memiliki akses untuk menghapus mahasiswa",
+    "message": "Anda tidak memiliki akses untuk menghapus siswa",
     "description": "小应用"
   },
   "class.modifyStuNoAccess": {
-    "message": "Anda tidak memiliki akses untuk mengubah kelas mahasiswa",
+    "message": "Anda tidak memiliki akses untuk mengubah kelas siswa",
     "description": "小应用"
   },
   "class.deleteNoAccess": {
@@ -1580,7 +1612,7 @@
     "description": "小应用"
   },
   "class.deleteConfirm1": {
-    "message": "Setelah hapus kelas, semua mahasiswa di dalam kelas akan dipindahkan keluar dari mata kuliah, catatan seluruh kegiatan yang diikuti oleh siswa di dalam kelas akan terhapus.",
+    "message": "Setelah hapus kelas, semua siswa di dalam kelas akan dipindahkan keluar dari pelajaran, catatan seluruh kegiatan yang diikuti oleh siswa di dalam kelas akan terhapus.",
     "description": "小应用"
   },
   "class.deleteConfirm2": {
@@ -1588,19 +1620,19 @@
     "description": "小应用"
   },
   "class.qrCodeJoin": {
-    "message": "Mahasiswa dapat ikut bergabung dalam kelas dengan cara memasukkan nomor kode kelas atau scan kode QR",
+    "message": "Siswa dapat ikut bergabung dalam kelas dengan cara memasukkan nomor kode kelas atau scan kode QR",
     "description": "小应用"
   },
   "class.qrCodeInvite": {
-    "message": "Anda dapat berbagi kode QR kelas atau nomor kode kelas untuk mengundang mahasiswa ikut bergabung",
+    "message": "Anda dapat berbagi kode QR kelas atau nomor kode kelas untuk mengundang siswa ikut bergabung",
     "description": "小应用"
   },
   "class.tips1": {
-    "message": "Anda dapat menunggu admin menentukan kelas untuk anda, juga dapat membuat kelas sendiri",
+    "message": "Anda dapat menunggu pengelola administrasi untuk menentukan kelas untuk anda, juga dapat membuat kelas sendiri",
     "description": "小应用"
   },
   "class.tips2": {
-    "message": "Tidak ada kelas lainnya yang dibuat oleh dosen, anda dapat mencoba pengajaran dari banyak dosen dengan mata kuliah yang sama",
+    "message": "Tidak ada kelas lainnya yang dibuat oleh dosen, anda dapat mencoba pengajaran dari banyak dosen dengan pelajaran yang sama",
     "description": "小应用"
   },
   "class.tips3": {
@@ -1608,15 +1640,15 @@
     "description": "小应用"
   },
   "class.assign": {
-    "message": "Menentukan",
+    "message": "Ditentukan",
     "description": "小应用"
   },
   "class.teacherFollowingClass": {
-    "message": "untuk mengajar kelas di bawah ini",
+    "message": "Mengajari kelas di bawah ini",
     "description": "小应用"
   },
   "class.assessmentClass": {
-    "message": "Kelas penilaian",
+    "message": "Kelas evaluasi",
     "description": "小应用"
   },
   "class.moveOut": {
@@ -1624,7 +1656,11 @@
     "description": "小应用"
   },
   "class.count": {
-    "message": "dll {count} total kelas",
+    "message": "dll {count} kelas",
+    "description": "小应用"
+  },
+  "class.lastClass": {
+    "message": "Kelas terakhir: ",
     "description": "小应用"
   },
   "class.exit": {
@@ -1637,6 +1673,66 @@
   },
   "class.exitSuccessTips": {
     "message": "Anda telah berhasil keluar dari kelas, apabila ingin bergabung dalam kelas baru, silahkan minta kode QR atau no. kode kelas baru dari dosen.",
+    "description": "小应用"
+  },
+  "class.courseware": {
+    "message": "Bahan mata kuliah",
+    "description": "小应用"
+  },
+  "class.weightCl": {
+    "message": "Bobot: ",
+    "description": "小应用"
+  },
+  "class.theItemScoreCl": {
+    "message": "Nilai yang didapat dari poin ini: ",
+    "description": "小应用"
+  },
+  "class.studyScore": {
+    "message": "Nilai pembelajaran",
+    "description": "小应用"
+  },
+  "class.averageScoreByChapter": {
+    "message": "Nilai rata-rata sesuai dengan bab yang dipilih",
+    "description": "小应用"
+  },
+  "class.studyTime": {
+    "message": "Waktu belajar",
+    "description": "小应用"
+  },
+  "class.totalStudyTimeAchieve": {
+    "message": "Waktu pembelajaran secara kumulatif mencapai",
+    "description": "小应用"
+  },
+  "class.chapterStudyTimeAchieve": {
+    "message": "Waktu pembelajaran setiap bab mencapai",
+    "description": "小应用"
+  },
+  "class.sectionStudyTimeAchieve": {
+    "message": "Waktu pembelajaran setiap bagian mencapai",
+    "description": "小应用"
+  },
+  "class.fullMarksLessThan": {
+    "message": "mendapatkan nilai sempurna, lebih rendah dari",
+    "description": "小应用"
+  },
+  "class.score0": {
+    "message": "dihitung 0 poin",
+    "description": "小应用"
+  },
+  "class.minite": {
+    "message": "Menit",
+    "description": "小应用"
+  },
+  "class.studyProgress": {
+    "message": "Kemajuan progres pembelajaran",
+    "description": "小应用"
+  },
+  "class.totalStudyProgress": {
+    "message": "Kemajuan progres pembelajaran secara kumulatif mencapai",
+    "description": "小应用"
+  },
+  "class.chapterStudyProgress": {
+    "message": "Kemajuan progres pembelajaran setiap bab mencapai",
     "description": "小应用"
   },
   "class.newStrategyTips1": {
@@ -1652,7 +1748,7 @@
     "description": "小应用"
   },
   "class.newStrategyTips4": {
-    "message": "Boleh",
+    "message": "boleh",
     "description": "小应用"
   },
   "class.newStrategyTips5": {
@@ -1668,7 +1764,7 @@
     "description": "小应用"
   },
   "class.newStrategyTips8": {
-    "message": "Kelas:",
+    "message": "kelas: ",
     "description": "小应用"
   },
   "class.newStrategyTips12": {
@@ -1676,7 +1772,7 @@
     "description": "小应用"
   },
   "class.newStrategyTips13": {
-    "message": "Gabung nilai",
+    "message": "Nilai penggabungan",
     "description": "小应用"
   },
   "class.newStrategyTips14": {
@@ -1704,11 +1800,11 @@
     "description": "小应用"
   },
   "class.newStrategyTips20": {
-    "message": "Sementara belum ada penilaian untuk mata kuliah ini",
+    "message": "Sementara belum ada penilaian untuk pelajaran ini",
     "description": "小应用"
   },
   "class.courseAssessment": {
-    "message": "Penilaian mata kuliah",
+    "message": "Penilaian pelajaran",
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips1": {
@@ -1724,7 +1820,7 @@
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips4": {
-    "message": "Tugas",
+    "message": "Pekerjaan rumah",
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips5": {
@@ -1772,7 +1868,7 @@
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips17": {
-    "message": "Durasi belajar setiap bagian mencapai",
+    "message": "Durasi belajar setiap bagian mencapa",
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips18": {
@@ -1812,11 +1908,11 @@
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips27": {
-    "message": "Nilai rata-rata seluruh tugas",
+    "message": "Nilai rata-rata seluruh pekerjaan rumah",
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips28": {
-    "message": "Mengatur bobot untuk setiap tugas",
+    "message": "Mengatur bobot untuk setiap pekerjaan rumah",
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips29": {
@@ -1828,7 +1924,7 @@
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips31": {
-    "message": "Total poin seluruh topik diskusi,",
+    "message": "Total nilai seluruh topik diskusi, ",
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips32": {
@@ -1840,7 +1936,7 @@
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips34": {
-    "message": "poin, telat/pulang awal/sakit/ijin urusan akan dikurangi",
+    "message": "poin, telat/pulang cepat/sakit/ijin urusan akan dikurangi ",
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips35": {
@@ -1848,7 +1944,7 @@
     "description": "小应用"
   },
   "class.newStrategyScoreItemTips36": {
-    "message": "Nilai yang didapat dari kegiatan Pilih Mahasiswa dan Jawab Cepat,",
+    "message": "Nilai yang didapat dari kegiatan pemilihan dan kegiatan menjawab cepat, ",
     "description": "小应用"
   },
   "resource.createFolder": {
@@ -1900,7 +1996,7 @@
     "description": "小应用"
   },
   "resource.studentData": {
-    "message": "Statistik mahasiswa",
+    "message": "Statistik siswa",
     "description": "小应用"
   },
   "resource.delete": {
@@ -1924,7 +2020,7 @@
     "description": "小应用"
   },
   "resource.noStu": {
-    "message": "Tidak ada mahasiswa",
+    "message": "Tidak ada siswa",
     "description": "小应用"
   },
   "resource.viewed": {
@@ -1948,7 +2044,7 @@
     "description": "小应用"
   },
   "resource.titleEmptyTips": {
-    "message": "Judul tidak boleh kosong",
+    "message": "Tema tidak boleh kosong",
     "description": "小应用"
   },
   "resource.linkEmptyTips": {
@@ -2028,27 +2124,27 @@
     "description": "小应用"
   },
   "resource.creatorCl": {
-    "message": "Pembuat:",
+    "message": "Pembuat: ",
     "description": "小应用"
   },
   "resource.createTimeCl": {
-    "message": "Waktu pembuatan:",
+    "message": "Waktu pembuatan: ",
     "description": "小应用"
   },
   "resource.fileSizeCl": {
-    "message": "Ukuran dokumen:",
+    "message": "Ukuran dokumen: ",
     "description": "小应用"
   },
   "resource.pageNumberCl": {
-    "message": "Jumlah halaman:",
+    "message": "Jumlah halaman: ",
     "description": "小应用"
   },
   "resource.audioDurationCl": {
-    "message": "Durasi suara:",
+    "message": "Durasi suara: ",
     "description": "小应用"
   },
   "resource.accessPermissionCl": {
-    "message": "Batas akses:",
+    "message": "Batas akses: ",
     "description": "小应用"
   },
   "resource.accessPermissionTips4": {
@@ -2060,7 +2156,7 @@
     "description": "小应用"
   },
   "resource.shareScopeCl": {
-    "message": "Cakupan berbagi:",
+    "message": "Cakupan berbagi: ",
     "description": "小应用"
   },
   "resource.shareScopeTips1": {
@@ -2100,7 +2196,7 @@
     "description": "小应用"
   },
   "resource.progressTips2": {
-    "message": "Kondisi penyelesaian:",
+    "message": "Kondisi penyelesaian: ",
     "description": "小应用"
   },
   "resource.progressTips3": {
@@ -2144,7 +2240,7 @@
     "description": "小应用"
   },
   "resource.listenRecondCl": {
-    "message": "Dengar rekaman:",
+    "message": "Dengar rekaman: ",
     "description": "小应用"
   },
   "resource.finished": {
@@ -2188,7 +2284,7 @@
     "description": "小应用"
   },
   "remind.oneKey": {
-    "message": "Klik untuk mengingatkan",
+    "message": "Mengingatkan dengan sekali klik",
     "description": "小应用"
   },
   "remind.ing": {
@@ -2196,7 +2292,7 @@
     "description": "小应用"
   },
   "remind.success": {
-    "message": "Berhasil diingatkan",
+    "message": "Berhasil mengingatkan",
     "description": "小应用"
   },
   "remind.fail": {
@@ -2204,11 +2300,11 @@
     "description": "小应用"
   },
   "course.title": {
-    "message": "Mata kuliah",
+    "message": "Pelajaran",
     "description": "小应用"
   },
   "course.teacherTeam": {
-    "message": "Tim pengajaran",
+    "message": "Kelompok pengajaran",
     "description": "小应用"
   },
   "course.teacherCount": {
@@ -2216,19 +2312,19 @@
     "description": "小应用"
   },
   "course.modify": {
-    "message": "Ubah mata kuliah",
+    "message": "Ubah pelajaran",
     "description": "小应用"
   },
   "course.end": {
-    "message": "Akhiri mata kuliah",
+    "message": "Mengakhiri pelajaran",
     "description": "小应用"
   },
   "course.removeFrom": {
-    "message": "Keluar dari mata kuliah",
+    "message": "Mengeluarkan dari pelajaran",
     "description": "小应用"
   },
   "course.removeTea": {
-    "message": "Pindahkan dosen dari mata kuliah",
+    "message": "Mengeluarkan dosen dari pelajaran",
     "description": "小应用"
   },
   "course.removeTeaTips1": {
@@ -2236,43 +2332,43 @@
     "description": "小应用"
   },
   "course.removeTeaTips2": {
-    "message": "2、Apabila tidak ada dosen lain di dalam kelas, maka kelas akan secara otomatis ditentukan ke pembuat mata kuliah.",
+    "message": "2、Apabila tidak ada dosen lain di dalam kelas, maka kelas akan secara otomatis ditentukan ke pembuat pelajaran.",
     "description": "小应用"
   },
   "course.ending": {
-    "message": "Sedang mengakhiri mata kuliah",
+    "message": "Sedang mengakhiri pelajaran",
     "description": "小应用"
   },
   "course.delete": {
-    "message": "Hapus mata kuliah",
+    "message": "Hapus pelajaran",
     "description": "小应用"
   },
   "course.deleteConfirm": {
-    "message": "Setelah dihapus, mata kuliah tidak akan bisa dikembalikan, mahasiswa yang telah ikut bergabung dalam mata kuliah tersebut tidak bisa lanjut belajar. Mohon operasikan dengan teliti!",
+    "message": "Setelah dihapus, pelajaran tidak akan bisa dikembalikan, siswa yang telah ikut bergabung dalam pelajaran tersebut juga tidak dapat lanjut belajar, mohon operasikan dengan teliti!",
     "description": "小应用"
   },
   "course.endTips1": {
-    "message": "Setelah mata kuliah berakhir:",
+    "message": "Setelah pelajaran berakhir: ",
     "description": "小应用"
   },
   "course.endTips2": {
-    "message": "Dosen tidak dapat merilis sumber atau kegiatan baru, juga tidak bisa mengubah konten yang sudah ada di dalam mata kuliah, hanya bisa melihat dari komputer dan ekspor data;",
+    "message": "Dosen tidak dapat merilis sumber atau kegiatan baru, juga tidak dapat mengubah konten yang telah ada dalam pelajaran, hanya dapat melihat dari komputer dan ekspor data. ",
     "description": "小应用"
   },
   "course.endTips3": {
-    "message": "Mahasiswa dapat terus menjelajahi konten mata kuliah, namun tidak bisa ikut bergabung lagi ke dalam mata kuliah.",
+    "message": "Siswa dapat lanjut menjelajahi konten dalam pelajaran, namun tidak dapat ikut bergabung dalam pelajaran.",
     "description": "小应用"
   },
   "course.endTips4": {
-    "message": "Yakin untuk mengakhiri mata kuliah ini?",
+    "message": "Yakin untuk mengakhiri pelajaran ini?",
     "description": "小应用"
   },
   "course.removeStu": {
-    "message": "Apabila mahasiswa dipindahkan dari mata kuliah, maka tugas, diskusi, ujian dan catatan kegiatan lainnya di dalam mata kuliah akan terhapus, mohon untuk operasikan dengan teliti.",
+    "message": "Mengeluarkan siswa dari pelajaran, akan menghapus catatan kegiatan siswa tersebut di dalam pelajaran seperti pekerjaan rumah, diskusi, ujian dll, mohon untuk mengoperasikannya dengan teliti!",
     "description": "小应用"
   },
   "course.removeStuConfirm": {
-    "message": "Yakin untuk mengeluarkan {name} dari mata kuliah?",
+    "message": "Yakin untuk mengeluarkan {name} dari pelajaran?",
     "description": "小应用"
   },
   "course.removeFail": {
@@ -2280,7 +2376,7 @@
     "description": "小应用"
   },
   "course.creatorNoOperation": {
-    "message": "Tidak dapat melaksanakan pengoperasian tersebut terhadap pembuat mata kuliah",
+    "message": "Tidak dapat melaksanakan pengoperasian tersebut terhadap pembuat pelajaran",
     "description": "小应用"
   },
   "course.assessmentTotal": {
@@ -2288,7 +2384,7 @@
     "description": "小应用"
   },
   "course.inviteStu": {
-    "message": "Mengundang mahasiswa untuk ikut bergabung dalam kelas",
+    "message": "Mengundang siswa untuk ikut bergabung dalam kelas",
     "description": "小应用"
   },
   "course.teaInviteStu": {
@@ -2308,15 +2404,15 @@
     "description": "小应用"
   },
   "course.creator": {
-    "message": "Pembuat mata kuliah",
+    "message": "pembuat pelajaran",
     "description": "小应用"
   },
   "course.resetTip": {
-    "message": "Yakin untuk mengatur ulang kata sandi {name} menjadi 123456?",
+    "message": "Yakin untuk mengatur ulang {name}'s kata sandi menjadi 123456？",
     "description": "小应用"
   },
   "course.resetSucTip": {
-    "message": "Kata sandi mahasiswa telah diatur ulang ke 123456",
+    "message": "Kata sandi siswa telah diatur ulang ke 123456",
     "description": "小应用"
   },
   "course.resetFailTip": {
@@ -2335,11 +2431,11 @@
     "message": "Atur ulang kata sandi",
     "description": "小应用"
   },
-  "menber.title": {
+  "member.title": {
     "message": "Anggota",
     "description": "小应用"
   },
-  "menber.null": {
+  "member.null": {
     "message": "Tidak ada anggota",
     "description": "小应用"
   },
@@ -2360,11 +2456,11 @@
     "description": "小应用"
   },
   "group.add": {
-    "message": "Tambah kelompok",
+    "message": "Tambah",
     "description": "小应用"
   },
   "group.delete": {
-    "message": "Hapus kelompok",
+    "message": "Hapus",
     "description": "小应用"
   },
   "group.stuOwner": {
@@ -2376,7 +2472,7 @@
     "description": "小应用"
   },
   "group.leader": {
-    "message": "Ketua kelompok",
+    "message": "Kedua",
     "description": "小应用"
   },
   "group.resetLeader": {
@@ -2416,7 +2512,7 @@
     "description": "小应用"
   },
   "group.changeStuGroupConfirm": {
-    "message": "Yakin untuk mengganti kelompok mahasiswa",
+    "message": "Yakin untuk mengganti pembagian kelompok",
     "description": "小应用"
   },
   "group.pleaseSelectOne": {
@@ -2435,8 +2531,392 @@
     "message": "Diubah menjadi",
     "description": "小应用"
   },
+  "user.Email": {
+    "message": "Email",
+    "description": "小应用"
+  },
+  "user.usedEmail": {
+    "message": "Email utama",
+    "description": "小应用"
+  },
+  "user.next": {
+    "message": "Selanjutnya",
+    "description": "小应用"
+  },
+  "user.invalidParameter": {
+    "message": "Parameter salah",
+    "description": "小应用"
+  },
+  "user.codeErr": {
+    "message": "No. verifikasi salah",
+    "description": "小应用"
+  },
+  "user.expiredCode": {
+    "message": "No. verifikasi telah kadaluarsa",
+    "description": "小应用"
+  },
+  "user.newPassword": {
+    "message": "Sandi baru",
+    "description": "小应用"
+  },
+  "user.resetpassWord": {
+    "message": "Buat ulang sandi",
+    "description": "小应用"
+  },
+  "user.inputInfoTip1": {
+    "message": "Silahkan isi informasi yang benar",
+    "description": "小应用"
+  },
+  "user.phoneUsed": {
+    "message": "No. ponsel ini sudah teregistrasi",
+    "description": "小应用"
+  },
+  "user.emailUsed": {
+    "message": "Email ini sudah teregistrasi",
+    "description": "小应用"
+  },
+  "user.identity": {
+    "message": "Identitas",
+    "description": "小应用"
+  },
+  "user.student": {
+    "message": "Mahasiswa",
+    "description": "小应用"
+  },
+  "user.teacher": {
+    "message": "Dosen",
+    "description": "小应用"
+  },
+  "user.nameTitle": {
+    "message": "Nama lengkap ",
+    "description": "小应用"
+  },
+  "user.nameTip": {
+    "message": "(harus diisi)",
+    "description": "小应用"
+  },
+  "user.inputNameTip": {
+    "message": "Silahkan isi nama lengkap asli",
+    "description": "小应用"
+  },
+  "user.schoolOrOrg": {
+    "message": "Universitas/ Lembaga",
+    "description": "小应用"
+  },
+  "user.select": {
+    "message": "Silahkan pilih",
+    "description": "小应用"
+  },
+  "user.notOpen": {
+    "message": "Registrasi tertutup",
+    "description": "小应用"
+  },
+  "user.selectOrgTip": {
+    "message": "Silahkan pilih universitas/kantor",
+    "description": "小应用"
+  },
+  "user.studentId": {
+    "message": "NIM /No. Kerja",
+    "description": "小应用"
+  },
+  "user.studentIdTip": {
+    "message": "Silahkan masukkan NIM/No. Kerja",
+    "description": "小应用"
+  },
+  "user.studentId1": {
+    "message": "Mahasiswa atau dosen yang bukan di universitas tidak wajib mengisi",
+    "description": "小应用"
+  },
+  "user.inputOrgTip1": {
+    "message": "Silahkan masukkan nama lembaga",
+    "description": "小应用"
+  },
+  "user.studentIdUsed": {
+    "message": "NIM ini sudah teregistrasi",
+    "description": "小应用"
+  },
+  "user.studentIdUsed1": {
+    "message": "No. Kerja ini sudah teregistrasi",
+    "description": "小应用"
+  },
+  "user.registerSubmit": {
+    "message": "Registrasi dan login",
+    "description": "小应用"
+  },
+  "user.tip": {
+    "message": "Registrasi berarti setuju dengan",
+    "description": "小应用"
+  },
+  "user.userAgreement": {
+    "message": "\"Perjanjian Pengguna\"",
+    "description": "小应用"
+  },
+  "user.and": {
+    "message": " dan ",
+    "description": "小应用"
+  },
+  "user.privacyAgreement": {
+    "message": "\"Kebijakan privasi\"",
+    "description": "小应用"
+  },
+  "user.idMore": {
+    "message": " dari ULearn",
+    "description": "小应用"
+  },
+  "user.goHome": {
+    "message": "Kembali ke beranda",
+    "description": "小应用"
+  },
+  "user.phone": {
+    "message": "No. ponsel",
+    "description": "小应用"
+  },
+  "user.inputPhoneTip": {
+    "message": "Silahkan masukkan no. ponsel",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip": {
+    "message": "Silahkan masukkan kata sandi",
+    "description": "小应用"
+  },
+  "user.confirmPassword": {
+    "message": "Konfirmasi kata sandi",
+    "description": "小应用"
+  },
+  "user.confirmPasswordTip": {
+    "message": "Ulang kata sandi",
+    "description": "小应用"
+  },
+  "user.password": {
+    "message": "Kata sandi",
+    "description": "小应用"
+  },
+  "user.code": {
+    "message": "No. verifikasi",
+    "description": "小应用"
+  },
+  "user.inputCodeTip": {
+    "message": "Silahkan masukkan no. verifikasi",
+    "description": "小应用"
+  },
+  "user.getAgain": {
+    "message": "Dapatkan lagi",
+    "description": "小应用"
+  },
+  "user.get": {
+    "message": "Dapatkan",
+    "description": "小应用"
+  },
+  "user.getCode": {
+    "message": "Dapatkan no. verifikasi",
+    "description": "小应用"
+  },
+  "user.inputEmailTip1": {
+    "message": "Format Email tidak benar",
+    "description": "小应用"
+  },
+  "user.inputPhoneTip1": {
+    "message": "Format no. ponsel tidak benar",
+    "description": "小应用"
+  },
+  "user.getCodeTip1": {
+    "message": "Terlalu sering mendapatkan no. verifikasi, silahkan tunggu 60 detik lalu coba kembali",
+    "description": "小应用"
+  },
+  "user.getCodeTip2": {
+    "message": "Terlalu sering mendapatkan no. verifikasi",
+    "description": "小应用"
+  },
+  "user.inputPhoneTip2": {
+    "message": "No. ponsel belum teregistrasi",
+    "description": "小应用"
+  },
+  "user.inputEmailTip2": {
+    "message": "Email belum teregistrasi",
+    "description": "小应用"
+  },
+  "user.getSuccess": {
+    "message": "Berhasil didapat",
+    "description": "小应用"
+  },
+  "user.getFail": {
+    "message": "Gagal mendapat",
+    "description": "小应用"
+  },
+  "user.sendFail": {
+    "message": "Berhasil dikirim",
+    "description": "小应用"
+  },
+  "user.inputEmail": {
+    "message": "Silahkan masukkan Email",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip1": {
+    "message": "Kata sandi harus berupa gabungan antara angka dan huruf sebanyak 8-16 karakter",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip2": {
+    "message": "Kedua format sandi tidak sesuai",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip3": {
+    "message": "Dilarang input karakter ilegal",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip4": {
+    "message": "Tidak boleh lebih dari 100 karakter",
+    "description": "小应用"
+  },
+  "user.inputNameTip1": {
+    "message": "Silahkan masukkan nama lengkap asli",
+    "description": "小应用"
+  },
+  "user.selectOrgTip1": {
+    "message": "Silahkan pilih universitas",
+    "description": "小应用"
+  },
+  "user.findPassword": {
+    "message": "Cari kata sandi",
+    "description": "小应用"
+  },
+  "user.findPasswordByPhone": {
+    "message": "Cari no. ponsel",
+    "description": "小应用"
+  },
+  "user.findPasswordByMail": {
+    "message": "Cari Email",
+    "description": "小应用"
+  },
+  "user.getCodeTip3": {
+    "message": "No. verifikasi telat lewat batas waktu",
+    "description": "小应用"
+  },
+  "user.resetSuccess": {
+    "message": "Pengaturan berhasil",
+    "description": "小应用"
+  },
+  "user.inputOrgTip2": {
+    "message": "Universitas ini menutup registrasi",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip5": {
+    "message": "Format sandi tidak sesuai aturan",
+    "description": "小应用"
+  },
+  "user.resetFail": {
+    "message": "Pengaturan gagal",
+    "description": "小应用"
+  },
+  "user.inputStudentIdTip": {
+    "message": "Silahkan masukkan angka atau huruf sebanyak 4-20 karakter, huruf besar dan huruf kecil dibedakan",
+    "description": "小应用"
+  },
+  "user.inputStudentIdTip1": {
+    "message": "Silahkan masukkan NIM",
+    "description": "小应用"
+  },
+  "user.inputUserNameTip": {
+    "message": "Tidak boleh berupa karakter Mandarin, spasi dan karakter khusus",
+    "description": "小应用"
+  },
+  "user.inputUserName": {
+    "message": "Silahkan masukkan akun",
+    "description": "小应用"
+  },
+  "user.selectCountry": {
+    "message": "Pilih negara/area",
+    "description": "小应用"
+  },
+  "user.ULearningAccount": {
+    "message": "Akun ULearn",
+    "description": "小应用"
+  },
+  "user.inputUserNameTip1": {
+    "message": "Nama pengguna / no. ponsel / Email",
+    "description": "小应用"
+  },
+  "user.bind": {
+    "message": "Ikat",
+    "description": "小应用"
+  },
+  "user.passwordErr": {
+    "message": "Akun atau sandi salah",
+    "description": "小应用"
+  },
+  "user.register": {
+    "message": "Registrasi",
+    "description": "小应用"
+  },
+  "user.selectRegisterType": {
+    "message": "Pilih cara registrasi",
+    "description": "小应用"
+  },
+  "user.registerByPhone": {
+    "message": "Registrasi lewat no. ponsel",
+    "description": "小应用"
+  },
+  "user.registerByMail": {
+    "message": "Registrasi lewat Email",
+    "description": "小应用"
+  },
+  "user.userNameUsed": {
+    "message": "Pengguna sudah ada",
+    "description": "小应用"
+  },
+  "user.registerFail": {
+    "message": "Registrasi gagal",
+    "description": "小应用"
+  },
+  "user.resgisterSuccess": {
+    "message": "Registrasi berhasil",
+    "description": "小应用"
+  },
+  "user.goRegister": {
+    "message": "Registrasi",
+    "description": "小应用"
+  },
+  "user.bindAccount": {
+    "message": "Ikat akun",
+    "description": "小应用"
+  },
+  "user.noAccount": {
+    "message": "Belum ada akun?",
+    "description": "小应用"
+  },
+  "user.inputPas": {
+    "message": "Silahkan masukkan kata sandi",
+    "description": "小应用"
+  },
+  "user.registerTitle": {
+    "message": "Akun registrasi",
+    "description": "小应用"
+  },
+  "user.back": {
+    "message": "Kembali",
+    "description": "小应用"
+  },
+  "user.registerTip": {
+    "message": "Pembukaan akun di sebagian universitas dan lembaga, dilakukan secara terpadu oleh admin. Registrasi tidak dibuka untuk umum.",
+    "description": "小应用"
+  },
+  "user.registerTip1": {
+    "message": "Jika akun sudah diaktifkan secara terpadu, silahkan login dengan menggunakan akun tersebut. Mohon untuk tidak registrasi ulang.",
+    "description": "小应用"
+  },
+  "user.isStudent": {
+    "message": "Saya adalah mahasiswa",
+    "description": "小应用"
+  },
+  "user.isTeacher": {
+    "message": "Saya adalah dosen",
+    "description": "小应用"
+  },
+  "user.inputInfo": {
+    "message": "Isi informasi",
+    "description": "小应用"
+  },
   "search.title": {
-    "message": "Cari",
+    "message": "Pencarian",
     "description": "小应用"
   },
   "search.noResult": {

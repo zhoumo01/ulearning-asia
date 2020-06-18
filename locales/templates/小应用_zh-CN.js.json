@@ -1,4 +1,8 @@
 {
+  "langCss": {
+    "message": "zhCss",
+    "description": "小应用"
+  },
   "confirm": {
     "message": "确定",
     "description": "小应用"
@@ -56,15 +60,15 @@
     "description": "小应用"
   },
   "day": {
-    "message": "天",
+    "message": "{n}天",
     "description": "小应用"
   },
   "hour": {
-    "message": "小时",
+    "message": "{n}小时",
     "description": "小应用"
   },
   "minute": {
-    "message": "分",
+    "message": "{n}分",
     "description": "小应用"
   },
   "second": {
@@ -104,7 +108,7 @@
     "description": "小应用"
   },
   "isConfirmDeleteDraft": {
-    "message": "确定删除草稿嘛？",
+    "message": "确定删除草稿吗？",
     "description": "小应用"
   },
   "isConfrimDeleteActivity": {
@@ -339,6 +343,14 @@
     "message": "日",
     "description": "小应用"
   },
+  "ulearn": {
+    "message": "优学院",
+    "description": "小应用"
+  },
+  "noStudentInClass": {
+    "message": "班级没有学生",
+    "description": "小应用"
+  },
   "teacher.title": {
     "message": "教师",
     "description": "小应用"
@@ -516,7 +528,7 @@
     "description": "小应用"
   },
   "vote.ballot": {
-    "message": "票",
+    "message": "{n}票",
     "description": "小应用"
   },
   "vote.notVote": {
@@ -1095,6 +1107,26 @@
     "message": "你距离老师太远啦！如果你在教室里，可以尝试切换不同的网络后重新签到。如果多次尝试后仍然定位不准确，请告知老师，由老师手动更改你的签到状态。",
     "description": "小应用"
   },
+  "attendance.mobilePluginTips1": {
+    "message": "请允许优学院使用定位服务，允许后重试",
+    "description": "小应用"
+  },
+  "attendance.mobilePluginTips2": {
+    "message": "请在手机系统的设置中开启定位服务，并允许优学院使用定位服务",
+    "description": "小应用"
+  },
+  "attendance.mobilePluginTips3": {
+    "message": "定位服务不稳定，无法获取你的位置信息，你可以稍后重试",
+    "description": "小应用"
+  },
+  "attendance.mobilePluginTips4": {
+    "message": "相册权限未打开",
+    "description": "小应用"
+  },
+  "attendance.mobilePluginTips5": {
+    "message": "请打开手机权限",
+    "description": "小应用"
+  },
   "announcement.title": {
     "message": "公告",
     "description": "小应用"
@@ -1627,6 +1659,10 @@
     "message": "等{count}个班级",
     "description": "小应用"
   },
+  "class.lastClass": {
+    "message": "上次班级：",
+    "description": "小应用"
+  },
   "class.exit": {
     "message": "退出班级",
     "description": "小应用"
@@ -1637,6 +1673,66 @@
   },
   "class.exitSuccessTips": {
     "message": "你已成功退出班级，如需加入新班级请询问老师新班级的二维码或班级编码。",
+    "description": "小应用"
+  },
+  "class.courseware": {
+    "message": "课件",
+    "description": "小应用"
+  },
+  "class.weightCl": {
+    "message": "权重：",
+    "description": "小应用"
+  },
+  "class.theItemScoreCl": {
+    "message": "该项得分：",
+    "description": "小应用"
+  },
+  "class.studyScore": {
+    "message": "学习成绩",
+    "description": "小应用"
+  },
+  "class.averageScoreByChapter": {
+    "message": "按所选章节平均分",
+    "description": "小应用"
+  },
+  "class.studyTime": {
+    "message": "学习时间",
+    "description": "小应用"
+  },
+  "class.totalStudyTimeAchieve": {
+    "message": "累计学习时间达到",
+    "description": "小应用"
+  },
+  "class.chapterStudyTimeAchieve": {
+    "message": "每章学习时间达到",
+    "description": "小应用"
+  },
+  "class.sectionStudyTimeAchieve": {
+    "message": "每节学习时间达到",
+    "description": "小应用"
+  },
+  "class.fullMarksLessThan": {
+    "message": "得满分，低于",
+    "description": "小应用"
+  },
+  "class.score0": {
+    "message": "计0分",
+    "description": "小应用"
+  },
+  "class.minite": {
+    "message": "分钟",
+    "description": "小应用"
+  },
+  "class.studyProgress": {
+    "message": "学习进度",
+    "description": "小应用"
+  },
+  "class.totalStudyProgress": {
+    "message": "累计学习进度达到",
+    "description": "小应用"
+  },
+  "class.chapterStudyProgress": {
+    "message": "每章学习进度达到",
     "description": "小应用"
   },
   "class.newStrategyTips1": {
@@ -2335,11 +2431,11 @@
     "message": "重置密码",
     "description": "小应用"
   },
-  "menber.title": {
+  "member.title": {
     "message": "成员",
     "description": "小应用"
   },
-  "menber.null": {
+  "member.null": {
     "message": "无成员",
     "description": "小应用"
   },
@@ -2433,6 +2529,390 @@
   },
   "group.moveTo": {
     "message": "更改至",
+    "description": "小应用"
+  },
+  "user.Email": {
+    "message": "邮箱",
+    "description": "小应用"
+  },
+  "user.usedEmail": {
+    "message": "常用邮箱",
+    "description": "小应用"
+  },
+  "user.next": {
+    "message": "下一步",
+    "description": "小应用"
+  },
+  "user.invalidParameter": {
+    "message": "参数错误",
+    "description": "小应用"
+  },
+  "user.codeErr": {
+    "message": "验证码错误",
+    "description": "小应用"
+  },
+  "user.expiredCode": {
+    "message": "验证码已过期",
+    "description": "小应用"
+  },
+  "user.newPassword": {
+    "message": "新密码",
+    "description": "小应用"
+  },
+  "user.resetpassWord": {
+    "message": "重置密码",
+    "description": "小应用"
+  },
+  "user.inputInfoTip1": {
+    "message": "请正确填写信息",
+    "description": "小应用"
+  },
+  "user.phoneUsed": {
+    "message": "该手机号已注册",
+    "description": "小应用"
+  },
+  "user.emailUsed": {
+    "message": "该邮箱已注册",
+    "description": "小应用"
+  },
+  "user.identity": {
+    "message": "身份",
+    "description": "小应用"
+  },
+  "user.student": {
+    "message": "学生",
+    "description": "小应用"
+  },
+  "user.teacher": {
+    "message": "教师",
+    "description": "小应用"
+  },
+  "user.nameTitle": {
+    "message": "姓名",
+    "description": "小应用"
+  },
+  "user.nameTip": {
+    "message": "（必填）",
+    "description": "小应用"
+  },
+  "user.inputNameTip": {
+    "message": "请填写真实姓名",
+    "description": "小应用"
+  },
+  "user.schoolOrOrg": {
+    "message": "学校/机构",
+    "description": "小应用"
+  },
+  "user.select": {
+    "message": "请选择",
+    "description": "小应用"
+  },
+  "user.notOpen": {
+    "message": "不开放注册",
+    "description": "小应用"
+  },
+  "user.selectOrgTip": {
+    "message": "请选择学校/单位",
+    "description": "小应用"
+  },
+  "user.studentId": {
+    "message": "学号/工号",
+    "description": "小应用"
+  },
+  "user.studentIdTip": {
+    "message": "请输入学号/工号",
+    "description": "小应用"
+  },
+  "user.studentId1": {
+    "message": "非在校学生或教师可不填",
+    "description": "小应用"
+  },
+  "user.inputOrgTip1": {
+    "message": "请输入正确的机构名称",
+    "description": "小应用"
+  },
+  "user.studentIdUsed": {
+    "message": "该学号已被注册",
+    "description": "小应用"
+  },
+  "user.studentIdUsed1": {
+    "message": "该工号已被注册",
+    "description": "小应用"
+  },
+  "user.registerSubmit": {
+    "message": "注册并登录",
+    "description": "小应用"
+  },
+  "user.tip": {
+    "message": "注册即为同意优学院",
+    "description": "小应用"
+  },
+  "user.userAgreement": {
+    "message": "《用户协议》",
+    "description": "小应用"
+  },
+  "user.and": {
+    "message": "和",
+    "description": "小应用"
+  },
+  "user.privacyAgreement": {
+    "message": "《隐私政策》",
+    "description": "小应用"
+  },
+  "user.idMore": {
+    "message": "",
+    "description": "小应用"
+  },
+  "user.goHome": {
+    "message": "返回首页",
+    "description": "小应用"
+  },
+  "user.phone": {
+    "message": "手机号",
+    "description": "小应用"
+  },
+  "user.inputPhoneTip": {
+    "message": "请输入手机号",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip": {
+    "message": "请输入密码(8-16位数字和字母的组合)",
+    "description": "小应用"
+  },
+  "user.confirmPassword": {
+    "message": "确认密码",
+    "description": "小应用"
+  },
+  "user.confirmPasswordTip": {
+    "message": "请再次输入密码",
+    "description": "小应用"
+  },
+  "user.password": {
+    "message": "密码",
+    "description": "小应用"
+  },
+  "user.code": {
+    "message": "验证码",
+    "description": "小应用"
+  },
+  "user.inputCodeTip": {
+    "message": "请输入验证码",
+    "description": "小应用"
+  },
+  "user.getAgain": {
+    "message": "重新获取",
+    "description": "小应用"
+  },
+  "user.get": {
+    "message": "获取",
+    "description": "小应用"
+  },
+  "user.getCode": {
+    "message": "获取验证码",
+    "description": "小应用"
+  },
+  "user.inputEmailTip1": {
+    "message": "邮箱格式不正确",
+    "description": "小应用"
+  },
+  "user.inputPhoneTip1": {
+    "message": "手机号格式不正确",
+    "description": "小应用"
+  },
+  "user.getCodeTip1": {
+    "message": "获取验证码过于频繁，请60s后再试",
+    "description": "小应用"
+  },
+  "user.getCodeTip2": {
+    "message": "获取验证码过于频繁",
+    "description": "小应用"
+  },
+  "user.inputPhoneTip2": {
+    "message": "手机号未注册",
+    "description": "小应用"
+  },
+  "user.inputEmailTip2": {
+    "message": "邮箱未注册",
+    "description": "小应用"
+  },
+  "user.getSuccess": {
+    "message": "获取成功",
+    "description": "小应用"
+  },
+  "user.getFail": {
+    "message": "获取失败",
+    "description": "小应用"
+  },
+  "user.sendFail": {
+    "message": "发送失败",
+    "description": "小应用"
+  },
+  "user.inputEmail": {
+    "message": "请输入邮箱",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip1": {
+    "message": "密码必须为8-16位数字、字母的组合",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip2": {
+    "message": "两次输入的密码格式不一致",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip3": {
+    "message": "不能含有非法字符",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip4": {
+    "message": "不能超过100个字符",
+    "description": "小应用"
+  },
+  "user.inputNameTip1": {
+    "message": "请输入真实姓名",
+    "description": "小应用"
+  },
+  "user.selectOrgTip1": {
+    "message": "请选择机构",
+    "description": "小应用"
+  },
+  "user.findPassword": {
+    "message": "找回密码",
+    "description": "小应用"
+  },
+  "user.findPasswordByPhone": {
+    "message": "手机找回",
+    "description": "小应用"
+  },
+  "user.findPasswordByMail": {
+    "message": "邮箱找回",
+    "description": "小应用"
+  },
+  "user.getCodeTip3": {
+    "message": "验证码超时",
+    "description": "小应用"
+  },
+  "user.resetSuccess": {
+    "message": "重置成功",
+    "description": "小应用"
+  },
+  "user.inputOrgTip2": {
+    "message": "该机构不开放注册",
+    "description": "小应用"
+  },
+  "user.inputPasswordTip5": {
+    "message": "密码格式不符合规则",
+    "description": "小应用"
+  },
+  "user.resetFail": {
+    "message": "重置失败",
+    "description": "小应用"
+  },
+  "user.inputStudentIdTip": {
+    "message": "请输入4-20位字母或数字，字母区分大小写",
+    "description": "小应用"
+  },
+  "user.inputStudentIdTip1": {
+    "message": "请输入学号",
+    "description": "小应用"
+  },
+  "user.inputUserNameTip": {
+    "message": "不能包含中文、空格和特殊字符",
+    "description": "小应用"
+  },
+  "user.inputUserName": {
+    "message": "请输入帐号",
+    "description": "小应用"
+  },
+  "user.selectCountry": {
+    "message": "选择国家/地区",
+    "description": "小应用"
+  },
+  "user.ULearningAccount": {
+    "message": "优学院帐号",
+    "description": "小应用"
+  },
+  "user.inputUserNameTip1": {
+    "message": "用户名 / 手机号 / 邮箱",
+    "description": "小应用"
+  },
+  "user.bind": {
+    "message": "绑定",
+    "description": "小应用"
+  },
+  "user.passwordErr": {
+    "message": "帐号或密码错误",
+    "description": "小应用"
+  },
+  "user.register": {
+    "message": "注册",
+    "description": "小应用"
+  },
+  "user.selectRegisterType": {
+    "message": "选择注册方式",
+    "description": "小应用"
+  },
+  "user.registerByPhone": {
+    "message": "手机号注册",
+    "description": "小应用"
+  },
+  "user.registerByMail": {
+    "message": "邮箱注册",
+    "description": "小应用"
+  },
+  "user.userNameUsed": {
+    "message": "用户已存在",
+    "description": "小应用"
+  },
+  "user.registerFail": {
+    "message": "注册失败",
+    "description": "小应用"
+  },
+  "user.resgisterSuccess": {
+    "message": "注册成功",
+    "description": "小应用"
+  },
+  "user.goRegister": {
+    "message": "去注册",
+    "description": "小应用"
+  },
+  "user.bindAccount": {
+    "message": "绑定帐号",
+    "description": "小应用"
+  },
+  "user.noAccount": {
+    "message": "没有帐号？",
+    "description": "小应用"
+  },
+  "user.inputPas": {
+    "message": "请输入密码",
+    "description": "小应用"
+  },
+  "user.registerTitle": {
+    "message": "注册帐号",
+    "description": "小应用"
+  },
+  "user.back": {
+    "message": "返回上一步",
+    "description": "小应用"
+  },
+  "user.registerTip": {
+    "message": "部分学校和机构，由管理员统一开通帐号，不开放注册。",
+    "description": "小应用"
+  },
+  "user.registerTip1": {
+    "message": "如果已统一开通帐号，请使用学校开通的帐号登录，切勿重复注册。",
+    "description": "小应用"
+  },
+  "user.isStudent": {
+    "message": "我是学生",
+    "description": "小应用"
+  },
+  "user.isTeacher": {
+    "message": "我是教师",
+    "description": "小应用"
+  },
+  "user.inputInfo": {
+    "message": "填写信息",
     "description": "小应用"
   },
   "search.title": {
