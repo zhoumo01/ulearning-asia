@@ -31,16 +31,8 @@
     "message": "Duration of answering isn't empty",
     "description": "1.0 autoexam.js"
   },
-  "collectText1": {
-    "message": "Total 1 part, | Total {count} parts,",
-    "description": "1.0 autoexam.js"
-  },
-  "collectText2": {
-    "message": "1 question, | {count} questions,",
-    "description": "1.0 autoexam.js"
-  },
-  "collectText3": {
-    "message": "total 1 mark | total {count} marks",
+  "collectText": {
+    "message": "A total of {0} parts, {1} big problems, together with {2}",
     "description": "1.0 autoexam.js"
   },
   "surePaperNameLess": {
@@ -87,6 +79,10 @@
     "message": "Please enter content names of up to {0} characters",
     "description": "1.0 autoexam.js"
   },
+  "pleaseEnterTemplateName": {
+    "message": "Please enter template of the name less than 20 characters",
+    "description": "1.0 autoexam.js"
+  },
   "pleaseAddQtype": {
     "message": "Please add Q type",
     "description": "1.0 autoexam.js"
@@ -97,10 +93,6 @@
   },
   "correctRatioText": {
     "message": "Please enter the correct ratio",
-    "description": "1.0 autoexam.js"
-  },
-  "pleaseEnterTemplateName": {
-    "message": "Please enter template of the name less than 20 characters",
     "description": "1.0 autoexam.js"
   },
   "getDateErrorText": {
