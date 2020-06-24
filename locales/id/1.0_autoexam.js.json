@@ -31,9 +31,21 @@
     "message": "Durasi menjawab tidak boleh kosong",
     "description": "1.0 autoexam.js"
   },
-  "collectText": {
-    "message": "Total {1} soal, {0} bagian. Jumlah poin: {2}",
+  "collectText1": {
+    "message": "Total {count} soal,",
     "description": "1.0 autoexam.js"
+  },
+  "collectText2": {
+    "message": "{count} bagian.",
+    "description": "1.0 autoexam.js"
+  },
+  "collectText3": {
+    "message": "Jumlah poin: {count}",
+    "description": "1.0 autoexam.js"
+  },
+  "collectText": {
+    "message": "{parts} {questions} {marks}",
+    "description": "花括号({})及其里面的内容，不要翻译，这是插值。"
   },
   "surePaperNameLess": {
     "message": "Mohon pastikan nama kertas ujian tidak lebih dari 50 kata",
