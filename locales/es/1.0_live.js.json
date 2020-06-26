@@ -4,15 +4,15 @@
     "description": "1.0 live.json"
   },
   "requiredVal": {
-    "message": "{0} no puede estar vacía",
+    "message": "{0} no puede estar vacío",
     "description": "1.0 live.json"
   },
   "maxlengthVal": {
-    "message": "No se puede exceder {0} bit",
+    "message": "No puede exceder {0} caracteres",
     "description": "1.0 live.json"
   },
   "regVal": {
-    "message": "El contenido no puede contener caracteres especiales/:*\" <> #",
+    "message": "El contenido no puede contener caracteres especiales /: *\" <> | & [] # ",
     "description": "1.0 live.json"
   },
   "classNameTxt": {
@@ -20,7 +20,7 @@
     "description": "1.0 live.json"
   },
   "startTimeTxt": {
-    "message": "Hora de inicio",
+    "message": "Tiempo de empezar",
     "description": "1.0 live.json"
   },
   "chooseClassTxt": {
@@ -28,11 +28,11 @@
     "description": "1.0 live.json"
   },
   "modSuccess": {
-    "message": "Modificado exitosamente",
+    "message": "Modificado con éxito",
     "description": "1.0 live.json"
   },
   "modFail": {
-    "message": "No se pudo modificar",
+    "message": "no se puede editar",
     "description": "1.0 live.json"
   },
   "createSuccess": {
@@ -56,35 +56,35 @@
     "description": "1.0 live.json"
   },
   "submitingTxt": {
-    "message": "Cargando...",
+    "message": "sumisión...",
     "description": "1.0 live.json"
   },
   "timeText": {
-    "message": "La hora de inicio no puede ser mayor que la fecha límite",
+    "message": "La hora de inicio no puede ser anterior a la hora actual",
     "description": "1.0 live.json"
   },
   "errTip1": {
-    "message": "Hay una transmisión en vivo sin terminar, por favor créela después del final",
+    "message": "Todavía hay transmisiones en vivo sin terminar, créalos después del final",
     "description": "1.0 live.json"
   },
   "errorTip2": {
-    "message": "La última transmisión en vivo aún no se ha resuelto, por favor cree más tarde",
+    "message": "El costo de la última transmisión en vivo no se ha liquidado, créelo más tarde",
     "description": "1.0 live.json"
   },
   "errorTip3": {
-    "message": "\"El saldo es inferior a 20 yuanes, puede no ser suficiente para soportar 1 transmisión en vivo, por favor recargue.\"",
+    "message": "El saldo es inferior a 0 yuanes, no es suficiente para soportar 1 transmisión en vivo, recargue",
     "description": "1.0 live.json"
   },
   "saveStr": {
-    "message": "Guardar",
+    "message": "salvar",
     "description": "1.0 live.json"
   },
   "createStr": {
-    "message": "Crear",
+    "message": "crear",
     "description": "1.0 live.json"
   },
   "notSupport": {
-    "message": "Los símbolos no pueden aparecer en nombres vivos",
+    "message": "No pueden aparecer símbolos en el nombre de la transmisión en vivo",
     "description": "1.0 live.json"
   }
 }
