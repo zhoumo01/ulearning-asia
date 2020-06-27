@@ -115,10 +115,6 @@
     "message": "答案解析",
     "description": "1.0 questionNew.json"
   },
-  "StudentAnswer": {
-    "message": "學生答案",
-    "description": "1.0 questionNew.json"
-  },
   "getQScoreText": {
     "message": "得分",
     "description": "1.0 questionNew.json"
@@ -158,5 +154,57 @@
   "uploadFailText": {
     "message": "上傳失敗",
     "description": "1.0 questionNew.json"
+  },
+  "lastPartText": {
+    "message": "上個部分",
+    "description": "1.0 exam.js"
+  },
+  "nextPartText": {
+    "message": "下個部分",
+    "description": "1.0 exam.js"
+  },
+  "putIllegalText": {
+    "message": "您的輸入含有非法字符，已幫您刪除",
+    "description": "1.0 exam.js"
+  },
+  "autoClearText": {
+    "message": "輸入敏感標簽，為保證服務安全進行，系統已自動清除",
+    "description": "1.0 exam.js"
+  },
+  "inputIgnoredText": {
+    "message": "輸入的詞數限制為200個字符（含標點），您的答案已超出範圍，系統將忽略超出部分",
+    "description": "1.0 exam.js"
+  },
+  "answerCardText": {
+    "message": "答題卡",
+    "description": "1.0 exam.js"
+  },
+  "enterColumn": {
+    "message": "分屏答題",
+    "description": "1.0 exam.js"
+  },
+  "exitColumn": {
+    "message": "退出分屏",
+    "description": "1.0 exam.js"
+  },
+  "columnDragTip": {
+    "message": "拖動可調整高度",
+    "description": "1.0 exam.js"
+  },
+  "recordTip": {
+    "message": "註意：本題錄音只能播放{count}次",
+    "description": "1.0 exam.js"
+  },
+  "timesOverTip": {
+    "message": "註意：本題播放次數已用完",
+    "description": "1.0 exam.js"
+  },
+  "played": {
+    "message": "已播放{count}次",
+    "description": "1.0 exam.js"
+  },
+  "jquizMaxFileTips": {
+    "message": "最多添加10個文件",
+    "description": "1.0 exam.js"
   }
 }

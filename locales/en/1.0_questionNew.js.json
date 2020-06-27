@@ -115,10 +115,6 @@
     "message": "Answer analysis",
     "description": "1.0 questionNew.json"
   },
-  "StudentAnswer": {
-    "message": "Student's answer",
-    "description": "1.0 questionNew.json"
-  },
   "getQScoreText": {
     "message": "Score",
     "description": "1.0 questionNew.json"
@@ -158,5 +154,65 @@
   "uploadFailText": {
     "message": " Upload failure",
     "description": "1.0 questionNew.json"
+  },
+  "checkPaperText": {
+    "message": "The paper you are looking for doesn’t exist, the browser will be closed!",
+    "description": "1.0 exam.js"
+  },
+  "submitAnswerText": {
+    "message": "Answer record can’t be submitted in teacher account!",
+    "description": "1.0 exam.js"
+  },
+  "lastPartText": {
+     "message": "The last part",
+     "description": "1.0 exam.js"
+  },
+  "nextPartText": {
+     "message": "The next part",
+     "description": "1.0 exam.js"
+  },
+  "putIllegalText": {
+     "message": "Input contains illegal characters and has been deleted for you",
+     "description": "1.0 exam.js"
+  },
+  "autoClearText": {
+     "message": "Input sensitive tags, for ensure service security, the system has been automatically cleared",
+     "description": "1.0 exam.js"
+  },
+  "inputIgnoredText": {
+     "message": "The input number is limited to 200 characters (including punctuation), your answer is beyond the scope of the system, the excess will be ignored",
+     "description": "1.0 exam.js"
+  },
+  "answerCardText": {
+     "message": "Answer card",
+     "description": "1.0 exam.js"
+  },
+  "enterColumn": {
+     "message": "Sub-screen",
+     "description": "1.0 exam.js"
+  },
+  "exitColumn": {
+     "message": "Exit",
+     "description": "1.0 exam.js"
+  },
+  "columnDragTip": {
+     "message": "drag to adjust height",
+     "description": "1.0 exam.js"
+  },
+  "recordTip": {
+     "message": "Note: The recording of this question can only be played {count} times",
+     "description": "1.0 exam.js"
+  },
+  "timesOverTip": {
+     "message": "Note: This question has been used up",
+     "description": "1.0 exam.js"
+  },
+  "played": {
+     "message": "Played {count} times",
+     "description": "1.0 exam.js"
+  },
+  "jquizMaxFileTips": {
+     "message": "Add 10 files at most",
+     "description": "1.0 exam.js"
   }
 }

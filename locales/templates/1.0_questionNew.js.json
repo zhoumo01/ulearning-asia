@@ -1,7 +1,7 @@
 {
   "useControlText": {
     "message": "请使用控件录制您的答案",
-    "description": "1.0 questionNew.json"
+    "description": "此翻译文件隶属于exam.js和questionNew.js 被考试试题预览页面、布置个人作业所用到，"
   },
   "makeSureText": {
     "message": "请确保您的浏览器FLASH版本大于或等于  11.1.0！",
@@ -115,10 +115,6 @@
     "message": "答案解析",
     "description": "1.0 questionNew.json"
   },
-  "StudentAnswer": {
-    "message": "学生答案",
-    "description": "1.0 questionNew.json"
-  },
   "getQScoreText": {
     "message": "得分",
     "description": "1.0 questionNew.json"
@@ -158,5 +154,65 @@
   "uploadFailText": {
     "message": "上传失败",
     "description": "1.0 questionNew.json"
+  },
+  "checkPaperText": {
+    "message": "你所查找的试卷不存在,浏览器将关闭!",
+    "description": "1.0 exam.js"
+  },
+  "submitAnswerText": {
+    "message": "教师端不可以提交答题记录！",
+    "description": "1.0 exam.js"
+  },
+  "lastPartText": {
+     "message": "上个部分",
+     "description": "1.0 exam.js"
+  },
+  "nextPartText": {
+     "message": "下个部分",
+     "description": "1.0 exam.js"
+  },
+  "putIllegalText": {
+     "message": "您的输入含有非法字符，已帮您删除",
+     "description": "1.0 exam.js"
+  },
+  "autoClearText": {
+     "message": "输入敏感标签，为保证服务安全进行，系统已自动清除",
+     "description": "1.0 exam.js"
+  },
+  "inputIgnoredText": {
+     "message": "输入的词数限制为200个字符（含标点），您的答案已超出范围，系统将忽略超出部分",
+     "description": "1.0 exam.js"
+  },
+  "answerCardText": {
+     "message": "答题卡",
+     "description": "1.0 exam.js"
+  },
+  "enterColumn": {
+     "message": "分屏答题",
+     "description": "1.0 exam.js"
+  },
+  "exitColumn": {
+     "message": "退出分屏",
+     "description": "1.0 exam.js"
+  },
+  "columnDragTip": {
+     "message": "拖动可调整高度",
+     "description": "1.0 exam.js"
+  },
+  "recordTip": {
+     "message": "注意：本题录音只能播放{count}次",
+     "description": "1.0 exam.js"
+  },
+  "timesOverTip": {
+     "message": "注意：本题播放次数已用完",
+     "description": "1.0 exam.js"
+  },
+  "played": {
+     "message": "已播放{count}次",
+     "description": "1.0 exam.js"
+  },
+  "jquizMaxFileTips": {
+     "message": "最多添加10个文件",
+     "description": "1.0 exam.js"
   }
 }
