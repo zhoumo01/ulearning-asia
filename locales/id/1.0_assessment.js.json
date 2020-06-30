@@ -1,6 +1,510 @@
 {
   "courseAssess": {
-    "message": "Evaluasi pelajaran",
+    "message": "Penilaian mata kuliah",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt1": {
+    "message": "Anda sedang menggabungkan nilai, jangan ditutup sebelum penggabungan selesai.",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt2": {
+    "message": "Gabungan nilai untuk strategi ini telah selesai, para dosen dan mahasiswa tidak dapat melihat nilai yang telah digabungkan setelah strategi dihapus, mohon untuk lebih teliti. Jika anda yakin untuk menghapusnya, masukkan kode verifikasi di bawah ini.",
+    "description": "1.0 assessment.json"
+  },
+  "codeErrorTxt": {
+    "message": "No. verifikasi salah",
+    "description": "1.0 assessment.json"
+  },
+  "deleteSucTxt": {
+    "message": "Berhasil dihapus!",
+    "description": "1.0 assessment.json"
+  },
+  "failDeleteTxt": {
+    "message": "Gagal menghapus!",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt3": {
+    "message": "Terjadi kesalahan pada saat penggabungan",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt4": {
+    "message": "Terjadi kesalahan pada server, penggabungan gagal dimulai!",
+    "description": "1.0 assessment.json"
+  },
+  "serviceErrorTxt": {
+    "message": "Terjadi kesalahan pada server, silahkan coba kembali!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips": {
+    "message": "Nama pengguna hanya berupa huruf, angka dan garis bawah",
+    "description": "1.0 assessment.json"
+  },
+  "notFoundTxt": {
+    "message": "Mata kuliah terkait belum ditemukan, silahkan pilih atau input kembali",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips1": {
+    "message": "Nama strategi harus diinput!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips2": {
+    "message": "Nama strategi tidak lebih dari 200 kata",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips3": {
+    "message": "Tidak boleh memiliki karakter khusus",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips4": {
+    "message": "Terjadi pengulangan pada nama strategi!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips5": {
+    "message": "Harus pilih mata kuliah terkait!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips6": {
+    "message": "Harus input total nilai!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips7": {
+    "message": "Silahkan masukkan bilangan bulat 5-1000",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips8": {
+    "message": "Waktu selesai harus ditetapkan",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips9": {
+    "message": "Harus pilih kelas terkait!",
+    "description": "1.0 assessment.json"
+  },
+  "tipsTxt1": {
+    "message": "Waktu penilaian telah selesai, poin penilaian tidak bisa diubah",
+    "description": "1.0 assessment.json"
+  },
+  "tipsTxt2": {
+    "message": "Catatan: Jika perlu diubah, mohon atur kembali waktu selesai penilaian",
+    "description": "1.0 assessment.json"
+  },
+  "alerttips": {
+    "message": "Strategi ini telah selesai menggabungkan dan lewat dari batas waktu, tidak dapat digabungkan lagi",
+    "description": "1.0 assessment.json"
+  },
+  "examTipTxt": {
+    "message": "Untuk sementara tidak mendukung pengoperasian mata kuliah kertas ujian!",
+    "description": "1.0 assessment.json"
+  },
+  "resourceTxt": {
+    "message": "Untuk sementara tidak mendukung pengoperasian mata kuliah sumber!",
+    "description": "1.0 assessment.json"
+  },
+  "selectCourseTxt": {
+    "message": "Silahkan pilih mata kuliah terlebih dahulu",
+    "description": "1.0 assessment.json"
+  },
+  "selectRelevantCourseTxt": {
+    "message": "Silahkan pilih mata kuliah terkait terlebih dahulu",
+    "description": "1.0 assessment.json"
+  },
+  "selectByYearTxt": {
+    "message": "Pilih sesuai tahun ajaran",
+    "description": "1.0 assessment.json"
+  },
+  "selectByTeacherTxt": {
+    "message": "Pilih sesuai dosen",
+    "description": "1.0 assessment.json"
+  },
+  "searchTxt": {
+    "message": "Penelusuran",
+    "description": "1.0 assessment.json"
+  },
+  "inputClassNameTxt": {
+    "message": "Masukkan nama kelas",
+    "description": "1.0 assessment.json"
+  },
+  "selectClassTxt": {
+    "message": "Pilih kelas",
+    "description": "1.0 assessment.json"
+  },
+  "selectClassFirseTxt": {
+    "message": "Silahkan pilih kelas terlebih dahulu",
+    "description": "1.0 assessment.json"
+  },
+  "noDataTxt": {
+    "message": "Data terkait belum ditemukan, silahkan coba kembali!",
+    "description": "1.0 assessment.json"
+  },
+  "selectAllTxt": {
+    "message": "Pilih semua",
+    "description": "1.0 assessment.json"
+  },
+  "haveRule": {
+    "message": "Sudah ada strategi",
+    "description": "1.0 assessment.json"
+  },
+  "noDataTxt1": {
+    "message": "Data terkait belum ditemukan",
+    "description": "1.0 assessment.json"
+  },
+  "loadDataTxt": {
+    "message": "Gagal memuat data, silahkan periksa jaringan internet anda",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt": {
+    "message": "Hanya bisa input bilangan bulat 1-100",
+    "description": "1.0 assessment.json"
+  },
+  "selectNodeTxt": {
+    "message": "Mata kuliah ini belum ada struktur, titik node tidak bisa dipilih",
+    "description": "1.0 assessment.json"
+  },
+  "countRuleTxt": {
+    "message": "Aturan penghitungan",
+    "description": "1.0 assessment.json"
+  },
+  "selectAllChpaterTxt": {
+    "message": "Pilih semua bab",
+    "description": "1.0 assessment.json"
+  },
+  "averageScoreTxt": {
+    "message": "Menghitung nilai sesuai dengan nilai rata-rata dari bab yang dipilih",
+    "description": "1.0 assessment.json"
+  },
+  "selectCourseAndRulesTxt": {
+    "message": "Pilih bab mata kuliah dan aturan penghitungan",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt1": {
+    "message": "Silahkan input waktu belajar nilai sempurna",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt2": {
+    "message": "Silahkan input waktu belajar 0 poin",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt3": {
+    "message": "Silahkan pilih aturan penilaian",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt4": {
+    "message": "Silahkan pilih bab penilaian",
+    "description": "1.0 assessment.json"
+  },
+  "noAssiTxt": {
+    "message": "Belum ada tugas",
+    "description": "1.0 assessment.json"
+  },
+  "averageScoreAssiTxt": {
+    "message": "Sesuai dengan nilai rata-rata tugas yang dipilih",
+    "description": "1.0 assessment.json"
+  },
+  "selectAssiTxt": {
+    "message": "Pilih tugas",
+    "description": "1.0 assessment.json"
+  },
+  "noAssiTxt1": {
+    "message": "Dosen ini belum ada tugas",
+    "description": "1.0 assessment.json"
+  },
+  "noExamTxt": {
+    "message": "Belum ada ujian",
+    "description": "1.0 assessment.json"
+  },
+  "examTipsTxt": {
+    "message": "Jika mahasiswa diijinkan untuk menjawab beberapa kali dalam 1 sesi ujian, maka secara default akan dipilih nilai tertingginya sebagai hasil akhir dari ujian ini",
+    "description": "1.0 assessment.json"
+  },
+  "moreExamTxt": {
+    "message": "Cara penghitungan nilai dari beberapa sesi ujian",
+    "description": "1.0 assessment.json"
+  },
+  "highTxt": {
+    "message": "Nilai tertinggi",
+    "description": "1.0 assessment.json"
+  },
+  "averageTxt": {
+    "message": "Nilai rata-rata",
+    "description": "1.0 assessment.json"
+  },
+  "selectExamTxt": {
+    "message": "Pilih ujian",
+    "description": "1.0 assessment.json"
+  },
+  "confirmDeleteTxt": {
+    "message": "Yakin untuk menghapus poin penilaian ini?",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTipsTxt1": {
+    "message": "Jumlah bobot setiap poin penilaian saat ini telah mencapai 100%, jika ingin menambah poin penilaian lagi, silahkan ubah bobot poin penilaian lainnya terlebih dahulu.",
+    "description": "1.0 assessment.json"
+  },
+  "tableTipsTxt": {
+    "message": "Masih ada konten yang belum terisi di dalam tabel",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTipsTxt2": {
+    "message": "Jumlah bobot setiap poin penilaian saat ini belum sampai 100%, silahkan pastikan jumlah bobot tersebut sudah mencapai 100% sebelum klik selesai membuat.",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTipsTxt3": {
+    "message": "Jumlah bobot setiap poin penilaian saat ini telah lewat dari 100%, silahkan ubah bobot dari masing-masing poin penilaian.",
+    "description": "1.0 assessment.json"
+  },
+  "createSucTxt": {
+    "message": "Berhasil dibuat!",
+    "description": "1.0 assessment.json"
+  },
+  "createFailTxt": {
+    "message": "Gagal membuat!",
+    "description": "1.0 assessment.json"
+  },
+  "confirmCancelTxt": {
+    "message": "Pengoperasian ini bisa menyebabkan konten yang telah diedit di halaman ini tidak tersimpan, yakin untuk membatalkannya?",
+    "description": "1.0 assessment.json"
+  },
+  "confirmCancel": {
+    "message": "Ya, batalkan",
+    "description": "1.0 assessment.json"
+  },
+  "clickErrorTxt": {
+    "message": "Salah klik",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired1": {
+    "message": "Akan mendapatkan nilai sempurna jika progres belajar akumulatif dari unit/bab yang terpilih mencapai {inputMax}%, dan akan mendapatkan nilai 0 jika lebih rendah dari {inputMin}%.",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired2": {
+    "message": "Akan mendapatkan nilai sempurna jika progres belajar akumulatif setiap bab dari unit yang terpilih mencapai {inputMax}%, dan akan mendapatkan nilai 0 jika lebih rendah dari {inputMin}%.",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired3": {
+    "message": "Akan mendapatkan nilai sempurna jika waktu belajar akumulatif dari bab/unit yang terpilih mencapai {inputMax} menit, dan akan mendapatkan nilai 0 jika lebih rendah dari {inputMin} menit.",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired4": {
+    "message": "Akan mendapatkan nilai sempurna jika waktu belajar akumulatif setiap bab dari unit yang terpilih mencapai {inputMax} menit, dan akan mendapatkan nilai 0 jika lebih rendah dari {inputMin} menit.",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired5": {
+    "message": "Akan mendapatkan nilai sempurna jika waktu belajar setiap bagian dari bab yang terpilih mencapai {inputMax} menit, dan akan mendapatkan nilai 0 jika lebih rendah dari {inputMin} menit.",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation1": {
+    "message": "Terdapat perbedaan isi konten antara versi komputer dengan versi ponsel untuk mata kuliah ini, apabila mahasiswa telah belajar di komputer dan di ponsel, maka akan dihitung sesuai dengan total durasi belajar dari keduanya.",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation2": {
+    "message": "Nilai versi komputer dan versi ponsel untuk mata kuliah ini dihitung secara terpisah, pada saat menghitung nilai bab/unit, nilai tertinggi yang akan diambil dan dijadikan sebagai nilai akhir. Untuk bab/unit yang hanya ada di versi komputer, pada saat menghitung nilai, nilai versi komputer yang akan menjadi acuannya.",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation3": {
+    "message": "(Warna merah menunjukkan bahwa konten bagian ini hanya muncul di versi komputer)",
+    "description": "1.0 assessment.json"
+  },
+  "associatePaper": {
+    "message": "Kertas ujian terkait",
+    "description": "1.0 assessment.json"
+  },
+  "selectRule": {
+    "message": "Pilih bab mata kuliah dan aturan penghitungan",
+    "description": "1.0 assessment.json"
+  },
+  "setCourseTime": {
+    "message": "Atur waktu belajar mata kuliah",
+    "description": "1.0 assessment.json"
+  },
+  "setCourseGrade": {
+    "message": "Atur nilai mata kuliah",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps1": {
+    "message": "Silahkan ikuti langkah dibawah ini",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps2": {
+    "message": "Unduh templat, mengatur data sesuai dengan format templat",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps3": {
+    "message": "Unduh templat",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps4": {
+    "message": "Unggah dokumen yang sudah disiapkan",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps5": {
+    "message": "Catatan: Jika perlu mengubah nilai mahasiswa, anda boleh unggah ulang dokumen.",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps6": {
+    "message": "Setelah unggah ulang, nilai mahasiswa akan digantikan dengan yang baru",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps7": {
+    "message": "Unggah dokumen",
+    "description": "1.0 assessment.json"
+  },
+  "classTxt": {
+    "message": "Kelas:",
+    "description": "1.0 assessment.json"
+  },
+  "toSelectTxt": {
+    "message": "Pilih",
+    "description": "1.0 assessment.json"
+  },
+  "typeTxt": {
+    "message": "Jenis",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTxt": {
+    "message": "Poin penilaian",
+    "description": "1.0 assessment.json"
+  },
+  "scoreRuleTxt": {
+    "message": "Aturan penilaian",
+    "description": "1.0 assessment.json"
+  },
+  "weightTxt": {
+    "message": "Bobot (%)",
+    "description": "1.0 assessment.json"
+  },
+  "fullMarkTxt": {
+    "message": "Nilai sempurna",
+    "description": "1.0 assessment.json"
+  },
+  "actionTxt": {
+    "message": "Pengoperasian",
+    "description": "1.0 assessment.json"
+  },
+  "finishtxt": {
+    "message": "Selesai membuat",
+    "description": "1.0 assessment.json"
+  },
+  "cancelTxt": {
+    "message": "Batalkan",
+    "description": "1.0 assessment.json"
+  },
+  "classesTxt": {
+    "message": "{className} dll {count} kelas",
+    "description": "1.0 assessment.json"
+  },
+  "selectTxt": {
+    "message": "Silahkan pilih",
+    "description": "1.0 assessment.json"
+  },
+  "courseTxt": {
+    "message": "Mata kuliah",
+    "description": "1.0 assessment.json"
+  },
+  "assignmentTxt": {
+    "message": "Tugas",
+    "description": "1.0 assessment.json"
+  },
+  "examTxt": {
+    "message": "Ujian",
+    "description": "1.0 assessment.json"
+  },
+  "othersTxt": {
+    "message": "Lainnya",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt1": {
+    "message": "Akan mendapatkan nilai sempurna jika progres belajar akumulatif dari bab/unit terpilih mencapai {max}%, dan akan mendapat nilai 0 jika lebih rendah dari {min}%.",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt2": {
+    "message": "Akan mendapatkan nilai sempurna jika progres belajar setiap bab dari unit yang terpilih mencapai {max}%, dan akan mendapat nilai 0 jika lebih rendah dari {min}%.",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt3": {
+    "message": "Akan mendapatkan nilai sempurna jika waktu belajar akumulatif dari bab/unit yang terpilih mencapai {max} menit, dan akan mendapat nilai 0 jika lebih rendah dari {min} menit.",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt4": {
+    "message": "Akan mendapatkan nilai sempurna jika waktu belajar setiap bab dari unit yang terpilih mencapai {max} menit, dan akan mendapat nilai 0 jika lebih rendah dari {min} menit.",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt5": {
+    "message": "Akan mendapatkan nilai sempurna jika waktu belajar setiap bagian dari bab yang terpilih mencapai {max} menit, dan akan mendapat nilai 0 jika lebih rendah dari {min} menit.",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt6": {
+    "message": "Dihitung sesuai dengan nilai rata-rata dari bab yang dipilih.",
+    "description": "1.0 assessment.json"
+  },
+  "editTxt": {
+    "message": "Ubah",
+    "description": "1.0 assessment.json"
+  },
+  "selectScoreTxt": {
+    "message": "Silahkan pilih aturan penilaian",
+    "description": "1.0 assessment.json"
+  },
+  "studyTimeTxt": {
+    "message": "Waktu belajar",
+    "description": "1.0 assessment.json"
+  },
+  "studyProgressTxt": {
+    "message": "Progres belajar",
+    "description": "1.0 assessment.json"
+  },
+  "courseResultTxt": {
+    "message": "Nilai pembelajaran",
+    "description": "1.0 assessment.json"
+  },
+  "assignmentResultTxt": {
+    "message": "Nilai tugas",
+    "description": "1.0 assessment.json"
+  },
+  "examResultTxt": {
+    "message": "Nilai ujian",
+    "description": "1.0 assessment.json"
+  },
+  "selectedHomeworkTxt": {
+    "message": "(Telah memilih {count} kali tugas)",
+    "description": "注意：花括号( 即 {} ) 里面的值是插值，不要改，大小写也不能变化"
+  },
+  "selectedExamTxt": {
+    "message": "(Telah memilih {count} kali ujian)",
+    "description": "注意：花括号( 即 {} ) 里面的值是插值，不要改，大小写也不能变化"
+  },
+  "notSelectAssiTxt": {
+    "message": "Belum pilih tugas",
+    "description": "1.0 assessment.json"
+  },
+  "notSelectExamTxt": {
+    "message": "Belum pilih ujian",
+    "description": "1.0 assessment.json"
+  },
+  "notInputScoreTxt": {
+    "message": "Nilai belum diinput",
+    "description": "1.0 assessment.json"
+  },
+  "haveInputScore": {
+    "message": "Nilai sudah diinput",
+    "description": "1.0 assessment.json"
+  },
+  "deleteTxt": {
+    "message": "Hapus",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxt": {
+    "message": "Input manual",
+    "description": "1.0 assessment.json"
+  },
+  "inputScoreTxt": {
+    "message": "Input nilai",
+    "description": "1.0 assessment.json"
+  },
+  "selectTipTxt": {
+    "message": "Nama poin penilaian, misalnya: Waktu belajar",
+    "description": "1.0 assessment.json"
+  },
+  "teacherTxt": {
+    "message": "Tugas dari Dosen {teacherName}",
     "description": "1.0 assessment.json"
   }
 }
