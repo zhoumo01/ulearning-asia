@@ -45,7 +45,7 @@
   },
   "collectText": {
     "message": "{parts} {questions} {marks}",
-    "description": "花括号({})及其里面的内容，不要翻译，这是插值。 "
+    "description": "{parts} 插值对应上面的 collectText1，{questions}插值对应上面的 collectText2，{marks}插值对应上面的collectText3，也就是说这三个分句组成一句话，翻译可根据需要调整三个分句的顺序，或者添加标点符号。"
   },
   "surePaperNameLess": {
     "message": "Please sure that the name of the test paper is less than 50 words",
@@ -91,6 +91,10 @@
     "message": "Please enter content names of up to {0} characters",
     "description": "1.0 autoexam.js"
   },
+  "pleaseEnterTemplateName": {
+    "message": "Please enter template of the name less than 20 characters",
+    "description": "1.0 autoexam.js"
+  },
   "pleaseAddQtype": {
     "message": "Please add Q type",
     "description": "1.0 autoexam.js"
@@ -101,10 +105,6 @@
   },
   "correctRatioText": {
     "message": "Please enter the correct ratio",
-    "description": "1.0 autoexam.js"
-  },
-  "pleaseEnterTemplateName": {
-    "message": "Please enter template of the name less than 20 characters",
     "description": "1.0 autoexam.js"
   },
   "getDateErrorText": {
@@ -120,7 +120,7 @@
     "description": "1.0 autoexam.js"
   },
   "partNum": {
-    "message": "part {0}",
+    "message": "Section {0}",
     "description": "1.0 autoexam.js"
   },
   "totalScoreLabel": {
