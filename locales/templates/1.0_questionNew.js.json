@@ -156,7 +156,7 @@
     "description": "1.0 questionNew.json"
   },
   "checkPaperText": {
-    "message": "你所查找的试卷不存在,浏览器将关闭!",
+    "message": "你所查找的试卷不存在，浏览器将关闭！",
     "description": "1.0 exam.js"
   },
   "submitAnswerText": {
@@ -218,5 +218,125 @@
   "uploadAttachment": {
     "message": "上传附件",
     "description": "1.0 exam.js"
+  },
+  "recordText": {
+    "message": "有正在进行的录音，请先完成录制！",
+    "description": "1.0 questionNew.js"
+  },
+  "loadingText": {
+    "message": "正在载入试卷...",
+    "description": "1.0 questionNew.js"
+  },
+  "unknowText": {
+    "message": "服务器发生未知错误，请稍后再试！",
+    "description": "1.0 questionNew.js"
+  },
+  "processText": {
+    "message": "正在载入上次中断的答题记录...",
+    "description": "1.0 questionNew.js"
+  },
+  "inText": {
+    "message": "已于{time}保存答题记录",
+    "description": "1.0 questionNew.js"
+  },
+  "systemText": {
+    "message": "系统已为您恢复{time}中断考试的答题记录！",
+    "description": "1.0 questionNew.js"
+  },
+  "examPaperText": {
+    "message": "试卷提交失败，请不要关闭网页，系统正在重新提交...",
+    "description": "1.0 questionNew.js"
+  },
+  "notCloseText": {
+    "message": "请不要关闭网页，系统正在提交试卷...",
+    "description": "1.0 questionNew.js"
+  },
+  "errorOccurText": {
+    "message": "系统在为您自动上传答案时出现错误，请检查网络连接是否正常，或者退出重新登录，否则会导致答题记录丢失",
+    "description": "1.0 questionNew.js"
+  },
+  "guaranteeText": {
+    "message": "为保障您能正常考试，请查看您的网络是否出现异常！",
+    "description": "1.0 questionNew.js"
+  },
+  "browserText": {
+    "message": "正在上传您录制的口语音频，请勿关闭浏览器，关闭后您的录音可能不会被提交。请稍等...",
+    "description": "1.0 questionNew.js"
+  },
+  "recordSaveText": {
+    "message": "其他记录已经为您保存，但是在上传口语时出现错误，请检查考试环境后重试",
+    "description": "1.0 questionNew.js"
+  },
+  "haveText": {
+    "message": "你还有第{no}小题没有做，仍要继续提交吗？",
+    "description": "1.0 questionNew.js"
+  },
+  "examEndText": {
+    "message": "结束考试",
+    "description": "1.0 questionNew.js"
+  },
+  "continueText": {
+    "message": "继续答题",
+    "description": "1.0 questionNew.js"
+  },
+  "sureSubmitText": {
+    "message": "您确定要提交吗？",
+    "description": "1.0 questionNew.js"
+  },
+  "systemSubmitText": {
+    "message": "系统正在为您提交答案...",
+    "description": "1.0 questionNew.js"
+  },
+  "submissionText": {
+    "message": "提交成功!",
+    "description": "1.0 questionNew.js"
+  },
+  "tryText": {
+    "message": "提交失败，正在尝试为您再次提交!",
+    "description": "1.0 questionNew.js"
+  },
+  "checkText": {
+    "message": "提交失败，请查看您的网络是否正常!",
+    "description": "1.0 questionNew.js"
+  },
+  "examTimeText": {
+    "message": "考试时间到，系统将为您自动提交试卷并关闭浏览器窗口!",
+    "description": "1.0 questionNew.js"
+  },
+  "examSearchText": {
+    "message": "你所查找的考试不存在!",
+    "description": "1.0 questionNew.js"
+  },
+  "saveSuccessText": {
+    "message": "答题记录保存成功!",
+    "description": "1.0 questionNew.js"
+  },
+  "examOver": {
+    "message": "该考试已结束！",
+    "description": "1.0 questionNew.js"
+  },
+  "leaveLimitTip1": {
+    "message": "你已离开考试{count}次，将强制为你交卷。",
+    "description": "1.0 questionNew.js"
+  },
+  "leaveLimitTip2": {
+    "message": "系统检测到你离开了考试。{limitCount}次离开将强制交卷，你还剩{count}次机会。",
+    "description": "1.0 questionNew.js"
+  },
+  "leaveLimitTip3": {
+    "message": "系统检测到你于{time}离开了考试。{limitCount}次离开将强制交卷，你还剩{count}次机会。",
+    "description": "1.0 questionNew.js"
+  },
+  "highlightBtn": {
+    "message": "高亮",
+    "description": "1.0 questionNew.js"
+  },
+  "clearBtn": {
+    "message": "清除",
+    "description": "1.0 questionNew.js"
+  },
+  "abnormalDetect": {
+    "message": "检测到你已{count1}秒没有进行操作，{count2}秒内无操作将被判定为异常离开。",
+    "description": "1.0 questionNew.js"
   }
 }
