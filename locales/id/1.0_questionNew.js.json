@@ -227,6 +227,10 @@
     "message": "Sedang memuat kertas ujian… ",
     "description": "1.0 questionNew.js"
   },
+  "unknowText": {
+    "message": "Terjadi kesalahan pada server, silahkan coba kembali!",
+    "description": "1.0 questionNew.js"
+  },
   "processText": {
     "message": "Sedang memuat catatan jawaban yang terputus sebelumnya ... ",
     "description": "1.0 questionNew.js"
@@ -305,6 +309,34 @@
   },
   "saveSuccessText": {
     "message": "Catatan jawaban berhasil disimpan! ",
+    "description": "1.0 questionNew.js"
+  },
+  "examOver": {
+    "message": "Ujian telah selesai",
+    "description": "1.0 questionNew.js"
+  },
+  "leaveLimitTip1": {
+    "message": "Anda telah meninggalkan ujian sebanyak {count} kali, maka kertas ujian anda akan secara otomatis dikumpulkan.",
+    "description": "1.0 questionNew.js"
+  },
+  "leaveLimitTip2": {
+    "message": "Sistem menemukan bahwa anda telah meninggalkan ujian. {limitCount} kali meninggalkan ujian, kertas ujian akan secara otomatis dikumpulkan, anda masih tersisa {count} kali kesempatan.",
+    "description": "1.0 questionNew.js"
+  },
+  "leaveLimitTip3": {
+    "message": "Sistem menemukan bahwa anda telah meninggalkan ujian pada {time}. {limitCount} kali meninggalkan ujian, kertas ujian akan secara otomatis dikumpulkan, anda masih tersisa {count} kali kesempatan.",
+    "description": "1.0 questionNew.js"
+  },
+  "highlightBtn": {
+    "message": "HIghlight",
+    "description": "1.0 questionNew.js"
+  },
+  "clearBtn": {
+    "message": "Hapus",
+    "description": "1.0 questionNew.js"
+  },
+  "abnormalDetect": {
+    "message": "Telah ditemukan bahwa anda tidak bertindak selama {count1} detik, dalam waktu {count2} detik apabila masih tidak ada tindakan, maka akan dianggap bahwa anda telah pergi tanpa alasan.",
     "description": "1.0 questionNew.js"
   }
 }
