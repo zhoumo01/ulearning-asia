@@ -338,5 +338,17 @@
   "abnormalDetect": {
     "message": "检测到你已{count1}秒没有进行操作，{count2}秒内无操作将被判定为异常离开。",
     "description": "1.0 questionNew.js"
+  },
+  "startPaperText": {
+    "message": "开始答卷",
+    "description": "1.0 backwards.jsp"
+  },
+  "invalidIp": {
+    "message": "当前IP：{ip} 无进入考试权限，请使用规定电脑参加考试",
+    "description": "1.0 backwards.jsp"
+  },
+  "invalidExamCount": {
+    "message": "您已超过本考试的次数限制，无法进行考试！\n限制次数：{count}次",
+    "description": "1.0 backwards.jsp"
   }
 }
