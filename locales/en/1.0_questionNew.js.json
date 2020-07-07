@@ -159,6 +159,10 @@
     "message": "The paper you are looking for doesn’t exist, the browser will be closed!",
     "description": "1.0 exam.js"
   },
+  "checkPaperText2": {
+    "message": "The paper you are looking for doesn’t exist!",
+    "description": "1.0 correctPaper.jsp"
+  },
   "submitAnswerText": {
     "message": "Answer record can’t be submitted in teacher account!",
     "description": "1.0 exam.js"
@@ -319,16 +323,76 @@
     "message": "You have exceeded the limit of the number of times taking the exam this time, therefore, you cannot take exam again! Number of times limited to taking exam:",
     "description": "1.0 backwards.jsp"
   },
-  "photoNotChecked": {
-    "message": "认证照片未审核",
-    "description": "1.0 backwards.jsp"
+  "noAnswer": {
+    "message": "Student hasn't answered",
+    "description": "1.0 correctPaper.jsp"
   },
-  "photoNotPass": {
-    "message": "认证照片审核未通过",
-    "description": "1.0 backwards.jsp"
+  "inputContent": {
+    "message": "Input your remarks here",
+    "description": "1.0 correctPaper.jsp"
   },
-  "photoConfirm": {
-    "message": "你还没有完成人脸识别的照片认证，无法进入考试。现在去认证？",
-    "description": "1.0 backwards.jsp"
+  "noQuestion": {
+    "message": "No questions to be marked for this paper, you could leave remarks to your student!",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "downloadStuAttach": {
+    "message": "Click to download student's attachment",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "downloadStuAttach2": {
+    "message": "Click to download my attachment",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "lookExit": {
+    "message": "The answer record you are looking for doesn't exist!",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "loadRecord": {
+    "message": "Loading student answer records...",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "networkAbnormal": {
+    "message": "Your network is working abnormally!",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "unenableViewRecord": {
+    "message": "You still cannot check the answer records yet!",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "nilText": {
+    "message": "None",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "mayHaveText": {
+    "message": "our answer record may have lost or you did not answer, so you cannot check the record!",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "notCheckText": {
+    "message": "Cannot check for the time being",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "coursePaperText": {
+    "message": "The course exam paper that you search does not exit!",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "totalText": {
+    "message": "Total {count}",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "scoreValueText": {
+    "message": "Total Score",
+    "decscription": "1.0 viewpaperanswer.jsp 用在表格的表头"
+  },
+  "getScoreText2": {
+    "message": "Score",
+    "decscription": "1.0 viewpaperanswer.jsp 用在表格的表头"
+  },
+  "unableText": {
+    "message": "Unable to check the answer record for this time!",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "toBeGraded": {
+    "message": "To be graded ",
+    "decscription": "1.0 viewpaperanswer.jsp"
   }
 }

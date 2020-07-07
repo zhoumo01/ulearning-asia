@@ -159,6 +159,10 @@
     "message": "你所查找的试卷不存在，浏览器将关闭！",
     "description": "1.0 exam.js"
   },
+  "checkPaperText2": {
+    "message": "你所查找的试卷不存在！",
+    "description": "1.0 correctPaper.jsp"
+  },
   "submitAnswerText": {
     "message": "教师端不可以提交答题记录！",
     "description": "1.0 exam.js"
@@ -350,5 +354,77 @@
   "invalidExamCount": {
     "message": "您已超过本考试的次数限制，无法进行考试！\n限制次数：{count}次",
     "description": "1.0 backwards.jsp"
+  },
+  "noAnswer": {
+    "message": "学生未作答",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "inputContent": {
+    "message": "在这里输入点评内容",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "noQuestion": {
+    "message": "本卷没有您可以批阅的题目，给学生写点评语吧!",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "downloadStuAttach": {
+    "message": "点击下载学生附件",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "downloadStuAttach2": {
+    "message": "点击下载我的附件",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "lookExit": {
+    "message": "您查找的答题记录不存在！",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "loadRecord": {
+    "message": "正在载入学生的答题记录...",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "networkAbnormal": {
+    "message": "您的的网络出现异常！",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "unenableViewRecord": {
+    "message": "你现在还不能查看答题记录!",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "nilText": {
+    "message": "无",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "mayHaveText": {
+    "message": "您的答题记录丢失或您没有作答，无法查看答题记录!",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "notCheckText": {
+    "message": "暂时不能查看",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "coursePaperText": {
+    "message": "你所查找课程试卷不存在!",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "totalText": {
+    "message": "共{count}题",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "scoreValueText": {
+    "message": "分值",
+    "decscription": "1.0 viewpaperanswer.jsp 用在表格的表头"
+  },
+  "getScoreText2": {
+    "message": "得分",
+    "decscription": "1.0 viewpaperanswer.jsp 用在表格的表头"
+  },
+  "unableText": {
+    "message": "暂时无法查看本次答题记录！",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "toBeGraded": {
+    "message": "待批阅",
+    "decscription": "1.0 viewpaperanswer.jsp"
   }
 }
