@@ -159,6 +159,10 @@
     "message": "El examen que está buscando no existe, el navegador se cerrará",
     "description": "1.0 exam.js"
   },
+  "checkPaperText2": {
+    "message": "¡El examen que estás buscando no existe!",
+    "description": "1.0 correctPaper.jsp"
+  },
   "submitAnswerText": {
     "message": "¡Los profesores no pueden enviar registros de respuestas!",
     "description": "1.0 exam.js"
@@ -338,5 +342,89 @@
   "abnormalDetect": {
     "message": "Se ha detectado que no ha realizado una operación durante {count1} segundos. Ninguna operación dentro de {count2} segundos se tomará como una salida inusual.",
     "description": "1.0 questionNew.js"
+  },
+  "startPaperText": {
+    "message": "Empieza a responder",
+    "description": "1.0 backwards.jsp"
+  },
+  "invalidIp": {
+    "message": "IP actual: {ip} Sin permiso para ingresar al examen, utilice la computadora prescrita para realizar el examen",
+    "description": "1.0 backwards.jsp"
+  },
+  "invalidExamCount": {
+    "message": "¡Ha excedido el límite para este examen y no puede tomar el examen! ¶\nLímite de tiempo: {count} veces",
+    "description": "1.0 backwards.jsp"
+  },
+  "noAnswer": {
+    "message": "El alumno no respondió",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "inputContent": {
+    "message": "Ingrese el contenido de la revisión aquí",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "noQuestion": {
+    "message": "No hay preguntas que pueda revisar en este volumen. ¡Escriba comentarios para los estudiantes!",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "downloadStuAttach": {
+    "message": "Haga clic para descargar los archivos adjuntos de los estudiantes.",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "downloadStuAttach2": {
+    "message": "点击下载我的附件",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "lookExit": {
+    "message": "¡El registro de respuestas que busca no existe!",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "loadRecord": {
+    "message": "Cargando el registro de respuestas del alumno ...",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "networkAbnormal": {
+    "message": "Tu red presenta problemas",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "unenableViewRecord": {
+    "message": "Aún no puede ver el registro de respuestas",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "nilText": {
+    "message": "Aun sin",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "mayHaveText": {
+    "message": "Falta su registro de respuestas o no respondió, ¡no puede ver el registro de respuestas!",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "notCheckText": {
+    "message": "No disponible temporalmente",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "coursePaperText": {
+    "message": "El examen que estás buscando no existe",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "totalText": {
+    "message": "Total de {count} preguntas",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "scoreValueText": {
+    "message": "Puntuación",
+    "decscription": "1.0 viewpaperanswer.jsp 用在表格的表头"
+  },
+  "getScoreText2": {
+    "message": "Puntuación",
+    "decscription": "1.0 viewpaperanswer.jsp 用在表格的表头"
+  },
+  "unableText": {
+    "message": "No puedo ver este registro de respuestas por el momento",
+    "decscription": "1.0 viewpaperanswer.jsp"
+  },
+  "toBeGraded": {
+    "message": "Revisión pendiente",
+    "decscription": "1.0 viewpaperanswer.jsp"
   }
 }
