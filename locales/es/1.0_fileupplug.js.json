@@ -23,14 +23,6 @@
     "message": "cargando ...",
     "description": "1.0 fileupplug.js"
   },
-  "uploadOnly": {
-    "message": "Solo subir",
-    "description": "1.0 fileupplug.js"
-  },
-  "fileText": {
-    "message": "documento",
-    "description": "1.0 fileupplug.js"
-  },
   "fileLessThan": {
     "message": "El archivo cargado debe ser más pequeño que {size}",
     "description": "1.0 fileupplug.js"
@@ -39,20 +31,8 @@
     "message": "Se produjo un error de red, verifique la red",
     "description": "1.0 fileupplug.js"
   },
-  "uploadFail": {
-    "message": "No se pudo inicializar el componente de carga, intente con otro navegador y se está resolviendo",
-    "description": "1.0 fileupplug.js"
-  },
   "failText": {
     "message": "Error al cargar el archivo",
-    "description": "1.0 fileupplug.js"
-  },
-  "comment": {
-    "message": "carga completada",
-    "description": "1.0 fileupplug.js"
-  },
-  "Fail": {
-    "message": "subida fallida",
     "description": "1.0 fileupplug.js"
   },
   "cancel": {
@@ -82,5 +62,53 @@
   "uploadErr3": {
     "message": "Se produjo un error durante la carga, verifique el archivo o el estado de la red y vuelva a intentarlo más tarde",
     "description": "1.0 fileupplug.json"
+  },
+  "uploadFileLimit": {
+    "message": "Sube hasta 5 archivos adjuntos",
+    "description": "1.0 fileupplug.js"
+  },
+  "docFailText": {
+    "message": "¡Conversión de documentos fallida!",
+    "description": "1.0 fileupplug.js"
+  },
+  "docConversionErrorText": {
+    "message": "Error de formato de conversión de documentos!",
+    "description": "1.0 fileupplug.js"
+  },
+  "videoFailText": {
+    "message": "¡La conversión de video falló!",
+    "description": "1.0 fileupplug.js"
+  },
+  "videoConversionErrorText": {
+    "message": "Error de formato de conversión de video!",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadingStr": {
+    "message": "Se están cargando archivos",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadComplete": {
+    "message": "carga completada",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadFail": {
+    "message": "subida fallida",
+    "description": "1.0 fileupplug.js"
+  },
+  "onlyUpload": {
+    "message": "Solo se pueden cargar archivos de {file}",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadcomponentFail": {
+    "message": "El componente de carga no se pudo inicializar, intente con otro navegador y se está resolviendo.",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadFileFail": {
+    "message": "Error al cargar el archivo",
+    "description": "1.0 fileupplug.js"
+  },
+  "contentFile": {
+    "message": "No cargue el mismo archivo",
+    "description": "1.0 fileupplug.js"
   }
 }
