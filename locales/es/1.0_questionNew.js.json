@@ -135,6 +135,10 @@
     "message": "Recordatorio para revisión: las preguntas que puede revisar son {questions}",
     "description": "1.0 questionNew.json"
   },
+  "noMarkText": {
+    "message": "No hay preguntas que pueda revisar en este volumen. Escriba comentarios para los estudiantes.",
+    "description": "1.0 questionNew.json"
+  },
   "answerRightText": {
     "message": "¡respuesta correcta!",
     "description": "1.0 questionNew.json"
@@ -389,38 +393,42 @@
   },
   "nilText": {
     "message": "Aun sin",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "mayHaveText": {
     "message": "Falta su registro de respuestas o no respondió, ¡no puede ver el registro de respuestas!",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "notCheckText": {
     "message": "No disponible temporalmente",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "coursePaperText": {
     "message": "El examen que estás buscando no existe",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "totalText": {
     "message": "Total de {count} preguntas",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "scoreValueText": {
     "message": "Puntuación",
-    "decscription": "1.0 viewpaperanswer.jsp 用在表格的表头"
+    "description": "1.0 viewpaperanswer.jsp 用在表格的表头"
   },
   "getScoreText2": {
     "message": "Puntuación",
-    "decscription": "1.0 viewpaperanswer.jsp 用在表格的表头"
+    "description": "1.0 viewpaperanswer.jsp 用在表格的表头"
   },
   "unableText": {
     "message": "No puedo ver este registro de respuestas por el momento",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "toBeGraded": {
     "message": "Revisión pendiente",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
+  },
+  "plzInputScore": {
+    "message": "Ingrese el puntaje de {rango}",
+    "description": "range插值是一个范围，例如，请输入0-50的分数"
   }
 }
