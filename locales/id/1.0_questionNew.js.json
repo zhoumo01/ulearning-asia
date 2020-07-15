@@ -159,6 +159,10 @@
     "message": "Kertas ujian yang dicari tidak ada, browser akan ditutup!",
     "description": "1.0 exam.js"
   },
+  "checkPaperText2": {
+    "message": "Kertas ujian yang anda cari tidak ada!",
+    "description": "1.0 correctPaper.jsp"
+  },
   "submitAnswerText": {
     "message": "Akun dosen tidak bisa mengumpulkan catatan jawaban!",
     "description": "1.0 exam.js"
@@ -339,8 +343,48 @@
     "message": "Telah ditemukan bahwa anda tidak bertindak selama {count1} detik, dalam waktu {count2} detik apabila masih tidak ada tindakan, maka akan dianggap bahwa anda telah pergi tanpa alasan.",
     "description": "1.0 questionNew.js"
   },
+  "startPaperText": {
+    "message": "Mulai menjawab",
+    "description": "1.0 backwards.jsp"
+  },
+  "invalidIp": {
+    "message": "IP saat ini: {ip} tidak ada akses ke ujian, silahkan gunakan komputer yang ditentukan untuk ujian",
+    "description": "1.0 backwards.jsp"
+  },
+  "invalidExamCount": {
+    "message": "Anda sudah melewati batas ujian ini, ujian tidak dapat dilaksanakan!\nBatasan: {count} kali",
+    "description": "1.0 backwards.jsp"
+  },
+  "noAnswer": {
+    "message": "Mahasiswa belum menjawab",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "inputContent": {
+    "message": "Masukkan ulasan di sini",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "noQuestion": {
+    "message": "Tidak ada topik yang dapat anda koreksi di kertas ini, tulislah ulasan untuk mahasiswa!",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "downloadStuAttach": {
+    "message": "Klik untuk unduh lampiran mahasiswa",
+    "description": "1.0 correctPaper.jsp"
+  },
   "downloadStuAttach2": {
     "message": "Klik untuk unduh lampiran saya",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "lookExit": {
+    "message": "Catatan jawaban yang anda cari tidak ada!",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "loadRecord": {
+    "message": "Sedang memuat catatan jawaban mahasiswa...",
+    "description": "1.0 correctPaper.jsp"
+  },
+  "networkAbnormal": {
+    "message": "Jaringan internet anda bermasalah!",
     "description": "1.0 correctPaper.jsp"
   },
   "unenableViewRecord": {
@@ -349,38 +393,42 @@
   },
   "nilText": {
     "message": "Tidak",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "mayHaveText": {
     "message": "Catatan jawaban tidak bisa dilihat karena catatan jawaban anda hilang atau anda belum menjawabnya.",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "notCheckText": {
     "message": "Tidak bisa dilihat untuk saat ini",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "coursePaperText": {
     "message": "Kertas ujian mata kuliah yang anda cari tidak ada!",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "totalText": {
     "message": "Total {count} soal",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "scoreValueText": {
     "message": "Skor",
-    "decscription": "1.0 viewpaperanswer.jsp 用在表格的表头"
+    "description": "1.0 viewpaperanswer.jsp 用在表格的表头"
   },
   "getScoreText2": {
     "message": "Nilai",
-    "decscription": "1.0 viewpaperanswer.jsp 用在表格的表头"
+    "description": "1.0 viewpaperanswer.jsp 用在表格的表头"
   },
   "unableText": {
     "message": "Catatan jawaban kali ini untuk sementara tidak bisa dilihat!",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
   },
   "toBeGraded": {
     "message": "Akan dikoreksi ",
-    "decscription": "1.0 viewpaperanswer.jsp"
+    "description": "1.0 viewpaperanswer.jsp"
+  },
+  "plzInputScore": {
+    "message": "Silahkan masukkan nilai {range}",
+    "description": "range插值是一个范围，例如，请输入0-50的分数"
   }
 }
