@@ -1,223 +1,853 @@
 {
 
-    "common.netError": "网络错误",
-    "common.cancel": "取消",
-    "classroom.currentCourse": "当前课程",
-    "classroom.switchCourse": "切换课程",
-    "classroom.nums": "课堂共{count}个",
-    "classroom.createClassroom": "创建课堂",
-    "classroom.classes": "班级：",
-    "classroom.copy": "复制",
-    "classroom.delete": "删除",
-    "classroom.interactive": "互动",
-    "classroom.view": "演示",
-    "classroom.noClassroomTip": "您还没有课堂，现在立即创建",
-    "classroom.noClassroomTip1": "已创建课堂？",
-    "classroom.refresh": "点此刷新",
-    "classroom.noCourseTip": "您还没有课程，请先在优学院官网创建课程和班级后进行上课",
-    "classroom.toCteate": "去创建",
-    "classroom.noCourseTip1": "已创建课程？",
-    "classroom.ulearnWeb": "优学院官网",
-    "classroom.startClass": "开始上课",
-    "classroom.inputClassroomName": "请输入课堂名称",
-    "classroom.lastClasses": "上次班级：",
-    "classroom.noClass": "暂无班级",
-    "classroom.classNames": "{name}等{count}个班级",
-    "classroom.living": "进行中",
-    "classroom.notStart": "未开始",
-    "classroom.ended": "已结束",
-    "classroom.classroom": "课堂",
-    "classroom.classroomTips1": "课堂名称不能为空",
-    "classroom.classroomTips2": "班级不能为空",
-    "classroom.createSuccess": "创建成功",
-    "classroom.createFail": "创建失败",
-    "classroom.confirmDeleteClass": "确定删除此课堂",
-    "classroom.deleteFail": "删除失败",
-    "classroom.deleteSuccess": "删除成功",
-    "classroom.developmentTip": "功能正在开发中，敬请期待",
-    "classroom.classEnded": "下课了",
-    "classroom.classAgain": "再次上课",
-    "classroom.arrivalRate": "到课率",
-    "classroom.noRollCall": "本堂课未发起点名",
-    "classroom.interactions": "互动次数",
-    "classroom.interactionsDesc": "互动次数=课堂中投票、选人、抢答和打分等活动的参与人次总和",
-    "classroom.classReport": "课堂报告",
-    "classroom.classReportDesc1": "详细数据请查看课堂报告；",
-    "classroom.classReportDesc2": "您也可以在手机小程序进行查看。",
-    "classroom.check": "查看",
-    "classroom.startFail": "开始失败",
-    "classroom.selectAll": "全选",
+    "common.netError": {
+        "message": "网络错误",
+        "description": "smart Class"
+    },
+    "common.cancel": {
+        "message": "取消",
+        "description": "smart Class"
+    },
+    "classroom.currentCourse": {
+        "message": "当前课程",
+        "description": "smart Class"
+    },
+    "classroom.switchCourse": {
+        "message": "切换课程",
+        "description": "smart Class"
+    },
+    "classroom.nums": {
+        "message": "课堂共{count}个",
+        "description": "smart Class"
+    },
+    "classroom.createClassroom": {
+        "message": "创建课堂",
+        "description": "smart Class"
+    },
+    "classroom.classes": {
+        "message": "班级：",
+        "description": "smart Class"
+    },
+    "classroom.copy": {
+        "message": "复制",
+        "description": "smart Class"
+    },
+    "classroom.delete": {
+        "message": "删除",
+        "description": "smart Class"
+    },
+    "classroom.interactive": {
+        "message": "互动",
+        "description": "smart Class"
+    },
+    "classroom.view": {
+        "message": "演示",
+        "description": "smart Class"
+    },
+    "classroom.noClassroomTip": {
+        "message": "您还没有课堂，现在立即创建",
+        "description": "smart Class"
+    },
+    "classroom.noClassroomTip1": {
+        "message": "已创建课堂？",
+        "description": "smart Class"
+    },
+    "classroom.refresh": {
+        "message": "点此刷新",
+        "description": "smart Class"
+    },
+    "classroom.noCourseTip": {
+        "message": "您还没有课程，请先在优学院官网创建课程和班级后进行上课",
+        "description": "smart Class"
+    },
+    "classroom.toCteate": {
+        "message": "去创建",
+        "description": "smart Class"
+    },
+    "classroom.noCourseTip1": {
+        "message": "已创建课程？",
+        "description": "smart Class"
+    },
+    "classroom.ulearnWeb": {
+        "message": "优学院官网",
+        "description": "smart Class"
+    },
+    "classroom.startClass": {
+        "message": "开始上课",
+        "description": "smart Class"
+    },
+    "classroom.inputClassroomName": {
+        "message": "请输入课堂名称",
+        "description": "smart Class"
+    },
+    "classroom.lastClasses": {
+        "message": "上次班级：",
+        "description": "smart Class"
+    },
+    "classroom.noClass": {
+        "message": "暂无班级",
+        "description": "smart Class"
+    },
+    "classroom.classNames": {
+        "message": "{name}等{count}个班级",
+        "description": "smart Class"
+    },
+    "classroom.living": {
+        "message": "进行中",
+        "description": "smart Class"
+    },
+    "classroom.notStart": {
+        "message": "未开始",
+        "description": "smart Class"
+    },
+    "classroom.ended": {
+        "message": "已结束",
+        "description": "smart Class"
+    },
+    "classroom.classroom": {
+        "message": "课堂",
+        "description": "smart Class"
+    },
+    "classroom.classroomTips1": {
+        "message": "课堂名称不能为空",
+        "description": "smart Class"
+    },
+    "classroom.classroomTips2": {
+        "message": "班级不能为空",
+        "description": "smart Class"
+    },
+    "classroom.createSuccess": {
+        "message": "创建成功",
+        "description": "smart Class"
+    },
+    "classroom.createFail": {
+        "message": "创建失败",
+        "description": "smart Class"
+    },
+    "classroom.confirmDeleteClass": {
+        "message": "确定删除此课堂",
+        "description": "smart Class"
+    },
+    "classroom.deleteFail": {
+        "message": "删除失败",
+        "description": "smart Class"
+    },
+    "classroom.deleteSuccess": {
+        "message": "删除成功",
+        "description": "smart Class"
+    },
+    "classroom.developmentTip": {
+        "message": "功能正在开发中，敬请期待",
+        "description": "smart Class"
+    },
+    "classroom.classEnded": {
+        "message": "下课了",
+        "description": "smart Class"
+    },
+    "classroom.classAgain": {
+        "message": "再次上课",
+        "description": "smart Class"
+    },
+    "classroom.arrivalRate": {
+        "message": "到课率",
+        "description": "smart Class"
+    },
+    "classroom.noRollCall": {
+        "message": "本堂课未发起点名",
+        "description": "smart Class"
+    },
+    "classroom.interactions": {
+        "message": "互动次数",
+        "description": "smart Class"
+    },
+    "classroom.interactionsDesc": {
+        "message": "互动次数=课堂中投票、选人、抢答和打分等活动的参与人次总和",
+        "description": "smart Class"
+    },
+    "classroom.classReport": {
+        "message": "课堂报告",
+        "description": "smart Class"
+    },
+    "classroom.classReportDesc1": {
+        "message": "详细数据请查看课堂报告；",
+        "description": "smart Class"
+    },
+    "classroom.classReportDesc2": {
+        "message": "您也可以在手机小程序进行查看。",
+        "description": "smart Class"
+    },
+    "classroom.check": {
+        "message": "查看",
+        "description": "smart Class"
+    },
+    "classroom.startFail": {
+        "message": "开始失败",
+        "description": "smart Class"
+    },
+    "classroom.selectAll": {
+        "message": "全选",
+        "description": "smart Class"
+    },
 
-    "login.welcomeTip": "欢迎使用优学院智慧课堂",
-    "login.inputUserNameTip1": "用户名 / 手机号 / 邮箱",
-    "login.password": "密码",
-    "login.inputPas": "请输入密码",
-    "login.inputPhoneTip": "请输入手机号",
-    "login.inputCodeTip": "请输入验证码",
-    "login.phoneLoginTip": "短信登录仅支持中国大陆手机号",
-    "login.psdLogin": "密码登录",
-    "login.register": "注册",
-    "login.forgetPassword": "忘记密码",
-    "login.identityVerification": "身份验证",
-    "login.confirm": "确定",
-    "login.cancel": "取消",
-    "login.mimaLogin": "帐号密码登录",
-    "login.phoneLogin": "短信登录",
-    "login.wxLogin": "微信登录",
-    "login.freezeTip": "系统检测到此帐号在{names}课程学习中存在作弊等不当行为，系统已自动冻结此帐号，请联系任课老师或平台进行处理",
-    "login.overErrorTimes": "超出错误次数",
-    "login.passwordErr": "帐号或密码错误",
-    "login.loginFail": "登录失败",
-    "login.codeErr": "验证码错误",
-    "login.invalidParameter": "参数错误",
-    "login.expiredCode": "验证码已过期",
-    "login.userNotExit": "用户不存在",
-    "login.getFail": "获取失败",
-    "login.inputPhoneTip1": "手机号格式不正确",
-    "login.codeTip1": "获取验证码太频繁，请60s后再试",
-    "login.inputPhoneTip2": "手机号未注册",
-    "login.getCode": "获取验证码",
-    "login.getAgain": "重新获取",
-    "login.inputEmailTip1": "邮箱格式不正确",
-    "login.inputEmail": "请输入邮箱",
-    "login.inputUserNameTip": "不能包含中文、空格和特殊字符",
-    "login.inputUserName": "请输入帐号",
+    "login.welcomeTip": {
+        "message": "欢迎使用优学院智慧课堂",
+        "description": "smart Class"
+    },
+    "login.inputUserNameTip1": {
+        "message": "用户名 / 手机号 / 邮箱",
+        "description": "smart Class"
+    },
+    "login.password": {
+        "message": "密码",
+        "description": "smart Class"
+    },
+    "login.inputPas": {
+        "message": "请输入密码",
+        "description": "smart Class"
+    },
+    "login.inputPhoneTip": {
+        "message": "请输入手机号",
+        "description": "smart Class"
+    },
+    "login.inputCodeTip": {
+        "message": "请输入验证码",
+        "description": "smart Class"
+    },
+    "login.phoneLoginTip": {
+        "message": "短信登录仅支持中国大陆手机号",
+        "description": "smart Class"
+    },
+    "login.psdLogin": {
+        "message": "密码登录",
+        "description": "smart Class"
+    },
+    "login.register": {
+        "message": "注册",
+        "description": "smart Class"
+    },
+    "login.forgetPassword": {
+        "message": "忘记密码",
+        "description": "smart Class"
+    },
+    "login.identityVerification": {
+        "message": "身份验证",
+        "description": "smart Class"
+    },
+    "login.confirm": {
+        "message": "确定",
+        "description": "smart Class"
+    },
+    "login.cancel": {
+        "message": "取消",
+        "description": "smart Class"
+    },
+    "login.mimaLogin": {
+        "message": "帐号密码登录",
+        "description": "smart Class"
+    },
+    "login.phoneLogin": {
+        "message": "短信登录",
+        "description": "smart Class"
+    },
+    "login.wxLogin": {
+        "message": "微信登录",
+        "description": "smart Class"
+    },
+    "login.freezeTip": {
+        "message": "系统检测到此帐号在{names}课程学习中存在作弊等不当行为，系统已自动冻结此帐号，请联系任课老师或平台进行处理",
+        "description": "smart Class"
+    },
+    "login.overErrorTimes": {
+        "message": "超出错误次数",
+        "description": "smart Class"
+    },
+    "login.passwordErr": {
+        "message": "帐号或密码错误",
+        "description": "smart Class"
+    },
+    "login.loginFail": {
+        "message": "登录失败",
+        "description": "smart Class"
+    },
+    "login.codeErr": {
+        "message": "验证码错误",
+        "description": "smart Class"
+    },
+    "login.invalidParameter": {
+        "message": "参数错误",
+        "description": "smart Class"
+    },
+    "login.expiredCode": {
+        "message": "验证码已过期",
+        "description": "smart Class"
+    },
+    "login.userNotExit": {
+        "message": "用户不存在",
+        "description": "smart Class"
+    },
+    "login.getFail": {
+        "message": "获取失败",
+        "description": "smart Class"
+    },
+    "login.inputPhoneTip1": {
+        "message": "手机号格式不正确",
+        "description": "smart Class"
+    },
+    "login.codeTip1": {
+        "message": "获取验证码太频繁，请60s后再试",
+        "description": "smart Class"
+    },
+    "login.inputPhoneTip2": {
+        "message": "手机号未注册",
+        "description": "smart Class"
+    },
+    "login.getCode": {
+        "message": "获取验证码",
+        "description": "smart Class"
+    },
+    "login.getAgain": {
+        "message": "重新获取",
+        "description": "smart Class"
+    },
+    "login.inputEmailTip1": {
+        "message": "邮箱格式不正确",
+        "description": "smart Class"
+    },
+    "login.inputEmail": {
+        "message": "请输入邮箱",
+        "description": "smart Class"
+    },
+    "login.inputUserNameTip": {
+        "message": "不能包含中文、空格和特殊字符",
+        "description": "smart Class"
+    },
+    "login.inputUserName": {
+        "message": "请输入帐号",
+        "description": "smart Class"
+    },
 
 
-    "discuss.discuss": "讨论",
-    "discuss.createDiscuss": "创建讨论",
-    "discuss.noDiscuss": "暂无讨论",
-    "discuss.anonymousDiscussion": "匿名讨论",
-    "discuss.discussInClass": "课堂讨论",
-    "discuss.createDiscussTip": "讨论名称不能为空",
-    "discuss.anonymous": "匿名",
-    "discuss.wordCloud": "词云",
+    "discuss.discuss": {
+        "message": "讨论",
+        "description": "smart Class"
+    },
+    "discuss.createDiscuss": {
+        "message": "创建讨论",
+        "description": "smart Class"
+    },
+    "discuss.noDiscuss": {
+        "message": "暂无讨论",
+        "description": "smart Class"
+    },
+    "discuss.anonymousDiscussion": {
+        "message": "匿名讨论",
+        "description": "smart Class"
+    },
+    "discuss.discussInClass": {
+        "message": "课堂讨论",
+        "description": "smart Class"
+    },
+    "discuss.createDiscussTip": {
+        "message": "讨论名称不能为空",
+        "description": "smart Class"
+    },
+    "discuss.anonymous": {
+        "message": "匿名",
+        "description": "smart Class"
+    },
+    "discuss.wordCloud": {
+        "message": "词云",
+        "description": "smart Class"
+    },
 
-    "score.createScoreTip": "请输入打分标题",
-    "score.createScoreTip1": "请选择评价对象，其他学生为他打分",
-    "score.selectStudent": "选学生",
-    "score.selectGroup": "选小组",
-    "score.selectOther": "其他",
-    "score.itemizedScore": "分项评分",
-    "score.enterRatingPoint": "请输入评分点",
-    "score.score": "分数：",
-    "score.startNow": "立即开始",
-    "score.save": "保存",
-    "score.integral": "积分",
-    "score.classScore": "课堂打分",
-    "score.searchTip": "请输入姓名/学号进行搜索",
-    "score.member": "成员：",
-    "score.enterObject": "请输入评价对象",
-    "score.allClsses": "全部班级",
-    "pick.pickRecord": "选人记录",
-    "pick.randomPick": "随机选人",
-    "pick.noRecord": "暂无选人记录",
-    "pick.restart": "再次开启",
-    "pick.start": "开始",
-    "pick.pick": "选人",
-    "pick.integral": "积分",
-    "pick.reChoose": "重选",
-    "pick.pickAgain": "继续选人",
-    "pick.pickAll": "统一打分",
-    "pick.noPickMember": "无人员可选",
-    "pick.deleteConfirm": "确认删除当前学生吗？",
-    "pick.randomPicking": "正在随机选人",
-    "pick.defaultScore": "默认积分",
+    "score.createScoreTip": {
+        "message": "请输入打分标题",
+        "description": "smart Class"
+    },
+    "score.createScoreTip1": {
+        "message": "请选择评价对象，其他学生为他打分",
+        "description": "smart Class"
+    },
+    "score.selectStudent": {
+        "message": "选学生",
+        "description": "smart Class"
+    },
+    "score.selectGroup": {
+        "message": "选小组",
+        "description": "smart Class"
+    },
+    "score.selectOther": {
+        "message": "其他",
+        "description": "smart Class"
+    },
+    "score.itemizedScore": {
+        "message": "分项评分",
+        "description": "smart Class"
+    },
+    "score.enterRatingPoint": {
+        "message": "请输入评分点",
+        "description": "smart Class"
+    },
+    "score.score": {
+        "message": "分数：",
+        "description": "smart Class"
+    },
+    "score.startNow": {
+        "message": "立即开始",
+        "description": "smart Class"
+    },
+    "score.save": {
+        "message": "保存",
+        "description": "smart Class"
+    },
+    "score.integral": {
+        "message": "积分",
+        "description": "smart Class"
+    },
+    "score.classScore": {
+        "message": "课堂打分",
+        "description": "smart Class"
+    },
+    "score.searchTip": {
+        "message": "请输入姓名/学号进行搜索",
+        "description": "smart Class"
+    },
+    "score.member": {
+        "message": "成员：",
+        "description": "smart Class"
+    },
+    "score.enterObject": {
+        "message": "请输入评价对象",
+        "description": "smart Class"
+    },
+    "score.allClsses": {
+        "message": "全部班级",
+        "description": "smart Class"
+    },
+    "pick.pickRecord": {
+        "message": "选人记录",
+        "description": "smart Class"
+    },
+    "pick.randomPick": {
+        "message": "随机选人",
+        "description": "smart Class"
+    },
+    "pick.noRecord": {
+        "message": "暂无选人记录",
+        "description": "smart Class"
+    },
+    "pick.restart": {
+        "message": "再次开启",
+        "description": "smart Class"
+    },
+    "pick.start": {
+        "message": "开始",
+        "description": "smart Class"
+    },
+    "pick.pick": {
+        "message": "选人",
+        "description": "smart Class"
+    },
+    "pick.integral": {
+        "message": "积分",
+        "description": "smart Class"
+    },
+    "pick.reChoose": {
+        "message": "重选",
+        "description": "smart Class"
+    },
+    "pick.pickAgain": {
+        "message": "继续选人",
+        "description": "smart Class"
+    },
+    "pick.pickAll": {
+        "message": "统一打分",
+        "description": "smart Class"
+    },
+    "pick.noPickMember": {
+        "message": "无人员可选",
+        "description": "smart Class"
+    },
+    "pick.deleteConfirm": {
+        "message": "确认删除当前学生吗？",
+        "description": "smart Class"
+    },
+    "pick.randomPicking": {
+        "message": "正在随机选人",
+        "description": "smart Class"
+    },
+    "pick.defaultScore": {
+        "message": "默认积分",
+        "description": "smart Class"
+    },
 
 
-    "attendence.numAttendence": "数字码签到",
-    "attendence.inputNum": "输入屏幕上数字",
-    "attendence.gosign": "进行签到",
-    "attendence.codeSign": "二维码签到",
-    "attendence.phoneScan": "使用手机扫二维码",
-    "attendence.attendence": "点名",
-    "attendence.sign": "签到",
-    "attendence.freshTime": "刷新时间",
-    "attendence.scale": "放大",
-    "attendence.unsign": "未签到",
-    "attendence.signed": "已签到",
-    "attendence.readList": "查看名单",
-    "attendence.endSign": "结束点名",
-    "attendence.code": "二维码",
-    "attendence.numCode": "数字码",
-    "attendence.confirmEnd": "确认结束当前点名活动吗？",
-    "attendence.peopleNum": "人数",
+    "attendence.numAttendence": {
+        "message": "数字码签到",
+        "description": "smart Class"
+    },
+    "attendence.inputNum": {
+        "message": "输入屏幕上数字",
+        "description": "smart Class"
+    },
+    "attendence.gosign": {
+        "message": "进行签到",
+        "description": "smart Class"
+    },
+    "attendence.codeSign": {
+        "message": "二维码签到",
+        "description": "smart Class"
+    },
+    "attendence.phoneScan": {
+        "message": "使用手机扫二维码",
+        "description": "smart Class"
+    },
+    "attendence.attendence": {
+        "message": "点名",
+        "description": "smart Class"
+    },
+    "attendence.sign": {
+        "message": "签到",
+        "description": "smart Class"
+    },
+    "attendence.freshTime": {
+        "message": "刷新时间",
+        "description": "smart Class"
+    },
+    "attendence.scale": {
+        "message": "放大",
+        "description": "smart Class"
+    },
+    "attendence.unsign": {
+        "message": "未签到",
+        "description": "smart Class"
+    },
+    "attendence.signed": {
+        "message": "已签到",
+        "description": "smart Class"
+    },
+    "attendence.readList": {
+        "message": "查看名单",
+        "description": "smart Class"
+    },
+    "attendence.endSign": {
+        "message": "结束点名",
+        "description": "smart Class"
+    },
+    "attendence.code": {
+        "message": "二维码",
+        "description": "smart Class"
+    },
+    "attendence.numCode": {
+        "message": "数字码",
+        "description": "smart Class"
+    },
+    "attendence.confirmEnd": {
+        "message": "确认结束当前点名活动吗？",
+        "description": "smart Class"
+    },
+    "attendence.peopleNum": {
+        "message": "人数",
+        "description": "smart Class"
+    },
 
 
-    "faceAttendence.classCondition": "课堂实况",
-    "faceAttendence.cannotPick": "无法识别",
-    "faceAttendence.inClass": "在教室里的学生",
-    "faceAttendence.readList": "查看名单",
-    "faceAttendence.outClass": "未检测到在教室的学生",
-    "faceAttendence.outClassPaper": "未检测到在教室的学生名单",
-    "faceAttendence.noCome": "未进入教室",
-    "faceAttendence.noMonitor": "未检测到",
-    "faceAttendence.times": "次",
-    "faceAttendence.smallest": "最小化",
-    "faceAttendence.endMonitor": "结束监控",
-    "faceAttendence.confirmEnd": "确认结束监控吗？",
-    "faceAttendence.classMonitor": "课堂监控",
-    "faceAttendence.attend": "出勤",
-    "faceAttendence.late": "迟到",
-    "faceAttendence.attendOut": "中途离开",
-    "faceAttendence.statisticRlues": "统计规则",
-    "faceAttendence.setting": "设置",
-    "faceAttendence.restart": "再次开启",
-    "faceAttendence.rlues1": "监控开始10分钟 (13:20)之后进入教室。",
-    "faceAttendence.rlues2": "监控结束前离开教室超过2分钟。",
-    "faceAttendence.nowClassStudents": "当前教室里的学生",
-    "faceAttendence.all": "全部",
-    "faceAttendence.error": "异常",
-    "faceAttendence.monitorRecord": "教室监控记录",
-    "faceAttendence.monitorTimes": "监控到的次数",
-    "faceAttendence.unmonitorTimes": "未监控到的次数",
-    "faceAttendence.unmonitor": "在教室里未监控到",
-    "faceAttendence.monitored": "在教室里监控到",
-    "faceAttendence.thisPic": "现场照片",
-    "faceAttendence.unMonitor": "未检测到",
+    "faceAttendence.classCondition": {
+        "message": "课堂实况",
+        "description": "smart Class"
+    },
+    "faceAttendence.cannotPick": {
+        "message": "无法识别",
+        "description": "smart Class"
+    },
+    "faceAttendence.inClass": {
+        "message": "在教室里的学生",
+        "description": "smart Class"
+    },
+    "faceAttendence.readList": {
+        "message": "查看名单",
+        "description": "smart Class"
+    },
+    "faceAttendence.outClass": {
+        "message": "未检测到在教室的学生",
+        "description": "smart Class"
+    },
+    "faceAttendence.outClassPaper": {
+        "message": "未检测到在教室的学生名单",
+        "description": "smart Class"
+    },
+    "faceAttendence.noCome": {
+        "message": "未进入教室",
+        "description": "smart Class"
+    },
+    "faceAttendence.noMonitor": {
+        "message": "未检测到",
+        "description": "smart Class"
+    },
+    "faceAttendence.times": {
+        "message": "次",
+        "description": "smart Class"
+    },
+    "faceAttendence.smallest": {
+        "message": "最小化",
+        "description": "smart Class"
+    },
+    "faceAttendence.endMonitor": {
+        "message": "结束监控",
+        "description": "smart Class"
+    },
+    "faceAttendence.confirmEnd": {
+        "message": "确认结束监控吗？",
+        "description": "smart Class"
+    },
+    "faceAttendence.classMonitor": {
+        "message": "课堂监控",
+        "description": "smart Class"
+    },
+    "faceAttendence.attend": {
+        "message": "出勤",
+        "description": "smart Class"
+    },
+    "faceAttendence.late": {
+        "message": "迟到",
+        "description": "smart Class"
+    },
+    "faceAttendence.attendOut": {
+        "message": "中途离开",
+        "description": "smart Class"
+    },
+    "faceAttendence.statisticRlues": {
+        "message": "统计规则",
+        "description": "smart Class"
+    },
+    "faceAttendence.setting": {
+        "message": "设置",
+        "description": "smart Class"
+    },
+    "faceAttendence.restart": {
+        "message": "再次开启",
+        "description": "smart Class"
+    },
+    "faceAttendence.rlues1": {
+        "message": "监控开始10分钟 (13:20)之后进入教室。",
+        "description": "smart Class"
+    },
+    "faceAttendence.rlues2": {
+        "message": "监控结束前离开教室超过2分钟。",
+        "description": "smart Class"
+    },
+    "faceAttendence.nowClassStudents": {
+        "message": "当前教室里的学生",
+        "description": "smart Class"
+    },
+    "faceAttendence.all": {
+        "message": "全部",
+        "description": "smart Class"
+    },
+    "faceAttendence.error": {
+        "message": "异常",
+        "description": "smart Class"
+    },
+    "faceAttendence.monitorRecord": {
+        "message": "教室监控记录",
+        "description": "smart Class"
+    },
+    "faceAttendence.monitorTimes": {
+        "message": "监控到的次数",
+        "description": "smart Class"
+    },
+    "faceAttendence.unmonitorTimes": {
+        "message": "未监控到的次数",
+        "description": "smart Class"
+    },
+    "faceAttendence.unmonitor": {
+        "message": "在教室里未监控到",
+        "description": "smart Class"
+    },
+    "faceAttendence.monitored": {
+        "message": "在教室里监控到",
+        "description": "smart Class"
+    },
+    "faceAttendence.thisPic": {
+        "message": "现场照片",
+        "description": "smart Class"
+    },
+    "faceAttendence.unMonitor": {
+        "message": "未检测到",
+        "description": "smart Class"
+    },
 
-    "screen.inClass": "上课中",
-    "screen.inClassTip1": "点击下面工具栏按钮发起活动，演示课件、作业和讨论",
-    "screen.classActivityNum": "当前课堂共{num}个活动",
-    "screen.start": "开始",
-    "screen.onGoing": "进行中",
-    "screen.ended": "已结束",
-    "screen.classroomMonitoring": "课堂监控",
-    "screen.opened": "已开启",
-    "screen.startingMonitoring": "正在启动课堂监控系统",
-    "screen.startupFailed": "启动失败",
-    "screen.startupFailedTip1": "未能连接监控服务",
-    "screen.retry": "重试",
-    "screen.cancel": "取消",
-    "screen.undo": "撤销",
-    "screen.clear": "清空",
-    "screen.close": "关闭",
-    "screen.student": "学生",
-    "screen.whiteboard": "白板",
-    "screen.brush": "画笔",
-    "screen.attendance": "点名",
-    "screen.pick": "选人",
-    "screen.answer": "抢答",
-    "screen.vote": "投票",
-    "screen.question": "试题",
-    "screen.score": "打分",
-    "screen.resource": "资源",
-    "screen.homework": "作业",
-    "screen.discussion": "讨论",
-    "screen.fullScreen": "全屏",
-    "screen.cancelFullScreen": "取消全屏",
-    "screen.collapse": "收起",
-    "screen.expand": "展开",
-    "screen.beginClass": "上课",
-    "screen.endClass": "下课",
-    "screen.afterClass": "请上课后发起{activity}",
-    "screen.underDevelopment": "功能正在开发中，敬请期待",
-    "screen.create": "新建",
-    "screen.return": "返回",
-    "screen.wordCloud": "词云",
-    "screen.toTop": "顶部",
-    "screen.menu": "菜单",
-    "screen.previousLevel": "返回上一级",
-    "screen.allResource": "全部资源"
+    "screen.inClass": {
+        "message": "上课中",
+        "description": "smart Class"
+    },
+    "screen.inClassTip1": {
+        "message": "点击下面工具栏按钮发起活动，演示课件、作业和讨论",
+        "description": "smart Class"
+    },
+    "screen.classActivityNum": {
+        "message": "当前课堂共{num}个活动",
+        "description": "smart Class"
+    },
+    "screen.start": {
+        "message": "开始",
+        "description": "smart Class"
+    },
+    "screen.onGoing": {
+        "message": "进行中",
+        "description": "smart Class"
+    },
+    "screen.ended": {
+        "message": "已结束",
+        "description": "smart Class"
+    },
+    "screen.classroomMonitoring": {
+        "message": "课堂监控",
+        "description": "smart Class"
+    },
+    "screen.opened": {
+        "message": "已开启",
+        "description": "smart Class"
+    },
+    "screen.startingMonitoring": {
+        "message": "正在启动课堂监控系统",
+        "description": "smart Class"
+    },
+    "screen.startupFailed": {
+        "message": "启动失败",
+        "description": "smart Class"
+    },
+    "screen.startupFailedTip1": {
+        "message": "未能连接监控服务",
+        "description": "smart Class"
+    },
+    "screen.retry": {
+        "message": "重试",
+        "description": "smart Class"
+    },
+    "screen.cancel": {
+        "message": "取消",
+        "description": "smart Class"
+    },
+    "screen.undo": {
+        "message": "撤销",
+        "description": "smart Class"
+    },
+    "screen.clear": {
+        "message": "清空",
+        "description": "smart Class"
+    },
+    "screen.close": {
+        "message": "关闭",
+        "description": "smart Class"
+    },
+    "screen.student": {
+        "message": "学生",
+        "description": "smart Class"
+    },
+    "screen.whiteboard": {
+        "message": "白板",
+        "description": "smart Class"
+    },
+    "screen.brush": {
+        "message": "画笔",
+        "description": "smart Class"
+    },
+    "screen.attendance": {
+        "message": "点名",
+        "description": "smart Class"
+    },
+    "screen.pick": {
+        "message": "选人",
+        "description": "smart Class"
+    },
+    "screen.answer": {
+        "message": "抢答",
+        "description": "smart Class"
+    },
+    "screen.vote": {
+        "message": "投票",
+        "description": "smart Class"
+    },
+    "screen.question": {
+        "message": "试题",
+        "description": "smart Class"
+    },
+    "screen.score": {
+        "message": "打分",
+        "description": "smart Class"
+    },
+    "screen.resource": {
+        "message": "资源",
+        "description": "smart Class"
+    },
+    "screen.homework": {
+        "message": "作业",
+        "description": "smart Class"
+    },
+    "screen.discussion": {
+        "message": "讨论",
+        "description": "smart Class"
+    },
+    "screen.fullScreen": {
+        "message": "全屏",
+        "description": "smart Class"
+    },
+    "screen.cancelFullScreen": {
+        "message": "取消全屏",
+        "description": "smart Class"
+    },
+    "screen.collapse": {
+        "message": "收起",
+        "description": "smart Class"
+    },
+    "screen.expand": {
+        "message": "展开",
+        "description": "smart Class"
+    },
+    "screen.beginClass": {
+        "message": "上课",
+        "description": "smart Class"
+    },
+    "screen.endClass": {
+        "message": "下课",
+        "description": "smart Class"
+    },
+    "screen.afterClass": {
+        "message": "请上课后发起{activity}",
+        "description": "smart Class"
+    },
+    "screen.underDevelopment": {
+        "message": "功能正在开发中，敬请期待",
+        "description": "smart Class"
+    },
+    "screen.create": {
+        "message": "新建",
+        "description": "smart Class"
+    },
+    "screen.return": {
+        "message": "返回",
+        "description": "smart Class"
+    },
+    "screen.wordCloud": {
+        "message": "词云",
+        "description": "smart Class"
+    },
+    "screen.toTop": {
+        "message": "顶部",
+        "description": "smart Class"
+    },
+    "screen.menu": {
+        "message": "菜单",
+        "description": "smart Class"
+    },
+    "screen.previousLevel": {
+        "message": "返回上一级",
+        "description": "smart Class"
+    },
+    "screen.allResource": {
+        "message": "全部资源",
+        "description": "smart Class"
+    }
 
 }
