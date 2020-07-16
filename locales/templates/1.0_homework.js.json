@@ -379,15 +379,15 @@
     "message": "该学生的作业没有得到任何同学的评价，需要您去批阅。",
     "description": "1.0 homework.json"
   },
-	"kown": {
+  "kown": {
     "message": "我知道了",
     "description": "1.0 homework.json"
   },
-	"evaluated": {
+  "evaluated": {
     "message": "该学生已经评价的作业份数",
     "description": "1.0 homework.json"
   },
-	"evaluation": {
+  "evaluation": {
     "message": "该学生被评价的作业份数",
     "description": "1.0 homework.json"
   },
@@ -410,5 +410,109 @@
   "submitHomework": {
     "message": "提交作业",
     "description": "对应于学生查看作业详情页面"
+  },
+  "collapseText2": {
+    "message": "<<收起",
+    "description": "教师批阅小组作业页面"
+  },
+  "checkAllMemebers": {
+    "message": "查看全部12个成员>>",
+    "description": "教师批阅小组作业页面"
+  },
+  "comment": {
+    "message": "评语：",
+    "description": "教师批阅小组作业页面"
+  },
+  "noComment": {
+    "message": "Ta没有评价这份作业",
+    "description": "教师批阅小组作业页面"
+  },
+  "noEvaluation": {
+    "message": "Ta没有给别人评价",
+    "description": "教师批阅小组作业页面"
+  },
+  "scoreText": {
+    "message": "{score}分",
+    "description": "教师批阅小组作业页面"
+  },
+  "systemAdvice": {
+    "message": "系统建议评分0分",
+    "description": "教师批阅小组作业页面"
+  },
+  "shortWord": {
+    "message": "作业里单词数不足10个",
+    "description": "教师批阅小组作业页面"
+  },
+  "plzInputPoint": {
+    "message": "请输入得分",
+    "description": "教师批阅小组作业页面"
+  },
+  "commentCountLimit": {
+    "message": "评语不能超过1000个字符",
+    "description": "教师批阅小组作业页面"
+  },
+  "submitHomeworkFail": {
+    "message": "提交作业失败",
+    "description": "教师批阅小组作业页面"
+  },
+  "frontPartTip": {
+    "message": "前面没有了",
+    "description": "教师批阅小组作业页面"
+  },
+  "backPartTip": {
+    "message": "后面没有了",
+    "description": "教师批阅小组作业页面"
+  },
+  "validateNumber": {
+    "message": "请输入正确的分数,仅保留一位小数",
+    "description": "教师批阅小组作业页面"
+  },
+  "validateScore": {
+    "message": "得分不能超过总分数",
+    "description": "教师批阅小组作业页面"
+  },
+  "referSuggest": {
+    "message": "以下信息仅供参考：",
+    "description": "教师批阅小组作业页面"
+  },
+  "sentenceError1": {
+    "message": "【词汇错误】{message}",
+    "description": "教师批阅小组作业页面"
+  },
+  "sentenceError2": {
+    "messag": "【词汇错误】{message}，建议使用{replace};",
+    "description": "教师批阅小组作业页面"
+  },
+  "syntaxError": {
+    "messag": "【语法错误】{message}",
+    "description": "教师批阅小组作业页面"
+  },
+  "noError": {
+    "message": "您的文章不错，没有发现语法问题，请继续保持哦！",
+    "description": "教师批阅小组作业页面"
+  },
+  "imageLoading": {
+    "message": "图片加载中...",
+    "description": "homeworkPreview.js"
+  },
+  "imageLoadError": {
+    "message": "图片加载失败，请刷新重试！",
+    "description": "homeworkPreview.js"
+  },
+  "documentLoading": {
+    "message": "正在加载文档资源...",
+    "description": "homeworkPreview.js"
+  },
+  "compressedPack": {
+    "message": "压缩包",
+    "description": "homeworkPreview.js"
+  },
+  "compressedFile": {
+    "message": "压缩包文件",
+    "description": "homeworkPreview.js"
+  },
+  "videoTranscoding": {
+    "message": "视频转码中...",
+    "description": "homeworkPreview.js"
   }
 }
