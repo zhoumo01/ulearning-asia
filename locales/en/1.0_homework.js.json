@@ -291,6 +291,9 @@
     "message": "Students can appeal to the teacher about the average score of the peer review assignments, and the teacher can change the average score of the peer review assignment, but student will still be deducted the score of the student for failing to finish peer reviewing in time.",
     "description": "1.0 homework.json"
   },
+  "stuAppealContent": {
+    "message": "When student is not happy with the average score, student can complain to his/her teacher and get the teacher to do marking. The final score will be teacher’s score – assignments to be evaluated *5%* total assignment score. "
+  },
   "selectClass": {
     "message": "Select Class",
     "description": "1.0 homework.json"
@@ -377,19 +380,19 @@
   },
   "noMark": {
     "message": "No peer evaluation for this student's assignment, please do your marking.",
-    "description":"1.0 homework.json"
+    "description": "1.0 homework.json"
   },
-	"kown": {
+  "kown": {
     "message": "I kown",
-    "description":"1.0 homework.json"
+    "description": "1.0 homework.json"
   },
-	"evaluated": {
+  "evaluated": {
     "message": "The student has evaluated a number of assignments",
-    "description":"1.0 homework.json"
+    "description": "1.0 homework.json"
   },
-	"evaluation": {
+  "evaluation": {
     "message": " A number of assignments to which the teacher was evaluated",
-    "description":"1.0 homework.json"
+    "description": "1.0 homework.json"
   },
   "expandText": {
     "message": "Expand",
@@ -412,7 +415,7 @@
     "description": "教师批阅小组作业页面"
   },
   "comment": {
-    "message": "Comment:",
+    "message": "Comment",
     "description": "教师批阅小组作业页面"
   },
   "noComment": {
@@ -474,5 +477,333 @@
   "compressedFile": {
     "message": "Compressed document",
     "description": "homeworkPreview.js"
+  },
+  "automaticText": {
+    "message": "This is an automatic marking assignment. You are required to finish reading each section in 2 minutes, otherwise it will cause system marking failure!",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "actionDesriptionText": {
+    "message": " Operation description",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "clickText": {
+    "message": "Click recording button, to open microphone when the page prompts “Allow”. After recording, please not to forget to click “Submit Assignment” to submit the said assignment",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "addMsgText": {
+    "message": "Add messages",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "msgsText": {
+    "message": "messages",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "msgText": {
+    "message": "Message should not be empty.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "sureDeleteText": {
+    "message": "Confirm to delete this message?",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "scoreEmptyText": {
+    "message": "The score cannot be empty",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "pleaseEnterScoreText": {
+    "message": "Please enter scores smaller than the total scores",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "commentSuccessText": {
+    "message": " Comment is successful",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "myAsssignmentText": {
+    "message": "My assignment",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "groupAssignmentText": {
+    "message": "This is a group assignment, please do it with group members",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "noticeText": {
+    "message": "Attention",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "assignmentComText": {
+    "message": "Upon completion of assignment, please select a representative to submit, other members do not need to submit",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "caseText": {
+    "message": "When doing submission, amendment, withdrawal of assignment must get the consensus of all members.  Do not amend and delete assignment any how, otherwise it will affect others' results.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "allowedText": {
+    "message": "Please not to paste, enter manually",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "teamMemberText": {
+    "message": "Members of the group will share the assignment result.  Make sure that your submission has been agreed by other members in the group.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "confirmSubmitText": {
+    "message": "Confirm submit",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "submitSuccessText": {
+    "message": "submission is successful!",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "saveSuccessText": {
+    "message": "Save successfully!",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "determinaWorkText": {
+    "message": "Confirm to withdraw the assignment?  Must have the agreement of other members in the group.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "revocationText": {
+    "message": "Confirm to withdraw",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "revokeSuccessText": {
+    "message": "Successfully withdrawn!",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "revokeFailText": {
+    "message": "Withdrawal failed!",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "uploadFileText": {
+    "message": "Upload project document first",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "errorLogText": {
+    "message": "Project is activated, please not to close this page.  Activation failed shows that there is an error log.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "prejectStart": {
+    "message": "The project is being activated",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "startupSuccessText": {
+    "message": "Project activation succeeds",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "runFailText": {
+    "message": "Project run failure",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "startupFailText": {
+    "message": "Project activation fails",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "uploadContentText": {
+    "message": "What is the content you have uploaded",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "projectAbText": {
+    "message": "Abnormality in the project",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "uploadRecordText": {
+    "message": "Please upload recording",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "assignmentDescriptionText": {
+    "message": "The explanation of the assignment cannot exceed 1000 alphabets. Currently, it has exceeded {count} alphabets",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "pasteHereText": {
+    "message": "Paste it here",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "assignmentText": {
+    "message": "Assignment must contain text content or an attachment",
+    "description": "homeworkGroupStu.js"
+  },
+  "charapterText": {
+    "message": "The text content should not exceed 5000 words",
+    "description": "homeworkGroupStu.js"
+  },
+  "workThanMoreText": {
+    "message": "The writing should not exceed 3000 words",
+    "description": "homeworkGroupStu.js"
+  },
+  "uploadFileText2": {
+    "message": "Please upload document",
+    "description": "homeworkGroupStu.js"
+  },
+  "teacherSetText": {
+    "message": "Your teacher has set automatic marking assignment. If your assignment contains less than 10 words, the system will regard it as {score} score, Do you want to submit your assignment?",
+    "description": "homeworkGroupStu.js"
+  },
+  "loginTimeOutText": {
+    "message": "Login timeout, please save important info locally and to re-login!",
+    "description": "homeworkGroupStu.js"
+  },
+  "answerText": {
+    "message": "Answers",
+    "description": "homeworkGroupStu.js"
+  },
+  "beScoreText": {
+    "message": "Pending marking",
+    "description": "homeworkGroupStu.js"
+  },
+  "submitTimeText": {
+    "message": "Submit time: {time}",
+    "description": "homeworkGroupStu.js"
+  },
+  "assignmentScoreText": {
+    "message": "Assignment result",
+    "description": "homeworkGroupStu.js"
+  },
+	"meanScoreText": {
+    "message": "Mean score of peer evaluation: {text}",
+    "description": "homeworkGroupStu.js"
+  },
+	"studentEvaluationText": {
+    "message": " No student evaluation",
+    "description": "homeworkGroupStu.js"
+  },
+	"deductionText": {
+    "message": "Assignment score deduction: {score} score, the assignments assigned to you for evaluation are {count} no evaluation",
+    "description": "homeworkGroupStu.js"
+  },
+	"myAssignmentText": {
+    "message": "My assignment",
+    "description": "homeworkGroupStu.js"
+  },
+	"submitOnText": {
+    "message": "{name} submit on {time}",
+    "description": "homeworkGroupStu.js"
+  },
+	"groupText": {
+    "message": "Group {group} assignment",
+    "description": "homeworkGroupStu.js"
+  },
+	"lateText": {
+    "message": "[ Late submission ]",
+    "description": "homeworkGroupStu.js"
+  },
+	"submitDeadlineText": {
+    "message": "Submission deadline is over",
+    "description": "homeworkGroupStu.js"
+  },
+	"completeText": {
+    "message": "Completed",
+    "description": "homeworkGroupStu.js"
+  },
+	"evaluateTimeText": {
+    "message": "Evaluation time: {time}",
+    "description": "homeworkGroupStu.js"
+  },
+	"teacherScoreText": {
+    "message": "Teacher marking: {score}",
+    "description": "homeworkGroupStu.js"
+  },
+	"teacherCommentText": {
+    "message": "Teacher’s comments: {comment}",
+    "description": "homeworkGroupStu.js"
+  },
+	"reDoText": {
+    "message": "Be rewritten",
+    "description": "homeworkGroupStu.js"
+  },
+	"systemScoreText": {
+    "message": "System marking",
+    "description": "homeworkGroupStu.js"
+  },
+	"mutualAvgScoreText": {
+    "message": "Average score of students’ peer evaluation: {score} score",
+    "description": "homeworkGroupStu.js"
+  },
+	"complaintText": {
+    "message": " Complaint is in process",
+    "description": "homeworkGroupStu.js"
+  },
+	"complaintFailText": {
+    "message": " Complaint fails",
+    "description": "homeworkGroupStu.js"
+  },
+	"complaintAfterText": {
+    "message": "Teacher does markeing after the complaint：{score} score",
+    "description": "homeworkGroupStu.js"
+  },
+	"checkComplaintText": {
+    "message": "Check complaint reason",
+    "description": "homeworkGroupStu.js"
+  },
+	"fileSizeText": {
+    "message": "Size of file: {size}",
+    "description": "homeworkGroupStu.js"
+  },
+	"myComplaintText": {
+    "message": " I want to complain",
+    "description": "homeworkGroupStu.js"
+  },
+	"fillReasonText": {
+    "message": "Fill in complaint reason",
+    "description": "homeworkGroupStu.js"
+  },
+	"dissatisfiedText": {
+    "message": " Tell the teacher why you are not happy with the score, should not exceed 1000 words",
+    "description": "homeworkGroupStu.js"
+  },
+	"complaintConText": {
+    "message": "Complaint content should not exceed 1000 words",
+    "description": "homeworkGroupStu.js"
+  },
+	"complaintSubmintText": {
+    "message": "Complaint submission is successful, pending teacher to deal with it",
+    "description": "homeworkGroupStu.js"
+  },
+	"studentEvaluationsText": {
+    "message": "Peer evaluation",
+    "description": "homeworkGroupStu.js"
+  },
+	"anonymousText": {
+    "message": "Anonymous",
+    "description": "homeworkGroupStu.js"
+  },
+	"mediaDocText": {
+    "message": "Media document",
+    "description": "homeworkGroupStu.js"
+  },
+	"textFile": {
+    "message": "Text file",
+    "description": "homeworkGroupStu.js"
+  },
+	"mutualReviewText": {
+    "message": "Peer evaluation has ended, you did not make evaluation on time.  Your score is <span> deducted {score} score </span>(5% of the assignment’s total scores)",
+    "description": "homeworkGroupStu.js"
+  },
+	"scoresText": {
+    "message": "marking",
+    "description": "homeworkGroupStu.js"
+  },
+	"totalScoresText": {
+    "message": "Total score: {score} score",
+    "description": "homeworkGroupStu.js"
+  },
+	"addEvaluationText": {
+    "message": "To add comment",
+    "description": "homeworkGroupStu.js"
+  },
+	"testGrammarText": {
+    "message": "The assignment contains less than 10 English words, so the system cannot conduct grammar checking",
+    "description": "homeworkGroupStu.js"
+  },
+	"compositionText": {
+    "message": "The writing is too long, the words exceed 500!",
+    "description": "homeworkGroupStu.js"
+  },
+	"beCheckText": {
+    "message": " Checking now",
+    "description": "homeworkGroupStu.js"
+  },
+	"AmendText": {
+    "message": "Amendment opinion",
+    "description": "homeworkGroupStu.js"
   }
 }

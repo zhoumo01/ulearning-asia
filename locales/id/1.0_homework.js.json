@@ -291,6 +291,9 @@
     "message": "Mahasiswa dapat mengajukan komplain kepada dosen mengenai nilai rata-rata dari penilaian bersama, dan dosen dapat mengubah nilai rata-rata penilaian bersama tersebut, namun tetap harus mengurangi nilai yang perlu dikurangi yang disebabkan karena mahasiswa belum melakukan penilaian tugas.",
     "description": "1.0 homework.json"
   },
+  "stuAppealContent": {
+    "message": "Siswa tidak puas dengan skor rata-rata evaluasi bersama, mereka dapat mengajukan banding dengan guru, dan guru akan menilai tugas. Nilai adalah skor guru-skor tugas yang akan dievaluasi * 5% * total skor tugas. "
+  },
   "selectClass": {
     "message": "Pilih kelas",
     "description": "1.0 homework.json"
@@ -407,14 +410,6 @@
     "message": " {score} poin ",
     "description": "教师批阅小组作业页面"
   },
-  "systemAdvice": {
-    "message": "系统建议评分0分",
-    "description": "教师批阅小组作业页面"
-  },
-  "shortWord": {
-    "message": "作业里单词数不足10个",
-    "description": "教师批阅小组作业页面"
-  },
   "frontPartTip": {
     "message": "Sudah di halaman paling depan",
     "description": "教师批阅小组作业页面"
@@ -422,5 +417,333 @@
   "backPartTip": {
     "message": "Sudah di halaman paling belakang",
     "description": "教师批阅小组作业页面"
+  },
+  "automaticText": {
+    "message": "Ini adalah tugas pemberian skor otomatis. Setiap konten mengharuskan Anda untuk membacanya dalam waktu 2 menit. Jika tidak, itu akan menyebabkan sistem gagal membuat skor!",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "actionDesriptionText": {
+    "message": "Instruksi Operasi",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "clickText": {
+    "message": "Klik tombol rekam, klik\" Izinkan \"di halaman pop-up prompt untuk menghidupkan mikrofon. Jangan lupa klik tombol\" Kirim Tugas \"untuk mengirimkan tugas ini setelah merekam ~",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "addMsgText": {
+    "message": "Tambah Pesan",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "msgsText": {
+    "message": "Pesan",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "msgText": {
+    "message": "Pesan harus memiliki konten teks atau lampiran",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "sureDeleteText": {
+    "message": "Konfirmasikan hapus pesan ini?",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "scoreEmptyText": {
+    "message": "Skor tidak boleh kosong",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "pleaseEnterScoreText": {
+    "message": "Silakan masukkan skor kurang dari skor total",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "commentSuccessText": {
+    "message": "Komentar Sukses",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "myAsssignmentText": {
+    "message": "Penugasan Saya",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "groupAssignmentText": {
+    "message": "Ini adalah tugas grup, silakan bekerja sama dengan anggota grup untuk menyelesaikan tugas",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "noticeText": {
+    "message": "Note",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "assignmentComText": {
+    "message": "Setelah tugas selesai, pilih perwakilan untuk mengirimkan tugas, siswa lain tidak perlu mengirimkan",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "caseText": {
+    "message": " Saat mengirim, merevisi, dan menarik tugas, harap dapatkan persetujuan dari anggota lain. Jangan memodifikasi dan menghapus tugas sesuka hati; jika tidak, itu akan mempengaruhi prestasi semua orang. ",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "allowedText": {
+    "message": "Tempel tidak diizinkan, silakan masukkan secara manual",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "teamMemberText": {
+    "message": "Setelah pengiriman, anggota tim akan membagikan hasil penugasan ini. Harap pastikan bahwa kiriman Anda telah disetujui oleh anggota tim lain.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "confirmSubmitText": {
+    "message": " Konfirmasikan untuk mengirim ",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "submitSuccessText": {
+    "message": " Kirim berhasil! ",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "saveSuccessText": {
+    "message": "Simpan berhasil!",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "determinaWorkText": {
+    "message": "Konfirmasikan untuk menarik pekerjaan? Pastikan Anda mendapat persetujuan dari anggota grup lainnya.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "revocationText": {
+    "message": "Konfirmasi penarikan",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "revokeSuccessText": {
+    "message": "Pencabutan berhasil!",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "revokeFailText": {
+    "message": "Pencabutan gagal!",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "uploadFileText": {
+    "message": "harap unggah file proyek terlebih dahulu",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "errorLogText": {
+    "message": "\"Proyek sedang dimulai, tolong jangan tutup halaman ini\". Log kesalahan ditampilkan ketika startup gagal. ",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "prejectStart": {
+    "message": " Proyek mulai ... ",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "startupSuccessText": {
+    "message": " Proyek berhasil dimulai ",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "runFailText": {
+    "message": " Proyek gagal dijalankan ",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "startupFailText": {
+    "message": " Proyek gagal memulai ",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "uploadContentText": {
+    "message": "Apa yang Anda posting.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "projectAbText": {
+    "message": "Proyek memiliki pengecualian",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "uploadRecordText": {
+    "message": "Silakan unggah rekaman",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "assignmentDescriptionText": {
+    "message": "Deskripsi pekerjaan tidak boleh melebihi 1000 karakter. Saat ini melebihi {count} karakter",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "pasteHereText": {
+    "message": "Tempel di sini",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "assignmentText": {
+    "message": "Tugas tersebut harus memiliki konten teks atau lampiran",
+    "description": "homeworkGroupStu.js"
+  },
+  "charapterText": {
+    "message": "Konten teks tidak boleh melebihi 5000 karakter",
+    "description": "homeworkGroupStu.js"
+  },
+  "workThanMoreText": {
+    "message": "Komposisi tidak boleh melebihi 3000 karakter",
+    "description": "homeworkGroupStu.js"
+  },
+  "uploadFileText2": {
+    "message": "Silakan unggah file",
+    "description": "homeworkGroupStu.js"
+  },
+  "teacherSetText": {
+    "message": "Guru telah mengatur sistem untuk secara otomatis meninjau tugas bahasa Inggris. Jumlah kata dalam tugas Anda akan kurang dari 10 dan akan dinilai oleh sistem {score} poin, Apakah Anda yakin untuk mengirim?",
+    "description": "homeworkGroupStu.js"
+  },
+  "loginTimeOutText": {
+    "message": "Waktu masuk habis, harap simpan informasi penting secara lokal dan masuk lagi!",
+    "description": "homeworkGroupStu.js"
+  },
+  "answerText": {
+    "message": "Jawab",
+    "description": "homeworkGroupStu.js"
+  },
+  "beScoreText": {
+    "message": "Akan Dicetak",
+    "description": "homeworkGroupStu.js"
+  },
+  "submitTimeText": {
+    "message": "Kirim Waktu: {time}",
+    "description": "homeworkGroupStu.js"
+  },
+  "assignmentScoreText": {
+    "message": "Skor Penugasan",
+    "description": "homeworkGroupStu.js"
+  },
+  "meanScoreText": {
+    "message": "Skor Rata-Rata untuk Evaluasi Bersama: {text}",
+    "description": "homeworkGroupStu.js"
+  },
+  "studentEvaluationText": {
+    "message": "Tidak Ada Evaluasi Siswa",
+    "description": "homeworkGroupStu.js"
+  },
+  "deductionText": {
+    "message": "Pengurangan Penugasan：{score} Poin，Ditugaskan untuk tugas penilaian bersama Anda {count} Saham belum dievaluasi",
+    "description": "homeworkGroupStu.js"
+  },
+  "myAssignmentText": {
+    "message": "Penugasan Saya",
+    "description": "homeworkGroupStu.js"
+  },
+  "submitOnText": {
+    "message": "{name} Kirim Pada {time}",
+    "description": "homeworkGroupStu.js"
+  },
+  "groupText": {
+    "message": "Grup {group} Penugasan",
+    "description": "homeworkGroupStu.js"
+  },
+  "lateText": {
+    "message": "[ Pengiriman Akhir ]",
+    "description": "homeworkGroupStu.js"
+  },
+  "submitDeadlineText": {
+    "message": "Batas Waktu Pengiriman ",
+    "description": "homeworkGroupStu.js"
+  },
+  "completeText": {
+    "message": " Completed ",
+    "description": "homeworkGroupStu.js"
+  },
+  "evaluateTimeText": {
+    "message": " Waktu Evaluasi: {time}",
+    "description": "homeworkGroupStu.js"
+  },
+  "teacherScoreText": {
+    "message": "Skor Guru: {score}",
+    "description": "homeworkGroupStu.js"
+  },
+  "teacherCommentText": {
+    "message": "Komentar Guru: {comment}",
+    "description": "homeworkGroupStu.js"
+  },
+  "reDoText": {
+    "message": "Perlu Menulis Ulang",
+    "description": "homeworkGroupStu.js"
+  },
+  "systemScoreText": {
+    "message": "Skor Sistem",
+    "description": "homeworkGroupStu.js"
+  },
+  "mutualAvgScoreText": {
+    "message": "Skor rata-rata evaluasi timbal balik siswa: {score} poin",
+    "description": "homeworkGroupStu.js"
+  },
+  "complaintText": {
+    "message": "Complaint",
+    "description": "homeworkGroupStu.js"
+  },
+  "complaintFailText": {
+    "message": "Complaint Failed",
+    "description": "homeworkGroupStu.js"
+  },
+  "complaintAfterText": {
+    "message": "Nilai Guru Post-Complaint: {score} poin",
+    "description": "homeworkGroupStu.js"
+  },
+  "checkComplaintText": {
+    "message": "Lihat Alasan untuk Keluhan",
+    "description": "homeworkGroupStu.js"
+  },
+  "fileSizeText": {
+    "message": "Ukuran File: {size}",
+    "description": "homeworkGroupStu.js"
+  },
+  "myComplaintText": {
+    "message": "Saya ingin naik banding",
+    "description": "homeworkGroupStu.js"
+  },
+  "fillReasonText": {
+    "message": "Isi alasan untuk pengaduan",
+    "description": "homeworkGroupStu.js"
+  },
+  "dissatisfiedText": {
+    "message": "Beri tahu guru mengapa dia tidak puas dengan nilai, tidak lebih dari 1000 kata",
+    "description": "homeworkGroupStu.js"
+  },
+  "complaintConText": {
+    "message": "Isi pengaduan tidak boleh melebihi 1000 kata",
+    "description": "homeworkGroupStu.js"
+  },
+  "complaintSubmintText": {
+    "message": "Banding diajukan dengan sukses, tunggu guru Memproses ",
+    "description": "homeworkGroupStu.js"
+  },
+  "studentEvaluationsText": {
+    "message": " Evaluasi Classmate ",
+    "description": "homeworkGroupStu.js"
+  },
+  "anonymousText": {
+    "message": "Anonymous",
+    "description": "homeworkGroupStu.js"
+  },
+  "mediaDocText": {
+    "message": "File Media",
+    "description": "homeworkGroupStu.js"
+  },
+  "textFile": {
+    "message": "File Teks",
+    "description": "homeworkGroupStu.js"
+  },
+  "mutualReviewText": {
+    "message": "Tinjauan Bersama Berakhir, Anda tidak melakukan evaluasi tepat waktu.Nilai Anda <span> Pengurangan {score} poin </span>(5% dari total skor penugasan)",
+    "description": "homeworkGroupStu.js"
+  },
+  "scoresText": {
+    "message": "Skor",
+    "description": "homeworkGroupStu.js"
+  },
+  "totalScoresText": {
+    "message": "Total skor: {score} poin",
+    "description": "homeworkGroupStu.js"
+  },
+  "addEvaluationText": {
+    "message": "Tambahkan ulasan",
+    "description": "homeworkGroupStu.js"
+  },
+  "testGrammarText": {
+    "message": "Dalam penugasan Kurang dari 10 kata bahasa Inggris tidak dapat diuji secara tata bahasa ",
+    "description": "homeworkGroupStu.js"
+  },
+  "compositionText": {
+    "message": "Komposisi terlalu panjang, kata-katanya lebih dari 500 kata!",
+    "description": "homeworkGroupStu.js"
+  },
+  "beCheckText": {
+    "message": "Memeriksa",
+    "description": "homeworkGroupStu.js"
+  },
+  "AmendText": {
+    "message": "Tinjauan",
+    "description": "homeworkGroupStu.js"
   }
 }

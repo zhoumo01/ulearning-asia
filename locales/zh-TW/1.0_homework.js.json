@@ -291,6 +291,9 @@
     "message": "學生可以對互評的平均分向老師提起申訴，老師可以更改互評的平均分，但仍需扣除學生因未及時作出作業評價而扣的分數。",
     "description": "1.0 homework.json"
   },
+  "stuAppealContent": {
+    "message": "學生對互評的平均分不滿意，可以向老師提起申訴，由老師來對作業進行評分。最終成績為教師評分-待評作業分數*5%*作業總分。"
+  },
   "selectClass": {
     "message": "選擇班級",
     "description": "1.0 homework.json"
@@ -400,7 +403,7 @@
     "description": "教师批阅小组作业页面"
   },
   "comment": {
-    "message": "評語：",
+    "message": "評語",
     "description": "教师批阅小组作业页面"
   },
   "noComment": {
@@ -455,12 +458,12 @@
     "message": "以下信息僅供參考：",
     "description": "教師批閱小組作業頁面"
   },
-  "sentenceError": {
+  "sentenceError1": {
     "message": "【詞彙錯誤】{message}",
     "description": "教師批閱小組作業頁面"
   },
-  "suggestReplace": {
-    "message": "建議使用{message}",
+  "sentenceError2": {
+    "message": "【詞彙錯誤】{message}，建議使用{replace}",
     "description": "教師批閱小組作業頁面"
   },
   "syntaxError": {
@@ -490,5 +493,337 @@
   "compressedFile": {
     "message": "壓縮包文件",
     "description": "homeworkPreview.js"
+  },
+  "videoTranscoding": {
+    "message": "視頻轉碼中...",
+    "description": "homeworkPreview.js"
+  },
+  "automaticText": {
+    "message": "這是一個自動評分的作業，每段內容都需要你在2分鐘內讀完，否自會導致系統評分失敗！",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "actionDesriptionText": {
+    "message": "操作說明",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "clickText": {
+    "message": "點擊錄音按鈕，在彈出的頁面提示中點擊“允許”打開麥克風。錄音後不要忘記點擊“提交作業”按鈕提交本次作業哦~",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "addMsgText": {
+    "message": "添加留言",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "msgsText": {
+    "message": "留言",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "msgText": {
+    "message": "留言必須有文字內容或一個附件",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "sureDeleteText": {
+    "message": "確認刪除這條留言？",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "scoreEmptyText": {
+    "message": "評分不能為空",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "pleaseEnterScoreText": {
+    "message": "請輸入小於總分的分數",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "commentSuccessText": {
+    "message": "評論成功",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "myAsssignmentText": {
+    "message": "我的作業",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "groupAssignmentText": {
+    "message": "這是一個小組作業，請和小組成員協作共同完成作業",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "noticeText": {
+    "message": "注意",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "assignmentComText": {
+    "message": "作業完成後，選取代表提交一份作業即可，其他同學無需提交",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "caseText": {
+    "message": "在提交、修改、撤回作業時請經得其他成員的同意，切勿隨意修改和刪除作業；否則會影響大家成績。",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "allowedText": {
+    "message": "不允許粘貼，請手動輸入",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "teamMemberText": {
+    "message": "提交後小組成員將共享此份作業成績，請確保你的提交獲得了小組其他成員的同意。",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "confirmSubmitText": {
+    "message": "確認提交",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "submitSuccessText": {
+    "message": "提交成功！",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "saveSuccessText": {
+    "message": "保存成功！",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "determinaWorkText": {
+    "message": "確定撤回作業？請確保你獲得了小組其他成員的同意。",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "revocationText": {
+    "message": "確認撤回",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "revokeSuccessText": {
+    "message": "撤銷成功！",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "revokeFailText": {
+    "message": "撤銷失敗！",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "uploadFileText": {
+    "message": "請先上傳項目文件",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "errorLogText": {
+    "message": "項目正在啟動，請勿關閉此頁面”。啟動失敗顯示錯誤日誌。 ",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "prejectStart": {
+    "message": "項目正在啟動中……",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "startupSuccessText": {
+    "message": "項目啟動成功",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "runFailText": {
+    "message": "項目運行失敗",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "startupFailText": {
+    "message": "項目啟動失敗",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "uploadContentText": {
+    "message": "你傳什麼內容了。",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "projectAbText": {
+    "message": "項目出現異常",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "uploadRecordText": {
+    "message": "請上傳錄音",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "assignmentDescriptionText": {
+    "message": "作業說明不能超過1000個字符。當前超出{count}個字符",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "pasteHereText": {
+    "message": "粘貼在此處",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "assignmentText": {
+    "message": "作業必須有文字內容或一個附件",
+    "description": "homeworkGroupStu.js"
+  },
+  "charapterText": {
+    "message": "文字內容不能超過5000個字",
+    "description": "homeworkGroupStu.js"
+  },
+  "workThanMoreText": {
+    "message": "作文不能超過3000個字",
+    "description": "homeworkGroupStu.js"
+  },
+  "uploadFileText2": {
+    "message": "請上傳文件",
+    "description": "homeworkGroupStu.js"
+  },
+  "teacherSetText": {
+    "message": "教師設置了系統自動批閱英文作業，你的作業裡單詞數少於10個，將會被系統評為{score}分，確認提交嗎？",
+    "description": "homeworkGroupStu.js"
+  },
+  "loginTimeOutText": {
+    "message": "登錄超時，請在本地保存重要信息並重新登錄！",
+    "description": "homeworkGroupStu.js"
+  },
+  "answerText": {
+    "message": "答題",
+    "description": "homeworkGroupStu.js"
+  },
+  "beScoreText": {
+    "message": "待評分",
+    "description": "homeworkGroupStu.js"
+  },
+  "submitTimeText": {
+    "message": "提交時間：{time}",
+    "description": "homeworkGroupStu.js"
+  },
+  "assignmentScoreText": {
+    "message": "作業成績",
+    "description": "homeworkGroupStu.js"
+  },
+  "meanScoreText": {
+    "message": "互評平均分: {text}",
+    "description": "homeworkGroupStu.js"
+  },
+  "studentEvaluationText": {
+    "message": "無學生評價",
+    "description": "homeworkGroupStu.js"
+  },
+  "deductionText": {
+    "message": "作業扣分：{score}分，分配給你的互評作業有{count}份未做評價",
+    "description": "homeworkGroupStu.js"
+  },
+  "myAssignmentText": {
+    "message": "我的作業",
+    "description": "homeworkGroupStu.js"
+  },
+  "submitOnText": {
+    "message": "{name}提交於{time}",
+    "description": "homeworkGroupStu.js"
+  },
+  "groupText": {
+    "message": "組{group}的作業",
+    "description": "homeworkGroupStu.js"
+  },
+  "lateText": {
+    "message": "【遲交】",
+    "description": "homeworkGroupStu.js"
+  },
+  "submitDeadlineText": {
+    "message": "提交已截止",
+    "description": "homeworkGroupStu.js"
+  },
+  "completeText": {
+    "message": "已完成",
+    "description": "homeworkGroupStu.js"
+  },
+  "evaluateTimeText": {
+    "message": "評價時間：{time}",
+    "description": "homeworkGroupStu.js"
+  },
+  "teacherScoreText": {
+    "message": "教師評分：{score}",
+    "description": "homeworkGroupStu.js"
+  },
+  "teacherCommentText": {
+    "message": "教師評語：{comment}",
+    "description": "homeworkGroupStu.js"
+  },
+  "reDoText": {
+    "message": "需重寫",
+    "description": "homeworkGroupStu.js"
+  },
+  "systemScoreText": {
+    "message": "系統評分",
+    "description": "homeworkGroupStu.js"
+  },
+  "mutualAvgScoreText": {
+    "message": "學生互評平均分：{score}分",
+    "description": "homeworkGroupStu.js"
+  },
+  "complaintText": {
+    "message": "申訴中",
+    "description": "homeworkGroupStu.js"
+  },
+  "complaintFailText": {
+    "message": "申訴失敗",
+    "description": "homeworkGroupStu.js"
+  },
+  "complaintAfterText": {
+    "message": "申訴後教師評分：{score}分",
+    "description": "homeworkGroupStu.js"
+  },
+  "checkComplaintText": {
+    "message": "查看申訴原因",
+    "description": "homeworkGroupStu.js"
+  },
+  "fileSizeText": {
+    "message": "文件大小：{size}",
+    "description": "homeworkGroupStu.js"
+  },
+  "myComplaintText": {
+    "message": "我要申訴",
+    "description": "homeworkGroupStu.js"
+  },
+  "fillReasonText": {
+    "message": "填寫申訴原因",
+    "description": "homeworkGroupStu.js"
+  },
+  "dissatisfiedText": {
+    "message": "告訴老師為什麼對成績不滿，不超過1000字",
+    "description": "homeworkGroupStu.js"
+  },
+  "complaintConText": {
+    "message": "申訴內容不能超過1000字",
+    "description": "homeworkGroupStu.js"
+  },
+  "complaintSubmintText": {
+    "message": "申訴提交成功，等待老師處理",
+    "description": "homeworkGroupStu.js"
+  },
+  "studentEvaluationsText": {
+    "message": "同學評價",
+    "description": "homeworkGroupStu.js"
+  },
+  "anonymousText": {
+    "message": "匿名",
+    "description": "homeworkGroupStu.js"
+  },
+  "mediaDocText": {
+    "message": "媒體文件",
+    "description": "homeworkGroupStu.js"
+  },
+  "textFile": {
+    "message": "文本文件",
+    "description": "homeworkGroupStu.js"
+  },
+  "mutualReviewText": {
+    "message": "互評已結束，你未及時作出評價。你的成績<span>扣除{score}分</span>，（作業總分的5%）",
+    "description": "homeworkGroupStu.js"
+  },
+  "scoresText": {
+    "message": "評分",
+    "description": "homeworkGroupStu.js"
+  },
+  "totalScoresText": {
+    "message": "總分 {score}分",
+    "description": "homeworkGroupStu.js"
+  },
+  "addEvaluationText": {
+    "message": "添加評語",
+    "description": "homeworkGroupStu.js"
+  },
+  "testGrammarText": {
+    "message": "作業裡英文單詞不足10個無法進行語法檢測",
+    "description": "homeworkGroupStu.js"
+  },
+  "compositionText": {
+    "message": "作文太長，單詞超過500個單詞！",
+    "description": "homeworkGroupStu.js"
+  },
+  "beCheckText": {
+    "message": "正在檢查",
+    "description": "homeworkGroupStu.js"
+  },
+  "AmendText": {
+    "message": "修改意見",
+    "description": "homeworkGroupStu.js"
   }
 }
