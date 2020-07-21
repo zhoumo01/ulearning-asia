@@ -45,7 +45,7 @@
   },
   "collectText": {
     "message": "{parts} {questions} {marks}",
-    "description": "花括号({})及其里面的内容，不要翻译，这是插值。"
+    "description": "{parts} 插值对应上面的 collectText1，{questions}插值对应上面的 collectText2，{marks}插值对应上面的collectText3，也就是说这三个分句组成一句话，翻译可根据需要调整三个分句的顺序，或者添加标点符号。"
   },
   "surePaperNameLess": {
     "message": "Mohon pastikan nama kertas ujian tidak lebih dari 50 kata",
@@ -80,7 +80,7 @@
     "description": "1.0 autoexam.js"
   },
   "confirmText": {
-    "message": "Konfirmasi",
+    "message": "OK",
     "description": "1.0 autoexam.js"
   },
   "continueMakeText": {
