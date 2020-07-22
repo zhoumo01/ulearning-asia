@@ -268,11 +268,19 @@
     "description": "2.0 exam.js"
   },
   "examStuNum": {
-    "message": "completed",
+    "message": "{0} completed",
     "description": "2.0 exam.js"
   },
   "expectExamStuNum": {
-    "message": "Total examinees:",
+    "message": "Total examinees: {0}",
+    "description": "2.0 exam.js"
+  },
+  "referenceRate": {
+    "message": "Attendance rate",
+    "description": "2.0 exam.js"
+  },
+  "referenceRate2": {
+    "message": "Attendance rate: {0}% (Abnormality rate: {1}%)",
     "description": "2.0 exam.js"
   },
   "exceptionRate": {
@@ -364,7 +372,11 @@
     "description": "2.0 exam.js"
   },
   "personnel": {
-    "message": "count(s)",
+    "message": "{0} count(s)/{1}%",
+    "description": "2.0 exam.js"
+  },
+  "personnel2": {
+    "message": "{count} count(s)",
     "description": "2.0 exam.js"
   },
   "detailedAnalysis": {
@@ -557,10 +569,6 @@
   },
   "peopleNum": {
     "message": "# of examinees",
-    "description": "2.0 exam.js"
-  },
-  "referenceRate": {
-    "message": "Attendance rate",
     "description": "2.0 exam.js"
   },
   "abandonRate": {

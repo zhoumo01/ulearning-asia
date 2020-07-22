@@ -268,11 +268,19 @@
     "description": "2.0 exam.js"
   },
   "examStuNum": {
-    "message": "peserta ujian",
+    "message": "{0} peserta ujian",
     "description": "2.0 exam.js"
   },
   "expectExamStuNum": {
-    "message": "Jumlah peserta ujian adalah",
+    "message": "Jumlah peserta ujian adalah {0}",
+    "description": "2.0 exam.js"
+  },
+  "referenceRate": {
+    "message": "Tingkat partisipasi",
+    "description": "2.0 exam.js"
+  },
+  "referenceRate2": {
+    "message": "Tingkat partisipasi: {0}% (Di antaranya tingkat kondisi tidak normal: {1}%)",
     "description": "2.0 exam.js"
   },
   "exceptionRate": {
@@ -364,7 +372,11 @@
     "description": "2.0 exam.js"
   },
   "personnel": {
-    "message": "kali",
+    "message": "{0} kali/{1}%",
+    "description": "2.0 exam.js"
+  },
+  "personnel2": {
+    "message": "{count} kali",
     "description": "2.0 exam.js"
   },
   "detailedAnalysis": {
@@ -557,10 +569,6 @@
   },
   "peopleNum": {
     "message": "jumlah orang",
-    "description": "2.0 exam.js"
-  },
-  "referenceRate": {
-    "message": "Tingkat partisipasi",
     "description": "2.0 exam.js"
   },
   "abandonRate": {

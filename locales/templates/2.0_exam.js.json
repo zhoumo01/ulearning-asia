@@ -268,12 +268,20 @@
     "description": "2.0 exam.js"
   },
   "examStuNum": {
-    "message": "人参加考试",
-    "description": "2.0 exam.js"
+    "message": "{0}人参加考试",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "expectExamStuNum": {
-    "message": "应参考人数为",
-    "description": "2.0 exam.js"
+    "message": "应参考人数为{0}",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
+  },
+  "referenceRate": {
+    "message": "参考率",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
+  },
+  "referenceRate2": {
+    "message": "参考率：{0}%（其中异常率：{1}%）",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "exceptionRate": {
     "message": "其中异常率",
@@ -364,8 +372,12 @@
     "description": "2.0 exam.js"
   },
   "personnel": {
-    "message": "人次",
-    "description": "2.0 exam.js"
+    "message": "{0}人次/{1}%",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
+  },
+  "personnel2": {
+    "message": "{count}人次",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "detailedAnalysis": {
     "message": "详细分析",
@@ -557,10 +569,6 @@
   },
   "peopleNum": {
     "message": "人数",
-    "description": "2.0 exam.js"
-  },
-  "referenceRate": {
-    "message": "参考率",
     "description": "2.0 exam.js"
   },
   "abandonRate": {
@@ -2654,5 +2662,17 @@
   "view": {
     "message": "查看",
     "description": "2.0 exam.js"
+  },
+  "classRange": {
+    "message": "班级范围：{className}",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析 -> 导出考试分析"
+  },
+  "exportDate": {
+    "message": "导出日期：{date}",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析 -> 导出考试分析"
+  },
+  "conceptDesc": {
+    "message": "概念说明：",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析 -> 导出考试分析"
   }
 }

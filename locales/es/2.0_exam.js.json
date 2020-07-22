@@ -268,11 +268,19 @@
     "description": "2.0 exam.js"
   },
   "examStuNum": {
-    "message": "Personas que toman el examen",
+    "message": "{0} Personas que toman el examen",
     "description": "2.0 exam.js"
   },
   "expectExamStuNum": {
-    "message": "El número de referencia debe ser",
+    "message": "El número de referencia debe ser {0}",
+    "description": "2.0 exam.js"
+  },
+  "referenceRate": {
+    "message": "Tasa de referencia",
+    "description": "2.0 exam.js"
+  },
+  "referenceRate2": {
+    "message": "Tasa de referencia: {0}% (tasa anormal: {1}%)",
     "description": "2.0 exam.js"
   },
   "exceptionRate": {
@@ -364,7 +372,11 @@
     "description": "2.0 exam.js"
   },
   "personnel": {
-    "message": "Tiempos de persona",
+    "message": "{0} Tiempos de persona/{1}%",
+    "description": "2.0 exam.js"
+  },
+  "personnel2": {
+    "message": "{count} Tiempos de persona",
     "description": "2.0 exam.js"
   },
   "detailedAnalysis": {
@@ -557,10 +569,6 @@
   },
   "peopleNum": {
     "message": "Personas",
-    "description": "2.0 exam.js"
-  },
-  "referenceRate": {
-    "message": "Tasa de referencia",
     "description": "2.0 exam.js"
   },
   "abandonRate": {

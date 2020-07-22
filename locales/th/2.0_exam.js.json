@@ -268,11 +268,19 @@
     "description": "2.0 exam.js"
   },
   "examStuNum": {
-    "message": "คนที่เข้าร่วมการสอบ",
+    "message": "{0}คนที่เข้าร่วมการสอบ",
     "description": "2.0 exam.js"
   },
   "expectExamStuNum": {
-    "message": "จำนวนผู้เข้าสอบเป็น",
+    "message": "จำนวนผู้เข้าสอบเป็น{0}",
+    "description": "2.0 exam.js"
+  },
+  "referenceRate": {
+    "message": "อัตราเข้าร่วมการสอบ",
+    "description": "2.0 exam.js"
+  },
+  "referenceRate2": {
+    "message": "อัตราเข้าร่วมการสอบ: {0}% (อัตราความผิดปกติในนั้น: {1}%)",
     "description": "2.0 exam.js"
   },
   "exceptionRate": {
@@ -364,7 +372,11 @@
     "description": "2.0 exam.js"
   },
   "personnel": {
-    "message": "ครั้ง",
+    "message": "{0}ครั้ง/{1}%",
+    "description": "2.0 exam.js"
+  },
+  "personnel2": {
+    "message": "{count}ครั้ง",
     "description": "2.0 exam.js"
   },
   "detailedAnalysis": {
@@ -557,10 +569,6 @@
   },
   "peopleNum": {
     "message": "จำนวนคน",
-    "description": "2.0 exam.js"
-  },
-  "referenceRate": {
-    "message": "อัตราเข้าร่วมการสอบ",
     "description": "2.0 exam.js"
   },
   "abandonRate": {
