@@ -269,19 +269,19 @@
   },
   "examStuNum": {
     "message": "{0} peserta ujian",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "expectExamStuNum": {
     "message": "Jumlah peserta ujian adalah {0}",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "referenceRate": {
     "message": "Tingkat partisipasi",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "referenceRate2": {
     "message": "Tingkat partisipasi: {0}% (Di antaranya tingkat kondisi tidak normal: {1}%)",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "exceptionRate": {
     "message": "Di antaranya tingkat kondisi tidak normal",
@@ -373,11 +373,11 @@
   },
   "personnel": {
     "message": "{0} kali/{1}%",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "personnel2": {
     "message": "{count} kali",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "detailedAnalysis": {
     "message": "Rincian analisa",
@@ -644,7 +644,7 @@
     "description": "2.0 exam.js"
   },
   "field": {
-    "message": " ujian",
+    "message": "sesi",
     "description": "2.0 exam.js"
   },
   "creator": {
@@ -652,7 +652,7 @@
     "description": "2.0 exam.js"
   },
   "examTime": {
-    "message": "Nama ujian",
+    "message": "Waktu ujian",
     "description": "2.0 exam.js"
   },
   "examPaper": {
@@ -660,7 +660,7 @@
     "description": "2.0 exam.js"
   },
   "answerTimes": {
-    "message": "Jumlah menjawab pertanyaan",
+    "message": "Jumlah menjawab",
     "description": "2.0 exam.js"
   },
   "achievement": {
@@ -668,7 +668,7 @@
     "description": "2.0 exam.js"
   },
   "noStart": {
-    "message": "Belum dimulai",
+    "message": "Belum mulai",
     "description": "2.0 exam.js"
   },
   "onGoing": {
@@ -700,7 +700,7 @@
     "description": "2.0 exam.js"
   },
   "noBatch": {
-    "message": "Tidak ada batch untuk saat ini",
+    "message": "Belum ada batch",
     "description": "2.0 exam.js"
   },
   "part": {
@@ -724,7 +724,7 @@
     "description": "2.0 exam.js"
   },
   "modifyBatch": {
-    "message": "Ubah batch",
+    "message": "Ubah sesi",
     "description": "2.0 exam.js"
   },
   "delete": {
@@ -736,11 +736,11 @@
     "description": "2.0 exam.js"
   },
   "examTips2": {
-    "message": "Silahkan gunakan aplikasi Ulearning untuk ujian",
+    "message": "Silahkan gunakan aplikasi ULearn untuk ujian",
     "description": "2.0 exam.js"
   },
   "examTips3": {
-    "message": "Telah lewat dari waktu telat yang diperbolehkan, tidak boleh masuk ujian",
+    "message": "Telah melewati batas waktu telat, tidak dapat ikut ujian",
     "description": "2.0 exam.js"
   },
   "examTips4": {
@@ -756,7 +756,7 @@
     "description": "2.0 exam.js"
   },
   "examTips5": {
-    "message": "Nilai tidak dirilis untuk saat ini",
+    "message": "Nilai untuk sementara tidak dipublikasi",
     "description": "2.0 exam.js"
   },
   "examTips6": {
@@ -784,7 +784,7 @@
     "description": "2.0 exam.js"
   },
   "examTips7": {
-    "message": "Yakin untuk menghapus ujian tersebut?",
+    "message": "Yakin untuk hapus ujian tersebut?",
     "description": "2.0 exam.js"
   },
   "deletePaper": {
@@ -792,7 +792,7 @@
     "description": "2.0 exam.js"
   },
   "deleteSuccess": {
-    "message": "Berhasil menghapus",
+    "message": "Berhasil dihapus",
     "description": "2.0 exam.js"
   },
   "deleteFailed": {
@@ -808,11 +808,11 @@
     "description": "2.0 exam.js"
   },
   "theFirst": {
-    "message": "Ke ",
+    "message": "Soal ke",
     "description": "2.0 exam.js"
   },
   "que": {
-    "message": " Soal",
+    "message": ".",
     "description": "2.0 exam.js"
   },
   "specialQueBefore": {
@@ -820,7 +820,7 @@
     "description": "2.0 exam.js"
   },
   "specialQueAfter": {
-    "message": "soal",
+    "message": ".",
     "description": "2.0 exam.js"
   },
   "specialAnsweringBefore": {
@@ -828,7 +828,7 @@
     "description": "2.0 exam.js"
   },
   "specialAnsweringAfter": {
-    "message": "kali menjawab",
+    "message": "kali",
     "description": "2.0 exam.js"
   },
   "seeDetails": {
@@ -908,11 +908,11 @@
     "description": "2.0 exam.js"
   },
   "remarkTips4": {
-    "message": "Dari mahasiswa yang sedang menunggu untuk dinilai, sistem menemukan ",
+    "message": "Dari mahasiswa yang akan dinilai, sistem menemukan",
     "description": "2.0 exam.js"
   },
   "remarkTips5": {
-    "message": "jawaban yang mirip, apabila setuju dengan hasil pembedaan dari sistem, klik konfirmasi untuk menyimpan penilaian.",
+    "message": "jawaban yang mirip, apabila setuju dengan hasil dari sistem, klik konfirmasi untuk menyimpan penilaian.",
     "description": "2.0 exam.js"
   },
   "queTypeArray[0]": {
@@ -936,15 +936,15 @@
     "description": "2.0 exam.js"
   },
   "queTypeArray[5]": {
-    "message": "Soal pencocokan",
+    "message": "Cocokkan",
     "description": "2.0 exam.js"
   },
   "queTypeArray[6]": {
-    "message": "Soal membaca",
+    "message": "Membaca",
     "description": "2.0 exam.js"
   },
   "queTypeArray[7]": {
-    "message": "Soal pendengaran",
+    "message": "Pendengaran",
     "description": "2.0 exam.js"
   },
   "queTypeArray[8]": {
@@ -952,7 +952,7 @@
     "description": "2.0 exam.js"
   },
   "queTypeArray[9]": {
-    "message": "Soal terjemahan",
+    "message": "Terjemahan",
     "description": "2.0 exam.js"
   },
   "queTypeArray[10]": {
@@ -992,7 +992,7 @@
     "description": "2.0 exam.js"
   },
   "queTypeArray[19]": {
-    "message": "Soal membaca (pilih kata dan isi ke dalam bagian yang kosong)",
+    "message": "Soal membaca (pilih kata dan isi)",
     "description": "2.0 exam.js"
   },
   "queTypeArray[20]": {
@@ -1016,11 +1016,11 @@
     "description": "2.0 exam.js"
   },
   "difficultyLevelArray[0]": {
-    "message": "Sangat mudah",
+    "message": "Mudah",
     "description": "2.0 exam.js"
   },
   "difficultyLevelArray[1]": {
-    "message": "Mudah",
+    "message": "Agak mudah",
     "description": "2.0 exam.js"
   },
   "difficultyLevelArray[2]": {
@@ -1028,11 +1028,11 @@
     "description": "2.0 exam.js"
   },
   "difficultyLevelArray[3]": {
-    "message": "Sulit",
+    "message": "Agak sulit",
     "description": "2.0 exam.js"
   },
   "difficultyLevelArray[4]": {
-    "message": "Sangat sulit",
+    "message": "Sulit",
     "description": "2.0 exam.js"
   },
   "remarkTips6": {
@@ -1048,7 +1048,7 @@
     "description": "2.0 exam.js"
   },
   "remarkTips9": {
-    "message": "Silahkan masukkan nilai yang tepat, hanya menyisakan 1 angka desimal",
+    "message": "Silahkan masukkan nilai yang benar dengan 1 angka desimal",
     "description": "2.0 exam.js"
   },
   "remarkTips10": {
@@ -1068,15 +1068,15 @@
     "description": "2.0 exam.js"
   },
   "answerDurationCl": {
-    "message": "Durasi menjawab pertanyaan:",
+    "message": "Durasi menjawab:",
     "description": "2.0 exam.js"
   },
   "answerTimesCl": {
-    "message": "Jumlah menjawab pertanyaan:",
+    "message": "Jumlah menjawab:",
     "description": "2.0 exam.js"
   },
   "passScoreCl": {
-    "message": "Nilai kelulusan:",
+    "message": "Nilai lolos:",
     "description": "2.0 exam.js"
   },
   "participtionWaysCl": {
@@ -1224,7 +1224,7 @@
     "description": "2.0 exam.js"
   },
   "faceAuthTips9": {
-    "message": "Silahkan minta nomor verifikasi dari dosen pengawas dan masukkan",
+    "message": "Silahkan minta no. verifikasi dari dosen pengawas dan masukkan no. tersebut",
     "description": "2.0 exam.js"
   },
   "verificationCodeError": {
@@ -1248,7 +1248,7 @@
     "description": "2.0 exam.js"
   },
   "refuseReasonCl": {
-    "message": "Alasan penolakan:",
+    "message": "Alasan ditolak:",
     "description": "2.0 exam.js"
   },
   "faceAuthTips12": {
@@ -1256,15 +1256,15 @@
     "description": "2.0 exam.js"
   },
   "waitTeaAudit": {
-    "message": "Menunggu dosen untuk memeriksa",
+    "message": "Menunggu pemeriksaan dari dosen",
     "description": "2.0 exam.js"
   },
   "auditPassed": {
-    "message": "Telah lolos dari pemeriksaan",
+    "message": "Telah disetujui",
     "description": "2.0 exam.js"
   },
   "auditFailed": {
-    "message": "Belum lolos dari pemeriksaan",
+    "message": "Belum disetujui",
     "description": "2.0 exam.js"
   },
   "faceAuthTips13": {
@@ -1300,7 +1300,7 @@
     "description": "2.0 exam.js"
   },
   "toBeAudit": {
-    "message": "Menunggu untuk diperiksa",
+    "message": "Akan diperiksa",
     "description": "2.0 exam.js"
   },
   "thisTimeExamPhoto": {
@@ -1312,11 +1312,11 @@
     "description": "2.0 exam.js"
   },
   "studentNOCl": {
-    "message": "Nomor mahasiswa:",
+    "message": "NIM:",
     "description": "2.0 exam.js"
   },
   "classCl": {
-    "message": "Kegiatan:",
+    "message": "kelas:",
     "description": "2.0 exam.js"
   },
   "waitApproved": {
@@ -1348,7 +1348,7 @@
     "description": "2.0 exam.js"
   },
   "gradeTips8": {
-    "message": "Waktu meninggalkan ujian yang agak lama, maka kondisi tidak normal akan menjadi +1",
+    "message": "Jika meninggalkan ujian agak lama, maka kondisi tidak normal akan menjadi +1",
     "description": "2.0 exam.js"
   },
   "intoPage": {
@@ -1392,11 +1392,11 @@
     "description": "2.0 exam.js"
   },
   "toBeApprovedNumber": {
-    "message": "Jumlah yang sedang menunggu untuk dinilai",
+    "message": "Jumlah yang akan dikoreksi",
     "description": "2.0 exam.js"
   },
   "approvedNumber": {
-    "message": "Jumlah yang telah dinilai",
+    "message": "Jumlah yang telah dikoreksi",
     "description": "2.0 exam.js"
   },
   "closeAnonymousMarking": {
@@ -1452,7 +1452,7 @@
     "description": "2.0 exam.js"
   },
   "arrangingExamRoom": {
-    "message": "Mengatur ruang ujian",
+    "message": "Atur ruang ujian",
     "description": "2.0 exam.js"
   },
   "exportTable": {
@@ -1460,7 +1460,7 @@
     "description": "2.0 exam.js"
   },
   "batch": {
-    "message": "Batch ujian",
+    "message": "Sesi ujian",
     "description": "2.0 exam.js"
   },
   "clearExamRoomPlan": {
@@ -1468,7 +1468,7 @@
     "description": "2.0 exam.js"
   },
   "noDesignatedExamRoom": {
-    "message": "-Tidak ada ruang ujian yang ditentukan untuk saat ini-",
+    "message": "-Belum ada ruang ujian yang ditentukan-",
     "description": "2.0 exam.js"
   },
   "examRoom": {
@@ -1488,7 +1488,7 @@
     "description": "2.0 exam.js"
   },
   "remainSeat": {
-    "message": "Tempat duduk tersisa",
+    "message": "Sisa tempat duduk",
     "description": "2.0 exam.js"
   },
   "invigilator": {
@@ -1528,15 +1528,15 @@
     "description": "2.0 exam.js"
   },
   "roomTips2": {
-    "message": "Yakin untuk menghapus seluruh ruang ujian dan dosen pengawas pada batch ujian kali ini?",
+    "message": "Yakin untuk menghapus seluruh ruang ujian dan dosen pengawas pada sesi ujian kali ini?",
     "description": "2.0 exam.js"
   },
   "addBatch": {
-    "message": "Tambah batch ujian",
+    "message": "Tambah sesi ujian",
     "description": "2.0 exam.js"
   },
   "someBatch": {
-    "message": "batch ujian",
+    "message": "sesi ujian",
     "description": "2.0 exam.js"
   },
   "time": {
@@ -1592,11 +1592,11 @@
     "description": "2.0 exam.js"
   },
   "participantsPeople": {
-    "message": "Orang yang berpartisipasi:",
+    "message": "Peserta:",
     "description": "2.0 exam.js"
   },
   "addClass": {
-    "message": "Tambah kegiatan",
+    "message": "Tambah kelas",
     "description": "2.0 exam.js"
   },
   "addStudent": {
@@ -1620,15 +1620,15 @@
     "description": "2.0 exam.js"
   },
   "roomTips3": {
-    "message": "Masukkan nama lengkap mahasiswa/nomor mahasiswa untuk melakukan pencarian",
+    "message": "Masukkan nama lengkap mahasiswa/NIM untuk melakukan pencarian",
     "description": "2.0 exam.js"
   },
   "roomTips4": {
-    "message": "Dosen tersebut belum memiliki kegiatan yang diajar",
+    "message": "Dosen tersebut belum ada kelas yang diajar",
     "description": "2.0 exam.js"
   },
   "roomTips5": {
-    "message": "Tidak menemukan kegiatan terkait",
+    "message": "Tidak dapat menemukan kelas terkait",
     "description": "2.0 exam.js"
   },
   "roomTips6": {
@@ -1636,7 +1636,7 @@
     "description": "2.0 exam.js"
   },
   "roomTips7": {
-    "message": "Tidak ada mahasiswa untuk saat ini",
+    "message": "Belum ada mahasiswa",
     "description": "2.0 exam.js"
   },
   "batchExpand": {
@@ -1660,11 +1660,11 @@
     "description": "2.0 exam.js"
   },
   "roomTips10": {
-    "message": "Menghapus ujian akan menyebabkan catatan menjawab pertanyaan yang telah dikumpul pada saat ujian kali ini hilang, mohon operasikan dengan teliti. Yakin untuk hapus?",
+    "message": "Menghapus sesi ujian akan menyebabkan catatan jawaban yang telah dikumpul pada saat ujian kali ini hilang, mohon operasikan dengan teliti. Yakin untuk hapus?",
     "description": "2.0 exam.js"
   },
   "roomTips11": {
-    "message": "Yakin untuk menghapus ujian tersebut?",
+    "message": "Yakin untuk hapus sesi ujian tersebut?",
     "description": "2.0 exam.js"
   },
   "deleteBatch": {
@@ -1676,7 +1676,7 @@
     "description": "2.0 exam.js"
   },
   "roomTips13": {
-    "message": "Silahkan pilih objek ujian (kegiatan atau mahasiswa)",
+    "message": "Silahkan pilih objek ujian (kelas atau mahasiswa)",
     "description": "2.0 exam.js"
   },
   "monitor": {
@@ -1704,7 +1704,7 @@
     "description": "2.0 exam.js"
   },
   "inputNameAndStuNoSearch": {
-    "message": "Masukkan nama lengkap/nomor mahasiswa untuk melakukan pencarian",
+    "message": "Masukkan nama lengkap/NIM untuk melakukan pencarian",
     "description": "2.0 exam.js"
   },
   "exportMonitorInfo": {
@@ -1728,7 +1728,7 @@
     "description": "2.0 exam.js"
   },
   "answering": {
-    "message": "Sedang menjawab pertanyaan",
+    "message": "Sedang menjawab",
     "description": "2.0 exam.js"
   },
   "handInExam": {
@@ -1736,7 +1736,7 @@
     "description": "2.0 exam.js"
   },
   "equipment": {
-    "message": "Peralatan",
+    "message": "Perangkat",
     "description": "2.0 exam.js"
   },
   "verificationType": {
@@ -1748,7 +1748,7 @@
     "description": "2.0 exam.js"
   },
   "answerTimeMinite": {
-    "message": "Durasi menjawab pertanyaan(menit)",
+    "message": "Durasi menjawab (menit)",
     "description": "2.0 exam.js"
   },
   "faceVerification": {
@@ -1756,11 +1756,11 @@
     "description": "2.0 exam.js"
   },
   "verificationCode": {
-    "message": "Nilai verifikasi",
+    "message": "No. verifikasi",
     "description": "2.0 exam.js"
   },
   "abnormalRecord": {
-    "message": "Catatan mengenai kondisi tidak normal",
+    "message": "Catatan kondisi tidak normal",
     "description": "2.0 exam.js"
   },
   "haveEntered": {
@@ -1772,7 +1772,7 @@
     "description": "2.0 exam.js"
   },
   "beAnswering": {
-    "message": "Sedang menjawab pertanyaan",
+    "message": "Sedang menjawab",
     "description": "2.0 exam.js"
   },
   "descriptionCl": {
@@ -1792,7 +1792,7 @@
     "description": "2.0 exam.js"
   },
   "unuploadedPhotos": {
-    "message": "Belum mengunggah foto",
+    "message": "Belum unggah foto",
     "description": "2.0 exam.js"
   },
   "batchOpration": {
@@ -1856,7 +1856,7 @@
     "description": "2.0 exam.js"
   },
   "auditTips4": {
-    "message": "Nama dokumen foto harus meliputi nomor mahasiswa, selain nomor mahasiswa, tidak boleh menginput angka lainnya.",
+    "message": "Nama dokumen foto harus meliputi NIM. Selain NIM, tidak boleh menginput angka lainnya.",
     "description": "2.0 exam.js"
   },
   "auditTips5": {
@@ -1868,7 +1868,7 @@
     "description": "2.0 exam.js"
   },
   "auditTips7": {
-    "message": "Zhang San",
+    "message": "Tom",
     "description": "2.0 exam.js"
   },
   "auditTips8": {
@@ -1912,7 +1912,7 @@
     "description": "2.0 exam.js"
   },
   "auditTips14": {
-    "message": "Silahkan pilih mahasiswa yang perlu untuk menghapus foto",
+    "message": "Silahkan pilih mahasiswa yang perlu menghapus foto",
     "description": "2.0 exam.js"
   },
   "auditTips15": {
@@ -1936,11 +1936,11 @@
     "description": "2.0 exam.js"
   },
   "auditTips19": {
-    "message": "lembar, nomor mahasiswa atau format dokumen di bawah ini tidak benar (",
+    "message": "lembar, NIM atau format dokumen di bawah ini tidak benar (",
     "description": "2.0 exam.js"
   },
   "auditTips20": {
-    "message": "Impor selesai, berhasil mengimpor",
+    "message": "Impor selesai, berhasil diimpor",
     "description": "2.0 exam.js"
   },
   "auditTips21": {
@@ -2084,11 +2084,11 @@
     "description": "2.0 exam.js"
   },
   "schoolQuestionLibrary": {
-    "message": "Kumpulan soal sekolah ini",
+    "message": "Kumpulan soal universitas ini",
     "description": "2.0 exam.js"
   },
   "randomTips4": {
-    "message": "belum membuat daftar isi",
+    "message": "Belum membuat daftar isi",
     "description": "2.0 exam.js"
   },
   "randomTips5": {
@@ -2136,15 +2136,15 @@
     "description": "2.0 exam.js"
   },
   "matchingQ": {
-    "message": "Soal pencocokan",
+    "message": "Cocokan",
     "description": "2.0 exam.js"
   },
   "readingQ": {
-    "message": "Soal membaca",
+    "message": "Membaca",
     "description": "2.0 exam.js"
   },
   "listeningQ": {
-    "message": "Soal pendengaran",
+    "message": "Pendengaran",
     "description": "2.0 exam.js"
   },
   "writingQ": {
@@ -2176,7 +2176,7 @@
     "description": "2.0 exam.js"
   },
   "readingQBankedCloze": {
-    "message": "Soal membaca (Pilih kata dan isi ke dalam bagian yang kosong)",
+    "message": "Soal membaca (pilih kata dan isi)",
     "description": "2.0 exam.js"
   },
   "attachUploadQ": {
@@ -2232,7 +2232,7 @@
     "description": "2.0 exam.js"
   },
   "roomEditorTips1": {
-    "message": "Jumlah maksimal peserta ujian untuk 1 kali ujian adalah:",
+    "message": "Jumlah maksimal peserta ujian untuk 1 kali sesi ujian adalah:",
     "description": "2.0 exam.js"
   },
   "roomEditorTips2": {
@@ -2256,7 +2256,7 @@
     "description": "2.0 exam.js"
   },
   "normalClassroom": {
-    "message": "Kegiatan biasa",
+    "message": "Ruang kelas biasa",
     "description": "2.0 exam.js"
   },
   "computerRoom": {
@@ -2288,11 +2288,11 @@
     "description": "2.0 exam.js"
   },
   "roomEditorTips5": {
-    "message": "Sistem telah menghasilkan pengaturan secara otomatis sesuai dengan jumlah orang di dalam kegiatan dan jumlah tempat duduk di ruang ujian, anda dapat melakukan pengaturan secara manual, setelah dikonfirmasi, simpan hasil pengaturan.",
+    "message": "Sistem telah menghasilkan pengaturan secara otomatis sesuai dengan jumlah orang di dalam kelas dan jumlah tempat duduk di ruang ujian, anda dapat melakukan pengaturan secara manual, setelah dikonfirmasi, simpan hasil pengaturan.",
     "description": "2.0 exam.js"
   },
   "roomEditorTips6": {
-    "message": "Klik untuk memilih 1 kegiatan, ruang ujian bisa diubah; pilih 2 kegiatan, dapat melakukan pergantian ruang ujian.",
+    "message": "Klik dan pilih 1 kelas, ruang ujian bisa diubah; pilih 2 kelas, dapat melakukan pergantian ruang ujian.",
     "description": "2.0 exam.js"
   },
   "modifyExamRoom": {
@@ -2308,7 +2308,7 @@
     "description": "2.0 exam.js"
   },
   "roomEditorTips7": {
-    "message": "Anda bisa menggeser kegiatan saat ini ke ujian lain; juga bisa memilih sebagian mahasiswa dari kegiatan saat ini untuk pindah ke ujian lain.",
+    "message": "Anda bisa menggeser kelas saat ini ke ruang ujian lain; juga bisa memilih sebagian mahasiswa dari kelas saat ini untuk pindah ke ruang ujian lain.",
     "description": "2.0 exam.js"
   },
   "roomEditorTips8": {
@@ -2316,31 +2316,31 @@
     "description": "2.0 exam.js"
   },
   "roomEditorTips9": {
-    "message": "di antaranya",
+    "message": ") di antaranya",
     "description": "2.0 exam.js"
   },
   "roomEditorTips10": {
-    "message": "orang dipindahkan ke ujian di bawah ini:",
+    "message": "orang dipindahkan ke ruang ujian di bawah ini:",
     "description": "2.0 exam.js"
   },
   "roomEditorTips11": {
-    "message": "Yakin untuk menghapus ujian tersebut?",
+    "message": "Yakin untuk hapus ruang ujian tersebut?",
     "description": "2.0 exam.js"
   },
   "roomEditorTips12": {
-    "message": "Silahkan masukkan nama ujian",
+    "message": "Silahkan masukkan nama ruang ujian",
     "description": "2.0 exam.js"
   },
   "roomEditorTips13": {
-    "message": "Silahkan masukkan angka yang lebih besari dari 0",
+    "message": "Silahkan masukkan angka yang lebih besar dari 0",
     "description": "2.0 exam.js"
   },
   "roomEditorTips14": {
-    "message": "Jumlah tempat duduk ujian yang dipilih harus lebih besar dari jumlah peserta ujian terbanyak untuk 1 ujian",
+    "message": "Jumlah tempat duduk ruang ujian yang dipilih harus lebih besar dari jumlah peserta ujian terbanyak untuk 1 sesi ujian",
     "description": "2.0 exam.js"
   },
   "roomEditorTips15": {
-    "message": "Silahkan pilih ujian",
+    "message": "Silahkan pilih ruang ujian",
     "description": "2.0 exam.js"
   },
   "roomEditorTips16": {
@@ -2364,7 +2364,7 @@
     "description": "2.0 exam.js"
   },
   "inputExamName": {
-    "message": "Silahkan masukka nama ujian",
+    "message": "Silahkan masukkan nama ujian",
     "description": "2.0 exam.js"
   },
   "examPapers": {
@@ -2372,7 +2372,7 @@
     "description": "2.0 exam.js"
   },
   "appointExamPaper": {
-    "message": "Menentukan kertas ujian",
+    "message": "Tentukan kertas ujian",
     "description": "2.0 exam.js"
   },
   "setExamTips1": {
@@ -2392,7 +2392,7 @@
     "description": "2.0 exam.js"
   },
   "passScore": {
-    "message": "Nilai kelulusan",
+    "message": "Nilai lolos",
     "description": "2.0 exam.js"
   },
   "examResult": {
@@ -2420,7 +2420,7 @@
     "description": "2.0 exam.js"
   },
   "showScope": {
-    "message": "Tampilan cakupan",
+    "message": "Cakupan tampilan",
     "description": "2.0 exam.js"
   },
   "participtionWay": {
@@ -2436,7 +2436,7 @@
     "description": "2.0 exam.js"
   },
   "setExamTips2": {
-    "message": "Bisa melaksanakan ujian di komputer maupun di ponsel",
+    "message": "Bisa ujian di komputer maupun di ponsel",
     "description": "2.0 exam.js"
   },
   "setExamTips3": {
@@ -2444,7 +2444,7 @@
     "description": "2.0 exam.js"
   },
   "setExamTips4": {
-    "message": "Termasuk soal yang tidak didukung, silahkan ubah cara partisipasi atau ubah konten kertas ujian",
+    "message": "Terdiri dari soal yang tidak didukung, silahkan ubah cara partisipasi atau ubah konten kertas ujian",
     "description": "2.0 exam.js"
   },
   "examTimes": {
@@ -2508,7 +2508,7 @@
     "description": "2.0 exam.js"
   },
   "setExamTips9": {
-    "message": "(Poin tersebut adalah layanan berbayar, institusi anda belum mengaktifkannya untuk saat ini; apabila perlu mengaktifkannya, silahkan hubungi layanan pelanggan: 400-610-7808)",
+    "message": "(Poin tersebut adalah layanan berbayar, universitas anda belum mengaktifkannya untuk saat ini; apabila perlu mengaktifkannya, silahkan hubungi layanan pelanggan: 400-610-7808)",
     "description": "2.0 exam.js"
   },
   "setExamTips10": {
@@ -2528,7 +2528,7 @@
     "description": "2.0 exam.js"
   },
   "publishSuccess": {
-    "message": "Berhasil merilis",
+    "message": "Berhasil dirilis",
     "description": "2.0 exam.js"
   },
   "modifyExamSuccess": {
@@ -2560,7 +2560,7 @@
     "description": "2.0 exam.js"
   },
   "setExamTips17": {
-    "message": "NIlai kelulusan harus berada diantara {range} Antara",
+    "message": "Nilai lolos harus berada diantara 0~",
     "description": "2.0 exam.js"
   },
   "setExamTips18": {
@@ -2568,7 +2568,7 @@
     "description": "2.0 exam.js"
   },
   "setExamTips19": {
-    "message": "Silahkan pilih objek ujian (kegiatan atau mahasiswa)",
+    "message": "Silahkan pilih objek ujian (kelas atau mahasiswa)",
     "description": "2.0 exam.js"
   },
   "allBatch": {
@@ -2596,11 +2596,11 @@
     "description": "2.0 exam.js"
   },
   "statisticsTips2": {
-    "message": "Apabila mahasiswa memiliki catatan banyak menjawab pertanyaan, maka nilai tertinggi yang akan dihitung",
+    "message": "Apabila mahasiswa memiliki catatan beberapa kali menjawab pertanyaan, maka akan dihitung sesuai dengan nilai tertingginya",
     "description": "2.0 exam.js"
   },
   "userNumber": {
-    "message": "Jumlah orang yang menggunakan",
+    "message": "Jumlah pengguna",
     "description": "2.0 exam.js"
   },
   "viewQue": {
@@ -2624,11 +2624,11 @@
     "description": "2.0 exam.js"
   },
   "class": {
-    "message": "Kegiatan",
+    "message": "Kelas",
     "description": "2.0 exam.js"
   },
   "roomTips14": {
-    "message": "Silahkan masukkan nama lengkap/nomor mahasiswa untuk melakukan pencarian",
+    "message": "Masukkan nama lengkap/NIM untuk melakukan pencarian",
     "description": "2.0 exam.js"
   },
   "allStudent": {
@@ -2636,7 +2636,7 @@
     "description": "2.0 exam.js"
   },
   "auditFailed2": {
-    "message": "Belum lolos dari pemeriksaan",
+    "message": "Tidak disetujui",
     "description": "2.0 exam.js"
   },
   "remain": {

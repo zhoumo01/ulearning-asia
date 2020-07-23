@@ -1,46 +1,46 @@
 {
   "editHomework": {
-    "message": "Ubah tugas grup",
+    "message": "Ubah tugas kelompok",
     "description": "1.0 homework.json"
   },
   "addHomework": {
-    "message": "Prakarsai kerja kelompok",
+    "message": "Mulai tugas kelompok",
     "description": "1.0 homework.json"
   },
   "kindTips": {
-    "message": "Silakan masukkan permintaan tugas, mahasiswa dapat mengirimkan teks, rekaman audio atau mengunggah lampiran sebagai konten tugas",
+    "message": "Silahkan masukkan persyaratan tugas, mahasiswa bisa mengirim teks, rekaman audio atau unggah lampiran sebagai konten tugas",
     "description": "1.0 homework.json"
   },
   "excel": {
-    "message": "excel file",
+    "message": "Dokumen excel",
     "description": "1.0 homework.json"
   },
   "ppt": {
-    "message": "file ppt",
+    "message": "Dokumen ppt",
     "description": "1.0 homework.json"
   },
   "PDF": {
-    "message": "File PDF",
+    "message": "Dokumen PDF",
     "description": "1.0 homework.json"
   },
   "TEXT": {
-    "message": "File TEXT",
+    "message": "Dokumen TEXT",
     "description": "1.0 homework.json"
   },
   "compress": {
-    "message": "file terkompresi",
+    "message": "Dokumen zip",
     "description": "1.0 homework.json"
   },
   "video": {
-    "message": "file video",
+    "message": "Video",
     "description": "1.0 homework.json"
   },
   "audio": {
-    "message": "file audio",
+    "message": "Audio",
     "description": "1.0 homework.json"
   },
   "picture": {
-    "message": "file gambar",
+    "message": "Gambar",
     "description": "1.0 homework.json"
   },
   "other": {
@@ -48,19 +48,19 @@
     "description": "1.0 homework.json"
   },
   "adjustGroupingTxt": {
-    "message": "Sesuaikan metode pengelompokan",
+    "message": "Atur cara pengelompokan",
     "description": "1.0 homework.json"
   },
   "adjustGroupingTipTxt": {
-    "message": "Setelah menyesuaikan mode pengelompokan, catatan pengelompokan asli akan dihapus. Apakah Anda mengonfirmasi pengelompokan penyesuaian?",
+    "message": "Setelah mengatur cara pengelompokan, catatan awal akan dihapus. Yakin untuk atur pengelompokan?",
     "description": "1.0 homework.json"
   },
   "downloadTemplateTipTxt": {
-    "message": "Unduh template untuk mengatur data grup siswa sesuai dengan format template",
+    "message": "Unduh template untuk atur data kelompok mahasiswa sesuai dengan format templat",
     "description": "1.0 homework.json"
   },
   "downloadTemplateTxt": {
-    "message": "Unduh Template",
+    "message": "Unduh templat",
     "description": "1.0 homework.json"
   },
   "uploadFileTipTxt": {
@@ -68,15 +68,15 @@
     "description": "1.0 homework.json"
   },
   "uploadFileTip1Txt": {
-    "message": "Catatan: Jika Anda perlu memodifikasi grup siswa, Anda dapat mengunggah ulang daftar grup.",
+    "message": "Catatan: Jika perlu mengubah kelompok mahasiswa, anda boleh unggah ulang daftar kelompok.",
     "description": "1.0 homework.json"
   },
   "uploadFileTip2Txt": {
-    "message": "Setelah mengunggah kembali, pengelompokan siswa akan digantikan oleh pengelompokan baru",
+    "message": "Setelah unggah ulang, kelompok mahasiswa akan digantikan dengan yang baru",
     "description": "1.0 homework.json"
   },
   "adjustGroupingBodyTitleTxt": {
-    "message": "Silakan ikuti langkah-langkah di bawah ini untuk beroperasi",
+    "message": "Silahkan ikuti langkah dibawah ini",
     "description": "1.0 homework.json"
   },
   "importSucTxt": {
@@ -407,8 +407,56 @@
     "message": "Rincian tugas",
     "description": "对应于学生查看作业详情页面"
   },
+  "countLimtTip": {
+    "message": "Kuis dibatasi, tidak bisa diulang jika sudah melebihi batas. {br} Yakin untuk kumpul?",
+    "description": "对应于学生查看作业详情页面。{br}是一个换行的标签，需要原样保留"
+  },
+  "submitHomework": {
+    "message": "Kumpul tugas",
+    "description": "对应于学生查看作业详情页面"
+  },
+  "collapseText2": {
+    "message": "<< Simpan",
+    "description": "教师批阅小组作业页面"
+  },
+  "checkAllMemebers": {
+    "message": "Lihat semua 12 anggota >>",
+    "description": "教师批阅小组作业页面"
+  },
+  "comment": {
+    "message": "Komen",
+    "description": "教师批阅小组作业页面"
+  },
+  "noComment": {
+    "message": "Dia tidak menilai tugas ini",
+    "description": "教师批阅小组作业页面"
+  },
+  "noEvaluation": {
+    "message": "Dia tidak menilai orang lain",
+    "description": "教师批阅小组作业页面"
+  },
   "scoreText": {
     "message": " {score} poin ",
+    "description": "教师批阅小组作业页面"
+  },
+  "systemAdvice": {
+    "message": "Penilaian sistem 0 poin",
+    "description": "教师批阅小组作业页面"
+  },
+  "shortWord": {
+    "message": "Jumlah kata dalam tugas kurang dari 10",
+    "description": "教师批阅小组作业页面"
+  },
+  "plzInputPoint": {
+    "message": "Silahkan masukkan nilai",
+    "description": "教师批阅小组作业页面"
+  },
+  "commentCountLimit": {
+    "message": "Komen harus kurang dari 1000 karakter",
+    "description": "教师批阅小组作业页面"
+  },
+  "submitHomeworkFail": {
+    "message": "Gagal kumpul tugas",
     "description": "教师批阅小组作业页面"
   },
   "frontPartTip": {
@@ -418,6 +466,58 @@
   "backPartTip": {
     "message": "Sudah di halaman paling belakang",
     "description": "教师批阅小组作业页面"
+  },
+  "validateNumber": {
+    "message": "Silahkan masukkan nilai yang tepat, hanya terdiri dari 1 angka desimal",
+    "description": "教师批阅小组作业页面"
+  },
+  "validateScore": {
+    "message": "Nilai yang didapat tidak boleh lebih dari total nilai",
+    "description": "教师批阅小组作业页面"
+  },
+  "referSuggest": {
+    "message": "Informasi dibawah ini hanya sebagai referensi:",
+    "description": "教师批阅小组作业页面"
+  },
+  "sentenceError1": {
+    "message": "[Kosa kata salah] {message}",
+    "description": "教师批阅小组作业页面"
+  },
+  "sentenceError2": {
+    "message": "[Kosa kata salah] {message}, disarankan menggunakan {replace};",
+    "description": "教师批阅小组作业页面"
+  },
+  "syntaxError": {
+    "message": "[Tata bahasa salah] {message}",
+    "description": "教师批阅小组作业页面"
+  },
+  "noError": {
+    "message": "Karangan anda bagus, tidak ada masalah pada tata bahasa, pertahankanlah!",
+    "description": "教师批阅小组作业页面"
+  },
+  "imageLoading": {
+    "message": "Sedang memuat gambar...",
+    "description": "homeworkPreview.js"
+  },
+  "imageLoadError": {
+    "message": "Gagal memuat gambar, silahkan refresh dan coba kembali!",
+    "description": "homeworkPreview.js"
+  },
+  "documentLoading": {
+    "message": "Sedang memuat sumber dokumen...",
+    "description": "homeworkPreview.js"
+  },
+  "compressedPack": {
+    "message": "Paket zip",
+    "description": "homeworkPreview.js"
+  },
+  "compressedFile": {
+    "message": "Dokumen zip",
+    "description": "homeworkPreview.js"
+  },
+  "videoTranscoding": {
+    "message": "Sedang transcoding video...",
+    "description": "homeworkPreview.js"
   },
   "automaticText": {
     "message": "Ini adalah tugas pemberian skor otomatis. Setiap konten mengharuskan Anda untuk membacanya dalam waktu 2 menit. Jika tidak, itu akan menyebabkan sistem gagal membuat skor!",
@@ -732,23 +832,23 @@
     "description": "homeworkGroupStu.js"
   },
   "addEvaluationText": {
-    "message": "Tambahkan ulasan",
+    "message": "Tambah komen",
     "description": "homeworkGroupStu.js"
   },
   "testGrammarText": {
-    "message": "Dalam penugasan Kurang dari 10 kata bahasa Inggris tidak dapat diuji secara tata bahasa ",
+    "message": "Tata bahasa tidak dapat diperiksa apabila kosa kata Inggris di dalam tugas kurang dari 10",
     "description": "homeworkGroupStu.js"
   },
   "compositionText": {
-    "message": "Komposisi terlalu panjang, kata-katanya lebih dari 500 kata!",
+    "message": "Esai terlalu panjang, lebih dari 500 kata!",
     "description": "homeworkGroupStu.js"
   },
   "beCheckText": {
-    "message": "Memeriksa",
+    "message": "Sedang diperiksa",
     "description": "homeworkGroupStu.js"
   },
   "AmendText": {
-    "message": "Tinjauan",
+    "message": "Ubah pendapat",
     "description": "homeworkGroupStu.js"
   },
   "mutiTimesScoreTipText": {
