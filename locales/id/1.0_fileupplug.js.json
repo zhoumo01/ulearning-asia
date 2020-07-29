@@ -25,7 +25,7 @@
   },
   "fileLessThan": {
     "message": "Dokumen yang diunggah harus kurang dari {size}",
-    "description": "1.0 fileupplug.js"
+    "description": "注意：花括号( 即 {} ) 里面的值是插值，不要改，大小写也不能变化"
   },
   "netError": {
     "message": "Terjadi kesalahan pada jaringan, silahkan periksa jaringan internet",
@@ -52,15 +52,15 @@
     "description": "1.0 fileupplug.json"
   },
   "uploadErr1": {
-    "message": "File yang sama tidak dapat diunggah!",
+    "message": "Dokumen yang sama tidak dapat diunggah!",
     "description": "1.0 fileupplug.json"
   },
   "uploadErr2": {
-    "message": "Ukuran file melebihi batas!",
+    "message": "Ukuran dokumen melebihi batas.",
     "description": "1.0 fileupplug.json"
   },
   "uploadErr3": {
-    "message": "Unggah kesalahan, periksa file atau kondisi jaringan, coba lagi nanti!",
+    "message": "Terjadi kesalahan pada saat mengunggah, silahkan periksa dokumen atau kondisi jaringan internet anda, kemudian coba kembali!",
     "description": "1.0 fileupplug.json"
   },
   "uploadFileLimit": {
@@ -80,15 +80,15 @@
     "description": "1.0 fileupplug.js"
   },
   "videoConversionErrorText": {
-    "message": "Sedang ada dokumen yang diunggah!",
-    "description": "1.0 fileupplug.js"
-  },
-  "uploadingStr": {
     "message": "Format penggantian video salah",
     "description": "1.0 fileupplug.js"
   },
+  "uploadingStr": {
+    "message": "Ada dokumen yang sedang diunggah",
+    "description": "1.0 fileupplug.js"
+  },
   "uploadComplete": {
-    "message": "Unggahan berhasil",
+    "message": "Berhasil diunggah",
     "description": "1.0 fileupplug.js"
   },
   "uploadFail": {
@@ -103,12 +103,16 @@
     "message": "Gagal mengunggah inisialisasi komponen, silahkan ganti browser, sedang ditangani.",
     "description": "1.0 fileupplug.js"
   },
+  "uploadFileFail": {
+    "message": "Dokumen gagal diunggah",
+    "description": "1.0 fileupplug.js"
+  },
   "contentFile": {
-    "message": "Jangan unggah file yang sama",
+    "message": "Jangan unggah dokumen yang sama",
     "description": "1.0 fileupplug.js"
   },
   "contentFile2": {
-    "message": "Tidak dapat mengunggah file yang sama",
+    "message": "Tidak dapat mengunggah dokumen yang sama",
     "description": "1.0 fileupplug.js"
   },
   "addSubtitles": {
@@ -116,7 +120,7 @@
     "description": "1.0 fileupplug.js"
   },
   "confirmDelete": {
-    "message": "Konfirmasikan hapus?",
+    "message": "Yakin untuk hapus?",
     "description": "1.0 fileupplug.js"
   },
   "uploadAttach": {

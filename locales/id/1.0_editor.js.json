@@ -4,7 +4,7 @@
     "description": "1.0 editor.js"
   },
   "CreatedText": {
-    "message": "Telah dibuat {count} soal",
+    "message": "Sudah buat {count} soal",
     "description": "1.0 editor.js"
   },
   "returnListText": {
@@ -20,7 +20,7 @@
     "description": "1.0 editor.js"
   },
   "quesParseError": {
-    "message": "Soal {title} terjadi kesalahan pada saat proses analisa",
+    "message": "Analisa soal {title} terjadi kesalahan",
     "description": "1.0 editor.js"
   },
   "batchCreate": {
@@ -28,31 +28,31 @@
     "description": "1.0 editor.js"
   },
   "createQues": {
-    "message": "Buat",
+    "message": "Pilih dan buat soal",
     "description": "1.0 editor.js"
   },
   "allTypeQues": {
-    "message": "Semua pertanyaan",
+    "message": "Semua jenis soal",
     "description": "1.0 editor.js"
   },
   "gotoSubQues": {
-    "message": "Klik untuk melompat langsung ke pertanyaan terkait",
+    "message": "Klik untuk lompat langsung ke soal terkait",
     "description": "1.0 editor.js"
   },
   "changeScoreText": {
-    "message": "Yakin untuk nilai revisi batch?",
+    "message": "Yakin untuk revisi nilai secara batch?",
     "description": "1.0 editor.js"
   },
   "scoreTips": {
-    "message": "Masukkan skor yang benar",
+    "message": "Silahkan masukkan nilai yang valid",
     "description": "1.0 editor.js"
   },
   "setScoreTips": {
-    "message": "Buat membuat soal",
+    "message": "Buat soal terlebih dahulu",
     "description": "1.0 editor.js"
   },
   "questionTitle": {
-    "message": "Soal pilihan",
+    "message": "Pilih jenis soal",
     "description": "1.0 editor.js"
   },
   "questionDetailDesc": {
@@ -68,7 +68,7 @@
     "description": "1.0 public.js"
   },
   "answer": {
-    "message": "Answer: {content}",
+    "message": "Jawaban: {content}",
     "description": "1.0 public.js"
   },
   "completionAnswerTips": {
@@ -76,12 +76,20 @@
     "description": "1.0 editor.js"
   },
   "batchSetScoreText": {
-    "message": "Nilai revisi batch",
+    "message": "Revisi nilai secara batch",
     "description": "1.0 editor.js"
   },
   "scoreText": {
     "message": "{score} poin",
     "description": "注意，这个指的是某道题目的分值，不是得了多少分，在试题编辑器 -> 批量导入 -> 导入习题后，每个习题的标题的左侧有一个括号，括号内标有题目的分值"
+  },
+  "correct": {
+    "message": "Benar",
+    "description": "指判断题的答案，如果答案是true，则显示“正确”"
+  },
+  "incorrect": {
+    "message": "Salah",
+    "description": "指判断题的答案，如果答案是false，则显示“错误”"
   },
   "singleQ2": {
     "message": " Pilihan ganda",
@@ -100,11 +108,11 @@
     "description": "1.0 editor.js"
   },
   "JQuiz2": {
-    "message": " Uraian",
+    "message": "Uraian",
     "description": "1.0 editor.js"
   },
   "analysisTit": {
-    "message": "此处填写解析，没有可不填",
+    "message": "Input analisa di sini, tidak harus diisi",
     "description": "1.0 editor.js"
   },
   "saveSuccessTips": {
@@ -112,15 +120,15 @@
     "description": "1.0 editor.js"
   },
   "saveErrorTips": {
-    "message": "Gagal disimpan",
+    "message": "Gagal menyimpan",
     "description": "1.0 editor.js"
   },
   "saveErrorTips2": {
-    "message": "Sebagian soal gagal disimpab",
+    "message": "Sebagian soal gagal disimpan",
     "description": "1.0 editor.js"
   },
   "numExceededTips": {
-    "message": "Tidak boleh lebih dari 200 soal setiap kali memasukkan soal",
+    "message": "Sekali input harus kurang dari 200 soal",
     "description": "1.0 editor.js"
   },
   "incompleteMessage1": {
