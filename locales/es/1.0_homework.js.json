@@ -291,6 +291,10 @@
     "message": "Los estudiantes pueden apelar al maestro por el puntaje promedio de la evaluación mutua, y el maestro puede cambiar el puntaje promedio de la evaluación mutua, pero aún así deben deducir el puntaje deducido por el estudiante por no hacer la evaluación de tareas a tiempo",
     "description": "1.0 homework.json"
   },
+  "stuAppealContent": {
+    "message": "Si los estudiantes no están satisfechos con el puntaje promedio de la evaluación mutua, pueden apelar al maestro y el maestro calificará el trabajo. La calificación final es la calificación del maestro, la calificación del trabajo a evaluar * 5% * la calificación total del trabajo.",
+    "description": "homeworkGroupStu.js"
+  },
   "selectClass": {
     "message": "Elige una clase",
     "description": "1.0 homework.json"
@@ -391,8 +395,180 @@
     "message": "El número de tareas evaluadas por el estudiante.",
     "description": "1.0 homework.json"
   },
+  "expandText": {
+    "message": "Expandir",
+    "description": "对应于学生查看作业详情页面"
+  },
+  "collapseText": {
+    "message": "Colapsar",
+    "description": "对应于学生查看作业详情页面"
+  },
+  "assignmentDetailText": {
+    "message": "Detalles del trabajo",
+    "description": "对应于学生查看作业详情页面"
+  },
+  "countLimtTip": {
+    "message": "Existe un límite en la cantidad de pruebas: si se supera la cantidad de pruebas, no se pueden volver a hacer. {br} ¿Estás seguro de enviar?",
+    "description": "对应于学生查看作业详情页面。{br}是一个换行的标签，需要原样保留"
+  },
+  "submitHomework": {
+    "message": "Enviar tarea",
+    "description": "对应于学生查看作业详情页面"
+  },
+  "collapseText2": {
+    "message": "<<Guardar",
+    "description": "教师批阅小组作业页面"
+  },
+  "checkAllMemebers": {
+    "message": "Ver los 12 miembros.",
+    "description": "教师批阅小组作业页面"
+  },
+  "comment": {
+    "message": "Comentarios",
+    "description": "教师批阅小组作业页面"
+  },
+  "noComment": {
+    "message": "El asistente de profesor no ha calificado esta tarea",
+    "description": "教师批阅小组作业页面"
+  },
+  "noEvaluation": {
+    "message": "Ta no hizo comentarios sobre nadie.",
+    "description": "教师批阅小组作业页面"
+  },
   "scoreText": {
     "message": "{score}",
     "description": "教师批阅小组作业页面"
+  },
+  "systemAdvice": {
+    "message": "Sugerencia de sistema puntaje 0 puntos",
+    "description": "教师批阅小组作业页面"
+  },
+  "shortWord": {
+    "message": "作业里单词数不足10个",
+    "description": "教师批阅小组作业页面"
+  },
+  "plzInputPoint": {
+    "message": "Por favor, ingrese la puntuación total",
+    "description": "教师批阅小组作业页面"
+  },
+  "commentCountLimit": {
+    "message": "Los comentarios no pueden superar los 1000 caracteres.",
+    "description": "教师批阅小组作业页面"
+  },
+  "submitHomeworkFail": {
+    "message": "Error en la entrega del trabajo.",
+    "description": "教师批阅小组作业页面"
+  },
+  "frontPartTip": {
+    "message": "No hay nadie delante.",
+    "description": "教师批阅小组作业页面"
+  },
+  "backPartTip": {
+    "message": "No hay más detrás.",
+    "description": "教师批阅小组作业页面"
+  },
+  "validateNumber": {
+    "message": "Por favor, introduzca la puntuación correcta y mantenga sólo un decimal",
+    "description": "教师批阅小组作业页面"
+  },
+  "validateScore": {
+    "message": "El puntaje no puede exceder el puntaje total",
+    "description": "教师批阅小组作业页面"
+  },
+  "referSuggest": {
+    "message": "La siguiente información es sólo con fines informativos:",
+    "description": "教师批阅小组作业页面"
+  },
+  "sentenceError1": {
+    "message": "[Error de vocabulario] {message}",
+    "description": "教师批阅小组作业页面"
+  },
+  "sentenceError2": {
+    "message": "[Error de vocabulario] {message}, se recomienda {replace} ;",
+    "description": "教师批阅小组作业页面"
+  },
+  "syntaxError": {
+    "message": "【Error gramatical】{message}",
+    "description": "教师批阅小组作业页面"
+  },
+  "noError": {
+    "message": "Su artículo es bueno, no se encontraron problemas gramaticales, ¡siga así!",
+    "description": "教师批阅小组作业页面"
+  },
+  "imageLoading": {
+    "message": "Cargando imagen ...",
+    "description": "homeworkPreview.js"
+  },
+  "imageLoadError": {
+    "message": "No se pudo cargar la imagen, ¡actualice e intente nuevamente!",
+    "description": "homeworkPreview.js"
+  },
+  "documentLoading": {
+    "message": "Cargando recursos del documento ...",
+    "description": "homeworkPreview.js"
+  },
+  "compressedPack": {
+    "message": "Archivo comprimido",
+    "description": "homeworkPreview.js"
+  },
+  "compressedFile": {
+    "message": "Comprimir documento",
+    "description": "homeworkPreview.js"
+  },
+  "videoTranscoding": {
+    "message": "En transcodificación de vídeo...",
+    "description": "homeworkPreview.js"
+  },
+  "automaticText": {
+    "message": "Esta es una tarea calificada automáticamente. Debe leer cada párrafo en 2 minutos, de lo contrario, el sistema no podrá calificar.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "actionDesriptionText": {
+    "message": "Instrucciones de uso",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "addMsgText": {
+    "message": "Añadir un mensaje",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "msgsText": {
+    "message": "Mensaje",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "msgText": {
+    "message": "El mensaje debe tener contenido de texto o datos adjuntos.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "sureDeleteText": {
+    "message": "¿Desea eliminar este mensaje?",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "scoreEmptyText": {
+    "message": "La evaluación no puede estar vacía",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "pleaseEnterScoreText": {
+    "message": "Por favor, introduzca una puntuación menor que la puntuación total.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "commentSuccessText": {
+    "message": "El comentario fue exitoso.",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "myAsssignmentText": {
+    "message": "Mis tareas",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "groupAssignmentText": {
+    "message": "Esta es una tarea grupal, colabore con los miembros del grupo para completar la tarea",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "noticeText": {
+    "message": "Atención",
+    "description": "homeworkGroupStuMain.js"
+  },
+  "assignmentComText": {
+    "message": "Una vez completada la tarea, seleccione un representante para enviar tarea, otros estudiantes no necesitan enviar",
+    "description": "homeworkGroupStuMain.js"
   }
 }
