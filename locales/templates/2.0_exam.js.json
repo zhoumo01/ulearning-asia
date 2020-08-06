@@ -560,7 +560,7 @@
     "description": "2.0 exam.js"
   },
   "points": {
-    "message": "分",
+    "message": "{grade}分",
     "description": "2.0 exam.js"
   },
   "paperPartName": {
@@ -639,13 +639,9 @@
     "message": "考试名称",
     "description": "2.0 exam.js"
   },
-  "total": {
-    "message": "共",
-    "description": "2.0 exam.js"
-  },
   "field": {
-    "message": "场",
-    "description": "2.0 exam.js"
+    "message": "共{count}场",
+    "description": "指有多少场考试"
   },
   "creator": {
     "message": "创建人",
@@ -840,7 +836,7 @@
     "description": "2.0 exam.js"
   },
   "thisQueFullScore": {
-    "message": "本题满分：",
+    "message": "本题满分：{grade}分",
     "description": "2.0 exam.js"
   },
   "noMark": {
@@ -1536,7 +1532,7 @@
     "description": "2.0 exam.js"
   },
   "someBatch": {
-    "message": "个场次",
+    "message": "共{count}个场次",
     "description": "2.0 exam.js"
   },
   "time": {
