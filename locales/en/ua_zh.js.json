@@ -32,11 +32,11 @@
     "description": "UA"
   },
   "LimitTimeAnswerTip": {
-    "message": "In addition to exercises, if there are pictures, videos, documents and other learning content on this page, time limit will also be unifiedly applied.",
+    "message": "The time limit applies to all the elements (such as video, documents, text, etc.) in the content page, not only just to the exercise questions.",
     "description": "UA"
   },
   "LimitTimeAnswerTip1": {
-    "message": "Students should complete the exercises within the set time. When exceeding the time limit, system will submit exercise records automatically .",
+    "message": "Students need to complete the exercise questions in the time limit. If not, the system will make the submission automatically.",
     "description": "UA"
   },
   "Q": {
@@ -48,7 +48,7 @@
     "description": "UA"
   },
   "Score": {
-    "message": "Score",
+    "message": "Points",
     "description": "UA"
   },
   "Search": {
@@ -108,7 +108,7 @@
     "description": "UA"
   },
   "addItem": {
-    "message": "Add options",
+    "message": "Add Item",
     "description": "UA"
   },
   "addKp": {
@@ -952,7 +952,7 @@
     "description": "UA"
   },
   "deleteThisQ": {
-    "message": "Delete this question",
+    "message": "Delete Question",
     "description": "UA"
   },
   "deleteTip1": {
@@ -1020,7 +1020,7 @@
     "description": "UA"
   },
   "diffcult": {
-    "message": "Difficult",
+    "message": "Very difficult",
     "description": "UA"
   },
   "difficulty": {
@@ -1096,7 +1096,7 @@
     "description": "UA"
   },
   "easy": {
-    "message": "Easy",
+    "message": "Very Easy",
     "description": "UA"
   },
   "edit": {
@@ -1125,10 +1125,6 @@
   },
   "editSubtitle": {
     "message": "Edit Subtitles",
-    "description": "UA"
-  },
-  "editTip": {
-    "message": "Editor account, this will cause the content to overlap each other.。",
     "description": "UA"
   },
   "editing": {
@@ -1256,7 +1252,7 @@
     "description": "UA"
   },
   "enterItemContent": {
-    "message": "Please enter options of the content",
+    "message": "Click to enter the choice",
     "description": "UA"
   },
   "enterItemContent1": {
@@ -1816,7 +1812,7 @@
     "description": "UA"
   },
   "justSoSo": {
-    "message": "Just so so",
+    "message": "Easy",
     "description": "UA"
   },
   "keepLeastTwoOptions": {
@@ -1892,7 +1888,7 @@
     "description": "UA"
   },
   "limitTimeAnswer": {
-    "message": "Timed answering",
+    "message": "Time Limit",
     "description": "UA"
   },
   "link": {
@@ -1980,7 +1976,7 @@
     "description": "UA"
   },
   "medium": {
-    "message": "Medium",
+    "message": "Average",
     "description": "UA"
   },
   "menuManage": {
@@ -1992,7 +1988,7 @@
     "description": "UA"
   },
   "min": {
-    "message": "Minute",
+    "message": "minute(s)",
     "description": "UA"
   },
   "modifyFail": {
@@ -2000,7 +1996,7 @@
     "description": "UA"
   },
   "modifyThisQ": {
-    "message": "Modify this question",
+    "message": "Edit Question",
     "description": "UA"
   },
   "month": {
@@ -2012,7 +2008,7 @@
     "description": "UA"
   },
   "moreDiffcult": {
-    "message": "More diffcult",
+    "message": "Difficult",
     "description": "UA"
   },
   "moreThanNunTip": {
@@ -2204,7 +2200,7 @@
     "description": "UA"
   },
   "noted": {
-    "message": "I know",
+    "message": "Ok",
     "description": "UA"
   },
   "notice": {
@@ -2305,6 +2301,10 @@
   },
   "pageCompletionTip": {
     "message": "Only when the number of times each word/sentence/paragraph is read loud reaches the set number of times, system will record that the student has completed studying the page.",
+    "description": "UA"
+  },
+  "pageEditBy": {
+    "message": "is under editing by",
     "description": "UA"
   },
   "pageExercises": {
@@ -2752,7 +2752,7 @@
     "description": "UA"
   },
   "second": {
-    "message": "Second",
+    "message": "second(s)",
     "description": "UA"
   },
   "secondLevelMenu": {
@@ -2792,7 +2792,7 @@
     "description": "UA"
   },
   "selectAllQuestions": {
-    "message": "Select all questions of this page.",
+    "message": "Select all on this page",
     "description": "UA"
   },
   "selectAndCreateQ": {
@@ -2960,7 +2960,7 @@
     "description": "UA"
   },
   "setLimitTimeAnswerCondition": {
-    "message": "At present, only pages containing exercises can set timedanswering.",
+    "message": "You can set a time limit only for the pages with exercise question(s).",
     "description": "UA"
   },
   "setNumOfreads": {
@@ -2972,7 +2972,7 @@
     "description": "UA"
   },
   "setStudyTimeTip": {
-    "message": "Set the learning duration for students to complete studying the page (only the page with added exercises)",
+    "message": "You can set a time limit by entering the number of minutes and seconds students have to complete the page with exercise questions.",
     "description": "UA"
   },
   "setTimeTip": {
@@ -2984,7 +2984,7 @@
     "description": "UA"
   },
   "setting": {
-    "message": "Setting",
+    "message": "Settings",
     "description": "UA"
   },
   "settingPanel": {
@@ -3160,7 +3160,7 @@
     "description": "UA"
   },
   "supportDecimalPlace": {
-    "message": "Support 1 decimal place",
+    "message": "Support 1 decimal",
     "description": "UA"
   },
   "sureSwitchPages": {
@@ -3280,7 +3280,7 @@
     "description": "UA"
   },
   "timeLimitedAnswerNotCompleted": {
-    "message": "Timedanswering question has not been completed. Please switch the page after completing all questions.",
+    "message": "Complete the exercise question(s) before you leave this page.",
     "description": "UA"
   },
   "timeLimitedExercises": {
@@ -3296,7 +3296,7 @@
     "description": "UA"
   },
   "tip": {
-    "message": "Tips",
+    "message": "Alert",
     "description": "UA"
   },
   "toSelectQ": {
@@ -3607,10 +3607,6 @@
     "message": "Withdrawn successfully",
     "description": "UA"
   },
-  "wo": {
-    "message": "Wow",
-    "description": "UA"
-  },
   "wordCountCheck": {
     "message": "Word number detection",
     "description": "UA"
@@ -3896,7 +3892,7 @@
     "description": "UA"
   },
   "limitedAnswer": {
-    "message": "Timed answering",
+    "message": "Time Limit",
     "description": "UA"
   },
   "chance": {
@@ -4118,5 +4114,45 @@
   "wipeSubtitleTip": {
     "message": "Are you sure you want to remove this SRT file?",
     "description": "UA"
+  },
+  "practiceConfig": {
+    "message": "Exercise Settings",
+    "description": "UA \"练习设置\""
+  },
+  "practiceCount": {
+    "message": "Exercise Attempts",
+    "description": "UA \"练习设置\""
+  },
+  "practiceUnlimit": {
+    "message": "No limit",
+    "description": "UA \"练习设置\""
+  },
+  "practiceLimitCount": {
+    "message": "Limit",
+    "description": "UA \"练习设置\""
+  },
+  "practiceUnifiedSet": {
+    "message": "Apply for the whole topic",
+    "description": "UA \"练习设置\""
+  },
+  "timeLimitAnswer": {
+    "message": "Time Limit",
+    "description": "UA \"练习设置\""
+  },
+  "practiceLimitTime": {
+    "message": "Limit",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip1": {
+    "message": "1. You can set a time limit only for the pages with exercise question(s).",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip2": {
+    "message": "2. The time limit applies to all the elements (such as video, documents, text, etc.) in the content page, not only just to the exercise questions.",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip3": {
+    "message": "3. Students need to complete the exercise questions in the time limit. If not, the system will make the submission automatically.",
+    "description": "UA \"练习设置\""
   }
 }
