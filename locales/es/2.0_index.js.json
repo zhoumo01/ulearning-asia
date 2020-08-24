@@ -7,21 +7,9 @@
     "message": "Profesor",
     "description": "2.0 index.js"
   },
-  "specialTeacherBefore1": {
-    "message": ".",
-    "description": "2.0 index.js"
-  },
-  "specialTeacherBefore2": {
-    "message": ".",
-    "description": "2.0 index.js"
-  },
-  "specialTeacherBefore3": {
-    "message": ".",
-    "description": "2.0 index.js"
-  },
-  "specialTeacherAfter": {
-    "message": "Maestro",
-    "description": "2.0 index.js"
+  "welcomeTea": {
+    "message": "{name} Maestro, Bienvenido",
+    "description": "印尼语翻译老师请注意：由于印尼语前面有一个性别称呼，因此，整个句子使用 “|” 分为三个部分，第一个部分对应女性，第二个部分对应男性，但三个部分对应性别未知。其它老师请无视。"
   },
   "day": {
     "message": "Día",
@@ -47,12 +35,8 @@
     "message": "Compañero de clase",
     "description": "2.0 index.js"
   },
-  "specialClassmateAfter": {
-    "message": "Compañero de clase",
-    "description": "2.0 index.js"
-  },
-  "welcome": {
-    "message": "Bienvenido",
+  "welcomeStu": {
+    "message": "{name} Compañero de clase, Bienvenido",
     "description": "2.0 index.js"
   },
   "more": {
@@ -1256,7 +1240,7 @@
     "description": "2.0 index.js"
   },
   "onlineTime": {
-    "message": "Tiempo total en línea esta semana:",
+    "message": "Tiempo total en línea esta semana: {duration}",
     "description": "2.0 index.js"
   },
   "courseStatus": {

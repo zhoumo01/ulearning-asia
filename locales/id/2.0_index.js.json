@@ -7,21 +7,9 @@
     "message": "Dosen",
     "description": "2.0 index.js"
   },
-  "specialTeacherBefore1": {
-    "message": "Bapak ",
-    "description": "2.0 index.js"
-  },
-  "specialTeacherBefore2": {
-    "message": "Ibu ",
-    "description": "2.0 index.js"
-  },
-  "specialTeacherBefore3": {
-    "message": "Bapak/Ibu ",
-    "description": "2.0 index.js"
-  },
-  "specialTeacherAfter": {
-    "message": "Dosen",
-    "description": "2.0 index.js"
+  "welcomeTea": {
+    "message": "Ibu {name} Dosen, Selamat datang | Bapak {name} Dosen, Selamat datang | Bapak/Ibu {name} Dosen, Selamat datang",
+    "description": "印尼语翻译老师请注意：由于印尼语前面有一个性别称呼，因此，整个句子使用 “|” 分为三个部分，第一个部分对应女性，第二个部分对应男性，但三个部分对应性别未知。其它老师请无视。"
   },
   "day": {
     "message": "hari",
@@ -47,12 +35,8 @@
     "message": "Mahasiswa",
     "description": "2.0 index.js"
   },
-  "specialClassmateAfter": {
-    "message": "Mahasiswa",
-    "description": "2.0 index.js"
-  },
-  "welcome": {
-    "message": "Selamat datang",
+  "welcomeStu": {
+    "message": "{name} Mahasiswa, Selamat datang",
     "description": "2.0 index.js"
   },
   "more": {
@@ -1256,7 +1240,7 @@
     "description": "2.0 index.js"
   },
   "onlineTime": {
-    "message": "Waktu online kumulatif minggu ini: ",
+    "message": "Waktu online kumulatif minggu ini: {duration}",
     "description": "2.0 index.js"
   },
   "courseStatus": {
