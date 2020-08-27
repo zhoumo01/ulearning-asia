@@ -2744,12 +2744,12 @@
     "description": "2.0 exam.js"
   },
   "screenMonitorTips1": {
-    "message": "仅支持手机考试",
+    "message": "（仅支持手机考试）",
     "description": "2.0 exam.js"
   },
   "screenMonitorTips2": {
-    "message": "开启切屏监控，离开超过",
-    "description": "2.0 exam.js"
+    "message": "开启切屏监控，离开超过{count}次后强制交卷 {tip}",
+    "description": "tip处的插值是 “（仅支持手机考试）”，因为tip需要独立的设置样式。"
   },
   "faceAuth": {
     "message": "人脸识别",
@@ -2768,15 +2768,15 @@
     "description": "2.0 exam.js"
   },
   "minSubmitTime2": {
-    "message": "交卷时间：",
+    "message": "交卷时间：{time}",
     "description": "2.0 exam.js"
   },
   "minSubmitTimeTips1": {
-    "message": "考试开始后",
-    "description": "2.0 exam.js"
+    "message": "考试开始后{count}{minuteTip}内不允许交卷",
+    "description": "minuteTip 的插值是分钟，就是下面的minuteTip"
   },
-  "minSubmitTimeTips2": {
-    "message": "内不允许交卷",
+  "minuteTip": {
+    "message": "分钟",
     "description": "2.0 exam.js"
   },
   "batchTips": {
@@ -2816,15 +2816,11 @@
     "description": "2.0 exam.js"
   },
   "examHeadTips3": {
-    "message": "考试前请",
-    "description": "2.0 exam.js"
+    "message": "考试前请{detectEnv}，确认网络、设备、浏览器等正常。",
+    "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
   },
-  "examHeadTips4": {
+  "detectEnv": {
     "message": "检测考试环境",
-    "description": "2.0 exam.js"
-  },
-  "examHeadTips5": {
-    "message": "，确认网络、设备、浏览器等正常。",
     "description": "2.0 exam.js"
   },
   "deletePhoto": {
