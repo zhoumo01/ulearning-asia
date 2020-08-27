@@ -1891,6 +1891,10 @@
     "message": "Batch clearing verified photos",
     "description": "2.0 exam.js"
   },
+  "auditTips26": {
+    "message": "Photo is not recoverable after clearing, make sure you want to clear this.",
+    "description": "2.0 exam.js"
+  },
   "auditTips10": {
     "message": "Are these the verified photos of students？",
     "description": "2.0 exam.js"
@@ -2400,7 +2404,7 @@
     "description": "2.0 exam.js"
   },
   "weekAfterShow": {
-    "message": "Display after weeks",
+    "message": "Display after {count} weeks",
     "description": "2.0 exam.js"
   },
   "noShow": {
@@ -2436,7 +2440,7 @@
     "description": "2.0 exam.js"
   },
   "setExamTips4": {
-    "message": "Contain test questions which are not supported by the system., please change the way of participation or adjust the content of the exam paper",
+    "message": "Exam {paperName} contain test questions which are not supported by the system., please change the way of participation or adjust the content of the exam paper",
     "description": "2.0 exam.js"
   },
   "examTimes": {
@@ -2447,12 +2451,24 @@
     "message": "Most",
     "description": "2.0 exam.js"
   },
+  "mostExamCount": {
+    "message": "Most {count} time(s)",
+    "description": "2.0 exam.js"
+  },
   "unlimitTimes": {
     "message": "No limit",
     "description": "2.0 exam.js"
   },
   "lateTime2": {
     "message": "Late Start Allowed",
+    "description": "2.0 exam.js"
+  },
+  "lateTip": {
+    "message": "No further entry is allowed after {} mins",
+    "description": "2.0 exam.js"
+  },
+  "commitLimitTip": {
+    "message": "Can not submit in {count} mins",
     "description": "2.0 exam.js"
   },
   "abnormalMonitor": {
@@ -2555,6 +2571,10 @@
     "message": "The passing score should be between {range}",
     "description": "2.0 exam.js"
   },
+  "setExamTips18": {
+    "message": "Between.",
+    "description": "2.0 exam.js"
+  },
   "setExamTips19": {
     "message": "Please select exam object (class or student)",
     "description": "2.0 exam.js"
@@ -2649,6 +2669,170 @@
   },
   "view": {
     "message": "View",
+    "description": "2.0 exam.js"
+  },
+  "classRange": {
+    "message": "Classes: {className}",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析 -> 导出考试分析"
+  },
+  "exportDate": {
+    "message": "Export Date: {date}",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析 -> 导出考试分析"
+  },
+  "conceptDesc": {
+    "message": "Concept note:",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析 -> 导出考试分析"
+  },
+  "mark": {
+    "message": "Marking.",
+    "description": "2.0 exam.js"
+  },
+  "securitySetting": {
+    "message": "Security Settings",
+    "description": "2.0 exam.js"
+  },
+  "answerSetting": {
+    "message": "Answer settings.",
+    "description": "2.0 exam.js"
+  },
+  "attachAccess": {
+    "message": "Short answers allow attachments",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor": {
+    "message": "Device monitoring.",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor1": {
+    "message": "Turn on device monitoring and do not allow the device to be replaced in the middle of the answer.",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor2": {
+    "message": "In exceptional cases, a verification code replacement can be requested from the teacher.",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor": {
+    "message": "IP monitoring.",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor1": {
+    "message": "Turn on device monitoring and do not allow the device to be replaced in the middle of the answer.",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor2": {
+    "message": "Switching networks may result in IP changes, please use them with caution, and in exceptional cases, ask your teacher for a verification code replacement.",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor": {
+    "message": "Capture monitoring.",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor1": {
+    "message": "Turn on capture monitoring, take photos of candidates every 3 to 5 minutes, and display them on the exam monitoring page.",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor2": {
+    "message": "You need to make sure that the devices used by students have cameras.",
+    "description": "2.0 exam.js"
+  },
+  "showAfterBatchEnd": {
+    "message": "The examination will be announced at the end of the course.",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitor": {
+    "message": "Cut-screen monitoring.",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips1": {
+    "message": "Only mobile phone exams are supported.",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips2": {
+    "message": "Turn on screen monitoring and leave over.",
+    "description": "tip处的插值是 “（仅支持手机考试）”，因为tip需要独立的设置样式。"
+  },
+  "faceAuth": {
+    "message": "Face verification",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips15": {
+    "message": "Turn on face recognition and pass face verification to enter the exam.",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips16": {
+    "message": "You need to upload a candidate certification photo before the exam.",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTime": {
+    "message": "Submitted at",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTime2": {
+    "message": "Submitted at",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTimeTips1": {
+    "message": "Cannot submit  with  {count} {minuteTip} after the exam start",
+    "description": "minuteTip 的插值是分钟，就是下面的minuteTip"
+  },
+  "batchTips": {
+    "message": "Students can take the exam by adding classes or students to the exam, which is the time period during which students are allowed to enter the exam, or you can add a field after the exam is published.",
+    "description": "2.0 exam.js"
+  },
+  "edit": {
+    "message": "Edit",
+    "description": "2.0 exam.js"
+  },
+  "examTips": {
+    "message": "Exam instructions",
+    "description": "2.0 exam.js"
+  },
+  "maxTextInputTips": {
+    "message": "Up to 2000 characters.",
+    "description": "2.0 exam.js"
+  },
+  "defaultExamTips": {
+    "message": "Save as the default template and continue to use the next exam.",
+    "description": "2.0 exam.js"
+  },
+  "detailTips3": {
+    "message": "1. Turn on the device monitoring, IP monitoring test, in case of special circumstances, students can change the device / IP after access through this verification code.",
+    "description": "2.0 exam.js"
+  },
+  "detailTips4": {
+    "message": "2. The face verification has been opened and students can use this verification code if they are unable to enter by face verification",
+    "description": "2.0 exam.js"
+  },
+  "detailTips5": {
+    "message": "3. The verification code is valid within 15 minutes, please refresh and re-acquire it after failure.",
+    "description": "2.0 exam.js"
+  },
+  "leave": {
+    "message": "Leave.",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips3": {
+    "message": "Please do so before the exam.",
+    "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
+  },
+  "deletePhoto": {
+    "message": "Delete image",
+    "description": "2.0 exam.js"
+  },
+  "recordShowAfterSubmit": {
+    "message": "It is displayed as soon as the volume is handed in.",
+    "description": "2.0 exam.js"
+  },
+  "exportDemoPaper": {
+    "message": "Export the sample volume.",
+    "description": "2.0 exam.js"
+  },
+  "exportDemoPaperSuccess": {
+    "message": "The sample paper has been saved to the test paper library.",
+    "description": "2.0 exam.js"
+  },
+  "afterExamFinishedTips1": {
+    "message": "Show at the end of the exam.",
     "description": "2.0 exam.js"
   }
 }
