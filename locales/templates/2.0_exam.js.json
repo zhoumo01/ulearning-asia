@@ -2404,7 +2404,7 @@
     "description": "2.0 exam.js"
   },
   "weekAfterShow": {
-    "message": "周后显示",
+    "message": "{count}周后显示",
     "description": "2.0 exam.js"
   },
   "noShow": {
@@ -2440,7 +2440,7 @@
     "description": "2.0 exam.js"
   },
   "setExamTips4": {
-    "message": "包含不支持的试题，请更改参与方式或调整试卷内容",
+    "message": "试卷 {paperName} 包含不支持的试题，请更改参与方式或调整试卷内容",
     "description": "2.0 exam.js"
   },
   "examTimes": {
@@ -2451,12 +2451,24 @@
     "message": "最多",
     "description": "2.0 exam.js"
   },
+  "mostExamCount": {
+    "message": "最多{count}次",
+    "description": "2.0 exam.js"
+  },
   "unlimitTimes": {
     "message": "不限制次数",
     "description": "2.0 exam.js"
   },
   "lateTime2": {
     "message": "迟到时间",
+    "description": "2.0 exam.js"
+  },
+  "lateTip": {
+    "message": "考试开始{count}分钟后不允许再进入",
+    "description": "2.0 exam.js"
+  },
+  "commitLimitTip": {
+    "message": "考试开始{count}分钟内不允许交卷",
     "description": "2.0 exam.js"
   },
   "abnormalMonitor": {
@@ -2673,6 +2685,166 @@
   },
   "mark": {
     "message": "标注",
+    "description": "2.0 exam.js"
+  },
+  "securitySetting": {
+    "message": "安全设置",
+    "description": "2.0 exam.js"
+  },
+  "answerSetting": {
+    "message": "答题设置",
+    "description": "2.0 exam.js"
+  },
+  "attachAccess": {
+    "message": "简答题允许上传附件",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor": {
+    "message": "设备监控",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor1": {
+    "message": "开启设备监控，不允许中途更换设备答题",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor2": {
+    "message": "特殊情况可向教师索取验证码更换",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor": {
+    "message": "IP监控",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor1": {
+    "message": "开启 IP 监控，不允许中途更换IP答题",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor2": {
+    "message": "切换网络可能会导致IP变化，请慎用；特殊情况可向教师索取验证码更换",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor": {
+    "message": "抓拍监控",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor1": {
+    "message": "开启抓拍监控，每隔3~5分钟抓拍考生照片，显示在考试监控页面",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor2": {
+    "message": "需要确保学生所用设备都有摄像头",
+    "description": "2.0 exam.js"
+  },
+  "showAfterBatchEnd": {
+    "message": "考试场次全部结束后公布",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitor": {
+    "message": "切屏监控",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips1": {
+    "message": "仅支持手机考试",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips2": {
+    "message": "开启切屏监控，离开超过",
+    "description": "2.0 exam.js"
+  },
+  "faceAuth": {
+    "message": "人脸识别",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips15": {
+    "message": "开启人脸识别，通过人脸验证才能进入考试",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips16": {
+    "message": "考前需要上传考生认证照片",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTime": {
+    "message": "交卷时间",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTime2": {
+    "message": "交卷时间：",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTimeTips1": {
+    "message": "考试开始后",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTimeTips2": {
+    "message": "内不允许交卷",
+    "description": "2.0 exam.js"
+  },
+  "batchTips": {
+    "message": "将班级或学生添加到场次中，学生才能参加考试；场次时间是指允许学生进入考试的时间段；您也可以在发布考试后添加场次",
+    "description": "2.0 exam.js"
+  },
+  "edit": {
+    "message": "编辑",
+    "description": "2.0 exam.js"
+  },
+  "examTips": {
+    "message": "考试须知",
+    "description": "2.0 exam.js"
+  },
+  "maxTextInputTips": {
+    "message": "最多输入2000个字符",
+    "description": "2.0 exam.js"
+  },
+  "defaultExamTips": {
+    "message": "保存为默认模板，下次考试继续使用",
+    "description": "2.0 exam.js"
+  },
+  "detailTips3": {
+    "message": "1. 开启了设备监控、IP监控的考试，如遇特殊情况，学生在更换设备/IP后可以通过此验证码进入",
+    "description": "2.0 exam.js"
+  },
+  "detailTips4": {
+    "message": "2. 开启了人脸识别的考试，学生如果无法通过刷脸进入，可以使用此验证码进入",
+    "description": "2.0 exam.js"
+  },
+  "detailTips5": {
+    "message": "3. 验证码15分钟内有效，失效后请刷新重新获取",
+    "description": "2.0 exam.js"
+  },
+  "leave": {
+    "message": "离开",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips3": {
+    "message": "考试前请",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips4": {
+    "message": "检测考试环境",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips5": {
+    "message": "，确认网络、设备、浏览器等正常。",
+    "description": "2.0 exam.js"
+  },
+  "deletePhoto": {
+    "message": "删除照片",
+    "description": "2.0 exam.js"
+  },
+  "recordShowAfterSubmit": {
+    "message": "交卷后立即显示",
+    "description": "2.0 exam.js"
+  },
+  "exportDemoPaper": {
+    "message": "导出样卷",
+    "description": "2.0 exam.js"
+  },
+  "exportDemoPaperSuccess": {
+    "message": "已保存样卷至试卷库",
+    "description": "2.0 exam.js"
+  },
+  "afterExamFinishedTips1": {
+    "message": "考试结束后显示",
     "description": "2.0 exam.js"
   }
 }
