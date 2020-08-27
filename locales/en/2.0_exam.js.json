@@ -2749,7 +2749,7 @@
   },
   "screenMonitorTips2": {
     "message": "Turn on screen monitoring and leave over.",
-    "description": "2.0 exam.js"
+    "description": "tip处的插值是 “（仅支持手机考试）”，因为tip需要独立的设置样式。"
   },
   "faceAuth": {
     "message": "Face verification",
@@ -2772,12 +2772,8 @@
     "description": "2.0 exam.js"
   },
   "minSubmitTimeTips1": {
-    "message": "After the exam begins.",
-    "description": "2.0 exam.js"
-  },
-  "minSubmitTimeTips2": {
-    "message": "is not allowed within.",
-    "description": "2.0 exam.js"
+    "message": "Cannot submit  with  {count} {minuteTip} after the exam start",
+    "description": "minuteTip 的插值是分钟，就是下面的minuteTip"
   },
   "batchTips": {
     "message": "Students can take the exam by adding classes or students to the exam, which is the time period during which students are allowed to enter the exam, or you can add a field after the exam is published.",
@@ -2817,15 +2813,7 @@
   },
   "examHeadTips3": {
     "message": "Please do so before the exam.",
-    "description": "2.0 exam.js"
-  },
-  "examHeadTips4": {
-    "message": "Test the exam environment.",
-    "description": "2.0 exam.js"
-  },
-  "examHeadTips5": {
-    "message": "to confirm that the network, devices, browsers, etc. are functioning properly.",
-    "description": "2.0 exam.js"
+    "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
   },
   "deletePhoto": {
     "message": "Delete image",
