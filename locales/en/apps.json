@@ -619,6 +619,10 @@
     "message": "Close the vote.",
     "description": "小应用"
   },
+  "vote.confirmRestart": {
+    "message": "Are you sure you want to restart this vote？",
+    "description": "小应用"
+  },
   "pick.title": {
     "message": "Pick Student",
     "description": "小应用"
@@ -664,7 +668,7 @@
     "description": "小应用"
   },
   "pick.deleteConfirm": {
-    "message": " Are you sure you want to delete this student?？ ",
+    "message": " Are you sure you want to delete this student？ ",
     "description": "小应用"
   },
   "pick.unmarkedTips": {
@@ -719,8 +723,12 @@
     "message": "Are you sure you want to delete ?",
     "description": "小应用"
   },
+  "pick.confirmRestart": {
+    "message": "Are you sure you want to restart this pick student？",
+    "description": "小应用"
+  },
   "score.title": {
-    "message": " Scoring ",
+    "message": " Mark ",
     "description": "小应用"
   },
   "score.unit": {
@@ -804,7 +812,7 @@
     "description": "小应用"
   },
   "score.evaluateEnd": {
-    "message": " Evaluation has ended ",
+    "message": " Ended ",
     "description": "小应用"
   },
   "score.addGroup": {
@@ -1017,6 +1025,34 @@
   },
   "score.ruleErrTip": {
     "message": "Scoring rules cannot be empty for each item.",
+    "description": "小应用"
+  },
+  "score.confirmEndScore": {
+    "message": "Confirm to  end？",
+    "description": "小应用"
+  },
+  "score.confirmRestart": {
+    "message": "Are you sure you want to restart this Scoring？",
+    "description": "小应用"
+  },
+  "score.endScore": {
+    "message": "End Score",
+    "description": "小应用"
+  },
+  "score.confirmDeleteScore": {
+    "message": "Confirm to delete？",
+    "description": "小应用"
+  },
+  "score.noStuEvaluation": {
+    "message": "There are no students being evaluated",
+    "description": "小应用"
+  },
+  "score.noGroupEvaluation": {
+    "message": "There is no group being evaluated",
+    "description": "小应用"
+  },
+  "score.noObjEvaluation": {
+    "message": "There is no object being evaluated",
     "description": "小应用"
   },
   "attendance.create": {
@@ -1256,7 +1292,7 @@
     "description": "小应用"
   },
   "attendance.numCodeSign": {
-    "message": "Checked in with number code",
+    "message": "Number code sign in",
     "description": "小应用"
   },
   "attendance.numCodeTips": {
@@ -1272,7 +1308,7 @@
     "description": "小应用"
   },
   "attendance.inputNumcode": {
-    "message": "Students enter the following numbers to complete the check-in.",
+    "message": "Students enter the numbers to  sign in.",
     "description": "小应用"
   },
   "attendance.freshTime": {
@@ -1281,6 +1317,10 @@
   },
   "attendance.restart": {
     "message": "Are you sure you want to restart this name-name?",
+    "description": "小应用"
+  },
+  "attendance.endAttendence": {
+    "message": "End Attendence",
     "description": "小应用"
   },
   "announcement.title": {
@@ -1605,6 +1645,10 @@
   },
   "answer.confirmEndScore": {
     "message": "Confirm to  end ？",
+    "description": "小应用"
+  },
+  "answer.confirmRestart": {
+    "message": "Are you sure you want to restart this quick answering",
     "description": "小应用"
   },
   "class.create": {
@@ -2851,10 +2895,6 @@
     "message": "<Privacy Policy>",
     "description": "小应用"
   },
-  "user.idMore": {
-    "message": "",
-    "description": "小应用"
-  },
   "user.goHome": {
     "message": "Back to homepage",
     "description": "小应用"
@@ -2889,6 +2929,10 @@
   },
   "user.inputCodeTip": {
     "message": "Verification code",
+    "description": "小应用"
+  },
+  "user.authentication": {
+    "message": "Identification",
     "description": "小应用"
   },
   "user.getAgain": {
@@ -3176,7 +3220,7 @@
     "description": "小应用"
   },
   "classroom.activityList": {
-    "message": "The list of activities.",
+    "message": "Activities",
     "description": "小应用"
   },
   "classroom.classIntro": {
@@ -3244,7 +3288,7 @@
     "description": "小应用"
   },
   "classroom.copyTipTitle": {
-    "message": "Copy classroom activities to other classes.",
+    "message": "Copy classroom activities to other classes",
     "description": "小应用"
   },
   "classroom.copyTip": {
@@ -3252,15 +3296,15 @@
     "description": "小应用"
   },
   "classroom.unOpen": {
-    "message": "Features are not open for the time being, so stay tuned.",
+    "message": "Features are not open for the time being, so stay tuned",
     "description": "小应用"
   },
   "classroom.hd": {
-    "message": "Interaction.",
+    "message": "Interaction",
     "description": "小应用"
   },
   "classroom.demo": {
-    "message": "Demonstrate.",
+    "message": "Demonstrate",
     "description": "小应用"
   },
   "classroom.student": {
@@ -3272,7 +3316,7 @@
     "description": "小应用"
   },
   "classroom.goClassDetail": {
-    "message": "Enter the course details.",
+    "message": "Enter the course details",
     "description": "小应用"
   },
   "classroom.beginClass": {
@@ -3292,7 +3336,7 @@
     "description": "小应用"
   },
   "classroom.newAct": {
-    "message": "Create a new interaction.",
+    "message": "Create a new interaction",
     "description": "小应用"
   },
   "classroom.attendence": {
@@ -3304,7 +3348,7 @@
     "description": "小应用"
   },
   "classroom.answer": {
-    "message": "Quick answering",
+    "message": "Q&A",
     "description": "小应用"
   },
   "classroom.pick": {
@@ -3312,11 +3356,11 @@
     "description": "小应用"
   },
   "classroom.score": {
-    "message": "Grading",
+    "message": "Mark",
     "description": "小应用"
   },
   "classroom.emptyTips": {
-    "message": "Click the button above to publish the event.",
+    "message": "Click the button above to publish the event",
     "description": "小应用"
   },
   "classroom.draft": {
@@ -3352,15 +3396,15 @@
     "description": "小应用"
   },
   "classroom.goAnswer": {
-    "message": "Enter the quick answering.",
+    "message": "Enter the quick answering",
     "description": "小应用"
   },
   "classroom.goPick": {
-    "message": "Enter the pick student.",
+    "message": "Enter the pick student",
     "description": "小应用"
   },
   "classroom.goScore": {
-    "message": "Enter the grading.",
+    "message": "Enter the grading",
     "description": "小应用"
   },
   "classroom.openSuccess": {
@@ -3376,7 +3420,7 @@
     "description": "小应用"
   },
   "classroom.actunstart": {
-    "message": "The activity did not start.",
+    "message": "The activity did not start",
     "description": "小应用"
   },
   "classroom.starting": {
@@ -3396,43 +3440,43 @@
     "description": "小应用"
   },
   "classroom.tips2": {
-    "message": "Please initiate a roll call after class started.",
+    "message": "Please initiate a roll call after class started",
     "description": "小应用"
   },
   "classroom.tips3": {
-    "message": "Please initiate the selection after class started.",
+    "message": "Please initiate the selection after class started",
     "description": "小应用"
   },
   "classroom.tips4": {
-    "message": "The current class has not started, please start the class first.",
+    "message": "The current class has not started, please start the class first",
     "description": "小应用"
   },
   "classroom.tips5": {
-    "message": "Let's start the class.",
+    "message": "Let's start the class",
     "description": "小应用"
   },
   "classroom.tips6": {
-    "message": "Activity data has been generated in this classroom and classes cannot be modified. If you choose the wrong class, start a new class.",
+    "message": "Activity data has been generated in this classroom and classes cannot be modified. If you choose the wrong class, start a new class",
     "description": "小应用"
   },
   "classroom.tips7": {
-    "message": "This feature needs to be used with a large screen.",
+    "message": "This feature needs to be used with a large screen",
     "description": "小应用"
   },
   "classroom.tips8": {
-    "message": "1. Turn on the large-screen client or open the URL in the browser.",
+    "message": "1. Turn on the large-screen client or open the URL in the browser",
     "description": "小应用"
   },
   "classroom.tips9": {
-    "message": "2. Sign in to your account, or enter your screen number.",
+    "message": "2. Sign in to your account, or enter your screen number",
     "description": "小应用"
   },
   "classroom.startAgain": {
-    "message": "Go back to class.",
+    "message": "Go back to class",
     "description": "小应用"
   },
   "classroom.attend": {
-    "message": "Attendance.",
+    "message": "Attendance",
     "description": "小应用"
   },
   "classroom.attendRatio": {
@@ -3464,11 +3508,11 @@
     "description": "小应用"
   },
   "classroom.thisAct": {
-    "message": "This lesson interacts.",
+    "message": "This lesson interacts",
     "description": "小应用"
   },
   "classroom.thisScore": {
-    "message": "Points for this lesson.",
+    "message": "Points for this lesson",
     "description": "小应用"
   },
   "classroom.readMore": {
@@ -3476,11 +3520,11 @@
     "description": "小应用"
   },
   "classroom.summary": {
-    "message": "A summary of the class.",
+    "message": "A summary of the class",
     "description": "小应用"
   },
   "classroom.summaryPlaceHolder": {
-    "message": "You can click the edit button to write down the lesson summary.",
+    "message": "You can click the edit button to write down the lesson summary",
     "description": "小应用"
   },
   "classroom.restartConfirm": {
@@ -3488,27 +3532,27 @@
     "description": "小应用"
   },
   "classroom.classEnd": {
-    "message": "The class is over.",
+    "message": "The class is over",
     "description": "小应用"
   },
   "classroom.thisClassAct": {
-    "message": "This class activity.",
+    "message": "This class activity",
     "description": "小应用"
   },
   "classroom.thisClassScore": {
-    "message": "Points for this class.",
+    "message": "Points for this class",
     "description": "小应用"
   },
   "classroom.totalScore": {
-    "message": "Total points.",
+    "message": "Total points",
     "description": "小应用"
   },
   "classroom.classRank": {
-    "message": "Class ranking.",
+    "message": "Class ranking",
     "description": "小应用"
   },
   "classroom.noAct": {
-    "message": "There are no published activities in the current classroom.",
+    "message": "There are no published activities in the current classroom",
     "description": "小应用"
   },
   "classroom.selectClass": {
@@ -3516,7 +3560,7 @@
     "description": "小应用"
   },
   "classroom.tempUnBegin": {
-    "message": "No classes.",
+    "message": "Not Now",
     "description": "小应用"
   },
   "classroom.beginNow": {
@@ -3556,11 +3600,11 @@
     "description": "小应用"
   },
   "classroom.demoTip": {
-    "message": "Put the teaching content into a large-screen presentation.",
+    "message": "Put the teaching content into a large-screen presentation",
     "description": "小应用"
   },
   "classroom.demoing": {
-    "message": "Presenting, click Enter.",
+    "message": "Presenting, click Enter",
     "description": "小应用"
   },
   "classroom.recourse": {
@@ -3572,7 +3616,7 @@
     "description": "小应用"
   },
   "classroom.goRecourseDetail": {
-    "message": "Go to resource details.",
+    "message": "Open",
     "description": "小应用"
   },
   "classroom.slt": {
@@ -3580,19 +3624,19 @@
     "description": "小应用"
   },
   "classroom.outScreen": {
-    "message": "Exit full screen.",
+    "message": "Exit fullscreen",
     "description": "小应用"
   },
   "classroom.allScreen": {
-    "message": "Fullscreen.",
+    "message": "Fullscreen",
     "description": "小应用"
   },
   "classroom.switchKj": {
-    "message": "Change courseware.",
+    "message": "Change courseware",
     "description": "小应用"
   },
   "classroom.endDemo": {
-    "message": "End the presentation.",
+    "message": "End the presentation",
     "description": "小应用"
   },
   "classroom.prePage": {
@@ -3604,11 +3648,11 @@
     "description": "小应用"
   },
   "classroom.goRecourse": {
-    "message": "Go to the repository selection.",
+    "message": "Open",
     "description": "小应用"
   },
   "classroom.nosupport": {
-    "message": "The resource does not support presentations.",
+    "message": "The resource does not support presentations",
     "description": "小应用"
   },
   "classroom.closeRecourseConfirm": {
@@ -3616,7 +3660,7 @@
     "description": "小应用"
   },
   "classroom.selectDemo": {
-    "message": "Select the presentation resource.",
+    "message": "Select the presentation resource",
     "description": "小应用"
   },
   "classroom.nomatchs": {
@@ -3624,7 +3668,7 @@
     "description": "小应用"
   },
   "classroom.scoreRank": {
-    "message": "Points for this lesson.",
+    "message": "Points for this lesson",
     "description": "小应用"
   },
   "classroom.scoreDown": {
@@ -3640,11 +3684,15 @@
     "description": "小应用"
   },
   "classroom.classStu": {
-    "message": "Class students.",
+    "message": "Class students",
     "description": "小应用"
   },
   "classroom.nodata": {
     "message": "No data",
+    "description": "小应用"
+  },
+  "classroom.tips10": {
+    "message": "Title cannot exceed 50 letters",
     "description": "小应用"
   }
 }
