@@ -2443,6 +2443,10 @@
     "message": "La examen móvil no admite preguntas de fórmula",
     "description": "2.0 exam.js"
   },
+  "setExamTips4": {
+    "message": "La prueba {paperName} contiene preguntas de prueba no admitidas. Cambie la forma de participación o ajuste el contenido de la prueba.",
+    "description": "2.0 exam.js"
+  },
   "examTimes": {
     "message": "Numero de examenes",
     "description": "2.0 exam.js"
@@ -2461,6 +2465,14 @@
   },
   "lateTime2": {
     "message": "Tiempo tardío",
+    "description": "2.0 exam.js"
+  },
+  "lateTip": {
+    "message": "No se permite la entrada después de {count} minutos desde el inicio del examen",
+    "description": "2.0 exam.js"
+  },
+  "commitLimitTip": {
+    "message": "No se permiten trabajos dentro de {count} minutos desde el comienzo del examen",
     "description": "2.0 exam.js"
   },
   "abnormalMonitor": {
@@ -2674,5 +2686,193 @@
   "conceptDesc": {
     "message": "Descripción del concepto:",
     "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析 -> 导出考试分析"
+  },
+  "mark": {
+    "message": "Marca.",
+    "description": "2.0 exam.js"
+  },
+  "securitySetting": {
+    "message": "Configuraciones de seguridad",
+    "description": "2.0 exam.js"
+  },
+  "answerSetting": {
+    "message": "Configuración de respuesta.",
+    "description": "2.0 exam.js"
+  },
+  "attachAccess": {
+    "message": "Las preguntas de respuesta corta permiten cargar archivos adjuntos.",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor": {
+    "message": "Supervisión del dispositivo.",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor1": {
+    "message": "Active la supervisión del dispositivo y no permita que el dispositivo o el navegador se reemplacen a mitad del proceso.",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor2": {
+    "message": "En circunstancias excepcionales, se puede solicitar al profesor un reemplazo del código de verificación.",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor": {
+    "message": "Supervisión de IP.",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor1": {
+    "message": "La supervisión IP está activada y las respuestas IP no se permiten reemplazar en el medio.",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor2": {
+    "message": "Cambiar la red puede resultar en cambios de IP, por favor úselo con precaución, y en casos excepcionales, pida a su instructor un reemplazo de código de verificación.",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor": {
+    "message": "Capturar monitoreo.",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor1": {
+    "message": "Active la supervisión de capturas, capture las fotos candidatas cada 3 a 5 minutos, que se muestran en la página de supervisión del examen.",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor2": {
+    "message": "Debe asegurarse de que todos los dispositivos utilizados por los estudiantes tienen cámaras.",
+    "description": "2.0 exam.js"
+  },
+  "showAfterBatchEnd": {
+    "message": "El examen se anunciará uniformemente después del final de todas las sesiones.",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitor": {
+    "message": "Monitorización de pantalla de corte.",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips1": {
+    "message": "(Solo exámenes móviles)",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips2": {
+    "message": "Active el control de corte de pantalla y entregue el papel obligatoriamente después de dejarlo más de {count} veces {tip}",
+    "description": "tip处的插值是 “（仅支持手机考试）”，因为tip需要独立的设置样式。"
+  },
+  "faceAuth": {
+    "message": "Reconocimiento facial",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips15": {
+    "message": "Activa el reconocimiento facial y pasa la verificación facial para entrar en el examen.",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips16": {
+    "message": "Las fotos de certificación de candidatos deben cargarse antes del examen.",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTime": {
+    "message": "fecha de entrega de examen",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTime2": {
+    "message": "Hora de envío: {time}",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTimeTips1": {
+    "message": "No está permitido entregar trabajos dentro de {count} {minuteTip} después del inicio de la prueba.",
+    "description": "minuteTip 的插值是分钟，就是下面的minuteTip"
+  },
+  "minuteTip": {
+    "message": "Minutos",
+    "description": "2.0 exam.js"
+  },
+  "batchTips": {
+    "message": "Los estudiantes pueden realizar el examen agregando una clase o un alumno al campo, que es el período de tiempo durante el cual se permite a los alumnos entrar en el examen, o puede agregar un campo después de que se publique el examen.",
+    "description": "2.0 exam.js"
+  },
+  "edit": {
+    "message": "Editar",
+    "description": "2.0 exam.js"
+  },
+  "examTips": {
+    "message": "Notas del examen",
+    "description": "2.0 exam.js"
+  },
+  "maxTextInputTips": {
+    "message": "Introduzca hasta 2000 caracteres.",
+    "description": "2.0 exam.js"
+  },
+  "defaultExamTips": {
+    "message": "Guarde como plantilla predeterminada y continúe utilizando el siguiente examen.",
+    "description": "2.0 exam.js"
+  },
+  "detailTips3": {
+    "message": "1. Los exámenes de monitoreo del dispositivo y monitoreo de IP están activados y, en circunstancias excepcionales, los estudiantes pueden ingresar a través de este código de verificación después de cambiar el dispositivo/IP.",
+    "description": "2.0 exam.js"
+  },
+  "detailTips4": {
+    "message": "2. La prueba de reconocimiento facial está activada y los estudiantes pueden ingresar usando este código de verificación si no pueden entrar cepillando su cara.",
+    "description": "2.0 exam.js"
+  },
+  "detailTips5": {
+    "message": "3. El código de verificación es válido durante 15 minutos, actualice y vuelva a adquirir después del error.",
+    "description": "2.0 exam.js"
+  },
+  "leave": {
+    "message": "Salir",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips3": {
+    "message": "{DetectEnv} antes del examen para confirmar que la red, el equipo, el navegador, etc. son normales.",
+    "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
+  },
+  "detectEnv": {
+    "message": "Pruebe el entorno del examen.",
+    "description": "2.0 exam.js"
+  },
+  "deletePhoto": {
+    "message": "Elimine la foto.",
+    "description": "2.0 exam.js"
+  },
+  "recordShowAfterSubmit": {
+    "message": "El volumen se muestra tan pronto como se entrega.",
+    "description": "2.0 exam.js"
+  },
+  "exportDemoPaper": {
+    "message": "Exporte el volumen de muestra.",
+    "description": "2.0 exam.js"
+  },
+  "exportDemoPaperSuccess": {
+    "message": "El volumen de muestra se ha guardado en la biblioteca de papel de prueba.",
+    "description": "2.0 exam.js"
+  },
+  "afterExamFinishedTips1": {
+    "message": "Se muestra al final del examen.",
+    "description": "2.0 exam.js"
+  },
+  "daysPublish": {
+    "message": "se anunciará en unos días.",
+    "description": "2.0 exam.js"
+  },
+  "weekPublish": {
+    "message": "anunciado en una semana.",
+    "description": "2.0 exam.js"
+  },
+  "noPublish": {
+    "message": "No publicado.",
+    "description": "2.0 exam.js"
+  },
+  "deleteBatch2": {
+    "message": "Elimine la granja de servidores.",
+    "description": "2.0 exam.js"
+  },
+  "examEnd": {
+    "message": "Fin del examen",
+    "description": "2.0 exam.js"
+  },
+  "auditTipsClassroom": {
+    "message": "La verificación de reconocimiento facial está activada y las fotos de certificación de los candidatos deben cargarse con antelación. Las fotos pueden ser importadas a granel por los profesores o subidas por los propios estudiantes. Las fotos subidas por los propios estudiantes pueden ser revisadas por los profesores.",
+    "description": "2.0 exam.js"
+  },
+  "faceServiceTips": {
+    "message": "Reconocimiento facial y supervisión de captura para un servicio basado en tarifas, su organización aún no ha abierto, si necesita abrir, póngase en contacto con el servicio de atención al cliente.",
+    "description": "2.0 exam.js"
   }
 }

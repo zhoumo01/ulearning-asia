@@ -259,6 +259,114 @@
     "message": "todos los alumnos",
     "description": "2.0 admin.js"
   },
+  "role": {
+    "message": "rol",
+    "description": "2.0 admin.js"
+  },
+  "responsibleCollege": {
+    "message": "Responsable de la universidad.",
+    "description": "2.0 admin.js"
+  },
+  "checkAll": {
+    "message": "Seleccionar todo",
+    "description": "2.0 admin.js"
+  },
+  "addRole": {
+    "message": "Agregar rol",
+    "description": "2.0 admin.js"
+  },
+  "editRole": {
+    "message": "Cambio de roles",
+    "description": "2.0 admin.js"
+  },
+  "module": {
+    "message": "Modulo",
+    "description": "2.0 admin.js"
+  },
+  "permission": {
+    "message": "Permisos",
+    "description": "2.0 admin.js"
+  },
+  "rolePermissionSetting": {
+    "message": "Configuración de permisos de rol.",
+    "description": "2.0 admin.js"
+  },
+  "changePermissionTips": {
+    "message": "Después de modificar los permisos de rol, haga clic en Guardar cambios para que surtan efecto.",
+    "description": "2.0 admin.js"
+  },
+  "inputRoleName": {
+    "message": "Introduzca el nombre del rol.",
+    "description": "2.0 admin.js"
+  },
+  "systemAdministrator": {
+    "message": "Administrador del sistema",
+    "description": "2.0 admin.js"
+  },
+  "deleteRoleTips": {
+    "message": "¿Está seguro de que desea eliminar el rol? Quite roles, no usuarios relacionados, y puede configurar nuevos roles para los usuarios.",
+    "description": "2.0 admin.js"
+  },
+  "onlySystemTips": {
+    "message": "Solo están disponibles los administradores del sistema.",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips1": {
+    "message": "Gestión de cursos: Gestión de cursos (Combinar/Transferir cursos, Entrar cursos, Ver análisis de curso)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips2": {
+    "message": "Gestión del curso: Gestión de MOOC (Revisión de la versión, Modificación de la clasificación y estado de visualización del sitio web)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips3": {
+    "message": "Gestión del curso: Introducción externa a la gestión del curso.",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips4": {
+    "message": "Gestión de profesores (añadir/modificar/eliminar profesores, introducir cuentas de profesor)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips5": {
+    "message": "Gestión de estudiantes (añadir/modificar/eliminar alumnos, introducir cuentas de alumnos)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips6": {
+    "message": "Gestión de clases de naturaleza (Agregar/Modificar/Eliminar clase de naturaleza)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips7": {
+    "message": "Anuncio de notificación (anuncio de liberación/modificación/eliminación)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips8": {
+    "message": "Configuración de permisos de rol (agregar/modificar/eliminar roles, establecer permisos de rol)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips9": {
+    "message": "Configuración del administrador (añadir/modificar/eliminar administrador, especificar el rol de usuario)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips10": {
+    "message": "Ver y administrar sistemas subsysys.",
+    "description": "2.0 admin.js"
+  },
+  "addAdminTips1": {
+    "message": "Seleccione un rol.",
+    "description": "2.0 admin.js"
+  },
+  "addAdminTips2": {
+    "message": "Seleccione al menos una universidad.",
+    "description": "2.0 admin.js"
+  },
+  "saveSuccess": {
+    "message": "El ahorro fue exitoso.",
+    "description": "2.0 admin.js"
+  },
+  "saveFailed": {
+    "message": "¡Error al guardar!",
+    "description": "2.0 admin.js"
+  },
   "subsystem.mobileEvaluation": {
     "message": "evaluación movida",
     "description": "2.0 admin.js"
@@ -2095,6 +2203,10 @@
     "message": "Esta plantilla se recomienda si solo desea que los estudiantes tengan una entrada de inicio de sesión separada",
     "description": "2.0 admin.js"
   },
+  "systemAdmin.systemAdminTips20": {
+    "message": "Utilice esta plantilla si solo desea que los alumnos tengan un portal de inicio de sesión independiente.",
+    "description": "2.0 admin.js"
+  },
   "teachingAdmin.inSchoolCourse": {
     "message": "curso en el campus",
     "description": "2.0 admin.js"
@@ -2873,6 +2985,70 @@
   },
   "courseUnit": {
     "message": "{courseCount}",
+    "description": "2.0 admin.js"
+  },
+  "appCenter": {
+    "message": "Application Center.",
+    "description": "2.0 admin.js"
+  },
+  "internalApp": {
+    "message": "Aplicaciones internas.",
+    "description": "2.0 admin.js"
+  },
+  "ltiApp": {
+    "message": "Aplicaciones integradas LTI.",
+    "description": "2.0 admin.js"
+  },
+  "installed": {
+    "message": "Está encendido.",
+    "description": "2.0 admin.js"
+  },
+  "unInstalled": {
+    "message": "No en.",
+    "description": "2.0 admin.js"
+  },
+  "viewMore": {
+    "message": "Aprende más.",
+    "description": "2.0 admin.js"
+  },
+  "appManage": {
+    "message": "Gestión de aplicaciones.",
+    "description": "2.0 admin.js"
+  },
+  "installed2": {
+    "message": "Instalada",
+    "description": "2.0 admin.js"
+  },
+  "addApp": {
+    "message": "Agregar una aplicación.",
+    "description": "2.0 admin.js"
+  },
+  "name": {
+    "message": "Nombre",
+    "description": "2.0 admin.js"
+  },
+  "consumerKey": {
+    "message": "Clave del Consumidor.",
+    "description": "2.0 admin.js"
+  },
+  "sharedSecret": {
+    "message": "Secreto compartido.",
+    "description": "2.0 admin.js"
+  },
+  "configURL": {
+    "message": "Url de configuración.",
+    "description": "2.0 admin.js"
+  },
+  "deleteApp": {
+    "message": "Elimine la aplicación.",
+    "description": "2.0 admin.js"
+  },
+  "confirmDelete": {
+    "message": "¿Está seguro de que desea eliminar la aplicación?",
+    "description": "2.0 admin.js"
+  },
+  "deleteSuccess": {
+    "message": "La eliminación se realizó correctamente.",
     "description": "2.0 admin.js"
   }
 }
