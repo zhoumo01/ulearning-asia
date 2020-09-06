@@ -1,1 +1,718 @@
-{"CLOSE": {"message": "اغلاق", "description": "个人作业zh_js"}, "GRADE_WAYS": {"message": "الدرجات", "description": "个人作业zh_js"}, "GRADE_TEA": {"message": "تقدير المعلم", "description": "个人作业zh_js"}, "GRADE_STUPEER": {"message": "مراجعات الأقران", "description": "个人作业zh_js"}, "GRADE_WRITEAUTO": {"message": "كتابة اللغة الإنجليزية لصناعة السيارات في الدرجات", "description": "个人作业zh_js"}, "GRADE_FULL": {"message": "Pts ممكن", "description": "个人作业zh_js"}, "STARTTIME": {"message": "بدء", "description": "个人作业zh_js"}, "ENDTIME": {"message": "اثنان", "description": "个人作业zh_js"}, "PEERENDTIME": {"message": "الاستحقاق (مراجعات الأقران)", "description": "个人作业zh_js"}, "JOINCLASS": {"message": "فئات", "description": "个人作业zh_js"}, "SETTING_ATTACH_INFO": {"message": "دعم التسجيل الصوتي والوسائط وأنواع الملفات المختلفة", "description": "个人作业zh_js"}, "SETTING_COPY": {"message": "السماح بالنسخ/اللصق", "description": "个人作业zh_js"}, "SETTING_COPY_INFO": {"message": "إذا تم تعطيله، يمكن للطلاب إدخال النص يدويًا فقط", "description": "个人作业zh_js"}, "SETTING_DUPICATE": {"message": "السماح بالتحقق من الانتحال", "description": "个人作业zh_js"}, "SETTING_DUPICATE_INFO": {"message": "لا يمكن التحقق من المرفقات ضد الانتحال", "description": "个人作业zh_js"}, "SETTING_Grammar": {"message": "السماح بالتحقق النحوي", "description": "个人作业zh_js"}, "SETTING_Grammar_INFO": {"message": "يمكن أن يكشف التدقيق النحوي عن أخطاء نحوية في تعيين اللغة الإنجليزية", "description": "个人作业zh_js"}, "PUBLISTH": {"message": "نشر", "description": "个人作业zh_js"}, "SAVE_DRAFT": {"message": "حفظ مسودة", "description": "个人作业zh_js"}, "upAttach": {"message": "المرفق", "description": "个人作业zh_js"}, "PCREQUEST": {"message": "انقر لإدخال إرشادات الواجب، حتى 5000 حرف. يدعم تطبيق الجوال تحميل الصور وتسجيل الصوت. يحتاج المستخدمون إلى إرسال أو تحميل أنواع أخرى من المرفقات عبر الكمبيوتر.", "description": "个人作业zh_js"}, "UPATTACH": {"message": "المرفق", "description": "个人作业zh_js"}, "RECORDING": {"message": "تسجيل صوتي", "description": "个人作业zh_js"}, "CHOICECLASS": {"message": "حدد فئة", "description": "个人作业zh_js"}, "EACH_STUDENTEvaluate": {"message": "تعيين", "description": "个人作业zh_js"}, "COUNTWORK": {"message": "الواجبات لكل طالب", "description": "个人作业zh_js"}, "PEERRULES": {"message": "قواعد استعراضات الأقران", "description": "个人作业zh_js"}, "GRADE_WRITEAUTOTIP": {"message": "ملاحظة: هل يمكن إدخال الكتابة الإنجليزية تلقائيًا عبر الإنترنت، وليس الكتابة التي تم تحميلها من قبل مرفق.", "description": "个人作业zh_js"}, "GRADE_SPOKENAUTOTIP": {"message": "ملاحظة: لا يمكن لصناعة السيارات الصف تسجيل اللغة الإنجليزية عن طريق الفم الذي يتجاوز 3 دقائق.", "description": "个人作业zh_js"}, "GRADE_SPOKENAUTOTIPerror": {"message": "انقر لإدخال محتوى للقراءة بصوت عال، حتى 200 كلمة. إذا كان استخدام التصنيف التلقائي للنطق باللغة الإنجليزية، لا تدخل أي كلمات أخرى غير الإنجليزية.", "description": "个人作业zh_js"}, "ASSIGNTITLE": {"message": "تعيين فردي", "description": "个人作业zh_js"}, "sharetipInfo1": {"message": "الواجبات المشتركة قابلة للعرض من قبل الطلاب الآخرين", "description": "个人作业zh_js"}, "sharetipInfo3": {"message": "عند التقدير، يؤدي تعيين واجب على أنه \"مشاركة\" إلى عرضها من قبل الطلاب الآخرين", "description": "个人作业zh_js"}, "repateGrading": {"message": "إعادة التخرج", "description": "个人作业zh_js"}, "commentIpt": {"message": "انقر لإدخال التعليقات", "description": "个人作业zh_js"}, "scoreIpt": {"message": "أدخل النتيجة", "description": "个人作业zh_js"}, "shareTxt": {"message": "مشاركه", "description": "个人作业zh_js"}, "repeatTxt": {"message": "إعادة التقديم", "description": "个人作业zh_js"}, "stuevaluate": {"message": "مراجعات الأقران", "description": "个人作业zh_js"}, "peerrules": {"message": "قواعد استعراضات الأقران", "description": "个人作业zh_js"}}
+{
+    "Point": {
+        "message": ":",
+        "description": "个人作业zh_js"
+    },
+    "BACK": {
+        "message": "العوده.",
+        "description": "个人作业zh_js"
+    },
+    "CLOSE": {
+        "message": "اغلاق",
+        "description": "个人作业zh_js"
+    },
+    "SCORE": {
+        "message": "نقاط.",
+        "description": "个人作业zh_js"
+    },
+    "YEAR": {
+        "message": "سنوات.",
+        "description": "个人作业zh_js"
+    },
+    "PART": {
+        "message": "اجزاء.",
+        "description": "个人作业zh_js"
+    },
+    "GRADE_WAYS": {
+        "message": "الدرجات",
+        "description": "个人作业zh_js"
+    },
+    "GRADE_TEA": {
+        "message": "تقدير المعلم",
+        "description": "个人作业zh_js"
+    },
+    "GRADE_STUPEER": {
+        "message": "مراجعات الأقران",
+        "description": "个人作业zh_js"
+    },
+    "GRADE_WRITEAUTO": {
+        "message": "كتابة اللغة الإنجليزية لصناعة السيارات في الدرجات",
+        "description": "个人作业zh_js"
+    },
+    "GRADE_SPOKENAUTO": {
+        "message": "يتحدث الإنجليزية نظام النتيجة.",
+        "description": "个人作业zh_js"
+    },
+    "GRADE_SYSTEM": {
+        "message": "نقاط النظام.",
+        "description": "个人作业zh_js"
+    },
+    "GRADE_FULL": {
+        "message": "اخرجوا",
+        "description": "个人作业zh_js"
+    },
+    "GROWTH": {
+        "message": "قيمة النمو.",
+        "description": "个人作业zh_js"
+    },
+    "STARTTIME": {
+        "message": "بدء",
+        "description": "个人作业zh_js"
+    },
+    "ENDTIME": {
+        "message": "اثنان",
+        "description": "个人作业zh_js"
+    },
+    "PEERENDTIME": {
+        "message": "الاستحقاق (مراجعات الأقران)",
+        "description": "个人作业zh_js"
+    },
+    "JOINCLASS": {
+        "message": "فئات",
+        "description": "个人作业zh_js"
+    },
+    "VIPSETTING": {
+        "message": "إعدادات متقدمة.",
+        "description": "个人作业zh_js"
+    },
+    "SETTING_ATTACH": {
+        "message": "السماح للطلاب بتحميل المرفقات.",
+        "description": "个人作业zh_js"
+    },
+    "SETTING_ATTACH_INFO": {
+        "message": "دعم التسجيل الصوتي والوسائط وأنواع الملفات المختلفة",
+        "description": "个人作业zh_js"
+    },
+    "SETTING_COPY": {
+        "message": "السماح بالنسخ/اللصق",
+        "description": "个人作业zh_js"
+    },
+    "SETTING_COPY_INFO": {
+        "message": "إذا تم تعطيله، يمكن للطلاب إدخال النص يدويًا فقط",
+        "description": "个人作业zh_js"
+    },
+    "SETTING_DUPICATE": {
+        "message": "السماح بالتحقق من الانتحال",
+        "description": "个人作业zh_js"
+    },
+    "SETTING_DUPICATE_INFO": {
+        "message": "لا يمكن التحقق من المرفقات ضد الانتحال",
+        "description": "个人作业zh_js"
+    },
+    "SETTING_Grammar": {
+        "message": "السماح بالتحقق النحوي",
+        "description": "个人作业zh_js"
+    },
+    "SETTING_Grammar_INFO": {
+        "message": "يمكن أن يكشف التدقيق النحوي عن أخطاء نحوية في تعيين اللغة الإنجليزية",
+        "description": "个人作业zh_js"
+    },
+    "PUBLISTH": {
+        "message": "نشر",
+        "description": "个人作业zh_js"
+    },
+    "SAVE_DRAFT": {
+        "message": "حفظ مسودة",
+        "description": "个人作业zh_js"
+    },
+    "SAVE": {
+        "message": "حفظ.",
+        "description": "个人作业zh_js"
+    },
+    "Determine": {
+        "message": "هل أنت متأكد.",
+        "description": "个人作业zh_js"
+    },
+    "CANCEL": {
+        "message": "إلغاء الأمر.",
+        "description": "个人作业zh_js"
+    },
+    "DELETE": {
+        "message": "حذف.",
+        "description": "个人作业zh_js"
+    },
+    "upAttach": {
+        "message": "المرفق",
+        "description": "个人作业zh_js"
+    },
+    "CHOICE": {
+        "message": "الرجاء تحديد.",
+        "description": "个人作业zh_js"
+    },
+    "UpAttachInfo1": {
+        "message": "تحميل أكثر من غيرها.",
+        "description": "个人作业zh_js"
+    },
+    "UpAttachInfo2": {
+        "message": "المرفقات.",
+        "description": "个人作业zh_js"
+    },
+    "UpAttachError1": {
+        "message": "لا يمكن أن يتجاوز الفيديو 1G.",
+        "description": "个人作业zh_js"
+    },
+    "UpAttachError2": {
+        "message": "لا يمكن أن يتجاوز الملف 200M.",
+        "description": "个人作业zh_js"
+    },
+    "UpError3": {
+        "message": "هذا النوع من الملفات غير معتمد.",
+        "description": "个人作业zh_js"
+    },
+    "PCREQUEST": {
+        "message": "انقر لإدخال إرشادات الواجب، حتى 5000 حرف. يدعم تطبيق الجوال تحميل الصور وتسجيل الصوت. يحتاج المستخدمون إلى إرسال أو تحميل أنواع أخرى من المرفقات عبر الكمبيوتر.",
+        "description": "个人作业zh_js"
+    },
+    "IPTHOMETITLE": {
+        "message": "الرجاء إدخال اسم الوظيفة.",
+        "description": "个人作业zh_js"
+    },
+    "UPATTACH": {
+        "message": "المرفق",
+        "description": "个人作业zh_js"
+    },
+    "RECORDING": {
+        "message": "تسجيل صوتي",
+        "description": "个人作业zh_js"
+    },
+    "CHOICECLASS": {
+        "message": "حدد فئة",
+        "description": "个人作业zh_js"
+    },
+    "EACH_STUDENTEvaluate": {
+        "message": "تعيين",
+        "description": "个人作业zh_js"
+    },
+    "COUNTWORK": {
+        "message": "الواجبات لكل طالب",
+        "description": "个人作业zh_js"
+    },
+    "PEERRULES": {
+        "message": "قواعد استعراضات الأقران",
+        "description": "个人作业zh_js"
+    },
+    "GRADE_WRITEAUTOTIP": {
+        "message": "ملاحظة: هل يمكن إدخال الكتابة الإنجليزية تلقائيًا عبر الإنترنت، وليس الكتابة التي تم تحميلها من قبل مرفق.",
+        "description": "个人作业zh_js"
+    },
+    "GRADE_SPOKENAUTOTIP": {
+        "message": "ملاحظة: لا يمكن لصناعة السيارات الصف تسجيل اللغة الإنجليزية عن طريق الفم الذي يتجاوز 3 دقائق.",
+        "description": "个人作业zh_js"
+    },
+    "GRADE_SPOKENAUTOTIPerror": {
+        "message": "انقر لإدخال محتوى للقراءة بصوت عال، حتى 200 كلمة. إذا كان استخدام التصنيف التلقائي للنطق باللغة الإنجليزية، لا تدخل أي كلمات أخرى غير الإنجليزية.",
+        "description": "个人作业zh_js"
+    },
+    "COUNTWORD": {
+        "message": "الكلمات.",
+        "description": "个人作业zh_js"
+    },
+    "HOMEWORKTITLEEmptyERROR": {
+        "message": "الرجاء إدخال العنوان.",
+        "description": "个人作业zh_js"
+    },
+    "HOMEWORKTITLECountERROR": {
+        "message": "لا يمكن أن يتجاوز 200 حرف (الأحرف الصينية حوالي 100 كلمة)",
+        "description": "个人作业zh_js"
+    },
+    "HOMEWORKRequestERROR": {
+        "message": "الأنماط التي لا يمكن أن تتجاوز 10000 حرف (حوالي 5000 حرف في الأحرف الصينية) أيضاً حساب مقدار معين من الأحرف.",
+        "description": "个人作业zh_js"
+    },
+    "HOMEWORKGradeEmptyERROR": {
+        "message": "الرجاء إدخال مجموع النقاط.",
+        "description": "个人作业zh_js"
+    },
+    "HOMEWORKGradeCountERROR": {
+        "message": "الرجاء إدخال عدد صحيح بين 1-100.",
+        "description": "个人作业zh_js"
+    },
+    "HOMEWORKClassEmptyERROR": {
+        "message": "الرجاء تحديد فئة.",
+        "description": "个人作业zh_js"
+    },
+    "HOMEWORKClassCountERROR": {
+        "message": "ويتجاوز عدد الاستعراضات المتبادلة العدد الإجمالي للمشاركين.",
+        "description": "个人作业zh_js"
+    },
+    "HOMEWORKRepeatEmptyERROR": {
+        "message": "الرجاء إدخال وقراءة.",
+        "description": "个人作业zh_js"
+    },
+    "STARTTIMEERROR": {
+        "message": "الرجاء إدخال وقت البدء.",
+        "description": "个人作业zh_js"
+    },
+    "ENDTIMEERROR": {
+        "message": "الرجاء إدخال الموعد النهائي.",
+        "description": "个人作业zh_js"
+    },
+    "PEERENDTIMEERROR": {
+        "message": "الرجاء إدخال الموعد النهائي للتقييم المتبادل.",
+        "description": "个人作业zh_js"
+    },
+    "HOMEWORKTITLE": {
+        "message": "الواجبات المنزليه.",
+        "description": "个人作业zh_js"
+    },
+    "ASSIGNTITLE": {
+        "message": "تعيين فردي",
+        "description": "个人作业zh_js"
+    },
+    "MODIFYTITLE": {
+        "message": "تعديل المهمة.",
+        "description": "个人作业zh_js"
+    },
+    "SAVING": {
+        "message": "حفظ.",
+        "description": "个人作业zh_js"
+    },
+    "SavingWork": {
+        "message": "وفّر الوظيفة.",
+        "description": "个人作业zh_js"
+    },
+    "PUBLISTHWork": {
+        "message": "نشر الوظيفة.",
+        "description": "个人作业zh_js"
+    },
+    "SUCCESS": {
+        "message": "النجاح.",
+        "description": "个人作业zh_js"
+    },
+    "Failure": {
+        "message": "فشل",
+        "description": "个人作业zh_js"
+    },
+    "WORKSETTING": {
+        "message": "إعدادات المهمة.",
+        "description": "个人作业zh_js"
+    },
+    "Submissionstart": {
+        "message": "يبدأ التقديم.",
+        "description": "个人作业zh_js"
+    },
+    "WORKTiming": {
+        "message": "وقت العمل",
+        "description": "个人作业zh_js"
+    },
+    "WORKPublicClass": {
+        "message": "نشر الفئة.",
+        "description": "个人作业zh_js"
+    },
+    "WORKDetailinfo": {
+        "message": "تفاصيل الوظيفة.",
+        "description": "个人作业zh_js"
+    },
+    "SHAREWork": {
+        "message": "شاركوا العمل",
+        "description": "个人作业zh_js"
+    },
+    "MyWork": {
+        "message": "واجبي المنزلي",
+        "description": "个人作业zh_js"
+    },
+    "otherWork": {
+        "message": "مهمة (تا)",
+        "description": "个人作业zh_js"
+    },
+    "evaluationWork": {
+        "message": "تقييم الوظيفة.",
+        "description": "个人作业zh_js"
+    },
+    "PeerWorkTask": {
+        "message": "قم بتقييم المهمة.",
+        "description": "个人作业zh_js"
+    },
+    "WriteWork": {
+        "message": "قم بواجبك المنزلي",
+        "description": "个人作业zh_js"
+    },
+    "resubmitted": {
+        "message": "إعادة تسليم الاستدعاء.",
+        "description": "个人作业zh_js"
+    },
+    "AfterSubmitWork": {
+        "message": "وظائف إعادة التسليم (",
+        "description": "个人作业zh_js"
+    },
+    "RewriteWork": {
+        "message": "إعادة كتابة المهمة (",
+        "description": "个人作业zh_js"
+    },
+    "BeforeSubmitWork": {
+        "message": "المقدمة سابقا)",
+        "description": "个人作业zh_js"
+    },
+    "workdetailsTipInfo1": {
+        "message": "أنت لديك.",
+        "description": "个人作业zh_js"
+    },
+    "workdetailsTipInfo2": {
+        "message": "لم يتم تقييم التعيين.",
+        "description": "个人作业zh_js"
+    },
+    "workdetailsTipInfo3": {
+        "message": "تم تقديم الوظيفة وتنتظر أن يتم تسجيلها.",
+        "description": "个人作业zh_js"
+    },
+    "workdetailsTipInfo4": {
+        "message": "بعد التقييم المتبادل، يمكنك الاطلاع على تقييم الطلاب لهم.",
+        "description": "个人作业zh_js"
+    },
+    "workdetailsTipInfo5": {
+        "message": "تم إغلاق المهمة.",
+        "description": "个人作业zh_js"
+    },
+    "workdetailsTipInfo6": {
+        "message": "لا توجد وظائف كافية مقدمة لتقييم بعضها البعض. يرجى الانتظار للمعلم لتقييم.",
+        "description": "个人作业zh_js"
+    },
+    "workdetailsTipInfo7": {
+        "message": "تم تقديم الوظيفة. الرجاء.",
+        "description": "个人作业zh_js"
+    },
+    "workdetailsTipInfo8": {
+        "message": "ابدأ التقييم المتبادل، التقييم المتبادل حتى.",
+        "description": "个人作业zh_js"
+    },
+    "workdetailsTipInfo9": {
+        "message": "حدث خطأ في الحصول على الوظيفة.",
+        "description": "个人作业zh_js"
+    },
+    "workdetailsTipInfo10": {
+        "message": "لم يتم تقييم الواجبات المنزلية من قبل الطلاب وتم نقلها إلى المعلم للموافقة عليها.",
+        "description": "个人作业zh_js"
+    },
+    "workdetailsTipInfo11": {
+        "message": "لم تبدأ المهمة.",
+        "description": "个人作业zh_js"
+    },
+    "Period": {
+        "message": "دون.",
+        "description": "个人作业zh_js"
+    },
+    "previewWork": {
+        "message": "آخر مهمة",
+        "description": "个人作业zh_js"
+    },
+    "nextWork": {
+        "message": "المهمة التالية.",
+        "description": "个人作业zh_js"
+    },
+    "Appeal": {
+        "message": "الشكوي.",
+        "description": "个人作业zh_js"
+    },
+    "Appealing": {
+        "message": "الشكوي.",
+        "description": "个人作业zh_js"
+    },
+    "Appealfailure": {
+        "message": "ولم يُتخذ الاستئناف.",
+        "description": "个人作业zh_js"
+    },
+    "AppealSuccess": {
+        "message": "وقد تكلل النداء بالنجاح.",
+        "description": "个人作业zh_js"
+    },
+    "sharetipInfo1": {
+        "message": "الواجبات المشتركة قابلة للعرض من قبل الطلاب الآخرين",
+        "description": "个人作业zh_js"
+    },
+    "sharetipInfo2": {
+        "message": "شارك المعلم الواجبات المنزلية للجميع ، والطلاب لديهم نظرة فاحصة.",
+        "description": "个人作业zh_js"
+    },
+    "sharetipInfo3": {
+        "message": "عند التقدير، يؤدي تعيين واجب على أنه \"مشاركة\" إلى عرضها من قبل الطلاب الآخرين",
+        "description": "个人作业zh_js"
+    },
+    "sharetipInfo4": {
+        "message": "المعلم لم يشاركه واجبه المدرسي",
+        "description": "个人作业zh_js"
+    },
+    "prevWorkList": {
+        "message": "تم تسليمه سابقاً للوظيفة.",
+        "description": "个人作业zh_js"
+    },
+    "workVersion": {
+        "message": "الإصدار.",
+        "description": "个人作业zh_js"
+    },
+    "gradingInfo1": {
+        "message": "يمكن للطلاب مراجعة واجبات بعضهم البعض، ويمكنك عرض تفاصيل التقييم بعد كل تقييم.",
+        "description": "个人作业zh_js"
+    },
+    "gradingInfo2": {
+        "message": "لم يتم تقييم الواجبات المنزلية للطالب من قبل أي طالب ويحتاج إلى موافقتك.",
+        "description": "个人作业zh_js"
+    },
+    "appealCause": {
+        "message": "أسباب الشكوى.",
+        "description": "个人作业zh_js"
+    },
+    "appealError": {
+        "message": "ولا يمكن أن تكون أسباب الشكوى فارغة.",
+        "description": "个人作业zh_js"
+    },
+    "appealError01": {
+        "message": "لا يمكن أن يتجاوز 400 حرف (الأحرف الصينية حوالي 200 كلمة)",
+        "description": "个人作业zh_js"
+    },
+    "reject": {
+        "message": "رفضت.",
+        "description": "个人作业zh_js"
+    },
+    "repateGrading": {
+        "message": "إعادة التخرج",
+        "description": "个人作业zh_js"
+    },
+    "rejecting": {
+        "message": "رفض.",
+        "description": "个人作业zh_js"
+    },
+    "rejectfailure": {
+        "message": "فشل الرفض.",
+        "description": "个人作业zh_js"
+    },
+    "appealCauseInfo1": {
+        "message": "يرجى ملء أسباب الاستئناف، ما يصل إلى 200 كلمة. سيقوم المعلم بإعادة تسجيل الواجبات المنزلية عندما يتلقى الشكوى.",
+        "description": "个人作业zh_js"
+    },
+    "smialInfo": {
+        "message": "إمكانية تكرار العمل.",
+        "description": "个人作业zh_js"
+    },
+    "seek": {
+        "message": "عرض.",
+        "description": "个人作业zh_js"
+    },
+    "stuScore": {
+        "message": "نقاط:",
+        "description": "个人作业zh_js"
+    },
+    "commentEmpty": {
+        "message": "لم يتبقى أي تعليقات.",
+        "description": "个人作业zh_js"
+    },
+    "stuCommentEmpty": {
+        "message": "لم يترك زميل الدراسة تعليقًا.",
+        "description": "个人作业zh_js"
+    },
+    "comment": {
+        "message": "تعليقات:",
+        "description": "个人作业zh_js"
+    },
+    "commentIpt": {
+        "message": "انقر لإدخال التعليقات",
+        "description": "个人作业zh_js"
+    },
+    "saveComment": {
+        "message": "حفظ الاستعراضات.",
+        "description": "个人作业zh_js"
+    },
+    "scoreIpt": {
+        "message": "أدخل النتيجة",
+        "description": "个人作业zh_js"
+    },
+    "submittxt": {
+        "message": "إرسال.",
+        "description": "个人作业zh_js"
+    },
+    "repeateDay": {
+        "message": "إعادة تسليم المهمة في غضون أيام.",
+        "description": "个人作业zh_js"
+    },
+    "shareTxt": {
+        "message": "مشاركه",
+        "description": "个人作业zh_js"
+    },
+    "shareTip": {
+        "message": "يمكن للطلاب الآخرين التحقق من الواجبات المنزلية للطالب.",
+        "description": "个人作业zh_js"
+    },
+    "repeatTxt": {
+        "message": "إعادة التقديم",
+        "description": "个人作业zh_js"
+    },
+    "needrepeatTxt": {
+        "message": "يجب أن تُعاد كتابتها",
+        "description": "个人作业zh_js"
+    },
+    "Marking": {
+        "message": "وسم.",
+        "description": "个人作业zh_js"
+    },
+    "teaevaluate": {
+        "message": "تقييم المعلمين.",
+        "description": "个人作业zh_js"
+    },
+    "stuevaluate": {
+        "message": "مراجعات الأقران",
+        "description": "个人作业zh_js"
+    },
+    "peerrules": {
+        "message": "قواعد استعراضات الأقران",
+        "description": "个人作业zh_js"
+    },
+    "deductScore": {
+        "message": "خصم:",
+        "description": "个人作业zh_js"
+    },
+    "unevaluateTask": {
+        "message": "لم يتم إكمال مهمة التقييم.",
+        "description": "个人作业zh_js"
+    },
+    "advantage": {
+        "message": "متوسط الدرجات:",
+        "description": "个人作业zh_js"
+    },
+    "systemEvaluate": {
+        "message": "نظام تسجيل التوصيات.",
+        "description": "个人作业zh_js"
+    },
+    "systemWriteError": {
+        "message": "المفردات خاطئة.",
+        "description": "个人作业zh_js"
+    },
+    "suggetSystem": {
+        "message": "اوصت.",
+        "description": "个人作业zh_js"
+    },
+    "systemGrammerError": {
+        "message": "بناء الجملة غير صحيح.",
+        "description": "个人作业zh_js"
+    },
+    "iptScoreError": {
+        "message": "الرجاء إدخال درجة.",
+        "description": "个人作业zh_js"
+    },
+    "iptScoreError02": {
+        "message": "الرجاء إدخال النتيجة الصحيحة وترك كسر واحد فقط.",
+        "description": "个人作业zh_js"
+    },
+    "iptScoreError03": {
+        "message": "لا يمكن أن تتجاوز النتيجة مجموع النقاط.",
+        "description": "个人作业zh_js"
+    },
+    "CommentError01": {
+        "message": "لا يمكن أن يتجاوز 1000 حرفا (الأحرف الصينية حوالي 500 كلمة)",
+        "description": "个人作业zh_js"
+    },
+    "workevulating": {
+        "message": "حفظ.",
+        "description": "个人作业zh_js"
+    },
+    "evulatSuccess": {
+        "message": "وكانت الموافقة ناجحة.",
+        "description": "个人作业zh_js"
+    },
+    "evulatFailure": {
+        "message": "فشلت الموافقة.",
+        "description": "个人作业zh_js"
+    },
+    "noEvaluate01": {
+        "message": "لم يتم إجراء أي تقييم.",
+        "description": "个人作业zh_js"
+    },
+    "noEvaluate02": {
+        "message": "لم يقم زميل الدراسة بتقييم المهمة.",
+        "description": "个人作业zh_js"
+    },
+    "goEvaluate": {
+        "message": "لتقييم.",
+        "description": "个人作业zh_js"
+    },
+    "goSeek": {
+        "message": "الذهاب للتحقق",
+        "description": "个人作业zh_js"
+    },
+    "FileConvert": {
+        "message": "في تحويل المستند، راجع لاحقًا.",
+        "description": "个人作业zh_js"
+    },
+    "VideoConvert": {
+        "message": "في تحويل الفيديو، تحقق مرة أخرى لاحقًا.",
+        "description": "个人作业zh_js"
+    },
+    "downing": {
+        "message": "تحميل.",
+        "description": "个人作业zh_js"
+    },
+    "addComments": {
+        "message": "إضافة تعليق.",
+        "description": "个人作业zh_js"
+    },
+    "addPrise": {
+        "message": "مثل ذلك.",
+        "description": "个人作业zh_js"
+    },
+    "CountWord": {
+        "message": "الكلمات.",
+        "description": "个人作业zh_js"
+    },
+    "delPrise": {
+        "message": "هل تريد بالتأكيد حذف الـ Likes؟",
+        "description": "个人作业zh_js"
+    },
+    "delComment": {
+        "message": "هل تريد بالتأكيد حذف التعليق؟",
+        "description": "个人作业zh_js"
+    },
+    "autoCommentEn": {
+        "message": "عظيم، مقالك لم يكشف عن مشكلة.",
+        "description": "个人作业zh_js"
+    },
+    "peerruleTitle1": {
+        "message": "قواعد التسجيل.",
+        "description": "个人作业zh_js"
+    },
+    "peerrule1": {
+        "message": "درجة الوظيفة.",
+        "description": "个人作业zh_js"
+    },
+    "peerrule2": {
+        "message": "درجات الواجبات المنزلية - متوسط درجات الواجبات التي يمنحها لك زملاء الدراسة (تحتاج إلى إكمال مهام التقييم المخصصة لك، وإذا لم تقم، فسوف تخصم 5% من مجموع نقاط التعيين).) )",
+        "description": "个人作业zh_js"
+    },
+    "peerrule3": {
+        "message": "المثال.",
+        "description": "个人作业zh_js"
+    },
+    "peerrule4": {
+        "message": "درجة كاملة وظيفة هو 100 نقطة.",
+        "description": "个人作业zh_js"
+    },
+    "peerrule5": {
+        "message": "متوسط نقاط زملائك في واجباتك المنزلية هو 80 نقطة.",
+        "description": "个人作业zh_js"
+    },
+    "peerrule6": {
+        "message": "يتم تعيين 4 تعيينات للتقييم، لديك 3 تعيينات لم يتم تقييمها، تحتاج إلى خصم 3 × 5٪ × 100 نقطة.",
+        "description": "个人作业zh_js"
+    },
+    "peerrule7": {
+        "message": "النتيجة النهائية: 80-3 × 5٪ × 100 × 65 نقطة؛",
+        "description": "个人作业zh_js"
+    },
+    "peerrule8": {
+        "message": "إذا لم تكن راضيا عن متوسط درجة التقييم المتبادل، يمكنك تقديم شكوى مع المعلم، الذي سوف تقيم المهمة. النتيجة النهائية - درجة المعلم.",
+        "description": "个人作业zh_js"
+    },
+    "hour": {
+        "message": "نقطه.",
+        "description": "个人作业zh_js"
+    },
+    "min": {
+        "message": "نقاط.",
+        "description": "个人作业zh_js"
+    },
+    "scoreTip": {
+        "message": "لا يمكن أن تكون النتيجة أعلى من النتيجة الكاملة.",
+        "description": "个人作业zh_js"
+    },
+    "confirmTip": {
+        "message": "عدد من النقاط والتقييمات المتبادلة لا يمكن تعديلها بعد تقديم، هل أنت متأكد من أنك تريد أن تقدم؟",
+        "description": "个人作业zh_js"
+    }
+}
