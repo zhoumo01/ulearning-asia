@@ -408,7 +408,7 @@
     "description": "对应于学生查看作业详情页面"
   },
   "countLimtTip": {
-    "message": "هناك حد لعدد الاختبارات ولا يمكن إعادة إعادة تشغيلها بعد مرور عدد المرات. هل تريد بالتأكيد إرسال؟",
+    "message": "يوجد حد لعدد الاختبارات. إذا تم تجاوز عدد الاختبارات القصيرة ، فلا يمكن إعادة إجرائها. {br} هل أنت متأكد من الإرسال؟",
     "description": "对应于学生查看作业详情页面。{br}是一个换行的标签，需要原样保留"
   },
   "submitHomework": {
@@ -436,7 +436,7 @@
     "description": "教师批阅小组作业页面"
   },
   "scoreText": {
-    "message": "Pts المحتملة: 'النتيجة'",
+    "message": "{score} نقطة",
     "description": "教师批阅小组作业页面"
   },
   "systemAdvice": {
@@ -700,11 +700,11 @@
     "description": "homeworkGroupStu.js"
   },
   "meanScoreText": {
-    "message": "متوسط درجة تقييم الأقران: {نص}",
+    "message": "متوسط درجة تقييم الأقران: {text}",
     "description": "homeworkGroupStu.js"
   },
   "meanScoreText2": {
-    "message": "متوسط درجة تقييم الأقران: {نقاط} النتيجة",
+    "message": "متوسط درجة تقييم الأقران: {score} النتيجة",
     "description": "homeworkGroupStu.js"
   },
   "studentEvaluationText": {
@@ -712,7 +712,7 @@
     "description": "homeworkGroupStu.js"
   },
   "deductionText": {
-    "message": "خصم نقاط التعيين: {نقاط} درجة (التعيينات المعينة لك للتقييم هي {count} بدون تقييم)",
+    "message": "خصم نقاط التعيين: {score} درجة (التعيينات المعينة لك للتقييم هي {count} بدون تقييم)",
     "description": "homeworkGroupStu.js"
   },
   "myAssignmentText": {
@@ -720,11 +720,11 @@
     "description": "homeworkGroupStu.js"
   },
   "submitOnText": {
-    "message": "{الاسم} يتم إرساله في {الوقت}",
+    "message": "تم إرسال {name} في {time}",
     "description": "homeworkGroupStu.js"
   },
   "groupText": {
-    "message": "تعيين {مجموعة}",
+    "message": "تعيين {group}",
     "description": "homeworkGroupStu.js"
   },
   "lateText": {
@@ -744,11 +744,11 @@
     "description": "homeworkGroupStu.js"
   },
   "teacherScoreText": {
-    "message": "المعلم وسم: {نقاط}",
+    "message": "المعلم وسم: {score}",
     "description": "homeworkGroupStu.js"
   },
   "teacherCommentText": {
-    "message": "تعليقات المعلم: {تعليق}",
+    "message": "تعليقات المعلم: {comment}",
     "description": "homeworkGroupStu.js"
   },
   "reDoText": {
@@ -760,7 +760,7 @@
     "description": "homeworkGroupStu.js"
   },
   "mutualAvgScoreText": {
-    "message": "متوسط درجة تقييم الأقران للطلاب: {نقاط} درجة",
+    "message": "متوسط درجة تقييم الأقران للطلاب: {score} درجة",
     "description": "homeworkGroupStu.js"
   },
   "complaintText": {
@@ -772,7 +772,7 @@
     "description": "homeworkGroupStu.js"
   },
   "complaintAfterText": {
-    "message": "المعلم لا markeing بعد الشكوى:{نقاط} النتيجة",
+    "message": "المعلم لا markeing بعد الشكوى:{score} النتيجة",
     "description": "homeworkGroupStu.js"
   },
   "checkComplaintText": {
@@ -780,7 +780,7 @@
     "description": "homeworkGroupStu.js"
   },
   "fileSizeText": {
-    "message": "حجم الملف: {حجم}",
+    "message": "حجم الملف: {size}",
     "description": "homeworkGroupStu.js"
   },
   "myComplaintText": {
@@ -828,7 +828,7 @@
     "description": "homeworkGroupStu.js"
   },
   "totalScoresText": {
-    "message": "مجموع النقاط: {نقاط} النتيجة",
+    "message": "مجموع النقاط: {score} النتيجة",
     "description": "homeworkGroupStu.js"
   },
   "addEvaluationText": {

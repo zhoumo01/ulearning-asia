@@ -1,1 +1,130 @@
-{"uploadFile": {"message": "تحميل الملف", "description": "1.0 fileupplug.js"}, "referenceFile": {"message": "الارتباط", "description": "1.0 fileupplug.js"}, "selectFile": {"message": "حدد ملف", "description": "1.0 fileupplug.js"}, "attachment": {"message": "تحميل المرفقات / إضافة رابط", "description": "1.0 fileupplug.js"}, "fileProcess": {"message": "الرجاء الانتظار أثناء معالجة الملف...", "description": "1.0 fileupplug.js"}, "uploading": {"message": "تحميل...", "description": "1.0 fileupplug.js"}, "uploadOnly": {"message": "تحميل فقط", "description": "1.0 fileupplug.js"}, "fileLessThan": {"message": "تحميل الملفات أقل من {حجم}", "description": "注意：花括号( 即 {} ) 里面的值是插值，不要改，大小写也不能变化"}, "netError": {"message": "خطأ الشبكة، الرجاء التحقق من الشبكة", "description": "1.0 fileupplug.js"}, "fileText": {"message": "الملفات", "description": "1.0 fileupplug.js"}, "failText": {"message": "فشل تحميل الملفات", "description": "1.0 fileupplug.js"}, "cancel": {"message": "إلغاء الأمر", "description": "1.0 fileupplug.js"}, "Delete": {"message": "حذف", "description": "1.0 fileupplug.js"}, "cancelUpload": {"message": "إلغاء التحميل", "description": "1.0 fileupplug.js"}, "fileCountLimit": {"message": "تحميل {count} المرفقات على الأكثر", "description": "1.0 fileupplug.json"}, "comment": {"message": "تحميل تعليق", "description": "1.0 fileupplug.js"}, "uploadErr1": {"message": "تحميل خطأ، لا يمكن تحميل نفس الملف!", "description": "1.0 fileupplug.json"}, "Fail": {"message": "فشل حمولة UpLoad", "description": "1.0 fileupplug.js"}, "uploadErr2": {"message": "خطأ في التحميل، تجاوز حجم الملف الحد!", "description": "1.0 fileupplug.json"}, "uploadErr3": {"message": "خطأ في التحميل، الرجاء التحقق من حالة الملف أو الشبكة وحاول مرة أخرى في وقت لاحق!", "description": "1.0 fileupplug.json"}, "uploadFileLimit": {"message": "حتى {count} المرفقات", "description": "1.0 fileupplug.js"}, "docFailText": {"message": "فشل تحويل المستند!", "description": "1.0 fileupplug.js"}, "docConversionErrorText": {"message": "خطأ في تنسيق تحويل المستند!", "description": "1.0 fileupplug.js"}, "videoFailText": {"message": "فشل تحويل مقطع الفيديو!", "description": "1.0 fileupplug.js"}, "videoConversionErrorText": {"message": "خطأ في تنسيق تحويل مقطع الفيديو!", "description": "1.0 fileupplug.js"}, "uploadingStr": {"message": "هناك ملفات يتم تحميلها", "description": "1.0 fileupplug.js"}, "uploadComplete": {"message": "اكتمال التحميل", "description": "1.0 fileupplug.js"}, "uploadFail": {"message": "فشل التحميل", "description": "1.0 fileupplug.js"}, "onlyUpload": {"message": "تحميل ملفات {file} فقط", "description": "1.0 fileupplug.js"}, "uploadcomponentFail": {"message": "فشل تهيئة مكون التحميل، الرجاء تغيير محاولة مستعرض، تحت دقة.", "description": "1.0 fileupplug.js"}, "uploadFileFail": {"message": "فشل تحميل الملف", "description": "1.0 fileupplug.js"}, "contentFile": {"message": "الرجاء عدم تحميل نفس الملف", "description": "1.0 fileupplug.js"}, "contentFile2": {"message": "تعذر تحميل نفس المستند", "description": "1.0 fileupplug.js"}, "addSubtitles": {"message": "إضافة مسار", "description": "1.0 fileupplug.js"}, "confirmDelete": {"message": "هل تريد تأكيد الحذف؟", "description": "1.0 fileupplug.js"}, "uploadAttach": {"message": "تحميل المرفق", "description": "1.0 fileupplug.js"}}
+{
+  "uploadFile": {
+    "message": "تحميل الملف",
+    "description": "1.0 fileupplug.js"
+  },
+  "referenceFile": {
+    "message": "الارتباط",
+    "description": "1.0 fileupplug.js"
+  },
+  "selectFile": {
+    "message": "حدد ملف",
+    "description": "1.0 fileupplug.js"
+  },
+  "attachment": {
+    "message": "تحميل المرفقات / إضافة رابط",
+    "description": "1.0 fileupplug.js"
+  },
+  "fileProcess": {
+    "message": "الرجاء الانتظار أثناء معالجة الملف...",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploading": {
+    "message": "تحميل...",
+    "description": "1.0 fileupplug.js"
+  },
+  "fileLessThan": {
+    "message": "تحميل الملفات أقل من {size}",
+    "description": "注意：花括号( 即 {} ) 里面的值是插值，不要改，大小写也不能变化"
+  },
+  "netError": {
+    "message": "خطأ الشبكة، الرجاء التحقق من الشبكة",
+    "description": "1.0 fileupplug.js"
+  },
+  "failText": {
+    "message": "فشل تحميل الملفات",
+    "description": "1.0 fileupplug.js"
+  },
+  "cancel": {
+    "message": "إلغاء الأمر",
+    "description": "1.0 fileupplug.js"
+  },
+  "Delete": {
+    "message": "حذف",
+    "description": "1.0 fileupplug.js"
+  },
+  "cancelUpload": {
+    "message": "إلغاء التحميل",
+    "description": "1.0 fileupplug.js"
+  },
+  "fileCountLimit": {
+    "message": "تحميل {count} المرفقات على الأكثر",
+    "description": "1.0 fileupplug.json"
+  },
+  "uploadErr1": {
+    "message": "تحميل خطأ، لا يمكن تحميل نفس الملف!",
+    "description": "1.0 fileupplug.json"
+  },
+  "uploadErr2": {
+    "message": "خطأ في التحميل، تجاوز حجم الملف الحد!",
+    "description": "1.0 fileupplug.json"
+  },
+  "uploadErr3": {
+    "message": "خطأ في التحميل، الرجاء التحقق من حالة الملف أو الشبكة وحاول مرة أخرى في وقت لاحق!",
+    "description": "1.0 fileupplug.json"
+  },
+  "uploadFileLimit": {
+    "message": "حتى {count} المرفقات",
+    "description": "1.0 fileupplug.js"
+  },
+  "docFailText": {
+    "message": "فشل تحويل المستند!",
+    "description": "1.0 fileupplug.js"
+  },
+  "docConversionErrorText": {
+    "message": "خطأ في تنسيق تحويل المستند!",
+    "description": "1.0 fileupplug.js"
+  },
+  "videoFailText": {
+    "message": "فشل تحويل مقطع الفيديو!",
+    "description": "1.0 fileupplug.js"
+  },
+  "videoConversionErrorText": {
+    "message": "خطأ في تنسيق تحويل مقطع الفيديو!",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadingStr": {
+    "message": "هناك ملفات يتم تحميلها",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadComplete": {
+    "message": "اكتمال التحميل",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadFail": {
+    "message": "فشل التحميل",
+    "description": "1.0 fileupplug.js"
+  },
+  "onlyUpload": {
+    "message": "تحميل ملفات {file} فقط",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadcomponentFail": {
+    "message": "فشل تهيئة مكون التحميل، الرجاء تغيير محاولة مستعرض، تحت دقة.",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadFileFail": {
+    "message": "فشل تحميل الملف",
+    "description": "1.0 fileupplug.js"
+  },
+  "contentFile": {
+    "message": "الرجاء عدم تحميل نفس الملف",
+    "description": "1.0 fileupplug.js"
+  },
+  "contentFile2": {
+    "message": "تعذر تحميل نفس المستند",
+    "description": "1.0 fileupplug.js"
+  },
+  "addSubtitles": {
+    "message": "إضافة مسار",
+    "description": "1.0 fileupplug.js"
+  },
+  "confirmDelete": {
+    "message": "هل تريد تأكيد الحذف؟",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadAttach": {
+    "message": "تحميل المرفق",
+    "description": "1.0 fileupplug.js"
+  }
+}

@@ -1,1 +1,130 @@
-{"submittingText": {"message": "تقديم", "description": "1.0 autoexam.js"}, "unitContentText": {"message": "محتوى وحدة {0}", "description": "1.0 autoexam.js"}, "allUnitContentText": {"message": "جميع محتويات الوحدة", "description": "1.0 autoexam.js"}, "selectQBankRange": {"message": "حدد نطاق Q.Bank", "description": "1.0 autoexam.js"}, "myTemplateText": {"message": "القالب الخاص بي", "description": "1.0 autoexam.js"}, "retainPartText": {"message": "احتفظ بجزء على الأقل", "description": "1.0 autoexam.js"}, "paperNameText": {"message": "اسم ورقة الاختبار غير فارغ", "description": "1.0 autoexam.js"}, "answerTimeText": {"message": "مدة الرد غير فارغة", "description": "1.0 autoexam.js"}, "collectText1": {"message": "مجموع 1 جزء ، | إجمالي {عدد} أجزاء،", "description": "1.0 autoexam.js"}, "collectText2": {"message": "سؤال 1 ، | أسئلة {count} ,", "description": "1.0 autoexam.js"}, "collectText3": {"message": "مجموع علامة 1. | إجمالي علامات {count} .", "description": "1.0 autoexam.js"}, "collectText": {"message": "{أجزاء} {أسئلة} لا يمكن أن يكون هناك أي أسئلة. {علامات).", "description": "{parts} 插值对应上面的 collectText1，{questions}插值对应上面的 collectText2，{marks}插值对应上面的collectText3，也就是说这三个分句组成一句话，翻译可根据需要调整三个分句的顺序，或者添加标点符号。"}, "surePaperNameLess": {"message": "الرجاء التأكد من أن اسم ورقة الاختبار أقل من 50 كلمة", "description": "1.0 autoexam.js"}, "keyIntegerText": {"message": "الرجاء إدخال عدد صحيح بين 1-300", "description": "1.0 autoexam.js"}, "makePaperText": {"message": "جعل ورقة اختبار بنجاح!", "description": "1.0 autoexam.js"}, "QnumberText": {"message": "رقم من Q صغيرة في Q.bank", "description": "1.0 autoexam.js"}, "addPaperQText": {"message": "يمكنك إضافة Q يدوياً ومتابعة عمل ورقة اختبار بعد;", "description": "1.0 autoexam.js"}, "adjustmentPaperText": {"message": "تعديل ورقة الاختبار", "description": "1.0 autoexam.js"}, "makePaperingText": {"message": "صنع ورقة اختبار", "description": "1.0 autoexam.js"}, "returnModifyText": {"message": "لا يوجد Q اختياري في بنك Q.. المحدد. الرجاء العودة إلى تعديل!", "description": "1.0 autoexam.js"}, "confirmText": {"message": "تاكيد", "description": "1.0 autoexam.js"}, "continueMakeText": {"message": "استمر في إجراء", "description": "1.0 autoexam.js"}, "pleaseEnterName": {"message": "الرجاء إدخال أسماء محتويات حتى {0} حرف", "description": "1.0 autoexam.js"}, "pleaseEnterTemplateName": {"message": "الرجاء إدخال قالب الاسم أقل من 20 حرفاً", "description": "1.0 autoexam.js"}, "pleaseAddQtype": {"message": "الرجاء إضافة نوع Q", "description": "1.0 autoexam.js"}, "pleaseSelectQrange": {"message": "الرجاء تحديد نطاق Q", "description": "1.0 autoexam.js"}, "correctRatioText": {"message": "الرجاء إدخال النسبة الصحيحة", "description": "1.0 autoexam.js"}, "getDateErrorText": {"message": "خطأ في تاريخ الحصول", "description": "1.0 autoexam.js"}, "confirmDeleteTemplate": {"message": "هل تريد بالتأكيد حذف هذا القالب؟", "description": "1.0 autoexam.js"}, "deleteTemplateError": {"message": "حذف خطأ في القالب", "description": "1.0 autoexam.js"}, "partNum": {"message": "الفرع {0}", "description": "1.0 autoexam.js"}, "totalScoreLabel": {"message": "مجموع النقاط: {0}", "description": "1.0 autoexam.js"}}
+{
+  "submittingText": {
+    "message": "تقديم",
+    "description": "1.0 autoexam.js"
+  },
+  "unitContentText": {
+    "message": "محتوى وحدة {0}",
+    "description": "1.0 autoexam.js"
+  },
+  "allUnitContentText": {
+    "message": "جميع محتويات الوحدة",
+    "description": "1.0 autoexam.js"
+  },
+  "selectQBankRange": {
+    "message": "حدد نطاق Q.Bank",
+    "description": "1.0 autoexam.js"
+  },
+  "myTemplateText": {
+    "message": "القالب الخاص بي",
+    "description": "1.0 autoexam.js"
+  },
+  "retainPartText": {
+    "message": "احتفظ بجزء على الأقل",
+    "description": "1.0 autoexam.js"
+  },
+  "paperNameText": {
+    "message": "اسم ورقة الاختبار غير فارغ",
+    "description": "1.0 autoexam.js"
+  },
+  "answerTimeText": {
+    "message": "مدة الرد غير فارغة",
+    "description": "1.0 autoexam.js"
+  },
+  "collectText1": {
+    "message": "مجموع 1 جزء ، | إجمالي {count} أجزاء،",
+    "description": "1.0 autoexam.js"
+  },
+  "collectText2": {
+    "message": "سؤال 1 ، | أسئلة {count} ,",
+    "description": "1.0 autoexam.js"
+  },
+  "collectText3": {
+    "message": "مجموع علامة 1. | إجمالي علامات {count} .",
+    "description": "1.0 autoexam.js"
+  },
+  "collectText": {
+    "message": "{parts}{questions}{marks}",
+    "description": "{parts} 插值对应上面的 collectText1，{questions}插值对应上面的 collectText2，{marks}插值对应上面的collectText3，也就是说这三个分句组成一句话，翻译可根据需要调整三个分句的顺序，或者添加标点符号。"
+  },
+  "surePaperNameLess": {
+    "message": "الرجاء التأكد من أن اسم ورقة الاختبار أقل من 50 كلمة",
+    "description": "1.0 autoexam.js"
+  },
+  "keyIntegerText": {
+    "message": "الرجاء إدخال عدد صحيح بين 1-300",
+    "description": "1.0 autoexam.js"
+  },
+  "makePaperText": {
+    "message": "جعل ورقة اختبار بنجاح!",
+    "description": "1.0 autoexam.js"
+  },
+  "QnumberText": {
+    "message": "رقم من Q صغيرة في Q.bank",
+    "description": "1.0 autoexam.js"
+  },
+  "addPaperQText": {
+    "message": "يمكنك إضافة Q يدوياً ومتابعة عمل ورقة اختبار بعد;",
+    "description": "1.0 autoexam.js"
+  },
+  "adjustmentPaperText": {
+    "message": "تعديل ورقة الاختبار",
+    "description": "1.0 autoexam.js"
+  },
+  "makePaperingText": {
+    "message": "صنع ورقة اختبار",
+    "description": "1.0 autoexam.js"
+  },
+  "returnModifyText": {
+    "message": "لا يوجد Q اختياري في بنك Q.. المحدد. الرجاء العودة إلى تعديل!",
+    "description": "1.0 autoexam.js"
+  },
+  "confirmText": {
+    "message": "تاكيد",
+    "description": "1.0 autoexam.js"
+  },
+  "continueMakeText": {
+    "message": "استمر في إجراء",
+    "description": "1.0 autoexam.js"
+  },
+  "pleaseEnterName": {
+    "message": "الرجاء إدخال أسماء محتويات حتى {0} حرف",
+    "description": "1.0 autoexam.js"
+  },
+  "pleaseEnterTemplateName": {
+    "message": "الرجاء إدخال قالب الاسم أقل من 20 حرفاً",
+    "description": "1.0 autoexam.js"
+  },
+  "pleaseAddQtype": {
+    "message": "الرجاء إضافة نوع Q",
+    "description": "1.0 autoexam.js"
+  },
+  "pleaseSelectQrange": {
+    "message": "الرجاء تحديد نطاق Q",
+    "description": "1.0 autoexam.js"
+  },
+  "correctRatioText": {
+    "message": "الرجاء إدخال النسبة الصحيحة",
+    "description": "1.0 autoexam.js"
+  },
+  "getDateErrorText": {
+    "message": "خطأ في تاريخ الحصول",
+    "description": "1.0 autoexam.js"
+  },
+  "confirmDeleteTemplate": {
+    "message": "هل تريد بالتأكيد حذف هذا القالب؟",
+    "description": "1.0 autoexam.js"
+  },
+  "deleteTemplateError": {
+    "message": "حذف خطأ في القالب",
+    "description": "1.0 autoexam.js"
+  },
+  "partNum": {
+    "message": "الفرع {0}",
+    "description": "1.0 autoexam.js"
+  },
+  "totalScoreLabel": {
+    "message": "مجموع النقاط: {0}",
+    "description": "1.0 autoexam.js"
+  }
+}

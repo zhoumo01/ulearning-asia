@@ -16,11 +16,11 @@
     "description": "1.0 questionNew.json"
   },
   "clickPlayText": {
-    "message": "انقر للاستماع {فيديو}",
+    "message": "انقر للاستماع {video}",
     "description": "1.0 questionNew.json"
   },
   "CollapseText": {
-    "message": "طي {فيديو}",
+    "message": "طي {video}",
     "description": "1.0 questionNew.json"
   },
   "reloadText": {
@@ -28,7 +28,7 @@
     "description": "1.0 questionNew.json"
   },
   "netErrorText": {
-    "message": "خطأ في الشبكة، الرجاء {إعادة تحميل}",
+    "message": "خطأ في الشبكة، الرجاء {reload}",
     "description": "1.0 questionNew.json"
   },
   "setScoreText": {
@@ -36,7 +36,7 @@
     "description": "1.0 questionNew.json"
   },
   "scoreText": {
-    "message": "Pts المحتملة: 'النتيجة'",
+    "message": "{score} نقطة",
     "description": "1.0 questionNew.json"
   },
   "playTimes": {
@@ -124,7 +124,7 @@
     "description": "1.0 questionNew.json"
   },
   "markSkipText": {
-    "message": "علامة نقطة: يمكنك وضع علامة {أسئلة} Q",
+    "message": "نصيحة للمراجعة: هناك {question} يمكنك مراجعتها",
     "description": "1.0 questionNew.json"
   },
   "noMarkText": {
@@ -264,7 +264,7 @@
     "description": "1.0 questionNew.js"
   },
   "haveText": {
-    "message": "هل لا يزال لديك {لا} سؤال (أسئلة) لم يتم الإجابة عليه، هل تريد الاستمرار في الإرسال؟",
+    "message": "هل لا يزال لديك {لا} سؤال (no) لم يتم الإجابة عليه، هل تريد الاستمرار في الإرسال؟",
     "description": "1.0 questionNew.js"
   },
   "examEndText": {
@@ -344,7 +344,7 @@
     "description": "1.0 backwards.jsp"
   },
   "invalidExamCount": {
-    "message": "لقد تجاوزت الحد الأقصى لعدد المرات التي تقوم فيها بالامتحان هذه المرة، وبالتالي لا يمكنك إجراء الامتحان مرة أخرى! عدد المرات التي يقتصر فيها على الامتحان:",
+    "message": "لقد تجاوزت الحد الأقصى لعدد مرات هذا الاختبار ولا يمكنك إجراء الاختبار! ¶\nأوقات الحد: {count} مرة",
     "description": "1.0 backwards.jsp"
   },
   "noAnswer": {
@@ -400,7 +400,7 @@
     "description": "1.0 viewpaperanswer.jsp"
   },
   "totalText": {
-    "message": "إجمالي {عدد}",
+    "message": "إجمالي {count}",
     "description": "1.0 viewpaperanswer.jsp"
   },
   "scoreValueText": {
