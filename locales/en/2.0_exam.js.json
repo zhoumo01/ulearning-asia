@@ -2468,7 +2468,7 @@
     "description": "2.0 exam.js"
   },
   "lateTip": {
-    "message": "No further entry is allowed after {} mins",
+    "message": "No entry is allowed after {count} minutes from the start of the exam",
     "description": "2.0 exam.js"
   },
   "commitLimitTip": {
@@ -2752,7 +2752,7 @@
     "description": "2.0 exam.js"
   },
   "screenMonitorTips2": {
-    "message": "Turn on screen monitoring and leave over.",
+    "message": "Turn on screen cut monitoring, and compulsorily hand over the paper after leaving more than {count} times {tip}",
     "description": "tip处的插值是 “（仅支持手机考试）”，因为tip需要独立的设置样式。"
   },
   "faceAuth": {
@@ -2772,7 +2772,7 @@
     "description": "2.0 exam.js"
   },
   "minSubmitTime2": {
-    "message": "Submitted at",
+    "message": "Submit time: {time}",
     "description": "2.0 exam.js"
   },
   "minSubmitTimeTips1": {
@@ -2816,7 +2816,7 @@
     "description": "2.0 exam.js"
   },
   "examHeadTips3": {
-    "message": "Please do so before the exam.",
+    "message": "Please {detectEnv} before the exam to confirm that the network, equipment, browser, etc. are normal",
     "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
   },
   "deletePhoto": {
