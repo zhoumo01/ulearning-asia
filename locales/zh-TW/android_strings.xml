@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">優學院</string>
+    <!--<string name="telphone">400 610 7808</string>-->
+    <string name="dialog_ok">@string/know</string>
+    <string name="dialog_quit" formatted="false">退出(%s)</string>
+    <string name="dialog_confirm">確認</string>
+    <string name="dialog_delete">@string/delete</string>
+    <string name="dialog_cancel">取消</string>
+    <string name="dialog_ask_logout">是否退出登入？</string>
+    <string name="iknow">@string/know</string>
+    <string name="know">知道了</string>
+    <string name="operation_save">保存</string>
+    <string name="operation_create">建立</string>
+    <string name="operation_download">下載</string>
+    <string name="operation_goon_study">繼續！我有的是銀子</string>
+    <string name="operation_not_study">算了</string>
+    <string name="operation_go_on_download">繼續下載</string>
+    <string name="operation_send">發送</string>
+    <string name="operation_send_message">發送消息</string>
+    <string name="operation_archive">歸檔</string>
+    <string name="operation_quit_account">退出當前帳號</string>
+    <string name="operation_quit_class">退出班級</string>
+    <string name="operation_delete_class">刪除班級</string>
+    <string name="operation_student_list_sort_change">切換</string>
+    <string name="operation_go_on_study">繼續學習</string>
+    <string name="operation_course_download_clear_all">清除全部</string>
+    <string name="operation_change_telphone">更改關聯手機號碼</string>
+    <string name="operation_relevance_telphone">關聯該手機號碼</string>
+    <string name="operation_get_verification_code">獲取驗證碼</string>
+    <string name="operation_download_all">下載全部</string>
+    <string name="operation_reject_all">全部拒絕</string>
+    <string name="operation_agree_all">全部同意</string>
+    <string name="operation_reject">拒絕</string>
+    <string name="operation_agree">同意</string>
+    <string name="operation_start_study">開始學習</string>
+    <string name="operation_progress">進度成績</string>
+    <string name="operation_go_study">艾瑪~回去學習</string>
+    <string name="operation_go_study_to_next_page">任性的進入下一頁</string>
+    <string name="operation_start_answer">開始答題</string>
+    <string name="operation_refresh_page">刷新頁面</string>
+    <string name="operation_relogin">重新登錄</string>
+    <string name="operation_check_grade">查看成績</string>
+    <string name="operation_join_class">加入班級</string>
+    <string name="operation_create_class">建立班級</string>
+    <string name="operation_revocation_apply">撤銷申請</string>
+    <string name="operation_re_apply">重新申請</string>
+    <string name="operation_revocation">撤銷</string>
+    <string name="operation_not_download">先不下載</string>
+    <string name="operation_cancel_download">取消下載</string>
+    <string name="operation_forward_download">去下載</string>
+    <string name="operation_go_on">繼續</string>
+    <string name="operation_redo">重做</string>
+    <string name="operation_cancel_collect">取消收藏</string>
+    <string name="operation_course_spoken_goon_study">繼續學習</string>
+    <string name="operation_course_spoken_leave_study">離開本頁</string>
+    <string name="course_practice_remind_text_once">該測試只允許做1次</string>
+    <string name="course_practice_word_score">分</string>
+    <string name="please_set_the_recording_permission">請設定錄音許可權！</string>
+    <string name="please_set_the_video_and_photo_permissions">"請設定錄影和拍照許可權！</string>
+    <string name="the_recording_failure">錄音失敗</string>
+    <string name="microphone_permissions_are_not_allowed">麥克風許可權未被允許</string>
+    <string name="cache_data_failed">暫存數據失敗</string>
+    <string name="cache_data_null">沒有暫存資料</string>
+    <string name="request_failed">請求失敗</string>
+    <string name="page_not_found">找不到網頁</string>
+    <string name="record_access_dialog_text"><Data><![CDATA[可能由以下原因導致：<br>1. 錄音許可權未授權，請在系統設定中打開應用的錄音許可權<a href="http://help.ulearning.cn/?p=2935">如何打開許可權</a><br>2. 您的聲音太小，請重新嘗試<br>3. 其它應用正在使用錄音功能，請將其關閉後再重新嘗試]]></Data></string>
+    <string name="the_teacher_invited_you_to_join_the_class">老師邀請你加入班級</string>
+    <string name="back_umooc">返回優學院</string>
+    <string name="net_is_broken">斷網了</string>
+
+    <string name="close">關閉</string>
+    <string name="play">播放</string>
+    <string name="change">更換</string>
+    <string name="classs">班級</string>
+    <string name="type">類型</string>
+    <string name="more">更多</string>
+    <string name="setting">設定</string>
+    <string name="copy">複製</string>
+    <string name="delete">刪除</string>
+    <string name="forward">轉發</string>
+    <string name="select_contact">選擇連絡人</string>
+    <string name="chat">聊天</string>
+    <string name="contact">連絡人</string>
+    <string name="avatar">相片</string>
+    <string name="username">用戶名</string>
+    <string name="name">姓名</string>
+    <string name="gender">性別</string>
+    <string name="student_number">學號</string>
+    <string name="telphone">手機</string>
+    <string name="email">郵箱</string>
+    <string name="activate_course">啟動課程</string>
+    <string name="recording">錄音中</string>
+    <string name="playback">錄音重播中</string>
+    <string name="play_record">播放錄音</string>
+    <string name="relect_role">重選角色</string>
+    <string name="take_pic">拍照</string>
+    <string name="class_group">班級群</string>
+    <string name="start">開始</string>
+    <string name="finish">結束</string>
+    <string name="draft">草稿</string>
+    <string name="application">應用</string>
+    <string name="video_type">影片(MP4/AVI/MOV/FLV/RMVB/MPG)</string>
+    <string name="class_detail">班級訊息</string>
+    <string name="class_info">班級詳情</string>
+    <string name="personal_info">個人資料</string>
+    <string name="telphone_number">手機號</string>
+    <string name="system_informs">系統通知</string>
+    <string name="teacher">教師</string>
+    <string name="student">學生</string>
+    <string name="manager">管理員</string>
+    <string name="start_speak">開始讀</string>
+    <string name="correct">正確</string>
+    <string name="wrong">錯誤</string>
+    <string name="apply">申請</string>
+    <string name="unstart">未開始</string>
+    <string name="goon">進行中</string>
+    <string name="end">結束</string>
+    <string name="rewatch">可回看</string>
+
+
+    <string name="my_class">我的班級</string>
+    <string name="class_status_apply">班級申請</string>
+    <string name="class_status_agreed">已同意</string>
+    <string name="class_status_rejected">已拒絕</string>
+    <string name="class_status_apply_quiting">申請退出中</string>
+    <string name="class_status_apply_joining">申請加入中</string>
+
+    <string name="course_learn_status_finished">已完成</string>
+    <string name="course_learn_status_unfinished">未完成</string>
+    <string name="course_learn_status_unstart">未開始</string>
+    <string name="course_learn_status_ongoing">進行中</string>
+    <string name="course_learn_status_expired">已過期</string>
+
+    <string name="activity_status_need_rewrite">需重寫</string>
+
+    <string name="sex_male">男</string>
+    <string name="sex_madam">女</string>
+
+    <string name="growth_student_level_default">學白</string>
+    <string name="growth_teacher_level_default">江湖少俠</string>
+
+    <string name="page_title_modify_pwd">修改密碼</string>
+
+    <string name="modify_success">修改成功</string>
+    <string name="modify_fail">修改失敗</string>
+
+    <string name="hint">提示</string>
+    <string name="hint_friendship">友情提醒</string>
+    <string name="hint_tips">小小提示</string>
+    <string name="hint_input_content_limit_500_word">在此輸入內容（不超過500字）</string>
+    <string name="hint_input_answer">在此輸入答案...</string>
+    <string name="hint_input_new_telphone">請輸入新的手機號碼</string>
+    <string name="hint_input_telphone">請輸入手機號碼</string>
+    <string name="hint_input_username_pwd">請輸入用戶名和密碼</string>
+    <string name="hint_input_pwd">請輸入原密碼</string>
+    <string name="hint_input_new_pwd">請輸入新密碼</string>
+    <string name="hint_input_new_pwd_again">請再次輸入新密碼</string>
+    <string name="hint_input_class_name">請輸入班級名稱</string>
+    <string name="hint_search_contact">搜尋連絡人</string>
+    <string name="hint_now_relevance_telphone">目前已關聯手機號碼</string>
+    <string name="hint_input_verification_code">請輸入驗證碼</string>
+    <string name="hint_qr_code">將QRCODE對準掃描框即可自動掃描</string>
+    <string name="hint_telphone_unwrite">未填寫</string>
+    <string name="hint_email_unwrite">這傢伙很懶,電子郵件都沒留~</string>
+    <string name="hint_feature_online_follow_up">此功能後續上線-.-</string>
+    <string name="hint_course_page_not_study_finished">本頁尚未學完-</string>
+    <string name="hint_course_important">重要提示</string>
+    <string name="hint_classname_input_require">2-30個字元，不允許特殊字元（除底線_，中劃線-外）!</string>
+    <string name="hint_classcode_input_require">6-20位元字母和數位及底線_，中劃線-!</string>
+    <string name="hint_classyear_input_require">請按正確的年份格式輸入,如: 2015</string>
+    <string name="hint_classname_modify_success">@string/modify_success</string>
+    <string name="hint_classcode_modify_success">@string/modify_success</string>
+    <string name="hint_classyear_modify_success">@string/modify_success</string>
+    <string name="hint_chat_message_copy_success">複製成功</string>
+    <string name="hint_copy_to_clipboard">複製成功</string>
+    <string name="hint_pwd_modify_success">@string/modify_success</string>
+    <string name="hint_pwd_modify_fail">@string/modify_fail</string>
+    <string name="hint_class_member_empty">班級裡沒有學生，請讓學生使用班級編號或教師姓名搜尋班級進行加入班級加入班級</string>
+    <string name="hint_first_page">已是第一頁</string>
+    <string name="hint_time_out">時間到</string>
+    <string name="hint_download_three_count">最多允許三個同時下載</string>
+    <string name="hint_download_three_count_support">最多支援三個資源同時下載！</string>
+    <string name="hint_next_section_empty">下一節沒有內容</string>
+    <string name="hint_section_no_grade">本節未完成，\n完成後才有成績</string>
+    <string name="hint_no_sd_card">沒有SD卡</string>
+    <string name="hint_clear_course">是否清除該課程?</string>
+    <string name="hint_confirm_delete_all_course">確定要刪除全部課程配件?</string>
+    <string name="hint_confirm_delete_offline_course">確定要刪除離線課程配件?</string>
+    <string name="hint_audio_file_empty">暫無音檔</string>
+    <string name="hint_glosarry_empty">當前課程沒有專有名詞</string>
+    <string name="hint_section_study_close">教師關閉了本節內容，暫時無法學習</string>
+    <string name="hint_video_undownload_flow_play">該影片未下載，當前處於非Wifi環境，直接播放會消耗資料流程量，確定要播放嗎？</string>
+    <string name="hint_no_connect_wifi_ask_download">未連接Wifi，下載會產生資料流程量，確定下載嗎？</string>
+    <string name="hint_no_connect_wifi_ask_play_video">未連接Wifi，播放會產生資料流程量，繼續觀看嗎？</string>
+    <string name="hint_apply_join_class_wait_teacher_approval">已申請加入班級,請等待老師審核</string>
+    <string name="hint_confirm_revocation_join_class_apply">確定撤銷加入班級加入班級申請?</string>
+    <string name="hint_revocation_success">撤銷成功</string>
+    <string name="hint_revocation_fail">撤銷失敗</string>
+    <string name="hint_not_download_course">您沒有下載本課程的課程配件</string>
+    <string name="hint_keep_least_one_course">請至少保留一課程</string>
+    <string name="hint_course_empty">暫時沒有課程哦</string>
+    <string name="hint_choose_teach_course">選擇所教的課程</string>
+    <string name="hint_modify_personal_info_fail">@string/modify_fail</string>
+    <string name="hint_quit_class_info">退出班級後將無法查看與本班相關的活動如作業、考試等，確定退出嗎？</string>
+    <string name="hint_quit_class_success">退出班級成功！</string>
+    <string name="hint_quit_class_fail">退出班級失敗！</string>
+    <string name="hint_save_success">儲存成功</string>
+    <string name="hint_save_fail">儲存失敗</string>
+    <string name="hint_change_success">更改成功</string>
+    <string name="hint_speech_grade">老師規定每個句子/單詞的發音需達到%d分才算完成學習。加油哦，同學！</string>
+    <string name="hint_speech_must_on_network">錄音自動評分功能需要在有網路連接的情況下才能使用。請確認網路連接。</string>
+    <string name="hint_collect_success">收藏成功</string>
+    <string name="hint_class_create_success_tell_class_code_to_student" formatted="false">班級建立成功\n請將班級編號: %s告訴給學生</string>
+    <string name="hint_delete_class">刪除班級?</string>
+
+    <string name="warning_input_text_too_long">輸入內容長度不能超過%d,超過部分不發送!</string>
+    <string name="warning_pwd_length_out_16">請輸入6-16位元字母或數位</string>
+    <string name="warning_old_pwd_null">請輸入原密碼</string>
+    <string name="warning_old_pwd_input_error">原密碼輸入有誤！</string>
+    <string name="warning_new_pwd_null">請輸入新密碼</string>
+    <string name="warning_pwd_disagree">兩次輸入的密碼不一致</string>
+    <string name="warning_pwd_length">請輸入6-16位元字母或數位</string>
+    <string name="warning_course_no_desc">暫無課程簡介</string>
+    <string name="warning_not_preview_file">暫不支援預覽該檔\n你可以使用其他方式打開</string>
+    <string name="warning_course_resource_download_studyrecord">下載資源後可以在離線環境下學習.刪除已完成的離線資源不會影響學習紀錄和成績</string>
+    <string name="warning_course_expire">課程過期了</string>
+    <string name="warning_course_buy_go_on_study">如果想繼續學習,請再次購買本課程</string>
+    <string name="warning_chat_empty_message">訊息紀錄是空的,快找人詢問吧^.^</string>
+    <string name="warning_contact_empty">沒有相符連絡人</string>
+    <string name="warning_input_realinfo">請輸入真實資訊,否則會影響你的學習成績</string>
+    <string name="warning_sys_notify_empty">系統通知是空的^.^</string>
+    <string name="warning_practice_finish_limittime">請在規定時間內完成練習，時間結束會自動提交</string>
+    <string name="warning_network_break">目前網路無法使用，請檢查網路連接</string>
+    <string name="warning_qr_fail">掃描失敗！</string>
+    <string name="warning_qr_unsupport">暫不支援其他QRCORD！</string>
+    <string name="warning_input_content">請輸入內容!</string>
+    <string name="warning_classname_format_error">班級名稱格式錯誤!</string>
+    <string name="warning_classcode_format_error">班級編號格式錯誤!</string>
+    <string name="warning_year_format_error">年份格式錯誤!</string>
+
+    <string name="warning_speech_no_speak">您還沒有說話哦...</string>
+    <string name="warning_speech_network_visit_error">無法自動評分，請檢查網路連接</string>
+    <string name="warning_speech_no_network">無法自動評分，請檢查網路連接</string>
+
+    <string name="warning_chat_no_login">未登入消息系統,請稍後再嘗試!</string>
+    <string name="warning_chat_conversation_create_fail">建立會話失敗</string>
+    <string name="warning_chat_conversation_unsupport_type">不支援類型</string>
+    <string name="warning_chat_message_forward_fail">轉發失敗</string>
+    <string name="warning_chat_message_forward_success">轉發成功</string>
+
+    <string name="warning_location_fail">服務端網路定位失敗，請重試</string>
+    <string name="warning_location_permission_fail">請在手機系統的設定中開啟定位服務，並允許優學院使用定位服務</string>
+
+    <string name="warning_audio_file_not_found">未找到音檔。</string>
+    <string name="warning_record_time_short">錄音時間太短，請稍後停止</string>
+    <string name="warning_audio_file_is_not_valid">不是有效的音檔！</string>
+    <string name="warning_speech_rejected">您亂讀了，本次不評分，保留您上次的分數！</string>
+    <string name="warning_speech_start_fail">啟用測評失敗，本次錄音不評分，但紀錄次數。</string>
+    <string name="warning_record_permission_close">錄音許可未開啟</string>
+    <string name="warning_carema_permission_close">拍攝照片許可未開啟</string>
+    <string name="warning_file_not_select">未選擇檔案</string>
+    <string name="warning_file_could_not_open">手機內沒有安裝可以打開該檔的App</string>
+    <string name="warning_resource_not_download">資源未下載</string>
+    <string name="warning_file_size_limit">檔大小超過限制</string>
+    <string name="warning_file_not_found">沒找到檔案！</string>
+    <string name="warning_file_download_fail">下載失敗</string>
+    <string name="warning_download_fail">下載失敗</string>
+    <string name="warning_file_upload_fail">上傳失敗</string>
+    <string name="warning_update_fail">更新失敗</string>
+    <string name="warning_version_is_new">當前已是最新版本</string>
+    <string name="warning_delete_bookmark_fail">刪除書籤失敗</string>
+    <string name="warning_delete_note_fail">刪除筆記失敗！</string>
+    <string name="warning_practicing">練習正在進行中，請先提交</string>
+    <string name="warning_course_fail">課程配件有問題，請聯繫我們！</string>
+    <string name="warning_storage_short">手機記憶體不足</string>
+    <string name="warning_storage_short_and_release_redownload">手機記憶體不足，請釋放部分空間後再下載</string>
+
+    <string name="warning_share_qq_success">分享LINE成功</string>
+    <string name="warning_share_qq_fail">分享LINE失敗</string>
+    <string name="warning_share_qq_cancel">取消分享LINE</string>
+    <string name="warning_share_qqzone_success">分享LINE空間成功</string>
+    <string name="warning_share_qqzone_fail">分享LINE空間失敗</string>
+    <string name="warning_share_qqzone_cancel">取消分享LINE空間</string>
+    <string name="warning_share_wx_success">分享LINE好友成功</string>
+    <string name="warning_share_wx_fail">分享LINE好友失敗</string>
+    <string name="warning_share_wx_cancel">取消分享LINE好友</string>
+    <string name="warning_share_wxq_success">分享朋友圈成功</string>
+    <string name="warning_share_wxq_fail">分享好友失敗</string>
+    <string name="warning_share_wxq_cancel">取消分享</string>
+
+
+    <string name="loading">載入中</string>
+    <string name="loading1">@string/loading</string>
+    <string name="updating">更新中...</string>
+    <string name="creating_chat">建立聊天中...</string>
+    <string name="loading_wait">@string/loading</string>
+    <string name="loading_course">正在載入課程...</string>
+    <string name="recording1">正在錄音...</string>
+    <string name="checking">檢測中...</string>
+    <string name="logining">登入中...</string>
+    <string name="saving">儲存中</string>
+    <string name="scoring">正在評分...</string>
+    <string name="watching">觀看中</string>
+    <string name="unwatch">未觀看</string>
+    <string name="class_creating">建立中</string>
+
+    <string name="pop_course_menu_detail">課程內容</string>
+    <string name="pop_course_menu_score">成績計算方式</string>
+    <string name="pop_course_menu_glosarry">專有名詞表</string>
+    <string name="pop_course_menu_mark">書籤清單</string>
+    <string name="pop_course_menu_note">筆記清單</string>
+
+    <string name="setup_menu_modify_pwd">@string/page_title_modify_pwd</string>
+    <string name="setup_menu_only_wifi_download">僅WiFi下載</string>
+    <string name="setup_menu_check_version">檢測新版本</string>
+
+    <string name="text_course_score1">課程平均成績：</string>
+    <string name="text_course_score2">本課程所有章的成績總計/章總數</string>
+    <string name="text_course_score3">章成績：</string>
+    <string name="text_course_score4">本章所有已完成的節成績總計/節總數</string>
+    <string name="text_course_score5">節成績：</string>
+    <string name="text_course_score6">本節所有頁面的成績總計/頁面總數</string>
+    <string name="text_course_score7">※未完成的節不計算成績</string>
+    <string name="text_course_score8">頁面成績：</string>
+    <string name="text_course_score9">練習頁面：取練習分數（多次練習取末次分數）</string>
+    <string name="text_course_score10">無練習的頁面：只紀錄完成狀態</string>
+    <string name="text_course_study_page_not_finished">本頁還沒有學完</string>
+    <string name="text_course_complete_status" formatted="false">頁面:%d/%d</string>
+    <string name="text_course_download_stauts" formatted="false">共%d個,已下載%d個(%s)</string>
+    <string name="text_file_downloaded_local_path" formatted="false">已下載：%s</string>
+    <string name="text_downloading_format" formatted="false">正在下載(%s/%s)</string>
+    <string name="text_get_course">正在獲取課程</string>
+    <string name="text_pull_up_load_more">上拉載入更多</string>
+    <string name="text_disentangle_load_more">鬆開載入更多</string>
+    <string name="text_loading">優優正在努力載入...</string>
+    <string name="text_timelimit_practice">限時練習</string>
+    <string name="text_teacher_close_study">老師關閉學習</string>
+    <string name="text_cancel_send_finger_upglide">取消發送</string>
+    <string name="text_alum_select">從相冊中選取</string>
+    <string name="text_course_expire_date" formatted="false">課程到期日：%s</string>
+    <string name="text_course_expired_date" formatted="false">課程已於%s過期</string>
+    <string name="text_course_study_record_empty">無學習紀錄</string>
+    <string name="text_course_study_record_not_latest">正獲取最新學習記錄</string>
+    <string name="text_you_have_some_course_format" formatted="false">您有%d門課程</string>
+    <string name="text_choose_file_upload">選擇上傳檔案</string>
+    <string name="text_teacher_size_format" formatted="false">教師（%d）</string>
+    <string name="text_student_size_format" formatted="false">學生（%d）</string>
+    <string name="text_practice_correct_count_good" formatted="false">正確%d道，真棒！</string>
+    <string name="text_practice_correct_count" formatted="false">正確%d道</string>
+    <string name="text_practice_wrong_count_good" formatted="false">錯誤%d道，繼續努力！</string>
+    <string name="text_practice_wrong_count" formatted="false">錯誤%d道</string>
+    <string name="text_watched_format" formatted="false">已觀看%d%%</string>
+    <string name="text_goto_look">去查看</string>
+
+    <string name="growth_format" formatted="false">%d成長值</string>
+
+    <string name="confirm_course_spoken_leave">本頁面還有未完成的單詞/句子/段落，確定要離開嗎？</string>
+
+    <string name="text_chat_conversation_draft">[草稿]</string>
+    <string name="text_chat_message_custom">[自訂消息]</string>
+    <string name="text_chat_message_file">[文件]</string>
+    <string name="text_chat_message_image">[圖片]</string>
+    <string name="text_chat_message_video">[影片]</string>
+    <string name="text_chat_send_to" formatted="false">發送到  %s</string>
+
+    <string name="text_practice_limit_time_use_time" formatted="false">用時:%s（限時%s）</string>
+    <string name="text_practice_limit_time">限時%s</string>
+    <string name="text_practice_count_question">%d道練習題</string>
+    <string name="text_video_page_finish_condition">(影片觀看時長≥影片時長才算完成)</string>
+
+    <string name="text_change_related_cell_phone">更改關聯手機</string>
+    <string name="text_related_cell_phone">關聯手機</string>
+    <string name="text_back_umooc">返回優學院</string>
+    <string name="text_class_member">班級成員</string>
+    <string name="text_detail">內容</string>
+    <string name="text_me">我</string>
+    <string name="text_open_with_other_app">用其他方式打開</string>
+    <string name="text_preview">預覽</string>
+    <string name="text_next_section_title_format" formatted="false">下一節:%s</string>
+    <string name="text_chapter_finish">本章已結束</string>
+    <string name="text_select_spoken_audio_file">選擇口語音訊檔</string>
+    <string name="text_pull_down_update_course">下拉更新課程結構</string>
+    <string name="text_put_down_update_course">放開更新課程結構</string>
+    <string name="text_answer_detail">答案：</string>
+    <string name="text_refer_to_the_answer">參考答案：</string>
+    <string name="text_answer_analysis">答案解析：</string>
+    <string name="text_unanswer"> 未作答 </string>
+    <string name="text_click_choose_answer">點選選擇答案 </string>
+    <string name="text_org_course_empty">您的機構下沒有課程</string>
+    <string name="text_join_quit_class_apply">加退出班級申請</string>
+    <string name="text_join_quit_class_apply_empty">沒有加退出班級申請</string>
+    <string name="text_join_class_apply_empty">暫時沒有加入班級申請</string>
+    <string name="text_quit_class_apply_empty">暫時沒有退出班級申請</string>
+    <string name="text_apply_count_format" formatted="false">共 %d 個新申請</string>
+    <string name="text_apply_join_class_format" formatted="false">申請加入\"%s\"</string>
+    <string name="text_apply_quit_class_format" formatted="false">申請退出\"%s\"</string>
+
+    <string name="toast_other_lesson_downloading">其他課程正在下載</string>
+    <string name="toast_course_expire">課程已過期</string>
+    <string name="toast_course_no_content">課程無內容</string>
+    <string name="toast_no_more_activities">沒有更多活動</string>
+    <string name="toast_file_download_fail_format" formatted="false">%s下載失敗</string>
+    <string name="toast_apply_submited_wait_approve">申請已提交，請等待老師審批</string>
+    <string name="toast_not_get_user_info">沒有獲取到使用者資訊</string>
+    <string name="toast_name_empty">姓名空白,或包含空格!</string>
+    <string name="toast_student_number_empty">學號空白,或包含空格!</string>
+    <string name="toast_email_empty">電子郵件空白,或包含空格!</string>
+    <string name="toast_email_format_error">電子郵件格式有誤!請重新輸入!</string>
+    <string name="toast_telphone_format_error">手機格式有誤!請重新輸入!</string>
+    <string name="toast_telhpone_empty">手機號碼或驗證碼空白!</string>
+    <string name="toast_telhpone_empty1">手機號碼空白!</string>
+    <string name="toast_same_telphone">與目前手機號碼相同!</string>
+    <string name="toast_send_fail">發送失敗,請重試!</string>
+    <string name="toast_phone_number_has_been_occupied">手機號碼已被佔用，請撥打客服電話02-23114027分機108  與我們聯繫</string>
+    <string name="toast_has_no_more">沒有更多</string>
+    <string name="toast_unable_to_locate_the_course_page">無法定位到該課程頁面，請點選課程頁面的“更多”，選擇該門課程後重試</string>
+    <string name="toast_please_check_if_the_SD_card_is_inserted">請檢查SD卡是否插好！</string>
+    <string name="toast_file_breakdown">檔案損壞，請回到課程目錄頁面重新下載本章資源！</string>
+    <string name="toast_file_not_found">檔案未找到，請回到課程目錄頁面重新下載本章資源！</string>
+    <string name="toast_play_file_not_found">沒找到要播放的影片檔！</string>
+    <string name="toast_course_error_contact_us">課程配件錯誤,請撥打客服電話02-23114027分機108</string>
+    <string name="toast_your_answer_incomplete">您的答案不完整！</string>
+    <string name="toast_you_not_select_answer">您還有題目沒有選擇答案！請確認  所有題都已作答！</string>
+    <string name="toast_please_choose_class_course">請選擇班級使用的課程</string>
+    <string name="toast_create_class_fail">建立失敗</string>
+    <string name="toast_course_update_success">@string/modify_success</string>
+    <string name="toast_delete_success">刪除成功</string>
+    <string name="toast_delete_fail">刪除失敗</string>
+    <string name="toast_set_success">設定成功</string>
+    <string name="toast_update_fail">@string/modify_fail</string>
+
+    <string name="about_menu_operation_guide">操作指南</string>
+    <string name="about_menu_operation_update_notify">更新通知</string>
+    <string name="about_menu_operation_feedback">意見回饋</string>
+
+    <string name="active_status_attendancing">點名中</string>
+    <string name="active_tag_student_hp">學生互評</string>
+    <string name="active_tag_growth">@string/growth</string>
+    <string name="active_tab_all">全部</string>
+    <string name="active_tab_work">作業</string>
+    <string name="active_tab_attendance">點名</string>
+    <string name="active_tab_vote">投票</string>
+    <string name="active_tab_interlocution">搶答</string>
+    <string name="active_tab_live">直播</string>
+
+    <string name="activity_more_menu_work">個人作業</string>
+    <string name="activity_more_menu_write">寫作作業</string>
+    <string name="activity_more_menu_spoken">口語作業</string>
+    <string name="activity_more_menu_upload">上傳作業</string>
+    <string name="activity_more_menu_group_work">小組作業</string>
+    <string name="activity_more_menu_vote">@string/active_tab_vote</string>
+    <string name="activity_more_menu_attendance">@string/active_tab_attendance</string>
+    <string name="activity_more_menu_interlocution">@string/active_tab_interlocution</string>
+
+    <string name="file_tab_doc">檔案</string>
+    <string name="file_tab_video">影音</string>
+    <string name="file_tab_pic">圖片</string>
+    <string name="file_tab_archive">壓縮檔</string>
+
+    <string name="main_tab_home">首頁</string>
+    <string name="main_tab_course">課程</string>
+    <string name="main_tab_resource">資源</string>
+    <string name="main_tab_activity">活動</string>
+    <string name="main_tab_mine">我</string>
+
+    <string name="class_year">年級</string>
+    <string name="title_class_name">班級名稱</string>
+    <string name="title_class_code">班級號碼</string>
+    <string name="title_class_teacher_name">教師姓名</string>
+    <string name="title_class_year">學年</string>
+    <string name="title_class_join_approval">申請加入是否需要審批</string>
+    <string name="title_class_quit_approval">申請退出是否需要審批</string>
+    <string name="title_class_practice_show_correct_answer">練習後是否顯示正確答案</string>
+    <string name="title_class_practice_reanswer">是否允許重覆練習</string>
+    <string name="title_class_course">班級課程</string>
+    <string name="title_class_join_apply">加入班級加入班級需要申請</string>
+    <string name="title_class_quit_apply">退出班級需要申請</string>
+
+    <string name="join_class_apply">加入班級申請</string>
+    <string name="quit_class_apply">退出班級申請</string>
+
+    <string name="title_course_name">課程名稱</string>
+    <string name="qr">QRCORD掃描</string>
+
+    <string name="growth">成長值</string>
+    <string name="points">成長值</string>
+    <string name="achievement">成就值</string>
+    <string name="get_growth_desc">學生簽到成功即可獲得成長值</string>
+
+    <string name="student_list">學生名單</string>
+    <string name="student_list_sort_growth">按成長值排序</string>
+    <string name="student_list_sort_studentno">按學號值排序</string>
+
+    <string name="class_apply">個申請</string>
+
+    <string name="course_author">作者:</string>
+    <string name="course_copyright">課程版權:</string>
+    <string name="course_detail">課程簡介:</string>
+
+    <string name="download_process_format">正在下載(0KB/0M)</string>
+    <string name="downloaded_process_format" formatted="false">已下載%d個資源 共%s</string>
+    <string name="format_class_member_ranking" formatted="false">第%d名</string>
+
+    <string name="finished_lesson">已完成章節</string>
+    <string name="study_time">累計學習時間</string>
+    <string name="course_score">--分</string>
+    <string name="average_scores">平均成績</string>
+    <string name="course_study_close_lesson">教師關閉了該章學習</string>
+    <string name="progress">進度</string>
+    <string name="grade">成績</string>
+    <string name="grade1">成績：</string>
+    <string name="minute">分</string>
+    <string name="second">秒</string>
+    <string name="clock">鐘</string>
+    <string name="time">時間:</string>
+    <string name="minute_format" formatted="false">%d分</string>
+    <string name="minute_format_str" formatted="false">%s分</string>
+    <string name="lesson_offline_resource">本章離線資源</string>
+
+    <string name="dialog_content_clear_course">是否要清除該課程？</string>
+
+    <string name="practice_correct_answer">正確答案:</string>
+    <string name="practice_user_answer">你的答案:</string>
+    <string name="practice_answer_analysis">解析</string>
+
+    <string name="about_activity_title">關於我們</string>
+    <string name="feedback_activity_title">意見回饋</string>
+    <string name="feedback_activity_submit">提交回饋</string>
+    <string name="pay_activity_title">課程購買</string>
+
+    <string name="login_confirm">登 入</string>
+    <string name="login_name">用戶名/手機號碼</string>
+    <string name="login_password">密碼</string>
+    <string name="login_register">註冊帳號</string>
+    <string name="login_forget_password">忘記密碼</string>
+    <string name="register_activity_title">註冊</string>
+
+    <string name="register_stu">我是學生</string>
+    <string name="register_tea">我是教師</string>
+
+
+    <string name="main_logout">您的帳號在其它手機上登入，請確定是否是本人操作，如果不是，建議您修改密碼增強帳號的安全性</string>
+
+    <string name="main_menu_courses_title">我的課程</string>
+    <string name="main_menu_statistics_sync_success">學習紀錄已同步</string>
+    <string name="main_menu_statistics_sync_failed">抱歉，同步失敗</string>
+    <string name="main_menu_statistics_review">回顧</string>
+    <string name="main_menu_setting_font_small">小</string>
+    <string name="main_menu_setting_font_normal">中</string>
+    <string name="main_menu_setting_font_large">大</string>
+    <string name="main_menu_setting_clear_title">清除下載課程</string>
+    <string name="main_menu_setting_about_title">關於我們</string>
+    <string name="main_menu_item_courselistgrade">口語練習及格分數線</string>
+    <string name="main_menu_setting_font_size">設定字體大小</string>
+    <string name="main_join_class">加入班級</string>
+    <string name="main_menu_option_upgrade_none_message">已是最新  版本</string>
+    <string name="main_menu_invalid_warn_message">請輸入有效資訊</string>
+    <string name="main_menu_feedback_confirm_message">提交成功，感謝您的回饋。</string>
+
+    <string name="package_download_none_wifi_confirm">木有wifi？！載入課程會消耗流量，小心錢包變瘦哦！</string>
+    <string name="my_store_course_expired_label">課程已過期，無法觀看</string>
+
+    <string name="course_menu_glossaries_title">專有名詞表</string>
+    <string name="course_menu_bookmarks_title">書籤清單</string>
+    <string name="course_menu_notes_title">筆記清單</string>
+    <string name="course_menu_bookmarks_page_number">第%d頁</string>
+    <string name="course_menu_notes_page_number">第%d頁</string>
+    <string name="course_menu_notes_delete_dialog_message">確認要刪除筆記嗎？</string>
+    <string name="course_menu_notes_empty_message">您還沒有新增 筆記</string>
+    <string name="course_menu_bookmarks_delete_dialog_message">確認要刪除書籤 嗎？</string>
+    <string name="course_menu_bookmarks_empty_message">您還沒有新增書籤</string>
+    <string name="course_detail_download_fail">課程目錄載入失敗,請撥打客服電話02-23114027分機108</string>
+    <string name="course_learn_page_option_submit">提交</string>
+    <string name="course_learn_page_practice_score">你的成績 : %s分</string>
+    <string name="course_learn_page_bookmark_add">已儲存</string>
+    <string name="course_learn_page_bookmark_remove">刪除成功</string>
+    <string name="course_learn_page_end_of_lesson">已是最後一頁</string>
+    <string name="course_learn_page_lei_empty_transcript">沒有發現聽力原文</string>
+    <string name="course_learn_page_lei_empty_record">請首先進行聲音錄製</string>
+    <string name="course_learn_page_pronunciation_video_transcript">聽力原文</string>
+    <string name="course_learn_objective_activity_title">學習目標</string>
+    <string name="course_learn_test_result_answer_wrong">您的回答: 錯誤</string>
+    <string name="course_learn_test_result_answer_correct">您的回答: 正確</string>
+    <string name="course_learn_lei_practice_answer_activity_title">課程練習答案</string>
+    <string name="course_learn_lei_role_play_help_option_a_title">顯示完整提示</string>
+    <string name="course_learn_lei_role_play_help_option_b_title">顯示部分提示</string>
+    <string name="course_learn_lei_role_play_help_option_c_title">不顯示提示</string>
+    <string name="course_learn_file_remind">暫不支援預覽該檔\n你可以使用其他方式打開</string>
+
+    <string name="course_select_title">選擇您所教的課程</string>
+    <string name="class_select_title">選擇班級</string>
+    <string name="all_class">全部</string>
+    <string name="comfirm">確定</string>
+
+    <string name="comment_activity_comment_compose">撰寫評論</string>
+    <string name="comment_activity_comment_my_compose">我的評論</string>
+    <string name="comment_activity_more">@string/more</string>
+    <string name="comment_compose_create_activity_title">撰寫評論</string>
+    <string name="comment_compose_reply_activity_title">回覆評論</string>
+    <string name="comment_compose_send">發表</string>
+
+    <string name="downloads_clear_empty_message">您還沒有下載的課程</string>
+    <string name="downloads_clear_clear">清除</string>
+    <string name="downloads_clear_expired_date">過期時間: </string>
+
+    <string name="setting_coursegrade_title">課程成績設定</string>
+    <string name="setting_coursegrade_top_remind">該設定只針對部分課程有效</string>
+    <string name="setting_course_all">統一設定</string>
+    <string name="setting_course_one">各班差異化設定</string>
+    <string name="setting_coursegrade_bottom_remind">*學生口語練習分數低於及格分數將不顯示成績\n*以上設定僅對手機課程有效</string>
+
+    <!--活動-->
+    <string name="activity_null_remind_stu">暫時沒有活動~</string>
+    <string name="activity_null_remind_tea">快去建立活動吧</string>
+
+
+    <string name="no_resource_remind">您尚未下載，請返回單元頁面下載音影片。</string>
+    <string name="course_resource_error_remind">課程已損壞，請致電02-23114027分機108 。</string>
+    <string name="record_file_not_found_remind">未找到錄音檔，或者您的錄音已遺失。</string>
+    <string name="mipca_not_find_course_remind">很遺憾，您瀏覽的頁面遺失了，請撥打02-23114027分機108  與我們聯繫</string>
+    <string name="mipca_storecourse_null_remind">沒有找到課程，請確定是否已啟動課程</string>
+    <string name="mipca_storecourse_null_remind_tea">您所在院校未開通本課程，如 想   體驗請聯繫我們</string>
+
+    <string name="archiveinfo">1.班級歸檔後不在教師首頁顯示;\n2.不能查看歸檔後班級的進度成績;\n3.不能為班級設定學習計畫,佈置作業,安排考試,發佈資源等.\n4.學生端不再顯示該班級;\n5.已歸檔班級可以通過取消歸檔復原.</string>
+    <string name="speaking_item1">1.練習後將會提交您最後一次的錄音,錄音上傳過程中將會產生流量費用, 建議您選擇WIFI環境下練習。</string>
+    <string name="speaking_item2">2.未連接網路時也可以練習，但您的錄音記錄不能上傳，在您接入網路後，點選“同步學習紀錄” 即可同步上傳您的錄音和學習紀錄。</string>
+
+    <string name="main_menu_class">@string/classs</string>
+    <string name="main_menu_item_selectcourse">選擇課程</string>
+    <string name="main_top_activecourse">@string/activate_course</string>
+    <string name="main_top_buycourse">購買課程</string>
+
+    <string name="remind_no_courseactive">這裡都沒有~\n趕緊啟動課程</string>
+    <string name="remind_no_course_tea">您的機構尚未開通課程\n請撥打客服熱02-23114027分機108.</string>
+    <string name="remind_no_joinclass">您還沒有加入任何班級哦~</string>
+    <string name="remind_no_create_class">您還沒有建立班級哦~</string>
+    <string name="remind_create_class">建立班級</string>
+    <string name="remind_once_create_class_tea">點選 這裡建立班級</string>
+    <string name="remind_once_create_class_stu">點選 這裡加入班級加入班級和啟動課程</string>
+
+    <string name="remind_once_main_tab_mine">在這裡查看我的班級、消\n息、個人資訊</string>
+    <string name="remind_once_main_tab_activity">作業和班級活動在此</string>
+    <string name="remind_once_lookup_student_course_progress">點圖示查看學生進度成績</string>
+    <string name="remind_once_public_activity">點選 發起班級活動</string>
+    <string name="remind_once_show_or_edit_profile">點選查看並補齊個人資訊</string>
+    <string name="remind_once_sync_study_record">點選 同步學習紀錄</string>
+    <string name="remind_once_download_course_resource">下載離線課程配件，離線時學習不中斷 </string>
+    <string name="remind_once_collect_course_page">點選收藏本頁內容</string>
+    <string name="remind_once_section_study_undone">你有頁面未完成，點選灰色\n圖示返回繼續學習</string>
+    <string name="remind_once_course_content">點擊封面瀏覽課程內容</string>
+    <string name="remind_once_course_progress_student">點圖示查看學生進度</string>
+
+
+    <!-- 消息 -->
+    <string name="message_remind">訊息提醒</string>
+    <string name="message">訊息</string>
+    <string name="voice">聲音</string>
+    <string name="move_up_to_cancel">手指上滑，取消發送</string>
+    <string name="release_to_cancel">鬆開手指，取消發送</string>
+    <string name="The_recording_time_is_too_short">錄音時間太短</string>
+
+    <string name="notify">新訊息提醒</string>
+    <string name="newnotify">接收新訊息通知</string>
+    <string name="shake">震動</string>
+    <!--訊息 -->
+
+
+    <string name="file">檔案</string>
+    <string name="folder">目錄</string>
+    <string name="include">%1$s 個檔,%2$s 個目錄</string>
+    <string name="yes">是</string>
+    <string name="no">否</string>
+
+    <string name="detail_exam_submited">你成功提交了試卷</string>
+    <string name="detail_exam_public">班級發布了考試</string>
+    <string name="feedback_default_text">感謝您選擇優學院。您的每項建議，我們都會認真聆聽並改進。</string>
+    <string name="download_wait_text">等待下載</string>
+
+    <string name="person_info_1">如果您的帳號下沒有課程，可以與我們聯絡。電話：400-610-7808</string>
+    <string name="person_info_2">經檢視，您可以免費試用我們的課程、教案、題庫以及其他優質的教學服務。</string>
+    <string name="person_info_have_tel">連結後,您可以使用新的手機號碼登陸</string>
+    <string name="person_info_not_have_tel">為了方便找回密碼,請連結手機號碼。連結後,您可以使用新的手機號碼登入</string>
+
+    <string name="permission_string_help_text">系統無法使用您的麥克風，可能是您沒有開啟該許可，或麥克風正在被使用。\n請前往開啟許可或解除佔用後再試。</string>
+    <string name="permission_camera_string_help_text">抱歉，無法訪問您的相機。請為應用開啟相機許可。</string>
+    <string name="permission_hint">許可提示</string>
+    <string name="permission_btn_ok">@string/iknow</string>
+
+
+    <string name="login_error_message_no_connection">目前網路不可用，請檢查你的網路設定</string>
+    <string name="networkerror">目前網路不可用，請檢查網路連接</string>
+    <string name="package_download_none_network_message">目前網路不可用，請檢查網路連接</string>
+    <string name="network_timeout">網路連接逾時,請稍後再試</string>
+    <string name="server_error">系統正在維護中，請稍候再試</string>
+    <string name="server_data_error">資料更新錯誤，請再試</string>
+
+    <string name="font_size">設定字體大小</string>
+    <string name="font_small">小</string>
+    <string name="font_middle">中</string>
+    <string name="font_big">大</string>
+
+
+    <!-- 播放機提示內容 -->
+    <string name="no_net">@string/warning_network_break</string>
+    <string name="tips_not_wifi">@string/hint_no_connect_wifi_ask_play_video</string>
+    <string name="tips_not_wifi_confirm">@string/operation_go_on</string>
+    <string name="tips_not_wifi_cancel">@string/dialog_cancel</string>
+    <string name="logout_account">註銷帳號</string>
+    <string name="to_bind">去綁定</string>
+    <string name="select_local_file">選擇本機文件</string>
+    <string name="select_local_file_help">如果未能掃描到設備文件，請將文件拷貝至\nAndroid/data/cn.ulearning.yxy/files/</string>
+</resources>
