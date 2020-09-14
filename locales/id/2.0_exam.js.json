@@ -2443,6 +2443,10 @@
     "message": "Ujian ponsel untuk saat ini tidak mendukung soal rumus",
     "description": "2.0 exam.js"
   },
+  "setExamTips4": {
+    "message": "Kertas ujian {paperName} terdiri dari soal-soal yang tidak didukung, silahkan ubah cara partisipasi atau ubah konten kertas ujian",
+    "description": "2.0 exam.js"
+  },
   "examTimes": {
     "message": "Jumlah ujian",
     "description": "2.0 exam.js"
@@ -2451,12 +2455,24 @@
     "message": "Paling banyak",
     "description": "2.0 exam.js"
   },
+  "mostExamCount": {
+    "message": "Maks. {count} kali",
+    "description": "2.0 exam.js"
+  },
   "unlimitTimes": {
     "message": "Jumlah tidak terbatas",
     "description": "2.0 exam.js"
   },
   "lateTime2": {
     "message": "Waktu telat",
+    "description": "2.0 exam.js"
+  },
+  "lateTip": {
+    "message": "Tidak boleh masuk kembali {count} menit setelah ujian dimulai",
+    "description": "2.0 exam.js"
+  },
+  "commitLimitTip": {
+    "message": "Tidak boleh kumpul dalam {count} menit setelah ujian dimulai",
     "description": "2.0 exam.js"
   },
   "abnormalMonitor": {
@@ -2670,5 +2686,193 @@
   "conceptDesc": {
     "message": "Penjelasan konsep:",
     "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析 -> 导出考试分析"
+  },
+  "mark": {
+    "message": "Tandai",
+    "description": "2.0 exam.js"
+  },
+  "securitySetting": {
+    "message": "Pengaturan keamanan",
+    "description": "2.0 exam.js"
+  },
+  "answerSetting": {
+    "message": "Pengaturan jawaban",
+    "description": "2.0 exam.js"
+  },
+  "attachAccess": {
+    "message": "Soal uraian boleh unggah lampiran",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor": {
+    "message": "Pengawasan perangkat",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor1": {
+    "message": "Aktifkan pengawasan perangkat, tidak boleh mengganti perangkat atau browser saat menjawab pertanyaan",
+    "description": "2.0 exam.js"
+  },
+  "deviceMonitor2": {
+    "message": "Dalam beberapa kondisi tertentu, mahasiswa dapat menggantinya dengan cara meminta no. verifikasi dari dosen",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor": {
+    "message": "Pemantauan IP",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor1": {
+    "message": "Aktifkan pemantauan IP, tidak boleh mengganti IP saat menjawab soal",
+    "description": "2.0 exam.js"
+  },
+  "ipMonitor2": {
+    "message": "Ganti jaringan internet mungkin akan menyebabkan perubahan IP, mohon berhati-hati; dalam beberapa kondisi tertentu, mahasiswa dapat menggantinya dengan cara meminta no. verifikasi dari dosen",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor": {
+    "message": "Penangkapan pengawasan",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor1": {
+    "message": "Aktifkan penangkapan pengawasan, ambil foto peserta ujian setiap 3 - 5 menit, tampilkan di halaman pemantauan ujian",
+    "description": "2.0 exam.js"
+  },
+  "photoMonitor2": {
+    "message": "Perlu memastikan bahwa perangkat yang digunakan oleh para mahasiswa dilengkapi dengan kamera",
+    "description": "2.0 exam.js"
+  },
+  "showAfterBatchEnd": {
+    "message": "Publikasi secara terpadu setelah semua sesi ujian selesai",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitor": {
+    "message": "Pemantauan layar",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips1": {
+    "message": "(Hanya mendukung ujian ponsel)",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips2": {
+    "message": "Aktifkan pemantauan layar, akan otomatis dikumpul setelah meninggalkan ujian lebih dari {count} kali {tip}",
+    "description": "tip处的插值是 “（仅支持手机考试）”，因为tip需要独立的设置样式。"
+  },
+  "faceAuth": {
+    "message": "Identifikasi wajah",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips15": {
+    "message": "Aktifkan identifikasi wajah, hanya bisa masuk ujian melalui verifikasi wajah",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips16": {
+    "message": "Harus unggah foro verifikasi peserta ujian lebih dahulu sebelum ujian",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTime": {
+    "message": "Waktu kumpul",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTime2": {
+    "message": "Waktu kumpul: {time}",
+    "description": "2.0 exam.js"
+  },
+  "minSubmitTimeTips1": {
+    "message": "Kertas ujian tidak bisa dikumpul dalam waktu {count}{minuteTip} setelah ujian dimulai",
+    "description": "minuteTip 的插值是分钟，就是下面的minuteTip"
+  },
+  "minuteTip": {
+    "message": "menit",
+    "description": "2.0 exam.js"
+  },
+  "batchTips": {
+    "message": "Mahasiswa dapat bergabung dalam ujian setelah kelas atau mahasiswa ditambahkan ke dalam sesi ujian; Waktu sesi ujian adalah jangka waktu dimana mahasiswa diperbolehkan untuk masuk ujian; Anda juga dapat menambah sesi ujian setelah merilis ujian",
+    "description": "2.0 exam.js"
+  },
+  "edit": {
+    "message": "Edit",
+    "description": "2.0 exam.js"
+  },
+  "examTips": {
+    "message": "Pemberitahuan mengenai ujian",
+    "description": "2.0 exam.js"
+  },
+  "maxTextInputTips": {
+    "message": "Input maks. 2000 karakter",
+    "description": "2.0 exam.js"
+  },
+  "defaultExamTips": {
+    "message": "Simpan sebagai templat default, digunakan untuk ujian berikutnya",
+    "description": "2.0 exam.js"
+  },
+  "detailTips3": {
+    "message": "1. Telah mengaktifkan ujian dengan pemantauan perangkat dan IP. Jika terdapat kondisi khusus, mahasiswa dapat mengganti perangkat/IP, kemudian masuk melalui no. verifikasi ini",
+    "description": "2.0 exam.js"
+  },
+  "detailTips4": {
+    "message": "2. Telah mengaktifkan ujian dengan identifikasi wajah. Jika mahasiswa tidak bisa masuk melalui scan wajah, maka dapat masuk melalui no. verifikasi ini",
+    "description": "2.0 exam.js"
+  },
+  "detailTips5": {
+    "message": "3. No. verifikasi berlaku dalam waktu 15 menit. Setelah habis berlaku, silahkan refresh untuk mendapatkan no. verifikasi baru",
+    "description": "2.0 exam.js"
+  },
+  "leave": {
+    "message": "Tinggalkan",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips3": {
+    "message": "Sebelum ujian silahkan {detectEnv}, pastikan jaringan internet, perangkat, browser berjalan normal.",
+    "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
+  },
+  "detectEnv": {
+    "message": "Uji lingkungan ujian",
+    "description": "2.0 exam.js"
+  },
+  "deletePhoto": {
+    "message": "Hapus foto",
+    "description": "2.0 exam.js"
+  },
+  "recordShowAfterSubmit": {
+    "message": "Segera tampilkan setelah kumpul",
+    "description": "2.0 exam.js"
+  },
+  "exportDemoPaper": {
+    "message": "Ekspor sampel soal",
+    "description": "2.0 exam.js"
+  },
+  "exportDemoPaperSuccess": {
+    "message": "Sampel soal telah disimpan ke kumpulan soal ujian",
+    "description": "2.0 exam.js"
+  },
+  "afterExamFinishedTips1": {
+    "message": "Tampilkan setelah ujian usai",
+    "description": "2.0 exam.js"
+  },
+  "daysPublish": {
+    "message": "hari kemudian dipublikasi",
+    "description": "2.0 exam.js"
+  },
+  "weekPublish": {
+    "message": "minggu kemudian dipublikasi",
+    "description": "2.0 exam.js"
+  },
+  "noPublish": {
+    "message": "Tidak dipublikasi",
+    "description": "2.0 exam.js"
+  },
+  "deleteBatch2": {
+    "message": "Hapus sesi ujian",
+    "description": "2.0 exam.js"
+  },
+  "examEnd": {
+    "message": "Ujian selesai",
+    "description": "2.0 exam.js"
+  },
+  "auditTipsClassroom": {
+    "message": "Verifikasi wajah telah diaktifkan, foto verifikasi peserta ujian harus diunggah terlebih dahulu. Foto dapat diimpor sekaligus oleh dosen, juga dapat diunggah sendiri oleh mahasiswa. Dosen dapat memeriksa foto yang diunggah oleh mahasiswa.",
+    "description": "2.0 exam.js"
+  },
+  "faceServiceTips": {
+    "message": "Identifikasi wajah dan penangkapan pengawasan merupakan layanan berbayar. Universitas anda belum mengaktifkannya, untuk pengaktifan, silahkan hubungi layanan pelanggan",
+    "description": "2.0 exam.js"
   }
 }

@@ -32,7 +32,7 @@
     "description": "UA"
   },
   "LimitTimeAnswerTip": {
-    "message": "Selain latihan, apabila halaman ini terdapat teks gambar, video, dokumen dan isi konten pembelajaran lainnya, maka waktunya akan dibatasi secara terpadu.",
+    "message": "Selain latihan, jika halaman ini terdapat teks gambar, video, dokumen dll, maka batas waktu dapat diatur secara terpadu.",
     "description": "UA"
   },
   "LimitTimeAnswerTip1": {
@@ -1125,10 +1125,6 @@
   },
   "editSubtitle": {
     "message": "Edit subtitle",
-    "description": "UA"
-  },
-  "editTip": {
-    "message": "Edit akun dapat menyebabkan isi konten saling menutupi",
     "description": "UA"
   },
   "editing": {
@@ -2307,6 +2303,10 @@
     "message": "Halaman tersebut akan dianggap telah selesai dipelajari apabila jumlah membaca setiap kata/kalimat/paragraf telah mencapai jumlah yang ditentukan.",
     "description": "UA"
   },
+  "pageEditBy": {
+    "message": "Halaman {page} saat ini diedit oleh akun {editor}, konten akan saling menutupi.",
+    "description": "UA"
+  },
   "pageExercises": {
     "message": "Latihan halaman",
     "description": "UA"
@@ -2960,7 +2960,7 @@
     "description": "UA"
   },
   "setLimitTimeAnswerCondition": {
-    "message": "Untuk saat ini hanya halaman yang memiliki latihan yang bisa mengatur batas waktu untuk menjawab pertanyaan",
+    "message": "Saat ini hanya bisa mengatur batas waktu menjawab untuk halaman yang memiliki latihan.",
     "description": "UA"
   },
   "setNumOfreads": {
@@ -3607,10 +3607,6 @@
     "message": "Berhasil ditarik kembali",
     "description": "UA"
   },
-  "wo": {
-    "message": "Wah!",
-    "description": "UA"
-  },
   "wordCountCheck": {
     "message": "Pemeriksaan jumlah kata",
     "description": "UA"
@@ -4118,5 +4114,97 @@
   "skipStep": {
     "message": "Lewati",
     "description": "一个按钮"
+  },
+  "wipeSubtitleTip": {
+    "message": "Yakin untuk hapus subtitle?",
+    "description": "UA"
+  },
+  "saveSubtitleTip": {
+    "message": "Konten tidak boleh kosong",
+    "description": "UA"
+  },
+  "practiceSetCountTip": {
+    "message": "Jumlah menjawab harus di antara 1 - 50",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceSetMinuteTip": {
+    "message": "Lama menjawab tidak boleh kurang dari 0 menit",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceSetSecondTip": {
+    "message": "Lama menjawab harus di antara 0 - 60 detik",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceConfig": {
+    "message": "Pengaturan latihan",
+    "description": "UA \"练习设置\""
+  },
+  "practiceCount": {
+    "message": "Jumlah latihan",
+    "description": "UA \"练习设置\""
+  },
+  "practiceUnlimit": {
+    "message": "Tidak terbatas",
+    "description": "UA \"练习设置\""
+  },
+  "practiceLimitCount": {
+    "message": "Batasi jumlah menjawab",
+    "description": "UA \"练习设置\""
+  },
+  "practiceUnifiedSet": {
+    "message": "Pengaturan terpadu untuk latihan bagian ini",
+    "description": "UA \"练习设置\""
+  },
+  "timeLimitAnswer": {
+    "message": "Batas waktu menjawab",
+    "description": "UA \"练习设置\""
+  },
+  "practiceLimitTime": {
+    "message": "Batas durasi menjawab",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip1": {
+    "message": "1. Saat ini hanya bisa mengatur batas waktu menjawab untuk halaman yang memiliki latihan.",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip2": {
+    "message": "2. Selain latihan, jika halaman ini terdapat teks gambar, video, dokumen dll, maka batas waktu dapat diatur secara terpadu.",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip3": {
+    "message": "3. Mahasiswa harus menyelesaikan latihan di dalam kurun waktu yang ditentukan, apabila melebihi waktu yang ditentukan, akan dikumpulkan secara otomatis.",
+    "description": "UA \"练习设置\""
+  },
+  "browserTip": {
+    "message": "Ditemukan bahwa anda menggunakan versi lama atau browser yang tidak mendukung, {emphasize}. Silahkan gunakan browser yang didukung oleh sistem, atau upgrade browser anda. Silahkan unduh APP ULearn di ponsel anda.",
+    "description": "{emphasize} 是强调内容，因为需要进行单独的样式设置，所以会设置插值。插值处的内容是下面的“可能会导致学习记录不准确”"
+  },
+  "browserTipEm": {
+    "message": "mungkin akan menyebabkan catatan pembelajaran yang tidak akurat",
+    "description": "上面 browserTip 的插值内容"
+  },
+  "browserTipList": {
+    "message": "Sistem hanya mendukung browser-browser di bawah ini:",
+    "description": "浏览器兼容性提示"
+  },
+  "chromeBrowser": {
+    "message": "Google Chrome (Terbaik)",
+    "description": "浏览器兼容性提示"
+  },
+  "safariBrowser": {
+    "message": "Safari (Sistem Mac OS)",
+    "description": "浏览器兼容性提示"
+  },
+  "timePoint": {
+    "message": "Titik waktu: {time}",
+    "description": "指视频剪辑的时间点"
+  },
+  "selectedQuestions": {
+    "message": "Sudah pilih {count} soal",
+    "description": "出现于视频剪辑处"
+  },
+  "reSelectQuestion": {
+    "message": "Pilih ulang soal",
+    "description": "出现于视频剪辑处"
   }
 }
