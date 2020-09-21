@@ -1257,7 +1257,11 @@
   },
   "auditPassed": {
     "message": "审核通过",
-    "description": "2.0 exam.js"
+    "description": "有两个审核通过文本，对应key是auditPassed的表示审核通过的状态，对应key是auditPassVerb表示执行通过审核通过的动作，常用于按钮"
+  },
+  "auditPassVerb": {
+    "message": "审核通过",
+    "description": "有两个审核通过文本，对应key是auditPassed的表示审核通过的状态，对应key是auditPassVerb表示执行通过审核通过的动作，常用于按钮"
   },
   "auditFailed": {
     "message": "审核未通过",
@@ -1789,7 +1793,11 @@
   },
   "unuploadedPhotos": {
     "message": "未上传照片",
-    "description": "2.0 exam.js"
+    "description": "有两个未上传照片，分别为unuploadedPhotos和unuploadedPhotosAlt，unuploadedPhotos表示未上传照片的人数，unuploadedPhotosAlt是未上传照片时的替代文本，类似于网页上当图片加载失败后，会显示替代文本"
+  },
+  "unuploadedPhotosAlt": {
+    "message": "未上传照片",
+    "description": "有两个未上传照片，分别为unuploadedPhotos和unuploadedPhotosAlt，unuploadedPhotos表示未上传照片的人数，unuploadedPhotosAlt是未上传照片时的替代文本，类似于网页上当图片加载失败后，会显示替代文本"
   },
   "batchOpration": {
     "message": "批量操作",
