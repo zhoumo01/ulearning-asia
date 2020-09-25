@@ -259,6 +259,114 @@
     "message": "Semua mahasiswa",
     "description": "2.0 admin.js"
   },
+  "role": {
+    "message": "Peran",
+    "description": "2.0 admin.js"
+  },
+  "responsibleCollege": {
+    "message": "Universitas yang bertanggung jawab",
+    "description": "2.0 admin.js"
+  },
+  "checkAll": {
+    "message": "Pilih semua",
+    "description": "2.0 admin.js"
+  },
+  "addRole": {
+    "message": "Tambah peran",
+    "description": "2.0 admin.js"
+  },
+  "editRole": {
+    "message": "Ubah peran",
+    "description": "2.0 admin.js"
+  },
+  "module": {
+    "message": "Modul",
+    "description": "2.0 admin.js"
+  },
+  "permission": {
+    "message": "Akses",
+    "description": "2.0 admin.js"
+  },
+  "rolePermissionSetting": {
+    "message": "Pengaturan akses peran",
+    "description": "2.0 admin.js"
+  },
+  "changePermissionTips": {
+    "message": "Setelah akses peran diubah, klik \"Simpan\" untuk mengaktifkannya",
+    "description": "2.0 admin.js"
+  },
+  "inputRoleName": {
+    "message": "Silahkan masukkan nama peran",
+    "description": "2.0 admin.js"
+  },
+  "systemAdministrator": {
+    "message": "Admin sistem",
+    "description": "2.0 admin.js"
+  },
+  "deleteRoleTips": {
+    "message": "Yakin untuk hapus peran? Pengguna terkait tidak akan terhapus meskipun peran telah dihapus. Anda dapat mengatur peran baru untuk pengguna.",
+    "description": "2.0 admin.js"
+  },
+  "onlySystemTips": {
+    "message": "Hanya bisa digunakan oleh admin sistem",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips1": {
+    "message": "Pengaturan mata kuliah: Pengaturan mata kuliah universitas ini (Gabung/Alihkan mata kuliah, Masuk ke mata kuliah, Lihat analisa mata kuliah)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips2": {
+    "message": "Pengelolaan mata kuliah: Pengelolaan MOOC universitas ini (Rilis verifikasi, Ubah klasifikasi dan status tampilan website)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips3": {
+    "message": "Pengelolaan mata kuliah: Pengelolaan mata kuliah eksternal",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips4": {
+    "message": "Pengelolaan dosen (Tambah/Ubah/Hapus dosen, masuk ke akun dosen)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips5": {
+    "message": "Pengelolaan mahasiswa (Tambah/Ubah/Hapus mahasiswa, masuk ke akun mahasiswa)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips6": {
+    "message": "Pengelolaan kelas natural (Tambah/Ubah/Hapus kelas natural)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips7": {
+    "message": "Pengumuman (Rilis/Ubah/Hapus pengumuman)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips8": {
+    "message": "Pengaturan akses peran (Tambah/Ubah/Hapus peran, atur akses peran)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips9": {
+    "message": "Pengaturan admin (Tambah/Ubah/Hapus admin, tentukan peran pengguna)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips10": {
+    "message": "Lihat dan kelola sub-sistem",
+    "description": "2.0 admin.js"
+  },
+  "addAdminTips1": {
+    "message": "Silahkan pilih peran",
+    "description": "2.0 admin.js"
+  },
+  "addAdminTips2": {
+    "message": "Pilih minimal 1 universitas",
+    "description": "2.0 admin.js"
+  },
+  "saveSuccess": {
+    "message": "Berhasil disimpan",
+    "description": "2.0 admin.js"
+  },
+  "saveFailed": {
+    "message": "Gagal menyimpan",
+    "description": "2.0 admin.js"
+  },
   "subsystem.mobileEvaluation": {
     "message": "Penilaian mobile",
     "description": "2.0 admin.js"
@@ -2095,6 +2203,10 @@
     "message": "Templat ini direkomendasikan jika Anda hanya ingin siswa memiliki entri login yang terpisah",
     "description": "2.0 admin.js"
   },
+  "systemAdmin.systemAdminTips20": {
+    "message": "Disarankan untuk memakai templat ini jika anda hanya ingin mahasiswa memiliki entri login terpisah",
+    "description": "2.0 admin.js"
+  },
   "teachingAdmin.inSchoolCourse": {
     "message": "Mata kuliah di dalam universitas",
     "description": "2.0 admin.js"
@@ -2873,6 +2985,70 @@
   },
   "courseUnit": {
     "message": "{courseCount} mata kuliah",
+    "description": "2.0 admin.js"
+  },
+  "appCenter": {
+    "message": "Pusat aplikasi",
+    "description": "2.0 admin.js"
+  },
+  "internalApp": {
+    "message": "Aplikasi internal",
+    "description": "2.0 admin.js"
+  },
+  "ltiApp": {
+    "message": "Aplikasi integrasi LTI",
+    "description": "2.0 admin.js"
+  },
+  "installed": {
+    "message": "Telah diaktifkan",
+    "description": "2.0 admin.js"
+  },
+  "unInstalled": {
+    "message": "Belum diaktifkan",
+    "description": "2.0 admin.js"
+  },
+  "viewMore": {
+    "message": "Pelajari lebih lanjut",
+    "description": "2.0 admin.js"
+  },
+  "appManage": {
+    "message": "Pengelolaan aplikasi",
+    "description": "2.0 admin.js"
+  },
+  "installed2": {
+    "message": "Telah diinstal",
+    "description": "2.0 admin.js"
+  },
+  "addApp": {
+    "message": "Tambah aplikasi",
+    "description": "2.0 admin.js"
+  },
+  "name": {
+    "message": "Nama",
+    "description": "2.0 admin.js"
+  },
+  "consumerKey": {
+    "message": "Consumer Key",
+    "description": "2.0 admin.js"
+  },
+  "sharedSecret": {
+    "message": "Shared Secret",
+    "description": "2.0 admin.js"
+  },
+  "configURL": {
+    "message": "Config URL",
+    "description": "2.0 admin.js"
+  },
+  "deleteApp": {
+    "message": "Hapus aplikasi",
+    "description": "2.0 admin.js"
+  },
+  "confirmDelete": {
+    "message": "Yakin untuk hapus aplikasi?",
+    "description": "2.0 admin.js"
+  },
+  "deleteSuccess": {
+    "message": "Berhasil dihapus",
     "description": "2.0 admin.js"
   }
 }

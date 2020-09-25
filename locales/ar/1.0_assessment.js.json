@@ -1,0 +1,510 @@
+{
+  "courseAssess": {
+    "message": "قاعدة تقييم الدورة",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt1": {
+    "message": "أنت تقوم بتلخيص النتيجة، لا يمكن إغلاق هذا الإطار قبل اكتمال التلخيص.",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt2": {
+    "message": "وقد أكمل النظام تلخيص النتيجة للقاعدة المذكورة، لن يتمكن المعلمون والطلاب من التحقق من ملخص النتيجة بعد حذف القاعدة، يرجى التعامل مع الرعاية. إذا تم تأكيد حذفها، يرجى إدخال رمز التحقق في الأسفل.",
+    "description": "1.0 assessment.json"
+  },
+  "codeErrorTxt": {
+    "message": "رمز التحقق غير صحيح.",
+    "description": "1.0 assessment.json"
+  },
+  "deleteSucTxt": {
+    "message": "حذف بنجاح!",
+    "description": "1.0 assessment.json"
+  },
+  "failDeleteTxt": {
+    "message": "فشل في الحذف!",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt3": {
+    "message": "يحدث شذوذ أثناء عملية التلخيص",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt4": {
+    "message": "فشل الملقم غير طبيعي، التلخيص!",
+    "description": "1.0 assessment.json"
+  },
+  "serviceErrorTxt": {
+    "message": "خطأ في الخادم، الرجاء المحاولة مرة أخرى لاحقاً!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips": {
+    "message": "يمكن أن يتضمن اسم المستخدم فقط الاسم الصيني، الحروف الهجائية الإنجليزية، الشكل والتسطير السفلي",
+    "description": "1.0 assessment.json"
+  },
+  "notFoundTxt": {
+    "message": "لا يمكن العثور على دورة ذات الصلة، يرجى المفتاح في مرة أخرى أو إعادة تحديد!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips1": {
+    "message": "يجب أن المفتاح في تسجيل اسم القاعدة!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips2": {
+    "message": "يجب أن يكون اسم القاعدة ضمن 200 كلمة!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips3": {
+    "message": "يتم رفض الأحرف الخاصة",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips4": {
+    "message": "لا يمكن أن يكون اسم القاعدة فارغًا",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips5": {
+    "message": "يجب تحديد الدورة ذات الصلة!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips6": {
+    "message": "يجب أن المفتاح في مجموع نقاط!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips7": {
+    "message": "أدخل متطفل إيجابي من 5-1000!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips8": {
+    "message": "يجب أن تحدد الموعد النهائي!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips9": {
+    "message": "يجب تحديد فئة ذات الصلة!",
+    "description": "1.0 assessment.json"
+  },
+  "tipsTxt1": {
+    "message": "انتهى وقت التقييم، غير مسموح له بتعديل عنصر النقاط",
+    "description": "1.0 assessment.json"
+  },
+  "tipsTxt2": {
+    "message": "ملاحظة: إذا كنت ترغب في تعديل، يرجى إعادة تعيين الموعد النهائي للتقييم",
+    "description": "1.0 assessment.json"
+  },
+  "alerttips": {
+    "message": "هذه الاستراتيجية هي ملخص، وجمع أكثر من الموعد النهائي وليس ملخص مرة أخرى",
+    "description": "1.0 assessment.json"
+  },
+  "examTipTxt": {
+    "message": "Currenlty لا تدعم عملية للامتحان دورات ذات الصلة!",
+    "description": "1.0 assessment.json"
+  },
+  "resourceTxt": {
+    "message": "Currenlty لا تدعم عملية لدورات ذات الصلة الموارد!",
+    "description": "1.0 assessment.json"
+  },
+  "selectCourseTxt": {
+    "message": "حدد الدورة أولاً!",
+    "description": "1.0 assessment.json"
+  },
+  "selectRelevantCourseTxt": {
+    "message": "حدد فئة م relavant أولا!",
+    "description": "1.0 assessment.json"
+  },
+  "selectByYearTxt": {
+    "message": "تحديد حسب السنة",
+    "description": "1.0 assessment.json"
+  },
+  "selectByTeacherTxt": {
+    "message": "اختر من قبل المعلم.",
+    "description": "1.0 assessment.json"
+  },
+  "searchTxt": {
+    "message": "البحث",
+    "description": "1.0 assessment.json"
+  },
+  "inputClassNameTxt": {
+    "message": "مفتاح في فئة اسم",
+    "description": "1.0 assessment.json"
+  },
+  "selectClassTxt": {
+    "message": "تحديد الفئة",
+    "description": "1.0 assessment.json"
+  },
+  "selectClassFirseTxt": {
+    "message": "حدد الفئة الأولى!",
+    "description": "1.0 assessment.json"
+  },
+  "noDataTxt": {
+    "message": "لا يمكن العثور على البيانات ذات الصلة، يرجى المفتاح في مرة أخرى أو إعادة تحديد!",
+    "description": "1.0 assessment.json"
+  },
+  "selectAllTxt": {
+    "message": "حدد الكل",
+    "description": "1.0 assessment.json"
+  },
+  "haveRule": {
+    "message": "كان لديها قواعد بالفعل",
+    "description": "1.0 assessment.json"
+  },
+  "noDataTxt1": {
+    "message": "لا يمكن العثور على البيانات ذات الصلة",
+    "description": "1.0 assessment.json"
+  },
+  "loadDataTxt": {
+    "message": "فشل في تحميل البيانات، يرجى التحقق من الإنترنت!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt": {
+    "message": "أدخل متطفل إيجابي من 1-100!",
+    "description": "1.0 assessment.json"
+  },
+  "selectNodeTxt": {
+    "message": "هذه الدورة لا يوجد لديه هيكل ولا يمكن اختيار العقد",
+    "description": "1.0 assessment.json"
+  },
+  "countRuleTxt": {
+    "message": "حساب القواعد",
+    "description": "1.0 assessment.json"
+  },
+  "selectAllChpaterTxt": {
+    "message": "تحديد كافة الفصول",
+    "description": "1.0 assessment.json"
+  },
+  "averageScoreTxt": {
+    "message": "وفقا لمتوسط درجة الفصل المختار",
+    "description": "1.0 assessment.json"
+  },
+  "selectCourseAndRulesTxt": {
+    "message": "تحديد فصل الدورة الدراسية وحساب القواعد",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt1": {
+    "message": "الرجاء إدخال وقت دراسة علامة كاملة",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt2": {
+    "message": "الرجاء إدخال وقت دراسة صفر",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt3": {
+    "message": "الرجاء تحديد قاعدة تسجيل النقاط",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt4": {
+    "message": "الرجاء اختيار فصل التقييم",
+    "description": "1.0 assessment.json"
+  },
+  "noAssiTxt": {
+    "message": "لا يوجد تكليف للمعلم",
+    "description": "1.0 assessment.json"
+  },
+  "averageScoreAssiTxt": {
+    "message": "وفقا لمتوسط درجة التعيين المحدد",
+    "description": "1.0 assessment.json"
+  },
+  "selectAssiTxt": {
+    "message": "تحديد الواجب",
+    "description": "1.0 assessment.json"
+  },
+  "noAssiTxt1": {
+    "message": "لا يوجد تكليف للمعلم",
+    "description": "1.0 assessment.json"
+  },
+  "noExamTxt": {
+    "message": "لا يوجد امتحان للمعلم",
+    "description": "1.0 assessment.json"
+  },
+  "examTipsTxt": {
+    "message": "إذا كان الاختبار يسمح للطلاب بالإجابة عدة مرات، فإن التحديد الافتراضي لأعلى الدرجات كطالب في نتائج الامتحان",
+    "description": "1.0 assessment.json"
+  },
+  "moreExamTxt": {
+    "message": "نتائج اختبار الفحص المتعدد",
+    "description": "1.0 assessment.json"
+  },
+  "highTxt": {
+    "message": "أعلى الدرجات",
+    "description": "1.0 assessment.json"
+  },
+  "averageTxt": {
+    "message": "متوسط الدرجات",
+    "description": "1.0 assessment.json"
+  },
+  "selectExamTxt": {
+    "message": "اختيار الامتحان",
+    "description": "1.0 assessment.json"
+  },
+  "confirmDeleteTxt": {
+    "message": "هل تريد حذف عنصر التصنيف؟",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTipsTxt1": {
+    "message": "وصل الوزن الحالي إلى 100% إذا كنت ترغب في الاستمرار في إضافة النتيجة، يرجى تعديل وزن عناصر التصنيف الأخرى.",
+    "description": "1.0 assessment.json"
+  },
+  "tableTipsTxt": {
+    "message": "هناك أيضاً إدخالات مفقودة في الجدول",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTipsTxt2": {
+    "message": "الوزن الإجمالي لجميع عناصر التصنيف الحالية أقل من 100٪، الرجاء التأكد من الوزن الإجمالي هو 100٪ ثم انقر فوق إنهاء لإنشاء.",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTipsTxt3": {
+    "message": "الوزن الإجمالي كان أكثر من 100٪، يرجى تعديل وزن كل عنصر تصنيف.",
+    "description": "1.0 assessment.json"
+  },
+  "createSucTxt": {
+    "message": "إنشاء بنجاح!",
+    "description": "1.0 assessment.json"
+  },
+  "createFailTxt": {
+    "message": "فشل في الإنشاء",
+    "description": "1.0 assessment.json"
+  },
+  "confirmCancelTxt": {
+    "message": "سيؤدي هذا إلى عدم حفظ المحتوى المحرر للصفحة، وتأكيد الإلغاء؟",
+    "description": "1.0 assessment.json"
+  },
+  "confirmCancel": {
+    "message": "إلغاء الأمر",
+    "description": "1.0 assessment.json"
+  },
+  "clickErrorTxt": {
+    "message": "انقر فوق خطأ",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired1": {
+    "message": "يصل تقدم التعلم التراكمي للفصل المحدد إلى {inputMax}٪ للحصول على درجات كاملة ، وأقل من {inputMin}٪ للحصول على 0 نقطة.",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired2": {
+    "message": "في الفصول المحددة ، يصل تقدم التعلم التراكمي لكل فصل إلى {inputMax}٪ للحصول على درجات كاملة ، وأقل من {inputMin}٪ للحصول على 0 نقطة.",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired3": {
+    "message": "الفصول المحددة'زمن التعلم التراكمي يصل إلى {inputMax} دقيقة كامل علامة، إذا أقل من {inputMin} دقيقة هي درجة الصفر.",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired4": {
+    "message": "كل واحد من فصول مختارة 'الوقت التراكمي التعلم تصل إلى {inputMax} دقيقة هو علامة كاملة، إذا كان أقل من {inputMin} دقيقة هي درجة الصفر.",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired5": {
+    "message": "كل واحد من الفصول المحددة 'وقت التعلم تصل إلى {inputMax} دقيقة هي علامة كاملة، إذا كان أقل من {inputMin} دقيقة هي درجة الصفر.",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation1": {
+    "message": "هذا بالطبع يختلف بسبب إصدار الكمبيوتر والهاتف المحمول نسخة من المحتوى، إذا كان الطلاب قد تعلموا على الكمبيوتر، والهاتف المحمول، وفقا لطول الدراسة الإجمالية بين الاثنين.",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation2": {
+    "message": "إصدار الكمبيوتر من هذه الدورة، والنسخة المحمولة من الإحصاءات درجة منفصلة، عند حساب درجة الفصل، واتخاذ درجة عالية للنتيجة النهائية. فقط إصدار الكمبيوتر من الفصل ، ويستند حساب النتيجة على إصدار الكمبيوتر من النتيجة.",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation3": {
+    "message": "(يشير اللون الأحمر إلى أن هذا المقطع يظهر فقط في إصدار الكمبيوتر الشخصي)",
+    "description": "1.0 assessment.json"
+  },
+  "associatePaper": {
+    "message": "الورقة المقترنة.",
+    "description": "1.0 assessment.json"
+  },
+  "selectRule": {
+    "message": "حدد فصول المقرر الدراسي وقواعد الحساب.",
+    "description": "1.0 assessment.json"
+  },
+  "setCourseTime": {
+    "message": "تعيين وقت تعلم المقرر الدراسي.",
+    "description": "1.0 assessment.json"
+  },
+  "setCourseGrade": {
+    "message": "إعداد نتائج المقرر الدراسي.",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps1": {
+    "message": "يرجى اتباع الخطوات التالية للقيام",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps2": {
+    "message": "تحميل القالب وتنظيم البيانات في شكل القالب",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps3": {
+    "message": "تنزيل قالب",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps4": {
+    "message": ">تحميل الملفات التي تم تجميعها.",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps5": {
+    "message": "ملاحظة: إذا كنت بحاجة إلى تعديل تقديرات الطلاب، يمكنك إعادة تحميل الملف.",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps6": {
+    "message": "بعد إعادة التحميل، سيتم استبدال درجات الطلاب بدرجات جديدة",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps7": {
+    "message": "تحميل الملف",
+    "description": "1.0 assessment.json"
+  },
+  "classTxt": {
+    "message": "فئه:",
+    "description": "1.0 assessment.json"
+  },
+  "toSelectTxt": {
+    "message": "الانتقال إلى تحديد",
+    "description": "1.0 assessment.json"
+  },
+  "typeTxt": {
+    "message": "نوع",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTxt": {
+    "message": "عنصر تسجيل النقاط",
+    "description": "1.0 assessment.json"
+  },
+  "scoreRuleTxt": {
+    "message": "قواعد تسجيل النقاط",
+    "description": "1.0 assessment.json"
+  },
+  "weightTxt": {
+    "message": "الوزن (%)",
+    "description": "1.0 assessment.json"
+  },
+  "fullMarkTxt": {
+    "message": "علامة كاملة",
+    "description": "1.0 assessment.json"
+  },
+  "actionTxt": {
+    "message": "العمل",
+    "description": "1.0 assessment.json"
+  },
+  "finishtxt": {
+    "message": "اكتمال الإنشاء",
+    "description": "1.0 assessment.json"
+  },
+  "cancelTxt": {
+    "message": "إلغاء الأمر",
+    "description": "1.0 assessment.json"
+  },
+  "classesTxt": {
+    "message": "{className} إلخ. {count} فئات",
+    "description": "1.0 assessment.json"
+  },
+  "selectTxt": {
+    "message": "حدد",
+    "description": "1.0 assessment.json"
+  },
+  "courseTxt": {
+    "message": "الطبع",
+    "description": "1.0 assessment.json"
+  },
+  "assignmentTxt": {
+    "message": "التعيين",
+    "description": "1.0 assessment.json"
+  },
+  "examTxt": {
+    "message": "الامتحان",
+    "description": "1.0 assessment.json"
+  },
+  "othersTxt": {
+    "message": "الاخرين",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt1": {
+    "message": "الفصول المحددة'التقدم التراكمي للتعلم يصل إلى {max}% هو علامة كاملة، إذا كان أقل من {min}% هو درجة الصفر.",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt2": {
+    "message": "كل واحد من الفصول المحددة 'التقدم التعلم يصل إلى {max}٪ هو علامة كاملة، إذا كان أقل من {min}٪ هو درجة الصفر.",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt3": {
+    "message": "الفصول المحددة'يبلغ زمن التعلم التراكمي {max} دقيقة كامل، إذا كان أقل من {min} دقيقة هي درجة الصفر.",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt4": {
+    "message": "كل واحد من فصول محددة 'وقت التعلم يصل إلى {max} دقيقة هو علامة كاملة، إذا كان أقل من {min} دقيقة هو درجة الصفر.",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt5": {
+    "message": "كل واحد من فصول محددة 'وقت التعلم يصل إلى {max} دقيقة هو علامة كاملة، إذا كان أقل من {min} دقيقة هو درجة الصفر.",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt6": {
+    "message": "وفقا المحددة الفصول 'متوسط درجة",
+    "description": "1.0 assessment.json"
+  },
+  "editTxt": {
+    "message": "تحرير",
+    "description": "1.0 assessment.json"
+  },
+  "selectScoreTxt": {
+    "message": "تحديد قواعد تسجيل النقاط",
+    "description": "1.0 assessment.json"
+  },
+  "studyTimeTxt": {
+    "message": "وقت الدراسة",
+    "description": "1.0 assessment.json"
+  },
+  "studyProgressTxt": {
+    "message": "تقدم الدراسة",
+    "description": "1.0 assessment.json"
+  },
+  "courseResultTxt": {
+    "message": "نتيجة الدورة التدريبية",
+    "description": "1.0 assessment.json"
+  },
+  "assignmentResultTxt": {
+    "message": "نتيجة التعيين",
+    "description": "1.0 assessment.json"
+  },
+  "examResultTxt": {
+    "message": "نتيجة الامتحان",
+    "description": "1.0 assessment.json"
+  },
+  "selectedHomeworkTxt": {
+    "message": "(لقد حدد {count} التعيين)",
+    "description": "注意：花括号( 即 {} ) 里面的值是插值，不要改，大小写也不能变化"
+  },
+  "selectedExamTxt": {
+    "message": "(لقد حددت اختبار {count} )",
+    "description": "注意：花括号( 即 {} ) 里面的值是插值，不要改，大小写也不能变化"
+  },
+  "notSelectAssiTxt": {
+    "message": "لا يوجد تعيين محدد",
+    "description": "1.0 assessment.json"
+  },
+  "notSelectExamTxt": {
+    "message": "لا يوجد امتحان محدد",
+    "description": "1.0 assessment.json"
+  },
+  "notInputScoreTxt": {
+    "message": "لا يوجد إدخال النتائج",
+    "description": "1.0 assessment.json"
+  },
+  "haveInputScore": {
+    "message": "لقد أدخلت النتائج",
+    "description": "1.0 assessment.json"
+  },
+  "deleteTxt": {
+    "message": "حذف",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxt": {
+    "message": "الإدخال اليدوي",
+    "description": "1.0 assessment.json"
+  },
+  "inputScoreTxt": {
+    "message": "نقاط الإدخال",
+    "description": "1.0 assessment.json"
+  },
+  "selectTipTxt": {
+    "message": "تسجيل اسم العنصر، على سبيل المثال: وقت الدراسة",
+    "description": "1.0 assessment.json"
+  },
+  "teacherTxt": {
+    "message": "{teacherName} مهام المعلم",
+    "description": "1.0 assessment.json"
+  }
+}

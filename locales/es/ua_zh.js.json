@@ -1127,10 +1127,6 @@
     "message": "Editar subtítulos",
     "description": "UA"
   },
-  "editTip": {
-    "message": "La edición de la cuenta provocará que el contenido se cubra entre sí.",
-    "description": "UA"
-  },
   "editing": {
     "message": "Editando",
     "description": "UA"
@@ -2305,6 +2301,10 @@
   },
   "pageCompletionTip": {
     "message": "La página no se considera como completada hasta que cada palabra/frase/párrafo se lea en voz alta el número de veces acordado.",
+    "description": "UA"
+  },
+  "pageEditBy": {
+    "message": "La página '{page}' ahora está editada por esta cuenta '{editor}', lo que hará que el contenido se superponga entre sí.",
     "description": "UA"
   },
   "pageExercises": {
@@ -3607,10 +3607,6 @@
     "message": "Se retiró exitosamente",
     "description": "UA"
   },
-  "wo": {
-    "message": "¡Oh!",
-    "description": "UA"
-  },
   "wordCountCheck": {
     "message": "Detección de conteo de palabras",
     "description": "UA"
@@ -4118,5 +4114,97 @@
   "skipStep": {
     "message": "Saltar",
     "description": "一个按钮"
+  },
+  "wipeSubtitleTip": {
+    "message": "¿Está seguro de que desea borrar los subtítulos?",
+    "description": "UA"
+  },
+  "saveSubtitleTip": {
+    "message": "El contenido no puede estar vacío.",
+    "description": "UA"
+  },
+  "practiceSetCountTip": {
+    "message": "El número de preguntas debe ser entre 1 y 50.",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceSetMinuteTip": {
+    "message": "Los minutos de respuesta no debe ser inferior a 0.",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceSetSecondTip": {
+    "message": "El número de segundos en la respuesta debe estar entre 0-60.",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceConfig": {
+    "message": "Configuración del ejercicio",
+    "description": "UA \"练习设置\""
+  },
+  "practiceCount": {
+    "message": "Número de ejercicios",
+    "description": "UA \"练习设置\""
+  },
+  "practiceUnlimit": {
+    "message": "Sin restricciones",
+    "description": "UA \"练习设置\""
+  },
+  "practiceLimitCount": {
+    "message": "Limitar el número máximo de preguntas a responder.",
+    "description": "UA \"练习设置\""
+  },
+  "practiceUnifiedSet": {
+    "message": "Configuración unificada de ejercicios en esta sección",
+    "description": "UA \"练习设置\""
+  },
+  "timeLimitAnswer": {
+    "message": "Respuesta con tiempo limitado",
+    "description": "UA \"练习设置\""
+  },
+  "practiceLimitTime": {
+    "message": "Limite la duración de la pregunta",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip1": {
+    "message": "1. Actualmente, solo las páginas que contienen ejercicios pueden configurarse para una respuesta por tiempo limitado.",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip2": {
+    "message": "2. Además de la práctica, si esta página tiene gráficos, videos, documentos y otros contenidos de aprendizaje, también puede establecerse un límite de tiempo unificado.",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip3": {
+    "message": "3. Los estudiantes deben completar el ejercicio dentro del tiempo establecido y enviarlo automáticamente una vez completado el tiempo límite.",
+    "description": "UA \"练习设置\""
+  },
+  "browserTip": {
+    "message": "Se detecta que estás usando una versión antigua o un navegador que no es compatible con el sistema, esto es {emphasize}. Utilice el navegador recomendado por el sistema  o actualice la versión de su navegador. Descargue la aplicación ULearning para estudiar desde su teléfono móvil.",
+    "description": "{emphasize} 是强调内容，因为需要进行单独的样式设置，所以会设置插值。插值处的内容是下面的“可能会导致学习记录不准确”"
+  },
+  "browserTipEm": {
+    "message": "Se pueden causar registros de aprendizaje inexactos",
+    "description": "上面 browserTip 的插值内容"
+  },
+  "browserTipList": {
+    "message": "Solo se admiten los siguientes navegadores:",
+    "description": "浏览器兼容性提示"
+  },
+  "chromeBrowser": {
+    "message": "Google Chrome (mejor)",
+    "description": "浏览器兼容性提示"
+  },
+  "safariBrowser": {
+    "message": "Safari (Sistema Mac OS)",
+    "description": "浏览器兼容性提示"
+  },
+  "timePoint": {
+    "message": "Hora : {time}",
+    "description": "指视频剪辑的时间点"
+  },
+  "selectedQuestions": {
+    "message": "{count} seleccionados",
+    "description": "出现于视频剪辑处"
+  },
+  "reSelectQuestion": {
+    "message": "Volver a seleccionar",
+    "description": "出现于视频剪辑处"
   }
 }

@@ -60,15 +60,15 @@
     "description": "小应用"
   },
   "day": {
-    "message": "天",
+    "message": "{n}天",
     "description": "小应用"
   },
   "hour": {
-    "message": "小時",
+    "message": "{n}小時",
     "description": "小应用"
   },
   "minute": {
-    "message": "分",
+    "message": "{n}分",
     "description": "小应用"
   },
   "second": {
@@ -120,7 +120,7 @@
     "description": "小应用"
   },
   "restartActivity": {
-    "message": "再次開啟",
+    "message": "再次開啟活動",
     "description": "小应用"
   },
   "saving": {
@@ -560,7 +560,7 @@
     "description": "小应用"
   },
   "vote.ballot": {
-    "message": "票",
+    "message": "{n}票",
     "description": "小应用"
   },
   "vote.notVote": {
@@ -619,10 +619,6 @@
     "message": "结束投票",
     "description": "小应用"
   },
-  "vote.confirmRestart": {
-    "message": "確定再次開啟投票嗎？",
-    "description": "小应用"
-  },
   "pick.title": {
     "message": "選人",
     "description": "小应用"
@@ -676,55 +672,51 @@
     "description": "小应用"
   },
   "pick.rePick": {
-    "message": "重選",
+    "message": "重选",
     "description": "小应用"
   },
   "pick.continue": {
-    "message": "繼續選人",
+    "message": "继续选人",
     "description": "小应用"
   },
   "pick.start": {
-    "message": "開始",
+    "message": "开始",
     "description": "小应用"
   },
   "pick.randomPick": {
-    "message": "隨機抽取學生回答問題,",
+    "message": "随机抽取学生回答问题，",
     "description": "小应用"
   },
   "pick.pickList": {
-    "message": "選人記錄",
+    "message": "选人记录",
     "description": "小应用"
   },
   "pick.commonScore": {
-    "message": "統一打分",
+    "message": "统一打分",
     "description": "小应用"
   },
   "pick.noList": {
-    "message": "暫無記錄",
+    "message": "暂无记录",
     "description": "小应用"
   },
   "pick.endPick": {
-    "message": "結束選人",
+    "message": "结束选人",
     "description": "小应用"
   },
   "pick.picking": {
-    "message": "正在隨機選人…",
+    "message": "正在随机选人...",
     "description": "小应用"
   },
   "pick.noStu": {
-    "message": "無人員可選",
+    "message": "无人员可选",
     "description": "小应用"
   },
   "pick.confirmEndPick": {
-    "message": "確定結束選人嗎？",
+    "message": "确定结束选人吗？",
     "description": "小应用"
   },
   "pick.confirmDeletePick": {
-    "message": "確定删除選人嗎？",
-    "description": "小应用"
-  },
-  "pick.confirmRestart": {
-    "message": "確定再次開啟選人嗎？",
+    "message": "确定删除选人吗？",
     "description": "小应用"
   },
   "score.title": {
@@ -984,75 +976,47 @@
     "description": "小应用"
   },
   "score.setRule": {
-    "message": "請設定評分規則",
+    "message": "请设置评分规则",
     "description": "小应用"
   },
   "score.groupDetail": {
-    "message": "小組詳情",
+    "message": "小组详情",
     "description": "小应用"
   },
   "score.confirmDeteleStu": {
-    "message": "確定删除當前學生？",
+    "message": "确定删除当前学生？",
     "description": "小应用"
   },
   "score.confirmDeleteGroup": {
-    "message": "確定删除當前小組？",
+    "message": "确定删除当前小组？",
     "description": "小应用"
   },
   "score.confirmDeleteObj": {
-    "message": "確定删除當前評估對象？",
+    "message": "确定删除当前评价对象？",
     "description": "小应用"
   },
   "score.evaluatingStudents": {
-    "message": "評估學生",
+    "message": "评价学生",
     "description": "小应用"
   },
   "score.evaluatingGroups": {
-    "message": "評估小組",
+    "message": "评价小组",
     "description": "小应用"
   },
   "score.addStudent": {
-    "message": "添加學生",
+    "message": "添加学生",
     "description": "小应用"
   },
   "score.titleErrTip": {
-    "message": "標題不能超過2000字元",
+    "message": "标题不能超过2000字符",
     "description": "小应用"
   },
   "score.objErrTip": {
-    "message": "請至少選擇一個評估對象",
+    "message": "请至少选择一个评价对象",
     "description": "小应用"
   },
   "score.ruleErrTip": {
-    "message": "評分規則每項內容不能為空",
-    "description": "小应用"
-  },
-  "score.confirmEndScore": {
-    "message": "確定結束打分？",
-    "description": "小应用"
-  },
-  "score.confirmRestart": {
-    "message": "確定再次開啟打分？",
-    "description": "小应用"
-  },
-  "score.endScore": {
-    "message": "結束打分",
-    "description": "小应用"
-  },
-  "score.confirmDeleteScore": {
-    "message": "確定删除打分嗎？",
-    "description": "小应用"
-  },
-  "score.noStuEvaluation": {
-    "message": "沒有正在評估的學生",
-    "description": "小应用"
-  },
-  "score.noGroupEvaluation": {
-    "message": "沒有正在評估的小組",
-    "description": "小应用"
-  },
-  "score.noObjEvaluation": {
-    "message": "沒有正在評估的評估對象",
+    "message": "评分规则每项内容不能为空",
     "description": "小应用"
   },
   "attendance.create": {
@@ -1317,10 +1281,6 @@
   },
   "attendance.restart": {
     "message": "确定重新开始本次点名吗",
-    "description": "小应用"
-  },
-  "attendance.endAttendence": {
-    "message": "结束点名",
     "description": "小应用"
   },
   "announcement.title": {
@@ -1645,10 +1605,6 @@
   },
   "answer.confirmEndScore": {
     "message": "确定结束抢答？",
-    "description": "小应用"
-  },
-  "answer.confirmRestart": {
-    "message": "確定再次開啟搶答？",
     "description": "小应用"
   },
   "class.create": {
@@ -2895,10 +2851,6 @@
     "message": "《隱私政策》",
     "description": "小应用"
   },
-  "user.idMore": {
-    "message": "",
-    "description": "小应用"
-  },
   "user.goHome": {
     "message": "返回首頁",
     "description": "小应用"
@@ -2933,10 +2885,6 @@
   },
   "user.inputCodeTip": {
     "message": "請輸入驗證碼",
-    "description": "小应用"
-  },
-  "user.authentication": {
-    "message": "身份验证",
     "description": "小应用"
   },
   "user.getAgain": {
@@ -3693,10 +3641,6 @@
   },
   "classroom.nodata": {
     "message": "暂无数据",
-    "description": "小应用"
-  },
-  "classroom.tips10": {
-    "message": "标题不可超过50字",
     "description": "小应用"
   }
 }

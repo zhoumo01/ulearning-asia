@@ -383,6 +383,10 @@
     "message": "减分",
     "description": "小应用"
   },
+  "classroomTips": {
+    "message": "当前课堂未开始，请先保存草稿，上课后再开始活动。",
+    "description": "小应用"
+  },
   "teacher.title": {
     "message": "教师",
     "description": "小应用"
@@ -521,6 +525,10 @@
   },
   "screen.cancel": {
     "message": "取消投屏",
+    "description": "小应用"
+  },
+  "screen.tips": {
+    "message": "需要开启投屏后才能演示资源，是否开启",
     "description": "小应用"
   },
   "vote.title": {
@@ -1184,7 +1192,7 @@
     "description": "小应用"
   },
   "attendance.deleteConfirm": {
-    "message": "确定删除？",
+    "message": "确定删除点名吗？",
     "description": "小应用"
   },
   "attendance.modifySignStatus": {
@@ -1316,7 +1324,11 @@
     "description": "小应用"
   },
   "attendance.restart": {
-    "message": "确定重新开始本次点名吗",
+    "message": "确定再次开启点名吗？",
+    "description": "小应用"
+  },
+  "attendance.endAttendence": {
+    "message": "结束点名",
     "description": "小应用"
   },
   "attendance.endAttendence": {
@@ -1484,7 +1496,7 @@
     "description": "小应用"
   },
   "answer.backConfirm": {
-    "message": "尚未保存，确定返回",
+    "message": "尚未保存，确定返回吗？",
     "description": "小应用"
   },
   "answer.publishing": {
@@ -1640,11 +1652,23 @@
     "description": "小应用"
   },
   "answer.confirmDeleteAnswer": {
-    "message": "确定删除抢答？",
+    "message": "确定删除抢答吗？",
     "description": "小应用"
   },
   "answer.confirmEndScore": {
-    "message": "确定结束抢答？",
+    "message": "确定结束抢答吗？",
+    "description": "小应用"
+  },
+  "answer.confirmRestart": {
+    "message": "确定再次开启抢答？",
+    "description": "小应用"
+  },
+  "answer.selecting": {
+    "message": "抽取中",
+    "description": "小应用"
+  },
+  "answer.grabTag": {
+    "message": "抢",
     "description": "小应用"
   },
   "answer.confirmRestart": {
@@ -2535,6 +2559,10 @@
     "message": "发讨论",
     "description": "小应用"
   },
+  "discuss.nodata": {
+    "message": "暂无讨论",
+    "description": "小应用"
+  },
   "course.title": {
     "message": "课程",
     "description": "小应用"
@@ -3171,6 +3199,10 @@
     "message": "填写信息",
     "description": "小应用"
   },
+  "user.authentication": {
+    "message": "身份验证",
+    "description": "小应用"
+  },
   "search.title": {
     "message": "搜索",
     "description": "小应用"
@@ -3697,6 +3729,18 @@
   },
   "classroom.tips10": {
     "message": "标题不能超过50个字符",
+    "description": "小应用"
+  },
+  "classroom.classRoport": {
+    "message": "课堂报告",
+    "description": "小应用"
+  },
+  "classroom.startClass": {
+    "message": "上课中",
+    "description": "小应用"
+  },
+  "classroom.endingClass": {
+    "message": "下课中",
     "description": "小应用"
   }
 }

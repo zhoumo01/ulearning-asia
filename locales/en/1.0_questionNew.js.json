@@ -36,7 +36,7 @@
     "description": "1.0 questionNew.json"
   },
   "scoreText": {
-    "message": "Pts Possible: {score}",
+    "message": "Your Score: {score}",
     "description": "1.0 questionNew.json"
   },
   "playTimes": {
@@ -212,7 +212,7 @@
     "description": "1.0 exam.js"
   },
   "uploadAttachment": {
-    "message": "Upload attachment",
+    "message": "Upload Attachment",
     "description": "1.0 exam.js"
   },
   "recordText": {
@@ -232,7 +232,7 @@
     "description": "1.0 questionNew.js"
   },
   "inText": {
-    "message": "Save answer records in {time}",
+    "message": "Saved your answers at {time}",
     "description": "1.0 questionNew.js"
   },
   "systemText": {
@@ -344,7 +344,7 @@
     "description": "1.0 backwards.jsp"
   },
   "invalidExamCount": {
-    "message": "You have exceeded the limit of the number of times taking the exam this time, therefore, you cannot take exam again! Number of times limited to taking exam:",
+    "message": "You have exceeded the limit on the number of times for this exam and cannot take the exam! ¶\nLimit times: {count} times",
     "description": "1.0 backwards.jsp"
   },
   "noAnswer": {
@@ -422,5 +422,17 @@
   "plzInputScore": {
     "message": "Please enter a score in the range {range}.",
     "description": "range插值是一个范围，例如，请输入0-50的分数"
+  },
+  "photoNotChecked": {
+    "message": "The certified photo has not been reviewed",
+    "description": "1.0 questionNew.js"
+  },
+  "photoNotPass": {
+    "message": "Verified photo review failed",
+    "description": "1.0 questionNew.js"
+  },
+  "photoConfirm": {
+    "message": "You haven't completed the photo certification for face recognition and cannot enter the exam. Go for certification now?",
+    "description": "1.0 questionNew.js"
   }
 }
