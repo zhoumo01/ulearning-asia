@@ -64,15 +64,15 @@
     "description": "小应用"
   },
   "hour": {
-    "message": "ชั่วโมง",
+    "message": "{n}ชั่วโมง",
     "description": "小应用"
   },
   "minute": {
-    "message": "นาที",
+    "message": "{n}นาที",
     "description": "小应用"
   },
   "second": {
-    "message": "วินาที",
+    "message": "{n}วินาที",
     "description": "小应用"
   },
   "saveAsDraft": {
@@ -351,38 +351,6 @@
     "message": "ไม่มีนักเรียนอยู่ในชั้นเรียน",
     "description": "小应用"
   },
-  "modifySuccess": {
-    "message": "修改成功",
-    "description": "小应用"
-  },
-  "reStart": {
-    "message": "再次开启",
-    "description": "小应用"
-  },
-  "opening": {
-    "message": "活动开启中",
-    "description": "小应用"
-  },
-  "startFail": {
-    "message": "开启活动失败",
-    "description": "小应用"
-  },
-  "integral": {
-    "message": "积分",
-    "description": "小应用"
-  },
-  "startNow": {
-    "message": "立即开始",
-    "description": "小应用"
-  },
-  "deleteDraft": {
-    "message": "删除草稿",
-    "description": "小应用"
-  },
-  "cutScore": {
-    "message": "减分",
-    "description": "小应用"
-  },
   "teacher.title": {
     "message": "ครู",
     "description": "小应用"
@@ -615,10 +583,6 @@
     "message": "สามารถเพิ่มตัวเลือกไม่เกิน {count}ตัว ",
     "description": "小应用"
   },
-  "vote.endVote": {
-    "message": "结束投票",
-    "description": "小应用"
-  },
   "pick.title": {
     "message": "เลือกคน",
     "description": "小应用"
@@ -669,54 +633,6 @@
   },
   "pick.unmarkedTips": {
     "message": " มีนักเรียน{count}คน ไม่ได้รับการประเมินคะแนน หลังจากการจบสิ้นกิจกรรม นักเรียนจะไม่ได้รับคะแนน",
-    "description": "小应用"
-  },
-  "pick.rePick": {
-    "message": "重选",
-    "description": "小应用"
-  },
-  "pick.continue": {
-    "message": "继续选人",
-    "description": "小应用"
-  },
-  "pick.start": {
-    "message": "开始",
-    "description": "小应用"
-  },
-  "pick.randomPick": {
-    "message": "随机抽取学生回答问题，",
-    "description": "小应用"
-  },
-  "pick.pickList": {
-    "message": "选人记录",
-    "description": "小应用"
-  },
-  "pick.commonScore": {
-    "message": "统一打分",
-    "description": "小应用"
-  },
-  "pick.noList": {
-    "message": "暂无记录",
-    "description": "小应用"
-  },
-  "pick.endPick": {
-    "message": "结束选人",
-    "description": "小应用"
-  },
-  "pick.picking": {
-    "message": "正在随机选人...",
-    "description": "小应用"
-  },
-  "pick.noStu": {
-    "message": "无人员可选",
-    "description": "小应用"
-  },
-  "pick.confirmEndPick": {
-    "message": "确定结束选人吗？",
-    "description": "小应用"
-  },
-  "pick.confirmDeletePick": {
-    "message": "确定删除选人吗？",
     "description": "小应用"
   },
   "score.title": {
@@ -979,46 +895,6 @@
     "message": "โปรดตั้งกฎการให้คะแนน",
     "description": "小应用"
   },
-  "score.groupDetail": {
-    "message": "小组详情",
-    "description": "小应用"
-  },
-  "score.confirmDeteleStu": {
-    "message": "确定删除当前学生？",
-    "description": "小应用"
-  },
-  "score.confirmDeleteGroup": {
-    "message": "确定删除当前小组？",
-    "description": "小应用"
-  },
-  "score.confirmDeleteObj": {
-    "message": "确定删除当前评价对象？",
-    "description": "小应用"
-  },
-  "score.evaluatingStudents": {
-    "message": "评价学生",
-    "description": "小应用"
-  },
-  "score.evaluatingGroups": {
-    "message": "评价小组",
-    "description": "小应用"
-  },
-  "score.addStudent": {
-    "message": "添加学生",
-    "description": "小应用"
-  },
-  "score.titleErrTip": {
-    "message": "标题不能超过2000字符",
-    "description": "小应用"
-  },
-  "score.objErrTip": {
-    "message": "请至少选择一个评价对象",
-    "description": "小应用"
-  },
-  "score.ruleErrTip": {
-    "message": "评分规则每项内容不能为空",
-    "description": "小应用"
-  },
   "attendance.create": {
     "message": "เริ่มเรียกชื่อ",
     "description": "小应用"
@@ -1249,38 +1125,6 @@
   },
   "attendance.mobilePluginTips5": {
     "message": "กรุณาเปิดโทรศัพท์มือถือ",
-    "description": "小应用"
-  },
-  "attendance.numCodeFresh": {
-    "message": "数字码刷新",
-    "description": "小应用"
-  },
-  "attendance.numCodeSign": {
-    "message": "数字码签到",
-    "description": "小应用"
-  },
-  "attendance.numCodeTips": {
-    "message": "学生输入数字码完成签到，如已开启投屏，数字码可在大屏上显示。您也可以口头告知学生数字码。",
-    "description": "小应用"
-  },
-  "attendance.numcode": {
-    "message": "数字码",
-    "description": "小应用"
-  },
-  "attendance.numcodenow": {
-    "message": "当前数字码",
-    "description": "小应用"
-  },
-  "attendance.inputNumcode": {
-    "message": "学生输入以下数字完成签到",
-    "description": "小应用"
-  },
-  "attendance.freshTime": {
-    "message": "刷新时间",
-    "description": "小应用"
-  },
-  "attendance.restart": {
-    "message": "确定重新开始本次点名吗",
     "description": "小应用"
   },
   "announcement.title": {
@@ -1589,22 +1433,6 @@
   },
   "answer.grab": {
     "message": "ชิงตอบคำถาม",
-    "description": "小应用"
-  },
-  "answer.commonScore": {
-    "message": "统一打分",
-    "description": "小应用"
-  },
-  "answer.endAnswer": {
-    "message": "结束抢答",
-    "description": "小应用"
-  },
-  "answer.confirmDeleteAnswer": {
-    "message": "确定删除抢答？",
-    "description": "小应用"
-  },
-  "answer.confirmEndScore": {
-    "message": "确定结束抢答？",
     "description": "小应用"
   },
   "class.create": {
@@ -1973,14 +1801,6 @@
   },
   "class.newStrategyTips20": {
     "message": "หลักสูตรปัจจุบันไม่มีการตรวดสอบ",
-    "description": "小应用"
-  },
-  "class.newStrategyTips21": {
-    "message": "课程总分：",
-    "description": "小应用"
-  },
-  "class.newStrategyTips22": {
-    "message": "该项分值：",
     "description": "小应用"
   },
   "class.courseAssessment": {
@@ -2479,18 +2299,6 @@
     "message": "แจ้งเตือนสำเร็จ",
     "description": "小应用"
   },
-  "discuss.title": {
-    "message": "讨论",
-    "description": "小应用"
-  },
-  "discuss.reply": {
-    "message": "回复",
-    "description": "小应用"
-  },
-  "discuss.publishDiscuss": {
-    "message": "发讨论",
-    "description": "小应用"
-  },
   "course.title": {
     "message": "หลักสูตร",
     "description": "小应用"
@@ -2979,22 +2787,6 @@
     "message": "การดึงกล่องจดหมาย",
     "description": "小应用"
   },
-  "user.logoutVerification": {
-    "message": "注销验证",
-    "description": "小应用"
-  },
-  "user.verificationByPhone": {
-    "message": "手机验证",
-    "description": "小应用"
-  },
-  "user.verificationByMail": {
-    "message": "邮箱验证",
-    "description": "小应用"
-  },
-  "user.logoutAccount": {
-    "message": "注销账户",
-    "description": "小应用"
-  },
   "user.getCodeTip3": {
     "message": "การหมดเวลาของรหัสยืนยัน",
     "description": "小应用"
@@ -3169,482 +2961,6 @@
   },
   "audio.retryConfirm": {
     "message": " บันทึกเสียงใหม่ ระบบจะจะลบทิ้งบันทึกเติม ยืนยันบันทึกเสียงใหม่",
-    "description": "小应用"
-  },
-  "classroom.classroom": {
-    "message": "课堂",
-    "description": "小应用"
-  },
-  "classroom.activityList": {
-    "message": "活动列表",
-    "description": "小应用"
-  },
-  "classroom.classIntro": {
-    "message": "如何有效的进行课堂教学？",
-    "description": "小应用"
-  },
-  "classroom.createClass": {
-    "message": "创建课堂",
-    "description": "小应用"
-  },
-  "classroom.ing": {
-    "message": "进行中",
-    "description": "小应用"
-  },
-  "classroom.ed": {
-    "message": "已结束",
-    "description": "小应用"
-  },
-  "classroom.unstart": {
-    "message": "未开始",
-    "description": "小应用"
-  },
-  "classroom.class": {
-    "message": "班级",
-    "description": "小应用"
-  },
-  "classroom.course": {
-    "message": "课程",
-    "description": "小应用"
-  },
-  "classroom.activity": {
-    "message": "活动",
-    "description": "小应用"
-  },
-  "classroom.activityNum": {
-    "message": "共{count}项",
-    "description": "小应用"
-  },
-  "classroom.teacher": {
-    "message": "教师",
-    "description": "小应用"
-  },
-  "classroom.copyClass": {
-    "message": "复制课堂",
-    "description": "小应用"
-  },
-  "classroom.modify": {
-    "message": "修改",
-    "description": "小应用"
-  },
-  "classroom.delete": {
-    "message": "删除",
-    "description": "小应用"
-  },
-  "classroom.allClass": {
-    "message": "全部课堂",
-    "description": "小应用"
-  },
-  "classroom.classesNames": {
-    "message": "{name}等{count}个班级",
-    "description": "小应用"
-  },
-  "classroom.tips1": {
-    "message": "删除课堂将会删除该课堂上发布的课堂互动，确定删除？",
-    "description": "小应用"
-  },
-  "classroom.copyTipTitle": {
-    "message": "复制课堂活动到其他班级",
-    "description": "小应用"
-  },
-  "classroom.copyTip": {
-    "message": "复制后活动为未开始状态，您可以在上课后开始这些活动，点名/选人活动不能被复制",
-    "description": "小应用"
-  },
-  "classroom.unOpen": {
-    "message": "功能暂未开放，敬请期待",
-    "description": "小应用"
-  },
-  "classroom.hd": {
-    "message": "互动",
-    "description": "小应用"
-  },
-  "classroom.demo": {
-    "message": "演示",
-    "description": "小应用"
-  },
-  "classroom.student": {
-    "message": "学生",
-    "description": "小应用"
-  },
-  "classroom.modifyClass": {
-    "message": "修改课堂",
-    "description": "小应用"
-  },
-  "classroom.goClassDetail": {
-    "message": "进课堂详情",
-    "description": "小应用"
-  },
-  "classroom.beginClass": {
-    "message": "上课",
-    "description": "小应用"
-  },
-  "classroom.endClass": {
-    "message": "下课",
-    "description": "小应用"
-  },
-  "classroom.openScreen": {
-    "message": "开启投屏",
-    "description": "小应用"
-  },
-  "classroom.closeScreen": {
-    "message": "关闭投屏",
-    "description": "小应用"
-  },
-  "classroom.newAct": {
-    "message": "新建互动",
-    "description": "小应用"
-  },
-  "classroom.attendence": {
-    "message": "点名",
-    "description": "小应用"
-  },
-  "classroom.vote": {
-    "message": "投票",
-    "description": "小应用"
-  },
-  "classroom.answer": {
-    "message": "抢答",
-    "description": "小应用"
-  },
-  "classroom.pick": {
-    "message": "选人",
-    "description": "小应用"
-  },
-  "classroom.score": {
-    "message": "打分",
-    "description": "小应用"
-  },
-  "classroom.emptyTips": {
-    "message": "点击上方按钮发布活动",
-    "description": "小应用"
-  },
-  "classroom.draft": {
-    "message": "草稿",
-    "description": "小应用"
-  },
-  "classroom.start": {
-    "message": "开始",
-    "description": "小应用"
-  },
-  "classroom.end": {
-    "message": "结束",
-    "description": "小应用"
-  },
-  "classroom.ended": {
-    "message": "已结束",
-    "description": "小应用"
-  },
-  "classroom.confirmStart": {
-    "message": "确定上课？",
-    "description": "小应用"
-  },
-  "classroom.confirmEnd": {
-    "message": "确定下课？",
-    "description": "小应用"
-  },
-  "classroom.goAttendence": {
-    "message": "进入点名活动",
-    "description": "小应用"
-  },
-  "classroom.goVote": {
-    "message": "进入投票活动",
-    "description": "小应用"
-  },
-  "classroom.goAnswer": {
-    "message": "进入抢答活动",
-    "description": "小应用"
-  },
-  "classroom.goPick": {
-    "message": "进入选人活动",
-    "description": "小应用"
-  },
-  "classroom.goScore": {
-    "message": "进入打分活动",
-    "description": "小应用"
-  },
-  "classroom.openSuccess": {
-    "message": "开启成功",
-    "description": "小应用"
-  },
-  "classroom.closeSuccess": {
-    "message": "关闭成功",
-    "description": "小应用"
-  },
-  "classroom.confirmEndPick": {
-    "message": "确定结束选人吗？",
-    "description": "小应用"
-  },
-  "classroom.actunstart": {
-    "message": "活动未开始",
-    "description": "小应用"
-  },
-  "classroom.starting": {
-    "message": "活动开始中",
-    "description": "小应用"
-  },
-  "classroom.startSuccess": {
-    "message": "活动开始失败",
-    "description": "小应用"
-  },
-  "classroom.confirmEndAnswer": {
-    "message": "确认结束抢答嘛？",
-    "description": "小应用"
-  },
-  "classroom.confirmEndScore": {
-    "message": "确认结束打分嘛？",
-    "description": "小应用"
-  },
-  "classroom.tips2": {
-    "message": "请上课后发起点名",
-    "description": "小应用"
-  },
-  "classroom.tips3": {
-    "message": "请上课后发起选人",
-    "description": "小应用"
-  },
-  "classroom.tips4": {
-    "message": "当前课堂未开始，请先开始上课",
-    "description": "小应用"
-  },
-  "classroom.tips5": {
-    "message": "开始上课啦~请认真听讲",
-    "description": "小应用"
-  },
-  "classroom.tips6": {
-    "message": "本课堂已产生活动数据，不能修改班级。如果选错了班级，请发起新的课堂。",
-    "description": "小应用"
-  },
-  "classroom.tips7": {
-    "message": "该功能需要配合大屏使用。",
-    "description": "小应用"
-  },
-  "classroom.tips8": {
-    "message": "1.开启大屏客户端或在浏览器中打开网址",
-    "description": "小应用"
-  },
-  "classroom.tips9": {
-    "message": "2.登录帐号，或者输入投屏码",
-    "description": "小应用"
-  },
-  "classroom.startAgain": {
-    "message": "再次上课",
-    "description": "小应用"
-  },
-  "classroom.attend": {
-    "message": "出勤",
-    "description": "小应用"
-  },
-  "classroom.attendRatio": {
-    "message": "出勤率",
-    "description": "小应用"
-  },
-  "classroom.attended": {
-    "message": "已到",
-    "description": "小应用"
-  },
-  "classroom.absence": {
-    "message": "缺勤",
-    "description": "小应用"
-  },
-  "classroom.late": {
-    "message": "迟到",
-    "description": "小应用"
-  },
-  "classroom.leaveEarly": {
-    "message": "早退",
-    "description": "小应用"
-  },
-  "classroom.sick": {
-    "message": "病假",
-    "description": "小应用"
-  },
-  "classroom.leave": {
-    "message": "事假",
-    "description": "小应用"
-  },
-  "classroom.thisAct": {
-    "message": "本堂课互动",
-    "description": "小应用"
-  },
-  "classroom.thisScore": {
-    "message": "本堂课积分",
-    "description": "小应用"
-  },
-  "classroom.readMore": {
-    "message": "查看更多",
-    "description": "小应用"
-  },
-  "classroom.summary": {
-    "message": "上课总结",
-    "description": "小应用"
-  },
-  "classroom.summaryPlaceHolder": {
-    "message": "您可以点击编辑按钮写下上课总结",
-    "description": "小应用"
-  },
-  "classroom.restartConfirm": {
-    "message": "确定重新开始上课？",
-    "description": "小应用"
-  },
-  "classroom.classEnd": {
-    "message": "课堂已结束",
-    "description": "小应用"
-  },
-  "classroom.thisClassAct": {
-    "message": "本次课堂活动",
-    "description": "小应用"
-  },
-  "classroom.thisClassScore": {
-    "message": "本次课堂积分",
-    "description": "小应用"
-  },
-  "classroom.totalScore": {
-    "message": "总积分",
-    "description": "小应用"
-  },
-  "classroom.classRank": {
-    "message": "班级排名",
-    "description": "小应用"
-  },
-  "classroom.noAct": {
-    "message": "当前课堂没有发布活动",
-    "description": "小应用"
-  },
-  "classroom.selectClass": {
-    "message": "请选择上课班级",
-    "description": "小应用"
-  },
-  "classroom.tempUnBegin": {
-    "message": "暂不上课",
-    "description": "小应用"
-  },
-  "classroom.beginNow": {
-    "message": "开始上课",
-    "description": "小应用"
-  },
-  "classroom.monday": {
-    "message": "周一",
-    "description": "小应用"
-  },
-  "classroom.tuesday": {
-    "message": "周二",
-    "description": "小应用"
-  },
-  "classroom.winsday": {
-    "message": "周三",
-    "description": "小应用"
-  },
-  "classroom.thursday": {
-    "message": "周四",
-    "description": "小应用"
-  },
-  "classroom.friday": {
-    "message": "周五",
-    "description": "小应用"
-  },
-  "classroom.saturday": {
-    "message": "周六",
-    "description": "小应用"
-  },
-  "classroom.sunday": {
-    "message": "周日",
-    "description": "小应用"
-  },
-  "classroom.atleastOne": {
-    "message": "至少选择一个班级",
-    "description": "小应用"
-  },
-  "classroom.demoTip": {
-    "message": "将教学内容投到大屏演示",
-    "description": "小应用"
-  },
-  "classroom.demoing": {
-    "message": "正在演示，点击进入",
-    "description": "小应用"
-  },
-  "classroom.recourse": {
-    "message": "资源",
-    "description": "小应用"
-  },
-  "classroom.discussion": {
-    "message": "讨论",
-    "description": "小应用"
-  },
-  "classroom.goRecourseDetail": {
-    "message": "进入资源详情",
-    "description": "小应用"
-  },
-  "classroom.slt": {
-    "message": "缩略图",
-    "description": "小应用"
-  },
-  "classroom.outScreen": {
-    "message": "退出全屏",
-    "description": "小应用"
-  },
-  "classroom.allScreen": {
-    "message": "全屏",
-    "description": "小应用"
-  },
-  "classroom.switchKj": {
-    "message": "更换课件",
-    "description": "小应用"
-  },
-  "classroom.endDemo": {
-    "message": "结束演示",
-    "description": "小应用"
-  },
-  "classroom.prePage": {
-    "message": "上一页",
-    "description": "小应用"
-  },
-  "classroom.nextPage": {
-    "message": "下一页",
-    "description": "小应用"
-  },
-  "classroom.goRecourse": {
-    "message": "去资源库选",
-    "description": "小应用"
-  },
-  "classroom.nosupport": {
-    "message": "该资源不支持演示",
-    "description": "小应用"
-  },
-  "classroom.closeRecourseConfirm": {
-    "message": "确认关闭正在演示的资源嘛？",
-    "description": "小应用"
-  },
-  "classroom.selectDemo": {
-    "message": "选择演示资源",
-    "description": "小应用"
-  },
-  "classroom.nomatchs": {
-    "message": "没有符合条件的内容",
-    "description": "小应用"
-  },
-  "classroom.scoreRank": {
-    "message": "本堂课积分排名",
-    "description": "小应用"
-  },
-  "classroom.scoreDown": {
-    "message": "按积分倒序",
-    "description": "小应用"
-  },
-  "classroom.scoreUp": {
-    "message": "按积分正序",
-    "description": "小应用"
-  },
-  "classroom.learningcoderank": {
-    "message": "按学号排序",
-    "description": "小应用"
-  },
-  "classroom.classStu": {
-    "message": "班级学生",
-    "description": "小应用"
-  },
-  "classroom.nodata": {
-    "message": "暂无数据",
     "description": "小应用"
   }
 }
