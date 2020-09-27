@@ -18,12 +18,12 @@
 
     <string name="server_error">System is under maintenance，please try again later</string>
 
-    <string formatted="false" name="toast_other_lesson_progress">Caching courseware%s/%s</string>
+    <string name="toast_other_lesson_progress" formatted="false">Caching courseware%s/%s</string>
 
     <string name="toast_please_check_if_the_SD_card_is_inserted">Check the SD card if it is plugged in！</string>
     <!--<string name="telphone">400 610 7808</string>-->
     <string name="dialog_ok">@string/know</string>
-    <string formatted="false" name="dialog_quit">Quit(%s)</string>
+    <string name="dialog_quit" formatted="false">Quit(%s)</string>
     <string name="dialog_confirm">Confirm</string>
     <string name="dialog_delete">@string/delete</string>
     <string name="dialog_cancel">Cancel</string>
@@ -347,7 +347,7 @@
     <string name="hint_speech_grade">Your teacher has set the rule that only when you have pronounced every sentence/word up to %d, then you are considered as having completed learning. Come on boys!</string>
     <string name="hint_speech_must_on_network">Recording auto scoring function can only be used when there is internet/WIFI connection. Please open network connection.</string>
     <string name="hint_collect_success">Successful collection</string>
-    <string formatted="false" name="hint_class_create_success_tell_class_code_to_student">Successfully created class \n please inform your students the class code: %s</string>
+    <string name="hint_class_create_success_tell_class_code_to_student" formatted="false">Successfully created class \n please inform your students the class code: %s</string>
     <string name="hint_delete_class">Delete class?</string>
 
     <string name="warning_input_text_too_long">The length of the content to be entered should not exceed %d, the exceeding part will not be uploaded!</string>
@@ -492,15 +492,15 @@
     <string name="text_course_score9">&quot;Exercise page: exercise marks are calculated (for multiple attempts, last attempt\'s marks will be calculated)&quot;</string>
     <string name="text_course_score10">No exercise page: record study completion status only</string>
     <string name="text_course_study_page_not_finished">You have not finished studying the page</string>
-    <string formatted="false" name="text_course_complete_status">Page:%d/%d</string>
-    <string formatted="false" name="text_course_download_stauts">Total %d resources, download %d resources(%s)</string>
-    <string formatted="false" name="text_file_downloaded_local_path">Download：%s</string>
-    <string formatted="false" name="text_downloading_format">Downloading(%s/%s)</string>
-    <string formatted="false" name="text_downloading_fail_format">Failed to load %s/%s</string>
-    <string formatted="false" name="text_downloading_recourse_format">%s of resource</string>
-    <string formatted="false" name="text_downloading_recourse_finish_format">Downloaded %s of resource</string>
-    <string formatted="false" name="text_downloading_recourse_about_format">About %s</string>
-    <string formatted="false" name="text_downloading_recourse_progress">(%s %s)</string>
+    <string name="text_course_complete_status" formatted="false">Page:%d/%d</string>
+    <string name="text_course_download_stauts" formatted="false">Total %d resources, download %d resources(%s)</string>
+    <string name="text_file_downloaded_local_path" formatted="false">Download：%s</string>
+    <string name="text_downloading_format" formatted="false">Downloading(%s/%s)</string>
+    <string name="text_downloading_fail_format" formatted="false">Failed to load %s/%s</string>
+    <string name="text_downloading_recourse_format" formatted="false">%s of resource</string>
+    <string name="text_downloading_recourse_finish_format" formatted="false">Downloaded %s of resource</string>
+    <string name="text_downloading_recourse_about_format" formatted="false">About %s</string>
+    <string name="text_downloading_recourse_progress" formatted="false">(%s %s)</string>
 
     <string name="text_get_course">Getting a course</string>
     <string name="text_pull_up_load_more">Pull up to load more</string>
@@ -510,33 +510,33 @@
     <string name="text_teacher_close_study">Your teacher has closed the study permission</string>
     <string name="text_cancel_send_finger_upglide">Finger off to cancel sending</string>
     <string name="text_alum_select">Select from album</string>
-    <string formatted="false" name="text_course_expire_date">Course expiry date：%s</string>
-    <string formatted="false" name="text_course_class_count">Class :%s</string>
-    <string formatted="false" name="text_course_class_count_more">About %d of classes</string>
-    <string formatted="false" name="text_course_start_date">%s started</string>
-    <string formatted="false" name="text_course_end_date">%s Deadline</string>
-    <string formatted="false" name="submit_end_date">Deadline for submission</string>
-    <string formatted="false" name="peer_response_end_date">end</string>
-    <string formatted="false" name="text_course_submit_end_date">%s Submission deadline</string>
-    <string formatted="false" name="text_course_peer_response_end_date">%s Peer review’s deadline</string>
-    <string formatted="false" name="text_course_student_count">Student :%s</string>
-    <string formatted="false" name="text_course_expired_date">Course expired on %s</string>
+    <string name="text_course_expire_date" formatted="false">Course expiry date：%s</string>
+    <string name="text_course_class_count" formatted="false">Class :%s</string>
+    <string name="text_course_class_count_more" formatted="false">About %d of classes</string>
+    <string name="text_course_start_date" formatted="false">%s started</string>
+    <string name="text_course_end_date" formatted="false">%s Deadline</string>
+    <string name="submit_end_date" formatted="false">Deadline for submission</string>
+    <string name="peer_response_end_date" formatted="false">end</string>
+    <string name="text_course_submit_end_date" formatted="false">%s Submission deadline</string>
+    <string name="text_course_peer_response_end_date" formatted="false">%s Peer review’s deadline</string>
+    <string name="text_course_student_count" formatted="false">Student :%s</string>
+    <string name="text_course_expired_date" formatted="false">Course expired on %s</string>
     <string name="text_course_study_record_empty">No learning records</string>
     <string name="text_course_study_record_not_latest">Loading the latest learning record</string>
-    <string formatted="false" name="text_you_have_some_course_format">You got %d courses</string>
+    <string name="text_you_have_some_course_format" formatted="false">You got %d courses</string>
     <string name="text_choose_file_upload">Select to upload file</string>
-    <string formatted="false" name="text_teacher_size_format">Teacher（%d）</string>
-    <string formatted="false" name="text_student_size_format">Student（%d）</string>
-    <string formatted="false" name="text_practice_correct_count_good">%d correct questions，really good！</string>
-    <string formatted="false" name="text_practice_correct_count">%d correct questions</string>
-    <string formatted="false" name="text_practice_wrong_count_good">%d wrongly answered questions, keep trying！</string>
-    <string formatted="false" name="text_practice_wrong_count">%d wrongly answered questions</string>
-    <string formatted="false" name="text_watched_format">%d%% watched</string>
+    <string name="text_teacher_size_format" formatted="false">Teacher（%d）</string>
+    <string name="text_student_size_format" formatted="false">Student（%d）</string>
+    <string name="text_practice_correct_count_good" formatted="false">%d correct questions，really good！</string>
+    <string name="text_practice_correct_count" formatted="false">%d correct questions</string>
+    <string name="text_practice_wrong_count_good" formatted="false">%d wrongly answered questions, keep trying！</string>
+    <string name="text_practice_wrong_count" formatted="false">%d wrongly answered questions</string>
+    <string name="text_watched_format" formatted="false">%d%% watched</string>
     <string name="text_goto_look">Check now</string>
 
     <string name="text_goto_study">Learn now</string>
 
-    <string formatted="false" name="growth_format">%d Growth Points</string>
+    <string name="growth_format" formatted="false">%d Growth Points</string>
 
     <string name="confirm_course_spoken_leave">There are still some incomplete word/sentence/paragraph in this page，are you sure you want to switch pages? </string>
 
@@ -546,9 +546,9 @@
     <string name="text_chat_message_image">[Pictures]</string>
     <string name="text_chat_message_video">[Video]</string>
 
-    <string formatted="false" name="text_chat_send_to">Send to  %s</string>
+    <string name="text_chat_send_to" formatted="false">Send to  %s</string>
 
-    <string formatted="false" name="text_practice_limit_time_use_time">Time used:%s（time limit %s）</string>
+    <string name="text_practice_limit_time_use_time" formatted="false">Time used:%s（time limit %s）</string>
     <string name="text_practice_limit_time">Time limit%s</string>
     <string name="text_practice_count_question">%d exercise questions</string>
     <string name="text_video_page_finish_condition">(video watching time should be larger or equal to the length of the video, then it will be considered as completed watching)</string>
@@ -562,7 +562,7 @@
     <string name="text_class_member_remove_fail">Failed to remove</string>
     <string name="text_class_member_remove_remind">Removing students from the class will delete students ‘records of assignments, exams and other activities in the class. Please be careful. Confirm to remove? </string>
 
-    <string name="text_detail">Details</string>
+    <string name="text_detail">Details </string>
     <string name="text_me">Me</string>
     <string name="text_open_with_other_app">Open with other APPs</string>
     <string name="text_preview">Preview</string>
@@ -574,7 +574,7 @@
     <string name="text_book_my_empty">You haven’t activated the textbook</string>
     <string name="text_book_cached_empty">No caching courseware currently~</string>
     <string name="out_of_date">Expired</string>
-    <string formatted="false" name="text_next_section_title_format">Next section:%s</string>
+    <string name="text_next_section_title_format" formatted="false">Next section:%s</string>
     <string name="text_chapter_finish">Chapter completed</string>
     <string name="text_select_spoken_audio_file">Select oral audio file</string>
     <string name="text_pull_down_update_course">Drop down to update course structure</string>
@@ -589,15 +589,15 @@
     <string name="text_join_quit_class_apply_empty">No quit class application</string>
     <string name="text_join_class_apply_empty">No add class application</string>
     <string name="text_quit_class_apply_empty">No quit class application</string>
-    <string formatted="false" name="text_apply_count_format">Total %d of new applications</string>
-    <string formatted="false" name="text_apply_join_class_format">Apply to join\&quot;%s\&quot;</string>
-    <string formatted="false" name="text_apply_quit_class_format">Apply to quit\&quot;%s\&quot;</string>
+    <string name="text_apply_count_format" formatted="false">Total %d of new applications</string>
+    <string name="text_apply_join_class_format" formatted="false">Apply to join\&quot;%s\&quot;</string>
+    <string name="text_apply_quit_class_format" formatted="false">Apply to quit\&quot;%s\&quot;</string>
 
     <string name="toast_other_lesson_downloading">Downloading other units</string>
     <string name="toast_course_expire">Course expired</string>
     <string name="toast_course_no_content">Course has no content</string>
     <string name="toast_no_more_activities">No more activities</string>
-    <string formatted="false" name="toast_file_download_fail_format">%s Failed to download</string>
+    <string name="toast_file_download_fail_format" formatted="false">%s Failed to download</string>
     <string name="toast_apply_submited_wait_approve">The application has been submitted, please wait for the teacher to approve it</string>
     <string name="toast_not_get_user_info">User info unfound</string>
     <string name="toast_name_empty">Name is empty, or it may contain spacing!</string>
@@ -646,10 +646,10 @@
     <string name="active_tab_attendance">Roll Call</string>
     <string name="active_tab_vote">Poll</string>
     <string name="active_tab_discuss">Discussion</string>
-    <string name="active_tab_interlocution">Q&amp;A</string>
+    <string name="active_tab_interlocution">Compete to Answer</string>
 
     <string name="active_tab_live">Live streaming</string>
-    <string name="active_tab_choose">Pick student</string>
+    <string name="active_tab_choose">Random Pick</string>
     <string name="active_tab_grade">Grade</string>
     <string name="active_tab_open_live">Live streaming in public</string>
 
@@ -687,9 +687,9 @@
     <string name="resource_no_permit_check">Please select permissions first </string>
     <string name="resource_no_publish_resource_stu">Teacher has not published any resource yet</string>
     <string name="resource_no_publish_resource_tea">No content posted yet </string>
-    <string formatted="false" name="resource_from_who">From:%s</string>
+    <string name="resource_from_who" formatted="false">From:%s</string>
     <string name="resource_more_menu_add_resource">Add resource</string>
-    <string formatted="false" name="resource_class_count_more">%s About %s of classes</string>
+    <string name="resource_class_count_more" formatted="false">%s About %s of classes</string>
     <string name="resource_more_menu_add_pic">Add graphic</string>
     <string name="resource_more_menu_add_link">Add link</string>
     <string name="resource_more_menu_create_file">Create file</string>
@@ -749,11 +749,11 @@
     <string name="class_year">Class year</string>
     <string name="course_school">School attached to</string>
     <string name="please_select">Please select</string>
-    <string formatted="false" name="join_class_course_class_name">Class name :%s</string>
-    <string formatted="false" name="join_class_course_course_name">Course :%s</string>
-    <string formatted="false" name="join_class_course_tea_name">Teacher :%s</string>
-    <string formatted="false" name="join_class_course_sch_name">School :%s</string>
-    <string formatted="false" name="join_class_course_class_code">Class code :%s</string>
+    <string name="join_class_course_class_name" formatted="false">Class name :%s</string>
+    <string name="join_class_course_course_name" formatted="false">Course :%s</string>
+    <string name="join_class_course_tea_name" formatted="false">Teacher :%s</string>
+    <string name="join_class_course_sch_name" formatted="false">School :%s</string>
+    <string name="join_class_course_class_code" formatted="false">Class code :%s</string>
 
     <string name="title_class_name">Class Name</string>
     <string name="title_class_code">Class Code</string>
@@ -798,8 +798,8 @@
     <string name="course_detail">Course Introduction:</string>
 
     <string name="download_process_format">Downloading(0KB/0M)</string>
-    <string formatted="false" name="downloaded_process_format">Already downloaded %d of resources total %s</string>
-    <string formatted="false" name="format_class_member_ranking">No. %d</string>
+    <string name="downloaded_process_format" formatted="false">Already downloaded %d of resources total %s</string>
+    <string name="format_class_member_ranking" formatted="false">No. %d</string>
 
     <string name="not_publish">Not yet published</string>
     <string name="finished_lesson">Chapters</string>
@@ -821,7 +821,7 @@
     <string name="active_course_code_wrong">Please enter the correct 16-characters activation code </string>
     <string name="active_course_not_same">Activation code does not match! Please use the activation code of this courseware to activate. </string>
 
-    <string formatted="false" name="active_course_right_course">Your activation code corresponds to courseware: </string>
+    <string name="active_course_right_course" formatted="false">Your activation code corresponds to courseware: </string>
     <string name="active_course_please_set">Please enter activation code</string>
     <string name="active_course_please_set_keyboard">There are 16 characters of letters/numbers, please type under the English keyboard </string>
     <string name="active_course_code_success">Courseware activation success</string>
@@ -830,14 +830,14 @@
     <string name="active_course_code_uesd">The activation code has been used. If it is not activated by you, please contact customer service </string>
 
     //汇总成绩
-    <string formatted="false" name="calculation_time">Time %s marks/Total score %s</string>
-    <string formatted="false" name="calculation_process">Learning progress %s marks/ Total score %s</string>
-    <string formatted="false" name="calculation_test">Exam %s marks/Total score %s</string>
-    <string formatted="false" name="calculation_score">Results %s marks/Total score %s</string>
-    <string formatted="false" name="calculation_total_score">Total score %d</string>
-    <string formatted="false" name="calculation_total">Total score</string>
-    <string formatted="false" name="calculation_work">Assignment %s marks/ Total score %s</string>
-    <string formatted="false" name="calculation_other">Others %s marks/Total score %s</string>
+    <string name="calculation_time" formatted="false">Time %s marks/Total score %s</string>
+    <string name="calculation_process" formatted="false">Learning progress %s marks/ Total score %s</string>
+    <string name="calculation_test" formatted="false">Exam %s marks/Total score %s</string>
+    <string name="calculation_score" formatted="false">Results %s marks/Total score %s</string>
+    <string name="calculation_total_score" formatted="false">Total score %d</string>
+    <string name="calculation_total" formatted="false">Total score</string>
+    <string name="calculation_work" formatted="false">Assignment %s marks/ Total score %s</string>
+    <string name="calculation_other" formatted="false">Others %s marks/Total score %s</string>
 
     //无策略的说明
     <string name="calculation_one">· Show average results by chapter</string>
@@ -845,29 +845,29 @@
     <string name="calculation_three">· Pull down to refresh latest result</string>
 
     //汇总成绩说明
-    <string formatted="false" name="score_time">Time: total score %s</string>
-    <string formatted="false" name="score_process">Learning progress: total score %s</string>
-    <string formatted="false" name="score_test">Exam: total score %s</string>
+    <string name="score_time" formatted="false">Time: total score %s</string>
+    <string name="score_process" formatted="false">Learning progress: total score %s</string>
+    <string name="score_test" formatted="false">Exam: total score %s</string>
 
-    <string formatted="false" name="score_score">Result: total score%s</string>
-    <string formatted="false" name="score_work">Assignment: total score %s</string>
-    <string formatted="false" name="score_other">Others: total score%s</string>
-    <string formatted="false" name="score_total">Full score %s</string>
+    <string name="score_score" formatted="false">Result: total score%s</string>
+    <string name="score_work" formatted="false">Assignment: total score %s</string>
+    <string name="score_other" formatted="false">Others: total score%s</string>
+    <string name="score_total" formatted="false">Full score %s</string>
 
     //汇总成绩说明
-    <string formatted="false" name="score_info_time">According to the learning duration in assessment chapters, reaches %s minutes get full marks, less than %s minutes scored 0 marks. </string>
-    <string formatted="false" name="score_info_process">According to the learning progress in assessment chapters, reaches %s  get full marks, less than %s scored 0 marks。</string>
-    <string formatted="false" name="score_info_test">Calculation based on the selected exam’s results </string>
-    <string formatted="false" name="score_info_score">Calculation based on the average scores in assessment chapters </string>
-    <string formatted="false" name="score_info_work">Calculation based on the selected assignment’s results </string>
-    <string formatted="false" name="score_info_other">Calculation based on the scores imported by teachers</string>
+    <string name="score_info_time" formatted="false">According to the learning duration in assessment chapters, reaches %s minutes get full marks, less than %s minutes scored 0 marks. </string>
+    <string name="score_info_process" formatted="false">According to the learning progress in assessment chapters, reaches %s  get full marks, less than %s scored 0 marks。</string>
+    <string name="score_info_test" formatted="false">Calculation based on the selected exam’s results </string>
+    <string name="score_info_score" formatted="false">Calculation based on the average scores in assessment chapters </string>
+    <string name="score_info_work" formatted="false">Calculation based on the selected assignment’s results </string>
+    <string name="score_info_other" formatted="false">Calculation based on the scores imported by teachers</string>
 
     <string name="course_score">--Marks</string>
-    <string formatted="false" name="course_score_fromat">%s marks</string>
-    <string formatted="false" name="course_activity_size">%s of</string>
-    <string formatted="false" name="how_many_size">%s of</string>
-    <string formatted="false" name="course_activity_date">%d-%s</string>
-    <string formatted="false" name="course_study_plan_date">You may learn from %s to %s</string>
+    <string name="course_score_fromat" formatted="false">%s marks</string>
+    <string name="course_activity_size" formatted="false">%s of</string>
+    <string name="how_many_size" formatted="false">%s of</string>
+    <string name="course_activity_date" formatted="false">%d-%s</string>
+    <string name="course_study_plan_date" formatted="false">You may learn from %s to %s</string>
     <string name="average_scores">Average score</string>
     <string name="course_study_close_lesson">Your teacher has closed the chapter for study</string>
     <string name="progress">Progress</string>
@@ -877,8 +877,8 @@
     <string name="second">Second</string>
     <string name="clock">Clock</string>
     <string name="time">Time:</string>
-    <string formatted="false" name="minute_format">%dMarks</string>
-    <string formatted="false" name="minute_format_str">%sMarks</string>
+    <string name="minute_format" formatted="false">%dMarks</string>
+    <string name="minute_format_str" formatted="false">%sMarks</string>
     <string name="lesson_offline_resource">Offline resource for this chapter</string>
 
     <string name="dialog_content_clear_course">Are you sure you want to delete the course? </string>
@@ -945,13 +945,13 @@
     <string name="my_store_course_expired_label">Course expired, unable to view</string>
 
     <string name="course_menu_glossaries_title">Glossary list</string>
-    <string formatted="false" name="course_my_activity_count_title">This week’s activity(%d)</string>
+    <string name="course_my_activity_count_title" formatted="false">This week’s activity(%d)</string>
     <string name="course_my_grade_title">Course result</string>
     <string name="course_my_grade_test_title">Assessment strategy</string>
     <string name="course_my_grade_score">Current result</string>
-    <string formatted="false" name="course_my_grade_end_time">Assessment has ended, take %s as final result</string>
-    <string formatted="false" name="course_my_grade_unend_time">Assessment deadline%s</string>
-    <string formatted="false" name="course_my_publish_time">%s published on %s</string>
+    <string name="course_my_grade_end_time" formatted="false">Assessment has ended, take %s as final result</string>
+    <string name="course_my_grade_unend_time" formatted="false">Assessment deadline%s</string>
+    <string name="course_my_publish_time" formatted="false">%s published on %s</string>
     <string name="course_menu_bookmarks_title">Bookmark list</string>
     <string name="course_menu_notes_title">Notes list</string>
     <string name="course_menu_bookmarks_page_number">Page No. %d</string>
@@ -963,7 +963,7 @@
     <string name="course_select_change_remind">After modifying courseware, students\' assessment results may be affected, are you sure you want to modify? </string>
     <string name="course_not_complete_remind">You haven’t completed studying your course, confirm to leave? </string>
     <string name="course_teach_group_finish">You have formed a teaching team and you  cannot change the teaching mode</string>
-    <string formatted="false" name="course_complete_other_tea">Classes of other teachers：\n%s</string>
+    <string name="course_complete_other_tea" formatted="false">Classes of other teachers：\n%s</string>
     <string name="course_join_give_up">Give up joining the class</string>
 
     <string name="course_join_give_up_confirm">Confirm to give up joining the class? </string>
@@ -1001,7 +1001,7 @@
     <string name="textbook_empty_remind_stu">There is no courseware at present </string>
     <string name="textbook_my_textbook_course">The courseware of this textbook is used in the following course. Please enter the course to study</string>
     <string name="textbook_select">Select textbook</string>
-    <string formatted="false" name="textbook_out_of_date">%s expired</string>
+    <string name="textbook_out_of_date" formatted="false">%s expired</string>
     <string name="textbook_is_out_of_date">The course has expired</string>
     <string name="textbook_plan_chapter_out_of_date">This chapter has been completed</string>
     <string name="textbook_plan_chapter_not_start">This chapter cannot be learned at the moment </string>
@@ -1017,7 +1017,7 @@
     <string name="all_class">All</string>
     <string name="comfirm">Confirm</string>
 
-    <string formatted="false" name="comfirm_num">Confirm(%s)</string>
+    <string name="comfirm_num" formatted="false">Confirm(%s)</string>
 
     <string name="comment_activity_comment_compose">Write a review</string>
     <string name="comment_activity_comment_my_compose">My review</string>
@@ -1041,13 +1041,13 @@
     <string name="activity_null_remind_tea">Hurry up to create activities</string>
 
 
-    <string formatted="false" name="activity_publisher_name">Publisher:%s</string>
-    <string formatted="false" name="activity_duration">From %s to %s</string>
+    <string name="activity_publisher_name" formatted="false">Publisher:%s</string>
+    <string name="activity_duration" formatted="false">From %s to %s</string>
     <string name="activity_always_open">Long-term open discussion</string>
     <string name="activity_always_open_dis">Long-term open</string>
 
-    <string formatted="false" name="activity_class">Class: %s</string>
-    <string formatted="false" name="activity_classes">Class: %d  classes</string>
+    <string name="activity_class" formatted="false">Class: %s</string>
+    <string name="activity_classes" formatted="false">Class: %d  classes</string>
 
 
     <string name="no_resource_remind">You have not downloaded yet, please go back to the unit page to download the audio &amp; video。</string>
@@ -1092,9 +1092,9 @@
 
     <string name="remind_create_class_info_ass">Please wait for the class administrator to assign classes for you. You can enter the course directly. </string>
     <string name="remind_create_class_course">If the course is co-managed by the teaching and research group, it is only necessary for the administrator to create the course while the other teachers need only to join the teaching team. It is not necessary for each teacher to create the course separately. </string>
-    <string formatted="false" name="remind_create_class_course_same_name">Course with the same name has already existed in our school (created by teacher %s). It is suggested that you contact the creator for confirmation, so as to avoid inconvenience caused by repeated name.
+    <string name="remind_create_class_course_same_name" formatted="false">Course with the same name has already existed in our school (created by teacher %s). It is suggested that you contact the creator for confirmation, so as to avoid inconvenience caused by repeated name.
 Continue creating? </string>
-    <string formatted="false" name="remind_modify_class_course_same_name">Course with the same name has already existed in our school (created by teacher %s). It is suggested that you contact the creator for confirmation, so as to avoid inconvenience caused by repeated name.
+    <string name="remind_modify_class_course_same_name" formatted="false">Course with the same name has already existed in our school (created by teacher %s). It is suggested that you contact the creator for confirmation, so as to avoid inconvenience caused by repeated name.
 Continue saving? </string>
     <string name="remind_create_class_info_person">Create classes and invite students to join classes (the system has preset a default class, which can be modified after entering the course) </string>
     <string name="remind_select_course">Import courseware</string>
@@ -1119,7 +1119,7 @@ Continue saving? </string>
     <string name="remind_join_class_course_code_wrong">Please enter the correct class code</string>
     <string name="remind_join_class_course_tea">Teachers are not allowed to join classes, please contact the class administrator to add you into the class</string>
     <string name="remind_join_class_course_already_existed">You have already joined the class, please do not join again; if you’ve joined the wrong class, please contact the teacher to change class</string>
-    <string formatted="false" name="remind_join_class_course_different_org">Your current school: \n%s\n after joining the class, your school information will be changed into \n%s\n Confirm to join the class?</string>
+    <string name="remind_join_class_course_different_org" formatted="false">Your current school: \n%s\n after joining the class, your school information will be changed into \n%s\n Confirm to join the class?</string>
 
     <string name="remind_once_main_tab_mine">View my class, message, profile and small apps</string>
     <string name="remind_tools_empty">There is no application at present</string>
@@ -1232,7 +1232,7 @@ Continue saving? </string>
     <string name="agreement_no_accept_and_exit">Not agree and exit now</string>
     <string name="agreement_no_accept_content"> If you do not agree, you will not be able to use our products and services and will exit the App. </string>
     <string name="activity_public_homework">Publish assignment</string>
-    <string formatted="false" name="activity_more_count">%d class(es)</string>
+    <string name="activity_more_count" formatted="false">%d class(es)</string>
     <string name="my_resource">Resource Library</string>
     <string name="token_out_of_date">Login expired, please login again!</string>
     <string name="main_tab_weike">Micro-course</string>
@@ -1240,7 +1240,7 @@ Continue saving? </string>
     <string name="right_publish_homework">Publish assignment</string>
     <string name="right_publish_discuss">Launch discussion</string>
     <string name="edit">Modify</string>
-    <string formatted="false" name="text_course_publish_date">%s Publish</string>
+    <string name="text_course_publish_date" formatted="false">%s Publish</string>
 
     <string name="publish">publish</string>
 
@@ -1248,7 +1248,7 @@ Continue saving? </string>
     <string name="app_launch2">app_android2_en</string>
     <string name="app_launch3">app_android3_en</string>
     <string name="app_launch4">app_android4_en</string>
-    <string formatted="false" name="textbook_cache">Cache: %s</string>
+    <string name="textbook_cache" formatted="false">Cache: %s</string>
     <string name="more_language">Selete language</string>
 
 
@@ -1337,13 +1337,13 @@ Continue saving? </string>
 
     <string name="voted">voted</string>
     <string name="not_voted">unVoted</string>
-    <string name="absence">absence</string>
-    <string name="arrived"> has arrived</string>
+    <string name="absence">Absent</string>
+    <string name="arrived">Present</string>
     <string name="sign_success">Checked in</string>
     <string name="be_late"> Late </string>
     <string name="leave_early"> leave early</string>
-    <string name="sick_leave"> sick leave</string>
-    <string name="leave_story"> leave </string>
+    <string name="sick_leave"> Sick Leave</string>
+    <string name="leave_story">Excused Leave</string>
     <string name="has_rate"> has been approved</string>
     <string name="commited">commited</string>
     <string name="wait_rate">Pending review</string>
