@@ -1257,11 +1257,11 @@
   },
   "auditPassed": {
     "message": "Aprobado",
-    "description": "2.0 exam.js"
+    "description": "有两个审核通过文本，对应key是auditPassed的表示审核通过的状态，对应key是auditPassVerb表示执行通过审核通过的动作，常用于按钮"
   },
   "auditPassVerb": {
     "message": "Aprobado",
-    "description": "2.0 exam.js"
+    "description": "有两个审核通过文本，对应key是auditPassed的表示审核通过的状态，对应key是auditPassVerb表示执行通过审核通过的动作，常用于按钮"
   },
   "auditFailed": {
     "message": "Revisión fallida",
@@ -1793,11 +1793,11 @@
   },
   "unuploadedPhotos": {
     "message": "No hay fotos subidas",
-    "description": "2.0 exam.js"
+    "description": "有两个未上传照片，分别为unuploadedPhotos和unuploadedPhotosAlt，unuploadedPhotos表示未上传照片的人数，unuploadedPhotosAlt是未上传照片时的替代文本，类似于网页上当图片加载失败后，会显示替代文本"
   },
   "unuploadedPhotosAlt": {
     "message": "No hay fotos subidas",
-    "description": "2.0 exam.js"
+    "description": "有两个未上传照片，分别为unuploadedPhotos和unuploadedPhotosAlt，unuploadedPhotos表示未上传照片的人数，unuploadedPhotosAlt是未上传照片时的替代文本，类似于网页上当图片加载失败后，会显示替代文本"
   },
   "batchOpration": {
     "message": "Operaciones a granel",
@@ -2716,7 +2716,7 @@
     "description": "2.0 exam.js"
   },
   "deviceMonitor1": {
-    "message": "Active la supervisión del dispositivo y no permita que el dispositivo o el navegador se reemplacen a mitad del proceso.",
+    "message": "Active la supervisión del dispositivo y no permita que el dispositivo se reemplace en el medio.",
     "description": "2.0 exam.js"
   },
   "deviceMonitor2": {
@@ -2740,7 +2740,7 @@
     "description": "2.0 exam.js"
   },
   "photoMonitor1": {
-    "message": "Active la supervisión de capturas, capture las fotos candidatas cada 3 a 5 minutos, que se muestran en la página de supervisión del examen.",
+    "message": "Active el monitoreo de instantáneas, tome fotografías de los candidatos cada 3 ~ 5 minutos y muéstrelas en la página de monitoreo de la prueba",
     "description": "2.0 exam.js"
   },
   "photoMonitor2": {
@@ -2748,11 +2748,11 @@
     "description": "2.0 exam.js"
   },
   "showAfterBatchEnd": {
-    "message": "El examen se anunciará uniformemente después del final de todas las sesiones.",
+    "message": "El examen se anunciará al final del examen.",
     "description": "2.0 exam.js"
   },
   "screenMonitor": {
-    "message": "Monitorización de pantalla de corte.",
+    "message": "Monitoreo de pantalla de corte",
     "description": "2.0 exam.js"
   },
   "screenMonitorTips1": {
@@ -2760,7 +2760,7 @@
     "description": "2.0 exam.js"
   },
   "screenMonitorTips2": {
-    "message": "Active el control de corte de pantalla y entregue el papel obligatoriamente después de dejarlo más de {count} veces {tip}",
+    "message": "Active el control de corte de pantalla y entregue el papel obligatoriamente después de salir {count} veces {tip}",
     "description": "tip处的插值是 “（仅支持手机考试）”，因为tip需要独立的设置样式。"
   },
   "faceAuth": {
@@ -2776,15 +2776,15 @@
     "description": "2.0 exam.js"
   },
   "minSubmitTime": {
-    "message": "fecha de entrega de examen",
+    "message": "Tiempo de entrega de papel",
     "description": "2.0 exam.js"
   },
   "minSubmitTime2": {
-    "message": "Hora de envío: {time}",
+    "message": "Hora de entrega: {time}",
     "description": "2.0 exam.js"
   },
   "minSubmitTimeTips1": {
-    "message": "No está permitido entregar trabajos dentro de {count} {minuteTip} después del inicio de la prueba.",
+    "message": "No se permite la entrega de trabajos dentro de {count} {minuteTip} después del inicio de la prueba",
     "description": "minuteTip 的插值是分钟，就是下面的minuteTip"
   },
   "minuteTip": {
@@ -2792,7 +2792,7 @@
     "description": "2.0 exam.js"
   },
   "batchTips": {
-    "message": "Los estudiantes pueden realizar el examen agregando una clase o un alumno al campo, que es el período de tiempo durante el cual se permite a los alumnos entrar en el examen, o puede agregar un campo después de que se publique el examen.",
+    "message": "Los estudiantes solo pueden realizar el examen agregando una clase o un estudiante a la sesión; el tiempo de sesión se refiere al período de tiempo durante el cual los estudiantes pueden ingresar al examen; también puede agregar sesiones después de publicar el examen",
     "description": "2.0 exam.js"
   },
   "edit": {
@@ -2804,7 +2804,7 @@
     "description": "2.0 exam.js"
   },
   "maxTextInputTips": {
-    "message": "Introduzca hasta 2000 caracteres.",
+    "message": "Ingrese hasta 2000 caracteres",
     "description": "2.0 exam.js"
   },
   "defaultExamTips": {
@@ -2812,7 +2812,7 @@
     "description": "2.0 exam.js"
   },
   "detailTips3": {
-    "message": "1. Los exámenes de monitoreo del dispositivo y monitoreo de IP están activados y, en circunstancias excepcionales, los estudiantes pueden ingresar a través de este código de verificación después de cambiar el dispositivo/IP.",
+    "message": "1. La prueba de monitoreo de dispositivos y monitoreo de IP está habilitada. En caso de circunstancias especiales, los estudiantes pueden ingresar a través de este código de verificación después de cambiar el dispositivo / IP",
     "description": "2.0 exam.js"
   },
   "detailTips4": {
@@ -2820,27 +2820,27 @@
     "description": "2.0 exam.js"
   },
   "detailTips5": {
-    "message": "3. El código de verificación es válido durante 15 minutos, actualice y vuelva a adquirir después del error.",
+    "message": "3. El código de verificación es válido dentro de los 15 minutos, actualícelo y consígalo nuevamente cuando caduque.",
     "description": "2.0 exam.js"
   },
   "leave": {
-    "message": "Salir",
+    "message": "Abandonar",
     "description": "2.0 exam.js"
   },
   "examHeadTips3": {
-    "message": "{detectEnv} antes del examen para confirmar que la red, el equipo, el navegador, etc. son normales.",
+    "message": "{DetectEnv} antes del examen para confirmar que la red, el equipo, el navegador, etc. son normales.",
     "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
   },
   "detectEnv": {
-    "message": "Pruebe el entorno del examen.",
+    "message": "Entorno de prueba",
     "description": "2.0 exam.js"
   },
   "deletePhoto": {
-    "message": "Elimine la foto.",
+    "message": "borrar foto",
     "description": "2.0 exam.js"
   },
   "recordShowAfterSubmit": {
-    "message": "El volumen se muestra tan pronto como se entrega.",
+    "message": "El examen se muestra tan pronto como se entrega.",
     "description": "2.0 exam.js"
   },
   "exportDemoPaper": {
@@ -2848,11 +2848,11 @@
     "description": "2.0 exam.js"
   },
   "exportDemoPaperSuccess": {
-    "message": "El volumen de muestra se ha guardado en la biblioteca de papel de prueba.",
+    "message": "El examen de muestra se ha guardado en la biblioteca de exámenes.",
     "description": "2.0 exam.js"
   },
   "afterExamFinishedTips1": {
-    "message": "Se muestra al final del examen.",
+    "message": "Mostrar después del examen",
     "description": "2.0 exam.js"
   },
   "daysPublish": {
