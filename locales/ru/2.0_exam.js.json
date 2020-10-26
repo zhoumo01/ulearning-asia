@@ -1,1 +1,2530 @@
-{"close": {"message": "Закрыть", "description": "2.0 exam.js"}, "examinationResults": {"message": "Результаты экзаменов", "description": "2.0 exam.js"}, "examinationAnalysis": {"message": "Анализ экзамена", "description": "2.0 exam.js"}, "allBatches": {"message": "Все сеансы", "description": "2.0 exam.js"}, "allClasses": {"message": "Все классы", "description": "2.0 exam.js"}, "allTeachers": {"message": "Все учителя", "description": "2.0 exam.js"}, "submissionStatus": {"message": "Статус представления", "description": "2.0 exam.js"}, "sort": {"message": "Сортировки", "description": "2.0 exam.js"}, "studentNumUp": {"message": "Восхождение по студенческому удостоверению личности", "description": "2.0 exam.js"}, "studentNumDown": {"message": "Спуск по студенческому удостоверению личности", "description": "2.0 exam.js"}, "totalScoreUp": {"message": "Восхождение на общий балл", "description": "2.0 exam.js"}, "totalScoreDown": {"message": "Спуск по общему счету", "description": "2.0 exam.js"}, "export": {"message": "Экспорт", "description": "2.0 exam.js"}, "derivedAchievements": {"message": "Результат экспорта", "description": "2.0 exam.js"}, "exportAnswerRecords": {"message": "Ответы на экспортные экзамены", "description": "2.0 exam.js"}, "fastExport": {"message": "Экспортные баллы", "description": "2.0 exam.js"}, "customExport": {"message": "Результаты экспортных обычаев", "description": "2.0 exam.js"}, "startRemark": {"message": "Начало маркировки", "description": "2.0 exam.js"}, "batchRemark": {"message": "Пакетный сорт", "description": "2.0 exam.js"}, "remarkByQuestion": {"message": "Марк по вопросу", "description": "2.0 exam.js"}, "all": {"message": "Все", "description": "2.0 exam.js"}, "notApproved": {"message": "Неклассифицированные", "description": "2.0 exam.js"}, "readed": {"message": "Прочитать", "description": "2.0 exam.js"}, "notSubmitted": {"message": "Не представлено", "description": "2.0 exam.js"}, "exception": {"message": "Помечены", "description": "2.0 exam.js"}, "readTip1": {"message": "\"В ожидании\"", "description": "2.0 exam.js"}, "readTip2": {"message": "означает, что компонент ручной оценки еще не градуированный", "description": "2.0 exam.js"}, "serialNumber": {"message": "Серийный номер", "description": "2.0 exam.js"}, "studentNumber": {"message": "Идентификатор студента", "description": "2.0 exam.js"}, "name": {"message": "Имя", "description": "2.0 exam.js"}, "totalScore": {"message": "Общий балл", "description": "2.0 exam.js"}, "objectiveQuestions": {"message": "Оценка объективных вопросов", "description": "2.0 exam.js"}, "subjectiveQuestions": {"message": "Ручной балл", "description": "2.0 exam.js"}, "examinationPapers": {"message": "Экзамены Включены", "description": "2.0 exam.js"}, "status": {"message": "Статус", "description": "2.0 exam.js"}, "submissionTime": {"message": "Представлены", "description": "2.0 exam.js"}, "operation": {"message": "Операции", "description": "2.0 exam.js"}, "leaveExam": {"message": "Оставить экзамен", "description": "2.0 exam.js"}, "leaveExamTip": {"message": "Студент, который оставил онлайн экзаменационную работу во время экзамена для других целей больше, чем установлено количество раз разрешено, его / ее документ будет вынужден представлен системой. Если вы считаете, что они нарушили правила экзамена, вы можете организовать студентов, чтобы принять экзамен снова", "description": "2.0 exam.js"}, "answerRecord": {"message": "Ответы на экзамены", "description": "2.0 exam.js"}, "behaviorTrace": {"message": "След поведения", "description": "2.0 exam.js"}, "markPapers": {"message": "Экзамен по классу", "description": "2.0 exam.js"}, "setUpRetest": {"message": "Пересдача комплекта", "description": "2.0 exam.js"}, "deleteRecords": {"message": "Удаление записей", "description": "2.0 exam.js"}, "noDataTip": {"message": "Без информации, пожалуйста, добавьте студентов на экзамен или измените критерии поиска", "description": "2.0 exam.js"}, "chooseBatch": {"message": "Пожалуйста, выберите партию для сдачи экзамена", "description": "2.0 exam.js"}, "to": {"message": "Кому", "description": "2.0 exam.js"}, "confirm": {"message": "Подтвердить", "description": "2.0 exam.js"}, "cancel": {"message": "Отмена", "description": "2.0 exam.js"}, "toBeApproved": {"message": "Неклассифицированные", "description": "2.0 exam.js"}, "notAttending": {"message": "Не присутствовал", "description": "2.0 exam.js"}, "inExam": {"message": "Во время экзамена", "description": "2.0 exam.js"}, "homePage": {"message": "Домашняя страница", "description": "2.0 exam.js"}, "lastPage": {"message": "Последняя страница", "description": "2.0 exam.js"}, "upperPage": {"message": "Предыдущая страница", "description": "2.0 exam.js"}, "nextPage": {"message": "Следующая страница", "description": "2.0 exam.js"}, "jumpPage": {"message": "Прыгать", "description": "2.0 exam.js"}, "reTestTip1": {"message": "После того, как пересдача установлена, все предыдущие записи экзамена этого студента будут удалены. Вы уверены, что хотите установить эту пересдачу?", "description": "2.0 exam.js"}, "reTestTip2": {"message": "Существует нет подходящей партии экзамена, вы хотите добавить пакет?", "description": "2.0 exam.js"}, "deleteTip": {"message": "Удаление результатов экзамена не поспособно. Вы уверены, что хотите удалить?", "description": "2.0 exam.js"}, "exportTip": {"message": "Только наивысший балл каждого студента будет экспортироваться. Для индивидуального экспорта, пожалуйста, выберите \"Экспортные пользовательские результаты\".", "description": "2.0 exam.js"}, "tips": {"message": "Советы", "description": "2.0 exam.js"}, "chooseClass": {"message": "Выберите класс:", "description": "2.0 exam.js"}, "derivedExaminationAnalysis": {"message": "Отчет об экспортном анализе", "description": "2.0 exam.js"}, "basicInformation": {"message": "Базовая информация", "description": "2.0 exam.js"}, "quantity": {"message": "Рассчитывает", "description": "2.0 exam.js"}, "proportion": {"message": "Пропорции", "description": "2.0 exam.js"}, "examStuNum": {"message": "студенты, са принимающие экзамен", "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"}, "expectExamStuNum": {"message": "Нет. студентов, которые должны сдать экзамен,", "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"}, "referenceRate": {"message": "Посещаемость", "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"}, "exceptionRate": {"message": "Скорость аномалии", "description": "2.0 exam.js"}, "averageAnswerTime": {"message": "Средняя продолжительность экзамена", "description": "2.0 exam.js"}, "maximumAnswerTime": {"message": "Самое длинное время ответа", "description": "2.0 exam.js"}, "minimumAnswerTime": {"message": "Самое короткое время ответа", "description": "2.0 exam.js"}, "mobile": {"message": "Мобильное устройство", "description": "2.0 exam.js"}, "PC": {"message": "Пк", "description": "2.0 exam.js"}, "computeTip": {"message": "Примечание: Рассчитано по подсчетам устройств, используемых студентами", "description": "2.0 exam.js"}, "examinationAchievementsAnalysis": {"message": "Анализ результатов экзамена", "description": "2.0 exam.js"}, "averageAchievement": {"message": "Средний балл", "description": "2.0 exam.js"}, "standardDeviation": {"message": "Стандартное отклонение", "description": "2.0 exam.js"}, "standardDeviationTip": {"message": "Стандартное отклонение представляет собой степень дисперсии студенческих выступлений. Большое стандартное отклонение представляет собой большую разницу между большинством значений и их средним значением. Меньший означает, что эти значения ближе к среднему.", "description": "2.0 exam.js"}, "passRate": {"message": "Скорость прохождения", "description": "2.0 exam.js"}, "highestScore": {"message": "Наивысший балл", "description": "2.0 exam.js"}, "minimumScore": {"message": "Самый низкий балл", "description": "2.0 exam.js"}, "scoreTip1": {"message": "Примечание: 1. Данные исключают студентов, которые пропустили или не начали экзамен.", "description": "2.0 exam.js"}, "scoreTip2": {"message": "2. Оценка студентов, которые ответили несколько раз, учитывается в соответствии с его/ее наивысшим баллом.", "description": "2.0 exam.js"}, "fractionalStatistics": {"message": "Статистика диапазона баллов", "description": "2.0 exam.js"}, "noStuRecord": {"message": "Существует нет студента ответ записи в настоящее время!", "description": "2.0 exam.js"}, "paperAnalysis": {"message": "Анализ экзаменов", "description": "2.0 exam.js"}, "chart": {"message": "Диаграммы", "description": "2.0 exam.js"}, "form": {"message": "Формы", "description": "2.0 exam.js"}, "paperStatistics": {"message": "Статистика использования экзаменационной бумаги", "description": "2.0 exam.js"}, "personnel": {"message": "кол (ы)", "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"}, "detailedAnalysis": {"message": "Подробная информация", "description": "2.0 exam.js"}, "scoreStatistics": {"message": "Статистика баллов", "description": "2.0 exam.js"}, "paperName": {"message": "Название экзаменационной бумаги", "description": "2.0 exam.js"}, "userNum": {"message": "Нет. времени использования нет. студентов", "description": "2.0 exam.js"}, "proportion2": {"message": "Пропорции", "description": "2.0 exam.js"}, "averageScore": {"message": "Средний балл", "description": "2.0 exam.js"}, "disabled": {"message": "Прекращено", "description": "2.0 exam.js"}, "questionAnalysis": {"message": "Анализ вопросов", "description": "2.0 exam.js"}, "previewPapers": {"message": "Предварительный экзамен", "description": "2.0 exam.js"}, "quantity2": {"message": "Нет. вопросов:", "description": "2.0 exam.js"}, "totalScore2": {"message": "Общий балл", "description": "2.0 exam.js"}, "paperPartAnalysis": {"message": "Раздел Анализ экзаменационной работы", "description": "2.0 exam.js"}, "pdfGeneration": {"message": "PDF генерируется...", "description": "2.0 exam.js"}, "choosePaper": {"message": "Выберите экзаменационную работу:", "description": "2.0 exam.js"}, "exportAllQuestion": {"message": "Экспорт всех тестовых вопросов анализа в один клик", "description": "2.0 exam.js"}, "exportCurrentQuestion": {"message": "Экспорт текущей страницы", "description": "2.0 exam.js"}, "paperAccuracy": {"message": "Точность статистики экзаменационных работ", "description": "2.0 exam.js"}, "questionNumSToL": {"message": "Восходящий порядок номера вопроса", "description": "2.0 exam.js"}, "questionNumLToS": {"message": "Порядок убывания номера вопроса", "description": "2.0 exam.js"}, "questionNum": {"message": "Номер вопроса", "description": "2.0 exam.js"}, "questionType": {"message": "Тип вопроса", "description": "2.0 exam.js"}, "correctRate": {"message": "Точность", "description": "2.0 exam.js"}, "correctAnswer": {"message": "Правильный ответ", "description": "2.0 exam.js"}, "optionStuNum": {"message": "Нет. студентов выбрали вариант", "description": "2.0 exam.js"}, "difficulty": {"message": "Трудности", "description": "2.0 exam.js"}, "difficultyTip": {"message": "Уровень сложности часто зависит от скорости прохождения. Чем выше уровень сложности, тем проще вопрос. Чем меньше значение, тем сложнее вопрос. В целом, подходящий уровень сложности вопросов составляет от 0,3 до 0,8.", "description": "2.0 exam.js"}, "difficulties": {"message": "Трудно", "description": "2.0 exam.js"}, "general": {"message": "Средняя", "description": "2.0 exam.js"}, "easy": {"message": "Легко", "description": "2.0 exam.js"}, "discrimination": {"message": "Дифференциации", "description": "2.0 exam.js"}, "discriminationTip": {"message": "Уровень дискриминации относится к степени или способности тестовых вопросов различать студентов с различными академическими стандартами. Уровень дискриминации составляет от -1 до 1, чем больше, тем лучше. Как правило, уровень дискриминации тестовых вопросов должен быть более 0,3.", "description": "2.0 exam.js"}, "discriminationTip1": {"message": ", указывая, что вопрос хорошо дифференцированы.", "description": "2.0 exam.js"}, "discriminationTip2": {"message": ", показывая плохую дифференциацию, пожалуйста, измените.", "description": "2.0 exam.js"}, "discriminationTip3": {"message": "Отрицательное значение дифференциации указывает на то, что вопрос или ответ не является правильным.", "description": "2.0 exam.js"}, "noData": {"message": "Нет данных", "description": "2.0 exam.js"}, "recommendedAnswer": {"message": "Рекомендуемый ответ:", "description": "2.0 exam.js"}, "parsing": {"message": "Обратной связи", "description": "2.0 exam.js"}, "previousQuestion": {"message": "Предыдущий вопрос", "description": "2.0 exam.js"}, "nextQuestion": {"message": "Следующий вопрос", "description": "2.0 exam.js"}, "previewQuestion": {"message": "Предварительный вопрос", "description": "2.0 exam.js"}, "searchTip": {"message": "Введите ключевое слово для поиска", "description": "2.0 exam.js"}, "submitByAPP": {"message": "Через APP", "description": "2.0 exam.js"}, "submitByPC": {"message": "Через Интернет", "description": "2.0 exam.js"}, "chooseExamBatch": {"message": "Пожалуйста, выберите пакет экзаменов, за который вы собираетесь сидеть", "description": "2.0 exam.js"}, "unknown": {"message": "Неизвестный", "description": "2.0 exam.js"}, "points": {"message": "Точки", "description": "2.0 exam.js"}, "paperPartName": {"message": "Название раздела экзаменационной работы", "description": "2.0 exam.js"}, "peopleNum": {"message": "Нет. испытуемых", "description": "2.0 exam.js"}, "abandonRate": {"message": "Уровень отсутствия", "description": "2.0 exam.js"}, "day": {"message": "День", "description": "2.0 exam.js"}, "hour": {"message": "Час", "description": "2.0 exam.js"}, "minute": {"message": "Минуту", "description": "2.0 exam.js"}, "seconds": {"message": "Второй", "description": "2.0 exam.js"}, "scoringRate": {"message": "Оценка скорости", "description": "2.0 exam.js"}, "score": {"message": "Оценка по", "description": "2.0 exam.js"}, "exam": {"message": "Экзамены", "description": "2.0 exam.js"}, "examHeadTips1": {"message": "Список всех экзаменов отображается здесь, где администратор курса может публиковать/просматривать экзамены для всех классов, в то время как учитель может публиковать/просматривать экзамены только для своего класса.", "description": "2.0 exam.js"}, "examHeadTips2": {"message": "Все экзамены, размещенные учителем, показаны здесь. В настройках экзамена могут быть различия, такие как позднее время, разрешено для каждого экзамена, продолжительность ответа и возможность ответа несколько раз. Пожалуйста, обратите внимание, чтобы проверить его.", "description": "2.0 exam.js"}, "examTips1": {"message": "Если вы принимаете экзамен, который включает распознавание лиц, пожалуйста, загрузите свою фотографию заранее, чтобы избежать задержки в ответе на вопросы.", "description": "2.0 exam.js"}, "goToIdentify": {"message": "Перейти проверить", "description": "2.0 exam.js"}, "addExam": {"message": "Добавить экзамен", "description": "2.0 exam.js"}, "examPaperLibrary": {"message": "Экзамен Бумажный банк", "description": "2.0 exam.js"}, "questionLibrary": {"message": "Вопрос Банка", "description": "2.0 exam.js"}, "examEnvironmentDetection": {"message": "Проверка соответствия требованиям компьютера", "description": "2.0 exam.js"}, "examName": {"message": "Название экзамена", "description": "2.0 exam.js"}, "field": {"message": "Сеансов", "description": "指有多少场考试"}, "total": {"message": "Общая", "description": "2.0 exam.js"}, "creator": {"message": "Создатель", "description": "2.0 exam.js"}, "examTime": {"message": "Время экзамена", "description": "2.0 exam.js"}, "examPaper": {"message": "Экзамены", "description": "2.0 exam.js"}, "answerTimes": {"message": "Ответы таймс \"", "description": "2.0 exam.js"}, "achievement": {"message": "Результат", "description": "2.0 exam.js"}, "noStart": {"message": "Еще не начато", "description": "2.0 exam.js"}, "onGoing": {"message": "Текущих", "description": "2.0 exam.js"}, "hasEnded": {"message": "Закончилась", "description": "2.0 exam.js"}, "examDurationCl": {"message": "Продолжительность экзамена:", "description": "2.0 exam.js"}, "lateTime": {"message": "Поздний старт Разрешено:", "description": "2.0 exam.js"}, "myself": {"message": "Себя", "description": "2.0 exam.js"}, "start": {"message": "Начать", "description": "2.0 exam.js"}, "ended": {"message": "Конец", "description": "2.0 exam.js"}, "noBatch": {"message": "Нет партии", "description": "2.0 exam.js"}, "part": {"message": "Часть", "description": "2.0 exam.js"}, "randomGroupPaper": {"message": "Создание экзаменационной бумаги случайным образом", "description": "2.0 exam.js"}, "viewScore": {"message": "Просмотр результатов", "description": "2.0 exam.js"}, "previewExam": {"message": "Предварительный экзамен", "description": "2.0 exam.js"}, "modifyExam": {"message": "Редактировать экзамен", "description": "2.0 exam.js"}, "modifyBatch": {"message": "Редактировать сессии", "description": "2.0 exam.js"}, "delete": {"message": "Удалить", "description": "2.0 exam.js"}, "startExam": {"message": "Стартовый экзамен", "description": "2.0 exam.js"}, "examTips2": {"message": "Пожалуйста, используйте Ulearning APP для сдачи экзамена", "description": "2.0 exam.js"}, "examTips3": {"message": "Вы не можете поступить на экзамен, потому что время, разрешено для опоздать на экзамен уже закончилась", "description": "2.0 exam.js"}, "examTips4": {"message": "Гость/хозяин:", "description": "2.0 exam.js"}, "afterExamFinished": {"message": "После экзамена", "description": "2.0 exam.js"}, "dayShow": {"message": "Отображение за днем (ы)", "description": "2.0 exam.js"}, "examTips5": {"message": "Результаты еще не объявлены", "description": "2.0 exam.js"}, "examTips6": {"message": "Соответствующий экзамен не найден", "description": "2.0 exam.js"}, "noExam": {"message": "Нет экзамена", "description": "2.0 exam.js"}, "networkErrorTips": {"message": "Ошибка сети, нажмите", "description": "2.0 exam.js"}, "loadErrorTips": {"message": "Ошибка загрузки, нажмите кнопку", "description": "2.0 exam.js"}, "reload": {"message": "Перезагрузить", "description": "2.0 exam.js"}, "unlimited": {"message": "Неограниченное", "description": "2.0 exam.js"}, "examTips7": {"message": "Вы обязательно удалите экзамен?", "description": "2.0 exam.js"}, "deletePaper": {"message": "Удалить экзаменационную бумагу", "description": "2.0 exam.js"}, "deleteSuccess": {"message": "Удалено успешно", "description": "2.0 exam.js"}, "deleteFailed": {"message": "Не удалось удалить", "description": "2.0 exam.js"}, "batchRemarkQue": {"message": "Пакет маркировки тест вопросы", "description": "2.0 exam.js"}, "remarkTips1": {"message": "Примечание: если студент представил несколько записей ответов, по умолчанию последняя запись будет отображаться", "description": "2.0 exam.js"}, "theFirst": {"message": "Нет.", "description": "2.0 exam.js"}, "que": {"message": "вопрос (ы)", "description": "2.0 exam.js"}, "specialQueBefore": {"message": "Нет.", "description": "2.0 exam.js"}, "specialQueAfter": {"message": "вопрос (ы)", "description": "2.0 exam.js"}, "specialAnsweringBefore": {"message": "Нет.", "description": "2.0 exam.js"}, "specialAnsweringAfter": {"message": "Отвечая", "description": "2.0 exam.js"}, "seeDetails": {"message": "Просмотр деталей", "description": "2.0 exam.js"}, "allAnswer": {"message": "Все ответы", "description": "2.0 exam.js"}, "thisQueFullScore": {"message": "Полные оценки по этому вопросу: баллы", "description": "2.0 exam.js"}, "noMark": {"message": "Еще не отмечены", "description": "2.0 exam.js"}, "hasMarked": {"message": "Отмечены", "description": "2.0 exam.js"}, "batchScore": {"message": "Пакетная маркировка", "description": "2.0 exam.js"}, "openedAnonymousMarking": {"message": "Анонимная маркировка установлена", "description": "2.0 exam.js"}, "preview": {"message": "Предварительный просмотр", "description": "2.0 exam.js"}, "download": {"message": "Скачать", "description": "2.0 exam.js"}, "modifyScore": {"message": "Изменить оценку", "description": "2.0 exam.js"}, "approximateAnswerBatchScore": {"message": "Пакетная маркировка для аналогичных ответов", "description": "2.0 exam.js"}, "inputScore": {"message": "Пожалуйста, введите счет", "description": "2.0 exam.js"}, "fullScore": {"message": "Полные метки", "description": "2.0 exam.js"}, "save": {"message": "Сохранить", "description": "2.0 exam.js"}, "noStudent": {"message": "Нет студента", "description": "2.0 exam.js"}, "commit": {"message": "Отправить", "description": "2.0 exam.js"}, "remarkTips2": {"message": "Нет экзаменационных вопросов, которые должны быть отмечены", "description": "2.0 exam.js"}, "remarkTips3": {"message": "Примечание: вы можете одновременно отметить этот вопрос ответили все студенты, а затем пересмотреть счет некоторых отдельных студентов", "description": "2.0 exam.js"}, "attachmentPreview": {"message": "Предварительное вложение", "description": "2.0 exam.js"}, "remarkTips4": {"message": "От студентов, которые будут оценены, система выяснила, что", "description": "2.0 exam.js"}, "remarkTips5": {"message": "части аналогичных ответов. Если вы принимаете результаты распознавания системы, нажмите OK, чтобы сохранить счет.", "description": "2.0 exam.js"}, "remarkTips6": {"message": "Этот студент не ответил", "description": "2.0 exam.js"}, "remarkTips7": {"message": "Аналогичных ответов среди неклассифицированных ответов не найдено", "description": "2.0 exam.js"}, "remarkTips8": {"message": "Пожалуйста, введите счет", "description": "2.0 exam.js"}, "remarkTips9": {"message": "Пожалуйста, введите правильный счет и сохранить только одно десятичное место", "description": "2.0 exam.js"}, "remarkTips10": {"message": "Оценка не может превышать общий балл", "description": "2.0 exam.js"}, "times": {"message": "Раз", "description": "2.0 exam.js"}, "baseInformation": {"message": "Базовая информация", "description": "2.0 exam.js"}, "examNameCl": {"message": "Название экзамена:", "description": "2.0 exam.js"}, "answerDurationCl": {"message": "Продолжительность экзамена:", "description": "2.0 exam.js"}, "answerTimesCl": {"message": "Попытки экзамена:", "description": "2.0 exam.js"}, "passScoreCl": {"message": "Проходной знак:", "description": "2.0 exam.js"}, "participtionWaysCl": {"message": "Способ участия:", "description": "2.0 exam.js"}, "resultPublicTimeCl": {"message": "Показать результаты:", "description": "2.0 exam.js"}, "resultPublicScopeCl": {"message": "Что показать:", "description": "2.0 exam.js"}, "faceVerificationCl": {"message": "Распознавание лиц:", "description": "2.0 exam.js"}, "opened": {"message": "Открыты", "description": "2.0 exam.js"}, "notOpened": {"message": "Не открыт", "description": "2.0 exam.js"}, "standbyVerificationCode": {"message": "Альтернативный код проверки", "description": "2.0 exam.js"}, "detailTips1": {"message": "1. Этот код проверки может быть использован для входа, когда студенты не могут войти в экзамен по лицу салфетки", "description": "2.0 exam.js"}, "detailTips2": {"message": "2. Код проверки действителен в течение 15 минут, пожалуйста, обновите и получите новый код, если время закончилось", "description": "2.0 exam.js"}, "faceVerificationPhotoVerify": {"message": "Обзор фотографий для проверки лица", "description": "2.0 exam.js"}, "sets": {"message": "набор (ы)", "description": "2.0 exam.js"}, "enabled": {"message": "Включен", "description": "2.0 exam.js"}, "queNumberCl": {"message": "Раздел Вопросы:", "description": "2.0 exam.js"}, "fullScoreCl": {"message": "Полные оценки:", "description": "2.0 exam.js"}, "setExamStructure": {"message": "Установить структуру экзаменационной бумаги", "description": "2.0 exam.js"}, "phone": {"message": "Телефон", "description": "2.0 exam.js"}, "pcAndMobile": {"message": "ПК и мобильный телефон", "description": "2.0 exam.js"}, "notShow": {"message": "Не показывать", "description": "2.0 exam.js"}, "commitImmediatelyShow": {"message": "Сразу", "description": "2.0 exam.js"}, "dayAfterShow": {"message": "Отображение в течение нескольких дней", "description": "2.0 exam.js"}, "cannotAllForbidden": {"message": "Храните по крайней мере один экзамен", "description": "2.0 exam.js"}, "faceAuthentication": {"message": "Проверка лица", "description": "2.0 exam.js"}, "myAuthenticationPhoto": {"message": "Моя фотография для проверки", "description": "2.0 exam.js"}, "faceAuthTips1": {"message": "Нажмите, чтобы загрузить фотографию проверки", "description": "2.0 exam.js"}, "faceAuthTips2": {"message": "Примечание:", "description": "2.0 exam.js"}, "faceAuthTips3": {"message": "Как проверенные фотографии используются для экзаменов с лицом салфетки, пожалуйста, убедитесь, что вы загружаете реальные фотографии. После загрузки учителя могут просмотреть фотографии. Если их фотографии будут признаны несовместимыми с собой, эти студенты будут рассматриваться как обман, что может привести к аннулированию результатов экзамена.", "description": "2.0 exam.js"}, "faceAuthTips4": {"message": "Проверенная фотография не может быть изменена после загрузки", "description": "2.0 exam.js"}, "faceAuthTips5": {"message": ", пожалуйста, подтвердите, что они доступны перед загрузкой", "description": "2.0 exam.js"}, "authenticatePhoto": {"message": "Проверенные фотографии", "description": "2.0 exam.js"}, "reUpload": {"message": "Загрузить снова", "description": "2.0 exam.js"}, "faceAuthTips6": {"message": "Пожалуйста, проверьте лицо салфетки перед загрузкой", "description": "2.0 exam.js"}, "faceAuthTips7": {"message": "Проверьте, успешно ли салфетка лица", "description": "2.0 exam.js"}, "faceAuthTips8": {"message": "Пожалуйста, лицом к камере и убедитесь, что есть достаточно света", "description": "2.0 exam.js"}, "faceAuthenticateFailed": {"message": "Проверка лица не удалась", "description": "2.0 exam.js"}, "reTry": {"message": "Повторить", "description": "2.0 exam.js"}, "authenticateSuccess": {"message": "Проверка прошла", "description": "2.0 exam.js"}, "faceAuthTips9": {"message": "Пожалуйста, попросите бдительности для кода проверки и введите его", "description": "2.0 exam.js"}, "verificationCodeError": {"message": "Код проверки не удалось", "description": "2.0 exam.js"}, "faceAuthTips10": {"message": "Отрегулируйте размер и положение изображения", "description": "2.0 exam.js"}, "faceAuthTips11": {"message": "Перетащите пунктирную коробку, чтобы отрегулировать ее размер и положение", "description": "2.0 exam.js"}, "auditor": {"message": "Проверки:", "description": "2.0 exam.js"}, "auditTimeCl": {"message": "Время просмотра:", "description": "2.0 exam.js"}, "refuseReasonCl": {"message": "Причина отказа:", "description": "2.0 exam.js"}, "faceAuthTips12": {"message": "Фотография не соответствует лицу", "description": "2.0 exam.js"}, "waitTeaAudit": {"message": "Дождись обзора учителя", "description": "2.0 exam.js"}, "auditPassed": {"message": "Обзор пройден", "description": "2.0 exam.js"}, "auditFailed": {"message": "Обзор провалился", "description": "2.0 exam.js"}, "faceAuthTips13": {"message": "Пожалуйста, убедитесь, что фотография может передать лицо салфетки", "description": "2.0 exam.js"}, "faceAuthTips14": {"message": "Размер файла не может превышать 10M", "description": "2.0 exam.js"}, "gradeTips1": {"message": "Анонимная маркировка была использована в этом экзамене", "description": "2.0 exam.js"}, "gradeTips2": {"message": "Нет. экзаменационных работ уступки на mepapers:", "description": "2.0 exam.js"}, "readedCl": {"message": "Отмечены", "description": "2.0 exam.js"}, "toBeApprovedCl": {"message": "Для пометки:", "description": "2.0 exam.js"}, "gradeTips3": {"message": "Количество бумаг, которые будут помечены, выделяется лицом, ответственным за экзамен", "description": "2.0 exam.js"}, "gradeTips4": {"message": "Введите экзамен через проверку лица", "description": "2.0 exam.js"}, "toBeAudit": {"message": "Для рассмотрения", "description": "2.0 exam.js"}, "thisTimeExamPhoto": {"message": "Фотографии для этого экзамена", "description": "2.0 exam.js"}, "gradeTips5": {"message": "Введите экзамен через код проверки", "description": "2.0 exam.js"}, "studentNOCl": {"message": "Студенческий номер:", "description": "2.0 exam.js"}, "classCl": {"message": "Класса:", "description": "2.0 exam.js"}, "waitApproved": {"message": "Ожидающие", "description": "2.0 exam.js"}, "examinationBehaviorTrajectory": {"message": "Отслеживание поведения теста", "description": "2.0 exam.js"}, "gradeTips6": {"message": "Времена аномальных условий превышают установленные сроки, ваша бумага была принудительно представлена системой", "description": "2.0 exam.js"}, "gradeTips7": {"message": "Когда экзамен закончен, система будет представлять документ автоматически", "description": "2.0 exam.js"}, "computerTerminal": {"message": "Пк", "description": "2.0 exam.js"}, "mobileTerminal": {"message": "Мобильных", "description": "2.0 exam.js"}, "mobileApp": {"message": "Мобильное приложение", "description": "2.0 exam.js"}, "gradeTips8": {"message": "Время отъезда слишком длинное, ненормальное No1", "description": "2.0 exam.js"}, "intoPage": {"message": "Введите страницу", "description": "2.0 exam.js"}, "leavePage": {"message": "Покинуть страницу", "description": "2.0 exam.js"}, "commitExam": {"message": "Представленный экзамен", "description": "2.0 exam.js"}, "batchArrangement": {"message": "Сеансов", "description": "2.0 exam.js"}, "examRoomArrangement": {"message": "Расположение места проведения экзамена", "description": "2.0 exam.js"}, "markExamArrangement": {"message": "Профилирования", "description": "2.0 exam.js"}, "markingTips1": {"message": "Нет. документы, содержащие субъективные вопросы:", "description": "2.0 exam.js"}, "markingTips2": {"message": "Равномерное назначение классификации", "description": "2.0 exam.js"}, "toBeApprovedNumberCl": {"message": "Нет. бумаг, которые будут отмечены:", "description": "2.0 exam.js"}, "approvedNumberCl": {"message": "Нет. бумаг с пометкой:", "description": "2.0 exam.js"}, "toBeApprovedNumber": {"message": "Нет. бумаг, которые будут отмечены", "description": "2.0 exam.js"}, "approvedNumber": {"message": "Нет. бумаг, отмеченных", "description": "2.0 exam.js"}, "closeAnonymousMarking": {"message": "Отключение анонимной классификации", "description": "2.0 exam.js"}, "openAnonymousMarking": {"message": "Открытая анонимная маркировка", "description": "2.0 exam.js"}, "teacher": {"message": "Учитель", "description": "2.0 exam.js"}, "markingTips3": {"message": "Участвовать ли в маркировке", "description": "2.0 exam.js"}, "markingTips4": {"message": "Нет. назначенных документов", "description": "2.0 exam.js"}, "participants": {"message": "Участвовать", "description": "2.0 exam.js"}, "noParticipants": {"message": "Нет", "description": "2.0 exam.js"}, "finished": {"message": "Закончил", "description": "2.0 exam.js"}, "markRecord": {"message": "Рекорды оценки", "description": "2.0 exam.js"}, "teacherCl": {"message": "Учитель:", "description": "2.0 exam.js"}, "markTime": {"message": "Время маркировки", "description": "2.0 exam.js"}, "viewMarkDetail": {"message": "Просмотр деталей маркировки", "description": "2.0 exam.js"}, "markingTips5": {"message": "Общее количество назначенных документов не должно превышать количество документов, содержащих субъективные вопросы", "description": "2.0 exam.js"}, "arrangingExamRoom": {"message": "Расположение места проведения экзамена", "description": "2.0 exam.js"}, "exportTable": {"message": "Таблица экспорта", "description": "2.0 exam.js"}, "batch": {"message": "Сессии", "description": "2.0 exam.js"}, "clearExamRoomPlan": {"message": "Удалить Расписание объектов", "description": "2.0 exam.js"}, "noDesignatedExamRoom": {"message": "-Нет объекта экзамена запланировано-", "description": "2.0 exam.js"}, "examRoom": {"message": "Экзамен фонда", "description": "2.0 exam.js"}, "classAndStudent": {"message": "Класс/Студент", "description": "2.0 exam.js"}, "seatNumber": {"message": "Нет. мест", "description": "2.0 exam.js"}, "examStuNumber": {"message": "Нет. из Испытуемых", "description": "2.0 exam.js"}, "remainSeat": {"message": "Места слева", "description": "2.0 exam.js"}, "invigilator": {"message": "Проктор", "description": "2.0 exam.js"}, "etc": {"message": "Др.", "description": "2.0 exam.js"}, "people": {"message": "Испытуемых", "description": "2.0 exam.js"}, "empty": {"message": "Пустой", "description": "2.0 exam.js"}, "nnallocated": {"message": "Не выделено", "description": "2.0 exam.js"}, "exanStuList": {"message": "Список изучить", "description": "2.0 exam.js"}, "chooseInvigilator": {"message": "Выберите бдительности", "description": "2.0 exam.js"}, "inputTeaNameSearch": {"message": "Пожалуйста, введите имя учителя для поиска", "description": "2.0 exam.js"}, "roomTips1": {"message": "Нет информации, пожалуйста, измените критерии запроса", "description": "2.0 exam.js"}, "roomTips2": {"message": "Вы уверены, что удалите все экзаменационные площадки и бдительности в этой партии?", "description": "2.0 exam.js"}, "addBatch": {"message": "Добавить сессию", "description": "2.0 exam.js"}, "someBatch": {"message": "сессии (ы)", "description": "2.0 exam.js"}, "time": {"message": "Время", "description": "2.0 exam.js"}, "participantsClassAndStu": {"message": "Участвующий класс/студент", "description": "2.0 exam.js"}, "shouldArrivePeople": {"message": "Нет. испытуемых, которые должны присутствовать", "description": "2.0 exam.js"}, "participantsNumber": {"message": "Нет. участников", "description": "2.0 exam.js"}, "nonParticipantsNumber": {"message": "Нет. не-участников", "description": "2.0 exam.js"}, "studentBrackets": {"message": "(Студент) Нет, нет, нет, нет,", "description": "2.0 exam.js"}, "someClassAndStu": {"message": "классы/студенты", "description": "2.0 exam.js"}, "modify": {"message": "Редактировать", "description": "2.0 exam.js"}, "checkAll": {"message": "Проверить все", "description": "2.0 exam.js"}, "expandEndTime": {"message": "Продлить время экзамена", "description": "2.0 exam.js"}, "examTimeCl": {"message": "Время экзамена:", "description": "2.0 exam.js"}, "startTime": {"message": "Время начала", "description": "2.0 exam.js"}, "endTime": {"message": "Время окончания", "description": "2.0 exam.js"}, "participantsPeople": {"message": "Участников:", "description": "2.0 exam.js"}, "addClass": {"message": "Добавить класс", "description": "2.0 exam.js"}, "addStudent": {"message": "Добавить студента", "description": "2.0 exam.js"}, "selectClass": {"message": "Выберите класс", "description": "2.0 exam.js"}, "selectStudent": {"message": "Выберите студента", "description": "2.0 exam.js"}, "allTeacher": {"message": "Все учителя", "description": "2.0 exam.js"}, "inputClassNameSearch": {"message": "Введите имя класса для поиска", "description": "2.0 exam.js"}, "roomTips3": {"message": "Введите студенческое имя/идентификатор студента для поиска", "description": "2.0 exam.js"}, "roomTips4": {"message": "Учитель не получил anya класса", "description": "2.0 exam.js"}, "roomTips5": {"message": "Соответствующий класс не найден", "description": "2.0 exam.js"}, "roomTips6": {"message": "Соответствующих студентов не найдено", "description": "2.0 exam.js"}, "roomTips7": {"message": "Нет студента", "description": "2.0 exam.js"}, "batchExpand": {"message": "Расширить пакет", "description": "2.0 exam.js"}, "roomTips8": {"message": "Примечание: после продления срока окончания, студенты, которые опаздывают или имеют недостаточное время экзамена по другим причинам, будут иметь свое время экзамена продлен соответственно. Студенты, которые сдают экзамен и подают документы в обычном режиме, не будут затронуты", "description": "2.0 exam.js"}, "roomTips9": {"message": "Продолжительность продления должна быть от 1 до 1000", "description": "2.0 exam.js"}, "expandSuccess": {"message": "Расширенный успешно", "description": "2.0 exam.js"}, "expandFailed": {"message": "Не удалось продлить", "description": "2.0 exam.js"}, "roomTips10": {"message": "Удаление этой сессии может удалить ответы на экзамены, связанные с этой сессией. Вы уверены, что хотите удалить его?", "description": "2.0 exam.js"}, "roomTips11": {"message": "Вы уверены, что хотите удалить этот экзаменационный центр?", "description": "2.0 exam.js"}, "deleteBatch": {"message": "Удалить пакет", "description": "2.0 exam.js"}, "roomTips12": {"message": "Пожалуйста, установите время партии", "description": "2.0 exam.js"}, "roomTips13": {"message": "Пожалуйста, выберите тестовый объект (класс или студента)", "description": "2.0 exam.js"}, "monitor": {"message": "Станция мониторинга", "description": "2.0 exam.js"}, "openedFaceVerification": {"message": "Включена проверка лица", "description": "2.0 exam.js"}, "viewStandbyVerificationCode": {"message": "Просмотр альтернативного кода проверки", "description": "2.0 exam.js"}, "monitorTips1": {"message": "1. Этот код проверки может быть использован, когда студенты не могут войти в экзамен по лицу салфетки", "description": "2.0 exam.js"}, "monitorTips2": {"message": "2. Код проверки действителен в течение 15 минут, пожалуйста, обновите и получите новый, когда код станет недействительным", "description": "2.0 exam.js"}, "allExamRoom": {"message": "Все экзаменационные помещения", "description": "2.0 exam.js"}, "inputNameAndStuNoSearch": {"message": "Введите идентификатор имени/студента для поиска", "description": "2.0 exam.js"}, "exportMonitorInfo": {"message": "Информация по мониторингу экспорта", "description": "2.0 exam.js"}, "exportPhotos": {"message": "Экспорт фото", "description": "2.0 exam.js"}, "noEnterExam": {"message": "Не начато", "description": "2.0 exam.js"}, "byVerificationCode": {"message": "Через код проверки", "description": "2.0 exam.js"}, "intoExam": {"message": "Введите экзамен", "description": "2.0 exam.js"}, "answering": {"message": "Отвечая", "description": "2.0 exam.js"}, "handInExam": {"message": "Представлены", "description": "2.0 exam.js"}, "equipment": {"message": "Устройства", "description": "2.0 exam.js"}, "verificationType": {"message": "Режим проверки", "description": "2.0 exam.js"}, "intoExamTime": {"message": "Начал", "description": "2.0 exam.js"}, "answerTimeMinite": {"message": "Продолжительность (мин)", "description": "2.0 exam.js"}, "faceVerification": {"message": "Проверка лица", "description": "2.0 exam.js"}, "verificationCode": {"message": "Код проверки", "description": "2.0 exam.js"}, "abnormalRecord": {"message": "Аномальные записи", "description": "2.0 exam.js"}, "haveEntered": {"message": "Начал", "description": "2.0 exam.js"}, "notEnter": {"message": "Не запущено", "description": "2.0 exam.js"}, "beAnswering": {"message": "Отвечая", "description": "2.0 exam.js"}, "descriptionCl": {"message": "Примечание:", "description": "2.0 exam.js"}, "auditTips1": {"message": "На экзамене с проверкой лица студенты должны загружать фотографии для проверки заранее. Фотографии могут быть импортированы учителями партиями или загружены самими студентами. Преподаватели могут просмотреть фотографии, загруженные студентами. Вы можете выбрать в настройках экзамена, если вы позволите студентам с неутверждеными фотографиями, чтобы войти в экзамен по лицу салфетки. Студенты, не сдавайте экзамен учителя, не будут допущены к экзамену.", "description": "2.0 exam.js"}, "batchExportPhotos": {"message": "Пакет импортных фотографий", "description": "2.0 exam.js"}, "exportAuthenticationInfo": {"message": "Обобщить информацию о проверке", "description": "2.0 exam.js"}, "unuploadedPhotos": {"message": "Фотография не была загружена", "description": "2.0 exam.js"}, "batchOpration": {"message": "Пакетная операция", "description": "2.0 exam.js"}, "finish": {"message": "Закончил", "description": "2.0 exam.js"}, "checkAllWholePage": {"message": "Выберите эту страницу", "description": "2.0 exam.js"}, "batchAudit": {"message": "Пакетный обзор", "description": "2.0 exam.js"}, "batchClearPhoto": {"message": "Пакет очистки фотографий", "description": "2.0 exam.js"}, "replacePhoto": {"message": "Заменить фото", "description": "2.0 exam.js"}, "reAudit": {"message": "Обзор еще раз", "description": "2.0 exam.js"}, "photoUploader": {"message": "Фотография загружена:", "description": "2.0 exam.js"}, "photoUploadTimeCl": {"message": "Время загрузки фотографий:", "description": "2.0 exam.js"}, "photoAuditorCl": {"message": "Фоторепортер:", "description": "2.0 exam.js"}, "photoAuditTimeCl": {"message": "Время просмотра фото:", "description": "2.0 exam.js"}, "batchExportAuthenticationPhoto": {"message": "Пакет импорта проверенные фотографии", "description": "2.0 exam.js"}, "authenticationPhotoRequire": {"message": "Требования к проверенной фотографии", "description": "2.0 exam.js"}, "auditTips2": {"message": "Формат:jpg, jpeg, png, bmp.", "description": "2.0 exam.js"}, "auditTips3": {"message": "Размер: рекомендуется стандартная 1-дюймовая (413-295 пикселей) идентификационная фотография или фотография эквивалентного размера.", "description": "2.0 exam.js"}, "auditTips4": {"message": "Название файла фотографии должно содержать студенческий идентификатор и никакие арабские цифры, кроме студенческого удостоверения личности.", "description": "2.0 exam.js"}, "auditTips5": {"message": "Рекомендуется использовать удостоверение личности студента, записанное в системе управления образованием.", "description": "2.0 exam.js"}, "auditTips6": {"message": "Пример для именования фотографий", "description": "2.0 exam.js"}, "auditTips7": {"message": "Чжан Сан", "description": "2.0 exam.js"}, "auditTips8": {"message": "Пожалуйста, пакет все фотографии в формате zip и загрузить", "description": "2.0 exam.js"}, "uploadPhoto": {"message": "Загрузить фото", "description": "2.0 exam.js"}, "cancelUpload": {"message": "Отмена загрузки", "description": "2.0 exam.js"}, "batchAuditAuthenticationPhoto": {"message": "Пакетная проверка проверенных фотографий", "description": "2.0 exam.js"}, "auditTips9": {"message": "Фотографии не могут быть восстановлены после очистки. Вы уверены, чтобы очистить это", "description": "2.0 exam.js"}, "batchClearAuthenticationPhoto": {"message": "Пакетная очистка проверенных фотографий", "description": "2.0 exam.js"}, "auditTips10": {"message": "Это проверенные фотографии студентов?", "description": "2.0 exam.js"}, "auditTips12": {"message": "Пожалуйста, подождите, пока последняя фотография будет загружена", "description": "2.0 exam.js"}, "auditTips13": {"message": "Пожалуйста, выберите студента для проверки", "description": "2.0 exam.js"}, "auditTips14": {"message": "Пожалуйста, выберите студента, чья фотография будет очищена", "description": "2.0 exam.js"}, "auditTips15": {"message": "Загруженный пакет не может быть более 1 ГБ", "description": "2.0 exam.js"}, "uploaded": {"message": "Загружены", "description": "2.0 exam.js"}, "auditTips16": {"message": "Загрузка завершена, фотография в настоящее время соответствует ...", "description": "2.0 exam.js"}, "auditTips17": {"message": "Импорт успешно завершен", "description": "2.0 exam.js"}, "auditTips18": {"message": "части проверенных фотографий. Сбой при", "description": "2.0 exam.js"}, "auditTips19": {"message": "Куски. Идентификатор студента или форматы файлов следующих студентов неверны (", "description": "2.0 exam.js"}, "auditTips20": {"message": "Импорт успешно завершен", "description": "2.0 exam.js"}, "auditTips21": {"message": "части проверенных фотографий", "description": "2.0 exam.js"}, "auditTips22": {"message": "Фотографии в выбранном файле не найдены. Пожалуйста, проверьте файл", "description": "2.0 exam.js"}, "auditTips23": {"message": "Существует исключение в импорте изображения", "description": "2.0 exam.js"}, "auditTips24": {"message": "Загрузка не удалось, пожалуйста, проверьте формат файла", "description": "2.0 exam.js"}, "auditTips25": {"message": "Загрузка ненормальных", "description": "2.0 exam.js"}, "myQuestionLibrary": {"message": "Мой вопрос банка", "description": "2.0 exam.js"}, "examPaperTitle": {"message": "Название экзаменационной работы", "description": "2.0 exam.js"}, "examStructure": {"message": "Структура экзаменационной бумаги", "description": "2.0 exam.js"}, "queTotalNumberCl": {"message": "Экзаменационные вопросы:", "description": "2.0 exam.js"}, "examPaperFullScore": {"message": "Полные оценки экзамена:", "description": "2.0 exam.js"}, "randomTips1": {"message": "Копирование существующей структуры экзамена", "description": "2.0 exam.js"}, "inputSectionName": {"message": "Пожалуйста, введите название раздела", "description": "2.0 exam.js"}, "scoreCl": {"message": "Точки:", "description": "2.0 exam.js"}, "moveUp": {"message": "Двигайтесь вверх", "description": "2.0 exam.js"}, "moveDown": {"message": "Перемещение вниз", "description": "2.0 exam.js"}, "extractQueNumberCl": {"message": "Нет. извлеченных вопросов:", "description": "2.0 exam.js"}, "eachContainSubQue": {"message": "Подзапросы:", "description": "2.0 exam.js"}, "number2": {"message": "вопрос (ы)", "description": "2.0 exam.js"}, "eachQueScoreCl": {"message": "Оценка каждого вопроса:", "description": "2.0 exam.js"}, "subQueScoreCl": {"message": "Точки:", "description": "2.0 exam.js"}, "containSubQueType": {"message": "Типы под вопросов:", "description": "2.0 exam.js"}, "extractMenuCl": {"message": "Каталог извлеченных вопросов:", "description": "2.0 exam.js"}, "seleteMenu": {"message": "Выберите каталог", "description": "2.0 exam.js"}, "randomTips2": {"message": "(Каталог недействителен)", "description": "2.0 exam.js"}, "randomTips3": {"message": "Примечание: всеобъемлющий вопрос является большим. Добавление всеобъемлющего вопроса означает извлечение большого вопроса", "description": "2.0 exam.js"}, "addQuestionType": {"message": "Добавление типа вопросов", "description": "2.0 exam.js"}, "addSection": {"message": "Добавить раздел", "description": "2.0 exam.js"}, "copyExamStructure": {"message": "Структура экзамена копирования", "description": "2.0 exam.js"}, "selectCourse": {"message": "Выберите курс", "description": "2.0 exam.js"}, "pleaseSelectCourse": {"message": "Пожалуйста, выберите курс", "description": "2.0 exam.js"}, "selectExam": {"message": "Выберите экзамен", "description": "2.0 exam.js"}, "pleaseSelectExam": {"message": "Пожалуйста, выберите экзамен", "description": "2.0 exam.js"}, "selectExamPaper": {"message": "Выберите экзаменационную работу", "description": "2.0 exam.js"}, "pleaseSelectExamPaper": {"message": "Пожалуйста, выберите экзаменационную работу", "description": "2.0 exam.js"}, "selectExtractMenuCl": {"message": "Выберите каталог для извлечения вопросов", "description": "2.0 exam.js"}, "schoolQuestionLibrary": {"message": "Школьный банк вопросов", "description": "2.0 exam.js"}, "randomTips4": {"message": "Каталог не создан", "description": "2.0 exam.js"}, "randomTips5": {"message": "Сначала перейдите в", "description": "2.0 exam.js"}, "randomTips6": {"message": "Мой вопрос банка", "description": "2.0 exam.js"}, "randomTips7": {"message": "Добавить каталог папок в", "description": "2.0 exam.js"}, "singleChoiceQ": {"message": "Множественный выбор", "description": "2.0 exam.js"}, "multipleChoiceQ": {"message": "Множественный ответ", "description": "2.0 exam.js"}, "completionQ": {"message": "Заполнить-в-пустой", "description": "2.0 exam.js"}, "judgementQ": {"message": "Правда/Ложь", "description": "2.0 exam.js"}, "shortAnswerQ": {"message": "Краткий ответ", "description": "2.0 exam.js"}, "sequencingQ": {"message": "Последовательности", "description": "2.0 exam.js"}, "comprehensiveQ": {"message": "Комбинации", "description": "2.0 exam.js"}, "pullDownSelectionQ": {"message": "Падение несколько вариантов", "description": "2.0 exam.js"}, "matchingQ": {"message": "Соответствующие", "description": "2.0 exam.js"}, "readingQ": {"message": "Чтение вопросов", "description": "2.0 exam.js"}, "listeningQ": {"message": "Прослушивание вопросов", "description": "2.0 exam.js"}, "writingQ": {"message": "Написание вопросов", "description": "2.0 exam.js"}, "translationQ": {"message": "Вопросы о переводе", "description": "2.0 exam.js"}, "clozeQ": {"message": "Тест Клозе", "description": "2.0 exam.js"}, "descriptionModule": {"message": "Модуль описания", "description": "2.0 exam.js"}, "syntaxModule": {"message": "Грамматический модуль", "description": "2.0 exam.js"}, "lexicalModule": {"message": "Модуль лексики", "description": "2.0 exam.js"}, "spokenModule": {"message": "Устный модуль", "description": "2.0 exam.js"}, "readingQBankedCloze": {"message": "Чтение (заполнение пробелов)", "description": "2.0 exam.js"}, "attachUploadQ": {"message": "Загрузка вложения", "description": "2.0 exam.js"}, "listeningObjectivesQ": {"message": "Прослушивание объективного вопроса прослушивания", "description": "2.0 exam.js"}, "completionQDisorder": {"message": "Несколько пустых вопросов заполнения в порядке", "description": "2.0 exam.js"}, "discussionQ": {"message": "Вопросы эссе", "description": "2.0 exam.js"}, "materialAnalysisQ": {"message": "Материальный анализ", "description": "2.0 exam.js"}, "autoGroupPaper": {"message": "Создание бумаги автоматически", "description": "2.0 exam.js"}, "randomTips8": {"message": "Название экзаменационной работы должно быть от 1 до 200 букв", "description": "2.0 exam.js"}, "randomTips9": {"message": "Добавить по крайней мере один раздел в экзаменационную работу", "description": "2.0 exam.js"}, "randomTips10": {"message": "Название раздела должно быть от 1 до 200 букв", "description": "2.0 exam.js"}, "randomTips11": {"message": "Структура экзаменационной бумаги не завершена, пожалуйста, проверьте и измените, прежде чем пытаться снова.", "description": "2.0 exam.js"}, "randomTips12": {"message": "Количество вопросов в каталоге недостаточно. Пожалуйста, добавьте каталог.", "description": "2.0 exam.js"}, "selectExamRoom": {"message": "Выберите экзаменационный фонд", "description": "2.0 exam.js"}, "confirmExamRoom": {"message": "Подтверждение экзаменационного фонда", "description": "2.0 exam.js"}, "roomEditorTips1": {"message": "Максимальное количество участников на партию:", "description": "2.0 exam.js"}, "roomEditorTips2": {"message": "(Общее количество мест в выбранном экзаменационном центре должно быть больше этого значения)", "description": "2.0 exam.js"}, "roomEditorTips3": {"message": "Общее количество мест в выбранном месте проведения экзамена:", "description": "2.0 exam.js"}, "addExamRoom": {"message": "Добавить экзаменационный фонд", "description": "2.0 exam.js"}, "examRoomName": {"message": "Название экзаменационного центра", "description": "2.0 exam.js"}, "type": {"message": "Тип", "description": "2.0 exam.js"}, "normalClassroom": {"message": "Нормальный класс", "description": "2.0 exam.js"}, "computerRoom": {"message": "Компьютерная лаборатория", "description": "2.0 exam.js"}, "lastStep": {"message": "Последний шаг", "description": "2.0 exam.js"}, "nextStep": {"message": "Следующий шаг", "description": "2.0 exam.js"}, "roomEditorTips4": {"message": "Пожалуйста, выберите место проведения экзамена для каждой партии. Общее количество мест для каждой партии должно быть больше, чем количество студентов", "description": "2.0 exam.js"}, "seat": {"message": "Мест", "description": "2.0 exam.js"}, "examStudent": {"message": "Испытуемых", "description": "2.0 exam.js"}, "seats": {"message": "Мест", "description": "2.0 exam.js"}, "roomEditorTips5": {"message": "Система автоматически генерирует расположение мест в зависимости от количества студентов класса и количества мест в месте проведения экзамена. Вы можете вручную настроить и сохранить расположение сиденья после подтверждения.", "description": "2.0 exam.js"}, "roomEditorTips6": {"message": "Нажмите, чтобы выбрать класс, вы можете изменить место проведения экзамена. Выберите два класса, вы можете обменяться местами проведения экзаменов по мере необходимости.", "description": "2.0 exam.js"}, "modifyExamRoom": {"message": "Редактировать экзаменационный фонд", "description": "2.0 exam.js"}, "exchangeExamRoom": {"message": "Обмен экзаменационных площадок", "description": "2.0 exam.js"}, "saveArranging": {"message": "Сохранить расположение", "description": "2.0 exam.js"}, "roomEditorTips7": {"message": "Вы можете переместить текущий класс в другое место или выбрать и назначить некоторых студентов в другое место проведения экзамена", "description": "2.0 exam.js"}, "roomEditorTips8": {"message": "(Всего Но. студентов:", "description": "2.0 exam.js"}, "roomEditorTips9": {"message": ", среди них", "description": "2.0 exam.js"}, "roomEditorTips10": {"message": "студенты могут быть перемещены в следующее место проведения экзамена:", "description": "2.0 exam.js"}, "roomEditorTips11": {"message": "Вы обязательно удалите место проведения экзамена?", "description": "2.0 exam.js"}, "roomEditorTips12": {"message": "Пожалуйста, введите название места проведения экзамена", "description": "2.0 exam.js"}, "roomEditorTips13": {"message": "Пожалуйста, введите число больше нуля", "description": "2.0 exam.js"}, "roomEditorTips14": {"message": "Общее количество мест должно быть больше максимального количества участников в одной партии", "description": "2.0 exam.js"}, "roomEditorTips15": {"message": "Пожалуйста, выберите место проведения экзамена", "description": "2.0 exam.js"}, "roomEditorTips16": {"message": "Количество мест меньше, чем количество студентов", "description": "2.0 exam.js"}, "roomEditorTips17": {"message": "Количество студентов, которые будут перемещены, не может быть нулевым", "description": "2.0 exam.js"}, "roomEditorTips18": {"message": "Количество студентов, которые будут перемещены, не может превышать общее число студентов", "description": "2.0 exam.js"}, "roomEditorTips19": {"message": "Количество студентов, которые будут перемещены, не может превышать оставшееся количество мест", "description": "2.0 exam.js"}, "roomEditorTips20": {"message": "Не осталось достаточного количества мест", "description": "2.0 exam.js"}, "inputExamName": {"message": "Пожалуйста, введите название экзамена", "description": "2.0 exam.js"}, "examPapers": {"message": "Экзаменационная бумага", "description": "2.0 exam.js"}, "appointExamPaper": {"message": "Назначить экзаменационную работу", "description": "2.0 exam.js"}, "setExamTips1": {"message": "(Она не может быть изменена, когда начинается обследование)", "description": "2.0 exam.js"}, "enable": {"message": "Включить", "description": "2.0 exam.js"}, "disable": {"message": "Отключить", "description": "2.0 exam.js"}, "questionNumber": {"message": "Экзаменационные вопросы:", "description": "2.0 exam.js"}, "passScore": {"message": "Проходной знак", "description": "2.0 exam.js"}, "examResult": {"message": "Результат экзамена", "description": "2.0 exam.js"}, "immediateDisplay": {"message": "Сразу", "description": "2.0 exam.js"}, "daysAfterShow": {"message": "Отображение в течение нескольких дней", "description": "2.0 exam.js"}, "weekAfterShow": {"message": "Отображение после нескольких недель", "description": "2.0 exam.js"}, "noShow": {"message": "Не показывать", "description": "2.0 exam.js"}, "examDuration": {"message": "Продолжительность экзамена", "description": "2.0 exam.js"}, "showScope": {"message": "Что показать", "description": "2.0 exam.js"}, "participtionWay": {"message": "Способ участия", "description": "2.0 exam.js"}, "onPCExam": {"message": "Сдать экзамен с помощью ПК", "description": "2.0 exam.js"}, "onMobileExam": {"message": "Сдать экзамен с помощью мобильного телефона", "description": "2.0 exam.js"}, "setExamTips2": {"message": "Экзамен доступен как на ПК, так и на мобильном телефоне", "description": "2.0 exam.js"}, "setExamTips3": {"message": "Вопросы формулы еще не подкреплены мобильным экзаменом", "description": "2.0 exam.js"}, "setExamTips4": {"message": "Содержат тестовые вопросы, которые не поддерживаются системой., пожалуйста, измените способ участия или отрегулируйте содержание экзаменационной работы", "description": "2.0 exam.js"}, "examTimes": {"message": "Экзамен Таймс", "description": "2.0 exam.js"}, "most": {"message": "Большинство", "description": "2.0 exam.js"}, "unlimitTimes": {"message": "Неограниченное время", "description": "2.0 exam.js"}, "lateTime2": {"message": "Поздний запуск Разрешено", "description": "2.0 exam.js"}, "abnormalMonitor": {"message": "Аномальный мониторинг", "description": "2.0 exam.js"}, "setExamTips5": {"message": "Мониторинг количества случаев, когда студенты покидают онлайн-экзамен в период экзамена. Если больше, чем", "description": "2.0 exam.js"}, "setExamTips6": {"message": "раз, ваш документ будет представлен автоматически", "description": "2.0 exam.js"}, "setExamTips7": {"message": "Только поддержка экзамена по мобильному телефону. Основа мониторинга: страница мобильного телефона возвращается на страницу рабочего стола, закрывается или запускает приложение в бэкэнде", "description": "2.0 exam.js"}, "identityVerification": {"message": "Идентификации", "description": "2.0 exam.js"}, "openFaceVerification": {"message": "Инициализировать проверку лица", "description": "2.0 exam.js"}, "setExamTips8": {"message": "Разрешить студентам, чьи фотографии до проверки, чтобы войти в экзамен", "description": "2.0 exam.js"}, "description": {"message": "Описание", "description": "2.0 exam.js"}, "fold": {"message": "Свернуть", "description": "2.0 exam.js"}, "unfold": {"message": "Разверните", "description": "2.0 exam.js"}, "publishExam": {"message": "Опубликовать экзамен", "description": "2.0 exam.js"}, "setExamTips9": {"message": "(Эта услуга является платной, и ваша организация еще не подписалась на нее. Если вы собираетесь подписаться, пожалуйста, свяжитесь со службой поддержки клиентов: service.sg@ulearning.cn)", "description": "2.0 exam.js"}, "setExamTips10": {"message": "(Услуга истекла, если вам нужно продолжать пользоваться услугой, пожалуйста, свяжитесь со службой поддержки клиентов: service.sg@ulearning.cn)", "description": "2.0 exam.js"}, "modifyBatchs": {"message": "Модифицировать партию", "description": "2.0 exam.js"}, "batchs": {"message": "Сессии", "description": "2.0 exam.js"}, "setExamTips11": {"message": "Вы обязательно удалите эту партию?", "description": "2.0 exam.js"}, "publishSuccess": {"message": "Опубликовано успешно", "description": "2.0 exam.js"}, "modifyExamSuccess": {"message": "Отредактированный экзамен успешно", "description": "2.0 exam.js"}, "modifyBatchSuccess": {"message": "Модифицированная партия успешно", "description": "2.0 exam.js"}, "setExamTips12": {"message": "Двойные документы были удалены", "description": "2.0 exam.js"}, "setExamTips13": {"message": "Экзаменационные работы с записями ответов не могут быть удалены", "description": "2.0 exam.js"}, "setExamTips14": {"message": "Храните хотя бы одну экзаменационную бумагу", "description": "2.0 exam.js"}, "setExamTips15": {"message": "Название экзамена должно быть от 2 до 100 букв", "description": "2.0 exam.js"}, "setExamTips16": {"message": "Храните по крайней мере одну бумагу с включенным поддержкой", "description": "2.0 exam.js"}, "setExamTips17": {"message": "Проходные знаки должны быть между 0", "description": "2.0 exam.js"}, "setExamTips19": {"message": "Пожалуйста, выберите объект экзамена (класс или студент)", "description": "2.0 exam.js"}, "allBatch": {"message": "Все партии", "description": "2.0 exam.js"}, "inputNameSearch": {"message": "Введите имя для поиска", "description": "2.0 exam.js"}, "approve": {"message": "Маркировка", "description": "2.0 exam.js"}, "scoreAnalysis": {"message": "Анализ оценки", "description": "2.0 exam.js"}, "averageFinishedTime": {"message": "Среднее время завершения", "description": "2.0 exam.js"}, "statisticsTips1": {"message": "Вся информация в отчете не включает тех студентов, которые отсутствовали на экзамене", "description": "2.0 exam.js"}, "statisticsTips2": {"message": "Оценка студентов, которые имеют несколько записей ответов должны быть подсчитаны в соответствии с наивысшим баллом", "description": "2.0 exam.js"}, "userNumber": {"message": "Нет. пользователей", "description": "2.0 exam.js"}, "viewQue": {"message": "Просмотр тестовых вопросов", "description": "2.0 exam.js"}, "examInfo": {"message": "Настройки экзамена", "description": "2.0 exam.js"}, "examinationManagement": {"message": "Управление экзаменами", "description": "2.0 exam.js"}, "examMonitor": {"message": "Экзамен Прокторинг", "description": "2.0 exam.js"}, "analysisReport": {"message": "Отчет об анализе", "description": "2.0 exam.js"}, "class": {"message": "Класса", "description": "2.0 exam.js"}, "roomTips14": {"message": "Введите идентификатор студента/имя для поиска", "description": "2.0 exam.js"}, "allStudent": {"message": "Все студенты", "description": "2.0 exam.js"}, "auditFailed2": {"message": "Отклонено", "description": "2.0 exam.js"}, "remain": {"message": "Налево", "description": "2.0 exam.js"}, "let": {"message": "Позвольте", "description": "2.0 exam.js"}, "objectivesQ": {"message": "Объективный вопрос", "description": "2.0 exam.js"}, "subjectiveQ": {"message": "Субъективные вопросы", "description": "2.0 exam.js"}, "commitTime": {"message": "Время подачи заявок", "description": "2.0 exam.js"}, "view": {"message": "Вид", "description": "2.0 exam.js"}}
+{
+  "close": {
+    "message": "Закрыть",
+    "description": "2.0 exam.js"
+  },
+  "examinationResults": {
+    "message": "Результаты экзаменов",
+    "description": "2.0 exam.js"
+  },
+  "examinationAnalysis": {
+    "message": "Анализ экзамена",
+    "description": "2.0 exam.js"
+  },
+  "allBatches": {
+    "message": "Все сеансы",
+    "description": "2.0 exam.js"
+  },
+  "allClasses": {
+    "message": "Все классы",
+    "description": "2.0 exam.js"
+  },
+  "allTeachers": {
+    "message": "Все учителя",
+    "description": "2.0 exam.js"
+  },
+  "submissionStatus": {
+    "message": "Статус представления",
+    "description": "2.0 exam.js"
+  },
+  "sort": {
+    "message": "Сортировки",
+    "description": "2.0 exam.js"
+  },
+  "studentNumUp": {
+    "message": "Восхождение по студенческому удостоверению личности",
+    "description": "2.0 exam.js"
+  },
+  "studentNumDown": {
+    "message": "Спуск по студенческому удостоверению личности",
+    "description": "2.0 exam.js"
+  },
+  "totalScoreUp": {
+    "message": "Восхождение на общий балл",
+    "description": "2.0 exam.js"
+  },
+  "totalScoreDown": {
+    "message": "Спуск по общему счету",
+    "description": "2.0 exam.js"
+  },
+  "export": {
+    "message": "Экспорт",
+    "description": "2.0 exam.js"
+  },
+  "derivedAchievements": {
+    "message": "Результат экспорта",
+    "description": "2.0 exam.js"
+  },
+  "exportAnswerRecords": {
+    "message": "Ответы на экспортные экзамены",
+    "description": "2.0 exam.js"
+  },
+  "fastExport": {
+    "message": "Экспортные баллы",
+    "description": "2.0 exam.js"
+  },
+  "customExport": {
+    "message": "Результаты экспортных обычаев",
+    "description": "2.0 exam.js"
+  },
+  "startRemark": {
+    "message": "Начало маркировки",
+    "description": "2.0 exam.js"
+  },
+  "batchRemark": {
+    "message": "Пакетный сорт",
+    "description": "2.0 exam.js"
+  },
+  "remarkByQuestion": {
+    "message": "Марк по вопросу",
+    "description": "2.0 exam.js"
+  },
+  "all": {
+    "message": "Все",
+    "description": "2.0 exam.js"
+  },
+  "notApproved": {
+    "message": "Неклассифицированные",
+    "description": "2.0 exam.js"
+  },
+  "readed": {
+    "message": "Прочитать",
+    "description": "2.0 exam.js"
+  },
+  "notSubmitted": {
+    "message": "Не представлено",
+    "description": "2.0 exam.js"
+  },
+  "exception": {
+    "message": "Помечены",
+    "description": "2.0 exam.js"
+  },
+  "readTip1": {
+    "message": "\"В ожидании\"",
+    "description": "2.0 exam.js"
+  },
+  "readTip2": {
+    "message": "означает, что компонент ручной оценки еще не градуированный",
+    "description": "2.0 exam.js"
+  },
+  "serialNumber": {
+    "message": "Серийный номер",
+    "description": "2.0 exam.js"
+  },
+  "studentNumber": {
+    "message": "Идентификатор студента",
+    "description": "2.0 exam.js"
+  },
+  "name": {
+    "message": "Имя",
+    "description": "2.0 exam.js"
+  },
+  "totalScore": {
+    "message": "Общий балл",
+    "description": "2.0 exam.js"
+  },
+  "objectiveQuestions": {
+    "message": "Оценка объективных вопросов",
+    "description": "2.0 exam.js"
+  },
+  "subjectiveQuestions": {
+    "message": "Ручной балл",
+    "description": "2.0 exam.js"
+  },
+  "examinationPapers": {
+    "message": "Экзамены Включены",
+    "description": "2.0 exam.js"
+  },
+  "status": {
+    "message": "Статус",
+    "description": "2.0 exam.js"
+  },
+  "submissionTime": {
+    "message": "Представлены",
+    "description": "2.0 exam.js"
+  },
+  "operation": {
+    "message": "Операции",
+    "description": "2.0 exam.js"
+  },
+  "leaveExam": {
+    "message": "Оставить экзамен",
+    "description": "2.0 exam.js"
+  },
+  "leaveExamTip": {
+    "message": "Студент, который оставил онлайн экзаменационную работу во время экзамена для других целей больше, чем установлено количество раз разрешено, его / ее документ будет вынужден представлен системой. Если вы считаете, что они нарушили правила экзамена, вы можете организовать студентов, чтобы принять экзамен снова",
+    "description": "2.0 exam.js"
+  },
+  "answerRecord": {
+    "message": "Ответы на экзамены",
+    "description": "2.0 exam.js"
+  },
+  "behaviorTrace": {
+    "message": "След поведения",
+    "description": "2.0 exam.js"
+  },
+  "markPapers": {
+    "message": "Экзамен по классу",
+    "description": "2.0 exam.js"
+  },
+  "setUpRetest": {
+    "message": "Пересдача комплекта",
+    "description": "2.0 exam.js"
+  },
+  "deleteRecords": {
+    "message": "Удаление записей",
+    "description": "2.0 exam.js"
+  },
+  "noDataTip": {
+    "message": "Без информации, пожалуйста, добавьте студентов на экзамен или измените критерии поиска",
+    "description": "2.0 exam.js"
+  },
+  "chooseBatch": {
+    "message": "Пожалуйста, выберите партию для сдачи экзамена",
+    "description": "2.0 exam.js"
+  },
+  "to": {
+    "message": "Кому",
+    "description": "2.0 exam.js"
+  },
+  "confirm": {
+    "message": "Подтвердить",
+    "description": "2.0 exam.js"
+  },
+  "cancel": {
+    "message": "Отмена",
+    "description": "2.0 exam.js"
+  },
+  "toBeApproved": {
+    "message": "Неклассифицированные",
+    "description": "2.0 exam.js"
+  },
+  "notAttending": {
+    "message": "Не присутствовал",
+    "description": "2.0 exam.js"
+  },
+  "inExam": {
+    "message": "Во время экзамена",
+    "description": "2.0 exam.js"
+  },
+  "homePage": {
+    "message": "Домашняя страница",
+    "description": "2.0 exam.js"
+  },
+  "lastPage": {
+    "message": "Последняя страница",
+    "description": "2.0 exam.js"
+  },
+  "upperPage": {
+    "message": "Предыдущая страница",
+    "description": "2.0 exam.js"
+  },
+  "nextPage": {
+    "message": "Следующая страница",
+    "description": "2.0 exam.js"
+  },
+  "jumpPage": {
+    "message": "Прыгать",
+    "description": "2.0 exam.js"
+  },
+  "reTestTip1": {
+    "message": "После того, как пересдача установлена, все предыдущие записи экзамена этого студента будут удалены. Вы уверены, что хотите установить эту пересдачу?",
+    "description": "2.0 exam.js"
+  },
+  "reTestTip2": {
+    "message": "Существует нет подходящей партии экзамена, вы хотите добавить пакет?",
+    "description": "2.0 exam.js"
+  },
+  "deleteTip": {
+    "message": "Удаление результатов экзамена не поспособно. Вы уверены, что хотите удалить?",
+    "description": "2.0 exam.js"
+  },
+  "exportTip": {
+    "message": "Только наивысший балл каждого студента будет экспортироваться. Для индивидуального экспорта, пожалуйста, выберите \"Экспортные пользовательские результаты\".",
+    "description": "2.0 exam.js"
+  },
+  "tips": {
+    "message": "Советы",
+    "description": "2.0 exam.js"
+  },
+  "chooseClass": {
+    "message": "Выберите класс:",
+    "description": "2.0 exam.js"
+  },
+  "derivedExaminationAnalysis": {
+    "message": "Отчет об экспортном анализе",
+    "description": "2.0 exam.js"
+  },
+  "basicInformation": {
+    "message": "Базовая информация",
+    "description": "2.0 exam.js"
+  },
+  "quantity": {
+    "message": "Рассчитывает",
+    "description": "2.0 exam.js"
+  },
+  "proportion": {
+    "message": "Пропорции",
+    "description": "2.0 exam.js"
+  },
+  "examStuNum": {
+    "message": "студенты, са принимающие экзамен",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
+  },
+  "expectExamStuNum": {
+    "message": "Нет. студентов, которые должны сдать экзамен,",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
+  },
+  "referenceRate": {
+    "message": "Посещаемость",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
+  },
+  "exceptionRate": {
+    "message": "Скорость аномалии",
+    "description": "2.0 exam.js"
+  },
+  "averageAnswerTime": {
+    "message": "Средняя продолжительность экзамена",
+    "description": "2.0 exam.js"
+  },
+  "maximumAnswerTime": {
+    "message": "Самое длинное время ответа",
+    "description": "2.0 exam.js"
+  },
+  "minimumAnswerTime": {
+    "message": "Самое короткое время ответа",
+    "description": "2.0 exam.js"
+  },
+  "mobile": {
+    "message": "Мобильное устройство",
+    "description": "2.0 exam.js"
+  },
+  "PC": {
+    "message": "Пк",
+    "description": "2.0 exam.js"
+  },
+  "computeTip": {
+    "message": "Примечание: Рассчитано по подсчетам устройств, используемых студентами",
+    "description": "2.0 exam.js"
+  },
+  "examinationAchievementsAnalysis": {
+    "message": "Анализ результатов экзамена",
+    "description": "2.0 exam.js"
+  },
+  "averageAchievement": {
+    "message": "Средний балл",
+    "description": "2.0 exam.js"
+  },
+  "standardDeviation": {
+    "message": "Стандартное отклонение",
+    "description": "2.0 exam.js"
+  },
+  "standardDeviationTip": {
+    "message": "Стандартное отклонение представляет собой степень дисперсии студенческих выступлений. Большое стандартное отклонение представляет собой большую разницу между большинством значений и их средним значением. Меньший означает, что эти значения ближе к среднему.",
+    "description": "2.0 exam.js"
+  },
+  "passRate": {
+    "message": "Скорость прохождения",
+    "description": "2.0 exam.js"
+  },
+  "highestScore": {
+    "message": "Наивысший балл",
+    "description": "2.0 exam.js"
+  },
+  "minimumScore": {
+    "message": "Самый низкий балл",
+    "description": "2.0 exam.js"
+  },
+  "scoreTip1": {
+    "message": "Примечание: 1. Данные исключают студентов, которые пропустили или не начали экзамен.",
+    "description": "2.0 exam.js"
+  },
+  "scoreTip2": {
+    "message": "2. Оценка студентов, которые ответили несколько раз, учитывается в соответствии с его/ее наивысшим баллом.",
+    "description": "2.0 exam.js"
+  },
+  "fractionalStatistics": {
+    "message": "Статистика диапазона баллов",
+    "description": "2.0 exam.js"
+  },
+  "noStuRecord": {
+    "message": "Существует нет студента ответ записи в настоящее время!",
+    "description": "2.0 exam.js"
+  },
+  "paperAnalysis": {
+    "message": "Анализ экзаменов",
+    "description": "2.0 exam.js"
+  },
+  "chart": {
+    "message": "Диаграммы",
+    "description": "2.0 exam.js"
+  },
+  "form": {
+    "message": "Формы",
+    "description": "2.0 exam.js"
+  },
+  "paperStatistics": {
+    "message": "Статистика использования экзаменационной бумаги",
+    "description": "2.0 exam.js"
+  },
+  "personnel": {
+    "message": "кол (ы)",
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
+  },
+  "detailedAnalysis": {
+    "message": "Подробная информация",
+    "description": "2.0 exam.js"
+  },
+  "scoreStatistics": {
+    "message": "Статистика баллов",
+    "description": "2.0 exam.js"
+  },
+  "paperName": {
+    "message": "Название экзаменационной бумаги",
+    "description": "2.0 exam.js"
+  },
+  "userNum": {
+    "message": "Нет. времени использования нет. студентов",
+    "description": "2.0 exam.js"
+  },
+  "proportion2": {
+    "message": "Пропорции",
+    "description": "2.0 exam.js"
+  },
+  "averageScore": {
+    "message": "Средний балл",
+    "description": "2.0 exam.js"
+  },
+  "disabled": {
+    "message": "Прекращено",
+    "description": "2.0 exam.js"
+  },
+  "questionAnalysis": {
+    "message": "Анализ вопросов",
+    "description": "2.0 exam.js"
+  },
+  "previewPapers": {
+    "message": "Предварительный экзамен",
+    "description": "2.0 exam.js"
+  },
+  "quantity2": {
+    "message": "Нет. вопросов:",
+    "description": "2.0 exam.js"
+  },
+  "totalScore2": {
+    "message": "Общий балл",
+    "description": "2.0 exam.js"
+  },
+  "paperPartAnalysis": {
+    "message": "Раздел Анализ экзаменационной работы",
+    "description": "2.0 exam.js"
+  },
+  "pdfGeneration": {
+    "message": "PDF генерируется...",
+    "description": "2.0 exam.js"
+  },
+  "choosePaper": {
+    "message": "Выберите экзаменационную работу:",
+    "description": "2.0 exam.js"
+  },
+  "exportAllQuestion": {
+    "message": "Экспорт всех тестовых вопросов анализа в один клик",
+    "description": "2.0 exam.js"
+  },
+  "exportCurrentQuestion": {
+    "message": "Экспорт текущей страницы",
+    "description": "2.0 exam.js"
+  },
+  "paperAccuracy": {
+    "message": "Точность статистики экзаменационных работ",
+    "description": "2.0 exam.js"
+  },
+  "questionNumSToL": {
+    "message": "Восходящий порядок номера вопроса",
+    "description": "2.0 exam.js"
+  },
+  "questionNumLToS": {
+    "message": "Порядок убывания номера вопроса",
+    "description": "2.0 exam.js"
+  },
+  "questionNum": {
+    "message": "Номер вопроса",
+    "description": "2.0 exam.js"
+  },
+  "questionType": {
+    "message": "Тип вопроса",
+    "description": "2.0 exam.js"
+  },
+  "correctRate": {
+    "message": "Точность",
+    "description": "2.0 exam.js"
+  },
+  "correctAnswer": {
+    "message": "Правильный ответ",
+    "description": "2.0 exam.js"
+  },
+  "optionStuNum": {
+    "message": "Нет. студентов выбрали вариант",
+    "description": "2.0 exam.js"
+  },
+  "difficulty": {
+    "message": "Трудности",
+    "description": "2.0 exam.js"
+  },
+  "difficultyTip": {
+    "message": "Уровень сложности часто зависит от скорости прохождения. Чем выше уровень сложности, тем проще вопрос. Чем меньше значение, тем сложнее вопрос. В целом, подходящий уровень сложности вопросов составляет от 0,3 до 0,8.",
+    "description": "2.0 exam.js"
+  },
+  "difficulties": {
+    "message": "Трудно",
+    "description": "2.0 exam.js"
+  },
+  "general": {
+    "message": "Средняя",
+    "description": "2.0 exam.js"
+  },
+  "easy": {
+    "message": "Легко",
+    "description": "2.0 exam.js"
+  },
+  "discrimination": {
+    "message": "Дифференциации",
+    "description": "2.0 exam.js"
+  },
+  "discriminationTip": {
+    "message": "Уровень дискриминации относится к степени или способности тестовых вопросов различать студентов с различными академическими стандартами. Уровень дискриминации составляет от -1 до 1, чем больше, тем лучше. Как правило, уровень дискриминации тестовых вопросов должен быть более 0,3.",
+    "description": "2.0 exam.js"
+  },
+  "discriminationTip1": {
+    "message": ", указывая, что вопрос хорошо дифференцированы.",
+    "description": "2.0 exam.js"
+  },
+  "discriminationTip2": {
+    "message": ", показывая плохую дифференциацию, пожалуйста, измените.",
+    "description": "2.0 exam.js"
+  },
+  "discriminationTip3": {
+    "message": "Отрицательное значение дифференциации указывает на то, что вопрос или ответ не является правильным.",
+    "description": "2.0 exam.js"
+  },
+  "noData": {
+    "message": "Нет данных",
+    "description": "2.0 exam.js"
+  },
+  "recommendedAnswer": {
+    "message": "Рекомендуемый ответ:",
+    "description": "2.0 exam.js"
+  },
+  "parsing": {
+    "message": "Обратной связи",
+    "description": "2.0 exam.js"
+  },
+  "previousQuestion": {
+    "message": "Предыдущий вопрос",
+    "description": "2.0 exam.js"
+  },
+  "nextQuestion": {
+    "message": "Следующий вопрос",
+    "description": "2.0 exam.js"
+  },
+  "previewQuestion": {
+    "message": "Предварительный вопрос",
+    "description": "2.0 exam.js"
+  },
+  "searchTip": {
+    "message": "Введите ключевое слово для поиска",
+    "description": "2.0 exam.js"
+  },
+  "submitByAPP": {
+    "message": "Через APP",
+    "description": "2.0 exam.js"
+  },
+  "submitByPC": {
+    "message": "Через Интернет",
+    "description": "2.0 exam.js"
+  },
+  "chooseExamBatch": {
+    "message": "Пожалуйста, выберите пакет экзаменов, за который вы собираетесь сидеть",
+    "description": "2.0 exam.js"
+  },
+  "unknown": {
+    "message": "Неизвестный",
+    "description": "2.0 exam.js"
+  },
+  "points": {
+    "message": "Точки",
+    "description": "2.0 exam.js"
+  },
+  "paperPartName": {
+    "message": "Название раздела экзаменационной работы",
+    "description": "2.0 exam.js"
+  },
+  "peopleNum": {
+    "message": "Нет. испытуемых",
+    "description": "2.0 exam.js"
+  },
+  "abandonRate": {
+    "message": "Уровень отсутствия",
+    "description": "2.0 exam.js"
+  },
+  "day": {
+    "message": "День",
+    "description": "2.0 exam.js"
+  },
+  "hour": {
+    "message": "Час",
+    "description": "2.0 exam.js"
+  },
+  "minute": {
+    "message": "Минуту",
+    "description": "2.0 exam.js"
+  },
+  "seconds": {
+    "message": "Второй",
+    "description": "2.0 exam.js"
+  },
+  "scoringRate": {
+    "message": "Оценка скорости",
+    "description": "2.0 exam.js"
+  },
+  "score": {
+    "message": "Оценка по",
+    "description": "2.0 exam.js"
+  },
+  "exam": {
+    "message": "Экзамены",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips1": {
+    "message": "Список всех экзаменов отображается здесь, где администратор курса может публиковать/просматривать экзамены для всех классов, в то время как учитель может публиковать/просматривать экзамены только для своего класса.",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips2": {
+    "message": "Все экзамены, размещенные учителем, показаны здесь. В настройках экзамена могут быть различия, такие как позднее время, разрешено для каждого экзамена, продолжительность ответа и возможность ответа несколько раз. Пожалуйста, обратите внимание, чтобы проверить его.",
+    "description": "2.0 exam.js"
+  },
+  "examTips1": {
+    "message": "Если вы принимаете экзамен, который включает распознавание лиц, пожалуйста, загрузите свою фотографию заранее, чтобы избежать задержки в ответе на вопросы.",
+    "description": "2.0 exam.js"
+  },
+  "goToIdentify": {
+    "message": "Перейти проверить",
+    "description": "2.0 exam.js"
+  },
+  "addExam": {
+    "message": "Добавить экзамен",
+    "description": "2.0 exam.js"
+  },
+  "examPaperLibrary": {
+    "message": "Экзамен Бумажный банк",
+    "description": "2.0 exam.js"
+  },
+  "questionLibrary": {
+    "message": "Вопрос Банка",
+    "description": "2.0 exam.js"
+  },
+  "examEnvironmentDetection": {
+    "message": "Проверка соответствия требованиям компьютера",
+    "description": "2.0 exam.js"
+  },
+  "examName": {
+    "message": "Название экзамена",
+    "description": "2.0 exam.js"
+  },
+  "field": {
+    "message": "Сеансов",
+    "description": "指有多少场考试"
+  },
+  "total": {
+    "message": "Общая",
+    "description": "2.0 exam.js"
+  },
+  "creator": {
+    "message": "Создатель",
+    "description": "2.0 exam.js"
+  },
+  "examTime": {
+    "message": "Время экзамена",
+    "description": "2.0 exam.js"
+  },
+  "examPaper": {
+    "message": "Экзамены",
+    "description": "2.0 exam.js"
+  },
+  "answerTimes": {
+    "message": "Ответы таймс \"",
+    "description": "2.0 exam.js"
+  },
+  "achievement": {
+    "message": "Результат",
+    "description": "2.0 exam.js"
+  },
+  "noStart": {
+    "message": "Еще не начато",
+    "description": "2.0 exam.js"
+  },
+  "onGoing": {
+    "message": "Текущих",
+    "description": "2.0 exam.js"
+  },
+  "hasEnded": {
+    "message": "Закончилась",
+    "description": "2.0 exam.js"
+  },
+  "examDurationCl": {
+    "message": "Продолжительность экзамена:",
+    "description": "2.0 exam.js"
+  },
+  "lateTime": {
+    "message": "Поздний старт Разрешено:",
+    "description": "2.0 exam.js"
+  },
+  "myself": {
+    "message": "Себя",
+    "description": "2.0 exam.js"
+  },
+  "start": {
+    "message": "Начать",
+    "description": "2.0 exam.js"
+  },
+  "ended": {
+    "message": "Конец",
+    "description": "2.0 exam.js"
+  },
+  "noBatch": {
+    "message": "Нет партии",
+    "description": "2.0 exam.js"
+  },
+  "part": {
+    "message": "Часть",
+    "description": "2.0 exam.js"
+  },
+  "randomGroupPaper": {
+    "message": "Создание экзаменационной бумаги случайным образом",
+    "description": "2.0 exam.js"
+  },
+  "viewScore": {
+    "message": "Просмотр результатов",
+    "description": "2.0 exam.js"
+  },
+  "previewExam": {
+    "message": "Предварительный экзамен",
+    "description": "2.0 exam.js"
+  },
+  "modifyExam": {
+    "message": "Редактировать экзамен",
+    "description": "2.0 exam.js"
+  },
+  "modifyBatch": {
+    "message": "Редактировать сессии",
+    "description": "2.0 exam.js"
+  },
+  "delete": {
+    "message": "Удалить",
+    "description": "2.0 exam.js"
+  },
+  "startExam": {
+    "message": "Стартовый экзамен",
+    "description": "2.0 exam.js"
+  },
+  "examTips2": {
+    "message": "Пожалуйста, используйте Ulearning APP для сдачи экзамена",
+    "description": "2.0 exam.js"
+  },
+  "examTips3": {
+    "message": "Вы не можете поступить на экзамен, потому что время, разрешено для опоздать на экзамен уже закончилась",
+    "description": "2.0 exam.js"
+  },
+  "examTips4": {
+    "message": "Гость/хозяин:",
+    "description": "2.0 exam.js"
+  },
+  "afterExamFinished": {
+    "message": "После экзамена",
+    "description": "2.0 exam.js"
+  },
+  "dayShow": {
+    "message": "Отображение за днем (ы)",
+    "description": "2.0 exam.js"
+  },
+  "examTips5": {
+    "message": "Результаты еще не объявлены",
+    "description": "2.0 exam.js"
+  },
+  "examTips6": {
+    "message": "Соответствующий экзамен не найден",
+    "description": "2.0 exam.js"
+  },
+  "noExam": {
+    "message": "Нет экзамена",
+    "description": "2.0 exam.js"
+  },
+  "networkErrorTips": {
+    "message": "Ошибка сети, нажмите",
+    "description": "2.0 exam.js"
+  },
+  "loadErrorTips": {
+    "message": "Ошибка загрузки, нажмите кнопку",
+    "description": "2.0 exam.js"
+  },
+  "reload": {
+    "message": "Перезагрузить",
+    "description": "2.0 exam.js"
+  },
+  "unlimited": {
+    "message": "Неограниченное",
+    "description": "2.0 exam.js"
+  },
+  "examTips7": {
+    "message": "Вы обязательно удалите экзамен?",
+    "description": "2.0 exam.js"
+  },
+  "deletePaper": {
+    "message": "Удалить экзаменационную бумагу",
+    "description": "2.0 exam.js"
+  },
+  "deleteSuccess": {
+    "message": "Удалено успешно",
+    "description": "2.0 exam.js"
+  },
+  "deleteFailed": {
+    "message": "Не удалось удалить",
+    "description": "2.0 exam.js"
+  },
+  "batchRemarkQue": {
+    "message": "Пакет маркировки тест вопросы",
+    "description": "2.0 exam.js"
+  },
+  "remarkTips1": {
+    "message": "Примечание: если студент представил несколько записей ответов, по умолчанию последняя запись будет отображаться",
+    "description": "2.0 exam.js"
+  },
+  "theFirst": {
+    "message": "Нет.",
+    "description": "2.0 exam.js"
+  },
+  "que": {
+    "message": "вопрос (ы)",
+    "description": "2.0 exam.js"
+  },
+  "specialQueBefore": {
+    "message": "Нет.",
+    "description": "2.0 exam.js"
+  },
+  "specialQueAfter": {
+    "message": "вопрос (ы)",
+    "description": "2.0 exam.js"
+  },
+  "specialAnsweringBefore": {
+    "message": "Нет.",
+    "description": "2.0 exam.js"
+  },
+  "specialAnsweringAfter": {
+    "message": "Отвечая",
+    "description": "2.0 exam.js"
+  },
+  "seeDetails": {
+    "message": "Просмотр деталей",
+    "description": "2.0 exam.js"
+  },
+  "allAnswer": {
+    "message": "Все ответы",
+    "description": "2.0 exam.js"
+  },
+  "thisQueFullScore": {
+    "message": "Полные оценки по этому вопросу: баллы",
+    "description": "2.0 exam.js"
+  },
+  "noMark": {
+    "message": "Еще не отмечены",
+    "description": "2.0 exam.js"
+  },
+  "hasMarked": {
+    "message": "Отмечены",
+    "description": "2.0 exam.js"
+  },
+  "batchScore": {
+    "message": "Пакетная маркировка",
+    "description": "2.0 exam.js"
+  },
+  "openedAnonymousMarking": {
+    "message": "Анонимная маркировка установлена",
+    "description": "2.0 exam.js"
+  },
+  "preview": {
+    "message": "Предварительный просмотр",
+    "description": "2.0 exam.js"
+  },
+  "download": {
+    "message": "Скачать",
+    "description": "2.0 exam.js"
+  },
+  "modifyScore": {
+    "message": "Изменить оценку",
+    "description": "2.0 exam.js"
+  },
+  "approximateAnswerBatchScore": {
+    "message": "Пакетная маркировка для аналогичных ответов",
+    "description": "2.0 exam.js"
+  },
+  "inputScore": {
+    "message": "Пожалуйста, введите счет",
+    "description": "2.0 exam.js"
+  },
+  "fullScore": {
+    "message": "Полные метки",
+    "description": "2.0 exam.js"
+  },
+  "save": {
+    "message": "Сохранить",
+    "description": "2.0 exam.js"
+  },
+  "noStudent": {
+    "message": "Нет студента",
+    "description": "2.0 exam.js"
+  },
+  "commit": {
+    "message": "Отправить",
+    "description": "2.0 exam.js"
+  },
+  "remarkTips2": {
+    "message": "Нет экзаменационных вопросов, которые должны быть отмечены",
+    "description": "2.0 exam.js"
+  },
+  "remarkTips3": {
+    "message": "Примечание: вы можете одновременно отметить этот вопрос ответили все студенты, а затем пересмотреть счет некоторых отдельных студентов",
+    "description": "2.0 exam.js"
+  },
+  "attachmentPreview": {
+    "message": "Предварительное вложение",
+    "description": "2.0 exam.js"
+  },
+  "remarkTips4": {
+    "message": "От студентов, которые будут оценены, система выяснила, что",
+    "description": "2.0 exam.js"
+  },
+  "remarkTips5": {
+    "message": "части аналогичных ответов. Если вы принимаете результаты распознавания системы, нажмите OK, чтобы сохранить счет.",
+    "description": "2.0 exam.js"
+  },
+  "remarkTips6": {
+    "message": "Этот студент не ответил",
+    "description": "2.0 exam.js"
+  },
+  "remarkTips7": {
+    "message": "Аналогичных ответов среди неклассифицированных ответов не найдено",
+    "description": "2.0 exam.js"
+  },
+  "remarkTips8": {
+    "message": "Пожалуйста, введите счет",
+    "description": "2.0 exam.js"
+  },
+  "remarkTips9": {
+    "message": "Пожалуйста, введите правильный счет и сохранить только одно десятичное место",
+    "description": "2.0 exam.js"
+  },
+  "remarkTips10": {
+    "message": "Оценка не может превышать общий балл",
+    "description": "2.0 exam.js"
+  },
+  "times": {
+    "message": "Раз",
+    "description": "2.0 exam.js"
+  },
+  "baseInformation": {
+    "message": "Базовая информация",
+    "description": "2.0 exam.js"
+  },
+  "examNameCl": {
+    "message": "Название экзамена:",
+    "description": "2.0 exam.js"
+  },
+  "answerDurationCl": {
+    "message": "Продолжительность экзамена:",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesCl": {
+    "message": "Попытки экзамена:",
+    "description": "2.0 exam.js"
+  },
+  "passScoreCl": {
+    "message": "Проходной знак:",
+    "description": "2.0 exam.js"
+  },
+  "participtionWaysCl": {
+    "message": "Способ участия:",
+    "description": "2.0 exam.js"
+  },
+  "resultPublicTimeCl": {
+    "message": "Показать результаты:",
+    "description": "2.0 exam.js"
+  },
+  "resultPublicScopeCl": {
+    "message": "Что показать:",
+    "description": "2.0 exam.js"
+  },
+  "faceVerificationCl": {
+    "message": "Распознавание лиц:",
+    "description": "2.0 exam.js"
+  },
+  "opened": {
+    "message": "Открыты",
+    "description": "2.0 exam.js"
+  },
+  "notOpened": {
+    "message": "Не открыт",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCode": {
+    "message": "Альтернативный код проверки",
+    "description": "2.0 exam.js"
+  },
+  "detailTips1": {
+    "message": "1. Этот код проверки может быть использован для входа, когда студенты не могут войти в экзамен по лицу салфетки",
+    "description": "2.0 exam.js"
+  },
+  "detailTips2": {
+    "message": "2. Код проверки действителен в течение 15 минут, пожалуйста, обновите и получите новый код, если время закончилось",
+    "description": "2.0 exam.js"
+  },
+  "faceVerificationPhotoVerify": {
+    "message": "Обзор фотографий для проверки лица",
+    "description": "2.0 exam.js"
+  },
+  "sets": {
+    "message": "набор (ы)",
+    "description": "2.0 exam.js"
+  },
+  "enabled": {
+    "message": "Включен",
+    "description": "2.0 exam.js"
+  },
+  "queNumberCl": {
+    "message": "Раздел Вопросы:",
+    "description": "2.0 exam.js"
+  },
+  "fullScoreCl": {
+    "message": "Полные оценки:",
+    "description": "2.0 exam.js"
+  },
+  "setExamStructure": {
+    "message": "Установить структуру экзаменационной бумаги",
+    "description": "2.0 exam.js"
+  },
+  "phone": {
+    "message": "Телефон",
+    "description": "2.0 exam.js"
+  },
+  "pcAndMobile": {
+    "message": "ПК и мобильный телефон",
+    "description": "2.0 exam.js"
+  },
+  "notShow": {
+    "message": "Не показывать",
+    "description": "2.0 exam.js"
+  },
+  "commitImmediatelyShow": {
+    "message": "Сразу",
+    "description": "2.0 exam.js"
+  },
+  "dayAfterShow": {
+    "message": "Отображение в течение нескольких дней",
+    "description": "2.0 exam.js"
+  },
+  "cannotAllForbidden": {
+    "message": "Храните по крайней мере один экзамен",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthentication": {
+    "message": "Проверка лица",
+    "description": "2.0 exam.js"
+  },
+  "myAuthenticationPhoto": {
+    "message": "Моя фотография для проверки",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips1": {
+    "message": "Нажмите, чтобы загрузить фотографию проверки",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips2": {
+    "message": "Примечание:",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips3": {
+    "message": "Как проверенные фотографии используются для экзаменов с лицом салфетки, пожалуйста, убедитесь, что вы загружаете реальные фотографии. После загрузки учителя могут просмотреть фотографии. Если их фотографии будут признаны несовместимыми с собой, эти студенты будут рассматриваться как обман, что может привести к аннулированию результатов экзамена.",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips4": {
+    "message": "Проверенная фотография не может быть изменена после загрузки",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips5": {
+    "message": ", пожалуйста, подтвердите, что они доступны перед загрузкой",
+    "description": "2.0 exam.js"
+  },
+  "authenticatePhoto": {
+    "message": "Проверенные фотографии",
+    "description": "2.0 exam.js"
+  },
+  "reUpload": {
+    "message": "Загрузить снова",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips6": {
+    "message": "Пожалуйста, проверьте лицо салфетки перед загрузкой",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips7": {
+    "message": "Проверьте, успешно ли салфетка лица",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips8": {
+    "message": "Пожалуйста, лицом к камере и убедитесь, что есть достаточно света",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthenticateFailed": {
+    "message": "Проверка лица не удалась",
+    "description": "2.0 exam.js"
+  },
+  "reTry": {
+    "message": "Повторить",
+    "description": "2.0 exam.js"
+  },
+  "authenticateSuccess": {
+    "message": "Проверка прошла",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips9": {
+    "message": "Пожалуйста, попросите бдительности для кода проверки и введите его",
+    "description": "2.0 exam.js"
+  },
+  "verificationCodeError": {
+    "message": "Код проверки не удалось",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips10": {
+    "message": "Отрегулируйте размер и положение изображения",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips11": {
+    "message": "Перетащите пунктирную коробку, чтобы отрегулировать ее размер и положение",
+    "description": "2.0 exam.js"
+  },
+  "auditor": {
+    "message": "Проверки:",
+    "description": "2.0 exam.js"
+  },
+  "auditTimeCl": {
+    "message": "Время просмотра:",
+    "description": "2.0 exam.js"
+  },
+  "refuseReasonCl": {
+    "message": "Причина отказа:",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips12": {
+    "message": "Фотография не соответствует лицу",
+    "description": "2.0 exam.js"
+  },
+  "waitTeaAudit": {
+    "message": "Дождись обзора учителя",
+    "description": "2.0 exam.js"
+  },
+  "auditPassed": {
+    "message": "Обзор пройден",
+    "description": "2.0 exam.js"
+  },
+  "auditFailed": {
+    "message": "Обзор провалился",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips13": {
+    "message": "Пожалуйста, убедитесь, что фотография может передать лицо салфетки",
+    "description": "2.0 exam.js"
+  },
+  "faceAuthTips14": {
+    "message": "Размер файла не может превышать 10M",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips1": {
+    "message": "Анонимная маркировка была использована в этом экзамене",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips2": {
+    "message": "Нет. экзаменационных работ уступки на mepapers:",
+    "description": "2.0 exam.js"
+  },
+  "readedCl": {
+    "message": "Отмечены",
+    "description": "2.0 exam.js"
+  },
+  "toBeApprovedCl": {
+    "message": "Для пометки:",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips3": {
+    "message": "Количество бумаг, которые будут помечены, выделяется лицом, ответственным за экзамен",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips4": {
+    "message": "Введите экзамен через проверку лица",
+    "description": "2.0 exam.js"
+  },
+  "toBeAudit": {
+    "message": "Для рассмотрения",
+    "description": "2.0 exam.js"
+  },
+  "thisTimeExamPhoto": {
+    "message": "Фотографии для этого экзамена",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips5": {
+    "message": "Введите экзамен через код проверки",
+    "description": "2.0 exam.js"
+  },
+  "studentNOCl": {
+    "message": "Студенческий номер:",
+    "description": "2.0 exam.js"
+  },
+  "classCl": {
+    "message": "Класса:",
+    "description": "2.0 exam.js"
+  },
+  "waitApproved": {
+    "message": "Ожидающие",
+    "description": "2.0 exam.js"
+  },
+  "examinationBehaviorTrajectory": {
+    "message": "Отслеживание поведения теста",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips6": {
+    "message": "Времена аномальных условий превышают установленные сроки, ваша бумага была принудительно представлена системой",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips7": {
+    "message": "Когда экзамен закончен, система будет представлять документ автоматически",
+    "description": "2.0 exam.js"
+  },
+  "computerTerminal": {
+    "message": "Пк",
+    "description": "2.0 exam.js"
+  },
+  "mobileTerminal": {
+    "message": "Мобильных",
+    "description": "2.0 exam.js"
+  },
+  "mobileApp": {
+    "message": "Мобильное приложение",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips8": {
+    "message": "Время отъезда слишком длинное, ненормальное No1",
+    "description": "2.0 exam.js"
+  },
+  "intoPage": {
+    "message": "Введите страницу",
+    "description": "2.0 exam.js"
+  },
+  "leavePage": {
+    "message": "Покинуть страницу",
+    "description": "2.0 exam.js"
+  },
+  "commitExam": {
+    "message": "Представленный экзамен",
+    "description": "2.0 exam.js"
+  },
+  "batchArrangement": {
+    "message": "Сеансов",
+    "description": "2.0 exam.js"
+  },
+  "examRoomArrangement": {
+    "message": "Расположение места проведения экзамена",
+    "description": "2.0 exam.js"
+  },
+  "markExamArrangement": {
+    "message": "Профилирования",
+    "description": "2.0 exam.js"
+  },
+  "markingTips1": {
+    "message": "Нет. документы, содержащие субъективные вопросы:",
+    "description": "2.0 exam.js"
+  },
+  "markingTips2": {
+    "message": "Равномерное назначение классификации",
+    "description": "2.0 exam.js"
+  },
+  "toBeApprovedNumberCl": {
+    "message": "Нет. бумаг, которые будут отмечены:",
+    "description": "2.0 exam.js"
+  },
+  "approvedNumberCl": {
+    "message": "Нет. бумаг с пометкой:",
+    "description": "2.0 exam.js"
+  },
+  "toBeApprovedNumber": {
+    "message": "Нет. бумаг, которые будут отмечены",
+    "description": "2.0 exam.js"
+  },
+  "approvedNumber": {
+    "message": "Нет. бумаг, отмеченных",
+    "description": "2.0 exam.js"
+  },
+  "closeAnonymousMarking": {
+    "message": "Отключение анонимной классификации",
+    "description": "2.0 exam.js"
+  },
+  "openAnonymousMarking": {
+    "message": "Открытая анонимная маркировка",
+    "description": "2.0 exam.js"
+  },
+  "teacher": {
+    "message": "Учитель",
+    "description": "2.0 exam.js"
+  },
+  "markingTips3": {
+    "message": "Участвовать ли в маркировке",
+    "description": "2.0 exam.js"
+  },
+  "markingTips4": {
+    "message": "Нет. назначенных документов",
+    "description": "2.0 exam.js"
+  },
+  "participants": {
+    "message": "Участвовать",
+    "description": "2.0 exam.js"
+  },
+  "noParticipants": {
+    "message": "Нет",
+    "description": "2.0 exam.js"
+  },
+  "finished": {
+    "message": "Закончил",
+    "description": "2.0 exam.js"
+  },
+  "markRecord": {
+    "message": "Рекорды оценки",
+    "description": "2.0 exam.js"
+  },
+  "teacherCl": {
+    "message": "Учитель:",
+    "description": "2.0 exam.js"
+  },
+  "markTime": {
+    "message": "Время маркировки",
+    "description": "2.0 exam.js"
+  },
+  "viewMarkDetail": {
+    "message": "Просмотр деталей маркировки",
+    "description": "2.0 exam.js"
+  },
+  "markingTips5": {
+    "message": "Общее количество назначенных документов не должно превышать количество документов, содержащих субъективные вопросы",
+    "description": "2.0 exam.js"
+  },
+  "arrangingExamRoom": {
+    "message": "Расположение места проведения экзамена",
+    "description": "2.0 exam.js"
+  },
+  "exportTable": {
+    "message": "Таблица экспорта",
+    "description": "2.0 exam.js"
+  },
+  "batch": {
+    "message": "Сессии",
+    "description": "2.0 exam.js"
+  },
+  "clearExamRoomPlan": {
+    "message": "Удалить Расписание объектов",
+    "description": "2.0 exam.js"
+  },
+  "noDesignatedExamRoom": {
+    "message": "-Нет объекта экзамена запланировано-",
+    "description": "2.0 exam.js"
+  },
+  "examRoom": {
+    "message": "Экзамен фонда",
+    "description": "2.0 exam.js"
+  },
+  "classAndStudent": {
+    "message": "Класс/Студент",
+    "description": "2.0 exam.js"
+  },
+  "seatNumber": {
+    "message": "Нет. мест",
+    "description": "2.0 exam.js"
+  },
+  "examStuNumber": {
+    "message": "Нет. из Испытуемых",
+    "description": "2.0 exam.js"
+  },
+  "remainSeat": {
+    "message": "Места слева",
+    "description": "2.0 exam.js"
+  },
+  "invigilator": {
+    "message": "Проктор",
+    "description": "2.0 exam.js"
+  },
+  "etc": {
+    "message": "Др.",
+    "description": "2.0 exam.js"
+  },
+  "people": {
+    "message": "Испытуемых",
+    "description": "2.0 exam.js"
+  },
+  "empty": {
+    "message": "Пустой",
+    "description": "2.0 exam.js"
+  },
+  "nnallocated": {
+    "message": "Не выделено",
+    "description": "2.0 exam.js"
+  },
+  "exanStuList": {
+    "message": "Список изучить",
+    "description": "2.0 exam.js"
+  },
+  "chooseInvigilator": {
+    "message": "Выберите бдительности",
+    "description": "2.0 exam.js"
+  },
+  "inputTeaNameSearch": {
+    "message": "Пожалуйста, введите имя учителя для поиска",
+    "description": "2.0 exam.js"
+  },
+  "roomTips1": {
+    "message": "Нет информации, пожалуйста, измените критерии запроса",
+    "description": "2.0 exam.js"
+  },
+  "roomTips2": {
+    "message": "Вы уверены, что удалите все экзаменационные площадки и бдительности в этой партии?",
+    "description": "2.0 exam.js"
+  },
+  "addBatch": {
+    "message": "Добавить сессию",
+    "description": "2.0 exam.js"
+  },
+  "someBatch": {
+    "message": "сессии (ы)",
+    "description": "2.0 exam.js"
+  },
+  "time": {
+    "message": "Время",
+    "description": "2.0 exam.js"
+  },
+  "participantsClassAndStu": {
+    "message": "Участвующий класс/студент",
+    "description": "2.0 exam.js"
+  },
+  "shouldArrivePeople": {
+    "message": "Нет. испытуемых, которые должны присутствовать",
+    "description": "2.0 exam.js"
+  },
+  "participantsNumber": {
+    "message": "Нет. участников",
+    "description": "2.0 exam.js"
+  },
+  "nonParticipantsNumber": {
+    "message": "Нет. не-участников",
+    "description": "2.0 exam.js"
+  },
+  "studentBrackets": {
+    "message": "(Студент) Нет, нет, нет, нет,",
+    "description": "2.0 exam.js"
+  },
+  "someClassAndStu": {
+    "message": "классы/студенты",
+    "description": "2.0 exam.js"
+  },
+  "modify": {
+    "message": "Редактировать",
+    "description": "2.0 exam.js"
+  },
+  "checkAll": {
+    "message": "Проверить все",
+    "description": "2.0 exam.js"
+  },
+  "expandEndTime": {
+    "message": "Продлить время экзамена",
+    "description": "2.0 exam.js"
+  },
+  "examTimeCl": {
+    "message": "Время экзамена:",
+    "description": "2.0 exam.js"
+  },
+  "startTime": {
+    "message": "Время начала",
+    "description": "2.0 exam.js"
+  },
+  "endTime": {
+    "message": "Время окончания",
+    "description": "2.0 exam.js"
+  },
+  "participantsPeople": {
+    "message": "Участников:",
+    "description": "2.0 exam.js"
+  },
+  "addClass": {
+    "message": "Добавить класс",
+    "description": "2.0 exam.js"
+  },
+  "addStudent": {
+    "message": "Добавить студента",
+    "description": "2.0 exam.js"
+  },
+  "selectClass": {
+    "message": "Выберите класс",
+    "description": "2.0 exam.js"
+  },
+  "selectStudent": {
+    "message": "Выберите студента",
+    "description": "2.0 exam.js"
+  },
+  "allTeacher": {
+    "message": "Все учителя",
+    "description": "2.0 exam.js"
+  },
+  "inputClassNameSearch": {
+    "message": "Введите имя класса для поиска",
+    "description": "2.0 exam.js"
+  },
+  "roomTips3": {
+    "message": "Введите студенческое имя/идентификатор студента для поиска",
+    "description": "2.0 exam.js"
+  },
+  "roomTips4": {
+    "message": "Учитель не получил anya класса",
+    "description": "2.0 exam.js"
+  },
+  "roomTips5": {
+    "message": "Соответствующий класс не найден",
+    "description": "2.0 exam.js"
+  },
+  "roomTips6": {
+    "message": "Соответствующих студентов не найдено",
+    "description": "2.0 exam.js"
+  },
+  "roomTips7": {
+    "message": "Нет студента",
+    "description": "2.0 exam.js"
+  },
+  "batchExpand": {
+    "message": "Расширить пакет",
+    "description": "2.0 exam.js"
+  },
+  "roomTips8": {
+    "message": "Примечание: после продления срока окончания, студенты, которые опаздывают или имеют недостаточное время экзамена по другим причинам, будут иметь свое время экзамена продлен соответственно. Студенты, которые сдают экзамен и подают документы в обычном режиме, не будут затронуты",
+    "description": "2.0 exam.js"
+  },
+  "roomTips9": {
+    "message": "Продолжительность продления должна быть от 1 до 1000",
+    "description": "2.0 exam.js"
+  },
+  "expandSuccess": {
+    "message": "Расширенный успешно",
+    "description": "2.0 exam.js"
+  },
+  "expandFailed": {
+    "message": "Не удалось продлить",
+    "description": "2.0 exam.js"
+  },
+  "roomTips10": {
+    "message": "Удаление этой сессии может удалить ответы на экзамены, связанные с этой сессией. Вы уверены, что хотите удалить его?",
+    "description": "2.0 exam.js"
+  },
+  "roomTips11": {
+    "message": "Вы уверены, что хотите удалить этот экзаменационный центр?",
+    "description": "2.0 exam.js"
+  },
+  "deleteBatch": {
+    "message": "Удалить пакет",
+    "description": "2.0 exam.js"
+  },
+  "roomTips12": {
+    "message": "Пожалуйста, установите время партии",
+    "description": "2.0 exam.js"
+  },
+  "roomTips13": {
+    "message": "Пожалуйста, выберите тестовый объект (класс или студента)",
+    "description": "2.0 exam.js"
+  },
+  "monitor": {
+    "message": "Станция мониторинга",
+    "description": "2.0 exam.js"
+  },
+  "openedFaceVerification": {
+    "message": "Включена проверка лица",
+    "description": "2.0 exam.js"
+  },
+  "viewStandbyVerificationCode": {
+    "message": "Просмотр альтернативного кода проверки",
+    "description": "2.0 exam.js"
+  },
+  "monitorTips1": {
+    "message": "1. Этот код проверки может быть использован, когда студенты не могут войти в экзамен по лицу салфетки",
+    "description": "2.0 exam.js"
+  },
+  "monitorTips2": {
+    "message": "2. Код проверки действителен в течение 15 минут, пожалуйста, обновите и получите новый, когда код станет недействительным",
+    "description": "2.0 exam.js"
+  },
+  "allExamRoom": {
+    "message": "Все экзаменационные помещения",
+    "description": "2.0 exam.js"
+  },
+  "inputNameAndStuNoSearch": {
+    "message": "Введите идентификатор имени/студента для поиска",
+    "description": "2.0 exam.js"
+  },
+  "exportMonitorInfo": {
+    "message": "Информация по мониторингу экспорта",
+    "description": "2.0 exam.js"
+  },
+  "exportPhotos": {
+    "message": "Экспорт фото",
+    "description": "2.0 exam.js"
+  },
+  "noEnterExam": {
+    "message": "Не начато",
+    "description": "2.0 exam.js"
+  },
+  "byVerificationCode": {
+    "message": "Через код проверки",
+    "description": "2.0 exam.js"
+  },
+  "intoExam": {
+    "message": "Введите экзамен",
+    "description": "2.0 exam.js"
+  },
+  "answering": {
+    "message": "Отвечая",
+    "description": "2.0 exam.js"
+  },
+  "handInExam": {
+    "message": "Представлены",
+    "description": "2.0 exam.js"
+  },
+  "equipment": {
+    "message": "Устройства",
+    "description": "2.0 exam.js"
+  },
+  "verificationType": {
+    "message": "Режим проверки",
+    "description": "2.0 exam.js"
+  },
+  "intoExamTime": {
+    "message": "Начал",
+    "description": "2.0 exam.js"
+  },
+  "answerTimeMinite": {
+    "message": "Продолжительность (мин)",
+    "description": "2.0 exam.js"
+  },
+  "faceVerification": {
+    "message": "Проверка лица",
+    "description": "2.0 exam.js"
+  },
+  "verificationCode": {
+    "message": "Код проверки",
+    "description": "2.0 exam.js"
+  },
+  "abnormalRecord": {
+    "message": "Аномальные записи",
+    "description": "2.0 exam.js"
+  },
+  "haveEntered": {
+    "message": "Начал",
+    "description": "2.0 exam.js"
+  },
+  "notEnter": {
+    "message": "Не запущено",
+    "description": "2.0 exam.js"
+  },
+  "beAnswering": {
+    "message": "Отвечая",
+    "description": "2.0 exam.js"
+  },
+  "descriptionCl": {
+    "message": "Примечание:",
+    "description": "2.0 exam.js"
+  },
+  "auditTips1": {
+    "message": "На экзамене с проверкой лица студенты должны загружать фотографии для проверки заранее. Фотографии могут быть импортированы учителями партиями или загружены самими студентами. Преподаватели могут просмотреть фотографии, загруженные студентами. Вы можете выбрать в настройках экзамена, если вы позволите студентам с неутверждеными фотографиями, чтобы войти в экзамен по лицу салфетки. Студенты, не сдавайте экзамен учителя, не будут допущены к экзамену.",
+    "description": "2.0 exam.js"
+  },
+  "batchExportPhotos": {
+    "message": "Пакет импортных фотографий",
+    "description": "2.0 exam.js"
+  },
+  "exportAuthenticationInfo": {
+    "message": "Обобщить информацию о проверке",
+    "description": "2.0 exam.js"
+  },
+  "unuploadedPhotos": {
+    "message": "Фотография не была загружена",
+    "description": "2.0 exam.js"
+  },
+  "batchOpration": {
+    "message": "Пакетная операция",
+    "description": "2.0 exam.js"
+  },
+  "finish": {
+    "message": "Закончил",
+    "description": "2.0 exam.js"
+  },
+  "checkAllWholePage": {
+    "message": "Выберите эту страницу",
+    "description": "2.0 exam.js"
+  },
+  "batchAudit": {
+    "message": "Пакетный обзор",
+    "description": "2.0 exam.js"
+  },
+  "batchClearPhoto": {
+    "message": "Пакет очистки фотографий",
+    "description": "2.0 exam.js"
+  },
+  "replacePhoto": {
+    "message": "Заменить фото",
+    "description": "2.0 exam.js"
+  },
+  "reAudit": {
+    "message": "Обзор еще раз",
+    "description": "2.0 exam.js"
+  },
+  "photoUploader": {
+    "message": "Фотография загружена:",
+    "description": "2.0 exam.js"
+  },
+  "photoUploadTimeCl": {
+    "message": "Время загрузки фотографий:",
+    "description": "2.0 exam.js"
+  },
+  "photoAuditorCl": {
+    "message": "Фоторепортер:",
+    "description": "2.0 exam.js"
+  },
+  "photoAuditTimeCl": {
+    "message": "Время просмотра фото:",
+    "description": "2.0 exam.js"
+  },
+  "batchExportAuthenticationPhoto": {
+    "message": "Пакет импорта проверенные фотографии",
+    "description": "2.0 exam.js"
+  },
+  "authenticationPhotoRequire": {
+    "message": "Требования к проверенной фотографии",
+    "description": "2.0 exam.js"
+  },
+  "auditTips2": {
+    "message": "Формат:jpg, jpeg, png, bmp.",
+    "description": "2.0 exam.js"
+  },
+  "auditTips3": {
+    "message": "Размер: рекомендуется стандартная 1-дюймовая (413-295 пикселей) идентификационная фотография или фотография эквивалентного размера.",
+    "description": "2.0 exam.js"
+  },
+  "auditTips4": {
+    "message": "Название файла фотографии должно содержать студенческий идентификатор и никакие арабские цифры, кроме студенческого удостоверения личности.",
+    "description": "2.0 exam.js"
+  },
+  "auditTips5": {
+    "message": "Рекомендуется использовать удостоверение личности студента, записанное в системе управления образованием.",
+    "description": "2.0 exam.js"
+  },
+  "auditTips6": {
+    "message": "Пример для именования фотографий",
+    "description": "2.0 exam.js"
+  },
+  "auditTips7": {
+    "message": "Чжан Сан",
+    "description": "2.0 exam.js"
+  },
+  "auditTips8": {
+    "message": "Пожалуйста, пакет все фотографии в формате zip и загрузить",
+    "description": "2.0 exam.js"
+  },
+  "uploadPhoto": {
+    "message": "Загрузить фото",
+    "description": "2.0 exam.js"
+  },
+  "cancelUpload": {
+    "message": "Отмена загрузки",
+    "description": "2.0 exam.js"
+  },
+  "batchAuditAuthenticationPhoto": {
+    "message": "Пакетная проверка проверенных фотографий",
+    "description": "2.0 exam.js"
+  },
+  "auditTips9": {
+    "message": "Фотографии не могут быть восстановлены после очистки. Вы уверены, чтобы очистить это",
+    "description": "2.0 exam.js"
+  },
+  "batchClearAuthenticationPhoto": {
+    "message": "Пакетная очистка проверенных фотографий",
+    "description": "2.0 exam.js"
+  },
+  "auditTips10": {
+    "message": "Это проверенные фотографии студентов?",
+    "description": "2.0 exam.js"
+  },
+  "auditTips12": {
+    "message": "Пожалуйста, подождите, пока последняя фотография будет загружена",
+    "description": "2.0 exam.js"
+  },
+  "auditTips13": {
+    "message": "Пожалуйста, выберите студента для проверки",
+    "description": "2.0 exam.js"
+  },
+  "auditTips14": {
+    "message": "Пожалуйста, выберите студента, чья фотография будет очищена",
+    "description": "2.0 exam.js"
+  },
+  "auditTips15": {
+    "message": "Загруженный пакет не может быть более 1 ГБ",
+    "description": "2.0 exam.js"
+  },
+  "uploaded": {
+    "message": "Загружены",
+    "description": "2.0 exam.js"
+  },
+  "auditTips16": {
+    "message": "Загрузка завершена, фотография в настоящее время соответствует ...",
+    "description": "2.0 exam.js"
+  },
+  "auditTips17": {
+    "message": "Импорт успешно завершен",
+    "description": "2.0 exam.js"
+  },
+  "auditTips18": {
+    "message": "части проверенных фотографий. Сбой при",
+    "description": "2.0 exam.js"
+  },
+  "auditTips19": {
+    "message": "Куски. Идентификатор студента или форматы файлов следующих студентов неверны (",
+    "description": "2.0 exam.js"
+  },
+  "auditTips20": {
+    "message": "Импорт успешно завершен",
+    "description": "2.0 exam.js"
+  },
+  "auditTips21": {
+    "message": "части проверенных фотографий",
+    "description": "2.0 exam.js"
+  },
+  "auditTips22": {
+    "message": "Фотографии в выбранном файле не найдены. Пожалуйста, проверьте файл",
+    "description": "2.0 exam.js"
+  },
+  "auditTips23": {
+    "message": "Существует исключение в импорте изображения",
+    "description": "2.0 exam.js"
+  },
+  "auditTips24": {
+    "message": "Загрузка не удалось, пожалуйста, проверьте формат файла",
+    "description": "2.0 exam.js"
+  },
+  "auditTips25": {
+    "message": "Загрузка ненормальных",
+    "description": "2.0 exam.js"
+  },
+  "myQuestionLibrary": {
+    "message": "Мой вопрос банка",
+    "description": "2.0 exam.js"
+  },
+  "examPaperTitle": {
+    "message": "Название экзаменационной работы",
+    "description": "2.0 exam.js"
+  },
+  "examStructure": {
+    "message": "Структура экзаменационной бумаги",
+    "description": "2.0 exam.js"
+  },
+  "queTotalNumberCl": {
+    "message": "Экзаменационные вопросы:",
+    "description": "2.0 exam.js"
+  },
+  "examPaperFullScore": {
+    "message": "Полные оценки экзамена:",
+    "description": "2.0 exam.js"
+  },
+  "randomTips1": {
+    "message": "Копирование существующей структуры экзамена",
+    "description": "2.0 exam.js"
+  },
+  "inputSectionName": {
+    "message": "Пожалуйста, введите название раздела",
+    "description": "2.0 exam.js"
+  },
+  "scoreCl": {
+    "message": "Точки:",
+    "description": "2.0 exam.js"
+  },
+  "moveUp": {
+    "message": "Двигайтесь вверх",
+    "description": "2.0 exam.js"
+  },
+  "moveDown": {
+    "message": "Перемещение вниз",
+    "description": "2.0 exam.js"
+  },
+  "extractQueNumberCl": {
+    "message": "Нет. извлеченных вопросов:",
+    "description": "2.0 exam.js"
+  },
+  "eachContainSubQue": {
+    "message": "Подзапросы:",
+    "description": "2.0 exam.js"
+  },
+  "number2": {
+    "message": "вопрос (ы)",
+    "description": "2.0 exam.js"
+  },
+  "eachQueScoreCl": {
+    "message": "Оценка каждого вопроса:",
+    "description": "2.0 exam.js"
+  },
+  "subQueScoreCl": {
+    "message": "Точки:",
+    "description": "2.0 exam.js"
+  },
+  "containSubQueType": {
+    "message": "Типы под вопросов:",
+    "description": "2.0 exam.js"
+  },
+  "extractMenuCl": {
+    "message": "Каталог извлеченных вопросов:",
+    "description": "2.0 exam.js"
+  },
+  "seleteMenu": {
+    "message": "Выберите каталог",
+    "description": "2.0 exam.js"
+  },
+  "randomTips2": {
+    "message": "(Каталог недействителен)",
+    "description": "2.0 exam.js"
+  },
+  "randomTips3": {
+    "message": "Примечание: всеобъемлющий вопрос является большим. Добавление всеобъемлющего вопроса означает извлечение большого вопроса",
+    "description": "2.0 exam.js"
+  },
+  "addQuestionType": {
+    "message": "Добавление типа вопросов",
+    "description": "2.0 exam.js"
+  },
+  "addSection": {
+    "message": "Добавить раздел",
+    "description": "2.0 exam.js"
+  },
+  "copyExamStructure": {
+    "message": "Структура экзамена копирования",
+    "description": "2.0 exam.js"
+  },
+  "selectCourse": {
+    "message": "Выберите курс",
+    "description": "2.0 exam.js"
+  },
+  "pleaseSelectCourse": {
+    "message": "Пожалуйста, выберите курс",
+    "description": "2.0 exam.js"
+  },
+  "selectExam": {
+    "message": "Выберите экзамен",
+    "description": "2.0 exam.js"
+  },
+  "pleaseSelectExam": {
+    "message": "Пожалуйста, выберите экзамен",
+    "description": "2.0 exam.js"
+  },
+  "selectExamPaper": {
+    "message": "Выберите экзаменационную работу",
+    "description": "2.0 exam.js"
+  },
+  "pleaseSelectExamPaper": {
+    "message": "Пожалуйста, выберите экзаменационную работу",
+    "description": "2.0 exam.js"
+  },
+  "selectExtractMenuCl": {
+    "message": "Выберите каталог для извлечения вопросов",
+    "description": "2.0 exam.js"
+  },
+  "schoolQuestionLibrary": {
+    "message": "Школьный банк вопросов",
+    "description": "2.0 exam.js"
+  },
+  "randomTips4": {
+    "message": "Каталог не создан",
+    "description": "2.0 exam.js"
+  },
+  "randomTips5": {
+    "message": "Сначала перейдите в",
+    "description": "2.0 exam.js"
+  },
+  "randomTips6": {
+    "message": "Мой вопрос банка",
+    "description": "2.0 exam.js"
+  },
+  "randomTips7": {
+    "message": "Добавить каталог папок в",
+    "description": "2.0 exam.js"
+  },
+  "singleChoiceQ": {
+    "message": "Множественный выбор",
+    "description": "2.0 exam.js"
+  },
+  "multipleChoiceQ": {
+    "message": "Множественный ответ",
+    "description": "2.0 exam.js"
+  },
+  "completionQ": {
+    "message": "Заполнить-в-пустой",
+    "description": "2.0 exam.js"
+  },
+  "judgementQ": {
+    "message": "Правда/Ложь",
+    "description": "2.0 exam.js"
+  },
+  "shortAnswerQ": {
+    "message": "Краткий ответ",
+    "description": "2.0 exam.js"
+  },
+  "sequencingQ": {
+    "message": "Последовательности",
+    "description": "2.0 exam.js"
+  },
+  "comprehensiveQ": {
+    "message": "Комбинации",
+    "description": "2.0 exam.js"
+  },
+  "pullDownSelectionQ": {
+    "message": "Падение несколько вариантов",
+    "description": "2.0 exam.js"
+  },
+  "matchingQ": {
+    "message": "Соответствующие",
+    "description": "2.0 exam.js"
+  },
+  "readingQ": {
+    "message": "Чтение вопросов",
+    "description": "2.0 exam.js"
+  },
+  "listeningQ": {
+    "message": "Прослушивание вопросов",
+    "description": "2.0 exam.js"
+  },
+  "writingQ": {
+    "message": "Написание вопросов",
+    "description": "2.0 exam.js"
+  },
+  "translationQ": {
+    "message": "Вопросы о переводе",
+    "description": "2.0 exam.js"
+  },
+  "clozeQ": {
+    "message": "Тест Клозе",
+    "description": "2.0 exam.js"
+  },
+  "descriptionModule": {
+    "message": "Модуль описания",
+    "description": "2.0 exam.js"
+  },
+  "syntaxModule": {
+    "message": "Грамматический модуль",
+    "description": "2.0 exam.js"
+  },
+  "lexicalModule": {
+    "message": "Модуль лексики",
+    "description": "2.0 exam.js"
+  },
+  "spokenModule": {
+    "message": "Устный модуль",
+    "description": "2.0 exam.js"
+  },
+  "readingQBankedCloze": {
+    "message": "Чтение (заполнение пробелов)",
+    "description": "2.0 exam.js"
+  },
+  "attachUploadQ": {
+    "message": "Загрузка вложения",
+    "description": "2.0 exam.js"
+  },
+  "listeningObjectivesQ": {
+    "message": "Прослушивание объективного вопроса прослушивания",
+    "description": "2.0 exam.js"
+  },
+  "completionQDisorder": {
+    "message": "Несколько пустых вопросов заполнения в порядке",
+    "description": "2.0 exam.js"
+  },
+  "discussionQ": {
+    "message": "Вопросы эссе",
+    "description": "2.0 exam.js"
+  },
+  "materialAnalysisQ": {
+    "message": "Материальный анализ",
+    "description": "2.0 exam.js"
+  },
+  "autoGroupPaper": {
+    "message": "Создание бумаги автоматически",
+    "description": "2.0 exam.js"
+  },
+  "randomTips8": {
+    "message": "Название экзаменационной работы должно быть от 1 до 200 букв",
+    "description": "2.0 exam.js"
+  },
+  "randomTips9": {
+    "message": "Добавить по крайней мере один раздел в экзаменационную работу",
+    "description": "2.0 exam.js"
+  },
+  "randomTips10": {
+    "message": "Название раздела должно быть от 1 до 200 букв",
+    "description": "2.0 exam.js"
+  },
+  "randomTips11": {
+    "message": "Структура экзаменационной бумаги не завершена, пожалуйста, проверьте и измените, прежде чем пытаться снова.",
+    "description": "2.0 exam.js"
+  },
+  "randomTips12": {
+    "message": "Количество вопросов в каталоге недостаточно. Пожалуйста, добавьте каталог.",
+    "description": "2.0 exam.js"
+  },
+  "selectExamRoom": {
+    "message": "Выберите экзаменационный фонд",
+    "description": "2.0 exam.js"
+  },
+  "confirmExamRoom": {
+    "message": "Подтверждение экзаменационного фонда",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips1": {
+    "message": "Максимальное количество участников на партию:",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips2": {
+    "message": "(Общее количество мест в выбранном экзаменационном центре должно быть больше этого значения)",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips3": {
+    "message": "Общее количество мест в выбранном месте проведения экзамена:",
+    "description": "2.0 exam.js"
+  },
+  "addExamRoom": {
+    "message": "Добавить экзаменационный фонд",
+    "description": "2.0 exam.js"
+  },
+  "examRoomName": {
+    "message": "Название экзаменационного центра",
+    "description": "2.0 exam.js"
+  },
+  "type": {
+    "message": "Тип",
+    "description": "2.0 exam.js"
+  },
+  "normalClassroom": {
+    "message": "Нормальный класс",
+    "description": "2.0 exam.js"
+  },
+  "computerRoom": {
+    "message": "Компьютерная лаборатория",
+    "description": "2.0 exam.js"
+  },
+  "lastStep": {
+    "message": "Последний шаг",
+    "description": "2.0 exam.js"
+  },
+  "nextStep": {
+    "message": "Следующий шаг",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips4": {
+    "message": "Пожалуйста, выберите место проведения экзамена для каждой партии. Общее количество мест для каждой партии должно быть больше, чем количество студентов",
+    "description": "2.0 exam.js"
+  },
+  "seat": {
+    "message": "Мест",
+    "description": "2.0 exam.js"
+  },
+  "examStudent": {
+    "message": "Испытуемых",
+    "description": "2.0 exam.js"
+  },
+  "seats": {
+    "message": "Мест",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips5": {
+    "message": "Система автоматически генерирует расположение мест в зависимости от количества студентов класса и количества мест в месте проведения экзамена. Вы можете вручную настроить и сохранить расположение сиденья после подтверждения.",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips6": {
+    "message": "Нажмите, чтобы выбрать класс, вы можете изменить место проведения экзамена. Выберите два класса, вы можете обменяться местами проведения экзаменов по мере необходимости.",
+    "description": "2.0 exam.js"
+  },
+  "modifyExamRoom": {
+    "message": "Редактировать экзаменационный фонд",
+    "description": "2.0 exam.js"
+  },
+  "exchangeExamRoom": {
+    "message": "Обмен экзаменационных площадок",
+    "description": "2.0 exam.js"
+  },
+  "saveArranging": {
+    "message": "Сохранить расположение",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips7": {
+    "message": "Вы можете переместить текущий класс в другое место или выбрать и назначить некоторых студентов в другое место проведения экзамена",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips8": {
+    "message": "(Всего Но. студентов:",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips9": {
+    "message": ", среди них",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips10": {
+    "message": "студенты могут быть перемещены в следующее место проведения экзамена:",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips11": {
+    "message": "Вы обязательно удалите место проведения экзамена?",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips12": {
+    "message": "Пожалуйста, введите название места проведения экзамена",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips13": {
+    "message": "Пожалуйста, введите число больше нуля",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips14": {
+    "message": "Общее количество мест должно быть больше максимального количества участников в одной партии",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips15": {
+    "message": "Пожалуйста, выберите место проведения экзамена",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips16": {
+    "message": "Количество мест меньше, чем количество студентов",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips17": {
+    "message": "Количество студентов, которые будут перемещены, не может быть нулевым",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips18": {
+    "message": "Количество студентов, которые будут перемещены, не может превышать общее число студентов",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips19": {
+    "message": "Количество студентов, которые будут перемещены, не может превышать оставшееся количество мест",
+    "description": "2.0 exam.js"
+  },
+  "roomEditorTips20": {
+    "message": "Не осталось достаточного количества мест",
+    "description": "2.0 exam.js"
+  },
+  "inputExamName": {
+    "message": "Пожалуйста, введите название экзамена",
+    "description": "2.0 exam.js"
+  },
+  "examPapers": {
+    "message": "Экзаменационная бумага",
+    "description": "2.0 exam.js"
+  },
+  "appointExamPaper": {
+    "message": "Назначить экзаменационную работу",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips1": {
+    "message": "(Она не может быть изменена, когда начинается обследование)",
+    "description": "2.0 exam.js"
+  },
+  "enable": {
+    "message": "Включить",
+    "description": "2.0 exam.js"
+  },
+  "disable": {
+    "message": "Отключить",
+    "description": "2.0 exam.js"
+  },
+  "questionNumber": {
+    "message": "Экзаменационные вопросы:",
+    "description": "2.0 exam.js"
+  },
+  "passScore": {
+    "message": "Проходной знак",
+    "description": "2.0 exam.js"
+  },
+  "examResult": {
+    "message": "Результат экзамена",
+    "description": "2.0 exam.js"
+  },
+  "immediateDisplay": {
+    "message": "Сразу",
+    "description": "2.0 exam.js"
+  },
+  "daysAfterShow": {
+    "message": "Отображение в течение нескольких дней",
+    "description": "2.0 exam.js"
+  },
+  "weekAfterShow": {
+    "message": "Отображение после нескольких недель",
+    "description": "2.0 exam.js"
+  },
+  "noShow": {
+    "message": "Не показывать",
+    "description": "2.0 exam.js"
+  },
+  "examDuration": {
+    "message": "Продолжительность экзамена",
+    "description": "2.0 exam.js"
+  },
+  "showScope": {
+    "message": "Что показать",
+    "description": "2.0 exam.js"
+  },
+  "participtionWay": {
+    "message": "Способ участия",
+    "description": "2.0 exam.js"
+  },
+  "onPCExam": {
+    "message": "Сдать экзамен с помощью ПК",
+    "description": "2.0 exam.js"
+  },
+  "onMobileExam": {
+    "message": "Сдать экзамен с помощью мобильного телефона",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips2": {
+    "message": "Экзамен доступен как на ПК, так и на мобильном телефоне",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips3": {
+    "message": "Вопросы формулы еще не подкреплены мобильным экзаменом",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips4": {
+    "message": "Содержат тестовые вопросы, которые не поддерживаются системой., пожалуйста, измените способ участия или отрегулируйте содержание экзаменационной работы",
+    "description": "2.0 exam.js"
+  },
+  "examTimes": {
+    "message": "Экзамен Таймс",
+    "description": "2.0 exam.js"
+  },
+  "most": {
+    "message": "Большинство",
+    "description": "2.0 exam.js"
+  },
+  "unlimitTimes": {
+    "message": "Неограниченное время",
+    "description": "2.0 exam.js"
+  },
+  "lateTime2": {
+    "message": "Поздний запуск Разрешено",
+    "description": "2.0 exam.js"
+  },
+  "abnormalMonitor": {
+    "message": "Аномальный мониторинг",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips5": {
+    "message": "Мониторинг количества случаев, когда студенты покидают онлайн-экзамен в период экзамена. Если больше, чем",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips6": {
+    "message": "раз, ваш документ будет представлен автоматически",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips7": {
+    "message": "Только поддержка экзамена по мобильному телефону. Основа мониторинга: страница мобильного телефона возвращается на страницу рабочего стола, закрывается или запускает приложение в бэкэнде",
+    "description": "2.0 exam.js"
+  },
+  "identityVerification": {
+    "message": "Идентификации",
+    "description": "2.0 exam.js"
+  },
+  "openFaceVerification": {
+    "message": "Инициализировать проверку лица",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips8": {
+    "message": "Разрешить студентам, чьи фотографии до проверки, чтобы войти в экзамен",
+    "description": "2.0 exam.js"
+  },
+  "description": {
+    "message": "Описание",
+    "description": "2.0 exam.js"
+  },
+  "fold": {
+    "message": "Свернуть",
+    "description": "2.0 exam.js"
+  },
+  "unfold": {
+    "message": "Разверните",
+    "description": "2.0 exam.js"
+  },
+  "publishExam": {
+    "message": "Опубликовать экзамен",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips9": {
+    "message": "(Эта услуга является платной, и ваша организация еще не подписалась на нее. Если вы собираетесь подписаться, пожалуйста, свяжитесь со службой поддержки клиентов: service.sg@ulearning.cn)",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips10": {
+    "message": "(Услуга истекла, если вам нужно продолжать пользоваться услугой, пожалуйста, свяжитесь со службой поддержки клиентов: service.sg@ulearning.cn)",
+    "description": "2.0 exam.js"
+  },
+  "modifyBatchs": {
+    "message": "Модифицировать партию",
+    "description": "2.0 exam.js"
+  },
+  "batchs": {
+    "message": "Сессии",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips11": {
+    "message": "Вы обязательно удалите эту партию?",
+    "description": "2.0 exam.js"
+  },
+  "publishSuccess": {
+    "message": "Опубликовано успешно",
+    "description": "2.0 exam.js"
+  },
+  "modifyExamSuccess": {
+    "message": "Отредактированный экзамен успешно",
+    "description": "2.0 exam.js"
+  },
+  "modifyBatchSuccess": {
+    "message": "Модифицированная партия успешно",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips12": {
+    "message": "Двойные документы были удалены",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips13": {
+    "message": "Экзаменационные работы с записями ответов не могут быть удалены",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips14": {
+    "message": "Храните хотя бы одну экзаменационную бумагу",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips15": {
+    "message": "Название экзамена должно быть от 2 до 100 букв",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips16": {
+    "message": "Храните по крайней мере одну бумагу с включенным поддержкой",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips17": {
+    "message": "Проходные знаки должны быть между 0",
+    "description": "2.0 exam.js"
+  },
+  "setExamTips19": {
+    "message": "Пожалуйста, выберите объект экзамена (класс или студент)",
+    "description": "2.0 exam.js"
+  },
+  "allBatch": {
+    "message": "Все партии",
+    "description": "2.0 exam.js"
+  },
+  "inputNameSearch": {
+    "message": "Введите имя для поиска",
+    "description": "2.0 exam.js"
+  },
+  "approve": {
+    "message": "Маркировка",
+    "description": "2.0 exam.js"
+  },
+  "scoreAnalysis": {
+    "message": "Анализ оценки",
+    "description": "2.0 exam.js"
+  },
+  "averageFinishedTime": {
+    "message": "Среднее время завершения",
+    "description": "2.0 exam.js"
+  },
+  "statisticsTips1": {
+    "message": "Вся информация в отчете не включает тех студентов, которые отсутствовали на экзамене",
+    "description": "2.0 exam.js"
+  },
+  "statisticsTips2": {
+    "message": "Оценка студентов, которые имеют несколько записей ответов должны быть подсчитаны в соответствии с наивысшим баллом",
+    "description": "2.0 exam.js"
+  },
+  "userNumber": {
+    "message": "Нет. пользователей",
+    "description": "2.0 exam.js"
+  },
+  "viewQue": {
+    "message": "Просмотр тестовых вопросов",
+    "description": "2.0 exam.js"
+  },
+  "examInfo": {
+    "message": "Настройки экзамена",
+    "description": "2.0 exam.js"
+  },
+  "examinationManagement": {
+    "message": "Управление экзаменами",
+    "description": "2.0 exam.js"
+  },
+  "examMonitor": {
+    "message": "Экзамен Прокторинг",
+    "description": "2.0 exam.js"
+  },
+  "analysisReport": {
+    "message": "Отчет об анализе",
+    "description": "2.0 exam.js"
+  },
+  "class": {
+    "message": "Класса",
+    "description": "2.0 exam.js"
+  },
+  "roomTips14": {
+    "message": "Введите идентификатор студента/имя для поиска",
+    "description": "2.0 exam.js"
+  },
+  "allStudent": {
+    "message": "Все студенты",
+    "description": "2.0 exam.js"
+  },
+  "auditFailed2": {
+    "message": "Отклонено",
+    "description": "2.0 exam.js"
+  },
+  "remain": {
+    "message": "Налево",
+    "description": "2.0 exam.js"
+  },
+  "let": {
+    "message": "Позвольте",
+    "description": "2.0 exam.js"
+  },
+  "objectivesQ": {
+    "message": "Объективный вопрос",
+    "description": "2.0 exam.js"
+  },
+  "subjectiveQ": {
+    "message": "Субъективные вопросы",
+    "description": "2.0 exam.js"
+  },
+  "commitTime": {
+    "message": "Время подачи заявок",
+    "description": "2.0 exam.js"
+  },
+  "view": {
+    "message": "Вид",
+    "description": "2.0 exam.js"
+  }
+}
