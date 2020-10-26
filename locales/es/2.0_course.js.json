@@ -5327,16 +5327,36 @@
     "message": "Importar contenido del curso de Blackboard",
     "description": "2.0 course.js"
   },
+  "importFromICourse": {
+    "message": "Importa desde el curso Amor.",
+    "description": "2.0 course.js"
+  },
   "videoCourse": {
-    "message": "Video clase pública.",
+    "message": "Video de clase pública.",
     "description": "2.0 course.js"
   },
   "resourceCourse": {
-    "message": "Lecciones de intercambio de recursos.",
+    "message": "Intercambio de recursos.",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse": {
+    "message": "Los recursos y los datos del material del curso son proporcionados por el Curso de Amor.",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse1": {
+    "message": "Este curso es proporcionado por 【Curso de Amor】",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse2": {
+    "message": "[Curso de Amor] proporciona los recursos y los datos del material didáctico, y los datos de ese día se pueden consultar aproximadamente a las 12 del mediodía del día siguiente.",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse3": {
+    "message": "[Curso de Amor] proporciona los recursos y los datos del material del curso, y los datos de aprendizaje del día se actualizarán después de las 12 del mediodía del día siguiente.",
     "description": "2.0 course.js"
   },
   "coursewarePreview": {
-    "message": "Obtenga una vista previa del material didáctico.",
+    "message": "Vista previa del curso",
     "description": "2.0 course.js"
   },
   "videoViewNum": {
@@ -5353,6 +5373,10 @@
   },
   "docViewTimes": {
     "message": "El número de veces que se ha visto el documento.",
+    "description": "2.0 course.js"
+  },
+  "iCourseAssessmentTips": {
+    "message": "El curso es proporcionado por el Curso de Amor, y la puntuación del material del curso no es compatible para su inclusión en la evaluación.",
     "description": "2.0 course.js"
   },
   "coursewareStat": {
@@ -5384,15 +5408,15 @@
     "description": "2.0 course.js"
   },
   "academy": {
-    "message": "Colegios.",
+    "message": "Institución educativa",
     "description": "2.0 course.js"
   },
   "goToJoinTheCourse": {
-    "message": "Vaya a ULearning para unirse a la clase.",
+    "message": "Vaya a la app ULearning 2.0 para unirse a la clase.",
     "description": "2.0 course.js"
   },
   "downloadApp": {
-    "message": "Descargue la aplicación \"Ulearning 2.0\".",
+    "message": "Descargar la aplicación ULearning 2.0.",
     "description": "2.0 course.js"
   },
   "enterLiveName": {
@@ -5408,7 +5432,7 @@
     "description": "2.0 course.js"
   },
   "hours": {
-    "message": "Horas.",
+    "message": "Hora(s)",
     "description": "2.0 course.js"
   },
   "scopeLive": {
@@ -5416,11 +5440,11 @@
     "description": "2.0 course.js"
   },
   "gradeLive": {
-    "message": "Vive en la clase.",
+    "message": "Transmisión en vivo en la clase",
     "description": "2.0 course.js"
   },
   "publicLive": {
-    "message": "Difusión pública.",
+    "message": "Transmisión en vivo pública",
     "description": "2.0 course.js"
   },
   "shareLiveEnter": {
@@ -5432,7 +5456,7 @@
     "description": "2.0 course.js"
   },
   "createConsent": {
-    "message": "Crea como estés de acuerdo.",
+    "message": "Crear y aceptar acuerdo",
     "description": "2.0 course.js"
   },
   "userLiveProtocol": {
@@ -5452,7 +5476,7 @@
     "description": "2.0 course.js"
   },
   "startTimeNotEmpty": {
-    "message": "La hora de inicio no puede estar vacía.",
+    "message": "La hora de inicio no puede estar vacía",
     "description": "2.0 course.js"
   },
   "classListNotEmpty": {
@@ -5553,10 +5577,6 @@
   },
   "deleteClassroom": {
     "message": "Elimine la clase.",
-    "description": "2.0 course.js"
-  },
-  "confirmDeleteClassroom": {
-    "message": "删除课堂将会删除该课堂上发布的课堂互动，确定删除？",
     "description": "2.0 course.js"
   },
   "copyClassroomToClass": {

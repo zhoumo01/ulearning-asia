@@ -236,7 +236,7 @@
     "description": "2.0 admin.js"
   },
   "publishTime": {
-    "message": "Published",
+    "message": "Time Published",
     "description": "2.0 admin.js"
   },
   "course": {
@@ -292,7 +292,7 @@
     "description": "2.0 admin.js"
   },
   "changePermissionTips": {
-    "message": "After you edit the role privileges, click Save changes to take effect.",
+    "message": "After you edit the role privileges, click Save Changes to take effect.",
     "description": "2.0 admin.js"
   },
   "inputRoleName": {
@@ -301,6 +301,70 @@
   },
   "systemAdministrator": {
     "message": "System Admin",
+    "description": "2.0 admin.js"
+  },
+  "deleteRoleTips": {
+    "message": "Are you sure you want to delete the role? Deleting role won't delete the user account. You can assign another role to the user.",
+    "description": "2.0 admin.js"
+  },
+  "onlySystemTips": {
+    "message": "For system admins only",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips1": {
+    "message": "Course Management: School Course Management (Merge Courses/Transfer Course, Open Course, View Course Analysis)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips2": {
+    "message": "Course Management: Internal MOOC Management (Publishing Review, Edit Category, Web Display Settings)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips3": {
+    "message": "Course Management: External MOOCs Management",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips4": {
+    "message": "Teacher Management (Add/Edit/Delete Teacher, Act as Teacher)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips5": {
+    "message": "Student Management (Add/Edit/Delete Student, Act as Student)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips6": {
+    "message": "Administrative Class Management (Add/Edit/Delete Class)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips7": {
+    "message": "Announcements (Publish/Edit/Delete Announcement)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips8": {
+    "message": "Role Privilege Settings (Add/Edit/Delete Role, Set Role Privileges)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips9": {
+    "message": "Admin Settings (Add/Edit/Delete Admin, Assign Role)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips10": {
+    "message": "View and Manage Sub-system",
+    "description": "2.0 admin.js"
+  },
+  "addAdminTips1": {
+    "message": "Select Role",
+    "description": "2.0 admin.js"
+  },
+  "addAdminTips2": {
+    "message": "Select at least one college",
+    "description": "2.0 admin.js"
+  },
+  "saveSuccess": {
+    "message": "Saved successfully!",
+    "description": "2.0 admin.js"
+  },
+  "saveFailed": {
+    "message": "Save failed",
     "description": "2.0 admin.js"
   },
   "subsystem.mobileEvaluation": {
@@ -312,11 +376,11 @@
     "description": "2.0 admin.js"
   },
   "subsystem.oralTest": {
-    "message": "Oral English Test",
+    "message": "Spoken English Test",
     "description": "2.0 admin.js"
   },
   "subsystem.excellentCourses": {
-    "message": "Excellent Course Website",
+    "message": "Selected Course Portal Site",
     "description": "2.0 admin.js"
   },
   "subsystem.DigitalMarx": {
@@ -324,7 +388,7 @@
     "description": "2.0 admin.js"
   },
   "subsystem.mobileTest": {
-    "message": "Mobile Test",
+    "message": "Mobile Exam",
     "description": "2.0 admin.js"
   },
   "subsystem.live": {
@@ -356,7 +420,7 @@
     "description": "2.0 admin.js"
   },
   "screenDynamic.activityRanking": {
-    "message": "Ranking of Activity Level",
+    "message": "Top 10 Most Active",
     "description": "2.0 admin.js"
   },
   "screenDynamic.thisWeek": {
@@ -364,15 +428,15 @@
     "description": "2.0 admin.js"
   },
   "screenDynamic.activeOrganizationTop": {
-    "message": "Active institutes Top 10",
+    "message": "Top 10 Most Active Institutes",
     "description": "2.0 admin.js"
   },
   "screenDynamic.activeTeacherTop": {
-    "message": "Active teachers Top 10",
+    "message": "Top 10 Most Active Teachers",
     "description": "2.0 admin.js"
   },
   "screenDynamic.activeCourseClassTop": {
-    "message": "Active courses Top 10",
+    "message": "Top 10 Most Active courses",
     "description": "2.0 admin.js"
   },
   "dataCenter.attendanceTotalNum": {
@@ -384,7 +448,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.answerTotalNum": {
-    "message": "Total no. of quick answering",
+    "message": "Compete to Answers",
     "description": "2.0 admin.js"
   },
   "dataCenter.attendanceAnalysis": {
@@ -396,35 +460,35 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.answerAnalysis": {
-    "message": "Quick Answering Analysis",
+    "message": "Compete to Answer Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.participantsTeacherNum": {
-    "message": "No. of Participating Teachers",
+    "message": "Teachers Participated",
     "description": "2.0 admin.js"
   },
   "dataCenter.participantsTeacherRate": {
-    "message": "% of Participating Teachers",
+    "message": "% of Teachers Participated",
     "description": "2.0 admin.js"
   },
   "dataCenter.participantsstudentNum": {
-    "message": "No. of Participating Students",
+    "message": "Students Participated",
     "description": "2.0 admin.js"
   },
   "dataCenter.participantsstudentRate": {
-    "message": "% of Participating Students",
+    "message": "% of Students Participated",
     "description": "2.0 admin.js"
   },
   "dataCenter.attendancePublishRankingTop": {
-    "message": "Roll Call published ranking Top 10",
+    "message": "Top 10 Roll Calls",
     "description": "2.0 admin.js"
   },
   "dataCenter.votePublishRankingTop": {
-    "message": "Poll published ranking Top 10",
+    "message": "Top 10 Polls",
     "description": "2.0 admin.js"
   },
   "dataCenter.answerPublishRankingTop": {
-    "message": "Quick Answering published ranking Top 10",
+    "message": "Top 10 Compete to Answers",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishNum": {
@@ -436,15 +500,15 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.attendanceNum": {
-    "message": "No. of Roll Calls",
+    "message": "Roll Calls",
     "description": "2.0 admin.js"
   },
   "dataCenter.voteNum": {
-    "message": "No. of Polls",
+    "message": "Polls",
     "description": "2.0 admin.js"
   },
   "dataCenter.answerNum": {
-    "message": "No. of Q&A",
+    "message": "Compete to Answers",
     "description": "2.0 admin.js"
   },
   "dataCenter.teacherTotalNum": {
@@ -464,19 +528,19 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.classTotalNum": {
-    "message": "Classes",
+    "message": "Total No. of Classes",
     "description": "2.0 admin.js"
   },
   "dataCenter.platformActivityAnalysis": {
-    "message": "Platform Activity Analysis",
+    "message": "Platform Active Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.teachContentAnalysis": {
-    "message": "Teaching Content Analysis",
+    "message": "Course Content Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.teachActivitiesAnalysis": {
-    "message": "Teaching Activities Analysis",
+    "message": "Course Activity Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.classroomInteractionAnalysis": {
@@ -484,15 +548,15 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.coursewareStudyAnalysis": {
-    "message": "Courseware Study Analysis",
+    "message": "Courseware Learning Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.pleaseUseAdminAccount": {
-    "message": "Please login with administrator account",
+    "message": "Log in with admin account",
     "description": "2.0 admin.js"
   },
   "dataCenter.selectCourseware": {
-    "message": "Select courseware",
+    "message": "Select Courseware",
     "description": "2.0 admin.js"
   },
   "dataCenter.currentOverallLearningProgress": {
@@ -500,7 +564,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.chapterDetailedStatistics": {
-    "message": "Chapter Detailed Statistics",
+    "message": "Module Statistics Details",
     "description": "2.0 admin.js"
   },
   "dataCenter.progress": {
@@ -508,7 +572,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.videoStudyTime": {
-    "message": "Video Study Time",
+    "message": "Video Learning Time",
     "description": "2.0 admin.js"
   },
   "dataCenter.exerAccuracyRate": {
@@ -516,39 +580,39 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.exerAverAnswerTime": {
-    "message": "Average answer time of exercises",
+    "message": "Average answer time per exercise question",
     "description": "2.0 admin.js"
   },
   "dataCenter.exerAverCompletionRate": {
-    "message": "Average completion rate of exercises",
+    "message": "Average exercise completion rate",
     "description": "2.0 admin.js"
   },
   "dataCenter.coursewarevideoDuration": {
-    "message": "Total duration of courseware videos",
+    "message": "Total courseware video length",
     "description": "2.0 admin.js"
   },
   "dataCenter.videoNum": {
-    "message": "No. of Video",
+    "message": "No. of Videos",
     "description": "2.0 admin.js"
   },
   "dataCenter.videoAverageDuration": {
-    "message": "Video Average Duration",
+    "message": "Average Video Length",
     "description": "2.0 admin.js"
   },
   "dataCenter.longestVideoDuration": {
-    "message": "Longest Video Duration",
+    "message": "Longest Video Length",
     "description": "2.0 admin.js"
   },
   "dataCenter.shortestVideoDuration": {
-    "message": "Shortest Video Duration",
+    "message": "Shortest Video Length",
     "description": "2.0 admin.js"
   },
   "dataCenter.totalLoginTimes": {
-    "message": "Total Login Times",
+    "message": "Total Logins",
     "description": "2.0 admin.js"
   },
   "dataCenter.loginNumTips": {
-    "message": "Total login times since 2018-6-8",
+    "message": "Total logins since 2018-6-8",
     "description": "2.0 admin.js"
   },
   "dataCenter.teacherLoginTrend": {
@@ -560,7 +624,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.totalTeacherTimes": {
-    "message": "Total No. of Teacher’s Login Times",
+    "message": "Total Teacher Logins",
     "description": "2.0 admin.js"
   },
   "dataCenter.studentLoginTrend": {
@@ -572,31 +636,31 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.totalStudentTimes": {
-    "message": "Total No. of Student’s Login Times",
+    "message": "Total Student Logins",
     "description": "2.0 admin.js"
   },
   "dataCenter.todayLogin": {
-    "message": "Login today",
+    "message": "Logins Today",
     "description": "2.0 admin.js"
   },
   "dataCenter.refreshTip": {
-    "message": "Data will be from 0hr to 24hr. Update once in every 5min",
+    "message": "The data is updated every 5 minutes from 0 to 24 o'clock.",
     "description": "2.0 admin.js"
   },
   "dataCenter.courseActivityRankingTop": {
-    "message": "Course activity ranking TOP30",
+    "message": "TOP 30 Most Active Courses",
     "description": "2.0 admin.js"
   },
   "dataCenter.teacherActivityRankingTop": {
-    "message": "Teacher activity ranking TOP30",
+    "message": "TOP 30 Most Active Teachers",
     "description": "2.0 admin.js"
   },
   "dataCenter.studentActivityRankingTop": {
-    "message": "Student activity ranking TOP30",
+    "message": "TOP 30 Most Active Students",
     "description": "2.0 admin.js"
   },
   "dataCenter.comeInCourseAsViewed": {
-    "message": "Enter in the course page is considered as viewed",
+    "message": "Opening the course page is counted as one course view",
     "description": "2.0 admin.js"
   },
   "dataCenter.courseName": {
@@ -608,19 +672,19 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.studentViewTimes": {
-    "message": "Student’s View Times",
+    "message": "Student Views",
     "description": "2.0 admin.js"
   },
   "dataCenter.chargeCourse": {
-    "message": "Course in charge",
+    "message": "Responsible for the course",
     "description": "2.0 admin.js"
   },
   "dataCenter.loginTimes": {
-    "message": "Login Times",
+    "message": "Logins",
     "description": "2.0 admin.js"
   },
   "dataCenter.loginPeople": {
-    "message": "No. of Login Times",
+    "message": "Total Logins",
     "description": "2.0 admin.js"
   },
   "dataCenter.teacherTimes": {
@@ -632,15 +696,15 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.announcementNum": {
-    "message": "Total No. of Announcements",
+    "message": "Total Announcements",
     "description": "2.0 admin.js"
   },
   "dataCenter.homeworkTotalNum": {
-    "message": "Assignments",
+    "message": "Total Assignments",
     "description": "2.0 admin.js"
   },
   "dataCenter.discussTopic": {
-    "message": "Discussion Topic",
+    "message": "Total Discussions",
     "description": "2.0 admin.js"
   },
   "dataCenter.exam": {
@@ -648,15 +712,15 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.announcementPublishAnalysis": {
-    "message": "Announcement Publishing Analysis",
+    "message": "Announcement Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAnnouncementTotalNum": {
-    "message": "Total No. of Announcement",
+    "message": "Total Announcements",
     "description": "2.0 admin.js"
   },
   "dataCenter.deleteAnnouncementTotalNum": {
-    "message": "Total No. of Deleted Announcements",
+    "message": "Total Deleted Announcements",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAnnouncementTeacherNum": {
@@ -668,7 +732,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.announcementPublishRankingTop": {
-    "message": "Announcement Release Ranking TOP10",
+    "message": "Top 10 Teachers Publishing Announcement",
     "description": "2.0 admin.js"
   },
   "dataCenter.currentAnnouncementNum": {
@@ -676,11 +740,11 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.homeworkPublishAnalysis": {
-    "message": "Assignment Publishing Analysis",
+    "message": "Assignment Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishHomeworkTotalNum": {
-    "message": "Total No. Published Assignments",
+    "message": "Total No. of Assignments Published",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishHomeworkTeacherNum": {
@@ -708,67 +772,67 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.homeworkTest": {
-    "message": "Quizzes",
+    "message": "Quiz",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishHomeworkRankingTop": {
-    "message": "Assignment Publishing Ranking TOP10",
+    "message": "Top 10 Teachers Publishing Assignments",
     "description": "2.0 admin.js"
   },
   "dataCenter.discussTopicAnalysis": {
-    "message": "Topic Discussion Analysis",
+    "message": "Discussion Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishDiscussTotalNum": {
-    "message": "Total No. of Published Topics",
+    "message": "Total Discussions",
     "description": "2.0 admin.js"
   },
   "dataCenter.participantsDiscussTeacherNum": {
-    "message": "No. Of topic participating teachers",
+    "message": "No. of Teacher Participants",
     "description": "2.0 admin.js"
   },
   "dataCenter.teacherParticipantionRate": {
-    "message": "% of topic participating teachers",
+    "message": "% of Teacher Participants",
     "description": "2.0 admin.js"
   },
   "dataCenter.teacherRaplyDiscussNum": {
-    "message": "No. of Teachers’ Replies",
+    "message": "No. of Teacher Replies",
     "description": "2.0 admin.js"
   },
   "dataCenter.participantsDiscussStudentNum": {
-    "message": "No. of topic participating students",
+    "message": "No. of Student Participants",
     "description": "2.0 admin.js"
   },
   "dataCenter.participantsDiscussStudentRate": {
-    "message": "% of topic participating students",
+    "message": "% of Student Participants",
     "description": "2.0 admin.js"
   },
   "dataCenter.studentRaplyDiscussNum": {
-    "message": "No. of Student’s Replies",
+    "message": "No. of Student Replies",
     "description": "2.0 admin.js"
   },
   "dataCenter.discussAnalysis": {
-    "message": "Topic Analysis",
+    "message": "Discussion Topic Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.discussNum": {
-    "message": "No. of Topics",
+    "message": "No. of Discussion Topics",
     "description": "2.0 admin.js"
   },
   "dataCenter.discussPublishRankingTop": {
-    "message": "Published Topics Ranking TOP10",
+    "message": "Top 10 Teachers Publishing Discussion",
     "description": "2.0 admin.js"
   },
   "dataCenter.activeReplyTeacherRankingTop": {
-    "message": "Teacher's Replies to Post Ranking TOP10",
+    "message": "Top 10 Teacher Replies",
     "description": "2.0 admin.js"
   },
   "dataCenter.activeReplyStudentRankingTop": {
-    "message": "Student's Replies to Post Ranking TOP10",
+    "message": "Top 10 Student Replies",
     "description": "2.0 admin.js"
   },
   "dataCenter.replyNum": {
-    "message": "No. of Replies",
+    "message": "Total Replies",
     "description": "2.0 admin.js"
   },
   "dataCenter.examAnalysis": {
@@ -780,23 +844,23 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.totalPublishPeople": {
-    "message": "Total No. of Exam Publishers",
+    "message": "Total No. of Teaches Publishing Exam",
     "description": "2.0 admin.js"
   },
   "dataCenter.averageBatchPeople": {
-    "message": "Average No. of Examinees Per Batch",
+    "message": "Average No. of Examinees Per Exam Session",
     "description": "2.0 admin.js"
   },
   "dataCenter.averagePassRate": {
-    "message": "Average Passing Rate",
+    "message": "Average Exam Passing Rate",
     "description": "2.0 admin.js"
   },
   "dataCenter.averageExerNum": {
-    "message": "Average No. of Test Questions",
+    "message": "Average No. of Questions per Exam",
     "description": "2.0 admin.js"
   },
   "dataCenter.examPublishRankingTop": {
-    "message": "Exam Published Ranking TOP10",
+    "message": "Top 10 Teachers Publishing Exam",
     "description": "2.0 admin.js"
   },
   "dataCenter.announcementNumber": {
@@ -808,71 +872,71 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.topic": {
-    "message": "Topic",
+    "message": "Discussions",
     "description": "2.0 admin.js"
   },
   "dataCenter.topicNum": {
-    "message": "No. of Topices",
+    "message": "No. of Discussions",
     "description": "2.0 admin.js"
   },
   "dataCenter.examNum": {
-    "message": "No. of Exam",
+    "message": "No. of Exams",
     "description": "2.0 admin.js"
   },
   "dataCenter.uploadResource": {
-    "message": "Upload resource",
+    "message": "Upload Resource",
     "description": "2.0 admin.js"
   },
   "dataCenter.createPractice": {
-    "message": "Create exercise",
+    "message": "Create Exercise",
     "description": "2.0 admin.js"
   },
   "dataCenter.assessment": {
-    "message": "Assessment Strategy",
+    "message": "Grading Rules",
     "description": "2.0 admin.js"
   },
   "dataCenter.coursewareSetAnalysis": {
-    "message": "Courseware Set Analysis",
+    "message": "Courseware Learning Plan Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.coursewareSaveTips1": {
-    "message": "Set saving lesson plan is considered as updating courseware",
+    "message": "Setting/Updating learning plan is counted as courseware update",
     "description": "2.0 admin.js"
   },
   "dataCenter.coursewareSaveTips2": {
-    "message": "% of teachers setting lesson plan ",
+    "message": "% of Teachers Setting Learning Plan ",
     "description": "2.0 admin.js"
   },
   "dataCenter.coursewareSaveTips3": {
-    "message": "No. of teachers setting lesson plan",
+    "message": "No. of Teachers Setting Learning Plan",
     "description": "2.0 admin.js"
   },
   "dataCenter.updateCoursewareNum": {
-    "message": "No. of courseware updates",
+    "message": "No. of Updated Courseware",
     "description": "2.0 admin.js"
   },
   "dataCenter.updateCoursewareTimes": {
-    "message": "Times of Courseware Update",
+    "message": "No. of Courseware Updates",
     "description": "2.0 admin.js"
   },
   "dataCenter.coursewareOperationTop": {
-    "message": "Courseware Operation Ranking TOP10",
+    "message": "Top 10 Courseware with Most Updates",
     "description": "2.0 admin.js"
   },
   "dataCenter.coursewareSaveTips4": {
-    "message": "No. of times of lesson plan setting plus checking result",
+    "message": "Top Courseware with Most Combined Times of Learning Plan Setups and Progress Checks",
     "description": "2.0 admin.js"
   },
   "dataCenter.setStudyPlan": {
-    "message": "Set lesson plan",
+    "message": "Learning Plan Setups",
     "description": "2.0 admin.js"
   },
   "dataCenter.viewScoreProgress": {
-    "message": "Check progress result",
+    "message": "Progress Checks",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceUploadAnalysis": {
-    "message": "Resource Upload Analysis",
+    "message": "Resource Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.uploadResourceTotalNum": {
@@ -888,19 +952,19 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.file": {
-    "message": "File",
+    "message": "Files",
     "description": "2.0 admin.js"
   },
   "dataCenter.richtext": {
-    "message": "Picture & Text",
+    "message": "Rich Content",
     "description": "2.0 admin.js"
   },
   "dataCenter.link": {
-    "message": "Link",
+    "message": "Links",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceContributionTop": {
-    "message": "Resource Contribution TOP 10",
+    "message": "Top 10 Teachers with Most Resource Contributions",
     "description": "2.0 admin.js"
   },
   "dataCenter.uploadNum": {
@@ -908,11 +972,11 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.practiceCreateAnalysis": {
-    "message": "Exercise Creation Analysis",
+    "message": "Exercise Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.createPracticeTotalNum": {
-    "message": "Total No. of Created Exercises",
+    "message": "Total No. of Exercise Questions Created",
     "description": "2.0 admin.js"
   },
   "dataCenter.createPracticeTeacherNum": {
@@ -920,35 +984,35 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.practiceTypeDistribution": {
-    "message": "Exercise Type Distribution",
+    "message": "Exercise Question Type Distribution",
     "description": "2.0 admin.js"
   },
   "dataCenter.practiceContributionTop": {
-    "message": "Exercise Contribution Ranking TOP 10",
+    "message": "Top 10 Teaches with Most Exercise Question Contributions",
     "description": "2.0 admin.js"
   },
   "dataCenter.createNum": {
-    "message": "No. of Creations",
+    "message": "No. of Exercises Created",
     "description": "2.0 admin.js"
   },
   "dataCenter.assessmentAnalysis": {
-    "message": "Assessment Strategy Analysis",
+    "message": "Grading Rules Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAssessmentTotalNum": {
-    "message": "Total No. of Published Assessment Strategies",
+    "message": "Total No. of Grading Rules Created",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAssessmentTeacherNum": {
-    "message": "No. of Teachers who’ve published assessment strategy",
+    "message": "No. of Teachers who’ve published grading rules",
     "description": "2.0 admin.js"
   },
   "dataCenter.assessmentPublishRankingTop": {
-    "message": "Assessment Strategy Publishing Ranking TOP 10",
+    "message": "Top 10 Teachers with Most Grading Rule Setups",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceType": {
-    "message": "Resource Type",
+    "message": "Resource Types",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceNum": {
@@ -956,19 +1020,19 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.uploadPeopleNum": {
-    "message": "No. of Teachers UploadResource",
+    "message": "No. of Teachers Uploading Resources",
     "description": "2.0 admin.js"
   },
   "dataCenter.practiceNum": {
-    "message": "No. of Exercise",
+    "message": "No. of Exercises",
     "description": "2.0 admin.js"
   },
   "dataCenter.createPeopleNum": {
-    "message": "No. of Exercise Creators",
+    "message": "No. of Teachers Who have created exercises",
     "description": "2.0 admin.js"
   },
   "dataCenter.assessmentNum": {
-    "message": "No. of Assessment Strategy",
+    "message": "No. of Grading Rules",
     "description": "2.0 admin.js"
   },
   "dataCenter.teachingDynamic": {
@@ -1040,19 +1104,19 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.publishPick": {
-    "message": "Pick Students",
+    "message": "Random Picks",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAnswer": {
-    "message": "Quick Answers",
+    "message": "Compete to Answers",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishScore": {
-    "message": "Grades",
+    "message": "Peer Reviews",
     "description": "2.0 admin.js"
   },
   "dataCenter.twoWeeksDynamic": {
-    "message": "Latest 2 Weeks' Snapshot",
+    "message": "Past 2 Weeks' Snapshot",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityDataTips": {
@@ -1060,7 +1124,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.exportReport1": {
-    "message": "Daily Report of Latest 2 Weeks",
+    "message": "Daily Report of Past 2 Weeks",
     "description": "2.0 admin.js"
   },
   "dataCenter.exportReport2": {
@@ -1128,19 +1192,19 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.last2weeks": {
-    "message": "Latest 2 Weeks",
+    "message": "Past 2 Weeks",
     "description": "2.0 admin.js"
   },
   "dataCenter.mostActiveCourseTop": {
-    "message": "Top 5 Active Courses",
+    "message": "Top 5 Most Active Courses",
     "description": "2.0 admin.js"
   },
   "dataCenter.mostActiveTeaTop": {
-    "message": "Top 5 Active Teachers",
+    "message": "Top 5 Most Active Teachers",
     "description": "2.0 admin.js"
   },
   "dataCenter.mostActiveStuTop": {
-    "message": "Top 5 Active Students",
+    "message": "Top 5 Most Active Students",
     "description": "2.0 admin.js"
   },
   "dataCenter.generalStatistics": {
@@ -1156,11 +1220,11 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.teaAverageTeachCourseNum": {
-    "message": "Courses Taught/Teacher",
+    "message": "Courses Taught per Teacher",
     "description": "2.0 admin.js"
   },
   "dataCenter.stuAverageChooseCourseNum": {
-    "message": "Courses Enrolled/Student",
+    "message": "Courses Enrolled per Student",
     "description": "2.0 admin.js"
   },
   "dataCenter.stuAverageChooseCourseCount": {
@@ -1192,7 +1256,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.teachingModeAnalysis": {
-    "message": "Teaching mode analysis",
+    "message": "Teaching Mode Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips7": {
@@ -1228,11 +1292,11 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.courseEvaluationAnalysis": {
-    "message": "Course Grading Analytics",
+    "message": "Course Grading Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips15": {
-    "message": "Only new courses within the selected time range are counted, excluding courses with less than 10 students",
+    "message": "Data based on courses created within selected dates, excluding courses with 10- enrollments",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips16": {
@@ -1252,7 +1316,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips20": {
-    "message": "includes roll calls and participation",
+    "message": "includes roll calls and participation (Random Pick and Compete to Answer)",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips21": {
@@ -1268,19 +1332,19 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.courseActivityAnalysis": {
-    "message": "Classroom activity analysis",
+    "message": "Classroom Activity Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.pickTotalNum": {
-    "message": "Pick Students",
+    "message": "# of Random Picks",
     "description": "2.0 admin.js"
   },
   "dataCenter.responderTotalNum": {
-    "message": "Quick Answers",
+    "message": "# of Compete to Answer",
     "description": "2.0 admin.js"
   },
   "dataCenter.scoreTotalNum": {
-    "message": "Total Scores",
+    "message": "# of Peer Reviews",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAttendanceTeaNum": {
@@ -1292,15 +1356,15 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.publishPickTeaNum": {
-    "message": "Teachers Who Launched Pick Student",
+    "message": "Teachers Who Launched Random Pick",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAnswerTeaNum": {
-    "message": "Teachers Who Launched Quick Answer",
+    "message": "Teachers Who Launched Compete to Answer",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishScoreTeaNum": {
-    "message": "Teachers Who Launched Grade",
+    "message": "Teachers Who Launched Peer Review",
     "description": "2.0 admin.js"
   },
   "dataCenter.stuSignStatusDistribution": {
@@ -1316,11 +1380,11 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips25": {
-    "message": "Top 5 Teachers - Most Classroom Activities Launched",
+    "message": "Top 5 Courses - Most Classroom Activities Launched",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceAnalysis": {
-    "message": "Resource analysis",
+    "message": "Resource Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips26": {
@@ -1336,7 +1400,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips29": {
-    "message": "Students Who Accessed Resources",
+    "message": "Resource Views by Students",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips30": {
@@ -1352,7 +1416,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.homeworkAnalysis": {
-    "message": "Assignment Analytics",
+    "message": "Assignment Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishHomeworkTeaNum": {
@@ -1380,7 +1444,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.discussionAnalysis": {
-    "message": "Discussion Analytics",
+    "message": "Discussion Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.discussTotalNum": {
@@ -1412,7 +1476,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.liveAnalysis": {
-    "message": "Live Session Analytics",
+    "message": "Live Session Analysis",
     "description": "2.0 admin.js"
   },
   "dataCenter.liveTotalNum": {
@@ -1496,7 +1560,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.examDeviceDistribution": {
-    "message": "Client Device Distribution",
+    "message": "Exam Access Device Distribution",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips42": {
@@ -1516,7 +1580,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData3": {
-    "message": "Live",
+    "message": "Live Sessions",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData4": {
@@ -1532,15 +1596,15 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData7": {
-    "message": "Quick Answers",
+    "message": "Compete to Answers",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData8": {
-    "message": "Pick Students",
+    "message": "Random Picks",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData9": {
-    "message": "Grades",
+    "message": "Peer Reviews",
     "description": "2.0 admin.js"
   },
   "dataCenter.signAnalyzeXData0": {
@@ -1552,19 +1616,19 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.signAnalyzeXData2": {
-    "message": "Early leave",
+    "message": "Early Leave",
     "description": "2.0 admin.js"
   },
   "dataCenter.signAnalyzeXData3": {
-    "message": "Personal leave",
+    "message": "Excused Leave",
     "description": "2.0 admin.js"
   },
   "dataCenter.signAnalyzeXData4": {
-    "message": "Sick leave",
+    "message": "Sick Leave",
     "description": "2.0 admin.js"
   },
   "dataCenter.signAnalyzeXData5": {
-    "message": "Arrived",
+    "message": "Present",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData0": {
@@ -1576,11 +1640,11 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData2": {
-    "message": "Picture",
+    "message": "Images",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData3": {
-    "message": "Graphics and text",
+    "message": "Rich Content",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData4": {
@@ -1588,7 +1652,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData5": {
-    "message": "Documentation",
+    "message": "Documents",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData6": {
@@ -1660,11 +1724,11 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.schoolCreatedCourse": {
-    "message": "Course created by our school",
+    "message": "School Courses",
     "description": "2.0 admin.js"
   },
   "dataCenter.externalIntroduction": {
-    "message": "Course from external source",
+    "message": "External Courses",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.ulearningCourseDeclarationInfoAdmin": {
@@ -1800,7 +1864,7 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.noSearchCourse": {
-    "message": "No courses are found",
+    "message": "No courses found",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.modifyCourseDeclarationInfo": {
@@ -2160,7 +2224,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.nonschoolCourse": {
-    "message": "Other school’s courses",
+    "message": "External Courses",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.allState": {
@@ -2296,7 +2360,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips7": {
-    "message": "Importing, do not close the window......",
+    "message": "Importing, do not close the window...",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips8": {
@@ -2320,7 +2384,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips13": {
-    "message": "Choose at least two courses",
+    "message": "Select at least two courses",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.confirmMerge": {
@@ -2340,7 +2404,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips17": {
-    "message": "Merging, please wait...",
+    "message": "Merging courses, please wait...",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.allExam": {
@@ -2416,7 +2480,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips19": {
-    "message": "No more than 1G",
+    "message": "File size cannot be larger 1 GB",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.announcementPublisher": {
@@ -2444,7 +2508,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.modifyStudent": {
-    "message": "Modify Student",
+    "message": "Edit Student",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.studentNO": {
@@ -2492,7 +2556,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips26": {
-    "message": "Mobile number entered is incorrect",
+    "message": "Invalid phone number",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.subordinateDepartment": {
@@ -2524,7 +2588,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.modifyTeahcer": {
-    "message": "Modify Teacher",
+    "message": "Edit Teacher",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.examManage": {
@@ -2544,27 +2608,27 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.check": {
-    "message": "Publish review",
+    "message": "Publishing Review",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.agree": {
-    "message": "Agree",
+    "message": "Approve",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.refuse": {
-    "message": "Refuse",
+    "message": "Reject",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.agreed": {
-    "message": "Agreed",
+    "message": "Approved",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.refused": {
-    "message": "Refused",
+    "message": "Rejected",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.reCheck": {
-    "message": "Re-verify",
+    "message": "Re-review",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.setTypeTip": {
@@ -2580,7 +2644,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.add": {
-    "message": "+ Add Category",
+    "message": "Add Category",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.typeEg": {
@@ -2596,23 +2660,23 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.confirmDelete": {
-    "message": "Confirm to delete?",
+    "message": "Are you sure you want to delete it?",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.typeTip1": {
-    "message": "Type name must be filled",
+    "message": "Category name field cannot be empty",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.typeTip2": {
-    "message": "Type name must not be more than 50 characters",
+    "message": "Category name must not be more than 50 characters",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.typeTip3": {
-    "message": "Type existed",
+    "message": "A category with that name already exists",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.typeTip4": {
-    "message": "Type name must not repeat",
+    "message": "Duplicate category name is not allowed",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolStuNum": {
@@ -2628,11 +2692,11 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.checkTip1": {
-    "message": "Currently has ",
+    "message": "Currently ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.checkTip2": {
-    "message": " course(s) needed to be reviewed",
+    "message": " course(s) need to be reviewed",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.otherMoocPageTip": {
@@ -2640,7 +2704,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.enterName": {
-    "message": "Search by course name",
+    "message": "Enter course name to search",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.allSchools": {
@@ -2648,51 +2712,51 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.excellenceCertificate": {
-    "message": "Certificate of excellence",
+    "message": "Certificate of Excellence",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.passCertificate": {
-    "message": "Certificate of qualification",
+    "message": "Certificate of Achievement",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.notGet": {
-    "message": "Not yet obtained",
+    "message": "Not awarded",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.joinNum": {
-    "message": "Number of students joining the class",
+    "message": "Enrollments",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.noStuJoin": {
-    "message": "Currently no student from our school has joined in",
+    "message": "No internal enrollments",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolStuDistribution": {
-    "message": "The distribution of our students in each school",
+    "message": "Student distribution across colleges/departments",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.noStu": {
-    "message": "No student joined in yet",
+    "message": "No enrollments",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.studentSource": {
-    "message": "Statistics of student source",
+    "message": "Statistics of Student Sources",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.certificateRate": {
-    "message": "Percentage of certificates obtained",
+    "message": "Percentage of Certificates Awarded",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolStuRate": {
-    "message": "Percentage of students in our school",
+    "message": "Percentage of Internal Students",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolStuJoinNum": {
-    "message": "Number of students in our school joining the class",
+    "message": "Internal Enrollments",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolStuJoinStatistics": {
-    "message": "Statistics of students enrolled courses",
+    "message": "Statistics of Internal Enrollments",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.courseStatistics": {
@@ -2708,15 +2772,15 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.stuJoinList": {
-    "message": "Name list of students enrolled the course",
+    "message": "Roster",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.exportList": {
-    "message": "Export name list",
+    "message": "Export Roster",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.staticTable": {
-    "message": "Statistics Graph",
+    "message": "Statistics Chart",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.school": {
@@ -2724,7 +2788,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.joinDate": {
-    "message": "Time of joining",
+    "message": "Enrollment Date",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.certificate": {
@@ -2732,11 +2796,11 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.grade": {
-    "message": "Result",
+    "message": "Grade",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.searchByName": {
-    "message": "Search by name",
+    "message": "Enter name to search",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.exportData": {
@@ -2756,7 +2820,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.relateTextbook": {
-    "message": "Textbooks",
+    "message": "Courseware",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.searchByClass": {
@@ -2804,15 +2868,15 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importSuccess": {
-    "message": "Import successfully",
+    "message": "Imported successfully!",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.downloadImportResult": {
-    "message": " Download account set-up results ",
+    "message": " Download Import Results",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip1": {
-    "message": " Some students in the form already have their accounts, please select processing method",
+    "message": "  Some student accounts already exist. Select the proceeding option.",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip2": {
@@ -2820,7 +2884,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip3": {
-    "message": " Update basic information for students with existing accounts (only update information such as grade and college, without changing user name and password)",
+    "message": " Update some basic information (such as year, college, etc.) for students with existing accounts  without changing user name and password.",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip4": {
@@ -2832,15 +2896,15 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip6": {
-    "message": " Import is completed, x student accounts are set up, and x students with existing accounts are skipped.",
+    "message": " Done! Imported ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip7": {
-    "message": "  student accounts, skip",
+    "message": " student accounts and skipped ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip8": {
-    "message": "  students with existing accounts",
+    "message": " students with existing accounts.",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.updateStudents": {
@@ -2848,35 +2912,35 @@
     "description": "2.0 admin.js"
   },
   "inputCourseName": {
-    "message": "Please enter course name",
+    "message": "Click to enter the course name",
     "description": "2.0 admin.js"
   },
   "inputOpenSchool": {
-    "message": "Please enter the school that open the courses",
+    "message": "Enter the school that offered the course",
     "description": "2.0 admin.js"
   },
   "editInfoTips": {
-    "message": "Note: if the above two items are modified, the course information in the platform will be simultaneously modified. Please be cautious.",
+    "message": "Notes: Be cautious! Updating these two items will simultaneously update the course information in the system.",
     "description": "2.0 admin.js"
   },
   "inputCourseManager": {
-    "message": "Please enter course manager",
+    "message": "Enter the course manager",
     "description": "2.0 admin.js"
   },
   "inputOpenCoursePlatform": {
-    "message": "Please enter the course platform ",
+    "message": "Enter the course platform which offers this course",
     "description": "2.0 admin.js"
   },
   "onlineTime": {
-    "message": "Going Online Time",
+    "message": "Available Date",
     "description": "2.0 admin.js"
   },
   "inputOnlineTime": {
-    "message": "Please enter going online time",
+    "message": "Enter the available date/time",
     "description": "2.0 admin.js"
   },
   "inputOpenCoursePeriod": {
-    "message": "Please enter course opening times",
+    "message": "Enter the number of course offerings",
     "description": "2.0 admin.js"
   },
   "professionalCode": {
@@ -2884,11 +2948,11 @@
     "description": "2.0 admin.js"
   },
   "inputProfessionalCode": {
-    "message": "Please enter major code",
+    "message": "Enter the major code",
     "description": "2.0 admin.js"
   },
   "saveModify": {
-    "message": "Save changes",
+    "message": "Save Changes",
     "description": "2.0 admin.js"
   },
   "exit": {
@@ -2896,11 +2960,11 @@
     "description": "2.0 admin.js"
   },
   "teachingTeacher": {
-    "message": "Teacher",
+    "message": "Course Teacher",
     "description": "2.0 admin.js"
   },
   "department": {
-    "message": "Department",
+    "message": "College/Department",
     "description": "2.0 admin.js"
   },
   "classes": {
@@ -2908,7 +2972,7 @@
     "description": "2.0 admin.js"
   },
   "courseCode": {
-    "message": "Course ID",
+    "message": "Course Code",
     "description": "2.0 admin.js"
   },
   "courseManage": {
@@ -2921,6 +2985,70 @@
   },
   "courseUnit": {
     "message": "{courseCount}",
+    "description": "2.0 admin.js"
+  },
+  "appCenter": {
+    "message": "Apps",
+    "description": "2.0 admin.js"
+  },
+  "internalApp": {
+    "message": "Internal Apps",
+    "description": "2.0 admin.js"
+  },
+  "ltiApp": {
+    "message": "LTI Apps",
+    "description": "2.0 admin.js"
+  },
+  "installed": {
+    "message": "Enabled",
+    "description": "2.0 admin.js"
+  },
+  "unInstalled": {
+    "message": "Not Enabled",
+    "description": "2.0 admin.js"
+  },
+  "viewMore": {
+    "message": "Details >>",
+    "description": "2.0 admin.js"
+  },
+  "appManage": {
+    "message": "App Management",
+    "description": "2.0 admin.js"
+  },
+  "installed2": {
+    "message": "Installed",
+    "description": "2.0 admin.js"
+  },
+  "addApp": {
+    "message": "Add App",
+    "description": "2.0 admin.js"
+  },
+  "name": {
+    "message": "Name",
+    "description": "2.0 admin.js"
+  },
+  "consumerKey": {
+    "message": "Consumer Key",
+    "description": "2.0 admin.js"
+  },
+  "sharedSecret": {
+    "message": "Shared Secret",
+    "description": "2.0 admin.js"
+  },
+  "configURL": {
+    "message": "Config URL",
+    "description": "2.0 admin.js"
+  },
+  "deleteApp": {
+    "message": "Delete App",
+    "description": "2.0 admin.js"
+  },
+  "confirmDelete": {
+    "message": "Are you sure you want to delete this app?",
+    "description": "2.0 admin.js"
+  },
+  "deleteSuccess": {
+    "message": "Deleted successfully!",
     "description": "2.0 admin.js"
   }
 }
