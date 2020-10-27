@@ -2708,59 +2708,59 @@
     "description": "2.0 exam.js"
   },
   "attachAccess": {
-    "message": "Short answers allow attachments",
+    "message": "Attachments allowed for short answer questions",
     "description": "2.0 exam.js"
   },
   "deviceMonitor": {
-    "message": "Device monitoring.",
+    "message": "Device Monitoring",
     "description": "2.0 exam.js"
   },
   "deviceMonitor1": {
-    "message": "Turn on device monitoring and do not allow the device to be replaced in the middle of the answer.",
+    "message": "Enable device monitoring. Students are not allowed to switch to another device or browser during the exam.",
     "description": "2.0 exam.js"
   },
   "deviceMonitor2": {
-    "message": "In exceptional cases, a verification code replacement can be requested from the teacher.",
+    "message": "If device switch is necessary, the teacher can issue a verification code.",
     "description": "2.0 exam.js"
   },
   "ipMonitor": {
-    "message": "IP monitoring.",
+    "message": "IP Monitoring",
     "description": "2.0 exam.js"
   },
   "ipMonitor1": {
-    "message": "Turn on device monitoring and do not allow the device to be replaced in the middle of the answer.",
+    "message": "Enable IP monitoring. Students are not allowed to switch to another network during the exam.",
     "description": "2.0 exam.js"
   },
   "ipMonitor2": {
-    "message": "Switching networks may result in IP changes, please use them with caution, and in exceptional cases, ask your teacher for a verification code replacement.",
+    "message": "If network switch is necessary, the teacher can issue a verification code.",
     "description": "2.0 exam.js"
   },
   "photoMonitor": {
-    "message": "Capture monitoring.",
+    "message": "Camera Monitoring",
     "description": "2.0 exam.js"
   },
   "photoMonitor1": {
-    "message": "Turn on capture monitoring, take photos of candidates every 3 to 5 minutes, and display them on the exam monitoring page.",
+    "message": "Enable camera monitoring. Student photos will taken randomly every 3 to 5 minutes and displayed on the student exam log page.",
     "description": "2.0 exam.js"
   },
   "photoMonitor2": {
-    "message": "You need to make sure that the devices used by students have cameras.",
+    "message": "Make sure that the exam devices used by students all have a front-facing camera.",
     "description": "2.0 exam.js"
   },
   "showAfterBatchEnd": {
-    "message": "The examination will be announced at the end of the course.",
+    "message": "After all exam sessions ended",
     "description": "2.0 exam.js"
   },
   "screenMonitor": {
-    "message": "Cut-screen monitoring.",
+    "message": "Screen Monitoring",
     "description": "2.0 exam.js"
   },
   "screenMonitorTips1": {
-    "message": "Only mobile phone exams are supported.",
+    "message": "(Support the exams via ULearning App only)",
     "description": "2.0 exam.js"
   },
   "screenMonitorTips2": {
-    "message": "Turn on screen cut monitoring, and compulsorily hand over the paper after leaving more than {count} times {tip}",
+    "message": "Enable screen monitoring. The exam will be submitted involuntarily if the students leave the exam screen more than more than {count} times {tip}",
     "description": "tip处的插值是 “（仅支持手机考试）”，因为tip需要独立的设置样式。"
   },
   "faceAuth": {
@@ -2768,11 +2768,11 @@
     "description": "2.0 exam.js"
   },
   "faceAuthTips15": {
-    "message": "Turn on face recognition and pass face verification to enter the exam.",
+    "message": "Enable face verification. The students need to pass face verification to start the exam.",
     "description": "2.0 exam.js"
   },
   "faceAuthTips16": {
-    "message": "You need to upload a candidate certification photo before the exam.",
+    "message": "You need to upload students' facial photos before the exam.",
     "description": "2.0 exam.js"
   },
   "minSubmitTime": {
@@ -2780,15 +2780,19 @@
     "description": "2.0 exam.js"
   },
   "minSubmitTime2": {
-    "message": "Submit time: {time}",
+    "message": "Submission Time: {time}",
     "description": "2.0 exam.js"
   },
   "minSubmitTimeTips1": {
-    "message": "Cannot submit  with  {count} {minuteTip} after the exam start",
+    "message": "The exam is not allowed to submit  within {count} {minuteTip} after the exam starts",
     "description": "minuteTip 的插值是分钟，就是下面的minuteTip"
   },
+  "minuteTip": {
+    "message": "min",
+    "description": "2.0 exam.js"
+  },
   "batchTips": {
-    "message": "Students can take the exam by adding classes or students to the exam, which is the time period during which students are allowed to enter the exam, or you can add a field after the exam is published.",
+    "message": "To take an exam, students or the class containing the students have to be added to the exam session first. The exam session(s) can be created after the class exam is published.",
     "description": "2.0 exam.js"
   },
   "edit": {
@@ -2796,55 +2800,91 @@
     "description": "2.0 exam.js"
   },
   "examTips": {
-    "message": "Exam instructions",
+    "message": "Exam Instructions",
     "description": "2.0 exam.js"
   },
   "maxTextInputTips": {
-    "message": "Up to 2000 characters.",
+    "message": "Up to 2000 characters",
     "description": "2.0 exam.js"
   },
   "defaultExamTips": {
-    "message": "Save as the default template and continue to use the next exam.",
+    "message": "Save it as the default template for future use",
     "description": "2.0 exam.js"
   },
   "detailTips3": {
-    "message": "1. Turn on the device monitoring, IP monitoring test, in case of special circumstances, students can change the device / IP after access through this verification code.",
+    "message": "1. For the exams with the device monitoring and IP monitoring enabled, if it is necessary, a student can switch to another device or network through this verification code.",
     "description": "2.0 exam.js"
   },
   "detailTips4": {
-    "message": "2. The face verification has been opened and students can use this verification code if they are unable to enter by face verification",
+    "message": "2. For the exams with face verification enabled, a student can start the exam through this verification code if he or she cannot enter the exam via face verification.",
     "description": "2.0 exam.js"
   },
   "detailTips5": {
-    "message": "3. The verification code is valid within 15 minutes, please refresh and re-acquire it after failure.",
+    "message": "3. The code is valid for 15 minutes. After 15 minutes, you need to come here to get a new one.",
     "description": "2.0 exam.js"
   },
   "leave": {
-    "message": "Leave.",
+    "message": "Leave",
     "description": "2.0 exam.js"
   },
   "examHeadTips3": {
-    "message": "Please {detectEnv} before the exam to confirm that the network, equipment, browser, etc. are normal",
+    "message": "Please {detectEnv} before the exam to confirm that the network, equipment, browser, etc. are normal.",
     "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
   },
+  "detectEnv": {
+    "message": "Exam Device Compliance Check",
+    "description": "2.0 exam.js"
+  },
   "deletePhoto": {
-    "message": "Delete image",
+    "message": "Delete Image",
+    "description": "2.0 exam.js"
+  },
+  "deletePhoto2": {
+    "message": "Delete Photo",
     "description": "2.0 exam.js"
   },
   "recordShowAfterSubmit": {
-    "message": "It is displayed as soon as the volume is handed in.",
+    "message": "Right after submission",
     "description": "2.0 exam.js"
   },
   "exportDemoPaper": {
-    "message": "Export the sample volume.",
+    "message": "Export Sample Exam",
     "description": "2.0 exam.js"
   },
   "exportDemoPaperSuccess": {
-    "message": "The sample paper has been saved to the test paper library.",
+    "message": "The sample exam has been saved to the Exam Library",
     "description": "2.0 exam.js"
   },
   "afterExamFinishedTips1": {
-    "message": "Show at the end of the exam.",
+    "message": "After the exam ended",
+    "description": "2.0 exam.js"
+  },
+  "daysPublish": {
+    "message": "{n} days after the exam ended",
+    "description": "2.0 exam.js"
+  },
+  "weekPublish": {
+    "message": "{n} weeks after the exam ended",
+    "description": "2.0 exam.js"
+  },
+  "noPublish": {
+    "message": "Not show",
+    "description": "2.0 exam.js"
+  },
+  "deleteBatch2": {
+    "message": "Delete Session",
+    "description": "2.0 exam.js"
+  },
+  "examEnd": {
+    "message": "The exam ended",
+    "description": "2.0 exam.js"
+  },
+  "auditTipsClassroom": {
+    "message": "Face verification is on. Student facial photos need to be uploaded in advance. Photos can be imported in bulk by the teacher or uploaded by students. If a facial photo is uploaded by the student, it has to be reviewed and approved by the teacher.",
+    "description": "2.0 exam.js"
+  },
+  "faceServiceTips": {
+    "message": "Face verification and camera monitoring are not enabled for your institute (optional services with extra charge). Contact your LMS admin for details.",
     "description": "2.0 exam.js"
   }
 }
