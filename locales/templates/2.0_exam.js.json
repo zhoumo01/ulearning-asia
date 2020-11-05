@@ -7,6 +7,10 @@
     "message": "考试成绩",
     "description": "2.0 exam.js"
   },
+  "gradeSumCl": {
+    "message": "客观题/主观题/总分",
+    "description": "2.0 {filename}"
+  },
   "examinationAnalysis": {
     "message": "考试分析",
     "description": "2.0 exam.js"
@@ -118,6 +122,22 @@
   "name": {
     "message": "姓名",
     "description": "2.0 exam.js"
+  },
+  "namePrefix": {
+    "message": "姓名：{name}",
+    "description": "2.0 {filename}"
+  },
+  "accountPrefix": {
+    "message": "账号：{account}",
+    "description": "2.0 {filename}"
+  },
+  "schoolPrefix": {
+    "message": "学校：{org}",
+    "description": "2.0 {filename}"
+  },
+  "certPrefix": {
+    "message": "评估证号：{no}",
+    "description": "2.0 {filename}"
   },
   "totalScore": {
     "message": "总分",
@@ -659,6 +679,10 @@
     "message": "答题次数",
     "description": "2.0 exam.js"
   },
+  "answeredTimes": {
+    "message": "已答次数/允许次数",
+    "description": "2.0 {filename}"
+  },
   "achievement": {
     "message": "成绩",
     "description": "2.0 exam.js"
@@ -679,9 +703,17 @@
     "message": "考试时长：",
     "description": "2.0 exam.js"
   },
+  "examDurationCl2": {
+    "message": "考试时长：{count}分钟",
+    "description": "2.0 {filename}"
+  },
   "lateTime": {
     "message": "迟到时间：",
     "description": "2.0 exam.js"
+  },
+  "lateTimePrefix": {
+    "message": "迟到时间：{count}",
+    "description": "2.0 {filename}"
   },
   "myself": {
     "message": "我自己",
@@ -691,9 +723,17 @@
     "message": "开始",
     "description": "2.0 exam.js"
   },
+  "startDatePrefix": {
+    "message": "开始：{time}",
+    "description": "2.0 {filename}"
+  },
   "ended": {
     "message": "结束",
     "description": "2.0 exam.js"
+  },
+  "endDatePrefix": {
+    "message": "结束：{time}",
+    "description": "2.0 {filename}"
   },
   "noBatch": {
     "message": "暂无批次",
@@ -766,6 +806,10 @@
   "networkErrorTips": {
     "message": "网络错误，点击",
     "description": "2.0 exam.js"
+  },
+  "networkErrorTips2": {
+    "message": "网络错误，点击{button}重新加载",
+    "description": "2.0 {filename}"
   },
   "loadErrorTips": {
     "message": "加载出错了，点击",
@@ -1314,6 +1358,10 @@
   "studentNOCl": {
     "message": "学号：",
     "description": "2.0 exam.js"
+  },
+  "studentNOCl2": {
+    "message": "学号：{no}",
+    "description": "2.0 {filename}"
   },
   "classCl": {
     "message": "班级：",
@@ -2891,6 +2939,10 @@
     "message": "考试结束后显示",
     "description": "2.0 exam.js"
   },
+  "afterExamFinishedTips2": {
+    "message": "考试结束后{n}天显示",
+    "description": "2.0 {filename}"
+  },
   "daysPublish": {
     "message": "{n} 天后公布",
     "description": "2.0 exam.js"
@@ -2918,5 +2970,21 @@
   "faceServiceTips": {
     "message": "人脸识别和抓拍监控为收费服务，您所在机构暂未开通，如需开通请联系客服",
     "description": "2.0 exam.js"
+  },
+  "borwserTip": {
+    "message": "现在浏览器是：{browser}，请使用Internet Explorer进行考试！",
+    "description": "2.0 {filename}"
+  },
+  "offlineTip": {
+    "message": "请配置离线考试地址后再进行考试",
+    "description": "2.0 {filename}"
+  },
+  "restoreLocalRecord": {
+    "message": "恢复本地答题记录",
+    "description": "2.0 {filename}"
+  },
+  "findExamTip": {
+    "message": "如果在下方考试列表中，没有找到需要参加的考试，请检查登录的账号是否正确，或者是否加入了正确的班级。",
+    "description": "2.0 {filename}"
   }
 }
