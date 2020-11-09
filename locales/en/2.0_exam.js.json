@@ -7,6 +7,10 @@
     "message": "Exam Results",
     "description": "2.0 exam.js"
   },
+  "gradeSumCl": {
+    "message": "Auto/Manual/Total",
+    "description": "2.0 {filename}"
+  },
   "examinationAnalysis": {
     "message": "Exam Analysis",
     "description": "2.0 exam.js"
@@ -118,6 +122,22 @@
   "name": {
     "message": "Name",
     "description": "2.0 exam.js"
+  },
+  "namePrefix": {
+    "message": "Name: {name}",
+    "description": "2.0 {filename}"
+  },
+  "accountPrefix": {
+    "message": "Username: {account}",
+    "description": "2.0 {filename}"
+  },
+  "schoolPrefix": {
+    "message": "School: {org}",
+    "description": "2.0 {filename}"
+  },
+  "certPrefix": {
+    "message": "Evaluation No: {no}",
+    "description": "2.0 {filename}"
   },
   "totalScore": {
     "message": "Total Score",
@@ -659,6 +679,10 @@
     "message": "Attempts",
     "description": "2.0 exam.js"
   },
+  "answeredTimes": {
+    "message": "Attempted/Attempts",
+    "description": "2.0 {filename}"
+  },
   "achievement": {
     "message": "Score",
     "description": "2.0 exam.js"
@@ -679,9 +703,17 @@
     "message": "Exam Duration: ",
     "description": "2.0 exam.js"
   },
+  "examDurationCl2": {
+    "message": "Exam Duration: {count} min",
+    "description": "2.0 {filename}"
+  },
   "lateTime": {
     "message": "Late Start: ",
     "description": "2.0 exam.js"
+  },
+  "lateTimePrefix": {
+    "message": "Late Start: {count}",
+    "description": "2.0 {filename}"
   },
   "myself": {
     "message": "Me",
@@ -691,9 +723,17 @@
     "message": "Start",
     "description": "2.0 exam.js"
   },
+  "startDatePrefix": {
+    "message": "Start: {time}",
+    "description": "2.0 {filename}"
+  },
   "ended": {
     "message": "End",
     "description": "2.0 exam.js"
+  },
+  "endDatePrefix": {
+    "message": "End: {time}",
+    "description": "2.0 {filename}"
   },
   "noBatch": {
     "message": "No sessions",
@@ -766,6 +806,10 @@
   "networkErrorTips": {
     "message": "Network error, click ",
     "description": "2.0 exam.js"
+  },
+  "networkErrorTips2": {
+    "message": "Network error! Click {button} to reload.",
+    "description": "2.0 {filename}"
   },
   "loadErrorTips": {
     "message": "Loading error, click ",
@@ -1314,6 +1358,10 @@
   "studentNOCl": {
     "message": "Student ID: ",
     "description": "2.0 exam.js"
+  },
+  "studentNOCl2": {
+    "message": "Student ID: {no}",
+    "description": "2.0 {filename}"
   },
   "classCl": {
     "message": "Class: ",
@@ -2843,6 +2891,38 @@
     "message": "Delete Photo",
     "description": "2.0 exam.js"
   },
+  "replaceDevice": {
+    "message": "Switch Device",
+    "description": "2.0 exam.js"
+  },
+  "replaceIp": {
+    "message": "Switch IP",
+    "description": "2.0 exam.js"
+  },
+  "systemPhoto": {
+    "message": "Captured Photo",
+    "description": "2.0 exam.js"
+  },
+  "inCorrectPhoto": {
+    "message": "The photo does not match the user",
+    "description": "2.0 exam.js"
+  },
+  "photoRemoved": {
+    "message": "The photo has been deleted",
+    "description": "2.0 exam.js"
+  },
+  "deviceID": {
+    "message": "Device ID: {id}",
+    "description": "2.0 exam.js"
+  },
+  "confirmDeletePhoto": {
+    "message": "Are you sure you want to delete all the student photos captured for this class?",
+    "description": "2.0 exam.js"
+  },
+  "confirmDeletePhoto2": {
+    "message": "Are you sure you want to delete the photos captured for this student?",
+    "description": "2.0 exam.js"
+  },
   "recordShowAfterSubmit": {
     "message": "Right after submission",
     "description": "2.0 exam.js"
@@ -2858,6 +2938,10 @@
   "afterExamFinishedTips1": {
     "message": "After the exam ended",
     "description": "2.0 exam.js"
+  },
+  "afterExamFinishedTips2": {
+    "message": "{n} days after the exam ended",
+    "description": "2.0 {filename}"
   },
   "daysPublish": {
     "message": "{n} days after the exam ended",
@@ -2886,5 +2970,21 @@
   "faceServiceTips": {
     "message": "Face verification and camera monitoring are not enabled for your institute (optional services with extra charge). Contact your LMS admin for details.",
     "description": "2.0 exam.js"
+  },
+  "borwserTip": {
+    "message": "The browser you are using: {browser}. Please use Chrome to take the exam.",
+    "description": "2.0 {filename}"
+  },
+  "offlineTip": {
+    "message": "To take the exam, the offline exam location has to be set first.",
+    "description": "2.0 {filename}"
+  },
+  "restoreLocalRecord": {
+    "message": "Resume the exam's local answer-record mode",
+    "description": "2.0 {filename}"
+  },
+  "findExamTip": {
+    "message": "If you don't find the exam you need to take in the exam list below, check sure if you're signed in to the correct account or if you're in the correct class.",
+    "description": "2.0 {filename}"
   }
 }
