@@ -659,6 +659,10 @@
     "message": "أوقات الرد",
     "description": "2.0 exam.js"
   },
+  "answeredTimes": {
+    "message": "عدد الردود/السماح",
+    "description": "2.0 {filename}"
+  },
   "achievement": {
     "message": "نقاط",
     "description": "2.0 exam.js"
@@ -1257,11 +1261,11 @@
   },
   "auditPassed": {
     "message": "المراجعة التي تم تمريرها",
-    "description": "2.0 exam.js"
+    "description": "有两个审核通过文本，对应key是auditPassed的表示审核通过的状态，对应key是auditPassVerb表示执行通过审核通过的动作，常用于按钮"
   },
   "auditPassVerb": {
     "message": "المراجعة التي تم تمريرها",
-    "description": "2.0 exam.js"
+    "description": "有两个审核通过文本，对应key是auditPassed的表示审核通过的状态，对应key是auditPassVerb表示执行通过审核通过的动作，常用于按钮"
   },
   "auditFailed": {
     "message": "فشلت المراجعة",
@@ -1793,11 +1797,11 @@
   },
   "unuploadedPhotos": {
     "message": "لم يتم تحميل الصورة",
-    "description": "2.0 exam.js"
+    "description": "有两个未上传照片，分别为unuploadedPhotos和unuploadedPhotosAlt，unuploadedPhotos表示未上传照片的人数，unuploadedPhotosAlt是未上传照片时的替代文本，类似于网页上当图片加载失败后，会显示替代文本"
   },
   "unuploadedPhotosAlt": {
     "message": "لم يتم تحميل الصورة",
-    "description": "2.0 exam.js"
+    "description": "有两个未上传照片，分别为unuploadedPhotos和unuploadedPhotosAlt，unuploadedPhotos表示未上传照片的人数，unuploadedPhotosAlt是未上传照片时的替代文本，类似于网页上当图片加载失败后，会显示替代文本"
   },
   "batchOpration": {
     "message": "عملية الدفعة",
@@ -2839,6 +2843,38 @@
     "message": "حذف الصورة.",
     "description": "2.0 exam.js"
   },
+  "deletePhoto2": {
+    "message": "حذف صورة الالتقاط",
+    "description": "2.0 exam.js"
+  },
+  "replaceDevice": {
+    "message": "استبدال المعدات",
+    "description": "2.0 exam.js"
+  },
+  "replaceIp": {
+    "message": "استبدال IP",
+    "description": "2.0 exam.js"
+  },
+  "systemPhoto": {
+    "message": "يلتقط النظام الصورة",
+    "description": "2.0 exam.js"
+  },
+  "inCorrectPhoto": {
+    "message": "الصورة لا تتطابق معي",
+    "description": "2.0 exam.js"
+  },
+  "photoRemoved": {
+    "message": "تم حذف الصورة",
+    "description": "2.0 exam.js"
+  },
+  "confirmDeletePhoto": {
+    "message": "هل تريد بالتأكيد حذف صور التقاط جميع الطلاب في الصف الحالي؟",
+    "description": "2.0 exam.js"
+  },
+  "confirmDeletePhoto2": {
+    "message": "هل تريد بالتأكيد حذف صورة التقاط الطالب؟",
+    "description": "2.0 exam.js"
+  },
   "recordShowAfterSubmit": {
     "message": "يتم عرض وحدة التخزين بمجرد تسليمها.",
     "description": "2.0 exam.js"
@@ -2857,15 +2893,11 @@
   },
   "daysPublish": {
     "message": "سيتم الإعلان عنها في غضون أيام قليلة.",
-    "description": "2.0 exam.js",
-    "useOldValue": true,
-    "oldValue": "{n} سيتم الإعلان عنها في غضون أيام قليلة."
+    "description": "2.0 exam.js"
   },
   "weekPublish": {
     "message": "أعلن في غضون أسبوع.",
-    "description": "2.0 exam.js",
-    "useOldValue": true,
-    "oldValue": "{n} أعلن في غضون أسبوع."
+    "description": "2.0 exam.js"
   },
   "noPublish": {
     "message": "لم يتم نشره.",
@@ -2886,5 +2918,17 @@
   "faceServiceTips": {
     "message": "التعرف على الوجه والتقاط المراقبة لخدمة القائمة على رسوم، لم تفتح المؤسسة الخاصة بك بعد، إذا كنت بحاجة لفتح يرجى الاتصال بخدمة العملاء.",
     "description": "2.0 exam.js"
+  },
+  "offlineTip": {
+    "message": "يرجى تكوين عنوان الامتحان غير متصل قبل إجراء الامتحان",
+    "description": "2.0 {filename}"
+  },
+  "restoreLocalRecord": {
+    "message": "استعادة سجل الإجابات المحلي",
+    "description": "2.0 {filename}"
+  },
+  "findExamTip": {
+    "message": "إذا لم تجد الامتحان الذي تحتاج إلى إجراءه في قائمة الامتحانات أدناه، فتحقق من تسجيل الدخول إلى الحساب الصحيح أو أنك في الصف الصحيح.",
+    "description": "2.0 {filename}"
   }
 }
