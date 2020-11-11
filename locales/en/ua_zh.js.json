@@ -2027,6 +2027,10 @@
     "message": "Move down",
     "description": "UA"
   },
+  "moveThisQUp": {
+    "message": "Move this question up",
+    "description": "UA"
+  },
   "moveUp": {
     "message": "Move up",
     "description": "UA"
@@ -2185,6 +2189,10 @@
   },
   "note": {
     "message": "Alert",
+    "description": "UA"
+  },
+  "recoverRecordTip": {
+    "message": "You learning record have not been submitted, do you want to submit now?",
     "description": "UA"
   },
   "noteFollowTimeTip": {
@@ -4115,6 +4123,22 @@
     "message": "Are you sure you want to remove this SRT file?",
     "description": "UA"
   },
+  "saveSubtitleTip": {
+    "message": " Content cannot be empty ",
+    "description": "UA"
+  },
+  "practiceSetCountTip": {
+    "message": "The chance of submit must be between 1-50",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceSetMinuteTip": {
+    "message": "Duration must not be less than 0",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceSetSecondTip": {
+    "message": "The answer duration  needs to be between 0-60 seconds",
+    "description": "UA \"练习设置\" 设置提示"
+  },
   "practiceConfig": {
     "message": "Exercise Settings",
     "description": "UA \"练习设置\""
@@ -4154,5 +4178,73 @@
   "practiceConfigTip3": {
     "message": "3. Students need to complete the exercise questions in the time limit. If not, the system will make the submission automatically.",
     "description": "UA \"练习设置\""
+  },
+  "browserTip": {
+    "message": "It was detected that you are using an older version or a browser that is not supported by the system. This will {emphasize}. Please use the system's recommended browser for learning, or upgrade your browser version, mobile phone please download the U.S. Academy APP learning.",
+    "description": "{emphasize} 是强调内容，因为需要进行单独的样式设置，所以会设置插值。插值处的内容是下面的“可能会导致学习记录不准确”"
+  },
+  "browserTipEm": {
+    "message": "This may result in inaccurate learning records",
+    "description": "上面 browserTip 的插值内容"
+  },
+  "browserTipList": {
+    "message": "Only the following browsers are supported:",
+    "description": "浏览器兼容性提示"
+  },
+  "chromeBrowser": {
+    "message": "Google Chrome (Best)",
+    "description": "浏览器兼容性提示"
+  },
+  "safariBrowser": {
+    "message": "Safari (Mac OS System)",
+    "description": "浏览器兼容性提示"
+  },
+  "timePoint": {
+    "message": "Time: {time}",
+    "description": "指视频剪辑的时间点"
+  },
+  "selectedQuestions": {
+    "message": "{count} selected",
+    "description": "出现于视频剪辑处"
+  },
+  "reSelectQuestion": {
+    "message": "Re-select the question",
+    "description": "出现于视频剪辑处"
+  },
+  "restoreRecord": {
+    "message": "Recover your learning record",
+    "description": "UA"
+  },
+  "recordList": {
+    "message": " List of learning records",
+    "description": "UA"
+  },
+  "restoreTip1": {
+    "message": "Do not refresh the page if you are recovering a successful learning record that was not saved before...",
+    "description": "UA"
+  },
+  "restoreTip2": {
+    "message": "Note: If a record never recovers successfully, contact customer service. If you need to go back to the player page to continue, click the \"Back\" button in the upper right corner. If you don't want to pop up a reminder to resume learning records when you enter the player, you can delete the record that failed to recover (warning: Removing the local cache may prevent the recovery of the successful learning record from being recovered).",
+    "description": "UA"
+  },
+  "recovering": {
+    "message": "Recovered",
+    "description": "UA"
+  },
+  "restoreFailed": {
+    "message": "Recovery failed",
+    "description": "UA"
+  },
+  "removedFromCache": {
+    "message": " Removed from the cache",
+    "description": "UA"
+  },
+  "restoreSuccess": {
+    "message": "Recover successfully",
+    "description": "UA"
+  },
+  "restoreComplete": {
+    "message": "The learning record has all recovered successfully",
+    "description": "UA"
   }
 }
