@@ -196,7 +196,7 @@
     "description": "2.0 course.js"
   },
   "totalDuration": {
-    "message": "总时长：",
+    "message": "总时长：{count}分钟",
     "description": "2.0 course.js"
   },
   "document": {
@@ -747,8 +747,8 @@
     "message": "本课程还未指定课件",
     "description": "2.0 course.js"
   },
-  "minite": {
-    "message": "分钟",
+  "minute": {
+    "message": "{count}分钟",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -1028,7 +1028,7 @@
     "description": "2.0 course.js"
   },
   "studyScoreColon": {
-    "message": "学习成绩：",
+    "message": "学习成绩：{percent}%",
     "description": "2.0 course.js"
   },
   "averageScoreByChapter": {
@@ -1036,39 +1036,31 @@
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "学习时间：",
+    "message": "学习时间：{percent}%",
     "description": "2.0 course.js"
   },
   "totalStudyTimeAchieve": {
-    "message": "累计学习时间达到",
+    "message": "累计学习时间达到{max}分钟得满分，低于{min}分钟计0分",
     "description": "2.0 course.js"
   },
   "chapterStudyTimeAchieve": {
-    "message": "每章学习时间达到",
+    "message": "每章学习时间达到{max}分钟得满分，低于{min}分钟计0分",
     "description": "2.0 course.js"
   },
   "sectionStudyTimeAchieve": {
-    "message": "每节学习时间达到",
-    "description": "2.0 course.js"
-  },
-  "fullMarksLessThan": {
-    "message": "得满分，低于",
-    "description": "2.0 course.js"
-  },
-  "score0": {
-    "message": "计0分",
+    "message": "每节学习时间达到{max}分钟得满分，低于{min}分钟计0分",
     "description": "2.0 course.js"
   },
   "studyProgressColon": {
-    "message": "学习进度：",
+    "message": "学习进度：{precent}%",
     "description": "2.0 course.js"
   },
   "totalStudyProgress": {
-    "message": "累计学习进度达到",
+    "message": "累计学习进度达到{max}%得满分，低于{min}%计0分",
     "description": "2.0 course.js"
   },
   "chapterStudyProgress": {
-    "message": "每章学习进度达到",
+    "message": "每章学习进度达到{max}%得满分，低于{min}%计0分",
     "description": "2.0 course.js"
   },
   "noParticipants": {
@@ -3632,7 +3624,7 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "总数量：",
+    "message": "总数量：{count}个",
     "description": "2.0 course.js"
   },
   "nonVideoResource": {
@@ -3648,7 +3640,7 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "数量：",
+    "message": "数量：{count}次",
     "description": "2.0 course.js"
   },
   "homeworkAndTest": {
@@ -5377,6 +5369,10 @@
   },
   "videoViewTime": {
     "message": "查看视频时长",
+    "description": "2.0 course.js"
+  },
+  "videoViewTime2": {
+    "message": "查看视频时长（分钟）",
     "description": "2.0 course.js"
   },
   "docViewNum": {

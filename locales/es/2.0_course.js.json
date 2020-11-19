@@ -196,7 +196,7 @@
     "description": "2.0 course.js"
   },
   "totalDuration": {
-    "message": "Duración total:",
+    "message": "Duración total: {count} Minutos",
     "description": "2.0 course.js"
   },
   "document": {
@@ -747,8 +747,8 @@
     "message": "No se ha especificado ningún curso para este curso.",
     "description": "2.0 course.js"
   },
-  "minite": {
-    "message": "Minutos",
+  "minute": {
+    "message": "{count} Minutos",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -1029,7 +1029,7 @@
     "description": "2.0 course.js"
   },
   "studyScoreColon": {
-    "message": "Rendimiento académico",
+    "message": "Rendimiento académico: {percent}%",
     "description": "2.0 course.js"
   },
   "averageScoreByChapter": {
@@ -1037,39 +1037,31 @@
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "Tiempo de estudio:",
+    "message": "Tiempo de estudio: {percent}%",
     "description": "2.0 course.js"
   },
   "totalStudyTimeAchieve": {
-    "message": "Tiempo de aprendizaje acumulado alcanzado",
+    "message": "Tiempo de aprendizaje acumulado alcanzado {max} Minutos Obtenga calificaciones completas, a continuación {min} Minutos 0 puntos",
     "description": "2.0 course.js"
   },
   "chapterStudyTimeAchieve": {
-    "message": "Cada capítulo del tiempo de estudio alcanza",
+    "message": "Cada capítulo del tiempo de estudio alcanza {max} Minutos Obtenga calificaciones completas, a continuación {min} Minutos 0 puntos",
     "description": "2.0 course.js"
   },
   "sectionStudyTimeAchieve": {
-    "message": "Cada tiempo de estudio alcanza",
-    "description": "2.0 course.js"
-  },
-  "fullMarksLessThan": {
-    "message": "\"Obtenga calificaciones completas, a continuación\"",
-    "description": "2.0 course.js"
-  },
-  "score0": {
-    "message": "0 puntos",
+    "message": "Cada tiempo de estudio alcanza {max} Minutos Obtenga calificaciones completas, a continuación {min} Minutos 0 puntos",
     "description": "2.0 course.js"
   },
   "studyProgressColon": {
-    "message": "Progreso de aprendizaje:",
+    "message": "Progreso de aprendizaje: {precent}%",
     "description": "2.0 course.js"
   },
   "totalStudyProgress": {
-    "message": "Progreso acumulado de aprendizaje alcanzado",
+    "message": "Progreso acumulado de aprendizaje alcanzado {max}% Obtenga calificaciones completas, a continuación {min}% 0 puntos",
     "description": "2.0 course.js"
   },
   "chapterStudyProgress": {
-    "message": "Cada capítulo de progreso de aprendizaje alcanzado",
+    "message": "Cada capítulo de progreso de aprendizaje alcanzado {max}% Obtenga calificaciones completas, a continuación {min}% 0 puntos",
     "description": "2.0 course.js"
   },
   "noParticipants": {
@@ -3633,7 +3625,7 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "Cantidad total:",
+    "message": "Cantidad total: {count} Un",
     "description": "2.0 course.js"
   },
   "nonVideoResource": {
@@ -3649,7 +3641,7 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "Cantidad:",
+    "message": "Cantidad: {count} Tiempos",
     "description": "2.0 course.js"
   },
   "homeworkAndTest": {
@@ -5373,7 +5365,7 @@
     "description": "2.0 course.js"
   },
   "videoViewTime": {
-    "message": "Ver la duración del vídeo.",
+    "message": "Ver la duración del vídeo (Minutos)",
     "description": "2.0 course.js"
   },
   "docViewNum": {

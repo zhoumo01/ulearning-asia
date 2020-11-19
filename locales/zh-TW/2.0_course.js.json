@@ -196,7 +196,7 @@
     "description": "2.0 course.js"
   },
   "totalDuration": {
-    "message": "總時長: ",
+    "message": "總時長: {count}分鐘",
     "description": "2.0 course.js"
   },
   "document": {
@@ -747,8 +747,8 @@
     "message": "本課程尚未指定課件",
     "description": "2.0 course.js"
   },
-  "minite": {
-    "message": "分鐘",
+  "minute": {
+    "message": "{count} 分鐘",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -1029,7 +1029,7 @@
     "description": "2.0 course.js"
   },
   "studyScoreColon": {
-    "message": "學習成績: ",
+    "message": "學習成績: {percent}%",
     "description": "2.0 course.js"
   },
   "averageScoreByChapter": {
@@ -1037,39 +1037,31 @@
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "學習時間: ",
+    "message": "學習時間: {percent}%",
     "description": "2.0 course.js"
   },
   "totalStudyTimeAchieve": {
-    "message": "累計學習時間達到",
+    "message": "累計學習時間達到{max}分鐘得滿分,低於{min}分鐘計0分",
     "description": "2.0 course.js"
   },
   "chapterStudyTimeAchieve": {
-    "message": "每章學習時間達到",
+    "message": "每章學習時間達到{max}分鐘得滿分,低於{min}分鐘計0分",
     "description": "2.0 course.js"
   },
   "sectionStudyTimeAchieve": {
-    "message": "每節學習時間達到",
-    "description": "2.0 course.js"
-  },
-  "fullMarksLessThan": {
-    "message": "得滿分,低於",
-    "description": "2.0 course.js"
-  },
-  "score0": {
-    "message": "計0分",
+    "message": "每節學習時間達到{max}分鐘得滿分,低於{min}分鐘計0分",
     "description": "2.0 course.js"
   },
   "studyProgressColon": {
-    "message": "學習進度: ",
+    "message": "學習進度: {precent}%",
     "description": "2.0 course.js"
   },
   "totalStudyProgress": {
-    "message": "累計學習進度達到",
+    "message": "累計學習進度達到{max}%得滿分,低於{min}%計0分",
     "description": "2.0 course.js"
   },
   "chapterStudyProgress": {
-    "message": "每章學習進度達到",
+    "message": "每章學習進度達到{max}%得滿分,低於{min}%計0分",
     "description": "2.0 course.js"
   },
   "noParticipants": {
@@ -3633,7 +3625,7 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "總數量: ",
+    "message": "總數量: {count}個",
     "description": "2.0 course.js"
   },
   "nonVideoResource": {
@@ -3649,7 +3641,7 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "數量: ",
+    "message": "數量: {count}次",
     "description": "2.0 course.js"
   },
   "homeworkAndTest": {

@@ -196,7 +196,7 @@
     "description": "2.0 course.js"
   },
   "totalDuration": {
-    "message": "ความยาวรวม",
+    "message": "ความยาวรวม: {count}นาที",
     "description": "2.0 course.js"
   },
   "document": {
@@ -747,8 +747,8 @@
     "message": "หลักสูตรนี้ยังไม่มีการกำหนดสื่อการเรียน",
     "description": "2.0 course.js"
   },
-  "minite": {
-    "message": "นาที",
+  "minute": {
+    "message": "{count} นาที",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -1029,7 +1029,7 @@
     "description": "2.0 course.js"
   },
   "studyScoreColon": {
-    "message": "ผลการเรียน",
+    "message": "ผลการเรียน: {percent}%",
     "description": "2.0 course.js"
   },
   "averageScoreByChapter": {
@@ -1037,39 +1037,31 @@
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "เวลาเรียน",
+    "message": "เวลาเรียน: {percent}%",
     "description": "2.0 course.js"
   },
   "totalStudyTimeAchieve": {
-    "message": "เวลาเรียนรวมได้ถึง",
+    "message": "เวลาเรียนรวมได้ถึง {max} นาทีได้คะแนนเต็ม ต่ำกว่า {min}นาที 0 คะแนน",
     "description": "2.0 course.js"
   },
   "chapterStudyTimeAchieve": {
-    "message": "เวลาเรียนของทุกบทได้ถึง",
+    "message": "เวลาเรียนของทุกบทได้ถึง {max} นาทีได้คะแนนเต็ม ต่ำกว่า {min}นาที 0 คะแนน",
     "description": "2.0 course.js"
   },
   "sectionStudyTimeAchieve": {
-    "message": "เวลาเรียนของทุกคาบได้ถึง",
-    "description": "2.0 course.js"
-  },
-  "fullMarksLessThan": {
-    "message": "ได้คะแนนเต็ม ต่ำกว่า",
-    "description": "2.0 course.js"
-  },
-  "score0": {
-    "message": "0 คะแนน",
+    "message": "เวลาเรียนของทุกคาบได้ถึง {max} นาทีได้คะแนนเต็ม ต่ำกว่า {min}นาที 0 คะแนน",
     "description": "2.0 course.js"
   },
   "studyProgressColon": {
-    "message": "ความก้าวหน้าทางการเรียน",
+    "message": "ความก้าวหน้าทางการเรียน: {precent}%",
     "description": "2.0 course.js"
   },
   "totalStudyProgress": {
-    "message": "ความก้าวหน้าทางการเรียนรวมได้ถึง",
+    "message": "ความก้าวหน้าทางการเรียนรวมได้ถึง {max}% ได้คะแนนเต็ม ต่ำกว่า {min}% 0 คะแนน",
     "description": "2.0 course.js"
   },
   "chapterStudyProgress": {
-    "message": "ความก้าวหน้าทางการเรียนในทุกบทได้ถึง",
+    "message": "ความก้าวหน้าทางการเรียนในทุกบทได้ถึง {max}% ได้คะแนนเต็ม ต่ำกว่า {min}% 0 คะแนน",
     "description": "2.0 course.js"
   },
   "noParticipants": {
@@ -3633,7 +3625,7 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "จำนวนทั้งหมด",
+    "message": "จำนวนทั้งหมด: {count}หมายเลข",
     "description": "2.0 course.js"
   },
   "nonVideoResource": {
@@ -3649,7 +3641,7 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "จำนวน",
+    "message": "จำนวน: {count}ครั้ง",
     "description": "2.0 course.js"
   },
   "homeworkAndTest": {

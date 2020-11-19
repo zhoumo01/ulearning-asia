@@ -196,7 +196,7 @@
     "description": "2.0 course.js"
   },
   "totalDuration": {
-    "message": "Total Length: ",
+    "message": "Total Length: {count} Min",
     "description": "2.0 course.js"
   },
   "document": {
@@ -735,8 +735,8 @@
     "message": "No courseware has been assigned to this course",
     "description": "2.0 course.js"
   },
-  "minite": {
-    "message": "Min",
+  "minute": {
+    "message": "{count} Min",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -1017,7 +1017,7 @@
     "description": "2.0 course.js"
   },
   "studyScoreColon": {
-    "message": "Learning Results:",
+    "message": "Learning Results: {percent}%",
     "description": "2.0 course.js"
   },
   "averageScoreByChapter": {
@@ -1025,39 +1025,31 @@
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "Learning Time：",
+    "message": "Learning Time：{percent}%",
     "description": "2.0 course.js"
   },
   "totalStudyTimeAchieve": {
-    "message": "Cumulative learning time reaches ",
+    "message": "Cumulative learning time reaches {max} Min score 100%; less than {min} Min score 0",
     "description": "2.0 course.js"
   },
   "chapterStudyTimeAchieve": {
-    "message": "Learning time of each module reaches ",
+    "message": "Learning time of each module reaches {max} Min score 100%; less than {min} Min score 0",
     "description": "2.0 course.js"
   },
   "sectionStudyTimeAchieve": {
-    "message": "Learning time of each topic reaches ",
-    "description": "2.0 course.js"
-  },
-  "fullMarksLessThan": {
-    "message": " score 100%; less than ",
-    "description": "2.0 course.js"
-  },
-  "score0": {
-    "message": " score 0",
+    "message": "Learning time of each topic reaches {max} Min score 100%; less than {min} Min score 0",
     "description": "2.0 course.js"
   },
   "studyProgressColon": {
-    "message": "Learning Progress: ",
+    "message": "Learning Progress: {precent}%",
     "description": "2.0 course.js"
   },
   "totalStudyProgress": {
-    "message": "Cumulative learning progress reaches ",
+    "message": "Cumulative learning progress reaches reaches {max}% score 100%; less than {min} score 0",
     "description": "2.0 course.js"
   },
   "chapterStudyProgress": {
-    "message": "Learning progress of each module reaches ",
+    "message": "Learning progress of each module reaches reaches {max}% score 100%; less than {min} score 0",
     "description": "2.0 course.js"
   },
   "noParticipants": {
@@ -3621,7 +3613,7 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "Total: ",
+    "message": "Total: {count} item(s)",
     "description": "2.0 course.js"
   },
   "nonVideoResource": {
@@ -3637,7 +3629,7 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "Total: ",
+    "message": "Total: {count} item(s)",
     "description": "2.0 course.js"
   },
   "homeworkAndTest": {
@@ -5366,6 +5358,10 @@
   },
   "videoViewTime": {
     "message": "View the length of the video",
+    "description": "2.0 course.js"
+  },
+  "videoViewTime2": {
+    "message": "View the length of the video (Min)",
     "description": "2.0 course.js"
   },
   "docViewNum": {

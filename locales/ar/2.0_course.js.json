@@ -196,7 +196,7 @@
     "description": "2.0 course.js"
   },
   "totalDuration": {
-    "message": "مجموع الطول:",
+    "message": "مجموع الطول: {count}دقيقه",
     "description": "2.0 course.js"
   },
   "document": {
@@ -735,16 +735,12 @@
     "message": "لم يتم تعيين أي برامج دراسية لهذه الدورة",
     "description": "2.0 course.js"
   },
-  "minite": {
-    "message": "دقيقه",
+  "minute": {
+    "message": "{count} دقيقه",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
     "message": "متوسط معدل الإنجاز",
-    "description": "2.0 course.js"
-  },
-  "averageStudyTimeByMinite": {
-    "message": "متوسط وقت التعلم",
     "description": "2.0 course.js"
   },
   "attendanceState": {
@@ -1017,7 +1013,7 @@
     "description": "2.0 course.js"
   },
   "studyScoreColon": {
-    "message": "نتيجة التعلم:",
+    "message": "نتيجة التعلم: {percent}%",
     "description": "2.0 course.js"
   },
   "averageScoreByChapter": {
@@ -1025,39 +1021,31 @@
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "وقت التعلم:",
+    "message": "وقت التعلم: {percent}%",
     "description": "2.0 course.js"
   },
   "totalStudyTimeAchieve": {
-    "message": "زمن التعلم التراكمي يصل",
+    "message": "يصل وقت التعلم المتراكم إلى {max} دقيقة للحصول على درجة كاملة ، وأقل من {min} دقيقة للحصول على 0 نقطة",
     "description": "2.0 course.js"
   },
   "chapterStudyTimeAchieve": {
-    "message": "وقت التعلم من كل فصل يصل",
+    "message": "النتيجة الكاملة لكل فصل من وقت التعلم {max} دقيقة ، 0 نقطة لأقل من {min} دقيقة",
     "description": "2.0 course.js"
   },
   "sectionStudyTimeAchieve": {
-    "message": "وقت التعلم من كل قسم يصل",
-    "description": "2.0 course.js"
-  },
-  "fullMarksLessThan": {
-    "message": "علامات كاملة، أقل من",
-    "description": "2.0 course.js"
-  },
-  "score0": {
-    "message": "سجل 0 علامات",
+    "message": "يصل وقت التعلم لكل جلسة إلى {max} دقيقة للحصول على درجات كاملة ، وأقل من {min} دقيقة للحصول على 0 نقطة",
     "description": "2.0 course.js"
   },
   "studyProgressColon": {
-    "message": "تقدم التعلم:",
+    "message": "تقدم التعلم: {precent}%",
     "description": "2.0 course.js"
   },
   "totalStudyProgress": {
-    "message": "التقدم التراكمي في التعلم يصل إلى",
+    "message": "يصل تقدم التعلم التراكمي إلى {max}٪ للحصول على درجات كاملة ، وأقل من {min}٪ للحصول على 0 نقطة",
     "description": "2.0 course.js"
   },
   "chapterStudyProgress": {
-    "message": "التقدم التعلم من كل فصل يصل",
+    "message": "يصل تقدم التعلم لكل فصل إلى {max}٪ للحصول على علامة كاملة ، وأقل من {min}٪ للحصول على 0 نقطة",
     "description": "2.0 course.js"
   },
   "noParticipants": {
@@ -3621,7 +3609,7 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "مجموع:",
+    "message": "مجموع: {count}البند(ق)",
     "description": "2.0 course.js"
   },
   "nonVideoResource": {
@@ -3637,7 +3625,7 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "مجموع:",
+    "message": "مجموع: {count}البند(ق)",
     "description": "2.0 course.js"
   },
   "homeworkAndTest": {
@@ -5362,6 +5350,10 @@
   },
   "videoViewTime": {
     "message": "عرض طول الفيديو.",
+    "description": "2.0 course.js"
+  },
+  "videoViewTime2": {
+    "message": "عرض طول الفيديو.(دقيقه)",
     "description": "2.0 course.js"
   },
   "docViewNum": {
