@@ -584,11 +584,15 @@
     "description": "2.0 exam.js"
   },
   "minute": {
-    "message": "Minutos",
+    "message": "{count} Minutos",
     "description": "2.0 exam.js"
   },
   "seconds": {
     "message": "Segundos",
+    "description": "2.0 exam.js"
+  },
+  "timeLength": {
+    "message": "{days} Día {hours} Horas {minutes} Minutos {seconds} Segundos",
     "description": "2.0 exam.js"
   },
   "scoringRate": {
@@ -676,11 +680,15 @@
     "description": "2.0 exam.js"
   },
   "examDurationCl": {
-    "message": "Longitud del examen:",
+    "message": "Longitud del examen: {count} Minutos",
     "description": "2.0 exam.js"
   },
   "lateTime": {
-    "message": "Tiempo de retraso:",
+    "message": "Tiempo de retraso: {count}",
+    "description": "2.0 exam.js"
+  },
+  "lateTimeSet": {
+    "message": "Tiempo tardío",
     "description": "2.0 exam.js"
   },
   "myself": {
@@ -1064,7 +1072,7 @@
     "description": "2.0 exam.js"
   },
   "answerDurationCl": {
-    "message": "Duración de la respuesta:",
+    "message": "Duración de la respuesta: {count}",
     "description": "2.0 exam.js"
   },
   "answerTimesCl": {
@@ -1640,7 +1648,7 @@
     "description": "2.0 exam.js"
   },
   "batchExpand": {
-    "message": "Extensión de lote",
+    "message": "Extensión de lote {count} Minutos",
     "description": "2.0 exam.js"
   },
   "roomTips8": {
@@ -2469,10 +2477,6 @@
   },
   "unlimitTimes": {
     "message": "Tiempos ilimitados",
-    "description": "2.0 exam.js"
-  },
-  "lateTime2": {
-    "message": "Tiempo tardío",
     "description": "2.0 exam.js"
   },
   "lateTip": {

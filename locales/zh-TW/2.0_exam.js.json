@@ -584,11 +584,15 @@
     "description": "2.0 exam.js"
   },
   "minute": {
-    "message": "分鐘",
+    "message": "{count}分鐘",
     "description": "2.0 exam.js"
   },
   "seconds": {
     "message": "秒",
+    "description": "2.0 exam.js"
+  },
+  "timeLength": {
+    "message": "{days}日{hours}小時{minutes}分鐘{seconds}秒",
     "description": "2.0 exam.js"
   },
   "scoringRate": {
@@ -676,11 +680,15 @@
     "description": "2.0 exam.js"
   },
   "examDurationCl": {
-    "message": "考試時長: ",
+    "message": "考試時長: {count}分鐘",
     "description": "2.0 exam.js"
   },
   "lateTime": {
-    "message": "遲到時間: ",
+    "message": "遲到時間: {count}",
+    "description": "2.0 exam.js"
+  },
+  "lateTimeSet": {
+    "message": "遲到時間",
     "description": "2.0 exam.js"
   },
   "myself": {
@@ -1064,7 +1072,7 @@
     "description": "2.0 exam.js"
   },
   "answerDurationCl": {
-    "message": "作答時長: ",
+    "message": "作答時長:  {count}",
     "description": "2.0 exam.js"
   },
   "answerTimesCl": {
@@ -1640,7 +1648,7 @@
     "description": "2.0 exam.js"
   },
   "batchExpand": {
-    "message": "批次延長",
+    "message": "批次延長{count}分鐘",
     "description": "2.0 exam.js"
   },
   "roomTips8": {
@@ -2469,10 +2477,6 @@
   },
   "unlimitTimes": {
     "message": "不限制次數",
-    "description": "2.0 exam.js"
-  },
-  "lateTime2": {
-    "message": "遲到時間",
     "description": "2.0 exam.js"
   },
   "abnormalMonitor": {

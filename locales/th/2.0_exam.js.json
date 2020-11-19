@@ -584,11 +584,15 @@
     "description": "2.0 exam.js"
   },
   "minute": {
-    "message": "นาที",
+    "message": "{count} นาที",
     "description": "2.0 exam.js"
   },
   "seconds": {
     "message": "วินาที",
+    "description": "2.0 exam.js"
+  },
+  "timeLength": {
+    "message": "{days}วัน{hours}ชั่วโมง{minutes}นาที{seconds}วินาที",
     "description": "2.0 exam.js"
   },
   "scoringRate": {
@@ -676,11 +680,15 @@
     "description": "2.0 exam.js"
   },
   "examDurationCl": {
-    "message": "ระยะเวลาการสอบ",
+    "message": "ระยะเวลาการสอบ: {count} นาที",
     "description": "2.0 exam.js"
   },
   "lateTime": {
-    "message": "เวลาที่ถือว่าสาย",
+    "message": "เวลาที่ถือว่าสาย: {count}",
+    "description": "2.0 exam.js"
+  },
+  "lateTimeSet": {
+    "message": "ระยะเวลาที่มาสาย",
     "description": "2.0 exam.js"
   },
   "myself": {
@@ -1064,7 +1072,7 @@
     "description": "2.0 exam.js"
   },
   "answerDurationCl": {
-    "message": "ระยะเวลาการตอบคำถาม",
+    "message": "ระยะเวลาการตอบคำถาม {count}",
     "description": "2.0 exam.js"
   },
   "answerTimesCl": {
@@ -1640,7 +1648,7 @@
     "description": "2.0 exam.js"
   },
   "batchExpand": {
-    "message": "ครั้งที่ขยายออก",
+    "message": "ครั้งที่ขยายออก {count} นาที",
     "description": "2.0 exam.js"
   },
   "roomTips8": {
@@ -2461,10 +2469,6 @@
   },
   "unlimitTimes": {
     "message": "ไม่จำกัดจำนวนครั้ง",
-    "description": "2.0 exam.js"
-  },
-  "lateTime2": {
-    "message": "ระยะเวลาที่มาสาย",
     "description": "2.0 exam.js"
   },
   "abnormalMonitor": {

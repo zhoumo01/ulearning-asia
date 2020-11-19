@@ -584,11 +584,15 @@
     "description": "2.0 exam.js"
   },
   "minute": {
-    "message": "menit",
+    "message": "{count} menit",
     "description": "2.0 exam.js"
   },
   "seconds": {
     "message": "detik",
+    "description": "2.0 exam.js"
+  },
+  "timeLength": {
+    "message": "{days} hari {hours} jam {minutes} menit {seconds} detik",
     "description": "2.0 exam.js"
   },
   "scoringRate": {
@@ -676,11 +680,15 @@
     "description": "2.0 exam.js"
   },
   "examDurationCl": {
-    "message": "Durasi ujian:",
+    "message": "Durasi ujian: {count} menit",
     "description": "2.0 exam.js"
   },
   "lateTime": {
-    "message": "Waktu telat:",
+    "message": "Waktu telat: {count}",
+    "description": "2.0 exam.js"
+  },
+  "lateTimeSet": {
+    "message": "Waktu telat",
     "description": "2.0 exam.js"
   },
   "myself": {
@@ -1064,7 +1072,7 @@
     "description": "2.0 exam.js"
   },
   "answerDurationCl": {
-    "message": "Durasi menjawab:",
+    "message": "Durasi menjawab: {count}",
     "description": "2.0 exam.js"
   },
   "answerTimesCl": {
@@ -1640,7 +1648,7 @@
     "description": "2.0 exam.js"
   },
   "batchExpand": {
-    "message": "Perpanjangan batch",
+    "message": "Perpanjangan batch {count} menit",
     "description": "2.0 exam.js"
   },
   "roomTips8": {
@@ -2469,10 +2477,6 @@
   },
   "unlimitTimes": {
     "message": "Jumlah tidak terbatas",
-    "description": "2.0 exam.js"
-  },
-  "lateTime2": {
-    "message": "Waktu telat",
     "description": "2.0 exam.js"
   },
   "lateTip": {

@@ -604,11 +604,15 @@
     "description": "2.0 exam.js"
   },
   "minute": {
-    "message": " min",
+    "message": "{count} min",
     "description": "2.0 exam.js"
   },
   "seconds": {
     "message": " Second",
+    "description": "2.0 exam.js"
+  },
+  "timeLength": {
+    "message": "{days} Day {hours} Hour {minutes} min {seconds} Second",
     "description": "2.0 exam.js"
   },
   "scoringRate": {
@@ -700,20 +704,16 @@
     "description": "2.0 exam.js"
   },
   "examDurationCl": {
-    "message": "Exam Duration: ",
-    "description": "2.0 exam.js"
-  },
-  "examDurationCl2": {
     "message": "Exam Duration: {count} min",
-    "description": "2.0 {filename}"
+    "description": "2.0 exam.js"
   },
   "lateTime": {
-    "message": "Late Start: ",
+    "message": "Late Start: {count}",
     "description": "2.0 exam.js"
   },
-  "lateTimePrefix": {
-    "message": "Late Start: {count}",
-    "description": "2.0 {filename}"
+  "lateTimeSet": {
+    "message": "Late Start",
+    "description": "2.0 exam.js"
   },
   "myself": {
     "message": "Me",
@@ -1108,7 +1108,7 @@
     "description": "2.0 exam.js"
   },
   "answerDurationCl": {
-    "message": "Exam Duration: ",
+    "message": "Exam Duration:  {count}",
     "description": "2.0 exam.js"
   },
   "answerTimesCl": {
@@ -1688,7 +1688,7 @@
     "description": "2.0 exam.js"
   },
   "batchExpand": {
-    "message": "Extend",
+    "message": "Extend {count} min",
     "description": "2.0 exam.js"
   },
   "roomTips8": {
@@ -2517,10 +2517,6 @@
   },
   "unlimitTimes": {
     "message": "No limit",
-    "description": "2.0 exam.js"
-  },
-  "lateTime2": {
-    "message": "Late Start",
     "description": "2.0 exam.js"
   },
   "lateTip": {

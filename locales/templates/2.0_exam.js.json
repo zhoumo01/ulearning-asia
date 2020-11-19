@@ -604,11 +604,15 @@
     "description": "2.0 exam.js"
   },
   "minute": {
-    "message": "分钟",
+    "message": "{count}分钟",
     "description": "2.0 exam.js"
   },
   "seconds": {
     "message": "秒",
+    "description": "2.0 exam.js"
+  },
+  "timeLength": {
+    "message": "{days}天{hours}小时{minutes}分钟{seconds}秒",
     "description": "2.0 exam.js"
   },
   "scoringRate": {
@@ -700,20 +704,16 @@
     "description": "2.0 exam.js"
   },
   "examDurationCl": {
-    "message": "考试时长：",
-    "description": "2.0 exam.js"
-  },
-  "examDurationCl2": {
     "message": "考试时长：{count}分钟",
-    "description": "2.0 {filename}"
+    "description": "2.0 exam.js"
   },
   "lateTime": {
-    "message": "迟到时间：",
+    "message": "迟到时间：{count}",
     "description": "2.0 exam.js"
   },
-  "lateTimePrefix": {
-    "message": "迟到时间：{count}",
-    "description": "2.0 {filename}"
+  "lateTimeSet": {
+    "message": "迟到时间",
+    "description": "2.0 exam.js"
   },
   "myself": {
     "message": "我自己",
@@ -1108,7 +1108,7 @@
     "description": "2.0 exam.js"
   },
   "answerDurationCl": {
-    "message": "答题时长：",
+    "message": "答题时长：{count}",
     "description": "2.0 exam.js"
   },
   "answerTimesCl": {
@@ -1688,7 +1688,7 @@
     "description": "2.0 exam.js"
   },
   "batchExpand": {
-    "message": "批次延长",
+    "message": "批次延长{count}分钟",
     "description": "2.0 exam.js"
   },
   "roomTips8": {
@@ -2517,10 +2517,6 @@
   },
   "unlimitTimes": {
     "message": "不限制次数",
-    "description": "2.0 exam.js"
-  },
-  "lateTime2": {
-    "message": "迟到时间",
     "description": "2.0 exam.js"
   },
   "lateTip": {
