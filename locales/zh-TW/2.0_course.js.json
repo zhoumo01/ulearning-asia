@@ -991,8 +991,17 @@
     "message": "考核截止日期",
     "description": "2.0 course.js"
   },
+  "stuScore": {
+    "oldValue": "{stuName}：{count} 分",
+    "description": "2.0 course.js"
+  },
   "score": {
     "message": "分",
+    "oldValue": "{count}分",
+    "description": "2.0 course.js"
+  },
+  "scoreCol": {
+    "oldValue": "分值",
     "description": "2.0 course.js"
   },
   "totalScore": {
@@ -5319,8 +5328,8 @@
     "message": "含有不支持課件學習進度評分項的教材，請去掉課件學習進度評分項或者去掉不支持的教材再保存",
     "description": "2.0 course.js"
   },
-  "point": {
-    "message": "分",
+  "weights": {
+    "message": "{percent}%,{count}分",
     "description": "2.0 course.js"
   },
   "importBBCourse": {
