@@ -196,8 +196,9 @@
     "description": "2.0 course.js"
   },
   "totalDuration": {
-    "message": "Total Length: {count} Min",
-    "description": "2.0 course.js"
+    "message": "Total Length: ",
+    "description": "2.0 course.js",
+    "oldValue": "Total Length: {count} Min"
   },
   "document": {
     "message": "Documents",
@@ -608,15 +609,15 @@
     "description": "2.0 course.js"
   },
   "weekIndex": {
-    "message": "No. {n} week",
+    "oldValue": "No. {n} week",
     "description": "2.0 course.js"
   },
   "groupIndex": {
-    "message": "No. {n} group",
+    "oldValue": "No. {n} group",
     "description": "2.0 course.js"
   },
   "periodIndex": {
-    "message": "No. {n} option",
+    "oldValue": "No. {n} option",
     "description": "2.0 course.js"
   },
   "teacher": {
@@ -720,7 +721,7 @@
     "description": "2.0 course.js"
   },
   "minute": {
-    "message": "{count} Min",
+    "oldValue": "{count} Min",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -969,8 +970,8 @@
   },
   "score": {
     "message": " points",
-    "oldValue": "{count} points",
-    "description": "2.0 course.js"
+    "description": "2.0 course.js",
+    "oldValue": "{count} points"
   },
   "scoreCol": {
     "oldValue": " points",
@@ -1001,40 +1002,48 @@
     "description": "2.0 course.js"
   },
   "studyScoreColon": {
-    "message": "Learning Results: {percent}%",
-    "description": "2.0 course.js"
+    "message": "Learning Results:",
+    "description": "2.0 course.js",
+    "oldValue": "Learning Results: {percent}%"
   },
   "averageScoreByChapter": {
     "message": "By avg score per selected module",
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "Learning Time：{percent}%",
-    "description": "2.0 course.js"
+    "message": "Learning Time：",
+    "description": "2.0 course.js",
+    "oldValue": "Learning Time：{percent}%"
   },
   "totalStudyTimeAchieve": {
-    "message": "Cumulative learning time reaches {max} Min score 100%; less than {min} Min score 0",
-    "description": "2.0 course.js"
+    "message": "Cumulative learning time reaches ",
+    "description": "2.0 course.js",
+    "oldValue": "Cumulative learning time reaches {max} Min score 100%; less than {min} Min score 0"
   },
   "chapterStudyTimeAchieve": {
-    "message": "Learning time of each module reaches {max} Min score 100%; less than {min} Min score 0",
-    "description": "2.0 course.js"
+    "message": "Learning time of each module reaches ",
+    "description": "2.0 course.js",
+    "oldValue": "Learning time of each module reaches {max} Min score 100%; less than {min} Min score 0"
   },
   "sectionStudyTimeAchieve": {
-    "message": "Learning time of each topic reaches {max} Min score 100%; less than {min} Min score 0",
-    "description": "2.0 course.js"
+    "message": "Learning time of each topic reaches ",
+    "description": "2.0 course.js",
+    "oldValue": "Learning time of each topic reaches {max} Min score 100%; less than {min} Min score 0"
   },
   "studyProgressColon": {
-    "message": "Learning Progress: {precent}%",
-    "description": "2.0 course.js"
+    "message": "Learning Progress: ",
+    "description": "2.0 course.js",
+    "oldValue": "Learning Progress: {precent}%"
   },
   "totalStudyProgress": {
-    "message": "Cumulative learning progress reaches reaches {max}% score 100%; less than {min} score 0",
-    "description": "2.0 course.js"
+    "message": "Cumulative learning progress reaches ",
+    "description": "2.0 course.js",
+    "oldValue": "Cumulative learning progress reaches reaches {max}% score 100%; less than {min} score 0"
   },
   "chapterStudyProgress": {
-    "message": "Learning progress of each module reaches reaches {max}% score 100%; less than {min} score 0",
-    "description": "2.0 course.js"
+    "message": "Learning progress of each module reaches ",
+    "description": "2.0 course.js",
+    "oldValue": "Learning progress of each module reaches reaches {max}% score 100%; less than {min} score 0"
   },
   "noParticipants": {
     "message": "Not participated in",
@@ -2633,8 +2642,9 @@
     "description": "2.0 course.js"
   },
   "memberSpocValidateTips15": {
-    "message": "No. {n} class names exceed 200 characters!",
-    "description": "2.0 course.js"
+    "message": " class names exceed 200 characters!",
+    "description": "2.0 course.js",
+    "oldValue": "No. {n} class names exceed 200 characters!"
   },
   "memberSpocValidateTips16": {
     "message": "Enter the class name",
@@ -3597,8 +3607,9 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "Total: {count} item(s)",
-    "description": "2.0 course.js"
+    "message": "Total: ",
+    "description": "2.0 course.js",
+    "oldValue": "Total: {count} item(s)"
   },
   "nonVideoResource": {
     "message": "Non-Video Content",
@@ -3613,8 +3624,9 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "Total: {count} item(s)",
-    "description": "2.0 course.js"
+    "message": "Total: ",
+    "description": "2.0 course.js",
+    "oldValue": "Total: {count} item(s)"
   },
   "homeworkAndTest": {
     "message": "Assignments/Quizzes",
@@ -3841,8 +3853,9 @@
     "description": "2.0 course.js"
   },
   "remaining": {
-    "message": "{n} day(s) left",
-    "description": "2.0 course.js"
+    "message": " ",
+    "description": "2.0 course.js",
+    "oldValue": "{n} day(s) left"
   },
   "progress": {
     "message": "Learning Progress",
@@ -4185,8 +4198,9 @@
     "description": "2.0 course.js"
   },
   "remainingStudyTime": {
-    "message": "Remaining Learning Days {n} day(s) left",
-    "description": "2.0 course.js"
+    "message": "Remaining Learning Days",
+    "description": "2.0 course.js",
+    "oldValue": "Remaining Learning Days {n} day(s) left"
   },
   "textbookTips38": {
     "message": "No courseware found.",
@@ -5293,7 +5307,7 @@
     "description": "2.0 course.js"
   },
   "weights": {
-    "message": "{percent}%, {count} point(s)",
+    "oldValue": "{percent}%, {count} point(s)",
     "description": "2.0 course.js"
   },
   "importBBCourse": {
@@ -5341,7 +5355,7 @@
     "description": "2.0 course.js"
   },
   "videoViewTime2": {
-    "message": "View the length of the video (Min)",
+    "oldValue": "View the length of the video (Min)",
     "description": "2.0 course.js"
   },
   "docViewNum": {

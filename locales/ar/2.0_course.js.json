@@ -196,8 +196,9 @@
     "description": "2.0 course.js"
   },
   "totalDuration": {
-    "message": "مجموع الطول: {count}دقيقه",
-    "description": "2.0 course.js"
+    "message": "مجموع الطول:",
+    "description": "2.0 course.js",
+    "oldValue": "مجموع الطول: {count}دقيقه"
   },
   "document": {
     "message": "الوثيقه",
@@ -608,15 +609,15 @@
     "description": "2.0 course.js"
   },
   "weekIndex": {
-    "message": "لا.{n}الاسبوع",
+    "oldValue": "لا.{n}الاسبوع",
     "description": "2.0 course.js"
   },
   "groupIndex": {
-    "message": "لا.{n}مجموعه",
+    "oldValue": "لا.{n}مجموعه",
     "description": "2.0 course.js"
   },
   "periodIndex": {
-    "message": "لا.{n}الخيار",
+    "oldValue": "لا.{n}الخيار",
     "description": "2.0 course.js"
   },
   "teacher": {
@@ -720,7 +721,7 @@
     "description": "2.0 course.js"
   },
   "minute": {
-    "message": "{count} دقيقه",
+    "oldValue": "{count} دقيقه",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -965,8 +966,8 @@
   },
   "score": {
     "message": "نقاط",
-    "oldValue": "{count} نقاط",
-    "description": "2.0 course.js"
+    "description": "2.0 course.js",
+    "oldValue": "{count} نقاط"
   },
   "scoreCol": {
     "oldValue": "نقاط",
@@ -997,40 +998,48 @@
     "description": "2.0 course.js"
   },
   "studyScoreColon": {
-    "message": "نتيجة التعلم: {percent}%",
-    "description": "2.0 course.js"
+    "message": "نتيجة التعلم:",
+    "description": "2.0 course.js",
+    "oldValue": "نتيجة التعلم: {percent}%"
   },
   "averageScoreByChapter": {
     "message": "بمتوسط درجات الفصل المختار",
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "وقت التعلم: {percent}%",
-    "description": "2.0 course.js"
+    "message": "وقت التعلم:",
+    "description": "2.0 course.js",
+    "oldValue": "وقت التعلم: {percent}%"
   },
   "totalStudyTimeAchieve": {
-    "message": "يصل وقت التعلم المتراكم إلى {max} دقيقة للحصول على درجة كاملة ، وأقل من {min} دقيقة للحصول على 0 نقطة",
-    "description": "2.0 course.js"
+    "message": "زمن التعلم التراكمي يصل",
+    "description": "2.0 course.js",
+    "oldValue": "يصل وقت التعلم المتراكم إلى {max} دقيقة للحصول على درجة كاملة ، وأقل من {min} دقيقة للحصول على 0 نقطة"
   },
   "chapterStudyTimeAchieve": {
-    "message": "النتيجة الكاملة لكل فصل من وقت التعلم {max} دقيقة ، 0 نقطة لأقل من {min} دقيقة",
-    "description": "2.0 course.js"
+    "message": "وقت التعلم من كل فصل يصل",
+    "description": "2.0 course.js",
+    "oldValue": "النتيجة الكاملة لكل فصل من وقت التعلم {max} دقيقة ، 0 نقطة لأقل من {min} دقيقة"
   },
   "sectionStudyTimeAchieve": {
-    "message": "يصل وقت التعلم لكل جلسة إلى {max} دقيقة للحصول على درجات كاملة ، وأقل من {min} دقيقة للحصول على 0 نقطة",
-    "description": "2.0 course.js"
+    "message": "وقت التعلم من كل قسم يصل",
+    "description": "2.0 course.js",
+    "oldValue": "يصل وقت التعلم لكل جلسة إلى {max} دقيقة للحصول على درجات كاملة ، وأقل من {min} دقيقة للحصول على 0 نقطة"
   },
   "studyProgressColon": {
-    "message": "تقدم التعلم: {precent}%",
-    "description": "2.0 course.js"
+    "message": "تقدم التعلم:",
+    "description": "2.0 course.js",
+    "oldValue": "تقدم التعلم: {precent}%"
   },
   "totalStudyProgress": {
-    "message": "يصل تقدم التعلم التراكمي إلى {max}٪ للحصول على درجات كاملة ، وأقل من {min}٪ للحصول على 0 نقطة",
-    "description": "2.0 course.js"
+    "message": "التقدم التراكمي في التعلم يصل إلى",
+    "description": "2.0 course.js",
+    "oldValue": "يصل تقدم التعلم التراكمي إلى {max}٪ للحصول على درجات كاملة ، وأقل من {min}٪ للحصول على 0 نقطة"
   },
   "chapterStudyProgress": {
-    "message": "يصل تقدم التعلم لكل فصل إلى {max}٪ للحصول على علامة كاملة ، وأقل من {min}٪ للحصول على 0 نقطة",
-    "description": "2.0 course.js"
+    "message": "التقدم التعلم من كل فصل يصل",
+    "description": "2.0 course.js",
+    "oldValue": "يصل تقدم التعلم لكل فصل إلى {max}٪ للحصول على علامة كاملة ، وأقل من {min}٪ للحصول على 0 نقطة"
   },
   "noParticipants": {
     "message": "لم يشارك في",
@@ -2629,8 +2638,9 @@
     "description": "2.0 course.js"
   },
   "memberSpocValidateTips15": {
-    "message": "لا.{n}أسماء الفئات تتجاوز 100 حرف",
-    "description": "2.0 course.js"
+    "message": "أسماء الفئات تتجاوز 100 حرف",
+    "description": "2.0 course.js",
+    "oldValue": "لا.{n}أسماء الفئات تتجاوز 100 حرف"
   },
   "memberSpocValidateTips16": {
     "message": "الرجاء إدخال اسم الفئة",
@@ -3593,8 +3603,9 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "مجموع: {count}البند(ق)",
-    "description": "2.0 course.js"
+    "message": "مجموع:",
+    "description": "2.0 course.js",
+    "oldValue": "مجموع: {count}البند(ق)"
   },
   "nonVideoResource": {
     "message": "محتوى غير فيديو",
@@ -3609,8 +3620,9 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "مجموع: {count}البند(ق)",
-    "description": "2.0 course.js"
+    "message": "مجموع:",
+    "description": "2.0 course.js",
+    "oldValue": "مجموع: {count}البند(ق)"
   },
   "homeworkAndTest": {
     "message": "المهام/ الاختبارات",
@@ -3837,8 +3849,9 @@
     "description": "2.0 course.js"
   },
   "remaining": {
-    "message": "المتبقيه {n} اليوم",
-    "description": "2.0 course.js"
+    "message": "المتبقيه",
+    "description": "2.0 course.js",
+    "oldValue": "المتبقيه {n} اليوم"
   },
   "progress": {
     "message": "التقدم",
@@ -4181,8 +4194,9 @@
     "description": "2.0 course.js"
   },
   "remainingStudyTime": {
-    "message": "مدة التعلم المتبقية {n} اليوم",
-    "description": "2.0 course.js"
+    "message": "مدة التعلم المتبقية",
+    "description": "2.0 course.js",
+    "oldValue": "مدة التعلم المتبقية {n} اليوم"
   },
   "textbookTips38": {
     "message": "لم يتم العثور على الكتب المدرسية ذات الصلة",
@@ -5285,7 +5299,7 @@
     "description": "2.0 course.js"
   },
   "weights": {
-    "message": "{percent}%, {count}نقطه",
+    "oldValue": "{percent}%, {count}نقطه",
     "description": "2.0 course.js"
   },
   "importBBCourse": {
@@ -5333,7 +5347,7 @@
     "description": "2.0 course.js"
   },
   "videoViewTime2": {
-    "message": "عرض طول الفيديو.(دقيقه)",
+    "oldValue": "عرض طول الفيديو.(دقيقه)",
     "description": "2.0 course.js"
   },
   "docViewNum": {

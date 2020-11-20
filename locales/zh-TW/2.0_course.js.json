@@ -196,8 +196,9 @@
     "description": "2.0 course.js"
   },
   "totalDuration": {
-    "message": "總時長: {count}分鐘",
-    "description": "2.0 course.js"
+    "message": "總時長: ",
+    "description": "2.0 course.js",
+    "oldValue": "總時長: {count}分鐘"
   },
   "document": {
     "message": "檔案",
@@ -608,15 +609,15 @@
     "description": "2.0 course.js"
   },
   "weekIndex": {
-    "message": "第{n}週",
+    "oldValue": "第{n}週",
     "description": "2.0 course.js"
   },
   "groupIndex": {
-    "message": "第 {n} 組",
+    "oldValue": "第 {n} 組",
     "description": "2.0 course.js"
   },
   "periodIndex": {
-    "message": "第{n}期",
+    "oldValue": "第{n}期",
     "description": "2.0 course.js"
   },
   "teacher": {
@@ -732,7 +733,7 @@
     "description": "2.0 course.js"
   },
   "minute": {
-    "message": "{count} 分鐘",
+    "oldValue": "{count} 分鐘",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -981,8 +982,8 @@
   },
   "score": {
     "message": "分",
-    "oldValue": "{count}分",
-    "description": "2.0 course.js"
+    "description": "2.0 course.js",
+    "oldValue": "{count}分"
   },
   "scoreCol": {
     "oldValue": "分值",
@@ -1013,40 +1014,48 @@
     "description": "2.0 course.js"
   },
   "studyScoreColon": {
-    "message": "學習成績: {percent}%",
-    "description": "2.0 course.js"
+    "message": "學習成績: ",
+    "description": "2.0 course.js",
+    "oldValue": "學習成績: {percent}%"
   },
   "averageScoreByChapter": {
     "message": "依所選章節平均計分",
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "學習時間: {percent}%",
-    "description": "2.0 course.js"
+    "message": "學習時間: ",
+    "description": "2.0 course.js",
+    "oldValue": "學習時間: {percent}%"
   },
   "totalStudyTimeAchieve": {
-    "message": "累計學習時間達到{max}分鐘得滿分,低於{min}分鐘計0分",
-    "description": "2.0 course.js"
+    "message": "累計學習時間達到",
+    "description": "2.0 course.js",
+    "oldValue": "累計學習時間達到{max}分鐘得滿分,低於{min}分鐘計0分"
   },
   "chapterStudyTimeAchieve": {
-    "message": "每章學習時間達到{max}分鐘得滿分,低於{min}分鐘計0分",
-    "description": "2.0 course.js"
+    "message": "每章學習時間達到",
+    "description": "2.0 course.js",
+    "oldValue": "每章學習時間達到{max}分鐘得滿分,低於{min}分鐘計0分"
   },
   "sectionStudyTimeAchieve": {
-    "message": "每節學習時間達到{max}分鐘得滿分,低於{min}分鐘計0分",
-    "description": "2.0 course.js"
+    "message": "每節學習時間達到",
+    "description": "2.0 course.js",
+    "oldValue": "每節學習時間達到{max}分鐘得滿分,低於{min}分鐘計0分"
   },
   "studyProgressColon": {
-    "message": "學習進度: {precent}%",
-    "description": "2.0 course.js"
+    "message": "學習進度: ",
+    "description": "2.0 course.js",
+    "oldValue": "學習進度: {precent}%"
   },
   "totalStudyProgress": {
-    "message": "累計學習進度達到{max}%得滿分,低於{min}%計0分",
-    "description": "2.0 course.js"
+    "message": "累計學習進度達到",
+    "description": "2.0 course.js",
+    "oldValue": "累計學習進度達到{max}%得滿分,低於{min}%計0分"
   },
   "chapterStudyProgress": {
-    "message": "每章學習進度達到{max}%得滿分,低於{min}%計0分",
-    "description": "2.0 course.js"
+    "message": "每章學習進度達到",
+    "description": "2.0 course.js",
+    "oldValue": "每章學習進度達到{max}%得滿分,低於{min}%計0分"
   },
   "noParticipants": {
     "message": "未參與",
@@ -2645,8 +2654,9 @@
     "description": "2.0 course.js"
   },
   "memberSpocValidateTips15": {
-    "message": "第{n}個班級名稱超過100字元",
-    "description": "2.0 course.js"
+    "message": "個班級名稱超過100字元",
+    "description": "2.0 course.js",
+    "oldValue": "第{n}個班級名稱超過100字元"
   },
   "memberSpocValidateTips16": {
     "message": "請輸入班級名稱",
@@ -3609,8 +3619,9 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "總數量: {count}個",
-    "description": "2.0 course.js"
+    "message": "總數量: ",
+    "description": "2.0 course.js",
+    "oldValue": "總數量: {count}個"
   },
   "nonVideoResource": {
     "message": "非影片資源",
@@ -3625,8 +3636,9 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "數量: {count}次",
-    "description": "2.0 course.js"
+    "message": "數量: ",
+    "description": "2.0 course.js",
+    "oldValue": "數量: {count}次"
   },
   "homeworkAndTest": {
     "message": "作業/測驗",
@@ -3853,8 +3865,9 @@
     "description": "2.0 course.js"
   },
   "remaining": {
-    "message": "剩餘{n}日",
-    "description": "2.0 course.js"
+    "message": "剩餘",
+    "description": "2.0 course.js",
+    "oldValue": "剩餘{n}日"
   },
   "progress": {
     "message": "進度",
@@ -4197,8 +4210,9 @@
     "description": "2.0 course.js"
   },
   "remainingStudyTime": {
-    "message": "剩餘學習時間{n}日",
-    "description": "2.0 course.js"
+    "message": "剩餘學習時間",
+    "description": "2.0 course.js",
+    "oldValue": "剩餘學習時間{n}日"
   },
   "textbookTips38": {
     "message": "沒有搜尋到相關的教材",
@@ -5301,7 +5315,7 @@
     "description": "2.0 course.js"
   },
   "weights": {
-    "message": "{percent}%,{count}分",
+    "oldValue": "{percent}%,{count}分",
     "description": "2.0 course.js"
   },
   "importBBCourse": {

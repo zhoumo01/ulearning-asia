@@ -196,8 +196,9 @@
     "description": "2.0 course.js"
   },
   "totalDuration": {
-    "message": "Total durasi：{count} Menit",
-    "description": "2.0 course.js"
+    "message": "Total durasi：",
+    "description": "2.0 course.js",
+    "oldValue": "Total durasi：{count} Menit"
   },
   "document": {
     "message": "Dokumen",
@@ -608,15 +609,15 @@
     "description": "2.0 course.js"
   },
   "weekIndex": {
-    "message": "Minggu ke {n}",
+    "oldValue": "Minggu ke {n}",
     "description": "2.0 course.js"
   },
   "groupIndex": {
-    "message": "Ke {n}",
+    "oldValue": "Ke {n}",
     "description": "2.0 course.js"
   },
   "periodIndex": {
-    "message": "Periode ke {n}",
+    "oldValue": "Periode ke {n}",
     "description": "2.0 course.js"
   },
   "teacher": {
@@ -732,7 +733,7 @@
     "description": "2.0 course.js"
   },
   "minute": {
-    "message": "{count} Menit",
+    "oldValue": "{count} Menit",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -981,8 +982,8 @@
   },
   "score": {
     "message": "poin",
-    "oldValue": "{count} poin",
-    "description": "2.0 course.js"
+    "description": "2.0 course.js",
+    "oldValue": "{count} poin"
   },
   "scoreCol": {
     "oldValue": "poin",
@@ -1013,40 +1014,48 @@
     "description": "2.0 course.js"
   },
   "studyScoreColon": {
-    "message": "Nilai pembelajaran：{percent}%",
-    "description": "2.0 course.js"
+    "message": "Nilai pembelajaran：",
+    "description": "2.0 course.js",
+    "oldValue": "Nilai pembelajaran：{percent}%"
   },
   "averageScoreByChapter": {
     "message": "Nilai rata-rata sesuai dengan bab yang dipilih",
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "Waktu pembelajaran：{percent}%",
-    "description": "2.0 course.js"
+    "message": "Waktu pembelajaran：",
+    "description": "2.0 course.js",
+    "oldValue": "Waktu pembelajaran：{percent}%"
   },
   "totalStudyTimeAchieve": {
-    "message": "Waktu pembelajaran secara kumulatif mencapai {max} Menit mendapatkan nilai sempurna, lebih rendah dari {min} Menit dihitung 0 poin",
-    "description": "2.0 course.js"
+    "message": "Waktu pembelajaran secara kumulatif mencapai",
+    "description": "2.0 course.js",
+    "oldValue": "Waktu pembelajaran secara kumulatif mencapai {max} Menit mendapatkan nilai sempurna, lebih rendah dari {min} Menit dihitung 0 poin"
   },
   "chapterStudyTimeAchieve": {
-    "message": "Waktu pembelajaran setiap bab mencapai {max} Menit mendapatkan nilai sempurna, lebih rendah dari {min} Menit dihitung 0 poin",
-    "description": "2.0 course.js"
+    "message": "Waktu pembelajaran setiap bab mencapai",
+    "description": "2.0 course.js",
+    "oldValue": "Waktu pembelajaran setiap bab mencapai {max} Menit mendapatkan nilai sempurna, lebih rendah dari {min} Menit dihitung 0 poin"
   },
   "sectionStudyTimeAchieve": {
-    "message": "Waktu pembelajaran setiap bagian mencapai {max} Menit mendapatkan nilai sempurna, lebih rendah dari {min} Menit dihitung 0 poin",
-    "description": "2.0 course.js"
+    "message": "Waktu pembelajaran setiap bagian mencapai",
+    "description": "2.0 course.js",
+    "oldValue": "Waktu pembelajaran setiap bagian mencapai {max} Menit mendapatkan nilai sempurna, lebih rendah dari {min} Menit dihitung 0 poin"
   },
   "studyProgressColon": {
-    "message": "Progres belajar: {precent}%",
-    "description": "2.0 course.js"
+    "message": "Progres belajar:",
+    "description": "2.0 course.js",
+    "oldValue": "Progres belajar: {precent}%"
   },
   "totalStudyProgress": {
-    "message": "Progres belajar kumulatif mencapai {max}% mendapatkan nilai sempurna, lebih rendah dari {min}% dihitung 0 poin",
-    "description": "2.0 course.js"
+    "message": "Progres belajar kumulatif mencapai",
+    "description": "2.0 course.js",
+    "oldValue": "Progres belajar kumulatif mencapai {max}% mendapatkan nilai sempurna, lebih rendah dari {min}% dihitung 0 poin"
   },
   "chapterStudyProgress": {
-    "message": "Progres belajar setiap bab mencapai {max}% mendapatkan nilai sempurna, lebih rendah dari {min}% dihitung 0 poin",
-    "description": "2.0 course.js"
+    "message": "Progres belajar setiap bab mencapai",
+    "description": "2.0 course.js",
+    "oldValue": "Progres belajar setiap bab mencapai {max}% mendapatkan nilai sempurna, lebih rendah dari {min}% dihitung 0 poin"
   },
   "noParticipants": {
     "message": "Belum ikut serta",
@@ -2645,8 +2654,9 @@
     "description": "2.0 course.js"
   },
   "memberSpocValidateTips15": {
-    "message": "Ke {n} nama kelas lebih dari 100 karakter",
-    "description": "2.0 course.js"
+    "message": "nama kelas lebih dari 100 karakter",
+    "description": "2.0 course.js",
+    "oldValue": "Ke {n} nama kelas lebih dari 100 karakter"
   },
   "memberSpocValidateTips16": {
     "message": "Silahkan masukkan nama kelas",
@@ -3609,8 +3619,9 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "Total jumlah: {count} Buah",
-    "description": "2.0 course.js"
+    "message": "Total jumlah:",
+    "description": "2.0 course.js",
+    "oldValue": "Total jumlah: {count} Buah"
   },
   "nonVideoResource": {
     "message": "Sumber non-video",
@@ -3625,8 +3636,9 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "Jumlah: {count} kali",
-    "description": "2.0 course.js"
+    "message": "Jumlah:",
+    "description": "2.0 course.js",
+    "oldValue": "Jumlah: {count} kali"
   },
   "homeworkAndTest": {
     "message": "Tugas/Kuis",
@@ -3853,8 +3865,9 @@
     "description": "2.0 course.js"
   },
   "remaining": {
-    "message": "Sisa {n} hari",
-    "description": "2.0 course.js"
+    "message": "Sisa",
+    "description": "2.0 course.js",
+    "oldValue": "Sisa {n} hari"
   },
   "progress": {
     "message": "Progres",
@@ -4197,8 +4210,9 @@
     "description": "2.0 course.js"
   },
   "remainingStudyTime": {
-    "message": "Sisa waktu belajar {n} hari",
-    "description": "2.0 course.js"
+    "message": "Sisa waktu belajar",
+    "description": "2.0 course.js",
+    "oldValue": "Sisa waktu belajar {n} hari"
   },
   "textbookTips38": {
     "message": "Tidak menemukan bahan pengajaran terkait",
@@ -5301,7 +5315,7 @@
     "description": "2.0 course.js"
   },
   "weights": {
-    "message": "{percent}%, {count} poin",
+    "oldValue": "{percent}%, {count} poin",
     "description": "2.0 course.js"
   },
   "importBBCourse": {
@@ -5345,8 +5359,9 @@
     "description": "2.0 course.js"
   },
   "videoViewTime": {
-    "message": "Lihat durasi video (Menit)",
-    "description": "2.0 course.js"
+    "message": "Lihat durasi video",
+    "description": "2.0 course.js",
+    "oldValue": "Lihat durasi video (Menit)"
   },
   "docViewNum": {
     "message": "Lihat jumlah dokumen",

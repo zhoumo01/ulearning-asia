@@ -584,15 +584,16 @@
     "description": "2.0 exam.js"
   },
   "minute": {
-    "message": "{count} menit",
-    "description": "2.0 exam.js"
+    "message": "menit",
+    "description": "2.0 exam.js",
+    "oldValue": "{count} menit"
   },
   "seconds": {
     "message": "detik",
     "description": "2.0 exam.js"
   },
   "timeLength": {
-    "message": "{days} hari {hours} jam {minutes} menit {seconds} detik",
+    "oldValue": "{days} hari {hours} jam {minutes} menit {seconds} detik",
     "description": "2.0 exam.js"
   },
   "scoringRate": {
@@ -680,15 +681,17 @@
     "description": "2.0 exam.js"
   },
   "examDurationCl": {
-    "message": "Durasi ujian: {count} menit",
-    "description": "2.0 exam.js"
+    "message": "Durasi ujian:",
+    "description": "2.0 exam.js",
+    "oldValue": "Durasi ujian: {count} menit"
   },
   "lateTime": {
-    "message": "Waktu telat: {count}",
-    "description": "2.0 exam.js"
+    "message": "Waktu telat:",
+    "description": "2.0 exam.js",
+    "oldValue": "Waktu telat: {count}"
   },
   "lateTimeSet": {
-    "message": "Waktu telat",
+    "oldValue": "Waktu telat",
     "description": "2.0 exam.js"
   },
   "myself": {
@@ -1072,8 +1075,9 @@
     "description": "2.0 exam.js"
   },
   "answerDurationCl": {
-    "message": "Durasi menjawab: {count}",
-    "description": "2.0 exam.js"
+    "message": "Durasi menjawab:",
+    "description": "2.0 exam.js",
+    "oldValue": "Durasi menjawab: {count}"
   },
   "answerTimesCl": {
     "message": "Jumlah menjawab:",
@@ -1648,8 +1652,9 @@
     "description": "2.0 exam.js"
   },
   "batchExpand": {
-    "message": "Perpanjangan batch {count} menit",
-    "description": "2.0 exam.js"
+    "message": "Perpanjangan batch",
+    "description": "2.0 exam.js",
+    "oldValue": "Perpanjangan batch {count} menit"
   },
   "roomTips8": {
     "message": "Catatan: Setelah waktu perpanjangan selesai, mahasiswa yang tidak memiliki waktu ujian yang cukup dikarenakan telat atau penyebab lainnya, waktu ujiannya akan diperpanjang. Mahasiswa yang melaksanakan ujian dengan waktu yang ditentukan sebelumnya dan mahasiswa yang telah mengumpulkan kertas ujian tidak terpengaruh. ",

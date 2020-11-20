@@ -196,8 +196,9 @@
     "description": "2.0 course.js"
   },
   "totalDuration": {
-    "message": "ความยาวรวม: {count}นาที",
-    "description": "2.0 course.js"
+    "message": "ความยาวรวม",
+    "description": "2.0 course.js",
+    "oldValue": "ความยาวรวม: {count}นาที"
   },
   "document": {
     "message": "เอกสาร",
@@ -608,15 +609,15 @@
     "description": "2.0 course.js"
   },
   "weekIndex": {
-    "message": "บท{n}อาทิตย์",
+    "oldValue": "บท{n}อาทิตย์",
     "description": "2.0 course.js"
   },
   "groupIndex": {
-    "message": "บท{n}กลุ่ม",
+    "oldValue": "บท{n}กลุ่ม",
     "description": "2.0 course.js"
   },
   "periodIndex": {
-    "message": "บท {n} ช่วงเวลา",
+    "oldValue": "บท {n} ช่วงเวลา",
     "description": "2.0 course.js"
   },
   "teacher": {
@@ -732,7 +733,7 @@
     "description": "2.0 course.js"
   },
   "minute": {
-    "message": "{count} นาที",
+    "oldValue": "{count} นาที",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -981,8 +982,8 @@
   },
   "score": {
     "message": "คะแนน",
-    "oldValue": "{count} คะแนน",
-    "description": "2.0 course.js"
+    "description": "2.0 course.js",
+    "oldValue": "{count} คะแนน"
   },
   "scoreCol": {
     "oldValue": "คะแนน",
@@ -1013,40 +1014,48 @@
     "description": "2.0 course.js"
   },
   "studyScoreColon": {
-    "message": "ผลการเรียน: {percent}%",
-    "description": "2.0 course.js"
+    "message": "ผลการเรียน",
+    "description": "2.0 course.js",
+    "oldValue": "ผลการเรียน: {percent}%"
   },
   "averageScoreByChapter": {
     "message": "เฉลี่ยคะแนนตามบทที่เลือก",
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "เวลาเรียน: {percent}%",
-    "description": "2.0 course.js"
+    "message": "เวลาเรียน",
+    "description": "2.0 course.js",
+    "oldValue": "เวลาเรียน: {percent}%"
   },
   "totalStudyTimeAchieve": {
-    "message": "เวลาเรียนรวมได้ถึง {max} นาทีได้คะแนนเต็ม ต่ำกว่า {min}นาที 0 คะแนน",
-    "description": "2.0 course.js"
+    "message": "เวลาเรียนรวมได้ถึง",
+    "description": "2.0 course.js",
+    "oldValue": "เวลาเรียนรวมได้ถึง {max} นาทีได้คะแนนเต็ม ต่ำกว่า {min}นาที 0 คะแนน"
   },
   "chapterStudyTimeAchieve": {
-    "message": "เวลาเรียนของทุกบทได้ถึง {max} นาทีได้คะแนนเต็ม ต่ำกว่า {min}นาที 0 คะแนน",
-    "description": "2.0 course.js"
+    "message": "เวลาเรียนของทุกบทได้ถึง",
+    "description": "2.0 course.js",
+    "oldValue": "เวลาเรียนของทุกบทได้ถึง {max} นาทีได้คะแนนเต็ม ต่ำกว่า {min}นาที 0 คะแนน"
   },
   "sectionStudyTimeAchieve": {
-    "message": "เวลาเรียนของทุกคาบได้ถึง {max} นาทีได้คะแนนเต็ม ต่ำกว่า {min}นาที 0 คะแนน",
-    "description": "2.0 course.js"
+    "message": "เวลาเรียนของทุกคาบได้ถึง",
+    "description": "2.0 course.js",
+    "oldValue": "เวลาเรียนของทุกคาบได้ถึง {max} นาทีได้คะแนนเต็ม ต่ำกว่า {min}นาที 0 คะแนน"
   },
   "studyProgressColon": {
-    "message": "ความก้าวหน้าทางการเรียน: {precent}%",
-    "description": "2.0 course.js"
+    "message": "ความก้าวหน้าทางการเรียน",
+    "description": "2.0 course.js",
+    "oldValue": "ความก้าวหน้าทางการเรียน: {precent}%"
   },
   "totalStudyProgress": {
-    "message": "ความก้าวหน้าทางการเรียนรวมได้ถึง {max}% ได้คะแนนเต็ม ต่ำกว่า {min}% 0 คะแนน",
-    "description": "2.0 course.js"
+    "message": "ความก้าวหน้าทางการเรียนรวมได้ถึง",
+    "description": "2.0 course.js",
+    "oldValue": "ความก้าวหน้าทางการเรียนรวมได้ถึง {max}% ได้คะแนนเต็ม ต่ำกว่า {min}% 0 คะแนน"
   },
   "chapterStudyProgress": {
-    "message": "ความก้าวหน้าทางการเรียนในทุกบทได้ถึง {max}% ได้คะแนนเต็ม ต่ำกว่า {min}% 0 คะแนน",
-    "description": "2.0 course.js"
+    "message": "ความก้าวหน้าทางการเรียนในทุกบทได้ถึง",
+    "description": "2.0 course.js",
+    "oldValue": "ความก้าวหน้าทางการเรียนในทุกบทได้ถึง {max}% ได้คะแนนเต็ม ต่ำกว่า {min}% 0 คะแนน"
   },
   "noParticipants": {
     "message": "ไม่เข้าร่วม",
@@ -2645,8 +2654,9 @@
     "description": "2.0 course.js"
   },
   "memberSpocValidateTips15": {
-    "message": "บท{n}ชื่อชั้นเรียนเกิน 100 อักขระ",
-    "description": "2.0 course.js"
+    "message": "ชื่อชั้นเรียนเกิน 100 อักขระ",
+    "description": "2.0 course.js",
+    "oldValue": "บท{n}ชื่อชั้นเรียนเกิน 100 อักขระ"
   },
   "memberSpocValidateTips16": {
     "message": "กรุณาใส่ชื่อชั้นเรียน",
@@ -3609,8 +3619,9 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "จำนวนทั้งหมด: {count}หมายเลข",
-    "description": "2.0 course.js"
+    "message": "จำนวนทั้งหมด",
+    "description": "2.0 course.js",
+    "oldValue": "จำนวนทั้งหมด: {count}หมายเลข"
   },
   "nonVideoResource": {
     "message": "ทรัพยากรที่ไม่ใช่สื่อวิดิทัศน์",
@@ -3625,8 +3636,9 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "จำนวน: {count}ครั้ง",
-    "description": "2.0 course.js"
+    "message": "จำนวน",
+    "description": "2.0 course.js",
+    "oldValue": "จำนวน: {count}ครั้ง"
   },
   "homeworkAndTest": {
     "message": "การบ้าน/ทดสอบ",
@@ -3853,8 +3865,9 @@
     "description": "2.0 course.js"
   },
   "remaining": {
-    "message": "เหลือ{n}วัน",
-    "description": "2.0 course.js"
+    "message": "เหลือ",
+    "description": "2.0 course.js",
+    "oldValue": "เหลือ{n}วัน"
   },
   "progress": {
     "message": "ความก้าวหน้า",
@@ -4197,8 +4210,9 @@
     "description": "2.0 course.js"
   },
   "remainingStudyTime": {
-    "message": "ลบเวลาการเรียน{n}วัน",
-    "description": "2.0 course.js"
+    "message": "ลบเวลาการเรียน",
+    "description": "2.0 course.js",
+    "oldValue": "ลบเวลาการเรียน{n}วัน"
   },
   "textbookTips38": {
     "message": "ไม่พบสื่อการสอนที่สอดคล้อง",
@@ -5217,7 +5231,7 @@
     "description": "2.0 course.js"
   },
   "weights": {
-    "message": "{percent}%, {count} บทบาท",
+    "oldValue": "{percent}%, {count} บทบาท",
     "description": "2.0 course.js"
   },
   "importBBCourse": {
