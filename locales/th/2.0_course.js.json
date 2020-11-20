@@ -776,12 +776,24 @@
     "message": "ประกาศหรือเรื่องแจ้งทราบที่เกี่ยวข้องกับการสอนในหลักสูตรสามารถประกาศได้ที่นี่ ผู้ดูแลจัดการหลักสูตรสามารถประกาศประกาศสาธารณะให้กับชั้นเรียนทั้งหมดได้ อาจารย์ผู้สอนหรือผู้ช่วยสอนจะสามารถประกาศประกาศสาธารณะได้เฉพาะชั้นเรียนของตนเองเท่านั้น",
     "description": "2.0 course.js"
   },
-  "total": {
-    "message": "ทั้งหมด",
+  "totalOf": {
+    "oldValue": "ทั้งหมด {n} หมายเลข",
     "description": "2.0 course.js"
   },
-  "items": {
-    "message": "รายการ",
+  "totalOfItems": {
+    "oldValue": "ทั้งหมด {n} รายการ",
+    "description": "2.0 course.js"
+  },
+  "totalPages": {
+    "oldValue": "ทั้งหมด：{n} หน้า",
+    "description": "2.0 course.js"
+  },
+  "totalOfTeacher": {
+    "oldValue": "ทั้งหมด {n} อาจารย์",
+    "description": "2.0 course.js"
+  },
+  "totalOfTeacher2": {
+    "oldValue": "ทั้งหมด {n} อาจารย์",
     "description": "2.0 course.js"
   },
   "publishNewAnnouncement": {
@@ -1561,8 +1573,8 @@
     "message": "ชื่อกิจกรรม",
     "description": "2.0 course.js"
   },
-  "number": {
-    "message": "หมายเลข",
+  "numberOf": {
+    "oldValue": "{n} หมายเลข",
     "description": "2.0 course.js"
   },
   "time": {
@@ -2305,10 +2317,6 @@
     "message": "ไม่มีนักเรียนชั่วคราว ท่านสามารถเชิญนักเรียนผ่านการแสกนคิวอาร์หรือรหัสชั้นเรียนได้",
     "description": "2.0 course.js"
   },
-  "someTeacher": {
-    "message": "อาจารย์",
-    "description": "2.0 course.js"
-  },
   "viewTeachingJurisdiction": {
     "message": "ตรวจดูสิทธิ์การสอน",
     "description": "2.0 course.js"
@@ -2443,10 +2451,6 @@
   },
   "memberSpocValidateTips12": {
     "message": "ใส่ชื่อบัญชี/ชื่อสกุลเพื่อค้นหา",
-    "description": "2.0 course.js"
-  },
-  "someTeacher2": {
-    "message": "อาจารย์",
     "description": "2.0 course.js"
   },
   "teacherSelectedColon": {
@@ -3656,8 +3660,8 @@
     "message": "อภิปรายแลกเปลี่ยน",
     "description": "2.0 course.js"
   },
-  "topicTotalNumberCl": {
-    "message": "จำนวนรวมหัวข้อtopic",
+  "topicTotalNumberOf": {
+    "oldValue": "จำนวนรวมหัวข้อtopic {n} หมายเลข",
     "description": "2.0 course.js"
   },
   "semesterTips7": {
@@ -5092,10 +5096,6 @@
   },
   "image": {
     "message": "รูปภาพ",
-    "description": "2.0 course.js"
-  },
-  "page": {
-    "message": "หน้า",
     "description": "2.0 course.js"
   },
   "publishTips": {
