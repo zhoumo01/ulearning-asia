@@ -580,7 +580,7 @@
     "description": "2.0 exam.js"
   },
   "points": {
-    "message": "{grade}分",
+    "message": "{grade} 分",
     "description": "2.0 exam.js"
   },
   "paperPartName": {
@@ -847,28 +847,20 @@
     "message": "注：若考生提交了多次答题记录，默认显示最后一次记录",
     "description": "2.0 exam.js"
   },
-  "theFirst": {
-    "message": "第",
+  "totalQue": {
+    "message": "共{n}道",
     "description": "2.0 exam.js"
   },
-  "que": {
-    "message": "题",
+  "queOf": {
+    "message": "{n} 道",
     "description": "2.0 exam.js"
   },
-  "specialQueBefore": {
-    "message": "第",
+  "queIndex": {
+    "message": "第{n}题",
     "description": "2.0 exam.js"
   },
-  "specialQueAfter": {
-    "message": "题",
-    "description": "2.0 exam.js"
-  },
-  "specialAnsweringBefore": {
-    "message": "第",
-    "description": "2.0 exam.js"
-  },
-  "specialAnsweringAfter": {
-    "message": "次答题中",
+  "answeringCount": {
+    "message": "第{n}次答题中",
     "description": "2.0 exam.js"
   },
   "seeDetails": {
@@ -2061,10 +2053,6 @@
   },
   "eachContainSubQue": {
     "message": "每题包含小题：",
-    "description": "2.0 exam.js"
-  },
-  "number2": {
-    "message": "道",
     "description": "2.0 exam.js"
   },
   "eachQueScoreCl": {

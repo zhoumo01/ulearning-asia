@@ -561,7 +561,8 @@
   },
   "points": {
     "message": "{grade}分",
-    "description": "2.0 exam.js"
+    "description": "2.0 exam.js",
+    "oldValue": "{grade} 分"
   },
   "paperPartName": {
     "message": "考卷各部分名稱",
@@ -814,28 +815,20 @@
     "message": "註: 若考生提交了多次作答記錄,默認顯示最後一次記錄",
     "description": "2.0 exam.js"
   },
-  "theFirst": {
-    "message": "第",
+  "totalQue": {
+    "oldValue": "共 {n} 道",
     "description": "2.0 exam.js"
   },
-  "que": {
-    "message": "題",
+  "queOf": {
+    "oldValue": "{n} 道",
     "description": "2.0 exam.js"
   },
-  "specialQueBefore": {
-    "message": "第",
+  "queIndex": {
+    "oldValue": "第{n}题",
     "description": "2.0 exam.js"
   },
-  "specialQueAfter": {
-    "message": "題",
-    "description": "2.0 exam.js"
-  },
-  "specialAnsweringBefore": {
-    "message": "第",
-    "description": "2.0 exam.js"
-  },
-  "specialAnsweringAfter": {
-    "message": "次作答中",
+  "answeringCount": {
+    "oldValue": "第{n}次作答中",
     "description": "2.0 exam.js"
   },
   "seeDetails": {
@@ -2026,10 +2019,6 @@
   },
   "eachContainSubQue": {
     "message": "每題包含小題: ",
-    "description": "2.0 exam.js"
-  },
-  "number2": {
-    "message": "道",
     "description": "2.0 exam.js"
   },
   "eachQueScoreCl": {
