@@ -603,9 +603,9 @@
     "message": "没有数据",
     "description": "2.0 course.js"
   },
-  "week": {
-    "message": "周",
-    "description": "2.0 course.js"
+  "weekOf": {
+    "message": "{count}周",
+    "description": "登录ua后 - 创建或查看一门课程 -> 左侧导航栏 -> 学期管理 -> 添加学期"
   },
   "weekIndex": {
     "message": "第{n}周",
@@ -679,13 +679,9 @@
     "message": "全部学院",
     "description": "2.0 course.js"
   },
-  "stuLibImportTips5": {
-    "message": "已选择",
-    "description": "2.0 course.js"
-  },
-  "stuLibImportTips6": {
-    "message": "个班级",
-    "description": "2.0 course.js"
+  "stuLibSelectTip1": {
+    "message": "已选择{count}个班级",
+    "description": "教师账号 -> 成员 -> 班级管理 -> 批量导入班级 -> 从学生库导入 -> 弹框左下角"
   },
   "grade": {
     "message": "年级",
@@ -695,13 +691,9 @@
     "message": "学院",
     "description": "2.0 course.js"
   },
-  "stuLibImportTips7": {
-    "message": "已选择",
-    "description": "2.0 course.js"
-  },
-  "stuLibImportTips8": {
-    "message": "个学生",
-    "description": "2.0 course.js"
+  "stuLibSelectTip2": {
+    "message": "已选择{count}个学生",
+    "description": "教师账号 -> 成员 -> 班级管理 -> 添加学生 -> 弹框左下角"
   },
   "stuLibImportTips9": {
     "message": "注意：如果课程中已存在同名班级，将只导入学生；如果学生已在课程中，将自动跳过，保持在原班级。",
@@ -819,13 +811,13 @@
     "message": "发布人",
     "description": "2.0 course.js"
   },
-  "peopleReaded": {
-    "message": "人已阅",
-    "description": "2.0 course.js"
+  "readedOf": {
+    "message": "{count} 人已阅",
+    "description": "教师账号 -> 公告"
   },
-  "classColon": {
-    "message": "班级：",
-    "description": "2.0 course.js"
+  "classesOf": {
+    "message": "班级：{classes}",
+    "description": "教师账号 -> 公告"
   },
   "download": {
     "message": "下载",
@@ -2403,13 +2395,9 @@
     "message": "以下学生已经在课程里，新导入班级的学生名单里不会出现这些学生。",
     "description": "2.0 course.js"
   },
-  "let": {
-    "message": "将",
-    "description": "2.0 course.js"
-  },
-  "replaceTo": {
-    "message": "更换到：",
-    "description": "2.0 course.js"
+  "batchReplaceStudents": {
+    "message": "将 {students} 更换到：{classesForm}",
+    "description": "教师账号 -> 成员 -> 学生管理 -> 更换班级"
   },
   "appointClassForTeacher": {
     "message": "为老师指定班级",
@@ -2819,13 +2807,9 @@
     "message": "组长",
     "description": "2.0 course.js"
   },
-  "randomDivide": {
-    "message": "随机分成",
-    "description": "2.0 course.js"
-  },
-  "group2": {
-    "message": "组",
-    "description": "2.0 course.js"
+  "randomDivideGroup": {
+    "message": "随机分成{inputCount}组",
+    "description": "教师账号 -> 成员 -> 班级小组方案 -> 随机分组"
   },
   "classGroupTips3": {
     "message": "当前班级已有分组，确定替换现有分组？",
@@ -3393,7 +3377,7 @@
   },
   "yuan": {
     "message": "元",
-    "description": "2.0 course.js"
+    "description": "相关代码已注释，可以先不用翻译"
   },
   "selectFile": {
     "message": "选择文件",
@@ -5011,9 +4995,9 @@
     "message": "发言数",
     "description": "2.0 course.js"
   },
-  "speechUnit": {
-    "message": "条",
-    "description": "2.0 course.js"
+  "speechUnitOf": {
+    "message": "{n}条",
+    "description": "教师账号 -> 直播 -> 直播统计 -> 发言数"
   },
   "viewTerminal": {
     "message": "观看终端",
@@ -5151,9 +5135,9 @@
     "message": "回放数据有延迟，如不准确请点击页面右上角更新。",
     "description": "2.0 course.js"
   },
-  "poll": {
-    "message": "票",
-    "description": "2.0 course.js"
+  "pollOf": {
+    "message": "{n}票 {percent}%",
+    "description": "教师账号 -> 直播 -> 直播统计 -> 直播互动 -> 问卷 (非拓课云直播才有直播互动数据)"
   },
   "liveAnalysisTips": {
     "message": "正在生成直播数据，请在直播结束30分钟后查看",
