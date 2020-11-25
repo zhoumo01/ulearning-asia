@@ -195,6 +195,10 @@
     "message": "Videos",
     "description": "2.0 course.js"
   },
+  "totalDurationOf": {
+    "message": "Total Length: {count} min",
+    "description": "2.0 course.js"
+  },
   "document": {
     "message": "Documents",
     "description": "2.0 course.js"
@@ -971,6 +975,10 @@
     "message": "{stuName}: {count} point(s) ",
     "description": "2.0 course.js"
   },
+  "points": {
+    "message": "{count} point(s) ",
+    "description": "2.0 course.js"
+  },
   "scoreCol": {
     "message": "Points possible ",
     "description": "2.0 course.js"
@@ -999,36 +1007,40 @@
     "message": "View Gradable Modules",
     "description": "2.0 course.js"
   },
+  "studyScoreOf": {
+    "message": "Courseware Learning Result: {percent}%",
+    "description": "2.0 course.js"
+  },
   "averageScoreByChapter": {
-    "message": "By avg score per selected module",
+    "message": "By average score of selected modules ",
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "Learning Time：",
+    "message": "Courseware Learning Time: {percent}%",
     "description": "2.0 course.js"
   },
   "totalStudyTimeAchieve": {
-    "message": "Cumulative learning time reaches ",
+    "message": "The cumulative learning time reaches {max} minutes for total possible; less than {min} minutes for 0 points",
     "description": "2.0 course.js"
   },
   "chapterStudyTimeAchieve": {
-    "message": "Learning time of each module reaches ",
+    "message": "The module learning time reaches {max} minutes for total possible; less than {min} minutes for 0 points",
     "description": "2.0 course.js"
   },
   "sectionStudyTimeAchieve": {
-    "message": "Learning time of each topic reaches ",
+    "message": "The topic learning time reaches {max} minutes for total possible; less than {min} minutes for 0 points",
     "description": "2.0 course.js"
   },
   "studyProgressColon": {
-    "message": "Learning Progress: ",
+    "message": "Courseware Learning Progress: {percent}%",
     "description": "2.0 course.js"
   },
   "totalStudyProgress": {
-    "message": "Cumulative learning progress reaches ",
+    "message": "Cumulative learning progress reaches {max}% for total possible; less than {min}% for 0 points",
     "description": "2.0 course.js"
   },
   "chapterStudyProgress": {
-    "message": "Learning progress of each module reaches ",
+    "message": "Learning progress of each module reaches {max}% for total possible; less than {min}% for 0 points",
     "description": "2.0 course.js"
   },
   "noParticipants": {
@@ -1284,7 +1296,7 @@
     "description": "2.0 course.js"
   },
   "createStrTips3": {
-    "message": "(The grading rules strategy already exist)",
+    "message": "(The grading rules already exist)",
     "description": "2.0 course.js"
   },
   "createStrTips4": {
