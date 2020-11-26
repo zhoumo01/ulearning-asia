@@ -149,15 +149,15 @@
   },
   "courseWillEnd": {
     "message": "课程将于{time}结束",
-    "description": "2.0 index.js"
+    "description": "课程列表"
   },
   "courseHasEnd": {
     "message": "已于{time}结束",
-    "description": "2.0 index.js"
+    "description": "课程列表 -> 已结束"
   },
   "courseCountdown": {
     "message": "距离课程开始还有{n}天",
-    "description": "2.0 index.js"
+    "description": "课程列表 (需要课程为公开课)"
   },
   "searchNoCourse": {
     "message": "没有搜索到相应的课程",
@@ -175,9 +175,9 @@
     "message": "还没有加入任何课程",
     "description": "2.0 index.js"
   },
-  "netErrorClick": {
-    "message": "网络错误，点击",
-    "description": "2.0 index.js"
+  "netError": {
+    "message": "网络错误，点击{reloadButton}重新加载",
+    "description": "教师或学生账户 -> 课程列表"
   },
   "reload": {
     "message": "重新加载",
@@ -749,7 +749,7 @@
   },
   "totalTextbook": {
     "message": "共{n}本教材",
-    "description": "2.0 index.js"
+    "description": "非国际版首页 -> 更多教材"
   },
   "detail": {
     "message": "详情",
@@ -813,7 +813,7 @@
   },
   "totalCourse": {
     "message": "共{n}门课程",
-    "description": "2.0 index.js"
+    "description": "非国际版首页 -> 更多课程"
   },
   "nationalBoutique": {
     "message": "国家精品",
@@ -821,7 +821,7 @@
   },
   "courseJoinCount": {
     "message": "{n}人参与",
-    "description": "2.0 index.js"
+    "description": "非国际版首页 -> 更多课程"
   },
   "summary": {
     "message": "内容简介",
