@@ -75,29 +75,13 @@
     "message": "导出名单",
     "description": "2.0 certification.js "
   },
-  "allStu": {
-    "message": "本课程学生人数共",
-    "description": "2.0 certification.js "
+  "certSummary": {
+    "message": "本课程学生人数共{total}人，根据证书获取条件，合格人数{qualified}人，不合格人数{unqualified}人，合格率 {rate}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
-  "person": {
-    "message": "人",
-    "description": "2.0 certification.js "
-  },
-  "passConditions": {
-    "message": "根据证书获取条件，合格人数",
-    "description": "2.0 certification.js "
-  },
-  "unqualifiedNum": {
-    "message": "不合格人数",
-    "description": "2.0 certification.js "
-  },
-  "passRate": {
-    "message": "合格率",
-    "description": "2.0 certification.js "
-  },
-  "excellentRate": {
-    "message": "，优秀率",
-    "description": "2.0 certification.js "
+  "certSummary2": {
+    "message": "本课程学生人数共{total}人，根据证书获取条件，合格人数{qualified}人，不合格人数{unqualified}人，合格率 {rate}%，优秀率 {excellent}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
   "type": {
     "message": "类型",
@@ -127,9 +111,17 @@
     "message": "课程考核得分",
     "description": "2.0 certification.js "
   },
-  "score": {
-    "message": "分",
-    "description": "2.0 certification.js "
+  "assessRule1": {
+    "message": "课程考核得分≥{min}分，<{max}分",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule2": {
+    "message": "课程考核得分≥{n}分",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule3": {
+    "message": "课程考核得分<{n}分",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
   "excellenceCertificate": {
     "message": "优秀证书",
@@ -195,13 +187,17 @@
     "message": "注：只有课程负责人可进行证书设置。未设置成绩策略的班级，无法统计证书获得情况。",
     "description": "2.0 certification.js "
   },
-  "courseSummaryScore": {
-    "message": "课程汇总成绩",
-    "description": "2.0 certification.js "
+  "gradeRule1": {
+    "message": "课程汇总成绩≥ {input} 分，可获得合格证书",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
   },
-  "canGetPassCer": {
-    "message": "可获得合格证书",
-    "description": "2.0 certification.js "
+  "gradeRule2": {
+    "message": "课程汇总成绩≥ {inputLow} 分，但< {inputHigh} 分，可获得合格证书",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
+  },
+  "gradeRule3": {
+    "message": "课程汇总成绩≥ {input} 分，可获得优秀证书",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
   },
   "setPass": {
     "message": "仅设置课程合格证书",
@@ -209,14 +205,6 @@
   },
   "setPassAndExcellence": {
     "message": "设置课程合格、优秀证书",
-    "description": "2.0 certification.js "
-  },
-  "but": {
-    "message": "但",
-    "description": "2.0 certification.js "
-  },
-  "canGetExcellenceCer": {
-    "message": "可获得优秀证书",
     "description": "2.0 certification.js "
   },
   "enterScore": {
@@ -271,17 +259,21 @@
     "message": "学校",
     "description": "2.0 certification.js "
   },
-  "certificateContent1": {
-    "message": "恭喜你顺利完成",
-    "description": "2.0 certification.js "
+  "qualifiedCert": {
+    "message": "恭喜你顺利完成{guillemetLeft}{coursename}{guillemetRight}课程的学习和考核，成绩合格。",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示) guillemetLeft 和 guillemetRight 用于插值书名号，因为书名号需要设置样式"
   },
-  "certificateContent2": {
-    "message": "课程的学习和考核",
-    "description": "2.0 certification.js "
+  "excellentCert": {
+    "message": "恭喜你顺利完成{guillemetLeft}{coursename}{guillemetRight}课程的学习和考核，成绩优秀。",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示) guillemetLeft 和 guillemetRight 用于插值书名号，因为书名号需要设置样式"
   },
-  "certificateContent3": {
-    "message": "成绩",
-    "description": "2.0 certification.js "
+  "guillemetLeft": {
+    "message": "《",
+    "description": "书名号，其值会被插值到 qualifiedCert 和 excellentCert"
+  },
+  "guillemetRight": {
+    "message": "》",
+    "description": "书名号，其值会被插值到 qualifiedCert 和 excellentCert"
   },
   "certificateNo": {
     "message": "证书编号",
@@ -303,13 +295,13 @@
     "message": "我的证书",
     "description": "2.0 certification.js "
   },
-  "certificateStuTip1": {
-    "message": "您的课程考核分数已达到了",
-    "description": "2.0 certification.js "
+  "qualifiedNotice": {
+    "message": "您的课程考核分数已达到了合格证书获取条件，恭喜您获得以下证书。",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
   },
-  "certificateStuTip2": {
-    "message": "证书获取条件，恭喜您获得以下证书。",
-    "description": "2.0 certification.js "
+  "excellentNotice": {
+    "message": "您的课程考核分数已达到了优秀证书获取条件，恭喜您获得以下证书。",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
   },
   "certificateStuTip": {
     "message": "注：老师发放证书后又继续学习产生成绩变动的，证书不再更新。",
@@ -323,36 +315,16 @@
     "message": "还未获得课程证书",
     "description": "2.0 certification.js "
   },
-  "noCerTip1": {
-    "message": "为保证证书信息准确性，请务必",
-    "description": "2.0 certification.js "
+  "certTip": {
+    "message": "为保证证书信息准确性，请务必{informLink}",
+    "description": "学生账户 -> 考核 -> 课程证书 (还未发放证书时，才会显示)"
   },
-  "noCerTip2": {
+  "informLink": {
     "message": "完善个人基本信息",
-    "description": "2.0 certification.js "
+    "description": "2.0 certificate.js"
   },
   "notSetCerTip": {
     "message": "老师还没设置证书获得条件",
-    "description": "2.0 certification.js "
-  },
-  "pass1": {
-    "message": "合格",
-    "description": "2.0 certification.js "
-  },
-  "excellent1": {
-    "message": "优秀",
-    "description": "2.0 certification.js "
-  },
-  "juhao": {
-    "message": "。",
-    "description": "2.0 certification.js "
-  },
-  "shuminghao1": {
-    "message": "《",
-    "description": "2.0 certification.js "
-  },
-  "shuminghao2": {
-    "message": "》",
     "description": "2.0 certification.js "
   }
 }
