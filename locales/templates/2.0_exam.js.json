@@ -205,7 +205,7 @@
   },
   "betweenTime": {
     "message": "{startTime} 至 {endTime}",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> “全部场次”选择框 \n 教师账号 -> 考试 -> 查看成绩 -> 设置重考 \n 教师账号 -> 考试 -> 添加考试 \n 教师账号 -> 考试 -> 查看成绩 -> 设置重考(要求当前没有批次) -> 添加批次 \n 教师账号 -> 考试 -> 查看成绩 -> 考务管理 -> 场次按排 -> 添加场次"
   },
   "confirm": {
     "message": "确定",
@@ -733,7 +733,7 @@
   },
   "partOf": {
     "message": "{n}份",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试"
   },
   "randomGroupPaper": {
     "message": "随机组卷",
@@ -781,7 +781,7 @@
   },
   "dayShowExam": {
     "message": "考试结束后{n}天显示",
-    "description": "2.0 exam.js"
+    "description": "学生账号 -> 考试"
   },
   "examTips5": {
     "message": "成绩暂不公布",
@@ -1081,7 +1081,7 @@
   },
   "timesOf": {
     "message": "{n}次",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息 \n 教师账号 -> 考试 -> 考试监控 -> 列表形式 -> 异常记录"
   },
   "baseInformation": {
     "message": "基本信息",
@@ -1097,7 +1097,7 @@
   },
   "answerTimesOf": {
     "message": "答题次数：{count}",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息"
   },
   "passScoreCl": {
     "message": "及格分数：",
@@ -1493,11 +1493,11 @@
   },
   "batchNo": {
     "message": "场次{n}",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考务管理 -> 场次按排 \n 教师账号 -> 考试 -> 查看成绩 -> 考试监控 \n 教师账号 -> 考试 -> 添加考试 \n 教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "batchNoTime": {
     "message": "场次{n}: {startTime} 至 {endTime}",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排"
   },
   "clearExamRoomPlan": {
     "message": "清除考场安排",
@@ -2317,15 +2317,15 @@
   },
   "seatOf": {
     "message": "{n}座",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "examStudentOf": {
     "message": "{n}考生",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "seatsOf": {
     "message": "{n}座位",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "roomEditorTips5": {
     "message": "系统已根据班级人数和考场座位数自动生成编排结果，您可以手动调整，确认以后保存编排结果。",
@@ -2373,7 +2373,7 @@
   },
   "roomEditorTip16": {
     "message": "场次{n}座位数小于考生数",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "roomEditorTips17": {
     "message": "移动人数不能为零",
@@ -2433,7 +2433,7 @@
   },
   "afterDaysShow": {
     "message": "{n}天后显示",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 添加考试"
   },
   "weekAfterShow": {
     "message": "考试结束{count}周后显示",
@@ -2677,15 +2677,15 @@
   },
   "remainSeatOf": {
     "message": "余{n}座",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "remainSeatOf2": {
     "message": "{roomName}（余{n}座）",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 -> 修改考场"
   },
   "modifyRoomTip": {
     "message": "将{className}（学生总数：{total}人）中的{n}人移动到以下考场：",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 -> 修改考场"
   },
   "objectivesQ": {
     "message": "客观题",
@@ -2929,7 +2929,7 @@
   },
   "examDaysPublish": {
     "message": "考试结束{n}天后公布",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息"
   },
   "auditTipsClassroom": {
     "message": "开启了人脸识别验证，需要提前上传考生认证照片。照片可以由教师批量导入，也可以由学生自已上传。学生自已上传的照片，教师可以进行审核。",
