@@ -23,13 +23,9 @@
     "message": "插入试卷",
     "description": "2.0 reponsitory.js"
   },
-  "haveSelected": {
-    "message": "已选",
-    "description": "2.0 reponsitory.js"
-  },
-  "examPapers": {
-    "message": "个试卷",
-    "description": "2.0 reponsitory.js"
+  "selectedPaper": {
+    "message": "已选{n}个试卷",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "myExamPaper": {
     "message": "我的试卷",
@@ -159,9 +155,9 @@
     "message": "没有试卷",
     "description": "2.0 reponsitory.js"
   },
-  "networkExceptionTips": {
-    "message": "网络异常，请点击",
-    "description": "2.0 reponsitory.js"
+  "networkError": {
+    "message": "网络异常，请点击{reloadButton}",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源 \n 课程列表 -> 上方试卷库"
   },
   "reload": {
     "message": "重新加载",
@@ -359,21 +355,17 @@
     "message": "已选择",
     "description": "2.0 reponsitory.js"
   },
-  "items": {
-    "message": "项",
-    "description": "2.0 reponsitory.js"
+  "selectedItems": {
+    "message": "已选择{n}项",
+    "description": "课程列表 -> 上方资源库 \n 课程列表 -> 上方试卷库"
   },
   "cancelMultipleSelection": {
     "message": "取消多选",
     "description": "2.0 reponsitory.js"
   },
-  "total": {
-    "message": "共",
-    "description": "2.0 reponsitory.js"
-  },
-  "number": {
-    "message": "个",
-    "description": "2.0 reponsitory.js"
+  "totalOf": {
+    "message": "共{n}个",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源"
   },
   "size": {
     "message": "大小",
@@ -519,9 +511,9 @@
     "message": "全部分类",
     "description": "2.0 reponsitory.js"
   },
-  "selectedNum": {
-    "message": "已选择数量：",
-    "description": "2.0 reponsitory.js"
+  "selectedCount": {
+    "message": "已选择数量：{n}",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "selectRes": {
     "message": "选择资源",
