@@ -203,8 +203,8 @@
     "message": "请选择参加考试的批次",
     "description": "2.0 exam.js"
   },
-  "to": {
-    "message": " 至 ",
+  "betweenTime": {
+    "message": "{startTime} 至 {endTime}",
     "description": "2.0 exam.js"
   },
   "confirm": {
@@ -595,20 +595,12 @@
     "message": "弃考率",
     "description": "2.0 exam.js"
   },
-  "day": {
-    "message": "天",
-    "description": "2.0 exam.js"
-  },
   "hour": {
     "message": "小时",
     "description": "2.0 exam.js"
   },
   "minute": {
     "message": "{count}分钟",
-    "description": "2.0 exam.js"
-  },
-  "seconds": {
-    "message": "秒",
     "description": "2.0 exam.js"
   },
   "timeLength": {
@@ -739,8 +731,8 @@
     "message": "暂无批次",
     "description": "2.0 exam.js"
   },
-  "part": {
-    "message": "份",
+  "partOf": {
+    "message": "{n}份",
     "description": "2.0 exam.js"
   },
   "randomGroupPaper": {
@@ -787,8 +779,8 @@
     "message": "考试结束后",
     "description": "2.0 exam.js"
   },
-  "dayShow": {
-    "message": "天显示",
+  "dayShowExam": {
+    "message": "考试结束后{n}天显示",
     "description": "2.0 exam.js"
   },
   "examTips5": {
@@ -1087,8 +1079,8 @@
     "message": "分数不能超过总分数",
     "description": "2.0 exam.js"
   },
-  "times": {
-    "message": "次",
+  "timesOf": {
+    "message": "{n}次",
     "description": "2.0 exam.js"
   },
   "baseInformation": {
@@ -1103,8 +1095,8 @@
     "message": "答题时长：{count}",
     "description": "2.0 exam.js"
   },
-  "answerTimesCl": {
-    "message": "答题次数：",
+  "answerTimesOf": {
+    "message": "答题次数：{count}",
     "description": "2.0 exam.js"
   },
   "passScoreCl": {
@@ -1185,10 +1177,6 @@
   },
   "commitImmediatelyShow": {
     "message": "交卷后立刻公布",
-    "description": "2.0 exam.js"
-  },
-  "dayAfterShow": {
-    "message": "天后显示",
     "description": "2.0 exam.js"
   },
   "cannotAllForbidden": {
@@ -1501,6 +1489,14 @@
   },
   "batch": {
     "message": "场次",
+    "description": "2.0 exam.js"
+  },
+  "batchNo": {
+    "message": "场次{n}",
+    "description": "2.0 exam.js"
+  },
+  "batchNoTime": {
+    "message": "场次{n}: {startTime} 至 {endTime}",
     "description": "2.0 exam.js"
   },
   "clearExamRoomPlan": {
@@ -2319,16 +2315,16 @@
     "message": "请选择各个场次需要使用的考场，每个场次的总座位数应大于考生数",
     "description": "2.0 exam.js"
   },
-  "seat": {
-    "message": "座",
+  "seatOf": {
+    "message": "{n}座",
     "description": "2.0 exam.js"
   },
-  "examStudent": {
-    "message": "考生",
+  "examStudentOf": {
+    "message": "{n}考生",
     "description": "2.0 exam.js"
   },
-  "seats": {
-    "message": "座位",
+  "seatsOf": {
+    "message": "{n}座位",
     "description": "2.0 exam.js"
   },
   "roomEditorTips5": {
@@ -2355,18 +2351,6 @@
     "message": "你可以将当前班级整班移动到其他考场；也可以从当前班级中，选择部分学生分到其他考场。",
     "description": "2.0 exam.js"
   },
-  "roomEditorTips8": {
-    "message": "（学生总数：",
-    "description": "2.0 exam.js"
-  },
-  "roomEditorTips9": {
-    "message": "人）中的",
-    "description": "2.0 exam.js"
-  },
-  "roomEditorTips10": {
-    "message": "人移动到以下考场：",
-    "description": "2.0 exam.js"
-  },
   "roomEditorTips11": {
     "message": "确定要删除该考场吗？",
     "description": "2.0 exam.js"
@@ -2387,8 +2371,8 @@
     "message": "请选择考场",
     "description": "2.0 exam.js"
   },
-  "roomEditorTips16": {
-    "message": "座位数小于考生数",
+  "roomEditorTip16": {
+    "message": "场次{n}座位数小于考生数",
     "description": "2.0 exam.js"
   },
   "roomEditorTips17": {
@@ -2447,8 +2431,8 @@
     "message": "立即显示",
     "description": "2.0 exam.js"
   },
-  "daysAfterShow": {
-    "message": "天后显示",
+  "afterDaysShow": {
+    "message": "{n}天后显示",
     "description": "2.0 exam.js"
   },
   "weekAfterShow": {
@@ -2691,12 +2675,16 @@
     "message": "审核不通过",
     "description": "2.0 exam.js"
   },
-  "remain": {
-    "message": "余",
+  "remainSeatOf": {
+    "message": "余{n}座",
     "description": "2.0 exam.js"
   },
-  "let": {
-    "message": "将",
+  "remainSeatOf2": {
+    "message": "{roomName}（余{n}座）",
+    "description": "2.0 exam.js"
+  },
+  "modifyRoomTip": {
+    "message": "将{className}（学生总数：{total}人）中的{n}人移动到以下考场：",
     "description": "2.0 exam.js"
   },
   "objectivesQ": {
@@ -2927,10 +2915,6 @@
     "message": "考试结束后{n}天显示",
     "description": "2.0 {filename}"
   },
-  "daysPublish": {
-    "message": "{n} 天后公布",
-    "description": "2.0 exam.js"
-  },
   "weekPublish": {
     "message": "{n} 周后公布",
     "description": "2.0 exam.js"
@@ -2943,8 +2927,8 @@
     "message": "删除场次",
     "description": "2.0 exam.js"
   },
-  "examEnd": {
-    "message": "考试结束",
+  "examDaysPublish": {
+    "message": "考试结束{n}天后公布",
     "description": "2.0 exam.js"
   },
   "auditTipsClassroom": {
