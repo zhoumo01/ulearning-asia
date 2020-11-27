@@ -599,10 +599,6 @@
     "message": "No data found",
     "description": "2.0 course.js"
   },
-  "week": {
-    "message": "week(s)",
-    "description": "2.0 course.js"
-  },
   "weekIndex": {
     "message": "Week {n} ",
     "description": "2.0 course.js"
@@ -663,28 +659,12 @@
     "message": "All colleges",
     "description": "2.0 course.js"
   },
-  "stuLibImportTips5": {
-    "message": "Selected ",
-    "description": "2.0 course.js"
-  },
-  "stuLibImportTips6": {
-    "message": " classes",
-    "description": "2.0 course.js"
-  },
   "grade": {
     "message": "Year",
     "description": "2.0 course.js"
   },
   "college": {
     "message": "College",
-    "description": "2.0 course.js"
-  },
-  "stuLibImportTips7": {
-    "message": "Selected ",
-    "description": "2.0 course.js"
-  },
-  "stuLibImportTips8": {
-    "message": " student(s)",
     "description": "2.0 course.js"
   },
   "stuLibImportTips9": {
@@ -801,14 +781,6 @@
   },
   "publishedIn": {
     "message": "Published by",
-    "description": "2.0 course.js"
-  },
-  "peopleReaded": {
-    "message": "students viewed",
-    "description": "2.0 course.js"
-  },
-  "classColon": {
-    "message": "Class: ",
     "description": "2.0 course.js"
   },
   "download": {
@@ -1111,14 +1083,6 @@
     "message": "End",
     "description": "2.0 course.js"
   },
-  "etc": {
-    "message": "...",
-    "description": "2.0 course.js"
-  },
-  "classes": {
-    "message": " classes",
-    "description": "2.0 course.js"
-  },
   "classesLink": {
     "message": "{count} classes >>",
     "description": "2.0 course.js"
@@ -1177,10 +1141,6 @@
   },
   "assessmentClass": {
     "message": "Class for Grading",
-    "description": "2.0 course.js"
-  },
-  "unfoldAll": {
-    "message": "Expand",
     "description": "2.0 course.js"
   },
   "deadline": {
@@ -1608,7 +1568,7 @@
     "description": "2.0 course.js"
   },
   "contentValidateTips1": {
-    "message": "Title name should be between 4-200 characters",
+    "message": "Title name should be between 2-100 characters",
     "description": "2.0 course.js"
   },
   "switchingChapters": {
@@ -1825,6 +1785,14 @@
   },
   "detail": {
     "message": "Details ",
+    "description": "2.0 course.js"
+  },
+  "homeworkBetweenTime": {
+    "message": "Assignment Availability: {startTime} to {endTime} ",
+    "description": "2.0 course.js"
+  },
+  "betweenTime": {
+    "message": "{startTime} to {endTime} ",
     "description": "2.0 course.js"
   },
   "commitEnd": {
@@ -2383,14 +2351,6 @@
     "message": "The following students are already in the class. The import list will not show these students.",
     "description": "2.0 course.js"
   },
-  "let": {
-    "message": "Move",
-    "description": "2.0 course.js"
-  },
-  "replaceTo": {
-    "message": "to:",
-    "description": "2.0 course.js"
-  },
   "appointClassForTeacher": {
     "message": "Assign Class",
     "description": "2.0 course.js"
@@ -2797,14 +2757,6 @@
   },
   "groupLeader": {
     "message": "Group Leader",
-    "description": "2.0 course.js"
-  },
-  "randomDivide": {
-    "message": "Randomly divide into ",
-    "description": "2.0 course.js"
-  },
-  "group2": {
-    "message": " groups",
     "description": "2.0 course.js"
   },
   "classGroupTips3": {
@@ -3373,7 +3325,7 @@
   },
   "yuan": {
     "message": " RMB",
-    "description": "2.0 course.js"
+    "description": "相关代码已注释，可以先不用翻译"
   },
   "selectFile": {
     "message": "Select File",
@@ -3595,6 +3547,14 @@
     "message": "Non-Video Content",
     "description": "2.0 course.js"
   },
+  "semesterRichText": {
+    "message": "Courseware Rich Contents: {n} ",
+    "description": "2.0 course.js"
+  },
+  "semesterResource": {
+    "message": "Courseware Resources: {n} ",
+    "description": "2.0 course.js"
+  },
   "quantityCl": {
     "message": "Total: ",
     "description": "2.0 course.js"
@@ -3603,8 +3563,24 @@
     "message": "Assignments/Quizzes",
     "description": "2.0 course.js"
   },
+  "testQueNumberOf": {
+    "message": "Quiz Questions: {n} ",
+    "description": "2.0 course.js"
+  },
+  "testQueNumberTip": {
+    "message": "(Only quiz assignments have questions)",
+    "description": "2.0 course.js"
+  },
+  "participantsPeopleOf": {
+    "message": "Participants: {n} ",
+    "description": "2.0 course.js"
+  },
   "discussAndCommunication": {
     "message": "Discussions",
+    "description": "2.0 course.js"
+  },
+  "topicTotalNumberOf": {
+    "message": "Discussion Topics: {n} ",
     "description": "2.0 course.js"
   },
   "semesterTips7": {
@@ -3613,6 +3589,14 @@
   },
   "participantsDiscussNumberCl": {
     "message": "Active Participants: ",
+    "description": "2.0 course.js"
+  },
+  "examQueNumberOf": {
+    "message": "Exam Questions: {n} ",
+    "description": "2.0 course.js"
+  },
+  "passPeopleOf": {
+    "message": "Students Who Passed Exam: {n} ",
     "description": "2.0 course.js"
   },
   "outsideSchoolClass": {
@@ -3800,7 +3784,7 @@
     "description": "2.0 course.js"
   },
   "remaining": {
-    "message": " ",
+    "message": "{n} days left  ",
     "description": "2.0 course.js"
   },
   "progress": {
@@ -3829,6 +3813,18 @@
   },
   "mobileTerminal": {
     "message": "Mobile",
+    "description": "2.0 course.js"
+  },
+  "browserTip": {
+    "message": "If you use a PC to access ULearning, we recommend to use {chrome} or {qqBrowser} browser.",
+    "description": "{chrome} 插值见 chrome 字段，qqBrowser 插值见 qqBrowser 字段"
+  },
+  "chrome": {
+    "message": "Google Chrome (Download) ",
+    "description": "2.0 course.js"
+  },
+  "qqBrowser": {
+    "message": "QQ Browser (Download) ",
     "description": "2.0 course.js"
   },
   "canStudyTime": {
@@ -4392,11 +4388,11 @@
     "description": "2.0 course.js"
   },
   "scoreItemType1": {
-    "message": "Courseware Learning",
+    "message": "Courseware Learning Result",
     "description": "2.0 course.js"
   },
   "scoreItemType1Option1": {
-    "message": "Average score per module (selected modules)",
+    "message": "Average module score (selected modules)",
     "description": "2.0 course.js"
   },
   "scoreItemType2": {
@@ -4416,15 +4412,15 @@
     "description": "2.0 course.js"
   },
   "scoreItemType2Option1": {
-    "message": "The learning time reaches {max} minutes for total possible; less than {min} minutes for 0 points",
+    "message": "The cumulative learning time reaches {max} minutes for total possible; less than {min} minutes for 0 points",
     "description": "2.0 course.js"
   },
   "scoreItemType2Option2": {
-    "message": "The learning time reaches {max} minutes for total possible; less than {min} minutes for 0 points",
+    "message": "The learning time per module reaches {max} minutes for total possible; less than {min} minutes for 0 points",
     "description": "2.0 course.js"
   },
   "scoreItemType2Option3": {
-    "message": "The learning time reaches {max} minutes for total possible; less than {min} minutes for 0 points",
+    "message": "The learning time per topic reaches {max} minutes for total possible; less than {min} minutes for 0 points",
     "description": "2.0 course.js"
   },
   "scoreItemType3": {
@@ -4448,7 +4444,7 @@
     "description": "2.0 course.js"
   },
   "scoreItemType3Option2": {
-    "message": "Average score per module (selected modules)",
+    "message": "Average module score  (selected modules)",
     "description": "2.0 course.js"
   },
   "scoreItemType3Option3": {
@@ -4456,7 +4452,7 @@
     "description": "2.0 course.js"
   },
   "scoreItemType4Rule1": {
-    "message": "Average score per assignment (selected assignments)",
+    "message": "Average assignment score (selected assignments)",
     "description": "2.0 course.js"
   },
   "scoreItemType4Rule2": {
@@ -4464,7 +4460,7 @@
     "description": "2.0 course.js"
   },
   "scoreItemType5Rule1": {
-    "message": "Average score per exam (selected exams)",
+    "message": "Average exam score (selected exams)",
     "description": "2.0 course.js"
   },
   "scoreItemType5Rule2": {
@@ -4947,10 +4943,6 @@
     "message": "Chats ",
     "description": "2.0 course.js"
   },
-  "speechUnit": {
-    "message": " ",
-    "description": "2.0 course.js"
-  },
   "viewTerminal": {
     "message": "Access Device ",
     "description": "2.0 course.js"
@@ -5085,10 +5077,6 @@
   },
   "liveViewTip": {
     "message": "There is a delay in playback data. If inaccurate, click on the top right corner of the page to refresh.",
-    "description": "2.0 course.js"
-  },
-  "poll": {
-    "message": " Votes",
     "description": "2.0 course.js"
   },
   "liveAnalysisTips": {
@@ -5231,6 +5219,10 @@
     "message": "If the courseware does not support the statistical data of courseware learning progress, remove either the courseware learning progress from the grading or the courseware from the course.",
     "description": "2.0 course.js"
   },
+  "weights": {
+    "message": "{percent}%, {count} pts",
+    "description": "2.0 course.js"
+  },
   "importBBCourse": {
     "message": "Import Blackboard Content",
     "description": "2.0 course.js"
@@ -5273,6 +5265,10 @@
   },
   "videoViewTime": {
     "message": "View the length of the video",
+    "description": "2.0 course.js"
+  },
+  "videoViewTime2": {
+    "message": "View the length of the video (min) ",
     "description": "2.0 course.js"
   },
   "docViewNum": {
