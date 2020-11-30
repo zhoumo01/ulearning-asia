@@ -1335,17 +1335,13 @@
     "message": "通过验证码进入考试",
     "description": "2.0 exam.js"
   },
-  "studentNOCl": {
-    "message": "学号：",
-    "description": "2.0 exam.js"
-  },
   "studentNOCl2": {
     "message": "学号：{no}",
     "description": "2.0 {filename}"
   },
-  "classCl": {
-    "message": "班级：",
-    "description": "2.0 exam.js"
+  "classOf": {
+    "message": "班级：{className}",
+    "description": "此功能已被替换，但代码还在，为了安全，所以重构了插值。"
   },
   "waitApproved": {
     "message": "等待批阅",
@@ -1531,13 +1527,17 @@
     "message": "监考老师",
     "description": "2.0 exam.js"
   },
-  "etc": {
-    "message": "等",
-    "description": "2.0 exam.js"
+  "etcOfPeople": {
+    "message": "{name}等{n}人",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排"
   },
-  "people": {
-    "message": "人",
-    "description": "2.0 exam.js"
+  "etcOf": {
+    "message": "{name}等",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 (当学生单独参加考试，没有在班级中时，才会出现这个)"
+  },
+  "peopleOf": {
+    "message": "[{n}人]",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "empty": {
     "message": "空",
