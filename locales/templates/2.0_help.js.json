@@ -67,21 +67,9 @@
     "message": "推荐网络带宽",
     "description": "2.0 help.js"
   },
-  "envTips12": {
-    "message": "请确保机房",
-    "description": "2.0 help.js"
-  },
-  "envTips13": {
-    "message": "的独立带宽使用。单台计算机",
-    "description": "2.0 help.js"
-  },
-  "envTips14": {
-    "message": "的下载速度，约",
-    "description": "2.0 help.js"
-  },
-  "envTips15": {
-    "message": "带宽。如果有听力或口语题，网速*2。",
-    "description": "2.0 help.js"
+  "bandWidthHint": {
+    "message": "请确保机房 {totalBandWidth} 的独立带宽使用。单台计算机{netspeed}的下载速度，约{singleBandWidth}带宽。如果有听力或口语题，网速*2。",
+    "description": "教师账号 -> 考试 -> 环境检测"
   },
   "envTips16": {
     "message": "人数",
@@ -179,28 +167,20 @@
     "message": "推荐浏览器下载",
     "description": "2.0 help.js"
   },
-  "envTips40": {
-    "message": "为了确保考试过程顺利，推荐使用",
-    "description": "2.0 help.js"
+  "browserHint": {
+    "message": "为了确保考试过程顺利，推荐使用{qqBrowser}、{chrome}或{firefox}浏览器，不建议使用其他浏览器。",
+    "description": "教师账号 -> 考试 -> 环境检测"
   },
-  "envTips41": {
+  "qqBrowser": {
     "message": "QQ",
     "description": "2.0 help.js"
   },
-  "envTips42": {
+  "chrome": {
     "message": "谷歌（Chrome）",
     "description": "2.0 help.js"
   },
-  "envTips43": {
-    "message": "或",
-    "description": "2.0 help.js"
-  },
-  "envTips44": {
+  "firefox": {
     "message": "火狐（Firefox）",
-    "description": "2.0 help.js"
-  },
-  "envTips45": {
-    "message": "浏览器，不建议使用其他浏览器。",
     "description": "2.0 help.js"
   },
   "envTips46": {
