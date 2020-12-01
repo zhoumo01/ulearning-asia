@@ -259,21 +259,13 @@
     "message": "学校",
     "description": "2.0 certification.js "
   },
-  "qualifiedCert": {
-    "message": "恭喜你顺利完成{guillemetLeft}{coursename}{guillemetRight}课程的学习和考核，成绩合格。",
-    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示) guillemetLeft 和 guillemetRight 用于插值书名号，因为书名号需要设置样式"
+  "qualifiedCert2": {
+    "message": "恭喜你顺利完成{coursename}课程的学习和考核，成绩合格。",
+    "description": "2.0 certificate.js"
   },
-  "excellentCert": {
-    "message": "恭喜你顺利完成{guillemetLeft}{coursename}{guillemetRight}课程的学习和考核，成绩优秀。",
-    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示) guillemetLeft 和 guillemetRight 用于插值书名号，因为书名号需要设置样式"
-  },
-  "guillemetLeft": {
-    "message": "《",
-    "description": "书名号，其值会被插值到 qualifiedCert 和 excellentCert"
-  },
-  "guillemetRight": {
-    "message": "》",
-    "description": "书名号，其值会被插值到 qualifiedCert 和 excellentCert"
+  "excellentCert2": {
+    "message": "恭喜你顺利完成{coursename}课程的学习和考核，成绩优秀。",
+    "description": "2.0 certificate.js"
   },
   "certificateNo": {
     "message": "证书编号",
