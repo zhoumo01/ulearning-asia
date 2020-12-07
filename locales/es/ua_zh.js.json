@@ -2191,6 +2191,10 @@
     "message": "Nota",
     "description": "UA"
   },
+  "recoverRecordTip": {
+    "message": "Se detecta que no ha podido enviar un registro de aprendizaje satisfactorio, ¿desea restaurarlo ahora?",
+    "description": "UA"
+  },
   "noteFollowTimeTip": {
     "message": "El tiempo máximo de seguimiento para palabras / oraciones / párrafos es de 20s / 40s / 120s, ponga atención al tiempo de seguimiento.",
     "description": "UA"
@@ -2723,9 +2727,9 @@
     "message": "Profesor de la escuela",
     "description": "UA"
   },
-  "score": {
-    "message": "Puntos",
-    "description": "UA"
+  "points": {
+    "message": "{n} puntos",
+    "description": "教师账户 -> ua -> 课程查看 -> 课件试题 \n 课程查看 -> 预览课件 -> 选择练习题 (或者学生账户登录 -> 练习题)"
   },
   "scoreModels": {
     "message": "Modo de puntuación",
@@ -3863,17 +3867,17 @@
     "message": "Puntuación",
     "description": "UA"
   },
-  "fluency": {
-    "message": "Fluidez",
-    "description": "UA"
+  "fluencyOf": {
+    "message": "Fluidez: {n} puntos",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
   },
-  "coherence": {
-    "message": "Coherencia",
-    "description": "UA"
+  "coherenceOf": {
+    "message": "Lógica: {n} puntos",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
   },
-  "pronunciation": {
-    "message": "Pronunciación",
-    "description": "UA"
+  "pronunciationOf": {
+    "message": "Pronunciación: {n} 分",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
   },
   "speed": {
     "message": "Velocidad",
@@ -4206,5 +4210,41 @@
   "reSelectQuestion": {
     "message": "Vuelva a seleccionar la pregunta.",
     "description": "出现于视频剪辑处"
+  },
+  "restoreRecord": {
+    "message": "Reanudar registros de aprendizaje",
+    "description": "UA"
+  },
+  "recordList": {
+    "message": "Lista de registros de aprendizaje",
+    "description": "UA"
+  },
+  "restoreTip1": {
+    "message": "No actualice la página si está recuperando un registro de aprendizaje correcto que no se guardó antes...",
+    "description": "UA"
+  },
+  "restoreTip2": {
+    "message": "Nota: Si un registro no se puede restaurar correctamente, comuníquese con el servicio al cliente. Si necesita volver a la página del reproductor para continuar aprendiendo, haga clic en el botón \"Atrás\" en la esquina superior derecha. Si no desea que aparezca un mensaje emergente para restaurar los registros de aprendizaje cuando ingrese al reproductor, puede eliminar los registros que no se pudieron restaurar (advertencia: eliminar el caché local puede hacer que los registros de aprendizaje no recuperados sean irrecuperables).",
+    "description": "UA"
+  },
+  "recovering": {
+    "message": "Recuperando",
+    "description": "UA"
+  },
+  "restoreFailed": {
+    "message": "Error en la recuperación",
+    "description": "UA"
+  },
+  "removedFromCache": {
+    "message": "Se ha eliminado de la memoria caché",
+    "description": "UA"
+  },
+  "restoreSuccess": {
+    "message": "La recuperación tuvo éxito",
+    "description": "UA"
+  },
+  "restoreComplete": {
+    "message": "El registro de aprendizaje se ha recuperado con éxito",
+    "description": "UA"
   }
 }

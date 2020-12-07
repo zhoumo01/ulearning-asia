@@ -19,20 +19,8 @@
     "message": "Hora",
     "description": "2.0 index.js"
   },
-  "minute": {
-    "message": "Minuto",
-    "description": "2.0 index.js"
-  },
-  "second": {
-    "message": "Segundos",
-    "description": "2.0 index.js"
-  },
   "student": {
     "message": "Estudiante",
-    "description": "2.0 index.js"
-  },
-  "classmate": {
-    "message": "Compañero de clase",
     "description": "2.0 index.js"
   },
   "welcomeStu": {
@@ -127,16 +115,8 @@
     "message": "Retirar solicitud",
     "description": "2.0 index.js"
   },
-  "di": {
-    "message": "Primero",
-    "description": "2.0 index.js"
-  },
   "none": {
     "message": "Ninguno",
-    "description": "2.0 index.js"
-  },
-  "courseTimes": {
-    "message": "Primera clase",
     "description": "2.0 index.js"
   },
   "modifyCourse": {
@@ -167,17 +147,17 @@
     "message": "Clase",
     "description": "2.0 index.js"
   },
-  "courseWill": {
-    "message": "Los cursos se llevarán a cabo",
-    "description": "2.0 index.js"
+  "courseWillEnd": {
+    "message": "El curso terminará a las {time}",
+    "description": "课程列表"
   },
-  "has": {
-    "message": "Ya en",
-    "description": "2.0 index.js"
+  "courseHasEnd": {
+    "message": "Finalizado a las {time}",
+    "description": "课程列表 -> 已结束"
   },
-  "courseStartDuration": {
-    "message": "Distancia desde el inicio del curso",
-    "description": "2.0 index.js"
+  "courseCountdown": {
+    "message": "{N} días hasta que comience el curso",
+    "description": "课程列表 (需要课程为公开课)"
   },
   "searchNoCourse": {
     "message": "No se encontró el curso correspondiente.",
@@ -195,9 +175,9 @@
     "message": "No se ha unido a ningún curso.",
     "description": "2.0 index.js"
   },
-  "netErrorClick": {
-    "message": "Error de red, haga clic en",
-    "description": "2.0 index.js"
+  "netError": {
+    "message": "Error de red, haga clic en {reloadButton} para volver a cargar",
+    "description": "教师或学生账户 -> 课程列表"
   },
   "reload": {
     "message": "Recargar",
@@ -215,12 +195,8 @@
     "message": "El profesor ha creado un curso con el mismo nombre. Se recomienda que primero se comunique con la persona a cargo del curso, ya sea que necesite crear un curso por separado.",
     "description": "2.0 index.js"
   },
-  "courseTitleExistTips1": {
-    "message": "La escuela ya tiene un curso con el mismo nombre (por",
-    "description": "2.0 index.js"
-  },
-  "courseTitleExistTips2": {
-    "message": "creado por el maestro), se recomienda que primero se comunique con el maestro de la clase para comunicarse y confirmar, a fin de evitar que existan clases repetidas.",
+  "courseTitleExistTips": {
+    "message": "Ya existe un curso con el mismo nombre en esta escuela (creado por el profesor {name}). Se recomienda que se comunique con el profesor del curso para comunicación y confirmación para evitar inconvenientes causados ​​por la construcción repetida del curso.",
     "description": "2.0 index.js"
   },
   "isContinueCreate": {
@@ -767,9 +743,9 @@
     "message": "Total",
     "description": "2.0 index.js"
   },
-  "textbookCount": {
-    "message": "Este libro de texto",
-    "description": "2.0 index.js"
+  "totalTextbook": {
+    "message": "Total {n} libros de texto",
+    "description": "非国际版首页 -> 更多教材"
   },
   "detail": {
     "message": "Detalles",
@@ -831,17 +807,17 @@
     "message": "Categoría",
     "description": "2.0 index.js"
   },
-  "courseCount": {
-    "message": "Cursos",
-    "description": "2.0 index.js"
+  "totalCourse": {
+    "message": "Total {n} cursos",
+    "description": "非国际版首页 -> 更多课程"
   },
   "nationalBoutique": {
     "message": "Boutique nacional",
     "description": "2.0 index.js"
   },
-  "participantsCount": {
-    "message": "Participación humana",
-    "description": "2.0 index.js"
+  "courseJoinCount": {
+    "message": "{n} personas participando",
+    "description": "非国际版首页 -> 更多课程"
   },
   "summary": {
     "message": "Introduccion",

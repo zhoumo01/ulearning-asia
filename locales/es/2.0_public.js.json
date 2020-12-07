@@ -155,13 +155,9 @@
     "message": "Todas las universidades",
     "description": "2.0 public.js"
   },
-  "courseNumber1": {
-    "message": "Total",
-    "description": "2.0 public.js"
-  },
-  "courseNumber2": {
-    "message": "Cursos",
-    "description": "2.0 public.js"
+  "totalCourse": {
+    "message": "Total {n} cursos",
+    "description": "自定义门户网站 -> 课程 (公开课程等)"
   },
   "departments": {
     "message": "Departamento",
@@ -191,9 +187,9 @@
     "message": "Más cursos",
     "description": "2.0 public.js"
   },
-  "participantsNum": {
-    "message": "El número de participantes:",
-    "description": "2.0 public.js"
+  "joinCourseCount": {
+    "message": "Número de participantes: {n}",
+    "description": "自定义门户网站 -> 上方搜索框搜索 \n 自定义门户网站 -> 课程(不包括公开课) \n 自定义门户网站 -> 课程详情 \n 管理员账户 -> 系统管理 -> 网站设置 -> 菜单式"
   },
   "customNavigation": {
     "message": "Navegación personalizada",
@@ -291,9 +287,9 @@
     "message": "No curso",
     "description": "2.0 public.js"
   },
-  "netErrorClick": {
-    "message": "\"Error de red, haga clic en\"",
-    "description": "2.0 public.js"
+  "netError": {
+    "message": "Error de red, haga clic en {reloadButton}",
+    "description": "自定义门户网站 -> 课程 (公开课程等)"
   },
   "reload": {
     "message": "Recargar",
@@ -307,17 +303,13 @@
     "message": "breve introducción:",
     "description": "2.0 public.js"
   },
-  "studyTimes": {
-    "message": "Aprendizaje",
-    "description": "2.0 public.js"
+  "studyTimesOf": {
+    "message": "{n} estudios",
+    "description": "自定义门户网站 -> 公开课程 \n 自定义门户网站 -> 上方搜索框搜索"
   },
-  "totalSearch": {
-    "message": "Total buscado con",
-    "description": "2.0 public.js"
-  },
-  "about": {
-    "message": "relacionado",
-    "description": "2.0 public.js"
+  "totalSearchResult": {
+    "message": "Se buscó un total de {n} resultados relacionados con \"{palabra clave}\"",
+    "description": "自定义门户网站 -> 上方搜索框搜索"
   },
   "schoolCourse": {
     "message": "Cursos en el campus",
@@ -325,10 +317,6 @@
   },
   "openCourse": {
     "message": "Curso abierto",
-    "description": "2.0 public.js"
-  },
-  "resultNum": {
-    "message": "Resultados",
     "description": "2.0 public.js"
   },
   "moreSearchResult": {

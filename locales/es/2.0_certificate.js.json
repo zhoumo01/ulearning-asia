@@ -75,29 +75,13 @@
     "message": "derivar la lista de alumnos",
     "description": "2.0 certification.js "
   },
-  "allStu": {
-    "message": "número total de alumnos en curso",
-    "description": "2.0 certification.js "
+  "certSummary": {
+    "message": "El número de estudiantes en este curso es {total}. Según las condiciones para obtener el certificado, el número calificado es {calificado} y el número no calificado es {no calificado}. La tasa calificada es {rate}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
-  "person": {
-    "message": "persona",
-    "description": "2.0 certification.js "
-  },
-  "passConditions": {
-    "message": "adquirir las condicionales y número de probados depende de los certificados",
-    "description": "2.0 certification.js "
-  },
-  "unqualifiedNum": {
-    "message": "número de los no probados",
-    "description": "2.0 certification.js "
-  },
-  "passRate": {
-    "message": "la tasa probada",
-    "description": "2.0 certification.js "
-  },
-  "excellentRate": {
-    "message": "la excelente tasa",
-    "description": "2.0 certification.js "
+  "certSummary2": {
+    "message": "El número de estudiantes en este curso es {total}. De acuerdo con las condiciones para obtener el certificado, el número calificado es {calificado}, el número no calificado es {no calificado}, la tasa calificada es {tasa}% y la tasa de excelencia es {excelente}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
   "type": {
     "message": "tipo",
@@ -127,9 +111,17 @@
     "message": "la nota de la evaluación del curso",
     "description": "2.0 certification.js "
   },
-  "score": {
-    "message": "nota",
-    "description": "2.0 certification.js "
+  "assessRule1": {
+    "message": "Puntuación de la evaluación del curso ≥ {min} puntos, <{max} puntos",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule2": {
+    "message": "Puntuación de la evaluación del curso ≥ {n} puntos",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule3": {
+    "message": "Puntuación de la evaluación del curso <{n} puntos",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
   "excellenceCertificate": {
     "message": "certificado excelente",
@@ -195,13 +187,17 @@
     "message": "nota：Solo la persona a cargo del curso puede establecer el certificado. Las clases sin una estrategia de calificación no pueden contar el estado de la adquisición del certificado。Solo el directo puede ajustar certidicados. El grupo que no se ajusta la estrategia no puede hacer estadísticas de la situacion de certificados adquridos",
     "description": "2.0 certification.js "
   },
-  "courseSummaryScore": {
-    "message": "la nota total",
-    "description": "2.0 certification.js "
+  "gradeRule1": {
+    "message": "Puntuación del resumen del curso ≥ {input} puntos para obtener un certificado",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
   },
-  "canGetPassCer": {
-    "message": "adquirir certidicado",
-    "description": "2.0 certification.js "
+  "gradeRule2": {
+    "message": "Puntuación de resumen del curso ≥ {inputLow} puntos, pero <{inputHigh} puntos, puede obtener un certificado",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
+  },
+  "gradeRule3": {
+    "message": "Puntuación del resumen del curso ≥ {input} puntos para obtener un certificado de excelencia",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
   },
   "setPass": {
     "message": "solo ajustes para certificados probados",
@@ -209,14 +205,6 @@
   },
   "setPassAndExcellence": {
     "message": "ajustes para certificados probados y excelentes",
-    "description": "2.0 certification.js "
-  },
-  "but": {
-    "message": "pero",
-    "description": "2.0 certification.js "
-  },
-  "canGetExcellenceCer": {
-    "message": "adquirir el certificado",
     "description": "2.0 certification.js "
   },
   "enterScore": {
@@ -271,17 +259,13 @@
     "message": "la escuela",
     "description": "2.0 certification.js "
   },
-  "certificateContent1": {
-    "message": "felicidad por terminar todo",
-    "description": "2.0 certification.js "
+  "qualifiedCert2": {
+    "message": "Felicitaciones por haber completado con éxito el estudio y la evaluación del curso {coursename}, y sus calificaciones son satisfactorias.",
+    "description": "2.0 certificate.js"
   },
-  "certificateContent2": {
-    "message": "estudio y evaluación para el curso",
-    "description": "2.0 certification.js "
-  },
-  "certificateContent3": {
-    "message": "nota",
-    "description": "2.0 certification.js "
+  "excellentCert2": {
+    "message": "Felicitaciones por haber completado con éxito el estudio y la evaluación del curso {coursename} con excelentes calificaciones.",
+    "description": "2.0 certificate.js"
   },
   "certificateNo": {
     "message": "código del certificado",
@@ -303,13 +287,13 @@
     "message": "mi certificado",
     "description": "2.0 certification.js "
   },
-  "certificateStuTip1": {
-    "message": "su nota ya llegó",
-    "description": "2.0 certification.js "
+  "qualifiedNotice": {
+    "message": "Su puntuación de evaluación del curso ha cumplido con los criterios de elegibilidad, felicitaciones por obtener el siguiente certificado.",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
   },
-  "certificateStuTip2": {
-    "message": "\"Los requisitos de certificado,felicidad por conseguir los siguientes certificados\"",
-    "description": "2.0 certification.js "
+  "excellentNotice": {
+    "message": "Su puntuación de evaluación del curso ha cumplido con los criterios para obtener un certificado de excelencia, y felicitaciones por la obtención de su certificado.",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
   },
   "certificateStuTip": {
     "message": "\"nota：El certificado no va a actualizr por el cambio de la nota,que estudian otra vez\"",
@@ -323,36 +307,16 @@
     "message": "certificado pendiente",
     "description": "2.0 certification.js "
   },
-  "noCerTip1": {
-    "message": "\"por favor, para asegurar la exactitud de las informaciones del certificado\"",
-    "description": "2.0 certification.js "
+  "certTip": {
+    "message": "Para garantizar la exactitud de la información del certificado, asegúrese de que la información del certificado",
+    "description": "学生账户 -> 考核 -> 课程证书 (还未发放证书时，才会显示)"
   },
-  "noCerTip2": {
-    "message": "mejorar el perfil",
-    "description": "2.0 certification.js "
+  "informLink": {
+    "message": "Mejore su información personal básica",
+    "description": "2.0 certificate.js"
   },
   "notSetCerTip": {
     "message": "el profesor no pone las condicionales para adquirir certificado",
-    "description": "2.0 certification.js "
-  },
-  "pass1": {
-    "message": "probado",
-    "description": "2.0 certification.js "
-  },
-  "excellent1": {
-    "message": "excelente",
-    "description": "2.0 certification.js "
-  },
-  "juhao": {
-    "message": "。",
-    "description": "2.0 certification.js "
-  },
-  "shuminghao1": {
-    "message": "《",
-    "description": "2.0 certification.js "
-  },
-  "shuminghao2": {
-    "message": "》",
     "description": "2.0 certification.js "
   }
 }
