@@ -195,11 +195,6 @@
     "message": "الفيديو",
     "description": "2.0 course.js"
   },
-  "totalDuration": {
-    "message": "مجموع الطول:",
-    "description": "2.0 course.js",
-    "oldValue": "مجموع الطول: {count}دقيقه"
-  },
   "document": {
     "message": "الوثيقه",
     "description": "2.0 course.js"
@@ -388,10 +383,6 @@
     "message": "الطلاب الذين تم اختيارهم:",
     "description": "2.0 course.js"
   },
-  "examTimes": {
-    "oldValue": "امتحانات الدورة: {n} البند(ق)",
-    "description": "2.0 course.js"
-  },
   "usePaperNumber": {
     "message": "الامتحانات المستخدمة:",
     "description": "2.0 course.js"
@@ -454,10 +445,6 @@
   },
   "attendance": {
     "message": "نداء لفة",
-    "description": "2.0 course.js"
-  },
-  "totalTimes": {
-    "oldValue": "مجموع: {n} البند(ق)",
     "description": "2.0 course.js"
   },
   "totalAttendanceRate": {
@@ -608,18 +595,6 @@
     "message": "الأسبوع(أسابيع)",
     "description": "2.0 course.js"
   },
-  "weekIndex": {
-    "oldValue": "لا.{n}الاسبوع",
-    "description": "2.0 course.js"
-  },
-  "groupIndex": {
-    "oldValue": "لا.{n}مجموعه",
-    "description": "2.0 course.js"
-  },
-  "periodIndex": {
-    "oldValue": "لا.{n}الخيار",
-    "description": "2.0 course.js"
-  },
   "teacher": {
     "message": "المعلم",
     "description": "2.0 course.js"
@@ -634,10 +609,6 @@
   },
   "student": {
     "message": "الطالب",
-    "description": "2.0 course.js"
-  },
-  "studentOf": {
-    "oldValue": "اسم الطالب {n} الطلاب",
     "description": "2.0 course.js"
   },
   "addStudent": {
@@ -720,10 +691,6 @@
     "message": "لم يتم تعيين أي برامج دراسية لهذه الدورة",
     "description": "2.0 course.js"
   },
-  "minute": {
-    "oldValue": "{count} دقيقه",
-    "description": "2.0 course.js"
-  },
   "averageCompletionRate": {
     "message": "متوسط معدل الإنجاز",
     "description": "2.0 course.js"
@@ -758,26 +725,6 @@
   },
   "announcementHeadTip": {
     "message": "يمكن نشر إعلانات الدورة التدريبية هنا. يمكن للمعلمين المعينين لدور مشرف الدورة عمل إعلانات لجميع الفصول الدراسية في إطار هذه الدورة. يمكن للمعلمين أو المساعدين (مساعدين) فقط تقديم إعلانات عن الصف الذي يقومون بتدريسه.",
-    "description": "2.0 course.js"
-  },
-  "totalOf": {
-    "oldValue": "مجموع {n} البند(ق)",
-    "description": "2.0 course.js"
-  },
-  "totalOfItems": {
-    "oldValue": "مجموع {n} وجدت",
-    "description": "2.0 course.js"
-  },
-  "totalPages": {
-    "oldValue": "مجموع: {n} الشرائح",
-    "description": "2.0 course.js"
-  },
-  "totalOfTeacher": {
-    "oldValue": "مجموع {n} المعلم(ق)",
-    "description": "2.0 course.js"
-  },
-  "totalOfTeacher2": {
-    "oldValue": "مجموع {n} المعلمين",
     "description": "2.0 course.js"
   },
   "publishNewAnnouncement": {
@@ -972,19 +919,6 @@
     "message": "الموعد النهائي للتقييم",
     "description": "2.0 course.js"
   },
-  "stuScore": {
-    "oldValue": "{stuName}：{count}نقاط",
-    "description": "2.0 course.js"
-  },
-  "score": {
-    "message": "نقاط",
-    "description": "2.0 course.js",
-    "oldValue": "{count} نقاط"
-  },
-  "scoreCol": {
-    "oldValue": "نقاط",
-    "description": "2.0 course.js"
-  },
   "totalScore": {
     "message": "قرش ممكن",
     "description": "2.0 course.js"
@@ -1009,49 +943,9 @@
     "message": "عرض فصل التقييم",
     "description": "2.0 course.js"
   },
-  "studyScoreColon": {
-    "message": "نتيجة التعلم:",
-    "description": "2.0 course.js",
-    "oldValue": "نتيجة التعلم: {percent}%"
-  },
   "averageScoreByChapter": {
     "message": "بمتوسط درجات الفصل المختار",
     "description": "2.0 course.js"
-  },
-  "studyTimeColon": {
-    "message": "وقت التعلم:",
-    "description": "2.0 course.js",
-    "oldValue": "وقت التعلم: {percent}%"
-  },
-  "totalStudyTimeAchieve": {
-    "message": "زمن التعلم التراكمي يصل",
-    "description": "2.0 course.js",
-    "oldValue": "يصل وقت التعلم المتراكم إلى {max} دقيقة للحصول على درجة كاملة ، وأقل من {min} دقيقة للحصول على 0 نقطة"
-  },
-  "chapterStudyTimeAchieve": {
-    "message": "وقت التعلم من كل فصل يصل",
-    "description": "2.0 course.js",
-    "oldValue": "النتيجة الكاملة لكل فصل من وقت التعلم {max} دقيقة ، 0 نقطة لأقل من {min} دقيقة"
-  },
-  "sectionStudyTimeAchieve": {
-    "message": "وقت التعلم من كل قسم يصل",
-    "description": "2.0 course.js",
-    "oldValue": "يصل وقت التعلم لكل جلسة إلى {max} دقيقة للحصول على درجات كاملة ، وأقل من {min} دقيقة للحصول على 0 نقطة"
-  },
-  "studyProgressColon": {
-    "message": "تقدم التعلم:",
-    "description": "2.0 course.js",
-    "oldValue": "تقدم التعلم: {precent}%"
-  },
-  "totalStudyProgress": {
-    "message": "التقدم التراكمي في التعلم يصل إلى",
-    "description": "2.0 course.js",
-    "oldValue": "يصل تقدم التعلم التراكمي إلى {max}٪ للحصول على درجات كاملة ، وأقل من {min}٪ للحصول على 0 نقطة"
-  },
-  "chapterStudyProgress": {
-    "message": "التقدم التعلم من كل فصل يصل",
-    "description": "2.0 course.js",
-    "oldValue": "يصل تقدم التعلم لكل فصل إلى {max}٪ للحصول على علامة كاملة ، وأقل من {min}٪ للحصول على 0 نقطة"
   },
   "noParticipants": {
     "message": "لم يشارك في",
@@ -1557,10 +1451,6 @@
     "message": "اسم النشاط",
     "description": "2.0 course.js"
   },
-  "numberOf": {
-    "oldValue": "{n} البند(ق)",
-    "description": "2.0 course.js"
-  },
   "time": {
     "message": "الوقت",
     "description": "2.0 course.js"
@@ -1709,22 +1599,6 @@
     "message": "تساعد المناقشات الطلاب على التفكير بعمق. يمكنك إنشاء مناقشات وإدارتها والرد عليها وتحديدها هنا. يمكن لمسؤولي المقرر الدراسي (المعلمون المعينون كمسؤول للمقرر الدراسي) إنشاء مناقشات لجميع الفصول الدراسية، في حين يمكن للمعلمين ومساعدي التدريس إنشاء مناقشات الصف الخاصة بهم فقط.",
     "description": "2.0 course.js"
   },
-  "timesOf": {
-    "oldValue": "{n} البند(ق)",
-    "description": "2.0 course.js"
-  },
-  "replyYouTimes": {
-    "oldValue": "رد على مشاركتك {n} البند(ق)",
-    "description": "2.0 course.js"
-  },
-  "praiseYouTimes": {
-    "oldValue": "يحب مشاركتك {n} البند(ق)",
-    "description": "2.0 course.js"
-  },
-  "youPraiseTimes": {
-    "oldValue": "لقد نشرت إعجابات {n} البند(ق)",
-    "description": "2.0 course.js"
-  },
   "yourPosts": {
     "message": "مشاركاتك",
     "description": "2.0 course.js"
@@ -1837,14 +1711,6 @@
     "message": "التفاصيل",
     "description": "2.0 course.js"
   },
-  "homeworkBetweenTime": {
-    "oldValue": "وقت التكليف: {startTime} ل {endTime}",
-    "description": "2.0 course.js"
-  },
-  "betweenTime": {
-    "oldValue": "{startTime} ل {endTime}",
-    "description": "2.0 course.js"
-  },
   "commitEnd": {
     "message": "انتهاء التقديم",
     "description": "2.0 course.js"
@@ -1943,10 +1809,6 @@
   },
   "deleteHomeworkTips": {
     "message": "هل تريد بالتأكيد حذف هذا الواجب؟",
-    "description": "2.0 course.js"
-  },
-  "peopleOf": {
-    "oldValue": "{n} الطلاب",
     "description": "2.0 course.js"
   },
   "inputUserNameSearch": {
@@ -2640,11 +2502,6 @@
   "appointFailed": {
     "message": "فشل في تعيين",
     "description": "2.0 course.js"
-  },
-  "memberSpocValidateTips15": {
-    "message": "أسماء الفئات تتجاوز 100 حرف",
-    "description": "2.0 course.js",
-    "oldValue": "لا.{n}أسماء الفئات تتجاوز 100 حرف"
   },
   "memberSpocValidateTips16": {
     "message": "الرجاء إدخال اسم الفئة",
@@ -3606,46 +3463,16 @@
     "message": "أشرطة الفيديو المناهج الدراسية",
     "description": "2.0 course.js"
   },
-  "totalQuantityCl": {
-    "message": "مجموع:",
-    "description": "2.0 course.js",
-    "oldValue": "مجموع: {count}البند(ق)"
-  },
   "nonVideoResource": {
     "message": "محتوى غير فيديو",
     "description": "2.0 course.js"
-  },
-  "semesterRichText": {
-    "oldValue": "صفحات البرامج التدريبية مع نص منسق: {n} البند(ق)",
-    "description": "2.0 course.js"
-  },
-  "semesterResource": {
-    "oldValue": "موارد الدورة التدريبية: {n} البند(ق)",
-    "description": "2.0 course.js"
-  },
-  "quantityCl": {
-    "message": "مجموع:",
-    "description": "2.0 course.js",
-    "oldValue": "مجموع: {count}البند(ق)"
   },
   "homeworkAndTest": {
     "message": "المهام/ الاختبارات",
     "description": "2.0 course.js"
   },
-  "testQueNumberOf": {
-    "oldValue": "أسئلة الاختبار: {n} الاسئله",
-    "description": "2.0 course.js"
-  },
-  "participantsPeopleOf": {
-    "oldValue": "المشاركين: {n} الطلاب",
-    "description": "2.0 course.js"
-  },
   "discussAndCommunication": {
     "message": "المناقشات",
-    "description": "2.0 course.js"
-  },
-  "topicTotalNumberOf": {
-    "oldValue": "مجموع: {n} البند(ق)",
     "description": "2.0 course.js"
   },
   "semesterTips7": {
@@ -3654,14 +3481,6 @@
   },
   "participantsDiscussNumberCl": {
     "message": "المشاركون النشطون:",
-    "description": "2.0 course.js"
-  },
-  "examQueNumberOf": {
-    "oldValue": "أسئلة الامتحان: {n} الاسئله",
-    "description": "2.0 course.js"
-  },
-  "passPeopleOf": {
-    "oldValue": "مرت: {n} الطلاب",
     "description": "2.0 course.js"
   },
   "outsideSchoolClass": {
@@ -3848,11 +3667,6 @@
     "message": "شراء",
     "description": "2.0 course.js"
   },
-  "remaining": {
-    "message": "المتبقيه",
-    "description": "2.0 course.js",
-    "oldValue": "المتبقيه {n} اليوم"
-  },
   "progress": {
     "message": "التقدم",
     "description": "2.0 course.js"
@@ -3879,18 +3693,6 @@
   },
   "mobileTerminal": {
     "message": "المحمول",
-    "description": "2.0 course.js"
-  },
-  "browserTip": {
-    "oldValue": "نوصي باستخدام الكمبيوتر الشخصي للدراسة {chrome} او{qqBrowser}",
-    "description": "2.0 course.js"
-  },
-  "chrome": {
-    "oldValue": "جوجل كروم",
-    "description": "2.0 course.js"
-  },
-  "qqBrowser": {
-    "oldValue": "متصفح QQ",
     "description": "2.0 course.js"
   },
   "canStudyTime": {
@@ -4188,11 +3990,6 @@
   "studingCl": {
     "message": "التعلم:",
     "description": "2.0 course.js"
-  },
-  "remainingStudyTime": {
-    "message": "مدة التعلم المتبقية",
-    "description": "2.0 course.js",
-    "oldValue": "مدة التعلم المتبقية {n} اليوم"
   },
   "textbookTips38": {
     "message": "لم يتم العثور على الكتب المدرسية ذات الصلة",
@@ -5290,10 +5087,6 @@
     "message": "إذا كانت هناك الكتب المدرسية التي لا تدعم البرامج التعليمية التعلم التقدم في تسجيل البنود، يرجى إزالة المناهج التعليمية التعلم التقدم البنود تسجيل أو إزالة الكتب المدرسية غير معتمد وحفظها",
     "description": "2.0 course.js"
   },
-  "weights": {
-    "oldValue": "{percent}%, {count}نقطه",
-    "description": "2.0 course.js"
-  },
   "importBBCourse": {
     "message": "استيراد محتوى Blackboard",
     "description": "2.0 course.js"
@@ -5336,10 +5129,6 @@
   },
   "videoViewTime": {
     "message": "عرض طول الفيديو.",
-    "description": "2.0 course.js"
-  },
-  "videoViewTime2": {
-    "oldValue": "عرض طول الفيديو.(دقيقه)",
     "description": "2.0 course.js"
   },
   "docViewNum": {
