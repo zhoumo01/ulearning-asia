@@ -2847,10 +2847,6 @@
     "message": "离开",
     "description": "2.0 exam.js"
   },
-  "examHeadTips3": {
-    "message": "考试前请{detectEnv}，确认网络、设备、浏览器等正常。",
-    "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
-  },
   "detectEnv": {
     "message": "检测考试环境",
     "description": "2.0 exam.js"
@@ -2954,5 +2950,185 @@
   "findExamTip": {
     "message": "如果在下方考试列表中，没有找到需要参加的考试，请检查登录的账号是否正确，或者是否加入了正确的班级。",
     "description": "2.0 {filename}"
+  },
+  "faceServiceTipsNew": {
+    "message": "人脸识别和摄像监控为收费服务，您所在机构暂未开通，如需开通请联系客服",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCWeb": {
+    "message": "仅电脑网页",
+    "description": "2.0 exam.js"
+  },
+  "onlyMobile": {
+    "message": "仅手机APP",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExe": {
+    "message": "仅电脑锁屏客户端",
+    "description": "2.0 exam.js"
+  },
+  "unlimit": {
+    "message": "不限",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeTips": {
+    "message": "使用{PCExe}参加考试，考生进入考试后，中途不能离开考试界面，适用于较为严格的考试，或机房集中考试。",
+    "description": "2.0 exam.js"
+  },
+  "PCExe": {
+    "message": "电脑锁屏客户端",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeTips1": {
+    "message": "选择此项，考前须在电脑上安装优学院考试客户端，目前仅支持Win7以上系统，不支持Mac。为避免正式考试出现异常，建议提前安排模拟考试进行测试。",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration": {
+    "message": "答题时长",
+    "description": "2.0 exam.js"
+  },
+  "resultPublic": {
+    "message": "公布范围",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorItem": {
+    "message": "开启摄像监控，包括过程抓拍 、AI姿态检测、异常情况录像",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorTips": {
+    "message": "考生须全程开启摄像头且保持画面稳定，仅支持电脑考试",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent": {
+    "message": "摄像监控包括：",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent1": {
+    "message": "1. 过程抓拍：每隔1分钟抓拍考生照片。",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent2": {
+    "message": "2. AI姿态检测：系统通过摄像头实时监测考生身体姿态，可检测并记录考生离开坐位、长时间视线偏离、与人交头接耳等异常情况。",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent3": {
+    "message": "3. 异常情况录像：系统检测到姿态异常时，将自动录制并上传异常视频片段，供事后复查。",
+    "description": "2.0 exam.js"
+  },
+  "cameraMonitor": {
+    "message": "摄像监控",
+    "description": "2.0 exam.js"
+  },
+  "PCExe1": {
+    "message": "电脑客户端",
+    "description": "2.0 exam.js"
+  },
+  "PCweb": {
+    "message": "电脑网页",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips4": {
+    "message": "这里是教师发布的所有考试，进入考试之前，请仔细查看每场考试的详细信息。",
+    "description": "2.0 exam.js"
+  },
+  "downloadPCExe": {
+    "message": "下载考试客户端",
+    "description": "2.0 exam.js"
+  },
+  "webEnvTest": {
+    "message": "网页考试环境检测",
+    "description": "2.0 exam.js"
+  },
+  "examFaceVerification": {
+    "message": "考试人脸认证",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeBtnTips": {
+    "message": "请使用优学院考试客户端参加考试",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCWebBtnTips": {
+    "message": "请使用浏览器在网页端考试",
+    "description": "2.0 exam.js"
+  },
+  "monitorRecords": {
+    "message": "监控记录",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminder": {
+    "message": "异常提醒",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderFilter": {
+    "message": "过滤异常信息",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderTitle1": {
+    "message": "答题轨迹异常",
+    "description": "2.0 exam.js"
+  },
+  "mobileExam": {
+    "message": "手机考试",
+    "description": "2.0 exam.js"
+  },
+  "exception1": {
+    "message": "离开页面>5秒",
+    "description": "2.0 exam.js"
+  },
+  "exception2": {
+    "message": "系统强制交卷",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderTitle2": {
+    "message": "姿态异常",
+    "description": "2.0 exam.js"
+  },
+  "leaveSeat": {
+    "message": "离开座位",
+    "description": "2.0 exam.js"
+  },
+  "deviation": {
+    "message": "视线偏离>2秒",
+    "description": "2.0 exam.js"
+  },
+  "deviation1": {
+    "message": "视线偏离",
+    "description": "2.0 exam.js"
+  },
+  "talk": {
+    "message": "与人交头接耳",
+    "description": "2.0 exam.js"
+  },
+  "examMonitorRecords": {
+    "message": "考试监控记录",
+    "description": "2.0 exam.js"
+  },
+  "answerTrack": {
+    "message": "答题轨迹",
+    "description": "2.0 exam.js"
+  },
+  "clearfixMonitorRecords": {
+    "message": "清空监控记录",
+    "description": "2.0 exam.js"
+  },
+  "normalState": {
+    "message": "状态正常",
+    "description": "2.0 exam.js"
+  },
+  "confirmClearMonitorRecords": {
+    "message": "确定清空监控记录？",
+    "description": "2.0 exam.js"
+  },
+  "timeDay": {
+    "message": "{days}天",
+    "description": "2.0 exam.js"
+  },
+  "timeHour": {
+    "message": "{hours}小时",
+    "description": "2.0 exam.js"
+  },
+  "timeSecond": {
+    "message": "{seconds}秒",
+    "description": "2.0 exam.js"
   }
 }
