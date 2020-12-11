@@ -87,9 +87,17 @@
     "message": "日",
     "description": "个人作业zh_part.json"
   },
-  "分": {
-    "message": "分",
-    "description": "个人作业zh_part.json"
+  "points": {
+    "message": "{n}分",
+    "description": "PC -> 教师端 -> 学生提交作业列表 \n 移动端 -> 教师端 -> 学生提交作业列表 \n PC -> 教师端 -> 学生提交作业列表 -> 批阅 -> 批阅完成后显示"
+  },
+  "inputPoints": {
+    "message": "{input}分",
+    "description": "PC -> 教师端 -> 发布个人作业 -> 学生互评 -> 添加评分规则"
+  },
+  "inputPoints2": {
+    "message": "{input}分，满分{full}",
+    "description": "教师端 -> 学生提交作业列表 -> 右侧的批阅面板 (需要作业成绩设置为显示等级)"
   },
   "允许复制粘贴": {
     "message": "允许复制粘贴",
@@ -161,10 +169,6 @@
   },
   "天": {
     "message": "天",
-    "description": "个人作业zh_part.json"
-  },
-  "分2": {
-    "message": "分",
     "description": "个人作业zh_part.json"
   },
   "评价方式": {
@@ -326,6 +330,10 @@
   "总分": {
     "message": "总分",
     "description": "个人作业zh_part.json"
+  },
+  "totalPointsOf": {
+    "message": "总分{total}",
+    "description": "PC -> 学生 -> 互评作业 -> 评价任务(要求作业设置评分点)"
   },
   "注：学生录音超过3分钟系统将无法评分": {
     "message": "注：学生录音超过3分钟系统将无法评分",
@@ -883,12 +891,20 @@
     "message": "确定删除评分规则",
     "description": "个人作业zh_part.json"
   },
-  "满分": {
-    "message": "满分",
-    "description": "个人作业zh_part.json"
+  "fullPoints": {
+    "message": "满分：{n}分",
+    "description": "移动端 -> 教师端 -> 发布个人作业 -> 学生互评 -> 评分规则 \n PC -> 学生 -> 互评作业 -> 评价任务(要求作业设置评分点) \n PC -> 学生 -> 作业详情"
   },
-  "剩余": {
-    "message": "剩余",
+  "remainPoints": {
+    "message": "剩余：{n}分",
+    "description": "移动端 -> 教师端 -> 发布个人作业 -> 学生互评 -> 评分规则"
+  },
+  "scoringTip": {
+    "message": "满分{m}，剩余{n}",
+    "description": "PC -> 教师端 -> 发布个人作业 -> 学生互评 -> 添加评分规则"
+  },
+  "fullPointsOf": {
+    "message": "满分{score}分",
     "description": "个人作业zh_part.json"
   },
   "添加评分点": {
@@ -1027,12 +1043,24 @@
     "message": "申述理由",
     "description": "个人作业zh_part.json"
   },
-  "的成绩": {
-    "message": "的成绩",
-    "description": "个人作业zh_part.json"
+  "gradeOfStu": {
+    "message": "{stuName}的成绩：{n}分，互评平均分：{peer}分，未完成评价任务：{m}分",
+    "description": "PC -> 教师 -> 学生提交作业列表 -> TA给别人的评价"
   },
-  "互评平均分": {
-    "message": "互评平均分",
+  "gradeOfStu2": {
+    "message": "{stuName}的成绩：{n}分，互评平均分：{peer}分",
+    "description": "PC -> 教师 -> 学生提交作业列表 -> TA给别人的评价"
+  },
+  "deductScore": {
+    "message": "扣分：{content}",
+    "description": "移动端 -> 教师 -> 批阅互评作业"
+  },
+  "contentOfDeductScore": {
+    "message": "未完成评价任务{n}分",
+    "description": "移动端 -> 教师 -> 批阅互评作业"
+  },
+  "noEvaluate": {
+    "message": "移动端 -> 教师 -> 批阅互评作业 -> 评价任务",
     "description": "个人作业zh_part.json"
   },
   "所在班级": {
@@ -1123,9 +1151,9 @@
     "message": "的作业详情",
     "description": "个人作业zh_part.json"
   },
-  "评分": {
-    "message": "评分",
-    "description": "个人作业zh_part.json"
+  "scoringOf": {
+    "message": "评分：{score}",
+    "description": "PC -> 教师 -> 学生提交作业列表 -> TA给别人的评价 \n PC -> 教师 -> 学生提交作业列表 -> 别人给TA的评价"
   },
   "评语": {
     "message": "评语",
@@ -1211,10 +1239,6 @@
     "message": "评分点",
     "description": "个人作业zh_part.json"
   },
-  "满分x分": {
-    "message": "满分{score}分",
-    "description": "个人作业zh_part.json"
-  },
   "学生名单": {
     "message": "学生名单",
     "description": "个人作业zh_part.json"
@@ -1239,9 +1263,9 @@
     "message": "设置若干评分点，细化评分规则，可以帮助学生更客观地进行互评",
     "description": "个人作业zh_part.json"
   },
-  "占对应分值": {
-    "message": "占对应分值",
-    "description": "个人作业zh_part.json"
+  "rateOfPoint": {
+    "message": "占对应分值{n}%",
+    "description": "PC -> 教师端 -> 发布个人作业 -> 学生互评 -> 添加评分规则"
   },
   "注意：进入互评阶段后不允许修改": {
     "message": "注意：进入互评阶段后不允许修改",

@@ -19,10 +19,6 @@
     "message": "关闭",
     "description": "个人作业zh_js"
   },
-  "m.SCORE": {
-    "message": "分",
-    "description": "个人作业zh_js"
-  },
   "m.YEAR": {
     "message": "年",
     "description": "个人作业zh_js"
@@ -58,6 +54,10 @@
   "m.GRADE_FULL": {
     "message": "满分",
     "description": "个人作业zh_js"
+  },
+  "m.GRADE_FULL_OF1": {
+    "message": "满分{n}",
+    "description": "移动端 -> 教师端 -> 作业详情 -> 批阅"
   },
   "m.GROWTH": {
     "message": "成长值",
@@ -495,9 +495,9 @@
     "message": "查看",
     "description": "个人作业zh_js"
   },
-  "m.stuScore": {
-    "message": "得分：",
-    "description": "个人作业zh_js"
+  "m.scoreOf2": {
+    "message": "得分：{score}",
+    "description": "移动端 -> 教师端 -> 学生提交作业列表 -> 评价任务 (需要作业是互评作业) \n PC -> 学生 -> 评价任务 -> 评价结束后显示"
   },
   "m.commentEmpty": {
     "message": "没有留评语",
@@ -567,14 +567,6 @@
     "message": "互评规则",
     "description": "个人作业zh_js"
   },
-  "m.deductScore": {
-    "message": "扣分：",
-    "description": "个人作业zh_js"
-  },
-  "m.unevaluateTask": {
-    "message": "未完成评价任务",
-    "description": "个人作业zh_js"
-  },
   "m.advantage": {
     "message": "平均分：",
     "description": "个人作业zh_js"
@@ -621,10 +613,6 @@
   },
   "m.evulatFailure": {
     "message": "批阅失败",
-    "description": "个人作业zh_js"
-  },
-  "m.noEvaluate01": {
-    "message": "未做评价",
     "description": "个人作业zh_js"
   },
   "m.noEvaluate02": {
