@@ -203,9 +203,9 @@
     "message": "Select the session for the exam",
     "description": "2.0 exam.js"
   },
-  "to": {
-    "message": " to ",
-    "description": "2.0 exam.js"
+  "betweenTime": {
+    "message": "{startTime} to {endTime}",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> “全部场次”选择框 \n 教师账号 -> 考试 -> 查看成绩 -> 设置重考 \n 教师账号 -> 考试 -> 添加考试 \n 教师账号 -> 考试 -> 查看成绩 -> 设置重考(要求当前没有批次) -> 添加批次 \n 教师账号 -> 考试 -> 查看成绩 -> 考务管理 -> 场次按排 -> 添加场次"
   },
   "confirm": {
     "message": "Confirm",
@@ -595,10 +595,6 @@
     "message": "Absence rate",
     "description": "2.0 exam.js"
   },
-  "day": {
-    "message": "Day",
-    "description": "2.0 exam.js"
-  },
   "hour": {
     "message": "Hour",
     "description": "2.0 exam.js"
@@ -607,8 +603,8 @@
     "message": " min",
     "description": "2.0 exam.js"
   },
-  "seconds": {
-    "message": " Second",
+  "timeLength": {
+    "message": "{days} days {hours} hours {minutes} minutes {seconds} seconds",
     "description": "2.0 exam.js"
   },
   "scoringRate": {
@@ -707,6 +703,10 @@
     "message": "Late Start: ",
     "description": "2.0 exam.js"
   },
+  "lateTimeSet": {
+    "message": "Late Start",
+    "description": "2.0 exam.js"
+  },
   "myself": {
     "message": "Me",
     "description": "2.0 exam.js"
@@ -731,9 +731,9 @@
     "message": "No sessions",
     "description": "2.0 exam.js"
   },
-  "part": {
-    "message": " ",
-    "description": "2.0 exam.js"
+  "partOf": {
+    "message": "{n} set(s)",
+    "description": "教师账号 -> 考试"
   },
   "randomGroupPaper": {
     "message": "Random Exam",
@@ -779,9 +779,9 @@
     "message": "Show ",
     "description": "2.0 exam.js"
   },
-  "dayShow": {
-    "message": " day(s) after the exam",
-    "description": "2.0 exam.js"
+  "dayShowExam": {
+    "message": "{n} days after the exam ended",
+    "description": "学生账号 -> 考试"
   },
   "examTips5": {
     "message": "The results are not published for the time being",
@@ -837,6 +837,22 @@
   },
   "remarkTips1": {
     "message": "Notes: If multiple attempts allowed, the last response record is displayed by default.",
+    "description": "2.0 exam.js"
+  },
+  "totalQue": {
+    "message": "Total {n} ",
+    "description": "2.0 exam.js"
+  },
+  "queOf": {
+    "message": "{n} ",
+    "description": "2.0 exam.js"
+  },
+  "queIndex": {
+    "message": "Question {n} ",
+    "description": "2.0 exam.js"
+  },
+  "answeringCount": {
+    "message": "Attempt {n}  ",
     "description": "2.0 exam.js"
   },
   "seeDetails": {
@@ -1063,9 +1079,9 @@
     "message": "The score cannot be larger than the total possible",
     "description": "2.0 exam.js"
   },
-  "times": {
-    "message": " time(s)",
-    "description": "2.0 exam.js"
+  "timesOf": {
+    "message": "{n} ",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息 \n 教师账号 -> 考试 -> 考试监控 -> 列表形式 -> 异常记录"
   },
   "baseInformation": {
     "message": "Basic Information",
@@ -1079,9 +1095,9 @@
     "message": "Exam Duration: ",
     "description": "2.0 exam.js"
   },
-  "answerTimesCl": {
-    "message": "Exam Attempts: ",
-    "description": "2.0 exam.js"
+  "answerTimesOf": {
+    "message": "Attempts: {count}",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息"
   },
   "passScoreCl": {
     "message": "Passing Score: ",
@@ -1161,10 +1177,6 @@
   },
   "commitImmediatelyShow": {
     "message": "Immediately",
-    "description": "2.0 exam.js"
-  },
-  "dayAfterShow": {
-    "message": " day(s) after the exam",
     "description": "2.0 exam.js"
   },
   "cannotAllForbidden": {
@@ -1323,17 +1335,13 @@
     "message": "Enter the exam through verification code",
     "description": "2.0 exam.js"
   },
-  "studentNOCl": {
-    "message": "Student ID: ",
-    "description": "2.0 exam.js"
-  },
   "studentNOCl2": {
     "message": "Student ID: {no}",
     "description": "2.0 {filename}"
   },
-  "classCl": {
-    "message": "Class: ",
-    "description": "2.0 exam.js"
+  "classOf": {
+    "message": "Class: {className}",
+    "description": "此功能已被替换，但代码还在，为了安全，所以重构了插值。"
   },
   "waitApproved": {
     "message": "Pending",
@@ -1479,6 +1487,14 @@
     "message": "Session",
     "description": "2.0 exam.js"
   },
+  "batchNo": {
+    "message": "Sessions: {n} ",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考务管理 -> 场次按排 \n 教师账号 -> 考试 -> 查看成绩 -> 考试监控 \n 教师账号 -> 考试 -> 添加考试 \n 教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
+  },
+  "batchNoTime": {
+    "message": "Session {n}: {startTime} to {endTime} ",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排"
+  },
   "clearExamRoomPlan": {
     "message": "Remove Facility Schedule",
     "description": "2.0 exam.js"
@@ -1511,13 +1527,17 @@
     "message": "Proctor",
     "description": "2.0 exam.js"
   },
-  "etc": {
-    "message": ", etc.",
-    "description": "2.0 exam.js"
+  "etcOfPeople": {
+    "message": "{name}..., {n} students",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排"
   },
-  "people": {
-    "message": "examinees",
-    "description": "2.0 exam.js"
+  "etcOf": {
+    "message": "{name}...",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 (当学生单独参加考试，没有在班级中时，才会出现这个)"
+  },
+  "peopleOf": {
+    "message": "[{n}]",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "empty": {
     "message": "Empty",
@@ -2295,17 +2315,17 @@
     "message": "Select the exam facility for each session. # of available seats for each session should be larger than # of students.",
     "description": "2.0 exam.js"
   },
-  "seat": {
-    "message": " seats",
-    "description": "2.0 exam.js"
+  "seatOf": {
+    "message": "{n} seats",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
-  "examStudent": {
-    "message": "Examinees",
-    "description": "2.0 exam.js"
+  "examStudentOf": {
+    "message": "{n} examinees",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
-  "seats": {
-    "message": " seats",
-    "description": "2.0 exam.js"
+  "seatsOf": {
+    "message": "{n} seats",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "roomEditorTips5": {
     "message": "The seats are automatically assigned by the system. You can manually edit the seats assignment.",
@@ -2331,18 +2351,6 @@
     "message": "You can move the whole class or some students to another exam facility.",
     "description": "2.0 exam.js"
   },
-  "roomEditorTips8": {
-    "message": "(Total # of Students: ",
-    "description": "2.0 exam.js"
-  },
-  "roomEditorTips9": {
-    "message": ") among them, ",
-    "description": "2.0 exam.js"
-  },
-  "roomEditorTips10": {
-    "message": " students can be moved to the following exam facility: ",
-    "description": "2.0 exam.js"
-  },
   "roomEditorTips11": {
     "message": "Are you sure you want to delete this exam facility?",
     "description": "2.0 exam.js"
@@ -2363,9 +2371,9 @@
     "message": "Select exam facility",
     "description": "2.0 exam.js"
   },
-  "roomEditorTips16": {
-    "message": "The number of seats is less than the number of students",
-    "description": "2.0 exam.js"
+  "roomEditorTip16": {
+    "message": "The number of Session {n}'s available seats is less than the number of examinees",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "roomEditorTips17": {
     "message": "The number of students to be moved cannot be zero",
@@ -2423,9 +2431,9 @@
     "message": "Immediately",
     "description": "2.0 exam.js"
   },
-  "daysAfterShow": {
-    "message": " day(s) after the exam",
-    "description": "2.0 exam.js"
+  "afterDaysShow": {
+    "message": "Displays after {n} days",
+    "description": "教师账号 -> 考试 -> 添加考试"
   },
   "weekAfterShow": {
     "message": "{count} week(s) after the exam",
@@ -2667,13 +2675,17 @@
     "message": "Reject",
     "description": "2.0 exam.js"
   },
-  "remain": {
-    "message": "Seats available: ",
-    "description": "2.0 exam.js"
+  "remainSeatOf": {
+    "message": "{n} seats remaining",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
-  "let": {
-    "message": "Let ",
-    "description": "2.0 exam.js"
+  "remainSeatOf2": {
+    "message": "{roomName} ({n} seats remaining)",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 -> 修改考场"
+  },
+  "modifyRoomTip": {
+    "message": "Move {n} students from {className} (total students: {total}) to the following exam facility: ",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 -> 修改考场"
   },
   "objectivesQ": {
     "message": "Auto-Grading Questions",
@@ -2903,10 +2915,6 @@
     "message": "{n} days after the exam ended",
     "description": "2.0 {filename}"
   },
-  "daysPublish": {
-    "message": "{n} days after the exam ended",
-    "description": "2.0 exam.js"
-  },
   "weekPublish": {
     "message": "{n} weeks after the exam ended",
     "description": "2.0 exam.js"
@@ -2919,9 +2927,9 @@
     "message": "Delete Session",
     "description": "2.0 exam.js"
   },
-  "examEnd": {
-    "message": "The exam ended",
-    "description": "2.0 exam.js"
+  "examDaysPublish": {
+    "message": "Exam results display {n} days after the exam ends",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息"
   },
   "auditTipsClassroom": {
     "message": "Face verification is on. Student facial photos need to be uploaded in advance. Photos can be imported in bulk by the teacher or uploaded by students. If a facial photo is uploaded by the student, it has to be reviewed and approved by the teacher.",
