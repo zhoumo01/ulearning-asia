@@ -7,10 +7,6 @@
     "message": "zhCss",
     "description": "讨论"
   },
-  "system.publishedIn": {
-    "message": "发布于",
-    "description": "讨论"
-  },
   "system.me": {
     "message": "（我）",
     "description": "讨论"
@@ -67,13 +63,17 @@
     "message": "拍照",
     "description": "讨论"
   },
-  "system.page": {
-    "message": "页",
-    "description": "讨论"
+  "system.pageOf": {
+    "message": "{current}/{total}页",
+    "description": "手机讨论 -> 帖子详情"
   },
-  "system.point": {
-    "message": "分",
-    "description": "讨论"
+  "system.pointsOf": {
+    "message": "{n}分",
+    "description": "教师 -> 手机讨论 -> 帖子详情 -> 点击回复帖子中学生的头像 \n 教师 -> 手机讨论 -> 帖子详情 -> 选择一条帖子的右上角 ... 按钮 -> 加分"
+  },
+  "system.inputPoints": {
+    "message": "{input}分",
+    "description": "教师 -> 手机讨论 -> 帖子详情 -> 点击回复帖子中学生的头像 -> 修改得分"
   },
   "system.notStart": {
     "message": "未开始",
@@ -243,9 +243,9 @@
     "message": "请设置结束时间",
     "description": "讨论"
   },
-  "system.afterMinutes": {
-    "message": "分钟后",
-    "description": "讨论"
+  "system.afterMinutesOf": {
+    "message": "{count}分钟后",
+    "description": "教师 -> 发布讨论 -> 高级设置 -> 限制讨论时间"
   },
   "system.afterOneDay": {
     "message": "一天后",
@@ -267,9 +267,9 @@
     "message": "设置积分规则",
     "description": "讨论"
   },
-  "system.scorePer": {
-    "message": "分/条",
-    "description": "讨论"
+  "system.inputScorePer": {
+    "message": "{input}分/条",
+    "description": "教师 -> 发布讨论 -> 高级设置 -> 积分规则"
   },
   "system.publishing": {
     "message": "发布中",
@@ -322,6 +322,10 @@
   "system.lastScore": {
     "message": "最终得分",
     "description": "讨论"
+  },
+  "system.finalScore": {
+    "message": "最终得分：{score}",
+    "description": "教师 -> 手机讨论 -> 帖子详情 -> 点击回复帖子中学生的头像"
   },
   "system.refreshSuccess": {
     "message": "刷新成功",
@@ -439,45 +443,33 @@
     "message": "发送",
     "description": "讨论"
   },
-  "system.year": {
-    "message": "年",
-    "description": "讨论"
-  },
-  "system.month": {
-    "message": "月",
-    "description": "讨论"
-  },
-  "system.Day": {
-    "message": "日",
-    "description": "讨论"
-  },
   "system.mon": {
     "message": "一",
-    "description": "讨论"
+    "description": "星期一"
   },
   "system.tue": {
     "message": "二",
-    "description": "讨论"
+    "description": "星期二"
   },
   "system.wed": {
     "message": "三",
-    "description": "讨论"
+    "description": "星期三"
   },
   "system.thu": {
     "message": "四",
-    "description": "讨论"
+    "description": "星期四"
   },
   "system.frid": {
     "message": "五",
-    "description": "讨论"
+    "description": "星期五"
   },
   "system.sat": {
     "message": "六",
-    "description": "讨论"
+    "description": "星期六"
   },
   "system.sun": {
     "message": "日",
-    "description": "讨论"
+    "description": "星期日"
   },
   "system.hour": {
     "message": "{hour}",
@@ -529,10 +521,6 @@
   },
   "system.openDiscuss": {
     "message": "长期开放讨论",
-    "description": "讨论"
-  },
-  "system.to": {
-    "message": "至",
     "description": "讨论"
   },
   "system.moreSetting": {
