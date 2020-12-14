@@ -19,14 +19,6 @@
     "message": "关闭",
     "description": "个人作业zh_js"
   },
-  "m.YEAR": {
-    "message": "年",
-    "description": "个人作业zh_js"
-  },
-  "m.PART": {
-    "message": "份",
-    "description": "个人作业zh_js"
-  },
   "m.GRADE_WAYS": {
     "message": "评价方式",
     "description": "个人作业zh_js"
@@ -187,14 +179,6 @@
     "message": "选择班级",
     "description": "个人作业zh_js"
   },
-  "m.EACH_STUDENTEvaluate": {
-    "message": "每个学生评价",
-    "description": "个人作业zh_js"
-  },
-  "m.COUNTWORK": {
-    "message": "份作业",
-    "description": "个人作业zh_js"
-  },
   "m.PEERRULES": {
     "message": "互评规则",
     "description": "个人作业zh_js"
@@ -211,9 +195,9 @@
     "message": "请输入跟读内容，200个单词以内，不得输入汉字，否则会造成评分失败。",
     "description": "个人作业zh_js"
   },
-  "m.COUNTWORD": {
-    "message": "个单词",
-    "description": "个人作业zh_js"
+  "m.wordsLength": {
+    "message": "{n}个单词",
+    "description": "教师 -> 布置作业 -> 评价方式 -> 英文口语系统评分 -> 英文口语系统评分"
   },
   "m.HOMEWORKTITLEEmptyERROR": {
     "message": "请输入标题",
@@ -375,13 +359,9 @@
     "message": "提交的作业数量不足，无法进行作业互评。请等待教师评分",
     "description": "个人作业zh_js"
   },
-  "m.workdetailsTipInfo7": {
-    "message": "作业已提交。请于",
-    "description": "个人作业zh_js"
-  },
-  "m.workdetailsTipInfo8": {
-    "message": "开始互评，互评截止到",
-    "description": "个人作业zh_js"
+  "m.workdetailsTip7": {
+    "message": "作业已提交。请于 {startTime} 开始互评，互评截止到 {endTime}",
+    "description": "学生 -> 作业详情(要求作业处于互评未开始的阶段)"
   },
   "m.workdetailsTipInfo9": {
     "message": "获取作业出错了",
@@ -647,10 +627,6 @@
     "message": "点赞",
     "description": "个人作业zh_js"
   },
-  "m.CountWord": {
-    "message": "个字",
-    "description": "个人作业zh_js"
-  },
   "m.delPrise": {
     "message": "确定删除赞吗？",
     "description": "个人作业zh_js"
@@ -699,13 +675,13 @@
     "message": "如果你对互评的平均分不满意，可以向老师提起申诉，由老师来对作业进行评分。最终成绩=教师评分。",
     "description": "个人作业zh_js"
   },
-  "m.hour": {
-    "message": "点",
-    "description": "个人作业zh_js"
+  "m.pickHour": {
+    "message": "{n}点",
+    "description": "用在 datepicker (时间选择器) 中"
   },
-  "m.min": {
-    "message": "分",
-    "description": "个人作业zh_js"
+  "m.pickMinute": {
+    "message": "{n}分",
+    "description": "用在 datepicker (时间选择器) 中"
   },
   "m.scoreTip": {
     "message": "得分不能高于满分",

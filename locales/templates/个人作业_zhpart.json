@@ -49,31 +49,31 @@
   },
   "日": {
     "message": "日",
-    "description": "个人作业zh_part.json"
+    "description": "星期日"
   },
   "一": {
     "message": "一",
-    "description": "个人作业zh_part.json"
+    "description": "星期一"
   },
   "二": {
     "message": "二",
-    "description": "个人作业zh_part.json"
+    "description": "星期二"
   },
   "三": {
     "message": "三",
-    "description": "个人作业zh_part.json"
+    "description": "星期三"
   },
   "四": {
     "message": "四",
-    "description": "个人作业zh_part.json"
+    "description": "星期四"
   },
   "五": {
     "message": "五",
-    "description": "个人作业zh_part.json"
+    "description": "星期五"
   },
   "六": {
     "message": "六",
-    "description": "个人作业zh_part.json"
+    "description": "星期六"
   },
   "points": {
     "message": "{n}分",
@@ -219,9 +219,9 @@
     "message": "未提交",
     "description": "个人作业zh_part.json"
   },
-  "个字": {
-    "message": "个字",
-    "description": "个人作业zh_part.json"
+  "wordsLength": {
+    "message": "{n}个字",
+    "description": "学生 -> 写作业(需要系统评分的作业) -> 提交 \n 教师 -> 批阅作业 -> 相似度检测"
   },
   "相似度检测": {
     "message": "相似度检测",
@@ -303,13 +303,13 @@
     "message": "英文口语系统评分",
     "description": "个人作业zh_part.json"
   },
-  "每个学生评价": {
-    "message": "每个学生评价",
-    "description": "个人作业zh_part.json"
+  "reviewedOfperStudent": {
+    "message": "每个学生评价{n}份作业",
+    "description": "PC/移动端 -> 教师 -> 布置作业 -> 学生互评"
   },
-  "份作业": {
-    "message": "份作业",
-    "description": "个人作业zh_part.json"
+  "reviewedOfperStudent2": {
+    "message": "每个学生评价{n}份",
+    "description": " PC/移动端 -> 学生 -> 互评作业详情"
   },
   "互评规则": {
     "message": "互评规则",
@@ -431,9 +431,9 @@
     "message": "请输入作业要求。作业最多支持5000字;手机app仅支持上传图片和录音,其它类型附件需要学生使用电脑网页版提交。",
     "description": "个人作业zh_part.json"
   },
-  "已写": {
-    "message": "已写",
-    "description": "个人作业zh_part.json"
+  "writtenWords": {
+    "message": "已写{n}个字",
+    "description": "PC/移动端 -> 学生 -> 写作业"
   },
   "您的文章不错，没有发现语法问题，请继续保持哦！": {
     "message": "您的文章不错，没有发现语法问题，请继续保持哦！",
@@ -523,13 +523,9 @@
     "message": "语法检测",
     "description": "个人作业zh_part.json"
   },
-  "已评": {
-    "message": "已评",
-    "description": "个人作业zh_part.json"
-  },
-  "份": {
-    "message": "份",
-    "description": "个人作业zh_part.json"
+  "reviewedOf": {
+    "message": "已评{n}份",
+    "description": "PC -> 教师端 -> 学生提交作业列表 \n 移动端 -> 教师端 -> 学生提交作业列表"
   },
   "相似": {
     "message": "相似",
@@ -723,13 +719,9 @@
     "message": "修改作业",
     "description": "个人作业zh_part.json"
   },
-  "被": {
-    "message": "被",
-    "description": "个人作业zh_part.json"
-  },
-  "人评": {
-    "message": "人评",
-    "description": "个人作业zh_part.json"
+  "studentsOfReviewed": {
+    "message": "被{n}人评",
+    "description": "PC -> 教师端 -> 学生提交作业列表 \n 移动端 -> 教师端 -> 学生提交作业列表"
   },
   "你未提交作业，返回记录会丢失，确定返回吗？": {
     "message": "你未提交作业，返回记录会丢失，确定返回吗？",
@@ -751,16 +743,12 @@
     "message": "查重中",
     "description": "个人作业zh_part.json"
   },
-  "经检测，你的作业与其他同学的作业相似度为": {
-    "message": "经检测，你的作业与其他同学的作业相似度为",
-    "description": "个人作业zh_part.json"
+  "duplicateTip2": {
+    "message": "经检测，你的作业与其他同学的作业相似度为{n}%，请修改后再次提交",
+    "description": "学生 -> 写作业 -> 查重 (要求教师布置作业时，设置查重)"
   },
   "还不错，放心提交吧": {
     "message": "还不错，放心提交吧",
-    "description": "个人作业zh_part.json"
-  },
-  "请修改后再次提交": {
-    "message": "请修改后再次提交",
     "description": "个人作业zh_part.json"
   },
   "最好稍作修改后再提交": {
@@ -1295,9 +1283,9 @@
     "message": "互评作业详情",
     "description": "个人作业zh_part.json"
   },
-  "经检测，你的作业与其他同学的作业相似度低": {
+  "duplicateTip1": {
     "message": "经检测，你的作业与其他同学的作业相似度低",
-    "description": "个人作业zh_part.json"
+    "description": "学生 -> 写作业 -> 查重 (要求教师布置作业时，设置查重)"
   },
   "作业被批阅前你可以撤回重交，批阅后将无法撤回。确定提交作业？": {
     "message": "作业被批阅前你可以撤回重交，批阅后将无法撤回。确定提交作业？",
