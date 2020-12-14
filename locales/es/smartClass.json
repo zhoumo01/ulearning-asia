@@ -3,6 +3,22 @@
     "message": "lang_zh.",
     "description": "smart-classroom 项目"
   },
+  "lang": {
+    "message": "Zh.",
+    "description": "smart-classroom 项目"
+  },
+  "name": {
+    "message": "Chino simplificado",
+    "description": "smart-classroom 项目"
+  },
+  "Utitle": {
+    "message": "Aula Inteligente de ULearing",
+    "description": "smart-classroom 项目"
+  },
+  "switchLang": {
+    "message": "Cambiar de idioma",
+    "description": "smart-classroom 项目"
+  },
   "common.netError": {
     "message": "Error de red",
     "description": "smart Class"
@@ -65,6 +81,14 @@
   },
   "common.finishFail": {
     "message": "Finalización fallida",
+    "description": "smart-classroom 项目"
+  },
+  "common.operateFailed": {
+    "message": "Operación fallida",
+    "description": "smart-classroom 项目"
+  },
+  "common.operateSuccess": {
+    "message": "Operación exitosa",
     "description": "smart-classroom 项目"
   },
   "classroom.currentCourse": {
@@ -170,6 +194,10 @@
   "classroom.classroomTips1": {
     "message": "El nombre de clase no puede estar vacío.",
     "description": "smart Class"
+  },
+  "classroom.classroomTips3": {
+    "message": "El nombre de clase tiene más de 50 caracteres.",
+    "description": "smart-classroom 项目"
   },
   "classroom.classroomTips2": {
     "message": "La clase no puede estar vacía.",
@@ -281,6 +309,10 @@
   },
   "classroom.copyFail": {
     "message": "copia fallida",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.classroomTitle": {
+    "message": "{date} Classroom",
     "description": "smart-classroom 项目"
   },
   "login.welcomeTip": {
@@ -455,6 +487,14 @@
     "message": "Solicitud fallida",
     "description": "smart-classroom 项目"
   },
+  "login.noAccess": {
+    "message": "Su escuela/institución no tiene capacidades inteligentes en el aula abiertas por el momento, comuníquese con su personal local de ventas o servicio si es necesario",
+    "description": "smart-classroom 项目"
+  },
+  "login.privacy": {
+    "message": "Política de privacidad",
+    "description": "smart-classroom 项目"
+  },
   "discuss.discuss": {
     "message": "Discutir",
     "description": "smart Class"
@@ -493,6 +533,10 @@
   },
   "discuss.noKeyword": {
     "message": "Los estudiantes hablan menos, y no hay palabras clave para extraer.",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.discussTitle": {
+    "message": "{date} Discusión en clase",
     "description": "smart-classroom 项目"
   },
   "score.createScoreTip": {
@@ -735,6 +779,10 @@
     "message": "La puntuación restante.",
     "description": "smart-classroom 项目"
   },
+  "score.scoreTitle": {
+    "message": "{date} Calificación del aula",
+    "description": "smart-classroom 项目"
+  },
   "pick.pickRecord": {
     "message": "El registro de selección.",
     "description": "smart Class"
@@ -790,6 +838,10 @@
   "pick.defaultScore": {
     "message": "El crédito predeterminado.",
     "description": "smart Class"
+  },
+  "pick.pickTitle": {
+    "message": "{date} Selección de aula",
+    "description": "smart-classroom 项目"
   },
   "attendence.numAttendence": {
     "message": "Registro de código de número.",
@@ -858,6 +910,42 @@
   "attendence.peopleNum": {
     "message": "Personas",
     "description": "smart Class"
+  },
+  "attendence.attendenceTitle": {
+    "message": "{date} Pase de lista en el aula",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.changeStatus": {
+    "message": "Haga clic en la imagen del perfil del estudiante para cambiar el estado del check-in",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.personLeave": {
+    "message": "Licencia justificada",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.sick": {
+    "message": "Licencia por enfermedad",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.late": {
+    "message": "Llegar tarde",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.leaveEarly": {
+    "message": "Salir temprano",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.attend": {
+    "message": "Ha llegado",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.absence": {
+    "message": "Ausente",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.attData": {
+    "message": "Horas de asistencia {signCount}, horas de ausencia {freedomCount}, tasa de asistencia {rate}",
+    "description": "smart-classroom 项目"
   },
   "faceAttendence.classCondition": {
     "message": "Aula en vivo.",
@@ -1005,6 +1093,10 @@
   },
   "student.cutScore": {
     "message": "Restar puntos.",
+    "description": "smart-classroom 项目"
+  },
+  "student.student": {
+    "message": "Estudiante",
     "description": "smart-classroom 项目"
   },
   "screen.inClass": {
@@ -1303,6 +1395,10 @@
     "message": "La votación ha concluído",
     "description": "smart-classroom 项目"
   },
+  "vote.voteTitle": {
+    "message": "{date} Votación en el aula",
+    "description": "smart-classroom 项目"
+  },
   "answer.inputAnswerContent": {
     "message": "Introduce el contenido de la respuesta previa.",
     "description": "smart-classroom 项目"
@@ -1325,6 +1421,78 @@
   },
   "answer.noStu": {
     "message": "No hay estudiantes participantes",
+    "description": "smart-classroom 项目"
+  },
+  "answer.answerTitle": {
+    "message": "{date} Respuesta de Classroom",
+    "description": "smart-classroom 项目"
+  },
+  "live.attdenceLive": {
+    "message": "Participa en la transmisión en vivo ({count})",
+    "description": "smart-classroom 项目"
+  },
+  "live.invite": {
+    "message": "Invitación",
+    "description": "smart-classroom 项目"
+  },
+  "live.handing": {
+    "message": "Levanta la mano...",
+    "description": "smart-classroom 项目"
+  },
+  "live.allow": {
+    "message": "Permitir",
+    "description": "smart-classroom 项目"
+  },
+  "live.speaking": {
+    "message": "En la declaración ...",
+    "description": "smart-classroom 项目"
+  },
+  "live.classLive": {
+    "message": "Clase en vivo",
+    "description": "smart-classroom 项目"
+  },
+  "live.liveVideo": {
+    "message": "Vídeo en directo",
+    "description": "smart-classroom 项目"
+  },
+  "live.tips": {
+    "message": "En la generación de vídeo, la transmisión en vivo se puede ver 30 minutos después de que termine",
+    "description": "smart-classroom 项目"
+  },
+  "live.tips2": {
+    "message": "Actualmente en vivo, la siguiente clase apagará automáticamente la transmisión en vivo, determinar la clase?",
+    "description": "smart-classroom 项目"
+  },
+  "live.tips3": {
+    "message": "Actualmente en vivo, por favor termine la transmisión en vivo antes de salir de la clase.",
+    "description": "smart-classroom 项目"
+  },
+  "live.liveRecord": {
+    "message": "Reproducción en vivo",
+    "description": "smart-classroom 项目"
+  },
+  "live.living": {
+    "message": "Transmitiendo en vivo",
+    "description": "smart-classroom 项目"
+  },
+  "live.tip4": {
+    "message": "La primera vez que nos unimos a una reunión usando un dispositivo IdeaHub, necesitamos saber el número SIP del dispositivo actual",
+    "description": "smart-classroom 项目"
+  },
+  "live.tip5": {
+    "message": "Por favor, introduzca su número SIP",
+    "description": "smart-classroom 项目"
+  },
+  "live.tip6": {
+    "message": "Cómo encontrar el número SIP: Vaya a la interfaz de configuración de Idea-Hub y establezca > información del dispositivo > número SIP",
+    "description": "smart-classroom 项目"
+  },
+  "live.tip7": {
+    "message": "¿Unirse a una reunión con su dispositivo Idea-Hub actual?",
+    "description": "smart-classroom 项目"
+  },
+  "live.replaceEquipment": {
+    "message": "Reemplazar el equipo",
     "description": "smart-classroom 项目"
   }
 }
