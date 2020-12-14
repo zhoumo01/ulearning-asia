@@ -1,12 +1,4 @@
 {
-  "年": {
-    "message": "年",
-    "description": "个人作业zh_part.json"
-  },
-  "月": {
-    "message": "月",
-    "description": "个人作业zh_part.json"
-  },
   "1月": {
     "message": "1月",
     "description": "个人作业zh_part.json"
@@ -83,10 +75,6 @@
     "message": "六",
     "description": "个人作业zh_part.json"
   },
-  "日2": {
-    "message": "日",
-    "description": "个人作业zh_part.json"
-  },
   "points": {
     "message": "{n}分",
     "description": "PC -> 教师端 -> 学生提交作业列表 \n 移动端 -> 教师端 -> 学生提交作业列表 \n PC -> 教师端 -> 学生提交作业列表 -> 批阅 -> 批阅完成后显示"
@@ -122,6 +110,10 @@
   "提交截止": {
     "message": "提交截止",
     "description": "个人作业zh_part.json"
+  },
+  "endTime": {
+    "message": "提交截止：{time}",
+    "description": "PC -> 教师端 -> 学生提交作业列表"
   },
   "优优正在努力加载中": {
     "message": "优优正在努力加载中",
@@ -165,10 +157,6 @@
   },
   "小时": {
     "message": "小时",
-    "description": "个人作业zh_part.json"
-  },
-  "天": {
-    "message": "天",
     "description": "个人作业zh_part.json"
   },
   "评价方式": {
@@ -490,6 +478,10 @@
   "互评截止": {
     "message": "互评截止",
     "description": "个人作业zh_part.json"
+  },
+  "peerEndTime": {
+    "message": "互评截止：{time}",
+    "description": "PC -> 教师端 -> 学生提交作业列表"
   },
   "请选择互评截止日期": {
     "message": "请选择互评截止日期",
@@ -847,6 +839,10 @@
     "message": "作业时间",
     "description": "个人作业zh_part.json"
   },
+  "homeworkTime": {
+    "message": "作业时间：{startTime} 至 {endTime}",
+    "description": "PC -> 教师端 -> 学生提交作业列表 分班级设置的作业才会显示"
+  },
   "各班分开设置": {
     "message": "各班分开设置",
     "description": "个人作业zh_part.json"
@@ -995,6 +991,10 @@
     "message": "开始时间",
     "description": "个人作业zh_part.json"
   },
+  "startTime": {
+    "message": "开始时间：{time}",
+    "description": "PC -> 教师端 -> 学生提交作业列表"
+  },
   "每个班级分开设置": {
     "message": "每个班级分开设置",
     "description": "个人作业zh_part.json"
@@ -1060,15 +1060,11 @@
     "description": "移动端 -> 教师 -> 批阅互评作业"
   },
   "noEvaluate": {
-    "message": "移动端 -> 教师 -> 批阅互评作业 -> 评价任务",
-    "description": "个人作业zh_part.json"
+    "message": "未做评价{deduct}",
+    "description": "移动端 -> 教师 -> 批阅互评作业 -> 评价任务"
   },
   "所在班级": {
     "message": "所在班级",
-    "description": "个人作业zh_part.json"
-  },
-  "至": {
-    "message": "至",
     "description": "个人作业zh_part.json"
   },
   "每个班级作业时间不一样，切换班级查看": {
