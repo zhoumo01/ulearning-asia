@@ -3,6 +3,18 @@
     "message": "lang_id",
     "description": "smart-classroom 项目"
   },
+  "lang": {
+    "message": "id",
+    "description": "smart-classroom 项目"
+  },
+  "Utitle": {
+    "message": "Kelas pintar U-Learn",
+    "description": "smart-classroom 项目"
+  },
+  "switchLang": {
+    "message": "Ganti bahasa",
+    "description": "smart-classroom 项目"
+  },
   "common.netError": {
     "message": "Jaringan internet salah",
     "description": "smart Class"
@@ -65,6 +77,14 @@
   },
   "common.finishFail": {
     "message": "Gagal mengakhiri",
+    "description": "smart-classroom 项目"
+  },
+  "common.operateFailed": {
+    "message": "Pengoperasian gagal",
+    "description": "smart-classroom 项目"
+  },
+  "common.operateSuccess": {
+    "message": "Pengoperasian berhasil",
     "description": "smart-classroom 项目"
   },
   "classroom.currentCourse": {
@@ -170,6 +190,10 @@
   "classroom.classroomTips1": {
     "message": "Nama kelas tidak boleh kosong",
     "description": "smart Class"
+  },
+  "classroom.classroomTips3": {
+    "message": "Nama kelas harus kurang dari 50 karakter",
+    "description": "smart-classroom 项目"
   },
   "classroom.classroomTips2": {
     "message": "Kelas tidak boleh kosong",
@@ -281,6 +305,10 @@
   },
   "classroom.copyFail": {
     "message": "Gagal menyalin",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.classroomTitle": {
+    "message": "Kelas {date} ",
     "description": "smart-classroom 项目"
   },
   "login.welcomeTip": {
@@ -455,6 +483,14 @@
     "message": "Permintaan gagal",
     "description": "smart-classroom 项目"
   },
+  "login.noAccess": {
+    "message": "Universitas/institusi anda belum mengaktifkan fungsi kelas pintar, silahkan hubungi layanan sales lokal atau petugas layanan ",
+    "description": "smart-classroom 项目"
+  },
+  "login.privacy": {
+    "message": "Kebijakan Privasi",
+    "description": "smart-classroom 项目"
+  },
   "discuss.discuss": {
     "message": "Diskusi",
     "description": "smart Class"
@@ -493,6 +529,10 @@
   },
   "discuss.noKeyword": {
     "message": "Mahasiswa jarang berbicara, saat ini belum ada kata kunci yang bisa diambil",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.discussTitle": {
+    "message": "Diskusi kelas {date}",
     "description": "smart-classroom 项目"
   },
   "score.createScoreTip": {
@@ -735,6 +775,10 @@
     "message": "Sisa nilai",
     "description": "smart-classroom 项目"
   },
+  "score.scoreTitle": {
+    "message": "Penilaian kelas {date}",
+    "description": "smart-classroom 项目"
+  },
   "pick.pickRecord": {
     "message": "Catatan Pilih Mahasiswa",
     "description": "smart Class"
@@ -790,6 +834,10 @@
   "pick.defaultScore": {
     "message": "Poin default",
     "description": "smart Class"
+  },
+  "pick.pickTitle": {
+    "message": "Kegiatan Pilih Mahasiswa kelas {date}",
+    "description": "smart-classroom 项目"
   },
   "attendence.numAttendence": {
     "message": "Absen digital",
@@ -858,6 +906,42 @@
   "attendence.peopleNum": {
     "message": "Jumlah orang",
     "description": "smart Class"
+  },
+  "attendence.attendenceTitle": {
+    "message": "Absensi kelas {date}",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.changeStatus": {
+    "message": "Klik foto mahasiswa untuk ubah status absensi",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.personLeave": {
+    "message": "Ijin urusan",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.sick": {
+    "message": "Ijin sakit",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.late": {
+    "message": "Telat",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.leaveEarly": {
+    "message": "Pulang cepat",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.attend": {
+    "message": "Hadir",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.absence": {
+    "message": "Tidak hadir",
+    "description": "smart-classroom 项目"
+  },
+  "attendence.attData": {
+    "message": "Hadir {signCount} kali, tidak hadir {absenceCount} kali, presentasi hadir {rate}",
+    "description": "smart-classroom 项目"
   },
   "faceAttendence.classCondition": {
     "message": "Kondisi kelas",
@@ -1005,6 +1089,10 @@
   },
   "student.cutScore": {
     "message": "Kurangi poin",
+    "description": "smart-classroom 项目"
+  },
+  "student.student": {
+    "message": "Mahasiswa",
     "description": "smart-classroom 项目"
   },
   "screen.inClass": {
@@ -1303,6 +1391,10 @@
     "message": "Voting telah selesai",
     "description": "smart-classroom 项目"
   },
+  "vote.voteTitle": {
+    "message": "Voting kelas {date}",
+    "description": "smart-classroom 项目"
+  },
   "answer.inputAnswerContent": {
     "message": "Silahkan masukkan konten jawab cepat",
     "description": "smart-classroom 项目"
@@ -1325,6 +1417,78 @@
   },
   "answer.noStu": {
     "message": "Tidak ada mahasiswa yang berpartisipasi",
+    "description": "smart-classroom 项目"
+  },
+  "answer.answerTitle": {
+    "message": "Jawab cepat kelas {date}",
+    "description": "smart-classroom 项目"
+  },
+  "live.attdenceLive": {
+    "message": "Partisipasi live ({ count })",
+    "description": "smart-classroom 项目"
+  },
+  "live.invite": {
+    "message": "Undang",
+    "description": "smart-classroom 项目"
+  },
+  "live.handing": {
+    "message": "Sedang angkat tangan...",
+    "description": "smart-classroom 项目"
+  },
+  "live.allow": {
+    "message": "Ijinkan",
+    "description": "smart-classroom 项目"
+  },
+  "live.speaking": {
+    "message": "Sedang berbicara……",
+    "description": "smart-classroom 项目"
+  },
+  "live.classLive": {
+    "message": "Live kelas",
+    "description": "smart-classroom 项目"
+  },
+  "live.liveVideo": {
+    "message": "Video live",
+    "description": "smart-classroom 项目"
+  },
+  "live.tips": {
+    "message": "Video sedang dibuat, dapat dilihat kembali 30 menit setelah live selesai",
+    "description": "smart-classroom 项目"
+  },
+  "live.tips2": {
+    "message": "Live sedang berlangsung, akan ditutup otomatis setelah kelas selesai, yakin untuk mengakhiri kelas?",
+    "description": "smart-classroom 项目"
+  },
+  "live.tips3": {
+    "message": "Live sedang berlangsung, mohon untuk meninggalkan kelas setelah live selesai.",
+    "description": "smart-classroom 项目"
+  },
+  "live.liveRecord": {
+    "message": "Putar ulang live",
+    "description": "smart-classroom 项目"
+  },
+  "live.living": {
+    "message": "Live sedang berlangsung",
+    "description": "smart-classroom 项目"
+  },
+  "live.tip4": {
+    "message": "Apabila anda pertama kalinya menggunakan perangkat IdeaHub untuk masuk ke dalam rapat, maka kami perlu mengetahui nomor SIP perangkat saat ini",
+    "description": "smart-classroom 项目"
+  },
+  "live.tip5": {
+    "message": "Silahkan masukkan nomor SIP",
+    "description": "smart-classroom 项目"
+  },
+  "live.tip6": {
+    "message": "Cara menemukan nomor SIP: Masuk ke halaman pengaturan Idea-Hub, Pengaturan > Informasi Pengaturan > Nomor SIP",
+    "description": "smart-classroom 项目"
+  },
+  "live.tip7": {
+    "message": "Gunakan perangkat Idea-Hub saat ini untuk masuk rapat?",
+    "description": "smart-classroom 项目"
+  },
+  "live.replaceEquipment": {
+    "message": "Ganti perangkat",
     "description": "smart-classroom 项目"
   }
 }
