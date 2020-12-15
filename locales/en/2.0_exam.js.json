@@ -599,6 +599,10 @@
     "message": "Hour",
     "description": "2.0 exam.js"
   },
+  "minute": {
+    "message": "{count} min",
+    "description": "2.0 exam.js"
+  },
   "timeLength": {
     "message": "{days} days {hours} hours {minutes} minutes {seconds} seconds",
     "description": "2.0 exam.js"
@@ -689,6 +693,14 @@
   },
   "hasEnded": {
     "message": "Ended",
+    "description": "2.0 exam.js"
+  },
+  "examDurationCl": {
+    "message": "Exam Duration: {count} min",
+    "description": "2.0 exam.js"
+  },
+  "lateTime": {
+    "message": "Late Start: {count}",
     "description": "2.0 exam.js"
   },
   "lateTimeSet": {
@@ -1077,6 +1089,10 @@
   },
   "examNameCl": {
     "message": "Exam Name: ",
+    "description": "2.0 exam.js"
+  },
+  "answerDurationCl": {
+    "message": "Exam Time Used: {count} ",
     "description": "2.0 exam.js"
   },
   "answerTimesOf": {
@@ -1657,6 +1673,10 @@
   },
   "roomTips7": {
     "message": "No student",
+    "description": "2.0 exam.js"
+  },
+  "batchExpand": {
+    "message": "Session extends {count} min ",
     "description": "2.0 exam.js"
   },
   "roomTips8": {
@@ -2827,10 +2847,6 @@
     "message": "Leave",
     "description": "2.0 exam.js"
   },
-  "examHeadTips3": {
-    "message": "Please {detectEnv} before the exam to confirm that the network, equipment, browser, etc. are normal.",
-    "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
-  },
   "detectEnv": {
     "message": "Exam Device Compliance Check",
     "description": "2.0 exam.js"
@@ -2934,5 +2950,185 @@
   "findExamTip": {
     "message": "If you don't find the exam you need to take in the exam list below, check sure if you're signed in to the correct account or if you're in the correct class.",
     "description": "2.0 {filename}"
+  },
+  "faceServiceTipsNew": {
+    "message": "Face verification and camera monitoring are not enabled for your institute (optional services with extra charge). Contact your LMS admin for details.",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCWeb": {
+    "message": "Only web",
+    "description": "2.0 exam.js"
+  },
+  "onlyMobile": {
+    "message": "Only ULearning app",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExe": {
+    "message": "Only lockdown browser",
+    "description": "2.0 exam.js"
+  },
+  "unlimit": {
+    "message": "No restriction",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeTips": {
+    "message": "To take an exam using {PCExe}, students cannot leave the exam screen during the exam, which is suitable for high-stakes tests, or for the exams delivered in a test center or computer lab.",
+    "description": "2.0 exam.js"
+  },
+  "PCExe": {
+    "message": "Lockdown browser",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeTips1": {
+    "message": "For this option, the client PC must install the ULearning lockdown browser before the exam. ULearning lockdown browser currently only supports Win7 or above system, does not support Mac. To make sure the system works, it is recommended that you test the system before the formal exam.",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration": {
+    "message": "Exam Time Used",
+    "description": "2.0 exam.js"
+  },
+  "resultPublic": {
+    "message": "Publication Scope",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorItem": {
+    "message": "Enable the camera monitoring, including snapshot taking, gesture detecting, and suspicious behavior recording. ",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorTips": {
+    "message": "Students are required to turn on their device's front-facing camera and keep it stable - only supports the exams via PC.",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent": {
+    "message": "Camera monitoring includes: ",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent1": {
+    "message": "1. Snapshots: Taking the photo of the student and/or the environment in front of the camera every 1 minute.",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent2": {
+    "message": "2. AI-powered Gesture Detection: Monitoring the students' gestures via camera and detecting and making notes of suspicious behaviors such as leaving seat, long-time deviated eye focuses, talking with others, etc.",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent3": {
+    "message": "3. Suspicious Behavior Recording: Recording suspicious behaviors and uploading the video for later review.",
+    "description": "2.0 exam.js"
+  },
+  "cameraMonitor": {
+    "message": "Camera Monitoring",
+    "description": "2.0 exam.js"
+  },
+  "PCExe1": {
+    "message": "ULearning Lockdown Browser",
+    "description": "2.0 exam.js"
+  },
+  "PCweb": {
+    "message": "Web",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips4": {
+    "message": "Here are all the exams published by teachers. Please take a closer look at the details of each exam before starting an exam.",
+    "description": "2.0 exam.js"
+  },
+  "downloadPCExe": {
+    "message": "Download ULearning lockdown browser",
+    "description": "2.0 exam.js"
+  },
+  "webEnvTest": {
+    "message": "Computer Compliance Check",
+    "description": "2.0 exam.js"
+  },
+  "examFaceVerification": {
+    "message": "Exam Face Verification",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeBtnTips": {
+    "message": "Please take the exam via ULearning lockdown browser",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCWebBtnTips": {
+    "message": "Please take the exam via your device's web browser",
+    "description": "2.0 exam.js"
+  },
+  "monitorRecords": {
+    "message": "Monitoring Records",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminder": {
+    "message": "Suspicious Behavior Notifications",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderFilter": {
+    "message": "Filter suspicious behaviors",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderTitle1": {
+    "message": "Suspicious exam answering patterns",
+    "description": "2.0 exam.js"
+  },
+  "mobileExam": {
+    "message": "Exam via ULearning app",
+    "description": "2.0 exam.js"
+  },
+  "exception1": {
+    "message": "The duration of leaving the exam screen > 5 seconds ",
+    "description": "2.0 exam.js"
+  },
+  "exception2": {
+    "message": "The exam will be involuntarily submitted by the system",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderTitle2": {
+    "message": "Suspicious Gestures",
+    "description": "2.0 exam.js"
+  },
+  "leaveSeat": {
+    "message": "Leaving Seat",
+    "description": "2.0 exam.js"
+  },
+  "deviation": {
+    "message": "The duration of deviated eye focus > 2 seconds",
+    "description": "2.0 exam.js"
+  },
+  "deviation1": {
+    "message": "Deviated eye focus",
+    "description": "2.0 exam.js"
+  },
+  "talk": {
+    "message": "Talking with others",
+    "description": "2.0 exam.js"
+  },
+  "examMonitorRecords": {
+    "message": "Exam Monitoring Records",
+    "description": "2.0 exam.js"
+  },
+  "answerTrack": {
+    "message": "Exam Answering Pattern",
+    "description": "2.0 exam.js"
+  },
+  "clearfixMonitorRecords": {
+    "message": "Remove Monitoring Records",
+    "description": "2.0 exam.js"
+  },
+  "normalState": {
+    "message": "Normal Status",
+    "description": "2.0 exam.js"
+  },
+  "confirmClearMonitorRecords": {
+    "message": "Are you sure you want to remove the monitoring records?",
+    "description": "2.0 exam.js"
+  },
+  "timeDay": {
+    "message": "{days} days ",
+    "description": "2.0 exam.js"
+  },
+  "timeHour": {
+    "message": "{hours} hours ",
+    "description": "2.0 exam.js"
+  },
+  "timeSecond": {
+    "message": "{seconds} seconds",
+    "description": "2.0 exam.js"
   }
 }

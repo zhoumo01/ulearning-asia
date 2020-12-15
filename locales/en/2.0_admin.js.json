@@ -39,17 +39,13 @@
     "message": "Close",
     "description": "2.0 admin.js"
   },
-  "total": {
-    "message": "Total",
-    "description": "2.0 admin.js"
+  "totalOfItems": {
+    "message": "Total: {n} ",
+    "description": "https://courseweb.tongshike.cn/admin/#/courseDeclaration/declared 国际版用不到这个页面，但是这个页面也做了国际化，所以一并处理了 \n https://courseweb.tongshike.cn/admin/#/courseDeclaration/notDeclared 同上 \n https://courseweb.tongshike.cn/admin/#/courseDeclaration/pending 同上 \n 管理员账号 -> 系统管理 -> 管理员设置 https://courseweb.tongshike.cn/admin/#/main/system/administrator \n https://courseweb.tongshike.cn/admin/#/check \n 管理员账号 -> 课程管理 -> 本校自建MOOC https://courseweb.tongshike.cn/admin/#/main/teaching/course/open/local \n 管理员账号 -> 课程管理 -> 外部引用MOOC https://courseweb.tongshike.cn/admin/#/main/teaching/course/open/foreign \n 管理员账号 -> 课程管理 -> 本校课程 https://courseweb.tongshike.cn/admin/#/main/teaching/course/school \n 管理员账号 -> 课程管理 -> 本校自建MOOC -> 选课名单 \n 管理员账号 -> 考试管理 https://courseweb.tongshike.cn/admin/#/main/teaching/exam \n 管理员账号 -> 教师管理 https://courseweb.tongshike.cn/admin/#/main/teaching/teacher \n 管理员账号 -> 学生管理 https://courseweb.tongshike.cn/admin/#/main/teaching/student \n 管理员账号 -> 自然班级 https://courseweb.tongshike.cn/admin/#/main/teaching/naturalClass \n 管理员账号 -> 通知公告 https://courseweb.tongshike.cn/admin/#/main/teaching/notice"
   },
-  "items": {
-    "message": " item(s)",
-    "description": "2.0 admin.js"
-  },
-  "number": {
-    "message": " item(s)",
-    "description": "2.0 admin.js"
+  "totalOfVideo": {
+    "message": "Total {n} videos",
+    "description": "https://courseweb.tongshike.cn/admin/#/main/dataCenter/interactionTextbook \n https://courseweb.tongshike.cn/admin/#/main/uaDataAnalysis"
   },
   "search": {
     "message": "Search",
@@ -201,10 +197,6 @@
   },
   "watchVideoAverCompletionRate": {
     "message": "Avg. Video Completion Rate",
-    "description": "2.0 admin.js"
-  },
-  "videos": {
-    "message": "video(s)",
     "description": "2.0 admin.js"
   },
   "nearly15days": {
@@ -2443,9 +2435,9 @@
     "message": "Examinees",
     "description": "2.0 admin.js"
   },
-  "teachingAdmin.to": {
-    "message": "to",
-    "description": "2.0 admin.js"
+  "teachingAdmin.timeBetween": {
+    "message": "{startTime} to {endTime} ",
+    "description": "管理员账号 -> 数据中心 -> 教学动态 \n 管理员账号 -> 考试管理"
   },
   "teachingAdmin.viewScore": {
     "message": "View Results",
