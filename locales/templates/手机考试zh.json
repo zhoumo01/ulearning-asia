@@ -23,9 +23,9 @@
     "message": "最高分",
     "description": "手机考试zh.json"
   },
-  "score": {
-    "message": "分",
-    "description": "手机考试zh.json"
+  "points": {
+    "message": "{n}分",
+    "description": "手机考试 -> 考试详情 -> 及格分数 \n 手机考试 -> 考试详情 -> 进入考试 -> 滑动到第一页 -> 奖杯图标右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 用户头像右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 答题记录列表 (需要用户有多个答题记录，才会弹出答题记录列表)"
   },
   "examTime": {
     "message": "考试时间",
@@ -35,9 +35,9 @@
     "message": "考试限时",
     "description": "手机考试zh.json"
   },
-  "minute": {
-    "message": "分钟",
-    "description": "手机考试zh.json"
+  "minutes": {
+    "message": "{n}分钟",
+    "description": "手机考试 -> 考试详情 -> 考试限时"
   },
   "answerTime": {
     "message": "答题次数",
@@ -51,9 +51,9 @@
     "message": "不限制",
     "description": "手机考试zh.json"
   },
-  "times": {
-    "message": "次",
-    "description": "手机考试zh.json"
+  "timesOf": {
+    "message": "{current}/{total}次",
+    "description": "手机考试 -> 考试详情 -> 答题次数"
   },
   "passingScore": {
     "message": "及格分数",
@@ -63,9 +63,9 @@
     "message": "迟到时间",
     "description": "手机考试zh.json"
   },
-  "to": {
-    "message": "至",
-    "description": "手机考试zh.json"
+  "betweenTime": {
+    "message": "{startTime}至{endTime}",
+    "description": "手机考试 -> 考试详情 -> 考试时间"
   },
   "clickUpload": {
     "message": "点击上传认证照片",
@@ -523,13 +523,13 @@
     "message": "解析",
     "description": "手机考试zh.json"
   },
-  "userScore": {
-    "message": "得分",
-    "description": "手机考试zh.json"
+  "answerScore1": {
+    "message": "得分：等待批阅，满分{num}分",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
   },
-  "totalScore": {
-    "message": "，满分{num}分",
-    "description": "手机考试zh.json"
+  "answerScore2": {
+    "message": "得分：{n}分，满分{num}分",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
   },
   "teaComment": {
     "message": "教师评语",
@@ -545,10 +545,6 @@
   },
   "answerAnalysis": {
     "message": "答案解析",
-    "description": "手机考试zh.json"
-  },
-  "waitScore": {
-    "message": "等待批阅",
     "description": "手机考试zh.json"
   },
   "useUp": {
