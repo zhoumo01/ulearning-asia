@@ -1,6 +1,6 @@
 {
   "examEnvironmentDetection": {
-    "message": "Exam Environment Detection",
+    "message": "Computer Compliance Check",
     "description": "2.0 help.js"
   },
   "close": {
@@ -20,11 +20,11 @@
     "description": "2.0 help.js"
   },
   "internalMemory": {
-    "message": "Internal Memory",
+    "message": "RAM",
     "description": "2.0 help.js"
   },
   "envTips1": {
-    "message": "2GHz or above",
+    "message": "2 GHz or faster",
     "description": "2.0 help.js"
   },
   "envTips2": {
@@ -32,59 +32,47 @@
     "description": "2.0 help.js"
   },
   "envTips3": {
-    "message": "If there are listening or speaking questions in foreign language exams, headphones with microphones should be equipped.",
+    "message": "If the exam has the questions which require you to listen and record voice, a headset with microphone should be equipped.",
     "description": "2.0 help.js"
   },
   "envTips4": {
-    "message": "Headphone Detection",
+    "message": "Headset Check",
     "description": "2.0 help.js"
   },
   "envTips5": {
-    "message": "Recording Detection",
+    "message": "Recording Check",
     "description": "2.0 help.js"
   },
   "envTips6": {
-    "message": "Network bandwidth",
+    "message": "Network Bandwidth",
     "description": "2.0 help.js"
   },
   "envTips7": {
-    "message": "Network speed detection",
+    "message": "Network Speed Check",
     "description": "2.0 help.js"
   },
   "envTips8": {
-    "message": "Run test again",
+    "message": "Re-Check",
     "description": "2.0 help.js"
   },
   "envTips9": {
-    "message": "Download speed is being tested, please wait a minute",
+    "message": "Checking download speed..., please wait.",
     "description": "2.0 help.js"
   },
   "envTips10": {
-    "message": "Download speed:",
+    "message": "Download Speed: ",
     "description": "2.0 help.js"
   },
   "envTips11": {
-    "message": "Recommended Network Bandwidth",
+    "message": "Recommended Network Bandwidth ",
     "description": "2.0 help.js"
   },
-  "envTips12": {
-    "message": "Please ensure that the computer lab’s ",
-    "description": "2.0 help.js"
-  },
-  "envTips13": {
-    "message": " network bandwidth is meant for independent use. Single computer with independent bandwidth, ",
-    "description": "2.0 help.js"
-  },
-  "envTips14": {
-    "message": "Download speed isabout",
-    "description": "2.0 help.js"
-  },
-  "envTips15": {
-    "message": " bandwidth. If there are listening or speaking questions, speed* 2.",
-    "description": "2.0 help.js"
+  "bandWidthHint": {
+    "message": "Make sure the exam facility has the dedicated {totalBandWidth} bandwidth and a single computer has {netspeed} download speed (approximately {singleBandWidth} bandwidth). If the exam has the questions requiring listening and voice recording, the Internet speed should double.",
+    "description": "教师账号 -> 考试 -> 环境检测"
   },
   "envTips16": {
-    "message": "No. of users",
+    "message": "Number of Users ",
     "description": "2.0 help.js"
   },
   "envTips17": {
@@ -100,43 +88,43 @@
     "description": "2.0 help.js"
   },
   "envTips20": {
-    "message": "500 persons",
+    "message": "500 users",
     "description": "2.0 help.js"
   },
   "envTips21": {
-    "message": "About 100KB/s/person",
+    "message": "Around 100 KB/s/user",
     "description": "2.0 help.js"
   },
   "envTips22": {
-    "message": "About 1MB/person",
+    "message": "Around 1 MB/user",
     "description": "2.0 help.js"
   },
   "envTips23": {
-    "message": "About 500MB",
+    "message": "Around 500 MB",
     "description": "2.0 help.js"
   },
   "envTips24": {
-    "message": "1000 persons",
+    "message": "1000 users",
     "description": "2.0 help.js"
   },
   "envTips25": {
-    "message": "About 100KB/s/person",
+    "message": "Around 100 KB/s/user",
     "description": "2.0 help.js"
   },
   "envTips26": {
-    "message": "About 1MB/person",
+    "message": "Around 1 MB/user",
     "description": "2.0 help.js"
   },
   "envTips27": {
-    "message": "About 1GB",
+    "message": "Around 1 GB",
     "description": "2.0 help.js"
   },
   "envTips28": {
-    "message": "Browser and plug-in program",
+    "message": "Browser and Plug-ins",
     "description": "2.0 help.js"
   },
   "envTips29": {
-    "message": "Browser Environment Detection",
+    "message": "Browser Compliance Check",
     "description": "2.0 help.js"
   },
   "envTips30": {
@@ -176,31 +164,23 @@
     "description": "2.0 help.js"
   },
   "envTips39": {
-    "message": "Download recommended browser download",
+    "message": "Recommended Browser Download",
     "description": "2.0 help.js"
   },
-  "envTips40": {
-    "message": "In order to ensure smooth examination process, it is recommended to use it.",
-    "description": "2.0 help.js"
+  "browserHint": {
+    "message": "To ensure a smooth exam process, it is recommended to use {chrome}, {firefox} or QQ browser to take the exam. Other browsers are not recommended.",
+    "description": "教师账号 -> 考试 -> 环境检测"
   },
-  "envTips41": {
+  "qqBrowser": {
     "message": "QQ",
     "description": "2.0 help.js"
   },
-  "envTips42": {
-    "message": "Google Chrome",
+  "chrome": {
+    "message": "Chrome",
     "description": "2.0 help.js"
   },
-  "envTips43": {
-    "message": "or",
-    "description": "2.0 help.js"
-  },
-  "envTips44": {
+  "firefox": {
     "message": "Firefox",
-    "description": "2.0 help.js"
-  },
-  "envTips45": {
-    "message": "It is not recommended to use other browsers.",
     "description": "2.0 help.js"
   },
   "envTips46": {
@@ -216,7 +196,7 @@
     "description": "2.0 help.js"
   },
   "envTips49": {
-    "message": "Windows 7 and above, Windows XP",
+    "message": "Windows 7 or above, Windows XP",
     "description": "2.0 help.js"
   },
   "envTips50": {
@@ -224,39 +204,39 @@
     "description": "2.0 help.js"
   },
   "envTips51": {
-    "message": "Plug-in program",
+    "message": "Plug-ins",
     "description": "2.0 help.js"
   },
   "envTips52": {
-    "message": "Headphone test",
+    "message": "Headset Check",
     "description": "2.0 help.js"
   },
   "envTips53": {
-    "message": "Recording test",
+    "message": "Recording Check",
     "description": "2.0 help.js"
   },
   "envTips54": {
-    "message": "Please bring your headphones and play the following message. Check if the sound could be heard.",
+    "message": "Put headset on and click the audio below to check if you can hear the sound.",
     "description": "2.0 help.js"
   },
   "envTips55": {
-    "message": "*If there is no sound：",
+    "message": "* If there is no sound: ",
     "description": "2.0 help.js"
   },
   "envTips56": {
-    "message": "1.Please check whether the headphone device is connected to the computer correctly.；",
+    "message": "1.Please check whether the headset device is connected to the computer correctly.",
     "description": "2.0 help.js"
   },
   "envTips57": {
-    "message": "2.Check if the sound of the computer system is too small to hear；",
+    "message": "2. Check if the speaker volume is set too low.",
     "description": "2.0 help.js"
   },
   "envTips58": {
-    "message": "3.If you can't solve the problem, please replace the headphone equipment in time.",
+    "message": "3. If the problem still exists, use another headset to try.",
     "description": "2.0 help.js"
   },
   "envTips59": {
-    "message": "Please click \"Start Recording\" button, read the following paragraph aloud, and click the \"End Recording\" button; click the \"Replay\" button to check if the recording is successful.",
+    "message": "Click the Start Recording button, read the following paragraph aloud, and then click the End Recording button to stop the recording. Click the Replay button to check if the recording was successful.",
     "description": "2.0 help.js"
   },
   "envTips60": {
@@ -264,11 +244,11 @@
     "description": "2.0 help.js"
   },
   "envTips61": {
-    "message": "Start recording",
+    "message": "Start Recording",
     "description": "2.0 help.js"
   },
   "envTips62": {
-    "message": "Stop recording",
+    "message": "Stop Rrecording",
     "description": "2.0 help.js"
   },
   "envTips63": {
@@ -276,15 +256,15 @@
     "description": "2.0 help.js"
   },
   "envTips64": {
-    "message": "1. Check to see if you have access to the website through https:",
+    "message": "1. Check if you visited the website through https://...",
     "description": "2.0 help.js"
   },
   "envTips65": {
-    "message": "2. Please check whether the headset is properly connected and the microphone is disabled by the browser.；",
+    "message": "2. Check if the headset is properly connected and the microphone is enabled by the browser.",
     "description": "2.0 help.js"
   },
   "envTips66": {
-    "message": "3. Check whether Flash plug-in has been installed and enabled.",
+    "message": "3. Check if Flash plug-in has been installed and enabled.",
     "description": "2.0 help.js"
   }
 }
