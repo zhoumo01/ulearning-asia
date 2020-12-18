@@ -43,10 +43,6 @@
     "message": "试题",
     "description": "UA"
   },
-  "QNotSave": {
-    "message": "道题未保存",
-    "description": "UA"
-  },
   "Score": {
     "message": "分值",
     "description": "UA"
@@ -286,6 +282,10 @@
   "autoSavedAt": {
     "message": "已于",
     "description": "UA"
+  },
+  "autoSaveAt": {
+    "message": "已于{time}自动保存",
+    "description": "UA -> 教师 -> 编辑课件 -> 右上角"
   },
   "automaticSorting": {
     "message": "自动排序",
@@ -823,9 +823,9 @@
     "message": "互动教材",
     "description": "UA"
   },
-  "courses": {
-    "message": "门",
-    "description": "UA"
+  "totalCourses": {
+    "message": "共{n}门",
+    "description": "UA -> 教师 -> 首页 -> 相关代码已隐藏，因此无法在页面上看到"
   },
   "coursewareQBank": {
     "message": "课件题库",
@@ -919,9 +919,9 @@
     "message": "数据有误",
     "description": "UA"
   },
-  "dataNum": {
-    "message": "条数据",
-    "description": "UA"
+  "totalData": {
+    "message": "共{n}条数据",
+    "description": "UA -> 教师 -> 首页"
   },
   "delete": {
     "message": "删除",
@@ -1229,14 +1229,6 @@
   },
   "enterFollowTextErrorTip": {
     "message": "评测内容中有中文",
-    "description": "UA"
-  },
-  "enterFollowTextPosition": {
-    "message": "第",
-    "description": "UA"
-  },
-  "enterFollowTextPosition1": {
-    "message": "第",
     "description": "UA"
   },
   "enterImgKeyword": {
@@ -1555,21 +1547,21 @@
     "message": "flash结构不对",
     "description": "UA"
   },
-  "followEnterFollowTextErrorPosition": {
-    "message": "段评测内容中有中文",
-    "description": "UA"
+  "evaluationHasChinese": {
+    "message": "第{n}段评测内容中有中文",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
-  "followEnterFollowTextPosition": {
-    "message": "段请输入评测内容",
-    "description": "UA"
+  "evaluationEmpty": {
+    "message": "第{n}段请输入评测内容",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
-  "followEnterFollowTextPosition1": {
-    "message": "段请输入参考答案",
-    "description": "UA"
+  "referenceAnswerEmpty": {
+    "message": "第{n}段请输入参考答案",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
-  "followRatingReferenceTextErrorPosition": {
-    "message": "段评分参照文本中有中文",
-    "description": "UA"
+  "referenceTextHasChinese": {
+    "message": "第{n}段评分参照文本中有中文",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
   "followReadingFormat": {
     "message": "mp3格式，不能超过3M",
@@ -1603,9 +1595,9 @@
     "message": "完整字幕",
     "description": "UA"
   },
-  "ge": {
-    "message": "个",
-    "description": "UA"
+  "items": {
+    "message": "{n}个",
+    "description": "UA -> 首页 -> 指课程发布到几个站点 -> 相关代码已隐藏，因此无法在页面上看到"
   },
   "generateFLASH": {
     "message": "FLASH生成中...",
@@ -1987,9 +1979,9 @@
     "message": "菜单类型",
     "description": "UA"
   },
-  "min": {
-    "message": "分钟",
-    "description": "UA"
+  "inputMinutes": {
+    "message": "{input}分钟",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
   },
   "modifyFail": {
     "message": "修改失败",
@@ -1997,10 +1989,6 @@
   },
   "modifyThisQ": {
     "message": "修改此题",
-    "description": "UA"
-  },
-  "month": {
-    "message": "月",
     "description": "UA"
   },
   "more": {
@@ -2315,9 +2303,9 @@
     "message": "页面练习",
     "description": "UA"
   },
-  "pageHasBeen": {
-    "message": "为保证学习记录的准确，系统已于 ",
-    "description": "UA"
+  "stopTimingTip": {
+    "message": "为保证学习记录的准确，系统已于{time}停止了该页面的学习，且该页面的学习记录不会保存。",
+    "description": "UA -> 学生账户 -> 学习课件"
   },
   "pageHasBeenEditedConfirmDelete": {
     "message": "当前页面已被编辑，确定删除吗？",
@@ -2341,10 +2329,6 @@
   },
   "paragraphTip": {
     "message": "评测内容（必填），只能输入英文",
-    "description": "UA"
-  },
-  "participants": {
-    "message": "人参与",
     "description": "UA"
   },
   "passageScore": {
@@ -2507,13 +2491,13 @@
     "message": "练习数量",
     "description": "UA"
   },
-  "questions": {
-    "message": "道题",
-    "description": "UA"
+  "questionError": {
+    "message": "本页第{n}道题数据有误，试题ID：{id}",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
   },
-  "questionsError": {
-    "message": "道题数据有误",
-    "description": "UA"
+  "questionError2": {
+    "message": "试题ID：{id} 数据有误",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
   },
   "questionsNotCompleted": {
     "message": "本页面还有题目没有完成，",
@@ -2563,9 +2547,9 @@
     "message": "建议学习时长",
     "description": "UA"
   },
-  "recordTime": {
-    "message": "录音时长：",
-    "description": "UA"
+  "recordTimeOf": {
+    "message": "录音时长：{input}秒",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 弹框右上角"
   },
   "recordingTime": {
     "message": "录制时长",
@@ -2759,6 +2743,10 @@
     "message": "秒",
     "description": "UA"
   },
+  "inputSeconds": {
+    "message": "{input}秒",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
+  },
   "secondLevelMenu": {
     "message": "二级菜单",
     "description": "UA"
@@ -2935,6 +2923,10 @@
     "message": "已选择",
     "description": "UA"
   },
+  "selectedQue": {
+    "message": "已选择{n}道题",
+    "description": "UA -> 教师 -> 编辑课件 -> 导入练习"
+  },
   "selectedTeacher": {
     "message": "已选择的老师",
     "description": "UA"
@@ -3059,9 +3051,9 @@
     "message": "在内容中插入视频",
     "description": "UA"
   },
-  "smallQ": {
-    "message": "小题",
-    "description": "UA"
+  "smallQue": {
+    "message": "[小题{n}]",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题 (需要题型为选词填空)"
   },
   "sortQuestions": {
     "message": "排序题",
@@ -3263,14 +3255,6 @@
     "message": "教材名称",
     "description": "UA"
   },
-  "thePage": {
-    "message": "本页",
-    "description": "UA"
-  },
-  "thePage2": {
-    "message": "本页第",
-    "description": "UA"
-  },
   "thirdLevelMenu": {
     "message": "三级菜单",
     "description": "UA"
@@ -3291,9 +3275,9 @@
     "message": "限时练习",
     "description": "UA"
   },
-  "times": {
-    "message": "次",
-    "description": "UA"
+  "inputTimes": {
+    "message": "{input}次",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 添加后下方工具栏设置按钮"
   },
   "timingLearningSuspended": {
     "message": "计时学习已暂停",
@@ -3317,10 +3301,6 @@
   },
   "top": {
     "message": "置顶",
-    "description": "UA"
-  },
-  "total": {
-    "message": "共",
     "description": "UA"
   },
   "totalScore": {
@@ -3631,17 +3611,13 @@
     "message": "哎呦 出错了。",
     "description": "UA"
   },
-  "year": {
-    "message": "年",
-    "description": "UA"
+  "inputMonth": {
+    "message": "{inputYear}年{inputMonth}月",
+    "description": "UA -> 教师 -> 选择一门课程 -> 侧边栏详细介绍 -> 勾选已出版互动教材 -> 出版时间"
   },
-  "youHave": {
-    "message": "你有",
-    "description": "UA"
-  },
-  "yuan": {
-    "message": "元",
-    "description": "UA"
+  "inputYuan": {
+    "message": "{input}元",
+    "description": "指的输入定价，此功能未上线，不会在页面上显示。"
   },
   "zippedFile": {
     "message": "压缩包",
@@ -3895,21 +3871,13 @@
     "message": "分屏答题",
     "description": "UA"
   },
-  "limitedAnswer": {
-    "message": "限答",
-    "description": "UA"
+  "limitAnswer": {
+    "message": "限答{n}次",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
   },
-  "chance": {
-    "message": "次",
-    "description": "UA"
-  },
-  "left": {
-    "message": "剩余",
-    "description": "UA"
-  },
-  "opportunity": {
-    "message": "机会",
-    "description": "UA"
+  "limitAnswer2": {
+    "message": "限答{n}次，剩余{m}次机会",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
   },
   "continueTip": {
     "message": "题目全部答对才能继续观看视频哦",
