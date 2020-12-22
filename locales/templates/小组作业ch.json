@@ -51,18 +51,6 @@
     "message": "班级点名记录",
     "description": "小组作业"
   },
-  "共": {
-    "message": "共",
-    "description": "小组作业"
-  },
-  "已": {
-    "message": "已",
-    "description": "小组作业"
-  },
-  "次": {
-    "message": "次",
-    "description": "小组作业"
-  },
   "缺勤": {
     "message": "缺勤",
     "description": "小组作业"
@@ -147,13 +135,9 @@
     "message": "{{n}}小时",
     "description": "小组作业"
   },
-  "天": {
-    "message": "天",
-    "description": "小组作业"
-  },
-  "分": {
-    "message": "分",
-    "description": "小组作业"
+  "points": {
+    "message": "{{score}}分",
+    "description": "教师 -> 学生作业列表 -> 教师批阅后才会显示分数"
   },
   "分钟": {
     "message": "{{n}}分",
@@ -225,10 +209,6 @@
   },
   "投票": {
     "message": "投票",
-    "description": "小组作业"
-  },
-  "票": {
-    "message": "票",
     "description": "小组作业"
   },
   "投票已结束": {
@@ -499,14 +479,6 @@
     "message": "开始录音失败",
     "description": "小组作业"
   },
-  "年": {
-    "message": "年",
-    "description": "小组作业"
-  },
-  "月": {
-    "message": "月",
-    "description": "小组作业"
-  },
   "日": {
     "message": "日",
     "description": "小组作业"
@@ -547,9 +519,9 @@
     "message": "教师评价",
     "description": "小组作业"
   },
-  "组": {
-    "message": "组",
-    "description": "小组作业"
+  "groupOf": {
+    "message": "{{n}}组",
+    "description": "教师 -> 学生作业列表 \n 教师 -> 学生作业列表 -> 批阅作业 \n 教师 -> 发起作业 -> 下一步 -> 选择班级 -> 几个小组 \n 学生 -> 作业详情"
   },
   "需重写": {
     "message": "需重写",
@@ -583,6 +555,14 @@
     "message": "请输入评语",
     "description": "小组作业"
   },
+  "fullPointsOf": {
+    "message": "满分{{n}}分",
+    "description": "教师 -> 学生作业列表 -> 右上角“详情”按钮"
+  },
+  "fullPointsOf2": {
+    "message": "满分{{n}}",
+    "description": "教师 -> 学生作业列表 -> 批阅作业"
+  },
   "满分": {
     "message": "满分",
     "description": "小组作业"
@@ -595,13 +575,13 @@
     "message": "保存批阅",
     "description": "小组作业"
   },
-  "提交于": {
-    "message": "提交于",
-    "description": "小组作业"
+  "submittedOn": {
+    "message": "{{name}}提交于{{time}}",
+    "description": "教师 -> 学生作业列表 -> 批阅作业"
   },
-  "个字": {
-    "message": "个字",
-    "description": "小组作业"
+  "wordsCount": {
+    "message": "{{n}}个字",
+    "description": "教师 -> 学生作业列表 -> 批阅作业"
   },
   "优优正在加载中": {
     "message": "优优正在加载中",
@@ -731,9 +711,9 @@
     "message": "上传作业失败",
     "description": "小组作业"
   },
-  "正在上传第": {
-    "message": "正在上传第",
-    "description": "小组作业"
+  "uploadNo": {
+    "message": "正在上传第{{progress}}个",
+    "description": "示例，正在上传第3/5个，这个是完整的文本，后面没有其他文字，比如不是：“正在上传第{{progress}}个文件”"
   },
   "是否放弃本次作业？": {
     "message": "是否放弃本次作业？",
@@ -923,13 +903,9 @@
     "message": "请将作业写在这里",
     "description": "小组作业"
   },
-  "已写": {
-    "message": "已写",
-    "description": "小组作业"
-  },
-  "字": {
-    "message": "字",
-    "description": "小组作业"
+  "writtenCount": {
+    "message": "已写{{count}}字",
+    "description": "学生 -> 写作业"
   },
   "作业详情": {
     "message": "作业详情",
@@ -1191,14 +1167,6 @@
     "message": "成就值的获取",
     "description": "小组作业"
   },
-  "老师": {
-    "message": "老师",
-    "description": "小组作业"
-  },
-  "同学": {
-    "message": "同学",
-    "description": "小组作业"
-  },
   "当前没有获得成就值": {
     "message": "当前没有获得成就值",
     "description": "小组作业"
@@ -1233,10 +1201,6 @@
   },
   "学生": {
     "message": "学生",
-    "description": "小组作业"
-  },
-  "个": {
-    "message": "个",
     "description": "小组作业"
   },
   "次2": {
@@ -1363,9 +1327,9 @@
     "message": "提交出错了",
     "description": "小组作业"
   },
-  "个小组": {
-    "message": "个小组",
-    "description": "小组作业"
+  "groupCount": {
+    "message": "{{n}}个小组",
+    "description": "教师 -> 发起作业 -> 下一步 -> 选择班级"
   },
   "包含未分组的同学": {
     "message": "{{classes}}包含未分组的同学！",
@@ -1415,9 +1379,9 @@
     "message": "查看更多{{count}}条讨论",
     "description": "小组作业"
   },
-  "条": {
-    "message": "条",
-    "description": "小组作业"
+  "countOfDiscussion": {
+    "message": "{{n}}条",
+    "description": "举例：2条(评论) 教师 -> 学生作业列表 -> 批阅作业"
   },
   "评价作业": {
     "message": "评价作业",
@@ -1489,10 +1453,6 @@
   },
   "全部": {
     "message": "全部",
-    "description": "小组作业"
-  },
-  "人": {
-    "message": "人",
     "description": "小组作业"
   },
   "投此选项的学生": {
