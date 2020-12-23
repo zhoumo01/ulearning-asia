@@ -7,6 +7,10 @@
     "message": "calificación del examen",
     "description": "2.0 exam.js"
   },
+  "gradeSumCl": {
+    "message": "Preguntas objetivas/preguntas subjetivas/puntuación total",
+    "description": "2.0 {filename}"
+  },
   "examinationAnalysis": {
     "message": "análisis del examen",
     "description": "2.0 exam.js"
@@ -181,10 +185,6 @@
   },
   "chooseBatch": {
     "message": "Seleccione el lote para tomar el examen.",
-    "description": "2.0 exam.js"
-  },
-  "to": {
-    "message": " A ",
     "description": "2.0 exam.js"
   },
   "confirm": {
@@ -575,16 +575,8 @@
     "message": "Tasa de abandono",
     "description": "2.0 exam.js"
   },
-  "day": {
-    "message": "Día",
-    "description": "2.0 exam.js"
-  },
   "hour": {
     "message": "Horas",
-    "description": "2.0 exam.js"
-  },
-  "seconds": {
-    "message": "Segundos",
     "description": "2.0 exam.js"
   },
   "scoringRate": {
@@ -687,10 +679,6 @@
     "message": "Sin lote",
     "description": "2.0 exam.js"
   },
-  "part": {
-    "message": "Sirviendo",
-    "description": "2.0 exam.js"
-  },
   "randomGroupPaper": {
     "message": "Papel de examen al azar",
     "description": "2.0 exam.js"
@@ -733,10 +721,6 @@
   },
   "afterExamFinished": {
     "message": "Despues del examen",
-    "description": "2.0 exam.js"
-  },
-  "dayShow": {
-    "message": "Show de días",
     "description": "2.0 exam.js"
   },
   "examTips5": {
@@ -1015,20 +999,12 @@
     "message": "El puntaje no puede exceder el puntaje total",
     "description": "2.0 exam.js"
   },
-  "times": {
-    "message": "Tiempos",
-    "description": "2.0 exam.js"
-  },
   "baseInformation": {
     "message": "Información básica",
     "description": "2.0 exam.js"
   },
   "examNameCl": {
     "message": "Nombre del examen:",
-    "description": "2.0 exam.js"
-  },
-  "answerTimesCl": {
-    "message": "Respuestas:",
     "description": "2.0 exam.js"
   },
   "passScoreCl": {
@@ -1109,10 +1085,6 @@
   },
   "commitImmediatelyShow": {
     "message": "Anunciado inmediatamente después de la presentación",
-    "description": "2.0 exam.js"
-  },
-  "dayAfterShow": {
-    "message": "Mostrar en días",
     "description": "2.0 exam.js"
   },
   "cannotAllForbidden": {
@@ -1269,14 +1241,6 @@
   },
   "gradeTips5": {
     "message": "Pase el código de verificación para ingresar al examen",
-    "description": "2.0 exam.js"
-  },
-  "studentNOCl": {
-    "message": "Identificación del estudiante:",
-    "description": "2.0 exam.js"
-  },
-  "classCl": {
-    "message": "Clase:",
     "description": "2.0 exam.js"
   },
   "waitApproved": {
@@ -1453,14 +1417,6 @@
   },
   "invigilator": {
     "message": "Supervisor",
-    "description": "2.0 exam.js"
-  },
-  "etc": {
-    "message": "Espera",
-    "description": "2.0 exam.js"
-  },
-  "people": {
-    "message": "Persona",
     "description": "2.0 exam.js"
   },
   "empty": {
@@ -2235,18 +2191,6 @@
     "message": "Seleccione la sala de examen que se utilizará para cada sesión. El número total de asientos para cada sesión debe ser mayor que el número de candidatos",
     "description": "2.0 exam.js"
   },
-  "seat": {
-    "message": "Asiento",
-    "description": "2.0 exam.js"
-  },
-  "examStudent": {
-    "message": "Candidato",
-    "description": "2.0 exam.js"
-  },
-  "seats": {
-    "message": "Asiento",
-    "description": "2.0 exam.js"
-  },
   "roomEditorTips5": {
     "message": "El sistema ha generado automáticamente los resultados del diseño en función del número de clases y el número de asientos en la sala de examen. Puede ajustar y guardar manualmente los resultados del diseño después de la confirmación.",
     "description": "2.0 exam.js"
@@ -2271,18 +2215,6 @@
     "message": "Puede mover toda la clase de la clase actual a otras salas de examen; también puede seleccionar a algunos estudiantes de la clase actual para que se asignen a otras salas de examen.",
     "description": "2.0 exam.js"
   },
-  "roomEditorTips8": {
-    "message": "(Número total de estudiantes:",
-    "description": "2.0 exam.js"
-  },
-  "roomEditorTips9": {
-    "message": "Personas)",
-    "description": "2.0 exam.js"
-  },
-  "roomEditorTips10": {
-    "message": "Las personas se trasladan a las siguientes salas de examen:",
-    "description": "2.0 exam.js"
-  },
   "roomEditorTips11": {
     "message": "¿Seguro que quieres eliminar esta sala de examens?",
     "description": "2.0 exam.js"
@@ -2301,10 +2233,6 @@
   },
   "roomEditorTips15": {
     "message": "Por favor seleccione una sala de examen",
-    "description": "2.0 exam.js"
-  },
-  "roomEditorTips16": {
-    "message": "El número de asientos es menor que el número de candidatos.",
     "description": "2.0 exam.js"
   },
   "roomEditorTips17": {
@@ -2361,10 +2289,6 @@
   },
   "immediateDisplay": {
     "message": "Mostrar ahora",
-    "description": "2.0 exam.js"
-  },
-  "daysAfterShow": {
-    "message": "Mostrar en días",
     "description": "2.0 exam.js"
   },
   "weekAfterShow": {
@@ -2607,14 +2531,6 @@
     "message": "No aprobado",
     "description": "2.0 exam.js"
   },
-  "remain": {
-    "message": "Restante",
-    "description": "2.0 exam.js"
-  },
-  "let": {
-    "message": "Voluntad",
-    "description": "2.0 exam.js"
-  },
   "objectivesQ": {
     "message": "Pregunta objetiva",
     "description": "2.0 exam.js"
@@ -2775,10 +2691,6 @@
     "message": "Abandonar",
     "description": "2.0 exam.js"
   },
-  "examHeadTips3": {
-    "message": "{DetectEnv} antes del examen para confirmar que la red, el equipo, el navegador, etc. son normales.",
-    "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
-  },
   "detectEnv": {
     "message": "Entorno de prueba",
     "description": "2.0 exam.js"
@@ -2809,10 +2721,6 @@
   },
   "deleteBatch2": {
     "message": "Elimine la granja de servidores.",
-    "description": "2.0 exam.js"
-  },
-  "examEnd": {
-    "message": "Fin del examen",
     "description": "2.0 exam.js"
   },
   "auditTipsClassroom": {
