@@ -8,7 +8,7 @@
     "description": "2.0 index.js"
   },
   "welcomeTea": {
-    "message": "{name} Teacher, welcome",
+    "message": "Welcome, {name}!",
     "description": "印尼语翻译老师请注意：由于印尼语前面有一个性别称呼，因此，整个句子使用 “|” 分为三个部分，第一个部分对应女性，第二个部分对应男性，但三个部分对应性别未知。其它老师请无视。"
   },
   "day": {
@@ -24,7 +24,7 @@
     "description": "2.0 index.js"
   },
   "welcomeStu": {
-    "message": "{name} Classmate, welcome",
+    "message": "Welcome, {name}!",
     "description": "2.0 index.js"
   },
   "more": {
@@ -48,7 +48,7 @@
     "description": "2.0 index.js"
   },
   "joinCourse": {
-    "message": "Join course class",
+    "message": "Enroll Course/Class",
     "description": "2.0 index.js"
   },
   "activeTextbook": {
@@ -88,7 +88,7 @@
     "description": "2.0 index.js"
   },
   "modify": {
-    "message": "Modify",
+    "message": "Edit",
     "description": "2.0 index.js"
   },
   "delete": {
@@ -100,7 +100,7 @@
     "description": "2.0 index.js"
   },
   "unpublish": {
-    "message": "Not yet published",
+    "message": "Unpublished",
     "description": "2.0 index.js"
   },
   "published": {
@@ -108,11 +108,11 @@
     "description": "2.0 index.js"
   },
   "waitForCheck": {
-    "message": "Please wait for the teacher's approval to join class",
+    "message": "The enrollment request is submitted and waiting for the teacher's approval.",
     "description": "2.0 index.js"
   },
   "undoApplication": {
-    "message": "Withdraw join class application",
+    "message": "Withdraw Enrollment Request",
     "description": "2.0 index.js"
   },
   "none": {
@@ -192,15 +192,19 @@
     "description": "2.0 index.js"
   },
   "courseTitleTips": {
-    "message": "Teachers have created course with the same name. It is suggested that you communicate with the course manager to see whether you need to create the course separately.",
+    "message": "A course with the same course name already exists. It is recommended that you first communicate with the course admin/owner for that course to see whether you need to create a separate course.",
+    "description": "2.0 index.js"
+  },
+  "courseTitleExistTips": {
+    "message": "A course with the same course name (created by {name}) already exists. It is recommended that you first communicate with the course admin/owner for that course to see whether you need to create a separate course.",
     "description": "2.0 index.js"
   },
   "isContinueCreate": {
-    "message": "Continue creating?",
+    "message": "Continue to create?",
     "description": "2.0 index.js"
   },
   "continCreate": {
-    "message": "Continue creating",
+    "message": "Continue to create",
     "description": "2.0 index.js"
   },
   "continue": {
@@ -212,27 +216,27 @@
     "description": "2.0 index.js"
   },
   "unchangeableTips": {
-    "message": "It can't be changed after creation. Please operate with caution.",
+    "message": "Cannot be changed after creation, please proceed with caution.",
     "description": "2.0 index.js"
   },
   "schoolCourse": {
-    "message": "School Course",
+    "message": "School Internal Courses",
     "description": "2.0 index.js"
   },
   "publicCcourseTips1": {
-    "message": "Open courses are only open to some cooperative colleges and teachers for the time being.,",
+    "message": "Open courses are only open to some partner schools and teachers",
     "description": "2.0 index.js"
   },
   "publicCcourseTips2": {
-    "message": "If you need to create open courses or apply for online open courses, please contact customer service (service.sg@ulearning.cn) to explain your needs, and we will contact you as soon as possible.",
+    "message": "If you need to create open courses or apply for online open course programs, please contact customer service (service.sg@ulearning.cn) with your needs and requirements. We will contact you as soon as possible.",
     "description": "2.0 index.js"
   },
   "publicCcourseTips3": {
-    "message": "Online courses are open to the whole society without class activities and teaching for different classes",
+    "message": "Online courses are open to the public. It is self-paced study - one session for all and no classroom activities.",
     "description": "2.0 index.js"
   },
   "schoolCourseTips1": {
-    "message": "For school use only. Only school students can select to study the course. Support organizing classroom activities and teaching for different classes",
+    "message": "Open for the school students only with classroom activities. Multiple course sessions (classes) can be offered.",
     "description": "2.0 index.js"
   },
   "courseCover": {
@@ -256,7 +260,7 @@
     "description": "2.0 index.js"
   },
   "deleteCourseTips2": {
-    "message": "This course has been linked to the following Open Courses. If you need to delete it, please login to U-Author account to delink it.",
+    "message": "The course has been bound by the following open courses. I you want to delete, please first log in to your U-Author account to unbind.",
     "description": "2.0 index.js"
   },
   "pleaseInput": {
@@ -264,7 +268,7 @@
     "description": "2.0 index.js"
   },
   "confirmDelete": {
-    "message": "Confirm to delete",
+    "message": "Confirm to Delete",
     "description": "2.0 index.js"
   },
   "openCourse": {
@@ -276,31 +280,31 @@
     "description": "2.0 index.js"
   },
   "quitCourseTips1": {
-    "message": "Are you sure to quit the course? After quitting the course, you",
+    "message": "Are you sure to withdraw the course? After withdrawal, you ",
     "description": "2.0 index.js"
   },
   "quitCourseTips2": {
-    "message": "1. Cannot continue to learn the content of courseware;",
+    "message": "1. Cannot continue to view the courseware",
     "description": "2.0 index.js"
   },
   "quitCourseTips3": {
-    "message": "2. Cannot check the records of previous assignments, exams, classroom activities, etc.",
+    "message": "2. Cannot access the records of previous assignments, exams, classroom activities, etc.",
     "description": "2.0 index.js"
   },
   "quitCourseTips4": {
-    "message": "3. Ca not continue to receive course messages, etc.",
+    "message": "3. Cannot continue to receive course notifications",
     "description": "2.0 index.js"
   },
   "quitCourseTips5": {
-    "message": "After quitting the course, you will not be able to check the content of the courseware and participate in the course activities.",
+    "message": "After withdrawing the course, you will not be able to view the courseware and participate in the course activities any more.",
     "description": "2.0 index.js"
   },
   "quitCourseTips6": {
-    "message": "Are you sure to quit the course?",
+    "message": "Are you sure you want to withdraw the course?",
     "description": "2.0 index.js"
   },
   "confirmQuit": {
-    "message": "Confirm to quit",
+    "message": "Confirm",
     "description": "2.0 index.js"
   },
   "unshelveCourseTips1": {
@@ -312,19 +316,19 @@
     "description": "2.0 index.js"
   },
   "unshelveCourseTips3": {
-    "message": "At the end of the course, it will not be displayed on the website and no new students will be able to join the course class.",
+    "message": "After it ends, the course will be removed from the course catalog site and won't accept any new enrollment.",
     "description": "2.0 index.js"
   },
   "unshelveCourseTips4": {
-    "message": "At the end of the course class, you cannot modify the course information and teaching content.",
+    "message": "After the course ends, you won't be able to edit the course and its content any more.",
     "description": "2.0 index.js"
   },
   "unshelveCourseTips5": {
-    "message": "Students who have joined the course class can continue to study.",
+    "message": "Students who have enrolled the course can continue the learning.",
     "description": "2.0 index.js"
   },
   "unshelveCourseTips6": {
-    "message": "Ended course cannot be released again.",
+    "message": "Ended courses cannot be republished.",
     "description": "2.0 index.js"
   },
   "confirmEnd": {
@@ -332,7 +336,7 @@
     "description": "2.0 index.js"
   },
   "confirmEndCourse": {
-    "message": "Confirm to end the course?",
+    "message": "Are you sure you want to end this course?",
     "description": "2.0 index.js"
   },
   "courseTitleRequired": {
@@ -340,99 +344,99 @@
     "description": "2.0 index.js"
   },
   "courseTitleLengthTips": {
-    "message": "The course name should be 2-100 letters!",
+    "message": "The course name must be 2-100 characters!",
     "description": "2.0 index.js"
   },
   "joinCourseTips1": {
-    "message": "Attention~",
+    "message": "Attention Everyone!",
     "description": "2.0 index.js"
   },
   "joinCourseTips2": {
-    "message": "Dear students, there are two ways to join the course class:",
+    "message": "You can enroll a course class in two ways:",
     "description": "2.0 index.js"
   },
   "joinCourseTips3": {
-    "message": "1. Scan the QR code of the class thorough APP, confirm the information and join class.",
+    "message": "1. Scan the QR code of the course class via ULearning app on your mobile device and follow the instructions to enroll.",
     "description": "2.0 index.js"
   },
   "joinCourseTips4": {
-    "message": "2.Enter the class code to search the class, confirm the information and join class.",
+    "message": "2. Enter the class code (provided by your teacher) to search the class and follow the instructions to enroll.",
     "description": "2.0 index.js"
   },
   "joinCourseTips5": {
-    "message": "Both of the above methods require the teacher to provide QR code and class code.",
+    "message": "You teacher/school can provide the course class QR code or the class code",
     "description": "2.0 index.js"
   },
   "joinCourseTips6": {
-    "message": "Tips for joining class",
+    "message": "Tips for enrolling the course class",
     "description": "2.0 index.js"
   },
   "joinCourseTips7": {
-    "message": "The class belongs to",
+    "message": "The course class you are trying to enroll is offered by  ",
     "description": "2.0 index.js"
   },
   "joinCourseTips8": {
-    "message": "，Unlike your current school, if you continue to join, your school information will be changed as",
+    "message": ", which is not your school. If you enroll this course class, your school information will be changed to .",
     "description": "2.0 index.js"
   },
   "joinCourseTips9": {
-    "message": "，Confirm to join？",
+    "message": ". Are you sure you want to enroll？",
     "description": "2.0 index.js"
   },
   "joinCourseTips10": {
-    "message": "You have joined the class and can begin to study.",
+    "message": "You have already enrolled this course class and can start your learning journey now.",
     "description": "2.0 index.js"
   },
   "joinCourseTips11": {
-    "message": "The course of the class is over so student cannot join the class",
+    "message": "The course already ended and cannot accept new enrollments",
     "description": "2.0 index.js"
   },
   "joinCourseTips12": {
-    "message": "You have joined other classes of this course. Do not re-join. If you join the wrong class, please contact the teacher to change the class.",
+    "message": "You have already enrolled one of the classes offered by this course. You cannot enroll multiple classes of the same course. If you enrolled the a wrong class and want to switch to a different class, please contact the teacher to do it for you.",
     "description": "2.0 index.js"
   },
   "joinCourseTips13": {
-    "message": "You have applied to join. Please wait for the teacher's approval.",
+    "message": "The enrollment request is submitted and waiting for the teacher's approval.",
     "description": "2.0 index.js"
   },
   "joinCourseTips14": {
-    "message": "Failed to join",
+    "message": "Failed to enroll!",
     "description": "2.0 index.js"
   },
   "joinCourseTips15": {
-    "message": "Current user is not in student role, so you can’t join the class",
+    "message": "The user role is not student and cannot be added to the course class",
     "description": "2.0 index.js"
   },
   "joinCourseTips16": {
-    "message": "Congratulations on your successful entry into the class. You can start learning.",
+    "message": "Congratulations! You are enrolled and can start learning now.",
     "description": "2.0 index.js"
   },
   "courseCodeTips1": {
-    "message": "Enter code to join the class",
+    "message": "Enter the code to search/enroll the class",
     "description": "2.0 index.js"
   },
   "courseCodeTips2": {
-    "message": "Please ask your teacher for the class code and enter the code at the upper end.",
+    "message": "Get the the class code from you teacher and  then enter the code above",
     "description": "2.0 index.js"
   },
   "courseCodeTips3": {
-    "message": "No course class was found. Please enter the correct class code.",
+    "message": "No course class was found. Make sure you enter the correct class code.",
     "description": "2.0 index.js"
   },
   "courseCodeTips4": {
-    "message": "Please enter the correct class code.",
+    "message": "Please enter the correct class code",
     "description": "2.0 index.js"
   },
   "courseCodeTips5": {
-    "message": "Please enter the class code.",
+    "message": "Please enter the class code",
     "description": "2.0 index.js"
   },
   "downloadUmoocTips": {
-    "message": "Scan to download Ulearning 2.0",
+    "message": "Scan to download Ulearning app",
     "description": "2.0 index.js"
   },
   "className": {
-    "message": " Class Name",
+    "message": "Class Name",
     "description": "2.0 index.js"
   },
   "orgName": {
@@ -444,11 +448,11 @@
     "description": "2.0 index.js"
   },
   "confirmJoin": {
-    "message": "Confirm to join",
+    "message": "Confirm to Enroll",
     "description": "2.0 index.js"
   },
   "enterCourse": {
-    "message": "Enter the course",
+    "message": "Open Course",
     "description": "2.0 index.js"
   },
   "closePage": {
@@ -464,15 +468,15 @@
     "description": "2.0 index.js"
   },
   "searchError": {
-    "message": "Search failure",
+    "message": "Search failed!",
     "description": "2.0 index.js"
   },
   "improveCourse": {
-    "message": "Improve the course",
+    "message": "Complete Course Settings",
     "description": "2.0 index.js"
   },
   "createCourseTips1": {
-    "message": "Congratulations on creating the course! Please continue to improve the course according to the practical teaching arrangement.",
+    "message": "Congratulations! Course created! You can continue to complete the course settings as needed.",
     "description": "2.0 index.js"
   },
   "courseTeam": {
@@ -480,11 +484,11 @@
     "description": "2.0 index.js"
   },
   "courseTeamTips": {
-    "message": "If more than one teacher is required to teach the course, and teachers are responsible for different classes, please choose the teaching team.",
+    "message": "If multiple teachers are needed to teach the different course classes, please select the Team Teaching.",
     "description": "2.0 index.js"
   },
   "personalTeaching": {
-    "message": "Personal Teaching",
+    "message": "Individual Teaching",
     "description": "2.0 index.js"
   },
   "teamTeaching": {
@@ -492,63 +496,63 @@
     "description": "2.0 index.js"
   },
   "personalTeachingTips": {
-    "message": "If it is course classes are personal management only, please choose personal teaching.",
+    "message": "If all the course classes are managed/taught by a single teacher, please select the Individual Teaching option.",
     "description": "2.0 index.js"
   },
   "currentCourseIs": {
-    "message": "Current course is",
+    "message": "Current course is ",
     "description": "2.0 index.js"
   },
   "courseRoleTips": {
-    "message": " mode, in this course, you are",
+    "message": " mode. In this course, you are ",
     "description": "2.0 index.js"
   },
   "improveCourseTips1": {
-    "message": "Please complete the following information",
+    "message": ". Please complete the following information: ",
     "description": "2.0 index.js"
   },
   "improveCourseTips2": {
-    "message": "Course managers have the highest permission in the teaching team. They can manage all members of the course and check the learning progress, activity performance and assessment results of all classes etc.",
+    "message": "Course managers have the highest privileges in the teaching team. They can manage all members of the course and check the learning progress, activity performance, and assessment results of all classes, and more.",
     "description": "2.0 index.js"
   },
   "improveCourseTips3": {
-    "message": "Generally speaking, teachers and assistants are pulled into the course by the course managers. Teachers and assistants are authorized with different the different levels of permissions in teaching management and member management. Please set it up according to the prompt.",
+    "message": "Teachers and teaching assistants are usually added by the course manager pulled into the course by the course managers. Different roles have different privileges. Follow the instructions to set up.",
     "description": "2.0 index.js"
   },
   "relateTextbook": {
-    "message": "Link courseware",
+    "message": "Assign Courseware",
     "description": "2.0 index.js"
   },
   "textbookTips1": {
-    "message": "Designate courseware for this course. If you don't need courseware for your course, you don’t have to fill in.",
+    "message": "Assign the courseware to the course. If no courseware is needed for your course, you can skip it.",
     "description": "2.0 index.js"
   },
   "textbookTips2": {
-    "message": "Courseware for this course has not been designated by the course manager for the time being.",
+    "message": "No courseware has been assigned to this course by the course manager.",
     "description": "2.0 index.js"
   },
   "textbookTips3": {
-    "message": "The courseware linked to this course is as follows：",
+    "message": "The courseware assigned to this course is listed below: ",
     "description": "2.0 index.js"
   },
   "addTeacher": {
-    "message": "Add teacher",
+    "message": "Add Teacher",
     "description": "2.0 index.js"
   },
   "createTeachingTeam": {
-    "message": "Create teaching team",
+    "message": "Set up Teaching Team",
     "description": "2.0 index.js"
   },
   "teachingTeamTips1": {
-    "message": "Teachers are assigned to this course with assigned roles according to the division of labor. There are three roles: course manager, teacher and assistant.",
+    "message": "Add teachers to the course and assign roles to the teachers added: Course Manager, Teacher , or Teaching Assistant (TA).",
     "description": "2.0 index.js"
   },
   "teachingTeamTips2": {
-    "message": "The teaching team for this course includes the following members：",
+    "message": "The teaching team members for this course are listed below: ",
     "description": "2.0 index.js"
   },
   "courseCreator": {
-    "message": "Course creator",
+    "message": "Course Creator",
     "description": "2.0 index.js"
   },
   "courseAdministrator": {
@@ -556,31 +560,31 @@
     "description": "2.0 index.js"
   },
   "teachingAssistant": {
-    "message": "Assistant",
+    "message": "Teaching Assistant",
     "description": "2.0 index.js"
   },
   "setClass": {
-    "message": "Set Class",
+    "message": "Set up Class",
     "description": "2.0 index.js"
   },
   "skipSetting": {
-    "message": "Skip setting",
+    "message": "Skip",
     "description": "2.0 index.js"
   },
   "classSettingTips1": {
-    "message": "Please create a class (or ask the teachers of the teaching team to create it) and assign teachers to the class.",
+    "message": "Create a class (or let a teaching team member create it) and assign a teacher to the class.",
     "description": "2.0 index.js"
   },
   "classSettingTips2": {
-    "message": "Please create your class or wait for the manager to designate it for you",
+    "message": "Either create your class or let the admin or course manager assign a class to you",
     "description": "2.0 index.js"
   },
   "classSettingTips3": {
-    "message": "Please wait for the manager to assign class for you.",
+    "message": "Wait for the admin or course manager to assign a class to you",
     "description": "2.0 index.js"
   },
   "classSettingTips4": {
-    "message": "The classes in this course are as follows：",
+    "message": "The classes in this course are listed below: ",
     "description": "2.0 index.js"
   },
   "teachingProcess": {
@@ -588,11 +592,11 @@
     "description": "2.0 index.js"
   },
   "processTips1": {
-    "message": "As a blended learning cloud platform for teaching institutes, Ulearning has been committed to helping teachers realize SPOC (Small Private Online Courses) teaching mode that combines online teaching with classroom teaching.",
+    "message": "As a cloud-based learning management platform, ULearning is flexible for you to organize your courses using many different teaching/learning models such as flipped classroom, SPOC, blended, hybrid learning, etc.",
     "description": "2.0 index.js"
   },
   "processTips2": {
-    "message": "In order to better serve SPOC teaching on campus, Ulearning 2.0 has changed from a \"class\" teaching mode to a \"course\" teaching mode. It supports both teachers' individual teaching and teaching research group's co-management of courses and team teaching in different classes.",
+    "message": "With ULearning, a course can offer multiple classes. The classes can have the shared components as well as individually customized components. They can be taught by an individual teacher or by multiple teachers as a team. The teachers can apply whatever teaching/learning model as needed to the class they are teaching.",
     "description": "2.0 index.js"
   },
   "processTips3": {
