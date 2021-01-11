@@ -743,37 +743,33 @@
     "message": "IP监控",
     "description": "手机考试zh.json"
   },
-  "IPMonitorTips": {
-    "message": "，中途请勿切换网络",
-    "description": "手机考试zh.json"
+  "IPMonitorTip": {
+    "message": "已开启{ip}，中途请勿切换网络",
+    "description": "{ip} 指的是 IP监控"
   },
   "deviceMonitor": {
     "message": "设备监控",
     "description": "手机考试zh.json"
   },
-  "deviceMonitorTips": {
-    "message": "，中途请勿更换设备或浏览器",
-    "description": "手机考试zh.json"
+  "deviceMonitorTip": {
+    "message": "已开启{device}，中途请勿更换设备或浏览器",
+    "description": "{device} 指的是设备监控"
   },
   "photoMonitor": {
     "message": "抓拍监控",
     "description": "手机考试zh.json"
   },
-  "photoMonitorTips": {
-    "message": "，请保持前置摄像头开启状态",
-    "description": "手机考试zh.json"
+  "photoMonitorTip": {
+    "message": "已开启{photo}，请保持前置摄像头开启状态",
+    "description": "{photo} 指的是抓拍监控"
   },
   "faceRecognition": {
     "message": "人脸识别",
     "description": "手机考试zh.json"
   },
-  "faceRecognitionTips": {
-    "message": "，需要通过人脸验证进入考试",
-    "description": "手机考试zh.json"
-  },
-  "hasOpened": {
-    "message": "已开启",
-    "description": "手机考试zh.json"
+  "faceRecognitionTip": {
+    "message": "已开启{face}，需要通过人脸验证进入考试",
+    "description": "{face} 指的是人脸识别"
   },
   "unOpened": {
     "message": "未开启",
@@ -815,17 +811,9 @@
     "message": "切屏监控",
     "description": "手机考试zh.json"
   },
-  "screenMonitorTips1": {
-    "message": "，中途离开",
-    "description": "手机考试zh.json"
-  },
-  "screenMonitorTips2": {
-    "message": "将强制交卷",
-    "description": "手机考试zh.json"
-  },
-  "timesNum": {
-    "message": "{num}次",
-    "description": "手机考试zh.json"
+  "screenMonitorTips": {
+    "message": "已开启{screen}，中途离开{num}次将强制交卷",
+    "description": "{screen} 指的是切屏监控"
   },
   "recordShowAfterSubmit": {
     "message": "交卷后立即显示",
@@ -869,6 +857,10 @@
   },
   "onlyPCExe": {
     "message": "仅电脑客户端",
+    "description": "手机考试zh.json"
+  },
+  "onlyMobile": {
+    "message": "仅手机",
     "description": "手机考试zh.json"
   },
   "unlimitType": {
