@@ -7,6 +7,10 @@
     "message": "Nilai ujian",
     "description": "2.0 exam.js"
   },
+  "gradeSumCl": {
+    "message": "Soal objektif/Soal subjektif/Total nilai",
+    "description": "2.0 {filename}"
+  },
   "examinationAnalysis": {
     "message": "Analisa ujian",
     "description": "2.0 exam.js"
@@ -119,6 +123,22 @@
     "message": "Nama lengkap",
     "description": "2.0 exam.js"
   },
+  "namePrefix": {
+    "message": "Nama: {name}",
+    "description": "2.0 {filename}"
+  },
+  "accountPrefix": {
+    "message": "Akun: {account}",
+    "description": "2.0 {filename}"
+  },
+  "schoolPrefix": {
+    "message": "Universitas: {org}",
+    "description": "2.0 {filename}"
+  },
+  "certPrefix": {
+    "message": "No. sertifikat penilaian: {no}",
+    "description": "2.0 {filename}"
+  },
   "totalScore": {
     "message": "Total nilai",
     "description": "2.0 exam.js"
@@ -183,9 +203,9 @@
     "message": "Silahkan pilih batch yang ikut bergabung dalam ujian",
     "description": "2.0 exam.js"
   },
-  "to": {
-    "message": " sampai ",
-    "description": "2.0 exam.js"
+  "betweenTime": {
+    "message": "{startTime} sampai {endTime}",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> “全部场次”选择框 \n 教师账号 -> 考试 -> 查看成绩 -> 设置重考 \n 教师账号 -> 考试 -> 添加考试 \n 教师账号 -> 考试 -> 查看成绩 -> 设置重考(要求当前没有批次) -> 添加批次 \n 教师账号 -> 考试 -> 查看成绩 -> 考务管理 -> 场次按排 -> 添加场次"
   },
   "confirm": {
     "message": "OK",
@@ -575,16 +595,16 @@
     "message": "Tingkat non-partisipasi",
     "description": "2.0 exam.js"
   },
-  "day": {
-    "message": "hari",
-    "description": "2.0 exam.js"
-  },
   "hour": {
     "message": "jam",
     "description": "2.0 exam.js"
   },
-  "seconds": {
-    "message": "detik",
+  "minute": {
+    "message": "{count} menit",
+    "description": "2.0 exam.js"
+  },
+  "timeLength": {
+    "message": "{days} hari {hours} jam {minutes} menit {seconds} detik",
     "description": "2.0 exam.js"
   },
   "scoringRate": {
@@ -655,6 +675,10 @@
     "message": "Jumlah menjawab",
     "description": "2.0 exam.js"
   },
+  "answeredTimes": {
+    "message": "Jumlah jawaban/Jumlah maksimal",
+    "description": "2.0 {filename}"
+  },
   "achievement": {
     "message": "Nilai",
     "description": "2.0 exam.js"
@@ -671,6 +695,18 @@
     "message": "Telah selesai",
     "description": "2.0 exam.js"
   },
+  "examDurationCl": {
+    "message": "Durasi ujian: {count} menit",
+    "description": "2.0 exam.js"
+  },
+  "lateTime": {
+    "message": "Waktu telat: {count}",
+    "description": "2.0 exam.js"
+  },
+  "lateTimeSet": {
+    "message": "Waktu telat",
+    "description": "2.0 exam.js"
+  },
   "myself": {
     "message": "Saya sendiri",
     "description": "2.0 exam.js"
@@ -679,17 +715,25 @@
     "message": "Mulai",
     "description": "2.0 exam.js"
   },
+  "startDatePrefix": {
+    "message": "Mulai: {time}",
+    "description": "2.0 {filename}"
+  },
   "ended": {
     "message": "Selesai",
     "description": "2.0 exam.js"
+  },
+  "endDatePrefix": {
+    "message": "Selesai: {time}",
+    "description": "2.0 {filename}"
   },
   "noBatch": {
     "message": "Belum ada batch",
     "description": "2.0 exam.js"
   },
-  "part": {
-    "message": " buah",
-    "description": "2.0 exam.js"
+  "partOf": {
+    "message": "{n} buah",
+    "description": "教师账号 -> 考试"
   },
   "randomGroupPaper": {
     "message": "Pengelompokan kertas ujian secara acak",
@@ -735,9 +779,9 @@
     "message": "Setelah ujian berakhir",
     "description": "2.0 exam.js"
   },
-  "dayShow": {
-    "message": "hari akan ditampilkan",
-    "description": "2.0 exam.js"
+  "dayShowExam": {
+    "message": "Ditampilkan {n} hari setelah ujian selesai",
+    "description": "学生账号 -> 考试"
   },
   "examTips5": {
     "message": "Nilai untuk sementara tidak dipublikasi",
@@ -754,6 +798,10 @@
   "networkErrorTips": {
     "message": "Terjadi kesalahan pada jaringan internet, klik",
     "description": "2.0 exam.js"
+  },
+  "networkErrorTips2": {
+    "message": "Kesalahan jaringan, klik {button} untuk memuat ulang",
+    "description": "2.0 {filename}"
   },
   "loadErrorTips": {
     "message": "Terjadi kesalahan pada saat pemuatan, klik",
@@ -789,6 +837,22 @@
   },
   "remarkTips1": {
     "message": "Catatan: Apabila peserta ujian telah mengumpulkan catatan dengan beberapa kali menjawab pertanyaan, maka akan secara otomatis menampilkan catatan terakhir kali",
+    "description": "2.0 exam.js"
+  },
+  "totalQue": {
+    "message": "Total {n} soal",
+    "description": "2.0 exam.js"
+  },
+  "queOf": {
+    "message": "{n} soal",
+    "description": "2.0 exam.js"
+  },
+  "queIndex": {
+    "message": "Soal ke {n}",
+    "description": "2.0 exam.js"
+  },
+  "answeringCount": {
+    "message": "Jawaban ke {n}",
     "description": "2.0 exam.js"
   },
   "seeDetails": {
@@ -1015,9 +1079,9 @@
     "message": "Nilai tidak boleh lebih dari total nilai",
     "description": "2.0 exam.js"
   },
-  "times": {
-    "message": "kali",
-    "description": "2.0 exam.js"
+  "timesOf": {
+    "message": "{n} kali",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息 \n 教师账号 -> 考试 -> 考试监控 -> 列表形式 -> 异常记录"
   },
   "baseInformation": {
     "message": "Informasi dasar",
@@ -1027,9 +1091,13 @@
     "message": "Nama ujian:",
     "description": "2.0 exam.js"
   },
-  "answerTimesCl": {
-    "message": "Jumlah menjawab:",
+  "answerDurationCl": {
+    "message": "Durasi menjawab: {count}",
     "description": "2.0 exam.js"
+  },
+  "answerTimesOf": {
+    "message": "Jumlah menjawab: {count}",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息"
   },
   "passScoreCl": {
     "message": "Nilai lolos:",
@@ -1109,10 +1177,6 @@
   },
   "commitImmediatelyShow": {
     "message": "Segera rilis setelah mengumpul kertas ujian",
-    "description": "2.0 exam.js"
-  },
-  "dayAfterShow": {
-    "message": "hari kemudian ditampilkan",
     "description": "2.0 exam.js"
   },
   "cannotAllForbidden": {
@@ -1217,11 +1281,11 @@
   },
   "auditPassed": {
     "message": "Telah disetujui",
-    "description": "2.0 exam.js"
+    "description": "有两个审核通过文本，对应key是auditPassed的表示审核通过的状态，对应key是auditPassVerb表示执行通过审核通过的动作，常用于按钮"
   },
   "auditPassVerb": {
     "message": "Telah disetujui",
-    "description": "2.0 exam.js"
+    "description": "有两个审核通过文本，对应key是auditPassed的表示审核通过的状态，对应key是auditPassVerb表示执行通过审核通过的动作，常用于按钮"
   },
   "auditFailed": {
     "message": "Belum disetujui",
@@ -1271,13 +1335,13 @@
     "message": "Masuk ke ujian melalui nomor verifikasi",
     "description": "2.0 exam.js"
   },
-  "studentNOCl": {
-    "message": "NIM:",
-    "description": "2.0 exam.js"
+  "studentNOCl2": {
+    "message": "NIM: {no}",
+    "description": "2.0 {filename}"
   },
-  "classCl": {
-    "message": "kelas:",
-    "description": "2.0 exam.js"
+  "classOf": {
+    "message": "Kelas: {className}",
+    "description": "此功能已被替换，但代码还在，为了安全，所以重构了插值。"
   },
   "waitApproved": {
     "message": "Akan dikoreksi",
@@ -1423,6 +1487,14 @@
     "message": "Sesi ujian",
     "description": "2.0 exam.js"
   },
+  "batchNo": {
+    "message": "Sesi {n}",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考务管理 -> 场次按排 \n 教师账号 -> 考试 -> 查看成绩 -> 考试监控 \n 教师账号 -> 考试 -> 添加考试 \n 教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
+  },
+  "batchNoTime": {
+    "message": "Sesi {n}: {startTime} sampai {endTime}",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排"
+  },
   "clearExamRoomPlan": {
     "message": "Hapus pengaturan ruang ujian",
     "description": "2.0 exam.js"
@@ -1455,13 +1527,17 @@
     "message": "Dosen pengawas",
     "description": "2.0 exam.js"
   },
-  "etc": {
-    "message": "dll",
-    "description": "2.0 exam.js"
+  "etcOfPeople": {
+    "message": "{name} total {n} orang",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排"
   },
-  "people": {
-    "message": "orang",
-    "description": "2.0 exam.js"
+  "etcOf": {
+    "message": "{name} dll",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 (当学生单独参加考试，没有在班级中时，才会出现这个)"
+  },
+  "peopleOf": {
+    "message": "[{n} orang]",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "empty": {
     "message": "Kosong",
@@ -1597,6 +1673,10 @@
   },
   "roomTips7": {
     "message": "Belum ada mahasiswa",
+    "description": "2.0 exam.js"
+  },
+  "batchExpand": {
+    "message": "Sesi diperpanjang {count} menit",
     "description": "2.0 exam.js"
   },
   "roomTips8": {
@@ -1749,11 +1829,11 @@
   },
   "unuploadedPhotos": {
     "message": "Belum unggah foto",
-    "description": "2.0 exam.js"
+    "description": "有两个未上传照片，分别为unuploadedPhotos和unuploadedPhotosAlt，unuploadedPhotos表示未上传照片的人数，unuploadedPhotosAlt是未上传照片时的替代文本，类似于网页上当图片加载失败后，会显示替代文本"
   },
   "unuploadedPhotosAlt": {
     "message": "Belum unggah foto",
-    "description": "2.0 exam.js"
+    "description": "有两个未上传照片，分别为unuploadedPhotos和unuploadedPhotosAlt，unuploadedPhotos表示未上传照片的人数，unuploadedPhotosAlt是未上传照片时的替代文本，类似于网页上当图片加载失败后，会显示替代文本"
   },
   "batchOpration": {
     "message": "Pengoperasian batch",
@@ -2235,17 +2315,17 @@
     "message": "Silahkan pilih ruang ujian yang perlu digunakan di setiap ujian, jumlah tempat duduk di setiap ujian harus lebih banyak dari jumlah peserta ujian",
     "description": "2.0 exam.js"
   },
-  "seat": {
-    "message": "tempat duduk",
-    "description": "2.0 exam.js"
+  "seatOf": {
+    "message": "{n} kursi",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
-  "examStudent": {
-    "message": "Peserta ujian",
-    "description": "2.0 exam.js"
+  "examStudentOf": {
+    "message": "{n} peserta ujian",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
-  "seats": {
-    "message": "Tempat duduk",
-    "description": "2.0 exam.js"
+  "seatsOf": {
+    "message": "{n} kursi",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "roomEditorTips5": {
     "message": "Sistem telah menghasilkan pengaturan secara otomatis sesuai dengan jumlah orang di dalam kelas dan jumlah tempat duduk di ruang ujian, anda dapat melakukan pengaturan secara manual, setelah dikonfirmasi, simpan hasil pengaturan.",
@@ -2271,18 +2351,6 @@
     "message": "Anda bisa menggeser kelas saat ini ke ruang ujian lain; juga bisa memilih sebagian mahasiswa dari kelas saat ini untuk pindah ke ruang ujian lain.",
     "description": "2.0 exam.js"
   },
-  "roomEditorTips8": {
-    "message": "(Jumlah mahasiswa:",
-    "description": "2.0 exam.js"
-  },
-  "roomEditorTips9": {
-    "message": ") di antaranya",
-    "description": "2.0 exam.js"
-  },
-  "roomEditorTips10": {
-    "message": "orang dipindahkan ke ruang ujian di bawah ini:",
-    "description": "2.0 exam.js"
-  },
   "roomEditorTips11": {
     "message": "Yakin untuk hapus ruang ujian tersebut?",
     "description": "2.0 exam.js"
@@ -2303,9 +2371,9 @@
     "message": "Silahkan pilih ruang ujian",
     "description": "2.0 exam.js"
   },
-  "roomEditorTips16": {
-    "message": "Jumlah tempat duduk lebih sedikit dari jumlah peserta ujian",
-    "description": "2.0 exam.js"
+  "roomEditorTip16": {
+    "message": "Jumlah kursi pada sesi {n} lebih sedikit dari jumlah peserta ujian",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "roomEditorTips17": {
     "message": "Jumlah peserta ujian tidak boleh 0 ",
@@ -2363,9 +2431,9 @@
     "message": "Segera tampilkan",
     "description": "2.0 exam.js"
   },
-  "daysAfterShow": {
-    "message": "hari kemudian ditampilkan",
-    "description": "2.0 exam.js"
+  "afterDaysShow": {
+    "message": "Ditampilkan setelah {n} hari",
+    "description": "教师账号 -> 考试 -> 添加考试"
   },
   "weekAfterShow": {
     "message": "{count} minggu kemudian ditampilkan",
@@ -2607,13 +2675,17 @@
     "message": "Tidak disetujui",
     "description": "2.0 exam.js"
   },
-  "remain": {
-    "message": "Sisa",
-    "description": "2.0 exam.js"
+  "remainSeatOf": {
+    "message": "Sisa {n} kursi",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
-  "let": {
-    "message": "Mengubah",
-    "description": "2.0 exam.js"
+  "remainSeatOf2": {
+    "message": "{roomName} (Sisa {n} kursi)",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 -> 修改考场"
+  },
+  "modifyRoomTip": {
+    "message": "Pindahkan {n} orang dari kelas {className} (Total mahasiswa: {total} orang) ke ruang ujian di bawah ini:",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 -> 修改考场"
   },
   "objectivesQ": {
     "message": "Soal objektif",
@@ -2775,9 +2847,9 @@
     "message": "Tinggalkan",
     "description": "2.0 exam.js"
   },
-  "examHeadTips3": {
-    "message": "Sebelum ujian silahkan {detectEnv}, pastikan jaringan internet, perangkat, browser berjalan normal.",
-    "description": "minuteTip 的插值是 检测考试环境，就是下面的 detectEnv"
+  "examHeadTips4": {
+    "message": "Sebelum ujian dimulai silahkan {detectEnv}, pastikan jaringan internet, perangkat, browser dll berjalan normal.",
+    "description": "detectEnv 的插值是“检测考试环境”，就是下面的 detectEnv 字段"
   },
   "detectEnv": {
     "message": "Uji lingkungan ujian",
@@ -2785,6 +2857,42 @@
   },
   "deletePhoto": {
     "message": "Hapus foto",
+    "description": "2.0 exam.js"
+  },
+  "deletePhoto2": {
+    "message": "Hapus foto rekaman",
+    "description": "2.0 exam.js"
+  },
+  "replaceDevice": {
+    "message": "Ganti perangkat",
+    "description": "2.0 exam.js"
+  },
+  "replaceIp": {
+    "message": "Ganti IP",
+    "description": "2.0 exam.js"
+  },
+  "systemPhoto": {
+    "message": "Foto rekaman sistem",
+    "description": "2.0 exam.js"
+  },
+  "inCorrectPhoto": {
+    "message": "Foto tidak sesuai dengan orang asli",
+    "description": "2.0 exam.js"
+  },
+  "photoRemoved": {
+    "message": "Foto telah dihapus",
+    "description": "2.0 exam.js"
+  },
+  "deviceID": {
+    "message": "ID Perangkat: {id}",
+    "description": "2.0 exam.js"
+  },
+  "confirmDeletePhoto": {
+    "message": "Yakin untuk hapus seluruh foto rekaman mahasiswa di kelas ini?",
+    "description": "2.0 exam.js"
+  },
+  "confirmDeletePhoto2": {
+    "message": "Yakin untuk hapus foto rekaman mahasiswa ini?",
     "description": "2.0 exam.js"
   },
   "recordShowAfterSubmit": {
@@ -2803,6 +2911,14 @@
     "message": "Tampilkan setelah ujian usai",
     "description": "2.0 exam.js"
   },
+  "afterExamFinishedTips2": {
+    "message": "Ditampilkan {n} hari setelah ujian selesai",
+    "description": "2.0 {filename}"
+  },
+  "weekPublish": {
+    "message": "Diumumkan setelah {n} minggu",
+    "description": "2.0 exam.js"
+  },
   "noPublish": {
     "message": "Tidak dipublikasi",
     "description": "2.0 exam.js"
@@ -2811,9 +2927,9 @@
     "message": "Hapus sesi ujian",
     "description": "2.0 exam.js"
   },
-  "examEnd": {
-    "message": "Ujian selesai",
-    "description": "2.0 exam.js"
+  "examDaysPublish": {
+    "message": "Diumumkan {n} hari setelah ujian selesai",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息"
   },
   "auditTipsClassroom": {
     "message": "Verifikasi wajah telah diaktifkan, foto verifikasi peserta ujian harus diunggah terlebih dahulu. Foto dapat diimpor sekaligus oleh dosen, juga dapat diunggah sendiri oleh mahasiswa. Dosen dapat memeriksa foto yang diunggah oleh mahasiswa.",
@@ -2821,6 +2937,230 @@
   },
   "faceServiceTips": {
     "message": "Identifikasi wajah dan penangkapan pengawasan merupakan layanan berbayar. Universitas anda belum mengaktifkannya, untuk pengaktifan, silahkan hubungi layanan pelanggan",
+    "description": "2.0 exam.js"
+  },
+  "borwserTip": {
+    "message": "Browser saat ini adalah: {browser}, silahkan gunakan Internet Explorer!",
+    "description": "2.0 {filename}"
+  },
+  "offlineTip": {
+    "message": "Mohon konfigurasi alamat ujian offline terlebih dahulu sebelum melaksanakan ujian",
+    "description": "2.0 {filename}"
+  },
+  "restoreLocalRecord": {
+    "message": "Kembalikan catatan jawaban lokal",
+    "description": "2.0 {filename}"
+  },
+  "findExamTip": {
+    "message": "Jika daftar ujian di bawah ini tidak ditemukan ujian yang perlu anda ikuti, silahkan periksa apakah anda telah masuk ke dalam akun yang benar, atau periksa apakah anda telah berada di kelas yang benar.",
+    "description": "2.0 {filename}"
+  },
+  "faceServiceTipsNew": {
+    "message": "Identifikasi wajah dan pengawasan kamera merupakan layanan berbayar. Universitas anda belulm mengaktifkannya, silahkan hubungi layanan pelanggan untuk pengaktifan",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCWeb": {
+    "message": "Hanya web komputer",
+    "description": "2.0 exam.js"
+  },
+  "onlyMobile": {
+    "message": "Hanya APP ponsel",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExe": {
+    "message": "Hanya sisi pelanggan lockscreen komputer",
+    "description": "2.0 exam.js"
+  },
+  "unlimit": {
+    "message": "Tidak terbatas",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeTips": {
+    "message": "Saat menggunakan {PCExe} untuk ikut ujian, peserta ujian tidak boleh meninggalkan halaman ujian selama ujian berlangsung, cocok digunakan untuk ujian yang lebih ketat, atau untuk ujian terpusat di ruang komputer.",
+    "description": "2.0 exam.js"
+  },
+  "PCExe": {
+    "message": "Sisi pelanggan lockscreen komputer",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeTips1": {
+    "message": "Dengan memilih opsi ini, sebelum ujian, harus install akun pelanggan ujian ULearn terlebih dahulu di komputer. Saat ini hanya mendukung sistem diatas Win7, tidak mendukung Mac. Untuk menghindari terjadinya kesalahan, disarankan lakukan ujian mock terlebih dahulu untuk pengetesan.",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration": {
+    "message": "Durasi menjawab",
+    "description": "2.0 exam.js"
+  },
+  "resultPublic": {
+    "message": "Cakupan publikasi",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorItem": {
+    "message": "Aktifkan pengawasan kamera, termasuk foto proses, deteksi AI, perekaman kondisi tidak biasa",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorTips": {
+    "message": "Peserta ujian harus tetap menyalakan kamera dan mempertahankan agar gambar tetap stabil, hanya mendukung ujian komputer",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent": {
+    "message": "Pemantauan kamera meliputi:",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent1": {
+    "message": "1. Foto proses: Ambil foto peserta ujian setiap 1 menit.",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent2": {
+    "message": "2. Deteksi AI: Sistem memantau gerakan tubuh peserta ujian melalui kamera secara real-time, bisa memeriksa dan merekam saat peserta ujian meninggalkan kursi, penyimpangan pandangan dalam jangka waktu lama, berbisik dengan orang lain dan kondisi tidak biasa lainnya.",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent3": {
+    "message": "3. Perekaman kondisi tidak biasa: Saat sistem menemukan kondisi tidak biasa, maka akan secara otomatis direkam serta mengunggah klip video kondisi tersebut untuk ditinjau nanti.",
+    "description": "2.0 exam.js"
+  },
+  "cameraMonitor": {
+    "message": "Pemantauan kamera",
+    "description": "2.0 exam.js"
+  },
+  "PCExe1": {
+    "message": "Akun pelanggan komputer",
+    "description": "2.0 exam.js"
+  },
+  "PCweb": {
+    "message": "Web komputer",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips5": {
+    "message": "Disini adalah seluruh ujian yang dirilis oleh dosen, sebelum masuk ujian, mohon periksa rincian informasi dari setiap ujian.",
+    "description": "2.0 exam.js"
+  },
+  "downloadPCExe": {
+    "message": "Unduh akun pelanggan ujian",
+    "description": "2.0 exam.js"
+  },
+  "webEnvTest": {
+    "message": "Deteksi lingkungan ujian web",
+    "description": "2.0 exam.js"
+  },
+  "examFaceVerification": {
+    "message": "Verifikasi wajah ujian",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeBtnTips": {
+    "message": "Silahkan gunakan akun pelanggan ujian ULearn untuk ikut serta dalam ujian",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCWebBtnTips": {
+    "message": "Silahkan gunakan browser untuk ujian web",
+    "description": "2.0 exam.js"
+  },
+  "monitorRecords": {
+    "message": "Rekaman pemantauan",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminder": {
+    "message": "Pengingat tidak biasa",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderFilter": {
+    "message": "Saring informasi tidak biasa",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderTitle1": {
+    "message": "Jejak jawaban tidak biasa",
+    "description": "2.0 exam.js"
+  },
+  "mobileExam": {
+    "message": "Ujian ponsel",
+    "description": "2.0 exam.js"
+  },
+  "exception1": {
+    "message": "Meninggalkan halaman > 5 detik",
+    "description": "2.0 exam.js"
+  },
+  "exception2": {
+    "message": "Sistem mewajibkan penyerahan kertas ujian",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderTitle2": {
+    "message": "Sikap tidak biasa",
+    "description": "2.0 exam.js"
+  },
+  "leaveSeat": {
+    "message": "Meninggalkan kursi",
+    "description": "2.0 exam.js"
+  },
+  "deviation": {
+    "message": "Penyimpangan pandangan > 2 detik",
+    "description": "2.0 exam.js"
+  },
+  "deviation1": {
+    "message": "Penyimpanan pandangan",
+    "description": "2.0 exam.js"
+  },
+  "talk": {
+    "message": "Berbisik dengan orang lain",
+    "description": "2.0 exam.js"
+  },
+  "examMonitorRecords": {
+    "message": "Rekaman pemantauan ujian",
+    "description": "2.0 exam.js"
+  },
+  "answerTrack": {
+    "message": "Jejak jawaban",
+    "description": "2.0 exam.js"
+  },
+  "clearfixMonitorRecords": {
+    "message": "Hapus rekaman pemantauan",
+    "description": "2.0 exam.js"
+  },
+  "normalState": {
+    "message": "Status normal",
+    "description": "2.0 exam.js"
+  },
+  "confirmClearMonitorRecords": {
+    "message": "Yakin untuk hapus rekaman pemantauan?",
+    "description": "2.0 exam.js"
+  },
+  "timeDay": {
+    "message": "{days} hari",
+    "description": "2.0 exam.js"
+  },
+  "timeHour": {
+    "message": "{hours} jam",
+    "description": "2.0 exam.js"
+  },
+  "timeSecond": {
+    "message": "{seconds} detik",
+    "description": "2.0 exam.js"
+  },
+  "UTestName": {
+    "message": "Sistem ujian U-Test",
+    "description": "2.0 exam.js"
+  },
+  "UTestInputName": {
+    "message": "Silahkan masukkan akun",
+    "description": "2.0 exam.js"
+  },
+  "UTestInputPsd": {
+    "message": "Silahkan masukkan kata sandi",
+    "description": "2.0 exam.js"
+  },
+  "UTestLoginErr": {
+    "message": "Nama pengguna atau kata sandi salah",
+    "description": "2.0 exam.js"
+  },
+  "UTestLogin": {
+    "message": "Masuk",
+    "description": "2.0 exam.js"
+  },
+  "UTestLogout": {
+    "message": "Keluar",
+    "description": "2.0 exam.js"
+  },
+  "UTestDesc": {
+    "message": "Penjelasan: Sisi pelanggan ini hanya mendukung mahasiswa ikut serta dalam ujian. Untuk registrasi akun, ikut bergabung dalam kelas dan pengoperasian lainnya, silahkan login terlebih dahulu di web ULearn atau APP ULearn",
     "description": "2.0 exam.js"
   }
 }
