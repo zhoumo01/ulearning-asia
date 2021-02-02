@@ -207,6 +207,10 @@
     "message": "Order by student ID",
     "description": "小应用"
   },
+  "orderByEnterTimes": {
+    "message": "Sort by # of activities participated",
+    "description": "小应用"
+  },
   "complete": {
     "message": " CompleteD ",
     "description": "小应用"
@@ -397,6 +401,10 @@
   },
   "logTip": {
     "message": "Logged in at another device!",
+    "description": "小应用"
+  },
+  "dontActToo": {
+    "message": "Do not do it too frequently!",
     "description": "小应用"
   },
   "teacher.title": {
@@ -745,6 +753,34 @@
   },
   "pick.confirmRestart": {
     "message": "Are you sure you want to re-start this Random Pick？",
+    "description": "小应用"
+  },
+  "pick.pickStuTitle": {
+    "message": "Pick students",
+    "description": "小应用"
+  },
+  "pick.participateTimes2": {
+    "message": "Compete to Answer: {interlocutionCount}; Being Picked: {joinCount}",
+    "description": "小应用"
+  },
+  "pick.picked": {
+    "message": "Picked",
+    "description": "小应用"
+  },
+  "pick.absent": {
+    "message": "Absent",
+    "description": "小应用"
+  },
+  "pick.pick": {
+    "message": "Pick",
+    "description": "小应用"
+  },
+  "pick.pickFromDuty": {
+    "message": "Pick from all attendants",
+    "description": "小应用"
+  },
+  "pick.addPickFirst": {
+    "message": "No roll calls yet in this session. Use this function after you have launched a roll call.",
     "description": "小应用"
   },
   "score.title": {
@@ -1103,8 +1139,16 @@
     "message": "\"Sign in with QR code\", use screen casting to show the QR code.",
     "description": "小应用"
   },
+  "attendance.locationTips": {
+    "message": "To use Location Sign-in, you need to turn on the Location Tracking function. The location data might have a certain degree of deviation (not as precise as it should be). ",
+    "description": "小应用"
+  },
   "attendance.qrCodeUpdateTips": {
     "message": " Update QR code every 15s ",
+    "description": "小应用"
+  },
+  "attendance.oneKeySign": {
+    "message": "Location Sign-in ",
     "description": "小应用"
   },
   "attendance.qrCodeSign": {
@@ -1333,6 +1377,42 @@
   },
   "attendance.endAttendence": {
     "message": "End Attendence",
+    "description": "小应用"
+  },
+  "attendance.inputNumCode": {
+    "message": "Please enter the code",
+    "description": "小应用"
+  },
+  "attendance.surround": {
+    "message": "Nearby location",
+    "description": "小应用"
+  },
+  "attendance.getPosAgain": {
+    "message": "Re-location",
+    "description": "小应用"
+  },
+  "attendance.openPos": {
+    "message": "Turn location on for your phone",
+    "description": "小应用"
+  },
+  "attendance.positon": {
+    "message": "Location",
+    "description": "小应用"
+  },
+  "attendance.confirmPos": {
+    "message": "Please confirm the sign-in location",
+    "description": "小应用"
+  },
+  "attendance.userNumber": {
+    "message": "Student ID: {studentID}",
+    "description": "小应用"
+  },
+  "attendance.attData": {
+    "message": "Present: {signCount}; Absent: {absenceCount}; Attendance Rate: {rate} ",
+    "description": "小应用"
+  },
+  "attendance.teaEnter": {
+    "message": "No location - the teacher entered",
     "description": "小应用"
   },
   "announcement.title": {
@@ -1589,6 +1669,10 @@
   },
   "answer.participateTimes": {
     "message": "Participated {times} times",
+    "description": "小应用"
+  },
+  "answer.participateAndSelectTimes": {
+    "message": "Compete to Answer: {count}; Being Picked: {selectCount}",
     "description": "小应用"
   },
   "answer.orderByStuNo": {
@@ -3769,6 +3853,18 @@
   },
   "classroom.playOrPause": {
     "message": "Play/Pause",
+    "description": "小应用"
+  },
+  "classroom.classLive": {
+    "message": "Live Session",
+    "description": "小应用"
+  },
+  "classroom.playbackTip": {
+    "message": "Generating video... and will be available 30 minutes after the live session ends",
+    "description": "小应用"
+  },
+  "live.enterLiveRoom": {
+    "message": "Live session is in progress - Click to join",
     "description": "小应用"
   }
 }
