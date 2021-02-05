@@ -23,13 +23,9 @@
     "message": "Insert Exam",
     "description": "2.0 reponsitory.js"
   },
-  "haveSelected": {
-    "message": "Selected",
-    "description": "2.0 reponsitory.js"
-  },
-  "examPapers": {
-    "message": "exam(s)",
-    "description": "2.0 reponsitory.js"
+  "selectedPaper": {
+    "message": "Selected {n} exams",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "myExamPaper": {
     "message": "My Exam Bank",
@@ -48,7 +44,7 @@
     "description": "2.0 reponsitory.js"
   },
   "currentPosition": {
-    "message": "Current Position:",
+    "message": "Current Position: ",
     "description": "2.0 reponsitory.js"
   },
   "allExamPaper": {
@@ -56,7 +52,7 @@
     "description": "2.0 reponsitory.js"
   },
   "inpputExamPaperNameSearch": {
-    "message": "Enter exam paper name to search",
+    "message": "Enter exam name to search",
     "description": "2.0 reponsitory.js"
   },
   "addFolder": {
@@ -84,7 +80,7 @@
     "description": "2.0 reponsitory.js"
   },
   "lastModifyTime": {
-    "message": "Last Updated",
+    "message": "Last Updated ",
     "description": "2.0 reponsitory.js"
   },
   "operation": {
@@ -112,7 +108,7 @@
     "description": "2.0 reponsitory.js"
   },
   "appointTeacher": {
-    "message": "Assign teacher",
+    "message": "Assign Teacher",
     "description": "2.0 reponsitory.js"
   },
   "modify": {
@@ -148,20 +144,20 @@
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips1": {
-    "message": "No corresponding paper found",
+    "message": "No exams found!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips2": {
-    "message": "No paper, click to add exam paper",
+    "message": "No exams - Click to add exam",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips3": {
-    "message": "No exam paper",
+    "message": "No exams found!",
     "description": "2.0 reponsitory.js"
   },
-  "networkExceptionTips": {
-    "message": "Network error, please click",
-    "description": "2.0 reponsitory.js"
+  "networkError": {
+    "message": "Network error - Click the {reloadButton} button ",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源 \n 课程列表 -> 上方试卷库"
   },
   "reload": {
     "message": "Reload",
@@ -188,15 +184,15 @@
     "description": "2.0 reponsitory.js"
   },
   "deleteTips": {
-    "message": "Tips to delete ",
+    "message": "Tips for Deletion",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips5": {
-    "message": "Are you sure to delete this folder? When deleted thoroughly, the papers under the folder will also be deleted. If deleted papers are applied to other examinations, the examinations will not be available.",
+    "message": "Are you sure you want to delete this folder? Deleting a folder will delete all the exams inside the folder. It will also impact the course exams which use these exams.",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips6": {
-    "message": "Keep the exam papers, delete folder only",
+    "message": "Keep the exams and delete the folder only",
     "description": "2.0 reponsitory.js"
   },
   "deleteAll": {
@@ -216,7 +212,7 @@
     "description": "2.0 reponsitory.js"
   },
   "achievement": {
-    "message": "Result",
+    "message": "Grade",
     "description": "2.0 reponsitory.js"
   },
   "allClass": {
@@ -224,7 +220,7 @@
     "description": "2.0 reponsitory.js"
   },
   "homePage": {
-    "message": "Homepage",
+    "message": "First Page",
     "description": "2.0 reponsitory.js"
   },
   "lastPage": {
@@ -244,67 +240,67 @@
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips7": {
-    "message": "The paper that has been used cannot be modified.",
+    "message": "The exams in use cannot be edited!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips8": {
-    "message": "The data will not be recovered after deletion. Are you sure to delete the exam paper?？",
+    "message": "The data will not be recovered after deletion. Are you sure you want to delete？",
     "description": "2.0 reponsitory.js"
   },
   "deleteExamPaper": {
-    "message": "Delete exam paper",
+    "message": "Delete Exam",
     "description": "2.0 reponsitory.js"
   },
   "deleteSuccess": {
-    "message": "Deleted successfully",
+    "message": "Deleted successfully!",
     "description": "2.0 reponsitory.js"
   },
   "deleteFailed": {
-    "message": "Failed to delete",
+    "message": "Failed to delete!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips9": {
-    "message": "There is no exam paper",
+    "message": "The exam does not exist!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips10": {
-    "message": "Only creator of the exam paper can delete the paper.",
+    "message": "Only the exam creator can delete the exam!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips11": {
-    "message": "Answer record cannot be deleted",
+    "message": "Exams with the answer records cannot be deleted!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips12": {
-    "message": "Those already used in the exam paper cannot be deleted",
+    "message": "Those already used in exam cannot be deleted!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips13": {
-    "message": "Do you need topic analysis？",
+    "message": "Do you need the answer explanation?",
     "description": "2.0 reponsitory.js"
   },
   "copySuccess": {
-    "message": "Copied",
+    "message": "Duplicated successfully!",
     "description": "2.0 reponsitory.js"
   },
   "copyFailed": {
-    "message": "Failed to copy",
+    "message": "Failed to duplicate!",
     "description": "2.0 reponsitory.js"
   },
   "modifySuccess": {
-    "message": "Edited successfully",
+    "message": "Edited successfully!",
     "description": "2.0 reponsitory.js"
   },
   "modifyFailed": {
-    "message": "Failed to edit",
+    "message": "Failed to edit!",
     "description": "2.0 reponsitory.js"
   },
   "createSuccess": {
-    "message": "Created",
+    "message": "Created successfully!",
     "description": "2.0 reponsitory.js"
   },
   "createFailed": {
-    "message": "Failed to create",
+    "message": "Failed to create!",
     "description": "2.0 reponsitory.js"
   },
   "myResource": {
@@ -344,7 +340,7 @@
     "description": "2.0 reponsitory.js"
   },
   "addRichtext": {
-    "message": "Add Rich Text",
+    "message": "Add Rich Content",
     "description": "2.0 reponsitory.js"
   },
   "resourceName": {
@@ -359,28 +355,24 @@
     "message": "Selected",
     "description": "2.0 reponsitory.js"
   },
-  "items": {
-    "message": " items",
-    "description": "2.0 reponsitory.js"
+  "selectedItems": {
+    "message": "Selected {n} items",
+    "description": "课程列表 -> 上方资源库 \n 课程列表 -> 上方试卷库"
   },
   "cancelMultipleSelection": {
-    "message": "Cancel multiple selections",
+    "message": "Unselect All",
     "description": "2.0 reponsitory.js"
   },
-  "total": {
-    "message": "Total",
-    "description": "2.0 reponsitory.js"
-  },
-  "number": {
-    "message": " items",
-    "description": "2.0 reponsitory.js"
+  "totalOf": {
+    "message": "Total {n} ",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源"
   },
   "size": {
     "message": "Size",
     "description": "2.0 reponsitory.js"
   },
   "createTime": {
-    "message": "Created Date",
+    "message": "Date Created ",
     "description": "2.0 reponsitory.js"
   },
   "publish": {
@@ -388,11 +380,11 @@
     "description": "2.0 reponsitory.js"
   },
   "resourceTips1": {
-    "message": "No corresponding resources found.",
+    "message": "No resources found!",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips2": {
-    "message": "No resources found",
+    "message": "No resources found!",
     "description": "2.0 reponsitory.js"
   },
   "folderName": {
@@ -404,7 +396,7 @@
     "description": "2.0 reponsitory.js"
   },
   "addTeacher2": {
-    "message": "Add teacher",
+    "message": "Add Teacher",
     "description": "2.0 reponsitory.js"
   },
   "inputNameSearch": {
@@ -412,11 +404,11 @@
     "description": "2.0 reponsitory.js"
   },
   "resourceTips16": {
-    "message": "Select the course(s) you want to publish the resource(s) to:",
+    "message": "Select the course(s) you want to publish the resource(s) to: ",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips17": {
-    "message": "There are no courses yet. Please create course first.",
+    "message": "No courses yet - Create a course first",
     "description": "2.0 reponsitory.js"
   },
   "save": {
@@ -428,7 +420,7 @@
     "description": "2.0 reponsitory.js"
   },
   "createMicroCourse": {
-    "message": "Create micro-course",
+    "message": "Create Micro-course",
     "description": "2.0 reponsitory.js"
   },
   "microCourseName": {
@@ -436,7 +428,7 @@
     "description": "2.0 reponsitory.js"
   },
   "resourceTips6": {
-    "message": "Please enter the name of the micro-course.",
+    "message": "Click to enter the micro-course name",
     "description": "2.0 reponsitory.js"
   },
   "KnowledgePoints": {
@@ -444,15 +436,15 @@
     "description": "2.0 reponsitory.js"
   },
   "resourceTips7": {
-    "message": "Enter up to 5 knowledge points and press Enter key to complete.",
+    "message": "Enter up to 5 knowledge points and press the Enter key to add",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips8": {
-    "message": "Open comments and likes to know more about learning feedback",
+    "message": "Enable Comment and Like for more feedback",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips9": {
-    "message": "(Details of comments can be found in the \"Comment Analysis\" section of micro-course data statistics.)",
+    "message": " (Comment details can be found in the \"Comment Analysis\" section of the micro-course statistics)",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips10": {
@@ -460,19 +452,19 @@
     "description": "2.0 reponsitory.js"
   },
   "pleaseSelectTeacher": {
-    "message": "Please select teacher",
+    "message": "Select Teachers",
     "description": "2.0 reponsitory.js"
   },
   "shareSuccess": {
-    "message": "Shared successfully",
+    "message": "Shared successfully!",
     "description": "2.0 reponsitory.js"
   },
   "moveSuccess": {
-    "message": "Moved successfully",
+    "message": "Moved successfully!",
     "description": "2.0 reponsitory.js"
   },
   "moveFailed": {
-    "message": "Failed to move",
+    "message": "Failed to move!",
     "description": "2.0 reponsitory.js"
   },
   "deleteResource": {
@@ -484,11 +476,11 @@
     "description": "2.0 reponsitory.js"
   },
   "pleaseSelectCourse": {
-    "message": "Please select course",
+    "message": "Select Course",
     "description": "2.0 reponsitory.js"
   },
   "publishSuccess": {
-    "message": "Published successfully",
+    "message": "Published successfully!",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips11": {
@@ -496,15 +488,19 @@
     "description": "2.0 reponsitory.js"
   },
   "newMicroCourse": {
-    "message": "New microcourse",
+    "message": "Create Micro-course",
     "description": "2.0 reponsitory.js"
   },
   "recordMicroCourse": {
-    "message": "Record microcourse",
+    "message": "Record Micro-course",
+    "description": "2.0 reponsitory.js"
+  },
+  "peopleResource": {
+    "message": "People.cn Open Courses",
     "description": "2.0 reponsitory.js"
   },
   "selectPageAllRes": {
-    "message": "Select All",
+    "message": "Select all on this page",
     "description": "2.0 reponsitory.js"
   },
   "select": {
@@ -512,15 +508,27 @@
     "description": "2.0 reponsitory.js"
   },
   "allClassify": {
-    "message": "All categories.",
+    "message": "All categories",
     "description": "2.0 reponsitory.js"
   },
-  "selectedNum": {
-    "message": "Files Selected:",
-    "description": "2.0 reponsitory.js"
+  "selectedCount": {
+    "message": "Selected: {n} ",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "selectRes": {
     "message": "Select Resource",
+    "description": "2.0 reponsitory.js"
+  },
+  "courseKeyword": {
+    "message": "Enter keyword to search course",
+    "description": "2.0 reponsitory.js"
+  },
+  "unitKeyword": {
+    "message": "Enter keyword to search module/topic",
+    "description": "2.0 reponsitory.js"
+  },
+  "resKeyword": {
+    "message": "Enter keyword to search resource",
     "description": "2.0 reponsitory.js"
   }
 }

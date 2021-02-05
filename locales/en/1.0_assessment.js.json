@@ -1,22 +1,22 @@
 {
   "courseAssess": {
-    "message": "Course Evaluation Rule",
+    "message": "Course Grading Rules",
     "description": "1.0 assessment.json"
   },
   "summarizingTipsTxt1": {
-    "message": "You're summarizing result, this window cannot be closed before summarization is completed.",
+    "message": "Grade summarizing is in progress - Do not close the window before it's done!",
     "description": "1.0 assessment.json"
   },
   "summarizingTipsTxt2": {
-    "message": "System has completed score summarization for the said rule, teachers and students will not be able to check the result summary after the rule is deleted, please handle with care. If confirmed to be deleted, please input verification code at the bottom.",
+    "message": "Deleting course grading rules will also delete the summarized grades based on the course grading rules. Please proceed with caution. If you really want to delete, enter the verification code below.",
     "description": "1.0 assessment.json"
   },
   "codeErrorTxt": {
-    "message": "Verification code error!",
+    "message": "Incorrect verification code!",
     "description": "1.0 assessment.json"
   },
   "deleteSucTxt": {
-    "message": "Delete successfully!",
+    "message": "Deleted successfully!",
     "description": "1.0 assessment.json"
   },
   "failDeleteTxt": {
@@ -24,79 +24,79 @@
     "description": "1.0 assessment.json"
   },
   "summarizingTipsTxt3": {
-    "message": "Abnormality occurs during summarization process",
+    "message": "An error occurred during the grade summarizing!",
     "description": "1.0 assessment.json"
   },
   "summarizingTipsTxt4": {
-    "message": "Server abnormal, summarization fails!",
+    "message": "Server error - The grade summarizing failed!",
     "description": "1.0 assessment.json"
   },
   "serviceErrorTxt": {
-    "message": "Server error, please try again later!",
+    "message": "Server error - Please try again later!",
     "description": "1.0 assessment.json"
   },
   "inputTxtTips": {
-    "message": "User name can only include Chinese name, English alphabets, figure and underscore",
+    "message": "Usernames can only contain letters, numbers, underscores, and Chinese characters.",
     "description": "1.0 assessment.json"
   },
   "notFoundTxt": {
-    "message": "Cannot find relevant course, please key in again or re-select!",
+    "message": "No courses found - Please re-enter or select!",
     "description": "1.0 assessment.json"
   },
   "inputTxtTips1": {
-    "message": "Must key in scoring rule name!",
+    "message": "Enter the Grading Rules name",
     "description": "1.0 assessment.json"
   },
   "inputTxtTips2": {
-    "message": "Rule name should be within 200 words!",
+    "message": "The Grading Rules name must be less than 200 characters!",
     "description": "1.0 assessment.json"
   },
   "inputTxtTips3": {
-    "message": "Special characters are rejected ",
+    "message": "Cannot contain special characters! ",
     "description": "1.0 assessment.json"
   },
   "inputTxtTips4": {
-    "message": "Name of rule can't be empty",
+    "message": "The Grading Rules name already exists!",
     "description": "1.0 assessment.json"
   },
   "inputTxtTips5": {
-    "message": "Must select relevant course!",
+    "message": "Must select a course!",
     "description": "1.0 assessment.json"
   },
   "inputTxtTips6": {
-    "message": "Must key in total score!",
+    "message": "Must enter total points!",
     "description": "1.0 assessment.json"
   },
   "inputTxtTips7": {
-    "message": "Enter a positive interger of 5-1000!",
+    "message": "Enter a positive integer of 5-1000!",
     "description": "1.0 assessment.json"
   },
   "inputTxtTips8": {
-    "message": "Must set deadline!",
+    "message": "A due date must be set!",
     "description": "1.0 assessment.json"
   },
   "inputTxtTips9": {
-    "message": "Must select relevant class!",
+    "message": "Must select a class or classes!",
     "description": "1.0 assessment.json"
   },
   "tipsTxt1": {
-    "message": "Evaluation time has ended, not allowed to modify the score item",
+    "message": "It passed the due date already. Editing is not allowed any more.",
     "description": "1.0 assessment.json"
   },
   "tipsTxt2": {
-    "message": "Note: If you want to modify, please re-set the evaluation deadline",
+    "message": "Note: If you still want to edit, re-set the grading due date.",
     "description": "1.0 assessment.json"
   },
   "alerttips": {
-    "message": "This strategy is the summary, and collect more than deadline not summary again",
+    "message": "It passed the due date and the grades are already summarized. You cannot re-summarize the course grades.",
     "description": "1.0 assessment.json"
   },
   "examTipTxt": {
-    "message": "Currenlty not supporting operation for exam related courses!",
+    "message": "It currently does not support exam-type courses!",
     "description": "1.0 assessment.json"
   },
   "resourceTxt": {
-    "message": "Currenlty not supporting operation for resource related courses!",
+    "message": "It currently does not support resource-type courses!",
     "description": "1.0 assessment.json"
   },
   "selectCourseTxt": {
@@ -104,7 +104,7 @@
     "description": "1.0 assessment.json"
   },
   "selectRelevantCourseTxt": {
-    "message": "Select relavant class first!",
+    "message": "First, select the course to associate with!",
     "description": "1.0 assessment.json"
   },
   "selectByYearTxt": {
@@ -120,11 +120,11 @@
     "description": "1.0 assessment.json"
   },
   "inputClassNameTxt": {
-    "message": "Key in class name",
+    "message": "Enter the class name",
     "description": "1.0 assessment.json"
   },
   "selectClassTxt": {
-    "message": "Select class",
+    "message": "Select Class",
     "description": "1.0 assessment.json"
   },
   "selectClassFirseTxt": {
@@ -132,7 +132,7 @@
     "description": "1.0 assessment.json"
   },
   "noDataTxt": {
-    "message": "Cannot find relevant data, please key in again or re-select!",
+    "message": "No data found - Please try again!",
     "description": "1.0 assessment.json"
   },
   "selectAllTxt": {
@@ -140,19 +140,19 @@
     "description": "1.0 assessment.json"
   },
   "haveRule": {
-    "message": "Already had rules ",
+    "message": "It already has grading rules",
     "description": "1.0 assessment.json"
   },
   "noDataTxt1": {
-    "message": "Cannot find relevant data",
+    "message": "No data found!",
     "description": "1.0 assessment.json"
   },
   "loadDataTxt": {
-    "message": "Fail to load data, please check the Internet!",
+    "message": "Failed to load data - please check the network!",
     "description": "1.0 assessment.json"
   },
   "inputTipsTxt": {
-    "message": "Enter a positive interger of 1-100!",
+    "message": "Enter an integer of 1-100 only!",
     "description": "1.0 assessment.json"
   },
   "selectNodeTxt": {
@@ -160,63 +160,63 @@
     "description": "1.0 assessment.json"
   },
   "countRuleTxt": {
-    "message": "Calculate rules",
+    "message": "Grading Rule",
     "description": "1.0 assessment.json"
   },
   "selectAllChpaterTxt": {
-    "message": "Select all chapters",
+    "message": "Select all modules",
     "description": "1.0 assessment.json"
   },
   "averageScoreTxt": {
-    "message": "According to the average score of the selected chapter",
+    "message": "Graded by the avg score of the selected modules",
     "description": "1.0 assessment.json"
   },
   "selectCourseAndRulesTxt": {
-    "message": "Select the course chapter and calculate rules",
+    "message": "Select course modules and grading rule",
     "description": "1.0 assessment.json"
   },
   "inputTipsTxt1": {
-    "message": "Please enter a study time of full mark",
+    "message": "Enter a learning time for a score of total possible",
     "description": "1.0 assessment.json"
   },
   "inputTipsTxt2": {
-    "message": "Please enter a study time of zero",
+    "message": "Enter a cut-off learning time for a score of 0",
     "description": "1.0 assessment.json"
   },
   "inputTipsTxt3": {
-    "message": "Please select a scoring rule",
+    "message": "Select a grading rule",
     "description": "1.0 assessment.json"
   },
   "inputTipsTxt4": {
-    "message": "Please select the evaluation chapter",
+    "message": "Select the grading module/topic",
     "description": "1.0 assessment.json"
   },
   "noAssiTxt": {
-    "message": "No assignment of the teacher",
+    "message": "No assignments yet",
     "description": "1.0 assessment.json"
   },
   "averageScoreAssiTxt": {
-    "message": "According to the average score of selected assignment",
+    "message": "Graded by the avg score of the selected assignments",
     "description": "1.0 assessment.json"
   },
   "selectAssiTxt": {
-    "message": "Select assignment",
+    "message": "Select Assignment",
     "description": "1.0 assessment.json"
   },
   "noAssiTxt1": {
-    "message": "No assignment of the teacher",
+    "message": "No assignments yet",
     "description": "1.0 assessment.json"
   },
   "noExamTxt": {
-    "message": "No exam of the teacher",
+    "message": "No exams yet",
     "description": "1.0 assessment.json"
   },
   "examTipsTxt": {
-    "message": "If a test allows students to answer multiple times, the default selection of the highest score as a student of the examination results",
+    "message": "If multiple attempts allowed for an exam, the highest score is counted",
     "description": "1.0 assessment.json"
   },
   "moreExamTxt": {
-    "message": "Multi - examination test results",
+    "message": "Grading Rule for Multiple Exams",
     "description": "1.0 assessment.json"
   },
   "highTxt": {
@@ -232,63 +232,99 @@
     "description": "1.0 assessment.json"
   },
   "confirmDeleteTxt": {
-    "message": "Confirm you want to delete the rating item?",
+    "message": "Are you sure you want to delete this grade item?",
     "description": "1.0 assessment.json"
   },
   "scoreTipsTxt1": {
-    "message": "The current weight has reached 100%, if you want to continue to add the score, please modify the weight of other rating items.",
+    "message": "The total weight of the selected grading items is already 100%. If you want to add more grading items, edit the weights first to make the total smaller than 100%.",
     "description": "1.0 assessment.json"
   },
   "tableTipsTxt": {
-    "message": "There are also missing entries in the table",
+    "message": "There are still missing entries in the form",
     "description": "1.0 assessment.json"
   },
   "scoreTipsTxt2": {
-    "message": "The total weight of current all rating items is less than 100%,Please ensure the total weight is 100% and then click Finish to create.",
+    "message": "The sum of weights should be 100%. Edit the weights and then click the Finish button to create.",
     "description": "1.0 assessment.json"
   },
   "scoreTipsTxt3": {
-    "message": "The total weight has been more than 100%, please modify the weight of each rating item.",
+    "message": "The sum of weights is more than 100%. Edit the weights and then save.",
     "description": "1.0 assessment.json"
   },
   "createSucTxt": {
-    "message": "Create successfully!",
+    "message": "Created successfully!",
     "description": "1.0 assessment.json"
   },
   "createFailTxt": {
-    "message": "Failed to create",
+    "message": "Failed to create!",
     "description": "1.0 assessment.json"
   },
   "confirmCancelTxt": {
-    "message": "This will cause the edited content of the page cannot to be saved,confirm to cancel?",
+    "message": "The updates you made on this page won't be saved after the cancellation. Are you sure you want to cancel?",
     "description": "1.0 assessment.json"
   },
   "confirmCancel": {
-    "message": "Cancel",
+    "message": "Confirm to Cancel",
     "description": "1.0 assessment.json"
   },
   "clickErrorTxt": {
-    "message": "Click wrong",
+    "message": "Clicked wrong!",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired1": {
+    "message": "The cumulative learning progress of the selected modules reaches {inputMax}% for total possible; less than {inputMin}% for 0 point",
+    "description": "1.0 assessment.json"
+  },
+  "assessRequired2": {
+    "message": "For the the selected modules, the cumulative learning progress per module reaches {inputMax}% for total possible; less than {inputMin}% for 0 point",
     "description": "1.0 assessment.json"
   },
   "assessRequired3": {
-    "message": "Selected chapters'cumulative learning time reaches {inputMax} minutes is full mark, if lower than {inputMin} minutes is Zero score.",
+    "message": "The cumulative learning time of the selected modules reaches {inputMax} minutes for total possible; less than {inputMin} minutes for 0 point",
     "description": "1.0 assessment.json"
   },
   "assessRequired4": {
-    "message": "Each one of selected chapters' cumulative learning time reaches {inputMax} minutes is full mark, if lower than {inputMin} minutes is Zero score.",
+    "message": "For the selected modules, the cumulative learning time per module reaches {inputMax} minutes for total possible; less than {inputMin} minutes for 0 point",
     "description": "1.0 assessment.json"
   },
   "assessRequired5": {
-    "message": "Each one of selected chapters' learning time reaches {inputMax} minutes is full mark, if lower than {inputMin} minutes is Zero score.",
+    "message": "For the selected topics, the cumulative learning time per topic reaches {inputMax} minutes for total possible; less than {inputMin} minutes for 0 point",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation1": {
+    "message": "The content of this courseware differs between the PC version and the ULearning App version. If students have accessed the content on both PC and ULearning App, the learning time will be calculated based on the total sum of both.",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation2": {
+    "message": "The courseware score is calculated separately for PC and ULearning App. The higher score of each module/topic is counted toward the course final grade. Also the score for the PC-only content  (the content is not available for ULearning App) is counted toward the final grade ",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation3": {
+    "message": "(The red color indicates that this section appears only in the PC version)",
+    "description": "1.0 assessment.json"
+  },
+  "associatePaper": {
+    "message": "The exams associated",
+    "description": "1.0 assessment.json"
+  },
+  "selectRule": {
+    "message": "Select course modules and grading rule",
+    "description": "1.0 assessment.json"
+  },
+  "setCourseTime": {
+    "message": "Set the course learning time",
+    "description": "1.0 assessment.json"
+  },
+  "setCourseGrade": {
+    "message": "Grade Course",
     "description": "1.0 assessment.json"
   },
   "operationSetps1": {
-    "message": "Please follow the steps below to do",
+    "message": "Follow the steps below: ",
     "description": "1.0 assessment.json"
   },
   "operationSetps2": {
-    "message": "Download the template and organize the data in the format of the template",
+    "message": "Download the template and organize the data in the formats specified in the the template",
     "description": "1.0 assessment.json"
   },
   "operationSetps3": {
@@ -296,11 +332,11 @@
     "description": "1.0 assessment.json"
   },
   "operationSetps4": {
-    "message": ">Upload files that have been collated.",
+    "message": "Upload the completed file",
     "description": "1.0 assessment.json"
   },
   "operationSetps5": {
-    "message": "Note: If you need to modify student grades, you can re-upload the file.",
+    "message": "Note: If you want to update the course grades for students, you can update the file and then re-upload it.",
     "description": "1.0 assessment.json"
   },
   "operationSetps6": {
@@ -316,7 +352,7 @@
     "description": "1.0 assessment.json"
   },
   "toSelectTxt": {
-    "message": "Go to select",
+    "message": "Select",
     "description": "1.0 assessment.json"
   },
   "typeTxt": {
@@ -324,11 +360,11 @@
     "description": "1.0 assessment.json"
   },
   "scoreTxt": {
-    "message": "Scoring Item",
+    "message": "Grading Item",
     "description": "1.0 assessment.json"
   },
   "scoreRuleTxt": {
-    "message": "Scoring Rules",
+    "message": "Grading Rules",
     "description": "1.0 assessment.json"
   },
   "weightTxt": {
@@ -336,15 +372,15 @@
     "description": "1.0 assessment.json"
   },
   "fullMarkTxt": {
-    "message": "Full mark",
+    "message": "Total Possible",
     "description": "1.0 assessment.json"
   },
   "actionTxt": {
-    "message": "Action",
+    "message": "Actions",
     "description": "1.0 assessment.json"
   },
   "finishtxt": {
-    "message": "Complete creation",
+    "message": "Complete",
     "description": "1.0 assessment.json"
   },
   "cancelTxt": {
@@ -352,7 +388,7 @@
     "description": "1.0 assessment.json"
   },
   "classesTxt": {
-    "message": "Total {count} classes, {className} etc",
+    "message": "{className}, ..., {count} classes",
     "description": "1.0 assessment.json"
   },
   "selectTxt": {
@@ -364,11 +400,11 @@
     "description": "1.0 assessment.json"
   },
   "assignmentTxt": {
-    "message": "Assignment",
+    "message": "Assignments",
     "description": "1.0 assessment.json"
   },
   "examTxt": {
-    "message": "Exam",
+    "message": "Exams",
     "description": "1.0 assessment.json"
   },
   "othersTxt": {
@@ -376,27 +412,27 @@
     "description": "1.0 assessment.json"
   },
   "ruleTxt1": {
-    "message": "Selected chapters'cumulative learning progress reaches {max}% is full mark, if lower than {min}%  is Zero score.",
+    "message": "The cumulative learning progress of the selected modules reaches {max}% for total possible; less than {min}% for 0 point",
     "description": "1.0 assessment.json"
   },
   "ruleTxt2": {
-    "message": "Each one of selected chapters' learning progress reaches {max}% is full mark, if lower than {min}%  is Zero score.",
+    "message": "For the selected modules, the cumulative learning progress per module reaches {max}% for total possible; less than {min}% for 0 point",
     "description": "1.0 assessment.json"
   },
   "ruleTxt3": {
-    "message": "Selected chapters'cumulative learning time reaches {max} minutes is full mark, if lower than {min} minutes  is Zero score.",
+    "message": "The cumulative learning time of the selected modules reaches {max} minutes for total possible; less than {min} minutes for 0 point",
     "description": "1.0 assessment.json"
   },
   "ruleTxt4": {
-    "message": "Each one of selected chapters' learning time reaches {max} minutes is full mark, if lower than {min} minutes  is Zero score.",
+    "message": "For the selected modules, the cumulative learning time per module reaches {max} minutes for total possible; less than {min} minutes for 0 point",
     "description": "1.0 assessment.json"
   },
   "ruleTxt5": {
-    "message": "Each one of selected chapters' learning time reaches {max} minutes is full mark, if lower than {min} minutes  is Zero score.",
+    "message": "For the selected topics, the cumulative learning time per topic reaches {max} minutes for total possible; less than {min} minutes for 0 point",
     "description": "1.0 assessment.json"
   },
   "ruleTxt6": {
-    "message": "According to Selected chapters' average score",
+    "message": "Graded by the avg score of the selected modules/topics",
     "description": "1.0 assessment.json"
   },
   "editTxt": {
@@ -404,51 +440,51 @@
     "description": "1.0 assessment.json"
   },
   "selectScoreTxt": {
-    "message": "Select scoring rules",
+    "message": "Select a grading rule",
     "description": "1.0 assessment.json"
   },
   "studyTimeTxt": {
-    "message": "Study time",
+    "message": "Learning Time",
     "description": "1.0 assessment.json"
   },
   "studyProgressTxt": {
-    "message": "Study progress",
+    "message": "Learning Progress",
     "description": "1.0 assessment.json"
   },
   "courseResultTxt": {
-    "message": "Course result",
+    "message": "Learning Result",
     "description": "1.0 assessment.json"
   },
   "assignmentResultTxt": {
-    "message": "Assignment result",
+    "message": "Assignment Scores",
     "description": "1.0 assessment.json"
   },
   "examResultTxt": {
-    "message": "Exam result",
+    "message": "Exam Scores",
     "description": "1.0 assessment.json"
   },
   "selectedHomeworkTxt": {
-    "message": "(have selected {count} assignment)",
+    "message": "(Selected {count} assignments)",
     "description": "注意：花括号( 即 {} ) 里面的值是插值，不要改，大小写也不能变化"
   },
   "selectedExamTxt": {
-    "message": "(have selected {count} exam)",
+    "message": "(Selected {count} exams)",
     "description": "注意：花括号( 即 {} ) 里面的值是插值，不要改，大小写也不能变化"
   },
   "notSelectAssiTxt": {
-    "message": "no selected assignment",
+    "message": "No assignments selected",
     "description": "1.0 assessment.json"
   },
   "notSelectExamTxt": {
-    "message": "no selected exam",
+    "message": "No exams selected",
     "description": "1.0 assessment.json"
   },
   "notInputScoreTxt": {
-    "message": "no results input",
+    "message": "Haven't entered the scores",
     "description": "1.0 assessment.json"
   },
   "haveInputScore": {
-    "message": "Have entered the results",
+    "message": "Entered the scores already",
     "description": "1.0 assessment.json"
   },
   "deleteTxt": {
@@ -456,19 +492,19 @@
     "description": "1.0 assessment.json"
   },
   "inputTxt": {
-    "message": "Manual input",
+    "message": "Manually Enter",
     "description": "1.0 assessment.json"
   },
   "inputScoreTxt": {
-    "message": "Input score",
+    "message": "Enter Score",
     "description": "1.0 assessment.json"
   },
   "selectTipTxt": {
-    "message": "Scoring item name, eg: Study time",
+    "message": "Grading Item Name, e.g., Learning Time",
     "description": "1.0 assessment.json"
   },
   "teacherTxt": {
-    "message": "{teacherName} teacher's assignments",
+    "message": "The assignments - Teacher: {teacherName}",
     "description": "1.0 assessment.json"
   }
 }

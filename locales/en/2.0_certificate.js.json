@@ -75,29 +75,13 @@
     "message": "Export Results",
     "description": "2.0 certification.js "
   },
-  "allStu": {
-    "message": "Total ",
-    "description": "2.0 certification.js "
+  "certSummary": {
+    "message": "Total: {total} | Qualified: {qualified} | Unqualified: {unqualified} | Achievement Rate: {rate}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
-  "person": {
-    "message": " |",
-    "description": "2.0 certification.js "
-  },
-  "passConditions": {
-    "message": "Qualified ",
-    "description": "2.0 certification.js "
-  },
-  "unqualifiedNum": {
-    "message": "Unqualified",
-    "description": "2.0 certification.js "
-  },
-  "passRate": {
-    "message": "Achievement Rate ",
-    "description": "2.0 certification.js "
-  },
-  "excellentRate": {
-    "message": "| Excellence Rate ",
-    "description": "2.0 certification.js "
+  "certSummary2": {
+    "message": "Total: {total} | Qualified: {qualified} | Unqualified: {unqualified} | Achievement Rate: {rate}% | Excellence Rate: {excellent}%\n",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
   "type": {
     "message": "Certificate",
@@ -127,9 +111,17 @@
     "message": "Final grade",
     "description": "2.0 certification.js "
   },
-  "score": {
-    "message": "points",
-    "description": "2.0 certification.js "
+  "assessRule1": {
+    "message": "Final grade ≥ {min} points and  < {max} points\n",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule2": {
+    "message": "Final grade ≥ {n} points",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule3": {
+    "message": "Final grade  < {n} points",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
   "excellenceCertificate": {
     "message": "Certificate of Excellence",
@@ -195,13 +187,17 @@
     "message": "Notes: Grading rules have to be set before you set up certificates.",
     "description": "2.0 certification.js "
   },
-  "courseSummaryScore": {
-    "message": "Final grade",
-    "description": "2.0 certification.js "
+  "gradeRule1": {
+    "message": "Final grade ≥ {input} points for Certificate of Achievement\n",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
   },
-  "canGetPassCer": {
-    "message": "for Certificate of Achievement",
-    "description": "2.0 certification.js "
+  "gradeRule2": {
+    "message": "Final grade ≥ {inputLow} points but < {inputHigh} points for Certificate of Achievement\n",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
+  },
+  "gradeRule3": {
+    "message": "Final grade ≥ {input} points for Certificate of Excellence\n",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
   },
   "setPass": {
     "message": "Certificate of Achievement Only",
@@ -209,14 +205,6 @@
   },
   "setPassAndExcellence": {
     "message": "Both Certificate of Achievement and Certificate of Excellence",
-    "description": "2.0 certification.js "
-  },
-  "but": {
-    "message": "but",
-    "description": "2.0 certification.js "
-  },
-  "canGetExcellenceCer": {
-    "message": "for Certificate of Excellence",
     "description": "2.0 certification.js "
   },
   "enterScore": {
@@ -271,17 +259,13 @@
     "message": "School",
     "description": "2.0 certification.js "
   },
-  "certificateContent1": {
-    "message": "Congratulations for having successfully completed the course of ",
-    "description": "2.0 certification.js "
+  "qualifiedCert2": {
+    "message": "Congratulations for having successfully completed the course of {coursename}. You are awarded the Certificate of Achievement.",
+    "description": "2.0 certificate.js"
   },
-  "certificateContent2": {
-    "message": ". ",
-    "description": "2.0 certification.js "
-  },
-  "certificateContent3": {
-    "message": "You are awarded  ",
-    "description": "2.0 certification.js "
+  "excellentCert2": {
+    "message": "Congratulations for having successfully completed the course of  {coursename}. You are awarded the Certificate of Excellence.\n",
+    "description": "2.0 certificate.js"
   },
   "certificateNo": {
     "message": "Certificate No.",
@@ -303,13 +287,13 @@
     "message": "My Certificates",
     "description": "2.0 certification.js "
   },
-  "certificateStuTip1": {
-    "message": "You have reached the minimum course score required for ",
-    "description": "2.0 certification.js "
+  "qualifiedNotice": {
+    "message": "You have reached the minimum course score required for the Certificate of Achievement and satisfied the certificate qualifications. Congratulations!",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
   },
-  "certificateStuTip2": {
-    "message": " and satisfied the certificate qualifications. Congratulations!",
-    "description": "2.0 certification.js "
+  "excellentNotice": {
+    "message": "You have reached the minimum course score required for the Certificate of Excellence and satisfied the certificate qualifications. Congratulations!",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
   },
   "certificateStuTip": {
     "message": "Notes: Certificates won't be updated once they are issued, even if your course grade was changed.",
@@ -323,36 +307,16 @@
     "message": "No certificates found",
     "description": "2.0 certification.js "
   },
-  "noCerTip1": {
-    "message": "To assure accuracy of the information on the certificates, please ",
-    "description": "2.0 certification.js "
+  "certTip": {
+    "message": "To assure accuracy of the information on the certificates, please {informLink} ",
+    "description": "学生账户 -> 考核 -> 课程证书 (还未发放证书时，才会显示)"
   },
-  "noCerTip2": {
+  "informLink": {
     "message": "complete your profile information (if you haven't done yet).",
-    "description": "2.0 certification.js "
+    "description": "2.0 certificate.js"
   },
   "notSetCerTip": {
     "message": "Your teacher has not set up any course certificate.",
-    "description": "2.0 certification.js "
-  },
-  "pass1": {
-    "message": "the Certificate of Achievement",
-    "description": "2.0 certification.js "
-  },
-  "excellent1": {
-    "message": "the Certificate of Excellence",
-    "description": "2.0 certification.js "
-  },
-  "juhao": {
-    "message": ".",
-    "description": "2.0 certification.js "
-  },
-  "shuminghao1": {
-    "message": " ",
-    "description": "2.0 certification.js "
-  },
-  "shuminghao2": {
-    "message": " ",
     "description": "2.0 certification.js "
   }
 }
