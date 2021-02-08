@@ -19,19 +19,7 @@
     "message": "ชั่วโมง",
     "description": "2.0 index.js"
   },
-  "minute": {
-    "message": "นาที",
-    "description": "2.0 index.js"
-  },
-  "second": {
-    "message": "วินาที",
-    "description": "2.0 index.js"
-  },
   "student": {
-    "message": "นักเรียน",
-    "description": "2.0 index.js"
-  },
-  "classmate": {
     "message": "นักเรียน",
     "description": "2.0 index.js"
   },
@@ -127,16 +115,8 @@
     "message": "ยกเลิกทำการยื่นขอเข้าร่วม",
     "description": "2.0 index.js"
   },
-  "di": {
-    "message": "บท",
-    "description": "2.0 index.js"
-  },
   "none": {
     "message": "ไม่",
-    "description": "2.0 index.js"
-  },
-  "courseTimes": {
-    "message": "ครั้งเปิดคอร์ส",
     "description": "2.0 index.js"
   },
   "modifyCourse": {
@@ -167,17 +147,17 @@
     "message": "ชั้นเรียน",
     "description": "2.0 index.js"
   },
-  "courseWill": {
-    "message": "หลักสูตรจะ",
-    "description": "2.0 index.js"
+  "courseWillEnd": {
+    "message": "หลักสูตรจะสิ้นสุดที่ {time}",
+    "description": "课程列表"
   },
-  "has": {
-    "message": "ได้",
-    "description": "2.0 index.js"
+  "courseHasEnd": {
+    "message": "สิ้นสุดที่ {time}",
+    "description": "课程列表 -> 已结束"
   },
-  "courseStartDuration": {
-    "message": "ก่อนเริ่มหลักสูตรยังเหลืออีก",
-    "description": "2.0 index.js"
+  "courseCountdown": {
+    "message": "มี {n} วันก่อนเริ่มหลักสูตร",
+    "description": "课程列表 (需要课程为公开课)"
   },
   "searchNoCourse": {
     "message": "ไม่พบหลักสูตรที่สอดคล้องกัน",
@@ -195,9 +175,9 @@
     "message": "ยังไม่ได้เข้าร่วมหลักสูตรใดๆ",
     "description": "2.0 index.js"
   },
-  "netErrorClick": {
-    "message": "อินเทอร์เนตผิดพลาด กด",
-    "description": "2.0 index.js"
+  "netError": {
+    "message": "ข้อผิดพลาดของเครือข่าย ให้คลิก {reloadButton} เพื่อโหลดใหม่",
+    "description": "教师或学生账户 -> 课程列表"
   },
   "reload": {
     "message": "เริ่มดาวน์โหลดใหม่",
@@ -215,12 +195,8 @@
     "message": "อาจารย์ได้สร้างหลักสูตรชื่อเดียวกันนี้ไปแล้ว แนะนำให้ท่านติดต่อกับผู้รับผิดชอบหลักสูตร ต้องการจะสร้างหลักสูตรแยกอิสระหรือไม่",
     "description": "2.0 index.js"
   },
-  "courseTitleExistTips1": {
-    "message": "โรงเรียนนี้มีชื่อหลักสูตรชื่อเดียวกันนี้แล้ว (โดย",
-    "description": "2.0 index.js"
-  },
-  "courseTitleExistTips2": {
-    "message": "อาจาย์สร้าง) แนะนำให้ท่านติดต่อกับอาจารย์ที่สร้างวิชาเพื่อยืนยัน เพื่อหลีกเลี่ยงการนำมาซึ่งความไม่สะดวกเนื่องจากมีการสร้างหลักสูตรซ้ำ",
+  "courseTitleExistTips": {
+    "message": "โรงเรียนมีหลักสูตรที่มีชื่อเดียวกันอยู่แล้ว (สร้างขึ้นโดยครู {name}) และขอแนะนําให้คุณติดต่อครูผู้สอนการก่อสร้างเพื่อสื่อสารและยืนยันเพื่อหลีกเลี่ยงความไม่สะดวกที่เกิดจากการสร้างหลักสูตรซ้ํา ๆ",
     "description": "2.0 index.js"
   },
   "isContinueCreate": {
@@ -420,7 +396,7 @@
     "description": "2.0 index.js"
   },
   "joinCourseTips13": {
-    "message": "ได้ยื่นขอการเข้าร่วมแล้ว กรุณารออาจารย์พิจารณา ",
+    "message": "ได้ยื่นขอการเข้าร่วมแล้ว กรุณารออาจารย์พิจารณา",
     "description": "2.0 index.js"
   },
   "joinCourseTips14": {
@@ -616,7 +592,7 @@
     "description": "2.0 index.js"
   },
   "processTips1": {
-    "message": "โยวเสวียเยวี้ยนเป็นคลาวน์แพลตฟอร์มสำหรับการเรียนรู้แบบผสมระดับอุดมศึกษา คอยสนับสนุนช่วยเหลือให้อาจารย์สามารถทำรูปแบบการสอนSPOCที่ผสานการเรียนรู้ออนไลน์และการเรียนรู้ในห้องเรียนให้เป็นจริง ",
+    "message": "โยวเสวียเยวี้ยนเป็นคลาวน์แพลตฟอร์มสำหรับการเรียนรู้แบบผสมระดับอุดมศึกษา คอยสนับสนุนช่วยเหลือให้อาจารย์สามารถทำรูปแบบการสอนSPOCที่ผสานการเรียนรู้ออนไลน์และการเรียนรู้ในห้องเรียนให้เป็นจริง",
     "description": "2.0 index.js"
   },
   "processTips2": {
@@ -767,9 +743,9 @@
     "message": "ทั้งหมด",
     "description": "2.0 index.js"
   },
-  "textbookCount": {
-    "message": "สื่อการเรียนนี้",
-    "description": "2.0 index.js"
+  "totalTextbook": {
+    "message": "รวม {n} ตําราเรียนนี้",
+    "description": "非国际版首页 -> 更多教材"
   },
   "detail": {
     "message": "รายละเอียด",
@@ -831,17 +807,17 @@
     "message": "แบ่งประเภท",
     "description": "2.0 index.js"
   },
-  "courseCount": {
-    "message": "หลักสูตร",
-    "description": "2.0 index.js"
+  "totalCourse": {
+    "message": "รวม {n} หลักสูตร",
+    "description": "非国际版首页 -> 更多课程"
   },
   "nationalBoutique": {
     "message": "สินค้ายอดเยี่ยมของประเทศ",
     "description": "2.0 index.js"
   },
-  "participantsCount": {
-    "message": "คนที่เข้าร่วม",
-    "description": "2.0 index.js"
+  "courseJoinCount": {
+    "message": "{n} คนเข้าร่วม",
+    "description": "非国际版首页 -> 更多课程"
   },
   "summary": {
     "message": "แนะนำเนื้อหาโดยย่อ",
@@ -1008,7 +984,7 @@
     "description": "2.0 index.js"
   },
   "app": {
-    "message": "",
+    "message": "App",
     "description": "2.0 index.js"
   },
   "downloadAPP": {
@@ -1328,7 +1304,7 @@
     "description": "2.0 index.js"
   },
   "bindTip": {
-    "message": "เรียนผู้ใช้เพื่อปรับปรุงความปลอดภัยของบัญชีของคุณโปรดผูกหมายเลขโทรศัพท์มือถือหรืออีเมลของคุณก่อน (ผูกอย่างน้อยหนึ่งรายการ) ",
+    "message": "เรียนผู้ใช้เพื่อปรับปรุงความปลอดภัยของบัญชีของคุณโปรดผูกหมายเลขโทรศัพท์มือถือหรืออีเมลของคุณก่อน (ผูกอย่างน้อยหนึ่งรายการ)",
     "description": "2.0 index.js"
   },
   "bindPhone": {

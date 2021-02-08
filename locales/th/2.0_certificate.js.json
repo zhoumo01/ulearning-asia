@@ -1,354 +1,322 @@
 {
   "allStudentsList": {
     "message": "รายชื่อนักเรียนทั้งหมด",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "passStuList": {
     "message": "รายชื่อนักเรียนที่ผ่านเกณฑ์",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "excellenceStuList": {
     "message": "รายชื่อนักเรียนยอดเยี่ยม",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "unqualifiedStuList": {
     "message": "รายชื่อนักเรียนที่ไม่ผ่านเกณฑ์",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "allClasses": {
     "message": "ชั้นเรียนทั้งหมด",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "pass": {
     "message": "ผ่านเกณฑ์",
+    "description": "2.0 certification.js "
+  },
+  "certificateConfirm": {
+    "message": "คุณแน่ใจหรือไม่ว่าคุณออกใบรับรอง",
     "description": "2.0 certificate.js"
   },
   "certificateIssuedSuccess": {
     "message": "การแจกประกาศนียบัตรสำเร็จ",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "issueCertificateFailed": {
     "message": "การแจกประกาศนียบัตรล้มเหลว",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "batchIssueCertificates": {
     "message": "แจกประกาศนียบัตรเป็นชุด",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "batchTip": {
     "message": "ยืนยันที่จะแจกประกาศนียบัตรให้กับนักเรียนที่ยังไม่ได้รับประกาศแต่คุณสมบัติสอดคล้องทั้งหมดพร้อมกันใช่หรือไม่? หากประกาศนียบัตรแจกออกไปแล้วไม่สามารถแก้ไขและดึงกลับได้อีก กรุณาดำเนินการอย่างระมัดระวัง",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "issueCertificate": {
     "message": "แจกประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "refreshFailed": {
     "message": "รีเฟรชล้มเหลว",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "excellent": {
     "message": "ยอดเยี่ยม",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "certificateManagement": {
     "message": "การจัดการประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "certificateMaTip": {
     "message": "มีเพียงผู้ดูแลหลักสูตรที่จะสามารถตั้งค่าเงื่อนไขการรับประกาศนียบัตรรวมไปถึงการแจกประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "certificateSettings": {
     "message": "ตั้งค่าประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "refreshGrade": {
     "message": "รีเฟรชผลการเรียน",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "exportList": {
     "message": "นำรายชื่อออก",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
-  "allStu": {
-    "message": "จำนวนรวมนักเรียนหลักสูตรนี้",
-    "description": "2.0 certificate.js"
+  "certSummary": {
+    "message": "จํานวนนักเรียนในหลักสูตรนี้คือ {total} ตามเงื่อนไขการได้รับใบรับรองจํานวนผู้มีสิทธิ์ {qualified} จํานวนผู้ไม่ผ่านการรับรอง {unqualified} อัตราการผ่าน {rate}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
-  "person": {
-    "message": "คน",
-    "description": "2.0 certificate.js"
-  },
-  "passConditions": {
-    "message": "ตามเงื่อนไขการรับประกาศนียบัตร จำนวนคนที่ผ่านเกณฑ์",
-    "description": "2.0 certificate.js"
-  },
-  "unqualifiedNum": {
-    "message": "จำนวนคนที่ไม่ผ่านเกณฑ์",
-    "description": "2.0 certificate.js"
-  },
-  "passRate": {
-    "message": "อัตราการผ่านเกณฑ์",
-    "description": "2.0 certificate.js"
-  },
-  "excellentRate": {
-    "message": "อัตราความยอดเยี่ยม",
-    "description": "2.0 certificate.js"
+  "certSummary2": {
+    "message": "จํานวนนักเรียนในหลักสูตรนี้คือ {total} ตามเงื่อนไขการได้รับใบรับรอง จํานวนนักเรียนที่มีสิทธิ์ {qualified}, จํานวนนักเรียนที่ไม่มีสิทธิ์ {unqualified}, อัตราการผ่าน {rate}, อัตราความเป็นเลิศ {excellent}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
   "type": {
     "message": "รูปแบบ",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "certificateRequest": {
     "message": "ความต้องการของประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "passNum": {
     "message": "จำนวนคนที่ผ่านเกณฑ์",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "proportion": {
     "message": "สัดส่วน",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "conformityCertificate": {
     "message": "ประกาศนียบัตรผ่านเกณฑ์",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "sample": {
     "message": "ตัวอย่าง",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "courseAssessmentScore": {
     "message": "คะแนนจากการประเมินหลักสูตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
-  "score": {
-    "message": "คะแนน",
-    "description": "2.0 certificate.js"
+  "assessRule1": {
+    "message": "คะแนนการประเมิน≥คือ {min} < {max}",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule2": {
+    "message": "คะแนนการประเมิน≥ {n}",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule3": {
+    "message": "คะแนนการประเมิน< {n}",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
   "excellenceCertificate": {
     "message": "ประกาศนียบัตรยอดเยี่ยม",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "unqualified": {
     "message": "ไม่ผ่านเกณฑ์",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "studentList": {
     "message": "รายชื่อนักเรียน",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "lastCertificateIssued": {
     "message": "เวลาที่แจกประกาศนียบัตรครั้งที่แล้ว",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "username": {
     "message": "ชื่อบัญชี",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "actualName": {
     "message": "ชื่อสกุลจริง",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "explanation": {
     "message": "คำอธิบาย",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "explanationContent": {
     "message": "การได้รับคะแนนการประเมินหลักสูตรเพื่อให้ท่านทราบการประเมินผลการเรียนของนักเรียนขณะที่แจกประกาศนียบัตร ถ้าหากหลักจากที่ท่านแจกประกาศนียบัตรแล้ว นักเรียนยังดำเนินการเรียนต่อจนผลการเรียนเกิดการเปลี่ยนแปลง ผลการเรียนใหม่จะไม่กลายเป็นข้อมูลตัดสินชี้ขาดของประกาศนียบัตร ยังคงใช้ผลการเรียนเดิมที่ท่านเคยแจกประกาศไปแล้วเพื่อชี้ขาดประกาศนียบัตรของนักเรียน",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "certificateType": {
     "message": "รูปแบบใบประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "certificateIssued": {
     "message": "แจกประกาศนียบัตรแล้ว",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "NoResults": {
     "message": "การคัดเลือกไม่มีผลลัพธ์ชั่วคราว",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "noCourseAssessment": {
     "message": "หลักสูตรนี้ยังไม่ได้ทำการตั้งค่ากลยุทธ์การประเมิน ไม่สามารถรับรายชื่อประกาศนียบัตรได้",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "clickToSet": {
     "message": "กดเพื่อไปยังตั้งค่า",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "noCertificate": {
     "message": "หลักสูตรนี้ยังไม่ได้ตั้งค่าเงื่อนไขการรับประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "certificateTip1": {
     "message": "แจกประกาศนียบัตรไปแล้ว ไม่สนับสนุนการตั้งค่าแก้ไขประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "certificateTip2": {
     "message": "ข้อควรระวัง：มีเพียงผู้รับผิดชอบหลักสูตรเท่านั้นที่สามารถดำเนินการตั้งค่าประกาศนียบัตรได้ ชั้นเรียนที่ยังไม่ได้ตั้งค่ากลยุทธผลการเรียน ไม่สามารถทำสถิติการรับประกาศนียบัตรได้",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
-  "courseSummaryScore": {
-    "message": "รวบรวมผลการเรียนของหลักสูตร",
-    "description": "2.0 certificate.js"
+  "gradeRule1": {
+    "message": "คะแนนสรุป≥คือ {input} และคุณจะได้รับใบรับรองการมีสิทธิ์",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
   },
-  "canGetPassCer": {
-    "message": "สามารถรับประกาศนียบัตรผ่านเกณฑ์",
-    "description": "2.0 certificate.js"
+  "gradeRule2": {
+    "message": "คะแนนสรุป≥คะแนน {inputLow} แต่< {inputHigh} เพื่อรับใบรับรองการมีสิทธิ์",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
+  },
+  "gradeRule3": {
+    "message": "คะแนนสรุป≥คะแนน {input} เพื่อรับใบรับรองความเป็นเลิศ",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
   },
   "setPass": {
     "message": "เพียงตั้งค่าประกาศนียบัตรผ่านเกณฑ์หลักสูตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "setPassAndExcellence": {
     "message": "ตั้งค่าการผ่านเกณฑ์หลักสูตร,ประกาศนียบัตรยอดเยี่ยม",
-    "description": "2.0 certificate.js"
-  },
-  "but": {
-    "message": "แต่ว่า",
-    "description": "2.0 certificate.js"
-  },
-  "canGetExcellenceCer": {
-    "message": "สามารถรับประกาศนียบัตรยอดเยี่ยมได้",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "enterScore": {
     "message": "กรุณาใส่คะแนน",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "enterScoreTip": {
     "message": "กรุณาใส่คะแนนที่ถูกต้อง เหลือทศนิยมไว้1ตัว",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "enterScoreTip1": {
     "message": "คะแนนไม่สามารถเกิน100",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "enterScoreTip2": {
     "message": "คะแนนผ่านเกณฑ์ไม่สามารถมากกว่าคะแนนยอดเยี่ยม",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "enterScoreTip3": {
     "message": "มีเพียงผู้รับผิดชอบหลักสูตรเท่านั้นที่สามารถตั้งค่าได้",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "enterScoreTip4": {
     "message": "มีการแจกประกาศนียบัตรแล้ว ไม่สามารถแก้ไขเส้นคะแนนได้อีก",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "save": {
     "message": "บันทึก",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "cancel": {
     "message": "ยกเลิก",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "close": {
     "message": "ปิด",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "certificate": {
     "message": "ประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "enterScoreTip5": {
     "message": "บันทึกสำเร็จ",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "studentID": {
     "message": "รหัสนักเรียน",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "school": {
     "message": "โรงเรียน",
+    "description": "2.0 certification.js "
+  },
+  "qualifiedCert2": {
+    "message": "ขอแสดงความยินดีกับความสําเร็จของหลักสูตร {coursename} และผ่านการรับรอง",
     "description": "2.0 certificate.js"
   },
-  "certificateContent1": {
-    "message": "ยินดีด้วย ท่านทำรายการสำเร็จ",
-    "description": "2.0 certificate.js"
-  },
-  "certificateContent2": {
-    "message": "การเรียนและการประเมินของหลักสูตร",
-    "description": "2.0 certificate.js"
-  },
-  "certificateContent3": {
-    "message": "ผลการเรียน",
+  "excellentCert2": {
+    "message": "ขอแสดงความยินดีกับความสําเร็จของคุณในการศึกษาและการประเมินหลักสูตร {coursename} ด้วยผลลัพธ์ที่ยอดเยี่ยม",
     "description": "2.0 certificate.js"
   },
   "certificateNo": {
     "message": "หมายเลขประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "issueDate": {
     "message": "วันที่ที่แจกประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "certificateReq": {
     "message": "เงื่อนไขการรับประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "viewExample": {
     "message": "ดูตัวอย่าง",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "myCertificate": {
     "message": "ประกาศนียบัตรของฉัน",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
-  "certificateStuTip1": {
-    "message": "คะแนนการประเมินหลักสูตรของท่านถึงเกณฑ์แล้ว",
-    "description": "2.0 certificate.js"
+  "qualifiedNotice": {
+    "message": "คะแนนการประเมินหลักสูตรของคุณมีคุณสมบัติตรงตามเกณฑ์การได้รับใบรับรองที่ผ่านการรับรองและขอแสดงความยินดีกับใบรับรองต่อไปนี้",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
   },
-  "certificateStuTip2": {
-    "message": "เงื่อนไขการรับประกาศนียบัตร ยินดีด้วยที่ท่านได้รับประกาศนียบัตรต่อไปนี้",
-    "description": "2.0 certificate.js"
+  "excellentNotice": {
+    "message": "คะแนนการประเมินหลักสูตรของคุณมีคุณสมบัติตรงตามเกณฑ์การได้รับใบรับรองที่ยอดเยี่ยมและขอแสดงความยินดีกับใบรับรองต่อไปนี้",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
   },
   "certificateStuTip": {
     "message": "ข้อควรระวัง：หลังจากที่อาจารย์แจกประกาศนียบัตรแล้วหากมีการเรียนต่อและเกิดการเปลี่ยนแปลงของคะแนน ประกาศนียบัตรจะไม่มีการอัพเดทใหม่",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "downloadCertificate": {
     "message": "ดาวน์โหลดประกาศนียบัตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
   "noCerTip": {
     "message": "ยังไม่ได้รับประกาศนียบัตรหลักสูตร",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   },
-  "noCerTip1": {
-    "message": "เพื่อรับประกันความถูกต้องของข้อมูลในประกาศนียบัตร โปรด",
-    "description": "2.0 certificate.js"
+  "certTip": {
+    "message": "ตรวจสอบให้แน่ใจว่า {informLink}",
+    "description": "学生账户 -> 考核 -> 课程证书 (还未发放证书时，才会显示)"
   },
-  "noCerTip2": {
-    "message": "ข้อมูลพื้นฐานส่วนบุคคลเสร็จสิ้น",
+  "informLink": {
+    "message": "ปรับปรุงข้อมูลพื้นฐานส่วนบุคคล",
     "description": "2.0 certificate.js"
   },
   "notSetCerTip": {
     "message": "อาจารย์ยังไม่ได้ตั้งค่าเงื่อนไขการรับประกาศนียบัตร",
-    "description": "2.0 certificate.js"
-  },
-  "pass1": {
-    "message": "ผ่านเกณฑ์",
-    "description": "2.0 certificate.js"
-  },
-  "excellent1": {
-    "message": "ยอดเยี่ยม",
-    "description": "2.0 certificate.js"
-  },
-  "juhao": {
-    "message": "",
-    "description": "2.0 certificate.js"
-  },
-  "shuminghao1": {
-    "message": "",
-    "description": "2.0 certificate.js"
-  },
-  "shuminghao2": {
-    "message": "》",
-    "description": "2.0 certificate.js"
+    "description": "2.0 certification.js "
   }
 }

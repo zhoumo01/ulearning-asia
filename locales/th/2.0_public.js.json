@@ -155,13 +155,9 @@
     "message": "วิทยาลัยทั้งหมด",
     "description": "2.0 public.js"
   },
-  "courseNumber1": {
-    "message": "ทั้งหมด",
-    "description": "2.0 public.js"
-  },
-  "courseNumber2": {
-    "message": "หลักสูตร",
-    "description": "2.0 public.js"
+  "totalCourse": {
+    "message": "รวม {n} หลักสูตร",
+    "description": "自定义门户网站 -> 课程 (公开课程等)"
   },
   "departments": {
     "message": "คณะ",
@@ -191,9 +187,9 @@
     "message": "หลักสูตรอื่นๆที่มากกว่านี้",
     "description": "2.0 public.js"
   },
-  "participantsNum": {
-    "message": "คนที่เข้าร่วม：",
-    "description": "2.0 public.js"
+  "joinCourseCount": {
+    "message": "จํานวนผู้เข้าร่วม: {n}",
+    "description": "自定义门户网站 -> 上方搜索框搜索 \n 自定义门户网站 -> 课程(不包括公开课) \n 自定义门户网站 -> 课程详情 \n 管理员账户 -> 系统管理 -> 网站设置 -> 菜单式"
   },
   "customNavigation": {
     "message": "นำร่องด้วยตนเอง",
@@ -291,9 +287,9 @@
     "message": "ไม่มีหลักสูตร",
     "description": "2.0 public.js"
   },
-  "netErrorClick": {
-    "message": "อินเทอร์เนตเกิดความผิดพลาด กดปุ่ม",
-    "description": "2.0 public.js"
+  "netError": {
+    "message": "ข้อผิดพลาดของเครือข่าย ให้คลิก {reloadButton}",
+    "description": "自定义门户网站 -> 课程 (公开课程等)"
   },
   "reload": {
     "message": "โหลดใหม่อีกครั้ง",
@@ -307,17 +303,13 @@
     "message": "แนะนำเนื้อหาอย่างย่อ",
     "description": "2.0 public.js"
   },
-  "studyTimes": {
-    "message": "ครั้งที่เรียน",
-    "description": "2.0 public.js"
+  "studyTimesOf": {
+    "message": "{n} การเรียนรู้",
+    "description": "自定义门户网站 -> 公开课程 \n 自定义门户网站 -> 上方搜索框搜索"
   },
-  "totalSearch": {
-    "message": "การค้นหาทั้งหมด",
-    "description": "2.0 public.js"
-  },
-  "about": {
-    "message": "เกี่ยวข้องกับ",
-    "description": "2.0 public.js"
+  "totalSearchResult": {
+    "message": "พบผลลัพธ์ {n} ทั้งหมดที่เกี่ยวข้องกับ '{keyword}'",
+    "description": "自定义门户网站 -> 上方搜索框搜索"
   },
   "schoolCourse": {
     "message": "หลักสูตรในโรงเรียน",
@@ -325,10 +317,6 @@
   },
   "openCourse": {
     "message": "หลักสูตรเปิด",
-    "description": "2.0 public.js"
-  },
-  "resultNum": {
-    "message": "ผลลัพธ์",
     "description": "2.0 public.js"
   },
   "moreSearchResult": {
@@ -1111,10 +1099,6 @@
     "message": "Study Archives",
     "description": "2.0 public.js"
   },
-  "someonesEportfolio": {
-    "message": "",
-    "description": "2.0 public.js"
-  },
   "ofEportfolio": {
     "message": "จดหมายเหตุทางวิชาการ",
     "description": "2.0 public.js"
@@ -1216,7 +1200,7 @@
     "description": "2.0 public.js"
   },
   "importHwTips": {
-    "message": "ต่อไปนี้คือการบ้านที่คุณเพิ่งส่งในหลักสูตรคุณสามารถเลือกการบ้านที่คุณต้องการบันทึกหรือแชร์และนำเข้าไปในเอกสารสำคัญทางวิชาการของคุณ งานที่นำเข้าจะถูกบันทึกเป็นไฟล์กราฟิกรวมถึงไฟล์แนบงาน (รูปภาพและเอกสารเท่านั้น) และนำเข้าสู่ไดเรกทอรีปัจจุบัน ",
+    "message": "ต่อไปนี้คือการบ้านที่คุณเพิ่งส่งในหลักสูตรคุณสามารถเลือกการบ้านที่คุณต้องการบันทึกหรือแชร์และนำเข้าไปในเอกสารสำคัญทางวิชาการของคุณ งานที่นำเข้าจะถูกบันทึกเป็นไฟล์กราฟิกรวมถึงไฟล์แนบงาน (รูปภาพและเอกสารเท่านั้น) และนำเข้าสู่ไดเรกทอรีปัจจุบัน",
     "description": "2.0 public.js"
   },
   "allCourses": {
@@ -1232,11 +1216,11 @@
     "description": "2.0 public.js"
   },
   "deleteEportfolioTips1": {
-    "message": "คุณแน่ใจว่าต้องการลบไฟล์นี้หรือไม่? ",
+    "message": "คุณแน่ใจว่าต้องการลบไฟล์นี้หรือไม่?",
     "description": "2.0 public.js"
   },
   "deleteEportfolioTips2": {
-    "message": "การลบโฟลเดอร์จะเป็นการลบไฟล์ที่อยู่ในนั้นคุณแน่ใจหรือไม่ว่าต้องการลบ ",
+    "message": "การลบโฟลเดอร์จะเป็นการลบไฟล์ที่อยู่ในนั้นคุณแน่ใจหรือไม่ว่าต้องการลบ",
     "description": "2.0 public.js"
   },
   "searchByNameAndTag": {
@@ -1411,6 +1395,10 @@
     "message": "เอกสาร",
     "description": "2.0 public.js"
   },
+  "archive": {
+    "message": "บีบอัดแพคเกจ",
+    "description": "2.0 public.js"
+  },
   "link": {
     "message": "ลิงค์",
     "description": "2.0 public.js"
@@ -1427,13 +1415,113 @@
     "message": "อื่นๆ",
     "description": "2.0 public.js"
   },
+  "allType": {
+    "message": "ทุกประเภท",
+    "description": "2.0 public.js"
+  },
   "saved": {
     "message": "เซฟเรียบร้อย",
-    "description": "2.0 public.j"
+    "description": "2.0 public.js"
   },
   "modifySuccess": {
     "message": "แก้ไขสำเร็จ",
-    "description": "2.0 reponsitory.js"
+    "description": "2.0 course.js"
+  },
+  "jqueryValidatorRequired": {
+    "message": "นี่คือฟิลด์บังคับ",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorRemote": {
+    "message": "โปรดแก้ไขฟิลด์นี้",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorEmail": {
+    "message": "โปรดป้อนที่อยู่อีเมลที่ถูกต้อง",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorUrl": {
+    "message": "โปรดป้อนที่อยู่เว็บที่ถูกต้อง",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorDate": {
+    "message": "โปรดป้อนวันที่ที่ถูกต้อง",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorDateISO": {
+    "message": "โปรดป้อนวันที่ที่ถูกต้อง (YYYY-MM-DD)",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorNumber": {
+    "message": "กรุณาใส่ตัวเลขที่ถูกต้อง",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorDigits": {
+    "message": "สามารถป้อนได้เฉพาะตัวเลขเท่านั้น",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorCreditcard": {
+    "message": "กรุณาใส่หมายเลขบัตรเครดิตที่ถูกต้อง",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorEqualTo": {
+    "message": "การป้อนข้อมูลของคุณไม่เหมือนกัน",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorExtension": {
+    "message": "กรุณาใส่คําต่อท้ายที่ถูกต้อง",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorMaxlength": {
+    "message": "คุณสามารถป้อนอักขระได้สูงสุด {0} ตัว",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorMinlength": {
+    "message": "คุณต้องป้อนอักขระ{0}อย่างน้อยหนึ่งตัว",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorRangelength": {
+    "message": "โปรดใส่สตริงที่มีความยาวตั้งแต่ {0} ถึง {1}",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorRange": {
+    "message": "โปรดป้อนค่าตั้งแต่ {0} ถึง {1}",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorMax": {
+    "message": "โปรดป้อนค่า{0}ไม่เกินค่า",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorMin": {
+    "message": "โปรดป้อนค่า{0}ไม่น้อยกว่าค่า",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorLoginName": {
+    "message": "ชื่อผู้ใช้ไม่สามารถมีอักขระภาษาจีน ช่องว่าง และอักขระพิเศษได้",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorPassWord": {
+    "message": "8-16 บิตต้องมีทั้งตัวอักษรและตัวเลข (ตรงตามตัวพิมพ์ใหญ่-เล็ก)",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorStudentID": {
+    "message": "กรุณาใส่ตัวอักษรหรือตัวเลข 4-20 หลัก และตัวอักษรต้องตรงตามตัวพิมพ์ใหญ่-เล็ก",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorRealName": {
+    "message": "ไม่สามารถมีอักขระและช่องว่างที่ผิดกฎหมายได้",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorIsMobile": {
+    "message": "กรุณากรอกหมายเลขโทรศัพท์มือถือของคุณอย่างถูกต้อง",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorIsZipCode": {
+    "message": "กรุณากรอกรหัสไปรษณีย์ของคุณอย่างถูกต้อง",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorIsEmail": {
+    "message": "กรุณากรอกอีเมลของคุณอย่างถูกต้อง",
+    "description": "2.0 public.js"
   },
   "identityVerification": {
     "message": "การยืนยันตัวตนฐานะ",

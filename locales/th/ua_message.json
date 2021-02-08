@@ -5,7 +5,7 @@
   },
   "backToCourse": {
     "message": "เลิก",
-    "description": "返回课程章节按钮，文字不能太长，所以用的exit字段"
+    "description": "UA播放器内层"
   },
   "exit": {
     "message": "เลิก",
@@ -59,17 +59,9 @@
     "message": "เริ่มตอบคำถาม",
     "description": "UA播放器内层"
   },
-  "questionNumber1": {
-    "message": "ท้งหมด",
-    "description": "UA播放器内层"
-  },
-  "questionNumber2": {
-    "message": "ข้อ",
-    "description": "UA播放器内层"
-  },
-  "questionNumber3": {
-    "message": "ข้อ",
-    "description": "UA播放器内层"
+  "totalQuestions": {
+    "message": "รวมคําถาม {n}",
+    "description": "学生 -> 作答练习题"
   },
   "oneChance": {
     "message": "จำกัด 1 คำตอบ",
@@ -79,8 +71,12 @@
     "message": "ตอบคำถามซ้ำ",
     "description": "UA播放器内层"
   },
-  "answerTime1": {
-    "message": "จำกัด",
+  "answerTimeLimit": {
+    "message": "จํากัด {time}",
+    "description": "学生 -> 作答练习题"
+  },
+  "score": {
+    "message": "{n}นาที",
     "description": "UA播放器内层"
   },
   "submit": {
@@ -129,14 +125,6 @@
   },
   "viewAnalysis": {
     "message": "เช็คดูคำอธิบายของคำถาม",
-    "description": "UA播放器内层"
-  },
-  "answerRightTip": {
-    "message": "ข้อต่อไป，หรือ",
-    "description": "UA播放器内层"
-  },
-  "answerWrongTip": {
-    "message": "คุณทำได้",
     "description": "UA播放器内层"
   },
   "correctAnswer": {
@@ -339,10 +327,6 @@
     "message": "ต้องอ่านทุกคำ / ประโยค / ย่อหน้า",
     "description": "UA播放器内层"
   },
-  "oralRecordingTipsCount": {
-    "message": " คราว",
-    "description": "UA播放器内层"
-  },
   "oralRecording": {
     "message": "กำลังบันทึกเทปคลิกเพื่อหยุด",
     "description": "UA播放器内层"
@@ -376,11 +360,19 @@
     "description": "UA播放器内层"
   },
   "catalog1": {
-    "message": " ไดเรกทอรี:",
+    "message": "ไดเรกทอรี:",
     "description": "UA播放器内层"
   },
   "unanswered": {
-    "message": "ไม่ได้ตอบ ",
+    "message": "ไม่ได้ตอบ",
+    "description": "UA播放器内层"
+  },
+  "enterAnswer": {
+    "message": "请输入答案",
+    "description": "UA播放器内层"
+  },
+  "logTip": {
+    "message": "เข้าสู่ระบบในเทอร์มินัลอื่น",
     "description": "UA播放器内层"
   }
 }

@@ -43,10 +43,6 @@
     "message": " ข้อทดสอบ",
     "description": "UA"
   },
-  "QNotSave": {
-    "message": "ข้อทดสอบไม่ได้รับการบันทึก",
-    "description": "UA"
-  },
   "Score": {
     "message": "คะแนน",
     "description": "UA"
@@ -286,6 +282,10 @@
   "autoSavedAt": {
     "message": "เซฟอัตโนมัติใน…",
     "description": "UA"
+  },
+  "autoSaveAt": {
+    "message": "บันทึกโดยอัตโนมัติใน {time}",
+    "description": "UA -> 教师 -> 编辑课件 -> 右上角"
   },
   "automaticSorting": {
     "message": "จัดเรียงอัตโนมัติ",
@@ -823,9 +823,9 @@
     "message": "หนังสือเรียนแบบโต้ตอบ",
     "description": "UA"
   },
-  "courses": {
-    "message": " หลักสูตร",
-    "description": "UA"
+  "totalCourses": {
+    "message": "รวม {n}",
+    "description": "UA -> 教师 -> 首页 -> 相关代码已隐藏，因此无法在页面上看到"
   },
   "coursewareQBank": {
     "message": "ที่เก็บการสอบบทเรียน",
@@ -919,9 +919,9 @@
     "message": "ข้อผิดพลาดของข้อมูล",
     "description": "UA"
   },
-  "dataNum": {
-    "message": "จำนวนข้อมูล",
-    "description": "UA"
+  "totalData": {
+    "message": "รวม {n}",
+    "description": "UA -> 教师 -> 首页"
   },
   "delete": {
     "message": "ลบ",
@@ -1229,14 +1229,6 @@
   },
   "enterFollowTextErrorTip": {
     "message": "ภาษาจีนรวมอยู่ในการประเมิน",
-    "description": "UA"
-  },
-  "enterFollowTextPosition": {
-    "message": "ข้อที่",
-    "description": "UA"
-  },
-  "enterFollowTextPosition1": {
-    "message": "ข้อที่",
     "description": "UA"
   },
   "enterImgKeyword": {
@@ -1555,21 +1547,21 @@
     "message": "โครงสร้างแฟลชไม่ถูกต้อง",
     "description": "UA"
   },
-  "followEnterFollowTextErrorPosition": {
-    "message": "เนื้อหาการประเมินมีภาษาจีน",
-    "description": "UA"
+  "evaluationHasChinese": {
+    "message": "มีภาษาจีนอยู่ในบทวิจารณ์ในย่อหน้า {n}",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
-  "followEnterFollowTextPosition": {
-    "message": "ส่วนโปรดกรอกเนื้อหาการประเมินผล",
-    "description": "UA"
+  "evaluationEmpty": {
+    "message": "ในย่อหน้า {n} โปรดป้อนบทวิจารณ์",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
-  "followEnterFollowTextPosition1": {
-    "message": "ส่วนโปรดกรอกคำตอบอ้างอิง",
-    "description": "UA"
+  "referenceAnswerEmpty": {
+    "message": "สําหรับย่อหน้า {n} โปรดป้อนคําตอบอ้างอิง",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
-  "followRatingReferenceTextErrorPosition": {
-    "message": "ข้อความอ้างอิงการให้คะแนนย่อเพจมีภาษาจีน ",
-    "description": "UA"
+  "referenceTextHasChinese": {
+    "message": "มีภาษาจีนอยู่ในข้อความอ้างอิงการให้คะแนนเซ็กเมนต์ {n}",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
   "followReadingFormat": {
     "message": "รูปแบบ mp3 ต้องไม่เกิน 3M",
@@ -1603,9 +1595,9 @@
     "message": " ซับไทเทิลเต็ม",
     "description": "UA"
   },
-  "ge": {
-    "message": "ตัว",
-    "description": "UA"
+  "items": {
+    "message": "{n}",
+    "description": "UA -> 首页 -> 指课程发布到几个站点 -> 相关代码已隐藏，因此无法在页面上看到"
   },
   "generateFLASH": {
     "message": "กำลังสร้าง Flash ...",
@@ -1987,9 +1979,9 @@
     "message": "ประเภทเมนู",
     "description": "UA"
   },
-  "min": {
-    "message": "นาที",
-    "description": "UA"
+  "inputMinutes": {
+    "message": "{input}นาที",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
   },
   "modifyFail": {
     "message": "การแก้ล้มเหลว",
@@ -1997,10 +1989,6 @@
   },
   "modifyThisQ": {
     "message": "แก้ไขข้อนี้",
-    "description": "UA"
-  },
-  "month": {
-    "message": "เดือน",
     "description": "UA"
   },
   "more": {
@@ -2191,6 +2179,10 @@
     "message": "คำเดือน",
     "description": "UA"
   },
+  "recoverRecordTip": {
+    "message": "ตรวจพบว่าคุณมีบันทึกการเรียนรู้ที่ประสบความสําเร็จที่ยังไม่ได้ส่งและกู้คืนตอนนี้หรือไม่?",
+    "description": "UA"
+  },
   "noteFollowTimeTip": {
     "message": "เวลาในการอ่านคำ / ประโยค / ย่อหน้าที่ยาวที่สุดคือ 20 วินาที / 40 วินาที / 120 วินาที โปรดทราบเวลาอ่าน",
     "description": "UA"
@@ -2303,13 +2295,17 @@
     "message": "เพจนี้จะเสร็จสิ้นเมื่อจำนวนการอ่านของแต่ละคำ / ประโยค / ย่อหน้าถึงจำนวนครั้งที่ตกลงกัน  ",
     "description": "UA"
   },
+  "pageEditBy": {
+    "message": "โอ้ ว๊าว ว๊าว ขณะนี้เพจ '{page}' ถูกแก้ไขโดยบัญชี '{editor}' นี้",
+    "description": "UA"
+  },
   "pageExercises": {
     "message": "แบบฝึกหัดเพจ",
     "description": "UA"
   },
-  "pageHasBeen": {
-    "message": "เพื่อให้มั่นใจในความถูกต้องของบันทึกการเรียนรู้ระบบได้หยุดการเรียนรู้ของหน้านี้ที่ ",
-    "description": "UA"
+  "stopTimingTip": {
+    "message": "ระบบได้หยุดการเรียนรู้ของเพจนี้ที่ {time} และบันทึกการเรียนรู้ของเพจจะไม่ถูกบันทึก",
+    "description": "UA -> 学生账户 -> 学习课件"
   },
   "pageHasBeenEditedConfirmDelete": {
     "message": "เพจปัจจุบันได้รับการแก้ไข ยืนยันจะลบ? ",
@@ -2333,10 +2329,6 @@
   },
   "paragraphTip": {
     "message": "เนื้อหาการประเมินผล (จำเป็น) ใส่ภาษาอังกฤษเท่านั้น",
-    "description": "UA"
-  },
-  "participants": {
-    "message": "คนที่เกี่ยวข้อง",
     "description": "UA"
   },
   "passageScore": {
@@ -2499,13 +2491,13 @@
     "message": "จำนวนแบบฝึกหัด",
     "description": "UA"
   },
-  "questions": {
-    "message": "ข้อ",
-    "description": "UA"
+  "questionError": {
+    "message": "ข้อมูลคําถาม {n} ในหน้านี้ไม่ถูกต้อง และรหัสคําถาม: {id}",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
   },
-  "questionsError": {
-    "message": "ข้อมูลคำถามไม่ถูกต้อง",
-    "description": "UA"
+  "questionError2": {
+    "message": "รหัสคําถาม: ข้อมูล {id} ไม่ถูกต้อง",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
   },
   "questionsNotCompleted": {
     "message": "ยังมีคำถามไม่เสร็จในเพจนี้",
@@ -2555,9 +2547,9 @@
     "message": "ชั่วโมงที่แนะนำ๑",
     "description": "UA"
   },
-  "recordTime": {
-    "message": "ระยะเวลาการบันทึกเสียง：",
-    "description": "UA"
+  "recordTimeOf": {
+    "message": "ระยะเวลาการบันทึก: {input}วินาที",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 弹框右上角"
   },
   "recordingTime": {
     "message": "ระยะเวลาการบันทึกเสียง",
@@ -2719,9 +2711,9 @@
     "message": "ครูของโรงเรียน",
     "description": "UA"
   },
-  "score": {
-    "message": "คะแนน",
-    "description": "UA"
+  "points": {
+    "message": "{n}นาที",
+    "description": "教师账户 -> ua -> 课程查看 -> 课件试题 \n 课程查看 -> 预览课件 -> 选择练习题 (或者学生账户登录 -> 练习题)"
   },
   "scoreModels": {
     "message": "เกณฑ์การให้คะแนน",
@@ -2750,6 +2742,10 @@
   "second": {
     "message": "วีนาที",
     "description": "UA"
+  },
+  "inputSeconds": {
+    "message": "{input}วินาที",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
   },
   "secondLevelMenu": {
     "message": "เมนูระดับสอง",
@@ -2927,6 +2923,10 @@
     "message": "เลือกแล้ว",
     "description": "UA"
   },
+  "selectedQue": {
+    "message": "มีการเลือกคําถาม {n} คําถาม",
+    "description": "UA -> 教师 -> 编辑课件 -> 导入练习"
+  },
   "selectedTeacher": {
     "message": "ครูที่เลือก",
     "description": "UA"
@@ -3051,9 +3051,9 @@
     "message": "แทรกวิดีโอในเนื้อหา",
     "description": "UA"
   },
-  "smallQ": {
-    "message": "คำถามย่อย",
-    "description": "UA"
+  "smallQue": {
+    "message": "[คําถาม{n}]",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题 (需要题型为选词填空)"
   },
   "sortQuestions": {
     "message": "ข้อเรียงลำดับ",
@@ -3255,14 +3255,6 @@
     "message": "ชื่อตำราสอน",
     "description": "UA"
   },
-  "thePage": {
-    "message": "เพจนี้",
-    "description": "UA"
-  },
-  "thePage2": {
-    "message": "เพจที่",
-    "description": "UA"
-  },
   "thirdLevelMenu": {
     "message": "เมนูระดับ 3",
     "description": "UA"
@@ -3283,9 +3275,9 @@
     "message": "แบบฝึกหัดจำกัดเวลา ",
     "description": "UA"
   },
-  "times": {
-    "message": "ครั้ง",
-    "description": "UA"
+  "inputTimes": {
+    "message": "{input} ครั้ง",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 添加后下方工具栏设置按钮"
   },
   "timingLearningSuspended": {
     "message": "การนับระยะเวลาการเรียนหยุดชั่วคราว",
@@ -3309,10 +3301,6 @@
   },
   "top": {
     "message": "ทอพ",
-    "description": "UA"
-  },
-  "total": {
-    "message": "รวม",
     "description": "UA"
   },
   "totalScore": {
@@ -3623,17 +3611,13 @@
     "message": "โอ้ มีบางอย่างผิดปกติ。",
     "description": "UA"
   },
-  "year": {
-    "message": "ปี",
-    "description": "UA"
+  "inputMonth": {
+    "message": "{inputYear} ปี{inputMonth}เดือน",
+    "description": "UA -> 教师 -> 选择一门课程 -> 侧边栏详细介绍 -> 勾选已出版互动教材 -> 出版时间"
   },
-  "youHave": {
-    "message": "คุณมี",
-    "description": "UA"
-  },
-  "yuan": {
-    "message": "หยวน",
-    "description": "UA"
+  "inputYuan": {
+    "message": "{input}วินาที",
+    "description": "指的输入定价，此功能未上线，不会在页面上显示。"
   },
   "zippedFile": {
     "message": "แพ็คเกจบีบอัด",
@@ -3859,17 +3843,17 @@
     "message": "คะแนน",
     "description": "UA"
   },
-  "fluency": {
-    "message": "ความคล่องแคล่ว",
-    "description": "UA"
+  "fluencyOf": {
+    "message": "ความคล่องแคล่ว: {n}",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
   },
-  "coherence": {
-    "message": "ตรรก",
-    "description": "UA"
+  "coherenceOf": {
+    "message": "ตรรกะ: {n}",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
   },
-  "pronunciation": {
-    "message": "การออกเสีง",
-    "description": "UA"
+  "pronunciationOf": {
+    "message": "การออกเสียง: {n}",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
   },
   "speed": {
     "message": "ความเร็วในการพูด",
@@ -3887,21 +3871,13 @@
     "message": "คำตอบแบบแยกเพจจอ",
     "description": "UA"
   },
-  "limitedAnswer": {
-    "message": "จำกัดการตอบคำตอบ",
-    "description": "UA"
+  "limitAnswer": {
+    "message": "จํากัด {n} ครั้ง",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
   },
-  "chance": {
-    "message": "ครั้ง",
-    "description": "UA"
-  },
-  "left": {
-    "message": "ที่เหลือ",
-    "description": "UA"
-  },
-  "opportunity": {
-    "message": "โอกาศ",
-    "description": "UA"
+  "limitAnswer2": {
+    "message": "จํากัด {n} ครั้ง, โอกาสที่เหลือ {m}",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
   },
   "continueTip": {
     "message": "ตอบคำถามถูกต้องทุกข้อ คุณสามารถดูวิดีโอต่อได้",
@@ -4095,8 +4071,148 @@
     "message": "ใส่ชื่อบัญชี/ชื่อสกุลเพื่อค้นหา",
     "description": "UA"
   },
+  "continue": {
+    "message": "ต่อ",
+    "description": "UA"
+  },
+  "selectFromResLib": {
+    "message": "เลือกจากที่เก็บ",
+    "description": "UA"
+  },
   "backToCustomerService": {
     "message": "กลับไปที่การบริการลูกค้า",
+    "description": "UA"
+  },
+  "skipStep": {
+    "message": "ข้ามไป",
+    "description": "一个按钮"
+  },
+  "wipeSubtitleTip": {
+    "message": "ยืนยันการล้างคําบรรยายหรือไม่",
+    "description": "UA"
+  },
+  "saveSubtitleTip": {
+    "message": "เนื้อหาต้องไม่ว่างเปล่า",
+    "description": "UA"
+  },
+  "practiceSetCountTip": {
+    "message": "จํานวนคําตอบต้องอยู่ในช่วง 1-50",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceSetMinuteTip": {
+    "message": "นาทีของคําตอบต้องไม่น้อยกว่า 0",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceSetSecondTip": {
+    "message": "จํานวนวินาทีของคําถามต้องอยู่ในช่วง 0-60",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceConfig": {
+    "message": "ฝึกการตั้งค่า",
+    "description": "UA \"练习设置\""
+  },
+  "practiceCount": {
+    "message": "จำนวนการฝึกหัด",
+    "description": "UA \"练习设置\""
+  },
+  "practiceUnlimit": {
+    "message": "ไม่มีข้อ จํากัด",
+    "description": "UA \"练习设置\""
+  },
+  "practiceLimitCount": {
+    "message": "จํากัดจํานวนคําตอบสูงสุด",
+    "description": "UA \"练习设置\""
+  },
+  "practiceUnifiedSet": {
+    "message": "ส่วนนี้ใช้การตั้งค่าแบบรวมสําหรับคําถามแบบฝึกหัด",
+    "description": "UA \"练习设置\""
+  },
+  "timeLimitAnswer": {
+    "message": "คำตอบที่มีเวลาจำกัด",
+    "description": "UA \"练习设置\""
+  },
+  "practiceLimitTime": {
+    "message": "จํากัดระยะเวลาในการตอบคําถาม",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip1": {
+    "message": "1. ขณะนี้เฉพาะหน้าเว็บที่มีแบบฝึกหัดเท่านั้นที่สามารถตั้งค่าคําตอบที่จํากัดเวลาได้",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip2": {
+    "message": "2.นอกเหนือจากการปฏิบัติ, ถ้าหน้านี้มีกราฟิก, วิดีโอ, เอกสารและเนื้อหาการเรียนรู้อื่นๆ, นอกจากนี้ยังจะรวมกันจํากัดเวลาของ",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip3": {
+    "message": "3.นักเรียนจะต้องเสร็จสิ้นการออกกําลังกายของพวกเขาภายในเวลาที่กําหนดและส่งโดยอัตโนมัติหลังจากเกินเวลาของ",
+    "description": "UA \"练习设置\""
+  },
+  "browserTip": {
+    "message": "ตรวจพบว่าคุณกําลังใช้เบราว์เซอร์รุ่นเก่าหรือเบราว์เซอร์ที่ระบบไม่สนับสนุน โปรดใช้เบราว์เซอร์ที่แนะนําสําหรับการเรียนรู้หรืออัปเกรดเวอร์ชันเบราว์เซอร์ของคุณโปรดดาวน์โหลด You Academy APP เพื่อเรียนรู้บนโทรศัพท์มือถือของคุณ",
+    "description": "{emphasize} 是强调内容，因为需要进行单独的样式设置，所以会设置插值。插值处的内容是下面的“可能会导致学习记录不准确”"
+  },
+  "browserTipEm": {
+    "message": "อาจส่งผลให้บันทึกการเรียนรู้ไม่ถูกต้อง",
+    "description": "上面 browserTip 的插值内容"
+  },
+  "browserTipList": {
+    "message": "เบราว์เซอร์ต่อไปนี้ได้รับการสนับสนุนเท่านั้น:",
+    "description": "浏览器兼容性提示"
+  },
+  "chromeBrowser": {
+    "message": "Google Chrome (ดีที่สุด)",
+    "description": "浏览器兼容性提示"
+  },
+  "safariBrowser": {
+    "message": "ซาฟารี (ระบบ Mac OS)",
+    "description": "浏览器兼容性提示"
+  },
+  "timePoint": {
+    "message": "จุดในเวลา: {time}",
+    "description": "指视频剪辑的时间点"
+  },
+  "selectedQuestions": {
+    "message": "เลือกหัวข้อ {count}",
+    "description": "出现于视频剪辑处"
+  },
+  "reSelectQuestion": {
+    "message": "เลือกคําถามใหม่",
+    "description": "出现于视频剪辑处"
+  },
+  "restoreRecord": {
+    "message": "กู้คืนบันทึกการเรียนรู้",
+    "description": "UA"
+  },
+  "recordList": {
+    "message": "เรียนรู้รายการเรกคอร์ด",
+    "description": "UA"
+  },
+  "restoreTip1": {
+    "message": "ระเบียนการเรียนรู้ที่สําเร็จจะไม่ถูกบันทึกก่อนที่จะกู้คืนทีละรายการ",
+    "description": "UA"
+  },
+  "restoreTip2": {
+    "message": "หมายเหตุ: หากเรกคอร์ดไม่สามารถกู้คืนได้สําเร็จให้ติดต่อฝ่ายบริการลูกค้า หากคุณต้องการกลับไปที่หน้าโปรแกรมเล่นเพื่อดําเนินการต่อให้คลิกปุ่ม \"ย้อนกลับ\" ที่มุมขวาบน ถ้าคุณไม่ต้องการพร้อมท์ให้กู้คืนระเบียนการเรียนรู้เมื่อคุณไม่ต้องการเข้าสู่โปรแกรมเล่น",
+    "description": "UA"
+  },
+  "recovering": {
+    "message": "ในการกู้คืน",
+    "description": "UA"
+  },
+  "restoreFailed": {
+    "message": "การกู้คืนล้มเหลว",
+    "description": "UA"
+  },
+  "removedFromCache": {
+    "message": "ถูกเอาออกจากแคชแล้ว",
+    "description": "UA"
+  },
+  "restoreSuccess": {
+    "message": "การกู้คืนสําเร็จแล้ว",
+    "description": "UA"
+  },
+  "restoreComplete": {
+    "message": "เรกคอร์ดการเรียนรู้ทั้งหมดได้รับการคืนค่าเรียบร้อยแล้ว",
     "description": "UA"
   }
 }
