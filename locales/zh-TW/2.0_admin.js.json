@@ -39,17 +39,17 @@
     "message": "關閉",
     "description": "2.0 admin.js"
   },
-  "total": {
-    "message": "共",
-    "description": "2.0 admin.js"
+  "totalOfItems": {
+    "message": "共{n}條",
+    "description": "https://courseweb.tongshike.cn/admin/#/courseDeclaration/declared 国际版用不到这个页面，但是这个页面也做了国际化，所以一并处理了 \n https://courseweb.tongshike.cn/admin/#/courseDeclaration/notDeclared 同上 \n https://courseweb.tongshike.cn/admin/#/courseDeclaration/pending 同上 \n 管理员账号 -> 系统管理 -> 管理员设置 https://courseweb.tongshike.cn/admin/#/main/system/administrator \n https://courseweb.tongshike.cn/admin/#/check \n 管理员账号 -> 课程管理 -> 本校自建MOOC https://courseweb.tongshike.cn/admin/#/main/teaching/course/open/local \n 管理员账号 -> 课程管理 -> 外部引用MOOC https://courseweb.tongshike.cn/admin/#/main/teaching/course/open/foreign \n 管理员账号 -> 课程管理 -> 本校课程 https://courseweb.tongshike.cn/admin/#/main/teaching/course/school \n 管理员账号 -> 课程管理 -> 本校自建MOOC -> 选课名单 \n 管理员账号 -> 考试管理 https://courseweb.tongshike.cn/admin/#/main/teaching/exam \n 管理员账号 -> 教师管理 https://courseweb.tongshike.cn/admin/#/main/teaching/teacher \n 管理员账号 -> 学生管理 https://courseweb.tongshike.cn/admin/#/main/teaching/student \n 管理员账号 -> 自然班级 https://courseweb.tongshike.cn/admin/#/main/teaching/naturalClass \n 管理员账号 -> 通知公告 https://courseweb.tongshike.cn/admin/#/main/teaching/notice"
   },
-  "items": {
-    "message": "條",
-    "description": "2.0 admin.js"
+  "totalOfVideo": {
+    "message": "共{n}個視頻",
+    "description": "https://courseweb.tongshike.cn/admin/#/main/dataCenter/interactionTextbook \n https://courseweb.tongshike.cn/admin/#/main/uaDataAnalysis"
   },
-  "number": {
-    "message": "個",
-    "description": "2.0 admin.js"
+  "numberOf": {
+    "message": "{n}個",
+    "description": "https://courseweb.tongshike.cn/admin/#/courseDeclaration/declared 国际版用不到这个页面，但是这个页面也做了国际化，所以一并处理了"
   },
   "search": {
     "message": "搜尋",
@@ -203,10 +203,6 @@
     "message": "觀看影片平均完成率",
     "description": "2.0 admin.js"
   },
-  "videos": {
-    "message": "個影片",
-    "description": "2.0 admin.js"
-  },
   "nearly15days": {
     "message": "近15日",
     "description": "2.0 admin.js"
@@ -257,6 +253,114 @@
   },
   "allStudent": {
     "message": "所有學生",
+    "description": "2.0 admin.js"
+  },
+  "role": {
+    "message": "角色",
+    "description": "2.0 admin.js"
+  },
+  "responsibleCollege": {
+    "message": "負責學院",
+    "description": "2.0 admin.js"
+  },
+  "checkAll": {
+    "message": "全選",
+    "description": "2.0 admin.js"
+  },
+  "addRole": {
+    "message": "添加角色",
+    "description": "2.0 admin.js"
+  },
+  "editRole": {
+    "message": "修改角色",
+    "description": "2.0 admin.js"
+  },
+  "module": {
+    "message": "模組",
+    "description": "2.0 admin.js"
+  },
+  "permission": {
+    "message": "許可權",
+    "description": "2.0 admin.js"
+  },
+  "rolePermissionSetting": {
+    "message": "角色許可權設置",
+    "description": "2.0 admin.js"
+  },
+  "changePermissionTips": {
+    "message": "修改角色許可權後，點擊\"保存修改\"才能生效",
+    "description": "2.0 admin.js"
+  },
+  "inputRoleName": {
+    "message": "請輸入角色名稱",
+    "description": "2.0 admin.js"
+  },
+  "systemAdministrator": {
+    "message": "系統管理員",
+    "description": "2.0 admin.js"
+  },
+  "deleteRoleTips": {
+    "message": "確定刪除角色嗎？ 刪除角色，不會刪除相關使用者，您可以為使用者設置新的角色。",
+    "description": "2.0 admin.js"
+  },
+  "onlySystemTips": {
+    "message": "僅系統管理員可用",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips1": {
+    "message": "課程管理：本校課程管理（合併/轉讓課程、進入課程、查看課程分析）",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips2": {
+    "message": "課程管理：本校MOOC管理（發佈審核、修改分類及網站顯示狀態）",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips3": {
+    "message": "課程管理：外部引入課程管理",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips4": {
+    "message": "教師管理（添加/修改/刪除教師，進入教師帳號）",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips5": {
+    "message": "學生管理（添加/修改/刪除學生，進入學生帳號）",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips6": {
+    "message": "自然班級管理（添加/修改/刪除自然班級）",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips7": {
+    "message": "通知公告（發佈/修改/刪除公告）",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips8": {
+    "message": "角色權限設定 （新增/修改/ 刪除角色，設定角色權限）",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips9": {
+    "message": "管理員設定 （新增/修改/ 刪除管理員，指定使用者角色）",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips10": {
+    "message": "查看和管理子系統",
+    "description": "2.0 admin.js"
+  },
+  "addAdminTips1": {
+    "message": "請選擇角色",
+    "description": "2.0 admin.js"
+  },
+  "addAdminTips2": {
+    "message": "至少選擇一個學院",
+    "description": "2.0 admin.js"
+  },
+  "saveSuccess": {
+    "message": "保存成功！",
+    "description": "2.0 admin.js"
+  },
+  "saveFailed": {
+    "message": "保存失敗",
     "description": "2.0 admin.js"
   },
   "subsystem.mobileEvaluation": {
@@ -1623,6 +1727,14 @@
     "message": "外部引用",
     "description": "2.0 admin.js"
   },
+  "dataCenter.PCExe": {
+    "message": "電腦用戶端",
+    "description": "2.0 admin.js"
+  },
+  "dataCenter.PCweb": {
+    "message": "電腦網頁",
+    "description": "2.0 admin.js"
+  },
   "courseDeclarationAdmin.ulearningCourseDeclarationInfoAdmin": {
     "message": "優學院課程申報資訊管理",
     "description": "2.0 admin.js"
@@ -2043,6 +2155,10 @@
     "message": "網站語言",
     "description": "2.0 admin.js"
   },
+  "systemAdmin.websiteLanguageTip": {
+    "message": "網站語言不能為空",
+    "description": "2.0 admin.js"
+  },
   "systemAdmin.default": {
     "message": "默認",
     "description": "2.0 admin.js"
@@ -2053,6 +2169,10 @@
   },
   "systemAdmin.websiteTemplate": {
     "message": "網站範本",
+    "description": "2.0 admin.js"
+  },
+  "systemAdmin.websiteTemplateTip": {
+    "message": "請選擇網站範本",
     "description": "2.0 admin.js"
   },
   "systemAdmin.menuTypeTemplate": {
@@ -2093,6 +2213,10 @@
   },
   "systemAdmin.systemAdminTips19": {
     "message": "如果您僅想讓學生有個單獨的登錄入口建議使用該模板",
+    "description": "2.0 admin.js"
+  },
+  "systemAdmin.systemAdminTips20": {
+    "message": "如果您僅想讓學生有個單獨的登錄入口建議使用該範本",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.inSchoolCourse": {
@@ -2323,9 +2447,9 @@
     "message": "參與人數",
     "description": "2.0 admin.js"
   },
-  "teachingAdmin.to": {
-    "message": "至",
-    "description": "2.0 admin.js"
+  "teachingAdmin.timeBetween": {
+    "message": "{startTime} 至 {endTime}",
+    "description": "管理员账号 -> 数据中心 -> 教学动态 \n 管理员账号 -> 考试管理"
   },
   "teachingAdmin.viewScore": {
     "message": "檢視成績",
@@ -2873,6 +2997,70 @@
   },
   "courseUnit": {
     "message": "{courseCount}門",
+    "description": "2.0 admin.js"
+  },
+  "appCenter": {
+    "message": "應用中心",
+    "description": "2.0 admin.js"
+  },
+  "internalApp": {
+    "message": "內部應用",
+    "description": "2.0 admin.js"
+  },
+  "ltiApp": {
+    "message": "LTI整合應用",
+    "description": "2.0 admin.js"
+  },
+  "installed": {
+    "message": "已開通",
+    "description": "2.0 admin.js"
+  },
+  "unInstalled": {
+    "message": "未開通",
+    "description": "2.0 admin.js"
+  },
+  "viewMore": {
+    "message": "瞭解詳情",
+    "description": "2.0 admin.js"
+  },
+  "appManage": {
+    "message": "應用管理",
+    "description": "2.0 admin.js"
+  },
+  "installed2": {
+    "message": "已安裝",
+    "description": "2.0 admin.js"
+  },
+  "addApp": {
+    "message": "添加應用",
+    "description": "2.0 admin.js"
+  },
+  "name": {
+    "message": "名稱",
+    "description": "2.0 admin.js"
+  },
+  "consumerKey": {
+    "message": "Consumer Key",
+    "description": "2.0 admin.js"
+  },
+  "sharedSecret": {
+    "message": "Shared Secret",
+    "description": "2.0 admin.js"
+  },
+  "configURL": {
+    "message": "Config URL",
+    "description": "2.0 admin.js"
+  },
+  "deleteApp": {
+    "message": "刪除應用",
+    "description": "2.0 admin.js"
+  },
+  "confirmDelete": {
+    "message": "確定刪除應用嗎？",
+    "description": "2.0 admin.js"
+  },
+  "deleteSuccess": {
+    "message": "删除成功",
     "description": "2.0 admin.js"
   }
 }

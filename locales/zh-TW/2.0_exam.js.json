@@ -7,6 +7,10 @@
     "message": "考試成績",
     "description": "2.0 exam.js"
   },
+  "gradeSumCl": {
+    "message": "客觀題/主觀題/總分",
+    "description": "2.0 {filename}"
+  },
   "examinationAnalysis": {
     "message": "考試分析",
     "description": "2.0 exam.js"
@@ -119,6 +123,22 @@
     "message": "姓名",
     "description": "2.0 exam.js"
   },
+  "namePrefix": {
+    "message": "名稱：{name}",
+    "description": "2.0 {filename}"
+  },
+  "accountPrefix": {
+    "message": "帳號：{account}",
+    "description": "2.0 {filename}"
+  },
+  "schoolPrefix": {
+    "message": "學校：{org}",
+    "description": "2.0 {filename}"
+  },
+  "certPrefix": {
+    "message": "評估證號：{no}",
+    "description": "2.0 {filename}"
+  },
   "totalScore": {
     "message": "總分",
     "description": "2.0 exam.js"
@@ -183,9 +203,9 @@
     "message": "請選擇參加考試的批次",
     "description": "2.0 exam.js"
   },
-  "to": {
-    "message": "至",
-    "description": "2.0 exam.js"
+  "betweenTime": {
+    "message": "{startTime} 至 {endTime}",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> “全部场次”选择框 \n 教师账号 -> 考试 -> 查看成绩 -> 设置重考 \n 教师账号 -> 考试 -> 添加考试 \n 教师账号 -> 考试 -> 查看成绩 -> 设置重考(要求当前没有批次) -> 添加批次 \n 教师账号 -> 考试 -> 查看成绩 -> 考务管理 -> 场次按排 -> 添加场次"
   },
   "confirm": {
     "message": "確定",
@@ -269,19 +289,19 @@
   },
   "examStuNum": {
     "message": "{0}人參加考試",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "expectExamStuNum": {
     "message": "應考人數{0}",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "referenceRate": {
     "message": "參考率",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "referenceRate2": {
     "message": "參考率：{0}%（異常率：{1}%）",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "exceptionRate": {
     "message": "異常率",
@@ -373,11 +393,11 @@
   },
   "personnel": {
     "message": "{0}人次/{1}%",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "personnel2": {
     "message": "{count}人次",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析"
   },
   "detailedAnalysis": {
     "message": "詳細分析",
@@ -559,6 +579,10 @@
     "message": "未知",
     "description": "2.0 exam.js"
   },
+  "points": {
+    "message": "{grade} 分",
+    "description": "2.0 exam.js"
+  },
   "paperPartName": {
     "message": "考卷各部分名稱",
     "description": "2.0 exam.js"
@@ -571,16 +595,16 @@
     "message": "棄考率",
     "description": "2.0 exam.js"
   },
-  "day": {
-    "message": "日",
-    "description": "2.0 exam.js"
-  },
   "hour": {
     "message": "小時",
     "description": "2.0 exam.js"
   },
-  "seconds": {
-    "message": "秒",
+  "minute": {
+    "message": "{count}分鐘",
+    "description": "2.0 exam.js"
+  },
+  "timeLength": {
+    "message": "{days}天{hours}小時{minutes}分鐘{seconds}秒",
     "description": "2.0 exam.js"
   },
   "scoringRate": {
@@ -651,6 +675,10 @@
     "message": "作答次數",
     "description": "2.0 exam.js"
   },
+  "answeredTimes": {
+    "message": "已答次數/允許次數",
+    "description": "2.0 {filename}"
+  },
   "achievement": {
     "message": "成績",
     "description": "2.0 exam.js"
@@ -667,6 +695,18 @@
     "message": "已結束",
     "description": "2.0 exam.js"
   },
+  "examDurationCl": {
+    "message": "考試時長：{count}分鐘",
+    "description": "2.0 exam.js"
+  },
+  "lateTime": {
+    "message": "遲到時間：{count}",
+    "description": "2.0 exam.js"
+  },
+  "lateTimeSet": {
+    "message": "遲到時間",
+    "description": "2.0 exam.js"
+  },
   "myself": {
     "message": "我自己",
     "description": "2.0 exam.js"
@@ -675,17 +715,25 @@
     "message": "開始",
     "description": "2.0 exam.js"
   },
+  "startDatePrefix": {
+    "message": "開始：{time}",
+    "description": "2.0 {filename}"
+  },
   "ended": {
     "message": "結束",
     "description": "2.0 exam.js"
+  },
+  "endDatePrefix": {
+    "message": "結束：{time}",
+    "description": "2.0 {filename}"
   },
   "noBatch": {
     "message": "暫無批次",
     "description": "2.0 exam.js"
   },
-  "part": {
-    "message": "份",
-    "description": "2.0 exam.js"
+  "partOf": {
+    "message": "{n}份",
+    "description": "教师账号 -> 考试"
   },
   "randomGroupPaper": {
     "message": "隨機組卷",
@@ -731,9 +779,9 @@
     "message": "考試結束後",
     "description": "2.0 exam.js"
   },
-  "dayShow": {
-    "message": "日顯示",
-    "description": "2.0 exam.js"
+  "dayShowExam": {
+    "message": "考試結束後{n}天顯示",
+    "description": "学生账号 -> 考试"
   },
   "examTips5": {
     "message": "成績暫不公佈",
@@ -750,6 +798,10 @@
   "networkErrorTips": {
     "message": "網絡錯誤,點擊",
     "description": "2.0 exam.js"
+  },
+  "networkErrorTips2": {
+    "message": "網絡錯誤，點擊{button}重新加載",
+    "description": "2.0 {filename}"
   },
   "loadErrorTips": {
     "message": "加載出錯了,點擊",
@@ -785,6 +837,22 @@
   },
   "remarkTips1": {
     "message": "註: 若考生提交了多次作答記錄,默認顯示最後一次記錄",
+    "description": "2.0 exam.js"
+  },
+  "totalQue": {
+    "message": "共{n}道",
+    "description": "2.0 exam.js"
+  },
+  "queOf": {
+    "message": "{n} 道",
+    "description": "2.0 exam.js"
+  },
+  "queIndex": {
+    "message": "第{n}題",
+    "description": "2.0 exam.js"
+  },
+  "answeringCount": {
+    "message": "第{n}次答題中",
     "description": "2.0 exam.js"
   },
   "seeDetails": {
@@ -1011,9 +1079,9 @@
     "message": "分數不能超過總分數",
     "description": "2.0 exam.js"
   },
-  "times": {
-    "message": "次",
-    "description": "2.0 exam.js"
+  "timesOf": {
+    "message": "{n}次",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息 \n 教师账号 -> 考试 -> 考试监控 -> 列表形式 -> 异常记录"
   },
   "baseInformation": {
     "message": "基本資訊",
@@ -1023,9 +1091,13 @@
     "message": "考試名稱: ",
     "description": "2.0 exam.js"
   },
-  "answerTimesCl": {
-    "message": "作答次數: ",
+  "answerDurationCl": {
+    "message": "答題時長：{count}",
     "description": "2.0 exam.js"
+  },
+  "answerTimesOf": {
+    "message": "答題次數：{count}",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息"
   },
   "passScoreCl": {
     "message": "及格分數: ",
@@ -1105,10 +1177,6 @@
   },
   "commitImmediatelyShow": {
     "message": "交卷後立刻公佈",
-    "description": "2.0 exam.js"
-  },
-  "dayAfterShow": {
-    "message": "日後顯示",
     "description": "2.0 exam.js"
   },
   "cannotAllForbidden": {
@@ -1213,11 +1281,11 @@
   },
   "auditPassed": {
     "message": "稽核通過",
-    "description": "2.0 exam.js"
+    "description": "有两个审核通过文本，对应key是auditPassed的表示审核通过的状态，对应key是auditPassVerb表示执行通过审核通过的动作，常用于按钮"
   },
   "auditPassVerb": {
     "message": "稽核通過",
-    "description": "2.0 exam.js"
+    "description": "有两个审核通过文本，对应key是auditPassed的表示审核通过的状态，对应key是auditPassVerb表示执行通过审核通过的动作，常用于按钮"
   },
   "auditFailed": {
     "message": "稽核未通過",
@@ -1267,13 +1335,13 @@
     "message": "通過驗證碼進入考試",
     "description": "2.0 exam.js"
   },
-  "studentNOCl": {
-    "message": "學號: ",
-    "description": "2.0 exam.js"
+  "studentNOCl2": {
+    "message": "學號：{no}",
+    "description": "2.0 {filename}"
   },
-  "classCl": {
-    "message": "班級: ",
-    "description": "2.0 exam.js"
+  "classOf": {
+    "message": "班級：{className}",
+    "description": "此功能已被替换，但代码还在，为了安全，所以重构了插值。"
   },
   "waitApproved": {
     "message": "等待批閱",
@@ -1419,6 +1487,14 @@
     "message": "場次",
     "description": "2.0 exam.js"
   },
+  "batchNo": {
+    "message": "場次{n}",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考务管理 -> 场次按排 \n 教师账号 -> 考试 -> 查看成绩 -> 考试监控 \n 教师账号 -> 考试 -> 添加考试 \n 教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
+  },
+  "batchNoTime": {
+    "message": "場次{n}: {startTime} 至 {endTime}",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排"
+  },
   "clearExamRoomPlan": {
     "message": "清除考場安排",
     "description": "2.0 exam.js"
@@ -1451,13 +1527,17 @@
     "message": "監考老師",
     "description": "2.0 exam.js"
   },
-  "etc": {
-    "message": "等",
-    "description": "2.0 exam.js"
+  "etcOfPeople": {
+    "message": "{name}等{n}人",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排"
   },
-  "people": {
-    "message": "人",
-    "description": "2.0 exam.js"
+  "etcOf": {
+    "message": "{name}等",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 (当学生单独参加考试，没有在班级中时，才会出现这个)"
+  },
+  "peopleOf": {
+    "message": "[{n}人]",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "empty": {
     "message": "空",
@@ -1593,6 +1673,10 @@
   },
   "roomTips7": {
     "message": "暫無學生",
+    "description": "2.0 exam.js"
+  },
+  "batchExpand": {
+    "message": "批次延長{count}分鐘",
     "description": "2.0 exam.js"
   },
   "roomTips8": {
@@ -1745,11 +1829,11 @@
   },
   "unuploadedPhotos": {
     "message": "未上傳照片",
-    "description": "2.0 exam.js"
+    "description": "有两个未上传照片，分别为unuploadedPhotos和unuploadedPhotosAlt，unuploadedPhotos表示未上传照片的人数，unuploadedPhotosAlt是未上传照片时的替代文本，类似于网页上当图片加载失败后，会显示替代文本"
   },
   "unuploadedPhotosAlt": {
     "message": "未上傳照片",
-    "description": "2.0 exam.js"
+    "description": "有两个未上传照片，分别为unuploadedPhotos和unuploadedPhotosAlt，unuploadedPhotos表示未上传照片的人数，unuploadedPhotosAlt是未上传照片时的替代文本，类似于网页上当图片加载失败后，会显示替代文本"
   },
   "batchOpration": {
     "message": "批量操作",
@@ -2231,17 +2315,17 @@
     "message": "請選擇各個場次需要使用的考場,每個場次的總座位數應大於考生數",
     "description": "2.0 exam.js"
   },
-  "seat": {
-    "message": "座",
-    "description": "2.0 exam.js"
+  "seatOf": {
+    "message": "{n}座",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
-  "examStudent": {
-    "message": "考生",
-    "description": "2.0 exam.js"
+  "examStudentOf": {
+    "message": "{n}考生",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
-  "seats": {
-    "message": "座位",
-    "description": "2.0 exam.js"
+  "seatsOf": {
+    "message": "{n}座位",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "roomEditorTips5": {
     "message": "系統已根據班級人數和考場座位數自動生成編排結果,您可以手動調整,確認以後儲存編排結果。",
@@ -2267,18 +2351,6 @@
     "message": "你可以將當前班級整班移動到其他考場；也可以從當前班級中,選擇部分學生分到其他考場。",
     "description": "2.0 exam.js"
   },
-  "roomEditorTips8": {
-    "message": "（學生總數: ",
-    "description": "2.0 exam.js"
-  },
-  "roomEditorTips9": {
-    "message": "中的",
-    "description": "2.0 exam.js"
-  },
-  "roomEditorTips10": {
-    "message": "人移動到以下考場: ",
-    "description": "2.0 exam.js"
-  },
   "roomEditorTips11": {
     "message": "確定要删除該考場嗎？",
     "description": "2.0 exam.js"
@@ -2299,9 +2371,9 @@
     "message": "請選擇考場",
     "description": "2.0 exam.js"
   },
-  "roomEditorTips16": {
-    "message": "座位數小於考生數",
-    "description": "2.0 exam.js"
+  "roomEditorTip16": {
+    "message": "場次{n}座位數小於考生數",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "roomEditorTips17": {
     "message": "移動人數不能為零",
@@ -2359,9 +2431,9 @@
     "message": "立即顯示",
     "description": "2.0 exam.js"
   },
-  "daysAfterShow": {
-    "message": "日後顯示",
-    "description": "2.0 exam.js"
+  "afterDaysShow": {
+    "message": "{n}天後顯示",
+    "description": "教师账号 -> 考试 -> 添加考试"
   },
   "weekAfterShow": {
     "message": "{count}週後顯示",
@@ -2417,6 +2489,14 @@
   },
   "unlimitTimes": {
     "message": "不限制次數",
+    "description": "2.0 exam.js"
+  },
+  "lateTip": {
+    "message": "考試開始{count}分鐘後不允許再進入",
+    "description": "2.0 exam.js"
+  },
+  "commitLimitTip": {
+    "message": "考試開始{count}分鐘內不允許交卷",
     "description": "2.0 exam.js"
   },
   "abnormalMonitor": {
@@ -2519,6 +2599,10 @@
     "message": "及格分數應在{range}之間",
     "description": "2.0 exam.js"
   },
+  "setExamTips18": {
+    "message": "之間",
+    "description": "2.0 exam.js"
+  },
   "setExamTips19": {
     "message": "請選擇考試對象（班級或學生）",
     "description": "2.0 exam.js"
@@ -2591,13 +2675,17 @@
     "message": "稽核不通過",
     "description": "2.0 exam.js"
   },
-  "remain": {
-    "message": "餘",
-    "description": "2.0 exam.js"
+  "remainSeatOf": {
+    "message": "余{n}座",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
-  "let": {
-    "message": "將",
-    "description": "2.0 exam.js"
+  "remainSeatOf2": {
+    "message": "{roomName}（余{n}座）",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 -> 修改考场"
+  },
+  "modifyRoomTip": {
+    "message": "將{className}（學生總數：{total}人）中的{n}人移動到以下考場：",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 -> 修改考场"
   },
   "objectivesQ": {
     "message": "客觀題",
@@ -2617,15 +2705,15 @@
   },
   "classRange": {
     "message": "班級範圍：{className}",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析 -> 导出考试分析"
   },
   "exportDate": {
     "message": "導出日期：{date}",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析 -> 导出考试分析"
   },
   "conceptDesc": {
     "message": "概念說明：",
-    "description": "2.0 exam.js"
+    "description": "教师账号 -> 课程 -> 考试 -> 选择一门考试 -> 考试分析 -> 导出考试分析"
   },
   "mark": {
     "message": "標註",
@@ -2693,7 +2781,7 @@
   },
   "screenMonitorTips2": {
     "message": "開啟切屏監控，離開超過{count}次後強制交卷 {tip}",
-    "description": "2.0 exam.js"
+    "description": "tip处的插值是 “（仅支持手机考试）”，因为tip需要独立的设置样式。"
   },
   "faceAuth": {
     "message": "人臉識別",
@@ -2717,7 +2805,7 @@
   },
   "minSubmitTimeTips1": {
     "message": "考試開始後{count}{minuteTip}內不允許交卷",
-    "description": "2.0 exam.js"
+    "description": "minuteTip 的插值是分钟，就是下面的minuteTip"
   },
   "minuteTip": {
     "message": "分鐘",
@@ -2759,9 +2847,9 @@
     "message": "離開",
     "description": "2.0 exam.js"
   },
-  "examHeadTips3": {
+  "examHeadTips4": {
     "message": "考試前請{detectEnv}，確認網絡、設備、瀏覽器等正常。",
-    "description": "2.0 exam.js"
+    "description": "detectEnv 的插值是“检测考试环境”，就是下面的 detectEnv 字段"
   },
   "detectEnv": {
     "message": "檢測考試環境",
@@ -2769,6 +2857,42 @@
   },
   "deletePhoto": {
     "message": "刪除照片",
+    "description": "2.0 exam.js"
+  },
+  "deletePhoto2": {
+    "message": "刪除抓拍照片",
+    "description": "2.0 exam.js"
+  },
+  "replaceDevice": {
+    "message": "更換設備",
+    "description": "2.0 exam.js"
+  },
+  "replaceIp": {
+    "message": "更換IP",
+    "description": "2.0 exam.js"
+  },
+  "systemPhoto": {
+    "message": "系統抓拍照片",
+    "description": "2.0 exam.js"
+  },
+  "inCorrectPhoto": {
+    "message": "照片與本人不符",
+    "description": "2.0 exam.js"
+  },
+  "photoRemoved": {
+    "message": "照片已刪除",
+    "description": "2.0 exam.js"
+  },
+  "deviceID": {
+    "message": "設備ID：{id}",
+    "description": "2.0 exam.js"
+  },
+  "confirmDeletePhoto": {
+    "message": "確定刪除當前班級所有學生的抓拍照片嗎？",
+    "description": "2.0 exam.js"
+  },
+  "confirmDeletePhoto2": {
+    "message": "確定刪除該學生的抓拍照片嗎？",
     "description": "2.0 exam.js"
   },
   "recordShowAfterSubmit": {
@@ -2787,6 +2911,14 @@
     "message": "考試結束後顯示",
     "description": "2.0 exam.js"
   },
+  "afterExamFinishedTips2": {
+    "message": "考試結束後{n}天顯示",
+    "description": "2.0 {filename}"
+  },
+  "weekPublish": {
+    "message": "{n} 周後公布",
+    "description": "2.0 exam.js"
+  },
   "noPublish": {
     "message": "不公佈",
     "description": "2.0 exam.js"
@@ -2795,9 +2927,9 @@
     "message": "刪除場次",
     "description": "2.0 exam.js"
   },
-  "examEnd": {
-    "message": "考試結束",
-    "description": "2.0 exam.js"
+  "examDaysPublish": {
+    "message": "考試結束{n}天后公佈",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息"
   },
   "auditTipsClassroom": {
     "message": "開啟了人臉識別驗證，需要提前上傳考生認證照片。照片可以由教師批量導入，也可以由學生自已上傳。學生自已上傳的照片，教師可以進行審核。",
@@ -2805,6 +2937,230 @@
   },
   "faceServiceTips": {
     "message": "人臉識別和抓拍監控為收費服務，您所在機構暫未開通，如需開通請聯繫客服",
+    "description": "2.0 exam.js"
+  },
+  "borwserTip": {
+    "message": "現在瀏覽器是：{browser}，請使用Internet Explorer進行考試！",
+    "description": "2.0 {filename}"
+  },
+  "offlineTip": {
+    "message": "請配置離線考試地址後再進行考試",
+    "description": "2.0 {filename}"
+  },
+  "restoreLocalRecord": {
+    "message": "恢復本地答題記錄",
+    "description": "2.0 {filename}"
+  },
+  "findExamTip": {
+    "message": "如果在下方考試列表中，沒有找到需要參加的考試，請檢查登錄的帳號是否正確，或者是否加入了正確的班級。",
+    "description": "2.0 {filename}"
+  },
+  "faceServiceTipsNew": {
+    "message": "人臉識別和攝像監控為收費服務，您所在機構暫未開通，如需開通請聯系客服",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCWeb": {
+    "message": "僅電腦網頁",
+    "description": "2.0 exam.js"
+  },
+  "onlyMobile": {
+    "message": "僅手機APP",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExe": {
+    "message": "僅電腦鎖屏客戶端",
+    "description": "2.0 exam.js"
+  },
+  "unlimit": {
+    "message": "不限",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeTips": {
+    "message": "使用{PCExe}參加考試，考生進入考試後，中途不能離開考試界面，適用於較為嚴格的考試，或機房集中考試。",
+    "description": "2.0 exam.js"
+  },
+  "PCExe": {
+    "message": "電腦鎖屏客戶端",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeTips1": {
+    "message": "選擇此項，考前須在電腦上安裝優學院考試客戶端，目前僅支持Win7以上系統，不支持Mac。為避免正式考試出現異常，建議提前安排模擬考試進行測試。",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration": {
+    "message": "答題時長",
+    "description": "2.0 exam.js"
+  },
+  "resultPublic": {
+    "message": "公布範圍",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorItem": {
+    "message": "開啟攝像監控，包括過程抓拍 、AI姿態檢測、異常情況錄像",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorTips": {
+    "message": "考生須全程開啟攝像頭且保持畫面穩定，僅支持電腦考試",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent": {
+    "message": "攝像監控包括：",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent1": {
+    "message": "1. 過程抓拍：每隔1分鐘抓拍考生照片。",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent2": {
+    "message": "2. AI姿態檢測：系統通過攝像頭實時監測考生身體姿態，可檢測並記錄考生離開座位、長時間視線偏離、與人交頭接耳等異常情況。",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent3": {
+    "message": "3. 異常情況錄像：系統檢測到姿態異常時，將自動錄制並上傳異常視頻片段，供事後復查。",
+    "description": "2.0 exam.js"
+  },
+  "cameraMonitor": {
+    "message": "攝像監控",
+    "description": "2.0 exam.js"
+  },
+  "PCExe1": {
+    "message": "電腦客戶端",
+    "description": "2.0 exam.js"
+  },
+  "PCweb": {
+    "message": "電腦網頁",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips5": {
+    "message": "這裏是教師發布的所有考試，進入考試之前，請仔細查看每場考試的詳細信息。",
+    "description": "2.0 exam.js"
+  },
+  "downloadPCExe": {
+    "message": "下載考試客戶端",
+    "description": "2.0 exam.js"
+  },
+  "webEnvTest": {
+    "message": "網頁考試環境檢測",
+    "description": "2.0 exam.js"
+  },
+  "examFaceVerification": {
+    "message": "考試人臉認證",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeBtnTips": {
+    "message": "請使用優學院考試客戶端參加考試",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCWebBtnTips": {
+    "message": "請使用瀏覽器在網頁端考試",
+    "description": "2.0 exam.js"
+  },
+  "monitorRecords": {
+    "message": "監控記錄",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminder": {
+    "message": "異常提醒",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderFilter": {
+    "message": "過濾異常信息",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderTitle1": {
+    "message": "答題軌跡異常",
+    "description": "2.0 exam.js"
+  },
+  "mobileExam": {
+    "message": "手機考試",
+    "description": "2.0 exam.js"
+  },
+  "exception1": {
+    "message": "離開頁面>5秒",
+    "description": "2.0 exam.js"
+  },
+  "exception2": {
+    "message": "系統強制交卷",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderTitle2": {
+    "message": "姿態異常",
+    "description": "2.0 exam.js"
+  },
+  "leaveSeat": {
+    "message": "離開座位",
+    "description": "2.0 exam.js"
+  },
+  "deviation": {
+    "message": "視線偏離>2秒",
+    "description": "2.0 exam.js"
+  },
+  "deviation1": {
+    "message": "視線偏離",
+    "description": "2.0 exam.js"
+  },
+  "talk": {
+    "message": "與人交頭接耳",
+    "description": "2.0 exam.js"
+  },
+  "examMonitorRecords": {
+    "message": "考試監控記錄",
+    "description": "2.0 exam.js"
+  },
+  "answerTrack": {
+    "message": "答題軌跡",
+    "description": "2.0 exam.js"
+  },
+  "clearfixMonitorRecords": {
+    "message": "清空監控記錄",
+    "description": "2.0 exam.js"
+  },
+  "normalState": {
+    "message": "狀態正常",
+    "description": "2.0 exam.js"
+  },
+  "confirmClearMonitorRecords": {
+    "message": "確定清空監控記錄？",
+    "description": "2.0 exam.js"
+  },
+  "timeDay": {
+    "message": "{days}天",
+    "description": "2.0 exam.js"
+  },
+  "timeHour": {
+    "message": "{hours}小時",
+    "description": "2.0 exam.js"
+  },
+  "timeSecond": {
+    "message": "{seconds}秒",
+    "description": "2.0 exam.js"
+  },
+  "UTestName": {
+    "message": "U-Test考試系統",
+    "description": "2.0 exam.js"
+  },
+  "UTestInputName": {
+    "message": "請輸入帳號",
+    "description": "2.0 exam.js"
+  },
+  "UTestInputPsd": {
+    "message": "請輸入密碼",
+    "description": "2.0 exam.js"
+  },
+  "UTestLoginErr": {
+    "message": "用戶名或密碼錯誤",
+    "description": "2.0 exam.js"
+  },
+  "UTestLogin": {
+    "message": "登錄",
+    "description": "2.0 exam.js"
+  },
+  "UTestLogout": {
+    "message": "退出",
+    "description": "2.0 exam.js"
+  },
+  "UTestDesc": {
+    "message": "說明：此客戶端僅支持學生參加考試，註冊賬號、加入班級等操作，請提前登錄優學院網頁端或APP完成",
     "description": "2.0 exam.js"
   }
 }

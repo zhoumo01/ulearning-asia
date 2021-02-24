@@ -1,7 +1,7 @@
 {
   "useControlText": {
     "message": "請使用控件錄制您的答案",
-    "description": "1.0 questionNew.json"
+    "description": "此翻译文件隶属于exam.js和questionNew.js 被考试试题预览页面、布置个人作业所用到，"
   },
   "reDoRecord": {
     "message": "重新錄制",
@@ -335,6 +335,18 @@
     "message": "檢測到你已{count1}秒沒有進行操作，{count2}秒內無操作將被判定為異常離開。",
     "description": "1.0 questionNew.js"
   },
+  "startPaperText": {
+    "message": "開始答卷",
+    "description": "1.0 backwards.jsp"
+  },
+  "invalidIp": {
+    "message": "當前IP：{ip} 無進入考試許可權，請使用規定電腦參加考試",
+    "description": "1.0 backwards.jsp"
+  },
+  "invalidExamCount": {
+    "message": "您已超過本考試的次數限制，無法進行考試！\n限制次數：{count}次",
+    "description": "1.0 backwards.jsp"
+  },
   "noAnswer": {
     "message": "學生未作答",
     "description": "1.0 correctPaper.jsp"
@@ -409,7 +421,7 @@
   },
   "plzInputScore": {
     "message": "請輸入{range}的分數",
-    "description": "1.0 questionNew.js"
+    "description": "range插值是一个范围，例如，请输入0-50的分数"
   },
   "photoNotChecked": {
     "message": "認證照片未審核",

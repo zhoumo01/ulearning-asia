@@ -23,13 +23,9 @@
     "message": "插入考卷",
     "description": "2.0 reponsitory.js"
   },
-  "haveSelected": {
-    "message": "已選",
-    "description": "2.0 reponsitory.js"
-  },
-  "examPapers": {
-    "message": "個考卷",
-    "description": "2.0 reponsitory.js"
+  "selectedPaper": {
+    "message": "已選{n}個試卷",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "myExamPaper": {
     "message": "我的考卷",
@@ -159,9 +155,9 @@
     "message": "沒有考卷",
     "description": "2.0 reponsitory.js"
   },
-  "networkExceptionTips": {
-    "message": "網絡异常，請點擊",
-    "description": "2.0 reponsitory.js"
+  "networkError": {
+    "message": "網路異常，請點擊{reloadButton}",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源 \n 课程列表 -> 上方试卷库"
   },
   "reload": {
     "message": "重新加載",
@@ -359,21 +355,17 @@
     "message": "已選擇",
     "description": "2.0 reponsitory.js"
   },
-  "items": {
-    "message": "項",
-    "description": "2.0 reponsitory.js"
+  "selectedItems": {
+    "message": "已選擇{n}項",
+    "description": "课程列表 -> 上方资源库 \n 课程列表 -> 上方试卷库"
   },
   "cancelMultipleSelection": {
     "message": "取消多選",
     "description": "2.0 reponsitory.js"
   },
-  "total": {
-    "message": "共",
-    "description": "2.0 reponsitory.js"
-  },
-  "number": {
-    "message": "個",
-    "description": "2.0 reponsitory.js"
+  "totalOf": {
+    "message": "共{n}個",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源"
   },
   "size": {
     "message": "大小",
@@ -519,9 +511,9 @@
     "message": "全部分類",
     "description": "2.0 reponsitory.js"
   },
-  "selectedNum": {
-    "message": "已選擇數量",
-    "description": "2.0 reponsitory.js"
+  "selectedCount": {
+    "message": "已選擇數量：{n}",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "selectRes": {
     "message": "選擇資源",
@@ -537,6 +529,158 @@
   },
   "resKeyword": {
     "message": "輸入關鍵字搜索資源",
+    "description": "2.0 reponsitory.js"
+  },
+  "archivePwdSet": {
+    "message": "設置或更改封存密碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "tips": {
+    "message": "提示",
+    "description": "2.0 reponsitory.js"
+  },
+  "unbindPhoneTips": {
+    "message": "你的帳號還沒有綁定手機或郵箱，為防止忘記密碼，請先在個人資料中綁定手機或郵箱。",
+    "description": "2.0 reponsitory.js"
+  },
+  "toBind": {
+    "message": "去綁定",
+    "description": "2.0 reponsitory.js"
+  },
+  "setPaperPwd": {
+    "message": "設置封存密碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperPwdTips1": {
+    "message": "設置封存密碼后，可以將指定試卷或資料夾封存，被封存的試卷或資料夾，需要輸入密碼才能查看或解封。",
+    "description": "2.0 reponsitory.js"
+  },
+  "updatePaperPwd": {
+    "message": "更改封存密碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "oldPwd": {
+    "message": "舊密碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "newPwd": {
+    "message": "新密碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "newPwdAgain": {
+    "message": "再次輸入新密碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdNullTips": {
+    "message": "請輸入密碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdErrorTips": {
+    "message": "密碼錯誤",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdRegTips": {
+    "message": "密碼應為6-16位數位或字母",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdDifTips": {
+    "message": "兩次輸入密碼不一致",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPwd": {
+    "message": "輸入密碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputAgain": {
+    "message": "再次輸入",
+    "description": "2.0 reponsitory.js"
+  },
+  "deletePaperPwd": {
+    "message": "刪除封存密碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "deletePaperPwdTips": {
+    "message": "刪除封存密碼後，被封存的試卷和資料夾將全部被解封",
+    "description": "2.0 reponsitory.js"
+  },
+  "setPaperPwdTips": {
+    "message": "設置封存密碼后，可以將指定試卷或資料夾封存，被封存的試卷或資料夾，需要輸入密碼才可查看或解封。",
+    "description": "2.0 reponsitory.js"
+  },
+  "forgetPwd": {
+    "message": "忘記密碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "authentication": {
+    "message": "身份驗證",
+    "description": "2.0 reponsitory.js"
+  },
+  "mail": {
+    "message": "郵箱",
+    "description": "2.0 reponsitory.js"
+  },
+  "sms": {
+    "message": "手機簡訊",
+    "description": "2.0 reponsitory.js"
+  },
+  "phone": {
+    "message": "手機號",
+    "description": "2.0 reponsitory.js"
+  },
+  "picCode": {
+    "message": "圖形驗證碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "smsCode": {
+    "message": "短信驗證碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "mailCode": {
+    "message": "郵箱驗證碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "getCode": {
+    "message": "獲取驗證碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPicCodeTips": {
+    "message": "請輸入圖形驗證碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputCodeTips": {
+    "message": "請輸入驗證碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "authType": {
+    "message": "驗證方式",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperLock": {
+    "message": "封存",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperUnLock": {
+    "message": "解封",
+    "description": "2.0 reponsitory.js"
+  },
+  "sharedPaperLockTips": {
+    "message": "已共用的試卷或資料夾不能封存，請先修改共用範圍再封存。",
+    "description": "2.0 reponsitory.js"
+  },
+  "operateSuccess": {
+    "message": "操作成功",
+    "description": "2.0 reponsitory.js"
+  },
+  "sendSuccess": {
+    "message": "操作成功",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPaperPwd": {
+    "message": "輸入封存密碼",
+    "description": "2.0 reponsitory.js"
+  },
+  "codeTimerTips": {
+    "message": "{n}秒後可重新獲取",
     "description": "2.0 reponsitory.js"
   }
 }
