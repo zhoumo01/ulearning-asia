@@ -91,6 +91,10 @@
     "message": "操作成功",
     "description": "smart-classroom 项目"
   },
+  "common.remind": {
+    "message": "提醒",
+    "description": "smart-classroom 项目"
+  },
   "classroom.currentCourse": {
     "message": "当前课程",
     "description": "smart Class"
@@ -321,6 +325,18 @@
   },
   "classroom.search": {
     "message": "搜索",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.hasDataTip": {
+    "message": "本课堂已产生活动数据，不能修改班级",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.findDetails": {
+    "message": "查看详情",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.classesNum": {
+    "message": "班级数量",
     "description": "smart-classroom 项目"
   },
   "login.welcomeTip": {
@@ -668,7 +684,7 @@
     "description": "smart-classroom 项目"
   },
   "score.confirmEndEvaluation": {
-    "message": "确定结束评价？",
+    "message": "确定结束当前评价吗？",
     "description": "smart-classroom 项目"
   },
   "score.evaluationNums": {
@@ -708,15 +724,15 @@
     "description": "smart-classroom 项目"
   },
   "score.confirmDeleteStudent": {
-    "message": "确定删除当前学生",
+    "message": "确定删除当前学生吗？",
     "description": "smart-classroom 项目"
   },
   "score.confirmDeleteGroup": {
-    "message": "确定删除当前小组",
+    "message": "确定删除当前小组吗？",
     "description": "smart-classroom 项目"
   },
   "score.confirmDeleteObj": {
-    "message": "确定删除当前评价对象",
+    "message": "确定删除当前评价对象吗？",
     "description": "smart-classroom 项目"
   },
   "score.enterCorrectScore": {
@@ -748,7 +764,7 @@
     "description": "smart-classroom 项目"
   },
   "score.confirmDeleteActivity": {
-    "message": "确定删除当前活动",
+    "message": "确定删除当前打分活动吗？",
     "description": "smart-classroom 项目"
   },
   "score.clickToAddStu": {
@@ -780,7 +796,7 @@
     "description": "smart-classroom 项目"
   },
   "score.confirmEndScore": {
-    "message": "确定结束当前打分",
+    "message": "确定结束当前打分吗？",
     "description": "smart-classroom 项目"
   },
   "score.stratAgain": {
@@ -856,7 +872,7 @@
     "description": "smart Class"
   },
   "pick.deleteConfirm": {
-    "message": "确认删除当前学生吗？",
+    "message": "确定删除当前学生吗？",
     "description": "smart Class"
   },
   "pick.randomPicking": {
@@ -877,6 +893,14 @@
   },
   "pick.selectStu": {
     "message": "选择学生回答问题",
+    "description": "smart-classroom 项目"
+  },
+  "pick.addPickFirst": {
+    "message": "当前课堂没有发起过点名，请发起点名后使用该功能",
+    "description": "smart-classroom 项目"
+  },
+  "pick.preabsence": {
+    "message": "代表缺勤",
     "description": "smart-classroom 项目"
   },
   "attendence.numAttendence": {
@@ -940,7 +964,7 @@
     "description": "smart Class"
   },
   "attendence.confirmEnd": {
-    "message": "确认结束当前点名活动吗？",
+    "message": "确定结束当前点名吗？",
     "description": "smart Class"
   },
   "attendence.peopleNum": {
@@ -1028,7 +1052,7 @@
     "description": "smart Class"
   },
   "faceAttendence.confirmEnd": {
-    "message": "确认结束监控吗？",
+    "message": "确定结束监控吗？",
     "description": "smart Class"
   },
   "faceAttendence.classMonitor": {
@@ -1319,6 +1343,14 @@
     "message": "开始上课了！",
     "description": "smart-classroom 项目"
   },
+  "screen.activityRecord": {
+    "message": "活动记录",
+    "description": "smart-classroom 项目"
+  },
+  "screen.activityNum": {
+    "message": "数量：{num}",
+    "description": "smart-classroom 项目"
+  },
   "vote.start": {
     "message": "发起投票",
     "description": "smart-classroom 项目"
@@ -1396,7 +1428,7 @@
     "description": "smart-classroom 项目"
   },
   "vote.finishConfirm": {
-    "message": "确认结束投票吗？",
+    "message": "确定结束当前投票吗？",
     "description": "smart-classroom 项目"
   },
   "vote.finished": {
@@ -1408,7 +1440,7 @@
     "description": "smart-classroom 项目"
   },
   "vote.deleteConfirm": {
-    "message": "确认删除草稿？",
+    "message": "确定删除草稿吗？",
     "description": "smart-classroom 项目"
   },
   "vote.maxSelectableCount": {
@@ -1452,7 +1484,7 @@
     "description": "smart-classroom 项目"
   },
   "answer.endAnswerConfirm": {
-    "message": "确认结束抢答吗？",
+    "message": "确定结束当前抢答吗？",
     "description": "smart-classroom 项目"
   },
   "answer.waitIn": {
@@ -1476,11 +1508,11 @@
     "description": "smart-classroom 项目"
   },
   "answer.joinTimes": {
-    "message": "参与次数",
+    "message": "按次数排序",
     "description": "smart-classroom 项目"
   },
   "answer.stuNum": {
-    "message": "学号",
+    "message": "按学号排序",
     "description": "smart-classroom 项目"
   },
   "answer.addStu": {
@@ -1561,6 +1593,14 @@
   },
   "live.joinMeeting": {
     "message": "加入会议",
+    "description": "smart-classroom 项目"
+  },
+  "live.meeting": {
+    "message": "正在直播中",
+    "description": "smart-classroom 项目"
+  },
+  "live.enterSipNum": {
+    "message": "请输入正确的大屏sip码",
     "description": "smart-classroom 项目"
   }
 }
