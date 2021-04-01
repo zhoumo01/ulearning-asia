@@ -1,46 +1,46 @@
 {
   "createLive": {
-    "message": "Create live",
+    "message": "Create Live Session",
     "description": "1.0 live.json"
   },
   "requiredVal": {
-    "message": "{0} cannot be empty",
+    "message": "{0} cannot be empty!",
     "description": "1.0 live.json"
   },
   "maxlengthVal": {
-    "message": "cannot more than{0}characters",
+    "message": "Cannot exceed {0} characters!",
     "description": "1.0 live.json"
   },
   "regVal": {
-    "message": "content cannot contain special characters /:*”<>|&[]#",
+    "message": "The content cannot contain special characters /:*”<>|&[]#",
     "description": "1.0 live.json"
   },
   "classNameTxt": {
-    "message": "Live name ",
+    "message": "Live Session Name",
     "description": "1.0 live.json"
   },
   "startTimeTxt": {
-    "message": "Strat time ",
+    "message": "Start Time",
     "description": "1.0 live.json"
   },
   "chooseClassTxt": {
-    "message": "Please choose classes",
+    "message": "Select class",
     "description": "1.0 live.json"
   },
   "modSuccess": {
-    "message": "Modify success",
+    "message": "Modified successfully!",
     "description": "1.0 live.json"
   },
   "modFail": {
-    "message": "Modify fail",
+    "message": "Failed to modify!",
     "description": "1.0 live.json"
   },
   "createSuccess": {
-    "message": "Create success",
+    "message": "Created successfully!",
     "description": "1.0 live.json"
   },
   "createFail": {
-    "message": "Create fail",
+    "message": "Failed to create!",
     "description": "1.0 live.json"
   },
   "selectClassTxt": {
@@ -48,15 +48,15 @@
     "description": "1.0 live.json"
   },
   "liveIntroTxt": {
-    "message": "Live Streaming Intro ",
+    "message": "Live Session Description",
     "description": "1.0 live.json"
   },
   "speakerTxt": {
-    "message": "Presenter name ",
+    "message": "Host Name",
     "description": "1.0 live.json"
   },
   "submitingTxt": {
-    "message": "submitting...",
+    "message": "Submitting...",
     "description": "1.0 live.json"
   },
   "timeText": {
@@ -64,15 +64,15 @@
     "description": "1.0 live.json"
   },
   "errTip1": {
-    "message": "There are unfinished live, please finish before creating",
+    "message": "There are still live sessions in progress - Create a live session after all sessions end!",
     "description": "1.0 live.json"
   },
   "errorTip2": {
-    "message": "Last live streaming costs have not been settled yet, please create later",
+    "message": "The cost of the last live session has not been settled - Create a new session later!",
     "description": "1.0 live.json"
   },
   "errorTip3": {
-    "message": "Balance amount is 0, not enough to get single live streaming. Please top up",
+    "message": "The account balance is less than 0 dollar, not enough to support the cost for 1 live session - Top up your account!",
     "description": "1.0 live.json"
   },
   "saveStr": {
@@ -84,7 +84,7 @@
     "description": "1.0 live.json"
   },
   "notSupport": {
-    "message": "Live name cannot contain characters ",
+    "message": "The live session name cannot contain symbols!",
     "description": "1.0 live.json"
   }
 }
