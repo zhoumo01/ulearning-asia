@@ -407,6 +407,18 @@
     "message": "请勿频繁操作",
     "description": "小应用"
   },
+  "mobilePermissionTip1": {
+    "message": "您已禁用相机权限，无法使用此功能，请进入手机【设置】进行授权",
+    "description": "小应用"
+  },
+  "mobilePermissionTip2": {
+    "message": "您已禁用麦克风权限，无法使用此功能，请进入手机【设置】进行授权",
+    "description": "小应用"
+  },
+  "mobilePermissionTip3": {
+    "message": "您已禁用定位权限，无法使用此功能，请进入手机【设置】进行授权",
+    "description": "小应用"
+  },
   "teacher.title": {
     "message": "教师",
     "description": "小应用"
@@ -3295,24 +3307,16 @@
     "message": "没有找到该学校/机构",
     "description": "小应用"
   },
-  "user.repeatStudentId": {
-    "message": "该学号/工号已开通账号",
-    "description": "小应用"
-  },
-  "user.repeatOrgTitle": {
-    "message": "(机构：",
-    "description": "小应用"
-  },
-  "user.repeatUseTitle": {
-    "message": "，用户名：",
-    "description": "小应用"
-  },
-  "user.repeatUseTip": {
-    "message": ")",
-    "description": "小应用"
-  },
   "user.repeatTip": {
-    "message": ",请勿重复注册。如果忘记用户名或密码，请联系在线客服。",
+    "message": "该学号/工号已开通账号，请勿重复注册。如果忘记用户名或密码，请联系在线客服。",
+    "description": "小应用"
+  },
+  "user.repeatTip2": {
+    "message": "该学号/工号已开通账号（机构：{org}，用户名：{name}），请勿重复注册。如果忘记用户名或密码，请联系在线客服。",
+    "description": "小应用"
+  },
+  "user.registErrorText": {
+    "message": "请先勾选再注册",
     "description": "小应用"
   },
   "search.title": {
@@ -3889,6 +3893,22 @@
   },
   "live.enterLiveRoom": {
     "message": "教师正在直播，点击进入",
+    "description": "小应用"
+  },
+  "user.repeatStudentId": {
+    "message": "该学号/工号已开通账号",
+    "description": "小应用"
+  },
+  "user.repeatOrgTitle": {
+    "message": "(机构：",
+    "description": "小应用"
+  },
+  "user.repeatUseTitle": {
+    "message": "，用户名：",
+    "description": "小应用"
+  },
+  "user.repeatUseTip": {
+    "message": ")",
     "description": "小应用"
   }
 }
