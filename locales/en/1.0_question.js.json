@@ -44,15 +44,15 @@
     "description": "1.0 question.js"
   },
   "tabKeyCreateBlank": {
-    "message": "Hit \"Tab\" key to create a Fill in the Blank placeholder inside the text field below",
+    "message": "Hit the Tab key to create a Fill in the Blank placeholder inside the text field below",
     "description": "1.0 question.js"
   },
   "jquizTips": {
-    "message": "Note: For science and engineering questions, students may draw pictures or write answers on paper and upload them as attachments (mobile phone can only support photo taking). You may request or prohibit students from using this feature.",
+    "message": "Note: Some types of questions allow students to upload attachments to support answering the question (Mobile app supports the photos taken by the mobile devices only). The teacher can enable/disable this function when setting up the question.",
     "description": "1.0 question.js"
   },
   "tabKeyPosition": {
-    "message": "Tab key is next to the letter \"Q\" on your keyboard",
+    "message": "Tab key is next to the letter Q on your keyboard",
     "description": "1.0 question.js"
   },
   "enterAnswerAnalyze": {
@@ -60,7 +60,7 @@
     "description": "1.0 question.js"
   },
   "enterAnswerTip": {
-    "message": "Note: Blank answers for this question are interchangeable as long as the content matching is correct",
+    "message": "Note: The answers for the blanks do not need to be in order.",
     "description": "1.0 question.js"
   },
   "enterItemContent": {
@@ -72,7 +72,7 @@
     "description": "1.0 question.js"
   },
   "blankAnswerTip": {
-    "message": "Blank answers in this question are interchangeable",
+    "message": "The answers for the blanks do not need to be in order.",
     "description": "1.0 question.js"
   },
   "blankStudentAnswerTip": {
@@ -80,11 +80,11 @@
     "description": "1.0 question.js"
   },
   "systemMark": {
-    "message": "System grading",
+    "message": "System Grading",
     "description": "1.0 question.js"
   },
   "systemMarkTip": {
-    "message": "When there are less than 20 words in the student’s English assignment, the system will grade it as zero",
+    "message": "When there are less than 20 words in an completed English writing assignment, the system will grade it as zero.",
     "description": "1.0 question.js"
   },
   "referenceAnswer": {
@@ -104,7 +104,7 @@
     "description": "1.0 question.js"
   },
   "followReadingFormat": {
-    "message": "mp3 only/up to 3MB",
+    "message": "mp3 only/up to 3 MB",
     "description": "1.0 question.js"
   },
   "readOriginal": {
@@ -132,15 +132,19 @@
     "description": "1.0 question.js"
   },
   "selectedTeacher": {
-    "message": "Selected teacher",
+    "message": "Selected teachers",
     "description": "1.0 question.js"
   },
   "selectTeacher": {
-    "message": "Selected teacher",
+    "message": "Selected teachers",
     "description": "1.0 question.js"
   },
   "continueSelect": {
-    "message": "Continue to select",
+    "message": "Continue",
+    "description": "1.0 question.js"
+  },
+  "enterKeyTip": {
+    "message": "Up to 10 characters, hit Enter to add, up to 3 tags",
     "description": "1.0 question.js"
   },
   "enterkey": {
@@ -164,7 +168,7 @@
     "description": "1.0 question.js"
   },
   "scoreValue": {
-    "message": " score",
+    "message": " points",
     "description": "1.0 question.js"
   },
   "eneterAnswerFormat": {
@@ -192,7 +196,7 @@
     "description": "1.0 question.js"
   },
   "formulaUsedTip": {
-    "message": "This formula calculation question has been quoted,cannot be modified temporarily",
+    "message": "Alert: This Calculated Formula question has been quoted and cannot be modified!",
     "description": "1.0 question.js"
   },
   "personal": {
@@ -204,11 +208,11 @@
     "description": "1.0 question.js"
   },
   "optionContent": {
-    "message": "Please fill in the contents of the options, or delete the superfluous options",
+    "message": "Click to enter the choice or delete the extra choices",
     "description": "1.0 question.js"
   },
   "confirmAnswer": {
-    "message": "Confirm answer isn't empty",
+    "message": "The correct answer cannot be empty!",
     "description": "1.0 question.js"
   },
   "confirmAnswerContent": {
@@ -216,23 +220,27 @@
     "description": "1.0 question.js"
   },
   "confirmReferenceAnswerContent": {
-    "message": "The content in the reference answer is blank",
+    "message": "The reference answer is empty",
     "description": "1.0 question.js"
   },
   "error": {
-    "message": "Oh, wrong.",
+    "message": "Oops, something went wrong!",
     "description": "1.0 question.js"
   },
   "topicNoEmpty": {
-    "message": "The topic isn't Empty",
+    "message": "The question title cannot be empty!",
+    "description": "1.0 question.js"
+  },
+  "complexEmpty": {
+    "message": "The Combination question needs to have sub-questions!",
     "description": "1.0 question.js"
   },
   "confirmSave": {
-    "message": "Did you check that you did not fill in the text of the title and continue to save it?",
+    "message": "It is detected that you have not filled in the question title. Do you want to continue to save it?",
     "description": "1.0 question.js"
   },
   "noMore": {
-    "message": "The 20 option is not more than",
+    "message": "No more than 20 choice options!",
     "description": "1.0 question.js"
   },
   "inputOptionContent": {
@@ -240,11 +248,11 @@
     "description": "1.0 question.js"
   },
   "leastOption": {
-    "message": "Keep at least two options",
+    "message": "Keep at least two choice options",
     "description": "1.0 question.js"
   },
   "limitlable1": {
-    "message": "Labels allow up to 30 characters at most",
+    "message": "Tags allow up to 30 characters",
     "description": "1.0 question.js"
   },
   "limitLable2": {
@@ -252,19 +260,19 @@
     "description": "1.0 question.js"
   },
   "selectTeacher2": {
-    "message": "Selected teacher",
+    "message": "Selected teachers",
     "description": "1.0 question.js"
   },
   "teacher": {
-    "message": "Select teacher",
+    "message": "Select Teacher",
     "description": "1.0 question.js"
   },
   "keyTeacher": {
-    "message": "Enter teacher name query",
+    "message": "Enter teacher name to search",
     "description": "1.0 question.js"
   },
   "getDate": {
-    "message": "Error in getting teacher data",
+    "message": "There was an error getting teacher data",
     "description": "1.0 question.js"
   },
   "getDateFormat": {
@@ -272,35 +280,35 @@
     "description": "1.0 question.js"
   },
   "confirmDelete": {
-    "message": "Are you sure you want to delete this question?",
+    "message": "Are you sure you want to delete this sub-question?",
     "description": "1.0 question.js"
   },
   "deleteQuestionSuccess": {
-    "message": "Delete question successfully",
+    "message": "Deleted the question successfully!",
     "description": "1.0 question.js"
   },
   "deleteQuestionFail": {
-    "message": "Delete qustion to Failed",
+    "message": "Failed to delete the question!",
     "description": "1.0 question.js"
   },
   "keyTab": {
-    "message": "Click to enter the question. To add a Fill in the Blank placeholder, hit \"Tab\" key.",
+    "message": "Click to enter the question. To add a Fill in the Blank placeholder, hit the Tab key.",
     "description": "1.0 question.js"
   },
   "writeRead": {
-    "message": "Please fill in the following content",
+    "message": "Click to enter the read-aloud content",
     "description": "1.0 question.js"
   },
   "formarError": {
-    "message": "Format error",
+    "message": "Format error!",
     "description": "1.0 question.js"
   },
   "noExpand": {
-    "message": "Please do not more than 200 words ",
+    "message": "No more than 200 words!",
     "description": "1.0 question.js"
   },
   "current": {
-    "message": "The current number of",
+    "message": "Current count",
     "description": "1.0 question.js"
   },
   "enterTopic": {
@@ -308,15 +316,15 @@
     "description": "1.0 question.js"
   },
   "subQues": {
-    "message": "question {n}",
+    "message": "Sub-Questions {n}",
     "description": "1.0 question.js"
   },
   "keyContent": {
-    "message": "Please input content of option",
+    "message": "Click to enter the choice",
     "description": "1.0 question.js"
   },
   "subQues2": {
-    "message": "question",
+    "message": "Sub-Question",
     "description": "1.0 question.js"
   },
   "fillSubQTitle": {
@@ -327,36 +335,40 @@
     "message": "Add Sub-Questions",
     "description": "1.0 question.js"
   },
+  "DaoText": {
+    "message": "{inputCount} sub-questions",
+    "description": "这里要求用户输入题目的数量，{inputCount}插值处是一个输入框，用于输入题目的数量，道是单位"
+  },
   "formulaCheck": {
-    "message": "Formula for testing",
+    "message": "Test Formula",
     "description": "1.0 question.js"
   },
   "answerPrecision": {
-    "message": "Accuracy of answer",
+    "message": "Answer Precision",
     "description": "1.0 question.js"
   },
   "deviation": {
-    "message": "allowable error",
+    "message": "Allowable Error",
     "description": "1.0 question.js"
   },
   "answer": {
-    "message": "answer",
+    "message": "Answer",
     "description": "1.0 question.js"
   },
   "formulaInputPrompt": {
-    "message": "Please enter the formula",
+    "message": "Enter the formula",
     "description": "1.0 question.js"
   },
   "formulaInputError": {
-    "message": "Can't calculate the answer",
+    "message": "Cannot be calculated - check your formula!",
     "description": "1.0 question.js"
   },
   "formulaInputPlaceholder": {
-    "message": "Please enter the formula for the answer",
+    "message": "Click the formula icon on the right to enter the formula",
     "description": "1.0 question.js"
   },
   "formulaInputDemo": {
-    "message": "Formula input demonstration",
+    "message": "Formula Formats",
     "description": "1.0 question.js"
   },
   "keyboardBack": {
@@ -365,6 +377,22 @@
   },
   "keyboardClear": {
     "message": "Clear",
+    "description": "1.0 question.js"
+  },
+  "addFormulaTip": {
+    "message": "Enter the formula!",
+    "description": "1.0 question.js"
+  },
+  "varRangeTip": {
+    "message": "The variable range must be entered with a number!",
+    "description": "1.0 question.js"
+  },
+  "checkFormulaTip": {
+    "message": "Please check the formula and ensure that it is valid formula!",
+    "description": "1.0 question.js"
+  },
+  "deviationTip": {
+    "message": "The allowable error of the result must be a number!",
     "description": "1.0 question.js"
   }
 }
