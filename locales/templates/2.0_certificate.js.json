@@ -144,12 +144,8 @@
     "description": "2.0 certificate.js"
   },
   "noFinish": {
-    "message": "您选择的电子签名未完成,请",
-    "description": "2.0 certificate.js"
-  },
-  "maybe": {
-    "message": "或",
-    "description": "2.0 certificate.js"
+    "message": "您选择的电子签名未完成，请 {finishSign} 或 {cancelSelect}",
+    "description": "{finishSign} 和 {cancelSelect} 是两个按钮，完整句子为：您选择的电子签名未完成，请 完成签名 或 取消选择"
   },
   "finishSign": {
     "message": "完成签名",
