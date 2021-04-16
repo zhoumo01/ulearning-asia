@@ -67,36 +67,112 @@
     "message": "Pengaturan sertifikat",
     "description": "2.0 certification.js "
   },
+  "certificateTemplate": {
+    "message": "Templat sertifikat saya",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificate": {
+    "message": "Membuat templat baru",
+    "description": "2.0 certificate.js"
+  },
+  "createBgImage": {
+    "message": "Gambar latar belakang",
+    "description": "2.0 certificate.js"
+  },
+  "studentName": {
+    "message": "Nama lengkap mahasiswa",
+    "description": "2.0 certificate.js"
+  },
+  "certificateBody": {
+    "message": "Isi sertifikat",
+    "description": "2.0 certificate.js"
+  },
+  "certificateNum": {
+    "message": "Nomor kode sertifikat",
+    "description": "2.0 certificate.js"
+  },
+  "createDate": {
+    "message": "Tanggal penerbitan",
+    "description": "2.0 certificate.js"
+  },
+  "createSignature": {
+    "message": "Tanda tangan elektronik",
+    "description": "2.0 certificate.js"
+  },
+  "issuingUnit": {
+    "message": "Unit penerbit",
+    "description": "2.0 certificate.js"
+  },
+  "operating": {
+    "message": "Penjelasan cara pengoperasian",
+    "description": "2.0 certificate.js"
+  },
+  "changeBg": {
+    "message": "Penggantian",
+    "description": "2.0 certificate.js"
+  },
+  "editText": {
+    "message": "Ubah",
+    "description": "2.0 certificate.js"
+  },
+  "scanCode": {
+    "message": "Menyapu kode",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip1": {
+    "message": "Pilih item yang membentuk templat sertifikat",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip2": {
+    "message": "Pratinjau templat sertifikat",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip3": {
+    "message": "1. Bagan latar belakang adalah sebuah keharusan, klik \"Ganti\" untuk menyesuaikan peta latar belakang unggahan, mendukung gambar format jppg / jpeg / png, tidak lebih dari 2M ukuran yang direkomendasikan 1754px x 1240px (rasio A4).",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip4": {
+    "message": "2. Badan sertifikat dapat disesuaikan pengeditan, \"tanda tangan elektronik\" dapat menyapu kode tanda tangan upload, pilih item ini setelah tombol operasi Oh.",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip5": {
+    "message": "3. \"Nama Siswa\", \"Unit Lisensi\" untuk mengambil informasi data pribadi pengguna siswa, jika dipilih, sistem akan secara otomatis dicocokkan ketika sertifikat diterbitkan, harap minta siswa untuk menggunakan nama asli di pusat pribadi.",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip6": {
+    "message": "4. \"Nomor sertifikat\", \"waktu penerbitan\" untuk sistem yang dihasilkan secara otomatis, tidak dapat diedit, jika dipilih, sistem akan secara otomatis dihasilkan ketika sertifikat diterbitkan.",
+    "description": "2.0 certificate.js"
+  },
+  "noFinish": {
+    "message": "Tanda tangan elektronik yang Anda pilih belum selesai, silakan selesaikanSign atau batalPilih",
+    "description": "{finishSign} 和 {cancelSelect} 是两个按钮，完整句子为：您选择的电子签名未完成，请 完成签名 或 取消选择"
+  },
+  "finishSign": {
+    "message": "Melengkapi tanda tangan",
+    "description": "2.0 certificate.js"
+  },
+  "cancelSelect": {
+    "message": "Batal pilih",
+    "description": "2.0 certificate.js"
+  },
+  "cropBgImg": {
+    "message": "Mengambil gambar latar belakang",
+    "description": "2.0 certificate.js"
+  },
+  "editTemplateName": {
+    "message": "Mengedit nama templat",
+    "description": "2.0 certificate.js"
+  },
+  "newTemplateTip": {
+    "message": "Silahkan masukkan nama templat",
+    "description": "2.0 certificate.js"
+  },
   "refreshGrade": {
     "message": "Refresh nilai",
     "description": "2.0 certification.js "
   },
   "exportList": {
     "message": "Ekspor daftar",
-    "description": "2.0 certification.js "
-  },
-  "allStu": {
-    "message": "Jumlah mahasiswa di mata kuliah ini ",
-    "description": "2.0 certification.js "
-  },
-  "person": {
-    "message": "orang",
-    "description": "2.0 certification.js "
-  },
-  "passConditions": {
-    "message": "Menurut persyaratan sertifikat, jumlah mahasiswa yang lolos",
-    "description": "2.0 certification.js "
-  },
-  "unqualifiedNum": {
-    "message": "Jumlah mahasiswa yang tidak lolos",
-    "description": "2.0 certification.js "
-  },
-  "passRate": {
-    "message": "Persentase lolos ",
-    "description": "2.0 certification.js "
-  },
-  "excellentRate": {
-    "message": ", Persentase unggul",
     "description": "2.0 certification.js "
   },
   "type": {
@@ -125,10 +201,6 @@
   },
   "courseAssessmentScore": {
     "message": "Nilai mata kuliah ",
-    "description": "2.0 certification.js "
-  },
-  "score": {
-    "message": " poin",
     "description": "2.0 certification.js "
   },
   "excellenceCertificate": {
@@ -195,28 +267,12 @@
     "message": "Catatan: hanya penanggung jawab mata kuliah yang bisa melakukan pengaturan sertifikat. Untuk kelas yang belum ada strategi nilai, kondisi penerimaan sertifikatnya tidak dapat dihitung.",
     "description": "2.0 certification.js "
   },
-  "courseSummaryScore": {
-    "message": "Nilai gabungan mata kuliah ",
-    "description": "2.0 certification.js "
-  },
-  "canGetPassCer": {
-    "message": "Bisa mendapatkan sertifikat kesesuaian",
-    "description": "2.0 certification.js "
-  },
   "setPass": {
     "message": "Hanya mengatur sertifikat kesesuaian mata kuliah",
     "description": "2.0 certification.js "
   },
   "setPassAndExcellence": {
     "message": "Mengatur sertifikat kesesuaian, sertifikat keunggulan mata kuliah",
-    "description": "2.0 certification.js "
-  },
-  "but": {
-    "message": "Tetapi ",
-    "description": "2.0 certification.js "
-  },
-  "canGetExcellenceCer": {
-    "message": "Bisa mendapatkan sertifikat keunggulan",
     "description": "2.0 certification.js "
   },
   "enterScore": {
@@ -271,18 +327,6 @@
     "message": "Universitas",
     "description": "2.0 certification.js "
   },
-  "certificateContent1": {
-    "message": "Selamat anda telah menyelesaikan pembelajaran dan penilaian mata kuliah",
-    "description": "2.0 certification.js "
-  },
-  "certificateContent2": {
-    "message": "  ",
-    "description": "2.0 certification.js "
-  },
-  "certificateContent3": {
-    "message": "nilai",
-    "description": "2.0 certification.js "
-  },
   "certificateNo": {
     "message": "No. sertifikat",
     "description": "2.0 certification.js "
@@ -303,14 +347,6 @@
     "message": "Sertifikat saya",
     "description": "2.0 certification.js "
   },
-  "certificateStuTip1": {
-    "message": "Nilai mata kuliah anda telah mencapai",
-    "description": "2.0 certification.js "
-  },
-  "certificateStuTip2": {
-    "message": " persyaratan sertifikat, selamat anda telah mendapatkan sertifikat di bawah ini.",
-    "description": "2.0 certification.js "
-  },
   "certificateStuTip": {
     "message": "Catatan: Apabila terjadi perubahan nilai dikarenakan mahasiswa melanjutkan pembelajaran setelah dosen menerbitkan sertifikat, maka sertifikat tersebut tidak dapat diperbarui.",
     "description": "2.0 certification.js "
@@ -323,36 +359,8 @@
     "message": "Belum mendapatkan sertifikat mata kuliah",
     "description": "2.0 certification.js "
   },
-  "noCerTip1": {
-    "message": "Demi menjamin ketepatan informasi sertifikat, silahkan",
-    "description": "2.0 certification.js "
-  },
-  "noCerTip2": {
-    "message": "Lengkapi informasi dasar pribadi",
-    "description": "2.0 certification.js "
-  },
   "notSetCerTip": {
     "message": "Dosen belum mengatur persyaratan sertifikat",
-    "description": "2.0 certification.js "
-  },
-  "pass1": {
-    "message": " lolos ",
-    "description": "2.0 certification.js "
-  },
-  "excellent1": {
-    "message": " unggul ",
-    "description": "2.0 certification.js "
-  },
-  "juhao": {
-    "message": ".",
-    "description": "2.0 certification.js "
-  },
-  "shuminghao1": {
-    "message": " ",
-    "description": "2.0 certification.js "
-  },
-  "shuminghao2": {
-    "message": " ",
     "description": "2.0 certification.js "
   }
 }
