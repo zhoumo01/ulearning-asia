@@ -175,20 +175,8 @@
     "message": "作業要求超出了5000字符",
     "description": "1.0 homework.json"
   },
-  "homeworkAssign": {
-    "message": "作業發布",
-    "description": "1.0 homework.json"
-  },
   "saveDraft": {
     "message": "保存草稿",
-    "description": "1.0 homework.json"
-  },
-  "Success": {
-    "message": "成功",
-    "description": "1.0 homework.json"
-  },
-  "fail": {
-    "message": "失敗",
     "description": "1.0 homework.json"
   },
   "netError": {
@@ -395,6 +383,26 @@
     "message": "該學生被評價的作業份數",
     "description": "1.0 homework.json"
   },
+  "expandText": {
+    "message": "展開",
+    "description": "对应于学生查看作业详情页面"
+  },
+  "collapseText": {
+    "message": "收起",
+    "description": "对应于学生查看作业详情页面"
+  },
+  "assignmentDetailText": {
+    "message": "作業詳情",
+    "description": "对应于学生查看作业详情页面"
+  },
+  "countLimtTip": {
+    "message": "測驗有次數限制，超過次數后將無法重做。 {br}確定提交？",
+    "description": "对应于学生查看作业详情页面。{br}是一个换行的标签，需要原样保留"
+  },
+  "submitHomework": {
+    "message": "提交作業",
+    "description": "对应于学生查看作业详情页面"
+  },
   "collapseText2": {
     "message": "<<收起",
     "description": "教师批阅小组作业页面"
@@ -449,31 +457,31 @@
   },
   "validateNumber": {
     "message": "請輸入正確的分數,僅保留一位小數",
-    "description": "教師批閱小組作業頁面"
+    "description": "教师批阅小组作业页面"
   },
   "validateScore": {
     "message": "得分不能超過總分數",
-    "description": "教師批閱小組作業頁面"
+    "description": "教师批阅小组作业页面"
   },
   "referSuggest": {
     "message": "以下信息僅供參考：",
-    "description": "教師批閱小組作業頁面"
+    "description": "教师批阅小组作业页面"
   },
   "sentenceError1": {
     "message": "【詞彙錯誤】{message}",
-    "description": "教師批閱小組作業頁面"
+    "description": "教师批阅小组作业页面"
   },
   "sentenceError2": {
     "message": "【詞彙錯誤】{message}，建議使用{replace}",
-    "description": "教師批閱小組作業頁面"
+    "description": "教师批阅小组作业页面"
   },
   "syntaxError": {
     "message": "【語法錯誤】{message}",
-    "description": "教師批閱小組作業頁面"
+    "description": "教师批阅小组作业页面"
   },
   "noError": {
     "message": "您的文章不錯，沒有發現語法問題，請繼續保持哦！",
-    "description": "教師批閱小組作業頁面"
+    "description": "教师批阅小组作业页面"
   },
   "imageLoading": {
     "message": "圖片加載中...",
@@ -834,5 +842,9 @@
   "mutiTimesScoreTipText": {
     "message": "多次答題取最高分",
     "description": "homeworkStu.js"
+  },
+  "startRecord": {
+    "message": "開始錄音",
+    "description": "homeworkGroupStuMain.js"
   }
 }

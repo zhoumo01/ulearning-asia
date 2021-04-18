@@ -59,17 +59,9 @@
     "message": "開始答題",
     "description": "UA播放器内层"
   },
-  "questionNumber1": {
-    "message": "共",
-    "description": "UA播放器内层"
-  },
-  "questionNumber2": {
-    "message": "題",
-    "description": "UA播放器内层"
-  },
-  "questionNumber3": {
-    "message": "題",
-    "description": "UA播放器内层"
+  "totalQuestions": {
+    "message": "共{n}題",
+    "description": "学生 -> 作答练习题"
   },
   "oneChance": {
     "message": "限答1次",
@@ -79,9 +71,9 @@
     "message": "重復答題",
     "description": "UA播放器内层"
   },
-  "answerTime1": {
-    "message": "限",
-    "description": "UA播放器内层"
+  "answerTimeLimit": {
+    "message": "限{time}",
+    "description": "学生 -> 作答练习题"
   },
   "score": {
     "message": "{n}分",
@@ -133,14 +125,6 @@
   },
   "viewAnalysis": {
     "message": "查看答案解析",
-    "description": "UA播放器内层"
-  },
-  "answerRightTip": {
-    "message": "繼續下一題，或",
-    "description": "UA播放器内层"
-  },
-  "answerWrongTip": {
-    "message": "你可以",
     "description": "UA播放器内层"
   },
   "correctAnswer": {
@@ -343,10 +327,6 @@
     "message": "每個單詞/句子/段落需要讀 ",
     "description": "UA播放器内层"
   },
-  "oralRecordingTipsCount": {
-    "message": " 遍",
-    "description": "UA播放器内层"
-  },
   "oralRecording": {
     "message": "正在錄音,點擊停止",
     "description": "UA播放器内层"
@@ -393,6 +373,10 @@
   },
   "inputedText": {
     "message": "已寫{count}個字",
+    "description": "UA播放器内层"
+  },
+  "logTip": {
+    "message": "已在其他終端登錄",
     "description": "UA播放器内层"
   }
 }

@@ -23,6 +23,10 @@
     "message": "การจัดเก็บภายใน",
     "description": "2.0 help.js"
   },
+  "internalMemory2": {
+    "message": "หน่วยความจํา 1G",
+    "description": "2.0 help.js"
+  },
   "envTips1": {
     "message": "2GHzขึ้นไป",
     "description": "2.0 help.js"
@@ -67,21 +71,9 @@
     "message": "แบนด์วิทอินเทอร์เนตที่แนะนำ",
     "description": "2.0 help.js"
   },
-  "envTips12": {
-    "message": "กรุณายืนยันห้องอุปกรณ์",
-    "description": "2.0 help.js"
-  },
-  "envTips13": {
-    "message": "ของการใช้งานแบนด์วิท คอมพิวเตอร์เครื่องเดี่ยว",
-    "description": "2.0 help.js"
-  },
-  "envTips14": {
-    "message": "ของความเร็วดาวน์โหลด ประมาณ",
-    "description": "2.0 help.js"
-  },
-  "envTips15": {
-    "message": "แบนด์วิท ถ้าหากมีข้อสอบประเภทการฟังหรือการพูด ความเร็วอินเทอร์เนต*2",
-    "description": "2.0 help.js"
+  "bandWidthHint": {
+    "message": "ตรวจสอบให้แน่ใจว่าแบนด์วิดท์อิสระของห้อง {totalBandWidth} ใช้ ความเร็วในการดาวน์โหลดของคอมพิวเตอร์เครื่องเดียว {netspeed} แบนด์วิดท์ประมาณ {singleBandWidth} หากมีคําถามการฟังหรือการพูดความเร็วอินเทอร์เน็ต * 2",
+    "description": "教师账号 -> 考试 -> 环境检测"
   },
   "envTips16": {
     "message": "จำนวนคน",
@@ -172,35 +164,27 @@
     "description": "2.0 help.js"
   },
   "envTips38": {
-    "message": " JavaScript เบราเซอร์",
+    "message": "JavaScript เบราเซอร์",
     "description": "2.0 help.js"
   },
   "envTips39": {
     "message": "แนะนำให้ใช้เบราเซอร์ดาวน์โหลด",
     "description": "2.0 help.js"
   },
-  "envTips40": {
-    "message": "เพื่อรับประกันความราบรื่นระหว่างการสอบ แนะนำให้ใช้งาน",
+  "browserHint": {
+    "message": "เราขอแนะนําให้ใช้เบราว์เซอร์ {qqBrowser}, {chrome} หรือ {firefox} และไม่แนะนําเบราว์เซอร์อื่น",
+    "description": "教师账号 -> 考试 -> 环境检测"
+  },
+  "qqBrowser": {
+    "message": "Qq",
     "description": "2.0 help.js"
   },
-  "envTips41": {
-    "message": "QQ",
+  "chrome": {
+    "message": "Google (โครเมี่ยม)",
     "description": "2.0 help.js"
   },
-  "envTips42": {
-    "message": "กูเกิล（Chrome）",
-    "description": "2.0 help.js"
-  },
-  "envTips43": {
-    "message": "หรือ",
-    "description": "2.0 help.js"
-  },
-  "envTips44": {
-    "message": "ไฟร์ฟอกซ์（Firefox）",
-    "description": "2.0 help.js"
-  },
-  "envTips45": {
-    "message": "เบราเซอร์ ไม่แนะนำให้ใช้เบราเซอร์อื่นๆ",
+  "firefox": {
+    "message": "Firefox (Firefox)",
     "description": "2.0 help.js"
   },
   "envTips46": {

@@ -195,6 +195,10 @@
     "message": "影片",
     "description": "2.0 course.js"
   },
+  "totalDurationOf": {
+    "message": "總時長：{count}分鐘",
+    "description": "2.0 course.js"
+  },
   "document": {
     "message": "檔案",
     "description": "2.0 course.js"
@@ -383,6 +387,10 @@
     "message": "選擇人次: ",
     "description": "2.0 course.js"
   },
+  "examTimes": {
+    "message": "考試次數：{n}次",
+    "description": "2.0 course.js"
+  },
   "usePaperNumber": {
     "message": "所用考卷套數: ",
     "description": "2.0 course.js"
@@ -446,6 +454,14 @@
   "attendance": {
     "message": "點名",
     "description": "2.0 course.js"
+  },
+  "totalTimes": {
+    "message": "總次數：{n}次",
+    "description": "2.0 course.js"
+  },
+  "totalTimes2": {
+    "message": "總次數：{n}",
+    "description": "教师账号 -> 课程分析"
   },
   "totalAttendanceRate": {
     "message": "累計出勤率: ",
@@ -591,8 +607,20 @@
     "message": "沒有數據",
     "description": "2.0 course.js"
   },
-  "week": {
-    "message": "週",
+  "weekOf": {
+    "message": "{count}周",
+    "description": "登录ua后 - 创建或查看一门课程 -> 左侧导航栏 -> 学期管理 -> 添加学期"
+  },
+  "weekIndex": {
+    "message": "第{n}周",
+    "description": "2.0 course.js"
+  },
+  "groupIndex": {
+    "message": "第{n}組",
+    "description": "2.0 course.js"
+  },
+  "periodIndex": {
+    "message": "第{n}期",
     "description": "2.0 course.js"
   },
   "teacher": {
@@ -603,24 +631,16 @@
     "message": "老師",
     "description": "2.0 course.js"
   },
-  "specialTeacherBefore1": {
-    "message": "",
-    "description": "2.0 course.js"
-  },
-  "specialTeacherBefore2": {
-    "message": "",
-    "description": "2.0 course.js"
-  },
-  "specialTeacherBefore3": {
-    "message": "",
-    "description": "2.0 course.js"
-  },
   "specialTeacherAfter": {
     "message": "老師",
     "description": "2.0 course.js"
   },
   "student": {
     "message": "學生",
+    "description": "2.0 course.js"
+  },
+  "studentOf": {
+    "message": "學生：{n}人",
     "description": "2.0 course.js"
   },
   "addStudent": {
@@ -651,13 +671,9 @@
     "message": "全部學院",
     "description": "2.0 course.js"
   },
-  "stuLibImportTips5": {
-    "message": "已選擇",
-    "description": "2.0 course.js"
-  },
-  "stuLibImportTips6": {
-    "message": "個班級",
-    "description": "2.0 course.js"
+  "stuLibSelectTip1": {
+    "message": "已選擇{count}個班級",
+    "description": "教师账号 -> 成员 -> 班级管理 -> 批量导入班级 -> 从学生库导入 -> 弹框左下角"
   },
   "grade": {
     "message": "年級",
@@ -667,13 +683,9 @@
     "message": "學院",
     "description": "2.0 course.js"
   },
-  "stuLibImportTips7": {
-    "message": "已選擇",
-    "description": "2.0 course.js"
-  },
-  "stuLibImportTips8": {
-    "message": "個學生",
-    "description": "2.0 course.js"
+  "stuLibSelectTip2": {
+    "message": "已選擇{count}個學生",
+    "description": "教师账号 -> 成员 -> 班级管理 -> 添加学生 -> 弹框左下角"
   },
   "stuLibImportTips9": {
     "message": "注意：如果課程中已存在同名班級，將只導入學生；如果學生已在課程中，將自動跳過，保持在原班級。",
@@ -701,6 +713,10 @@
   },
   "analysisSpocTips6": {
     "message": "本課程尚未指定課件",
+    "description": "2.0 course.js"
+  },
+  "minute": {
+    "message": "{count}分鐘",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -743,6 +759,26 @@
     "message": "與課程教學相關的通知、公告等皆可於此發布。課程管理者可對所有班級發佈公告,任課教師或助教僅能對自己所帶的班級發佈公告。",
     "description": "2.0 course.js"
   },
+  "totalOf": {
+    "message": "總計{n}個",
+    "description": "2.0 course.js"
+  },
+  "totalOfItems": {
+    "message": "總計{n}條",
+    "description": "2.0 course.js"
+  },
+  "totalPages": {
+    "message": "總計：{n}頁",
+    "description": "2.0 course.js"
+  },
+  "totalOfTeacher": {
+    "message": "總計{n}個教師",
+    "description": "2.0 course.js"
+  },
+  "totalOfTeacher2": {
+    "message": "總計{n}位教師",
+    "description": "2.0 course.js"
+  },
   "publishNewAnnouncement": {
     "message": "發佈新公告",
     "description": "2.0 course.js"
@@ -767,13 +803,13 @@
     "message": "發佈於",
     "description": "2.0 course.js"
   },
-  "peopleReaded": {
-    "message": "人已閱",
-    "description": "2.0 course.js"
+  "readedOf": {
+    "message": "{count} 人已閱",
+    "description": "教师账号 -> 公告"
   },
-  "classColon": {
-    "message": "班級: ",
-    "description": "2.0 course.js"
+  "classesOf": {
+    "message": "班級：{classes}",
+    "description": "教师账号 -> 公告"
   },
   "download": {
     "message": "下載",
@@ -935,6 +971,18 @@
     "message": "考核截止日期",
     "description": "2.0 course.js"
   },
+  "stuScore": {
+    "message": "{stuName}：{count}分",
+    "description": "2.0 course.js"
+  },
+  "points": {
+    "message": "{count}分",
+    "description": "2.0 course.js"
+  },
+  "scoreCol": {
+    "message": "分值",
+    "description": "2.0 course.js"
+  },
   "totalScore": {
     "message": "總分",
     "description": "2.0 course.js"
@@ -959,8 +1007,40 @@
     "message": "檢視考核章節",
     "description": "2.0 course.js"
   },
+  "studyScoreOf": {
+    "message": "學習成績：{percent}%",
+    "description": "2.0 course.js"
+  },
   "averageScoreByChapter": {
     "message": "依所選章節平均計分",
+    "description": "2.0 course.js"
+  },
+  "studyTimeColon": {
+    "message": "學習時間：{percent}%",
+    "description": "2.0 course.js"
+  },
+  "totalStudyTimeAchieve": {
+    "message": "累計學習時間達到{max}分鐘得滿分，低於{min}分鐘計0分",
+    "description": "2.0 course.js"
+  },
+  "chapterStudyTimeAchieve": {
+    "message": "每章學習時間達到{max}分鐘得滿分，低於{min}分鐘計0分",
+    "description": "2.0 course.js"
+  },
+  "sectionStudyTimeAchieve": {
+    "message": "每節學習時間達到{max}分鐘得滿分，低於{min}分鐘計0分",
+    "description": "2.0 course.js"
+  },
+  "studyProgressColon": {
+    "message": "學習進度：{percent}%",
+    "description": "2.0 course.js"
+  },
+  "totalStudyProgress": {
+    "message": "累計學習進度達到{max}%得滿分，低於{min}%計0分",
+    "description": "2.0 course.js"
+  },
+  "chapterStudyProgress": {
+    "message": "每章學習進度達到{max}%得滿分，低於{min}%計0分",
     "description": "2.0 course.js"
   },
   "noParticipants": {
@@ -1031,13 +1111,13 @@
     "message": "截止",
     "description": "2.0 course.js"
   },
-  "etc": {
-    "message": "等",
-    "description": "2.0 course.js"
+  "unfoldAllClasses": {
+    "message": "展開全部{count}個班級",
+    "description": "教师账号 -> 考核 -> 查看策略 \n 教师账号 -> 考核 -> 查看成绩 (汇总成绩后才会出现查看成绩这个按钮)"
   },
-  "classes": {
-    "message": "個班級",
-    "description": "2.0 course.js"
+  "classesEtc": {
+    "message": "{classes}等{count}個班級",
+    "description": "教师账号 -> 考核 \n 教师账号 -> 课堂 \n 教师账号 -> 成员 -> 教学团队"
   },
   "classesLink": {
     "message": "{count}個班級>>",
@@ -1097,10 +1177,6 @@
   },
   "assessmentClass": {
     "message": "考核班級",
-    "description": "2.0 course.js"
-  },
-  "unfoldAll": {
-    "message": "展開全部",
     "description": "2.0 course.js"
   },
   "deadline": {
@@ -1467,6 +1543,10 @@
     "message": "活動名稱",
     "description": "2.0 course.js"
   },
+  "numberOf": {
+    "message": "{n}個",
+    "description": "2.0 course.js"
+  },
   "time": {
     "message": "時間",
     "description": "2.0 course.js"
@@ -1615,6 +1695,22 @@
     "message": "開放式的討論有助於引導學生深入思考。您可以在這裡發佈話題,組織學生展開討論。課程管理者可以對所有班級設定討論,教師和助教僅能對自己的班級設定討論。",
     "description": "2.0 course.js"
   },
+  "timesOf": {
+    "message": "{n}次",
+    "description": "2.0 course.js"
+  },
+  "replyYouTimes": {
+    "message": "回復了你{n}次",
+    "description": "2.0 course.js"
+  },
+  "praiseYouTimes": {
+    "message": "點讚了你{n}次",
+    "description": "2.0 course.js"
+  },
+  "youPraiseTimes": {
+    "message": "你點讚了{n}次",
+    "description": "2.0 course.js"
+  },
   "yourPosts": {
     "message": "你的文章",
     "description": "2.0 course.js"
@@ -1727,6 +1823,14 @@
     "message": "詳情",
     "description": "2.0 course.js"
   },
+  "homeworkBetweenTime": {
+    "message": "工作時間：{startTime} 至 {endTime}",
+    "description": "2.0 course.js"
+  },
+  "betweenTime": {
+    "message": "{startTime} 至 {endTime}",
+    "description": "2.0 course.js"
+  },
   "commitEnd": {
     "message": "提交截止",
     "description": "2.0 course.js"
@@ -1825,6 +1929,10 @@
   },
   "deleteHomeworkTips": {
     "message": "確定删除該作業？",
+    "description": "2.0 course.js"
+  },
+  "peopleOf": {
+    "message": "{n}人",
     "description": "2.0 course.js"
   },
   "inputUserNameSearch": {
@@ -2279,13 +2387,9 @@
     "message": "以下學生已經在課程裏,新導入班級的學生名單裏不會出現這些學生。",
     "description": "2.0 course.js"
   },
-  "let": {
-    "message": "將",
-    "description": "2.0 course.js"
-  },
-  "replaceTo": {
-    "message": "更換到: ",
-    "description": "2.0 course.js"
+  "batchReplaceStudents": {
+    "message": "將 {students} 更換到：{classesForm}",
+    "description": "教师账号 -> 成员 -> 学生管理 -> 更换班级"
   },
   "appointClassForTeacher": {
     "message": "為老師指定班級",
@@ -2519,6 +2623,10 @@
     "message": "指定失敗",
     "description": "2.0 course.js"
   },
+  "memberSpocValidateTips15": {
+    "message": "第{n}個班級名稱超過100字元",
+    "description": "2.0 course.js"
+  },
   "memberSpocValidateTips16": {
     "message": "請輸入班級名稱",
     "description": "2.0 course.js"
@@ -2691,13 +2799,9 @@
     "message": "組長",
     "description": "2.0 course.js"
   },
-  "randomDivide": {
-    "message": "隨機分成",
-    "description": "2.0 course.js"
-  },
-  "group2": {
-    "message": "組",
-    "description": "2.0 course.js"
+  "randomDivideGroup": {
+    "message": "隨機分成{inputCount}組",
+    "description": "教师账号 -> 成员 -> 班级小组方案 -> 随机分组"
   },
   "classGroupTips3": {
     "message": "當前班級已有分組,確定替換現有分組？",
@@ -3265,7 +3369,7 @@
   },
   "yuan": {
     "message": "元",
-    "description": "2.0 course.js"
+    "description": "相关代码已注释，可以先不用翻译"
   },
   "selectFile": {
     "message": "選擇檔案",
@@ -3479,16 +3583,48 @@
     "message": "課件影片",
     "description": "2.0 course.js"
   },
+  "totalQuantityCl": {
+    "message": "總數量：{count}個",
+    "description": "2.0 course.js"
+  },
   "nonVideoResource": {
     "message": "非影片資源",
+    "description": "2.0 course.js"
+  },
+  "semesterRichText": {
+    "message": "課件中的圖文頁面數量：{n}個",
+    "description": "2.0 course.js"
+  },
+  "semesterResource": {
+    "message": "班課中的拓展資源數量：{n}個",
+    "description": "2.0 course.js"
+  },
+  "quantityCl": {
+    "message": "數量：{count}次",
     "description": "2.0 course.js"
   },
   "homeworkAndTest": {
     "message": "作業/測驗",
     "description": "2.0 course.js"
   },
+  "testQueNumberOf": {
+    "message": "試題數量：{n}道",
+    "description": "2.0 course.js"
+  },
+  "testQueNumberTip": {
+    "message": "（僅【測驗】類型作業包含試題）",
+    "description": "2.0 course.js"
+  },
+  "participantsPeopleOf": {
+    "message": "參與人數：{n}人",
+    "description": "2.0 course.js"
+  },
   "discussAndCommunication": {
     "message": "討論交流",
+    "description": "2.0 course.js"
+  },
+  "topicTotalNumberOf": {
+    "message": "帖子總數：{n}個",
     "description": "2.0 course.js"
   },
   "semesterTips7": {
@@ -3497,6 +3633,14 @@
   },
   "participantsDiscussNumberCl": {
     "message": "參與討論人數: ",
+    "description": "2.0 course.js"
+  },
+  "examQueNumberOf": {
+    "message": "考試題數：{n}道",
+    "description": "2.0 course.js"
+  },
+  "passPeopleOf": {
+    "message": "通過人數：{n}人",
     "description": "2.0 course.js"
   },
   "outsideSchoolClass": {
@@ -3661,7 +3805,7 @@
   },
   "inputActivationCode": {
     "message": "輸入啟動碼",
-    "description": "2.0 course.js"
+    "description": "这个是输入框的占位文字，可以在登录学生账户后，在课程列表的右上角 -> 激活教材看到，由于输入框较短，建议缩短文字。"
   },
   "textbookTips8": {
     "message": "刮開紙本教材封底銀漆即可獲取啟動碼,輸入上方輸入框內,字幕不區分大小寫；",
@@ -3681,6 +3825,10 @@
   },
   "buy": {
     "message": "購買",
+    "description": "2.0 course.js"
+  },
+  "remaining": {
+    "message": "剩餘{n}天",
     "description": "2.0 course.js"
   },
   "progress": {
@@ -3709,6 +3857,18 @@
   },
   "mobileTerminal": {
     "message": "手機端",
+    "description": "2.0 course.js"
+  },
+  "browserTip": {
+    "message": "使用電腦學習，推薦使用 {chrome} 或 {qqBrowser}",
+    "description": "{chrome} 插值见 chrome 字段，qqBrowser 插值见 qqBrowser 字段"
+  },
+  "chrome": {
+    "message": "Google Chrome（下載）",
+    "description": "2.0 course.js"
+  },
+  "qqBrowser": {
+    "message": "QQ瀏覽器（下載）",
     "description": "2.0 course.js"
   },
   "canStudyTime": {
@@ -4005,6 +4165,10 @@
   },
   "studingCl": {
     "message": "正在學: ",
+    "description": "2.0 course.js"
+  },
+  "remainingStudyTime": {
+    "message": "剩餘學習時間{n}天",
     "description": "2.0 course.js"
   },
   "textbookTips38": {
@@ -4543,6 +4707,10 @@
     "message": "Windows系統僅支持Win7及以上版本，不支持XP。Mac請使用網頁直播，暫不支持客戶端直播。",
     "description": "2.0 course.js"
   },
+  "descTip_new": {
+    "message": "使用直播可以在線進行遠端同步授課。 為確保直播過程順暢，請使用Google Chrome瀏覽器上課。",
+    "description": "2.0 course.js"
+  },
   "descTip1": {
     "message": "直播開始前5分鐘可以進入直播，直播過程中請文明互動。",
     "description": "2.0 course.js"
@@ -4819,9 +4987,9 @@
     "message": "發言數",
     "description": "2.0 course.js"
   },
-  "speechUnit": {
-    "message": "條",
-    "description": "2.0 course.js"
+  "speechUnitOf": {
+    "message": "{n}條",
+    "description": "教师账号 -> 直播 -> 直播统计 -> 发言数"
   },
   "viewTerminal": {
     "message": "觀看終端",
@@ -4959,9 +5127,9 @@
     "message": "回放數據有延遲，如不准確請點擊頁面右上角更新。 ",
     "description": "2.0 course.js"
   },
-  "poll": {
-    "message": "票",
-    "description": "2.0 course.js"
+  "pollOf": {
+    "message": "{n}票 {percent}%",
+    "description": "教师账号 -> 直播 -> 直播统计 -> 直播互动 -> 问卷 (非拓课云直播才有直播互动数据)"
   },
   "liveAnalysisTips": {
     "message": "正在生成直播數據，請在直播結束30分鐘後查看",
@@ -5103,12 +5271,408 @@
     "message": "含有不支持課件學習進度評分項的教材，請去掉課件學習進度評分項或者去掉不支持的教材再保存",
     "description": "2.0 course.js"
   },
+  "weights": {
+    "message": "{percent}%，{count}分",
+    "description": "2.0 course.js"
+  },
   "importBBCourse": {
     "message": "導入Blackboard課程內容",
     "description": "2.0 course.js"
   },
+  "importFromICourse": {
+    "message": "從愛課程導入",
+    "description": "2.0 course.js"
+  },
+  "videoCourse": {
+    "message": "視頻公開課",
+    "description": "2.0 course.js"
+  },
+  "resourceCourse": {
+    "message": "資源共享課",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse": {
+    "message": "該課件資源及數據均由【愛課程】提供",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse1": {
+    "message": "該課件由【愛課程】提供",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse2": {
+    "message": "該課件資源及數據均由【愛課程】提供，當天數據約第二天中午12點后可查詢",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse3": {
+    "message": "該課件資源及數據均由【愛課程】提供，當天學習數據約第二天中午12點後更新",
+    "description": "2.0 course.js"
+  },
+  "coursewarePreview": {
+    "message": "預覽課件",
+    "description": "2.0 course.js"
+  },
+  "videoViewNum": {
+    "message": "查看視頻個數",
+    "description": "2.0 course.js"
+  },
+  "videoViewTime": {
+    "message": "查看視頻時長",
+    "description": "2.0 course.js"
+  },
+  "videoViewTime2": {
+    "message": "檢視視訊時長（分鐘）",
+    "description": "2.0 course.js"
+  },
+  "docViewNum": {
+    "message": "查看文件個數",
+    "description": "2.0 course.js"
+  },
+  "docViewTimes": {
+    "message": "查看文件次數",
+    "description": "2.0 course.js"
+  },
+  "iCourseAssessmentTips": {
+    "message": "該課件由【愛課程】提供，課件成績不支援納入考核",
+    "description": "2.0 course.js"
+  },
+  "coursewareStat": {
+    "message": "課件統計",
+    "description": "2.0 course.js"
+  },
+  "videoResTotal": {
+    "message": "視頻資源總個數",
+    "description": "2.0 course.js"
+  },
+  "videoResTotalTime": {
+    "message": "視頻資源總時長",
+    "description": "2.0 course.js"
+  },
+  "videoResTime": {
+    "message": "查看視頻時長",
+    "description": "2.0 course.js"
+  },
+  "docResTotal": {
+    "message": "文檔資源總個數",
+    "description": "2.0 course.js"
+  },
+  "courseResStat": {
+    "message": "課程資源統計",
+    "description": "2.0 course.js"
+  },
+  "stuProgressStat": {
+    "message": "學生進度統計",
+    "description": "2.0 course.js"
+  },
+  "academy": {
+    "message": "院校",
+    "description": "2.0 course.js"
+  },
+  "goToJoinTheCourse": {
+    "message": "前往《優學院2.0》加入班課",
+    "description": "2.0 course.js"
+  },
+  "downloadApp": {
+    "message": "下載【優學院2.0】APP",
+    "description": "2.0 course.js"
+  },
+  "enterLiveName": {
+    "message": "請輸入直播名稱",
+    "description": "2.0 course.js"
+  },
+  "enterSpeaker": {
+    "message": "請輸入主講人",
+    "description": "2.0 course.js"
+  },
+  "liveDescPlaceholder": {
+    "message": "請填寫主講人或直播內容的簡單介紹，不超過500個字",
+    "description": "2.0 course.js"
+  },
+  "hours": {
+    "message": "小時",
+    "description": "2.0 course.js"
+  },
+  "scopeLive": {
+    "message": "直播範圍",
+    "description": "2.0 course.js"
+  },
+  "gradeLive": {
+    "message": "班內直播",
+    "description": "2.0 course.js"
+  },
+  "publicLive": {
+    "message": "公開直播",
+    "description": "2.0 course.js"
+  },
+  "shareLiveEnter": {
+    "message": "可通過分享直播地址進入",
+    "description": "2.0 course.js"
+  },
+  "participateClass": {
+    "message": "參與班級",
+    "description": "2.0 course.js"
+  },
+  "createConsent": {
+    "message": "創建即同意",
+    "description": "2.0 course.js"
+  },
+  "userLiveProtocol": {
+    "message": "使用者直播協定",
+    "description": "2.0 course.js"
+  },
+  "liveNameNotEmpty": {
+    "message": "直播名稱不能為空",
+    "description": "2.0 course.js"
+  },
+  "liveNameNotEmptyNew": {
+    "message": "直播名稱應該在1~200個字元之間",
+    "description": "2.0 course.js"
+  },
+  "speakerNotEmpty": {
+    "message": "主講人姓名不能為空",
+    "description": "2.0 course.js"
+  },
+  "speakerNotEmptyNew": {
+    "message": "主講人應該在1~50個字元之間",
+    "description": "2.0 course.js"
+  },
+  "liveDescNotEmpty": {
+    "message": "直播簡介不能為空",
+    "description": "2.0 course.js"
+  },
+  "liveDescNotEmptyNew": {
+    "message": "直播簡介應該在1~500個字元之間",
+    "description": "2.0 course.js"
+  },
+  "startTimeNotEmpty": {
+    "message": "開始時間不能為空",
+    "description": "2.0 course.js"
+  },
+  "classListNotEmpty": {
+    "message": "參與班級不能為空",
+    "description": "2.0 course.js"
+  },
+  "editSuccess": {
+    "message": "編輯成功",
+    "description": "2.0 course.js"
+  },
+  "editLive": {
+    "message": "編輯直播",
+    "description": "2.0 course.js"
+  },
+  "classroomCount": {
+    "message": "課堂數",
+    "description": "2.0 course.js"
+  },
+  "activity": {
+    "message": "活動",
+    "description": "2.0 course.js"
+  },
+  "classroomList": {
+    "message": "上課記錄",
+    "description": "2.0 course.js"
+  },
+  "createClassroom": {
+    "message": "創建課堂",
+    "description": "2.0 course.js"
+  },
+  "studentPerformance": {
+    "message": "學生表現",
+    "description": "2.0 course.js"
+  },
+  "classroomStatistics": {
+    "message": "課堂統計",
+    "description": "2.0 course.js"
+  },
+  "classroomName": {
+    "message": "課堂名稱",
+    "description": "2.0 course.js"
+  },
+  "classTime": {
+    "message": "上課時間",
+    "description": "2.0 course.js"
+  },
+  "classesInClassroom": {
+    "message": "上課班級",
+    "description": "2.0 course.js"
+  },
+  "inClassroom": {
+    "message": "上课中",
+    "description": "2.0 course.js"
+  },
+  "classroomReport": {
+    "message": "課堂報告",
+    "description": "2.0 course.js"
+  },
+  "enterClassroom": {
+    "message": "進入課堂",
+    "description": "2.0 course.js"
+  },
+  "copyClassroom": {
+    "message": "複製課堂",
+    "description": "2.0 course.js"
+  },
+  "noClassroom": {
+    "message": "暫無課堂",
+    "description": "2.0 course.js"
+  },
+  "enterClassroomName": {
+    "message": "請輸入課堂名稱",
+    "description": "2.0 course.js"
+  },
+  "enterClassroomNameErr": {
+    "message": "課堂名稱不能超過50個字元",
+    "description": "2.0 course.js"
+  },
+  "noClass1": {
+    "message": "暫無班級",
+    "description": "2.0 course.js"
+  },
+  "lastClass": {
+    "message": "上次班級",
+    "description": "2.0 course.js"
+  },
+  "startClass": {
+    "message": "開始上課",
+    "description": "2.0 course.js"
+  },
+  "notClass": {
+    "message": "暫不上課",
+    "description": "2.0 course.js"
+  },
+  "allClassroom": {
+    "message": "全部課堂",
+    "description": "2.0 course.js"
+  },
+  "deleteClassroom": {
+    "message": "刪除課堂",
+    "description": "2.0 course.js"
+  },
+  "confirmDeleteClassroom": {
+    "message": "刪除課堂將會刪除該課堂上發佈的課堂互動，確定刪除？",
+    "description": "2.0 course.js"
+  },
+  "copyClassroomToClass": {
+    "message": "複製課堂到班級",
+    "description": "2.0 course.js"
+  },
+  "copyClassroomTip": {
+    "message": "（複製後活動為未開始狀態，您可以在上課後開始這些活動，點名/選人活動不能被複製）",
+    "description": "2.0 course.js"
+  },
+  "copySuccess": {
+    "message": "複製成功",
+    "description": "2.0 course.js"
+  },
+  "copyFailed": {
+    "message": "複製失敗",
+    "description": "2.0 course.js"
+  },
+  "editClassroom": {
+    "message": "修改課堂",
+    "description": "2.0 course.js"
+  },
+  "classErrorTip": {
+    "message": "班級不能為空",
+    "description": "2.0 course.js"
+  },
   "faceAuthentication": {
     "message": "人臉認證",
+    "description": "2.0 course.js"
+  },
+  "classsroomHeadTips1": {
+    "message": "面向線下課堂教學場景，教師可以在課堂裡演示PPT，發佈點名、選人、搶答、投票和打分等課堂活動。",
+    "description": "2.0 course.js"
+  },
+  "cannotView": {
+    "message": "歷史活動暫不支援預覽",
+    "description": "2.0 course.js"
+  },
+  "ltiErrorTip": {
+    "message": "頁面無法訪問，請聯繫管理員檢查應用配置",
+    "description": "2.0 course.js"
+  },
+  "courseInfo": {
+    "message": "課程資訊",
+    "description": "2.0 course.js"
+  },
+  "menuManage": {
+    "message": "功能表管理",
+    "description": "2.0 course.js"
+  },
+  "menuManageTip": {
+    "message": "課程管理員可以在這裡隱藏/開啟功能表，或更改課程首頁。 被隱藏的功能表，課程中所有教師和學生都不可見（個別功能表僅對學生不可見），APP端入口也將同步隱藏。 將功能表設為課程首頁，PC端則進入課程時將默認打開該功能表頁面。",
+    "description": "2.0 course.js"
+  },
+  "setAsIndex": {
+    "message": "設為課程首頁",
+    "description": "2.0 course.js"
+  },
+  "fixMenuTip": {
+    "message": "固定功能表，僅課程管理員可見，不能隱藏",
+    "description": "2.0 course.js"
+  },
+  "hideForStu": {
+    "message": "隱藏僅對學生端生效",
+    "description": "2.0 course.js"
+  },
+  "hideIndexTip": {
+    "message": "課程首頁不能隱藏。 如需隱藏該功能表，請先將其他功能表設為課程首頁。",
+    "description": "2.0 course.js"
+  },
+  "noStudentJoin": {
+    "message": "無人參加",
+    "description": "2.0 course.js"
+  },
+  "liveType": {
+    "message": "直播類型",
+    "description": "2.0 course.js"
+  },
+  "liveType1": {
+    "message": "展示互動",
+    "description": "2.0 course.js"
+  },
+  "liveType2": {
+    "message": "保利威",
+    "description": "2.0 course.js"
+  },
+  "liveType3": {
+    "message": "拓課雲",
+    "description": "2.0 course.js"
+  },
+  "liveBack": {
+    "message": "直播重播",
+    "description": "2.0 course.js"
+  },
+  "moreApp": {
+    "message": "更多應用",
+    "description": "2.0 course.js"
+  },
+  "addApp": {
+    "message": "添加應用",
+    "description": "2.0 course.js"
+  },
+  "clickToGetMoreApp": {
+    "message": "點擊右邊按鈕添加更多應用",
+    "description": "2.0 course.js"
+  },
+  "appSupportTip": {
+    "message": "教師僅支援PC端使用，學生PC/APP均能使用",
+    "description": "2.0 course.js"
+  },
+  "appSupportTip2": {
+    "message": "僅支援PC端使用",
+    "description": "2.0 course.js"
+  },
+  "unAdd": {
+    "message": "未添加",
+    "description": "2.0 course.js"
+  },
+  "hasAdd": {
+    "message": "已添加到課程",
+    "description": "2.0 course.js"
+  },
+  "searchNull": {
+    "message": "未搜索到此應用",
     "description": "2.0 course.js"
   }
 }

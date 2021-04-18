@@ -207,6 +207,10 @@
     "message": "按學號排序",
     "description": "小应用"
   },
+  "orderByEnterTimes": {
+    "message": "按參加活動次數排序",
+    "description": "小应用"
+  },
   "complete": {
     "message": "完成",
     "description": "小应用"
@@ -391,6 +395,18 @@
     "message": "减分",
     "description": "小应用"
   },
+  "classroomTips": {
+    "message": "當前課堂未開始，請先保存草稿，上課后再開始活動。",
+    "description": "小应用"
+  },
+  "logTip": {
+    "message": "已在其他終端登錄！",
+    "description": "小应用"
+  },
+  "dontActToo": {
+    "message": "請勿頻繁操作",
+    "description": "小应用"
+  },
   "teacher.title": {
     "message": "教師",
     "description": "小应用"
@@ -529,6 +545,10 @@
   },
   "screen.cancel": {
     "message": "取消投屏",
+    "description": "小应用"
+  },
+  "screen.tips": {
+    "message": "需要開啟投屏后才能演示資源，是否開啟",
     "description": "小应用"
   },
   "vote.title": {
@@ -733,6 +753,34 @@
   },
   "pick.confirmRestart": {
     "message": "确定再次开启选人吗？",
+    "description": "小应用"
+  },
+  "pick.pickStuTitle": {
+    "message": "請選擇學生",
+    "description": "小应用"
+  },
+  "pick.participateTimes2": {
+    "message": "搶答{interlocutionCount}次，被選{joinCount}次",
+    "description": "小应用"
+  },
+  "pick.picked": {
+    "message": "已選擇",
+    "description": "小应用"
+  },
+  "pick.absent": {
+    "message": "未出勤",
+    "description": "小应用"
+  },
+  "pick.pick": {
+    "message": "選擇",
+    "description": "小应用"
+  },
+  "pick.pickFromDuty": {
+    "message": "從點名出勤的學生中選",
+    "description": "小应用"
+  },
+  "pick.addPickFirst": {
+    "message": "當前課堂沒有發起過點名，請發起點名后使用該功能",
     "description": "小应用"
   },
   "score.title": {
@@ -1091,8 +1139,16 @@
     "message": "“二維碼簽到”需開啟投屏，在大屏幕上展示簽到二維碼。",
     "description": "小应用"
   },
+  "attendance.locationTips": {
+    "message": "\"位置簽到\"需開啟定位。 由於4G網路基站和網路穩定情況的影響，位置數據會有一定的誤差。",
+    "description": "小应用"
+  },
   "attendance.qrCodeUpdateTips": {
     "message": "每15s更新二維碼",
+    "description": "小应用"
+  },
+  "attendance.oneKeySign": {
+    "message": "位置簽到",
     "description": "小应用"
   },
   "attendance.qrCodeSign": {
@@ -1321,6 +1377,42 @@
   },
   "attendance.endAttendence": {
     "message": "结束点名",
+    "description": "小应用"
+  },
+  "attendance.inputNumCode": {
+    "message": "請輸入數位碼",
+    "description": "小应用"
+  },
+  "attendance.surround": {
+    "message": "附近位置",
+    "description": "小应用"
+  },
+  "attendance.getPosAgain": {
+    "message": "重新置放",
+    "description": "小应用"
+  },
+  "attendance.openPos": {
+    "message": "請打開手機定位",
+    "description": "小应用"
+  },
+  "attendance.positon": {
+    "message": "位置",
+    "description": "小应用"
+  },
+  "attendance.confirmPos": {
+    "message": "請確認簽到的位置",
+    "description": "小应用"
+  },
+  "attendance.userNumber": {
+    "message": "學號：{studentID}",
+    "description": "小应用"
+  },
+  "attendance.attData": {
+    "message": "出勤{signCount}次，缺勤{absenceCount}次，出勤率{rate}",
+    "description": "小应用"
+  },
+  "attendance.teaEnter": {
+    "message": "無位置，教師錄入",
     "description": "小应用"
   },
   "announcement.title": {
@@ -1579,6 +1671,10 @@
     "message": "參與{times}次",
     "description": "小应用"
   },
+  "answer.participateAndSelectTimes": {
+    "message": "搶答{count}次，被選{selectCount}次",
+    "description": "小应用"
+  },
   "answer.orderByStuNo": {
     "message": "學號排序",
     "description": "小应用"
@@ -1649,6 +1745,14 @@
   },
   "answer.confirmRestart": {
     "message": "确定再次开启抢答？",
+    "description": "小应用"
+  },
+  "answer.selecting": {
+    "message": "抽取中",
+    "description": "小应用"
+  },
+  "answer.grabTag": {
+    "message": "搶",
     "description": "小应用"
   },
   "class.create": {
@@ -2535,6 +2639,10 @@
     "message": "发讨论",
     "description": "小应用"
   },
+  "discuss.nodata": {
+    "message": "暫無討論",
+    "description": "小应用"
+  },
   "course.title": {
     "message": "課程",
     "description": "小应用"
@@ -2895,10 +3003,6 @@
     "message": "《隱私政策》",
     "description": "小应用"
   },
-  "user.idMore": {
-    "message": "",
-    "description": "小应用"
-  },
   "user.goHome": {
     "message": "返回首頁",
     "description": "小应用"
@@ -3165,6 +3269,22 @@
   },
   "user.inputInfo": {
     "message": "填寫資訊",
+    "description": "小应用"
+  },
+  "user.authentication": {
+    "message": "身份驗證",
+    "description": "小应用"
+  },
+  "user.registertip": {
+    "message": "注意：如果學校已統一開通帳號，請使用學校帳號登錄，切勿重複註冊。 無法找回密碼請聯繫客服。",
+    "description": "小应用"
+  },
+  "user.customerService": {
+    "message": "客服",
+    "description": "小应用"
+  },
+  "user.noDataTip": {
+    "message": "沒有找到該學校/機構",
     "description": "小应用"
   },
   "search.title": {
@@ -3705,6 +3825,42 @@
   },
   "classroom.endingClass": {
     "message": "下课中",
+    "description": "小应用"
+  },
+  "classroom.resourseDemo": {
+    "message": "資源演示",
+    "description": "小应用"
+  },
+  "classroom.demoings": {
+    "message": "正在展示中...",
+    "description": "小应用"
+  },
+  "classroom.backActi": {
+    "message": "返回活動",
+    "description": "小应用"
+  },
+  "classroom.opeaOnScreen": {
+    "message": "請在大屏上操作",
+    "description": "小应用"
+  },
+  "classroom.opeaOnScreenLine": {
+    "message": "外部連結，請在大屏上操作",
+    "description": "小应用"
+  },
+  "classroom.playOrPause": {
+    "message": "播放/暫停",
+    "description": "小应用"
+  },
+  "classroom.classLive": {
+    "message": "課堂直播",
+    "description": "小应用"
+  },
+  "classroom.playbackTip": {
+    "message": "視頻生成中，直播結束30分鐘左右可以觀看",
+    "description": "小应用"
+  },
+  "live.enterLiveRoom": {
+    "message": "教師正在直播，點擊進入",
     "description": "小应用"
   }
 }

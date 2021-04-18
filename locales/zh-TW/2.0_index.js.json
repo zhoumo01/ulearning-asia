@@ -19,20 +19,8 @@
     "message": "時",
     "description": "2.0 index.js"
   },
-  "minute": {
-    "message": "分",
-    "description": "2.0 index.js"
-  },
-  "second": {
-    "message": "秒",
-    "description": "2.0 index.js"
-  },
   "student": {
     "message": "學生",
-    "description": "2.0 index.js"
-  },
-  "classmate": {
-    "message": "同學",
     "description": "2.0 index.js"
   },
   "welcomeStu": {
@@ -127,16 +115,8 @@
     "message": "撤回加入申請",
     "description": "2.0 index.js"
   },
-  "di": {
-    "message": "第",
-    "description": "2.0 index.js"
-  },
   "none": {
     "message": "無",
-    "description": "2.0 index.js"
-  },
-  "courseTimes": {
-    "message": "次開課",
     "description": "2.0 index.js"
   },
   "modifyCourse": {
@@ -167,17 +147,17 @@
     "message": "班級",
     "description": "2.0 index.js"
   },
-  "courseWill": {
-    "message": "課程將於",
-    "description": "2.0 index.js"
+  "courseWillEnd": {
+    "message": "課程將於{time}結束",
+    "description": "课程列表"
   },
-  "has": {
-    "message": "已於",
-    "description": "2.0 index.js"
+  "courseHasEnd": {
+    "message": "已於{time}結束",
+    "description": "课程列表 -> 已结束"
   },
-  "courseStartDuration": {
-    "message": "距離課程開始還有",
-    "description": "2.0 index.js"
+  "courseCountdown": {
+    "message": "距離課程開始還有{n}天",
+    "description": "课程列表 (需要课程为公开课)"
   },
   "searchNoCourse": {
     "message": "沒有搜尋到相關的課程",
@@ -195,9 +175,9 @@
     "message": "尚未加入任何課程~",
     "description": "2.0 index.js"
   },
-  "netErrorClick": {
-    "message": "網絡錯誤,點擊",
-    "description": "2.0 index.js"
+  "netError": {
+    "message": "網路錯誤，點擊{reloadButton}重新載入",
+    "description": "教师或学生账户 -> 课程列表"
   },
   "reload": {
     "message": "重新加載",
@@ -215,12 +195,8 @@
     "message": "老師已經創建了同名課程。建議您先和課程負責人確認溝通,是否需要單獨創建課程。",
     "description": "2.0 index.js"
   },
-  "courseTitleExistTips1": {
-    "message": "本校已存在同名課程（由",
-    "description": "2.0 index.js"
-  },
-  "courseTitleExistTips2": {
-    "message": "老師創建）,建議您先聯系建課老師進行溝通確認,以免重複建課帶來不便。",
+  "courseTitleExistTips": {
+    "message": "本校已存在同名課程（由{name}老師創建），建議您先聯繫建課老師進行溝通確認，以免重複建課帶來不便。",
     "description": "2.0 index.js"
   },
   "isContinueCreate": {
@@ -767,9 +743,9 @@
     "message": "共",
     "description": "2.0 index.js"
   },
-  "textbookCount": {
-    "message": "本教材",
-    "description": "2.0 index.js"
+  "totalTextbook": {
+    "message": "共{n}本教材",
+    "description": "非国际版首页 -> 更多教材"
   },
   "detail": {
     "message": "詳情",
@@ -831,17 +807,17 @@
     "message": "分類",
     "description": "2.0 index.js"
   },
-  "courseCount": {
-    "message": "門課程",
-    "description": "2.0 index.js"
+  "totalCourse": {
+    "message": "共{n}門課程",
+    "description": "非国际版首页 -> 更多课程"
   },
   "nationalBoutique": {
     "message": "國家精品",
     "description": "2.0 index.js"
   },
-  "participantsCount": {
-    "message": "人參與",
-    "description": "2.0 index.js"
+  "courseJoinCount": {
+    "message": "{n}人參與",
+    "description": "非国际版首页 -> 更多课程"
   },
   "summary": {
     "message": "內容簡介",

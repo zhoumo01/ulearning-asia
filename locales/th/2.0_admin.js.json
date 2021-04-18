@@ -39,17 +39,17 @@
     "message": "ปิด",
     "description": "2.0 admin.js"
   },
-  "total": {
-    "message": "ทั้งหมด",
-    "description": "2.0 admin.js"
+  "totalOfItems": {
+    "message": "รวม {n}",
+    "description": "https://courseweb.tongshike.cn/admin/#/courseDeclaration/declared 国际版用不到这个页面，但是这个页面也做了国际化，所以一并处理了 \n https://courseweb.tongshike.cn/admin/#/courseDeclaration/notDeclared 同上 \n https://courseweb.tongshike.cn/admin/#/courseDeclaration/pending 同上 \n 管理员账号 -> 系统管理 -> 管理员设置 https://courseweb.tongshike.cn/admin/#/main/system/administrator \n https://courseweb.tongshike.cn/admin/#/check \n 管理员账号 -> 课程管理 -> 本校自建MOOC https://courseweb.tongshike.cn/admin/#/main/teaching/course/open/local \n 管理员账号 -> 课程管理 -> 外部引用MOOC https://courseweb.tongshike.cn/admin/#/main/teaching/course/open/foreign \n 管理员账号 -> 课程管理 -> 本校课程 https://courseweb.tongshike.cn/admin/#/main/teaching/course/school \n 管理员账号 -> 课程管理 -> 本校自建MOOC -> 选课名单 \n 管理员账号 -> 考试管理 https://courseweb.tongshike.cn/admin/#/main/teaching/exam \n 管理员账号 -> 教师管理 https://courseweb.tongshike.cn/admin/#/main/teaching/teacher \n 管理员账号 -> 学生管理 https://courseweb.tongshike.cn/admin/#/main/teaching/student \n 管理员账号 -> 自然班级 https://courseweb.tongshike.cn/admin/#/main/teaching/naturalClass \n 管理员账号 -> 通知公告 https://courseweb.tongshike.cn/admin/#/main/teaching/notice"
   },
-  "items": {
-    "message": "ชิ้น",
-    "description": "2.0 admin.js"
+  "totalOfVideo": {
+    "message": "รวม {n} วิดีโอ",
+    "description": "https://courseweb.tongshike.cn/admin/#/main/dataCenter/interactionTextbook \n https://courseweb.tongshike.cn/admin/#/main/uaDataAnalysis"
   },
-  "number": {
-    "message": "ชิ้น",
-    "description": "2.0 admin.js"
+  "numberOf": {
+    "message": "{n}",
+    "description": "https://courseweb.tongshike.cn/admin/#/courseDeclaration/declared 国际版用不到这个页面，但是这个页面也做了国际化，所以一并处理了"
   },
   "search": {
     "message": "ค้นหา",
@@ -203,10 +203,6 @@
     "message": "อัตราเฉลี่ยการรับชมสื่อวิดิทัศน์สำเร็จ",
     "description": "2.0 admin.js"
   },
-  "videos": {
-    "message": "สื่อวิดิทัศน์",
-    "description": "2.0 admin.js"
-  },
   "nearly15days": {
     "message": "อีก15วัน",
     "description": "2.0 admin.js"
@@ -257,6 +253,114 @@
   },
   "allStudent": {
     "message": "นักเรียนทั้งหมด",
+    "description": "2.0 admin.js"
+  },
+  "role": {
+    "message": "บทบาท",
+    "description": "2.0 admin.js"
+  },
+  "responsibleCollege": {
+    "message": "รับผิดชอบวิทยาลัย",
+    "description": "2.0 admin.js"
+  },
+  "checkAll": {
+    "message": "เลือกทั้งหมด",
+    "description": "2.0 admin.js"
+  },
+  "addRole": {
+    "message": "เพิ่มบทบาท",
+    "description": "2.0 admin.js"
+  },
+  "editRole": {
+    "message": "ปรับเปลี่ยนบทบาท",
+    "description": "2.0 admin.js"
+  },
+  "module": {
+    "message": "โมดูล",
+    "description": "2.0 admin.js"
+  },
+  "permission": {
+    "message": "สิทธิ์",
+    "description": "2.0 admin.js"
+  },
+  "rolePermissionSetting": {
+    "message": "การตั้งค่าสิทธิ์ของบทบาท",
+    "description": "2.0 admin.js"
+  },
+  "changePermissionTips": {
+    "message": "เมื่อคุณแก้ไขสิทธิ์ของบทบาทแล้ว ให้คลิก บันทึกการเปลี่ยนแปลง เพื่อมีผล",
+    "description": "2.0 admin.js"
+  },
+  "inputRoleName": {
+    "message": "กรุณาใส่ชื่อบทบาท",
+    "description": "2.0 admin.js"
+  },
+  "systemAdministrator": {
+    "message": "ผู้ดูแลระบบ",
+    "description": "2.0 admin.js"
+  },
+  "deleteRoleTips": {
+    "message": "คุณแน่ใจหรือไม่ว่าคุณต้องการลบบทบาท การลบบทบาทจะไม่ลบผู้ใช้ที่เกี่ยวข้องและคุณสามารถตั้งค่าบทบาทใหม่สําหรับผู้ใช้ได้",
+    "description": "2.0 admin.js"
+  },
+  "onlySystemTips": {
+    "message": "มีเฉพาะผู้ดูแลระบบเท่านั้น",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips1": {
+    "message": "การจัดการหลักสูตร: การจัดการหลักสูตร (รวม / โอนหลักสูตร, ป้อนหลักสูตร, ดูการวิเคราะห์หลักสูตร)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips2": {
+    "message": "การจัดการหลักสูตร: การจัดการ MOOC ของเรา (การตรวจสอบการเผยแพร่การแก้ไขหมวดหมู่และสถานะการแสดงผลเว็บไซต์)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips3": {
+    "message": "การจัดการหลักสูตร: แนะนําการจัดการหลักสูตรภายนอก",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips4": {
+    "message": "การจัดการครู (เพิ่ม/แก้ไข/ลบครู และไปที่บัญชีครู)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips5": {
+    "message": "การจัดการนักเรียน (เพิ่ม/แก้ไข/ลบนักเรียน, เข้าบัญชีนักเรียน)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips6": {
+    "message": "การจัดการชั้นเรียนธรรมชาติ (เพิ่ม / แก้ไข / ลบชั้นเรียนธรรมชาติ)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips7": {
+    "message": "ประกาศการแจ้งเตือน (ประกาศเผยแพร่/แก้ไข/ลบ)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips8": {
+    "message": "การตั้งค่าสิทธิ์ของบทบาท (เพิ่ม/ปรับเปลี่ยน/ลบบทบาท, ตั้งค่าสิทธิ์ของบทบาท)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips9": {
+    "message": "การตั้งค่าผู้ดูแลระบบ (เพิ่ม/ปรับเปลี่ยน/ลบผู้ดูแลระบบ ระบุบทบาทผู้ใช้)",
+    "description": "2.0 admin.js"
+  },
+  "permissionTips10": {
+    "message": "ดูและจัดการระบบย่อย",
+    "description": "2.0 admin.js"
+  },
+  "addAdminTips1": {
+    "message": "โปรดเลือกบทบาท",
+    "description": "2.0 admin.js"
+  },
+  "addAdminTips2": {
+    "message": "เลือกวิทยาลัยอย่างน้อยหนึ่งแห่ง",
+    "description": "2.0 admin.js"
+  },
+  "saveSuccess": {
+    "message": "บันทึกเสร็จเรียบร้อยแล้ว",
+    "description": "2.0 admin.js"
+  },
+  "saveFailed": {
+    "message": "การบันทึกล้มเหลว",
     "description": "2.0 admin.js"
   },
   "subsystem.mobileEvaluation": {
@@ -1623,6 +1727,14 @@
     "message": "การอ้างอิงภายนอก",
     "description": "2.0 admin.js"
   },
+  "dataCenter.PCExe": {
+    "message": "ไคลเอ็นต์พีซี",
+    "description": "2.0 admin.js"
+  },
+  "dataCenter.PCweb": {
+    "message": "เว็บเพจคอมพิวเตอร์",
+    "description": "2.0 admin.js"
+  },
   "courseDeclarationAdmin.ulearningCourseDeclarationInfoAdmin": {
     "message": "การจัดการข่าวสารการรายงานหลักสูตรของโยวเสวียเยวี้ยน",
     "description": "2.0 admin.js"
@@ -1636,7 +1748,7 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.undeterminedCourse": {
-    "message": " หลักสูตรที่รอการตัดสิน",
+    "message": "หลักสูตรที่รอการตัดสิน",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.courseDeclarationInfoAdmin": {
@@ -2043,6 +2155,10 @@
     "message": "ภาษาของเวปไซด์",
     "description": "2.0 admin.js"
   },
+  "systemAdmin.websiteLanguageTip": {
+    "message": "ภาษาของไซต์ต้องไม่ว่างเปล่า",
+    "description": "2.0 admin.js"
+  },
   "systemAdmin.default": {
     "message": "ค่าเริ่มต้น",
     "description": "2.0 admin.js"
@@ -2053,6 +2169,10 @@
   },
   "systemAdmin.websiteTemplate": {
     "message": "เทมเพลตเวปไซด์",
+    "description": "2.0 admin.js"
+  },
+  "systemAdmin.websiteTemplateTip": {
+    "message": "โปรดเลือกแม่แบบไซต์",
     "description": "2.0 admin.js"
   },
   "systemAdmin.menuTypeTemplate": {
@@ -2093,6 +2213,10 @@
   },
   "systemAdmin.systemAdminTips19": {
     "message": "เทมเพลตนี้ขอแนะนำถ้าคุณต้องการให้นักเรียนมีรายการเข้าสู่ระบบแยกต่างหาก",
+    "description": "2.0 admin.js"
+  },
+  "systemAdmin.systemAdminTips20": {
+    "message": "หากคุณต้องการให้นักเรียนมีพอร์ทัลการเข้าสู่ระบบแยกต่างหากขอแนะนําให้ใช้เทมเพลตนี้",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.inSchoolCourse": {
@@ -2323,9 +2447,9 @@
     "message": "”จำนวนผู้เข้าร่วม”",
     "description": "2.0 admin.js"
   },
-  "teachingAdmin.to": {
-    "message": "”ถึง”",
-    "description": "2.0 admin.js"
+  "teachingAdmin.timeBetween": {
+    "message": "{startTime} ถึง {endTime}",
+    "description": "管理员账号 -> 数据中心 -> 教学动态 \n 管理员账号 -> 考试管理"
   },
   "teachingAdmin.viewScore": {
     "message": "”ตรวจสอบผลการเรียน”",
@@ -2869,6 +2993,74 @@
   },
   "backToCustomerService": {
     "message": "กลับไปที่การบริการลูกค้า",
+    "description": "2.0 admin.js"
+  },
+  "courseUnit": {
+    "message": "ประตู {courseCount}",
+    "description": "2.0 admin.js"
+  },
+  "appCenter": {
+    "message": "ศูนย์การประยุกต์ใช้งาน",
+    "description": "2.0 admin.js"
+  },
+  "internalApp": {
+    "message": "แอปภายใน",
+    "description": "2.0 admin.js"
+  },
+  "ltiApp": {
+    "message": "แอปพลิเคชันการรวม LTI",
+    "description": "2.0 admin.js"
+  },
+  "installed": {
+    "message": "เปิดแล้ว",
+    "description": "2.0 admin.js"
+  },
+  "unInstalled": {
+    "message": "ไม่ได้เปิด",
+    "description": "2.0 admin.js"
+  },
+  "viewMore": {
+    "message": "เรียนรู้เพิ่มเติม",
+    "description": "2.0 admin.js"
+  },
+  "appManage": {
+    "message": "การจัดการแอป",
+    "description": "2.0 admin.js"
+  },
+  "installed2": {
+    "message": "ติดตั้งแล้ว",
+    "description": "2.0 admin.js"
+  },
+  "addApp": {
+    "message": "เพิ่มแอป",
+    "description": "2.0 admin.js"
+  },
+  "name": {
+    "message": "ชื่อ",
+    "description": "2.0 admin.js"
+  },
+  "consumerKey": {
+    "message": "คีย์ผู้ใช้",
+    "description": "2.0 admin.js"
+  },
+  "sharedSecret": {
+    "message": "ความลับที่ใช้ร่วมกัน",
+    "description": "2.0 admin.js"
+  },
+  "configURL": {
+    "message": "URL การกําหนดค่า",
+    "description": "2.0 admin.js"
+  },
+  "deleteApp": {
+    "message": "ลบแอป",
+    "description": "2.0 admin.js"
+  },
+  "confirmDelete": {
+    "message": "คุณแน่ใจหรือไม่ว่าคุณต้องการเอาแอปออก",
+    "description": "2.0 admin.js"
+  },
+  "deleteSuccess": {
+    "message": "การลบเสร็จเรียบร้อยแล้ว",
     "description": "2.0 admin.js"
   }
 }

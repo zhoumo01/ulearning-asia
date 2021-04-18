@@ -43,10 +43,6 @@
     "message": "試題",
     "description": "UA"
   },
-  "QNotSave": {
-    "message": "題未儲存",
-    "description": "UA"
-  },
   "Score": {
     "message": "分值",
     "description": "UA"
@@ -286,6 +282,10 @@
   "autoSavedAt": {
     "message": "已於",
     "description": "UA"
+  },
+  "autoSaveAt": {
+    "message": "已於{time}自動保存",
+    "description": "UA -> 教师 -> 编辑课件 -> 右上角"
   },
   "automaticSorting": {
     "message": "自動排序",
@@ -823,9 +823,9 @@
     "message": "互動教材",
     "description": "UA"
   },
-  "courses": {
-    "message": "門",
-    "description": "UA"
+  "totalCourses": {
+    "message": "共{n}門",
+    "description": "UA -> 教师 -> 首页 -> 相关代码已隐藏，因此无法在页面上看到"
   },
   "coursewareQBank": {
     "message": "課件題庫",
@@ -919,9 +919,9 @@
     "message": "數據有誤",
     "description": "UA"
   },
-  "dataNum": {
-    "message": "條數據",
-    "description": "UA"
+  "totalData": {
+    "message": "共{n}條數據",
+    "description": "UA -> 教师 -> 首页"
   },
   "delete": {
     "message": "刪除",
@@ -1229,14 +1229,6 @@
   },
   "enterFollowTextErrorTip": {
     "message": "評測內容中有中文",
-    "description": "UA"
-  },
-  "enterFollowTextPosition": {
-    "message": "第",
-    "description": "UA"
-  },
-  "enterFollowTextPosition1": {
-    "message": "第",
     "description": "UA"
   },
   "enterImgKeyword": {
@@ -1555,21 +1547,21 @@
     "message": "flash結構不對",
     "description": "UA"
   },
-  "followEnterFollowTextErrorPosition": {
-    "message": "段評測內容中有中文",
-    "description": "UA"
+  "evaluationHasChinese": {
+    "message": "第{n}段評測內容中有中文",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
-  "followEnterFollowTextPosition": {
-    "message": "段請輸入評測內容",
-    "description": "UA"
+  "evaluationEmpty": {
+    "message": "第{n}段請輸入評測內容",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
-  "followEnterFollowTextPosition1": {
-    "message": "段請輸入參考答案",
-    "description": "UA"
+  "referenceAnswerEmpty": {
+    "message": "第{n}段請輸入參考答案",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
-  "followRatingReferenceTextErrorPosition": {
-    "message": "段評分參照文本中有中文",
-    "description": "UA"
+  "referenceTextHasChinese": {
+    "message": "第{n}段評分參照文本中有中文",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
   },
   "followReadingFormat": {
     "message": "mp3格式，不能超過3M",
@@ -1603,9 +1595,9 @@
     "message": "完整字幕",
     "description": "UA"
   },
-  "ge": {
-    "message": "個",
-    "description": "UA"
+  "items": {
+    "message": "{n}個",
+    "description": "UA -> 首页 -> 指课程发布到几个站点 -> 相关代码已隐藏，因此无法在页面上看到"
   },
   "generateFLASH": {
     "message": "FLASH生成中...",
@@ -1987,9 +1979,9 @@
     "message": "菜單類型",
     "description": "UA"
   },
-  "min": {
-    "message": "分鐘",
-    "description": "UA"
+  "inputMinutes": {
+    "message": "{input}分鐘",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
   },
   "modifyFail": {
     "message": "修改失敗",
@@ -1997,10 +1989,6 @@
   },
   "modifyThisQ": {
     "message": "修改此題",
-    "description": "UA"
-  },
-  "month": {
-    "message": "月",
     "description": "UA"
   },
   "more": {
@@ -2191,6 +2179,10 @@
     "message": "提示",
     "description": "UA"
   },
+  "recoverRecordTip": {
+    "message": "檢測到您有未提交成功的學習記錄，是否現在恢復？",
+    "description": "UA"
+  },
   "noteFollowTimeTip": {
     "message": "單詞/句子/段落最長跟讀時間分別為20s/40s/120s，請註意跟讀時間。",
     "description": "UA"
@@ -2311,9 +2303,9 @@
     "message": "頁面練習",
     "description": "UA"
   },
-  "pageHasBeen": {
-    "message": "為保證學習記錄的準確，系統已於",
-    "description": "UA"
+  "stopTimingTip": {
+    "message": "為保證學習記錄的準確，系統已於{time}停止了該頁面的學習，且該頁面的學習記錄不會保存。",
+    "description": "UA -> 学生账户 -> 学习课件"
   },
   "pageHasBeenEditedConfirmDelete": {
     "message": "當前頁面已被編輯，確定刪除嗎？",
@@ -2337,10 +2329,6 @@
   },
   "paragraphTip": {
     "message": "評測內容（必填），只能輸入英文",
-    "description": "UA"
-  },
-  "participants": {
-    "message": "人參與",
     "description": "UA"
   },
   "passageScore": {
@@ -2503,13 +2491,13 @@
     "message": "練習數量",
     "description": "UA"
   },
-  "questions": {
-    "message": "題目",
-    "description": "UA"
+  "questionError": {
+    "message": "本頁第{n}道題數據有誤，試題ID：{id}",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
   },
-  "questionsError": {
-    "message": "題目數據有誤",
-    "description": "UA"
+  "questionError2": {
+    "message": "試題ID：{id} 數據有誤",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
   },
   "questionsNotCompleted": {
     "message": "本頁面還有題目尚未完成，",
@@ -2559,9 +2547,9 @@
     "message": "建議學習時長",
     "description": "UA"
   },
-  "recordTime": {
-    "message": "錄音時長",
-    "description": "UA"
+  "recordTimeOf": {
+    "message": "錄音時長：{input}秒",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 弹框右上角"
   },
   "recordingTime": {
     "message": "錄制時長",
@@ -2723,9 +2711,9 @@
     "message": "本校老師",
     "description": "UA"
   },
-  "score": {
-    "message": "分",
-    "description": "UA"
+  "points": {
+    "message": "{n}分",
+    "description": "教师账户 -> ua -> 课程查看 -> 课件试题 \n 课程查看 -> 预览课件 -> 选择练习题 (或者学生账户登录 -> 练习题)"
   },
   "scoreModels": {
     "message": "評分模式",
@@ -2754,6 +2742,10 @@
   "second": {
     "message": "秒",
     "description": "UA"
+  },
+  "inputSeconds": {
+    "message": "{input}秒",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
   },
   "secondLevelMenu": {
     "message": "二級目錄 ",
@@ -2931,6 +2923,10 @@
     "message": "已選擇",
     "description": "UA"
   },
+  "selectedQue": {
+    "message": "已選擇{n}道題",
+    "description": "UA -> 教师 -> 编辑课件 -> 导入练习"
+  },
   "selectedTeacher": {
     "message": "已選擇的老師",
     "description": "UA"
@@ -3055,9 +3051,9 @@
     "message": "在內容中插入視頻",
     "description": "UA"
   },
-  "smallQ": {
-    "message": "小題",
-    "description": "UA"
+  "smallQue": {
+    "message": "[小題{n}]",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题 (需要题型为选词填空)"
   },
   "sortQuestions": {
     "message": "排序題",
@@ -3259,14 +3255,6 @@
     "message": "教材名稱",
     "description": "UA"
   },
-  "thePage": {
-    "message": "本頁",
-    "description": "UA"
-  },
-  "thePage2": {
-    "message": "本頁第",
-    "description": "UA"
-  },
   "thirdLevelMenu": {
     "message": "三級菜單",
     "description": "UA"
@@ -3287,9 +3275,9 @@
     "message": "限時練習",
     "description": "UA"
   },
-  "times": {
-    "message": "次",
-    "description": "UA"
+  "inputTimes": {
+    "message": "{input}次",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 添加后下方工具栏设置按钮"
   },
   "timingLearningSuspended": {
     "message": "計時學習已暫停",
@@ -3313,10 +3301,6 @@
   },
   "top": {
     "message": "置頂",
-    "description": "UA"
-  },
-  "total": {
-    "message": "共",
     "description": "UA"
   },
   "totalScore": {
@@ -3627,17 +3611,13 @@
     "message": "哎呦 出錯啦。",
     "description": "UA"
   },
-  "year": {
-    "message": "年",
-    "description": "UA"
+  "inputMonth": {
+    "message": "{inputYear}年{inputMonth}月",
+    "description": "UA -> 教师 -> 选择一门课程 -> 侧边栏详细介绍 -> 勾选已出版互动教材 -> 出版时间"
   },
-  "youHave": {
-    "message": "妳有",
-    "description": "UA"
-  },
-  "yuan": {
-    "message": "元",
-    "description": "UA"
+  "inputYuan": {
+    "message": "{input}元",
+    "description": "指的输入定价，此功能未上线，不会在页面上显示。"
   },
   "zippedFile": {
     "message": "壓縮包",
@@ -3863,17 +3843,17 @@
     "message": "得分",
     "description": "UA"
   },
-  "fluency": {
-    "message": "流利度",
-    "description": "UA"
+  "fluencyOf": {
+    "message": "流利度：{n}分",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
   },
-  "coherence": {
-    "message": "邏輯性",
-    "description": "UA"
+  "coherenceOf": {
+    "message": "邏輯性：{n}分",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
   },
-  "pronunciation": {
-    "message": "發音",
-    "description": "UA"
+  "pronunciationOf": {
+    "message": "發音：{n}分",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
   },
   "speed": {
     "message": "語速",
@@ -3891,21 +3871,13 @@
     "message": "分屏答題",
     "description": "UA"
   },
-  "limitedAnswer": {
-    "message": "限答",
-    "description": "UA"
+  "limitAnswer": {
+    "message": "限答{n}次",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
   },
-  "chance": {
-    "message": "次",
-    "description": "UA"
-  },
-  "left": {
-    "message": "剩餘",
-    "description": "UA"
-  },
-  "opportunity": {
-    "message": "機會",
-    "description": "UA"
+  "limitAnswer2": {
+    "message": "限答{n}次，剩余{m}次機會",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
   },
   "continueTip": {
     "message": "題目全部答對才能繼續觀看影片 ",
@@ -4109,6 +4081,138 @@
   },
   "backToCustomerService": {
     "message": "返回客服",
+    "description": "UA"
+  },
+  "skipStep": {
+    "message": "跳過",
+    "description": "一个按钮"
+  },
+  "wipeSubtitleTip": {
+    "message": "確認清除字幕嗎？",
+    "description": "UA"
+  },
+  "saveSubtitleTip": {
+    "message": "內容不能為空",
+    "description": "UA"
+  },
+  "practiceSetCountTip": {
+    "message": "答題次數需在1-50之間",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceSetMinuteTip": {
+    "message": "答題分鐘不可小於0",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceSetSecondTip": {
+    "message": "答題秒數需在0-60之間",
+    "description": "UA \"练习设置\" 设置提示"
+  },
+  "practiceConfig": {
+    "message": "練習設置",
+    "description": "UA \"练习设置\""
+  },
+  "practiceCount": {
+    "message": "練習次數",
+    "description": "UA \"练习设置\""
+  },
+  "practiceUnlimit": {
+    "message": "不限制",
+    "description": "UA \"练习设置\""
+  },
+  "practiceLimitCount": {
+    "message": "限制最多答題次數",
+    "description": "UA \"练习设置\""
+  },
+  "practiceUnifiedSet": {
+    "message": "本節練習題統壹設置",
+    "description": "UA \"练习设置\""
+  },
+  "timeLimitAnswer": {
+    "message": "限時答題",
+    "description": "UA \"练习设置\""
+  },
+  "practiceLimitTime": {
+    "message": "限制答題時長",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip1": {
+    "message": "1. 目前只有包含練習的頁面才可以設置限時答題。",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip2": {
+    "message": "2. 除練習外，如果本頁有圖文、視頻、文檔等學習內容，也會統壹限時。",
+    "description": "UA \"练习设置\""
+  },
+  "practiceConfigTip3": {
+    "message": "3. 學生需在設定的時間內完成練習，超過時間後自動提交。",
+    "description": "UA \"练习设置\""
+  },
+  "browserTip": {
+    "message": "檢測到您在使用舊版或系統不支持的瀏覽器，這{emphasize}。請使用系統推薦的瀏覽器進行學習，或升級您的瀏覽器版本，手機請下載優學院APP學習。",
+    "description": "{emphasize} 是强调内容，因为需要进行单独的样式设置，所以会设置插值。插值处的内容是下面的“可能会导致学习记录不准确”"
+  },
+  "browserTipEm": {
+    "message": "可能會導致學習記錄不準確",
+    "description": "上面 browserTip 的插值内容"
+  },
+  "browserTipList": {
+    "message": "系統僅支持以下瀏覽器：",
+    "description": "浏览器兼容性提示"
+  },
+  "chromeBrowser": {
+    "message": "Google Chrome（最佳）",
+    "description": "浏览器兼容性提示"
+  },
+  "safariBrowser": {
+    "message": "Safari（Mac OS系統）",
+    "description": "浏览器兼容性提示"
+  },
+  "timePoint": {
+    "message": "時間點：{time}",
+    "description": "指视频剪辑的时间点"
+  },
+  "selectedQuestions": {
+    "message": "已選{count}道題目",
+    "description": "出现于视频剪辑处"
+  },
+  "reSelectQuestion": {
+    "message": "重新選題",
+    "description": "出现于视频剪辑处"
+  },
+  "restoreRecord": {
+    "message": "恢復學習記錄",
+    "description": "UA"
+  },
+  "recordList": {
+    "message": "學習記錄列表",
+    "description": "UA"
+  },
+  "restoreTip1": {
+    "message": "正在逐條恢復之前未保存成功的學習記錄，請勿刷新頁面...",
+    "description": "UA"
+  },
+  "restoreTip2": {
+    "message": "註：如果某條記錄總是無法恢復成功，請聯系客服人員。如果需要回到播放器頁面繼續學習，請點擊右上角“返回”按鈕。如果不希望進入播放器時彈出恢復學習記錄的提示，可以刪除恢復失敗的記錄（警告：刪除本地緩存可能導致未恢復成功的學習記錄無法恢復）。",
+    "description": "UA"
+  },
+  "recovering": {
+    "message": "恢復中",
+    "description": "UA"
+  },
+  "restoreFailed": {
+    "message": "恢復失敗",
+    "description": "UA"
+  },
+  "removedFromCache": {
+    "message": "已從緩存中刪除",
+    "description": "UA"
+  },
+  "restoreSuccess": {
+    "message": "恢復成功",
+    "description": "UA"
+  },
+  "restoreComplete": {
+    "message": "學習記錄已全部恢復成功",
     "description": "UA"
   }
 }

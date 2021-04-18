@@ -23,6 +23,10 @@
     "message": "記憶體",
     "description": "2.0 help.js"
   },
+  "internalMemory2": {
+    "message": "1G記憶體",
+    "description": "2.0 help.js"
+  },
   "envTips1": {
     "message": "2GHz以上",
     "description": "2.0 help.js"
@@ -67,21 +71,9 @@
     "message": "推薦網路頻寬",
     "description": "2.0 help.js"
   },
-  "envTips12": {
-    "message": "請確保機房",
-    "description": "2.0 help.js"
-  },
-  "envTips13": {
-    "message": "的獨立頻寬使用。單臺電腦",
-    "description": "2.0 help.js"
-  },
-  "envTips14": {
-    "message": "的下載速度,約",
-    "description": "2.0 help.js"
-  },
-  "envTips15": {
-    "message": "頻寬。如果有聽力或口語題,網速*2。",
-    "description": "2.0 help.js"
+  "bandWidthHint": {
+    "message": "請確保機房 {totalBandWidth} 的獨立带寬使用。 單台電腦{netspeed}的下載速度，約{singleBandWidth}带寬。 如果有聽力或口語題，網速*2。",
+    "description": "教师账号 -> 考试 -> 环境检测"
   },
   "envTips16": {
     "message": "人數",
@@ -179,28 +171,20 @@
     "message": "推薦瀏覽器下載",
     "description": "2.0 help.js"
   },
-  "envTips40": {
-    "message": "為了確保考試過程順利,推薦使用",
-    "description": "2.0 help.js"
+  "browserHint": {
+    "message": "為了確保考試過程順利，推薦使用{qqBrowser}、{chrome}或{firefox}瀏覽器，不建議使用其他瀏覽器。",
+    "description": "教师账号 -> 考试 -> 环境检测"
   },
-  "envTips41": {
+  "qqBrowser": {
     "message": "QQ",
     "description": "2.0 help.js"
   },
-  "envTips42": {
+  "chrome": {
     "message": "穀歌（Chrome）",
     "description": "2.0 help.js"
   },
-  "envTips43": {
-    "message": "或",
-    "description": "2.0 help.js"
-  },
-  "envTips44": {
+  "firefox": {
     "message": "火狐（Firefox）",
-    "description": "2.0 help.js"
-  },
-  "envTips45": {
-    "message": "瀏覽器,不建議使用其他瀏覽器。",
     "description": "2.0 help.js"
   },
   "envTips46": {

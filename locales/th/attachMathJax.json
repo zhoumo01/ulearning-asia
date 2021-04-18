@@ -1,0 +1,1522 @@
+{
+  "formulaEditing": {
+    "message": "การแก้ไขสูตร",
+    "description": "对应公式编辑器页面"
+  },
+  "symbol": {
+    "message": "สัญลักษณ์",
+    "description": "对应公式编辑器页面"
+  },
+  "formula": {
+    "message": "สูตร",
+    "description": "对应公式编辑器页面"
+  },
+  "subject": {
+    "message": "สาขาวิชา",
+    "description": "对应公式编辑器页面"
+  },
+  "inlineFormula": {
+    "message": "อย่างเป็นทางการภายใน",
+    "description": "对应公式编辑器页面"
+  },
+  "formulaBlock": {
+    "message": "บล็อกสูตร",
+    "description": "对应公式编辑器页面"
+  },
+  "history": {
+    "message": "ประวัติ:",
+    "description": "对应公式编辑器页面"
+  },
+  "help": {
+    "message": "เอกสารวิธีใช้",
+    "description": "对应公式编辑器页面"
+  },
+  "defaultTip": {
+    "message": "ใช้ \\\\\\ และ\\cr เพื่อตัดบรรทัด และการเชื่อมโยงที่เกี่ยวข้องจะรวมอยู่ด้วย",
+    "description": "对应公式编辑器页面"
+  },
+  "close": {
+    "message": "ปิด",
+    "description": "对应公式编辑器页面"
+  },
+  "confirm": {
+    "message": "ตกลง",
+    "description": "对应公式编辑器页面"
+  },
+  "cancel": {
+    "message": "ยกเลิก",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].name": {
+    "message": "สัญลักษณ์พื้นฐาน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[0].tip": {
+    "message": "บวกหรือลบบวกบน ที่เกี่ยวข้อง \\mp",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[1].tip": {
+    "message": "[infinity] อินฟินิตี้",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[2].tip": {
+    "message": "เท่ากับ:= ประมาณเท่ากับ: \\eqsim มากกว่าหรือเท่ากับ: \\ge น้อยกว่าหรือเท่ากับ: \\le เทียบเท่า:\\equiv",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[3].tip": {
+    "message": "\\not ทําหน้าที่ในอักขระที่ตามมาเพื่อวาดเส้นประ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[4].tip": {
+    "message": "คล้ายกันประมาณ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[5].tip": {
+    "message": "ผลิตภัณฑ์สามารถแสดงด้วย \\times *สัญลักษณ์ยังสามารถแสดงผลิตภัณฑ์ได้",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[6].tip": {
+    "message": "เครื่องหมายอัญประกาศ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[7].tip": {
+    "message": "เครื่องหมายอัศเจรีย์จะแสดงในตัวเอง",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[8].tip": {
+    "message": "สัญลักษณ์โปรเกรสซีฟบวกในรูปแบบของตัวแปรจะแสดงด้วย \\varpropto",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[9].tip": {
+    "message": "น้อยกว่าเครื่องหมาย\\ltหมายถึงน้อย-than ใน html เนื่องจาก<>ถูกครอบครองขอแนะนําให้ใช้ \\lt และ \\gt สําหรับการแสดงมากกว่าและน้อยกว่า",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[10].tip": {
+    "message": "ใช้ l สองตัวเพื่อแสดงว่าน้อยกว่าความสัมพันธ์: \\lt, \\lll",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[11].tip": {
+    "message": "มากกว่าเครื่องหมาย\\gt หมายถึง greater-than ใน html เนื่องจาก<>ถูกครอบครองขอแนะนําให้ใช้ \\lt และ \\gt สําหรับค่ามากกว่าและน้อยกว่า",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[12].tip": {
+    "message": "ใช้ g สองตัวเพื่อแสดงว่ามากกว่ามาก ความสัมพันธ์:\\gt \\ggg \\gggtr",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[13].tip": {
+    "message": "น้อยกว่าหรือเท่ากับตัวย่อของ less&amp;equal, ที่เกี่ยวข้อง \\lt \\ge",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[14].tip": {
+    "message": "มากกว่าหรือเท่ากับตัวย่อของ greater&amp;equal, ที่เกี่ยวข้อง \\lt \\ge",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[15].tip": {
+    "message": "เครื่องหมายบวกลบ, เครื่องหมายลบบน, เครื่องหมายบวกที่ด้านล่าง ที่เกี่ยวข้อง: \\pm",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[16].tip": {
+    "message": "ย่อของ congruent หมายถึงทั้งหมดและอื่น ๆ ที่เกี่ยวข้อง: \\ncong",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[17].tip": {
+    "message": "ประมาณนั้น ที่เกี่ยวข้อง: \\approxedq",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[18].tip": {
+    "message": "ทั้งหมดเท่ากับ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[19].tip": {
+    "message": "คนใดคนหนึ่ง, ทั้งหมด, ทุกคน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[20].tip": {
+    "message": "สัญลักษณ์ความแตกต่างบางส่วน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[21].tip": {
+    "message": "ใช้ \\sqrt [จํานวนฝ่าย] {จํานวนฝ่ายเปิด} เพื่อแสดงราก และสามารถใช้ \\root เปิด \\of จํานวนฝ่าย",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[22].tip": {
+    "message": "ใช้ \\sqrt [จํานวนฝ่าย] {จํานวนฝ่ายเปิด} เพื่อแสดงราก และสามารถใช้ \\root เปิด \\of จํานวนฝ่าย",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[23].tip": {
+    "message": "และตั้งขึ้นด้วย ที่เกี่ยวข้อง: \\Cup \\bigcup \\cap",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[24].tip": {
+    "message": "จุดตัดและ ที่เกี่ยวข้อง: \\Cap \\bigcap \\cup",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[25].tip": {
+    "message": "สัญลักษณ์ชุดว่าง, ที่เกี่ยวข้อง: \\varnothing",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[26].tip": {
+    "message": "%แสดงข้อคิดเห็นแบบบรรทัดเดียวใน mathjax และเครื่องหมายเปอร์เซ็นต์จะแสดงด้วย \\%",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[27].tip": {
+    "message": "หมายเลของศา",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[28].tip": {
+    "message": "อุณหภูมิฟาเรนไฮต์โดยใช้เครื่องหมาย \\circ เพื่อแสดงสัญลักษณ์ที่เกี่ยวข้องกับองศาที่มุมบนและล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[29].tip": {
+    "message": "อุณหภูมิ C, ใช้เครื่องหมาย \\circ กับเครื่องหมายมุมบนและล่างเพื่อแสดงสัญลักษณ์ที่เกี่ยวข้องกับองศา",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[30].tip": {
+    "message": "สามเหลี่ยมล่าง, ที่เกี่ยวข้อง: \\triangle \\vartriangle",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[31].tip": {
+    "message": "รูปแบบสามเหลี่ยม, ที่เกี่ยวข้อง: \\triangle",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[32].tip": {
+    "message": "นั่นไม่ได้ดึงสัญลักษณ์เลขคณิต",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[33].tip": {
+    "message": "มีอยู่, ที่เกี่ยวข้อง: \\nexists",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[34].tip": {
+    "message": "ไม่มีอยู่, ที่เกี่ยวข้อง: \\nexists",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[35].tip": {
+    "message": "เป็นของ, ที่เกี่ยวข้อง: \\notin \\ni",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[36].tip": {
+    "message": "มี, ที่เกี่ยวข้อง: \\owns \\in",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[0].list[37].tip": {
+    "message": "ลูกศรซ้าย, ที่เกี่ยวข้อง: \\rightarrow \\uparrow \\downarrow",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].name": {
+    "message": "ตัวอักษรกรีก",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[0].tip": {
+    "message": "อัลฟ่าตัวพิมพ์เล็กซึ่งแสดงเป็นตัวพิมพ์ใหญ่\\A",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[1].tip": {
+    "message": "ตัวพิมพ์เล็ก Beta ตัวพิมพ์ใหญ่จะแสดงด้วย \\B",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[2].tip": {
+    "message": "แกมมาตัวพิมพ์เล็ก, ตัวพิมพ์ใหญ่ใน \\Gamma, รูปแบบตัวพิมพ์ใหญ่จะแสดงด้วย \\varGamma",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[3].tip": {
+    "message": "ตัวพิมพ์เล็กเดลต้า ตัวพิมพ์ใหญ่จะแสดงด้วย \\Delta และตัวพิมพ์ใหญ่จะแสดงด้วย \\varDelta",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[4].tip": {
+    "message": "ตัวพิมพ์เล็ก Epsilon, ตัวพิมพ์ใหญ่จะแสดงด้วย \\E, ตัวแปรตัวพิมพ์เล็กจะแสดงด้วย \\varepsilon",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[5].tip": {
+    "message": "ตัวพิมพ์เล็ก Epsilon ตัวแปร, ตัวพิมพ์เล็กใช้ \\epsilon, ตัวพิมพ์ใหญ่ใช้ สําหรับการแสดง",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[6].tip": {
+    "message": "ตัวพิมพ์เล็ก Zeta, ตัวพิมพ์ใหญ่จะแสดงด้วย \\Z",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[7].tip": {
+    "message": "ตัวพิมพ์เล็ก Ita, ตัวพิมพ์ใหญ่จะแสดงด้วย \\H",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[8].tip": {
+    "message": "ซิต้า, ตัวพิมพ์ใหญ่ใช้ \\Theta, ตัวแปรตัวพิมพ์เล็กใช้ \\vartheta, รูปแบบตัวพิมพ์ใหญ่ใช้ \\varTheta แสดง",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[9].tip": {
+    "message": "ตัวพิมพ์เล็กตัวแปร Sita, ร่างกายใช้ \\theta, ตัวพิมพ์ใหญ่ใช้ \\Theta, รูปแบบตัวพิมพ์ใหญ่ใช้ \\varTheta แสดง",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[10].tip": {
+    "message": "หอ yāo, ตัวพิมพ์ใหญ่จะแสดงด้วย \\I",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[11].tip": {
+    "message": "ตัวพิมพ์เล็ก Kapa, ตัวพิมพ์ใหญ่จะแสดงด้วย \\K, ตัวแปรตัวพิมพ์เล็กจะแสดงด้วย \\varkappa",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[12].tip": {
+    "message": "ตัวพิมพ์เล็ก Ramda, ตัวพิมพ์ใหญ่จะแสดงด้วย \\Lambda, รูปแบบตัวพิมพ์ใหญ่จะแสดงด้วย \\varLambda",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[13].tip": {
+    "message": "การเข้าใจผิดตัวพิมพ์เล็กตัวพิมพ์ใหญ่จะแสดงด้วย \\M",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[14].tip": {
+    "message": "คีย์ตัวพิมพ์เล็ก ตัวพิมพ์ใหญ่จะแสดงด้วย\\N",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[15].tip": {
+    "message": "ตัวพิมพ์เล็ก Ksi, ตัวพิมพ์ใหญ่จะแสดงด้วย \\Xi, รูปแบบตัวพิมพ์ใหญ่จะแสดงด้วย \\varXi",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[16].tip": {
+    "message": "ตัวพิมพ์เล็ก Omikjong, ตัวพิมพ์ใหญ่จะแสดงด้วย \\O",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[17].tip": {
+    "message": "ตัวพิมพ์เล็ก, ตัวพิมพ์ใหญ่ใช้จอแสดงผล \\Pi, ร่างกายดอกไม้ตัวพิมพ์เล็กใช้จอแสดงผล \\varPi, ดอกไม้ตัวพิมพ์ใหญ่ใช้จอแสดงผล \\varPi",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[18].tip": {
+    "message": "ตัวพิมพ์เล็กนุ่ม ตัวพิมพ์ใหญ่จะแสดงด้วย \\P และตัวแปรตัวพิมพ์เล็กจะแสดงด้วย \\varrho",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[19].tip": {
+    "message": "รูปแบบที่นุ่มนวลของตัวพิมพ์เล็ก, ร่างกายจะแสดงด้วย \\rho, ตัวพิมพ์ใหญ่แสดงโดย \\P",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[20].tip": {
+    "message": "ตัวพิมพ์เล็ก Sigma, ตัวพิมพ์ใหญ่จะแสดงด้วย \\Sigma, เทียบเท่ากับสัญลักษณ์รวม\\sum. ตัวแปรตัวพิมพ์เล็กจะแสดงด้วย \\varsigma และตัวพิมพ์ใหญ่จะแสดงด้วย \\varSigma",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[21].tip": {
+    "message": "ตัวแปรซิกมาตัวพิมพ์เล็ก, ร่างกายจะแสดงด้วย \\sigma, ตัวพิมพ์ใหญ่จะแสดงด้วย \\Sigma, เทียบเท่ากับสัญลักษณ์รวม\\sum. ตัวแปรตัวพิมพ์ใหญ่จะแสดงด้วย \\varSigma",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[22].tip": {
+    "message": "เครื่องปั้นดินเผาตัวพิมพ์เล็กตัวพิมพ์ใหญ่จะแสดงด้วย \\T",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[23].tip": {
+    "message": "ตัวพิมพ์เล็ก Yupsiron, ตัวพิมพ์ใหญ่ใช้ \\Upsilon, ตัวแปรตัวพิมพ์เล็กใช้ \\varupsilon, รูปแบบตัวพิมพ์ใหญ่ใช้ \\varUpsilon แสดง",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[24].tip": {
+    "message": "ตัวพิมพ์เล็ก, ตัวพิมพ์ใหญ่ใช้ \\Phi, ตัวแปรตัวพิมพ์เล็กใช้ \\varphi, รูปแบบตัวพิมพ์ใหญ่ใช้ \\varPhi สําหรับการแสดง",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[25].tip": {
+    "message": "รูปแบบตัวพิมพ์เล็ก, ร่างกายใช้ \\phi, ตัวพิมพ์ใหญ่ใช้ \\Phi, รูปแบบตัวพิมพ์ใหญ่ใช้ \\varPhi สําหรับการแสดง",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[26].tip": {
+    "message": "ตัวพิมพ์เล็กเป็นตัวพิมพ์ใหญ่ซึ่งแสดงด้วย \\X",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[27].tip": {
+    "message": "ตัวพิมพ์เล็ก Pusi, ตัวพิมพ์ใหญ่จะแสดงด้วย \\Psi, รูปแบบตัวพิมพ์ใหญ่จะแสดงด้วย \\varPsi",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[28].tip": {
+    "message": "ตัวพิมพ์เล็กโอเมก้าตัวพิมพ์ใหญ่จะแสดงด้วย \\Omega และตัวแปรตัวพิมพ์ใหญ่จะแสดงด้วย \\varOmega",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[29].tip": {
+    "message": "อัลฟ่าตัวพิมพ์ใหญ่ตัวพิมพ์เล็กจะแสดงด้วย \\alpha",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[30].tip": {
+    "message": "ตัวพิมพ์ใหญ่เบต้า ตัวพิมพ์เล็กจะแสดงด้วย \\beta",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[31].tip": {
+    "message": "ตัวพิมพ์ใหญ่แกมมาตัวพิมพ์เล็กจะแสดงด้วย \\gamma และตัวแปรตัวพิมพ์ใหญ่จะแสดงด้วย \\varGamma",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[32].tip": {
+    "message": "ตัวพิมพ์ใหญ่เดลต้า ตัวพิมพ์เล็กจะแสดงด้วย \\delta และตัวแปรตัวพิมพ์ใหญ่จะแสดงด้วย \\varDelta",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[33].tip": {
+    "message": "ตัวพิมพ์ใหญ่ Epsilon, ตัวพิมพ์เล็กจะแสดงด้วย \\epsilon, ตัวแปรตัวพิมพ์เล็กจะแสดงด้วย \\varepsilon",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[34].tip": {
+    "message": "ตัวพิมพ์ใหญ่ Zeta ตัวพิมพ์เล็กจะแสดงด้วย \\zeta",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[35].tip": {
+    "message": "ตัวพิมพ์ใหญ่ Ita ตัวพิมพ์เล็กจะแสดงด้วย \\eta",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[36].tip": {
+    "message": "ตัวพิมพ์ใหญ่ Sita, ตัวพิมพ์เล็กใช้ \\theta, ตัวแปรตัวพิมพ์เล็กใช้ \\vartheta, ตัวแปรตัวพิมพ์ใหญ่ใช้ \\varTheta",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[37].tip": {
+    "message": "อาคาร yāo, ตัวพิมพ์ใหญ่จะแสดงด้วย \\iota",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[38].tip": {
+    "message": "ตัวพิมพ์ใหญ่ Kapa, ตัวพิมพ์เล็กใช้ \\kappa สําหรับการแสดง รูปแบบตัวพิมพ์เล็กจะแสดงด้วย \\varkappa",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[39].tip": {
+    "message": "ตัวพิมพ์ใหญ่ Ramda ตัวพิมพ์เล็กจะแสดงด้วย \\lambda และตัวแปรตัวพิมพ์ใหญ่จะแสดงด้วย \\varLambda",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[40].tip": {
+    "message": "การเข้าใจผิดตัวพิมพ์ใหญ่ตัวพิมพ์เล็กจะแสดงด้วย \\mu",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[41].tip": {
+    "message": "คีย์ตัวพิมพ์ใหญ่ ตัวพิมพ์เล็กจะแสดงด้วย \\nu",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[42].tip": {
+    "message": "ตัวพิมพ์ใหญ่ Ksi ตัวพิมพ์เล็กจะแสดงด้วย \\xi และตัวแปรตัวพิมพ์ใหญ่จะแสดงด้วย \\varXi",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[43].tip": {
+    "message": "ตัวพิมพ์ใหญ่โอมิกรอนตัวพิมพ์เล็กจะแสดงด้วย Šomicron",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[44].tip": {
+    "message": "ตัวพิมพ์ใหญ่, ตัวพิมพ์เล็กใช้ \\pi แสดง, ร่างกายดอกไม้ตัวพิมพ์เล็กใช้จอแสดงผล varPi, ร่างกายดอกไม้ตัวพิมพ์ใหญ่ใช้จอแสดงผล \\varPi",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[45].tip": {
+    "message": "ตัวพิมพ์ใหญ่นุ่ม ตัวพิมพ์เล็กจะแสดงด้วย \\P และตัวแปรตัวพิมพ์เล็กจะแสดงด้วย \\varrho",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[46].tip": {
+    "message": "ตัวพิมพ์ใหญ่ซิกมาเท่ากับสัญลักษณ์รวม\\sum ตัวพิมพ์เล็กจะแสดงด้วย \\sigma ตัวแปรตัวพิมพ์เล็กจะแสดงด้วย \\varsigma และตัวพิมพ์ใหญ่จะแสดงด้วย \\varSigma",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[47].tip": {
+    "message": "เครื่องปั้นดินเผาตัวพิมพ์ใหญ่ตัวพิมพ์เล็กจะแสดงด้วย \\tau",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[48].tip": {
+    "message": "ตัวพิมพ์ใหญ่ Yupsiron, ตัวพิมพ์เล็กใช้ \\upsilon เพื่อแสดงว่าตัวแปรตัวพิมพ์เล็กจะแสดงด้วย \\varupsilon และตัวพิมพ์ใหญ่จะแสดงด้วย \\varUpsilon",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[49].tip": {
+    "message": "ตัวพิมพ์ใหญ่, ตัวพิมพ์เล็กจะแสดงด้วย \\phi, ตัวแปรตัวพิมพ์เล็กจะแสดงด้วย \\varphi, ตัวพิมพ์ใหญ่จะแสดงด้วย \\varPhi",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[50].tip": {
+    "message": "รูปแบบตัวพิมพ์ใหญ่, ตัวพิมพ์เล็กจะแสดงด้วย \\phi, ตัวแปรตัวพิมพ์เล็กจะแสดงด้วย \\varphi, ตัวพิมพ์ใหญ่จะแสดงด้วย \\Phi",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[51].tip": {
+    "message": "ตัวพิมพ์ใหญ่ย่อซึ่งแสดงด้วย \\chi",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[52].tip": {
+    "message": "ตัวพิมพ์ใหญ่ Pusi ตัวพิมพ์เล็กจะแสดงด้วย \\psi และตัวแปรตัวพิมพ์ใหญ่จะแสดงด้วย \\varPsi",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[1].list[53].tip": {
+    "message": "ตัวพิมพ์ใหญ่โอเมก้าตัวพิมพ์เล็กจะแสดงด้วย \\omega และตัวแปรตัวพิมพ์ใหญ่จะแสดงด้วย \\varOmega",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].name": {
+    "message": "สัญลักษณ์คลาสตัวอักษร",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[0].tip": {
+    "message": "คนใดคนหนึ่ง, ทั้งหมด, ทุกคน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[1].tip": {
+    "message": "สัญลักษณ์เติม",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[2].tip": {
+    "message": "ชุดพหูพจน์",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[3].tip": {
+    "message": "สัญลักษณ์ความแตกต่างบางส่วน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[4].tip": {
+    "message": "สัญลักษณ์ eth",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[5].tip": {
+    "message": "สัญลักษณ์เอปซีลอน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[6].tip": {
+    "message": "สัญลักษณ์ฟังก์ชันแกมมาคู่",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[7].tip": {
+    "message": "ตัวพิมพ์ใหญ่ H",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[8].tip": {
+    "message": "รูปแบบ Goods H",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[9].tip": {
+    "message": "สัญลักษณ์ h ตัวพิมพ์เล็ก",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[10].tip": {
+    "message": "สัญลักษณ์ค่าคงที่ Ranck",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[11].tip": {
+    "message": "หอ yāo, ตัวพิมพ์ใหญ่จะแสดงด้วย \\I",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[12].tip": {
+    "message": "เครื่องหมายพหูพจน์ตัวพิมพ์ใหญ่",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[13].tip": {
+    "message": "ตัวพิมพ์เล็ก j",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[14].tip": {
+    "message": "ตัวพิมพ์เล็กคาปา",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[15].tip": {
+    "message": "สัญลักษณ์ L ที่เขียนด้วยลายมือ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[16].tip": {
+    "message": "ตัวพิมพ์เล็ก l สัญลักษณ์",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[17].tip": {
+    "message": "สัญลักษณ์ N ตัวพิมพ์ใหญ่ที่แสดงชุดตัวเลขธรรมชาติ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[19].tip": {
+    "message": "สัญลักษณ์ Q ตัวพิมพ์ใหญ่ที่แสดงถึงชุดตัวเลขที่มีเหตุผล",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[21].tip": {
+    "message": "สัญลักษณ์ R Goods",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[22].tip": {
+    "message": "กระดานดําร่างกายr,",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[23].tip": {
+    "message": "กระดานดํา Z, ชุดจํานวนเต็ม",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[24].tip": {
+    "message": "ตัวพิมพ์ สัญลักษณ์ดัชนีธรรมชาติ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[25].tip": {
+    "message": "มีสัญลักษณ์อยู่",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[26].tip": {
+    "message": "ไม่มีสัญลักษณ์อยู่",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[27].tip": {
+    "message": "สัญลักษณ์ F ลายมือ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[28].tip": {
+    "message": "ลายมือ N",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[29].tip": {
+    "message": "สัญลักษณ์ฮิบรูโบราณ aleph",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[30].tip": {
+    "message": "สัญลักษณ์ฐานที่ยากจนมาก",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[31].tip": {
+    "message": "สัญลักษณ์ฟังก์ชันอูฐ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[2].list[32].tip": {
+    "message": "สัญลักษณ์โบราณของแฟลชมิทท์",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].name": {
+    "message": "ตัวดําเนินการ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[0].tip": {
+    "message": "เครื่องหมายบวกจะแสดงในตัวเอง",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[1].tip": {
+    "message": "เครื่องหมายลบ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[2].tip": {
+    "message": "ตัวคูณ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[3].tip": {
+    "message": "เครื่องหมายอัญประกาศ, ที่เกี่ยวข้อง: \\times คูณหมายเลข",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[4].tip": {
+    "message": "เพิ่มเครื่องหมายลบและเครื่องหมายบวกบวกด้านบน ที่เกี่ยวข้อง: \\mp",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[5].tip": {
+    "message": "เครื่องหมายบวกลบ, เครื่องหมายบวกอยู่ด้านบน ที่เกี่ยวข้อง: \\pm",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[6].tip": {
+    "message": "เมื่อเทียบกับ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[7].tip": {
+    "message": "ยันต์เกล็ดหิมะ, เครื่องหมายดอกจัน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[8].tip": {
+    "message": "วงกลม, สัญลักษณ์การกระทําฟังก์ชั่นคอมโพสิต",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[9].tip": {
+    "message": "สัญลักษณ์จุดสีดํา",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[10].tip": {
+    "message": "จุดด่างดําขนาดใหญ่",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[11].tip": {
+    "message": "สัญลักษณ์จุดตัด, ที่เกี่ยวข้อง: \\cup",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[12].tip": {
+    "message": "สัญลักษณ์ชุดรวม, ที่เกี่ยวข้อง: \\cap",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[13].tip": {
+    "message": "ตัวดําเนินการไม่ผสมพันธุ์",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[14].tip": {
+    "message": "หมายถึงกองทุนไฟฟ้า",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[15].tip": {
+    "message": "ขอบเขตบนน้อยที่สุด",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[16].tip": {
+    "message": "สัญลักษณ์การวิเคราะห์",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[17].tip": {
+    "message": "สัญลักษณ์เชิงลบ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[18].tip": {
+    "message": "เท่ากับหมายเลข ความสัมพันธ์: \\not=",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[19].tip": {
+    "message": "ไม่เท่ากับหมายเลข",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[20].tip": {
+    "message": "น้อยกว่าหมายเลข, ที่เกี่ยวข้อง: \\le \\gt \\ll",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[21].tip": {
+    "message": "มากกว่าหมายเลข ที่เกี่ยวข้อง: \\ge \\lt \\gg",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[22].tip": {
+    "message": "น้อยกว่าหรือเท่ากับ ความสัมพันธ์: \\lt \\ge",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[23].tip": {
+    "message": "มากกว่าหรือเท่ากับ ความสัมพันธ์: \\gt \\le",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[24].tip": {
+    "message": "ไม่น้อยกว่า",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[25].tip": {
+    "message": "ไม่น้อยกว่าหรือเท่ากับ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[26].tip": {
+    "message": "ไม่ใหญ่กว่า",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[27].tip": {
+    "message": "ไม่มากกว่าหรือเท่ากับ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[28].tip": {
+    "message": "สัญลักษณ์คงที่",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[29].tip": {
+    "message": "สัญลักษณ์ช่วง",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[30].tip": {
+    "message": "ประมาณเท่ากับ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[31].tip": {
+    "message": "ประมาณเท่ากับ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[32].tip": {
+    "message": "สัญลักษณ์เต็ม",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[33].tip": {
+    "message": "ไม่รอ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[34].tip": {
+    "message": "ไม่ประมาณ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[35].tip": {
+    "message": "ไม่เกี่ยวกับรอ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[36].tip": {
+    "message": "ไม่เท่ากัน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[37].tip": {
+    "message": "เมื่อเทียบกับ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[38].tip": {
+    "message": "น้อยกว่าความสัมพันธ์: \\lt",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[39].tip": {
+    "message": "มันมากกว่านั้นมาก",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[40].tip": {
+    "message": "เป็นของ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[41].tip": {
+    "message": "มี",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[42].tip": {
+    "message": "ไม่ใช่ของ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[43].tip": {
+    "message": "ไม่รวมอยู่ด้วย",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[44].tip": {
+    "message": "ชุดย่อย",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[45].tip": {
+    "message": "สัญลักษณ์ชุดหลัก",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[46].tip": {
+    "message": "รวมอยู่ใน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[47].tip": {
+    "message": "มี",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[48].tip": {
+    "message": "อดีตผู้สืบทอด",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[49].tip": {
+    "message": "สืบ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[50].tip": {
+    "message": "ด้านหน้าหรือบิตเดียวกัน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[51].tip": {
+    "message": "สืบหรือบิตเดียวกัน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[56].tip": {
+    "message": "ขนานกว่า",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[57].tip": {
+    "message": "ตั้งฉากกับ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[58].tip": {
+    "message": "ความสัมพันธ์ที่สื่อถึงได้",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[62].tip": {
+    "message": "สัญลักษณ์รวม",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[63].tip": {
+    "message": "คะแนนน้ําหนักเดียว",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[64].tip": {
+    "message": "คะแนนคู่",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[65].tip": {
+    "message": "คะแนนสําหรับ 3 คน",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[66].tip": {
+    "message": "สัญลักษณ์การรวมการล้อม",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[67].tip": {
+    "message": "สัญลักษณ์การรวมพื้นที่",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[68].tip": {
+    "message": "สัญลักษณ์การรวมปริมาตร",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[69].tip": {
+    "message": "สัญลักษณ์การคูณต่อเนื่อง",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[71].tip": {
+    "message": "สัญลักษณ์จุดตัด",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[72].tip": {
+    "message": "สัญลักษณ์ชุด",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[73].tip": {
+    "message": "สัญลักษณ์การวิเคราะห์",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[3].list[74].tip": {
+    "message": "สัญลักษณ์รวม",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[4].name": {
+    "message": "ลูกศร",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[4].list[56].name": {
+    "message": "\\xrightarrow [ความร้อน] {ตัวเร่งปฏิกิริยา}",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[4].list[57].name": {
+    "message": "\\xlongéqual{จุดไฟ}",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[5].name": {
+    "message": "ลายมือ",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[5].list[0].tip": {
+    "message": "ร่างกายดอกไม้ตัวพิมพ์เล็กยังสามารถแสดงโดย \\cal",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[5].list[1].tip": {
+    "message": "ร่างกายดอกไม้ตัวพิมพ์ใหญ่ยังสามารถแสดงโดย \\cal",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[5].list[2].tip": {
+    "message": "กระดานดําเป็นตัวหนาและยังสามารถแสดงโดย \\Bbb",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[5].list[3].tip": {
+    "message": "กระดานดําเป็นตัวหนาและยังมี \\Bbb",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[5].list[4].tip": {
+    "message": "แบบอักษรภาษาจีนเก่ายังสามารถแสดงโดย \\frak",
+    "description": "对应公式编辑器页面"
+  },
+  "symbols[5].list[5].tip": {
+    "message": "แบบอักษรภาษาจีนเก่ายังสามารถแสดงโดย \\frak",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].name": {
+    "message": "สูตรที่ใช้กันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[0].tip": {
+    "message": "ใช้ \\sqrt [จํานวนฝ่าย]{เปิด} สําหรับราก และรากสองสามารถใช้ \\sqrt{} ที่เกี่ยวข้อง: \\root",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[1].tip": {
+    "message": "ใช้ \\sqrt [จํานวนฝ่าย]{เปิด} สําหรับราก และรากสองสามารถใช้ \\sqrt{} ที่เกี่ยวข้อง: \\root",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[2].tip": {
+    "message": "ใช้ _สําหรับตัวห้วก และถ้ามีตัวห้วกมากกว่าสัญลักษณ์หนึ่งตัว ให้ห่อด้วย {} ที่เกี่ยวข้อง: ^",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[3].tip": {
+    "message": "ใช้ ^ เพื่อแสดงตัวยก และถ้าตัวยกมีสัญลักษณ์มากกว่าหนึ่งตัว ให้ใช้แพคเกจ {} ที่เกี่ยวข้อง:_",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[4].tip": {
+    "message": "ตัวยกและตัวยกมีอยู่ในเวลาเดียวกัน",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[5].tip": {
+    "message": "มีโครงสร้างคอมโพสิตในตัวยก",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[6].tip": {
+    "message": "คะแนนสามารถใช้ \\frac{โมเลกุล}{ตัวส่วน} หรือ \\dfrac{โมเลกุล}{ตัวส่วน} อดีตแสดงการปรับปรุงตามแถวหรือบล็อกสูตรและหลังแสดงความสอดคล้องกันภายในแถวและในบล็อกสูตร",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[7].tip": {
+    "message": "การแสดงแนวนอนของคะแนนมักจะใช้ในการแสดงคะแนนที่เรียบง่าย",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[8].tip": {
+    "message": "คะแนนสามารถใช้ \\frac{โมเลกุล}{ตัวส่วน} หรือ \\dfrac{โมเลกุล}{ตัวส่วน} อดีตแสดงการปรับปรุงตามแถวหรือบล็อกสูตรและหลังแสดงความสอดคล้องกันภายในแถวและในบล็อกสูตร",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[9].tip": {
+    "message": "คะแนนสามารถใช้ \\frac{โมเลกุล}{ตัวส่วน} หรือ \\dfrac{โมเลกุล}{ตัวส่วน} อดีตแสดงการปรับปรุงตามแถวหรือบล็อกสูตรและหลังแสดงความสอดคล้องกันภายในแถวและในบล็อกสูตร",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[10].tip": {
+    "message": "ไมโครเปอร์เซ็นต์",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[11].tip": {
+    "message": "ผลต่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[12].tip": {
+    "message": "เปอร์เซ็นต์เล็ก ๆ",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[13].tip": {
+    "message": "อัตราส่วนความแตกต่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[14].tip": {
+    "message": "ฟังก์ชันการแปรผันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[15].tip": {
+    "message": "รูปแบบรากทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[16].tip": {
+    "message": "รูปแบบรากทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[0].list[17].tip": {
+    "message": "รูปแบบคะแนนต่อเนื่อง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].name": {
+    "message": "ฟังก์ชัน",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[0].tip": {
+    "message": "ฟังก์ชันตัวถูกทศนิยม, ความสัมพันธ์: \\ln",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[1].tip": {
+    "message": "ฟังก์ชันทศนิยมทั่วไป, ความสัมพันธ์: \\ln",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[2].tip": {
+    "message": "ฟังก์ชันลอการิทึมที่ลงฐานด้วยจํานวนธรรมชาติ ความสัมพันธ์: \\log",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[3].tip": {
+    "message": "ฟังก์ชันไซน์, ที่เกี่ยวข้อง: \\cos",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[4].tip": {
+    "message": "ฟังก์ชันโคไซน์, ที่เกี่ยวข้อง: \\sin",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[5].tip": {
+    "message": "ฟังก์ชันตัดบวก, ที่เกี่ยวข้อง: \\cot",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[6].tip": {
+    "message": "ฟังก์ชันที่เหลือ, ที่เกี่ยวข้อง: \\tan",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[7].tip": {
+    "message": "ฟังก์ชันการตัดค่าบวก, ความสัมพันธ์: \\csc",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[8].tip": {
+    "message": "ฟังก์ชันส่วนที่เหลือ, ที่เกี่ยวข้อง: \\sec",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[9].tip": {
+    "message": "ฟังก์ชั่นสองงอ, ที่เกี่ยวข้อง: \\cosh",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[10].tip": {
+    "message": "ฟังก์ชั่นพราวคู่, ที่เกี่ยวข้อง: \\sinh",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[11].tip": {
+    "message": "ฟังก์ชั่นตัดบวกสองโค้ง, ที่เกี่ยวข้อง: \\coth",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[12].tip": {
+    "message": "ฟังก์ชั่นตัดสองโค้ง, ที่เกี่ยวข้อง: \\tanh",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[13].tip": {
+    "message": "อย่างไรก็ตามฟังก์ชั่นสตริง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[14].tip": {
+    "message": "ฟังก์ชันผกผันโคไซน์",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[15].tip": {
+    "message": "ฟังก์ชั่นการตัดอยู่แล้ว",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[1].list[16].tip": {
+    "message": "สมการฟังก์ชันสามเหลี่ยม",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].name": {
+    "message": "วงเล็บเหลี่ยม",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[0].tip": {
+    "message": "วงเล็บคุณสามารถใช้ \\left และ \\right เพื่อปรับความสูงให้พอดี",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[1].tip": {
+    "message": "วงเล็บเหลี่ยมที่คุณสามารถใช้ \\left และ \\right เพื่อรองรับความสูงได้",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[2].tip": {
+    "message": "ตัวคั่นเส้นแนวตั้งที่คุณสามารถใช้ \\left และ \\right เพื่อปรับความสูงได้",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[3].tip": {
+    "message": "วงเล็บปีกกาซึ่งจําเป็นต้องแสดงด้วยเครื่องหมายแบ็กสแลช",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[4].tip": {
+    "message": "วงเล็บมุมคุณสามารถใช้ \\left และ \\right เพื่อรองรับความสูงได้",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[5].tip": {
+    "message": "วงเล็บเหลี่ยมที่คุณสามารถใช้ \\left และ \\right เพื่อรองรับความสูงได้",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[6].tip": {
+    "message": "สัญลักษณ์มุมซ้ายและขวาที่คุณสามารถใช้ \\left และ \\right เพื่อรองรับความสูงได้",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[7].tip": {
+    "message": "คุณสามารถใช้ \\left และ \\right เพื่อรองรับความสูงได้",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[8].tip": {
+    "message": "วงเล็บมุมคุณสามารถใช้ \\left และ \\right เพื่อรองรับความสูงได้",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[9].tip": {
+    "message": "สัญลักษณ์ด้านล่างซ้ายและขวาเพื่อรองรับความสูงโดยใช้ \\left และ \\right",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[10].tip": {
+    "message": "หมายเลขเคราคุณสามารถใช้ \\left และ \\right เพื่อรองรับความสูงได้",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[11].tip": {
+    "message": "เครื่องหมายปกติซึ่งสามารถใช้ \\left และ \\right เพื่อรองรับความสูงได้",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[12].tip": {
+    "message": "ภายใน",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[14].tip": {
+    "message": "สัญลักษณ์ผลิตภัณฑ์ภายใน",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[16].tip": {
+    "message": "คอลัมน์แนวตั้งหมายถึง 1",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[17].tip": {
+    "message": "คอลัมน์แนวตั้งหมายถึง 2",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[18].tip": {
+    "message": "คอลัมน์แนวตั้งหมายถึง 3",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[19].tip": {
+    "message": "คอลัมน์แนวตั้งหมายถึง 4",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[20].tip": {
+    "message": "ตัวคูณการแจกแจงทบรองบ่งชี้ว่า ความสัมพันธ์: \\binom n k",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[21].tip": {
+    "message": "ตัวคูณการแจกแจงทบรอง อ้างอิงถึง \\tbinom n k",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[23].tip": {
+    "message": "รูปแบบทั่วไปของคะแนน",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[2].list[24].tip": {
+    "message": "ฟังก์ชันเซ็กเมนต์ ซึ่งแสดงด้วย \\begin{cases} สูตรร่างกาย \\end{cases}",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[3].name": {
+    "message": "สัญลักษณ์ตัวนํา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[3].list[0].tip": {
+    "message": "เครื่องหมายหมวก",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[3].list[1].tip": {
+    "message": "เครื่องหมายเส้นโค้ง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[3].list[3].tip": {
+    "message": "เครื่องหมายจุด, ตัวนําคําทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[3].list[4].tip": {
+    "message": "เครื่องหมายสองจุด",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[3].list[5].tip": {
+    "message": "เครื่องหมายสามจุด",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[3].list[14].tip": {
+    "message": "เครื่องหมายองศา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[3].list[15].tip": {
+    "message": "เครื่องหมายทิศทาง 1",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[3].list[16].tip": {
+    "message": "เครื่องหมายทิศทาง 2",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[3].list[17].tip": {
+    "message": "เครื่องหมายทิศทาง 3",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].name": {
+    "message": "แคลคูลัส",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[0].tip": {
+    "message": "เครื่องหมายความแตกต่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[1].tip": {
+    "message": "เครื่องหมายความแตกต่างบางส่วน",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[2].tip": {
+    "message": "เครื่องหมายความแตกต่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[3].tip": {
+    "message": "เครื่องหมายตัวนํา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[4].tip": {
+    "message": "เครื่องหมายอนุพันธ์ลําดับแรกสําหรับฟังก์ชัน",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[5].tip": {
+    "message": "เครื่องหมายคะแนน 1 และคะแนนจะถูก จํากัด ไว้ทางด้านขวา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[6].tip": {
+    "message": "เครื่องหมายคะแนน 2, คะแนนจะถูก จํากัด ให้ด้านบนและด้านล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[7].tip": {
+    "message": "เครื่องหมายการรวมคู่, ที่เกี่ยวข้อง: \\int \\iiint",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[8].tip": {
+    "message": "เครื่องหมายจุดคู่จะถูก จํากัด ให้ด้านขวา ใช้ \\limits_ {ขีดจํากัดล่าง}^{ขีดจํากัดบน} เพื่อแสดงแท็กขีดจํากัดบนและล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[9].tip": {
+    "message": "เครื่องหมายคะแนนคู่ซึ่งจํากัดไว้ที่ด้านบนและด้านล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[10].tip": {
+    "message": "เครื่องหมายคะแนนสาม",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[11].tip": {
+    "message": "คะแนนสามคะแนน ซึ่งจํากัดไว้ทางด้านขวา และเครื่องหมายขีดจํากัดบนและล่างจะแสดงด้วย \\limits_{ขีดจํากัดล่าง}^{ขีดจํากัดบน}",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[12].tip": {
+    "message": "คะแนน 3 คะแนน จํากัดไว้ที่ด้านบนและด้านล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[13].tip": {
+    "message": "เครื่องหมายจุดรั้ว",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[14].tip": {
+    "message": "คะแนนรั้ว, คะแนนจะถูก จํากัด ให้ด้านบนและด้านล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[15].tip": {
+    "message": "คะแนนรั้วซึ่งจํากัดอยู่ทางด้านขวา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[16].tip": {
+    "message": "เครื่องหมายเครดิตพื้นที่",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[17].tip": {
+    "message": "เครดิตพื้นที่ซึ่งจํากัดอยู่ด้านบนและด้านล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[18].tip": {
+    "message": "เครดิตพื้นที่ซึ่งจํากัดอยู่ทางด้านขวา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[19].tip": {
+    "message": "เครื่องหมายการรวมปริมาตร",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[20].tip": {
+    "message": "การรวมปริมาตรซึ่งจํากัดอยู่ด้านบนและด้านล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[21].tip": {
+    "message": "การรวมปริมาตรซึ่งจํากัดอยู่ทางด้านขวา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[22].tip": {
+    "message": "ขีด จํากัด เครื่องหมายขีด จํากัด อยู่ทางด้านขวา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[4].list[23].tip": {
+    "message": "เมื่อต้องการจํากัด ให้ใช้ \\limits_{} เพื่อแสดงเครื่องหมายขีดจํากัดด้านล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].name": {
+    "message": "เมทริกซ์",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[0].tip": {
+    "message": "จุดไข่เลตซึ่งแสดงในแนวนอน",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[1].tip": {
+    "message": "จุดไข่เลตจะแสดงที่ตําแหน่งบรรทัดล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[2].tip": {
+    "message": "ตัวย่อแนวตั้ง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[3].tip": {
+    "message": "เครื่องหมายจุดไข่พิเศษแบบทแยงมุม ซึ่งมักจะแสดงถึงส่วนละเว้นในเมทริกซ์",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[4].tip": {
+    "message": "เมทริกซ์แถวเดียวคั่นด้วยเครื่องหมาย &amp; ระหว่างคอลัมน์ต่างๆ",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[5].tip": {
+    "message": "เมทริกซ์คอลัมน์เดียวซึ่งคั่นด้วย \\\\ หรือ \\cr ระหว่างคอลัมน์ต่างๆ",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[6].tip": {
+    "message": "เมทริกซ์ 2*2 แสดงว่าไม่มีวงเล็บ",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[7].tip": {
+    "message": "เมทริกซ์ 2*2 ที่ล้อมรอบด้วยวงเล็บซึ่งใช้ \\left \\right เพื่อปรับขนาดวงเล็บให้เหมาะสม",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[8].tip": {
+    "message": "เมทริกซ์ 2*2 ที่ล้อมรอบด้วยวงเล็บมุมใช้ \\left \\right เพื่อปรับขนาดวงเล็บให้พอดี",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[9].tip": {
+    "message": "เมทริกซ์ 2*2 ที่ล้อมรอบด้วยวงเล็บเหลี่ยมใช้ \\left \\right เพื่อปรับขนาดวงเล็บให้พอดี",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[10].tip": {
+    "message": "เมทริกซ์ 2*2 ที่ล้อมรอบด้วยวงเล็บปีกกาใช้ \\left \\right เพื่อปรับขนาดวงเล็บให้พอดี",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[11].tip": {
+    "message": "เมทริกซ์ 2*2 ที่ล้อมรอบด้วยเส้นแนวตั้งใช้ \\left \\right เพื่อปรับขนาดวงเล็บให้พอดี",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[12].tip": {
+    "message": "เมทริกซ์ 2*2 ที่ล้อมรอบด้วยแถบแนวตั้งคู่ใช้ \\left \\right เพื่อปรับขนาดวงเล็บให้พอดี",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[13].tip": {
+    "message": "เมทริกซ์ 2*2 ที่ล้อมรอบด้วยวงเล็บเหลี่ยมที่ทําเครื่องหมายด้วยสภาพแวดล้อม {bmatrix}",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[14].tip": {
+    "message": "เมทริกซ์ 1*3 คอลัมน์ต่างๆ จะถูกคั่นด้วย &amp;",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[15].tip": {
+    "message": "เมทริกซ์ 3*1 ซึ่งบรรทัดต่างๆ จะถูกคั่นด้วย \\\\\\ หรือ \\cr",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[16].tip": {
+    "message": "เมทริกซ์ 2*3",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[17].tip": {
+    "message": "เมทริกซ์ขยายโดยใช้สภาพแวดล้อม \\begin{array} \\end{array} เพื่อเพิ่มเส้นแนวตั้งลงในเครื่องหมายการจัดตําแหน่งหลัง \\begin{array} ซึ่งแสดงถึงการแยกแนวตั้ง {cc|c}",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[18].tip": {
+    "message": "เมทริกซ์ 3 *3 ที่ใช้กันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[19].tip": {
+    "message": "3*3เมทริกซ์กว้างของ",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[20].name": {
+    "message": "\\begin{array}{c|lcr} n &amp; \\text{จัดชิดซ้าย} &amp; \\text{จัดกึ่งกลาง} &amp; \\text{จัดชิดขวา} \\cr \\hline 1 &amp; 0.0 24 &amp; 1 &amp; 125 \\cr 2 &amp; -1 &amp; 189 &amp; -8 \\cr 3 &amp; -20 &amp; 2000 &amp; 1+10i \\end{array}",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[20].tip": {
+    "message": "เมทริกซ์ฟอร์มตาราง ใช้เครื่องหมายการจัดแนว {c|lcr} เพื่อเพิ่มตัวแบ่งแนวตั้ง และ \\hline สําหรับตัวแบ่งแนวนอน",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[5].list[21].tip": {
+    "message": "เมทริกซ์ m*n",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].name": {
+    "message": "ตัวดําเนินการขนาดใหญ่",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[0].tip": {
+    "message": "รวมสัญลักษณ์และขนาดสัญลักษณ์จะถูกปรับโดยอัตโนมัติตามเครื่องหมายขีด จํากัด บนและล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[1].tip": {
+    "message": "สัญลักษณ์รวมโดยใช้ตัวพิมพ์เล็กด้านบนเพื่อแสดงขีดจํากัดบนและล่างของส่วนรวม",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[2].tip": {
+    "message": "รวมสัญลักษณ์ โดยใช้ \\limits_{ล่าง}^{0} เพื่อแสดงขีดจํากัดบนและล่างบนและล่างของสัญลักษณ์",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[3].tip": {
+    "message": "เครื่องหมายรวมที่ใช้กันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[4].tip": {
+    "message": "ค้นหาสัญลักษณ์ผลิตภัณฑ์และขนาดสัญลักษณ์จะถูกปรับโดยอัตโนมัติด้วยสูตร",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[5].tip": {
+    "message": "ค้นหาสัญลักษณ์ผลิตภัณฑ์ และจํากัดไว้ที่ด้านขวาของสัญลักษณ์",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[6].tip": {
+    "message": "ค้นหาสัญลักษณ์ผลิตภัณฑ์และขีด จํากัด บนและล่างของสัญลักษณ์",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[7].tip": {
+    "message": "รูปแบบผลิตภัณฑ์ที่ใช้กันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[12].tip": {
+    "message": "ค้นหาสัญลักษณ์จุดตัด",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[13].tip": {
+    "message": "สัญลักษณ์จุดตัดที่ขีด จํากัด บนและล่างจะแสดงทางด้านขวา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[14].tip": {
+    "message": "สัญลักษณ์ตัด, ขีด จํากัด บนและล่างจะแสดงด้านล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[15].tip": {
+    "message": "การดําเนินการตัดที่ใช้กันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[16].tip": {
+    "message": "สัญลักษณ์ชุด",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[17].tip": {
+    "message": "สัญลักษณ์ชุดรวมที่ขีด จํากัด บนและล่างจะแสดงทางด้านขวา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[18].tip": {
+    "message": "สัญลักษณ์ชุดบวก, ขีด จํากัด บนและล่างจะแสดงด้านล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[19].tip": {
+    "message": "การดําเนินการแบบรวมที่ใช้กันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[20].tip": {
+    "message": "สัญลักษณ์การวิเคราะห์",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[21].tip": {
+    "message": "สัญลักษณ์แยก, ขีด จํากัด บนและล่างจะแสดงทางด้านขวา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[22].tip": {
+    "message": "สัญลักษณ์แยก, ขีด จํากัด บนและล่างจะแสดงด้านล่าง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[23].tip": {
+    "message": "การวิเคราะห์ที่ใช้กันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[24].tip": {
+    "message": "สัญลักษณ์รวม",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[25].tip": {
+    "message": "สัญลักษณ์รวม, ขีด จํากัด บนและล่างจะแสดงทางด้านขวา",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[26].tip": {
+    "message": "สัญลักษณ์รวม, ขีด จํากัด บนและล่างจะแสดงขึ้นหรือลง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[27].tip": {
+    "message": "การดําเนินการทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[28].tip": {
+    "message": "สูตรรวมสองตัวแปรที่ใช้กันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[6].list[29].tip": {
+    "message": "สูตรการดําเนินการคอลเลกชันที่ใช้กันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[7].name": {
+    "message": "สูตรขนาดใหญ่",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[7].list[0].tip": {
+    "message": "ใช้&amp;เพื่อแสดงตําแหน่งการจัดตําแหน่ง",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[7].list[1].tip": {
+    "message": "ข้อคิดเห็นที่เป็นข้อความจะแสดงด้วย \\text",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[7].list[2].tip": {
+    "message": "ล้อมรอบระบบสมการด้วย \\begin{align} \\end{align}",
+    "description": "对应公式编辑器页面"
+  },
+  "formulas[7].list[3].tip": {
+    "message": "ใช้ \\cr หรือ \\, ใช้ &amp; เพื่อกําหนดตําแหน่งการจัดตําแหน่งเมื่อสูตรต้องการการตัดคํา",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[0].name": {
+    "message": "คณิตศาสตร์",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[0].list[0].tip": {
+    "message": "แคลคูลัสหลักการพื้นฐาน",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[0].list[1].tip": {
+    "message": "ผลิตภัณฑ์เมทริกซ์",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[1].name": {
+    "message": "ฟิสิกส์",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[1].list[0].tip": {
+    "message": "รูปแบบการรวมระบบสมการแมกซ์เวล",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[1].list[1].tip": {
+    "message": "รูปแบบการรวมระบบสมการแมกซ์เวล",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[2].name": {
+    "message": "เคมี",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[2].list[0].tip": {
+    "message": "สูตรทางเคมีที่ใช้กันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[2].list[1].tip": {
+    "message": "สูตรทางเคมีที่ใช้กันทั่วไป",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[2].list[2].tip": {
+    "message": "การแสดงคีย์เคมี",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[2].list[3].tip": {
+    "message": "การเปลี่ยนแปลงเทียมของนิวเคลียสอะตอม",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[2].list[4].name": {
+    "message": "\\ce{5O2 + 4P \\xlongéqual{ไฟ} 2P2O5}",
+    "description": "对应公式编辑器页面"
+  },
+  "subjects[2].list[4].tip": {
+    "message": "สมการทางเคมี",
+    "description": "对应公式编辑器页面"
+  }
+}

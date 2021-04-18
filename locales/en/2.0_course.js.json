@@ -387,6 +387,10 @@
     "message": "Students Picked: ",
     "description": "2.0 course.js"
   },
+  "examTimes": {
+    "message": "Exam Sessions: {n}",
+    "description": "2.0 course.js"
+  },
   "usePaperNumber": {
     "message": "Exams Used: ",
     "description": "2.0 course.js"
@@ -454,6 +458,10 @@
   "totalTimes": {
     "message": "Total: {n} ",
     "description": "2.0 course.js"
+  },
+  "totalTimes2": {
+    "message": "Total: {n} ",
+    "description": "教师账号 -> 课程分析"
   },
   "totalAttendanceRate": {
     "message": "Attendance Rate: ",
@@ -599,6 +607,10 @@
     "message": "No data found",
     "description": "2.0 course.js"
   },
+  "weekOf": {
+    "message": "{count} weeks(s)",
+    "description": "登录ua后 - 创建或查看一门课程 -> 左侧导航栏 -> 学期管理 -> 添加学期"
+  },
   "weekIndex": {
     "message": "Week {n} ",
     "description": "2.0 course.js"
@@ -617,6 +629,18 @@
   },
   "teacher2": {
     "message": "Teacher",
+    "description": "2.0 course.js"
+  },
+  "specialTeacherBefore1": {
+    "message": " ",
+    "description": "2.0 course.js"
+  },
+  "specialTeacherBefore2": {
+    "message": " ",
+    "description": "2.0 course.js"
+  },
+  "specialTeacherBefore3": {
+    "message": " ",
     "description": "2.0 course.js"
   },
   "specialTeacherAfter": {
@@ -659,6 +683,10 @@
     "message": "All colleges",
     "description": "2.0 course.js"
   },
+  "stuLibSelectTip1": {
+    "message": "Selected {count} classes",
+    "description": "教师账号 -> 成员 -> 班级管理 -> 批量导入班级 -> 从学生库导入 -> 弹框左下角"
+  },
   "grade": {
     "message": "Year",
     "description": "2.0 course.js"
@@ -666,6 +694,10 @@
   "college": {
     "message": "College",
     "description": "2.0 course.js"
+  },
+  "stuLibSelectTip2": {
+    "message": "Selected {count} student(s)",
+    "description": "教师账号 -> 成员 -> 班级管理 -> 添加学生 -> 弹框左下角"
   },
   "stuLibImportTips9": {
     "message": "Notes: It will import only the students who aren't yet in the course. If a class with the same name already exists in the course, only the students will be imported.",
@@ -782,6 +814,14 @@
   "publishedIn": {
     "message": "Published by",
     "description": "2.0 course.js"
+  },
+  "readedOf": {
+    "message": "{count} student(s) viewed",
+    "description": "教师账号 -> 公告"
+  },
+  "classesOf": {
+    "message": "Classes: {classes}",
+    "description": "教师账号 -> 公告"
   },
   "download": {
     "message": "Download ",
@@ -1083,6 +1123,14 @@
     "message": "End",
     "description": "2.0 course.js"
   },
+  "unfoldAllClasses": {
+    "message": "Expand all {count} classes",
+    "description": "教师账号 -> 考核 -> 查看策略 \n 教师账号 -> 考核 -> 查看成绩 (汇总成绩后才会出现查看成绩这个按钮)"
+  },
+  "classesEtc": {
+    "message": "{classes}, ... -  {count} classes",
+    "description": "教师账号 -> 考核 \n 教师账号 -> 课堂 \n 教师账号 -> 成员 -> 教学团队"
+  },
   "classesLink": {
     "message": "{count} classes >>",
     "description": "2.0 course.js"
@@ -1288,7 +1336,7 @@
     "description": "2.0 course.js"
   },
   "createStrTips7": {
-    "message": "Notes: Select at least one grading item, and the total weight of the selected grading item(s) must be 100%",
+    "message": "Note: Select at least one grading item, and the total weight of the selected grading item(s) must be 100%",
     "description": "2.0 course.js"
   },
   "studyScore": {
@@ -2351,6 +2399,10 @@
     "message": "The following students are already in the class. The import list will not show these students.",
     "description": "2.0 course.js"
   },
+  "batchReplaceStudents": {
+    "message": "Move {students} to {classesForm}",
+    "description": "教师账号 -> 成员 -> 学生管理 -> 更换班级"
+  },
   "appointClassForTeacher": {
     "message": "Assign Class",
     "description": "2.0 course.js"
@@ -2583,6 +2635,10 @@
     "message": "Failed to assign!",
     "description": "2.0 course.js"
   },
+  "memberSpocValidateTips15": {
+    "message": "The class name of No {n} class exceed 200 characters!",
+    "description": "2.0 course.js"
+  },
   "memberSpocValidateTips16": {
     "message": "Enter the class name",
     "description": "2.0 course.js"
@@ -2754,6 +2810,10 @@
   "groupLeader": {
     "message": "Group Leader",
     "description": "2.0 course.js"
+  },
+  "randomDivideGroup": {
+    "message": "Randomly divided into {inputCount} groups",
+    "description": "教师账号 -> 成员 -> 班级小组方案 -> 随机分组"
   },
   "classGroupTips3": {
     "message": "The class already has groups. Are you sure you want to replace the existing groups?",
@@ -3535,6 +3595,10 @@
     "message": "Courseware Videos",
     "description": "2.0 course.js"
   },
+  "totalQuantityCl": {
+    "message": "Total: {count}",
+    "description": "2.0 course.js"
+  },
   "nonVideoResource": {
     "message": "Non-Video Content",
     "description": "2.0 course.js"
@@ -3545,6 +3609,10 @@
   },
   "semesterResource": {
     "message": "Courseware Resources: {n} ",
+    "description": "2.0 course.js"
+  },
+  "quantityCl": {
+    "message": "Total:  {count}",
     "description": "2.0 course.js"
   },
   "homeworkAndTest": {
@@ -3744,7 +3812,7 @@
     "description": "2.0 course.js"
   },
   "activeCourseware": {
-    "message": "Activate Courseware",
+    "message": "Activate eTextbook",
     "description": "2.0 course.js"
   },
   "inputActivationCode": {
@@ -3752,11 +3820,11 @@
     "description": "这个是输入框的占位文字，可以在登录学生账户后，在课程列表的右上角 -> 激活教材看到，由于输入框较短，建议缩短文字。"
   },
   "textbookTips8": {
-    "message": "Scratch off the coating on the back cover of the paper courseware to reveal the activation code. Enter the code in the box above. The code is not case-sensitive.",
+    "message": "Scratch off the coating on the back cover of the paper textbook to reveal the activation code. Enter the code in the box above. The code is not case-sensitive.",
     "description": "2.0 course.js"
   },
   "textbookTips9": {
-    "message": "Courseware needs to be activated under your own account. Please do not use the code for other accounts.",
+    "message": "eTextbook needs to be activated under your own account. Please do not use the code for somebody else's account.",
     "description": "2.0 course.js"
   },
   "activation": {
@@ -4096,19 +4164,23 @@
     "description": "2.0 course.js"
   },
   "myTextbook": {
-    "message": "My Courseware",
+    "message": "My eTextbooks",
     "description": "2.0 course.js"
   },
   "activatedTextbook": {
-    "message": "Activated Courseware: ",
+    "message": "Activated eTextbook: ",
     "description": "2.0 course.js"
   },
   "activeTextbook": {
-    "message": "Activate Courseware",
+    "message": "Activate eTextbook",
     "description": "2.0 course.js"
   },
   "studingCl": {
     "message": "Learning in Progress: ",
+    "description": "2.0 course.js"
+  },
+  "remainingStudyTime": {
+    "message": "Remaining Learning Days: {n}",
     "description": "2.0 course.js"
   },
   "textbookTips38": {
@@ -4116,19 +4188,19 @@
     "description": "2.0 course.js"
   },
   "noTextbook": {
-    "message": "No courseware",
+    "message": "No eTextbooks found!",
     "description": "2.0 course.js"
   },
   "textbookTips39": {
-    "message": "Scratch off the coating on the back cover of the paper courseware to reveal the activation code. Enter the code in the box above. The code is not case-sensitive.",
+    "message": "Scratch off the coating on the back cover of the paper textbook to reveal the activation code. Enter the code in the box above. The code is not case-sensitive.",
     "description": "2.0 course.js"
   },
   "textbookTips40": {
-    "message": "Courseware needs to be activated under your own account. Please do not use the code for other accounts.",
+    "message": "eTextbook needs to be activated under your own account. Please do not use the code for somebody else's account.",
     "description": "2.0 course.js"
   },
   "textbookTips41": {
-    "message": "No courseware? Go to ",
+    "message": "No eTextbooks? Go to ",
     "description": "2.0 course.js"
   },
   "selectCourse": {
@@ -4244,11 +4316,11 @@
     "description": "2.0 course.js"
   },
   "semesterManageTip": {
-    "message": "By default, courseware-based MOOCs are offered as Online Self-Study and always available. You can also make time-limited and teacher-led course format offerings. To do so, click Add Offering.",
+    "message": "By default, courseware-based MOOCs are offered as Self-Paced online course sand always available. You can also make time-limited and teacher-led course format offerings. To do so, click Add Offering.",
     "description": "2.0 course.js"
   },
   "selfLearnerNum": {
-    "message": "Online self-study students",
+    "message": "Online self-paced students",
     "description": "2.0 course.js"
   },
   "selfLearnerTip": {
@@ -4927,6 +4999,10 @@
     "message": "Chats ",
     "description": "2.0 course.js"
   },
+  "speechUnitOf": {
+    "message": "{n} ",
+    "description": "教师账号 -> 直播 -> 直播统计 -> 发言数"
+  },
   "viewTerminal": {
     "message": "Access Device ",
     "description": "2.0 course.js"
@@ -5062,6 +5138,10 @@
   "liveViewTip": {
     "message": "There is a delay in playback data. If inaccurate, click on the top right corner of the page to refresh.",
     "description": "2.0 course.js"
+  },
+  "pollOf": {
+    "message": "{n} votes - {percent}%",
+    "description": "教师账号 -> 直播 -> 直播统计 -> 直播互动 -> 问卷 (非拓课云直播才有直播互动数据)"
   },
   "liveAnalysisTips": {
     "message": "In progress of generating the live session data, please check it 30 minutes after the live session ended.",
@@ -5364,7 +5444,7 @@
     "description": "2.0 course.js"
   },
   "speakerNotEmptyNew": {
-    "message": "The host should be between 1 and 10 characters",
+    "message": "The host should be between 1 and 50 characters",
     "description": "2.0 course.js"
   },
   "liveDescNotEmpty": {
@@ -5372,7 +5452,7 @@
     "description": "2.0 course.js"
   },
   "liveDescNotEmptyNew": {
-    "message": "The live session name should be between 1 and 500 characters",
+    "message": "The live session description should be between 1 and 500 characters",
     "description": "2.0 course.js"
   },
   "startTimeNotEmpty": {
@@ -5605,6 +5685,86 @@
   },
   "searchNull": {
     "message": "App not found.",
+    "description": "2.0 course.js"
+  },
+  "activateAccount": {
+    "message": "Activation Account: ",
+    "description": "2.0 course.js"
+  },
+  "activateErrorTip": {
+    "message": "An activation code can be used once. If you use the code to activate the eTextbook for your classmate. Please confirm with him or her if the code is for this eTextbook or for a different one. Or you can contact the customer service.",
+    "description": "2.0 course.js"
+  },
+  "activateMismatch": {
+    "message": "The activation code does not match the eTextbook (courseware)!",
+    "description": "2.0 course.js"
+  },
+  "textbookNumber": {
+    "message": "eTextbook Serial No: ",
+    "description": "2.0 course.js"
+  },
+  "textbookName": {
+    "message": "eTextbook Title: ",
+    "description": "2.0 course.js"
+  },
+  "sureActivateAccount": {
+    "message": "Are you sure you want to activate the eTextbook under this account?",
+    "description": "2.0 course.js"
+  },
+  "activateTextbook": {
+    "message": "Activate eTextbook",
+    "description": "2.0 course.js"
+  },
+  "activateSuccess": {
+    "message": "Activated successfully!",
+    "description": "2.0 course.js"
+  },
+  "queryActivate": {
+    "message": "Confirm",
+    "description": "2.0 course.js"
+  },
+  "iKnowThat": {
+    "message": "Got It!",
+    "description": "2.0 course.js"
+  },
+  "goToSee": {
+    "message": "Check Now!",
+    "description": "2.0 course.js"
+  },
+  "memberSpocValidateTips29": {
+    "message": "Approval is required for students to withdraw from the class",
+    "description": "2.0 course.js"
+  },
+  "joinExistClassApply": {
+    "message": "Application to Enroll/Withdraw Class",
+    "description": "2.0 course.js"
+  },
+  "applyType": {
+    "message": "Application Type ",
+    "description": "2.0 course.js"
+  },
+  "applyDate": {
+    "message": "Application Date ",
+    "description": "2.0 course.js"
+  },
+  "allApplyType": {
+    "message": "All",
+    "description": "2.0 course.js"
+  },
+  "joinApply": {
+    "message": "Enroll",
+    "description": "2.0 course.js"
+  },
+  "exitApply": {
+    "message": "Withdraw",
+    "description": "2.0 course.js"
+  },
+  "exportLiveTip1": {
+    "message": "Enter the time",
+    "description": "2.0 course.js"
+  },
+  "exportLiveTip2": {
+    "message": "Select the status",
     "description": "2.0 course.js"
   }
 }

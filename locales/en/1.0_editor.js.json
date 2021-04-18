@@ -1,6 +1,6 @@
 {
   "saveOutText": {
-    "message": " You have no problem to save, OK?",
+    "message": "You have unsaved question(s) , are you sure you want to quit?",
     "description": "1.0 editor.js"
   },
   "CreatedText": {
@@ -8,19 +8,19 @@
     "description": "1.0 editor.js"
   },
   "returnListText": {
-    "message": "Return to list",
+    "message": "Return to List",
     "description": "1.0 editor.js"
   },
   "haveText": {
-    "message": "Have {n} questions isn't saved",
+    "message": "You have {n} unsaved questions",
     "description": "1.0 editor.js"
   },
   "goToCheck": {
-    "message": "Go to check",
+    "message": "Check Now!",
     "description": "1.0 editor.js"
   },
   "quesParseError": {
-    "message": "question {title} Error in parsing",
+    "message": "Parsing error for the question \"{title}\"",
     "description": "1.0 editor.js"
   },
   "batchCreate": {
@@ -44,11 +44,11 @@
     "description": "1.0 editor.js"
   },
   "scoreTips": {
-    "message": "Please enter a valid score",
+    "message": "Please enter a valid value",
     "description": "1.0 editor.js"
   },
   "setScoreTips": {
-    "message": "Create test questions first",
+    "message": "Create the exam questions first",
     "description": "1.0 editor.js"
   },
   "questionTitle": {
@@ -72,15 +72,15 @@
     "description": "1.0 public.js"
   },
   "completionAnswerTips": {
-    "message": "Note: Blank answers for this question are interchangeable as long as the content matching is correct",
+    "message": "Note: The answers for the blanks do not need to be in order.",
     "description": "1.0 editor.js"
   },
   "batchSetScoreText": {
-    "message": "Modify scores in batches",
+    "message": "Batch edit points",
     "description": "1.0 editor.js"
   },
   "scoreText": {
-    "message": "{score} score",
+    "message": "{score} points",
     "description": "注意，这个指的是某道题目的分值，不是得了多少分，在试题编辑器 -> 批量导入 -> 导入习题后，每个习题的标题的左侧有一个括号，括号内标有题目的分值"
   },
   "correct": {
@@ -112,71 +112,71 @@
     "description": "1.0 editor.js"
   },
   "analysisTit": {
-    "message": "Click to enter the explanation - optional",
+    "message": "Click to enter the answer explanation - optional",
     "description": "1.0 editor.js"
   },
   "saveSuccessTips": {
-    "message": "success",
+    "message": "Saved successfully!",
     "description": "1.0 editor.js"
   },
   "saveErrorTips": {
-    "message": "error",
+    "message": "Failed to save!",
     "description": "1.0 editor.js"
   },
   "saveErrorTips2": {
-    "message": "Failure to save some Q",
+    "message": "Failed to save some questions!",
     "description": "1.0 editor.js"
   },
   "numExceededTips": {
-    "message": "No more than 200 entries per time",
+    "message": "The number of questions entered at a time cannot exceed 200",
     "description": "1.0 editor.js"
   },
   "incompleteMessage1": {
-    "message": "The topic isn't Empty",
+    "message": "The question title cannot be empty",
     "description": "1.0 editor.js"
   },
   "incompleteMessage2": {
-    "message": "Keep at least two options",
+    "message": "Keep at least two answer options",
     "description": "1.0 editor.js"
   },
   "incompleteMessage3": {
-    "message": "The 20 option is not more than",
+    "message": "No more than 20 answer options",
     "description": "1.0 editor.js"
   },
   "incompleteMessage4": {
-    "message": "The correct answer is not empty",
+    "message": "The correct answer cannot be empty!",
     "description": "1.0 editor.js"
   },
   "incompleteMessage5": {
-    "message": "The correct answer options in the content isn't empty",
+    "message": "The content in the correct answer option cannot be empty",
     "description": "1.0 editor.js"
   },
   "incompleteMessage6": {
-    "message": "Please fill in the contents of the options, or delete the superfluous options",
+    "message": "Please fill in the options, or delete the extra options",
     "description": "1.0 editor.js"
   },
   "incompleteMessage7": {
-    "message": "The number of correct answers should not exceed the number of options",
+    "message": "The number of correct answers cannot exceed the number of options",
     "description": "1.0 editor.js"
   },
   "incompleteMessage8": {
-    "message": "No non-optional items can appear in the correct answer",
+    "message": "No non-option items can appear in the correct answer",
     "description": "1.0 editor.js"
   },
   "incompleteMessage9": {
-    "message": "There are repetitions in the correct answer",
+    "message": "There are duplicates in the correct answer",
     "description": "1.0 editor.js"
   },
   "incompleteMessage10": {
-    "message": "Reference answers should not be empty",
+    "message": "The content of the reference answer cannot be empty",
     "description": "1.0 editor.js"
   },
   "incompleteMessage11": {
-    "message": "The number of correct answers should not be less than the number of empty ones",
+    "message": "The number of correct answers cannot be less than the number of blanks",
     "description": "1.0 editor.js"
   },
   "quesOrder": {
-    "message": "Q {n}, ",
+    "message": "Question {n} , ",
     "description": "1.0 editor.js"
   }
 }

@@ -155,13 +155,9 @@
     "message": "全部學院",
     "description": "2.0 public.js"
   },
-  "courseNumber1": {
-    "message": "共",
-    "description": "2.0 public.js"
-  },
-  "courseNumber2": {
-    "message": "門課程",
-    "description": "2.0 public.js"
+  "totalCourse": {
+    "message": "共{n}門課程",
+    "description": "自定义门户网站 -> 课程 (公开课程等)"
   },
   "departments": {
     "message": "院系",
@@ -191,9 +187,9 @@
     "message": "更多課程",
     "description": "2.0 public.js"
   },
-  "participantsNum": {
-    "message": "參與人數: ",
-    "description": "2.0 public.js"
+  "joinCourseCount": {
+    "message": "參與人數：{n}",
+    "description": "自定义门户网站 -> 上方搜索框搜索 \n 自定义门户网站 -> 课程(不包括公开课) \n 自定义门户网站 -> 课程详情 \n 管理员账户 -> 系统管理 -> 网站设置 -> 菜单式"
   },
   "customNavigation": {
     "message": "自定義導航",
@@ -291,9 +287,9 @@
     "message": "沒有課程",
     "description": "2.0 public.js"
   },
-  "netErrorClick": {
-    "message": "網絡錯誤,點擊",
-    "description": "2.0 public.js"
+  "netError": {
+    "message": "網路錯誤，點擊{reloadButton}",
+    "description": "自定义门户网站 -> 课程 (公开课程等)"
   },
   "reload": {
     "message": "重新加載",
@@ -307,17 +303,13 @@
     "message": "內容簡介: ",
     "description": "2.0 public.js"
   },
-  "studyTimes": {
-    "message": "次學習",
-    "description": "2.0 public.js"
+  "studyTimesOf": {
+    "message": "{n}次學習",
+    "description": "自定义门户网站 -> 公开课程 \n 自定义门户网站 -> 上方搜索框搜索"
   },
-  "totalSearch": {
-    "message": "共搜尋到與",
-    "description": "2.0 public.js"
-  },
-  "about": {
-    "message": "相關的",
-    "description": "2.0 public.js"
+  "totalSearchResult": {
+    "message": "共搜索到與 \"{keyword}\" 相關的{n}個結果",
+    "description": "自定义门户网站 -> 上方搜索框搜索"
   },
   "schoolCourse": {
     "message": "校內課程",
@@ -325,10 +317,6 @@
   },
   "openCourse": {
     "message": "開放課程",
-    "description": "2.0 public.js"
-  },
-  "resultNum": {
-    "message": "個結果",
     "description": "2.0 public.js"
   },
   "moreSearchResult": {
@@ -1111,10 +1099,6 @@
     "message": "學業檔案",
     "description": "2.0 public.js"
   },
-  "someonesEportfolio": {
-    "message": "",
-    "description": "2.0 public.js"
-  },
   "ofEportfolio": {
     "message": "的學業檔案",
     "description": "2.0 public.js"
@@ -1442,6 +1426,102 @@
   "modifySuccess": {
     "message": "修改成功",
     "description": "2.0 course.js"
+  },
+  "jqueryValidatorRequired": {
+    "message": "這是必填欄位",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorRemote": {
+    "message": "請修正此欄位",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorEmail": {
+    "message": "請輸入有效的電子郵件位址",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorUrl": {
+    "message": "請輸入有效的網址",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorDate": {
+    "message": "請輸入有效的日期",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorDateISO": {
+    "message": "請輸入合法的日期 （YYYY-MM-DD）",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorNumber": {
+    "message": "請輸入有效的數位",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorDigits": {
+    "message": "只能輸入數位",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorCreditcard": {
+    "message": "請輸入有效的信用卡號碼",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorEqualTo": {
+    "message": "你的輸入不相同",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorExtension": {
+    "message": "請輸入有效的後綴",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorMaxlength": {
+    "message": "最多可以輸入 {0} 個字元",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorMinlength": {
+    "message": "最少要輸入{0}個字元",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorRangelength": {
+    "message": "請輸入長度在 {0} 到 {1} 之間的字串",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorRange": {
+    "message": "請輸入範圍在 {0} 到 {1} 之間的數值",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorMax": {
+    "message": "請輸入不大於 {0}的數值",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorMin": {
+    "message": "請輸入不小於 {0}的數值",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorLoginName": {
+    "message": "使用者名不能包含中文、空格和特殊字元",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorPassWord": {
+    "message": "8-16位，必須同時包含字母和數字（區分大小寫）",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorStudentID": {
+    "message": "請輸入4-20比特字母或數位,字母區分大小寫",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorRealName": {
+    "message": "不能含有非法字元和空格",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorIsMobile": {
+    "message": "請正確填寫您的手機號碼",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorIsZipCode": {
+    "message": "請正確填寫您的郵政編碼",
+    "description": "2.0 public.js"
+  },
+  "jqueryValidatorIsEmail": {
+    "message": "請正確填寫您的郵箱",
+    "description": "2.0 public.js"
   },
   "identityVerification": {
     "message": "身份驗證",

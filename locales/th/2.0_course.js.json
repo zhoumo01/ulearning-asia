@@ -195,6 +195,10 @@
     "message": "สื่อวิดิทัศน์",
     "description": "2.0 course.js"
   },
+  "totalDurationOf": {
+    "message": "ระยะเวลารวม: {count}นาที",
+    "description": "2.0 course.js"
+  },
   "document": {
     "message": "เอกสาร",
     "description": "2.0 course.js"
@@ -383,6 +387,10 @@
     "message": "จำนวนครั้งการเลือกคน",
     "description": "2.0 course.js"
   },
+  "examTimes": {
+    "message": "จํานวนการสอบ: {n} ครั้ง",
+    "description": "2.0 course.js"
+  },
   "usePaperNumber": {
     "message": "จำนวนชุดข้อสอบที่ใช้งานทั้งหมด",
     "description": "2.0 course.js"
@@ -446,6 +454,14 @@
   "attendance": {
     "message": "เช็คชื่อ",
     "description": "2.0 course.js"
+  },
+  "totalTimes": {
+    "message": "จํานวนครั้งทั้งหมด: {n} ครั้ง",
+    "description": "2.0 course.js"
+  },
+  "totalTimes2": {
+    "message": "จํานวนครั้งทั้งหมด: {n}",
+    "description": "教师账号 -> 课程分析"
   },
   "totalAttendanceRate": {
     "message": "อัตรายอดรวมการเข้าเวร",
@@ -591,8 +607,20 @@
     "message": "ไม่มีข้อมูล",
     "description": "2.0 course.js"
   },
-  "week": {
-    "message": "อาทิตย์",
+  "weekOf": {
+    "message": "{count} สัปดาห์",
+    "description": "登录ua后 - 创建或查看一门课程 -> 左侧导航栏 -> 学期管理 -> 添加学期"
+  },
+  "weekIndex": {
+    "message": "สัปดาห์ {n}",
+    "description": "2.0 course.js"
+  },
+  "groupIndex": {
+    "message": "กลุ่ม {n}",
+    "description": "2.0 course.js"
+  },
+  "periodIndex": {
+    "message": "รอบระยะเวลา {n}",
     "description": "2.0 course.js"
   },
   "teacher": {
@@ -603,24 +631,16 @@
     "message": "อาจารย์",
     "description": "2.0 course.js"
   },
-  "specialTeacherBefore1": {
-    "message": "",
-    "description": "2.0 course.js"
-  },
-  "specialTeacherBefore2": {
-    "message": "",
-    "description": "2.0 course.js"
-  },
-  "specialTeacherBefore3": {
-    "message": "",
-    "description": "2.0 course.js"
-  },
   "specialTeacherAfter": {
     "message": "อาจารย์",
     "description": "2.0 course.js"
   },
   "student": {
     "message": "นักเรียน",
+    "description": "2.0 course.js"
+  },
+  "studentOf": {
+    "message": "นักเรียน: {n}",
     "description": "2.0 course.js"
   },
   "addStudent": {
@@ -651,13 +671,9 @@
     "message": "วิทยาลัยทั้งหมด",
     "description": "2.0 course.js"
   },
-  "stuLibImportTips5": {
-    "message": "เลือกแล้ว",
-    "description": "2.0 course.js"
-  },
-  "stuLibImportTips6": {
-    "message": "แต่ละชั้นเรียน",
-    "description": "2.0 course.js"
+  "stuLibSelectTip1": {
+    "message": "มีการเลือก {count} คลาส",
+    "description": "教师账号 -> 成员 -> 班级管理 -> 批量导入班级 -> 从学生库导入 -> 弹框左下角"
   },
   "grade": {
     "message": "ชั้นปี",
@@ -667,13 +683,9 @@
     "message": "วิทยาลัย",
     "description": "2.0 course.js"
   },
-  "stuLibImportTips7": {
-    "message": "เลือกแล้ว",
-    "description": "2.0 course.js"
-  },
-  "stuLibImportTips8": {
-    "message": "แต่ละนักเรียน",
-    "description": "2.0 course.js"
+  "stuLibSelectTip2": {
+    "message": "มีการเลือกนักเรียน {count} คน",
+    "description": "教师账号 -> 成员 -> 班级管理 -> 添加学生 -> 弹框左下角"
   },
   "stuLibImportTips9": {
     "message": "ระวัง：ถ้าในหลักสูตรมีชั้นเรียนที่ชื่อเหมือนกัน จะนำเข้าเพียงนักเรียนเท่านั้น；หากนักเรียนอยู่ในหลักสูตรแล้ว จะข้ามไปโดยอัตโนมัติ และให้เรียนอยู่ในชั้นเรียนเดิม",
@@ -701,6 +713,10 @@
   },
   "analysisSpocTips6": {
     "message": "หลักสูตรนี้ยังไม่มีการกำหนดสื่อการเรียน",
+    "description": "2.0 course.js"
+  },
+  "minute": {
+    "message": "{count} นาที",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -743,6 +759,26 @@
     "message": "ประกาศหรือเรื่องแจ้งทราบที่เกี่ยวข้องกับการสอนในหลักสูตรสามารถประกาศได้ที่นี่ ผู้ดูแลจัดการหลักสูตรสามารถประกาศประกาศสาธารณะให้กับชั้นเรียนทั้งหมดได้ อาจารย์ผู้สอนหรือผู้ช่วยสอนจะสามารถประกาศประกาศสาธารณะได้เฉพาะชั้นเรียนของตนเองเท่านั้น",
     "description": "2.0 course.js"
   },
+  "totalOf": {
+    "message": "ผลรวม {n}",
+    "description": "2.0 course.js"
+  },
+  "totalOfItems": {
+    "message": "ผลรวม{n}",
+    "description": "2.0 course.js"
+  },
+  "totalPages": {
+    "message": "ผลรวม: หน้า {n}",
+    "description": "2.0 course.js"
+  },
+  "totalOfTeacher": {
+    "message": "รวม {n} ครู",
+    "description": "2.0 course.js"
+  },
+  "totalOfTeacher2": {
+    "message": "รวม {n} ครู",
+    "description": "2.0 course.js"
+  },
   "publishNewAnnouncement": {
     "message": "ประกาศประกาศสาธารณะใหม่",
     "description": "2.0 course.js"
@@ -767,13 +803,13 @@
     "message": "ประกาศใน",
     "description": "2.0 course.js"
   },
-  "peopleReaded": {
-    "message": "คนอ่านแล้ว",
-    "description": "2.0 course.js"
+  "readedOf": {
+    "message": "{count} คนอ่านแล้ว",
+    "description": "教师账号 -> 公告"
   },
-  "classColon": {
-    "message": "ชั้นเรียน",
-    "description": "2.0 course.js"
+  "classesOf": {
+    "message": "ชั้นเรียน: {classes}",
+    "description": "教师账号 -> 公告"
   },
   "download": {
     "message": "ดาวน์โหลด",
@@ -876,7 +912,7 @@
     "description": "2.0 course.js"
   },
   "modifySuccess": {
-    "message": " แก้ไขสำเร็จ",
+    "message": "แก้ไขสำเร็จ",
     "description": "2.0 course.js"
   },
   "modifyFailed": {
@@ -935,6 +971,18 @@
     "message": "วันที่สิ้นสุดการประเมิน",
     "description": "2.0 course.js"
   },
+  "stuScore": {
+    "message": "คะแนน {stuName}:{count}",
+    "description": "2.0 course.js"
+  },
+  "points": {
+    "message": "คะแนน {count}",
+    "description": "2.0 course.js"
+  },
+  "scoreCol": {
+    "message": "คะแนน",
+    "description": "2.0 course.js"
+  },
   "totalScore": {
     "message": "คะแนนรวม",
     "description": "2.0 course.js"
@@ -959,8 +1007,40 @@
     "message": "ตรวจดูการประเมินบท",
     "description": "2.0 course.js"
   },
+  "studyScoreOf": {
+    "message": "เกรด: {percent}%",
+    "description": "2.0 course.js"
+  },
   "averageScoreByChapter": {
     "message": "เฉลี่ยคะแนนตามบทที่เลือก",
+    "description": "2.0 course.js"
+  },
+  "studyTimeColon": {
+    "message": "เวลาเรียน: {percent}%",
+    "description": "2.0 course.js"
+  },
+  "totalStudyTimeAchieve": {
+    "message": "เวลาการเรียนรู้สะสมคือ {max} นาทีที่มีคะแนนเต็ม และต่ํากว่า {min} นาที 0 คะแนน",
+    "description": "2.0 course.js"
+  },
+  "chapterStudyTimeAchieve": {
+    "message": "เวลาเรียนต่อบทคือ {max} นาทีและต่ํากว่า {min} นาที 0 คะแนน",
+    "description": "2.0 course.js"
+  },
+  "sectionStudyTimeAchieve": {
+    "message": "แต่ละส่วนจะเรียนด้วยคะแนนเต็ม {max} นาที และต่ํากว่า {min} นาที 0 คะแนน",
+    "description": "2.0 course.js"
+  },
+  "studyProgressColon": {
+    "message": "ความคืบหน้าการเรียนรู้: {percent}%",
+    "description": "2.0 course.js"
+  },
+  "totalStudyProgress": {
+    "message": "ความคืบหน้าการเรียนรู้สะสมถึง {max}% ได้รับคะแนนเต็ม ต่ํากว่า {min}% คะแนน 0 คะแนน",
+    "description": "2.0 course.js"
+  },
+  "chapterStudyProgress": {
+    "message": "ความคืบหน้าต่อบทคือ {max}% ได้รับคะแนนเต็ม และต่ํากว่า {min}% เป็น 0 คะแนน",
     "description": "2.0 course.js"
   },
   "noParticipants": {
@@ -1031,13 +1111,13 @@
     "message": "สิ้นสุด",
     "description": "2.0 course.js"
   },
-  "etc": {
-    "message": "อื่นๆ",
-    "description": "2.0 course.js"
+  "unfoldAllClasses": {
+    "message": "ขยาย {count} ทั้งหมด",
+    "description": "教师账号 -> 考核 -> 查看策略 \n 教师账号 -> 考核 -> 查看成绩 (汇总成绩后才会出现查看成绩这个按钮)"
   },
-  "classes": {
-    "message": "ชั้นเรียน",
-    "description": "2.0 course.js"
+  "classesEtc": {
+    "message": "{classes} และอื่นๆ {count} คลาส",
+    "description": "教师账号 -> 考核 \n 教师账号 -> 课堂 \n 教师账号 -> 成员 -> 教学团队"
   },
   "classesLink": {
     "message": "{count}ชั้นเรียน>>",
@@ -1097,10 +1177,6 @@
   },
   "assessmentClass": {
     "message": "ชั้นเรียนที่ประเมิน",
-    "description": "2.0 course.js"
-  },
-  "unfoldAll": {
-    "message": "แสดงทั้งหมด",
     "description": "2.0 course.js"
   },
   "deadline": {
@@ -1467,6 +1543,10 @@
     "message": "ชื่อกิจกรรม",
     "description": "2.0 course.js"
   },
+  "numberOf": {
+    "message": "{n}",
+    "description": "2.0 course.js"
+  },
   "time": {
     "message": "เวลา",
     "description": "2.0 course.js"
@@ -1615,6 +1695,22 @@
     "message": "การอธิปรายแบบเปิดมีส่วนช่วยให้นักเรียนได้คิดอย่างลึกซึ้ง ท่านสามารถประกาศหัวข้อได้ที่นี่ ตั้งกลุ่มนักเรียนเพื่ออภิปราย ผู้ดูแลจัดการหลักสูตรสามารถประกาศการอภิปรายให้กับชั้นเรียนทั้งหมด อาจารย์และผู้ช่วยสอนสามารถประกาศการอภิปรายได้ในชั้นเรียนของตนเองเท่านั้น",
     "description": "2.0 course.js"
   },
+  "timesOf": {
+    "message": "{n} ครั้ง",
+    "description": "2.0 course.js"
+  },
+  "replyYouTimes": {
+    "message": "ตอบกลับถึงคุณ {n} ครั้ง",
+    "description": "2.0 course.js"
+  },
+  "praiseYouTimes": {
+    "message": "ถูกใจคุณ {n} ครั้ง",
+    "description": "2.0 course.js"
+  },
+  "youPraiseTimes": {
+    "message": "คุณกดไลค์ {n} ครั้ง",
+    "description": "2.0 course.js"
+  },
   "yourPosts": {
     "message": "โพสต์ของคุณ",
     "description": "2.0 course.js"
@@ -1727,6 +1823,14 @@
     "message": "รายละเอียด",
     "description": "2.0 course.js"
   },
+  "homeworkBetweenTime": {
+    "message": "เวลางาน: {startTime} ถึง {endTime}",
+    "description": "2.0 course.js"
+  },
+  "betweenTime": {
+    "message": "{startTime} ถึง {endTime}",
+    "description": "2.0 course.js"
+  },
   "commitEnd": {
     "message": "การเสนอรายงานสิ้นสุด",
     "description": "2.0 course.js"
@@ -1825,6 +1929,10 @@
   },
   "deleteHomeworkTips": {
     "message": "ยืนยันจะลบการบ้านนี้?",
+    "description": "2.0 course.js"
+  },
+  "peopleOf": {
+    "message": "{n} คน",
     "description": "2.0 course.js"
   },
   "inputUserNameSearch": {
@@ -2279,13 +2387,9 @@
     "message": "นักเรียนด้านล่างนี้อยู่ในหลักสูตรแล้ว รายชื่อนักเรียนในชั้นเรียนใหม่ที่นำเข้าจะไม่มีชื่อของนักเรียนเหล่านี้",
     "description": "2.0 course.js"
   },
-  "let": {
-    "message": "นำ",
-    "description": "2.0 course.js"
-  },
-  "replaceTo": {
-    "message": "เปลี่ยนไปที่",
-    "description": "2.0 course.js"
+  "batchReplaceStudents": {
+    "message": "แทนที่ {students} ไปที่: {classesForm}",
+    "description": "教师账号 -> 成员 -> 学生管理 -> 更换班级"
   },
   "appointClassForTeacher": {
     "message": "อาจารย์กำหนดชั้นเรียน",
@@ -2519,6 +2623,10 @@
     "message": "กำหนดไม่สำเร็จ",
     "description": "2.0 course.js"
   },
+  "memberSpocValidateTips15": {
+    "message": "ชื่อคลาส {n} มีอักขระมากกว่า 100 ตัว",
+    "description": "2.0 course.js"
+  },
   "memberSpocValidateTips16": {
     "message": "กรุณาใส่ชื่อชั้นเรียน",
     "description": "2.0 course.js"
@@ -2691,13 +2799,9 @@
     "message": "หัวหน้ากลุ่ม",
     "description": "2.0 course.js"
   },
-  "randomDivide": {
-    "message": "สุ่มแบ่งเป็น",
-    "description": "2.0 course.js"
-  },
-  "group2": {
-    "message": "กลุ่ม",
-    "description": "2.0 course.js"
+  "randomDivideGroup": {
+    "message": "สุ่มแบ่งออกเป็น {inputCount} กลุ่ม",
+    "description": "教师账号 -> 成员 -> 班级小组方案 -> 随机分组"
   },
   "classGroupTips3": {
     "message": "ชั้นเรียนปัจจุบันมีการแบ่งกลุ่มแล้ว ยืนยันที่จะสลับการแบ่งกลุ่มที่มีอยู่?",
@@ -3265,7 +3369,7 @@
   },
   "yuan": {
     "message": "หยวน",
-    "description": "2.0 course.js"
+    "description": "相关代码已注释，可以先不用翻译"
   },
   "selectFile": {
     "message": "เลือกเอกสาร",
@@ -3479,16 +3583,48 @@
     "message": "สื่อวิดิทัศน์ที่เป็นสื่อการสอน",
     "description": "2.0 course.js"
   },
+  "totalQuantityCl": {
+    "message": "ปริมาณรวม: {count}",
+    "description": "2.0 course.js"
+  },
   "nonVideoResource": {
     "message": "ทรัพยากรที่ไม่ใช่สื่อวิดิทัศน์",
+    "description": "2.0 course.js"
+  },
+  "semesterRichText": {
+    "message": "จํานวนหน้ากราฟิกในบทเรียน: {n}",
+    "description": "2.0 course.js"
+  },
+  "semesterResource": {
+    "message": "จํานวนทรัพยากรที่ขยายในกะ: {n}",
+    "description": "2.0 course.js"
+  },
+  "quantityCl": {
+    "message": "ปริมาณ: {count} ครั้ง",
     "description": "2.0 course.js"
   },
   "homeworkAndTest": {
     "message": "การบ้าน/ทดสอบ",
     "description": "2.0 course.js"
   },
+  "testQueNumberOf": {
+    "message": "จํานวนคําถาม: {n}",
+    "description": "2.0 course.js"
+  },
+  "testQueNumberTip": {
+    "message": "(เฉพาะงานประเภทแบบทดสอบเท่านั้นที่มีคําถาม)",
+    "description": "2.0 course.js"
+  },
+  "participantsPeopleOf": {
+    "message": "จํานวนผู้เข้าร่วม: {n}",
+    "description": "2.0 course.js"
+  },
   "discussAndCommunication": {
     "message": "อภิปรายแลกเปลี่ยน",
+    "description": "2.0 course.js"
+  },
+  "topicTotalNumberOf": {
+    "message": "จํานวนโพสต์ทั้งหมด: {n}",
     "description": "2.0 course.js"
   },
   "semesterTips7": {
@@ -3497,6 +3633,14 @@
   },
   "participantsDiscussNumberCl": {
     "message": "จำนวนคนที่เข้าร่วมการอภิปราย",
+    "description": "2.0 course.js"
+  },
+  "examQueNumberOf": {
+    "message": "จํานวนคําถามสอบ: {n}",
+    "description": "2.0 course.js"
+  },
+  "passPeopleOf": {
+    "message": "จํานวนคนผ่าน: {n}",
     "description": "2.0 course.js"
   },
   "outsideSchoolClass": {
@@ -3661,7 +3805,7 @@
   },
   "inputActivationCode": {
     "message": "ใส่รหัสแอคทีฟ",
-    "description": "2.0 course.js"
+    "description": "这个是输入框的占位文字，可以在登录学生账户后，在课程列表的右上角 -> 激活教材看到，由于输入框较短，建议缩短文字。"
   },
   "textbookTips8": {
     "message": "ขูดแถบชั้นสีออกเพื่อรับรหัสแอคทีฟ ใส่ที่ด้านในกรอบด้านบน ตัวอักษรไม่แบ่งพิมพ์ใหญ่และเล็ก",
@@ -3681,6 +3825,10 @@
   },
   "buy": {
     "message": "ซื้อ",
+    "description": "2.0 course.js"
+  },
+  "remaining": {
+    "message": "เหลือ {n} วัน",
     "description": "2.0 course.js"
   },
   "progress": {
@@ -3709,6 +3857,18 @@
   },
   "mobileTerminal": {
     "message": "โทรศัพท์มือถือ",
+    "description": "2.0 course.js"
+  },
+  "browserTip": {
+    "message": "การใช้การเรียนรู้ด้วยคอมพิวเตอร์ ขอแนะนําให้ใช้ {chrome} หรือ {qqBrowser}",
+    "description": "{chrome} 插值见 chrome 字段，qqBrowser 插值见 qqBrowser 字段"
+  },
+  "chrome": {
+    "message": "Google Chrome (ดาวน์โหลด)",
+    "description": "2.0 course.js"
+  },
+  "qqBrowser": {
+    "message": "เบราว์เซอร์ QQ (ดาวน์โหลด)",
     "description": "2.0 course.js"
   },
   "canStudyTime": {
@@ -3880,7 +4040,7 @@
     "description": "2.0 course.js"
   },
   "textbookTips27": {
-    "message": " แจ้งเตือน：คะแนนเฉลี่ยจะเปลี่ยนแปลงตามความก้าวหน้าด้านการเรียนของนักเรียน",
+    "message": "แจ้งเตือน：คะแนนเฉลี่ยจะเปลี่ยนแปลงตามความก้าวหน้าด้านการเรียนของนักเรียน",
     "description": "2.0 course.js"
   },
   "textbookTips28": {
@@ -4005,6 +4165,10 @@
   },
   "studingCl": {
     "message": "กำลังเรียน",
+    "description": "2.0 course.js"
+  },
+  "remainingStudyTime": {
+    "message": "เวลาเรียนที่เหลือ{n} วัน",
     "description": "2.0 course.js"
   },
   "textbookTips38": {
@@ -4136,7 +4300,7 @@
     "description": "2.0 course.js"
   },
   "balanceSymbol": {
-    "message": "",
+    "message": "¥",
     "description": "2.0 course.js"
   },
   "semesterManageTip": {
@@ -4271,20 +4435,104 @@
     "message": "ผลคะแนนการเรียนจากสื่อการสอน",
     "description": "2.0 course.js"
   },
+  "scoreItemType1Option1": {
+    "message": "คะแนนเฉลี่ยระหว่างบท",
+    "description": "2.0 course.js"
+  },
   "scoreItemType2": {
     "message": "ระยะเวลาเรียนจากสื่อการสอน",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType2Rule1": {
+    "message": "ตามระยะเวลาสะสม",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType2Rule2": {
+    "message": "กดความยาวต่อบท",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType2Rule3": {
+    "message": "กดความยาวต่อส่วน",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType2Option1": {
+    "message": "แต่ละบทใช้เวลาเรียนสะสม {max} นาทีเต็ม และน้อยกว่า {min} นาทีคือ 0 นาที",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType2Option2": {
+    "message": "แต่ละบทใช้เวลาเรียน {max} นาทีเต็ม และน้อยกว่า {min} นาทีคือ 0 นาที",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType2Option3": {
+    "message": "แต่ละส่วนใช้เวลาเรียน {max} นาทีเต็ม และน้อยกว่า {min} นาทีคือ 0 นาที",
     "description": "2.0 course.js"
   },
   "scoreItemType3": {
     "message": "ความก้าวหน้าทางการเรียนจากสื่อการสอน",
     "description": "2.0 course.js"
   },
+  "scoreItemType3Rule1": {
+    "message": "ความคืบหน้าการเรียนรู้สะสม",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType3Rule2": {
+    "message": "คํานวณตามบท",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType3Rule3": {
+    "message": "คํานวณตามส่วน",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType3Option1": {
+    "message": "ความคืบหน้าการเรียนรู้สะสม",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType3Option2": {
+    "message": "คะแนนเฉลี่ยของความคืบหน้าในการเสร็จสิ้นแต่ละบท",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType3Option3": {
+    "message": "ความคืบหน้าของความสําเร็จของทุกส่วนของหลักสูตรจํานวนส่วนที่เสร็จสมบูรณ์ / จํานวนรวมของส่วน",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType4Rule1": {
+    "message": "คะแนนเฉลี่ยสําหรับงานทั้งหมด",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType4Rule2": {
+    "message": "แต่ละงานจะตั้งค่าน้ําหนักแยกต่างหาก",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType5Rule1": {
+    "message": "คะแนนเฉลี่ยสําหรับการสอบทั้งหมด",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType5Rule2": {
+    "message": "น้ําหนักจะถูกตั้งค่าแยกต่างหากสําหรับการสอบแต่ละข้อ",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType6": {
+    "message": "กําหนดเอง",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType7Option1": {
+    "message": "คะแนนรวมสําหรับหัวข้อการสนทนาทั้งหมด{score} จะถูกแบ่งออกเป็นคะแนนเต็ม",
+    "description": "2.0 course.js"
+  },
   "scoreItemType8": {
     "message": "เช็คชื่อห้องเรียน",
     "description": "2.0 course.js"
   },
+  "scoreItemType8Option1": {
+    "message": "การเข้างานทั้งหมดคือคะแนนเต็ม ขาดงานหนึ่งครั้งเพื่อหักคะแนน {score1} การมาสาย/การออกจากงานก่อนกําหนด/การลาป่วย/การหักเงินจากเหตุการณ์{score2}",
+    "description": "2.0 course.js"
+  },
   "scoreItemType9": {
     "message": "การแสดงออกในห้องเรียน",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType9Option1": {
+    "message": "คะแนนที่ได้รับสําหรับการเลือกชั้นเรียนและกิจกรรมการฉกคําตอบ {score} จะได้คะแนนเต็ม",
     "description": "2.0 course.js"
   },
   "newStrategyTips10": {
@@ -4459,6 +4707,10 @@
     "message": "ระบบปฏิบัติการWindowsจะสนับสนุนตั้งแต่เวอร์ชั่น Win7ขึ้นไป ไม่สนับสนุนXP ส่วนMACกรุณาใช้การถ่ายทอดสดในเพจ ไม่สนับสนุนคลินท์ถ่ายทอดสดชั่วคราว",
     "description": "2.0 course.js"
   },
+  "descTip_new": {
+    "message": "ใช้สตรีมแบบสดสําหรับการสอนแบบซิงโครนัสระยะไกลทางออนไลน์ เพื่อให้แน่ใจว่ากระบวนการสตรีมแบบสดเป็นไปอย่างราบรื่น ให้ใช้ Google Chrome สําหรับชั้นเรียน",
+    "description": "2.0 course.js"
+  },
   "descTip1": {
     "message": "ก่อนเริ่มถ่ายทอดสด5นาทีสามารถเข้าไปในส่วนถ่ายทอดสดได้ ขณะทำการถ่ายทอดสดกรุณารักษากิริยามารยาท",
     "description": "2.0 course.js"
@@ -4468,7 +4720,7 @@
     "description": "2.0 course.js"
   },
   "descTip2_2": {
-    "message": " เบราเซอร์เวอร์ชั่น Chrome58ขึ้นไป",
+    "message": "เบราเซอร์เวอร์ชั่น Chrome58ขึ้นไป",
     "description": "2.0 course.js"
   },
   "downloadNew": {
@@ -4735,9 +4987,9 @@
     "message": "จำนวนการออกความเห็น",
     "description": "2.0 course.js"
   },
-  "speechUnit": {
-    "message": "เรื่อง",
-    "description": "2.0 course.js"
+  "speechUnitOf": {
+    "message": "บทความ {n}",
+    "description": "教师账号 -> 直播 -> 直播统计 -> 发言数"
   },
   "viewTerminal": {
     "message": "ดูสถานีสุดท้าย",
@@ -4875,9 +5127,9 @@
     "message": "การรับชมข้อมูลย้อนหลังมีการดีเลย์ หากไม่ถูกต้องกรุณากดหัวมุมขวาบนของเพจเพื่ออัพเดท",
     "description": "2.0 course.js"
   },
-  "poll": {
-    "message": "โพล",
-    "description": "2.0 course.js"
+  "pollOf": {
+    "message": "{n}票 {เปอร์เซ็นต์}%",
+    "description": "教师账号 -> 直播 -> 直播统计 -> 直播互动 -> 问卷 (非拓课云直播才有直播互动数据)"
   },
   "liveAnalysisTips": {
     "message": "กำลังสร้างข้อมูลการถ่ายทอดสด กรุณาตรวจดูหลังจากเสร็จสิ้นการถ่ายทอดสด 30 นาที",
@@ -5004,7 +5256,7 @@
     "description": "2.0 course.js"
   },
   "publish2": {
-    "message": "",
+    "message": "เผยแพร่",
     "description": "2.0 course.js"
   },
   "totalCourseScore": {
@@ -5019,12 +5271,408 @@
     "message": "หนังสือเรียนที่มีรายการที่ไม่สนับสนุนความคืบหน้าของบทเรียนกรุณาลบคะแนนความคืบหน้าของบทเรียนหรือลบวัสดุที่ไม่สนับสนุนและบันทึกอีกครั้ง",
     "description": "2.0 course.js"
   },
+  "weights": {
+    "message": "{เปอร์เซ็นต์}%,{count}分",
+    "description": "2.0 course.js"
+  },
   "importBBCourse": {
     "message": "นำเข้าเนื้อหาหลักสูตรกระดานดำ",
     "description": "2.0 course.js"
   },
+  "importFromICourse": {
+    "message": "นําเข้าจากหลักสูตรความรัก",
+    "description": "2.0 course.js"
+  },
+  "videoCourse": {
+    "message": "บทเรียนเปิดวิดีโอ",
+    "description": "2.0 course.js"
+  },
+  "resourceCourse": {
+    "message": "บทเรียนการแบ่งปันทรัพยากร",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse": {
+    "message": "แหล่งข้อมูลและข้อมูลของบทเรียนนี้ให้บริการโดยหลักสูตรความรัก",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse1": {
+    "message": "บทเรียนนี้ให้บริการโดยหลักสูตรความรัก",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse2": {
+    "message": "ทรัพยากรและข้อมูลสําหรับบทเรียนนี้ให้บริการโดยหลักสูตรความรักและข้อมูลของวันสามารถสอบถามได้ประมาณ 12:00 น. ในวันถัดไป",
+    "description": "2.0 course.js"
+  },
+  "provideByICourse3": {
+    "message": "ทรัพยากรและข้อมูลของบทเรียนนี้ให้บริการโดยหลักสูตรความรักและข้อมูลการเรียนรู้ของวันจะได้รับการอัปเดตประมาณ 12:00 น. ในวันถัดไป",
+    "description": "2.0 course.js"
+  },
+  "coursewarePreview": {
+    "message": "ดูตัวอย่างบทเรียน",
+    "description": "2.0 course.js"
+  },
+  "videoViewNum": {
+    "message": "ดูจํานวนวิดีโอ",
+    "description": "2.0 course.js"
+  },
+  "videoViewTime": {
+    "message": "ระยะเวลาการดูวิดีโอ",
+    "description": "2.0 course.js"
+  },
+  "videoViewTime2": {
+    "message": "ระยะเวลาในการดูวิดีโอ (นาที)",
+    "description": "2.0 course.js"
+  },
+  "docViewNum": {
+    "message": "ดูจํานวนเอกสาร",
+    "description": "2.0 course.js"
+  },
+  "docViewTimes": {
+    "message": "จํานวนครั้งที่ดูเอกสาร",
+    "description": "2.0 course.js"
+  },
+  "iCourseAssessmentTips": {
+    "message": "บทเรียนนี้ให้บริการโดยหลักสูตรความรักและคะแนนบทเรียนไม่ได้รับการสนับสนุนสําหรับการประเมิน",
+    "description": "2.0 course.js"
+  },
+  "coursewareStat": {
+    "message": "สถิติบทเรียน",
+    "description": "2.0 course.js"
+  },
+  "videoResTotal": {
+    "message": "จํานวนทรัพยากรวิดีโอทั้งหมด",
+    "description": "2.0 course.js"
+  },
+  "videoResTotalTime": {
+    "message": "ระยะเวลารวมของทรัพยากรวิดีโอ",
+    "description": "2.0 course.js"
+  },
+  "videoResTime": {
+    "message": "ระยะเวลาการดูวิดีโอ",
+    "description": "2.0 course.js"
+  },
+  "docResTotal": {
+    "message": "จํานวนทรัพยากรเอกสารทั้งหมด",
+    "description": "2.0 course.js"
+  },
+  "courseResStat": {
+    "message": "สถิติทรัพยากรหลักสูตร",
+    "description": "2.0 course.js"
+  },
+  "stuProgressStat": {
+    "message": "สถิติความคืบหน้าของนักเรียน",
+    "description": "2.0 course.js"
+  },
+  "academy": {
+    "message": "สถาบัน",
+    "description": "2.0 course.js"
+  },
+  "goToJoinTheCourse": {
+    "message": "ไปที่ [วิทยาลัยยอดเยี่ยม 2.0] เพื่อเข้าร่วมชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "downloadApp": {
+    "message": "ดาวน์โหลดแอพพลิเควิทยาลัย 2.0",
+    "description": "2.0 course.js"
+  },
+  "enterLiveName": {
+    "message": "โปรดป้อนชื่อสตรีมแบบสด",
+    "description": "2.0 course.js"
+  },
+  "enterSpeaker": {
+    "message": "กรุณาใส่ผู้บรรยาย",
+    "description": "2.0 course.js"
+  },
+  "liveDescPlaceholder": {
+    "message": "กรุณากรอกบทนําสั้น ๆ ของผู้นําเสนอหรือเนื้อหาสดไม่เกิน 500 คํา",
+    "description": "2.0 course.js"
+  },
+  "hours": {
+    "message": "ชั่วโมง",
+    "description": "2.0 course.js"
+  },
+  "scopeLive": {
+    "message": "ช่วงสตรีมแบบสด",
+    "description": "2.0 course.js"
+  },
+  "gradeLive": {
+    "message": "การถ่ายทอดสดในชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "publicLive": {
+    "message": "สตรีมแบบสด",
+    "description": "2.0 course.js"
+  },
+  "shareLiveEnter": {
+    "message": "คุณสามารถเข้าถึงได้โดยการแชร์ที่อยู่สตรีมแบบสด",
+    "description": "2.0 course.js"
+  },
+  "participateClass": {
+    "message": "เข้าร่วมชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "createConsent": {
+    "message": "สร้างด้วยความยินยอม",
+    "description": "2.0 course.js"
+  },
+  "userLiveProtocol": {
+    "message": "ข้อตกลงการแพร่ภาพสดของผู้ใช้",
+    "description": "2.0 course.js"
+  },
+  "liveNameNotEmpty": {
+    "message": "ชื่อสตรีมแบบสดต้องไม่ว่างเปล่า",
+    "description": "2.0 course.js"
+  },
+  "liveNameNotEmptyNew": {
+    "message": "ชื่อสตรีมแบบสดควรอยู่ระหว่าง 1 ถึง 200 อักขระ",
+    "description": "2.0 course.js"
+  },
+  "speakerNotEmpty": {
+    "message": "ชื่อของผู้บรรยายต้องไม่ว่างเปล่า",
+    "description": "2.0 course.js"
+  },
+  "speakerNotEmptyNew": {
+    "message": "ผู้บรรยายควรอยู่ระหว่าง 1 ถึง 50 อักขระ",
+    "description": "2.0 course.js"
+  },
+  "liveDescNotEmpty": {
+    "message": "โปรไฟล์สตรีมแบบสดต้องไม่ว่างเปล่า",
+    "description": "2.0 course.js"
+  },
+  "liveDescNotEmptyNew": {
+    "message": "บทนําแบบสดควรอยู่ระหว่าง 1 ถึง 500 อักขระ",
+    "description": "2.0 course.js"
+  },
+  "startTimeNotEmpty": {
+    "message": "เวลาเริ่มต้นต้องไม่ว่างเปล่า",
+    "description": "2.0 course.js"
+  },
+  "classListNotEmpty": {
+    "message": "ชั้นเรียนที่เข้าร่วมไม่สามารถว่างเปล่าได้",
+    "description": "2.0 course.js"
+  },
+  "editSuccess": {
+    "message": "การแก้ไขเสร็จเรียบร้อยแล้ว",
+    "description": "2.0 course.js"
+  },
+  "editLive": {
+    "message": "แก้ไขสตรีมแบบสด",
+    "description": "2.0 course.js"
+  },
+  "classroomCount": {
+    "message": "จํานวนชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "activity": {
+    "message": "กิจกรรม",
+    "description": "2.0 course.js"
+  },
+  "classroomList": {
+    "message": "บันทึกการเรียน",
+    "description": "2.0 course.js"
+  },
+  "createClassroom": {
+    "message": "สร้างชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "studentPerformance": {
+    "message": "ประสิทธิภาพการทํางานของนักเรียน",
+    "description": "2.0 course.js"
+  },
+  "classroomStatistics": {
+    "message": "สถิติห้องเรียน",
+    "description": "2.0 course.js"
+  },
+  "classroomName": {
+    "message": "ชื่อชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "classTime": {
+    "message": "เวลาเรียน",
+    "description": "2.0 course.js"
+  },
+  "classesInClassroom": {
+    "message": "ชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "inClassroom": {
+    "message": "ในชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "classroomReport": {
+    "message": "รายงานชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "enterClassroom": {
+    "message": "เข้าห้องเรียน",
+    "description": "2.0 course.js"
+  },
+  "copyClassroom": {
+    "message": "คัดลอกชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "noClassroom": {
+    "message": "ไม่มีห้องเรียน",
+    "description": "2.0 course.js"
+  },
+  "enterClassroomName": {
+    "message": "โปรดป้อนชื่อชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "enterClassroomNameErr": {
+    "message": "ชื่อชั้นเรียนต้องไม่เกิน 50 อักขระ",
+    "description": "2.0 course.js"
+  },
+  "noClass1": {
+    "message": "ไม่มีชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "lastClass": {
+    "message": "ชั้นเรียนสุดท้าย",
+    "description": "2.0 course.js"
+  },
+  "startClass": {
+    "message": "เริ่มเรียน",
+    "description": "2.0 course.js"
+  },
+  "notClass": {
+    "message": "ไม่มีชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "allClassroom": {
+    "message": "ห้องเรียนทั้งหมด",
+    "description": "2.0 course.js"
+  },
+  "deleteClassroom": {
+    "message": "ลบชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "confirmDeleteClassroom": {
+    "message": "การลบชั้นเรียนจะลบการโต้ตอบในชั้นเรียนที่เผยแพร่ในห้องเรียนนั้นและยืนยันการลบหรือไม่",
+    "description": "2.0 course.js"
+  },
+  "copyClassroomToClass": {
+    "message": "คัดลอกชั้นเรียนไปยังชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "copyClassroomTip": {
+    "message": "(กิจกรรมหลังจากคัดลอกไม่ได้เริ่มต้นคุณสามารถเริ่มต้นกิจกรรมเหล่านี้หลังจากชั้นเรียนและชื่อ / กิจกรรมการเลือกไม่สามารถคัดลอก)",
+    "description": "2.0 course.js"
+  },
+  "copySuccess": {
+    "message": "การจําลองแบบเสร็จเรียบร้อยแล้ว",
+    "description": "2.0 course.js"
+  },
+  "copyFailed": {
+    "message": "การจําลองแบบล้มเหลว",
+    "description": "2.0 course.js"
+  },
+  "editClassroom": {
+    "message": "แก้ไขชั้นเรียน",
+    "description": "2.0 course.js"
+  },
+  "classErrorTip": {
+    "message": "ชั้นเรียนต้องไม่ว่างเปล่า",
+    "description": "2.0 course.js"
+  },
   "faceAuthentication": {
     "message": "การยืนยันตนด้วยใบหน้า",
+    "description": "2.0 course.js"
+  },
+  "classsroomHeadTips1": {
+    "message": "สําหรับสถานการณ์การสอนในชั้นเรียนแบบออฟไลน์ครูสามารถนําเสนอ PPT ในห้องเรียนเผยแพร่กิจกรรมในชั้นเรียนเช่นชื่อการเลือกการฉกคะแนนและคะแนน",
+    "description": "2.0 course.js"
+  },
+  "cannotView": {
+    "message": "การแสดงตัวอย่างไม่ได้รับการสนับสนุนชั่วคราวสําหรับกิจกรรมในอดีต",
+    "description": "2.0 course.js"
+  },
+  "ltiErrorTip": {
+    "message": "เพจไม่สามารถเข้าถึงได้ ให้ติดต่อผู้ดูแลระบบของคุณเพื่อตรวจสอบการกําหนดค่าแอป",
+    "description": "2.0 course.js"
+  },
+  "courseInfo": {
+    "message": "ข้อมูลหลักสูตร",
+    "description": "2.0 course.js"
+  },
+  "menuManage": {
+    "message": "การจัดการเมนู",
+    "description": "2.0 course.js"
+  },
+  "menuManageTip": {
+    "message": "ผู้ดูแลระบบหลักสูตรสามารถซ่อน / เปิดเมนูที่นี่หรือเปลี่ยนหน้าแรกของหลักสูตร เมนูที่ซ่อนอยู่ซึ่งครูและนักเรียนทุกคนในหลักสูตรจะไม่สามารถมองเห็นได้ (เมนูแต่ละเมนูจะไม่สามารถมองเห็นได้สําหรับนักเรียนเท่านั้น) และทางเข้าด้านแอปจะถูกซ่อนไว้พร้อมกัน ตั้งค่าเมนูเป็นหน้าแรกของหลักสูตรและหน้าเมนูจะเปิดขึ้นโดยค่าเริ่มต้นเมื่อด้านพีซีเข้าสู่หลักสูตร",
+    "description": "2.0 course.js"
+  },
+  "setAsIndex": {
+    "message": "ตั้งค่าเป็นหน้าแรกของหลักสูตร",
+    "description": "2.0 course.js"
+  },
+  "fixMenuTip": {
+    "message": "เมนูคงที่ซึ่งมองเห็นได้โดยผู้ดูแลหลักสูตรเท่านั้นและไม่สามารถซ่อนได้",
+    "description": "2.0 course.js"
+  },
+  "hideForStu": {
+    "message": "การซ่อนจะมีผลกับนักเรียนเท่านั้น",
+    "description": "2.0 course.js"
+  },
+  "hideIndexTip": {
+    "message": "หน้าแรกของหลักสูตรไม่สามารถซ่อนได้ หากต้องการซ่อนเมนูให้ตั้งค่าเมนูอื่นเป็นหน้าแรกของหลักสูตรก่อน",
+    "description": "2.0 course.js"
+  },
+  "noStudentJoin": {
+    "message": "ไม่มีใครเข้าร่วม",
+    "description": "2.0 course.js"
+  },
+  "liveType": {
+    "message": "ประเภทสตรีมแบบสด",
+    "description": "2.0 course.js"
+  },
+  "liveType1": {
+    "message": "แสดงการโต้ตอบ",
+    "description": "2.0 course.js"
+  },
+  "liveType2": {
+    "message": "พอลลี่เวย์",
+    "description": "2.0 course.js"
+  },
+  "liveType3": {
+    "message": "เมฆโทโพโลยี",
+    "description": "2.0 course.js"
+  },
+  "liveBack": {
+    "message": "การเล่นแบบสด",
+    "description": "2.0 course.js"
+  },
+  "moreApp": {
+    "message": "แอปเพิ่มเติม",
+    "description": "2.0 course.js"
+  },
+  "addApp": {
+    "message": "เพิ่มแอป",
+    "description": "2.0 course.js"
+  },
+  "clickToGetMoreApp": {
+    "message": "คลิกปุ่มด้านขวาเพื่อเพิ่มแอปเพิ่มเติม",
+    "description": "2.0 course.js"
+  },
+  "appSupportTip": {
+    "message": "ครูสนับสนุนเฉพาะด้านพีซีเท่านั้นและพีซี/ แอปของนักเรียนจะพร้อมใช้งาน",
+    "description": "2.0 course.js"
+  },
+  "appSupportTip2": {
+    "message": "รองรับเฉพาะด้านพีซีเท่านั้น",
+    "description": "2.0 course.js"
+  },
+  "unAdd": {
+    "message": "ไม่ได้เพิ่ม",
+    "description": "2.0 course.js"
+  },
+  "hasAdd": {
+    "message": "ถูกเพิ่มลงในหลักสูตรแล้ว",
+    "description": "2.0 course.js"
+  },
+  "searchNull": {
+    "message": "ไม่พบแอปนี้",
     "description": "2.0 course.js"
   }
 }

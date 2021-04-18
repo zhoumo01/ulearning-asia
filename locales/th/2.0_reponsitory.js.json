@@ -23,13 +23,9 @@
     "message": "ใส่ข้อสอบ",
     "description": "2.0 reponsitory.js"
   },
-  "haveSelected": {
-    "message": "เลือกแล้ว",
-    "description": "2.0 reponsitory.js"
-  },
-  "examPapers": {
-    "message": "ชุดข้อสอบ",
-    "description": "2.0 reponsitory.js"
+  "selectedPaper": {
+    "message": "มีการเลือกเอกสารทดสอบ {n} เอกสารแล้ว",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "myExamPaper": {
     "message": "ข้อสอบของฉัน",
@@ -159,9 +155,9 @@
     "message": "ไม่มีข้อสอบ",
     "description": "2.0 reponsitory.js"
   },
-  "networkExceptionTips": {
-    "message": "อินเทอร์เนตผิดปกติ กรุณากดปุ่ม",
-    "description": "2.0 reponsitory.js"
+  "networkError": {
+    "message": "สําหรับข้อยกเว้นของเครือข่าย ให้คลิก {reloadButton}",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源 \n 课程列表 -> 上方试卷库"
   },
   "reload": {
     "message": "โหลดใหม่อีกครั้ง",
@@ -359,21 +355,17 @@
     "message": "เลือกแล้ว",
     "description": "2.0 reponsitory.js"
   },
-  "items": {
-    "message": "รายการ",
-    "description": "2.0 reponsitory.js"
+  "selectedItems": {
+    "message": "มีการเลือกรายการ {n} รายการแล้ว",
+    "description": "课程列表 -> 上方资源库 \n 课程列表 -> 上方试卷库"
   },
   "cancelMultipleSelection": {
     "message": "ยกเลิกการเลือกหลายตัวเลือก",
     "description": "2.0 reponsitory.js"
   },
-  "total": {
-    "message": "ทั้งหมด",
-    "description": "2.0 reponsitory.js"
-  },
-  "number": {
-    "message": "รายการ",
-    "description": "2.0 reponsitory.js"
+  "totalOf": {
+    "message": "รวม {n}",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源"
   },
   "size": {
     "message": "ขนาด",
@@ -519,9 +511,9 @@
     "message": "All Classify",
     "description": "2.0 reponsitory.js"
   },
-  "selectedNum": {
-    "message": "เลือกหมายเลขแล้ว:",
-    "description": "2.0 reponsitory.js"
+  "selectedCount": {
+    "message": "ปริมาณที่เลือก:{n}",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "selectRes": {
     "message": "เลือกทรัพยากร",
@@ -537,6 +529,158 @@
   },
   "resKeyword": {
     "message": "ป้อนคำหลักเพื่อค้นหาทรัพยากร",
+    "description": "2.0 reponsitory.js"
+  },
+  "archivePwdSet": {
+    "message": "ตั้งค่าหรือเปลี่ยนรหัสผ่านที่ปิดผนึกไว้",
+    "description": "2.0 reponsitory.js"
+  },
+  "tips": {
+    "message": "เคล็ดลับ",
+    "description": "2.0 reponsitory.js"
+  },
+  "unbindPhoneTips": {
+    "message": "บัญชีของคุณยังไม่ได้ผูกโทรศัพท์หรืออีเมลเพื่อป้องกันไม่ให้ลืมรหัสผ่านโปรดผูกโทรศัพท์หรืออีเมลในโปรไฟล์ของคุณก่อน",
+    "description": "2.0 reponsitory.js"
+  },
+  "toBind": {
+    "message": "ไปผูก",
+    "description": "2.0 reponsitory.js"
+  },
+  "setPaperPwd": {
+    "message": "ตั้งค่ารหัสผ่านการปิดผนึก",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperPwdTips1": {
+    "message": "หลังจากตั้งค่ารหัสผ่านที่ปิดผนึกแล้ว คุณสามารถปิดผนึกเอกสารหรือโฟลเดอร์ที่ระบุ",
+    "description": "2.0 reponsitory.js"
+  },
+  "updatePaperPwd": {
+    "message": "เปลี่ยนรหัสผ่านที่ปิดผนึกไว้",
+    "description": "2.0 reponsitory.js"
+  },
+  "oldPwd": {
+    "message": "รหัสผ่านเก่า",
+    "description": "2.0 reponsitory.js"
+  },
+  "newPwd": {
+    "message": "รหัสผ่านใหม่",
+    "description": "2.0 reponsitory.js"
+  },
+  "newPwdAgain": {
+    "message": "ป้อนรหัสผ่านใหม่อีกครั้ง",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdNullTips": {
+    "message": "กรุณาใส่รหัสผ่าน",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdErrorTips": {
+    "message": "รหัสผ่านไม่ถูกต้อง",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdRegTips": {
+    "message": "รหัสผ่านควรเป็นตัวเลขหรือตัวอักษร 6-16 หลัก",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdDifTips": {
+    "message": "รหัสผ่านที่ป้อนสองครั้งไม่สอดคล้องกัน",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPwd": {
+    "message": "ป้อนรหัสผ่าน",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputAgain": {
+    "message": "ป้อนอีกครั้ง",
+    "description": "2.0 reponsitory.js"
+  },
+  "deletePaperPwd": {
+    "message": "ลบรหัสผ่านที่ปิดผนึกไว้",
+    "description": "2.0 reponsitory.js"
+  },
+  "deletePaperPwdTips": {
+    "message": "เมื่อคุณลบรหัสผ่านที่ปิดผนึกเอกสารและโฟลเดอร์ที่ถูกบล็อกจะถูกเปิดใช้ทั้งหมด",
+    "description": "2.0 reponsitory.js"
+  },
+  "setPaperPwdTips": {
+    "message": "หลังจากตั้งค่ารหัสผ่านที่ปิดผนึกแล้ว คุณสามารถปิดผนึกเอกสารหรือโฟลเดอร์ที่ระบุ",
+    "description": "2.0 reponsitory.js"
+  },
+  "forgetPwd": {
+    "message": "ลืมรหัสผ่าน",
+    "description": "2.0 reponsitory.js"
+  },
+  "authentication": {
+    "message": "การรับรองความถูกต้อง",
+    "description": "2.0 reponsitory.js"
+  },
+  "mail": {
+    "message": "กล่องจดหมาย",
+    "description": "2.0 reponsitory.js"
+  },
+  "sms": {
+    "message": "ข้อความโทรศัพท์มือถือ",
+    "description": "2.0 reponsitory.js"
+  },
+  "phone": {
+    "message": "หมายเลขโทรศัพท์มือถือ",
+    "description": "2.0 reponsitory.js"
+  },
+  "picCode": {
+    "message": "รหัสยืนยันกราฟิก",
+    "description": "2.0 reponsitory.js"
+  },
+  "smsCode": {
+    "message": "รหัสยืนยัน SMS",
+    "description": "2.0 reponsitory.js"
+  },
+  "mailCode": {
+    "message": "รหัสยืนยันกล่องจดหมาย",
+    "description": "2.0 reponsitory.js"
+  },
+  "getCode": {
+    "message": "รับรหัสยืนยัน",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPicCodeTips": {
+    "message": "กรุณาใส่รหัสยืนยันแบบกราฟิก",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputCodeTips": {
+    "message": "กรุณาใส่รหัสยืนยัน",
+    "description": "2.0 reponsitory.js"
+  },
+  "authType": {
+    "message": "วิธีการตรวจสอบความถูกต้อง",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperLock": {
+    "message": "ปิดผนึก",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperUnLock": {
+    "message": "unsปิดผนึก",
+    "description": "2.0 reponsitory.js"
+  },
+  "sharedPaperLockTips": {
+    "message": "ไม่สามารถปิดผนึกเอกสารหรือโฟลเดอร์ที่ใช้ร่วมกันได้",
+    "description": "2.0 reponsitory.js"
+  },
+  "operateSuccess": {
+    "message": "การดําเนินการเสร็จเรียบร้อยแล้ว",
+    "description": "2.0 reponsitory.js"
+  },
+  "sendSuccess": {
+    "message": "การดําเนินการเสร็จเรียบร้อยแล้ว",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPaperPwd": {
+    "message": "ป้อนรหัสผ่านที่ปิดผนึกไว้",
+    "description": "2.0 reponsitory.js"
+  },
+  "codeTimerTips": {
+    "message": "{n} วินาทีต่อมาสามารถรับได้อีกครั้ง",
     "description": "2.0 reponsitory.js"
   }
 }
