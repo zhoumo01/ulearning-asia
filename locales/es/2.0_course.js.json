@@ -72,7 +72,7 @@
     "description": "2.0 course.js"
   },
   "discusstion": {
-    "message": "Discutir",
+    "message": "Debate",
     "description": "2.0 course.js"
   },
   "classroom": {
@@ -907,6 +907,10 @@
     "message": "Fecha límite de examen",
     "description": "2.0 course.js"
   },
+  "scoreCol": {
+    "message": "puntos",
+    "description": "2.0 course.js"
+  },
   "totalScore": {
     "message": "Puntaje total",
     "description": "2.0 course.js"
@@ -1572,7 +1576,7 @@
     "description": "2.0 course.js"
   },
   "discussionHeadTips": {
-    "message": "\"La discusión abierta ayuda a los estudiantes a pensar profundamente. Puede publicar temas aquí y organizar a los estudiantes para discutir. Los administradores del curso pueden iniciar discusiones en todas las clases, y los maestros y asistentes de enseñanza solo pueden iniciar discusiones en sus propias clases.\"",
+    "message": "\"El Debate abierta ayuda a los estudiantes a pensar profundamente. Puede publicar temas aquí y organizar a los estudiantes para discutir. Los administradores del curso pueden iniciar debates en todas las clases, y los maestros y asistentes de enseñanza solo pueden iniciar discusiones en sus propias clases.\"",
     "description": "2.0 course.js"
   },
   "yourPosts": {
@@ -1797,6 +1801,14 @@
   },
   "orderNumber": {
     "message": "Número de serie",
+    "description": "2.0 course.js"
+  },
+  "orderNumberPrefix": {
+    "message": "número de serie:",
+    "description": "2.0 course.js"
+  },
+  "textbookPrefix": {
+    "message": "materiales didácticos:",
     "description": "2.0 course.js"
   },
   "gender": {
@@ -4815,6 +4827,18 @@
     "message": "Interacción en vivo",
     "description": "2.0 course.js"
   },
+  "signArea": {
+    "message": "Área de firma",
+    "description": "2.0 course.js"
+  },
+  "resetSign": {
+    "message": "Volver a firmar",
+    "description": "2.0 course.js"
+  },
+  "sureSign": {
+    "message": "confirmar",
+    "description": "2.0 course.js"
+  },
   "signIn": {
     "message": "Iniciar sesión",
     "description": "2.0 course.js"
@@ -5079,6 +5103,14 @@
     "message": "Ver el número de vídeos.",
     "description": "2.0 course.js"
   },
+  "videoViewTime": {
+    "message": "Ver la duración del vídeo.",
+    "description": "2.0 course.js"
+  },
+  "videoViewTime2": {
+    "message": "Ver duración del vídeo (minutos)",
+    "description": "2.0 course.js"
+  },
   "docViewNum": {
     "message": "Ver el número de documentos.",
     "description": "2.0 course.js"
@@ -5124,6 +5156,10 @@
     "description": "2.0 course.js"
   },
   "goToJoinTheCourse": {
+    "message": "Vaya a la app ULearning 2.0 para unirse a la clase.",
+    "description": "2.0 course.js"
+  },
+  "goToActiveCode": {
     "message": "Vaya a la app ULearning 2.0 para unirse a la clase.",
     "description": "2.0 course.js"
   },
@@ -5179,12 +5215,24 @@
     "message": "El nombre en vivo no puede estar vacío.",
     "description": "2.0 course.js"
   },
+  "liveNameNotEmptyNew": {
+    "message": "El nombre en vivo debe tener entre 1 y 200 caracteres",
+    "description": "2.0 course.js"
+  },
   "speakerNotEmpty": {
     "message": "El nombre del presentador no puede estar vacío.",
     "description": "2.0 course.js"
   },
+  "speakerNotEmptyNew": {
+    "message": "El presentador debe tener entre 1 y 50 caracteres",
+    "description": "2.0 course.js"
+  },
   "liveDescNotEmpty": {
     "message": "El perfil en vivo no puede estar vacío.",
+    "description": "2.0 course.js"
+  },
+  "liveDescNotEmptyNew": {
+    "message": "La introducción en vivo debe tener entre 1 y 500 caracteres",
     "description": "2.0 course.js"
   },
   "startTimeNotEmpty": {
@@ -5291,6 +5339,10 @@
     "message": "Elimine la clase.",
     "description": "2.0 course.js"
   },
+  "confirmDeleteClassroom": {
+    "message": "Quitar una clase eliminará las interacciones del aula publicadas en esa clase, ¿aceptará eliminar?",
+    "description": "2.0 course.js"
+  },
   "copyClassroomToClass": {
     "message": "Copie la clase en la clase.",
     "description": "2.0 course.js"
@@ -5358,5 +5410,137 @@
   "hideIndexTip": {
     "message": "La página de inicio del curso no se puede ocultar. Para ocultar el menú, establezca primero el otro menú en la página de inicio del curso.",
     "description": "2.0 course.js"
+  },
+  "noStudentJoin": {
+    "message": "Nadie asistió",
+    "description": "2.0 course.js"
+  },
+  "liveType": {
+    "message": "El tipo de transmisión en vivo",
+    "description": "2.0 course.js"
+  },
+  "liveType3": {
+    "message": "TalkCloud",
+    "description": "2.0 course.js"
+  },
+  "liveBack": {
+    "message": "Reproducción en vivo",
+    "description": "2.0 course.js"
+  },
+  "moreApp": {
+    "message": "Más aplicaciones",
+    "description": "2.0 course.js"
+  },
+  "addApp": {
+    "message": "Agregar una aplicación.",
+    "description": "2.0 course.js"
+  },
+  "clickToGetMoreApp": {
+    "message": "Haga clic en el botón derecho para agregar más aplicaciones",
+    "description": "2.0 course.js"
+  },
+  "appSupportTip": {
+    "message": "Los profesores solo admiten el uso del lado del PC, y los PC/APPS de los estudiantes están disponibles",
+    "description": "2.0 course.js"
+  },
+  "appSupportTip2": {
+    "message": "Solo se admite el uso del lado del PC",
+    "description": "2.0 course.js"
+  },
+  "unAdd": {
+    "message": "No añadido",
+    "description": "2.0 course.js"
+  },
+  "hasAdd": {
+    "message": "Añadido al curso",
+    "description": "2.0 course.js"
+  },
+  "searchNull": {
+    "message": "Esta aplicación no se buscó",
+    "description": "2.0 course.js"
+  },
+  "activateAccount": {
+    "message": "Activa tu cuenta:",
+    "description": "2.0 course.js"
+  },
+  "activateErrorTip": {
+    "message": "Los códigos de activación solo se pueden utilizar una vez. Si no es activado por mí, puede confirmar con los estudiantes si tomar los materiales de enseñanza equivocados, o ponerse en contacto con el servicio de atención al cliente.",
+    "description": "2.0 course.js"
+  },
+  "activateMismatch": {
+    "message": "El código de activación no coincide con el material de curso actual",
+    "description": "2.0 course.js"
+  },
+  "textbookNumber": {
+    "message": "Número de serie del libro de texto:",
+    "description": "2.0 course.js"
+  },
+  "textbookName": {
+    "message": "Nombre del libro de texto",
+    "description": "2.0 course.js"
+  },
+  "sureActivateAccount": {
+    "message": "¿Está seguro de que desea activar bajo su cuenta corriente?",
+    "description": "2.0 course.js"
+  },
+  "activateTextbook": {
+    "message": "Activar libro de texto",
+    "description": "2.0 course.js"
+  },
+  "activateSuccess": {
+    "message": "La activación fue exitosa",
+    "description": "2.0 course.js"
+  },
+  "queryActivate": {
+    "message": "Determinar la activación",
+    "description": "2.0 course.js"
+  },
+  "iKnowThat": {
+    "message": "Entendido",
+    "description": "2.0 course.js"
+  },
+  "goToSee": {
+    "message": "Ir a revisar",
+    "description": "2.0 course.js"
+  },
+  "memberSpocValidateTips29": {
+    "message": "Los estudiantes están obligados a aprobar cuando salen de la clase",
+    "description": "2.0 course.js"
+  },
+  "joinExistClassApply": {
+    "message": "Solicitar turnos adicionales",
+    "description": "2.0 course.js"
+  },
+  "applyType": {
+    "message": "El tipo de aplicación",
+    "description": "2.0 course.js"
+  },
+  "applyDate": {
+    "message": "Fecha de solicitud",
+    "description": "2.0 course.js"
+  },
+  "allApplyType": {
+    "message": "Todos los tipos",
+    "description": "2.0 course.js"
+  },
+  "joinApply": {
+    "message": "Unirse a clase",
+    "description": "2.0 course.js"
+  },
+  "exitApply": {
+    "message": "Salir de la clase",
+    "description": "2.0 course.js"
+  },
+  "exportLiveTip1": {
+    "message": "Por favor, introduzca la hora",
+    "description": "2.0 course.js"
+  },
+  "exportLiveTip2": {
+    "message": "Por favor, seleccione el estado",
+    "description": "2.0 course.js"
+  },
+  "anchorName": {
+    "message": "Por favor, ingrese su nombre.",
+    "description": "指主播第一次进入直播间, 会提示用户输入主播姓名"
   }
 }

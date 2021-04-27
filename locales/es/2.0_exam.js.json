@@ -663,6 +663,10 @@
     "message": "Terminado",
     "description": "2.0 exam.js"
   },
+  "lateTimeSet": {
+    "message": "Tiempo de retraso:",
+    "description": "2.0 exam.js"
+  },
   "myself": {
     "message": "Yo",
     "description": "2.0 exam.js"
@@ -2699,6 +2703,38 @@
     "message": "borrar foto",
     "description": "2.0 exam.js"
   },
+  "deletePhoto2": {
+    "message": "Eliminar fotos tomadas",
+    "description": "2.0 exam.js"
+  },
+  "replaceDevice": {
+    "message": "Reemplazar el equipo",
+    "description": "2.0 exam.js"
+  },
+  "replaceIp": {
+    "message": "Reemplazar la IP",
+    "description": "2.0 exam.js"
+  },
+  "systemPhoto": {
+    "message": "El sistema captura fotos",
+    "description": "2.0 exam.js"
+  },
+  "inCorrectPhoto": {
+    "message": "La foto no me corresponde",
+    "description": "2.0 exam.js"
+  },
+  "photoRemoved": {
+    "message": "La foto ha sido eliminada",
+    "description": "2.0 exam.js"
+  },
+  "confirmDeletePhoto": {
+    "message": "¿Está seguro de que desea eliminar instantáneas de todos los alumnos de su clase actual?",
+    "description": "2.0 exam.js"
+  },
+  "confirmDeletePhoto2": {
+    "message": "¿Está seguro de que desea eliminar los snaps del estudiante?",
+    "description": "2.0 exam.js"
+  },
   "recordShowAfterSubmit": {
     "message": "El examen se muestra tan pronto como se entrega.",
     "description": "2.0 exam.js"
@@ -2729,6 +2765,258 @@
   },
   "faceServiceTips": {
     "message": "Reconocimiento facial y supervisión de captura para un servicio basado en tarifas, su organización aún no ha abierto, si necesita abrir, póngase en contacto con el servicio de atención al cliente.",
+    "description": "2.0 exam.js"
+  },
+  "offlineTip": {
+    "message": "Configure la dirección del examen sin conexión antes de realizar el examen",
+    "description": "2.0 {filename}"
+  },
+  "restoreLocalRecord": {
+    "message": "Restaurar el registro de respuestas local",
+    "description": "2.0 {filename}"
+  },
+  "findExamTip": {
+    "message": "Si no encuentras el examen que debes realizar en la lista de exámenes a continuación, comprueba que has iniciado sesión en la cuenta correcta o si estás en la clase correcta.",
+    "description": "2.0 {filename}"
+  },
+  "faceServiceTipsNew": {
+    "message": "Reconocimiento facial y monitoreo de cámaras para un servicio de tarifa, su organización aún no está abierta, si necesita abrir, póngase en contacto con el servicio de atención al cliente",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCWeb": {
+    "message": "Solo páginas de ordenadores",
+    "description": "2.0 exam.js"
+  },
+  "onlyMobile": {
+    "message": "Solo aplicación móvil",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExe": {
+    "message": "Sólo el cliente de pantalla de bloqueo del ordenador",
+    "description": "2.0 exam.js"
+  },
+  "PCExe": {
+    "message": "El cliente de pantalla de bloqueo del ordenador",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeTips1": {
+    "message": "Seleccione esto, antes de que el examen debe estar instalado en el equipo excelente cliente de examen de la universidad, actualmente sólo es compatible con el sistema Win7, no es compatible con Mac. Para evitar anomalías en los exámenes formales, se recomienda programar un examen simulado con anticipación para las pruebas.",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration": {
+    "message": "Duración de la respuesta",
+    "description": "2.0 exam.js"
+  },
+  "resultPublic": {
+    "message": "El alcance de la publicación",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorItem": {
+    "message": "Encienda la supervisión de la cámara, incluida la captura de procesos, la detección de actitudes de IA y la grabación de anomalías",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorTips": {
+    "message": "Los candidatos están obligados a encender la cámara durante todo el proceso y mantener la imagen estable, apoyando sólo los exámenes por computadora",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent": {
+    "message": "La monitorización de la cámara incluye:",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent1": {
+    "message": "1. Captura del proceso: Tome una foto del candidato cada 1 minuto.",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent2": {
+    "message": "2.AI detección de actitud: el sistema a través de la monitorización en tiempo real de la postura física del candidato, puede detectar y registrar al candidato para dejar el asiento, desviación de la línea de visión a largo plazo y otras condiciones anormales.",
+    "description": "2.0 exam.js"
+  },
+  "openMonitorContent3": {
+    "message": "3. Grabación de situaciones anormales: Cuando el sistema detecta una actitud anormal, el clip de vídeo anormal se graba automáticamente y se carga para su posterior revisión.",
+    "description": "2.0 exam.js"
+  },
+  "cameraMonitor": {
+    "message": "Monitorización de la cámara",
+    "description": "2.0 exam.js"
+  },
+  "PCExe1": {
+    "message": "El cliente de la computadora",
+    "description": "2.0 exam.js"
+  },
+  "PCweb": {
+    "message": "Página web del ordenador",
+    "description": "2.0 exam.js"
+  },
+  "examHeadTips5": {
+    "message": "Aquí están todos los exámenes publicados por el maestro, por favor revise los detalles de cada examen cuidadosamente antes de ingresar al examen.",
+    "description": "2.0 exam.js"
+  },
+  "downloadPCExe": {
+    "message": "Descargue el cliente del examen",
+    "description": "2.0 exam.js"
+  },
+  "webEnvTest": {
+    "message": "Detección del entorno de exámenes web",
+    "description": "2.0 exam.js"
+  },
+  "examFaceVerification": {
+    "message": "Certificación de cara de prueba",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeBtnTips": {
+    "message": "Por favor, utilice el cliente de examen de You Academy para tomar el examen",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCWebBtnTips": {
+    "message": "Utilice su navegador para realizar el examen en el lado web",
+    "description": "2.0 exam.js"
+  },
+  "monitorRecords": {
+    "message": "Registros de monitores",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminder": {
+    "message": "Recordatorio de excepción",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderFilter": {
+    "message": "Filtrar información de excepción",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderTitle1": {
+    "message": "La trayectoria de la respuesta es anormal",
+    "description": "2.0 exam.js"
+  },
+  "mobileExam": {
+    "message": "Examen en teléfono celular",
+    "description": "2.0 exam.js"
+  },
+  "exception1": {
+    "message": "Deje la página > 5 segundos",
+    "description": "2.0 exam.js"
+  },
+  "exception2": {
+    "message": "El sistema obliga a entregar el volumen",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderTitle2": {
+    "message": "Postura inusual",
+    "description": "2.0 exam.js"
+  },
+  "leaveSeat": {
+    "message": "Deja tu asiento",
+    "description": "2.0 exam.js"
+  },
+  "deviation": {
+    "message": "La línea de visión se desvió > 2 segundos",
+    "description": "2.0 exam.js"
+  },
+  "deviation1": {
+    "message": "La línea de visión se desvía",
+    "description": "2.0 exam.js"
+  },
+  "talk": {
+    "message": "Hacer cara a cara con la gente",
+    "description": "2.0 exam.js"
+  },
+  "examMonitorRecords": {
+    "message": "Registros de monitoreo de exámenes",
+    "description": "2.0 exam.js"
+  },
+  "answerTrack": {
+    "message": "Pista de respuesta",
+    "description": "2.0 exam.js"
+  },
+  "clearfixMonitorRecords": {
+    "message": "Vacíe el registro de supervisión",
+    "description": "2.0 exam.js"
+  },
+  "normalState": {
+    "message": "El estado está bien",
+    "description": "2.0 exam.js"
+  },
+  "confirmClearMonitorRecords": {
+    "message": "¿Está seguro de que desea vaciar los registros de supervisión?",
+    "description": "2.0 exam.js"
+  },
+  "UTestName": {
+    "message": "Sistema de exámenes U-Test",
+    "description": "2.0 exam.js"
+  },
+  "UTestInputName": {
+    "message": "Ingrese el número de cuenta",
+    "description": "2.0 exam.js"
+  },
+  "UTestInputPsd": {
+    "message": "Por favor introduzca la contraseña",
+    "description": "2.0 exam.js"
+  },
+  "UTestLoginErr": {
+    "message": "Nombre de usuario o contraseña incorrectos",
+    "description": "2.0 exam.js"
+  },
+  "UTestLogin": {
+    "message": "Iniciar sesión",
+    "description": "2.0 exam.js"
+  },
+  "UTestLogout": {
+    "message": "salir",
+    "description": "2.0 exam.js"
+  },
+  "UTestDesc": {
+    "message": "Descripción: Este cliente solo admite a los estudiantes para que tomen el examen, registren una cuenta, se unan a la clase y otras operaciones, inicie sesión en la página web o app de U.S. College con anticipación para completar",
+    "description": "2.0 exam.js"
+  },
+  "recoverLocalExamRecord": {
+    "message": "Restaurar el registro de respuestas local",
+    "description": "2.0 exam.js"
+  },
+  "ISee": {
+    "message": "Entendido",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips1": {
+    "message": "No hay registro local de respuestas",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips2": {
+    "message": "Nota: Los registros de respuesta locales están diseñados para evitar la pérdida de registros de respuesta debido a situaciones extremas como la desconexión y, en la mayoría de los casos, no requieren recuperación manual. La restauración del registro de respuesta local sobrescribirá el registro de respuesta que se ha cargado en la plataforma. Por lo tanto, si necesita recuperarse, tenga cuidado al comparar el tiempo que se tarda en registrar las respuestas.",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips3": {
+    "message": "Se ha presentado el registro de respuesta para este examen y no se puede restaurar el registro de respuesta local.",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips4": {
+    "message": "El registro de respuesta guardado por la plataforma es relativamente nuevo en comparación con el registro de respuesta local, con el fin de evitar que la puntuación se sobrescriba, el registro de respuesta no se puede restaurar.",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips5": {
+    "message": "La restauración del registro de respuesta local sobrescribirá el registro de respuesta cargado por la plataforma.",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTime": {
+    "message": "Registro de respuestas local ahorra tiempo",
+    "description": "2.0 exam.js"
+  },
+  "remoteRecordTime": {
+    "message": "Registro de respuesta de plataforma ahorra tiempo",
+    "description": "2.0 exam.js"
+  },
+  "confirmRecover": {
+    "message": "Determinar la recuperación",
+    "description": "2.0 exam.js"
+  },
+  "comfirmDelete": {
+    "message": "Confirmar eliminación",
+    "description": "2.0 exam.js"
+  },
+  "recover": {
+    "message": "Restaurar",
+    "description": "2.0 exam.js"
+  },
+  "recoverErrorTips": {
+    "message": "La recuperación falló, por favor inténtelo de nuevo más tarde!",
     "description": "2.0 exam.js"
   }
 }
