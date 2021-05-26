@@ -19,14 +19,6 @@
     "message": "文件大小",
     "description": "UA"
   },
-  "ISBN1": {
-    "message": "ISBN号（国内）",
-    "description": "UA"
-  },
-  "ISBN2": {
-    "message": "ISBN号（国外）",
-    "description": "UA"
-  },
   "Language": {
     "message": "语言",
     "description": "UA"
@@ -2155,10 +2147,6 @@
     "message": "不显示购买/加入课程按钮",
     "description": "UA"
   },
-  "notSupportChinese": {
-    "message": "不支持中文",
-    "description": "UA"
-  },
   "notSupportPunctuation": {
     "message": "支持输入空格",
     "description": "UA"
@@ -3675,12 +3663,8 @@
     "message": "课件每个页面对应一张二维码，若删除课程页面，将导致该二维码无法访问！",
     "description": "UA"
   },
-  "haveChoosen": {
-    "message": "已选",
-    "description": "UA"
-  },
-  "itemNum": {
-    "message": "项",
+  "hasChoosen": {
+    "message": "已选{n}项",
     "description": "UA"
   },
   "allResource": {
@@ -4221,6 +4205,10 @@
   },
   "micPermissionTips": {
     "message": "您已禁止麦克风权限，无法使用此功能，请进入手机【设置】进行授权。",
+    "description": "UA"
+  },
+  "isbnFormatError": {
+    "message": "请输入 ISBN-10 或 ISBN-13 编码",
     "description": "UA"
   }
 }
