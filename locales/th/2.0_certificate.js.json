@@ -8,7 +8,7 @@
     "description": "2.0 certification.js "
   },
   "excellenceStuList": {
-    "message": "รายชื่อนักเรียนยอดเยี่ยม",
+    "message": "รายชื่อนักเรียนดีเด่น",
     "description": "2.0 certification.js "
   },
   "unqualifiedStuList": {
@@ -24,7 +24,7 @@
     "description": "2.0 certification.js "
   },
   "certificateConfirm": {
-    "message": "คุณแน่ใจหรือไม่ว่าคุณออกใบรับรอง",
+    "message": "แน่ใจว่าต้องการออกใบประกาศนียบัตร?",
     "description": "2.0 certificate.js"
   },
   "certificateIssuedSuccess": {
@@ -44,7 +44,7 @@
     "description": "2.0 certification.js "
   },
   "issueCertificate": {
-    "message": "แจกประกาศนียบัตร",
+    "message": "แจกใบประกาศนียบัตร",
     "description": "2.0 certification.js "
   },
   "refreshFailed": {
@@ -52,7 +52,7 @@
     "description": "2.0 certification.js "
   },
   "excellent": {
-    "message": "ยอดเยี่ยม",
+    "message": "ดีเด่น",
     "description": "2.0 certification.js "
   },
   "certificateManagement": {
@@ -67,20 +67,144 @@
     "message": "ตั้งค่าประกาศนียบัตร",
     "description": "2.0 certification.js "
   },
+  "certificateTemplate": {
+    "message": "แม่แบบใบประกาศนียบัตรของฉัน",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificate": {
+    "message": "สร้างแม่แบบใหม่",
+    "description": "2.0 certificate.js"
+  },
+  "createBgImage": {
+    "message": "ภาพพื้นหลัง",
+    "description": "2.0 certificate.js"
+  },
+  "studentName": {
+    "message": "ชื่อและนามสกุลของนักเรียน",
+    "description": "2.0 certificate.js"
+  },
+  "certificateBody": {
+    "message": "เนื้อความของใบประกาศนียบัตร",
+    "description": "2.0 certificate.js"
+  },
+  "certificateNum": {
+    "message": "หมายเลขประกาศนียบัตร",
+    "description": "2.0 certificate.js"
+  },
+  "createDate": {
+    "message": "วันที่ออกใบประกาศนียบัตร",
+    "description": "2.0 certificate.js"
+  },
+  "createSignature": {
+    "message": "ลายเซ็นอิเล็กทรอนิกส์",
+    "description": "2.0 certificate.js"
+  },
+  "issuingUnit": {
+    "message": "หน่วยที่ออกใบประกาศนียบัตร",
+    "description": "2.0 certificate.js"
+  },
+  "operating": {
+    "message": "คําแนะนําการใช้งาน:",
+    "description": "2.0 certificate.js"
+  },
+  "changeBg": {
+    "message": "เปลี่ยนใหม่",
+    "description": "2.0 certificate.js"
+  },
+  "editText": {
+    "message": "แก้ไข",
+    "description": "2.0 certificate.js"
+  },
+  "scanCode": {
+    "message": "สแกน",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip1": {
+    "message": "เลือกรูปแบบโครงร่างแม่แบบใบประกาศนียบัตร",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip2": {
+    "message": "แสดงตัวอย่างแม่แบบใบประกาศนียบัตร",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip3": {
+    "message": "1.ภาพพื้นหลังจำเป็นต้องเลือก คลิก“เปลี่ยนใหม่”แล้วอัปโหลดภาพพื้นหลังเพื่อทำการปรับแต่งเอง  รองรับภาพในรูปแบบ jpg/jpeg/png ไม่เกิน2M ขนาดที่แนะนำคือ1754px*1240px (ขนาด A4) ",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip4": {
+    "message": "2.【เนื้อความของใบประกาศนียบัตร】สามารถแก้ไขได้เอง【ลายเซ็นอิเล็กทรอนิกส์】สามารถสแกนแล้วอัปโหลดลายเซ็น หลังเลือกรายการนี้แล้วจะมีปุ่มการทำงานน๊า",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip5": {
+    "message": "3. [ชื่อและนามสกุลของนักเรียน]  [หน่วยที่ออกใบประกาศนียบัตร] ให้ความสำคัญกับข้อมูลส่วนบุคคลของผู้ใช้ที่เป็นนักเรียน หากเลือกตัวเลือกนี้ ระบบจะจับคู่โดยอัตโนมัติเมื่อออกใบประกาศนียบัตร โปรดแจ้งให้นักเรียนใช้ชื่อจริงในศูนย์ส่วนบุคคล",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip6": {
+    "message": "4. [หมายเลขใบรัประกาศนียบัตร] และ [เวลาที่ออกใบประกาศนียบัตร] จะถูกสร้างขึ้นอัตโนมัติโดยระบบ ไม่สามารถแก้ไขได้ หากเลือกตัวเลือกนี้ ระบบจะสร้างใบประกาศนียบัตรโดยอัตโนมัติเมื่อต้องออกใบประกาศนียบัตร",
+    "description": "2.0 certificate.js"
+  },
+  "noFinish": {
+    "message": "ลายเซ็นอิเล็กทรอนิกส์ที่คุณเลือกยังไม่เสร็จสมบูรณ์ กรุณา{finishSign}หรือไม่ก็{cancelSelect}",
+    "description": "{finishSign} 和 {cancelSelect} 是两个按钮，完整句子为：您选择的电子签名未完成，请 完成签名 或 取消选择"
+  },
+  "finishSign": {
+    "message": "เซ็นชื่อเสร็จสมบูรณ์",
+    "description": "2.0 certificate.js"
+  },
+  "cancelSelect": {
+    "message": "ยกเลิกการเลือก",
+    "description": "2.0 certificate.js"
+  },
+  "cropBgImg": {
+    "message": "จับภาพพื้นหลัง",
+    "description": "2.0 certificate.js"
+  },
+  "editTemplateName": {
+    "message": "แก้ไขชื่อแม่แบบ",
+    "description": "2.0 certificate.js"
+  },
+  "newTemplateTip": {
+    "message": "กรุณาใส่ชื่อแม่แบบ",
+    "description": "2.0 certificate.js"
+  },
+  "editTemplateTip": {
+    "message": "หมายเหตุ: ชื่อแม่แบบไม่สามารถทําซ้ําได้",
+    "description": "2.0 certificate.js"
+  },
+  "outTime": {
+    "message": "หมดเวลาสแกน",
+    "description": "2.0 certificate.js"
+  },
+  "eligibleCertificateTem": {
+    "message": "แม่แบบใบประกาศนียบัตรผ่านเกณฑ์",
+    "description": "2.0 certificate.js"
+  },
+  "excellentCertificateTem": {
+    "message": "แม่แบบใบประกาศนียบัตรดีเด่น",
+    "description": "2.0 certificate.js"
+  },
+  "systemTemplate": {
+    "message": "แม่แบบของระบบ",
+    "description": "2.0 certificate.js"
+  },
+  "selectTemplate": {
+    "message": "เลือกแม่แบบ",
+    "description": "2.0 certificate.js"
+  },
   "refreshGrade": {
-    "message": "รีเฟรชผลการเรียน",
+    "message": "รีเฟรชผลคะแนนการเรียน",
     "description": "2.0 certification.js "
   },
   "exportList": {
-    "message": "นำรายชื่อออก",
+    "message": "ส่งออกรายชื่อ",
     "description": "2.0 certification.js "
   },
   "certSummary": {
-    "message": "จํานวนนักเรียนในหลักสูตรนี้คือ {total} ตามเงื่อนไขการได้รับใบรับรองจํานวนผู้มีสิทธิ์ {qualified} จํานวนผู้ไม่ผ่านการรับรอง {unqualified} อัตราการผ่าน {rate}%",
+    "message": "จํานวนนักเรียนในหลักสูตรนี้คือ {total} คน ตามเงื่อนไขการได้รับใบประกาศนียบัตร จํานวนผู้มีสิทธิ์ {qualified}คน จํานวนผู้ไม่ผ่านเกณฑ์ {unqualified}คน  อัตราการผ่านเกณฑ์ {rate}%",
     "description": "教师账户 -> 考核 -> 证书管理"
   },
   "certSummary2": {
-    "message": "จํานวนนักเรียนในหลักสูตรนี้คือ {total} ตามเงื่อนไขการได้รับใบรับรอง จํานวนนักเรียนที่มีสิทธิ์ {qualified}, จํานวนนักเรียนที่ไม่มีสิทธิ์ {unqualified}, อัตราการผ่าน {rate}, อัตราความเป็นเลิศ {excellent}%",
+    "message": "จํานวนนักเรียนในหลักสูตรนี้คือ {total} คน ตามเงื่อนไขการได้รับใบประกาศนียบัตร จํานวนนักเรียนที่ผ่านเกณฑ์ {qualified} คน, จํานวนนักเรียนที่ไม่ผ่านเกณฑ์ {unqualified} คน, อัตราการผ่านเกณฑ์ {rate}%, อัตราดีเด่น {excellent}%",
     "description": "教师账户 -> 考核 -> 证书管理"
   },
   "type": {
@@ -88,8 +212,16 @@
     "description": "2.0 certification.js "
   },
   "certificateRequest": {
-    "message": "ความต้องการของประกาศนียบัตร",
+    "message": "ข้อกําหนดของใบประกาศนียบัตร",
     "description": "2.0 certification.js "
+  },
+  "selectedCertificateTem": {
+    "message": " แม่แบบใบประกาศนียบัตรที่เลือก",
+    "description": "2.0 certificate.js"
+  },
+  "preview": {
+    "message": "แสดงตัวอย่าง",
+    "description": "2.0 certificate.js"
   },
   "passNum": {
     "message": "จำนวนคนที่ผ่านเกณฑ์",
@@ -107,24 +239,156 @@
     "message": "ตัวอย่าง",
     "description": "2.0 certification.js "
   },
+  "sureSelect": {
+    "message": "ยืนยันการเลือก",
+    "description": "2.0 certificate.js"
+  },
+  "createTemplate": {
+    "message": "สร้างแม่แบบใหม่",
+    "description": "2.0 certificate.js"
+  },
+  "createTemplate2": {
+    "message": "สร้างแม่แบบใบประกาศนียบัตรใหม่",
+    "description": "2.0 certificate.js"
+  },
+  "editTemplate": {
+    "message": "แก้ไขแม่แบบ",
+    "description": "2.0 certificate.js"
+  },
+  "signErrorTip": {
+    "message": "โปรดเลือกลายเซ็นอิเล็กทรอนิกส์ก่อน",
+    "description": "2.0 certificate.js"
+  },
+  "electronicSignature": {
+    "message": "ลายเซ็นอิเล็กทรอนิกส์",
+    "description": "2.0 certificate.js"
+  },
+  "courseName": {
+    "message": "《ชื่อหลักสูตร》",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip1": {
+    "message": "ชื่อแม่แบบห้ามเว้นว่าง",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip2": {
+    "message": "ชื่อแม่แบบห้ามซ้ำ",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip3": {
+    "message": "สร้างแม่แบบสำเร็จ",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip4": {
+    "message": "แก้ไขแม่แบบสำเร็จ",
+    "description": "2.0 certificate.js"
+  },
+  "editContent": {
+    "message": "แก้ไขเนื้อความในใบประกาศนียบัตร",
+    "description": "2.0 certificate.js"
+  },
+  "editContentTip1": {
+    "message": "หมายเหตุ: ระบบจะทำการเก็บค่าชื่อหลักสูตรที่อยู่ในเครื่องหมายชื่อหนังสือโดยอัตโนมัติ สามารถแก้ไขเนื้อหาที่อยู่ในเครื่องหมายชื่อหนังสือได้  หากชื่อหลักสูตรถูกลบพร้อมกับเครื่องหมายชื่อหนังสือ ข้อมูลระบบจะไม่สามารถนำมาจากแม่แบบได้โดยอัตโนมัติ จําเป็นต้องแก้ไขด้วยตนเอง",
+    "description": "2.0 certificate.js"
+  },
+  "scanCodeTitle": {
+    "message": "กรุณาสแกนรหัสคิวอาร์โค้ดเพื่อลงนาม",
+    "description": "2.0 certificate.js"
+  },
+  "signTip": {
+    "message": "โปรดกรอกลายเซ็นภายใน{time} หน้าต่างจะปิดโดยอัตโนมัติหากลายเซ็นไม่เสร็จสิ้นภายในเวลาที่กำหนด",
+    "description": "2.0 certificate.js"
+  },
+  "defaultText": {
+    "message": "ค่าเริ่มต้น",
+    "description": "2.0 certificate.js"
+  },
+  "setDefault": {
+    "message": "ตั้งค่าเป็นค่าเริ่มต้น",
+    "description": "2.0 certificate.js"
+  },
+  "cancelDefault": {
+    "message": "ยกเลิกค่าเริ่มต้น",
+    "description": "2.0 certificate.js"
+  },
+  "copyTemplate": {
+    "message": "คัดลอกแม่แบบ",
+    "description": "2.0 certificate.js"
+  },
+  "delTemplate": {
+    "message": "ลบแม่แบบ",
+    "description": "2.0 certificate.js"
+  },
+  "confirmDelete": {
+    "message": "ไม่สามารถกู้คืนได้หลังจากลบ โปรดยืนยันว่าจะลบหรือไม่?",
+    "description": "2.0 certificate.js"
+  },
+  "deleteSuccessMsg": {
+    "message": "ลบสำเร็จ",
+    "description": "2.0 certificate.js"
+  },
+  "deleteFailMsg": {
+    "message": "การลบล้มเหลว",
+    "description": "2.0 certificate.js"
+  },
+  "defaultSucMsg": {
+    "message": "ตั้งค่าเริ่มต้นสำเร็จ",
+    "description": "2.0 certificate.js"
+  },
+  "defaultFailMsg": {
+    "message": "การตั้งค่าเริ่มต้นล้มเหลว",
+    "description": "2.0 certificate.js"
+  },
+  "cancelDefaultSuc": {
+    "message": "ยกเลิกค่าเริ่มต้นสำเร็จ",
+    "description": "2.0 certificate.js"
+  },
+  "cancelDefaultFail": {
+    "message": "ยกเลิกค่าเริ่มต้นล้มเหลว",
+    "description": "2.0 certificate.js"
+  },
+  "copySuccessMsg": {
+    "message": "คัดลอกสำเร็จ",
+    "description": "2.0 certificate.js"
+  },
+  "copyFailMsg": {
+    "message": "คัดลอกล้มเหลว",
+    "description": "2.0 certificate.js"
+  },
+  "fileTypeError": {
+    "message": "ภาพพื้นหลังสนับสนุนเฉพาะรูปแบบ jpg/jpeg/png",
+    "description": "2.0 certificate.js"
+  },
+  "nameErrorTip": {
+    "message": "ชื่อแม่แบบต้องไม่เกิน70ตัวอักษร",
+    "description": "2.0 certificate.js"
+  },
+  "contentErrorTip": {
+    "message": "เนื้อหาของแม่แบบต้องไม่เกิน70ตัวอักษร",
+    "description": "2.0 certificate.js"
+  },
+  "contentErrorTip2": {
+    "message": "กรุณาใส่รายละเอียดของเนื้อความในใบประกาศนียบัตร",
+    "description": "2.0 certificate.js"
+  },
   "courseAssessmentScore": {
-    "message": "คะแนนจากการประเมินหลักสูตร",
+    "message": "คะแนนการประเมินหลักสูตรที่ได้",
     "description": "2.0 certification.js "
   },
   "assessRule1": {
-    "message": "คะแนนการประเมิน≥คือ {min} < {max}",
+    "message": "คะแนนการประเมินที่ได้≥{min}คะแนน, <{max}คะแนน",
     "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
   },
   "assessRule2": {
-    "message": "คะแนนการประเมิน≥ {n}",
+    "message": "คะแนนการประเมิน≥ {n} คะแนน",
     "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
   },
   "assessRule3": {
-    "message": "คะแนนการประเมิน< {n}",
+    "message": "คะแนนการประเมิน< {n} คะแนน",
     "description": "教师账户 -> 考核 -> 证书管理"
   },
   "excellenceCertificate": {
-    "message": "ประกาศนียบัตรยอดเยี่ยม",
+    "message": "ประกาศนียบัตรดีเด่น",
     "description": "2.0 certification.js "
   },
   "unqualified": {
@@ -152,11 +416,11 @@
     "description": "2.0 certification.js "
   },
   "explanationContent": {
-    "message": "การได้รับคะแนนการประเมินหลักสูตรเพื่อให้ท่านทราบการประเมินผลการเรียนของนักเรียนขณะที่แจกประกาศนียบัตร ถ้าหากหลักจากที่ท่านแจกประกาศนียบัตรแล้ว นักเรียนยังดำเนินการเรียนต่อจนผลการเรียนเกิดการเปลี่ยนแปลง ผลการเรียนใหม่จะไม่กลายเป็นข้อมูลตัดสินชี้ขาดของประกาศนียบัตร ยังคงใช้ผลการเรียนเดิมที่ท่านเคยแจกประกาศไปแล้วเพื่อชี้ขาดประกาศนียบัตรของนักเรียน",
+    "message": "คะแนนการประเมินหลักสูตรคือคะแนนการประเมินของนักเรียนเมื่อคุณออกใบประกาศนียบัตร หากนักเรียนดำเนินการเรียนต่อจนทำให้มีการเปลี่ยนแปลงคะแนนหลังจากออกใบประกาศนียบัตร คะแนนใหม่จะไม่ถูกใช้เป็นเกณฑ์ในการการตัดสินประเภทใบประกาศนียบัตร ประเภทใบประกาศนนีบัตรของนักเรียนจะยังคงถูกกําหนดตามคะแนนที่คุณออกใบประกาศนียบัตร",
     "description": "2.0 certification.js "
   },
   "certificateType": {
-    "message": "รูปแบบใบประกาศนียบัตร",
+    "message": "ประเภทของใบประกาศนียบัตร",
     "description": "2.0 certification.js "
   },
   "certificateIssued": {
@@ -164,15 +428,15 @@
     "description": "2.0 certification.js "
   },
   "NoResults": {
-    "message": "การคัดเลือกไม่มีผลลัพธ์ชั่วคราว",
+    "message": "การกรองไม่มีผลลัพธ์",
     "description": "2.0 certification.js "
   },
   "noCourseAssessment": {
-    "message": "หลักสูตรนี้ยังไม่ได้ทำการตั้งค่ากลยุทธ์การประเมิน ไม่สามารถรับรายชื่อประกาศนียบัตรได้",
+    "message": "หลักสูตรนี้ยังไม่ได้ทำการตั้งค่านโยบายการประเมินจึงไม่สามารถรับรายชื่อประกาศนียบัตรได้",
     "description": "2.0 certification.js "
   },
   "clickToSet": {
-    "message": "กดเพื่อไปยังตั้งค่า",
+    "message": "คลิกเพื่อไปยังตั้งค่า",
     "description": "2.0 certification.js "
   },
   "noCertificate": {
@@ -180,23 +444,23 @@
     "description": "2.0 certification.js "
   },
   "certificateTip1": {
-    "message": "แจกประกาศนียบัตรไปแล้ว ไม่สนับสนุนการตั้งค่าแก้ไขประกาศนียบัตร",
+    "message": "แจกใบประกาศนียบัตรไปแล้ว ไม่รองรับการปรับเปลี่ยนการตั้งค่าใบประกาศนียบัตร",
     "description": "2.0 certification.js "
   },
   "certificateTip2": {
-    "message": "ข้อควรระวัง：มีเพียงผู้รับผิดชอบหลักสูตรเท่านั้นที่สามารถดำเนินการตั้งค่าประกาศนียบัตรได้ ชั้นเรียนที่ยังไม่ได้ตั้งค่ากลยุทธผลการเรียน ไม่สามารถทำสถิติการรับประกาศนียบัตรได้",
+    "message": "หมายเหตุ: เฉพาะผู้รับผิดชอบหลักสูตรเท่านั้นที่สามารถกำหนดใบประกาศนียบัตรได้ ชั้นเรียนที่ไม่ได้กำหนดนโยบายการให้คะแนนผลการเรียน จะไม่สามารถนับสถานะของการได้รับใบประกาศนียบัตรได้",
     "description": "2.0 certification.js "
   },
   "gradeRule1": {
-    "message": "คะแนนสรุป≥คือ {input} และคุณจะได้รับใบรับรองการมีสิทธิ์",
+    "message": "คะแนนสรุปหลักสูตร≥ {input} คะแนน จะได้รับใบประกาศนียบัตรผ่านเกณฑ์",
     "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
   },
   "gradeRule2": {
-    "message": "คะแนนสรุป≥คะแนน {inputLow} แต่< {inputHigh} เพื่อรับใบรับรองการมีสิทธิ์",
+    "message": "คะแนนสรุปหลักสูตร≥ {inputLow}คะแนน, แต่< {inputHigh}คะแนน จะได้รับใบประกาศนียบัตรผ่านเกณฑ์",
     "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
   },
   "gradeRule3": {
-    "message": "คะแนนสรุป≥คะแนน {input} เพื่อรับใบรับรองความเป็นเลิศ",
+    "message": "คะแนนสรุปหลักสูตร≥ {input} คะแนน เพื่อรับใบประกาศนียบัตรดีเด่น",
     "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
   },
   "setPass": {
@@ -204,7 +468,7 @@
     "description": "2.0 certification.js "
   },
   "setPassAndExcellence": {
-    "message": "ตั้งค่าการผ่านเกณฑ์หลักสูตร,ประกาศนียบัตรยอดเยี่ยม",
+    "message": "ตั้งค่าประกาศนียบัตรผ่านเกณฑ์หลักสูตร,ประกาศนียบัตรดีเด่น",
     "description": "2.0 certification.js "
   },
   "enterScore": {
@@ -220,7 +484,7 @@
     "description": "2.0 certification.js "
   },
   "enterScoreTip2": {
-    "message": "คะแนนผ่านเกณฑ์ไม่สามารถมากกว่าคะแนนยอดเยี่ยม",
+    "message": "คะแนนผ่านเกณฑ์ไม่สามารถมากกว่าคะแนนดีเด่น",
     "description": "2.0 certification.js "
   },
   "enterScoreTip3": {
@@ -260,23 +524,31 @@
     "description": "2.0 certification.js "
   },
   "qualifiedCert2": {
-    "message": "ขอแสดงความยินดีกับความสําเร็จของหลักสูตร {coursename} และผ่านการรับรอง",
+    "message": "ขอแสดงความยินดีที่สำเร็จการศึกษาและประเมินหลักสูตร《Coursename》 ด้วยคะแนนผลการเรียนผ่านเกณฑ์",
     "description": "2.0 certificate.js"
   },
   "excellentCert2": {
-    "message": "ขอแสดงความยินดีกับความสําเร็จของคุณในการศึกษาและการประเมินหลักสูตร {coursename} ด้วยผลลัพธ์ที่ยอดเยี่ยม",
+    "message": "ขอแสดงความยินดีที่ท่านสำเร็จการศึกษาและการประเมินหลักสูตร《Coursename》ด้วยผลการเรียนดีเด่น",
     "description": "2.0 certificate.js"
   },
   "certificateNo": {
     "message": "หมายเลขประกาศนียบัตร",
     "description": "2.0 certification.js "
   },
+  "certificateSignature": {
+    "message": "ลายเซ็นอิเล็กทรอนิกส์",
+    "description": "2.0 certificate.js"
+  },
+  "CertificateIssuing": {
+    "message": "หน่วยที่ออกใบประกาศนียบัตร",
+    "description": "2.0 certificate.js"
+  },
   "issueDate": {
-    "message": "วันที่ที่แจกประกาศนียบัตร",
+    "message": "วันที่ออกใบประกาศนียบัตร",
     "description": "2.0 certification.js "
   },
   "certificateReq": {
-    "message": "เงื่อนไขการรับประกาศนียบัตร",
+    "message": "เงื่อนไขการได้รับใบประกาศนียบัตร:",
     "description": "2.0 certification.js "
   },
   "viewExample": {
@@ -284,15 +556,15 @@
     "description": "2.0 certification.js "
   },
   "myCertificate": {
-    "message": "ประกาศนียบัตรของฉัน",
+    "message": "ใบประกาศนียบัตรของฉัน",
     "description": "2.0 certification.js "
   },
   "qualifiedNotice": {
-    "message": "คะแนนการประเมินหลักสูตรของคุณมีคุณสมบัติตรงตามเกณฑ์การได้รับใบรับรองที่ผ่านการรับรองและขอแสดงความยินดีกับใบรับรองต่อไปนี้",
+    "message": "คะแนนการประเมินหลักสูตรของคุณมีคุณสมบัติตรงตามเกณฑ์การได้รับใบประกาศนียบัตรผ่านเกณฑ์ ขอแสดงความยินดีที่คุณได้รับใบประกาศนียบัตรต่อไปนี้",
     "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
   },
   "excellentNotice": {
-    "message": "คะแนนการประเมินหลักสูตรของคุณมีคุณสมบัติตรงตามเกณฑ์การได้รับใบรับรองที่ยอดเยี่ยมและขอแสดงความยินดีกับใบรับรองต่อไปนี้",
+    "message": "คะแนนการประเมินหลักสูตรของคุณมีคุณสมบัติตรงตามเกณฑ์การได้รับใบประกาศนียบัตรดีเด่น ขอแสดงความยินดีที่คุณได้รับใบประกาศนียบัตรต่อไปนี้",
     "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
   },
   "certificateStuTip": {
@@ -308,7 +580,7 @@
     "description": "2.0 certification.js "
   },
   "certTip": {
-    "message": "ตรวจสอบให้แน่ใจว่า {informLink}",
+    "message": "เพื่อให้แน่ใจว่าข้อมูลใบประกาศนียบัตรถูกต้อง โปรดตรวจสอบให้แน่ใจ {informLink}",
     "description": "学生账户 -> 考核 -> 课程证书 (还未发放证书时，才会显示)"
   },
   "informLink": {
@@ -316,7 +588,11 @@
     "description": "2.0 certificate.js"
   },
   "notSetCerTip": {
-    "message": "อาจารย์ยังไม่ได้ตั้งค่าเงื่อนไขการรับประกาศนียบัตร",
+    "message": "คุณครูยังไม่ได้ตั้งค่าเงื่อนไขการรับประกาศนียบัตร",
     "description": "2.0 certification.js "
+  },
+  "newTemplate": {
+    "message": "กรุณาใส่ชื่อแม่แบบ",
+    "description": "2.0 certificate.js"
   }
 }

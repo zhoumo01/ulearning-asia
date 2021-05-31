@@ -23,6 +23,10 @@
     "message": "คะแนนสูงสุด",
     "description": "手机考试zh.json"
   },
+  "points": {
+    "message": "{n}คะแนน",
+    "description": "手机考试 -> 考试详情 -> 及格分数 \n 手机考试 -> 考试详情 -> 进入考试 -> 滑动到第一页 -> 奖杯图标右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 用户头像右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 答题记录列表 (需要用户有多个答题记录，才会弹出答题记录列表)"
+  },
   "examTime": {
     "message": "เวลาสอบ",
     "description": "手机考试zh.json"
@@ -30,6 +34,10 @@
   "examLimitTime": {
     "message": "การสอบมีระยะเวลาจํากัด",
     "description": "手机考试zh.json"
+  },
+  "minutes": {
+    "message": "{n} นาที",
+    "description": "手机考试 -> 考试详情 -> 考试限时"
   },
   "answerTime": {
     "message": "จํานวนคําตอบ",
@@ -43,6 +51,10 @@
     "message": "ไม่มีข้อ จํากัด",
     "description": "手机考试zh.json"
   },
+  "timesOf": {
+    "message": "{current}/{total} ครั้ง",
+    "description": "手机考试 -> 考试详情 -> 答题次数"
+  },
   "passingScore": {
     "message": "คะแนนผ่าน",
     "description": "手机考试zh.json"
@@ -50,6 +62,10 @@
   "lateTime": {
     "message": "สายนะ",
     "description": "手机考试zh.json"
+  },
+  "betweenTime": {
+    "message": "{startTime}ถึง{endTime}",
+    "description": "手机考试 -> 考试详情 -> 考试时间"
   },
   "clickUpload": {
     "message": "คลิกอัปโหลดรูปภาพที่ได้รับการรับรอง",
@@ -507,6 +523,14 @@
     "message": "ความละเอียด",
     "description": "手机考试zh.json"
   },
+  "answerScore1": {
+    "message": "คะแนนที่ได้: รอการอนุมัติ, คะแนนเต็ม{num}คะแนน",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
+  "answerScore2": {
+    "message": "คะแนนที่ได้: {n}คะแนน, คะแนนเต็ม{num}คะแนน",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
   "teaComment": {
     "message": "ความคิดเห็นของครู",
     "description": "手机考试zh.json"
@@ -589,6 +613,10 @@
   },
   "question12": {
     "message": "กรอกคําถามที่ว่างเปล่า",
+    "description": "手机考试zh.json"
+  },
+  "question25": {
+    "message": "คำถามการคำนวณสูตร",
     "description": "手机考试zh.json"
   },
   "exitScreen": {
@@ -685,6 +713,174 @@
   },
   "fromAlbum": {
     "message": "เลือกจากเครื่องนี้",
+    "description": "手机考试zh.json"
+  },
+  "examInfo": {
+    "message": "ข้อมูลการสอบ",
+    "description": "手机考试zh.json"
+  },
+  "lateLimit": {
+    "message": "จํากัดเวลาเข้าสาย:",
+    "description": "手机考试zh.json"
+  },
+  "lateLimitTips": {
+    "message": "ไม่อนุญาตให้เข้าหลังจากเริ่มการสอบ{time}นาที",
+    "description": "手机考试zh.json"
+  },
+  "submitLimit": {
+    "message": "กำหนดเวลาส่งกระดาษคำตอบข้อสอบ:",
+    "description": "手机考试zh.json"
+  },
+  "submitLimitTips": {
+    "message": "ไม่อนุญาตให้ส่งเอกสารภายใน {time} นาทีหลังจากเริ่มการสอบ",
+    "description": "手机考试zh.json"
+  },
+  "securitySettings": {
+    "message": "การตั้งค่าความปลอดภัย",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitor": {
+    "message": "การตรวจสอบ IP",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitorTip": {
+    "message": "เปิด{ip}แล้ว กรุณาอย่าสลับเครือข่ายกลางคัน",
+    "description": "{ip} 指的是 IP监控"
+  },
+  "deviceMonitor": {
+    "message": "ตรวจสอบอุปกรณ์",
+    "description": "手机考试zh.json"
+  },
+  "deviceMonitorTip": {
+    "message": "เปิด{Device}แล้ว โปรดอย่าเปลี่ยนอุปกรณ์หรือเบราว์เซอร์ระหว่างทาง",
+    "description": "{device} 指的是设备监控"
+  },
+  "photoMonitor": {
+    "message": "คุมสอบโดยการจับภาพสแนปชอต",
+    "description": "手机考试zh.json"
+  },
+  "photoMonitorTip": {
+    "message": "เปิด {photo} แล้ว โปรดเปิดกล้องหน้าไว้",
+    "description": "{photo} 指的是抓拍监控"
+  },
+  "faceRecognition": {
+    "message": "การจดจําใบหน้า",
+    "description": "手机考试zh.json"
+  },
+  "faceRecognitionTip": {
+    "message": "{face}เปิดแล้ว จําเป็นต้องผ่านการยืนยันใบหน้าเพื่อเข้าสอบ",
+    "description": "{face} 指的是人脸识别"
+  },
+  "unOpened": {
+    "message": "ยังไม่ได้เปิด",
+    "description": "手机考试zh.json"
+  },
+  "IPException": {
+    "message": "ข้อยกเว้น IP",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips1": {
+    "message": "การตรวจสอบ IP ถูกเปิดใช้งานสำหรับการสอบนี้และไม่อนุญาตให้เปลี่ยนที่อยู่ IP กลางคัน การสลับเครือข่ายอาจทำให้ที่อยู่ IP เปลี่ยนไป",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips2": {
+    "message": "หากจำเป็นต้องเปลี่ยนเครือข่ายเป็นกรณีพิเศษ โปรดขอรหัสยืนยันจากครูผู้คุมสอบ ใช้รหัสยืนยันเพื่อเข้าสู่การสอบ",
+    "description": "手机考试zh.json"
+  },
+  "deviceException": {
+    "message": "อุปกรณ์ผิดปกติ",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips1": {
+    "message": "การสอบครั้งนี้ได้ทำการเปิดการตรวจสอบอุปกรณ์ ไม่อนุญาตให้เปลี่ยนอุปกรณ์หรือเบราว์เซอร์กลางคัน \nโปรดใช้อุปกรณ์หรือเบราว์เซอร์ที่ใช้สอบครั้งแรกเพื่อตอบคำถาม",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips2": {
+    "message": "หากจำเป็นต้องเปลี่ยนเครือข่ายเป็นกรณีพิเศษ โปรดขอรหัสยืนยันจากครูผู้คุมสอบ ใช้รหัสยืนยันเพื่อเข้าสู่การสอบ",
+    "description": "手机考试zh.json"
+  },
+  "commitLimitTimeTips": {
+    "message": "หลังเริ่มสอบไปแล้ว{time}นาทีจึงจะสามารถส่งกระดาษคำตอบได้！",
+    "description": "手机考试zh.json"
+  },
+  "examTip20": {
+    "message": "ออกจากการสอบกลางคัน {count} ครั้ง",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitor": {
+    "message": "ตรวจสอบโดยการจับภาพหน้าจอ",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips": {
+    "message": "เปิด{screen} แล้ว ออกกลางคัน {num} ครั้งจะบังคับให้ส่งกระดาษคำตอบข้อสอบ",
+    "description": "{screen} 指的是切屏监控"
+  },
+  "recordShowAfterSubmit": {
+    "message": "แสดงทันทีหลังจากส่งกระดาษคำตอบข้อสอบ",
+    "description": "手机考试zh.json"
+  },
+  "leaveExamTimesTips": {
+    "message": "ออกจากการสอบกลางคัน {count} ครั้ง",
+    "description": "手机考试zh.json"
+  },
+  "cameraAccess": {
+    "message": "ไม่ได้เปิดสิทธิ์กล้อง, การสอบครั้งนี้เปิดการจดจําใบหน้าหรือตรวจสอบโดยการจับภาพ, โปรดเปิดสิทธิ์กล้องก่อนค่อยเข้าร่วมการสอบ!",
+    "description": "手机考试zh.json"
+  },
+  "selectFile": {
+    "message": "เลือกไฟล์",
+    "description": "手机考试zh.json"
+  },
+  "fromAlbum1": {
+    "message": "เลือกจากอัลบั้ม",
+    "description": "手机考试zh.json"
+  },
+  "showAfterBatchEnd": {
+    "message": "ประกาศหลังจากรอบการสอบทั้งหมดสิ้นสุดลง",
+    "description": "手机考试zh.json"
+  },
+  "versionLowerTips": {
+    "message": "เวอร์ชันปัจจุบันต่ำเกินไปโปรดอัปเกรดก่อนทำการสอบ!",
+    "description": "手机考试zh.json"
+  },
+  "monitoring": {
+    "message": "ระหว่างการตรวจสอบ",
+    "description": "手机考试zh.json"
+  },
+  "photoCountDown": {
+    "message": "เริ่มถ่ายภาพหลังจาก {n} วินาที",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCWeb": {
+    "message": "หน้าเว็บคอมพิวเตอร์เท่านั้น",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCExe": {
+    "message": "เฉพาะคอมพิวเตอร์เท่านั้น",
+    "description": "手机考试zh.json"
+  },
+  "onlyMobile": {
+    "message": "โทรศัพท์มือถือเท่านั้น",
+    "description": "手机考试zh.json"
+  },
+  "unlimitType": {
+    "message": "โทรศัพท์มือถือ/หน้าเว็บ/คอมพิวเตอร์",
+    "description": "手机考试zh.json"
+  },
+  "viewOnPCExe": {
+    "message": "โปรดใช้การสอบชุดสำหรับคอมพิวเตอร์ของยูเลิร์นนิ่งบนคอมพิวเตอร์ของคุณ",
+    "description": "手机考试zh.json"
+  },
+  "swipeTip": {
+    "message": "ปัดไปทางซ้ายหรือขวาเพื่อสลับหน้า",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip1": {
+    "message": "คุณได้ปิดสิทธิ์การใช้กล้อง ไม่สามารถใช้ฟังก์ชั่นดังกล่าวได้ โปรดไปที่ [การตั้งค่า] ในโทรศัพท์มือถือเพื่อดำเนินการให้สิทธิ์",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip2": {
+    "message": "คุณได้ปิดสิทธิ์การใช้ไมโครโฟน ไม่สามารถใช้ฟังก์ชั่นดังกล่าวได้ โปรดไปที่ [การตั้งค่า] ในโทรศัพท์มือถือเพื่อดำเนินการให้สิทธิ์",
     "description": "手机考试zh.json"
   }
 }

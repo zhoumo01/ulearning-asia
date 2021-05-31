@@ -91,6 +91,10 @@
     "message": "การดําเนินการเสร็จเรียบร้อยแล้ว",
     "description": "smart-classroom 项目"
   },
+  "common.remind": {
+    "message": "แจ้งเตือน",
+    "description": "smart-classroom 项目"
+  },
   "classroom.currentCourse": {
     "message": "หลักสูตรปัจจุบัน",
     "description": "smart Class"
@@ -139,17 +143,41 @@
     "message": "คลิกรีเฟรชนี้",
     "description": "smart Class"
   },
-  "classroom.noCourseTip": {
-    "message": "คุณยังไม่มีหลักสูตรโปรดสร้างหลักสูตรและชั้นเรียนบนเว็บไซต์อย่างเป็นทางการของวิทยาลัย",
-    "description": "smart Class"
+  "classroom.noCourseTip2": {
+    "message": "คุณยังไม่มีหลักสูตร โปรดสร้างหลักสูตรที่ LMS ก่อนและเชิญนักเรียนเข้าร่วม",
+    "description": "smart-classroom 项目"
   },
-  "classroom.toCteate": {
-    "message": "ไปสร้าง",
-    "description": "smart Class"
+  "classroom.noCourseTip3": {
+    "message": "สร้างแล้ว?",
+    "description": "smart-classroom 项目"
   },
-  "classroom.noCourseTip1": {
-    "message": "สร้างหลักสูตรแล้วหรือยัง?",
-    "description": "smart Class"
+  "classroom.newUser": {
+    "message": "ฉันเป็นผู้ใช้ใหม่ >>",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.introTip1": {
+    "message": "UClassเป็นเครื่องมือสําหรับการสอนในชั้นเรียน จำเป็นต้องใช้ร่วมกับLMSของเรา โปรดเตรียมการดังต่อไปนี้ในระบบLMSของเรา:",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.step1": {
+    "message": "สร้างหลักสูตร",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.step2": {
+    "message": "สร้างชั้นเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.step3": {
+    "message": "เชิญ/นําเข้านักเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.introTip2": {
+    "message": "คลิกที่นี่{0} หรือติดต่อเจ้าหน้าที่บริการของเราเพื่อรับการฝึกอบรม",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.viewHelp": {
+    "message": "ดูความช่วยเหลือ>>",
+    "description": "smart-classroom 项目"
   },
   "classroom.ulearnWeb": {
     "message": "ศูนย์หลักสูตร",
@@ -321,6 +349,18 @@
   },
   "classroom.search": {
     "message": "ค้นหา",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.hasDataTip": {
+    "message": "ห้องเรียนนี้สร้างข้อมูลกิจกรรมแล้ว ไม่สามารถแก้ไขชั้นเรียนได้",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.findDetails": {
+    "message": "ดูรายละเอียด",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.classesNum": {
+    "message": "จํานวนชั้นเรียน",
     "description": "smart-classroom 项目"
   },
   "login.welcomeTip": {
@@ -501,6 +541,74 @@
   },
   "login.privacy": {
     "message": "นโยบายความเป็นส่วนตัว",
+    "description": "smart-classroom 项目"
+  },
+  "intro.welcomeTip": {
+    "message": "เชิญใช้",
+    "description": "smart-classroom 项目"
+  },
+  "intro.name": {
+    "message": "ห้องเรียนอัจฉริยะ",
+    "description": "smart-classroom 项目"
+  },
+  "intro.tips1": {
+    "message": "ประสบการณ์ใหม่ของการสอนแบบผสมผสาน",
+    "description": "smart-classroom 项目"
+  },
+  "intro.tips2": {
+    "message": "คุณต้องมีบัญชี UClass ก่อนใช้งาน หากคุณไม่มีบัญชีโปรด",
+    "description": "smart-classroom 项目"
+  },
+  "intro.connectMe": {
+    "message": "ติดต่อพวกเรา",
+    "description": "smart-classroom 项目"
+  },
+  "intro.tips3": {
+    "message": "คลิกที่นี่เพื่อดู UClass",
+    "description": "smart-classroom 项目"
+  },
+  "intro.introVideo": {
+    "message": "วิดีโอแนะนํา",
+    "description": "smart-classroom 项目"
+  },
+  "intro.and": {
+    "message": "และ",
+    "description": "smart-classroom 项目"
+  },
+  "intro.introManual": {
+    "message": "คู่มือการใช้งาน",
+    "description": "smart-classroom 项目"
+  },
+  "intro.start": {
+    "message": "เริ่มต้นใช้งาน",
+    "description": "smart-classroom 项目"
+  },
+  "intro.welcomeTip2": {
+    "message": "ยินดีต้อนรับสู่การใช้งาน U-Class",
+    "description": "smart-classroom 项目"
+  },
+  "intro.params1": {
+    "message": "ห้องเรียนอัจฉริยะ U-Class มอบประสบการณ์การสอนแบบผสมผสานใหม่ การสอนแบบผสมผสานรวมการสอนออนไลน์และแบบตัวต่อตัว การสอนแบบผสมผสานมีประสิทธิภาพมากกว่าการสอนแบบตัวต่อตัวแบบดั้งเดิม U-Class สนับสนุนสภาพแวดล้อมการเรียนรู้ที่ราบรื่นเพื่อเพิ่มการมีส่วนร่วมของนักเรียน<ul>  <li>การสอนในชั้นเรียนออนไลน์และออฟไลน์ผสมผสานกันอย่างลงตัว</li>  <li>การเชื่อมต่อหลายหน้าจอช่วยลดระยะห่างระหว่างผู้เรียนและครู</li>  <li>ปรับปรุงประสิทธิภาพการสอนของครูที่ขับเคลื่อนด้วยข้อมูล</li>  <li>ความสามารถด้าน AI ช่วยลดภาระงานของครู</li>  <li>การโต้ตอบและการทํางานร่วมกันแบบเรียลไทม์ระยะไกลช่วยอํานวยความสะดวกในการสื่อสารที่มีประสิทธิภาพ</li>  <li>ใช้ไวท์บอร์ดสําหรับการทํางานร่วมกันในสถานที่เสมือนจริง</li>  <li>รายงานการวิเคราะห์ในชั้นเรียนให้การวิเคราะห์ข้อมูลที่ครอบคลุมเกี่ยวกับกิจกรรมในชั้นเรียนทางกายภาพและเสมือนจริงที่ดําเนินการในระหว่างชั้นเรียน</li></ul>เราให้บริการมากกว่า 400 องค์กรการศึกษาและ 2 ล้านผู้ใช้ทั่วประเทศ.",
+    "description": "smart-classroom 项目"
+  },
+  "intro.params2": {
+    "message": "ห้องเรียนอัจฉริยะ U-Class เสริมสร้างปัญญาให้โดเด่นแบบไร้พรมแดน",
+    "description": "smart-classroom 项目"
+  },
+  "intro.land": {
+    "message": "จีนแผ่นดินใหญ่",
+    "description": "smart-classroom 项目"
+  },
+  "intro.outLand": {
+    "message": "ระหว่างประเทศ",
+    "description": "smart-classroom 项目"
+  },
+  "intro.noAccount": {
+    "message": "ไม่มีบัญชี?",
+    "description": "smart-classroom 项目"
+  },
+  "intro.helpCenter": {
+    "message": "ศูนย์ช่วยเหลือ",
     "description": "smart-classroom 项目"
   },
   "discuss.discuss": {
@@ -877,6 +985,14 @@
   },
   "pick.selectStu": {
     "message": "เลือกนักเรียนเพื่อตอบคําถาม",
+    "description": "smart-classroom 项目"
+  },
+  "pick.addPickFirst": {
+    "message": "คลาสปัจจุบันยังไม่ได้เริ่มการเช็คชื่อ โปรดเริ่มเช็คชื่อก่อนค่อยเริ่มฟังก์ชั่นนี้",
+    "description": "smart-classroom 项目"
+  },
+  "pick.preabsence": {
+    "message": "แสดงถึงการขาดเรียน",
     "description": "smart-classroom 项目"
   },
   "attendence.numAttendence": {
@@ -1319,6 +1435,38 @@
     "message": "ชั้นเรียนได้เริ่มขึ้นแล้ว!",
     "description": "smart-classroom 项目"
   },
+  "screen.activityRecord": {
+    "message": "ประวัติกิจกรรม",
+    "description": "smart-classroom 项目"
+  },
+  "screen.activityNum": {
+    "message": "จำนวน: {num}",
+    "description": "smart-classroom 项目"
+  },
+  "screen.clearCache": {
+    "message": "ล้างแคช",
+    "description": "smart-classroom 项目"
+  },
+  "screen.downloadFailed": {
+    "message": "ดาวน์โหลดล้มเหลว",
+    "description": "smart-classroom 项目"
+  },
+  "screen.download": {
+    "message": "แคช",
+    "description": "smart-classroom 项目"
+  },
+  "screen.waitDownload": {
+    "message": "รอการดาวน์โหลด",
+    "description": "smart-classroom 项目"
+  },
+  "screen.downloaded": {
+    "message": "แคชแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "screen.deleteTip": {
+    "message": "แน่ใจว่าจะล้างทรัพยากรทั้งหมดที่แคชไว้ในอุปกรณ์ปัจจุบัน?",
+    "description": "smart-classroom 项目"
+  },
   "vote.start": {
     "message": "เริ่มการลงคะแนนเสียง",
     "description": "smart-classroom 项目"
@@ -1561,6 +1709,14 @@
   },
   "live.joinMeeting": {
     "message": "เข้าร่วมการประชุม",
+    "description": "smart-classroom 项目"
+  },
+  "live.meeting": {
+    "message": "กําลังถ่ายทอดสด",
+    "description": "smart-classroom 项目"
+  },
+  "live.enterSipNum": {
+    "message": "กรุณาใส่รหัส sip หน้าจอขนาดใหญ่ที่ถูกต้อง",
     "description": "smart-classroom 项目"
   }
 }

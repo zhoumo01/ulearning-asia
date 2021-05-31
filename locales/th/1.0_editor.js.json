@@ -1,10 +1,10 @@
 {
   "saveOutText": {
-    "message": "คุณมีคําถามที่ไม่ได้บันทึกคุณแน่ใจหรือไม่ว่าคุณต้องการจบการทํางาน",
+    "message": "คุณมีคําถามที่ไม่ได้บันทึก แน่ใจว่าต้องการออก?",
     "description": "1.0 editor.js"
   },
   "CreatedText": {
-    "message": "มีการสร้างคําถาม {count} แล้ว",
+    "message": "ได้สร้างคําถาม {count} ข้อแล้ว",
     "description": "1.0 editor.js"
   },
   "returnListText": {
@@ -12,7 +12,7 @@
     "description": "1.0 editor.js"
   },
   "haveText": {
-    "message": "คุณมี {n} คําถามที่ยังไม่ได้บันทึก",
+    "message": "คุณมีคำถาม {n} ข้อที่ยังไม่ได้บันทึก",
     "description": "1.0 editor.js"
   },
   "goToCheck": {
@@ -36,11 +36,11 @@
     "description": "1.0 editor.js"
   },
   "gotoSubQues": {
-    "message": "คลิกเพื่อข้ามไปยังคําถามที่เกี่ยวข้องโดยตรง",
+    "message": "คลิกเพื่อข้ามไปยังคําถามย่อยที่เกี่ยวข้องโดยตรง",
     "description": "1.0 editor.js"
   },
   "changeScoreText": {
-    "message": "คุณแน่ใจหรือไม่ว่าคะแนนถูกปรับเปลี่ยนเป็นกลุ่ม",
+    "message": "แน่ใจว่าจะแก้ไขคะแนนเป็นชุด?",
     "description": "1.0 editor.js"
   },
   "scoreTips": {
@@ -64,7 +64,7 @@
     "description": "1.0 editor.js"
   },
   "analysis": {
-    "message": "การแยกวิเคราะห์: {content}",
+    "message": "แยกวิเคราะห์: {content}",
     "description": "1.0 public.js"
   },
   "answer": {
@@ -72,7 +72,7 @@
     "description": "1.0 public.js"
   },
   "completionAnswerTips": {
-    "message": "หมายเหตุ: คําตอบที่ว่างเปล่าสําหรับคําถามนี้สามารถใช้แทนกันได้และการจับคู่เนื้อหาถูกต้อง",
+    "message": "หมายเหตุ: คําตอบที่ว่างเปล่าสําหรับคําถามนี้สามารถใช้แทนกันได้  จับคู่เนื้อหาถูกต้องให้ถือว่าถูก",
     "description": "1.0 editor.js"
   },
   "batchSetScoreText": {
@@ -80,7 +80,7 @@
     "description": "1.0 editor.js"
   },
   "scoreText": {
-    "message": "คะแนน {score}",
+    "message": "{score} คะแนน ",
     "description": "注意，这个指的是某道题目的分值，不是得了多少分，在试题编辑器 -> 批量导入 -> 导入习题后，每个习题的标题的左侧有一个括号，括号内标有题目的分值"
   },
   "correct": {
@@ -96,15 +96,15 @@
     "description": "1.0 editor.js"
   },
   "moreQ2": {
-    "message": "คําถามแบบปรมาตร์",
+    "message": "คําถามปรนัย",
     "description": "1.0 editor.js"
   },
   "yesNoQ2": {
-    "message": "คําถามตัดสิน",
+    "message": "คําถามถูกหรือผิด",
     "description": "1.0 editor.js"
   },
   "fillQ2": {
-    "message": "กรอกคําถามที่ว่างเปล่า",
+    "message": "คำถามเติมคำลงในช่องว่าง",
     "description": "1.0 editor.js"
   },
   "JQuiz2": {
@@ -112,7 +112,7 @@
     "description": "1.0 editor.js"
   },
   "analysisTit": {
-    "message": "กรอกความละเอียดที่นี่ไม่มีไม่กรอก",
+    "message": "กรอกความละเอียดที่นี่ ไม่มีไม่ต้องกรอก",
     "description": "1.0 editor.js"
   },
   "saveSuccessTips": {
@@ -128,11 +128,11 @@
     "description": "1.0 editor.js"
   },
   "numExceededTips": {
-    "message": "จํานวนหัวข้อที่ป้อนครั้งเดียวต้องไม่เกิน 200 รายการ",
+    "message": "จำนวนคำถามที่ป้อนในแต่ละครั้งต้องไม่เกิน 200 ข้อ",
     "description": "1.0 editor.js"
   },
   "incompleteMessage1": {
-    "message": "ชื่อเรื่องต้องไม่ว่างเปล่า",
+    "message": "ชื่อเรื่องต้องไม่เว้นว่าง",
     "description": "1.0 editor.js"
   },
   "incompleteMessage2": {
@@ -140,19 +140,19 @@
     "description": "1.0 editor.js"
   },
   "incompleteMessage3": {
-    "message": "ต้องมีตัวเลือกมากกว่า 20 ตัวเลือก",
+    "message": "ต้องมีตัวเลือกไม่เกิน 20 ตัวเลือก",
     "description": "1.0 editor.js"
   },
   "incompleteMessage4": {
-    "message": "คําตอบที่ถูกต้องต้องไม่ว่างเปล่า",
+    "message": "คําตอบที่ถูกต้องต้องไม่เว้นว่าง",
     "description": "1.0 editor.js"
   },
   "incompleteMessage5": {
-    "message": "เนื้อหาในตัวเลือกคําตอบที่ถูกต้องต้องไม่ว่างเปล่า",
+    "message": "เนื้อหาในตัวเลือกคําตอบที่ถูกต้องต้องไม่เว้นว่าง",
     "description": "1.0 editor.js"
   },
   "incompleteMessage6": {
-    "message": "กรุณากรอกข้อมูลในตัวเลือกหรือลบตัวเลือกส่วนเกิน",
+    "message": "กรุณากรอกข้อมูลในตัวเลือก หรือลบตัวเลือกส่วนเกินทิ้ง",
     "description": "1.0 editor.js"
   },
   "incompleteMessage7": {
@@ -160,15 +160,15 @@
     "description": "1.0 editor.js"
   },
   "incompleteMessage8": {
-    "message": "ไม่สามารถเลือกในคําตอบที่ถูกต้องได้",
+    "message": "คำตอบที่ถูกต้องต้องไม่ปรากฎในรายการที่ไม่ถูกเลือก",
     "description": "1.0 editor.js"
   },
   "incompleteMessage9": {
-    "message": "มีรายการที่ซ้ํากันในคําตอบที่ถูกต้อง",
+    "message": "มีรายการที่ซ้ำกันในคําตอบที่ถูกต้อง",
     "description": "1.0 editor.js"
   },
   "incompleteMessage10": {
-    "message": "เนื้อหาของคําตอบอ้างอิงต้องไม่ว่างเปล่า",
+    "message": "เนื้อหาของคําตอบอ้างอิงต้องไม่เว้นว่าง",
     "description": "1.0 editor.js"
   },
   "incompleteMessage11": {

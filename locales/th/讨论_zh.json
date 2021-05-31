@@ -63,6 +63,18 @@
     "message": "ถ่ายภาพ",
     "description": "讨论"
   },
+  "system.pageOf": {
+    "message": "{current}/{total}หน้า",
+    "description": "手机讨论 -> 帖子详情"
+  },
+  "system.pointsOf": {
+    "message": "{n}คะแนน",
+    "description": "教师 -> 手机讨论 -> 帖子详情 -> 点击回复帖子中学生的头像 \n 教师 -> 手机讨论 -> 帖子详情 -> 选择一条帖子的右上角 ... 按钮 -> 加分"
+  },
+  "system.inputPoints": {
+    "message": "{input} คะแนน",
+    "description": "教师 -> 手机讨论 -> 帖子详情 -> 点击回复帖子中学生的头像 -> 修改得分"
+  },
   "system.notStart": {
     "message": "ไม่ได้เริ่มต้น",
     "description": "讨论"
@@ -231,6 +243,10 @@
     "message": "โปรดตั้งค่าเวลาสิ้นสุด",
     "description": "讨论"
   },
+  "system.afterMinutesOf": {
+    "message": "หลังจาก{count}นาที",
+    "description": "教师 -> 发布讨论 -> 高级设置 -> 限制讨论时间"
+  },
   "system.afterOneDay": {
     "message": "หลังจากวัน",
     "description": "讨论"
@@ -250,6 +266,10 @@
   "system.setScoreRule": {
     "message": "ตั้งค่ากฎเครดิต",
     "description": "讨论"
+  },
+  "system.inputScorePer": {
+    "message": "{input}คะแนน/แถว",
+    "description": "教师 -> 发布讨论 -> 高级设置 -> 积分规则"
   },
   "system.publishing": {
     "message": "ในการเผยแพร่",
@@ -302,6 +322,10 @@
   "system.lastScore": {
     "message": "คะแนนสุดท้าย",
     "description": "讨论"
+  },
+  "system.finalScore": {
+    "message": "คะแนนสุดท้ายที่ได้: {score}",
+    "description": "教师 -> 手机讨论 -> 帖子详情 -> 点击回复帖子中学生的头像"
   },
   "system.refreshSuccess": {
     "message": "การฟื้นฟูเสร็จเรียบร้อยแล้ว",
@@ -519,6 +543,26 @@
     "message": "{name} และอื่นๆ {num} คลาส",
     "description": "讨论"
   },
+  "system.wordCloud": {
+    "message": "การจับกลุ่มคำมีลักษณะคล้ายกลุ่มก้อนเมฆ โดยเรียงจากคำที่มีมากที่สุดไปน้อยที่สุด",
+    "description": "讨论"
+  },
+  "system.wordCloudTip": {
+    "message": "นักเรียนพูดค่อนข้างน้อย ไม่สามารถดึงคีย์เวิร์ดได้ชั่วคราว",
+    "description": "讨论"
+  },
+  "system.closeWordCloud": {
+    "message": "ปิดการจับกลุ่มคำ",
+    "description": "讨论"
+  },
+  "system.mobilePermissionTip1": {
+    "message": "คุณได้ปิดสิทธิ์การใช้กล้อง ไม่สามารถใช้ฟังก์ชั่นดังกล่าวได้ โปรดไปที่ [การตั้งค่า] ในโทรศัพท์มือถือเพื่อดำเนินการให้สิทธิ์",
+    "description": "讨论"
+  },
+  "system.mobilePermissionTip2": {
+    "message": "คุณได้ปิดสิทธิ์การใช้ไมโครโฟน ไม่สามารถใช้ฟังก์ชั่นดังกล่าวได้ โปรดไปที่ [การตั้งค่า] ในโทรศัพท์มือถือเพื่อให้สิทธิ์",
+    "description": "讨论"
+  },
   "screen.title": {
     "message": "โยนหน้าจอ",
     "description": "讨论"
@@ -565,6 +609,30 @@
   },
   "screen.cancel": {
     "message": "ยกเลิกการฉายภาพ",
+    "description": "讨论"
+  },
+  "dateFormat.month": {
+    "message": "YYYY ปี MM เดือน",
+    "description": "讨论"
+  },
+  "dateFormat.calendar": {
+    "message": "YYYY ปี MM เดือน DD วัน",
+    "description": "讨论"
+  },
+  "dateFormat.dateTime": {
+    "message": "HH:mm",
+    "description": "讨论"
+  },
+  "dateFormat.long": {
+    "message": "YYYY-MM-DD HH:mm",
+    "description": "讨论"
+  },
+  "dateFormat.long2": {
+    "message": "YYYY ปี MM DD วัน HH:mm",
+    "description": "讨论"
+  },
+  "dateFormat.longSecond": {
+    "message": "YYYY-MM-DD HH:mm:ss",
     "description": "讨论"
   }
 }

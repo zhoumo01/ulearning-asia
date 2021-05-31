@@ -1,18 +1,18 @@
 {
   "submittingText": {
-    "message": "ในการส่ง",
+    "message": "อยู่ระหว่างการส่ง",
     "description": "1.0 autoexam.js"
   },
   "unitContentText": {
-    "message": "{0}เนื้อหาของเซลล์",
+    "message": "{0}เนื้อหาของหน่วย",
     "description": "1.0 autoexam.js"
   },
   "allUnitContentText": {
-    "message": "เนื้อหาของเซลล์ทั้งหมด",
+    "message": "เนื้อหาของหน่วยทั้งหมด",
     "description": "1.0 autoexam.js"
   },
   "selectQBankRange": {
-    "message": "เลือกช่วงของไลบรารีคําถาม",
+    "message": "เลือกช่วงของคลังคำถาม",
     "description": "1.0 autoexam.js"
   },
   "myTemplateText": {
@@ -24,11 +24,11 @@
     "description": "1.0 autoexam.js"
   },
   "paperNameText": {
-    "message": "ชื่อกระดาษทดสอบต้องไม่ว่างเปล่า",
+    "message": "ชื่อกระดาษข้อสอบห้ามเว้นว่าง",
     "description": "1.0 autoexam.js"
   },
   "answerTimeText": {
-    "message": "ระยะเวลาในการตอบคําถามต้องไม่ว่างเปล่า",
+    "message": "ระยะเวลาในการตอบคําถามห้ามเว้นว่าง",
     "description": "1.0 autoexam.js"
   },
   "collectText1": {
@@ -40,15 +40,15 @@
     "description": "1.0 autoexam.js"
   },
   "collectText3": {
-    "message": "รวมคะแนน {count}",
+    "message": "รวมคะแนน {count} คะแนน",
     "description": "1.0 autoexam.js"
   },
   "collectText": {
-    "message": "{ส่วน} {คําถาม} {เครื่องหมาย}",
+    "message": "{parts}{questions}{marks}",
     "description": "{parts} 插值对应上面的 collectText1，{questions}插值对应上面的 collectText2，{marks}插值对应上面的collectText3，也就是说这三个分句组成一句话，翻译可根据需要调整三个分句的顺序，或者添加标点符号。"
   },
   "surePaperNameLess": {
-    "message": "โปรดตรวจสอบให้แน่ใจว่าชื่อกระดาษทดสอบอยู่ภายใน 50 คํา",
+    "message": "โปรดตรวจสอบให้แน่ใจว่าชื่อกระดาษทดสอบอยู่ไม่เกิน 50 ตัวอักษร",
     "description": "1.0 autoexam.js"
   },
   "keyIntegerText": {
@@ -56,27 +56,27 @@
     "description": "1.0 autoexam.js"
   },
   "makePaperText": {
-    "message": "สร้างกระดาษทดสอบเสร็จเรียบร้อยแล้ว!",
+    "message": "สร้างกระดาษข้อสอบเสร็จเรียบร้อยแล้ว!",
     "description": "1.0 autoexam.js"
   },
   "QnumberText": {
-    "message": "จํานวนคําถามในธนาคารคําถามไม่เพียงพอ!",
+    "message": "จํานวนคําถามในคลังคําถามไม่เพียงพอ!",
     "description": "1.0 autoexam.js"
   },
   "addPaperQText": {
-    "message": "หลังจากสร้างเอกสารการสอบต่อไปแล้ว คุณสามารถเพิ่มคําถามด้วยตนเองได้",
+    "message": "หลังจากสร้างข้อสอบต่อไปแล้ว คุณสามารถเพิ่มคําถามด้วยตนเองได้",
     "description": "1.0 autoexam.js"
   },
   "adjustmentPaperText": {
-    "message": "ปรับเอกสารการสอบ",
+    "message": "ปรับแต่งข้อสอบ",
     "description": "1.0 autoexam.js"
   },
   "makePaperingText": {
-    "message": "ในบิลด์",
+    "message": "กำลังสร้างข้อสอบ",
     "description": "1.0 autoexam.js"
   },
   "returnModifyText": {
-    "message": "ไม่มีคําถามเพิ่มเติมภายในขอบเขตของธนาคารคําถามที่เลือกโปรดกลับไปแก้ไข!",
+    "message": "ไม่มีข้อสอบเพิ่มเติมในช่วงของคลังคำถามที่เลือกในการสร้างข้อสอบ โปรดกลับไปแก้ไข!",
     "description": "1.0 autoexam.js"
   },
   "confirmText": {
@@ -92,7 +92,7 @@
     "description": "1.0 autoexam.js"
   },
   "pleaseEnterTemplateName": {
-    "message": "กรุณาใส่ชื่อแม่แบบภายใน 20 อักขระ",
+    "message": "กรุณาใส่ชื่อแม่แบบไม่เกิน 20 อักขระตัวอักษร",
     "description": "1.0 autoexam.js"
   },
   "pleaseAddQtype": {
@@ -112,7 +112,7 @@
     "description": "1.0 autoexam.js"
   },
   "confirmDeleteTemplate": {
-    "message": "คุณแน่ใจหรือไม่ว่าคุณต้องการเอาแม่แบบออก",
+    "message": "แน่ใจว่าต้องการเอาแม่แบบออก?",
     "description": "1.0 autoexam.js"
   },
   "deleteTemplateError": {
@@ -120,7 +120,7 @@
     "description": "1.0 autoexam.js"
   },
   "partNum": {
-    "message": "ส่วน{0}ส่วนแรก",
+    "message": "ส่วนที่{0}",
     "description": "1.0 autoexam.js"
   },
   "totalScoreLabel": {

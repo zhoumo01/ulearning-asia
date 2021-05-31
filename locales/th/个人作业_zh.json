@@ -19,18 +19,6 @@
     "message": "ปิด",
     "description": "个人作业zh_js"
   },
-  "m.SCORE": {
-    "message": "นาที",
-    "description": "个人作业zh_js"
-  },
-  "m.YEAR": {
-    "message": "ปี",
-    "description": "个人作业zh_js"
-  },
-  "m.PART": {
-    "message": "ฉบับ",
-    "description": "个人作业zh_js"
-  },
   "m.GRADE_WAYS": {
     "message": "วิธีการประเมินผล",
     "description": "个人作业zh_js"
@@ -58,6 +46,10 @@
   "m.GRADE_FULL": {
     "message": "คะแนนเต็ม",
     "description": "个人作业zh_js"
+  },
+  "m.GRADE_FULL_OF1": {
+    "message": "คะแนนเต็ม{n}",
+    "description": "移动端 -> 教师端 -> 作业详情 -> 批阅"
   },
   "m.GROWTH": {
     "message": "ค่าการเติบโต",
@@ -187,14 +179,6 @@
     "message": "เลือกชั้นเรียน",
     "description": "个人作业zh_js"
   },
-  "m.EACH_STUDENTEvaluate": {
-    "message": "การประเมินผลของนักเรียนแต่ละคน",
-    "description": "个人作业zh_js"
-  },
-  "m.COUNTWORK": {
-    "message": "การบ้าน——ฉบับ",
-    "description": "个人作业zh_js"
-  },
   "m.PEERRULES": {
     "message": "กฎการประเมินร่วมกัน",
     "description": "个人作业zh_js"
@@ -211,9 +195,9 @@
     "message": "กรุณาใส่เนื้อหาการอ่าน ภายใน 200 คำ ไม่สามารถกรอกตัวอักษรจีน มิฉะนั้นจะทำให้การให้คะแนนล้มเหลว。",
     "description": "个人作业zh_js"
   },
-  "m.COUNTWORD": {
-    "message": "คำศัพท์（） คำ",
-    "description": "个人作业zh_js"
+  "m.wordsLength": {
+    "message": "{n} คํา",
+    "description": "教师 -> 布置作业 -> 评价方式 -> 英文口语系统评分 -> 英文口语系统评分"
   },
   "m.HOMEWORKTITLEEmptyERROR": {
     "message": "กรุณากรอกหัวข้อ",
@@ -375,13 +359,9 @@
     "message": "เนื่องจากจำนวนการบ้านที่ส่งไม่พอเพียงไม่สามารถดำเนินการประเมินการบ้าน กรุณารอการให้คะแนนโดยครู",
     "description": "个人作业zh_js"
   },
-  "m.workdetailsTipInfo7": {
-    "message": "ส่งการบ้านเรียบร้อย โปรด",
-    "description": "个人作业zh_js"
-  },
-  "m.workdetailsTipInfo8": {
-    "message": "เริ่มประเมินซึ่งกันและกันและสิ้นสุดการประเมินซึ่งกันและกันถึงวันที่",
-    "description": "个人作业zh_js"
+  "m.workdetailsTip7": {
+    "message": "ส่งการบ้านแล้ว โปรดเริ่มการประเมินร่วมกันในเวลา{startTime} การประเมินร่วมกันจะสิ้นสุดในเวลา {endTime}",
+    "description": "学生 -> 作业详情(要求作业处于互评未开始的阶段)"
   },
   "m.workdetailsTipInfo9": {
     "message": "เกิดข้อผิดพลาดในการเข้าสู่เพจการบ้าน",
@@ -439,6 +419,10 @@
     "message": "ครูไม่ได้แชร์การบ้านนักเรียน",
     "description": "个人作业zh_js"
   },
+  "m.prevWorkList": {
+    "message": "บันทึกประวัติการส่ง",
+    "description": "个人作业zh_js"
+  },
   "m.workVersion": {
     "message": "ฉบับ",
     "description": "个人作业zh_js"
@@ -491,9 +475,9 @@
     "message": "เช็คดู",
     "description": "个人作业zh_js"
   },
-  "m.stuScore": {
-    "message": "ได้คะแนน：",
-    "description": "个人作业zh_js"
+  "m.scoreOf2": {
+    "message": "ได้คะแนน: {score}",
+    "description": "移动端 -> 教师端 -> 学生提交作业列表 -> 评价任务 (需要作业是互评作业) \n PC -> 学生 -> 评价任务 -> 评价结束后显示"
   },
   "m.commentEmpty": {
     "message": "ไม่มีความคิดเห็น",
@@ -521,10 +505,6 @@
   },
   "m.submittxt": {
     "message": "ส่ง",
-    "description": "个人作业zh_js"
-  },
-  "m.repeateDay1": {
-    "message": "",
     "description": "个人作业zh_js"
   },
   "m.repeateDay": {
@@ -561,14 +541,6 @@
   },
   "m.peerrules": {
     "message": "กฎการประเมินร่วมกัน",
-    "description": "个人作业zh_js"
-  },
-  "m.deductScore": {
-    "message": "หักคะแนน：",
-    "description": "个人作业zh_js"
-  },
-  "m.unevaluateTask": {
-    "message": "งานการประเมินผลยังไม่เสร็จสมบูรณ์",
     "description": "个人作业zh_js"
   },
   "m.advantage": {
@@ -619,10 +591,6 @@
     "message": "ตรวจสอบการบ้านล้มเหลว",
     "description": "个人作业zh_js"
   },
-  "m.noEvaluate01": {
-    "message": "ไม่ได้ประเมิน",
-    "description": "个人作业zh_js"
-  },
   "m.noEvaluate02": {
     "message": "นักเรียนคนนี้ไม่ได้ประเมินการบ้าน",
     "description": "个人作业zh_js"
@@ -653,10 +621,6 @@
   },
   "m.addPrise": {
     "message": "กดไลค์",
-    "description": "个人作业zh_js"
-  },
-  "m.CountWord": {
-    "message": "คำ()คำ",
     "description": "个人作业zh_js"
   },
   "m.delPrise": {
@@ -707,13 +671,13 @@
     "message": "หากคุณไม่พอใจกับคะแนนเฉลี่ยของการประเมินจากนักเรียน คุณสามารถยื่นคำขอร้องกับครู ครูจะให้คะแนนการบ้านตนเอง。คะแนนสุดท้าย =คะแนนจากการประเมินจากครู。",
     "description": "个人作业zh_js"
   },
-  "m.hour": {
-    "message": "นาฬิกา",
-    "description": "个人作业zh_js"
+  "m.pickHour": {
+    "message": "{n}โมง",
+    "description": "用在 datepicker (时间选择器) 中"
   },
-  "m.min": {
-    "message": "นาที",
-    "description": "个人作业zh_js"
+  "m.pickMinute": {
+    "message": "{n}นาที",
+    "description": "用在 datepicker (时间选择器) 中"
   },
   "m.scoreTip": {
     "message": "คะแนนไม่สามารถเกินคะแนนเต็ม",
@@ -721,6 +685,38 @@
   },
   "m.confirmTip": {
     "message": "คะแนนและความคิดเห็นไม่สามารถแก้ไขได้หลังจากส่งเรียบร้อย ยืนยันจะส่งต่อ",
+    "description": "个人作业zh_js"
+  },
+  "m.currentMonth": {
+    "message": "{y}ปี{m}",
+    "description": "个人作业zh_js"
+  },
+  "m.timePickerHourFmt": {
+    "message": "ชม.",
+    "description": "个人作业zh_js"
+  },
+  "m.reRecord": {
+    "message": "บันทึกเสียงต้นฉบับจะถูกลบหลังจากบันทึกใหม่ แน่ใจว่าจะบันทึกใหม่?",
+    "description": "个人作业zh_js"
+  },
+  "m.switchON": {
+    "message": "เปิด",
+    "description": "switch按钮上显示的文本，可以在发布个人作业页面看到"
+  },
+  "m.switchOFF": {
+    "message": "ปิด",
+    "description": "switch按钮上显示的文本，可以在发布个人作业页面看到"
+  },
+  "m.historyTip": {
+    "message": "ส่งหลายครั้ง, คะแนนการบ้านได้คะแนนสูงสุด ",
+    "description": "个人作业zh_js"
+  },
+  "m.mobilePermissionTip1": {
+    "message": "คุณได้ปิดสิทธิ์การใช้กล้อง ไม่สามารถใช้ฟังก์ชั่นดังกล่าวได้ โปรดไปที่ [การตั้งค่า] ในโทรศัพท์มือถือเพื่อดำเนินการให้สิทธิ์",
+    "description": "个人作业zh_js"
+  },
+  "m.mobilePermissionTip2": {
+    "message": "คุณได้ปิดสิทธิ์การใช้ไมโครโฟน ไม่สามารถใช้ฟังก์ชั่นดังกล่าวได้ โปรดไปที่ [การตั้งค่า] ในโทรศัพท์มือถือเพื่อดำเนินการให้สิทธิ์",
     "description": "个人作业zh_js"
   }
 }

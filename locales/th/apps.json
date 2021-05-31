@@ -407,6 +407,18 @@
     "message": "อย่าทํางานบ่อยๆ",
     "description": "小应用"
   },
+  "mobilePermissionTip1": {
+    "message": "คุณได้ปิดสิทธิ์การใช้กล้อง ไม่สามารถใช้ฟังก์ชั่นดังกล่าวได้ โปรดไปที่ [การตั้งค่า] ในโทรศัพท์มือถือเพื่อดำเนินการให้สิทธิ์",
+    "description": "小应用"
+  },
+  "mobilePermissionTip2": {
+    "message": "คุณได้ปิดสิทธิ์การใช้ไมโครโฟน ไม่สามารถใช้ฟังก์ชั่นดังกล่าวได้ โปรดไปที่ [การตั้งค่า] ในโทรศัพท์มือถือเพื่อให้สิทธิ์",
+    "description": "小应用"
+  },
+  "mobilePermissionTip3": {
+    "message": "คุณได้ปิดสิทธิ์การระบุตำแหน่ง ไม่สามารถใช้ฟังก์ชั่นดังกล่าวได้ โปรดไปที่ [การตั้งค่า] ในโทรศัพท์มือถือเพื่อดำเนินการให้สิทธิ์",
+    "description": "小应用"
+  },
   "teacher.title": {
     "message": "ครู",
     "description": "小应用"
@@ -599,8 +611,8 @@
     "message": "ลงคะแนนแล้ว",
     "description": "小应用"
   },
-  "vote.endTime": {
-    "message": "ขีดจำกัดเวลา",
+  "vote.deadline": {
+    "message": "เวลาสิ้นสุด: {time}",
     "description": "小应用"
   },
   "vote.end": {
@@ -2275,6 +2287,10 @@
     "message": "คะแนนที่ได้รับจากการเลือกคนห้องเรียนและกิจกรรมชิงตอบคำถาม,",
     "description": "小应用"
   },
+  "class.exitNeedCheck": {
+    "message": "นักเรียนต้องได้รับการอนุมัติเมื่อถอดถอนออกจากชั้นเรียน",
+    "description": "小应用"
+  },
   "resource.createFolder": {
     "message": "เพิ่มโฟลเดอร์",
     "description": "小应用"
@@ -3287,6 +3303,18 @@
     "message": "ไม่พบโรงเรียน/สถาบัน",
     "description": "小应用"
   },
+  "user.repeatTip": {
+    "message": "รหัสนักเรียน/รหัสพนักงานดังกล่าวได้เปิดบัญชีแล้ว โปรดอย่าลงทะเบียนซ้ำ หากลืมชื่อผู้ใช้หรือรหัสผ่านโปรดติดต่อฝ่ายบริการลูกค้าออนไลน์",
+    "description": "小应用"
+  },
+  "user.repeatTip2": {
+    "message": "รหัสนักเรียน/รหัสพนักงานดังกล่าวได้เปิดบัญชีแล้ว (หน่วยงาน: {org}}  ชื่อผู้ใช้: {name}) โปรดอย่าลงทะเบียนซ้ำ หากลืมชื่อผู้ใช้หรือรหัสผ่าน โปรดติดต่อฝ่ายบริการลูกค้าออนไลน์",
+    "description": "小应用"
+  },
+  "user.registErrorText": {
+    "message": "กรุณาตรวจสอบก่อนที่จะลงทะเบียน",
+    "description": "小应用"
+  },
   "search.title": {
     "message": "ค้นหา",
     "description": "小应用"
@@ -3861,6 +3889,22 @@
   },
   "live.enterLiveRoom": {
     "message": "ครูกําลังถ่ายทอดสดและคลิกเพื่อป้อน",
+    "description": "小应用"
+  },
+  "user.repeatStudentId": {
+    "message": "รหัสนักเรียน/รหัสพนักงานดังกล่าวได้เปิดบัญชีแล้ว",
+    "description": "小应用"
+  },
+  "user.repeatOrgTitle": {
+    "message": "(หน่วยงาน:",
+    "description": "小应用"
+  },
+  "user.repeatUseTitle": {
+    "message": "，ชื่อผู้ใช้:",
+    "description": "小应用"
+  },
+  "user.repeatUseTip": {
+    "message": ")",
     "description": "小应用"
   }
 }

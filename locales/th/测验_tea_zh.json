@@ -99,6 +99,10 @@
     "message": "คะแนนเต็ม",
     "description": "测验项目"
   },
+  "totalScoreOf": {
+    "message": "คะแนนเต็ม: $1คะแนน",
+    "description": "测验项目"
+  },
   "成长值": {
     "message": "ค่าการเติบโต",
     "description": "测验项目"
@@ -335,16 +339,12 @@
     "message": "สั่งการบ้านเรียงความ",
     "description": "测验项目"
   },
-  "每人批阅": {
-    "message": "ตรวจสอบแต่ละ คน",
+  "evalPer": {
+    "message": "แต่ละคนตรวจ$1份ชุด",
     "description": "测验项目"
   },
-  "份": {
-    "message": "ฉบับ",
-    "description": "测验项目"
-  },
-  "分": {
-    "message": "คะแนน",
+  "points": {
+    "message": "$1คะแนน",
     "description": "测验项目"
   },
   "作业时间": {
@@ -407,8 +407,8 @@
     "message": "รายละเอียดการบ้าน",
     "description": "测验项目"
   },
-  "个字": {
-    "message": "คำ",
+  "words": {
+    "message": "$1 คํา",
     "description": "测验项目"
   },
   "评价作业": {
@@ -1231,12 +1231,8 @@
     "message": "เขียนการบ้านที่นี่",
     "description": "测验项目"
   },
-  "已写": {
-    "message": "เขียนแล้ว",
-    "description": "测验项目"
-  },
-  "字": {
-    "message": "คำ",
+  "writtenWords": {
+    "message": "เขียนไปแล้ว $1 คำ",
     "description": "测验项目"
   },
   "提交作业": {
@@ -1359,16 +1355,8 @@
     "message": "วันนี้",
     "description": "测验项目"
   },
-  "年": {
-    "message": "ปี",
-    "description": "测验项目"
-  },
-  "月": {
-    "message": "เดือน",
-    "description": "测验项目"
-  },
-  "日": {
-    "message": "วัน",
+  "currentDate": {
+    "message": "$1 ปี $2 เดือน",
     "description": "测验项目"
   },
   "正在加载中": {
@@ -2027,20 +2015,8 @@
     "message": "คำตอบของคุณ",
     "description": "测验项目"
   },
-  "共": {
-    "message": "ทั้งหมด",
-    "description": "测验项目"
-  },
-  "次答题机会,已用": {
-    "message": "โอกาสในการตอบคำถาม,ใช้ไปแล้ว",
-    "description": "测验项目"
-  },
-  "次，剩余": {
-    "message": "ครั้ง，เหลือ",
-    "description": "测验项目"
-  },
-  "次": {
-    "message": "ครั้ง",
+  "examTip1": {
+    "message": "รวมมีโอกาสตอบคำถาม$1ครั้ง ใช้ไปแล้ว$2ครั้ง เหลือ$3ครั้ง",
     "description": "测验项目"
   },
   "已提醒学生交作业": {
@@ -2101,6 +2077,94 @@
   },
   "formulaCalc": {
     "message": "คำถามการคำนวณสูตร",
+    "description": "测验项目"
+  },
+  "还没有学生完成课程~": {
+    "message": "ยังไม่มีนักเรียนที่จบหลักสูตร",
+    "description": "测验项目"
+  },
+  "plzInputAnswer": {
+    "message": "กรุณาใส่คําตอบ",
+    "description": "测验项目"
+  },
+  "markdone": {
+    "message": "คุณไม่ได้ตรวจการบ้าน<br/>หรือนักเรียนยังทำการบ้านไม่เสร็จ<br/>หรือ...คุณลืมตรวจแก้~",
+    "description": "测验项目"
+  },
+  "going": {
+    "message": "ไม่มีนักเรียนคนใดที่กําลังเรียนรู้ <br/>ไปวนเล่นที่อื่นก่อน~",
+    "description": "测验项目"
+  },
+  "class": {
+    "message": "ไม่มีการสร้างชั้นเรียน <br/>กรุณาไปที่แพลตฟอร์มเพื่อสร้างชั้นเรียนก่อน~",
+    "description": "测验项目"
+  },
+  "start": {
+    "message": "นักเรียนทุกคนเรียนแล้ว  <br/>มันเยี่ยมไปเลย!",
+    "description": "测验项目"
+  },
+  "submit": {
+    "message": "นักเรียนทําการบ้านกันเสร็จหมดแล้ว  <br/>พวกเขาสุดยอดมาก!",
+    "description": "测验项目"
+  },
+  "timeout": {
+    "message": "อินเตอร์เน็ตหลุดแล้ว...กรุณาตรวจสอบการเชื่อมต่อเครือข่ายบนมือถือด้วย~",
+    "description": "测验项目"
+  },
+  "homewrok-type": {
+    "message": "คุณยังไม่เคยมอบหมายการบ้านประเภทนี้",
+    "description": "测验项目"
+  },
+  "hw-stu-all": {
+    "message": "ไม่พบนักเรียนในชั้นเรียนนี้",
+    "description": "测验项目"
+  },
+  "hw-stu-weitijiao": {
+    "message": "นักเรียนทุกคนส่งการบ้านหมดแล้ว! เยี่ยมมาก",
+    "description": "测验项目"
+  },
+  "hw-stu-daipiyue": {
+    "message": "ไม่มีการบ้านที่ต้องแก้ไข พักผ่อนสักหน่อย~",
+    "description": "测验项目"
+  },
+  "hw-stu-xuchongxie": {
+    "message": "ไม่มีนักเรียนคนใดที่ต้องเขียนใหม่",
+    "description": "测验项目"
+  },
+  "hw-stu-weikaishi": {
+    "message": "การบ้านดังกล่าวยังไม่เริ่มดำเนินการ",
+    "description": "测验项目"
+  },
+  "hw-stu-xitong": {
+    "message": "ระบบให้คะแนนตรงเวลามาก <br/> ต้องไม่มีนักเรียนที่เคยส่งการบ้านอย่างแน่นอน~",
+    "description": "测验项目"
+  },
+  "hw-stu-wancheng": {
+    "message": "นักเรียนยังทำไม่เสร็จ ไปกระตุ้นสักหน่อย",
+    "description": "测验项目"
+  },
+  "hw-stu-jieshu": {
+    "message": "เจ้าเด็กแสบกลุ่มนี้! ไม่มีใครส่งการบ้านจริงๆด้วย!",
+    "description": "测验项目"
+  },
+  "hw-stu-yuqi": {
+    "message": "นักเรียนทุกคนส่งการบ้านหมดแล้ว! เยี่ยมมาก",
+    "description": "测验项目"
+  },
+  "hw-stu-huping": {
+    "message": "ไม่มีการบ้านที่อยู่ในระหว่างการประเมินร่วม",
+    "description": "测验项目"
+  },
+  "hw-stu-shensu": {
+    "message": "ไม่มีคําร้องของนักเรียน",
+    "description": "测验项目"
+  },
+  "hw-stu-sschenggong": {
+    "message": "อะไรก็ไม่มี~",
+    "description": "测验项目"
+  },
+  "stu-hw-type": {
+    "message": "ครูไม่ได้มอบหมายการบ้านประเภทนี้",
     "description": "测验项目"
   }
 }
