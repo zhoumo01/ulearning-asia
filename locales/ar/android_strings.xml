@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ULearning</string>
+    <string name="app_name_debug">ULearning-D</string>
+
+    <string name="chat_press_talk">اضغط للكلام</string>
+    <string name="chat_release_send">نهاية الإصدار</string>
+    <string name="chat_image">صورة</string>
+    <string name="chat_file">مستند</string>
+    <string name="chat_photo">التقاط</string>
+    <string name="chat_video">فيديو صغير</string>
+
+    <!-- time -->
+    <string name="time_yesterday">أمس</string>
+    <string name="time_day">-</string>
+    <string name="time_month">-</string>
+    <string name="time_year">-</string>
+
+    <string name="server_error">الموقع قيد الصيانة، الرجاء المحاولة مرة أخرى لاحقا</string>
+    <string name="toast_other_lesson_progress" formatted="false">التخزين المؤقت لأدوات الدورة التدريبية٪s/٪s</string>
+    <string name="toast_please_check_if_the_SD_card_is_inserted">تحقق من بطاقة SD إذا تم توصيلها!</string>
+    <!--<string name="telphone">400 610 7808</string>-->
+    <string name="dialog_ok">@string / تعرف</string>
+    <string name="dialog_quit" formatted="false">إنهاء(٪s)</string>
+    <string name="dialog_confirm">تأكيد</string>
+    <string name="dialog_delete"></string>
+    <string name="dialog_cancel">إلغاء الأمر</string>
+    <string name="dialog_ask_logout">تريد إنهاء تسجيل الدخول</string>
+    <string name="normal_logout">خروج</string>
+    <string name="iknow">@string / تعرف</string>
+    <string name="know">موافق لاحظت</string>
+    <string name="cancel">إلغاء الأمر</string>
+    <string name="ok">موافق</string>
+    <string name="leave">تتم الآن المغادرة...</string>
+    <string name="continue_to_create">متابعة الإنشاء</string>
+    <string name="today">اليوم</string>
+    <string name="mult_select">الاختيار من متعدد</string>
+    <string name="operation_save">حفظ</string>
+    <string name="operation_create">إنشاء</string>
+    <string name="operation_create_course">إنشاء دورة دراسية</string>
+    <string name="operation_create_course_next">الخطوة التالية</string>
+    <string name="operation_create_course_code">مسح رمز الاستجابة السريعة للانضمام إلى الفصل الدراسي</string>
+    <string name="operation_download">تنزيل</string>
+    <string name="operation_goon_study">استمر! أنا غني</string>
+    <string name="operation_not_study">أنسى الأمر</string>
+    <string name="operation_go_on_download">استمرار للتنزيل</string>
+    <string name="operation_send">إرسال</string>
+    <string name="operation_send_message">إرسال رسالة</string>
+    <string name="operation_archive">أرشيف</string>
+    <string name="operation_quit_account">الخروج من الحساب الجاري</string>
+    <string name="operation_quit_class">إنهاء الفصل الدراسي</string>
+    <string name="operation_delete_class">حذف الفصل الدراسى</string>
+    <string name="operation_student_list_sort_change">تغيير</string>
+    <string name="operation_go_on_study">إستمرار</string>
+    <string name="operation_course_download_clear_all">مسح الكل</string>
+    <string name="operation_change_telphone">تغيير الارتباط برقم الهاتف المحمول</string>
+    <string name="operation_relevance_telphone">ربط رقم الهاتف المحمول</string>
+    <string name="operation_get_verification_code">أحصل على رمز التحقق</string>
+    <string name="operation_download_all">تنزيل</string>
+    <string name="operation_reject_all">رفض تماما</string>
+    <string name="operation_agree_all">توافق تماما</string>
+    <string name="operation_reject">رفض</string>
+    <string name="operation_agree">موافق</string>
+    <string name="operation_start_study">بدء التعلم</string>
+
+    <string name="operation_progress">التقدم</string>
+    <string name="operation_look_progress">التحقق من نتيجة التقدم</string>
+    <string name="icourse_resource" translatable="false">يتم توفير هذه المناهج الدراسية من قبل [Love Course] ، يرجى التحقق من إحصاءات المناهج الدراسية من الكمبيوتر</string>
+    <string name="icourse_resource_student" translatable="false">يتم توفير مصادر و بيانات المناهج  الدراسية من قبل 【دورة الحب】</string>
+    <string name="operation_go_study">يا عزيزي، عد إلى الدراسة</string>
+    <string name="operation_go_study_to_next_page">المسيرة إلى الصفحة التالية</string>
+    <string name="operation_go_study_course">أدخل الدورة التدريبية</string>
+    <string name="operation_start_answer">بدء الإجابة</string>
+    <string name="operation_refresh_page">إعادة تحميل</string>
+    <string name="operation_relogin">تسجيل الدخول مرة أخرى</string>
+    <string name="operation_check_grade">تحقق من النتيجة</string>
+    <string name="operation_check_all">تحقق من الكل</string>
+    <string name="operation_check_all_close">تقليص</string>
+    <string name="operation_join_class">الانضمام إلى الفصل الدراسي</string>
+    <string name="operation_join_class_course">الانضمام إلى دورة التدريبية للفصل الدراسي</string>
+    <string name="operation_join">انضمام</string>
+    <string name="operation_welcome">مرحباً</string>
+    <string name="operation_create_class">إنشاء فصل دراسي</string>
+    <string name="operation_revocation_apply">سحب الطلب</string>
+    <string name="operation_re_apply">إعادة التقديم</string>
+    <string name="operation_revocation">إنسحاب</string>
+    <string name="please_permission">لا حق الوصول</string>
+    <string name="operation_not_download">عدم التنزيل أولا</string>
+    <string name="operation_cancel_download">إلغاء التنزيل</string>
+    <string name="operation_forward_download">للتنزيل</string>
+    <string name="operation_go_on">إستمرار</string>
+    <string name="operation_redo">إعادة القيام به</string>
+    <string name="operation_cancel_collect">إلغاء التحصيل</string>
+    <string name="operation_course_spoken_goon_study">مواصلة التعلم</string>
+    <string name="operation_course_spoken_leave_study">مغادرة هذه الصفحة</string>
+    <string name="course_practice_remind_text_once">يسمح في هذا الاختبار محاولة واحدة فقط</string>
+    <string name="course_practice_word_score">الدرجة</string>
+    <string name="please_set_the_recording_permission">الرجاء السماح للموقع بالوصول إلى الميكروفون </string>
+    <string name="please_set_the_video_and_photo_permissions">&quot;الرجاء السماح للموقع بالوصول إلى الكاميرا!</string>
+    <string name="the_recording_failure">لم نتمكن من التسجيل</string>
+    <string name="loading_record_component">تحميل ملف صوتي</string>
+    <string name="capture_light_dark">\n إنه مظلم جدا، يرجى تشغيل الفلاش</string>
+    <string name="loading_record_component_fail">لم نتمكن من تحميل ملف الصوت</string>
+    <string name="microphone_permissions_are_not_allowed">غير قادر على الوصول إلى الميكروفون</string>
+    <string name="cache_data_failed">لم نتمكن من استعادة البيانات من ذاكرة التخزين المؤقت </string>
+    <string name="cache_data_null">لا توجد بيانات ذاكرة التخزين المؤقت</string>
+    <string name="request_failed">لم نتمكن من الطلب</string>
+    <string name="link_server_failed">لم نتمكن من الاتصال بالخادم، الرجاء المحاولة مرة أخرى لاحقاً</string>
+    <string name="page_not_found">لم يتم العثور على الصفحة</string>
+    <string name="the_teacher_invited_you_to_join_the_class">المعلم يدعوك للانضمام إلى الفصل الدراسي</string>
+    <string name="back_umooc">الرجوع للصفحة الرئيسية</string>
+    <string name="wait_complete">اكمل لاحقا</string>
+    <string name="skip_setup">تخطي الإعداد&gt;&gt;</string>
+    <string name="complete_your_course">أكمل دورتك التدريبية</string>
+    <string name="change_your_course">تعديل معلومات الدورة الدراسية</string>
+    <string name="select_your_school">اختر مدرستك</string>
+    <string name="team_teaching">فريق التدريس</string>
+    <string name="personal_teaching">التدريس الشخصي</string>
+    <string name="net_is_broken">لا يوجد اتصال بالإنترنت</string>
+    <string name="login_style">طرق تسجيل الدخول الأخرى</string>
+
+    <string name="close">إغلاق</string>
+    <string name="play">تشغيل</string>
+    <string name="change">تغيير</string>
+    <string name="classs">الفصل الدراسي</string>
+    <string name="type">النوع</string>
+    <string name="more">المزيد</string>
+    <string name="move">نقل</string>
+    <string name="rename">إعادة تسمية</string>
+    <string name="access_right">إذن الوصول</string>
+    <string name="modify_resource">إعادة تسمية</string>
+    <string name="immediate_experience">جربه الآن</string>
+    <string name="jump">‏‏تخطي</string>
+    <string name="click_to_skip">انقر لتخطي</string>
+    <string name="change_textbook">تغيير</string>
+    <string name="setting">الإعدادات</string>
+    <string name="copy">نسخ</string>
+    <string name="delete">حذف</string>
+    <string name="delete_ing">جارٍ الحذف...</string>
+    <string name="move_ing">يتم الآن النقل...</string>
+    <string name="delete_fail">لم نتمكن من الحذف</string>
+    <string name="delete_success">تم الحذف بنجاح!</string>
+    <string name="move_success">تم النقل بنجاح!</string>
+    <string name="forward">إعادة توجيه</string>
+    <string name="select_contact">إختيار جهة اتصال</string>
+    <string name="chat">الدردشة</string>
+    <string name="contact">جهات الاتصال</string>
+    <string name="avatar">صورة الملف الشخصي</string>
+    <string name="username">معرف المستخدم</string>
+    <string name="name">الاسم</string>
+    <string name="gender">‏‏النوع</string>
+    <string name="student_number">كود الطالب</string>
+    <string name="telphone">رقم الهاتف المحمول</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="activate">تنشيط</string>
+    <string name="go_activate">الذهاب للتنشيط</string>
+    <string name="activate_code_wrong">الرجاء إدخال رمز التفعيل الكامل</string>
+    <string name="search">بحث</string>
+    <string name="activate_course">تنشيط</string>
+    <string name="activate_textbook">تنشيط</string>
+    <string name="recording">يتم التسجيل</string>
+    <string name="playback">تشغيل التسجيل</string>
+    <string name="play_record">تشغيل التسجيل</string>
+    <string name="relect_role">إعادة تحديد الدور</string>
+    <string name="take_pic">التقاط صورة</string>
+    <string name="bulletin">نشر إعلان</string>
+    <string name="announcement">إعلان</string>
+    <string name="announcement_empty">لا يوجد إعلان</string>
+    <string name="quite">‏‏هادئ</string>
+    <string name="class_group">الفصول الدراسية</string>
+    <string name="start">إبدأ</string>
+    <string name="finish">إنهاء</string>
+    <string name="published">تم النشر</string>
+    <string name="draft">مسودة</string>
+    <string name="response">مراجعات الأقران</string>
+    <string name="need_rewrite">تحتاج إلى إعادة القيام به</string>
+    <string name="application">المزيد من التطبيقات</string>
+    <string name="video_type">فيديو(MP4/AVI/MOV/FLV/RMVB/MPG)</string>
+    <string name="class_detail">معلومات الفصل الدراسي</string>
+    <string name="class_info">تفاصيل الفصل الدراسي</string>
+    <string name="personal_info">ملفي الشخصي</string>
+    <string name="telphone_number">الهاتف</string>
+    <string name="success">نجاح</string>
+    <string name="fail">لم نتمكن</string>
+    <string name="system_informs">إشعار النظام</string>
+    <string name="teacher">المعلم</string>
+    <string name="assistant">معيد</string>
+    <string name="student">طالب</string>
+    <string name="manager">مدير</string>
+    <string name="course_manager">مدير الفصل</string>
+    <string name="start_speak">بدء القراءة</string>
+    <string name="correct">إجابة صحيحة!</string>
+    <string name="wrong">إجابة غير صحيحة</string>
+    <string name="apply">تطبيق</string>
+    <string name="unstart">لم تبدأ بعد</string>
+    <string name="goon">قيد التقدم</string>
+    <string name="end">إنهاء</string>
+    <string name="ended">تم الإنهاء</string>
+    <string name="deleted">تم الحذف</string>
+    <string name="course_end">تم الإنهاء</string>
+    <string name="wait_for_approval">الموافقة قيد التنفيذ</string>
+    <string name="rewatch">يمكنك التحقق من ذلك مرة أخرى</string>
+    <string name="campus_list">الحرم الجامعي</string>
+    <string name="outside_list">خارجية</string>
+    <string name="wechat">WeChat</string>
+    <string name="chose_all">إختيار الكل</string>
+    <string name="cancel_chose_all">إلغاء تحديد الكل</string>
+    <string name="resource_folder">مجلد</string>
+    <string name="resource">مصدر</string>
+    <string name="resource_select">٪d من الملفات المحددة</string>
+    <string name="resource_set_permit">تعيين إذن الوصول</string>
+    <string name="check_the_details">التحقق من التفاصيل</string>
+    <string name="i_have_read">لقد قرأت</string>
+
+    <string name="download_recourse_type_video">فيديو</string>
+    <string name="download_recourse_type_audio">الصوت</string>
+    <string name="download_recourse_type_word">ملف Word</string>
+    <string name="download_recourse_type_image">صورة</string>
+    <string name="download_recourse_type_other">أخرى</string>
+
+    <string name="clear_cache">مسح ذاكرة التخزين المؤقت</string>
+
+    <string name="my_class">فصلي الدراسي</string>
+    <string name="look_my_class">تحقق من فصلي الدراسي</string>
+    <string name="my_text_book">كتابي المدرسي</string>
+    <string name="my_score">نقاطي</string>
+    <string name="class_status_apply">تطبيق الفصل الدراسي</string>
+    <string name="class_status_agreed">موافق</string>
+    <string name="class_status_rejected">‏‏مرفوض</string>
+    <string name="class_status_apply_quiting">التقدم بطلب لإنهاء</string>
+    <string name="class_status_apply_joining">التقدم بطلب للانضمام</string>
+
+    <string name="course_learn_status_finished">مكتمل</string>
+    <string name="course_learn_status_unfinished">غير مكتمل</string>
+    <string name="course_learn_status_unstart">لم يبدأ</string>
+    <string name="course_learn_status_ongoing">قيد التقدم</string>
+    <string name="course_learn_status_expired">انتهت الصلاحية</string>
+
+    <string name="activity_status_need_rewrite">تحتاج إلى إعادة الكتابة</string>
+
+    <string name="sex_male">ذكر</string>
+    <string name="sex_madam">أنثى</string>
+
+    <string name="growth_student_level_default">المبتدئ</string>
+    <string name="growth_teacher_level_default">المبتدئ</string>
+
+    <string name="page_title_modify_pwd">تغيير كلمة المرور</string>
+
+    <string name="modify_success">تم التعديل بنجاح</string>
+    <string name="modify_fail">لم نتمكن من التعديل</string>
+    <string name="modify">تعديل</string>
+    <string name="logout_message">بعد إلغاء حسابك، لن تتمكن بعد الآن من استخدام هذا الحساب لتسجيل الدخول إلى U Academy، ولن تتمكن من استخدام نفس رقم الهاتف المحمول أو عنوان البريد الإلكتروني لتسجيل حساب جديد. سيقوم النظام بمسح معلوماتك الشخصية وبياناتك التاريخية خلال فترة زمنية معينة.
+     يرجى ملاحظة أن إلغاء الحساب هو عملية غير قابلة للاسترداد، لذا يرجى توخي الحذر! هل أنت متأكد من إلغاء هذا الحساب؟</string>
+    <string name="confirm_logout">متابعة تسجيل الخروج</string>
+    <string name="cancel_logout">إلغاء</string>
+
+    <string name="hint">تذكير</string>
+    <string name="hint_friendship">تذكير رقيق</string>
+    <string name="hint_tips">النصائح</string>
+    <string name="hint_input_content_limit_500_word">تلميح في المحتوى هنا (لا يتجاوز 500 حرفا)</string>
+    <string name="hint_input_answer">تلميح الإجابة هنا...</string>
+    <string name="hint_input_new_telphone">يرجى إدخال تلميح  رقم الهاتف</string>
+    <string name="hint_input_right_code">الرجاء إدخال كود الفصل الدراسي الصحيح</string>
+    <string name="hint_input_telphone">يرجى إدخال رقم الهاتف المحمول</string>
+    <string name="hint_input_username_pwd">الرجاء إدخال اسم المستخدم أو كلمة المرور</string>
+    <string name="hint_input_username">الرجاء إدخال اسم المستخدم</string>
+    <string name="hint_input_pwd_please">الرجاء إدخال كلمة المرور</string>
+    <string name="hint_input_pwd">الرجاء إدخال كلمة المرور القديمة </string>
+    <string name="hint_input_new_pwd">الرجاء إدخال كلمة المرور الجديدة</string>
+    <string name="hint_input_new_pwd_rule">يجب أن تكون كلمة المرور بين ٨ - ١٦ حرفاً، يجب أن تحتوي على حروف و أرقام (يجب مراعاة حالة الأحرف)</string>
+    <string name="hint_input_new_pwd_again">الرجاء إدخال مفتاح في كلمة مرور جديدة مرة أخرى</string>
+    <string name="hint_input_class_name">أدخل اسم الفصل الدراسى</string>
+    <string name="hint_input_course_name">الرجاء إدخال اسم الدورة التدريبية</string>
+    <string name="hint_input_edit_class_name">يرجى إدخال اسم الفصل الدراسي، إذا كان أكثر من فصل دراسي، يرجى فصلها باستخدام&quot;؛ &quot;</string>
+    <string name="hint_search_contact">البحث عن شخص جهة اتصال</string>
+    <string name="hint_search_course">بحث عن دورة دراسية</string>
+    <string name="hint_search">بحث</string>
+    <string name="hint_now_relevance_telphone">رقم الهاتف المحمول المرتبط به حالياً</string>
+    <string name="hint_input_verification_code">الرجاء إدخال رمز التحقق</string>
+    <string name="hint_face_recognition">يرجى مواجهة الكاميرا وتأكد من وجود ما يكفي من الضوء</string>
+    <string name="hint_qr_code">أشر إلى مربع المسح الضوئي لصورة رمز الاستجابة السريعة لمسحها ضوئيا تلقائيا</string>
+    <string name="hint_qr_code_error">رمز الاستجابة السريعة غير معترف به</string>
+    <string name="hint_qr_code_touch">المس لمتابعة المسح الضوئي</string>
+    <string name="hint_open_light">تشغيل الفلاش</string>
+    <string name="hint_telphone_unwrite">ليس الآن</string>
+    <string name="hint_email_unwrite">&quot;هذا الكسول لم يترك عنوان البريد الإلكتروني&quot;</string>
+    <string name="hint_feature_online_follow_up">سيتم الاتصال بهذه الميزة لاحقا.</string>
+    <string name="hint_course_page_not_study_finished">لم تنته من دراسة الصفحة</string>
+    <string name="hint_course_important">ملاحظة هامة</string>
+    <string name="hint_classname_input_require">2-30 حرفا، أحرف خاصة غير مسموح بها(وبصرف النظر عن underscores_، واصلة-)!</string>
+    <string name="hint_classcode_input_require">6-20 الحروف والأرقام وكذلك underscores_، واصلة-! </string>
+    <string name="hint_classyear_input_require">الرجاء إدخال في شكل السنة الصحيحة، مثال 2015</string>
+    <string name="hint_classname_modify_success">تم التعديل بنجاح</string>
+    <string name="hint_classcode_modify_success">تم التعديل بنجاح</string>
+    <string name="hint_classyear_modify_success">تم التعديل بنجاح</string>
+    <string name="hint_chat_message_copy_success">تم النسخ بنجاح!</string>
+    <string name="hint_copy_to_clipboard">تم النسخ بنجاح!</string>
+    <string name="hint_pwd_modify_success">تم التعديل بنجاح</string>
+    <string name="hint_pwd_modify_fail">لم يتم التعديل</string>
+    <string name="hint_class_member_empty">لا يوجد طلاب في الفصل، يرجى السماح للطلاب باستخدام رمز الفصل أو اسم المعلم للبحث في الفصل والانضمام إلى الصف</string>
+    <string name="hint_first_page">إنها الصفحة الأولى بالفعل</string>
+    <string name="hint_time_out">إنتهي الوقت</string>
+    <string name="hint_download_three_count">مسموح بتنزيل ما يصل إلى 3 في وقت واحد</string>
+    <string name="hint_download_three_count_support">دعم لتحميل الحد الأقصى 3 الموارد في وقت واحد!</string>
+    <string name="hint_next_section_empty">لا يوجد محتوى في القسم التالي</string>
+    <string name="hint_section_no_grade">لم تكمل هذا القسم، بعد الإكمال ستحصل على النتيجة</string>
+    <string name="hint_no_sd_card">لا يوجد بطاقة SD</string>
+    <string name="hint_clear_course">هل تريد إلغاء هذه الدورة التدريبية؟</string>
+    <string name="hint_confirm_delete_all_course">تأكيد لحذف جميع المنهج الدراسي؟</string>
+    <string name="hint_confirm_delete_offline_course">تأكيد لحذف جميع المنهج الدراسي الغير متصل على الانترنت؟</string>
+    <string name="hint_audio_file_empty">لا يوجد مستند صوتي</string>
+    <string name="hint_glosarry_empty">لا توجد مسردات في الدورة الحالية</string>
+    <string name="hint_section_study_close">قام معلمك بإغلاق محتوى القسم، لذلك لا يمكنك الدراسة في الوقت الحالي</string>
+    <string name="hint_video_undownload_flow_play">لم يتم تنزيل الفيديو، وحاليا لا يوجد واي فاي، للعب سوف تستهلك بيانات الهاتف. تأكيد العب؟</string>
+    <string name="hint_no_connect_wifi_ask_download">واي فاي غير متصل، إذا قمت بالتنزيل ستستهلك بيانات الهاتف، هل ترغب في التنزيل؟</string>
+    <string name="hint_no_connect_wifi_ask_play_video">لا اتصال واي فاي، للعب سوف تتكبد بيانات الهاتف، هل تريد الاستمرار في مشاهدة؟</string>
+    <string name="hint_apply_join_class_wait_teacher_approval">&quot;لقد تقدمت بطلب للانضمام إلى الصف، يرجى الانتظار للحصول على موافقة المعلم&quot;</string>
+    <string name="hint_join_class_need_approval">الطلاب بحاجة إلى موافقة للانضمام إلى الصف</string>
+    <string name="hint_confirm_revocation_join_class_apply">تأكيد لسحب الطلب؟</string>
+    <string name="hint_revocation_success">تم السحب بنجاح</string>
+    <string name="hint_revocation_fail">لم نتمكن من عملية السحب!</string>
+    <string name="hint_not_download_course">&quot;لم تقم بتنزيل البرامج الدراسية لهذه الدورة التدريبية&quot;</string>
+    <string name="hint_keep_least_one_course">الرجاء تحديد دورة تدريبية واحده على الأقل</string>
+    <string name="hint_keep_least_one_class">يجب تحديد فصل دراسي واحد على الأقل</string>
+    <string name="hint_course_empty">مؤقتا لا دورة تدريبية!</string>
+    <string name="hint_choose_teach_course">إختيار دورة دراسية</string>
+    <string name="hint_choose_course_cover">اختيار غلاف المقرر الدراسي</string>
+    <string name="hint_modify_personal_info_fail">لم يتم التعديل</string>
+    <string name="hint_quit_class_info">بعد ترك الصف، لن تتمكن من التحقق من الأنشطة المتعلقة بالفصل، على سبيل المثال الواجب، الامتحانات، إلخ، تأكيد الإقلاع؟</string>
+    <string name="hint_quit_class_success">الإقلاع عن الصف بنجاح!</string>
+    <string name="hint_quit_class_fail">لم نتمكن من الاستقالة!</string>
+    <string name="hint_capture_join_class_fail">رمز الاستجابة السريعة غير صالح، يرجى الاتصال بمعلمك</string>
+    <string name="hint_save_success">تم الحفظ بنجاح!</string>
+    <string name="hint_save_fail">لم نتمكن من الحفظ</string>
+    <string name="hint_change_success">تم تغييره بنجاح</string>
+    <string name="hint_speech_grade">لقد وضع معلمك القاعدة : فقط عندما تكون قد نطقت كل جملة/كلمة يتم ٪d، اعتبارك قد أكملت التعلم. هيا يا أولاد!</string>
+    <string name="hint_speech_must_on_network">إمكانية تسجيل الدرجات الآلي يمكن أن تستخدم عندما يكون هناك اتصال بالإنترنت / واي فاي. الرجاء فتح اتصال شبكة الاتصال.</string>
+    <string name="hint_collect_success">مجموعة ناجحة</string>
+    <string name="hint_class_create_success_tell_class_code_to_student" formatted="false">تم إنشاء الفصل بنجاح \n الرجاء إعلام الطلاب برمز الفصل الدراسي: ٪s</string>
+    <string name="hint_delete_class">حذف الفصل الدراسى</string>
+
+    <string name="warning_input_text_too_long">يجب ألا يتجاوز طول المحتوى الذي سيتم إدخاله ٪d، ولن يتم تحميل الجزء الزائد!</string>
+    <string name="warning_pwd_length_out_16">الرجاء إدخال من 6-16 حرفا أو رقما</string>
+    <string name="warning_pwd_length_less_8">يجب أن تكون كلمة المرور الجديدة 8 أحرف على الأقل</string>
+    <string name="warning_old_pwd_null">الرجاء إدخال كلمة المرور القديمة </string>
+    <string name="warning_old_pwd_input_error">إدخال كلمة المرور الأصلي غير صحيحة!</string>
+    <string name="warning_pwd_disagree">كلمة مرور غير متطابقة في الإدخالين</string>
+    <string name="warning_pwd_type">يجب أن تكون كلمة المرور الجديدة مزيجا من الحروف والأرقام</string>
+    <string name="warning_course_no_desc">لا توجد معلومات حول مقدمة موجزة للدورة</string>
+    <string name="warning_not_preview_file">لا تدعم معاينة هذا المستند\n، يمكنك استخدام تطبيقات أخرى لفتحه</string>
+    <string name="warning_course_resource_download_studyrecord">بعد تنزيل المصادر، يمكنك الدراسة بدون اتصال بالإنترنت. لحذف مكتمل، لن تؤثر الموارد خارج الإنترنت على سجل دراستك ودرجاتك</string>
+    <string name="warning_course_resource_download_size">المصادر مخزنة مؤقتا</string>
+    <string name="warning_course_resource_download_space">المساحة المستهلكة</string>
+    <string name="warning_course_resource_phone_space">المساحة المتاحة</string>
+    <string name="warning_course_expire">انتهت مدة الدورة التدريبية</string>
+    <string name="warning_course_buy_go_on_study">إذا كنت ترغب في مواصلة الدراسة، يرجى شراء هذه الدورة مرة أخرى</string>
+    <string name="warning_textbook_out_of_date">انتهت صلاحية البرامج الدراسية! لمواصلة الدرس، يرجى إعادة شراء المنتج&gt;&gt;</string>
+    <string name="warning_textbook_get_data">تم تحديث البرامج الدراسية، يرجى سحب لأسفل لتحديث للحصول على أحدث كورسات.</string>
+    <string name="warning_chat_empty_message">لا توجد رسالة</string>
+    <string name="warning_contact_empty">لا توجد جهات اتصال مطابقة</string>
+    <string name="warning_input_realinfo">يرجى إدخال معلومات حقيقية، وإلا، فإنه سوف يؤثر على نتيجة الدراسة الخاصة بك</string>
+    <string name="warning_sys_notify_empty">إشعار النظام فارغ^.^</string>
+    <string name="warning_practice_finish_limittime">يرجى إكمال التمرين في غضون الوقت المحدد. عندما ينتهي الوقت، سيتم إرساله تلقائيا</string>
+    <string name="warning_network_break">غير متصل بالإنترنت/WIFI، يرجى التحقق من الشبكة للاتصال</string>
+    <string name="warning_web_break">حدث خطأ ما ~ تحت إصلاح الطوارئ ، يرجى المحاولة مرة أخرى في وقت لاحق</string>
+    <string name="warning_qr_fail">لم نتمكن من مسح الكود!</string>
+    <string name="warning_qr_unsupport">لا تدعم معالجة رمز الاستجابة السريعة لتطبيقات أخرى!</string>
+    <string name="warning_qr_textbook_not_active">لم تقم بتنشيط الكتاب المدرسي، لمتابعة الدرس، يرجى مسح رمز الاستجابة السريعة بعد التنشيط. [تنشيط الآن]</string>
+    <string name="warning_qr_textbook_not_stu">يرجى تسجيل الدخول بحساب الطالب ومسح رمز الاستجابة السريعة</string>
+    <string name="warning_qr_textbook_out_of_date">انتهى هذا الكتاب الدراسي، يرجى إعادة تنشيطه لمواصلة الدرس. [تنشيط الآن]</string>
+    <string name="warning_qr_textbook_out_of_plan">وفقا لخطة، الوحدة الحالية من الكتاب المدرسي غير متوفرة الآن، يمكنك إدخال الدورة للبحث عن محتويات أخرى. [أدخل المقرر الدراسي] </string>
+    <string name="warning_input_content">الرجاء إدخال المحتوى</string>
+    <string name="warning_classname_format_error">خطأ تنسيق اسم الفصل الدراسي!</string>
+    <string name="warning_classcode_format_error">خطأ تنسيق كود الفصل الدراسي!</string>
+    <string name="warning_token_and_password_change">تم تغيير كلمة المرور، يرجى تسجيل الدخول بكلمة مرور جديدة</string>
+    <string name="warning_year_format_error">خطأ تنسيق السنة!</string>
+
+    <string name="warning_speech_no_speak">أنت لم تتحدث بعد...</string>
+    <string name="warning_speech_network_visit_error">غير قادر على القيام بوضع العلامات التلقائية، يرجى التحقق من إتصال الشبكة </string>
+    <string name="warning_speech_no_network">غير قادر على القيام بوضع العلامات التلقائية، يرجى التحقق من إتصال الشبكة </string>
+
+    <string name="warning_chat_no_login">لم تقم بتسجيل الدخول إلى نظام الرسائل، يرجى تجربته لاحقا!</string>
+    <string name="warning_chat_conversation_create_fail">لم نتمكن من إنشاء المحادثة</string>
+    <string name="warning_chat_conversation_unsupport_type">أنواع غير معتمدة</string>
+    <string name="warning_chat_message_forward_fail">لم نتمكن من إعادة التوجيه</string>
+    <string name="warning_chat_message_forward_success">إعادة التوجية بنجاح</string>
+
+    <string name="warning_location_fail">لم نتمكن من الاتصال مع الخادم</string>
+    <string name="warning_location_permission_fail">يرجى فتح خدمة الموقع في إعدادات نظام الهاتف المحمول ، Youyou يحتاج إلى معرفة موقعك للقيام بتفقد الحضور</string>
+    <string name="warning_notify_permission_fail">يرجى تفعيل الإخطار على هاتفك المحمول، والسماح لموقعنا على الانترنت للوصول إليه</string>
+
+    <string name="warning_audio_file_not_found">لم يتم العثور على ملف فيديو。</string>
+    <string name="warning_record_time_short">تسجيل الوقت قصير جدا، يرجى التوقف بعد فترة من الوقت</string>
+    <string name="warning_audio_file_is_not_valid">ملف صوتي ليس صالح!</string>
+    <string name="warning_speech_rejected">قراءة الخاص بك بشكل عشوائي، لا تصحيحهذه المرة، فإن النظام سيحافظ على درجاتك السابقة!</string>
+    <string name="warning_speech_start_fail">فشل في تمكين التقييم، لا تقييم لهذا التسجيل، ولكن النظام قد سجل وقت التسجيل</string>
+    <string name="warning_record_permission_close">إذن التسجيل غير مفتوح</string>
+    <string name="warning_carema_permission_close">إذن الكاميرا غير مفتوح</string>
+    <string name="warning_file_not_select">لم تحدد مستندا</string>
+    <string name="warning_file_could_not_open">لم تقم بتثبيت التطبيق الذي يمكن فتح هذا الملف في الهاتف المحمول الخاص بك</string>
+    <string name="warning_resource_not_download">الموارد التي لم يتم تنزيلها</string>
+    <string name="warning_file_size_limit">الملف تجاوز الحد المسموح!</string>
+    <string name="warning_file_not_found">ملف غير موجود!</string>
+    <string name="warning_file_download_fail">لم نتمكن التنزيل</string>
+    <string name="warning_file_download_course_fail">لم نتمكن من تحميل الدورة، الرجاء سحب لأسفل وتحديثها لإعادة التحميل</string>
+    <string name="warning_download_fail">لم نتمكن التنزيل</string>
+    <string name="warning_file_upload_fail">لم نتمكن من الرفع</string>
+    <string name="warning_update_fail">لم نتمكن من التحديث</string>
+    <string name="warning_version_is_new">هذا هو أحدث إصدار في الوقت الراهن</string>
+    <string name="warning_delete_bookmark_fail">لم نتمكن من حذف الإشارة المرجعية &quot;bookmark&quot;</string>
+    <string name="warning_delete_note_fail">لم نتمكن من حذف الملاحظات!</string>
+    <string name="warning_practicing">التدريبات جارية، يرجى تقديمها أولا</string>
+    <string name="warning_course_fail">يرجى الاتصال بنا في حال أن يكون هناك أي مشاكل مع المنهج الدراسي!</string>
+    <string name="warning_storage_short">ذاكرة الهاتف المحمول منخفضة</string>
+    <string name="warning_storage_short_and_release_redownload">ذاكرة الهاتف المحمول منخفضة ، يرجى الافراج عن بعض المساحة قبل تحميل</string>
+
+    <string name="warning_share_qq_success">مشاركة QQ بنجاح</string>
+    <string name="warning_share_qq_fail">لم نتمكن من مشاركة الـ QQ</string>
+    <string name="warning_share_qq_cancel">إلغاء مشاركة QQ</string>
+    <string name="warning_share_qqzone_success">مشاركة مساحة QQ بنجاح</string>
+    <string name="warning_share_qqzone_fail">لم نتمكن من مشاركة الـ QQ space</string>
+    <string name="warning_share_qqzone_cancel">حذف لمشاركة مساحة QQ</string>
+    <string name="warning_share_wx_success">تمت مشاركته بنجاح مع أصدقائك في WeChat</string>
+    <string name="warning_share_wx_fail">لم نتمكن من مشاركة الـ WeChat</string>
+    <string name="warning_share_wx_cancel">حذف لمشاركة أصدقاء WeChat</string>
+    <string name="warning_share_wxq_success">تمت مشاركته مع دائرة أصدقائك بنجاح</string>
+    <string name="warning_share_wxq_fail">لم نتمكن من المشاركة مع دائرة أصدقائك</string>
+    <string name="warning_share_wxq_cancel">حذف لمشاركتها مع دائرة أصدقائك</string>
+
+    <string name="num">العدد</string>
+    <string name="size_m">م</string>
+    <string name="size_g">ج</string>
+    <string name="loading">جارٍ التحميل...</string>
+    <string name="activing">تنشيط</string>
+    <string name="loading1">التحميل</string>
+    <string name="loading_wait">التحميل</string>
+    <string name="updating">جارٍ التحديث...</string>
+    <string name="creating_chat">إنشاء دردشة...</string>
+    <string name="loading_course">جار تنزيل المقررات...</string>
+    <string name="recording1">في التسجيل...</string>
+    <string name="checking">‏‏يتم الاختبار...</string>
+    <string name="logining">تسجيل الدخول...</string>
+    <string name="saving">‏‏جار الحفظ</string>
+    <string name="scoring">جارٍ التقييم...</string>
+    <string name="watching">مشاهدة</string>
+    <string name="unwatch">لم يشاهد بعد</string>
+    <string name="class_creating">جارٍ الإنشاء...</string>
+
+    <string name="pop_course_menu_detail">تفاصيل الدورة التدريبية</string>
+    <string name="pop_course_menu_score">حساب النتائج</string>
+    <string name="pop_course_menu_glosarry">قائمة المصطلحات</string>
+    <string name="pop_course_menu_mark">قائمة الإشارات المرجعية</string>
+    <string name="pop_course_menu_recourse">التخزين المؤقت للمنهج الدراسي</string>
+    <string name="pop_course_menu_note">قائمة الملاحظات</string>
+
+    <string name="pop_course_menu_class_member">عضو في الفصل دراسي</string>
+    <string name="pop_course_menu_exit_class">إنهاء الفصل دراسي</string>
+
+    <string name="pop_course_menu_modify_course">تعديل الفصل</string>
+    <string name="pop_course_menu_end_course">إنهاء الدورة التدريبية</string>
+    <string name="pop_course_new_announcement">إعلان جديد</string>
+    <string name="pop_course_menu_delete_course">حذف الدورة التدريبية</string>
+
+    <string name="setup_menu_modify_pwd">تعديل عنوان الصفحة</string>
+    <string name="setup_menu_only_wifi_download"> تنزيل فقط من خلال WIFI</string>
+    <string name="setup_menu_check_version">اختبار طبعة جديدة</string>
+
+    <string name="text_course_score1">متوسط الدرجات:</string>
+    <string name="text_course_score2">&quot;الفصول المكتملة' نتيجة تحت هذا المقرر / لا. من الفصول&quot;</string>
+    <string name="text_course_score3">نتيجة الفصل:</string>
+    <string name="text_course_score4">&quot;الفصول المكتملة' نتيجة تحت هذا المقرر / عدد الفصول&quot;</string>
+    <string name="text_course_score5">نتيجة الوحدة:</string>
+    <string name="text_course_score6">&quot;جميع الوحدات' نتيجة تحت هذه الوحدة / عدد الوحدات&quot;</string>
+    <string name="text_course_score7">※لا توجد نتيجة لوحدة التعلم غير المكتملة</string>
+    <string name="text_course_score8">نتيجة الصفحة:</string>
+    <string name="text_course_score9">&quot;صفحة التمرين: يتم حساب علامات التمرين (للمحاولات متعددة، سيتم حساب علامات المحاولة الأخيرة)&quot;</string>
+    <string name="text_course_score10">لا توجد صفحة تمرين: سجل حالة إكمال الدراسة فقط</string>
+    <string name="text_course_study_page_not_finished">لم تنته من دراسة الصفحة</string>
+    <string name="text_course_complete_status" formatted="false">الصفحة:٪d/٪d</string>
+    <string name="text_course_download_stauts" formatted="false">إجمالي الموارد ٪d، تنزيل ٪d الموارد(٪s)</string>
+    <string name="text_file_downloaded_local_path" formatted="false">تنزيل</string>
+    <string name="text_downloading_format" formatted="false">التنزيل(٪s/٪s)</string>
+    <string name="text_downloading_fail_format" formatted="false">لم نتمكن من تحميل  %s</string>
+    <string name="text_downloading_recourse_format" formatted="false">٪s من المورد</string>
+    <string name="text_downloading_recourse_finish_format" formatted="false">تم تنزيل ٪s من المورد</string>
+    <string name="text_downloading_recourse_about_format" formatted="false">حول ٪s</string>
+    <string name="text_downloading_recourse_progress" formatted="false">(٪s ٪s)</string>
+
+    <string name="text_get_course">الحصول على دورة تدريبية</string>
+    <string name="text_pull_up_load_more"> اسحب لتحميل المزيد </string>
+    <string name="text_disentangle_load_more">الافراج عن لتحميل المزيد</string>
+    <string name="text_loading">YOYO تعمل بجد على تحميل...</string>
+    <string name="text_timelimit_practice">التدريب الموقوت</string>
+    <string name="text_teacher_close_study">قام معلمك بإغلاق إذن الدراسة</string>
+    <string name="text_cancel_send_finger_upglide">إزالة الاصبع لإلغاء الإرسال</string>
+    <string name="text_alum_select">اختر من الألبوم</string>
+    <string name="text_course_expire_date" formatted="false">تاريخ انتهاء الدورة التدريبية:٪s</string>
+    <string name="text_course_class_count" formatted="false">الفصل الدراسي</string>
+    <string name="text_course_class_count_more" formatted="false">حول ٪d من الفصول الدراسية</string>
+    <string name="text_course_start_date" formatted="false">بدأت</string>
+    <string name="text_course_end_date" formatted="false">الموعد النهائي</string>
+    <string name="submit_end_date" formatted="false">الموعد النهائي لتقديم الطلبات</string>
+    <string name="peer_response_end_date" formatted="false">انتهاء</string>
+    <string name="text_course_submit_end_date" formatted="false">الموعد النهائي للارسال</string>
+    <string name="text_course_peer_response_end_date" formatted="false">تعيين الموعد النهائي لمراجعة الاقران</string>
+    <string name="text_course_student_count" formatted="false">الطالب</string>
+    <string name="text_course_expired_date" formatted="false">انتهت الدورة التدريبية في</string>
+    <string name="text_course_study_record_empty">لا توجد سجلات تعلم</string>
+    <string name="text_course_study_record_not_latest">تحميل أحدث سجل تعليمي</string>
+    <string name="text_you_have_some_course_format" formatted="false">حصلت على دورات ٪d</string>
+    <string name="text_choose_file_upload">تحديد لتحميل ملف</string>
+    <string name="text_teacher_size_format" formatted="false">المعلم(٪d)</string>
+    <string name="text_student_size_format" formatted="false">الطالب(٪d)</string>
+    <string name="text_practice_correct_count_good" formatted="false">٪d تصحيح الأسئلة، جيد حقا!</string>
+    <string name="text_practice_correct_count" formatted="false">٪d تصحيح الأسئلة</string>
+    <string name="text_practice_wrong_count_good" formatted="false">٪d الإجابة على الأسئلة بشكل خاطئ، استمر في المحاولة!</string>
+    <string name="text_practice_wrong_count" formatted="false">٪d الإجابة على الأسئلة بشكل خاطئ</string>
+    <string name="text_watched_format" formatted="false">٪d٪٪ تمت المشاهده</string>
+    <string name="text_goto_look">تحقق الآن</string>
+    <string name="text_goto_study">تعلم الآن</string>
+
+    <string name="growth_format" formatted="false">٪d نقاط النمو</string>
+
+    <string name="confirm_course_spoken_leave">لا تزال هناك بعض كلمة ناقصة / الجملة / الفقرة في هذه الصفحة ، هل أنت متأكد من أنك تريد تبديل الصفحات؟ </string>
+
+    <string name="text_chat_conversation_draft">[مسودة]</string>
+    <string name="text_chat_message_custom">[رسالة معرفة ذاتيا]</string>
+    <string name="text_chat_message_file">[ملف]</string>
+    <string name="text_chat_message_image">[صور]</string>
+    <string name="text_chat_message_video">[فيديو]</string>
+    <string name="text_chat_send_to" formatted="false">إرسال إلى ٪s</string>
+
+    <string name="text_practice_limit_time_use_time" formatted="false">الوقت المستخدم:٪s(الحد الزمني ٪s)</string>
+    <string name="text_practice_limit_time">الحد الزمني٪s</string>
+    <string name="text_practice_count_question">أسئلة التمارين</string>
+    <string name="text_video_page_finish_condition">(يجب أن يكون وقت مشاهدة الفيديو أكبر أو مساويا لطول الفيديو ، ثم سيعتبر مشاهدة مكتملة)</string>
+
+    <string name="text_change_related_cell_phone">تغيير الارتباط برقم الهاتف المحمول</string>
+    <string name="text_related_cell_phone">ربط رقم الهاتف المحمول</string>
+    <string name="text_back_umooc">العودة إلى معهد U-Learning</string>
+    <string name="text_class_member">طلاب الفصل الدراسي.</string>
+    <string name="text_class_member_remove">إزالة من الفصل الدراسي</string>
+    <string name="text_course_remove">إزالة من الدورة التدريبية</string>
+    <string name="text_class_member_remove_fail">لم نتمكن من الحذف</string>
+    <string name="text_class_member_remove_remind">سيؤدي إخراج الطلاب من الفصل إلى حذف سجلات الطلاب للواجبات والامتحانات والأنشطة الأخرى في الفصل. أرجوك كن حذرا تأكيد لإزالة؟ </string>
+
+    <string name="text_detail">تفاصيل</string>
+    <string name="text_me">أنا</string>
+    <string name="text_open_with_other_app">فتح بتطبيقات أخرى </string>
+    <string name="text_preview">معاينة</string>
+    <string name="text_book_preview">معاينة المنهج الدراسي</string>
+    <string name="text_book_relevance_course">الدورات التدريبية ذات الصلة بالمناهج الدراسية الحالية</string>
+    <string name="text_book_relevance_course_study">بعد دخول الدورة التدريبية، يمكنك معرفة محتوى البرامج الدراسية</string>
+    <string name="text_book_un_activated">للتنشيط</string>
+    <string name="text_book_my_empty">لم تقم بتفعيل الكتاب المدرسي</string>
+    <string name="text_book_cached_empty">لا يوجد برامج تدريبية للتخزين المؤقت حاليا ~</string>
+    <string name="out_of_date">منتهي الصلاحية</string>
+    <string name="text_next_section_title_format" formatted="false">القسم التالي</string>
+    <string name="text_chapter_finish">تم الانتهاء من الفصل</string>
+    <string name="text_select_spoken_audio_file">تحديد ملف صوتي شفهي</string>
+    <string name="text_pull_down_update_course">لتحديث بنية المقرر الدراسي قم بدخول القائمة المنسدلة</string>
+    <string name="text_put_down_update_course">إصدار تحديث بنية المقرر الدراسي</string>
+    <string name="text_answer_detail">تفاصيل الإجابة:</string>
+    <string name="text_refer_to_the_answer">الإجابة المرجعية:</string>
+    <string name="text_answer_analysis">شرح الإجابة:</string>
+    <string name="text_unanswer">لم تتم الإجابة بعد</string>
+    <string name="text_click_choose_answer">انقر لتحديد الإجابة </string>
+    <string name="text_org_course_empty">لا توجد دورات تحت مؤسستك</string>
+    <string name="text_join_quit_class_apply">&quot;إضافة طلب إنهاء الفصل الدراسي&quot;؛</string>
+    <string name="text_join_quit_class_apply_empty">لا يوجد طلبات إنهاء الفصل الدراسي</string>
+    <string name="text_join_class_apply_empty">لا يوجد طلبات إضافة فصل الدراسي</string>
+    <string name="text_quit_class_apply_empty">لا يوجد طلبات إنهاء الفصل الدراسي</string>
+    <string name="text_apply_count_format" formatted="false">إجمالي ٪d من الطلبات الجديدة</string>
+    <string name="text_apply_join_class_format" formatted="false">التقدم بطلب للانضمام\&quot;٪s\&quot;</string>
+    <string name="text_apply_quit_class_format" formatted="false">تقدم بطلب لإنهاء\&quot;٪s\&quot;</string>
+
+    <string name="toast_other_lesson_downloading">تنزيل وحدات أخرى</string>
+    <string name="toast_course_expire">انتهت الدورة التدريبية</string>
+    <string name="toast_course_no_content">دورة تدريبية لا تحتوي على محتوى</string>
+    <string name="toast_no_more_activities">لا مزيد من الأنشطة</string>
+    <string name="toast_file_download_fail_format" formatted="false">لم نتمكن تنزيل %s</string>
+    <string name="toast_apply_submited_wait_approve">تم ارسال الطلب، يرجى الانتظار حتى يقوم المعلم بالموافقة علية.</string>
+    <string name="toast_not_get_user_info">معلومات المستخدم غير موجودة</string>
+    <string name="toast_name_empty">الاسم فارغ، أو قد يحتوي على تباعد!</string>
+    <string name="toast_course_name_empty">اسم الدورة التدريبية فارغ!</string>
+    <string name="toast_course_cover_empty">يرجي اختيار غلاف الدوره التدريبية!</string>
+    <string name="toast_student_number_empty">معرف الطالب فارغ، أو قد يحتوي على تباعد!</string>
+    <string name="toast_email_empty">علبة البريد فارغة، أو قد تحتوي على تباعد!</string>
+    <string name="toast_email_format_error">خطأ تنسيق علبة البريد! يرجى إعادة الكتابة مرة أخرى!</string>
+    <string name="toast_telphone_format_error">خطأ في تنسيق الهاتف المحمول! يرجى إعادة الكتابة مرة أخرى!</string>
+    <string name="toast_telhpone_empty">رقم الهاتف المحمول أو رمز التحقق فارغ!</string>
+    <string name="toast_telhpone_empty1">رقم الهاتف المحمول فارغ!</string>
+    <string name="toast_same_telphone">نفس رقم الهاتف المحمول الحالي!</string>
+    <string name="toast_send_fail">لم نتمكن من  إعادة التوجيه، الرجاء المحاولة مرة أخرى!</string>
+    <string name="toast_phone_number_has_been_occupied">&quot;رقم الهاتف المحمول مستخدم بالفعل ، يرجى الاتصال على رقم خدمة العملاء 7808 610 400 للتواصل معنا&quot;؛</string>
+    <string name="toast_has_no_more">نكتفى بهذا القدر</string>
+    <string name="toast_unable_to_locate_the_course_page">غير قادر على تحديد موقع صفحة المقرر الدراسي، الرجاء النقر على الرمز &quot;المزيد&quot; في صفحة المقرر الدراسي لتحديد المقرر الدراسي المذكور والمحاولة مرة أخرى</string>
+    <string name="toast_file_breakdown">وثيقة معطوبة، يرجى العودة إلى صفحة كتالوج الدورة وتحميل  مورد هذا الفصل مرة أخرى!</string>
+    <string name="toast_file_not_found">وثيقة غير موجوده، يرجى العودة إلى صفحة كتالوج الدورة وتحميل مورد هذا الفصل مرة أخرى!</string>
+    <string name="toast_play_file_not_found">لا يمكن العثور على ملف الفيديو ليتم تشغيلها!</string>
+    <string name="toast_course_error_contact_us">خطأ في البرامج الدراسية، يرجى الاتصال بخدمة العملاء على الرقم 400 610 7808 لحلها</string>
+    <string name="toast_your_answer_incomplete">إجابتك غير مكتملة!</string>
+    <string name="toast_you_not_select_answer">لا يزال لديك بعض الإجابات غير المحددة! يرجى التأكد من الإجابة على جميع الأسئلة الحالية!</string>
+    <string name="toast_please_choose_class_course">الرجاء تحديد الدورة التدريبية للفصل</string>
+    <string name="toast_create_class_fail">لم نتمكن من الإنشاء</string>
+    <string name="toast_change_course_fail"> لم نتمكن من التعديل</string>
+    <string name="toast_course_update_success">تم التعديل بنجاح</string>
+    <string name="toast_update_fail">لم يتم التعديل</string>
+    <string name="toast_delete_success">تم الحذف بنجاح!</string>
+    <string name="toast_delete_success1">تم الحذف بنجاح!</string>
+    <string name="toast_delete_fail">لم نتمكن من الحذف</string>
+    <string name="toast_set_success">تم التعيين بنجاح</string>
+
+    <string name="about_menu_operation_guide">دليل المستخدم</string>
+    <string name="about_menu_operation_update_notify">تحديث إشعار</string>
+    <string name="about_menu_operation_feedback">انطباع</string>
+    <string name="about_menu_operation_update">التحقق من التحديث</string>
+
+    <string name="active_status_attendancing">جارٍ الاتصال...</string>
+    <string name="active_tag_student_hp">علامات النظير</string>
+    <string name="active_tag_growth">نمو</string>
+    <string name="active_tab_all">الكل</string>
+    <string name="active_tab_all_tea">جميع المعلمين</string>
+    <string name="active_tab_work">مهمة</string>
+    <string name="active_tab_attendance">تفقد الحضور</string>
+    <string name="active_tab_vote">استطلاع رأي</string>
+    <string name="active_tab_discuss">مناقشة</string>
+    <string name="active_tab_interlocution">تنافس على الإجابة</string>
+    <string name="active_tab_live">بث مباشر</string>
+    <string name="active_tab_choose">اختيار عشوائي</string>
+    <string name="active_tab_grade">وضع علامة</string>
+    <string name="active_tab_open_live">البث المباشر في الأماكن العامة</string>
+
+    <string name="tools_exam_title">الامتحان باستخدام الهاتف المحمول</string>
+    <string name="tools_exam_pc">امتحان الكمبيوتر</string>
+    <string name="tools_exam_mobile_pc">امتحان الجوال/الكمبيوتر</string>
+    <string name="tools_exam_text">الجلوس للامتحان دون الحاجة إلى الذهاب إلى مختبر الكمبيوتر</string>
+    <string name="tools_mobile_title">تقييم الجوال</string>
+    <string name="tools_mobile_text">تقييم في الصف من أجل الارتجال التدريس</string>
+    <string name="tools_word_title">إملاء المفردات</string>
+    <string name="tools_word_text">مراجعة المفردات قبل الصف، سيتم اختيار المفردات بشكل عشوائي أثناء الإملاء في الصف </string>
+    <string name="tools_speech_title">اختبار شفوي</string>
+    <string name="tools_speech_text">وضع علامات تلقائية على اللغة الإنجليزية الشفهية، مزيج من التعلم والممارسة والفحص</string>
+
+    <string name="activity_home_work_test">اختبار</string>
+    <string name="activity_home_work_group">مهام جماعيه</string>
+    <string name="activity_home_work_person">المهام الفردية</string>
+    <string name="activity_public_activity">إطلاق نشاط</string>
+
+    <string name="activity_more_menu_work">تعيين شخصي\n</string>
+    <string name="activity_more_menu_write">مهام الكتابة</string>
+    <string name="activity_more_menu_spoken">مهام شفوية\n</string>
+    <string name="activity_more_menu_upload">تحميل\n المهام</string>
+    <string name="activity_more_menu_group_work">مهام جماعيه</string>
+    <string name="activity_week_empty_tea_remind">لا يوجد أي نشاط هذا الأسبوع ~</string>
+    <string name="activity_week_empty_stu_remind">&quot;للمزيد انقر علي القائمة أدناه&quot;؛</string>
+    <string name="resource_more_menu_add_file">إضافة ملف</string>
+    <string name="resource_no_this_type">لا يوجد مورد من النوع الحالي</string>
+    <string name="resource_delete_remind">تأكيد لحذف المورد؟</string>
+    <string name="resource_delete_child_remind">تأكيد لحذف كافة الموارد في المجلد والمجلدات الفرعية الخاصة به؟</string>
+    <string name="resource_move_path_no_change">المورد المنقول موجود بالفعل في المجلد الحالي</string>
+    <string name="resource_move_self">لا يمكن نقل مجلد إلى نفسه أو إلى مجلد فرعي </string>
+    <string name="resource_no_check">الرجاء تحديد المورد أولا </string>
+    <string name="resource_no_permit_check">الرجاء تحديد الأذونات أولا </string>
+    <string name="resource_no_publish_resource_stu">لم ينشر المعلم أي مورد حتى الآن</string>
+    <string name="resource_no_publish_resource_tea">لم يتم نشر أي محتوى حتى الآن </string>
+    <string name="resource_from_who" formatted="false">من:٪s</string>
+    <string name="resource_more_menu_add_resource">إضافة مورد</string>
+    <string name="resource_class_count_more" formatted="false">حول ٪d من الفصول الدراسية</string>
+    <string name="resource_more_menu_add_pic">إضافة رسم</string>
+    <string name="resource_more_menu_add_link">إضافة رابط</string>
+    <string name="resource_more_menu_create_file">إنشاء ملف</string>
+    <string name="resource_permit_all_class">السماح بالعرض لجميع الفصول الدراسية</string>
+    <string name="resource_permit_course_all_class">السماح لجميع الفصول الدراسية بالمشاهدة</string>
+    <string name="resource_permit_specified_class">السماح بالعرض علي الفصول الدراسية المحددة</string>
+    <string name="resource_permit_to_child">تطبيق على المجلدات الفرعية والموارد</string>
+    <string name="resource_please_select_class">الرجاء تحديد الفصل الدراسي</string>
+    <string name="resource_permit_to_child_warning">بمجرد فتحها، سيتم تغيير أذونات الوصول إلى المورد والمجلدات الفرعية ضمن المجلد المحدد أيضا </string>
+    <string name="resource_first_remind_1">تحديث الميزات الجديدة لمورد المقرر الدراسي</string>
+    <string name="resource_first_remind_2">1. يمكنك إضافة مجلدات الملفات في مورد المقرر الدراسي</string>
+    <string name="resource_first_remind_3">2. يمكنك تعيين أذونات وصول مختلفة لفصول مختلفة. </string>
+
+    <string name="active_course_code_fail">لم نتمكن من  تنشيط البرامج الدراسية، الرجاء المحاولة مرة أخرى لاحقاً</string>
+    <string name="active_course_search_fail">لم نتمكن من  الاستعلام  عن المناهج التعليمية الرجاء المحاولة مرة أخرى لاحقاً </string>
+
+    //汇总成绩说明
+    <string name="login_name">الرجاء إدخال اسم المستخدم/ رقم الهاتف/البريد الإلكتروني</string>
+
+
+    <string name="main_menu_statistics_sync_success">تمت نسخ و مطابقة سجل التعلم</string>
+    <string name="main_menu_statistics_sync_failed">عذراً، لم نتمكن من النسخة و المطابقة</string>
+
+    <string name="course_detail_download_fail">لم نتمكن من  تحميل كتالوج الدورة التدريبية، يرجى الاتصال بالخط الساخن لخدمة العملاء 400 610 7808 للمساعدة في حل مشكلتك</string>
+
+
+    <string name="remind_exit_course_fail">لم نتمكن من مغادرة الفصل</string>
+
+    <string name="remind_sync_record_success">تم النسخ و المطابقة بنجاح</string>
+    <string name="remind_sync_record_fail">لم نتمكن من النسخ و المطابقة، برجاء السحب لأسفل للتحديث </string>
+
+
+    <!-- 消息 -->
+
+
+    <string name="download_normal">تنزيل</string>
+
+    <string name="person_info_not_have_tel">لاستعادة كلمة المرور الخاصة بك بسهولة، يرجى اضافة رقم هاتفك المحمول الخاص بك. عند الاضافة، يمكنك تسجيل الدخول باستخدام رقم هاتفك المحمول الجديد</string>
+
+
+    <string name="server_msg_username_inexit">اسم المستخدم غير موجود</string>
+
+    <string name="activity_public_homework">نشر الواجب</string>
+    <string name="right_publish_homework">نشر الواجب</string>
+
+
+    <string name="msg_crop_failed">لم نتمكن من تغير حجم الصورة</string>
+    <string name="msg_compress_failed">لم نتمكن من ضغط الصورة</string>
+
+    <string name="complain_fail">لم نتمكن من تسجيل الشكوى</string>
+    </resources>

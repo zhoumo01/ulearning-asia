@@ -1,38 +1,34 @@
 {
   "examPaperLibrary": {
-    "message": "بنك الامتحان",
+    "message": "بنك الامتحانات",
     "description": "2.0 reponsitory.js"
   },
   "selectPaper": {
-    "message": "حدد الامتحان",
+    "message": "اختيار الامتحان",
     "description": "2.0 reponsitory.js"
   },
   "confirm": {
-    "message": "تاكيد",
+    "message": "تأكيد",
     "description": "2.0 reponsitory.js"
   },
   "cancel": {
-    "message": "إلغاء الأمر",
+    "message": "إلغاء",
     "description": "2.0 reponsitory.js"
   },
   "close": {
-    "message": "اغلاق",
+    "message": "إغلاق",
     "description": "2.0 reponsitory.js"
   },
   "insertExamPaper": {
-    "message": "إدراج امتحان",
+    "message": "أدخل امتحان",
     "description": "2.0 reponsitory.js"
   },
-  "haveSelected": {
-    "message": "المحدد",
-    "description": "2.0 reponsitory.js"
-  },
-  "examPapers": {
-    "message": "امتحان (ق)",
-    "description": "2.0 reponsitory.js"
+  "selectedPaper": {
+    "message": "تم إختيار {n} إمتحان",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "myExamPaper": {
-    "message": "بنك بلدي امتحان",
+    "message": "بنك امتحاناتي",
     "description": "2.0 reponsitory.js"
   },
   "schoolExamPaper": {
@@ -44,19 +40,19 @@
     "description": "2.0 reponsitory.js"
   },
   "back": {
-    "message": "عودة",
+    "message": "رجوع",
     "description": "2.0 reponsitory.js"
   },
   "currentPosition": {
-    "message": "المنصب الحالي:",
+    "message": "الوضع الحالي: ",
     "description": "2.0 reponsitory.js"
   },
   "allExamPaper": {
-    "message": "جميع الامتحانات",
+    "message": "كل الامتحانات",
     "description": "2.0 reponsitory.js"
   },
   "inpputExamPaperNameSearch": {
-    "message": "إدخال اسم ورقة الامتحان للبحث",
+    "message": "للبحث أدخل اسم الامتحان",
     "description": "2.0 reponsitory.js"
   },
   "addFolder": {
@@ -68,7 +64,7 @@
     "description": "2.0 reponsitory.js"
   },
   "aotoGroupExamPaper": {
-    "message": "امتحان عشوائي",
+    "message": "إنشاء إمتحان تلقائيا",
     "description": "2.0 reponsitory.js"
   },
   "examPaperName": {
@@ -76,7 +72,7 @@
     "description": "2.0 reponsitory.js"
   },
   "score": {
-    "message": "نقاط",
+    "message": "الدرجات",
     "description": "2.0 reponsitory.js"
   },
   "sharingScope": {
@@ -84,39 +80,39 @@
     "description": "2.0 reponsitory.js"
   },
   "lastModifyTime": {
-    "message": "آخر تحديث",
+    "message": "آخر عملية رفع",
     "description": "2.0 reponsitory.js"
   },
   "operation": {
-    "message": "الاجراءات",
+    "message": "الإجراءات",
     "description": "2.0 reponsitory.js"
   },
   "personal": {
-    "message": "الخاصه",
+    "message": "خاص",
     "description": "2.0 reponsitory.js"
   },
   "schoolTeacher": {
-    "message": "معلمة مدرسة",
+    "message": "معلمو المدرسة",
     "description": "2.0 reponsitory.js"
   },
   "schoolTeacher2": {
-    "message": "معلمة مدرسة",
+    "message": "معلمو المدرسة",
     "description": "2.0 reponsitory.js"
   },
   "allTeacher": {
-    "message": "جميع المعلمين",
+    "message": "كل المعلمين",
     "description": "2.0 reponsitory.js"
   },
   "allTeacher2": {
-    "message": "جميع المعلمين",
+    "message": "كل المعلمين",
     "description": "2.0 reponsitory.js"
   },
   "appointTeacher": {
-    "message": "تعيين معلم",
+    "message": "اختر معلم",
     "description": "2.0 reponsitory.js"
   },
   "modify": {
-    "message": "تحرير",
+    "message": "تعديل",
     "description": "2.0 reponsitory.js"
   },
   "move": {
@@ -128,11 +124,15 @@
     "description": "2.0 reponsitory.js"
   },
   "preview": {
-    "message": "معاينه",
+    "message": "معاينة",
     "description": "2.0 reponsitory.js"
   },
   "download": {
-    "message": "تحميل",
+    "message": "تنزيل",
+    "description": "2.0 reponsitory.js"
+  },
+  "rename": {
+    "message": "إعادة تسمية",
     "description": "2.0 reponsitory.js"
   },
   "share": {
@@ -144,59 +144,59 @@
     "description": "2.0 reponsitory.js"
   },
   "copied": {
-    "message": "نسخ",
+    "message": "تم النسخ",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips1": {
-    "message": "لم يتم العثور على ورق مطابق",
+    "message": "لا توجد إمتحانات حاليا!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips2": {
-    "message": "لا يوجد ورق، انقر لإضافة ورقة اختبار",
+    "message": "لا توجد امتحانات - انقر لإضافة امتحان",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips3": {
-    "message": "لا يوجد ورقة امتحان",
+    "message": "لا توجد إمتحانات حاليا!",
     "description": "2.0 reponsitory.js"
   },
-  "networkExceptionTips": {
-    "message": "خطأ الشبكة، الرجاء النقر",
-    "description": "2.0 reponsitory.js"
+  "networkError": {
+    "message": "خطأ في الشبكة - انقر زر {reloadButton} ",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源 \n 课程列表 -> 上方试卷库"
   },
   "reload": {
-    "message": "تحديث",
+    "message": "إعادة التحميل",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips4": {
-    "message": "إدخال اسم المجلد",
+    "message": "أدخل اسم المجلد",
     "description": "2.0 reponsitory.js"
   },
   "onlyOneSelf": {
-    "message": "الخاصه",
+    "message": "خاص",
     "description": "2.0 reponsitory.js"
   },
   "shareToThisUnitAppointedTeacher": {
-    "message": "مشاركة مع المعلمين المحددين",
+    "message": "مشاركة مع المعلمين المختارين",
     "description": "2.0 reponsitory.js"
   },
   "shareToThisUnitOtherTeacher": {
-    "message": "مشاركة مع معلمي المدارس",
+    "message": "مشاركة مع معلمين المدرسة",
     "description": "2.0 reponsitory.js"
   },
   "shareToAllTeacher": {
-    "message": "شارك مع جميع المعلمين",
+    "message": "مشاركة مع كل المعلمين",
     "description": "2.0 reponsitory.js"
   },
   "deleteTips": {
-    "message": "تلميحات لحذفها",
+    "message": "تلميحات للحذف",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips5": {
-    "message": "هل تريد بالتأكيد حذف هذا المجلد؟ عند حذفها بشكل كامل، سيتم حذف الأوراق تحت المجلد أيضًا. إذا تم تطبيق الأوراق المحذوفة على امتحانات أخرى، لن تكون الامتحانات متاحة.",
+    "message": "هل تريد حذف هذا المجلد؟ سيؤدي حذف المجلد إلى حذف جميع الامتحانات داخل هذا المجلد. كما سيؤثر على امتحانات المقرر الدراسي التي تستخدم هذه الامتحانات.",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips6": {
-    "message": "الاحتفاظ بأوراق الامتحان، وحذف المجلد فقط",
+    "message": "الاحتفاظ بالامتحانات وحذف المجلد فقط",
     "description": "2.0 reponsitory.js"
   },
   "deleteAll": {
@@ -204,27 +204,27 @@
     "description": "2.0 reponsitory.js"
   },
   "selectTeacher": {
-    "message": "تحديد المعلم",
+    "message": "إختر معلم",
     "description": "2.0 reponsitory.js"
   },
   "inputTeacherNameSearch": {
-    "message": "أدخل اسم المعلم للبحث",
+    "message": "للبحث أدخل اسم المعلم",
     "description": "2.0 reponsitory.js"
   },
   "checkAll": {
-    "message": "حدد الكل",
+    "message": "إختيار الكل",
     "description": "2.0 reponsitory.js"
   },
   "achievement": {
-    "message": "نتيجه",
+    "message": "الدرجة",
     "description": "2.0 reponsitory.js"
   },
   "allClass": {
-    "message": "جميع الفئات",
+    "message": "كل الفصول",
     "description": "2.0 reponsitory.js"
   },
   "homePage": {
-    "message": "الصفحه الرئيسيه",
+    "message": "الصفحة الأولى",
     "description": "2.0 reponsitory.js"
   },
   "lastPage": {
@@ -240,95 +240,95 @@
     "description": "2.0 reponsitory.js"
   },
   "jumpPage": {
-    "message": "القفز",
+    "message": "إذهب إلى",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips7": {
-    "message": "لا يمكن تعديل الورق الذي تم استخدامه.",
+    "message": "لا يمكن تعديل الامتحانات التي قيد الاستخدام!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips8": {
-    "message": "لن يتم استرداد البيانات بعد الحذف. هل أنت متأكد من حذف ورقة الامتحان؟",
+    "message": "لن يتم استرداد البيانات بعد الحذف. هل تريد حذفها؟",
     "description": "2.0 reponsitory.js"
   },
   "deleteExamPaper": {
-    "message": "حذف ورقة الامتحان",
+    "message": "حذف امتحان",
     "description": "2.0 reponsitory.js"
   },
   "deleteSuccess": {
-    "message": "تم حذف بنجاح",
+    "message": "تم الحذف بنجاح!",
     "description": "2.0 reponsitory.js"
   },
   "deleteFailed": {
-    "message": "فشل في الحذف",
+    "message": "لم نتمكن من الحذف",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips9": {
-    "message": "لا يوجد ورقة امتحان",
+    "message": "الامتحان غير موجود!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips10": {
-    "message": "منشئ ورقة الامتحان فقط يمكن حذف الورقة.",
+    "message": "منشأ الامتحان فقط هو من يستطيع حذفه!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips11": {
-    "message": "لا يمكن حذف سجل الإجابة",
+    "message": "لا يمكن حذف الامتحانات التي لها سجلات الإجابة!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips12": {
-    "message": "لا يمكن حذف تلك المستخدمة بالفعل في ورقة الامتحان",
+    "message": "لا يمكن حذف تلك المستخدمة بالامتحان!",
     "description": "2.0 reponsitory.js"
   },
   "examPaperTips13": {
-    "message": "هل تحتاج إلى تحليل الموضوعات؟",
+    "message": "هل تحتاج إلى شرح الإجابة؟",
     "description": "2.0 reponsitory.js"
   },
   "copySuccess": {
-    "message": "نسخ",
+    "message": "تم التكرار بنجاح!",
     "description": "2.0 reponsitory.js"
   },
   "copyFailed": {
-    "message": "فشل النسخ",
+    "message": "لم نتمكن من التكرار",
     "description": "2.0 reponsitory.js"
   },
   "modifySuccess": {
-    "message": "تم التحرير بنجاح",
+    "message": "تم التعديل بنجاح!",
     "description": "2.0 reponsitory.js"
   },
   "modifyFailed": {
-    "message": "فشل التحرير",
+    "message": "لم نتمكن من التعديل",
     "description": "2.0 reponsitory.js"
   },
   "createSuccess": {
-    "message": "انشاء",
+    "message": "تم الإنشاء بنجاح!",
     "description": "2.0 reponsitory.js"
   },
   "createFailed": {
-    "message": "فشل في الإنشاء",
+    "message": "لم نتمكن من الإنشاء",
     "description": "2.0 reponsitory.js"
   },
   "myResource": {
-    "message": "مواردي",
+    "message": "مصادري",
     "description": "2.0 reponsitory.js"
   },
   "schoolResource": {
-    "message": "موارد المدرسة",
+    "message": "مصادر مدرسية",
     "description": "2.0 reponsitory.js"
   },
   "shareReource": {
-    "message": "الموارد المشتركة",
+    "message": "مصادر مشتركة",
     "description": "2.0 reponsitory.js"
   },
   "allResource": {
-    "message": "جميع الموارد",
+    "message": "كل المصادر",
     "description": "2.0 reponsitory.js"
   },
   "inputKeywordSearch": {
-    "message": "أدخل كلمة رئيسية للبحث",
+    "message": "أدخل كلمة للبحث",
     "description": "2.0 reponsitory.js"
   },
   "modifyShareScope": {
-    "message": "تحرير المشاركة",
+    "message": "تعديل المشاركة",
     "description": "2.0 reponsitory.js"
   },
   "publishToCourse": {
@@ -336,7 +336,7 @@
     "description": "2.0 reponsitory.js"
   },
   "addResource": {
-    "message": "إضافة مورد",
+    "message": "إضافة مصدر",
     "description": "2.0 reponsitory.js"
   },
   "addLink": {
@@ -344,43 +344,39 @@
     "description": "2.0 reponsitory.js"
   },
   "addRichtext": {
-    "message": "إضافة نص منسق",
+    "message": "إضافة محتوى غني",
     "description": "2.0 reponsitory.js"
   },
   "resourceName": {
-    "message": "اسم المورد",
+    "message": "اسم المصدر",
     "description": "2.0 reponsitory.js"
   },
   "uploadFile": {
-    "message": "تحميل الملف",
+    "message": "رفع ملف",
     "description": "2.0 reponsitory.js"
   },
   "selected": {
-    "message": "المحدد",
+    "message": "تم الأختيار",
     "description": "2.0 reponsitory.js"
   },
-  "items": {
-    "message": "العناصر",
-    "description": "2.0 reponsitory.js"
+  "selectedItems": {
+    "message": "تم إختيار {n} عنصر",
+    "description": "课程列表 -> 上方资源库 \n 课程列表 -> 上方试卷库"
   },
   "cancelMultipleSelection": {
-    "message": "إلغاء تحديدات متعددة",
+    "message": "إلغاء تحديد الكل",
     "description": "2.0 reponsitory.js"
   },
-  "total": {
-    "message": "مجموع",
-    "description": "2.0 reponsitory.js"
-  },
-  "number": {
-    "message": "العناصر",
-    "description": "2.0 reponsitory.js"
+  "totalOf": {
+    "message": "المجموع {n} ",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源"
   },
   "size": {
-    "message": "حجم",
+    "message": "الحجم",
     "description": "2.0 reponsitory.js"
   },
   "createTime": {
-    "message": "تاريخ الإنشاء",
+    "message": "تاريخ الإنشاء ",
     "description": "2.0 reponsitory.js"
   },
   "publish": {
@@ -388,11 +384,11 @@
     "description": "2.0 reponsitory.js"
   },
   "resourceTips1": {
-    "message": "لم يتم العثور على موارد مقابلة.",
+    "message": "لا توجد مصادر!",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips2": {
-    "message": "لم يتم العثور على موارد",
+    "message": "لا توجد مصادر!",
     "description": "2.0 reponsitory.js"
   },
   "folderName": {
@@ -400,7 +396,7 @@
     "description": "2.0 reponsitory.js"
   },
   "uploaded": {
-    "message": "تحميل",
+    "message": "تم الرفع",
     "description": "2.0 reponsitory.js"
   },
   "addTeacher2": {
@@ -412,11 +408,11 @@
     "description": "2.0 reponsitory.js"
   },
   "resourceTips16": {
-    "message": "حدد المقرر الدراسي (الدورات) التي تريد نشر المورد (الموارد) لـ:",
+    "message": "إختر المقرر الدراسي/ المقررات الدراسية  التي تريد نشر مصادرها لـ: ",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips17": {
-    "message": "لا توجد دورات حتى الآن. الرجاء إنشاء الدورة التدريبية أولاً.",
+    "message": "لا توجد مقررات دراسية بعد - أنشأ مقرر دراسي أولا",
     "description": "2.0 reponsitory.js"
   },
   "save": {
@@ -424,83 +420,83 @@
     "description": "2.0 reponsitory.js"
   },
   "create": {
-    "message": "انشاء",
+    "message": "إنشاء",
     "description": "2.0 reponsitory.js"
   },
   "createMicroCourse": {
-    "message": "إنشاء دورة صغيرة",
+    "message": "إنشاء مقرر دراسي صغير",
     "description": "2.0 reponsitory.js"
   },
   "microCourseName": {
-    "message": "اسم الدورة الصغرى",
+    "message": "اسم المقرر الدراسي الصغير",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips6": {
-    "message": "الرجاء إدخال اسم الدورة الصغيرة.",
+    "message": "انقر لإدخال اسم المقرر الدراسي الصغير",
     "description": "2.0 reponsitory.js"
   },
   "KnowledgePoints": {
-    "message": "نقاط المعرفة",
+    "message": "درجات المعرفة",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips7": {
-    "message": "أدخل ما يصل إلى 5 نقاط معرفة واضغط على مفتاح Enter لإكمال.",
+    "message": "أدخل حتى 5 نقاط معرفة ثم اضغط على مفتاح Enter للإضافة",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips8": {
-    "message": "افتح التعليقات و يحب معرفة المزيد حول معرفة الملاحظات",
+    "message": "إتاحة التعليق و أعجاب لمزيد من الملاحظات",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips9": {
-    "message": "(يمكن الاطلاع على تفاصيل التعليقات في قسم \"تحليل التعليقات\" في إحصاءات بيانات الدورة الصغرى).",
+    "message": "تفاصيل التعليق توجد في قسم \"تحليل التعليقات\" الموجود في إحصاءات المقرر الدراسي الصغير",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips10": {
-    "message": "إظهار الإجابات والتحليلات بعد تقديم التمارين",
+    "message": "إظهار الإجابات والشرح بعد الإرسال",
     "description": "2.0 reponsitory.js"
   },
   "pleaseSelectTeacher": {
-    "message": "الرجاء اختيار المعلم",
+    "message": "اختر المعلمون",
     "description": "2.0 reponsitory.js"
   },
   "shareSuccess": {
-    "message": "تمت مشاركتها بنجاح",
+    "message": "تمت مشاركتها بنجاح!",
     "description": "2.0 reponsitory.js"
   },
   "moveSuccess": {
-    "message": "تم النقل بنجاح",
+    "message": "تم النقل بنجاح!",
     "description": "2.0 reponsitory.js"
   },
   "moveFailed": {
-    "message": "فشل في النقل",
+    "message": "لم نتمكن من النقل",
     "description": "2.0 reponsitory.js"
   },
   "deleteResource": {
-    "message": "حذف المورد",
+    "message": "حذف المصدر",
     "description": "2.0 reponsitory.js"
   },
   "deleteResourceTips": {
-    "message": "هل تريد بالتأكيد حذف المورد المحدد(الموارد)؟",
+    "message": "هل تريد حذف المصدر/ المصادر؟",
     "description": "2.0 reponsitory.js"
   },
   "pleaseSelectCourse": {
-    "message": "الرجاء اختيار الدورة",
+    "message": "اختر المقرر الدراسي",
     "description": "2.0 reponsitory.js"
   },
   "publishSuccess": {
-    "message": "تم نشره بنجاح",
+    "message": "تم النشر بنجاح!",
     "description": "2.0 reponsitory.js"
   },
   "resourceTips11": {
-    "message": "لا يمكن أن يكون اسم المقرر الدراسي الجزئي فارغًا",
+    "message": "لا يمكن أن يكون اسم المقرر الدراسي الصغير فارغًا",
     "description": "2.0 reponsitory.js"
   },
   "newMicroCourse": {
-    "message": "3- الميكروس الجديد",
+    "message": "إنشاء مقرر دراسي صغير",
     "description": "2.0 reponsitory.js"
   },
   "recordMicroCourse": {
-    "message": "سجل مضمار صغير",
+    "message": "تسجيل مقرر دراسي صغير",
     "description": "2.0 reponsitory.js"
   },
   "peopleResource": {
@@ -508,35 +504,187 @@
     "description": "2.0 reponsitory.js"
   },
   "selectPageAllRes": {
-    "message": "حدد الكل",
+    "message": "اختر الكل في هذه الصفحة",
     "description": "2.0 reponsitory.js"
   },
   "select": {
-    "message": "حدد",
+    "message": "إختر",
     "description": "2.0 reponsitory.js"
   },
   "allClassify": {
-    "message": "جميع الفئات.",
+    "message": "كل الفئات",
     "description": "2.0 reponsitory.js"
   },
-  "selectedNum": {
-    "message": "الملفات المحددة:",
-    "description": "2.0 reponsitory.js"
+  "selectedCount": {
+    "message": "المختار: {n}",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "selectRes": {
-    "message": "حدد المورد",
+    "message": "إختر مصدر",
     "description": "2.0 reponsitory.js"
   },
   "courseKeyword": {
-    "message": "Xxxx",
+    "message": "أدخل كلمة بحث عن مقرر دراسي",
     "description": "2.0 reponsitory.js"
   },
   "unitKeyword": {
-    "message": "Xxxx",
+    "message": "إدخال كلمة بحث عن وحدة / موضوع",
     "description": "2.0 reponsitory.js"
   },
   "resKeyword": {
-    "message": "Xxxx",
+    "message": "إدخال كلمة بحث عن مصدر",
+    "description": "2.0 reponsitory.js"
+  },
+  "archivePwdSet": {
+    "message": "تعيين/ إعادة تعيين كلمة مرور",
+    "description": "2.0 reponsitory.js"
+  },
+  "tips": {
+    "message": "تنبيه",
+    "description": "2.0 reponsitory.js"
+  },
+  "unbindPhoneTips": {
+    "message": "ليس لديك بريد إلكتروني أو هاتف محمول لاسترداد حسابك. لتأمين امتحاناتك، تحتاج إلى الحصول على طريقة استرداد حسابك أولاً.",
+    "description": "2.0 reponsitory.js"
+  },
+  "toBind": {
+    "message": "إضافة البريد الإلكتروني أو رقم الجوال",
+    "description": "2.0 reponsitory.js"
+  },
+  "setPaperPwd": {
+    "message": "تعيين كلمة مرور",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperPwdTips1": {
+    "message": "بعد إعداد كلمة المرور يمكنك تأمين الامتحانات أو مجلدات الامتحانات المختارة. يمكن عرض أو إلغاء تأمين الامتحانات أو المجلدات المؤمنة عن طريق كلمة المرور",
+    "description": "2.0 reponsitory.js"
+  },
+  "updatePaperPwd": {
+    "message": "إعادة تعيين كلمة المرور",
+    "description": "2.0 reponsitory.js"
+  },
+  "oldPwd": {
+    "message": "كلمة المرور القديمة",
+    "description": "2.0 reponsitory.js"
+  },
+  "newPwd": {
+    "message": "كلمة المرور الجديدة",
+    "description": "2.0 reponsitory.js"
+  },
+  "newPwdAgain": {
+    "message": "تأكيد كلمة المرور الجديدة",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdNullTips": {
+    "message": "أدخل كلمة المرور",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdErrorTips": {
+    "message": "كلمة مرور خاطئة",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdRegTips": {
+    "message": "يجب أن تكون كلمة المرورما بين  6-16 رقم أو حرف",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdDifTips": {
+    "message": "كلمتي المرور ليستا متطابقتين",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPwd": {
+    "message": "أدخل كلمة المرور",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputAgain": {
+    "message": "تأكيد كلمة المرور",
+    "description": "2.0 reponsitory.js"
+  },
+  "deletePaperPwd": {
+    "message": "إزالة كلمة مرور",
+    "description": "2.0 reponsitory.js"
+  },
+  "deletePaperPwdTips": {
+    "message": "بعد إزالة كلمة مرور ستكون جميع الاختبارات والمجلدات الآمنة غير آمنة!",
+    "description": "2.0 reponsitory.js"
+  },
+  "setPaperPwdTips": {
+    "message": "بعد إعداد كلمة المرور يمكنك تأمين الامتحانات أو مجلدات الامتحانات المختارة. يمكن عرض أو إلغاء تأمين الامتحانات أو المجلدات المؤمنة عن طريق كلمة المرور",
+    "description": "2.0 reponsitory.js"
+  },
+  "forgetPwd": {
+    "message": "نسيت كلمة المرور؟",
+    "description": "2.0 reponsitory.js"
+  },
+  "authentication": {
+    "message": "التحقق",
+    "description": "2.0 reponsitory.js"
+  },
+  "mail": {
+    "message": "البريد الإلكتروني",
+    "description": "2.0 reponsitory.js"
+  },
+  "sms": {
+    "message": "رسالة قصيرة",
+    "description": "2.0 reponsitory.js"
+  },
+  "phone": {
+    "message": "رقم الجوال",
+    "description": "2.0 reponsitory.js"
+  },
+  "picCode": {
+    "message": "رمز التحقق CAPTCHA",
+    "description": "2.0 reponsitory.js"
+  },
+  "smsCode": {
+    "message": "رمز التحقق عن طريق الرسائل القصيرة",
+    "description": "2.0 reponsitory.js"
+  },
+  "mailCode": {
+    "message": "رمز التحقق عن طريق البريد الإلكتروني",
+    "description": "2.0 reponsitory.js"
+  },
+  "getCode": {
+    "message": "ارسل",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPicCodeTips": {
+    "message": "أدخل كود CAPTCHA",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputCodeTips": {
+    "message": "أدخل رمز التحقق",
+    "description": "2.0 reponsitory.js"
+  },
+  "authType": {
+    "message": "طريقة التحقق",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperLock": {
+    "message": "آمن",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperUnLock": {
+    "message": "غير آمن",
+    "description": "2.0 reponsitory.js"
+  },
+  "sharedPaperLockTips": {
+    "message": "لا يمكن تأمين الامتحانات أو المجلدات التي تمت مشاركتها. يمكنك إلغاء المشاركة ثم تأمين الامتحانات أو المجلدات.",
+    "description": "2.0 reponsitory.js"
+  },
+  "operateSuccess": {
+    "message": "تم بنجاح!",
+    "description": "2.0 reponsitory.js"
+  },
+  "sendSuccess": {
+    "message": "تم بنجاح!",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPaperPwd": {
+    "message": "أدخل كلمة المرور",
+    "description": "2.0 reponsitory.js"
+  },
+  "codeTimerTips": {
+    "message": "يمكن إعادة طلبها بعد {n} ثانية",
     "description": "2.0 reponsitory.js"
   }
 }
