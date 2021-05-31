@@ -139,6 +139,10 @@
     "message": "已创建课堂？",
     "description": "smart Class"
   },
+  "classroom.noClassroomTip2": {
+    "message": "老师还没创建课堂，请等待老师创建或联系老师。",
+    "description": "smart-classroom 项目"
+  },
   "classroom.refresh": {
     "message": "点此刷新",
     "description": "smart Class"
@@ -149,6 +153,10 @@
   },
   "classroom.noCourseTip3": {
     "message": "已创建？",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.noCourseTip4": {
+    "message": "你还没有加入课程，请联系老师。",
     "description": "smart-classroom 项目"
   },
   "classroom.newUser": {
@@ -363,6 +371,10 @@
     "message": "班级数量",
     "description": "smart-classroom 项目"
   },
+  "classroom.time": {
+    "message": "上课时间",
+    "description": "smart-classroom 项目"
+  },
   "login.welcomeTip": {
     "message": "欢迎使用智慧课堂",
     "description": "smart Class"
@@ -370,6 +382,10 @@
   "login.inputUserNameTip1": {
     "message": "用户名 / 手机号 / 邮箱",
     "description": "smart Class"
+  },
+  "login.inputUserNameTip2": {
+    "message": "用户名",
+    "description": "smart-classroom 项目"
   },
   "login.password": {
     "message": "密码",
@@ -541,6 +557,10 @@
   },
   "login.privacy": {
     "message": "隐私政策",
+    "description": "smart-classroom 项目"
+  },
+  "login.browserTip": {
+    "message": "*为保证最佳授课/学习效果，请使用ChromeV58以上版本浏览器。",
     "description": "smart-classroom 项目"
   },
   "intro.welcomeTip": {
@@ -915,6 +935,18 @@
     "message": "{date}课堂打分",
     "description": "smart-classroom 项目"
   },
+  "score.objectNums": {
+    "message": "评价对象：共{num}个",
+    "description": "smart-classroom 项目"
+  },
+  "score.totalScore": {
+    "message": "满分{score}分",
+    "description": "smart-classroom 项目"
+  },
+  "score.scoreResult": {
+    "message": "得分",
+    "description": "smart-classroom 项目"
+  },
   "pick.pickRecord": {
     "message": "选人记录",
     "description": "smart Class"
@@ -1007,6 +1039,10 @@
     "message": "进行签到",
     "description": "smart Class"
   },
+  "attendence.gosignNew": {
+    "message": "进行扫码签到",
+    "description": "smart-classroom 项目"
+  },
   "attendence.codeSign": {
     "message": "二维码签到",
     "description": "smart Class"
@@ -1014,6 +1050,10 @@
   "attendence.phoneScan": {
     "message": "使用手机扫二维码",
     "description": "smart Class"
+  },
+  "attendence.phoneScanNew": {
+    "message": "仅支持学生使用手机",
+    "description": "smart-classroom 项目"
   },
   "attendence.attendence": {
     "message": "点名",
@@ -1251,6 +1291,138 @@
     "message": "学生",
     "description": "smart-classroom 项目"
   },
+  "student.praise": {
+    "message": "赞",
+    "description": "smart-classroom 项目"
+  },
+  "student.notUnderstand": {
+    "message": "有疑问",
+    "description": "smart-classroom 项目"
+  },
+  "student.understand": {
+    "message": "取消疑问",
+    "description": "smart-classroom 项目"
+  },
+  "student.participate": {
+    "message": "去参与",
+    "description": "smart-classroom 项目"
+  },
+  "student.involved": {
+    "message": "已参与",
+    "description": "smart-classroom 项目"
+  },
+  "student.callRoll1": {
+    "message": "请输入教师屏幕上显示的数字完成签到",
+    "description": "smart-classroom 项目"
+  },
+  "student.fewPoints": {
+    "message": "{num}积分",
+    "description": "smart-classroom 项目"
+  },
+  "student.toBeSelected": {
+    "message": "恭喜你被老师选中了！",
+    "description": "smart-classroom 项目"
+  },
+  "student.discuss1": {
+    "message": "你该如何选择？",
+    "description": "smart-classroom 项目"
+  },
+  "student.submit": {
+    "message": "提交",
+    "description": "smart-classroom 项目"
+  },
+  "student.teamEvaluation": {
+    "message": "实践课小组评价",
+    "description": "smart-classroom 项目"
+  },
+  "student.howPoints": {
+    "message": "{num}分",
+    "description": "smart-classroom 项目"
+  },
+  "student.fullMarks": {
+    "message": "满分：{num}",
+    "description": "smart-classroom 项目"
+  },
+  "student.totalFew": {
+    "message": "共{num}个",
+    "description": "smart-classroom 项目"
+  },
+  "student.combined": {
+    "message": "合计",
+    "description": "smart-classroom 项目"
+  },
+  "student.selected": {
+    "message": "已选",
+    "description": "smart-classroom 项目"
+  },
+  "student.hasBeenRated": {
+    "message": "已打{num}分",
+    "description": "smart-classroom 项目"
+  },
+  "student.pleaseWaitFor": {
+    "message": "请等待老师发起课堂活动",
+    "description": "smart-classroom 项目"
+  },
+  "student.pleaseWatchTeacherScreen": {
+    "message": "教师正在演示其他类型资源，请看教师屏幕",
+    "description": "smart-classroom 项目"
+  },
+  "student.finishSuccess": {
+    "message": "签到成功！请在教师屏查看结果。",
+    "description": "smart-classroom 项目"
+  },
+  "student.voteErr": {
+    "message": "投票失败",
+    "description": "smart-classroom 项目"
+  },
+  "student.maxSelectableCount": {
+    "message": "多选 (最多选{selectionableCount}项)",
+    "description": "smart-classroom 项目"
+  },
+  "student.replySuccess": {
+    "message": "提交成功，请在教师屏查看所有回复。",
+    "description": "smart-classroom 项目"
+  },
+  "student.showConfirm": {
+    "message": "老师发起了新的{type}，留在当前活动还是参与新活动？",
+    "description": "smart-classroom 项目"
+  },
+  "student.takePartIn": {
+    "message": "参与",
+    "description": "smart-classroom 项目"
+  },
+  "student.forPoints": {
+    "message": "恭喜你获得{score}积分。",
+    "description": "smart-classroom 项目"
+  },
+  "student.replyAgain": {
+    "message": "再次回复",
+    "description": "smart-classroom 项目"
+  },
+  "student.replyContent": {
+    "message": "你已参与回复，如需表达更多观点，请点击再次回复。",
+    "description": "smart-classroom 项目"
+  },
+  "student.editClassroom": {
+    "message": "退出课堂",
+    "description": "smart-classroom 项目"
+  },
+  "student.classroomEnded": {
+    "message": "本堂课已结束。",
+    "description": "smart-classroom 项目"
+  },
+  "student.ercode": {
+    "message": "二维码签到",
+    "description": "smart-classroom 项目"
+  },
+  "student.oneCall": {
+    "message": "位置签到",
+    "description": "smart-classroom 项目"
+  },
+  "student.notSupport": {
+    "message": "当前设备不支持{sup}，请联系老师。",
+    "description": "smart-classroom 项目"
+  },
   "screen.inClass": {
     "message": "上课中",
     "description": "smart Class"
@@ -1467,6 +1639,38 @@
     "message": "确定清除当前设备下缓存的所有资源吗？",
     "description": "smart-classroom 项目"
   },
+  "screen.shareScreen": {
+    "message": "同屏",
+    "description": "smart-classroom 项目"
+  },
+  "screen.shareScreenSuccess": {
+    "message": "同屏成功，学生可以看到讲授内容了",
+    "description": "smart-classroom 项目"
+  },
+  "screen.unshareScreenSuccess": {
+    "message": "已取消同屏",
+    "description": "smart-classroom 项目"
+  },
+  "screen.firsttimeShareScreenSuccess": {
+    "message": "点击同屏后，学生可在电脑端看到您的授课内容，并可对有疑问的内容进行标记。目前仅支持PPT同屏，其他资源格式同屏稍后开放。",
+    "description": "smart-classroom 项目"
+  },
+  "screen.gotIt": {
+    "message": "知道了",
+    "description": "smart-classroom 项目"
+  },
+  "screen.xStudentsHasDoubt": {
+    "message": "{num}人对此页有疑问",
+    "description": "smart-classroom 项目"
+  },
+  "screen.doubtStudents": {
+    "message": "对此页有疑问的学生：",
+    "description": "smart-classroom 项目"
+  },
+  "screen.hasxDoubts": {
+    "message": "本堂课{num}次疑问",
+    "description": "smart-classroom 项目"
+  },
   "vote.start": {
     "message": "发起投票",
     "description": "smart-classroom 项目"
@@ -1637,6 +1841,14 @@
   },
   "answer.totalTips": {
     "message": "抢答{count}次，被选{selectPersonCount}次",
+    "description": "smart-classroom 项目"
+  },
+  "answer.hasMe": {
+    "message": "已抢答",
+    "description": "smart-classroom 项目"
+  },
+  "answer.isFull": {
+    "message": "名额已抢完",
     "description": "smart-classroom 项目"
   },
   "live.attdenceLive": {
