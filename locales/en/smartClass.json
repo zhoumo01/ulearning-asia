@@ -139,6 +139,10 @@
     "message": "Session already created?",
     "description": "smart Class"
   },
+  "classroom.noClassroomTip2": {
+    "message": "The teacher has not created a session, please wait or contact the teacher.",
+    "description": "smart-classroom 项目"
+  },
   "classroom.refresh": {
     "message": "Click here to refresh",
     "description": "smart Class"
@@ -149,6 +153,10 @@
   },
   "classroom.noCourseTip3": {
     "message": "Already created?",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.noCourseTip4": {
+    "message": "You have not enrolled the course, please contact the teacher.",
     "description": "smart-classroom 项目"
   },
   "classroom.newUser": {
@@ -363,6 +371,10 @@
     "message": "Number of Classes",
     "description": "smart-classroom 项目"
   },
+  "classroom.time": {
+    "message": "Session Time",
+    "description": "smart-classroom 项目"
+  },
   "login.welcomeTip": {
     "message": "Welcome to ULearning Smart Classroom",
     "description": "smart Class"
@@ -370,6 +382,10 @@
   "login.inputUserNameTip1": {
     "message": "Username/Phone/Email",
     "description": "smart Class"
+  },
+  "login.inputUserNameTip2": {
+    "message": "Username",
+    "description": "smart-classroom 项目"
   },
   "login.password": {
     "message": "Password",
@@ -541,6 +557,10 @@
   },
   "login.privacy": {
     "message": "Privacy Policy",
+    "description": "smart-classroom 项目"
+  },
+  "login.browserTip": {
+    "message": "* For the best experience, please use the latest version of Chrome browser.",
     "description": "smart-classroom 项目"
   },
   "intro.welcomeTip": {
@@ -915,6 +935,18 @@
     "message": "Peer Review - {date} ",
     "description": "smart-classroom 项目"
   },
+  "score.objectNums": {
+    "message": "Review Items: {num}",
+    "description": "smart-classroom 项目"
+  },
+  "score.totalScore": {
+    "message": "Out of {score}",
+    "description": "smart-classroom 项目"
+  },
+  "score.scoreResult": {
+    "message": "Score",
+    "description": "smart-classroom 项目"
+  },
   "pick.pickRecord": {
     "message": "Random Pick Records",
     "description": "smart Class"
@@ -1007,6 +1039,10 @@
     "message": "Sign in",
     "description": "smart Class"
   },
+  "attendence.gosignNew": {
+    "message": "Scan the QR code\nto sign in",
+    "description": "smart-classroom 项目"
+  },
   "attendence.codeSign": {
     "message": "Sign-in via QR code",
     "description": "smart Class"
@@ -1014,6 +1050,10 @@
   "attendence.phoneScan": {
     "message": "Scan the QR code with your smart phone",
     "description": "smart Class"
+  },
+  "attendence.phoneScanNew": {
+    "message": "For mobile devices only",
+    "description": "smart-classroom 项目"
   },
   "attendence.attendence": {
     "message": "Roll Call",
@@ -1251,6 +1291,138 @@
     "message": "Student",
     "description": "smart-classroom 项目"
   },
+  "student.praise": {
+    "message": "Like",
+    "description": "smart-classroom 项目"
+  },
+  "student.notUnderstand": {
+    "message": "Ask Questions",
+    "description": "smart-classroom 项目"
+  },
+  "student.understand": {
+    "message": "Cancel Ask Questions",
+    "description": "smart-classroom 项目"
+  },
+  "student.participate": {
+    "message": "Go",
+    "description": "smart-classroom 项目"
+  },
+  "student.involved": {
+    "message": "Participated",
+    "description": "smart-classroom 项目"
+  },
+  "student.callRoll1": {
+    "message": "Please enter the code from the teacher's screen to sign in.",
+    "description": "smart-classroom 项目"
+  },
+  "student.fewPoints": {
+    "message": "Points: 2",
+    "description": "smart-classroom 项目"
+  },
+  "student.toBeSelected": {
+    "message": "Congratulations! You have been selected.",
+    "description": "smart-classroom 项目"
+  },
+  "student.discuss1": {
+    "message": "How should you choose?",
+    "description": "smart-classroom 项目"
+  },
+  "student.submit": {
+    "message": "Submit",
+    "description": "smart-classroom 项目"
+  },
+  "student.teamEvaluation": {
+    "message": "Group Project Peer Review",
+    "description": "smart-classroom 项目"
+  },
+  "student.howPoints": {
+    "message": "{num} points",
+    "description": "smart-classroom 项目"
+  },
+  "student.fullMarks": {
+    "message": "Points Possible: {num}",
+    "description": "smart-classroom 项目"
+  },
+  "student.totalFew": {
+    "message": "Total {num}",
+    "description": "smart-classroom 项目"
+  },
+  "student.combined": {
+    "message": "Total Score ",
+    "description": "smart-classroom 项目"
+  },
+  "student.selected": {
+    "message": "Selected ",
+    "description": "smart-classroom 项目"
+  },
+  "student.hasBeenRated": {
+    "message": "Scored {num} pts",
+    "description": "smart-classroom 项目"
+  },
+  "student.pleaseWaitFor": {
+    "message": "Please wait for the teacher to launch a session activity.",
+    "description": "smart-classroom 项目"
+  },
+  "student.pleaseWatchTeacherScreen": {
+    "message": "The teacher is presenting other resources. Please check the teacher's screen.",
+    "description": "smart-classroom 项目"
+  },
+  "student.finishSuccess": {
+    "message": "Signed in successfully! Please check your sign-in status on the teacher's screen.",
+    "description": "smart-classroom 项目"
+  },
+  "student.voteErr": {
+    "message": "Failed to vote!",
+    "description": "smart-classroom 项目"
+  },
+  "student.maxSelectableCount": {
+    "message": "Multiple Response (Select up to {selectionableCount items}",
+    "description": "smart-classroom 项目"
+  },
+  "student.replySuccess": {
+    "message": "Submitted successfully - please check the replies on the teacher's screen!",
+    "description": "smart-classroom 项目"
+  },
+  "student.showConfirm": {
+    "message": "The teacher launched a new activity - {type}. Do you want to go to this new activity or stay here for the current activity?",
+    "description": "smart-classroom 项目"
+  },
+  "student.takePartIn": {
+    "message": "Go",
+    "description": "smart-classroom 项目"
+  },
+  "student.forPoints": {
+    "message": "Congratulations! You got {score} points.",
+    "description": "smart-classroom 项目"
+  },
+  "student.replyAgain": {
+    "message": "Reply Again",
+    "description": "smart-classroom 项目"
+  },
+  "student.replyContent": {
+    "message": "You replied before. To reply more, click the Reply Again button.",
+    "description": "smart-classroom 项目"
+  },
+  "student.editClassroom": {
+    "message": "Exit",
+    "description": "smart-classroom 项目"
+  },
+  "student.classroomEnded": {
+    "message": "The session has ended.",
+    "description": "smart-classroom 项目"
+  },
+  "student.ercode": {
+    "message": "QR Code Sign-in",
+    "description": "smart-classroom 项目"
+  },
+  "student.oneCall": {
+    "message": "Location Sign-in",
+    "description": "smart-classroom 项目"
+  },
+  "student.notSupport": {
+    "message": "The current device does not support {sup}. Please contact the teacher. ",
+    "description": "smart-classroom 项目"
+  },
   "screen.inClass": {
     "message": "In Session",
     "description": "smart Class"
@@ -1467,6 +1639,38 @@
     "message": "Are you sure you want to clear all resources cached under the current device?",
     "description": "smart-classroom 项目"
   },
+  "screen.shareScreen": {
+    "message": "Share",
+    "description": "smart-classroom 项目"
+  },
+  "screen.shareScreenSuccess": {
+    "message": "Successfully shared the screen - students can see the shared content now.",
+    "description": "smart-classroom 项目"
+  },
+  "screen.unshareScreenSuccess": {
+    "message": "Exited screen sharing",
+    "description": "smart-classroom 项目"
+  },
+  "screen.firsttimeShareScreenSuccess": {
+    "message": "When you share the screen, students can view your presentation from their device and mark the questioned content. Currently only supports sharing PowerPoint content. Other types of content sharing will be added soon.",
+    "description": "smart-classroom 项目"
+  },
+  "screen.gotIt": {
+    "message": "Got It!",
+    "description": "smart-classroom 项目"
+  },
+  "screen.xStudentsHasDoubt": {
+    "message": "{num} students have questions for this page",
+    "description": "smart-classroom 项目"
+  },
+  "screen.doubtStudents": {
+    "message": "Students with questions for this page:",
+    "description": "smart-classroom 项目"
+  },
+  "screen.hasxDoubts": {
+    "message": "Session Questions: {num} ",
+    "description": "smart-classroom 项目"
+  },
   "vote.start": {
     "message": "Polls",
     "description": "smart-classroom 项目"
@@ -1637,6 +1841,14 @@
   },
   "answer.totalTips": {
     "message": "Compete to Answer: {count}; Being Picked: {selectPersonCount}",
+    "description": "smart-classroom 项目"
+  },
+  "answer.hasMe": {
+    "message": "Answered",
+    "description": "smart-classroom 项目"
+  },
+  "answer.isFull": {
+    "message": "No Vacancy",
     "description": "smart-classroom 项目"
   },
   "live.attdenceLive": {
