@@ -267,6 +267,34 @@
     "message": "录制设置",
     "description": "smart-classroom-admin 项目"
   },
+  "route.setHost": {
+    "message": "录播主机设置",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.setClassroom": {
+    "message": "设置教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.administration": {
+    "message": "教务管理",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.classroomManage": {
+    "message": "教室管理",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.equipmentManage": {
+    "message": "设备管理",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.controlCenter": {
+    "message": "控制中心",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.controlCenterInfo": {
+    "message": "控制中心详情",
+    "description": "smart-classroom-admin 项目"
+  },
   "navbar.dashboard": {
     "message": "首页",
     "description": "smart-classroom-admin 项目"
@@ -579,8 +607,556 @@
     "message": "侧边栏 Logo",
     "description": "smart-classroom-admin 项目"
   },
+  "common.title": {
+    "message": "录播巡课及物联管控平台",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.welcome": {
+    "message": "欢迎您，管理员！",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.logOut": {
+    "message": "退出",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.prompt": {
+    "message": "提示",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.desc": {
+    "message": "欢迎来到录播巡课及物联管控平台",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.enterClassroom": {
+    "message": "请输入教室名称",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.startTime": {
+    "message": "开始日期",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.endTime": {
+    "message": "结束日期",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.to": {
+    "message": "至",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.campus": {
+    "message": "校区",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.building": {
+    "message": "教学楼",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.num": {
+    "message": "数量",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.videoBeingGenerated": {
+    "message": "视频正在生成中...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week1": {
+    "message": "周一",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week2": {
+    "message": "周二",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week3": {
+    "message": "周三",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week4": {
+    "message": "周四",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week5": {
+    "message": "周五",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week6": {
+    "message": "周六",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week7": {
+    "message": "周日",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.all": {
+    "message": "全部",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.serial": {
+    "message": "序号",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.classroomName": {
+    "message": "教室名称",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.classroomType": {
+    "message": "教室类型",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.toView": {
+    "message": "查看",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.playbackGeneration": {
+    "message": "回放生成中",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.deleteSucc": {
+    "message": "删除成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.sureDelete": {
+    "message": "确定删除？",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.goback": {
+    "message": "返回",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.end": {
+    "message": "结束",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.addSucc": {
+    "message": "添加成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.editSucc": {
+    "message": "修改成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.saveSucc": {
+    "message": "保存成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.addClassroom": {
+    "message": "添加教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.editClassroom": {
+    "message": "修改教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.removeSucc": {
+    "message": "移除成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.pleaseSelect": {
+    "message": "请选择",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.success": {
+    "message": "成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.importClassroom": {
+    "message": "导入教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.edit": {
+    "message": "修改",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.uploadSucc": {
+    "message": "上传成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.classroomStatus": {
+    "message": "教室状态",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.open": {
+    "message": "开启",
+    "description": "smart-classroom-admin 项目"
+  },
   "recordedClass.recording": {
     "message": "当前有{recordingIndex}个教室正在上课录制",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.recordingNew": {
+    "message": "学校共有{num}个录播教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.cameraDetection": {
+    "message": "摄像头检测中...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.makeSureEndRecording": {
+    "message": "确定结束录制？",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.makeSureStartRecording": {
+    "message": "确定开始录制？",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.transcribe": {
+    "message": "录制",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.inTheRecording": {
+    "message": "录制中",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.startRecording": {
+    "message": "开始录制",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.startRecordingSuccess": {
+    "message": "开始录制成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.endRecording": {
+    "message": "结束录制",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.endRecordingSuccess": {
+    "message": "结束录制成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.classNotRecorded": {
+    "message": "课程未录制",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.msg1": {
+    "message": "无法连接到主机，请检查网络或者主机IP是否正确。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.reload": {
+    "message": "重新加载",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.failedReload": {
+    "message": "加载失败，请重新加载",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.vFailedReload": {
+    "message": "视频加载失败，请重新加载",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.platform": {
+    "message": "讲台",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.student": {
+    "message": "学生",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.courseware": {
+    "message": "课件",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.vlcReloadErr": {
+    "message": "vlc播放器加载失败",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.courseInfo": {
+    "message": "课程信息",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.subjectClass": {
+    "message": "学科分类",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.college": {
+    "message": "所属学院",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.classroomTeaching": {
+    "message": "授课教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.classTime": {
+    "message": "上课时间",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.theTeacher": {
+    "message": "授课教师",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.courseDesc": {
+    "message": "课程简介",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg1": {
+    "message": "课堂录制结束后需要对视频进行预处理，可能需要等待",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg2": {
+    "message": "最佳使用环境：操作系统 Win 7 以上、MAC OS X。浏览器：IE10以上、Edge、Chrome 55以上。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg3": {
+    "message": "更改录播主机的设置需谨慎，操作失误可能会导致所连接的摄像头无法使用。确定设置录播主机？",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg4": {
+    "message": "设置失败，请检查主机IP或者账号密码是否正确",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg5": {
+    "message": "请根据以下步骤进行操作",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg6": {
+    "message": "下载模板，按格式整理数据",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg7": {
+    "message": "上传整理好的文件",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg8": {
+    "message": "教室未导入，请修改表格中的错误数据后重新上传！",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg9": {
+    "message": "正在下载模板...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg10": {
+    "message": "只允许上传一个文件",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.recordedClassroom": {
+    "message": "录播教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.addRecordClassroom": {
+    "message": "添加录播教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.setRecordClassroom": {
+    "message": "设置录播教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.recordedHost": {
+    "message": "录播主机",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.camera": {
+    "message": "摄像头",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.recordingNums": {
+    "message": "录制次数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.deviceName": {
+    "message": "设备名称",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.IP": {
+    "message": "IP",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.setHost": {
+    "message": "设置主机",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.hostName": {
+    "message": "主机名称",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.hostNamePH": {
+    "message": "请输入主机名称",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.hostIP": {
+    "message": "主机IP",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.hostIPPH": {
+    "message": "请输入主机IP",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.loginAccount": {
+    "message": "登录账号",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.loginAccountPH": {
+    "message": "请输入登录账号",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.loginPwd": {
+    "message": "登录密码",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.loginPwdPH": {
+    "message": "请输入登录密码",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.basicInfo": {
+    "message": "基本信息",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.name": {
+    "message": "名称",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.RhostIP": {
+    "message": "录播主机IP",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.classroom": {
+    "message": "教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.setting": {
+    "message": "设置",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.removeClassroom": {
+    "message": "移除教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.sureRemoveClassroom": {
+    "message": "确定移除教室？",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.campusPS": {
+    "message": "请选择校区",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.buildingPS": {
+    "message": "请选择教学楼",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.classroomPS": {
+    "message": "请选择教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.cameraPS": {
+    "message": "请添加摄像头",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.classroomTypePS": {
+    "message": "请选择教室类型",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.seating": {
+    "message": "座位数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.seatingPS": {
+    "message": "请输入座位数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.downloadTemplate": {
+    "message": "下载模板",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.uploadFile": {
+    "message": "上传文件",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.clickUpload": {
+    "message": "点击上传",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.sureRemove": {
+    "message": "确定移除",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.online": {
+    "message": "在线",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.offline": {
+    "message": "离线",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.batchControl": {
+    "message": "批量控制",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.allClassroom": {
+    "message": "所有教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.computer": {
+    "message": "电脑",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.projector": {
+    "message": "投影仪",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.mike": {
+    "message": "麦克",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.stereo": {
+    "message": "音响",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.conditioner": {
+    "message": "空调",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.curtain": {
+    "message": "窗帘",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.light": {
+    "message": "灯光",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.largeScreen": {
+    "message": "大屏",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.isOpen": {
+    "message": "正在开启...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.isClose": {
+    "message": "正在关闭...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.openSucc": {
+    "message": "开启成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.closeSucc": {
+    "message": "关闭成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.temperature": {
+    "message": "温度",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.humidity": {
+    "message": "湿度",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.cdc": {
+    "message": "二氧化碳浓度",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.VOC": {
+    "message": "VOC浓度",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.snocce": {
+    "message": "中控设备序列号",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.scce": {
+    "message": "中控序列号",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.sccePS": {
+    "message": "请选择中控序列号",
     "description": "smart-classroom-admin 项目"
   }
 }
