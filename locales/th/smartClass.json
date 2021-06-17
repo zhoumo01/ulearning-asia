@@ -139,6 +139,10 @@
     "message": "สร้างห้องเรียนแล้วหรือยัง?",
     "description": "smart Class"
   },
+  "classroom.noClassroomTip2": {
+    "message": "ครูยังไม่ได้สร้างชั้นเรียน โปรดรอให้ครูสร้างหรือติดต่อครู",
+    "description": "smart-classroom 项目"
+  },
   "classroom.refresh": {
     "message": "คลิกรีเฟรชนี้",
     "description": "smart Class"
@@ -149,6 +153,10 @@
   },
   "classroom.noCourseTip3": {
     "message": "สร้างแล้ว?",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.noCourseTip4": {
+    "message": "คุณยังไม่ได้เข้าร่วมหลักสูตร โปรดติดต่อครู",
     "description": "smart-classroom 项目"
   },
   "classroom.newUser": {
@@ -363,6 +371,10 @@
     "message": "จํานวนชั้นเรียน",
     "description": "smart-classroom 项目"
   },
+  "classroom.time": {
+    "message": "เวลาเรียน",
+    "description": "smart-classroom 项目"
+  },
   "login.welcomeTip": {
     "message": "ยินดีต้อนรับสู่ห้องเรียนอัจฉริยะ",
     "description": "smart Class"
@@ -370,6 +382,10 @@
   "login.inputUserNameTip1": {
     "message": "ชื่อผู้ใช้ / หมายเลขโทรศัพท์มือถือ / กล่องจดหมาย",
     "description": "smart Class"
+  },
+  "login.inputUserNameTip2": {
+    "message": "ชื่อผู้ใช้",
+    "description": "smart-classroom 项目"
   },
   "login.password": {
     "message": "รหัสผ่าน",
@@ -541,6 +557,10 @@
   },
   "login.privacy": {
     "message": "นโยบายความเป็นส่วนตัว",
+    "description": "smart-classroom 项目"
+  },
+  "login.browserTip": {
+    "message": "*เพื่อรับประกันประสิทธิภาพการสอน/การเรียนรู้ที่ดีที่สุด โปรดใช้เบราว์เซอร์ ChromeV58 หรือสูงกว่า",
     "description": "smart-classroom 项目"
   },
   "intro.welcomeTip": {
@@ -915,6 +935,18 @@
     "message": "คะแนนชั้นเรียน {date}",
     "description": "smart-classroom 项目"
   },
+  "score.objectNums": {
+    "message": "วัตถุการประเมิน: ทั้งหมด {num} รายการ",
+    "description": "smart-classroom 项目"
+  },
+  "score.totalScore": {
+    "message": "คะแนนเต็ม {score} คะแนน",
+    "description": "smart-classroom 项目"
+  },
+  "score.scoreResult": {
+    "message": "ได้คะแนน",
+    "description": "smart-classroom 项目"
+  },
   "pick.pickRecord": {
     "message": "เรกคอร์ดผู้สมัคร",
     "description": "smart Class"
@@ -1007,6 +1039,10 @@
     "message": "ทําการเช็คอิน",
     "description": "smart Class"
   },
+  "attendence.gosignNew": {
+    "message": "ทำการสแกนเพื่อเช็คอินเข้าเรียน",
+    "description": "smart-classroom 项目"
+  },
   "attendence.codeSign": {
     "message": "รหัส QR จะถูกเช็คอิน",
     "description": "smart Class"
@@ -1014,6 +1050,10 @@
   "attendence.phoneScan": {
     "message": "ใช้โทรศัพท์ของคุณเพื่อสแกนรหัส QR",
     "description": "smart Class"
+  },
+  "attendence.phoneScanNew": {
+    "message": "รองรับเฉพาะนักเรียนที่ใช้โทรศัพท์มือถือเท่านั้น",
+    "description": "smart-classroom 项目"
   },
   "attendence.attendence": {
     "message": "ตามชื่อ",
@@ -1251,6 +1291,174 @@
     "message": "นักเรียน",
     "description": "smart-classroom 项目"
   },
+  "student.praise": {
+    "message": "ชื่นชอบ",
+    "description": "smart-classroom 项目"
+  },
+  "student.notUnderstand": {
+    "message": "มีคําถาม",
+    "description": "smart-classroom 项目"
+  },
+  "student.understand": {
+    "message": "ยกเลิกคำถาม",
+    "description": "smart-classroom 项目"
+  },
+  "student.participate": {
+    "message": "ไปเข้าร่วม",
+    "description": "smart-classroom 项目"
+  },
+  "student.involved": {
+    "message": "มีส่วนร่วมแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "student.callRoll1": {
+    "message": "โปรดป้อนหมายเลขที่แสดงบนหน้าจอของครูเพื่อเช็คอินเข้าเรียนให้เสร็จสมบูรณ์",
+    "description": "smart-classroom 项目"
+  },
+  "student.fewPoints": {
+    "message": "{num}คะแนน ",
+    "description": "smart-classroom 项目"
+  },
+  "student.toBeSelected": {
+    "message": "อาจารย์ได้เลือกคุณแล้วยินดีด้วย!",
+    "description": "smart-classroom 项目"
+  },
+  "student.discuss1": {
+    "message": "คุณควรเลือกอย่างไร?",
+    "description": "smart-classroom 项目"
+  },
+  "student.submit": {
+    "message": "ส่ง",
+    "description": "smart-classroom 项目"
+  },
+  "student.teamEvaluation": {
+    "message": "การประเมินผลกลุ่มของบทเรียนภาคปฏิบัติ",
+    "description": "smart-classroom 项目"
+  },
+  "student.howPoints": {
+    "message": "{num}คะแนน",
+    "description": "smart-classroom 项目"
+  },
+  "student.fullMarks": {
+    "message": "คะแนนเต็ม: {num}",
+    "description": "smart-classroom 项目"
+  },
+  "student.totalFew": {
+    "message": "รวม {num}รายการ",
+    "description": "smart-classroom 项目"
+  },
+  "student.combined": {
+    "message": "ผลรวม",
+    "description": "smart-classroom 项目"
+  },
+  "student.selected": {
+    "message": "เลือกแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "student.hasBeenRated": {
+    "message": "ได้{num}คะแนน",
+    "description": "smart-classroom 项目"
+  },
+  "student.pleaseWaitFor": {
+    "message": "กรุณารอครูเริ่มกิจกรรมในชั้นเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "student.pleaseWatchTeacherScreen": {
+    "message": "ครูกำลังสาธิตทรัพยากรประเภทอื่น โปรดดูหน้าจอของครู",
+    "description": "smart-classroom 项目"
+  },
+  "student.finishSuccess": {
+    "message": "การเช็คอินสําเร็จแล้ว! โปรดดูผลลัพธ์บนหน้าจอของอาจารย์",
+    "description": "smart-classroom 项目"
+  },
+  "student.voteErr": {
+    "message": "การลงคะแนนเสียงล้มเหลว",
+    "description": "smart-classroom 项目"
+  },
+  "student.maxSelectableCount": {
+    "message": "เลือกหลายรายการ (เลือกได้สูงสุด {selectionableCount} รายการ)",
+    "description": "smart-classroom 项目"
+  },
+  "student.replySuccess": {
+    "message": "ส่งสําเร็จ โปรดดูการตอบกลับทั้งหมดบนหน้าจออาจารย์",
+    "description": "smart-classroom 项目"
+  },
+  "student.showConfirm": {
+    "message": "ครูได้เปิดตัว {type} ใหม่ อยู่ในกิจกรรมปัจจุบันหรือเข้าร่วมในกิจกรรมใหม่?",
+    "description": "smart-classroom 项目"
+  },
+  "student.takePartIn": {
+    "message": "เข้าร่วม",
+    "description": "smart-classroom 项目"
+  },
+  "student.forPoints": {
+    "message": "ขอแสดงความยินดีคุณได้รับ {score} คะแนน",
+    "description": "smart-classroom 项目"
+  },
+  "student.replyAgain": {
+    "message": "ตอบกลับอีกครั้ง",
+    "description": "smart-classroom 项目"
+  },
+  "student.replyContent": {
+    "message": "คุณได้มีส่วนร่วมในการตอบกลับ หากต้องการแสดงความคิดเห็นเพิ่มเติม โปรดคลิกเพื่อตอบกลับอีกครั้ง",
+    "description": "smart-classroom 项目"
+  },
+  "student.editClassroom": {
+    "message": "ออกจากชั้นเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "student.classroomEnded": {
+    "message": "ห้องเรียนนี้สิ้นสุดแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "student.ercode": {
+    "message": "เช็คอินด้วยคิวอาร์โค้ด",
+    "description": "smart-classroom 项目"
+  },
+  "student.oneCall": {
+    "message": "เช็คอินด้วยการระบุตำแหน่งที่ตั้ง",
+    "description": "smart-classroom 项目"
+  },
+  "student.notSupport": {
+    "message": "อุปกรณ์ปัจจุบันไม่รองรับ {sup} โปรดติดต่อครู",
+    "description": "smart-classroom 项目"
+  },
+  "student.activityEnd": {
+    "message": "การส่งล้มเหลว กิจกรรมได้สิ้นสุดลงแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "student.activityDelete": {
+    "message": "การส่งล้มเหลว กิจกรรมได้ถูกลบแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "student.notice": {
+    "message": "แจ้งเตือน",
+    "description": "smart-classroom 项目"
+  },
+  "student.submitFail": {
+    "message": "การส่งล้มเหลว",
+    "description": "smart-classroom 项目"
+  },
+  "student.classRecord": {
+    "message": "บันทึกกิจกรรมในชั้นเรียนนี้",
+    "description": "smart-classroom 项目"
+  },
+  "student.average": {
+    "message": "คะแนนเฉลี่ย",
+    "description": "smart-classroom 项目"
+  },
+  "student.myScore": {
+    "message": "คะแนนของฉัน",
+    "description": "smart-classroom 项目"
+  },
+  "student.pleaseIndicate": {
+    "message": "กรุณาให้คะแนนผู้ประเมิน",
+    "description": "smart-classroom 项目"
+  },
+  "student.iWillGiveScore": {
+    "message": "ฉันให้คะแนนผู้ประเมิน",
+    "description": "smart-classroom 项目"
+  },
   "screen.inClass": {
     "message": "ในชั้นเรียน",
     "description": "smart Class"
@@ -1467,6 +1675,42 @@
     "message": "แน่ใจว่าจะล้างทรัพยากรทั้งหมดที่แคชไว้ในอุปกรณ์ปัจจุบัน?",
     "description": "smart-classroom 项目"
   },
+  "screen.shareScreen": {
+    "message": "แชร์หน้าจอ",
+    "description": "smart-classroom 项目"
+  },
+  "screen.shareScreenSuccess": {
+    "message": "แชร์หน้าจอสำเร็จ นักศึกษาสามารถดูเนื้อหาการบรรยายได้แล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "screen.unshareScreenSuccess": {
+    "message": "การแชร์หน้าจอได้ถูกยกเลิกแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "screen.firsttimeShareScreenSuccess": {
+    "message": "หลังจากคลิกที่แชร์หน้าจอ นักเรียนสามารถดูเนื้อหาการสอนของคุณบนคอมพิวเตอร์ และสามารถทำเครื่องหมายบนเนื้อหาที่สงสัยได้ ปัจจุบันรองรับเฉพาะการแชร์หน้าจอPPT ส่วนการแชร์หน้าจอสำหรับรูปแบบทรัพยากรอื่นๆจะเผยแพร่ในภายหลัง",
+    "description": "smart-classroom 项目"
+  },
+  "screen.gotIt": {
+    "message": "เข้าใจแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "screen.xStudentsHasDoubt": {
+    "message": "มีข้อสงสัยเกี่ยวกับหน้านี้ {num} คน",
+    "description": "smart-classroom 项目"
+  },
+  "screen.doubtStudents": {
+    "message": "นักเรียนที่มีคําถามเกี่ยวกับหน้านี้:",
+    "description": "smart-classroom 项目"
+  },
+  "screen.hasxDoubts": {
+    "message": "คําถามในบทเรียนนี้ {num} ครั้ง",
+    "description": "smart-classroom 项目"
+  },
+  "screen.waitAnswer": {
+    "message": "รอชิงตอบคำถาม",
+    "description": "smart-classroom 项目"
+  },
   "vote.start": {
     "message": "เริ่มการลงคะแนนเสียง",
     "description": "smart-classroom 项目"
@@ -1637,6 +1881,14 @@
   },
   "answer.totalTips": {
     "message": "เลือก {count} ครั้ง และถูกเลือก {selectPersonCount} ครั้ง",
+    "description": "smart-classroom 项目"
+  },
+  "answer.hasMe": {
+    "message": "ได้ชิงตอบคำถามแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "answer.isFull": {
+    "message": "หมดโควต้าการชิงแล้ว",
     "description": "smart-classroom 项目"
   },
   "live.attdenceLive": {
