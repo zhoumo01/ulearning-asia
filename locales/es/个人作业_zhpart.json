@@ -780,7 +780,7 @@
     "description": "个人作业zh_part.json"
   },
   "homeworkTime": {
-    "message": "Tiempo de trabajo: (startTime) a (endTime)",
+    "message": "Tiempo de trabajo: {startTime} a {endTime}",
     "description": "PC -> 教师端 -> 学生提交作业列表 分班级设置的作业才会显示"
   },
   "各班分开设置": {
@@ -828,8 +828,12 @@
     "description": "个人作业zh_part.json"
   },
   "fullPoints": {
-    "message": "Puntuación completa: {0} puntos",
+    "message": "Puntuación completa: {n} puntos",
     "description": "移动端 -> 教师端 -> 发布个人作业 -> 学生互评 -> 评分规则 \n PC -> 学生 -> 互评作业 -> 评价任务(要求作业设置评分点) \n PC -> 学生 -> 作业详情"
+  },
+  "fullPointsOf": {
+    "message": "Puntuación completa {score}",
+    "description": "个人作业zh_part.json"
   },
   "添加评分点": {
     "message": "Añadir un punto de evaluación",
@@ -918,6 +922,10 @@
   "开始时间": {
     "message": "Hora de inicio",
     "description": "个人作业zh_part.json"
+  },
+  "startTime": {
+    "message": "Hora de comienzo: {time}",
+    "description": "PC -> 教师端 -> 学生提交作业列表"
   },
   "每个班级分开设置": {
     "message": "Establecer por separado para cada clase",
