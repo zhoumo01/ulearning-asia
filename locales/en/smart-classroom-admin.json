@@ -15,12 +15,12 @@
     "message": "Permission",
     "description": "smart-classroom-admin 项目"
   },
-  "route.pagePermission": {
-    "message": "Page Permission",
-    "description": "smart-classroom-admin 项目"
-  },
   "route.rolePermission": {
     "message": "Role Permission",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.pagePermission": {
+    "message": "Page Permission",
     "description": "smart-classroom-admin 项目"
   },
   "route.directivePermission": {
@@ -251,8 +251,52 @@
     "message": "Profile",
     "description": "smart-classroom-admin 项目"
   },
+  "route.recordedClass": {
+    "message": "Lecture Recording",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.recording": {
+    "message": "Live Stream",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.playback": {
+    "message": "Recording Playback",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.setUp": {
+    "message": "Recording Settings",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.setHost": {
+    "message": "Recording Server Settings",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.setClassroom": {
+    "message": "Set Classroom",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.administration": {
+    "message": "Academic Administration",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.classroomManage": {
+    "message": "Classroom Management",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.equipmentManage": {
+    "message": "Equipment Management",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.controlCenter": {
+    "message": "Control Center",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.controlCenterInfo": {
+    "message": "Control Center Details",
+    "description": "smart-classroom-admin 项目"
+  },
   "navbar.dashboard": {
-    "message": "Dashboard",
+    "message": "Home",
     "description": "smart-classroom-admin 项目"
   },
   "navbar.github": {
@@ -276,7 +320,7 @@
     "description": "smart-classroom-admin 项目"
   },
   "login.title": {
-    "message": "Login Form",
+    "message": "Log In",
     "description": "smart-classroom-admin 项目"
   },
   "login.logIn": {
@@ -561,6 +605,566 @@
   },
   "settings.sidebarLogo": {
     "message": "Sidebar Logo",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.title": {
+    "message": "Lecture Recording and IoT Control Center",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.welcome": {
+    "message": "Welcome, Admin!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.logOut": {
+    "message": "Log Out",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.prompt": {
+    "message": "Alert",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.desc": {
+    "message": "Welcome to the Lecture Recording and IoT Control Center!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.enterClassroom": {
+    "message": "Click to enter the classroom name",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.startTime": {
+    "message": "Start Date",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.endTime": {
+    "message": "End Date",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.to": {
+    "message": " to ",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.campus": {
+    "message": "Campus",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.building": {
+    "message": "Building",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.num": {
+    "message": "Quantity",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.videoBeingGenerated": {
+    "message": "Video is being generated...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week1": {
+    "message": "Monday",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week2": {
+    "message": "Tuesday",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week3": {
+    "message": "Wednesday",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week4": {
+    "message": "Thursday",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week5": {
+    "message": "Friday",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week6": {
+    "message": "Saturday",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.week7": {
+    "message": "Sunday",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.all": {
+    "message": "All",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.serial": {
+    "message": "S/N",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.classroomName": {
+    "message": "Classroom Name",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.classroomType": {
+    "message": "Classroom Type",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.toView": {
+    "message": "View",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.playbackGeneration": {
+    "message": "Playback is being generating...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.deleteSucc": {
+    "message": "Deleted successfully!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.sureDelete": {
+    "message": "Are you sure you want to delete it?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.goback": {
+    "message": "Back",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.end": {
+    "message": "Finish",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.addSucc": {
+    "message": "Added successfully!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.editSucc": {
+    "message": "Updated successfully!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.saveSucc": {
+    "message": "Saved successfully!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.addClassroom": {
+    "message": "Add Classroom",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.editClassroom": {
+    "message": "Edit Classroom",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.removeSucc": {
+    "message": "Removed successfully!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.pleaseSelect": {
+    "message": "Select",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.success": {
+    "message": "Succeeded!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.importClassroom": {
+    "message": "Import Classroom",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.edit": {
+    "message": "Edit",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.uploadSucc": {
+    "message": "Uploaded successfully!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.classroomStatus": {
+    "message": "Classroom Status",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.open": {
+    "message": "Turn On",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.details": {
+    "message": "Details",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.SLS": {
+    "message": "Language switched successfully!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.recording": {
+    "message": "Lecture recording is in progress in {recordingIndex} classrooms",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.recordingNew": {
+    "message": "There are {num} recording classrooms in the school",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.cameraDetection": {
+    "message": "Detecting camera...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.makeSureEndRecording": {
+    "message": "Are you sure you want to end the recording?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.makeSureStartRecording": {
+    "message": "Are you sure you want to start the recording?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.transcribe": {
+    "message": "Record",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.inTheRecording": {
+    "message": "In Recording",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.startRecording": {
+    "message": "Start Recording",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.startRecordingSuccess": {
+    "message": "Started the recording successfully!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.endRecording": {
+    "message": "End Recording",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.endRecordingSuccess": {
+    "message": "Ended the recording successfully!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.classNotRecorded": {
+    "message": "Lecture is not recorded",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.msg1": {
+    "message": "Unable to connect to the recording server! Please check whether the network or server IP is correct.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.reload": {
+    "message": "Reload",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.failedReload": {
+    "message": "Loading failed - please reload!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.vFailedReload": {
+    "message": "Video loading failed - please reload!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.platform": {
+    "message": "Podium",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.student": {
+    "message": "Students",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.courseware": {
+    "message": "Courseware",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.vlcReloadErr": {
+    "message": "VLC media player loading failed!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.courseInfo": {
+    "message": "Course Information",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.subjectClass": {
+    "message": "Subject Categories",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.college": {
+    "message": "College",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.classroomTeaching": {
+    "message": "Lecture Classroom",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.classTime": {
+    "message": "Class Time",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.theTeacher": {
+    "message": "Lecturer",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.courseDesc": {
+    "message": "Course Description",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg1": {
+    "message": "The video needs to be pre-processed after the lecture recording and you may need to wait.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg2": {
+    "message": "Optimal use environment: Operating system - Win 7 or above, MAC OS X; Browser - IE10 or above, Edge, Chrome 55 or above.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg3": {
+    "message": "Be cautious when editing the recording server settings. Wrong settings may cause the connected camera to be unusable. Are you sure to set up/edit the recording server?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg4": {
+    "message": "Failed to set! Please check whether the recording server IP or account/password is correct.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg5": {
+    "message": "Follow the steps below to import classrooms:",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg6": {
+    "message": "Download the template and organize the data in the formats specified in the the template",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg7": {
+    "message": "Upload the completed file",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg8": {
+    "message": "Classroom import is not completed - Please correct the errors in the table and upload again!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg9": {
+    "message": "Downloading template...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg10": {
+    "message": "Only one file is allowed to be uploaded",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.recordedClassroom": {
+    "message": "Recording Classroom",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.addRecordClassroom": {
+    "message": "Add Recording Classroom",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.setRecordClassroom": {
+    "message": "Set Recording Classroom",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.recordedHost": {
+    "message": "Recording Server",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.camera": {
+    "message": "Camera",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.recordingNums": {
+    "message": "Number of Recordings",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.deviceName": {
+    "message": "Equipment Name",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.IP": {
+    "message": "IP",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.setHost": {
+    "message": "Set Server",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.hostName": {
+    "message": "Server Name",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.hostNamePH": {
+    "message": "Click to enter the server name",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.hostIP": {
+    "message": "Server IP",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.hostIPPH": {
+    "message": "Click to enter the server IP",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.loginAccount": {
+    "message": "Login Account",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.loginAccountPH": {
+    "message": "Please enter the login account",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.loginPwd": {
+    "message": "Login Password",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.loginPwdPH": {
+    "message": "Please enter the login password",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.basicInfo": {
+    "message": "Basic Information",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.name": {
+    "message": "Name",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.RhostIP": {
+    "message": "Recording Server IP",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.classroom": {
+    "message": "Classroom",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.setting": {
+    "message": "Settings",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.removeClassroom": {
+    "message": "Remove Classroom",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.sureRemoveClassroom": {
+    "message": "Are you sure you want to remove?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.campusPS": {
+    "message": "Please select a campus!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.buildingPS": {
+    "message": "Please select a building!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.classroomPS": {
+    "message": "Please select a classroom!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.cameraPS": {
+    "message": "Please select/add camera(s)!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "setUp.classroomTypePS": {
+    "message": "Please select a classroom type!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.seating": {
+    "message": "Number of Seats",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.seatingPS": {
+    "message": "Please enter the number of seats",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.downloadTemplate": {
+    "message": "Download Template",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.uploadFile": {
+    "message": "Upload File",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.clickUpload": {
+    "message": "Click Upload",
+    "description": "smart-classroom-admin 项目"
+  },
+  "classroom.sureRemove": {
+    "message": "Confirm",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.online": {
+    "message": "Online",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.offline": {
+    "message": "Offline",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.batchControl": {
+    "message": "Batch Control",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.allClassroom": {
+    "message": "All classrooms",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.computer": {
+    "message": "Computers",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.projector": {
+    "message": "Projectors",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.mike": {
+    "message": "Microphones",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.stereo": {
+    "message": "Audios",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.conditioner": {
+    "message": "Air Conditioning",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.curtain": {
+    "message": "Curtains/Blinds",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.light": {
+    "message": "Lighting",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.largeScreen": {
+    "message": "Smart Boards",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.isOpen": {
+    "message": "Turning on...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.isClose": {
+    "message": "Turning off..",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.openSucc": {
+    "message": "Turned on successfully!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.closeSucc": {
+    "message": "Turned off successfully!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.temperature": {
+    "message": "Temperature",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.humidity": {
+    "message": "Humidity",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.cdc": {
+    "message": "CO2 Concentration",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.VOC": {
+    "message": "VOC Level",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.snocce": {
+    "message": "Central Control Equipment Serial Number",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.scce": {
+    "message": "Central Control Serial Number",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.sccePS": {
+    "message": "Please select the central control serial number",
     "description": "smart-classroom-admin 项目"
   }
 }
