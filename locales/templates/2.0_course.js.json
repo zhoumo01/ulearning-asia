@@ -779,6 +779,10 @@
     "message": "总计{n}条",
     "description": "2.0 course.js"
   },
+  "totalOfItems1": {
+    "message": "共{n}条直播",
+    "description": "2.0 course.js"
+  },
   "totalPages": {
     "message": "总计：{n}页",
     "description": "2.0 course.js"
@@ -1511,16 +1515,32 @@
     "message": "首页",
     "description": "2.0 course.js"
   },
+  "homePage1": {
+    "message": "<<",
+    "description": "2.0 course.js"
+  },
   "lastPage": {
     "message": "末页",
+    "description": "2.0 course.js"
+  },
+  "lastPage1": {
+    "message": ">>",
     "description": "2.0 course.js"
   },
   "frontPage": {
     "message": "上页",
     "description": "2.0 course.js"
   },
+  "frontPage1": {
+    "message": "<",
+    "description": "2.0 course.js"
+  },
   "backPage": {
     "message": "下页",
+    "description": "2.0 course.js"
+  },
+  "backPage1": {
+    "message": ">",
     "description": "2.0 course.js"
   },
   "jumpPage": {
@@ -1759,6 +1779,10 @@
     "message": "开始",
     "description": "2.0 course.js"
   },
+  "start1": {
+    "message": "",
+    "description": "2.0 course.js"
+  },
   "ended": {
     "message": "结束",
     "description": "2.0 course.js"
@@ -1957,6 +1981,14 @@
   },
   "orderNumber": {
     "message": "序号",
+    "description": "2.0 course.js"
+  },
+  "orderNumberPrefix": {
+    "message": "序号：",
+    "description": "2.0 course.js"
+  },
+  "textbookPrefix": {
+    "message": "教材：",
     "description": "2.0 course.js"
   },
   "gender": {
@@ -3347,8 +3379,16 @@
     "message": "进入",
     "description": "2.0 course.js"
   },
+  "enterInLive1": {
+    "message": "进入直播",
+    "description": "2.0 course.js"
+  },
   "liveTips1": {
     "message": "没有搜索到相应的直播",
+    "description": "2.0 course.js"
+  },
+  "liveTips13": {
+    "message": "没有数据",
     "description": "2.0 course.js"
   },
   "noLive": {
@@ -4939,6 +4979,10 @@
     "message": "输入课程名称/教师姓名搜索",
     "description": "2.0 course.js"
   },
+  "searchLive1": {
+    "message": "请输入关键词搜索",
+    "description": "2.0 course.js"
+  },
   "tipNote": {
     "message": "注：直播结束30分钟后可以查看回放",
     "description": "2.0 course.js"
@@ -4947,8 +4991,16 @@
     "message": "直播时间",
     "description": "2.0 course.js"
   },
+  "liveTime1": {
+    "message": "直播开始时间",
+    "description": "2.0 course.js"
+  },
   "courseOf": {
     "message": "所属课程",
+    "description": "2.0 course.js"
+  },
+  "courseOf1": {
+    "message": "直播类型",
     "description": "2.0 course.js"
   },
   "arrivals": {
@@ -4957,6 +5009,10 @@
   },
   "getPlayCheck": {
     "message": "回放生成中",
+    "description": "2.0 course.js"
+  },
+  "getPlayCheck1": {
+    "message": "未开播",
     "description": "2.0 course.js"
   },
   "otherSchoolStudent": {
@@ -5395,6 +5451,10 @@
     "message": "前往【优学院2.0】加入班课",
     "description": "2.0 course.js"
   },
+  "goToActiveCode": {
+    "message": "前往【优学院2.0】激活教材",
+    "description": "2.0 course.js"
+  },
   "downloadApp": {
     "message": "下载【优学院2.0】APP",
     "description": "2.0 course.js"
@@ -5699,8 +5759,12 @@
     "message": "未搜索到此应用",
     "description": "2.0 course.js"
   },
-  "activateAccount": {
-    "message": "激活账号:",
+  "exportLiveTip1": {
+    "message": "请输入时间",
+    "description": "2.0 course.js"
+  },
+  "exportLiveTip2": {
+    "message": "请选择状态",
     "description": "2.0 course.js"
   },
   "activateErrorTip": {
@@ -5771,12 +5835,432 @@
     "message": "退出班级",
     "description": "2.0 course.js"
   },
-  "exportLiveTip1": {
-    "message": "请输入时间",
+  "shuakeCheck": {
+    "message": "刷课检测",
     "description": "2.0 course.js"
   },
-  "exportLiveTip2": {
-    "message": "请选择状态",
+  "shuakeMaybe": {
+    "message": "疑似刷课",
+    "description": "2.0 course.js"
+  },
+  "shuakeClearBtn": {
+    "message": "清除刷课标记",
+    "description": "2.0 course.js"
+  },
+  "shuakeTips": {
+    "message": "系统根据学习日志，检测到该学生存在疑似刷课行为。核实处理后，您可以在此处清除学生刷课标记。",
+    "description": "2.0 course.js"
+  },
+  "anchorName": {
+    "message": "请输入姓名",
+    "description": "指主播第一次进入直播间, 会提示用户输入主播姓名"
+  },
+  "shuakeClearConfirm": {
+    "message": "此操作只清除学生刷课标记，不清除学生学习记录和成绩。如果需要清除学生成绩，可以点击学生姓名，在详细成绩中进行清除操作。确定清除刷课标记吗？",
+    "description": "2.0 course.js"
+  },
+  "courseGoal": {
+    "message": "课程目标",
+    "description": "2.0 course.js"
+  },
+  "evaluationRules": {
+    "message": "评价规则",
+    "description": "2.0 course.js"
+  },
+  "achievementStatistics": {
+    "message": "达成度统计",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysis": {
+    "message": "分析报告",
+    "description": "2.0 course.js"
+  },
+  "obeTitle": {
+    "message": "课程目标达成度分析",
+    "description": "2.0 course.js"
+  },
+  "obeLinkDelTips": {
+    "message": "删除考核环节，对应环节的活动需要重新关联。确定删除吗？",
+    "description": "2.0 course.js"
+  },
+  "obeLinkDelTips2": {
+    "message": "至少保留一个考核环节。",
+    "description": "2.0 course.js"
+  },
+  "obeGoalDelTips": {
+    "message": "删除目标后，已关联课程目标的活动需要重新关联。确定删除吗？",
+    "description": "2.0 course.js"
+  },
+  "obeGoalDelTips2": {
+    "message": "至少保留一个课程目标。",
+    "description": "2.0 course.js"
+  },
+  "obeAddGoalMaxTips": {
+    "message": "最多添加10个目标。",
+    "description": "2.0 course.js"
+  },
+  "obeAddLinkMaxTips": {
+    "message": "最多添加10个考核环节。",
+    "description": "2.0 course.js"
+  },
+  "obeDefaultLink1": {
+    "message": "平时作业",
+    "description": "2.0 course.js"
+  },
+  "obeDefaultLink2": {
+    "message": "期末成绩",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips1": {
+    "message": "课程目标内容不能为空。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips2": {
+    "message": "课程目标不能超过1000字符。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips3": {
+    "message": "达成度目标值不能为空。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips4": {
+    "message": "达成度目标值应为0-1的数字，可保留两位小数。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips5": {
+    "message": "考核环节名称不能为空。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips6": {
+    "message": "考核环节名称不能超过50字符。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips7": {
+    "message": "各成绩项权重总和不能超过100%。",
+    "description": "2.0 course.js"
+  },
+  "obeClearTips": {
+    "message": "清除课程目标，将同步清除已设置的所有评价规则和已导入的数据，请务必谨慎操作。确定清除吗？",
+    "description": "2.0 course.js"
+  },
+  "obeNullTips": {
+    "message": "暂未设置课程目标",
+    "description": "2.0 course.js"
+  },
+  "obePassScore": {
+    "message": "达成度目标值：",
+    "description": "2.0 course.js"
+  },
+  "obeLink": {
+    "message": "考核环节",
+    "description": "2.0 course.js"
+  },
+  "obeGoalEdit": {
+    "message": "编辑课程目标",
+    "description": "2.0 course.js"
+  },
+  "obeGoalClear": {
+    "message": "清除课程目标",
+    "description": "2.0 course.js"
+  },
+  "saveAndQuitEdit": {
+    "message": "保存并退出编辑",
+    "description": "2.0 course.js"
+  },
+  "obePassScoreTips": {
+    "message": "0~1的数字，保留2位小数",
+    "description": "2.0 course.js"
+  },
+  "gradeRatio": {
+    "message": "成绩构成与比例",
+    "description": "2.0 course.js"
+  },
+  "obeLinkAdd": {
+    "message": "添加考核环节",
+    "description": "2.0 course.js"
+  },
+  "obeGoalAdd": {
+    "message": "添加目标",
+    "description": "2.0 course.js"
+  },
+  "total": {
+    "message": "合计",
+    "description": "2.0 course.js"
+  },
+  "goal": {
+    "message": "目标",
+    "description": "2.0 course.js"
+  },
+  "obeRulesTips": {
+    "message": "设置好课程目标及成绩考核比例后，在这里可以将课件和各类教学活动与课程目标相关联。未关联课程目标和考核环节的数据，将不纳入达成度统计。",
+    "description": "2.0 course.js"
+  },
+  "obeTextbookTips1": {
+    "message": "课件由课程管理员统一设置评价规则。（仅支持优学院建课工具发布的课件）",
+    "description": "2.0 course.js"
+  },
+  "textbookNullTips": {
+    "message": "暂无课件",
+    "description": "2.0 course.js"
+  },
+  "onlineActivities": {
+    "message": "在线教学活动",
+    "description": "2.0 course.js"
+  },
+  "activityTips1": {
+    "message": "可纳入目标达成度统计的活动，暂时仅包括：作业、考试、讨论。在线教学活动可由课程管理员或各班级教师设置评价规则。",
+    "description": "2.0 course.js"
+  },
+  "activityTips2": {
+    "message": "暂未发布活动",
+    "description": "2.0 course.js"
+  },
+  "activityTips3": {
+    "message": "没有搜索到相应的活动",
+    "description": "2.0 course.js"
+  },
+  "associatedGoal": {
+    "message": "关联课程目标",
+    "description": "2.0 course.js"
+  },
+  "rulesEdit": {
+    "message": "编辑规则",
+    "description": "2.0 course.js"
+  },
+  "exitEdit": {
+    "message": "退出编辑",
+    "description": "2.0 course.js"
+  },
+  "refreshData": {
+    "message": "刷新数据",
+    "description": "2.0 course.js"
+  },
+  "derive": {
+    "message": "导出",
+    "description": "2.0 course.js"
+  },
+  "weightScore": {
+    "message": "成绩按权重值显示",
+    "description": "2.0 course.js"
+  },
+  "percentageScore": {
+    "message": "成绩按百分制显示",
+    "description": "2.0 course.js"
+  },
+  "obeStatisticsNullTips": {
+    "message": "先设置课程目标和评价规则，才能统计目标达成度",
+    "description": "2.0 course.js"
+  },
+  "chapter": {
+    "message": "章节",
+    "description": "2.0 course.js"
+  },
+  "activityType": {
+    "message": "活动类型",
+    "description": "2.0 course.js"
+  },
+  "fullPoints": {
+    "message": "满分",
+    "description": "2.0 course.js"
+  },
+  "obeOwnerLink": {
+    "message": "所属考核环节",
+    "description": "2.0 course.js"
+  },
+  "moreClassNum": {
+    "message": "等{n}个班级",
+    "description": "2.0 course.js"
+  },
+  "obePaperTips": {
+    "message": "如有多套试卷，须为每套试卷关联目标",
+    "description": "2.0 course.js"
+  },
+  "batchSetting": {
+    "message": "批量设置",
+    "description": "2.0 course.js"
+  },
+  "questionUnit": {
+    "message": "题",
+    "description": "2.0 course.js"
+  },
+  "associate": {
+    "message": "关联",
+    "description": "2.0 course.js"
+  },
+  "question": {
+    "message": "题目",
+    "description": "2.0 course.js"
+  },
+  "linkNullTips": {
+    "message": "请先选择所属考核环节",
+    "description": "2.0 course.js"
+  },
+  "obeNullTips2": {
+    "message": "请先设置课程目标，再设置评价规则",
+    "description": "2.0 course.js"
+  },
+  "obeTitle2": {
+    "message": "目标达成度分析",
+    "description": "2.0 course.js"
+  },
+  "completion": {
+    "message": "达成度",
+    "description": "2.0 course.js"
+  },
+  "overallCompletion": {
+    "message": "总体达成度",
+    "description": "2.0 course.js"
+  },
+  "instructions": {
+    "message": "计算规则说明",
+    "description": "2.0 course.js"
+  },
+  "updataTime": {
+    "message": "数据更新时间：",
+    "description": "2.0 course.js"
+  },
+  "tipPedding": {
+    "message": "达成度统计的计算量较大，耗时较长，系统将在后台统计完成后更新数据，请稍后再查看新的统计数据",
+    "description": "2.0 course.js"
+  },
+  "tipFailling": {
+    "message": "上次统计任务还在处理中，请稍后再查看。",
+    "description": "2.0 course.js"
+  },
+  "statisticsTopTiP": {
+    "message": "每次修改课程目标或评价规则后，需手动刷新数据。数据统计时间可能较长，请耐心等待。",
+    "description": "2.0 course.js"
+  },
+  "developmentTips": {
+    "message": "功能开发中，敬请期待",
+    "description": "2.0 course.js"
+  },
+  "iCourseTip": {
+    "message": "注意：使用爱课程的课件，不支持设置学习计划，进度成绩仅能查看课件整体数据，无法查看分章节数据，课件成绩无法纳入考核。",
+    "description": "2.0 course.js"
+  },
+  "percent": {
+    "message": "{n}%",
+    "description": "2.0 course.js"
+  },
+  "activateAccount": {
+    "message": "激活账号:",
+    "description": "2.0 course.js"
+  },
+  "offlineActivities": {
+    "message": "线下教学活动",
+    "description": "2.0 course.js"
+  },
+  "activityTips4": {
+    "message": "线下考试等活动，可以按照模板将成绩数据导入系统中。线下活动由课程管理员统一添加和导入。",
+    "description": "2.0 course.js"
+  },
+  "templeteDodnload": {
+    "message": "下载导入模板",
+    "description": "2.0 course.js"
+  },
+  "activityGrade": {
+    "message": "活动成绩",
+    "description": "2.0 course.js"
+  },
+  "textbookName2": {
+    "message": "课件名称",
+    "description": "2.0 course.js"
+  },
+  "addActivity": {
+    "message": "添加活动",
+    "description": "2.0 course.js"
+  },
+  "importData": {
+    "message": "导入数据",
+    "description": "2.0 course.js"
+  },
+  "noDataImport": {
+    "message": "未导入数据",
+    "description": "2.0 course.js"
+  },
+  "activityTipsMax10": {
+    "message": "最多添加10个活动。",
+    "description": "2.0 course.js"
+  },
+  "activityNameNullTips": {
+    "message": "活动名称不能空。",
+    "description": "2.0 course.js"
+  },
+  "activityNameLengthTips": {
+    "message": "请输入1~200字符",
+    "description": "2.0 course.js"
+  },
+  "offlineActivityDeleteTips": {
+    "message": "删除活动，将同时删除已导入的成绩数据。确定删除吗？",
+    "description": "2.0 course.js"
+  },
+  "importOverTips": {
+    "message": "重新导入将覆盖上次导入的数据，确定重新导入吗？",
+    "description": "2.0 course.js"
+  },
+  "offlineActivityGrade": {
+    "message": "线下活动成绩",
+    "description": "2.0 course.js"
+  },
+  "fullPoints2": {
+    "message": "满分：",
+    "description": "2.0 course.js"
+  },
+  "dataImportedTimeTips": {
+    "message": "数据导入时间：",
+    "description": "2.0 course.js"
+  },
+  "randomQuestion": {
+    "message": "随机抽题",
+    "description": "2.0 course.js"
+  },
+  "obeNullTips3": {
+    "message": "先设置课程目标和评价规则，才能查看分析报告",
+    "description": "2.0 course.js"
+  },
+  "exportReport": {
+    "message": "导出报告",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysisTips1": {
+    "message": "图表按照最新的统计数据生成",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysisTips2": {
+    "message": "课程目标达成概况",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysisTips3": {
+    "message": "单项达成度分析",
+    "description": "2.0 course.js"
+  },
+  "goalItemCompletion": {
+    "message": "课程目标{n}达成度",
+    "description": "2.0 course.js"
+  },
+  "goalDelTips": {
+    "message": "关联目标已被删除",
+    "description": "2.0 course.js"
+  },
+  "fullScoreIllegalTips": {
+    "message": "讨论的满分值应为0-100的整数。",
+    "description": "2.0 course.js"
+  },
+  "obeOfflineExportTemp": {
+    "message": "OBE线下活动成绩导入模板",
+    "description": "2.0 course.js"
+  },
+  "obeRandomTips": {
+    "message": "本次考试为随机抽题考试，请按照试卷结构，为每道题目关联课程目标",
+    "description": "2.0 course.js"
+  },
+  "obeTotalCompletionTips": {
+    "message": "课程目标总体达成度",
+    "description": "2.0 course.js"
+  },
+  "obeStuCompletionTips": {
+    "message": "学生达标率",
     "description": "2.0 course.js"
   }
 }

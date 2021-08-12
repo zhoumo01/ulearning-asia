@@ -24,11 +24,11 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdminText": {
-    "message": "การจัดการการรายงานหลักสูตร",
+    "message": "การจัดการประกาศหลักสูตร",
     "description": "2.0 admin.js"
   },
   "liveManagement": {
-    "message": "การจัดการแบบถ่ายทอดสด",
+    "message": "การจัดการถ่ายทอดสด",
     "description": "2.0 admin.js"
   },
   "systemAdminText": {
@@ -40,7 +40,7 @@
     "description": "2.0 admin.js"
   },
   "totalOfItems": {
-    "message": "รวม {n}",
+    "message": "รวม {n} แถว",
     "description": "https://courseweb.tongshike.cn/admin/#/courseDeclaration/declared 国际版用不到这个页面，但是这个页面也做了国际化，所以一并处理了 \n https://courseweb.tongshike.cn/admin/#/courseDeclaration/notDeclared 同上 \n https://courseweb.tongshike.cn/admin/#/courseDeclaration/pending 同上 \n 管理员账号 -> 系统管理 -> 管理员设置 https://courseweb.tongshike.cn/admin/#/main/system/administrator \n https://courseweb.tongshike.cn/admin/#/check \n 管理员账号 -> 课程管理 -> 本校自建MOOC https://courseweb.tongshike.cn/admin/#/main/teaching/course/open/local \n 管理员账号 -> 课程管理 -> 外部引用MOOC https://courseweb.tongshike.cn/admin/#/main/teaching/course/open/foreign \n 管理员账号 -> 课程管理 -> 本校课程 https://courseweb.tongshike.cn/admin/#/main/teaching/course/school \n 管理员账号 -> 课程管理 -> 本校自建MOOC -> 选课名单 \n 管理员账号 -> 考试管理 https://courseweb.tongshike.cn/admin/#/main/teaching/exam \n 管理员账号 -> 教师管理 https://courseweb.tongshike.cn/admin/#/main/teaching/teacher \n 管理员账号 -> 学生管理 https://courseweb.tongshike.cn/admin/#/main/teaching/student \n 管理员账号 -> 自然班级 https://courseweb.tongshike.cn/admin/#/main/teaching/naturalClass \n 管理员账号 -> 通知公告 https://courseweb.tongshike.cn/admin/#/main/teaching/notice"
   },
   "totalOfVideo": {
@@ -48,7 +48,7 @@
     "description": "https://courseweb.tongshike.cn/admin/#/main/dataCenter/interactionTextbook \n https://courseweb.tongshike.cn/admin/#/main/uaDataAnalysis"
   },
   "numberOf": {
-    "message": "{n}",
+    "message": "{n} รายการ",
     "description": "https://courseweb.tongshike.cn/admin/#/courseDeclaration/declared 国际版用不到这个页面，但是这个页面也做了国际化，所以一并处理了"
   },
   "search": {
@@ -288,7 +288,7 @@
     "description": "2.0 admin.js"
   },
   "changePermissionTips": {
-    "message": "เมื่อคุณแก้ไขสิทธิ์ของบทบาทแล้ว ให้คลิก บันทึกการเปลี่ยนแปลง เพื่อมีผล",
+    "message": "เมื่อคุณแก้ไขสิทธิ์ของบทบาทแล้ว ให้คลิก “บันทึกการเปลี่ยนแปลง” เพื่อมีผล",
     "description": "2.0 admin.js"
   },
   "inputRoleName": {
@@ -300,11 +300,11 @@
     "description": "2.0 admin.js"
   },
   "deleteRoleTips": {
-    "message": "คุณแน่ใจหรือไม่ว่าคุณต้องการลบบทบาท การลบบทบาทจะไม่ลบผู้ใช้ที่เกี่ยวข้องและคุณสามารถตั้งค่าบทบาทใหม่สําหรับผู้ใช้ได้",
+    "message": "คุณแน่ใจหรือไม่ว่าคุณต้องการลบบทบาท? การลบบทบาทจะไม่ลบผู้ใช้ที่เกี่ยวข้อง คุณสามารถตั้งค่าบทบาทใหม่สําหรับผู้ใช้ได้",
     "description": "2.0 admin.js"
   },
   "onlySystemTips": {
-    "message": "มีเฉพาะผู้ดูแลระบบเท่านั้น",
+    "message": "ใช้ได้เฉพาะผู้ดูแลระบบเท่านั้น",
     "description": "2.0 admin.js"
   },
   "permissionTips1": {
@@ -376,7 +376,7 @@
     "description": "2.0 admin.js"
   },
   "subsystem.excellentCourses": {
-    "message": "เวปไซด์วิชายอดเยี่ยม",
+    "message": "เว็บไซต์วิชายอดเยี่ยม",
     "description": "2.0 admin.js"
   },
   "subsystem.DigitalMarx": {
@@ -404,7 +404,7 @@
     "description": "2.0 admin.js"
   },
   "screenDynamic.weekLoginUsers": {
-    "message": "จำนวนผู้ใช้งานที่เข้าสู่ระบบในอาทิตย์นี้",
+    "message": "จำนวนผู้ใช้งานที่เข้าสู่ระบบในสัปดาห์นี้",
     "description": "2.0 admin.js"
   },
   "screenDynamic.todayLoginUsers": {
@@ -420,15 +420,15 @@
     "description": "2.0 admin.js"
   },
   "screenDynamic.thisWeek": {
-    "message": "อาทิตย์นี้",
+    "message": "สัปดาห์นี้",
     "description": "2.0 admin.js"
   },
   "screenDynamic.activeOrganizationTop": {
-    "message": "สถาบันที่ใช้งานอยู่ 10 อันดับหน่วยงานที่เข้าใช้งานบ่อยที่สุด",
+    "message": "10 อันดับสถาบันที่เข้าใช้งานบ่อยที่สุด ",
     "description": "2.0 admin.js"
   },
   "screenDynamic.activeTeacherTop": {
-    "message": "ครูที่กระตือรือร้น 10 อันดับอาจารย์ที่เข้าใช้งานบ่อยที่สุด",
+    "message": "10 อันดับอาจารย์ที่เข้าใช้งานบ่อยที่สุด",
     "description": "2.0 admin.js"
   },
   "screenDynamic.activeCourseClassTop": {
@@ -880,7 +880,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.uploadResource": {
-    "message": "อัพโหลดทรัพยากร",
+    "message": "อัปโหลดทรัพยากร",
     "description": "2.0 admin.js"
   },
   "dataCenter.createPractice": {
@@ -888,7 +888,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.assessment": {
-    "message": "กลยุทธ์การประเมิน",
+    "message": "นโยบายการประเมิน",
     "description": "2.0 admin.js"
   },
   "dataCenter.coursewareSetAnalysis": {
@@ -896,7 +896,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.coursewareSaveTips1": {
-    "message": "ตั้งค่าบันทึกแผนการเรียนเพื่ออัพเดทสื่อการสอน",
+    "message": "ตั้งค่าบันทึกแผนการเรียนเพื่ออัปเดทสื่อการสอน",
     "description": "2.0 admin.js"
   },
   "dataCenter.coursewareSaveTips2": {
@@ -936,11 +936,11 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.uploadResourceTotalNum": {
-    "message": "จำนวนรวมการอัพโหลดทรัพยากร",
+    "message": "จำนวนรวมการอัปโหลดทรัพยากร",
     "description": "2.0 admin.js"
   },
   "dataCenter.uploadTeacherTotalNum": {
-    "message": "จำนวนรวมการอัพโหลดอาจารย์",
+    "message": "จำนวนรวมการอัปโหลดอาจารย์",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceTypeDistribution": {
@@ -948,7 +948,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.file": {
-    "message": "เอกสาร",
+    "message": "ไฟล์",
     "description": "2.0 admin.js"
   },
   "dataCenter.richtext": {
@@ -956,7 +956,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.link": {
-    "message": "ลิงค์",
+    "message": "ลิงก์",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceContributionTop": {
@@ -964,7 +964,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.uploadNum": {
-    "message": "จำนวนการอัพโหลด",
+    "message": "จำนวนการอัปโหลด",
     "description": "2.0 admin.js"
   },
   "dataCenter.practiceCreateAnalysis": {
@@ -992,19 +992,19 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.assessmentAnalysis": {
-    "message": "การวิเคราะห์กลยุทธ์การประเมิน",
+    "message": "การวิเคราะห์นโยบายการประเมิน",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAssessmentTotalNum": {
-    "message": "จำนวนรวมการประกาศกลยุทธ์",
+    "message": "จำนวนรวมการประกาศนโยบาย",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAssessmentTeacherNum": {
-    "message": "จำนวนอาจารย์ที่ประกาศกลยุทธ์",
+    "message": "จำนวนอาจารย์ที่ประกาศนโยบาย",
     "description": "2.0 admin.js"
   },
   "dataCenter.assessmentPublishRankingTop": {
-    "message": "10 อันดับการประกาศกลยุทธ์",
+    "message": "10 อันดับการประกาศนโยบาย",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceType": {
@@ -1016,7 +1016,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.uploadPeopleNum": {
-    "message": "จำนวนผู้อัพโหลด",
+    "message": "จำนวนผู้อัปโหลด",
     "description": "2.0 admin.js"
   },
   "dataCenter.practiceNum": {
@@ -1032,7 +1032,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.teachingDynamic": {
-    "message": "พลวัตการสอน",
+    "message": "ไดนามิกการสอน",
     "description": "2.0 admin.js"
   },
   "dataCenter.courseWorking": {
@@ -1044,7 +1044,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.collegeCompare": {
-    "message": "วิทยาลัยเปรียบเทียบ",
+    "message": "การเปรียบเทียบวิทยาลัย",
     "description": "2.0 admin.js"
   },
   "dataCenter.semester": {
@@ -1052,31 +1052,31 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.todayDynamic": {
-    "message": "พลวัตของวันนี้",
+    "message": "การเปลี่ยนแปลงของวันนี้",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataRefreshTips": {
-    "message": "ข้อมูลการปรับปรุงทุกห้านาที",
+    "message": "ข้อมูลการปรับปรุงทุก5นาที",
     "description": "2.0 admin.js"
   },
   "dataCenter.teaLoginNum": {
-    "message": "หมายเลขทะเบียนครู",
+    "message": "จํานวนผู้สอนที่ลงชื่อเข้าใช้",
     "description": "2.0 admin.js"
   },
   "dataCenter.teaLoginCount": {
-    "message": "ครูเข้าสู่ระบบ",
+    "message": "จำนวนครั้งที่อาจารย์เข้าสู่ระบบ",
     "description": "2.0 admin.js"
   },
   "dataCenter.stuLoginNum": {
-    "message": "จำนวนนักเรียนที่ลงทะเบียน",
+    "message": "จํานวนนักเรียนที่เข้าสู่ระบบ",
     "description": "2.0 admin.js"
   },
   "dataCenter.stuLoginCount": {
-    "message": "นักเรียนเข้าสู่ระบบ",
+    "message": "จํานวนนักเรียนที่เข้าสู่ระบบ",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishHomework": {
-    "message": "งานเผยแพร่",
+    "message": "โพสการบ้าน",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishDiscuss": {
@@ -1084,59 +1084,59 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.publishLive": {
-    "message": "ประกาศสด",
+    "message": "เผยแพร่สตรีมแบบสด",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishExam": {
-    "message": "ปล่อยการสอบ",
+    "message": "โพสต์การสอบ",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAttendance": {
-    "message": "ประกาศชื่อ",
+    "message": "โพสเช็คชื่อ",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishVote": {
-    "message": "ออกคะแนนเสียง",
+    "message": "โพสโหวตลงคะแนน",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishPick": {
-    "message": "ประกาศผู้สมัคร",
+    "message": "โพสต์การเลือกคน",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAnswer": {
-    "message": "ปล่อยตอบ",
+    "message": "โพสชิงตอบคำถาม",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishScore": {
-    "message": "ประกาศคะแนน",
+    "message": "โพสต์คะแนน",
     "description": "2.0 admin.js"
   },
   "dataCenter.twoWeeksDynamic": {
-    "message": "ใกล้สองสัปดาห์แบบไดนามิก",
+    "message": "เกือบ 2 สัปดาห์ของการเปลี่ยนแปลง",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityDataTips": {
-    "message": "สำหรับข้อมูลเพิ่มเติมกรุณาส่งออกรายละเอียดเพิ่มเติม",
+    "message": "สําหรับข้อมูลกิจกรรมเพิ่มเติมโปรดส่งออกรายละเอียดเพื่อดู",
     "description": "2.0 admin.js"
   },
   "dataCenter.exportReport1": {
-    "message": "ส่งออกเกือบสองสัปดาห์ทุกวัน",
+    "message": "ส่งออกรายงานรายวันเกือบ2สัปดาห์",
     "description": "2.0 admin.js"
   },
   "dataCenter.exportReport2": {
-    "message": "ส่งออกภาคการศึกษารายสัปดาห์",
+    "message": "ส่งออกรายงานรายสัปดาห์ของภาคการศึกษา",
     "description": "2.0 admin.js"
   },
   "dataCenter.exportReport3": {
-    "message": "ส่งออกภาคการศึกษารายเดือน",
+    "message": "ส่งออกรายงานรายเดือนของภาคการศึกษา",
     "description": "2.0 admin.js"
   },
   "dataCenter.date": {
-    "message": "เดท",
+    "message": "วันที่",
     "description": "2.0 admin.js"
   },
   "dataCenter.weeksArray[0]": {
-    "message": "อาทิตย์",
+    "message": "วันอาทิตย์",
     "description": "2.0 admin.js"
   },
   "dataCenter.weeksArray[1]": {
@@ -1168,7 +1168,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.visitCourseTips": {
-    "message": "จำนวนผู้เข้าชมในวันนั้น",
+    "message": "จำนวนผู้เข้าชมในวันนั้น>0 ของจำนวนหลักสูตร",
     "description": "2.0 admin.js"
   },
   "dataCenter.liveCourseNum": {
@@ -1176,11 +1176,11 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.averageClassRate": {
-    "message": "อัตราเฉลี่ยถึงระดับ",
+    "message": "อัตราการเข้าชั้นเรียนโดยเฉลี่ย",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips1": {
-    "message": "อัตราเฉลี่ยของการโทรที่ถูกต้องและการถ่ายทอดสดในวันนั้น",
+    "message": "อัตราค่าเฉลี่ยของการเริ่มเช็คชื่อที่สำเร็จและการถ่ายทอดสดการเข้าเรียนในวันนั้น",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityRanking": {
@@ -1188,19 +1188,19 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.last2weeks": {
-    "message": "เกือบสองสัปดาห์",
+    "message": "เกือบ2สัปดาห์",
     "description": "2.0 admin.js"
   },
   "dataCenter.mostActiveCourseTop": {
-    "message": "หลักสูตรที่ใช้งานมากที่สุด TOP5",
+    "message": "TOP5 หลักสูตรที่ใช้งานมากที่สุด ",
     "description": "2.0 admin.js"
   },
   "dataCenter.mostActiveTeaTop": {
-    "message": "ครูที่ใช้งานมากที่สุด TOP5",
+    "message": " TOP5 ครูที่ใช้งานมากที่สุด",
     "description": "2.0 admin.js"
   },
   "dataCenter.mostActiveStuTop": {
-    "message": "นักเรียนที่ใช้งานมากที่สุด TOP5",
+    "message": "TOP5 นักเรียนที่ใช้งานมากที่สุด ",
     "description": "2.0 admin.js"
   },
   "dataCenter.generalStatistics": {
@@ -1208,23 +1208,23 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.runCourseNum": {
-    "message": "จำนวนหลักสูตร",
+    "message": "จํานวนหลักสูตรที่รัน",
     "description": "2.0 admin.js"
   },
   "dataCenter.useCoursewareTotalNum": {
-    "message": "จำนวนของบทเรียนที่ใช้",
+    "message": "จำนวนของบทเรียนที่ใช้ทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.teaAverageTeachCourseNum": {
-    "message": "จำนวนครูต่อครู",
+    "message": "จำนวนบทเรียนต่อครู",
     "description": "2.0 admin.js"
   },
   "dataCenter.stuAverageChooseCourseNum": {
-    "message": "จำนวนนักเรียนที่เลือก",
+    "message": "จำนวนหลักสูตรที่เลือกต่อนักเรียน",
     "description": "2.0 admin.js"
   },
   "dataCenter.stuAverageChooseCourseCount": {
-    "message": "นักเรียนเลือกหลักสูตร",
+    "message": "จำนวนครั้งสะสมที่นักเรียนเลือกวิชา",
     "description": "2.0 admin.js"
   },
   "dataCenter.courseSizeDistribution": {
@@ -1232,23 +1232,23 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips2": {
-    "message": "สถิติหลักสูตรใหม่ในช่วงเวลาที่เลือกเท่านั้นไม่รวมหลักสูตรที่มีจำนวนนักเรียนน้อยกว่า",
+    "message": "นับเฉพาะหลักสูตรที่สร้างขึ้นใหม่ในช่วงเวลาที่เลือกเท่านั้น ไม่รวมหลักสูตรที่มีนักเรียนน้อยกว่า 10 คน",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips3": {
-    "message": ">1000หลักสูตรบุคคล",
+    "message": "หลักสูตรสำหรับ>1000 คน",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips4": {
-    "message": "201~1000หลักสูตรบุคคล",
+    "message": "หลักสูตรสำหรับ 201~1000 คน",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips5": {
-    "message": "51~200หลักสูตรบุคคล",
+    "message": "หลักสูตรสำหรับ51~200 คน",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips6": {
-    "message": "<=50หลักสูตรบุคคล",
+    "message": "หลักสูตรสำหรับ<=50 คน",
     "description": "2.0 admin.js"
   },
   "dataCenter.teachingModeAnalysis": {
@@ -1260,7 +1260,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips8": {
-    "message": "กิจกรรมการสอนอื่นๆที่เผยแพร่ในหลักสูตรน้อยกว่าห้าหลักสูตรยกเว้นประกาศบทเรียนและทรัพยากร",
+    "message": "นอกจากประกาศบทเรียนและทรัพยากรแล้ว หลักสูตรที่มีการเผยแพร่กิจกรรมการสอนอื่นๆในหลักสูตรมีน้อยกว่า5หลักสูตร",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips9": {
@@ -1268,7 +1268,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips10": {
-    "message": "การบ้านการอภิปรายการถ่ายทอดสดและกิจกรรมในชั้นเรียนที่ได้รับการตีพิมพ์ในหลักสูตรนี้มีมากกว่ายี่สิบและสัดส่วนของการถ่ายทอดสดและกิจกรรมในชั้นเรียนมากกว่า 80s เปอร์เซ",
+    "message": "การบ้าน การอภิปราย การถ่ายทอดสดและกิจกรรมในชั้นเรียนที่ได้ประกาศในหลักสูตรสะสมรวมแล้วมากกว่า20หลักสูตร  โดยมีสัดส่วนของการถ่ายทอดสดและกิจกรรมในชั้นเรียนมากกว่า 80%",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips11": {
@@ -1276,15 +1276,15 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips12": {
-    "message": "การบ้านการอภิปรายการถ่ายทอดสดและกิจกรรมในชั้นเรียนที่ได้รับการตีพิมพ์ในหลักสูตรนี้มีมากกว่ายี่สิบซึ่งรวมถึงอย่างน้อย 3-class กิจกรรมและอัตราส่วนของการถ่ายทอดสดและกิจกรรมในช",
+    "message": "มีการบ้าน การอภิปราย การถ่ายทอดสด และกิจกรรมห้องเรียนมากกว่า 20 รายการที่เผยแพร่ในหลักสูตร มีกิจกรรมอย่างน้อย 3 ประเภทรวมอยู่ในนั้น ส่วนการถ่ายทอดสดและกิจกรรมห้องเรียนมีน้อยกว่า 50% ",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips13": {
-    "message": "ประเภทอื่นๆของหลักสูตร",
+    "message": "หลักสูตรประเภทอื่นๆ",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips14": {
-    "message": "หลักสูตรที่ไม่รวมอยู่ในชั้นเรียนก่อน",
+    "message": "หลักสูตรที่ไม่รวมอยู่ใน 3 ประเภทแรก",
     "description": "2.0 admin.js"
   },
   "dataCenter.courseEvaluationAnalysis": {
@@ -1292,87 +1292,87 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips15": {
-    "message": "สถิติหลักสูตรใหม่ในช่วงเวลาที่เลือกเท่านั้นไม่รวมหลักสูตรที่มีจำนวนนักเรียนน้อยกว่า",
+    "message": "นับเฉพาะหลักสูตรที่สร้างขึ้นใหม่ในช่วงเวลาที่เลือกเท่านั้น ไม่รวมหลักสูตรที่มีนักเรียนน้อยกว่า 10 คน",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips16": {
-    "message": "ออกหลักสูตรการสอบ",
+    "message": "เปอร์เซ็นต์ของหลักสูตรที่มีการเผยแพร่ข้อสอบ",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips17": {
-    "message": "หลักสูตรการตั้งค่าอัตราส่วนของกฎการประเมิน",
+    "message": "สัดส่วนหลักสูตรพร้อมหลักเกณฑ์การประเมิน",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips18": {
-    "message": "ในหมู่พวกเขา",
+    "message": "หนึ่งในนั้น:",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips19": {
-    "message": "สถิติการเรียนรู้บทเรียนเท่านั้น",
+    "message": "สถิติของการเรียนรู้บทเรียนเท่านั้น",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips20": {
-    "message": "เรียกห้องเรียนและการปฏิบัติงานในการตรวจสอบ",
+    "message": "รวมการเรียกชื่อและประสิทธิภาพการทํางานของชั้นเรียนไว้ในการประเมิน",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips21": {
-    "message": "รวมผลการทดสอบในการสอบ",
+    "message": "รวมคะแนนผลการสอบเข้าไว้ในการประเมิน",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityTotalNum": {
-    "message": "กิจกรรมทั้งหมด",
+    "message": "จํานวนรวมของกิจกรรม",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips22": {
-    "message": "สถิติกิจกรรมที่เผยแพร่ในช่วงเวลาที่เลือกเท่านั้น",
+    "message": "นับเฉพาะกิจกรรมที่เผยแพร่ภายในช่วงเวลาที่เลือก",
     "description": "2.0 admin.js"
   },
   "dataCenter.courseActivityAnalysis": {
-    "message": "การวิเคราะห์กิจกรรมในชั้นเรียน",
+    "message": "การวิเคราะห์กิจกรรมในห้องเรียน",
     "description": "2.0 admin.js"
   },
   "dataCenter.pickTotalNum": {
-    "message": "จำนวนคะแนนเสียง",
+    "message": "จำนวนผู้สมัครทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.responderTotalNum": {
-    "message": "ตอบทั้งหมด",
+    "message": "จํานวนการชิงตอบคำถามทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.scoreTotalNum": {
-    "message": "คะแนนรวม",
+    "message": "คะแนนรวมทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAttendanceTeaNum": {
-    "message": "ประกาศจำนวนครู",
+    "message": "จำนวนอาจารย์ที่เผยแพร่การเช็คชื่อ",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishVoteTeaNum": {
-    "message": "จำนวนครูที่ออกเสียงลงคะแนน",
+    "message": "จำนวนครูที่เผยแพร่การออกเสียงลงคะแนน",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishPickTeaNum": {
-    "message": "จำนวนครูที่ได้รับเลือก",
+    "message": "จํานวนครูที่เผยแพร่การเลือกคน",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishAnswerTeaNum": {
-    "message": "จำนวนครูตอบ",
+    "message": "จำนวนครูที่เผยแพร่การชิงตอบคำถาม",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishScoreTeaNum": {
-    "message": "จำนวนครูที่ได้รับคะแนน",
+    "message": "จำนวนครูที่เผยแพร่การให้คะแนน",
     "description": "2.0 admin.js"
   },
   "dataCenter.stuSignStatusDistribution": {
-    "message": "แจกลายเซ็นนักเรียน",
+    "message": "การกระจายสถานะการลงชื่อเข้าใช้ของนักเรียน",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips23": {
-    "message": "สถิติเท่านั้นที่เสร็จสมบูรณ์และอัตราการเข้าร่วมประชุมเกินกว่า 800 เปอร์เซ็นต์",
+    "message": "เฉพาะสถิติเท่านั้นที่สิ้นสุด อัตราการเช็คชื่อเพื่อเข้าร่วมมีมากกว่า80%",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips24": {
-    "message": "ครูส่วนใหญ่จัดกิจกรรมในชั้นเรียน TOP5",
+    "message": "ครูที่โพสต์กิจกรรมในห้องเรียนมากที่สุด TOP5",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips25": {
@@ -1388,23 +1388,23 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips27": {
-    "message": "จำนวนทรัพยากรสิ่งพิมพ์หลักสูตร",
+    "message": "จํานวนทรัพยากรการเผยแพร่หลักสูตรทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips28": {
-    "message": "จำนวนครูที่ออกทรัพยากร",
+    "message": "จํานวนครูที่โพสต์ทรัพยากร",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips29": {
-    "message": "นักเรียนเรียกดูทรัพยากรมนุษย์",
+    "message": "จํานวนผู้เข้าชมทรัพยากรของนักเรียน",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips30": {
-    "message": "ครูสถิติเท่านั้นที่อัพโหลดทรัพยากร",
+    "message": "เฉพาะทรัพยากรที่อัปโหลดโดยครูเท่านั้นที่จะนับ",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips31": {
-    "message": "เผยแพร่ทรัพยากรมากที่สุดสำหรับครู TOP5",
+    "message": "ครูที่โพสทรัพยากรมากที่สุด TOP5",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips32": {
@@ -1412,31 +1412,31 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.homeworkAnalysis": {
-    "message": "การวิเคราะห์งาน",
+    "message": "การวิเคราะห์การบ้าน",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishHomeworkTeaNum": {
-    "message": "จำนวนครูที่ได้รับมอบหมาย",
+    "message": "จำนวนครูที่โพสการบ้าน",
     "description": "2.0 admin.js"
   },
   "dataCenter.stuCommitHomeworkNum": {
-    "message": "จำนวนนักเรียนที่ส่งงาน",
+    "message": "จำนวนการบ้านที่นักเรียนส่งมา",
     "description": "2.0 admin.js"
   },
   "dataCenter.teaMarkHomeworkNum": {
-    "message": "จำนวนครูที่ได้รับมอบหมาย",
+    "message": "จำนวนการบ้านที่ครูตรวจทาน",
     "description": "2.0 admin.js"
   },
   "dataCenter.homeworkTypeDistribution": {
-    "message": "การกระจายประเภทงาน",
+    "message": "การกระจายประเภทการบ้าน",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips33": {
-    "message": "ครูที่ได้รับมอบหมายมากที่สุด TOP5",
+    "message": "TOP5 ครูที่โพสต์การบ้านมากที่สุด",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips34": {
-    "message": "หลักสูตรที่ได้รับมอบหมายมากที่สุด TOP5",
+    "message": "หลักสูตร5 อันดับแรกที่มีการโพสต์งานมากที่สุด",
     "description": "2.0 admin.js"
   },
   "dataCenter.discussionAnalysis": {
@@ -1444,31 +1444,31 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.discussTotalNum": {
-    "message": "การอภิปรายทั้งหมด",
+    "message": "คะแนนการอภิปรายทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishDiscussTeaNum": {
-    "message": "เผยแพร่การอภิปรายเกี่ยวกับจำนวนครู",
+    "message": "จำนวนอาจารย์ที่โพสอภิปราย",
     "description": "2.0 admin.js"
   },
   "dataCenter.stuReplyTotalNum": {
-    "message": "จำนวนนักเรียนตอบ",
+    "message": "จำนวนคำตอบของนักเรียนทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.teaReplyTotalNum": {
-    "message": "จำนวนครูตอบ",
+    "message": "จำนวนคำตอบของครูทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.discussTypeDistribution": {
-    "message": "การอภิปรายเกี่ยวกับการกระจายประเภท",
+    "message": "การกระจายประเภทการอภิปราย",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips35": {
-    "message": "เผยแพร่และอภิปรายเกี่ยวกับครูมากที่สุด TOP5",
+    "message": "โพสต์ครูที่ถูกพูดถึงมากที่สุด TOP5",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips36": {
-    "message": "เผยแพร่หลักสูตรการอภิปรายมากที่สุด TOP5",
+    "message": "โพสต์หลักสูตรที่มีคนพูดถึงมากที่สุด TOP5",
     "description": "2.0 admin.js"
   },
   "dataCenter.liveAnalysis": {
@@ -1476,19 +1476,19 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.liveTotalNum": {
-    "message": "ถ่ายทอดสดทั้งหมด",
+    "message": "จำนวนการถ่ายทอดสดทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.liveTeaNum": {
-    "message": "จำนวนครูถ่ายทอดสด",
+    "message": "จำนวนอาจารย์ที่ถ่ายทอดสด",
     "description": "2.0 admin.js"
   },
   "dataCenter.singleLiveViewNum": {
-    "message": "จำนวนสูงสุดของผู้ชมเดียว",
+    "message": "จำนวนผู้ชมสูงสุดในการถ่ายทอดสดครั้งเดียว",
     "description": "2.0 admin.js"
   },
   "dataCenter.cumulativeLiveViewNum": {
-    "message": "ดูถ่ายทอดสดสะสม",
+    "message": "ยอดดูการถ่ายทอดสดสะสม",
     "description": "2.0 admin.js"
   },
   "dataCenter.hour": {
@@ -1496,7 +1496,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.cumulativeLiveDuration": {
-    "message": "สะสมเวลาเริ่มต้น",
+    "message": "ระยะเวลาการเริ่มออกอากาศสะสม",
     "description": "2.0 admin.js"
   },
   "dataCenter.liveDuration": {
@@ -1504,55 +1504,55 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips37": {
-    "message": "ครูที่ถ่ายทอดสดมากที่สุด TOP5",
+    "message": "ครูที่มีการถ่ายทอดสดมากที่สุด TOP5",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips38": {
-    "message": "หลักสูตรการถ่ายทอดสดมากที่สุด TOP5",
+    "message": "หลักสูตรที่มีการถ่ายทอดสดมากที่สุด TOP5",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips39": {
-    "message": "สถิติการสอบที่ตีพิมพ์ในช่วงเวลาที่เลือกเท่านั้น",
+    "message": "นับเฉพาะการสอบที่เผยแพร่ภายในกรอบเวลาที่เลือกเท่านั้น",
     "description": "2.0 admin.js"
   },
   "dataCenter.examTotalNum": {
-    "message": "จำนวนการสอบ",
+    "message": "จํานวนการสอบทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.examBatch": {
-    "message": "สถานที่เกิดเหตุ",
+    "message": "สถานที่สอบ",
     "description": "2.0 admin.js"
   },
   "dataCenter.singleExamPeopleNum": {
-    "message": "จำนวนสูงสุดของผู้เข้าร่วมในเหตุการณ์เดียว",
+    "message": "จำนวนผู้เข้าร่วมสูงสุดในสนามเดียว",
     "description": "2.0 admin.js"
   },
   "dataCenter.cumulativeExamPeopleNum": {
-    "message": "ผู้ตรวจสอบสะสม",
+    "message": "จํานวนการสอบสะสม",
     "description": "2.0 admin.js"
   },
   "dataCenter.publishExamTeaNum": {
-    "message": "จำนวนครูที่ออกสอบ",
+    "message": "จำนวนอาจารย์ที่โพสการสอบ",
     "description": "2.0 admin.js"
   },
   "dataCenter.questionTotalNum": {
-    "message": "จำนวนห้องสมุดคำถาม",
+    "message": "จำนวนคลังคำถามทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips40": {
-    "message": "จำนวนห้องสมุดสถิติจำนวนครูที่สร้างขึ้นในโรงเรียนนี้ไม่ได้เกี่ยวข้องกับการเลือกช่วงเวลา",
+    "message": "จำนวนคลังคำถามทั้งหมด นับจำนวนครูทั้งหมดที่โรงเรียนของเราสร้างขึ้น โดยไม่คำนึงถึงช่วงเวลาที่เลือก",
     "description": "2.0 admin.js"
   },
   "dataCenter.examPaperTotalNum": {
-    "message": "ข้อสอบทั้งหมด",
+    "message": "จำนวนข้อสอบทั้งหมด",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips41": {
-    "message": "จำนวนครูที่สร้างขึ้นในโรงเรียนนี้ไม่ได้เกี่ยวข้องกับระยะเวลาที่เลือก",
+    "message": "จํานวนข้อสอบทั้งหมด ซึ่งนับจํานวนทั้งหมดที่สร้างขึ้นโดยครูของเรา โดยไม่คํานึงถึงช่วงเวลาที่เลือก",
     "description": "2.0 admin.js"
   },
   "dataCenter.examTypeDistribution": {
-    "message": "ประเภทของการสอบ",
+    "message": "การกระจายชนิดการสอบ",
     "description": "2.0 admin.js"
   },
   "dataCenter.examDeviceDistribution": {
@@ -1560,7 +1560,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips42": {
-    "message": "จำนวนผู้เข้าร่วมในการสอบเดี่ยว TOP5",
+    "message": "TOP5 จำนวนผู้เข้าร่วมในการทดสอบสนามเดียว ",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData0": {
@@ -1568,7 +1568,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData1": {
-    "message": "ทำการทำงาน",
+    "message": "การบ้าน",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData2": {
@@ -1584,23 +1584,23 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData5": {
-    "message": "เรืยก",
+    "message": "เช็คชื่อ",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData6": {
-    "message": "โหวต",
+    "message": "โหวตลงคะแนนเสียง",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData7": {
-    "message": "รีบตอบ",
+    "message": "ชิงตอบคำถาม",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData8": {
-    "message": "คัดเลือก",
+    "message": "คัดเลือกคน",
     "description": "2.0 admin.js"
   },
   "dataCenter.activityXData9": {
-    "message": "ขีดถูก",
+    "message": "ให้คะแนน",
     "description": "2.0 admin.js"
   },
   "dataCenter.signAnalyzeXData0": {
@@ -1612,11 +1612,11 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.signAnalyzeXData2": {
-    "message": "เกษียณก่อน",
+    "message": "ออกก่อนเวลา",
     "description": "2.0 admin.js"
   },
   "dataCenter.signAnalyzeXData3": {
-    "message": "วันหยุด",
+    "message": "ลากิจ",
     "description": "2.0 admin.js"
   },
   "dataCenter.signAnalyzeXData4": {
@@ -1624,15 +1624,15 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.signAnalyzeXData5": {
-    "message": "มาถึง",
+    "message": "มาถึงแล้ว",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData0": {
-    "message": "การเชื่อมโยงเว็บ",
+    "message": "ลิงก์เว็บ",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData1": {
-    "message": "จุลภาค",
+    "message": "บทเรียนไมโคร",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData2": {
@@ -1648,11 +1648,11 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData5": {
-    "message": "เอกสาร",
+    "message": "ไฟล์",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData6": {
-    "message": "ออดิโอ",
+    "message": "เสียง",
     "description": "2.0 admin.js"
   },
   "dataCenter.resourceXData7": {
@@ -1660,15 +1660,15 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.discussionXData0": {
-    "message": "การอภิปรายเวลา",
+    "message": "การอภิปรายแบบจํากัดเวลา",
     "description": "2.0 admin.js"
   },
   "dataCenter.discussionXData1": {
-    "message": "การอภิปรายเปิดระยะยาว",
+    "message": "การอภิปรายแบบเปิดระยะยาว",
     "description": "2.0 admin.js"
   },
   "dataCenter.liveXData0": {
-    "message": "1ภายในชั่วโมง",
+    "message": "ภายใน1ชั่วโมง",
     "description": "2.0 admin.js"
   },
   "dataCenter.liveXData1": {
@@ -1676,7 +1676,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.liveXData2": {
-    "message": "2ชั่วโมงข้างต้น",
+    "message": "มากกว่า 2 ชั่วโมง",
     "description": "2.0 admin.js"
   },
   "dataCenter.examTypeXData0": {
@@ -1684,7 +1684,7 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.examTypeXData1": {
-    "message": "แบบสุ่ม",
+    "message": "สุ่มกลุ่มข้อสอบ",
     "description": "2.0 admin.js"
   },
   "dataCenter.examDeviceXData0": {
@@ -1696,47 +1696,47 @@
     "description": "2.0 admin.js"
   },
   "dataCenter.collegeCumulativeLoginNum": {
-    "message": "วิทยาลัยเข้าสู่ระบบสะสม",
+    "message": "จํานวนคนเข้าสู่ระบบสะสมจากแต่ละวิทยาลัย",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips43": {
-    "message": "นับล็อกอินในเวลาที่เลือกเท่านั้น",
+    "message": "นับเฉพาะจํานวนการเข้าสู่ระบบในกรอบเวลาที่เลือกเท่านั้น",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips44": {
-    "message": "จำนวนหลักสูตรที่ดำเนินการโดยวิทยาลัย",
+    "message": "จํานวนหลักสูตรที่วิทยาลัยแต่ละแห่งดําเนินการ",
     "description": "2.0 admin.js"
   },
   "dataCenter.dataTips45": {
-    "message": "สถิติหลักสูตรใหม่ในช่วงเวลาที่เลือกเท่านั้น",
+    "message": "นับเฉพาะหลักสูตรที่สร้างขึ้นใหม่ในกรอบเวลาที่เลือกเท่านั้น",
     "description": "2.0 admin.js"
   },
   "dataCenter.runningCourseNum": {
-    "message": "จำนวนหลักสูตรในการดำเนินงาน",
+    "message": "จํานวนหลักสูตรที่กําลังทํางานอยู่",
     "description": "2.0 admin.js"
   },
   "dataCenter.runningCoursewareNum": {
-    "message": "จำนวนบทเรียนในการดำเนินงาน",
+    "message": "จํานวนบทเรียนที่กําลังทํางานอยู่",
     "description": "2.0 admin.js"
   },
   "dataCenter.schoolCreatedCourse": {
-    "message": "โรงเรียนของเราเอง",
+    "message": "สร้างขึ้นโดยโรงเรียนเรา",
     "description": "2.0 admin.js"
   },
   "dataCenter.externalIntroduction": {
-    "message": "การอ้างอิงภายนอก",
+    "message": "การอ้างอิงจากภายนอก",
     "description": "2.0 admin.js"
   },
   "dataCenter.PCExe": {
-    "message": "ไคลเอ็นต์พีซี",
+    "message": "คอมพิวเตอร์ฝั่งผู้ใช้",
     "description": "2.0 admin.js"
   },
   "dataCenter.PCweb": {
-    "message": "เว็บเพจคอมพิวเตอร์",
+    "message": "หน้าเว็บคอมพิวเตอร์",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.ulearningCourseDeclarationInfoAdmin": {
-    "message": "การจัดการข่าวสารการรายงานหลักสูตรของโยวเสวียเยวี้ยน",
+    "message": "การจัดการข้อมูลการสมัครหลักสูตรของULearning",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.selectDeclaredCourse": {
@@ -1748,31 +1748,31 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.undeterminedCourse": {
-    "message": "หลักสูตรที่รอการตัดสิน",
+    "message": "หลักสูตรที่รอดำเนินการ",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.courseDeclarationInfoAdmin": {
-    "message": "การจัดการข้อมูลการรายงานหลักสูตร",
+    "message": "การจัดการข้อมูลการสมัครหลักสูตร",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.exportDeclarationInfo1": {
-    "message": "นำออกข้อมูล【เอกสาร1】(ข้อมูลทั้งหมดกรุณาตรวจสอบจากการนำออก)",
+    "message": "ส่งออกข้อมูล [ตาราง 01] (โปรดส่งออกและดูข้อมูลทั้งหมด)",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.exportDeclarationInfo2": {
-    "message": "นำออกข้อมูล【เอกสาร4】",
+    "message": "ส่งออกข้อมูล【ตาราง04】",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.exportDeclarationInfo3": {
-    "message": "นำออกข้อมูล【เอกสาร5】",
+    "message": "นำออกข้อมูล【ตาราง 05】",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.exportDeclarationInfo4": {
-    "message": "นำออกข้อมูล【เอกสาร6】",
+    "message": "ส่งออกข้อมูล【ตาราง 06】",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.courseID": {
-    "message": "ID ของหลักสูตร",
+    "message": "รหัสหลักสูตร",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.courseName": {
@@ -1796,11 +1796,11 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.onlineYear": {
-    "message": "เส้นมาตรฐานของปี",
+    "message": "ปีออนไลน์",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.provincialProjectNotes": {
-    "message": "หมายเหตุรายการ(เลือกกรอก)",
+    "message": "หมายเหตุโครงการจังหวัด (ไม่บังคับ)",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.courseLevel": {
@@ -1808,7 +1808,7 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.courseType": {
-    "message": "แบบของหลักสูตร",
+    "message": "ประเภทของหลักสูตร",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.courseCategory": {
@@ -1820,11 +1820,11 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.selectedCourseTotalNum": {
-    "message": "จำนวนรวมคนเลือกหลักสูตร",
+    "message": "จำนวนคนทั้งหมดที่เลือกวิชา",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.relevantSubcourses": {
-    "message": "เชื่อมโยงหลักสูตรย่อย",
+    "message": "หลักสูตรย่อยที่เกี่ยวข้อง",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.yes": {
@@ -1880,11 +1880,11 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.currentDeclaredCourse": {
-    "message": "รายงานหลักสูตรหลักในปัจจุบัน",
+    "message": "รายงานหลักสูตรหลักในปัจจุบัน:",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.relatedSubcourses": {
-    "message": "หลักสูตรย่อยที่เชื่อมโยงทั้งหมด",
+    "message": "หลักสูตรย่อยที่เกี่ยวข้อง:",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.editAccount": {
@@ -1896,31 +1896,31 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.declaredCourseTips1": {
-    "message": "ข้อมูลหลักสูตรย่อยจะถูกนำไปรวมเข้ากับหลักสูตรหลักที่รายงานในปัจจุบัน",
+    "message": "ข้อมูลสําหรับหลักสูตรย่อยจะถูกรวมเข้ากับหลักสูตรหลักที่รายงานในปัจจุบัน",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.declaredCourseTips2": {
-    "message": "ยืนยันที่จะยกเลิกการเชื่อมโยง",
+    "message": "ยืนยันที่จะยกเลิกการเชื่อมโยง?",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.relieveSuccess": {
-    "message": "การยกเลิกสำเร็จ",
+    "message": "ยกเลิกสำเร็จ",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.declaredCourseTips3": {
-    "message": "ยืนยันการเปลี่ยนเป็นไม่รายงาน",
+    "message": "ยืนยันการเปลี่ยนเป็นไม่รายงาน?",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.convToNondeclSuccess": {
-    "message": "ไม่รายงานสำเร็จ",
+    "message": "เปลี่ยนเป็นไม่รายงานสำเร็จ",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.convToNondeclFailed": {
-    "message": "รายงานสำเร็จ",
+    "message": "เปลี่ยนเป็นรายงานสำเร็จ",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.coreCurriculum": {
-    "message": "วิชาความรู้ทั่วไป",
+    "message": "หลักสูตรทั่วไป",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.publicBasicCourses": {
@@ -1940,7 +1940,7 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.declaredCourseTips6": {
-    "message": "ข้อมูลกำลังตรวจสอบ กรุณารอสักครู่เพื่อลองอีกครั้ง",
+    "message": "ข้อมูลอยู่ในระหว่างการตรวจสอบ กรุณารอสักครู่เพื่อลองอีกครั้ง",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.batchRelatedMainCourse": {
@@ -1952,19 +1952,19 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.publishWebsite": {
-    "message": "เวปไซด์ที่ประกาศ",
+    "message": "เว็บไซต์ที่ประกาศ",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.ulearningSubjectClassification": {
-    "message": "การแบ่งประเภทสาขาวิชาของโยวเสวียเยวี้ยน",
+    "message": "การแบ่งประเภทสาขาวิชาของ ULearning",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.relatedMainCourseId": {
-    "message": "IDหลักสูตรหลักที่เชื่อมโยง",
+    "message": "รหัสหลักสูตรหลักที่เกี่ยวข้อง",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.relatedMainCourseName": {
-    "message": "รายชื่อหลักสูตรหลักที่เชื่อมโยง",
+    "message": "รายชื่อหลักสูตรหลักที่เกี่ยวข้อง",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.cancelRelateMainCourse": {
@@ -1972,7 +1972,7 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.relateMainCourse": {
-    "message": "หลักสูตรหลักที่เชื่อมโยง",
+    "message": "หลักสูตรหลักที่เกี่ยวข้อง",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.conversionToDeclaration": {
@@ -1984,11 +1984,11 @@
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.currentCourse": {
-    "message": "หลักสูตรในปัจจุบัน",
+    "message": "หลักสูตรในปัจจุบัน:",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.willRelateMainCourse": {
-    "message": "หลักสูตรหลักที่จะเชื่อมโยงกัน",
+    "message": "หลักสูตรหลักที่จะเชื่อมโยง:",
     "description": "2.0 admin.js"
   },
   "courseDeclarationAdmin.declaredCourseTips7": {
@@ -2052,7 +2052,7 @@
     "description": "2.0 admin.js"
   },
   "systemAdmin.superAdministrator": {
-    "message": "ซูปเปอร์ผู้ดูแลระบบ",
+    "message": "ผู้ดูแลระบบขั้นสูง",
     "description": "2.0 admin.js"
   },
   "systemAdmin.modifyAdministrator": {
@@ -2064,15 +2064,15 @@
     "description": "2.0 admin.js"
   },
   "systemAdmin.password": {
-    "message": "พาสเวิร์ด",
+    "message": "รหัสผ่าน",
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips2": {
-    "message": "กรุณาใส่พาสเวิร์ด",
+    "message": "กรุณาใส่รหัสผ่าน",
     "description": "2.0 admin.js"
   },
   "systemAdmin.confirmPassword": {
-    "message": "ยืนยันพาสเวิร์ด",
+    "message": "ยืนยันรหัสผ่าน",
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips3": {
@@ -2080,7 +2080,7 @@
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips4": {
-    "message": "พาสเวิร์ดของทั้งสองครั้งไม่เหมือนกัน",
+    "message": "การป้อนรหัสผ่านสองครั้งไม่สอดคล้องกัน",
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips5": {
@@ -2104,7 +2104,7 @@
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips7": {
-    "message": "ยืนยันที่จะลบการแบ่งประเภทครั้งนี้?",
+    "message": "ยืนยันที่จะลบการแบ่งประเภทนี้?",
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips8": {
@@ -2120,7 +2120,7 @@
     "description": "2.0 admin.js"
   },
   "systemAdmin.wensiteManage": {
-    "message": "การจัดการเวปไซด์",
+    "message": "การจัดการเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "systemAdmin.administratorManage": {
@@ -2132,27 +2132,27 @@
     "description": "2.0 admin.js"
   },
   "systemAdmin.websiteName": {
-    "message": "ชื่อเวปไซด์",
+    "message": "ชื่อเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips9": {
-    "message": "กรุณาใส่ชื่อเวปไซด์",
+    "message": "กรุณาใส่ชื่อเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips10": {
-    "message": "ชื่อเวปไซด์ไม่สามารถเว้นว่าง",
+    "message": "ชื่อเว็บไซต์ไม่สามารถเว้นว่าง",
     "description": "2.0 admin.js"
   },
   "systemAdmin.websiteDomain": {
-    "message": "ชื่อโดเมนเวปไซด์",
+    "message": "ชื่อโดเมนเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips11": {
-    "message": "ชื่อโดเมนเวปไซด์ไม่สามารถเว้นว่าง",
+    "message": "ชื่อโดเมนเว็บไซต์ไม่สามารถเว้นว่าง",
     "description": "2.0 admin.js"
   },
   "systemAdmin.websiteLanguage": {
-    "message": "ภาษาของเวปไซด์",
+    "message": "ภาษาของเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "systemAdmin.websiteLanguageTip": {
@@ -2168,11 +2168,11 @@
     "description": "2.0 admin.js"
   },
   "systemAdmin.websiteTemplate": {
-    "message": "เทมเพลตเวปไซด์",
+    "message": "เทมเพลตเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "systemAdmin.websiteTemplateTip": {
-    "message": "โปรดเลือกแม่แบบไซต์",
+    "message": "โปรดเลือกเทมเพลตเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "systemAdmin.menuTypeTemplate": {
@@ -2180,7 +2180,7 @@
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips12": {
-    "message": "หาท่าต้องการจะออกแบบเมนูหรือหน้าหลักด้วยตนเอง ขอแนะนำให้ใช้เทมเพลตนี้",
+    "message": "หากคุณต้องการปรับแต่งเนื้อหาของเมนูหรือหน้าแรกด้วยตัวเอง ขอแนะนำให้ใช้เทมเพลตนี้",
     "description": "2.0 admin.js"
   },
   "systemAdmin.loginTypeTemplate": {
@@ -2212,19 +2212,23 @@
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips19": {
-    "message": "เทมเพลตนี้ขอแนะนำถ้าคุณต้องการให้นักเรียนมีรายการเข้าสู่ระบบแยกต่างหาก",
+    "message": "ชื่อผู้ใช้ต้องไม่มีช่องว่างภาษาจีนและอักขระพิเศษ มีความยาว 4-50 อักขระ",
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips20": {
-    "message": "หากคุณต้องการให้นักเรียนมีพอร์ทัลการเข้าสู่ระบบแยกต่างหากขอแนะนําให้ใช้เทมเพลตนี้",
+    "message": "หากคุณต้องการเพียงรายการเข้าสู่ระบบแยกต่างหากสำหรับนักเรียนขอแนะนำให้ใช้เทมเพลตนี้",
+    "description": "2.0 admin.js"
+  },
+  "systemAdmin.passwordLengthTips": {
+    "message": "กรุณากรอกรหัสผ่านตั้งแต่หกหลักขึ้นไป",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.inSchoolCourse": {
-    "message": "หลักสูตรในสถานศึกษา",
+    "message": "หลักสูตรในมหาวิทยาลัย",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.openCourse": {
-    "message": "หลักสูตรที่เปิดกว้าง",
+    "message": "หลักสูตรที่เปิด",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.allCourse": {
@@ -2232,11 +2236,11 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolCourse": {
-    "message": "หลักสูตรของสถานศึกษานี้",
+    "message": "หลักสูตรของโรงเรียนของเรา",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.nonschoolCourse": {
-    "message": "หลักสูตรที่ไม่ใช่ของสถานศึกษานี้",
+    "message": "หลักสูตรที่ไม่ใช่หลักสูตรของโรงเรียนเรา",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.allState": {
@@ -2244,11 +2248,11 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.showInWebsite": {
-    "message": "ให้แสดงบนเวปไซด์",
+    "message": "ให้แสดงบนเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.noShowInWebsite": {
-    "message": "ไม่แสดงบนเวปไซด์",
+    "message": "ไม่แสดงบนเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips1": {
@@ -2276,11 +2280,11 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.websiteShow": {
-    "message": "แสดงบนเวปไซด์",
+    "message": "แสดงบนเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.thisSchool": {
-    "message": "สถานศึกษานี้",
+    "message": "โรงเรียนของเรา",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.show": {
@@ -2292,15 +2296,15 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.modifyClassification": {
-    "message": "แบ่งประเภทการแก้ไข",
+    "message": "แก้ไขประเภท",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.displayOnWebsite": {
-    "message": "แสดงบนเวปไซด์",
+    "message": "แสดงบนเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.notDisplayOnWebsite": {
-    "message": "ไม่แสดงบนเวปไซด์",
+    "message": "ไม่แสดงบนเว็บไซต์",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips2": {
@@ -2312,15 +2316,15 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.modifyCourseShow": {
-    "message": "แสดงการแก้ไขหลักสูตร",
+    "message": "ปรับเปลี่ยนการแสดงหลักสูตร",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips4": {
-    "message": "ยืนยันที่จะใช้บนเวปไซด์แสดงหลักสูตรนี้ใช่ไหม?",
+    "message": "ยืนยันที่จะแสดงหลักสูตรนี้บนเว็บไซต์?",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips5": {
-    "message": "ยืนยันที่จะใช้บนเวปไซด์ซ่อนหลักสูตรนี้ใช่ไหม?",
+    "message": "ยืนยันที่จะซ่อนหลักสูตรนี้จากเว็บไซต์?",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.allYears": {
@@ -2340,7 +2344,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.mergeCourse": {
-    "message": "ผสานหลักสูตร",
+    "message": "รวมหลักสูตร",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.state": {
@@ -2360,23 +2364,23 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips6": {
-    "message": "หลังจากดาวโหลดเทมเพลตแล้ว ให้กรอกข้อมูลตามคำอธิบายของเทมเพลต จากนั้นจึงอัพโหลดเอกสารและนำเข้า",
+    "message": "หลังจากดาวน์โหลดเทมเพลตแล้วให้กรอกข้อมูลตามคำแนะนำในเทมเพลต จากนั้นอัปโหลดไฟล์และนำเข้า:",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.downloadTemplate": {
-    "message": "ดาวน์โหลดเทมเพลต",
+    "message": "ดาวน์โหลดแม่แบบ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.uploadFile": {
-    "message": "อัพโหลดเอกสาร",
+    "message": "อัปโหลดไฟล์",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips7": {
-    "message": "”กำลังนำเข้า กรุณาอย่าปิดหน้าต่าง”",
+    "message": "กำลังนำเข้า กรุณาอย่าปิดหน้าต่าง......",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips8": {
-    "message": "นำ [{courseName}] ผู้สร้างหลักสูตรเริ่มจาก [{creator}] แก้ไขเป็น",
+    "message": "เปลี่ยนผู้สร้างหลักสูตร [{courseName}] จาก [{creator}] เป็น:",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips10": {
@@ -2420,31 +2424,31 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.allExam": {
-    "message": "”การสอบทั้งหมด”",
+    "message": "การสอบทั้งหมด",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.inputExanNameTeaNameSearch": {
-    "message": "”ใส่ชื่อการสอบหรือชื่อของอาจารย์เพื่อค้นหา”",
+    "message": "ใส่ชื่อการสอบหรือชื่อของอาจารย์เพื่อค้นหา",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.examName": {
-    "message": "”ชื่อการสอบ”",
+    "message": "ชื่อการสอบ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.publisher": {
-    "message": "”ผู้ประกาศ”",
+    "message": "ผู้ประกาศ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.subordinateCourse": {
-    "message": "”หลักสูตรในสังกัด”",
+    "message": "หลักสูตรในสังกัด",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.expiryDate": {
-    "message": "”ระยะเวลาที่มีผลในการใช้”",
+    "message": "ระยะเวลาที่มีผลในการใช้",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.participantsNumber": {
-    "message": "”จำนวนผู้เข้าร่วม”",
+    "message": "จำนวนผู้เข้าร่วม",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.timeBetween": {
@@ -2452,35 +2456,35 @@
     "description": "管理员账号 -> 数据中心 -> 教学动态 \n 管理员账号 -> 考试管理"
   },
   "teachingAdmin.viewScore": {
-    "message": "”ตรวจสอบผลการเรียน”",
+    "message": "ตรวจสอบผลการเรียน",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.inputKeywordSearch": {
-    "message": "”ใส่คำสำคัญเพื่อค้นหา”",
+    "message": "ใส่คำสำคัญเพื่อค้นหา",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.publishAnnouncement": {
-    "message": "”การประกาศประกาศสาธารณะ”",
+    "message": "การโพสสาธารณะ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.publishAnnouncement2": {
-    "message": "”การประกาศประกาศสาธารณะ”",
+    "message": "โพสสาธารณะ",
     "description": "在教学活动页面，不要与上面的publishAnnouncement共享"
   },
   "teachingAdmin.announcementName": {
-    "message": "ชื่อประกาศสาธารณะ",
+    "message": "ชื่อประกาศ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.inputAnnouncementName": {
-    "message": "ใส่ชื่อประกาศสาธารณะ",
+    "message": "ใส่ชื่อโพสสาธารณะ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.announcementContent": {
-    "message": "เนื้อหาประกาศสาธารณะ",
+    "message": "เนื้อหาโพสสาธารณะ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.uploadAttachments": {
-    "message": "อัพโหลดเอกสารแนบ",
+    "message": "อัปโหลดเอกสารแนบ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.receiver": {
@@ -2492,19 +2496,19 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips19": {
-    "message": "เอกสารไม่สามารถใหญ่กว่า1G",
+    "message": "ไฟล์ต้องไม่เกิน1G",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.announcementPublisher": {
-    "message": "”ผู้ประกาศประกาศสาธารณะ”",
+    "message": "ผู้ประกาศประกาศสาธารณะ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.attachments": {
-    "message": "”เอกสารแนบ”",
+    "message": "เอกสารแนบ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips20": {
-    "message": "”ใส่ชื่อสกุล รหัสนักเรียนหรือชื่อบัญชีเพื่อค้นหา”",
+    "message": "ใส่ชื่อสกุล รหัสนักเรียนหรือชื่อบัญชีเพื่อค้นหา",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.batchOpenStuAccount": {
@@ -2536,15 +2540,15 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.email": {
-    "message": "อีเมล์",
+    "message": "อีเมล",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips23": {
-    "message": "กรุณาใส่อีเมล์",
+    "message": "กรุณาใส่อีเมล",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.teachingAdminTips24": {
-    "message": "รูปแบบของอีเมล์ที่ใส่ผิดพลาด",
+    "message": "อีเมลที่ป้อนมีรูปแบบไม่ถูกต้อง",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.gender": {
@@ -2620,7 +2624,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.check": {
-    "message": "การประกาศเพื่อตรวจสอบ",
+    "message": "การตรวจสอบโพส",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.agree": {
@@ -2644,7 +2648,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.setTypeTip": {
-    "message": "กดปุ่ม”ไปที่ตั้งค่า”สามารถตั้งค่าแบบของหลักสูตรในโรงเรียนนี้ได้ เช่น：วิชาพื้นฐาน วิชาปฏิบัติเป็นต้น ขณะที่อาจารย์ของโรงเรียนนี้สร้างชั้นเรียนนั้นก็จะเลือกดำเนินการตามแบบที่ท่านตั้งค่าไว้",
+    "message": "คลิกปุ่ม \"ไปตั้งค่า\" เพื่อตั้งค่าประเภทของหลักสูตรของโรงเรียน เช่น: หลักสูตรพื้นฐาน ชั้นเรียนภาคปฏิบัติและอื่นๆ ครูของเราจะถูกเลือกตามประเภทที่คุณตั้งค่าเมื่อสร้างชั้นเรียน",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.toSet": {
@@ -2652,11 +2656,11 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.setType": {
-    "message": "ตั้งค่าแบบหลักสูตรของชั้นเรียนโรงเรียนนี้",
+    "message": "ตั้งค่าชนิดของหลักสูตรสําหรับหลักสูตรของโรงเรียนนี้",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.add": {
-    "message": "เพิ่มต่อ",
+    "message": "เพิ่มต่อไป",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.typeEg": {
@@ -2664,7 +2668,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolMooc": {
-    "message": "โรงเรียนนี้สร้างด้วยMOOC",
+    "message": "โรงเรียนของเราสร้าง MOOC",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.otherMooc": {
@@ -2680,7 +2684,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.typeTip2": {
-    "message": "ชื่อการแบ่งประเภทไม่สามารถเกิน50ตัวอักษร",
+    "message": "ชื่อการจัดประเภทต้องไม่เกิน 50 อักขระ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.typeTip3": {
@@ -2688,7 +2692,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.typeTip4": {
-    "message": "ชื่อการแบ่งประเภทไม่สามารถซ้ำกันได้",
+    "message": "ไม่สามารถทําซ้ําชื่อการจัดประเภทได้",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolStuNum": {
@@ -2696,11 +2700,11 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.stuList": {
-    "message": "รายชื่อการเลือกหลักสูตร",
+    "message": "รายการวิชาเลือก",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.moocPageTip": {
-    "message": "ตารางนี้จะแสดงหลักสูตรMOOCที่อาจารย์โรงเรียนนี้ประกาศ",
+    "message": "ตารางนี้จะแสดงหลักสูตรMOOCที่เผยแพร่โดยอาจารย์ของเรา",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.checkTip1": {
@@ -2708,11 +2712,11 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.checkTip2": {
-    "message": "หลักสูตรต้องการให้ท่านตรวจสอบ",
+    "message": "หลักสูตรต้องได้รับการอนุมัติจากคุณ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.otherMoocPageTip": {
-    "message": "ตารางนี้จะแสดงถึงหน่วยงานMOOCด้านนอกที่อ้างอิงถึง",
+    "message": "ตารางนี้แสดง MOOC สถาบันภายนอกที่นํามาใช้",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.enterName": {
@@ -2732,7 +2736,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.notGet": {
-    "message": "ไม่ได้รับ",
+    "message": "ยังไม่ได้รับ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.joinNum": {
@@ -2740,19 +2744,19 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.noStuJoin": {
-    "message": "โรงเรียนนี้งดนักเรียนเข้าชั่วคราว",
+    "message": "ไม่มีนักเรียนเข้าร่วมโรงเรียนเราชั่วคราว",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolStuDistribution": {
-    "message": "การกระจายคณะของนักเรียนโรงเรียนนี้",
+    "message": "การกระจายนักเรียนในโรงเรียนของเรา",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.noStu": {
-    "message": "งดนักเรียนเข้าชั่วคราว",
+    "message": "ไม่มีนักเรียนเข้าร่วม",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.studentSource": {
-    "message": "สถิติที่มาของนักเรียน",
+    "message": "สถิติแหล่งที่มาของนักเรียน",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.certificateRate": {
@@ -2760,15 +2764,15 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolStuRate": {
-    "message": "ร้อยละของนักเรียนโรงเรียนนี้",
+    "message": "สัดส่วนของนักเรียนในโรงเรียนของเรา",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolStuJoinNum": {
-    "message": "จำนวนนักเรียนที่เลือก",
+    "message": "จำนวนนักเรียนวิชาเลือกของโรงเรียนของเรา",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.schoolStuJoinStatistics": {
-    "message": "สถิติวิชาเลือกของนักเรียนโรงเรียนนี้",
+    "message": "สถิติวิชาเลือกของนักเรียนโรงเรียนเรา",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.courseStatistics": {
@@ -2800,7 +2804,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.joinDate": {
-    "message": "ระยะเวลาการเข้าร่วม",
+    "message": "เวลาการเข้าร่วม",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.certificate": {
@@ -2808,7 +2812,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.grade": {
-    "message": "ผลการเรียน",
+    "message": "คะแนนผลการเรียน",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.searchByName": {
@@ -2816,11 +2820,11 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.exportData": {
-    "message": "นำออกข้อมูล",
+    "message": "ส่งออกข้อมูล",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.exportDataDesc": {
-    "message": "หลังจากนำข้อมูลออกจะสามารถตรวจสอบข้อมูลการเคลื่อนย้ายของหลักสูตรอย่างละเอียดได้",
+    "message": "หลังจากส่งออกข้อมูลแล้ว คุณสามารถดูข้อมูลการรันโดยละเอียดของหลักสูตรได้",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.courseAnalysis": {
@@ -2832,7 +2836,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.relateTextbook": {
-    "message": "เชื่อมโยงสื่อการสอน",
+    "message": "สื่อการสอนที่เกี่ยวข้อง",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.searchByClass": {
@@ -2880,15 +2884,15 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importSuccess": {
-    "message": "การนำออกสำเร็จ",
+    "message": "ส่งออกสำเร็จ",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.downloadImportResult": {
-    "message": "ผลลัพธ์การดาวน์โหลดบัญชี",
+    "message": "ดาวน์โหลดผลการเปิดบัญชี",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip1": {
-    "message": "นักเรียนบางส่วนในตารางมีบัญชีแล้ว กรุณาเลือกรูปแบบการจัดการ",
+    "message": "นักเรียนบางส่วนในตารางมีบัญชีแล้ว กรุณาเลือกรูปแบบการจัดการ:",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip2": {
@@ -2896,7 +2900,7 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip3": {
-    "message": "เพื่ออัพเดทข้อมูลของนักเรียนที่มีบัญชีอยู่แล้ว(อัพเดทเพียงชั้นเรียนใหม่,ข้อมูลของคณะเป็นต้น ไม่มีการแก้ไขพาสเวิร์ดของบัญชีผุ้ใช้งาน)",
+    "message": "อัปเดตข้อมูลพื้นฐานสําหรับนักเรียนที่มีบัญชีอยู่แล้ว (อัปเดตเฉพาะชั้นปีใหม่ ข้อมูลวิทยาลัย ไม่ต้องแก้ไขชื่อผู้ใช้และรหัสผ่าน)",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip4": {
@@ -2904,19 +2908,19 @@
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip5": {
-    "message": "กดเลือกดาวน์โหลดรายชื่อนักเรียนที่มีบัญชีอยู่แล้ว",
+    "message": "คลิกดาวน์โหลดรายชื่อนักเรียนที่มีบัญชีอยู่แล้ว",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip6": {
-    "message": "นำเข้าเสร็จสิ้น เปิดใช้งานร่วมกัน",
+    "message": "การนําเข้าเสร็จสมบูรณ์ เปิดทั้งหมด",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip7": {
-    "message": "บัญชีนักเรียน  ข้าม",
+    "message": "บัญชีนักเรียน ข้าม",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.importTip8": {
-    "message": "มีบัญชีนักเรียน",
+    "message": "นักเรียนที่มีบัญชีอยู่แล้ว",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.updateStudents": {
@@ -2932,7 +2936,7 @@
     "description": "2.0 admin.js"
   },
   "editInfoTips": {
-    "message": "ข้อควรระมัดระวัง：หากแก้ไขสองหัวข้อด้านบน จะเป็นการแก้ไขข้อมูลหลักสูตรในแพลตฟอร์มด้วยในเวลาเดียวกัน กรุณาดำเนินการอย่างระมัดระวัง",
+    "message": "หมายเหตุ: การแก้ไขสองรายการข้างต้น จะแก้ไขข้อมูลหลักสูตรในแพลตฟอร์มพร้อมกัน โปรดใช้ความระมัดระวัง",
     "description": "2.0 admin.js"
   },
   "inputCourseManager": {
@@ -2944,15 +2948,15 @@
     "description": "2.0 admin.js"
   },
   "onlineTime": {
-    "message": "ระยะเวลาออนไลน์",
+    "message": "เวลาออนไลน์",
     "description": "2.0 admin.js"
   },
   "inputOnlineTime": {
-    "message": "กรุณาใส่ระยะเวลาออนไลน์",
+    "message": "กรุณาใส่เวลาออนไลน์",
     "description": "2.0 admin.js"
   },
   "inputOpenCoursePeriod": {
-    "message": "กรุณาใส่ระยะเวลาเปิดคอร์ส",
+    "message": "โปรดป้อนจํานวนรอบระยะเวลาการเริ่มเรียน",
     "description": "2.0 admin.js"
   },
   "professionalCode": {
@@ -2996,19 +3000,19 @@
     "description": "2.0 admin.js"
   },
   "courseUnit": {
-    "message": "ประตู {courseCount}",
+    "message": "{courseCount}วิชา",
     "description": "2.0 admin.js"
   },
   "appCenter": {
-    "message": "ศูนย์การประยุกต์ใช้งาน",
+    "message": "แอปพลิเคชั่นเซ็นเตอร์",
     "description": "2.0 admin.js"
   },
   "internalApp": {
-    "message": "แอปภายใน",
+    "message": "แอปพลิเคชันภายใน",
     "description": "2.0 admin.js"
   },
   "ltiApp": {
-    "message": "แอปพลิเคชันการรวม LTI",
+    "message": "แอปพลิเคชั่นรวม LTI",
     "description": "2.0 admin.js"
   },
   "installed": {
@@ -3016,7 +3020,7 @@
     "description": "2.0 admin.js"
   },
   "unInstalled": {
-    "message": "ไม่ได้เปิด",
+    "message": "ยังไม่ได้เปิด",
     "description": "2.0 admin.js"
   },
   "viewMore": {
@@ -3024,7 +3028,7 @@
     "description": "2.0 admin.js"
   },
   "appManage": {
-    "message": "การจัดการแอป",
+    "message": "การจัดการแอปพลิเคชัน",
     "description": "2.0 admin.js"
   },
   "installed2": {
@@ -3032,7 +3036,7 @@
     "description": "2.0 admin.js"
   },
   "addApp": {
-    "message": "เพิ่มแอป",
+    "message": "เพิ่มแอปพลิเคชั่น",
     "description": "2.0 admin.js"
   },
   "name": {
@@ -3048,15 +3052,15 @@
     "description": "2.0 admin.js"
   },
   "configURL": {
-    "message": "URL การกําหนดค่า",
+    "message": "การกําหนดค่า URL",
     "description": "2.0 admin.js"
   },
   "deleteApp": {
-    "message": "ลบแอป",
+    "message": "ลบแอปพลิเคชั่น",
     "description": "2.0 admin.js"
   },
   "confirmDelete": {
-    "message": "คุณแน่ใจหรือไม่ว่าคุณต้องการเอาแอปออก",
+    "message": "แน่ใจว่าต้องการลบแอปพลิเคชั่น?",
     "description": "2.0 admin.js"
   },
   "deleteSuccess": {

@@ -1,10 +1,10 @@
 {
   "ConfirmDelete": {
-    "message": "هل تريد بالتأكيد حذفه؟",
+    "message": "هل تريد الحذف؟",
     "description": "UA"
   },
   "CreateORALScore": {
-    "message": "إنشاء تعليم اللغة الإنجليزية عن طريق الفم",
+    "message": "إنشاء تصحيح اللغة الإنجليزية الشفوي",
     "description": "UA"
   },
   "Edit": {
@@ -12,7 +12,7 @@
     "description": "UA"
   },
   "ExportQrCode": {
-    "message": "تصدير رمز الاستجابة السريعة",
+    "message": "تصدير كود الاستجابة السريعة",
     "description": "UA"
   },
   "FileSize": {
@@ -20,11 +20,11 @@
     "description": "UA"
   },
   "ISBN1": {
-    "message": "ردمك",
+    "message": "ISBN",
     "description": "UA"
   },
   "ISBN2": {
-    "message": "ردمك (دولي)",
+    "message": "ISBN (الدولي)",
     "description": "UA"
   },
   "Language": {
@@ -32,27 +32,23 @@
     "description": "UA"
   },
   "LimitTimeAnswerTip": {
-    "message": "ينطبق الحد الزمني على جميع العناصر (مثل الفيديو، المستندات، النص، الخ) في صفحة المحتوى، وليس فقط على أسئلة التمرين.",
+    "message": "ينطبق الحد الزمني على جميع العناصر الموجودة في محتوى الصفحة (مثل الفيديو والمستندات والنصوص إلخ ...)  و ليس على أسئلة التمرين فقط.",
     "description": "UA"
   },
   "LimitTimeAnswerTip1": {
-    "message": "يحتاج الطلاب إلى إكمال أسئلة التمرين في المهلة المحددة. إذا لم يكن كذلك، فإن النظام جعل الإرسال تلقائيا.",
+    "message": "يحتاج الطلاب إلى إكمال أسئلة التمرين في الوقت المحدد. إذا لم يتم الانتهاء منها فسيقوم النظام الإرسال تلقائيًا.",
     "description": "UA"
   },
   "Q": {
-    "message": "السؤال",
-    "description": "UA"
-  },
-  "QNotSave": {
-    "message": "لم يتم حفظ الأسئلة",
+    "message": "سؤال",
     "description": "UA"
   },
   "Score": {
-    "message": "نقاط",
+    "message": "الدرجات",
     "description": "UA"
   },
   "Search": {
-    "message": "البحث",
+    "message": "بحث",
     "description": "UA"
   },
   "StudentsReadFollowText": {
@@ -64,7 +60,7 @@
     "description": "UA"
   },
   "action": {
-    "message": "الاجراءات",
+    "message": "الإجراءات",
     "description": "UA"
   },
   "actionCheck": {
@@ -72,11 +68,11 @@
     "description": "UA"
   },
   "add": {
-    "message": "اضافه",
+    "message": "إضافة",
     "description": "UA"
   },
   "addAnAuthor": {
-    "message": "إضافة الكاتب",
+    "message": "إضافة مؤلف",
     "description": "UA"
   },
   "addAnInterpreter": {
@@ -96,7 +92,7 @@
     "description": "UA"
   },
   "addContentItem": {
-    "message": "إضافة عنصر محتوى",
+    "message": "أضف عنصر المحتوى",
     "description": "UA"
   },
   "addExercise": {
@@ -112,7 +108,7 @@
     "description": "UA"
   },
   "addKp": {
-    "message": "إضافة نقاط معرفة",
+    "message": "إضافة نقاط المعرفة",
     "description": "UA"
   },
   "addMenu": {
@@ -120,15 +116,15 @@
     "description": "UA"
   },
   "addMenuNumErrTip": {
-    "message": "إضافة ما يصل إلى 15 عنصر إلى القائمة المستوى 1",
+    "message": "إضافة ما يصل إلى 15 عنصرا إلى قائمة المستوى الأول",
     "description": "UA"
   },
   "addNotes": {
-    "message": "إضافة تسمية توضيحية أو ملاحظات",
+    "message": "أضف شرح أو ملاحظات",
     "description": "UA"
   },
   "addOnlyOneComponent": {
-    "message": "يمكن إضافة مكون تمرين واحد فقط",
+    "message": "يمكن إضافة عنصر تمرين واحد فقط",
     "description": "UA"
   },
   "addPage": {
@@ -136,15 +132,15 @@
     "description": "UA"
   },
   "addPlate": {
-    "message": "إضافة وحدة نمطية",
+    "message": "إضافة وحدة",
     "description": "UA"
   },
   "addPlateErrTip": {
-    "message": "لا. من الوحدات المضافة يمكن أن يكون فقط 0، 3، 6، 9",
+    "message": "يمكن أن تكون عدد الوحدات المضافة 0، 3، 6، 9 فقط",
     "description": "UA"
   },
   "addPlateTip": {
-    "message": "لم تقم بإنشاء قائمة نوع \"مقالة\" حتى الآن",
+    "message": "لم تقم بإنشاء قائمة من نوع \"مقال\" حتى الآن",
     "description": "UA"
   },
   "addQ": {
@@ -152,11 +148,11 @@
     "description": "UA"
   },
   "addQTip": {
-    "message": "في الوقت الحاضر، قمت بإدراج 20 سؤالاً في هذه الصفحة. من أجل ضمان أن الطلاب لديهم خبرة تعليمية أفضل، يرجى عدم الاستمرار في إضافة أسئلة الامتحان.",
+    "message": "في الوقت الحاضر، قمت بإدراج 20 سؤالا في هذه الصفحة. لضمان حصول الطلاب على تجربة تعليمية أفضل، يرجى عدم الاستمرار في إضافة أسئلة الامتحان.",
     "description": "UA"
   },
   "addResource": {
-    "message": "إضافة مورد",
+    "message": "إضافة مصدر",
     "description": "UA"
   },
   "addRole": {
@@ -172,7 +168,7 @@
     "description": "UA"
   },
   "addSubtitle": {
-    "message": "إضافة ترجمات",
+    "message": "إضافة العنوان الفرعي",
     "description": "UA"
   },
   "addTeacher": {
@@ -184,39 +180,39 @@
     "description": "UA"
   },
   "advancedSettings": {
-    "message": "إعدادات متقدمة",
+    "message": " إعدادت متقدمة ",
     "description": "UA"
   },
   "all": {
-    "message": "كافة الحالات",
+    "message": "كل حالة",
     "description": "UA"
   },
   "allArticles": {
-    "message": "كل المقالات",
+    "message": "جميع المقالات",
     "description": "UA"
   },
   "allCourses": {
-    "message": "جميع الدورات",
+    "message": "كل المقررات",
     "description": "UA"
   },
   "allQType": {
-    "message": "جميع الأسئلة",
+    "message": "كل الاسئلة",
     "description": "UA"
   },
   "allTeacher": {
-    "message": "جميع المعلمين",
+    "message": "كل المعلمين",
     "description": "UA"
   },
   "allUnits": {
-    "message": "جميع الوحدات",
+    "message": "كل الوحدات",
     "description": "UA"
   },
   "amountOfReading": {
-    "message": "القراءه",
+    "message": "القراءة",
     "description": "UA"
   },
   "analyze": {
-    "message": "ردود الفعل",
+    "message": "انطباع",
     "description": "UA"
   },
   "analyzeErr": {
@@ -224,15 +220,15 @@
     "description": "UA"
   },
   "answer": {
-    "message": "الاجابه",
+    "message": "إجابة",
     "description": "UA"
   },
   "article": {
-    "message": "الماده",
+    "message": "مقالة",
     "description": "UA"
   },
   "articleContent": {
-    "message": "محتوى المقال",
+    "message": "محتوى المقالة",
     "description": "UA"
   },
   "articleDetail": {
@@ -240,11 +236,11 @@
     "description": "UA"
   },
   "articleName": {
-    "message": "اسم المقال",
+    "message": "اسم المقالة",
     "description": "UA"
   },
   "assignment": {
-    "message": "التعيين",
+    "message": "واجب",
     "description": "UA"
   },
   "atLeastOne": {
@@ -252,23 +248,23 @@
     "description": "UA"
   },
   "attachment": {
-    "message": "المرفق",
+    "message": "مرفق",
     "description": "UA"
   },
   "attachmentUploadQ": {
-    "message": "استخدام المرفق لتحميل الأسئلة",
+    "message": "رفع الملف",
     "description": "UA"
   },
   "audio": {
-    "message": "الصوت",
+    "message": "مقاطع صوت",
     "description": "UA"
   },
   "audioTranscript": {
-    "message": "صوت مشروح",
+    "message": "شرح صوتي",
     "description": "UA"
   },
   "audioTranscriptTip": {
-    "message": "إدراج الصوت وإضافة تعليق توضيحي",
+    "message": "إدراج صوت وإضافة تعليق توضيحي",
     "description": "UA"
   },
   "audition": {
@@ -280,19 +276,19 @@
     "description": "UA"
   },
   "autoSaved": {
-    "message": "تلقائيا",
+    "message": "تلقائياً",
     "description": "UA"
   },
   "autoSavedAt": {
-    "message": "تم الحفظ عند",
+    "message": "تم الحفظ في",
     "description": "UA"
   },
   "automaticSorting": {
-    "message": "الفرز التلقائي",
+    "message": "ترتيب تلقائي",
     "description": "UA"
   },
   "automaticSortingTip": {
-    "message": "استخدم قاعدة التسمية، بحيث يمكن فرز اسم الفيديو تلقائيًا من صغير إلى كبير. يرجى تعديل اسم الفيديو قبل تحميله، مثل: lei_unit1_001، lei_unit1_02...",
+    "message": "استخدم قاعدة التسمية، بحيث يمكن ترتيب اسم الفيديو تلقائيا من صغير إلى كبير. يرجى تعديل اسم الفيديو قبل رفعه، مثل: lei_unit1_001، lei_unit1_02...",
     "description": "UA"
   },
   "automaticTranscodingMp3": {
@@ -304,99 +300,99 @@
     "description": "UA"
   },
   "avatar": {
-    "message": "الرمزيه",
+    "message": "الصورة الرمزية",
     "description": "UA"
   },
   "backList": {
-    "message": "الرجوع إلى القائمة",
+    "message": "العودة إلى القائمة",
     "description": "UA"
   },
   "backToCourse": {
-    "message": "العودة إلى قائمة البرامج الدراسية",
+    "message": "العودة إلى قائمة المنهج",
     "description": "UA"
   },
   "backToCourseHomepage": {
-    "message": "العودة إلى الصفحة الرئيسية لـ Courseware",
+    "message": "العودة إلى الصفحة الرئيسية للمنهج",
     "description": "UA"
   },
   "backgroundIsWorking": {
-    "message": "نظام Backend هو معالجة الفيديو ، يرجى الانتظار لحظة....",
+    "message": "يقوم النظام بمعالجة الفيديو ، يرجى الانتظار ....",
     "description": "UA"
   },
   "bankeBindTipsLine1": {
-    "message": "يتم اعتماد وضع التعليم المستقل بشكل افتراضي للدورات المفتوحة. إذا سمح للطلاب / الأخصائيين الاجتماعيين من خارج المدرسة بالدراسة في هذا الفصل ، يرجى ربط صف مدرستك هنا ، بعد الربط:",
+    "message": "يتم اعتماد وضع التعلم المستقل افتراضيًا للمقررات المفتوحة. إذا سُمح للطلاب / الأخصائيين الاجتماعيين من خارج الأكاديمية بالدراسة في هذا الفصل ، يرجى ربط فصل أكاديميتك هنا ، بعد الربط:",
     "description": "UA"
   },
   "bankeBindTipsLine2": {
-    "message": "1. عندما ينضم الطلاب من خارج المدرسة إلى الدورة، يمكنهم الانضمام إلى صفك بشكل متزامن، والدراسة في الصف والمشاركة في جميع أنشطة التدريس.",
+    "message": "1. عندما ينضم طلاب من خارج الأكاديمية للمقرر ، يمكنهم الانضمام إلى فصلك بشكل متزامن والدراسة في الفصل والمشاركة في جميع الأنشطة التعليمية.",
     "description": "UA"
   },
   "bankeBindTipsLine3": {
-    "message": "2. هنا يمكنك إدارة الدورة ابتداء من الفصل الدراسي والتحقق من إحصاءات كل فصل دراسي. يمكنك استخدام الإحصائيات لتطبيق مقررك الدراسي ليتم منحه كمن المقرر الوطني الصيني الأعلى جودة المفتوحة.",
+    "message": "2. هنا يمكنك إدارة المقرر الدراسي ابتداء من التيرم والتحقق من إحصاءات كل تيرم. يمكنك استخدام الإحصاءات لتطبيق المقرر الدراسي الخاص بك ليتم منحها دكأفضل مقرر دراسي مفتوح على المستوى الوطني للصين.",
     "description": "UA"
   },
   "bankeBindTipsLine4": {
-    "message": "إذا لم يكن لديك فصل دراسي حتى الآن، يرجى تسجيل الدخول إلى حساب المعلم لإنشاء فصل وربطه بـ courseware.",
+    "message": "إذا لم يكن لديك فصل دراسي حتى الآن ، فالرجاء تسجيل الدخول إلى حساب المعلم الخاص بك لإنشاء فصل وربطه بالمنهج.",
     "description": "UA"
   },
   "bankeCode": {
-    "message": "كود الفئة",
+    "message": "كود الفصل",
     "description": "UA"
   },
   "bankeCodeSearch": {
-    "message": "إدخال كود الفئة للبحث",
+    "message": "ادخل كود الفصل للبحث",
     "description": "UA"
   },
   "bankeName": {
-    "message": "اسم الفئة",
+    "message": "اسم الفصل",
     "description": "UA"
   },
   "basicInformation": {
-    "message": "إعدادات البرامج الدراسية",
+    "message": "إعدادات المنهج",
     "description": "UA"
   },
   "beCompleted": {
-    "message": "فقط بعد ذلك اعتبرت العملية بما أنّ كاملة.,",
+    "message": "ليتم وضع علامة \"مكتمل\". ",
     "description": "UA"
   },
   "beforewithdrawTip": {
-    "message": "لن يتمكن الطلاب من التعلم بعد الانسحاب. يرجى العمل بحذر. تأكيد الانسحاب؟",
+    "message": "لن يتمكن الطلاب من التعلم بعد الانسحاب. يرجى الحذر. هل تريد الانسحاب؟",
     "description": "UA"
   },
   "bindInnerCourse": {
-    "message": "ربط صف المدرسة",
+    "message": "ربط فصل الأكاديمية",
     "description": "UA"
   },
   "bindOuterCourse": {
-    "message": "بيند كلاس من مدرسة أخرى",
+    "message": "ربط فصل من أكاديمية أخرى",
     "description": "UA"
   },
   "blankAnswerTip": {
-    "message": "في هذا السؤال، تسلسل الإجابات لكل ملء في الفراغ هو قابل للتبديل",
+    "message": "في هذا السؤال ، يكون تسلسل الإجابات لكل ملء الفراغ قابلاً للتبديل",
     "description": "UA"
   },
   "blankStudentAnswerTip": {
-    "message": "يمكن أن يكون تسلسل الإجابات التي قام الطلاب بإدخالها غير متسق مع تسلسل مفاتيح الإجابة، طالما أن المحتوى الذي تم الرد عليه يتطابق بشكل صحيح.",
+    "message": "يمكن أن يكون تسلسل الإجابات التي أدخلها الطلاب غير متناسق مع تسلسل مفاتيح الإجابات، طالما أن المحتوى الذي تمت الإجابة عليه يتطابق بشكل صحيح.",
     "description": "UA"
   },
   "breakLearning": {
-    "message": "التوقف عن التعلم",
+    "message": "توقف الموقت عند",
     "description": "UA"
   },
   "cancel": {
-    "message": "إلغاء الأمر",
+    "message": "إلغاء",
     "description": "UA"
   },
   "cancelHide": {
-    "message": "اظهار",
+    "message": "إظهار",
     "description": "UA"
   },
   "cancelTop": {
-    "message": "إلغاء اللزجة إلى الأعلى",
+    "message": "إلغاء الثبات في الأعلى",
     "description": "UA"
   },
   "cancelUpload": {
-    "message": "إلغاء التحميل",
+    "message": "إلغاء الرفع",
     "description": "UA"
   },
   "catalog": {
@@ -404,11 +400,11 @@
     "description": "UA"
   },
   "chapter1": {
-    "message": "وحدة نمطية جديدة",
+    "message": "وحدة جديدة",
     "description": "UA"
   },
   "chapter2": {
-    "message": "وحدة نمطية جديدة",
+    "message": "وحدة جديدة",
     "description": "UA"
   },
   "chapterCatalog": {
@@ -420,27 +416,27 @@
     "description": "UA"
   },
   "chapterNoQuestionTip": {
-    "message": "لا يوجد أي تمرين في هذا الفصل. في مكون التقرير، يمكنك فقط تحديد التدريبات في الفصل الحالي. يمكنك إضافة تمارين إلى الفصل ثم استخدام المكون. ~",
+    "message": "لا يوجد تمرين في هذا الفصل. يمكنك في عنصر التقرير فقط اختيار التمارين في الفصل الحالي. يمكنك إضافة تمارين إلى الفصل ثم استخدام العنصر. ~",
     "description": "UA"
   },
   "chapterOutlineTip": {
-    "message": "بنية الكتالوج غير معقولة. الرجاء إنشاء كتالوج وفقا لبنية الفصل > القسم > الصفحة!",
+    "message": "بنية الكتالوج غير صحيحة. يرجى إنشاء كتالوج وفقا لبنية الفصل > قسم > الصفحة!",
     "description": "UA"
   },
   "chapterStudyProgress": {
-    "message": "محتوى الفصل المستفادة:",
+    "message": "تم تعلم محتوى الفصل:",
     "description": "UA"
   },
   "chapterUnfinishedPage": {
-    "message": "لم تكمل تعلم الصفحات التالية من هذا الفصل",
+    "message": "لم تكمل تعلم هذه الصفحات من هذا الفصل",
     "description": "UA"
   },
   "checkAnswerTip": {
-    "message": "انقر على كل دائرة صغيرة لإدخال السؤال الفرعي. بعد الإجابة على السؤال، سوف تكون قادرة على معرفة ما إذا كان الجواب الخاص بك هو الصحيح أو خاطئ.",
+    "message": "انقر على كل دائرة صغيرة لإدخال سؤال فرعي. بعد الإجابة على السؤال ، ستتمكن من التحقق مما إذا كانت إجابتك صحيحة أم خاطئة.",
     "description": "UA"
   },
   "checkFlashSet": {
-    "message": "يرجى التحقق مما إذا كان قد تم تعيين المتصفح للسماح تحميل فلاش",
+    "message": "يرجى التحقق مما إذا كان المستعرض يسمح بتحميل الفلاش",
     "description": "UA"
   },
   "checkMore": {
@@ -448,11 +444,11 @@
     "description": "UA"
   },
   "chinese": {
-    "message": "الصينية",
+    "message": "صيني",
     "description": "UA"
   },
   "indonesian": {
-    "message": "الإندونيسية",
+    "message": "إندونيسي",
     "description": "UA"
   },
   "defaultLang": {
@@ -464,15 +460,15 @@
     "description": "UA"
   },
   "choicerole": {
-    "message": "الرجاء اختيار الدور الذي تريد بدء تشغيله",
+    "message": "يرجى اختيار دور للبدء",
     "description": "UA"
   },
   "chooseQuestion": {
-    "message": "اختيار ممارسة",
+    "message": "اختيار التمرين",
     "description": "UA"
   },
   "classic": {
-    "message": "النمط الكلاسيكي",
+    "message": "اسلوب الكلاسيكي",
     "description": "UA"
   },
   "clearSubtitle": {
@@ -480,31 +476,31 @@
     "description": "UA"
   },
   "clickAddQbtn": {
-    "message": "انقر على زر \"إضافة سؤال الامتحان\" للدخول إلى صفحة الأسئلة إضافة الامتحان.",
+    "message": "انقر زر \"إضافة سؤال الامتحان\" لدخول صفحة إضافة سؤال الامتحان.",
     "description": "UA"
   },
   "clickError": {
-    "message": "خطأ في النقر",
+    "message": "انقر فوق الخطأ",
     "description": "UA"
   },
   "clickHereUpload": {
-    "message": "انقر هنا لتحميل",
+    "message": "انقر هنا للرفع",
     "description": "UA"
   },
   "clickNewFlash": {
-    "message": "انقر لتحميل أحدث إصدار فلاش",
+    "message": "انقر لتنزيل أحدث إصدار لفلاش",
     "description": "UA"
   },
   "clickToReclip": {
-    "message": "انقر على الرمز لإعادة تحرير مقطع الفيديو",
+    "message": "انقر فوق الأيقونة لإعادة تعديل مقطع الفيديو",
     "description": "UA"
   },
   "clickToSelect": {
-    "message": "انقر فوق لتحديد",
+    "message": "انقر للإختيار",
     "description": "UA"
   },
   "close": {
-    "message": "اغلاق",
+    "message": "إغلاق",
     "description": "UA"
   },
   "closeSubtitle": {
@@ -512,11 +508,11 @@
     "description": "UA"
   },
   "colTh3Tip": {
-    "message": "(يعرض الطالب إحصاءات الدقة)",
+    "message": "(يعرض جانب الطالب إحصائيات الدقة)",
     "description": "UA"
   },
   "collaborativeEditing": {
-    "message": "تحرير مشترك",
+    "message": "تعديل مشترك",
     "description": "UA"
   },
   "collapseAll": {
@@ -524,47 +520,47 @@
     "description": "UA"
   },
   "collapseCatalog": {
-    "message": "كتالوج طي",
+    "message": "طي القائمة",
     "description": "UA"
   },
   "commonlyUsedQuestions": {
-    "message": "أنواع الأسئلة المستخدمة بكثرة",
+    "message": "أنواع الأسئلة المستخدمة كثيرا",
     "description": "UA"
   },
   "componentBeingDeleted": {
-    "message": "حذف المكونات",
+    "message": "حذف العناصر",
     "description": "UA"
   },
   "componentLimitations": {
-    "message": "قيود المكونات",
+    "message": "قيود العنصر",
     "description": "UA"
   },
   "componentLimitationsTip": {
-    "message": "اللغة الإنجليزية الشفوية وسم مكون لا يمكن أن يكون على نفس الصفحة مثل الفيديو, تمارين ولعب الأدوار. ويمكن إضافة مكون واحد فقط عن طريق الفم للغة الإنجليزية لوضع العلامات على كل صفحة، ولكن يمكنك إضافة ما يصل إلى 10 كلمات/جمل/فقرات للقراءة بصوت عال في مكون واحد عن طريق الفم للغة الإنجليزية.",
+    "message": "لا يمكن أن يكون عننصر تقييم نطق اللغة الإنجليزية على نفس الصفحة مثل الفيديو والتمارين و المسرحيات. ويمكن إضافة عنصر واحد فقط للتقييم نطق اللغة الإنجليزية بكل صفحة، ولكن يمكنك إضافة ما يصل إلى 10 كلمات/جمل/فقرات للقراءة بصوت مسموع في عنصر تقييم نطق اللغة الإنجليزية.",
     "description": "UA"
   },
   "comprehensiveQ": {
-    "message": "تركيبه",
+    "message": "تركيب",
     "description": "UA"
   },
   "confirm": {
-    "message": "تاكيد",
+    "message": "تأكيد",
     "description": "UA"
   },
   "confirmArticleErrTip": {
-    "message": "الرجاء إدخال عنوان المقالة",
+    "message": "يرجى إدخال عنوان المقالة",
     "description": "UA"
   },
   "confirmArticleErrTip1": {
-    "message": "الرجاء إدخال محتوى المقالة أو إضافة مرفق",
+    "message": "يرجى إدخال محتوى المقالة أو إضافة مرفق",
     "description": "UA"
   },
   "confirmArticleErrTip2": {
-    "message": "الرجاء إضافة القائمة أولاً",
+    "message": "يرجى إضافة القائمة أولا",
     "description": "UA"
   },
   "confirmArticleErrTip3": {
-    "message": "الرجاء تحديد قائمة نوع المقالة",
+    "message": "يرجى اختيار قائمة نوع المقالة",
     "description": "UA"
   },
   "confirmArticleErrTip4": {
@@ -572,7 +568,7 @@
     "description": "UA"
   },
   "confirmBatchDelete": {
-    "message": "هل تريد بالتأكيد حذف الملفات المحددة؟",
+    "message": "هل تريد بالتأكيد حذف الملفات التي تم اختيارها؟",
     "description": "UA"
   },
   "confirmBind": {
@@ -580,55 +576,55 @@
     "description": "UA"
   },
   "confirmDelete": {
-    "message": "هل تريد تأكيد الحذف؟",
+    "message": "برجاء تأكيد الحذف؟",
     "description": "UA"
   },
   "confirmDeleteArticle": {
-    "message": "هل تريد بالتأكيد حذف المقالة؟",
+    "message": "هل تريد حذف المقالة؟",
     "description": "UA"
   },
   "confirmDeleteBtn": {
-    "message": "تأكيد لحذف",
+    "message": "برجاء تأكيد الحذف",
     "description": "UA"
   },
   "confirmDeleteChapter": {
-    "message": "هل تريد بالتأكيد حذف هذا الفصل؟",
+    "message": "هل تريد حذف هذا الفصل؟",
     "description": "UA"
   },
   "confirmDeleteCourse": {
-    "message": "هل تريد بالتأكيد حذف المقرر الدراسي؟",
+    "message": "هل تريد حذف المقرر الدراسي؟",
     "description": "UA"
   },
   "confirmDeleteFile": {
-    "message": "تم تحميل هذا الملف. تأكيد لحذف؟",
+    "message": "تم رفع هذا الملف، هل تريد الحذف؟",
     "description": "UA"
   },
   "confirmDeleteMenu": {
-    "message": "سيتم حذف هذه القائمة والقوائم الفرعية الخاصة بها عند حذف القائمة. هل تريد تأكيد الحذف؟",
+    "message": "سيتم حذف هذه القائمة والقوائم الفرعية الخاصة بها عند حذف القائمة. هل تريد الحذف؟",
     "description": "UA"
   },
   "confirmDeleteQ": {
-    "message": "هل تريد بالتأكيد حذف هذا الموضوع؟",
+    "message": "هل تريد حذف هذا الموضوع؟",
     "description": "UA"
   },
   "confirmDeleteTheFile": {
-    "message": "هل تريد بالتأكيد حذف هذا الملف؟",
+    "message": "هل تريد حذف هذا الملف؟",
     "description": "UA"
   },
   "confirmDeleteTheFolder": {
-    "message": "هل تريد بالتأكيد حذف المجلد ومجلداته الفرعية وملفاته؟",
+    "message": "هل تريد حذف المجلد والمجلدات الفرعية والملفات الموجودة به؟",
     "description": "UA"
   },
   "confirmDeleteTheMenu": {
-    "message": "هل تريد بالتأكيد حذف هذه القائمة؟",
+    "message": "هل تريد حذف هذه القائمة؟",
     "description": "UA"
   },
   "confirmHideMenu": {
-    "message": "بعد إخفاء هذه القائمة، لن يتم عرض هذه القائمة والقوائم الفرعية الخاصة بها على الموقع. هل أنت متأكد من أن تختبئ؟",
+    "message": "بعد إخفاء هذه القائمة لن يتم عرض هذه القائمة وقوائمها الفرعية على الموقع. هل أنت تريد إخفاءها؟",
     "description": "UA"
   },
   "confirmHideTheMenu": {
-    "message": "هل أنت متأكد من أنك تريد إخفاء هذه القائمة؟",
+    "message": "هل تريد إخفاء هذه القائمة؟",
     "description": "UA"
   },
   "confirmLeave": {
@@ -636,23 +632,23 @@
     "description": "UA"
   },
   "confirmLeaveTip": {
-    "message": "هناك كلمات / جمل / فقرات في هذه الصفحة التي لم تقرأ بعد. هل تؤكد أن تغادر؟",
+    "message": "توجد كلمات/جمل/فقرات في هذه الصفحة لم يتم قراءتها بعد. هل تريد المغادرة؟",
     "description": "UA"
   },
   "confirmSwitchWeb": {
-    "message": "هل أنت متأكد من التبديل إلى نموذج ويب؟",
+    "message": "هل تريد التبديل إلى نموذج الويب؟",
     "description": "UA"
   },
   "connectRecordingServer": {
-    "message": "الاتصال بخادم التسجيل، الرجاء الانتظار",
+    "message": "جاري الاتصال بخادم التسجيل ، يرجى الانتظار",
     "description": "UA"
   },
   "connectRecordingServerFail": {
-    "message": "فشل في الاتصال بخادم التسجيل، من فضلك",
+    "message": "لم نتمكن من الاتصال بخادم التسجيل، يرجى",
     "description": "UA"
   },
   "connectRecordingServerSuc": {
-    "message": "الاتصال بخادم التسجيل بنجاح",
+    "message": "تم الاتصال بخادم التسجيل بنجاح",
     "description": "UA"
   },
   "contentManage": {
@@ -660,7 +656,7 @@
     "description": "UA"
   },
   "continueAdd": {
-    "message": "إضافة المزيد من الاختبار",
+    "message": "أضف المزيد من الاختبارات",
     "description": "UA"
   },
   "continueCreate": {
@@ -672,7 +668,7 @@
     "description": "UA"
   },
   "continueStudy": {
-    "message": "مواصلة الدراسة",
+    "message": "استئناف",
     "description": "UA"
   },
   "continueUpload": {
@@ -680,23 +676,23 @@
     "description": "UA"
   },
   "copy": {
-    "message": "مكرره",
+    "message": "تكرار",
     "description": "UA"
   },
   "copySuccessfully": {
-    "message": "تم تكرارها بنجاح",
+    "message": "تم التكرار بنجاح!",
     "description": "UA"
   },
   "copyrightOwner": {
-    "message": "حق المؤلف",
+    "message": "حقوق النشر",
     "description": "UA"
   },
   "correctAnswerErrTip": {
-    "message": "المحتوى في خيار الإجابة الصحيحة فارغ",
+    "message": "المحتوى الموجود في خيار الإجابة الصحيحة فارغ",
     "description": "UA"
   },
   "correctAnswerNotEmpty": {
-    "message": "الإجابة الصحيحة لا يمكن أن تكون فارغة.",
+    "message": "لا يمكن أن تكون الإجابة الصحيحة فارغة",
     "description": "UA"
   },
   "correctRate": {
@@ -704,59 +700,59 @@
     "description": "UA"
   },
   "correctTotal": {
-    "message": "عدد الإجابات الصحيحة/مجموع التمارين",
+    "message": "عدد الإجابات الصحيحة/مجموع التدريبات",
     "description": "UA"
   },
   "correspondingTextbook": {
-    "message": "كتاب مدرسي ذو صلة",
+    "message": "كتب المدرسية ذات الصلة",
     "description": "UA"
   },
   "correspondingTextbookTip": {
-    "message": "إضافة معلومات مادية إلى المقرر الدراسي المفتوح أو الكتاب المدرسي التفاعلي",
+    "message": "أضف معلومات المادة لفتح مقرر أو كتاب مدرسي تفاعلي",
     "description": "UA"
   },
   "courseChapter": {
-    "message": "وحدات المحتوى",
+    "message": "محتوى الوحدات",
     "description": "UA"
   },
   "courseContent": {
-    "message": "وحدات المحتوى",
+    "message": "محتوى الوحدات",
     "description": "UA"
   },
   "courseCover": {
-    "message": "تغطية الدورة",
+    "message": "غلاف المقرر",
     "description": "UA"
   },
   "courseDataAnalysis": {
-    "message": "تحليل بيانات الدورة",
+    "message": "تحليل بيانات المقرر",
     "description": "UA"
   },
   "courseIntro": {
-    "message": "مقدمة الدورة",
+    "message": "مقدمة المقرر",
     "description": "UA"
   },
   "courseIntroduction": {
-    "message": "معلومات البرامج الدراسية",
+    "message": "معلومات المنهج",
     "description": "UA"
   },
   "courseLanguage": {
-    "message": "لغة الدورة",
+    "message": "لغة المقرر",
     "description": "UA"
   },
   "courseManager": {
-    "message": "إدارة بدء الدورة",
+    "message": "إدارة بدء المقرر",
     "description": "UA"
   },
   "courseName": {
-    "message": "اسم أدوات الدورات",
+    "message": "اسم المنهج",
     "description": "UA"
   },
   "courseName2": {
-    "message": "اسم الدورة",
+    "message": "اسم المقرر",
     "description": "UA"
   },
   "coursePlayer": {
-    "message": "لاعب الدورة",
+    "message": "مشغل المقرر",
     "description": "UA"
   },
   "coursePortal": {
@@ -764,43 +760,43 @@
     "description": "UA"
   },
   "courseQuestions": {
-    "message": "أسئلة التمرين",
+    "message": "أسئلة التمارين",
     "description": "UA"
   },
   "courseResources": {
-    "message": "الموارد",
+    "message": "المصادر",
     "description": "UA"
   },
   "courseReviewTips": {
-    "message": "تم تقديم الطلب، يرجى الانتظار حتى يقوم المسؤول بمراجعة الطلب.",
+    "message": "تم ارسال الطلب، يرجى الانتظار حتى يقوم المسؤول بمراجعته.",
     "description": "UA"
   },
   "courseSortsErrorTip": {
-    "message": "الرجاء تحديد فئة واحدة على الأقل.",
+    "message": "يرجى اختيار فئة واحدة على الأقل.",
     "description": "UA"
   },
   "courseSortsTip": {
-    "message": "حدد ما يصل إلى 3 فئات",
+    "message": "اختر ما لا يزيد عن 3 فئات",
     "description": "UA"
   },
   "courseSortsToast": {
-    "message": "الرجاء اختيار 1-3 فئات",
+    "message": "يرجى اختيار 1-3 فئة",
     "description": "UA"
   },
   "courseStatusOffShelves": {
-    "message": "ازاله",
+    "message": "تمت الإزالة",
     "description": "UA"
   },
   "courseStatusPrePublish": {
-    "message": "ما قبل النشر",
+    "message": "قبل النشر",
     "description": "UA"
   },
   "courseStatusPublished": {
-    "message": "نشر",
+    "message": "تم النشر",
     "description": "UA"
   },
   "courseStatusUnpublished": {
-    "message": "غير منشوره",
+    "message": "لم يتم نشره",
     "description": "UA"
   },
   "courseTag": {
@@ -808,79 +804,75 @@
     "description": "UA"
   },
   "courseTeam": {
-    "message": "فريق برامج التدريب",
+    "message": "فريق المنهج",
     "description": "UA"
   },
   "courseType": {
-    "message": "نوع الدورة",
+    "message": "نوع المقرر",
     "description": "UA"
   },
   "courseTypeOpen": {
-    "message": "الدورات المفتوحة",
+    "message": "المقررات المفتوحة",
     "description": "UA"
   },
   "courseTypeTextbook": {
-    "message": "كتاب تفاعلي",
-    "description": "UA"
-  },
-  "courses": {
-    "message": "دورات",
+    "message": "الكتاب المدرسي التفاعلي",
     "description": "UA"
   },
   "coursewareQBank": {
-    "message": "برنامج برامج دراسية سؤال بنك",
+    "message": "بنك أسئلة المنهج",
     "description": "UA"
   },
   "coursewareQuestionBank": {
-    "message": "برنامج برامج التدريب الدراسي سؤال بنك",
+    "message": "بنك أسئلة المنهج",
     "description": "UA"
   },
   "create": {
-    "message": "انشاء",
+    "message": "إنشاء",
     "description": "UA"
   },
   "createCatalogFirst": {
-    "message": "الرجاء إنشاء مخطط الدورة التدريبية أولاً",
+    "message": "الرجاء إنشاء مخطط المقرر أولا",
     "description": "UA"
   },
   "createChapterOutline": {
-    "message": "طريقة سريعة لإنشاء مخطط تفصيلي للفصل",
+    "message": "طريقة سريعة لإنشاء مخطط الفصل",
     "description": "UA"
   },
   "createChapterOutlineTip": {
-    "message": "إنشاء مخطط المحتوى بسرعة أدناه: استخدام الوحدة النمطية الفعلية، والموضوع، وعناوين الصفحات لاستبدال العناصر النائبة والحفاظ على علامات \"#\" سليمة.",
+    "message": "قم بإنشاء مخطط المحتوى أدناه بسرعة: استخدم الوحدة الفعلية والموضوع وعناوين الصفحة لاستبدال العناصر النائبة والحفاظ على علامات \"#\" دون استبدال.",
     "description": "UA"
   },
   "createCourse": {
-    "message": "إنشاء أدوات الدورات",
+    "message": "إنشاء المنهج الدراسي",
     "description": "UA"
   },
   "createCourseChapter": {
-    "message": "إنشاء فصل الدورة التدريبية",
+    "message": "إنشاء فصل المقرر الدراسي",
     "description": "UA"
   },
   "createNewChapter": {
-    "message": "+ وحدة جديدة",
+    "message": "إضافة وحدة جديدة",
     "description": "UA"
   },
   "createNewChapter1": {
-    "message": "+ وحدة جديدة",
+    "message": "إضافة وحدة جديدة",
     "description": "UA"
   },
   "createNewPage": {
-    "message": "+ صفحة جديدة",
+    "message": "إضافة صفحة جديدة",
     "description": "UA"
   },
   "createNewPage1": {
-    "message": "+ صفحة جديدة",
+    "message": "إضافة صفحة جديدة",
     "description": "UA"
   },
   "createNewSection": {
-    "message": "+ موضوع جديد",
+    "message": "إضافة موضوع جديد",
     "description": "UA"
   },
   "createNewSection1": {
-    "message": "+ موضوع جديد",
+    "message": "إضافة موضوع جديد",
     "description": "UA"
   },
   "createPageContent": {
@@ -892,15 +884,15 @@
     "description": "UA"
   },
   "created": {
-    "message": "انشاء",
+    "message": "تم الإنشاء",
     "description": "UA"
   },
   "createdSuccessfully": {
-    "message": "تم إنشاؤه بنجاح!",
+    "message": "تم الإنشاء بنجاح!",
     "description": "UA"
   },
   "creator": {
-    "message": "الخالق",
+    "message": "المنشئ",
     "description": "UA"
   },
   "currentLocation": {
@@ -912,15 +904,11 @@
     "description": "UA"
   },
   "cutVideo": {
-    "message": "تقليم الفيديو",
+    "message": "اقتصاص الفيديو",
     "description": "UA"
   },
   "dataError": {
     "message": "بيانات غير صحيحة",
-    "description": "UA"
-  },
-  "dataNum": {
-    "message": "كورس",
     "description": "UA"
   },
   "delete": {
@@ -932,11 +920,11 @@
     "description": "UA"
   },
   "deleteBanner": {
-    "message": "حذف الشعار",
+    "message": "حذف الافتة",
     "description": "UA"
   },
   "deleteFail": {
-    "message": "فشل في الحذف",
+    "message": "لم نتمكن من الحذف",
     "description": "UA"
   },
   "deleteMenu": {
@@ -944,7 +932,7 @@
     "description": "UA"
   },
   "deletePageTip": {
-    "message": "لا يمكن حذف الصفحات التي تم إنشاؤها رمز الاستجابة السريعة",
+    "message": "لا يمكن حذف الصفحات التي قامت بإنشاء رمز الاستجابة السريع",
     "description": "UA"
   },
   "deleteQ": {
@@ -952,27 +940,27 @@
     "description": "UA"
   },
   "deleteThisQ": {
-    "message": "حذف سؤال",
+    "message": "حذف السؤال",
     "description": "UA"
   },
   "deleteTip1": {
-    "message": "ستتسبب هذه العملية محتويات الدلائل الفرعية إلى حذف. هل تريد بالتأكيد حذفها؟",
+    "message": "سيؤدي هذه العملية إلى حذف محتويات الدلائل الفرعية . هل تريد حذفها؟",
     "description": "UA"
   },
   "deleteTip2": {
-    "message": "هل تريد بالتأكيد حذف كل شيء في هذه الصفحة؟",
+    "message": "هل تريد حذف كل شيء في هذه الصفحة؟",
     "description": "UA"
   },
   "deleteTip3": {
-    "message": "سيؤدي هذا الإجراء إلى حذف كافة الصفحات في هذا الفصل. هل تريد بالتأكيد حذفها؟",
+    "message": "سيؤدي هذا الإجراء إلى حذف كل الصفحات في هذا الفصل. هل تريد حذفها؟",
     "description": "UA"
   },
   "deleteTip4": {
-    "message": "سيؤدي هذا الإجراء إلى حذف كافة الصفحات في هذا القسم. هل تريد بالتأكيد حذفها؟",
+    "message": "سيؤدي هذا الإجراء إلى حذف كل الصفحات في هذا القسم. هل تريد حذفها؟",
     "description": "UA"
   },
   "deleteTipTitle": {
-    "message": "تلميحات لحذف المحتوى",
+    "message": "نصائح لحذف المحتوى",
     "description": "UA"
   },
   "deleteVideo": {
@@ -980,55 +968,55 @@
     "description": "UA"
   },
   "deleted": {
-    "message": "حذف",
+    "message": "تم الحذف",
     "description": "UA"
   },
   "deletedQFail": {
-    "message": "فشل حذف سؤال الاختبار",
+    "message": "لم نتمكن من حذف سؤال الاختبار",
     "description": "UA"
   },
   "deletedQSuccessfully": {
-    "message": "حذف سؤال الاختبار بنجاح",
+    "message": "تم حذف سؤال الاختبار بنجاح",
     "description": "UA"
   },
   "deletedSuccessfully": {
-    "message": "تم حذفها بنجاح!",
+    "message": "تم الحذف بنجاح!",
     "description": "UA"
   },
   "delroleFrame": {
-    "message": "إعادة كنت متأكدا من أنك تريد حذف الفيديو وترجمات لهذه الحلقة من مقطع الفيديو؟",
+    "message": "هل أنت متأكد أنك تريد حذف الفيديو و الترجمة لهذه الحلقة من مقطع الفيديو؟\n",
     "description": "UA"
   },
   "demoAudio": {
-    "message": "مظاهرة الصوت",
+    "message": "شرح صوتي",
     "description": "UA"
   },
   "demonstrationPronunciation": {
-    "message": "مظاهرة مناصرة",
+    "message": "شرح النطق",
     "description": "UA"
   },
   "descriptionModule": {
-    "message": "وحدة الوصف",
+    "message": "وصف الوحدة",
     "description": "UA"
   },
   "deselect": {
-    "message": "الغاء تحديد",
+    "message": "غير مختار",
     "description": "UA"
   },
   "designatedTeacher": {
-    "message": "معلمة مُعيّنة",
+    "message": "المعلم المعين",
     "description": "UA"
   },
   "diffcult": {
-    "message": "صعبة جدا",
+    "message": "صعب جدا",
     "description": "UA"
   },
   "difficulty": {
-    "message": "صعوبه",
+    "message": "مستوى الصعوبة",
     "description": "UA"
   },
   "discipline": {
-    "message": "تصنيف الانضباط",
+    "message": "تصنيف التحصصات",
     "description": "UA"
   },
   "discountSettings": {
@@ -1036,63 +1024,63 @@
     "description": "UA"
   },
   "discuss": {
-    "message": "المناقشه",
+    "message": "المناقشة",
     "description": "UA"
   },
   "documenUploadFailTip": {
-    "message": "قد يحتوي المستند على فيديو أو صوت أو خطوط وتنسيقات خاصة، يمكنك التحقق منه وتعديله وإعادة تحميله.",
+    "message": "قد يحتوي المستند على مقاطع فيديو و صوت أو خطوط وتنسيقات خاصة، يمكنك التحقق و التعديل وإعادة الرفع.",
     "description": "UA"
   },
   "document": {
-    "message": "الوثائق",
+    "message": "المستندات",
     "description": "UA"
   },
   "documentBeingDisplayed": {
-    "message": "عرض المستندات. لحظة واحدة، من فضلك. . .",
+    "message": "عرض المستندات. يرجى الانظار...",
     "description": "UA"
   },
   "documentConversionFailed": {
-    "message": "فشل تحويل المستند!",
+    "message": "لم نتمكن من تحويل المستند!",
     "description": "UA"
   },
   "documentNotDisplayedReasons": {
-    "message": "قد يكون المستند غير المعروض للأسباب التالية:",
+    "message": "قد يرجع عدم عرض المستند إلى الأسباب التالية:",
     "description": "UA"
   },
   "down": {
-    "message": "الانتقال لأسفل",
+    "message": "حرك لأسفل",
     "description": "UA"
   },
   "download": {
-    "message": "تحميل",
+    "message": "تنزيل",
     "description": "UA"
   },
   "downloadFlashPlayer": {
-    "message": "تحميل مشغل فلاش",
+    "message": "تنزيل مشغل فلاش",
     "description": "UA"
   },
   "downloadingFlashPlayer": {
-    "message": "تحميل مسجل فلاش",
+    "message": "تنزيل مسجل فلاش",
     "description": "UA"
   },
   "draft": {
-    "message": "مشروع",
+    "message": "مسودة",
     "description": "UA"
   },
   "dragSort": {
-    "message": "إنشاء فصول، مقاطع، صفحات على اليسار وسحبها للفرز",
+    "message": "إنشاء فصول وأقسام وصفحات على اليسار وسحبها للترتيب",
     "description": "UA"
   },
   "dropdownChoiceQ": {
-    "message": "منسدلة متعددة",
+    "message": "قائمة منسدلة متعددة",
     "description": "UA"
   },
   "eachPageWordsTip": {
-    "message": "يجب ألا يتجاوز محتوى كل صفحة 60,000 كلمة. إذا تم لصق المحتوى من أداة التحرير الخاصة بـ جهة خارجية، فسيأخذ النمط أيضًا عددًا معينًا من مساحة الكلمات.",
+    "message": "يجب ألا يتجاوز محتوى كل صفحة 60.000 كلمة. إذا تم لصق المحتوى من أداة تعديل خارجية ، فسيشغل النمط أيضًا عددًا معينًا من مساحة الكلمات.",
     "description": "UA"
   },
   "eachQuestionScore": {
-    "message": "نقاط لكل سؤال",
+    "message": "درجة كل سؤال",
     "description": "UA"
   },
   "easy": {
@@ -1100,63 +1088,63 @@
     "description": "UA"
   },
   "edit": {
-    "message": "تحرير",
+    "message": "تعديل",
     "description": "UA"
   },
   "editCourse": {
-    "message": "تحرير المحتوى",
+    "message": "تعديل المحتوى",
     "description": "UA"
   },
   "editCourse1": {
-    "message": "تعديل الدورة",
+    "message": "تعديل المقرر",
     "description": "UA"
   },
   "editCourseContent": {
-    "message": "تحرير المحتوى",
+    "message": "تعديل المحتوى",
     "description": "UA"
   },
   "editQ": {
-    "message": "تحرير السؤال",
+    "message": "تعديل السؤال",
     "description": "UA"
   },
   "editQTip": {
-    "message": "(لا يمكنك تعديل الأسئلة التي أنشأها الآخرون)",
+    "message": "(لا يمكنك تعديل الأسئلة التي تم إنشاؤها بواسطة الآخرين)",
     "description": "UA"
   },
   "editSubtitle": {
-    "message": "تحرير الترجمة",
+    "message": "تعديل الترجمة",
     "description": "UA"
   },
   "editing": {
-    "message": "تحرير",
+    "message": "جار التعديل",
     "description": "UA"
   },
   "end": {
-    "message": "انتهت",
+    "message": "تم الإنهاء",
     "description": "UA"
   },
   "eneterAnswerFormat": {
-    "message": "يجب فصل إجابات متعددة من قبل رمز مائل مزدوج \" // \" // \" ، على سبيل المثال : بكين // عاصمة",
+    "message": "يجب فصل الإجابات المتعددة بشرطة مائلة مزدوجة \"//\" ، على سبيل المثال: بكين // العاصمة",
     "description": "UA"
   },
   "eneterChapterName": {
-    "message": "الرجاء إدخال اسم الفصل",
+    "message": "يرجى إدخال اسم الفصل",
     "description": "UA"
   },
   "enetrISBN": {
-    "message": "انقر لإدخال رقم ISBN",
+    "message": "انقر لإدخال ISBN",
     "description": "UA"
   },
   "english": {
-    "message": "الإنكليزية",
+    "message": "‏‏الإنجليزية",
     "description": "UA"
   },
   "enterAnswerAnalyze": {
-    "message": "الرجاء إدخال تحليل الإجابة",
+    "message": "انقر لإدخال شرح الإجابة",
     "description": "UA"
   },
   "enterAnswerTip": {
-    "message": "ملاحظة: الإجابات عن كل فراغ في هذا السؤال قابلة للتبديل، طالما أن المحتوى يتطابق بشكل صحيح.",
+    "message": "ملاحظة: الإجابات الخاصة بكل فراغ في هذا السؤال قابلة للتبديل ، طالما أن المحتوى يتطابق بشكل صحيح.",
     "description": "UA"
   },
   "enterArticleName": {
@@ -1164,7 +1152,7 @@
     "description": "UA"
   },
   "enterArticleNameErrTip": {
-    "message": "عنوان المادة يجب ألا يكون فارغاً ولا ينبغي أن يتجاوز 200 حرف.",
+    "message": "يجب ألا يكون عنوان المقال فارغًا ولا يزيد عن 200 حرف.",
     "description": "UA"
   },
   "enterArticleTitleSearch": {
@@ -1176,7 +1164,7 @@
     "description": "UA"
   },
   "enterAuthor": {
-    "message": "انقر لإدخال اسم الكاتب",
+    "message": "انقر لإدخال اسم المؤلف",
     "description": "UA"
   },
   "enterAuthorIntroduction": {
@@ -1184,27 +1172,27 @@
     "description": "UA"
   },
   "enterChapterOutline": {
-    "message": "الرجاء إدخال مخطط الفصل",
+    "message": "يرجى  إدخال مخطط الفصل",
     "description": "UA"
   },
   "enterContentPublicTip": {
-    "message": "الرجاء إدخال العنوان أولاً وتأكيد",
+    "message": "يرجى إدخال العنوان أولا و التأكيد",
     "description": "UA"
   },
   "enterCourseIntroduction": {
-    "message": "الرجاء إدخال مقدمة مفصلة",
+    "message": "يرجى إدخال مقدمة مفصلة",
     "description": "UA"
   },
   "enterCourseName": {
-    "message": "انقر لإدخال اسم برامج التدريب",
+    "message": "انقر لإدخال اسم المنهج",
     "description": "UA"
   },
   "enterDescriptionOrMaterial": {
-    "message": "الرجاء تعبئة وصف العنوان أو المادة والنقر على \"إضافة سؤال فرعي\".",
+    "message": "يرجى ملء وصف العنوان أو المادة والنقر على \"إضافة سؤال فرعي\".",
     "description": "UA"
   },
   "enterDiscountedPrice": {
-    "message": "الرجاء إدخال السعر المخفض",
+    "message": "يرى إدخال السعر المخفض",
     "description": "UA"
   },
   "enterDocKeywordSearch": {
@@ -1212,7 +1200,7 @@
     "description": "UA"
   },
   "enterFileNameErrTip": {
-    "message": "لا يمكن أن يكون اسم الملف فارغًا ويجب ألا يتجاوز 200 حرف",
+    "message": "لا يمكن أن يكون اسم الملف فارغا و ألا يتجاوز 200 حرف",
     "description": "UA"
   },
   "enterFlashKeywordSearch": {
@@ -1220,7 +1208,7 @@
     "description": "UA"
   },
   "enterFollowContent": {
-    "message": "يرجى تعبئة المحتوى بصوت عال",
+    "message": "يرجى تعبئة المحتوى المقروء بصوت مسموع",
     "description": "UA"
   },
   "enterFollowText": {
@@ -1228,15 +1216,7 @@
     "description": "UA"
   },
   "enterFollowTextErrorTip": {
-    "message": "الكلمات الصينية داخل محتوى التقييم",
-    "description": "UA"
-  },
-  "enterFollowTextPosition": {
-    "message": "لا.",
-    "description": "UA"
-  },
-  "enterFollowTextPosition1": {
-    "message": "لا.",
+    "message": "الكلمات الصينية موجودة داخل محتوى التقييم",
     "description": "UA"
   },
   "enterImgKeyword": {
@@ -1248,7 +1228,7 @@
     "description": "UA"
   },
   "enterInterpreterIntroduction": {
-    "message": "انقر لإدخال المترجم الحيوي",
+    "message": "انقر لإدخال السيرة الذاتية للمترجم",
     "description": "UA"
   },
   "enterItemContent": {
@@ -1264,27 +1244,27 @@
     "description": "UA"
   },
   "enterLink": {
-    "message": "الرجاء إدخال عنوان الرابط",
+    "message": "يرجى إدخال الرابط",
     "description": "UA"
   },
   "enterLinkErrTip": {
-    "message": "الرجاء إدخال عنوان الرابط الصحيح",
+    "message": "يرجى إدخال الرابط الصحيح",
     "description": "UA"
   },
   "enterMenuName": {
-    "message": "الرجاء إدخال اسم القائمة، حتى ثماني كلمات",
+    "message": "يرجى إدخال اسم القائمة ، بما لا يزيد عن 8  كلمات",
     "description": "UA"
   },
   "enterMenuNameErrTip": {
-    "message": "يرجى إدخال اسم القائمة، ما يصل إلى ثمانية أحرف صينية أو 16 حرفا",
+    "message": "يرجى إدخال اسم القائمة ، بما لا يزيد عن 8  أحرف صينية أو 16 حرف",
     "description": "UA"
   },
   "enterNewFileName": {
-    "message": "الرجاء إدخال اسم ملف جديد",
+    "message": "يرجى إدخال اسم ملف جديد",
     "description": "UA"
   },
   "enterPageName": {
-    "message": "الرجاء إدخال اسم الصفحة",
+    "message": "يرجى إدخال اسم الصفحة",
     "description": "UA"
   },
   "enterPrice": {
@@ -1292,15 +1272,15 @@
     "description": "UA"
   },
   "enterPriceErrorTip": {
-    "message": "الرجاء إدخال عدد صحيح و عشري",
+    "message": "يرجى إدخال عدد صحيح و عشري",
     "description": "UA"
   },
   "enterPublishMonthError": {
-    "message": "الرجاء إدخال شهر صالح",
+    "message": "يرجى إدخال شهر صالح",
     "description": "UA"
   },
   "enterPublishYearError": {
-    "message": "الرجاء إدخال سنة صالحة",
+    "message": "يرجى إدخال سنة صالحة",
     "description": "UA"
   },
   "enterPublisherName": {
@@ -1312,27 +1292,27 @@
     "description": "UA"
   },
   "enterReadContent": {
-    "message": "الرجاء إدخال النص قراءة المصدر، لا أكثر من 200 كلمة، لا الأحرف الصينية.",
+    "message": "يرجى إدخال نص القراءة بما لا يزيد عن 200 كلمة مع عدم وجود أحرف صينية.",
     "description": "UA"
   },
   "enterReferenceAnswer": {
-    "message": "الرجاء إدخال الإجابة المرجعية.",
+    "message": "يرجى إدخال إجابة مرجعية.",
     "description": "UA"
   },
   "enterSchoolName": {
-    "message": "يجب أن يكون اسم المدرسة",
+    "message": "يجب أن يكون اسم الأكاديمية",
     "description": "UA"
   },
   "enterSectionName": {
-    "message": "الرجاء إدخال اسم المقطع",
+    "message": "يرجى إدخال اسم القسم",
     "description": "UA"
   },
   "enterTagErrTip": {
-    "message": "تسمح العلامات بما يصل إلى 10 أحرف",
+    "message": "مسموح بما لا يزيد عن 10 علامات",
     "description": "UA"
   },
   "enterTagErrTip1": {
-    "message": "إضافة ما يصل إلى 3 علامات",
+    "message": "أضف ما لا يزيد عن 3 علامات",
     "description": "UA"
   },
   "enterTeacherNameSearch": {
@@ -1340,7 +1320,7 @@
     "description": "UA"
   },
   "enterText": {
-    "message": "انقر لإدخال الشرح التوضيحي والتعليمات والنصوص وما إلى ذلك.",
+    "message": "انقر لإدخال التعليق التوضيحي والتعليمات والنصوص إلخ.",
     "description": "UA"
   },
   "enterTextOfAudio": {
@@ -1352,23 +1332,23 @@
     "description": "UA"
   },
   "enterTextbookNameError": {
-    "message": "يجب أن يكون",
+    "message": "يجب أن",
     "description": "UA"
   },
   "enterTextbookNameErrorN": {
-    "message": "حرف(حرف)",
+    "message": "حروف",
     "description": "UA"
   },
   "enterTheMajorName": {
-    "message": "الرجاء إدخال الرئيسية المناسبة",
+    "message": "الرجاء إدخال التخصص المناسب",
     "description": "UA"
   },
   "enterTitle": {
-    "message": "الرجاء إدخال العنوان",
+    "message": " يرجى إدخال العنوان ",
     "description": "UA"
   },
   "enterTitleErrTip": {
-    "message": "يجب أن لا يكون العنوان فارغًا.",
+    "message": "يجب ألا يكون العنوان فارغا.",
     "description": "UA"
   },
   "enterTitleHere": {
@@ -1376,7 +1356,7 @@
     "description": "UA"
   },
   "enterTitleTip": {
-    "message": "الرجاء إدخال سؤال، انقر على إضافة سؤال فرعي لإدراج سؤال.",
+    "message": "يرجى إدخال سؤال، انقر على إضافة سؤال فرعي لإدراج سؤال.",
     "description": "UA"
   },
   "errorLoade": {
@@ -1388,11 +1368,11 @@
     "description": "UA"
   },
   "essayQ": {
-    "message": "سؤال ssay",
+    "message": "قل السؤال",
     "description": "UA"
   },
   "exampleText": {
-    "message": "انظر مثالاً",
+    "message": "انظر المثال",
     "description": "UA"
   },
   "exercise": {
@@ -1400,15 +1380,15 @@
     "description": "UA"
   },
   "exercisesNum": {
-    "message": "لا. من ممارسة",
+    "message": "رقم التدريب",
     "description": "UA"
   },
   "exitSaveRecordFaile2": {
-    "message": "إذا استمرّت في الإنهاء، قد لا يتم حفظ سجل التعلم في هذا القسم.",
+    "message": "إذا واصلت الخروج ، فقد لا يتم حفظ سجل التعلم في هذا القسم.",
     "description": "UA"
   },
   "exitSaveRecordFailed": {
-    "message": "الرجاء التحقق مما إذا كانت الشبكة متصلة بشكل صحيح، أو حاول التبديل إلى شبكة 4G قبل الخروج.",
+    "message": "يرجى التحقق مما إذا كانت الشبكة متصلة بشكل صحيح ، أو حاول التبديل إلى شبكة 4G قبل الخروج.",
     "description": "UA"
   },
   "expandAll": {
@@ -1432,27 +1412,27 @@
     "description": "UA"
   },
   "expiredCourseStudyTip": {
-    "message": "انتهت صلاحية هذه الفئة ويمكنك متابعة عرض محفوظات الدراسة السابقة، ولكن لن يتم حفظ السجلات الجديدة.",
+    "message": "انتهت صلاحية هذا الفصل الدراسي ويمكنك الاستمرار في عرض سجل الدراسة السابق ، ولكن لن يتم حفظ السجلات الجديدة.",
     "description": "UA"
   },
   "expiredCourseStudyTip2": {
-    "message": "انتهت مدة الفصل الحالي. يمكنك متابعة الاستعراض ولكن لن يتم حفظ السجلات.",
+    "message": "انتهت صلاحية وحدة التعلم. يمكنك متابعة التصفح ولكن لن يتم حفظ التعلم.",
     "description": "UA"
   },
   "expiredCourseStudyTipMobile": {
-    "message": "انتهت صلاحية هذه الفئة. يمكنك متابعة الاستعراض ولكن لن يتم حفظ السجلات..",
+    "message": "انتهت صلاحية هذا الفصل. يمكنك متابعة التصفح ولكن لن يتم حفظ السجلات..",
     "description": "UA"
   },
   "expiredCourseStudyTipMobile2": {
-    "message": "انتهت مدة صلاحية هذا المقطع. يمكنك متابعة الاستعراض ولكن لن يتم حفظ السجلات..",
+    "message": "لقد انتهت صلاحية هذا القسم. يمكنك متابعة التصفح ولكن لن يتم حفظ السجلات..",
     "description": "UA"
   },
   "expiredToken": {
-    "message": "الرمز المميز منتهي الصلاحية",
+    "message": "انتهت صلاحية الرمز",
     "description": "UA"
   },
   "explanation": {
-    "message": "تعليمات",
+    "message": "مساعدة",
     "description": "UA"
   },
   "explanationInfo": {
@@ -1460,23 +1440,23 @@
     "description": "UA"
   },
   "explanationInfo1": {
-    "message": "لا يمكن للطالب رؤية النص وسيقوم النظام بوضع علامة استناداً إلى هذا النص. يجب أن يكون النص والنطق متشابهين تماماً. على سبيل المثال، ينبغي أن يكتب عام 1996 في 1996. لا يتم اعتماد الأحرف الصينية.",
+    "message": "لا يمكن للطالب رؤية النص وسيقوم النظام بتمييزه استنادا إلى هذا النص. يجب أن يكون النص والنطق متطابقين تمامًا. على سبيل المثال ، يجب كتابة عام 1996 على أنه ألف و تسعمائة و ستة و تسعون. الأحرف الصينية غير مدعومة.",
     "description": "UA"
   },
   "failedReason": {
-    "message": "أسباب الفشل",
+    "message": "أسباب التعذر",
     "description": "UA"
   },
   "failedToDelete": {
-    "message": "فشل في الحذف، يحدث شذوذ",
+    "message": "لم نتمكن من الحذف، يحدث شيء ما خاطئ",
     "description": "UA"
   },
   "fileHandle": {
-    "message": "الملف قيد المعالجة، الرجاء الانتظار لحظة...",
+    "message": "الملف قيد المعالجة، يرجى الانتظار لحظة...",
     "description": "UA"
   },
   "fileNumLimit": {
-    "message": "تحميل على الأكثر في كل مرة",
+    "message": "تحميل في كل مرة على الأكثر",
     "description": "UA"
   },
   "fileNumLimit1": {
@@ -1488,51 +1468,51 @@
     "description": "UA"
   },
   "fileSizeLimit": {
-    "message": "يجب أن يكون الملف الذي تم تحميله أصغر من",
+    "message": "يجب أن يكون الملف الذي تم رفعه أصغر من",
     "description": "UA"
   },
   "fileUploadErr": {
-    "message": "فشل تهيئة مكون التحميل. الرجاء محاولة متصفح آخر. حل الآن.",
+    "message": "لم نتمكن من تهيئة مكون الرفع. يرجى تجربة متصفح آخر. الحل الآن.",
     "description": "UA"
   },
   "fileUploadFial": {
-    "message": "فشل التحميل",
+    "message": "لم نتمكن من الرفع",
     "description": "UA"
   },
   "fileUploadFinish": {
-    "message": "تم التحميل",
+    "message": "تم الرفع",
     "description": "UA"
   },
   "fileUploadFormatErr": {
-    "message": "تحميل الأخطاء ، ونوع الملف يتجاوز الحد!",
+    "message": "خطأ في الرفع، نوع الملف يتجاوز الحد!",
     "description": "UA"
   },
   "fileUploadNetErr": {
-    "message": "خطأ في التحميل، يرجى التحقق من حالة الملف أو الشبكة وحاول مرة أخرى في وقت لاحق!",
+    "message": "خطأ في الرفع، الرجاء التحقق من حالة الملف و الشبكة وحاول مرة أخرى في وقت لاحق!",
     "description": "UA"
   },
   "fileUploadSameErr": {
-    "message": "تحميل خطأ ، لا يمكنك تحميل نفس الملف!",
+    "message": "خطأ في الرفع، لا يمكنك رفع نفس الملف!",
     "description": "UA"
   },
   "fileUploadSizeErr": {
-    "message": "خطأ في التحميل ، يتجاوز حجم الملف الحد!",
+    "message": "خطأ في الرفع، حجم الملف أكبر من المسموح به!",
     "description": "UA"
   },
   "fillBlank": {
-    "message": "تعبئة الفراغ",
+    "message": "تعبئة الفراغات",
     "description": "UA"
   },
   "fillInBlank": {
-    "message": "اختبار كلوز",
+    "message": "إغلق الاختبار",
     "description": "UA"
   },
   "fillInTeacherTntroduction": {
-    "message": "انقر للدخول إلى السيرة الذاتية للمعلم",
+    "message": "انقر لإدخال السيرة الذاتية للمعلم",
     "description": "UA"
   },
   "finishChapterStudy": {
-    "message": "تهانينا على استكمال هذا الفصل",
+    "message": "تهانينا بإكمال هذا الفصل",
     "description": "UA"
   },
   "firstLevelMenu": {
@@ -1544,35 +1524,19 @@
     "description": "UA"
   },
   "flashForbiddenAccessMicrophone": {
-    "message": "لا يُسمح لفلاش بالوصول إلى الميكروفون. الرجاء حذف ملف mms.cfg يدوياً والمحاولة مرة أخرى.",
+    "message": "غير مسموح لفلاش بالوصول إلى الميكروفون. يرجى حذف ملف mms.cfg يدويًا والمحاولة مرة أخرى.",
     "description": "UA"
   },
   "flashNotAccessMicrophone": {
-    "message": "فلاش لا يمكن الوصول إلى الميكروفون، يرجى تعيين وظيفة",
+    "message": "لا يمكن لفلاش الوصول إلى الميكروفون ، يرجى الضبط",
     "description": "UA"
   },
   "flashStructureWrong": {
-    "message": "هيكل فلاش هو الخطأ",
-    "description": "UA"
-  },
-  "followEnterFollowTextErrorPosition": {
-    "message": "الصينية مدرجة في الفقرة من أجل التقييم",
-    "description": "UA"
-  },
-  "followEnterFollowTextPosition": {
-    "message": "الرجاء إدخال محتوى التقييم في الفقرة",
-    "description": "UA"
-  },
-  "followEnterFollowTextPosition1": {
-    "message": "الرجاء إدخال الإجابة المرجعية في الفقرة",
-    "description": "UA"
-  },
-  "followRatingReferenceTextErrorPosition": {
-    "message": "يتم تضمين اللغة الصينية في النص المرجعي لتسجيل النقاط",
+    "message": "بنية الفلاش خاطئة",
     "description": "UA"
   },
   "followReadingFormat": {
-    "message": "MP3 شكل، لا يزيد عن 3M",
+    "message": "صيغة Mp3، لا يزيد عن 3 ميغابايت",
     "description": "UA"
   },
   "followText": {
@@ -1580,7 +1544,7 @@
     "description": "UA"
   },
   "formatErr": {
-    "message": "تنسيق غير صحيح",
+    "message": "صيغة غير صحيحة",
     "description": "UA"
   },
   "formatFile": {
@@ -1588,31 +1552,27 @@
     "description": "UA"
   },
   "formulaCalc": {
-    "message": "الصيغة المحسوبة",
+    "message": "معادلة محسوبة",
     "description": "UA"
   },
   "free": {
-    "message": "الحره",
+    "message": "مجانا",
     "description": "UA"
   },
   "fullScreen": {
-    "message": "نمط الشاشة الكاملة",
+    "message": "نمط ملء الشاشة",
     "description": "UA"
   },
   "fullSubtitle": {
-    "message": "العنوان الفرعي الكامل",
-    "description": "UA"
-  },
-  "ge": {
-    "message": "العناصر",
+    "message": "الترجمة الكاملة",
     "description": "UA"
   },
   "generateFLASH": {
-    "message": "جينيرينغ فلاش...",
+    "message": "إنشاء فلاش...",
     "description": "UA"
   },
   "getCatalogError": {
-    "message": "خطأ في الحصول على مخطط تفصيلي",
+    "message": "خطأ في الحصول على المخطط",
     "description": "UA"
   },
   "getCourseDataError": {
@@ -1620,11 +1580,11 @@
     "description": "UA"
   },
   "getDataFormatErr": {
-    "message": "تنسيق البيانات التي تم الحصول عليها غير صحيح، يرجى الاتصال بخدمة العملاء",
+    "message": "تنسيق البيانات الذي تم الحصول عليه غير صحيح ، يرجى الاتصال بخدمة العملاء",
     "description": "UA"
   },
   "getFullScoreTip": {
-    "message": "لسؤال متعدد الخيارات، سيتم إعطاء علامات فقط عندما تكون الإجابات متطابقة تماما. لن يتم إعطاء علامات للإجابات الفائتة أو غير المختارة.",
+    "message": "بالنسبة لأسئلة الاختيار من متعدد ، سيتم إعطاء الدرجات فقط عندما تكون الإجابات متطابقة تمامًا. لن يتم إعطاء درجات للإجابات الفائتة أو المختارة بشكل خاطئ.\n",
     "description": "UA"
   },
   "getPageContentErr": {
@@ -1636,15 +1596,15 @@
     "description": "UA"
   },
   "getResourceError": {
-    "message": "خطأ في الحصول على الموارد",
+    "message": "خطأ في الحصول على المصدر",
     "description": "UA"
   },
   "getTeacherDataErr": {
-    "message": "خطأ في الحصول على بيانات المعلمين",
+    "message": "خطأ في الحصول على بيانات المعلم",
     "description": "UA"
   },
   "getUnitErr": {
-    "message": "خطأ في الحصول على وحدة",
+    "message": "خطأ في الحصول على الوحدة",
     "description": "UA"
   },
   "giveUpToFillIn": {
@@ -1652,35 +1612,35 @@
     "description": "UA"
   },
   "goToCheck": {
-    "message": "الذهاب تحقق",
+    "message": "الذهاب الاختيار",
     "description": "UA"
   },
   "gotIt": {
-    "message": "فهمت ذلك",
+    "message": "فهمت ذلك!",
     "description": "UA"
   },
   "grading": {
-    "message": "الدرجات",
+    "message": "التقييم",
     "description": "UA"
   },
   "haveChildMenu": {
-    "message": "يحتوي على القوائم الفرعية",
+    "message": "يحتوي على قوائم فرعية",
     "description": "UA"
   },
   "hello": {
-    "message": "مرحبًا",
+    "message": "مرحباً",
     "description": "UA"
   },
   "hidden": {
-    "message": "اخفاء",
+    "message": "إخفاء",
     "description": "UA"
   },
   "hideInWebsite": {
-    "message": "عدم العرض على الموقع",
+    "message": "لا يتم عرضها على الموقع",
     "description": "UA"
   },
   "hideMenu": {
-    "message": "قائمة إخفاء",
+    "message": "إخفاء القائمة",
     "description": "UA"
   },
   "hidePageTip": {
@@ -1692,19 +1652,19 @@
     "description": "UA"
   },
   "hideReason1": {
-    "message": "وقد وضعت المعلم خطة الدرس والطلاب يمكن أن تتعلم فقط محتوى هذه الصفحة خلال فترة زمنية محددة. يرجى الانتباه إلى إشعار المعلم عن وقت التعلم المحدد.",
+    "message": "وضع المعلم خطة للدرس ولا يمكن للطلاب تعلم محتوى هذه الصفحة إلا في غضون فترة زمنية محددة. يرجى الانتباه إلى إشعار المعلم لوقت التعلم المحدد.",
     "description": "UA"
   },
   "hideReason2": {
-    "message": "هذه الصفحة لا تحتاج إلى أن يتعلم، والمعلم الخاص بك قد خبأت الصفحة بشكل دائم。",
+    "message": "هذه الصفحة لا تحتاج إلى التعلم ، و قد قام معلمك بإخفاء الصفحة بشكل دائم",
     "description": "UA"
   },
   "hideReason3": {
-    "message": "يرجى استشارة المعلم لمعرفة الأسباب.",
+    "message": "يرجى استشارة معلمك لمعرفة الأسباب.",
     "description": "UA"
   },
   "highlights": {
-    "message": "مقطوره",
+    "message": "تمييز",
     "description": "UA"
   },
   "highlightsTip1": {
@@ -1712,19 +1672,19 @@
     "description": "UA"
   },
   "highlightsTip2": {
-    "message": "تنسيقات لدعم: mp4، mpg، mpeg، avi، rmvb، rm، wmv، وmov",
+    "message": "ندعم الصيغ: mp4،mpg، mpeg، avi، rmvb، rm، wmv و mov",
     "description": "UA"
   },
   "highlightsTip3": {
-    "message": "حتى 500 ميغابايت",
+    "message": "ما لا يزيد عن 500 ميغابايت",
     "description": "UA"
   },
   "highlightsTip4": {
-    "message": "البقاء على هذه الصفحة حتى يتم الانتهاء من تحميل الفيديو",
+    "message": "ابق على هذه الصفحة حتى يتم الانتهاء من رفع الفيديو",
     "description": "UA"
   },
   "home": {
-    "message": "الصفحه الرئيسيه",
+    "message": "الصفحة الرئيسية",
     "description": "UA"
   },
   "homeManage": {
@@ -1732,7 +1692,7 @@
     "description": "UA"
   },
   "homePage": {
-    "message": "الصفحه الرئيسيه",
+    "message": "الصفحة الرئيسية",
     "description": "UA"
   },
   "homePlate": {
@@ -1744,11 +1704,11 @@
     "description": "UA"
   },
   "hours1": {
-    "message": "ساعات",
+    "message": "الساعات",
     "description": "UA"
   },
   "iconExplanation": {
-    "message": "شرح الرمز",
+    "message": "أيقونة الشرح",
     "description": "UA"
   },
   "image": {
@@ -1760,11 +1720,11 @@
     "description": "UA"
   },
   "importExercise": {
-    "message": "سؤال ممارسة الاستيراد",
+    "message": "استيراد سؤال التمرين",
     "description": "UA"
   },
   "insertExercise": {
-    "message": "إدراج ممارسة",
+    "message": "إدراج تمارين",
     "description": "UA"
   },
   "insertFlash": {
@@ -1776,43 +1736,43 @@
     "description": "UA"
   },
   "insertQ": {
-    "message": "ادراج",
+    "message": "إدراج",
     "description": "UA"
   },
   "insertionPointPositionTip": {
-    "message": "يجب أن تكون نقطة الإدراج بين وقت البدء ووقت الانتهاء",
+    "message": "يجب أن يتم الإدراج بين وقت البدء و وقت الانتهاء",
     "description": "UA"
   },
   "institute": {
-    "message": "المدرسه",
+    "message": "الأكاديمية",
     "description": "UA"
   },
   "interpreter": {
-    "message": "Translator",
+    "message": "المترجم",
     "description": "UA"
   },
   "introductionLabel": {
-    "message": "نظره عامه",
+    "message": "‏‏نظرة عامة",
     "description": "UA"
   },
   "isBindingBanke": {
-    "message": "تم ربط هذه الدورة التدريبية بالصف التالي",
+    "message": "تم ربط هذا المقرر بالفصل التالي",
     "description": "UA"
   },
   "isTop": {
-    "message": "تعيين كما أعلى لزجة؟",
+    "message": "تعيين القبات في الأعلى ؟",
     "description": "UA"
   },
   "joinCourse": {
-    "message": "انضم إلى الدورة",
+    "message": "انضم إلى المقرر",
     "description": "UA"
   },
   "jpkTip": {
-    "message": "مصممة خصيصا لتلبية احتياجات دورات الجودة، والسماح للقوائم المخصصة، إضافة مقالات متعددة وصلات إلى مواقع ويب خارجية",
+    "message": "مصممة خصيصًا لتلبية احتياجات المقررات عالية الجودة ، وتسمح بقوائم مخصصة  وإضافة مقالات متعددة وروابط لمواقع ويب خارجية\n",
     "description": "UA"
   },
   "justSoSo": {
-    "message": "سهله",
+    "message": "سهل",
     "description": "UA"
   },
   "keepLeastTwoOptions": {
@@ -1820,11 +1780,11 @@
     "description": "UA"
   },
   "knowledgePoints": {
-    "message": "نقاط المعرفة/المهارات/أهداف التعلم",
+    "message": "درجات المعرفة/ المهارات/ أهداف التعلم",
     "description": "UA"
   },
   "konwComponentInstructions": {
-    "message": "أنا أفهم التعليمات لاستخدام مكونات تسجيل اللغة الإنجليزية الشفوية",
+    "message": "أفهم التعليمات الخاصة باستخدام عناصر تقييم اللغة الإنجليزية الشفوية",
     "description": "UA"
   },
   "kpDescription": {
@@ -1836,11 +1796,11 @@
     "description": "UA"
   },
   "kpNamePlaceholder": {
-    "message": "من المستحسن أن نقطة معارف واحدة فقط يمكن إدخالها في مربع الإدخال.",
+    "message": "يوصى بإدخال نقطة معرفة واحدة فقط في مربع الإدخال.",
     "description": "UA"
   },
   "largeDocuments": {
-    "message": "المستند كبير. يرجى الانتظار بصبر.",
+    "message": "المستند كبير. يرجى الانتظار.",
     "description": "UA"
   },
   "lastModified": {
@@ -1848,7 +1808,7 @@
     "description": "UA"
   },
   "lastModified1": {
-    "message": "آخر وقت تعديل",
+    "message": "آخر وقت تم فيه التعديل",
     "description": "UA"
   },
   "lastPage": {
@@ -1860,83 +1820,83 @@
     "description": "UA"
   },
   "lastUpdateTime": {
-    "message": "آخر تحديث الوقت",
+    "message": "آخر وقت للتحديث",
     "description": "UA"
   },
   "learnOtherPage": {
-    "message": "تعلم الصفحات الأخرى",
+    "message": "تعلم صفحات أخرى",
     "description": "UA"
   },
   "learningHours": {
-    "message": "ساعه",
+    "message": "ساعات",
     "description": "UA"
   },
   "learningOtherPages": {
-    "message": "اكتشف النظام أنك تستخدم العديد من الأجهزة أو المتصفحات للدراسة عبر الإنترنت.",
+    "message": "تم الكشف عن أن نفس الحساب يتعلم هذه الوحدة في جلسة أخرى / جهاز آخر.",
     "description": "UA"
   },
   "learningOtherPages2": {
-    "message": "يكتشف النظام أنك تتعلم صفحات أخرى، أو أن آخر صفحة قمت بدراسته لم تغلق بشكل صحيح.",
+    "message": "اكتشف النظام أنك تتعلم صفحات أخرى ، أو أن الصفحة الأخيرة التي درستها لم تغلق بشكل صحيح.",
     "description": "UA"
   },
   "leaveThePage": {
-    "message": "ترك هذه الصفحة",
+    "message": "مغادرة هذه الصفحة",
     "description": "UA"
   },
   "limitOneTeacher": {
-    "message": "الاحتفاظ بمعلومات معلم واحد على الأقل",
+    "message": "احتفظ بمعلومات مدرس واحد على الأقل",
     "description": "UA"
   },
   "limitTimeAnswer": {
-    "message": "الحد الزمني",
+    "message": "محدد بوقت",
     "description": "UA"
   },
   "link": {
-    "message": "الارتباط",
+    "message": "رابط",
     "description": "UA"
   },
   "listeningObjectiveQ": {
-    "message": "أسئلة أهداف الاستماع",
+    "message": "اسيمع إلى الأسئلة الموضوعية",
     "description": "UA"
   },
   "loadCourse": {
-    "message": "دورة التحميل",
+    "message": "تحميل المقرر",
     "description": "UA"
   },
   "loadCourseError": {
-    "message": "فشل تحميل محتوى الصفحة. الرجاء التحقق من إعدادات الشبكة أو إعادة التحميل.",
+    "message": "لم نتمكن من تحميل محتوى الصفحة. يرجى التحقق من إعدادات الشبكة أو إعادة التحميل.",
     "description": "UA"
   },
   "loadErr": {
-    "message": "تحميل غير طبيعي. الرجاء التحقق مما إذا كان قد تم تعيين المتصفح للسماح تحميل فلاش.",
+    "message": "يتعذر التحميل لسبب ما. يرجى التحقق مما إذا كان المتصفح قد تم ضبطه للسماح بتحميل الفلاش.",
     "description": "UA"
   },
   "loadErrReason": {
-    "message": "تحميل ابورمالي، والذي قد يكون سبب الأسباب التالية:",
+    "message": "يتعذر التحميل لسبب ما والذي قد يكون سببه أحد الأسباب التالية:",
     "description": "UA"
   },
   "loadFail": {
-    "message": "فشل التحميل",
+    "message": "لم نتمكن من التحميل ",
     "description": "UA"
   },
   "loadFinish": {
-    "message": "تم التحميل",
+    "message": "إكتمل التحميل",
     "description": "UA"
   },
   "loading": {
-    "message": "التحميل، يرجى الانتظار لحظة...",
+    "message": "تحميل، يرجى الانتظار لحظة...",
     "description": "UA"
   },
   "loadingWait": {
-    "message": "التحميل، يرجى الانتظار لحظة...",
+    "message": "تحميل، يرجى الانتظار لحظة...",
     "description": "UA"
   },
   "logout": {
-    "message": "الخروج",
+    "message": "تسجيل الخروج",
     "description": "UA"
   },
   "logoutTip": {
-    "message": "لديك سؤال لم يتم حفظه، هل أنت متأكد من إنهاء؟",
+    "message": "لديك سؤال لم يتم حفظه، هل تريد الخروج؟",
     "description": "UA"
   },
   "longestSupport": {
@@ -1944,23 +1904,23 @@
     "description": "UA"
   },
   "major": {
-    "message": "مجالات الموضوع",
+    "message": "مواضيع النقاش",
     "description": "UA"
   },
   "major1": {
-    "message": "مناسبة الرئيسية (ق)",
+    "message": "التخصص المناسب",
     "description": "UA"
   },
   "markRule": {
-    "message": "قواعد تسجيل النقاط",
+    "message": "قواعد منح الدرجات",
     "description": "UA"
   },
   "markRuleTip": {
-    "message": "مكون تسجيل اللغة الإنجليزية عن طريق الفم يقارن النص المدخل مع نطق المستخدم، وأنه الدرجات وفقا لنطق المستخدم. وفي الوقت الحاضر، هناك ثلاث طرق للتسجيل معتمدة: الكلمات/الجمل/الفقرات. ومن بينها، الحد الأقصى للمدة لتسجيل الكلمات هو 20s، والحد الأقصى للمدة من تسجيل الجملة هو 40s، والحد الأقصى للمدة من تسجيل الفقرات هو 180s. بعد الوصول إلى الحد الزمني وإذا كان المستخدم لديه'nt القراءة ، سيتم تسجيل جزء القراءة تلقائيا. الرجاء الانتباه إلى عدد النص الذي تم إدخاله. يتم تمرير الافتراضي من النظام 60 علامات. النظام سوف تظهر علامات ملونة خضراء عند ال eceeding 60 علامات. عندما أقل من 60 علامات، وسوف تظهر نظام علامات حمراء اللون.",
+    "message": "يُقارن مُكوِّن درجات اللغة الإنجليزية الشفوي النص المُدخَل بنطق المستخدم ، و يقيم وفقًا لنطق المستخدم. في الوقت الحالي ، يتم دعم ثلاث طرق لتسجيل النتائج: الكلمات / الجمل / الفقرات. من بينها ، أقصى مدة لاحتساب درجة الكلمة هي 20 ثانية ، وأقصى مدة لاحتساب درجة الجملة هي 40 ثانية ، وأقصى مدة لاحتساب درجة الفقرة 180 ثانية. بعد إنتهاء المدة الزمنية وإذا لم يكن المستخدم قد قرأ ، سيتم تسجيل جزء المقروء تلقائيًا. يرجى الانتباه إلى عدد النصوص التي تم إدخالها. درجة النجاح الافتراضية هي 60 درجة. سيعرض النظام علامات ملونة خضراء عند وضع 60 درجة. عندما تكون أقل من 60 درجة ، سيعرض النظام علامات حمراء اللون.\n",
     "description": "UA"
   },
   "materialAnalysisQ": {
-    "message": "سؤال تحليل المواد",
+    "message": "تحليل",
     "description": "UA"
   },
   "meansAnswersCorrectly": {
@@ -1972,7 +1932,7 @@
     "description": "UA"
   },
   "meansAnswersMissed": {
-    "message": "يشير إلى أن هذا الخيار هو الإجابة الصحيحة، ولكنه مفقود.",
+    "message": "يشير إلى أن هذا الخيار هو الإجابة الصحيحة ، لكنه مفقود.",
     "description": "UA"
   },
   "medium": {
@@ -1987,32 +1947,24 @@
     "message": "نوع القائمة",
     "description": "UA"
   },
-  "min": {
-    "message": "دقيقة (ق)",
-    "description": "UA"
-  },
   "modifyFail": {
-    "message": "فشل التعديل",
+    "message": " لم نتمكن من التعديل",
     "description": "UA"
   },
   "modifyThisQ": {
-    "message": "تحرير السؤال",
-    "description": "UA"
-  },
-  "month": {
-    "message": "الشهر",
+    "message": "تعديل السؤال",
     "description": "UA"
   },
   "more": {
-    "message": "اكثر",
+    "message": "المزيد",
     "description": "UA"
   },
   "moreDiffcult": {
-    "message": "الصعب",
+    "message": "صعب",
     "description": "UA"
   },
   "moreThanNunTip": {
-    "message": "الرجاء حذف المحتوى أو ضبط النمط قبل الحفظ.",
+    "message": "يرجى حذف المحتوى أو ضبط النموذج قبل الحفظ.",
     "description": "UA"
   },
   "move": {
@@ -2020,39 +1972,39 @@
     "description": "UA"
   },
   "moveDownThisQ": {
-    "message": "الانتقال إلى أسفل هذا السؤال",
+    "message": "حرك هذا السؤال لأسفل",
     "description": "UA"
   },
   "moveDownward": {
-    "message": "الانتقال لأسفل",
+    "message": "حرك لأسفل",
     "description": "UA"
   },
   "moveThisQUp": {
-    "message": "تحريك هذا السؤال لأعلى",
+    "message": "حرك هذا السؤال لأعلى",
     "description": "UA"
   },
   "moveUp": {
-    "message": "تحريك لأعلى",
+    "message": "حرك لأعلى",
     "description": "UA"
   },
   "multipleChoiceQ": {
-    "message": "استجابة متعددة",
+    "message": "إجابات متعددة",
     "description": "UA"
   },
   "multipleNoOrderBlanksQ": {
-    "message": "أسئلة تعبئة غير مرتبة متعددة",
+    "message": "أسئلة ملىء متعددة غير مرتبة",
     "description": "UA"
   },
   "myCourse": {
-    "message": "بلدي بالطبع",
+    "message": "مقرري",
     "description": "UA"
   },
   "myQ": {
-    "message": "بنك سؤالي",
+    "message": "بنك أسئلتي",
     "description": "UA"
   },
   "myQuestionBank": {
-    "message": "بنك سؤالي",
+    "message": "بنك أسئلتي",
     "description": "UA"
   },
   "name": {
@@ -2068,11 +2020,11 @@
     "description": "UA"
   },
   "noBankeTips": {
-    "message": "الفئة غير متوفرة، يرجى إدخال رمز الصحيح",
+    "message": "الفصل غير متوفر، يرجى إدخال الكود الصحيح",
     "description": "UA"
   },
   "noConnectionRecordingServer": {
-    "message": "لا يوجد اتصال بملقم التسجيل حتى الآن.",
+    "message": "لا يوجد اتصال بخادم التسجيل حتى الآن.",
     "description": "UA"
   },
   "noContent": {
@@ -2084,15 +2036,15 @@
     "description": "UA"
   },
   "noInnerBankeTips": {
-    "message": "لا توجد فصول على الإطلاق",
+    "message": "لا توجد فصول دراسية",
     "description": "UA"
   },
   "noQuestionTip": {
-    "message": "لا توجد أسئلة في إطار المخطط في الوقت الراهن. ~",
+    "message": "لا توجد أسئلة تحت المخطط في الوقت الراهن. ~",
     "description": "UA"
   },
   "noRecordingEquipmentFound": {
-    "message": "ولم يتم العثور على معدات تسجيل. رجاءً تحققي منه",
+    "message": "لم يتم العثور على معدات التسجيل. يرجى التحقق من ذلك.",
     "description": "UA"
   },
   "noResourceTip": {
@@ -2104,11 +2056,11 @@
     "description": "UA"
   },
   "noSelectQ": {
-    "message": "0 أسئلة مختارة",
+    "message": "تم اختيار 0 سؤال",
     "description": "UA"
   },
   "notCloseWindow": {
-    "message": "هناك ملف يتم تحميله ولا يمكن إغلاق النافذة!",
+    "message": "يوجد ملف يتم رفعه و لا يمكن إغلاق النافذة!",
     "description": "UA"
   },
   "notCreateOutline": {
@@ -2116,7 +2068,7 @@
     "description": "UA"
   },
   "notEditContentTip": {
-    "message": "لا يمكن تحرير المحتوى ضمن المخطط التفصيلي الأول والثانوي",
+    "message": "لا يمكن تعديل المحتوى ضمن المخطط الأول والثاني",
     "description": "UA"
   },
   "notExist": {
@@ -2124,15 +2076,15 @@
     "description": "UA"
   },
   "notFoundFlashtTip": {
-    "message": "لا يمكن العثور على أداة الفلاش الإضافية. يرجى التحقق من ما إذا كان تم تثبيت مشغل فلاش بشكل صحيح أو ما إذا كان تم حظر فلاش من قبل المتصفحات.",
+    "message": "لا يمكن العثور على ملحقات الفلاش. يرجى التحقق مما إذا تم تثبيت مشغل الفلاش بشكل صحيح أو ما إذا تم حظر الفلاش بواسطة المتصفحات.",
     "description": "UA"
   },
   "notHaveFlash": {
-    "message": "جهاز الكمبيوتر الخاص بك لا تثبيت أو تعطيل فلاش المكونات الإضافية، يرجى تأكيد。",
+    "message": "جهاز الكمبيوتر الخاص بك لا يقوم بتثبيت أو تعطيل ملحقات فلاش الإضافية ، يرجى التأكيد。",
     "description": "UA"
   },
   "notLearnMultiplePagesAtSameTime": {
-    "message": "لا تتعلم صفحات متعددة في نفس الوقت!",
+    "message": "لا تتعلم عدة صفحات في نفس الوقت！",
     "description": "UA"
   },
   "notMoreThan": {
@@ -2148,11 +2100,11 @@
     "description": "UA"
   },
   "notMoreThan20Options": {
-    "message": "لا يمكن تجاوز 20 خيار",
+    "message": "لا يمكن أن تتجاوز 20 خيار",
     "description": "UA"
   },
   "notOpenedCourse": {
-    "message": "لم تقم بعد بتنشيط الدورة، الرجاء الانضمام أو تنشيط الدورة أولاً.",
+    "message": "لم تقم بتنشيط المقرر بعد ، يرجى الانضمام إلى المقرر أو تنشيطها أولاً.",
     "description": "UA"
   },
   "notPlayFLashOnPhone": {
@@ -2164,7 +2116,7 @@
     "description": "UA"
   },
   "notShowBuyBtn": {
-    "message": "إخفاء زر الشراء/التسجيل",
+    "message": "إخفاء شراء / زر التسجيل",
     "description": "UA"
   },
   "notSupportChinese": {
@@ -2172,31 +2124,35 @@
     "description": "UA"
   },
   "notSupportPunctuation": {
-    "message": "بما في ذلك المساحات",
+    "message": "بما في ذلك المسافات",
     "description": "UA"
   },
   "notSupportType": {
-    "message": "هذا النوع غير معتمد",
+    "message": "لا ندعم هذا النوع",
     "description": "UA"
   },
   "notUpload10AtOnce": {
-    "message": "تحميل ما يصل إلى 10 مقاطع كل مرة",
+    "message": "رفع ما لا يزيد عن 10 مقاطع في كل مرة",
     "description": "UA"
   },
   "notUploadSameFile": {
-    "message": "لا يمكن تحميل نفس الملف",
+    "message": "لا يمكن رفع نفس الملف",
     "description": "UA"
   },
   "note": {
-    "message": "تنبيه",
+    "message": "إنذار",
+    "description": "UA"
+  },
+  "recoverRecordTip": {
+    "message": "لم يتم إرسال سجل التعلم الخاص بك ، هل تريد الإرسال الآن؟",
     "description": "UA"
   },
   "noteFollowTimeTip": {
-    "message": "الحد الأقصى لطول الكلمة / الجملة / الفقرة هو 20s/40s/120s، يرجى الانتباه إلى وقت القراءة.",
+    "message": "الحد الأقصى لطول الكلمة / الجملة / الفقرة هو 20 ثانية / 40 ثانية / 120 ثانية ، يرجى الانتباه إلى وقت القراءة.",
     "description": "UA"
   },
   "noteInfoTip": {
-    "message": "إذا كنت بحاجة إلى ملء الملاحظات، يرجى الذهاب إلى www.ulearning.asia، لا يزيد عن 100 كلمة.",
+    "message": "إذا كنت بحاجة إلى ملء الملاحظات، يرجى الانتقال إلى www.ulearning.asia، بما لا يزيد عن 100 كلمة.",
     "description": "UA"
   },
   "noted": {
@@ -2204,11 +2160,11 @@
     "description": "UA"
   },
   "notice": {
-    "message": "حذار!",
+    "message": " ",
     "description": "UA"
   },
   "number": {
-    "message": "لا.",
+    "message": "رقم",
     "description": "UA"
   },
   "oneColumns": {
@@ -2216,11 +2172,11 @@
     "description": "UA"
   },
   "onlineLearningPlatform": {
-    "message": "منصة التعلم عبر الإنترنت",
+    "message": "منصة تعلم عبر الإنترنت",
     "description": "UA"
   },
   "onlyUpload": {
-    "message": "للتحميل فقط",
+    "message": "للرفع فقط",
     "description": "UA"
   },
   "openEval": {
@@ -2228,27 +2184,27 @@
     "description": "UA"
   },
   "openEvalTip": {
-    "message": "انقر لإدخال وصف السيناريو والسياق لمحتوى الاختبار (مطلوب)",
+    "message": "انقر لإدخال وصف السيناريو والسياق لاختبار المحتوى (مطلوب)",
     "description": "UA"
   },
   "openSubtitle": {
-    "message": "إظهار العنوان الفرعي",
+    "message": "عرض الترجمة",
     "description": "UA"
   },
   "oralAddTip": {
-    "message": "لا يمكن أن يكون مكون تسجيل النقاط باللغة الإنجليزية الشفهية في نفس الصفحة مع الفيديو أو الممارسة أو لعب الأدوار. الرجاء إضافته إلى صفحة جديدة.",
+    "message": "لا يمكن أن يكون مكون درجات اللغة الإنجليزية الشفوي في نفس الصفحة مع الفيديو أو التمرين أو المسرحية. يرجى إضافته في صفحة جديدة.",
     "description": "UA"
   },
   "oralAddTipOne": {
-    "message": "يمكن إضافة اختبار اللغة الإنجليزية المنطوقة واحد فقط في الصفحة.",
+    "message": "يمكن إضافة اختبار واحد فقط لمنطوق للغة الإنجليزية لكل صفحة.",
     "description": "UA"
   },
   "oralReading": {
-    "message": "اللغة - قراءة بصوت عال",
+    "message": "اللغة - قراءة بصوت مسموع",
     "description": "UA"
   },
   "oralScoringComponentInstructions": {
-    "message": "تعليمات لاستخدام المكونات عن طريق الفم Englihs تسجيل",
+    "message": "تعليمات لاستخدام مكون درجات اللغة الإنجليزية الشفوي",
     "description": "UA"
   },
   "oralSubjective": {
@@ -2260,7 +2216,7 @@
     "description": "UA"
   },
   "other": {
-    "message": "الاخرين",
+    "message": "أخرى",
     "description": "UA"
   },
   "otherUnits": {
@@ -2268,7 +2224,7 @@
     "description": "UA"
   },
   "outsideLink": {
-    "message": "الروابط الخارجية",
+    "message": "روابط خارجية",
     "description": "UA"
   },
   "page1": {
@@ -2292,31 +2248,27 @@
     "description": "UA"
   },
   "pageCompletionCriteriaTip": {
-    "message": "إذا كان عدد المرات لقراءة بصوت عال الكلمات / الجمل / الفقرات تم تعيين وكان هناك أكثر من كلمة واحدة / جملة / فقرة في صفحة ، يطلب من الطلاب قراءة بصوت عال كل كلمة / جملة / فقرة تصل إلى عدد من المرات وفقا لمجموعة قياسية ، ثم النظام سوف يسجل أن الطالب قد أكمل تعلم الصفحة.",
+    "message": "إذا تم تعيين عدد مرات قراءة الكلمات / الجمل / الفقرات بصوت مسموع وكان هناك أكثر من كلمة / جملة / فقرة واحدة في الصفحة ، يتعين على الطلاب قراءة كل كلمة / جملة / فقرة بصوت مسموع حتى عدد عدد المرات وفقًا الصفة القياسية ، ثم يقوم النظام بتسجيل أن الطالب قد أكمل تعلم الصفحة.",
     "description": "UA"
   },
   "pageCompletionRules": {
-    "message": "قواعد لإكمال تعلم الصفحة",
+    "message": "قواعد إكمال التمرين",
     "description": "UA"
   },
   "pageCompletionTip": {
-    "message": "فقط عندما يصل عدد المرات التي يتم فيها قراءة كل كلمة / جملة / فقرة بصوت عال إلى عدد مرات محددة ، فإن النظام سيسجل أن الطالب قد أكمل دراسة الصفحة.",
+    "message": "سيتم تمييز التمرين والصفحة على أنهما \"مكتملان\" فقط إذا كنت قد بلغت الحد الأقصى من المحاولات المسموح بها.",
     "description": "UA"
   },
   "pageEditBy": {
-    "message": "يتم الآن تحرير الصفحة \"{page}\" بواسطة حساب \"{editor}\" هذا ، مما سيؤدي إلى تداخل المحتوى مع بعضها البعض.",
+    "message": "يتم الآن تعديل الصفحة \"{page}\" بواسطة هذا الحساب \"{editor}\" مما سيؤدي إلى تداخل المحتوى مع بعضها البعض.",
     "description": "UA"
   },
   "pageExercises": {
     "message": "تمرين الصفحة",
     "description": "UA"
   },
-  "pageHasBeen": {
-    "message": "لضمان دقة سجلات التعلم، تم إيقاف الصفحة مؤقتًا للتعلم في",
-    "description": "UA"
-  },
   "pageHasBeenEditedConfirmDelete": {
-    "message": "تم تحرير الصفحة الحالية. هل تريد بالتأكيد حذفه؟",
+    "message": "تم تعديل الصفحة الحالية. هل تريد حذفه؟",
     "description": "UA"
   },
   "pageNoContent": {
@@ -2328,55 +2280,51 @@
     "description": "UA"
   },
   "pageTurning": {
-    "message": "تحول الصفحة",
+    "message": "الصفحة التالية",
     "description": "UA"
   },
   "pageTurningTip": {
-    "message": "انقر على هذه المنطقة لتحويل الصفحة إلى الوراء",
+    "message": "انقر هنا للانتقال إلى الصفحة التالية.",
     "description": "UA"
   },
   "paragraphTip": {
-    "message": "انقر لإدخال محتوى الاختبار (مطلوب) - أفضل ل 200+ الكلمات الإنجليزية",
-    "description": "UA"
-  },
-  "participants": {
-    "message": "المشاركين",
+    "message": "انقر لإدخال محتوى الاختبار (مطلوب) - الأفضل إدخال أكثر من 200 كلمة باللغة الإنجليزية",
     "description": "UA"
   },
   "passageScore": {
-    "message": "الفقره",
+    "message": "فقرة",
     "description": "UA"
   },
   "performanceReport": {
-    "message": "تقرير النتائج",
+    "message": "تقرير النتيجة",
     "description": "UA"
   },
   "performanceReportTip": {
-    "message": "يتم احتساب إحصائيات نتيجة التمرين وفقًا لنقاط المعرفة ، فمن المستحسن استخدامها في نهاية كل فصل.",
+    "message": "يتم احتساب إحصائيات نتائج التمرين وفقا لنقاط المعرفة ، يوصى باستخدامها في نهاية كل فصل.",
     "description": "UA"
   },
   "personal": {
-    "message": "الخاصه",
+    "message": "خاص",
     "description": "UA"
   },
   "personalResource": {
-    "message": "المورد الشخصي",
+    "message": "مصدر شخصي",
     "description": "UA"
   },
   "pleaseBindBanke": {
-    "message": "الرجاء ربط الفئة أولاً.",
+    "message": "يرجى ربط الفصل أولا.",
     "description": "UA"
   },
   "pleaseChooseBanke": {
-    "message": "الرجاء تحديد الفئة أولاً.",
+    "message": "يرجى اختيار الفصل أولا",
     "description": "UA"
   },
   "position": {
-    "message": "موقف",
+    "message": "وضع",
     "description": "UA"
   },
   "pre": {
-    "message": "سابقه",
+    "message": "السابقة",
     "description": "UA"
   },
   "prePage": {
@@ -2384,19 +2332,19 @@
     "description": "UA"
   },
   "prepublish": {
-    "message": "ما قبل النشر",
+    "message": "قبل النشر",
     "description": "UA"
   },
   "preview": {
-    "message": "معاينه",
+    "message": "معاينة",
     "description": "UA"
   },
   "previewCourse": {
-    "message": "معاينه",
+    "message": "معاينة",
     "description": "UA"
   },
   "price": {
-    "message": "الاسعار",
+    "message": "سعر",
     "description": "UA"
   },
   "progressBarNotDragged": {
@@ -2404,11 +2352,11 @@
     "description": "UA"
   },
   "prviewRoleTips": {
-    "message": "يرجى إعداد دورك وتحميل مقطع الفيديو قبل الذهاب للمعاينة كاملة.",
+    "message": "يرجى إعداد لدورك و رفع مقطع الفيديو قبل الذهاب للمعاينة الكاملة.",
     "description": "UA"
   },
   "publicCourse": {
-    "message": "دورات مفتوحة",
+    "message": "مقررات دراسية مفتوحة",
     "description": "UA"
   },
   "publish": {
@@ -2416,7 +2364,7 @@
     "description": "UA"
   },
   "publishConfirm": {
-    "message": "هل تريد بالتأكيد نشر هذه البرامج الدراسية؟",
+    "message": "هل أنت متأكد أنك تريد نشر هذا المنهج؟",
     "description": "UA"
   },
   "publishCourse": {
@@ -2428,7 +2376,7 @@
     "description": "UA"
   },
   "publishPosition": {
-    "message": "الموقع المنشور",
+    "message": "وضع ما تم نشره",
     "description": "UA"
   },
   "publishSite": {
@@ -2436,23 +2384,23 @@
     "description": "UA"
   },
   "publishSubmitTip1": {
-    "message": "يرجى ملء المعلومات الأساسية والمقدمة ذات الصلة للدورة قبل النشر",
+    "message": "يرجى ملء المعلومات الأساسية و مقدمة ذات الصلة بالمقرر قبل النشر",
     "description": "UA"
   },
   "publishSubmitTip2": {
-    "message": "لا يمكن لأعضاء الفريق تعبئة وحفظ",
+    "message": "لا يمكن لأعضاء الفريق الملء و الحفظ",
     "description": "UA"
   },
   "publishSubmitTip3": {
-    "message": "لم يتم ملء وصف مفصل وحفظه",
+    "message": "لم يتم ملء الوصف التفصيلي وحفظه",
     "description": "UA"
   },
   "publishSubmitTip4": {
-    "message": "إنشاء الفصل أولاً وحفظه",
+    "message": "قم بإنشاء الفصل وحفظه أولا",
     "description": "UA"
   },
   "publishSubmitTip5": {
-    "message": "لم يتم تحميل أي مقطع فيديو إلى المقطع/ المقطع، يرجى تحميله أولاً ثم نشر",
+    "message": "لم يتم رفع أي مقطع فيديو للفصل / للقسم ، يرجى رفعه أولاً ثم النشر",
     "description": "UA"
   },
   "publishTime": {
@@ -2460,11 +2408,11 @@
     "description": "UA"
   },
   "published": {
-    "message": "نشر",
+    "message": "تم النشر",
     "description": "UA"
   },
   "publishedInfo": {
-    "message": "المنشور",
+    "message": "النشر",
     "description": "UA"
   },
   "publishedOn": {
@@ -2472,7 +2420,7 @@
     "description": "UA"
   },
   "publishedTextbookTips": {
-    "message": "نشرت ككتاب تفاعلي",
+    "message": "تم نشرها ككتاب دراسي تفاعلي",
     "description": "UA"
   },
   "publisher": {
@@ -2480,39 +2428,31 @@
     "description": "UA"
   },
   "qualityCourseSystem": {
-    "message": "نظام إدارة لموقع الدورة التدريبية عالي الجودة",
+    "message": "نظام إدارة لموقع المقررات عالية الجودة",
     "description": "UA"
   },
   "question": {
-    "message": "سؤال(أسئلة)",
+    "message": "الأسئلة",
     "description": "UA"
   },
   "questionCorrectRate": {
-    "message": "ممارسة معدل دقة الإجابة:",
+    "message": "معدل دقة الإجابة على التمرين:",
     "description": "UA"
   },
   "questionID": {
-    "message": "معرف السؤال:",
+    "message": "كود السؤال:",
     "description": "UA"
   },
   "questionId": {
-    "message": "عدد:",
+    "message": "رقم:",
     "description": "UA"
   },
   "questionNum": {
-    "message": "لا. من الأسئلة",
-    "description": "UA"
-  },
-  "questions": {
-    "message": "سؤال(أسئلة)",
-    "description": "UA"
-  },
-  "questionsError": {
-    "message": "الأسئلة التي بها خطأ في البيانات",
+    "message": "سؤال رقم",
     "description": "UA"
   },
   "questionsNotCompleted": {
-    "message": "لا تزال هناك بعض الأسئلة في هذه الصفحة لم تكتمل بعد.,",
+    "message": "لا تزال هناك بعض الأسئلة في هذه الصفحة لم تكتمل بعد.",
     "description": "UA"
   },
   "questionsResultsTip": {
@@ -2520,15 +2460,15 @@
     "description": "UA"
   },
   "quitLearning": {
-    "message": "إنهاء التعلم",
+    "message": "الخروج من التعلم",
     "description": "UA"
   },
   "quitLearningTip": {
-    "message": "انقر هنا لإنهاء التعلم والعودة إلى قائمة الفصول من المقرر الدراسي.",
+    "message": "انقر على \"خروج\" لإيقاف التعلم والعودة إلى قائمة الوحدات للمقرر الدراسي.",
     "description": "UA"
   },
   "quoteFile": {
-    "message": "ملفات عرض الأسعار",
+    "message": "ملفات الاقتباس",
     "description": "UA"
   },
   "ratingReferenceText": {
@@ -2536,7 +2476,7 @@
     "description": "UA"
   },
   "ratingReferenceTextErrorTip": {
-    "message": "تأكد من إدخال اللغة الإنجليزية فقط",
+    "message": "تأكد من إدخال لغة إنجليزية فقط",
     "description": "UA"
   },
   "reSetSubtitle": {
@@ -2544,11 +2484,11 @@
     "description": "UA"
   },
   "readAnswerRule": {
-    "message": "قراءة قواعد الإجابة بعناية، انقر فوق هذا الزر لبدء الإجابة على الأسئلة.",
+    "message": "اقرأ قواعد الإجابة بعناية ، انقر فوق هذا الزر لبدء الإجابة على الأسئلة.",
     "description": "UA"
   },
   "readOriginal": {
-    "message": "قراءة النص الأصلي بصوت عالٍ",
+    "message": "قراءة النص بصوت مسموع",
     "description": "UA"
   },
   "recommendedLearningHours": {
@@ -2559,20 +2499,16 @@
     "message": "ساعات التعلم الموصى بها",
     "description": "UA"
   },
-  "recordTime": {
-    "message": "الوقت المسموح به للتسجيل",
-    "description": "UA"
-  },
   "recordingTime": {
     "message": "مدة التسجيل",
     "description": "UA"
   },
   "recordingTimeDescription": {
-    "message": "أطول مدة تسجيل للطلاب لدور تشغيل الحلقة. سيتم إنهاء التسجيل تلقائياً عندما يتجاوز المدة المحددة.",
+    "message": "أطول مدة تسجيل للطلاب لتقمص الدوربالحلقة. سيتم إنهاء التسجيل تلقائيًا عند تجاوز المدة المحددة.",
     "description": "UA"
   },
   "redo": {
-    "message": "اعاده المحاوله",
+    "message": "إعادة المحاولة",
     "description": "UA"
   },
   "referenceAnswer": {
@@ -2580,35 +2516,35 @@
     "description": "UA"
   },
   "refreshSessionFail": {
-    "message": "فشل تحديث صلاحية جلسة العمل",
+    "message": "لم نتمكن من تحديث صلاحية الجلسة",
     "description": "UA"
   },
   "refreshSessionSuccess": {
-    "message": "صحة جلسة العمل التي تم تحديثها بنجاح",
+    "message": "تم تحديث صلاحية الجلسة بنجاح",
     "description": "UA"
   },
   "reload": {
-    "message": "تحديث",
+    "message": "إعادة التحميل",
     "description": "UA"
   },
   "remove": {
-    "message": "ازاله",
+    "message": "إزالة",
     "description": "UA"
   },
   "removeSuccessfully": {
-    "message": "تمت إزالتها بنجاح!",
+    "message": "تمت الإزالة بنجاح!",
     "description": "UA"
   },
   "removed": {
-    "message": "ازاله",
+    "message": "تمت الإزالة",
     "description": "UA"
   },
   "rename": {
-    "message": "اعاده تسميه",
+    "message": "إعادة تسمية",
     "description": "UA"
   },
   "return": {
-    "message": "عودة",
+    "message": "رجوع",
     "description": "UA"
   },
   "replaceVideo": {
@@ -2616,27 +2552,27 @@
     "description": "UA"
   },
   "reportEditTip": {
-    "message": "اقتراحات للتصميم التعليمي: وفقا لأهداف التعلم الأولي، بعد الانتهاء من محتوى التدريس، يمكنك تعيين أسئلة الاختبار المقابلة. فمن ناحية، يمكن أن يساعد المتعلمين على تعزيز معرفتهم في الوقت المناسب. ومن ناحية أخرى، ووفقا للنتائج النهائية، يمكن أن تكشف ما إذا كان المتعلمون قد استوفوا متطلبات أهداف التعلم، حتى يتمكن الطلاب من مراجعة هذه الأهداف بشكل وثيق. يمكن إضافة أداة تقرير النتائج في نهاية كل وحدة. يمكنك إعداد نقاط المعرفة لهذه الوحدة والتمارين المقابلة. النظام سوف توفر التغذية المرتدة للطلاب على معدل دقة الإجابة من كل نقطة المعرفة وفقا لذلك.",
+    "message": "اقتراحات للتصميم التعليمي: وفقًا لأهداف التعلم الأولية ، بعد الانتهاء من محتوى التدريس ، يمكنك تعيين أسئلة الاختبار المقابلة من ناحية و يمكن أن يساعد المتعلمين على تقوية معارفهم في الوقت المناسب. من ناحية أخرى ، وفقًا للنتائج النهائية ، يمكن للمعلم اكتشاف ما إذا كان المتعلمون قد استوفوا متطلبات أهداف التعلم ، حتى يتمكن الطلاب من المراجعة بشكل مناسب. يمكن إضافة أداة تقرير النتائج في نهاية كل وحدة. يمكنك إعداد النقاط المعرفية لهذه الوحدة والتمارين المقابلة لها. سيقدم النظام ملاحظات للطلاب حول معدل دقة الإجابة لكل نقطة معرفة وفقًا لذلك.",
     "description": "UA"
   },
   "reportTip": {
-    "message": "ملاحظة: هذه الإحصائيات هي للإشارة فقط. يتم تحديد إحصائيات التمرين من قبل مصمم الدورة التدريبية. وليس من الضروري أن يكون هذا الفصل هو ممارسة. لا يمثل النتيجة النهائية.",
+    "message": "ملاحظة: هذه الإحصائيات للرجوع إليها فقط. يتم تحديد إحصاءات التمرين من قبل مصمم المقرر الدراسي. وليس بالضرورة التدرب على هذا الفصل. وهو لا يمثل النتيجة النهائية.",
     "description": "UA"
   },
   "returnToCourseSection": {
-    "message": "العودة إلى فصل الدورة",
+    "message": "العودة إلى قائمة الوحدات",
     "description": "UA"
   },
   "reviewStatusApproved": {
-    "message": "مرت",
+    "message": "ناجح",
     "description": "UA"
   },
   "reviewStatusIng": {
-    "message": "قيد الاستعراض",
+    "message": "قيد المراجعة",
     "description": "UA"
   },
   "reviewStatusRejected": {
-    "message": "رفض",
+    "message": "تم الرفض",
     "description": "UA"
   },
   "roleName": {
@@ -2644,23 +2580,23 @@
     "description": "UA"
   },
   "roleNoAdd": {
-    "message": "لا يمكن عرض تشغيل الأدوار على نفس الصفحة مثل المكونات الأخرى. الرجاء إضافة دور إلى صفحة جديدة.",
+    "message": "لا يمكن عرض المسرحية على نفس الصفحة مثل المكونات الأخرى. يرجى إضافة المسرحية إلى صفحة جديدة.",
     "description": "UA"
   },
   "roleOrder": {
-    "message": "الرجاء إعادة تعيين ترتيب الدور",
+    "message": "يرجى إعادة تعيين ترتيب الدور",
     "description": "UA"
   },
   "roleSampleTitle": {
-    "message": "اسم الفصل -> اسم المقطع",
+    "message": "اسم الفصل -> اسم القسم",
     "description": "UA"
   },
   "roleimg": {
-    "message": "الشخصية الرمزية",
+    "message": "الصورة الرمزية الخاصة بك",
     "description": "UA"
   },
   "sampleRolePlay": {
-    "message": "نموذج لعب الأدوار",
+    "message": "مقطع من المسرحية",
     "description": "UA"
   },
   "save": {
@@ -2672,15 +2608,15 @@
     "description": "UA"
   },
   "saveFail": {
-    "message": "فشل في الحفظ!",
+    "message": "لم نتنكن من الحفظ",
     "description": "UA"
   },
   "saveFail1": {
-    "message": "فشل في الحفظ!",
+    "message": "لم نتنكن من الحفظ",
     "description": "UA"
   },
   "saveRecordFailed": {
-    "message": "فشل في حفظ سجلات التعلم",
+    "message": "لم نتمكن من حفظ سجلات التعلم",
     "description": "UA"
   },
   "saveRecordFailedText1": {
@@ -2688,7 +2624,7 @@
     "description": "UA"
   },
   "saveRecordFailedText2": {
-    "message": "فشل في حفظ سجلات تعلم المقطع",
+    "message": "لم نتمكن من حفظ سجلات تعلم القسم",
     "description": "UA"
   },
   "saveRecords": {
@@ -2696,7 +2632,7 @@
     "description": "UA"
   },
   "saveRoleError": {
-    "message": "فشل الحفظ، حدث خطأ",
+    "message": "لم نتمكن من الحفظ، حدث خطأ",
     "description": "UA"
   },
   "saveRoletip": {
@@ -2704,35 +2640,31 @@
     "description": "UA"
   },
   "savedSuccessfully": {
-    "message": "تم حفظها بنجاح!",
+    "message": "تم الحفظ بنجاح!",
     "description": "UA"
   },
   "savingEdit": {
-    "message": "حفظ المحتوى الذي تم تحريره حديثًا",
+    "message": "حفظ المحتوى الذي تم تعديله حديثًا",
     "description": "UA"
   },
   "schoolCurriculumWebsite": {
-    "message": "بوابة التعليم المدرسي",
+    "message": "بوابة تعليم أكاديمية  ULearning",
     "description": "UA"
   },
   "schoolQuestionBank": {
-    "message": "بنك أسئلة المدرسة",
+    "message": "بنك أسئلة الأكاديمية",
     "description": "UA"
   },
   "schoolTeacher": {
-    "message": "معلمة مدرسة",
-    "description": "UA"
-  },
-  "score": {
-    "message": "نقطة (نقاط)",
+    "message": "معلم الأكاديمية",
     "description": "UA"
   },
   "scoreModels": {
-    "message": "نموذج تسجيل النقاط",
+    "message": "نموذج احتساب الدرجات",
     "description": "UA"
   },
   "search": {
-    "message": "البحث",
+    "message": "بحث",
     "description": "UA"
   },
   "searchByKeyword": {
@@ -2752,7 +2684,7 @@
     "description": "UA"
   },
   "second": {
-    "message": "الثانية (ق)",
+    "message": "ثانية",
     "description": "UA"
   },
   "secondLevelMenu": {
@@ -2768,35 +2700,35 @@
     "description": "UA"
   },
   "sectionName": {
-    "message": "اسم المقطع",
+    "message": "اسم القسم",
     "description": "UA"
   },
   "sectionSubtitle": {
-    "message": "ترجمة القسم",
+    "message": "قسم الترجمة",
     "description": "UA"
   },
   "sectionUnfinishedPage": {
-    "message": "لم يتم إكمال الصفحات التالية من هذا المقطع",
+    "message": "لم تكتمل الصفحات التالية من هذا القسم",
     "description": "UA"
   },
   "seeSample": {
-    "message": "عرض عينة",
+    "message": "عرض لنموذج",
     "description": "UA"
   },
   "select": {
-    "message": "الرجاء اختيار",
+    "message": "الرجاء الاختيار",
     "description": "UA"
   },
   "selectAll": {
-    "message": "حدد الكل",
+    "message": "إختيار الكل",
     "description": "UA"
   },
   "selectAllQuestions": {
-    "message": "تحديد الكل في هذه الصفحة",
+    "message": "اختر الكل في هذه الصفحة",
     "description": "UA"
   },
   "selectAndCreateQ": {
-    "message": "تحديد أسئلة الاختبار وإنشاءها",
+    "message": "أختر أسئلة الاختبار وقم بإنشاءها",
     "description": "UA"
   },
   "selectAudio": {
@@ -2804,15 +2736,15 @@
     "description": "UA"
   },
   "selectAudioFirst": {
-    "message": "الرجاء اختيار الصوت أولاً",
+    "message": "يرجى اختيار الصوت أولا",
     "description": "UA"
   },
   "selectBackgroundImage": {
-    "message": "تحديد صورة الخلفية",
+    "message": "اختر صورة الخلفية",
     "description": "UA"
   },
   "selectBackgroundPicture": {
-    "message": "تحديد صور الخلفية",
+    "message": "اختر صور الخلفية",
     "description": "UA"
   },
   "selectCategory": {
@@ -2820,23 +2752,23 @@
     "description": "UA"
   },
   "selectColumns": {
-    "message": "حدد التخطيط",
+    "message": "اختر التخطيط",
     "description": "UA"
   },
   "selectColumnsTip": {
-    "message": "يتم تطبيق تخطيط عمودين على الكمبيوتر الشخصي فقط، وليس على تطبيق الجوّال.",
+    "message": "يتم تطبيق تخطيط العمودين على الكمبيوتر قط، وليس على تطبيق الجوال.",
     "description": "UA"
   },
   "selectComponent": {
-    "message": "حدد مكونًا على الجانب الأيمن لبدء إنشاء محتوى المقرر الدراسي",
+    "message": "اختر المكون من على الجانب الأيمن لبدء إنشاء محتوى المقرر",
     "description": "UA"
   },
   "selectCourseAndUnit": {
-    "message": "الرجاء اختيار المقررات والوحدات ذات الصلة",
+    "message": "يرجى اختيار المقررات والوحدات ذات الصلة",
     "description": "UA"
   },
   "selectCourseFirst": {
-    "message": "الرجاء اختيار الدورة",
+    "message": "يرجى اختيار المقرر",
     "description": "UA"
   },
   "selectDocument": {
@@ -2844,107 +2776,107 @@
     "description": "UA"
   },
   "selectDocumentFirst": {
-    "message": "الرجاء تحديد المستند أولاً",
+    "message": "يرجى اختيار المستند أولا",
     "description": "UA"
   },
   "selectEdit": {
-    "message": "إضافة/تحرير",
+    "message": "إضافة/تعديل",
     "description": "UA"
   },
   "selectFile": {
-    "message": "تحديد ملف",
+    "message": "إختيار الملف",
     "description": "UA"
   },
   "selectFlash": {
-    "message": "حدد فلاش",
+    "message": "اختر فلاش",
     "description": "UA"
   },
   "selectFlashFirst": {
-    "message": "الرجاء تحديد FLASH أولاً.",
+    "message": "يرجى اختيار فلاش أولا.",
     "description": "UA"
   },
   "selectImg": {
-    "message": "تحديد صورة",
+    "message": "اختر صورة",
     "description": "UA"
   },
   "selectImgFirst": {
-    "message": "الرجاء تحديد الصورة أولاً",
+    "message": "يرجى اختيار الصورة أولا",
     "description": "UA"
   },
   "selectOneFolderTip": {
-    "message": "الرجاء تحديد المجلد",
+    "message": "يرجى اختيار المجلد",
     "description": "UA"
   },
   "selectPageFirst": {
-    "message": "تحديد الصفحة أولاً",
+    "message": "اختر الصفحة أولا",
     "description": "UA"
   },
   "selectPublishMonth": {
-    "message": "الرجاء تحديد شهر المنشور",
+    "message": "يرجى اختيار شهر النشر",
     "description": "UA"
   },
   "selectPublishYear": {
-    "message": "الرجاء تحديد سنة النشر",
+    "message": "يرجى اختيار سنة النشر",
     "description": "UA"
   },
   "selectQ": {
-    "message": "تحديد أسئلة الاختبار",
+    "message": "اختر أسئلة الاختبار",
     "description": "UA"
   },
   "selectQuestionTip": {
-    "message": "ملاحظة: هذه القائمة تظهر فقط أسئلة موضوعية (اختيار واحد، اختيار متعددة، والحكم، والفرز، وملء الفراغات، وملء المفردات في الفراغات، واختيار المنسدلة)",
+    "message": "ملاحظة: تعرض هذه القائمة أسئلة موضوعية فقط (اختيار فردي ، اختيار متعدد ، صدار حكم ، ترتيب، ملء الفراغات ، تعبئة المفردات في الفراغات ، تحديد من القائمة المنسدلة)",
     "description": "UA"
   },
   "selectQuestionType": {
-    "message": "الرجاء تحديد نوع السؤال لإضافه",
+    "message": "يرجى اختيار نوع السؤال لإضافتها",
     "description": "UA"
   },
   "selectSchool": {
-    "message": "انقر لإدخال اسم المدرسة",
+    "message": "انقر لإدخال اسم الاكاديمية",
     "description": "UA"
   },
   "selectTeacher": {
-    "message": "تحديد المعلم",
+    "message": "إختر معلم",
     "description": "UA"
   },
   "selectThisQuestion": {
-    "message": "حدد",
+    "message": "إختر",
     "description": "UA"
   },
   "selectUnit": {
-    "message": "الرجاء اختيار الوحدة",
+    "message": "يرجى اختيار وحدة",
     "description": "UA"
   },
   "selectUnitTip": {
-    "message": "حدد دورات من اليسار للحصول على الوحدات",
+    "message": "اختر المقررات من اليسار للحصول على وحدات",
     "description": "UA"
   },
   "selectVideo": {
-    "message": "حدد فيديو",
+    "message": "اختر فيديو",
     "description": "UA"
   },
   "selectVideoFirst": {
-    "message": "الرجاء اختيار الفيديو أولاً",
+    "message": "يرجى اختيار الفيديو أولا",
     "description": "UA"
   },
   "selected": {
-    "message": "المحدد",
+    "message": "تم الأختيار",
     "description": "UA"
   },
   "selectedTeacher": {
-    "message": "معلمين مختارين",
+    "message": "المعلمون المختارون",
     "description": "UA"
   },
   "semesterManage": {
-    "message": "فصول دراسيه",
+    "message": "تيرمات",
     "description": "UA"
   },
   "sentenceScore": {
-    "message": "الجمله",
+    "message": "الجملة",
     "description": "UA"
   },
   "sentenceTip": {
-    "message": "انقر لإدخال محتوى الاختبار (مطلوب) - أفضل لمدة تصل إلى 200 كلمة إنجليزية",
+    "message": "انقر لإدخال محتوى الاختبار (مطلوب) - الأفضل إدخال ما لا يزيد عن 200 كلمة باللغة الإنجليزية",
     "description": "UA"
   },
   "set": {
@@ -2952,15 +2884,15 @@
     "description": "UA"
   },
   "setAuditionChapter": {
-    "message": "حدد معاينة المحتوى",
+    "message": "اختر معاينة المحتوى",
     "description": "UA"
   },
   "setCommonlyUsedQuestions": {
-    "message": "تعيين الأسئلة الشائعة الاستخدام",
+    "message": "إعداد الأسئلة شائعة الاستخدام",
     "description": "UA"
   },
   "setLimitTimeAnswerCondition": {
-    "message": "يمكنك تعيين حد زمني للصفحات التي لها أسئلة تمرين فقط.",
+    "message": "يمكنك تعيين المهلة زمنية فقط للصفحات التي بها أسئلة أو تمرين.",
     "description": "UA"
   },
   "setNumOfreads": {
@@ -2968,15 +2900,15 @@
     "description": "UA"
   },
   "setPrice": {
-    "message": "تحديد السعر",
+    "message": "تعيين السعر",
     "description": "UA"
   },
   "setStudyTimeTip": {
-    "message": "يمكنك تعيين حد زمني بإدخال عدد الدقائق والثواني التي يتعين على الطلاب إكمال الصفحة بها أسئلة حول التمارين الرياضية.",
+    "message": "يمكنك تعيين المهلة زمنية عن طريق إدخال عدد الدقائق والثواني التي يتعين على الطلاب إكمال الصفحة التي بها أسئلة التمرين.",
     "description": "UA"
   },
   "setTimeTip": {
-    "message": "لا يمكن أن يكون الحد الزمني 0 دقيقة",
+    "message": "لا يمكن أن تكون المهلة الزمنية 0 دقيقة",
     "description": "UA"
   },
   "setWebsiteContent": {
@@ -2984,7 +2916,7 @@
     "description": "UA"
   },
   "setting": {
-    "message": "اعدادات",
+    "message": "الإعدادات",
     "description": "UA"
   },
   "settingPanel": {
@@ -2992,7 +2924,7 @@
     "description": "UA"
   },
   "settingPanelTip": {
-    "message": "فلاش نسخة من جهاز الكمبيوتر الخاص بك هو منخفض جدا، يرجى النقر فوق هذا الرابط للترقية.",
+    "message": "إصدار فلاش لجهاز الكمبيوتر الخاص بك قديمة جدًا ، يرجى النقر فوق هذا الارتباط للترقية.",
     "description": "UA"
   },
   "share": {
@@ -3000,19 +2932,19 @@
     "description": "UA"
   },
   "sharedQBank": {
-    "message": "بنك الأسئلة المشتركة",
+    "message": "تمت مشاركة بنك الأسئلة",
     "description": "UA"
   },
   "sharedQuestionBank": {
-    "message": "بنك الأسئلة المشتركة",
+    "message": "تمت مشاركة بنك الأسئلة",
     "description": "UA"
   },
   "sharedResource": {
-    "message": "المورد المشترك",
+    "message": "مصدر مشترك",
     "description": "UA"
   },
   "shcoolQBank": {
-    "message": "بنك أسئلة المدرسة",
+    "message": "بنك أسئلة الأكاديمية",
     "description": "UA"
   },
   "shortAnswer": {
@@ -3020,23 +2952,23 @@
     "description": "UA"
   },
   "show": {
-    "message": "اظهار",
+    "message": "عرض ",
     "description": "UA"
   },
   "singleChoiceQ": {
-    "message": "الاختيار المتعدد",
+    "message": "الاختيار من متعدد",
     "description": "UA"
   },
   "size": {
-    "message": "حجم",
+    "message": "الحجم",
     "description": "UA"
   },
   "skip": {
-    "message": "القفز",
+    "message": "إذهب إلى",
     "description": "UA"
   },
   "skipTips": {
-    "message": "تخطي جميع النصائح",
+    "message": "تخطي كل النصائح",
     "description": "UA"
   },
   "slotAudioIntoContent": {
@@ -3055,12 +2987,8 @@
     "message": "إدراج فيديو",
     "description": "UA"
   },
-  "smallQ": {
-    "message": "السؤال الفرعي",
-    "description": "UA"
-  },
   "sortQuestions": {
-    "message": "تسلسل",
+    "message": "التسلسل",
     "description": "UA"
   },
   "speakingModule": {
@@ -3068,7 +2996,7 @@
     "description": "UA"
   },
   "splitScreenTip": {
-    "message": "الرجاء النقر على \"إنهاء الشاشة\" لإرسال إجابتك بعد إكمال الإجابة.",
+    "message": "يرجى النقر على \"الخروج من الشاشة\" لتقديم إجابتك بعد إكمال الإجابة.",
     "description": "UA"
   },
   "spokenAutomated": {
@@ -3076,31 +3004,31 @@
     "description": "UA"
   },
   "spokenAutomatedNote": {
-    "message": "مكون تسجيل اللغة الإنجليزية الشفهية لا يمكن أن يكون في نفس الصفحة مثل الفيديو وممارسة ولعب الأدوار",
+    "message": "لا يمكن أن يكون مكون احتساب درجات اللغة الإنجليزية الشفوية في نفس الصفحة مثل الفيديو والتمارين والمسرحية",
     "description": "UA"
   },
   "spokenAutomatedTip": {
-    "message": "إدراج اختبار اللغة الإنجليزية المنطوقة مع التقدير التلقائي",
+    "message": "إدراج اختبار نطق اللغة الإنجليزية مع التقدير التلقائي",
     "description": "UA"
   },
   "srtShowTips1": {
-    "message": "1. الترجمة داخل مشغل الفيديو: يتم عرض الترجمة في الوقت المحدد واحدا تلو الآخر في الجزء السفلي من منطقة المحتوى داخل مشغل الفيديو.",
+    "message": "1. ترجمات داخل مشغل الفيديو: يتم عرض الترجمة في الوقت المحدد واحدًا تلو الآخر في الجزء السفلي داخل مشغل الفيديو.",
     "description": "UA"
   },
   "srtShowTips2": {
-    "message": "2. ترجمات خارج مشغل الفيديو: يتم عرض جميع الترجمات في مربع بجانب الجانب الأيمن من مشغل الفيديو عند تحميل الفيديو. بعد مشاهدة الفيديو بالكامل لأول مرة، يمكن للمستخدمين النقر على عنوان فرعي للانتقال إلى محتوى الفيديو حيث يتم جدولة هذا العنوان الفرعي.",
+    "message": "2. ترجمات خارج مشغل الفيديو: يتم عرض جميع الترجمات في مربع بجوار الجانب الأيمن لمشغل الفيديو عند تحميل الفيديو. بعد مشاهدة الفيديو بالكامل لأول مرة ، يمكن للمستخدمين النقر فوق الترجمة للانتقال إلى محتوى الفيديو حيث تمت جدولة هذه الترجمة.",
     "description": "UA"
   },
   "srtShowTips3": {
-    "message": "3. لن تظهر الترجمة خلال الوقت الذي توجد فيه أسئلة الاختبار / التمرين.",
+    "message": "3. لن تظهر الترجمات أثناء وقت وجود أسئلة الاختبار / التمرين.",
     "description": "UA"
   },
   "srtShowType0": {
-    "message": "داخل مشغل الفيديو",
+    "message": "مشغل فيديو داخلي",
     "description": "UA"
   },
   "srtShowType1": {
-    "message": "خارج مشغل الفيديو",
+    "message": "مشغل فيديو خارجي",
     "description": "UA"
   },
   "srtShowTypeTitle": {
@@ -3108,11 +3036,11 @@
     "description": "UA"
   },
   "start": {
-    "message": "بدء",
+    "message": "إبدأ",
     "description": "UA"
   },
   "startAnswer": {
-    "message": "ابدأ في الإجابة على الأسئلة",
+    "message": "ابدأ الإجابة على الأسئلة",
     "description": "UA"
   },
   "statusInformation": {
@@ -3120,23 +3048,23 @@
     "description": "UA"
   },
   "stayOnThisPage": {
-    "message": "البقاء على هذه الصفحة",
+    "message": "ابقى في هذه الصفحة",
     "description": "UA"
   },
   "stopTiming": {
-    "message": "ولا يتم حفظ السجل التعليمي للصفحة.",
+    "message": "ولن يتم حفظ سجلات التعلم الخاصة بهذه المحاضرة.",
     "description": "UA"
   },
   "stopcalculating": {
-    "message": "ملاحظة: سيتوقف النظام عن حساب وقت التعلم للصفحة التي تم فتحها مسبقًا.",
+    "message": "ملاحظة: سيتوقف النظام عن حساب وقت التعلم للصفحة التي تم فتحها من قبل.",
     "description": "UA"
   },
   "stoppedStudy": {
-    "message": "توقف الطالب عن تعلم هذه الصفحة",
+    "message": "توقف التعلم مؤقتا!",
     "description": "UA"
   },
   "studentCount": {
-    "message": "لا. من الطلاب",
+    "message": "عدد الطلاب",
     "description": "UA"
   },
   "studentSideNotShow": {
@@ -3144,11 +3072,11 @@
     "description": "UA"
   },
   "study": {
-    "message": "درس",
+    "message": "تمت دراسته",
     "description": "UA"
   },
   "submitSuccessfully": {
-    "message": "تم إرسالها بنجاح",
+    "message": "تم إرسالها بنجاح!",
     "description": "UA"
   },
   "suchAs": {
@@ -3156,15 +3084,15 @@
     "description": "UA"
   },
   "suitang": {
-    "message": "مع الصف",
+    "message": "مع الفصل",
     "description": "UA"
   },
   "supportDecimalPlace": {
-    "message": "دعم 1 عشري",
+    "message": "يدغم رقم عشري واحد",
     "description": "UA"
   },
   "sureSwitchPages": {
-    "message": "هل تريد بالتأكيد تبديل الصفحات؟",
+    "message": "هل تريد تبديل الصفحات؟",
     "description": "UA"
   },
   "switchSuccessfully": {
@@ -3180,11 +3108,11 @@
     "description": "UA"
   },
   "systemMark": {
-    "message": "تسجيل النظام",
+    "message": "نظام الدرجات",
     "description": "UA"
   },
   "systemMarkTip": {
-    "message": "عندما يكون عدد الكلمات الإنجليزية في واجب الطالب أقل من 20، سيرتب النظام كعلامة 0.",
+    "message": "عندما يكون عدد الكلمات الإنجليزية في واجب الطالب أقل من 20 ، سيقوم النظام بتقدير 0 درجة.",
     "description": "UA"
   },
   "tabKeyCreateBlank": {
@@ -3196,23 +3124,23 @@
     "description": "UA"
   },
   "tag1": {
-    "message": "اليوم 1",
+    "message": "علامة 1",
     "description": "UA"
   },
   "tag2": {
-    "message": "اليوم الثاني",
+    "message": "علامة 2",
     "description": "UA"
   },
   "tag3": {
-    "message": "اليوم الثالث",
+    "message": "علامة 3",
     "description": "UA"
   },
   "tagTip": {
-    "message": "ما يصل إلى 3 العلامات -- أي شيء الذي يجعل من المنطقي أن العلامة هذه البرامج التدريبية",
+    "message": "ما لا يزيد عن 3 علامات - أي شيء منطقي لوضع علامة على هذه المنهج",
     "description": "UA"
   },
   "teachActivities": {
-    "message": "نشاط التدريس",
+    "message": "نشاط تعليمي",
     "description": "UA"
   },
   "teachTeam": {
@@ -3236,7 +3164,7 @@
     "description": "UA"
   },
   "textInputTip": {
-    "message": "عادة، تقييم المحتوى والنص المرجعي درجة للتقدير هي نفس نص الفقرة، ولكن عندما يحتوي النص على معلومات مثل السنة، اسم المكان وهلم جرا، تحتاج إلى etnert المحتوى الذي يطابق النطق الصوتي تماما في <a0>a'a javascript:;\\\"class=\"btn-default الشفوية الإنجليزية-أول btntxt\">النص المرجعي <a>س س لضمان أقصى دقة من تصنيف النظام. على سبيل المثال، \"لقد ولدت في عام 1998\". وتتضمن هذه الجملة الرقم 1998. لا يمكن لنظام التسجيل الحكم مباشرة النطق ، لذلك تحتاج إلى النقر على زر \"نقاط النص المرجعي\" للدخول في مربع الإدخال الجديد: لقد ولدت في تسعة عشر 98.",
+    "message": "عادةً ما يكون تقييم المحتوى والنص المرجعي لتقدير الدرجات هو نفس نص الفقرة ، ولكن عندما يحتوي النص على معلومات مثل السنة واسم المكان وما إلى ذلك ، فأنت بحاجة إلى تعديل المحتوى الذي يطابق نطق الصوت تمامًا في <a href = \"javascript:؛ \\\" class = \"btn-default oral English-first btntxt\"> النص المرجعي <a> لضمان أقصى قدر من الدقة لتقدير النظام. على سبيل المثال ، \"ولدت عام 1998\". تحتوي هذه الجملة على الرقم 1998. لا يمكن لنظام التسجيل أن يحكم بشكل مباشر على النطق ، لذلك تحتاج إلى نقر زر \"تسجيل النص المرجعي\" للدخول الي مربع إدخال جديد: لقد ولدت في ألف و تسعمائة و ثمانية و تسعون.\n",
     "description": "UA"
   },
   "textbookCategory": {
@@ -3244,7 +3172,7 @@
     "description": "UA"
   },
   "textbookCover": {
-    "message": "غلاف الكتب المدرسية",
+    "message": "غلاف الكتاب المدرسي",
     "description": "UA"
   },
   "textbookHighlights": {
@@ -3259,40 +3187,28 @@
     "message": "عنوان الكتاب المدرسي",
     "description": "UA"
   },
-  "thePage": {
-    "message": "هذه الصفحة",
-    "description": "UA"
-  },
-  "thePage2": {
-    "message": "الصفحة رقم",
-    "description": "UA"
-  },
   "thirdLevelMenu": {
     "message": "قائمة المستوى الثالث",
     "description": "UA"
   },
   "timeLimit": {
-    "message": "المهلة الزمنية",
+    "message": "محدد بوقت",
     "description": "UA"
   },
   "timeLimitExpired": {
-    "message": "وقد استُنفِدت المهلة الزمنية للرد على الأسئلة وقُدمت التمارين تلقائياً.",
+    "message": "تم استنفاد المهلة الزمنية للإجابة على الأسئلة وتم إرسال التمارين تلقائيًا.",
     "description": "UA"
   },
   "timeLimitedAnswerNotCompleted": {
-    "message": "أكمل سؤال (أسئلة) التمارين قبل مغادرة هذه الصفحة.",
+    "message": "أكمل أسئلة التمرين قبل أن تغادر هذه الصفحة.",
     "description": "UA"
   },
   "timeLimitedExercises": {
-    "message": "تمارين موقوتة",
-    "description": "UA"
-  },
-  "times": {
-    "message": "مرات",
+    "message": "تمارين محددة بمهلة زمنية",
     "description": "UA"
   },
   "timingLearningSuspended": {
-    "message": "تم تعليق التعلم في الوقت المحدد",
+    "message": "توقف التعلم مؤقتا!",
     "description": "UA"
   },
   "tip": {
@@ -3312,15 +3228,11 @@
     "description": "UA"
   },
   "top": {
-    "message": "التمسك بأعلى",
-    "description": "UA"
-  },
-  "total": {
-    "message": "مجموع",
+    "message": "تثبيت بالأعلى",
     "description": "UA"
   },
   "totalScore": {
-    "message": "مجموع النقاط",
+    "message": "مجموع الدرجات",
     "description": "UA"
   },
   "translationQ": {
@@ -3332,27 +3244,27 @@
     "description": "UA"
   },
   "ulearningWebsite": {
-    "message": "بوابة ULearning",
+    "message": "موقع ULearning",
     "description": "UA"
   },
   "unableConnectResourceServer": {
-    "message": "غير قادر على الاتصال بملقم المورد:",
+    "message": "غير قادر على الاتصال بخادم المصادر:",
     "description": "UA"
   },
   "unbind": {
-    "message": "توثيق",
+    "message": "إلغاء ربط",
     "description": "UA"
   },
   "unbindWarning": {
-    "message": "بعد إلغاء توثيق، سيتم مسح سجل بدء الفصل الدراسي ولا يمكن استعادته. يرجى العمل بحذر. هل أنت متأكد من أنك تريد رفع غير ملزم؟",
+    "message": "بعد إلغاء الربط سيتم مسح سجل بدء التيرم ولا يمكن استعادته. يرجى الحذر. هل تريد فك الارتباط؟",
     "description": "UA"
   },
   "uniformSetting": {
-    "message": "تنطبق على البرامج الدراسية بأكملها",
+    "message": "تنطبق على كل المناهج",
     "description": "UA"
   },
   "unpublished": {
-    "message": "غير منشوره",
+    "message": "لم يتم نشره",
     "description": "UA"
   },
   "unusual": {
@@ -3360,7 +3272,7 @@
     "description": "UA"
   },
   "up": {
-    "message": "تحريك لأعلى",
+    "message": "حرك لأعلى",
     "description": "UA"
   },
   "updateCourse": {
@@ -3376,7 +3288,7 @@
     "description": "UA"
   },
   "updateWebsiteTips": {
-    "message": "إذا كنت بحاجة إلى تعديل موقع النشر، يرجى سحب الدورة التدريبية وإعادة نشرها.",
+    "message": "إذا كنت بحاجة إلى تعديل موقع النشر فيرجى سحب المقرر و إعادة نشره.",
     "description": "UA"
   },
   "updatedSuccessfully": {
@@ -3384,67 +3296,67 @@
     "description": "UA"
   },
   "upload": {
-    "message": "تحميل",
+    "message": "رفع",
     "description": "UA"
   },
   "uploadAudio": {
-    "message": "إضافة الصوت التجريبي (اختياري)",
+    "message": "إضافة مقطع صوتي تجريبي (اختياري)",
     "description": "UA"
   },
   "uploadAudio2": {
-    "message": "إضافة صوت السيناريو/السياق (اختياري)",
+    "message": "إضافة مصكع صوتي لسيناريو/سياق (اختياري)",
     "description": "UA"
   },
   "uploadAudioTip": {
-    "message": "توفير السيناريو والسياق للاختبار",
+    "message": "قم بتوفير سيناريو و سياق للاختبار",
     "description": "UA"
   },
   "uploadCover": {
-    "message": "تحميل",
+    "message": "رفع",
     "description": "UA"
   },
   "uploadFullVideo": {
-    "message": "تحميل فيديو كامل",
+    "message": "رفع الفيديو كاملا",
     "description": "UA"
   },
   "uploadFullVideoDescription": {
-    "message": "المقطع كله هو للطالب للذهاب من خلال قبل بدء لعب الأدوار",
+    "message": "يمر الطالب على الفقرة بأكملها قبل البدء في المسرحية",
     "description": "UA"
   },
   "uploadImage": {
-    "message": "تحميل أفاتار",
+    "message": "رفع أفاتار",
     "description": "UA"
   },
   "uploadImg": {
-    "message": "تحميل صورة",
+    "message": "رفع صورة",
     "description": "UA"
   },
   "uploadImgSizeTip": {
-    "message": "نمط 1 أوصت الحجم: 1900px * 200px; أنماط 2، 3 أوصت الحجم: 1200px * 200px. يجب ألا يتجاوز حجم الصورة 2M",
+    "message": "نمط 1 الحجم الموصى به: 1900 بيكسل * 200 بيكسل، النمطين 2، 3 الحجم الموصى بهه: 1200 بيكسل* 200 بيكسل. يجب ألا يتجاوز حجم الصورة 2 ميغابايت",
     "description": "UA"
   },
   "uploadImgTip": {
-    "message": "أوصت حجم 200px * 200px، فقط دعم jpg، PNG، تنسيقات JPEG",
+    "message": "الحجم الموصى به 200 بيكسل * 200 بيكسل، ندعم فقط صيغة jpg، png، JPEG ",
     "description": "UA"
   },
   "uploadLocalFile": {
-    "message": "تحميل محلي",
+    "message": "رفع محلي",
     "description": "UA"
   },
   "uploadSubtitle": {
-    "message": "استيراد الترجمة",
+    "message": "استيراد ترجمات",
     "description": "UA"
   },
   "uploadSubtitleErrorTip1": {
-    "message": "دعم تنسيق ملف SRT فقط",
+    "message": "دعم صيغة ملف SRT فقط",
     "description": "UA"
   },
   "uploadSubtitleErrorTip2": {
-    "message": "دعم تنسيق ملف SRT فقط",
+    "message": "دعم صيغة ملف SRT فقط",
     "description": "UA"
   },
   "uploadSubtitleErrorTip3": {
-    "message": "يجب أن تكون الملفات التي تم تحميلها أقل من 1MB",
+    "message": "يجب أن تكون الملفات التي تم رفعها أقل من 1 ميغابايت",
     "description": "UA"
   },
   "uploadSubtitleErrorTip4": {
@@ -3452,51 +3364,51 @@
     "description": "UA"
   },
   "uploadSubtitleErrorTip5": {
-    "message": "فشل تهيئة مكون التحميل. الرجاء المحاولة مرة أخرى.",
+    "message": "لم نتمكن من رفع المكون للتهيئة. حاول مرة اخرى.",
     "description": "UA"
   },
   "uploadSubtitleErrorTip6": {
-    "message": "فشل في تحميل الملف",
+    "message": "لم نتمكن من رفع الملف",
     "description": "UA"
   },
   "uploadTime": {
-    "message": "وقت التحميل",
+    "message": "وقت الرفع",
     "description": "UA"
   },
   "uploadTrackTip": {
-    "message": "دعم تنسيق ملف SRT فقط",
+    "message": "دعم صيغة ملف SRT فقط",
     "description": "UA"
   },
   "uploadVideo": {
-    "message": "تحميل فيديو تريل",
+    "message": "رفع فيديو تجريبي",
     "description": "UA"
   },
   "uploadVideoClip": {
-    "message": "تحميل مقاطع الفيديو",
+    "message": "رفع مقاطع الفيديو",
     "description": "UA"
   },
   "uploaded": {
-    "message": "تحميل",
+    "message": "تم الرفع",
     "description": "UA"
   },
   "uploader": {
-    "message": "رافع",
+    "message": "الرافع",
     "description": "UA"
   },
   "uploagImgSizeTip": {
-    "message": "يجب ألا يتجاوز حجم الصورة الأقصى 2M",
+    "message": "يجب ألا يتجاوز حجم الصورة 2 ميغابايت",
     "description": "UA"
   },
   "uplodeFile": {
-    "message": "ملف Uplode",
+    "message": "رفع ملف",
     "description": "UA"
   },
   "uploding": {
-    "message": "Uploding",
+    "message": "جار الرفع",
     "description": "UA"
   },
   "video": {
-    "message": "اشرطه الفيديو",
+    "message": "مقاطع الفيديو",
     "description": "UA"
   },
   "videoArea": {
@@ -3504,19 +3416,19 @@
     "description": "UA"
   },
   "videoClip": {
-    "message": "تحرير",
+    "message": "تعديل",
     "description": "UA"
   },
   "videoClipFail": {
-    "message": "فشل تحرير مقطع الفيديو",
+    "message": "لم نتمكن من تعديل مقطع فيديو",
     "description": "UA"
   },
   "videoClipFinish": {
-    "message": "اكتمل التحرير",
+    "message": "أكتمل التعديل",
     "description": "UA"
   },
   "videoClips": {
-    "message": "التحرير قيد التقدم",
+    "message": "التعديل قيد التنفيذ",
     "description": "UA"
   },
   "videoClipsFinish": {
@@ -3524,59 +3436,59 @@
     "description": "UA"
   },
   "videoClipsTip": {
-    "message": "يمكنك الحفظ والخروج في أي وقت. سيتم تحديث الفيديو بعد الانتهاء من التحرير.",
+    "message": "يمكنك الحفظ والخروج في أي وقت. سيتم تحديث الفيديو بعد الانتهاء من التعديل.",
     "description": "UA"
   },
   "videoCover": {
-    "message": "غلاف فيديو",
+    "message": "غلاف الفيديو",
     "description": "UA"
   },
   "videoNoWifi1": {
-    "message": "أنت لا تستخدم شبكة واي فاي. إذا كنت لا تزال تلعب ، وسوف تستهلك حركة المرور. هل تريد المتابعة؟",
+    "message": "أنت لا تستخدم الواي فاي. إذا واصلت اللعب، فإنك سوف تستهلك بيانات الجوال. هل تريد المتابعة؟",
     "description": "UA"
   },
   "videoNoWifi2": {
-    "message": "(تلميح: في مخطط وحدة المقرر الدراسي، يمكنك تخزين موارد الوسائط في المناهج التدريبية)",
+    "message": "(تلميح: في مخطط وحدة المقرر الدراسي، يمكنك تخزين المصادر الوسائطية في المنهج مؤقتا)",
     "description": "UA"
   },
   "videoNotExist": {
-    "message": "مورد الفيديو غير موجود",
+    "message": "مصدر الفيديو غير موجود",
     "description": "UA"
   },
   "videoWatchDuration": {
-    "message": "مشاهدة مدة الفيديو ≥ مدة الفيديو",
+    "message": "يجب مشاهدة الفيديو كاملا",
     "description": "UA"
   },
   "viewDetail": {
-    "message": "التفاصيل >>",
+    "message": "تفاصيل",
     "description": "UA"
   },
   "viewHighlevelBrowser": {
-    "message": "الرجاء استخدام مستعرض إصدار عالي لعرض",
+    "message": "يرجى استخدام أحدث إصدار للعرض",
     "description": "UA"
   },
   "viewHowSet": {
-    "message": "انقر هنا للاطلاع على كيفية إعداده",
+    "message": "انقر هنا لمعرفة كيفية إعداده",
     "description": "UA"
   },
   "viewSelectedQuestion": {
-    "message": "عرض السؤال المحدد",
+    "message": "عرض السؤال المختار",
     "description": "UA"
   },
   "vocabularyModule": {
-    "message": "وحدة المفردات",
+    "message": "وحدة مفردات",
     "description": "UA"
   },
   "waitPreview": {
-    "message": "يتم إنشاء معاينة، الرجاء الانتظار لحظة...",
+    "message": "يتم إنشاء معاينة، يرجى الانتظار قليلا...",
     "description": "UA"
   },
   "waitingForUpload": {
-    "message": "في انتظار التحميل",
+    "message": "في انتظار الرفع",
     "description": "UA"
   },
   "walkingTooLong": {
-    "message": "لقد مر وقت طويل جداً توقف المؤقت عن العمل ~",
+    "message": "غير نشط لفترة طويلة",
     "description": "UA"
   },
   "webpage": {
@@ -3584,7 +3496,7 @@
     "description": "UA"
   },
   "website": {
-    "message": "نموذج الموقع",
+    "message": "نموذج موقع ويب",
     "description": "UA"
   },
   "websiteBanner": {
@@ -3592,7 +3504,7 @@
     "description": "UA"
   },
   "websiteLayout": {
-    "message": "تخطيط الموقع",
+    "message": "تخطيط موقع ويب",
     "description": "UA"
   },
   "withdraw": {
@@ -3608,39 +3520,27 @@
     "description": "UA"
   },
   "wordCountCheck": {
-    "message": "كشف رقم الكلمة",
+    "message": "الكشف عن عدد الكلمات",
     "description": "UA"
   },
   "wordScore": {
-    "message": "كلمه",
+    "message": "كلمة",
     "description": "UA"
   },
   "wordTip": {
-    "message": "انقر لإدخال محتوى الاختبار (المطلوب) - أفضل لكلمة إنجليزية واحدة",
+    "message": "انقر لإدخال محتوى الاختبار (مطلوب) - الأفضل إدخال كلمة إنجليزية واحدة",
     "description": "UA"
   },
   "writingInEnglish": {
-    "message": "الكتابة باللغة الإنجليزية",
+    "message": " كتابة اللغة الإنجليزية ",
     "description": "UA"
   },
   "wrongTip": {
-    "message": "أوتش، هناك خطأ.",
-    "description": "UA"
-  },
-  "year": {
-    "message": "العام",
-    "description": "UA"
-  },
-  "youHave": {
-    "message": "أنت لديك",
-    "description": "UA"
-  },
-  "yuan": {
-    "message": "يوان",
+    "message": "هناك خطأ.",
     "description": "UA"
   },
   "zippedFile": {
-    "message": "ملفات .zip",
+    "message": "ملف مضغوط",
     "description": "UA"
   },
   "noData": {
@@ -3652,7 +3552,7 @@
     "description": "UA"
   },
   "codeStyle": {
-    "message": "نمط رمز QR",
+    "message": "نمط رمز الاستجابة السريع",
     "description": "UA"
   },
   "normal": {
@@ -3660,15 +3560,15 @@
     "description": "UA"
   },
   "normalCode": {
-    "message": "رمز QR باللونين الأبيض والأسود",
+    "message": "رمز الاستجابة السريع بالأبيض والأسود",
     "description": "UA"
   },
   "fancy": {
-    "message": "يتوهم",
+    "message": "فاخر",
     "description": "UA"
   },
   "fancyCode": {
-    "message": "رمز QR ملون فاخر",
+    "message": "كود استجابة سريع فاخر زاهي اللون",
     "description": "UA"
   },
   "scanMode": {
@@ -3676,39 +3576,39 @@
     "description": "UA"
   },
   "scanMode1": {
-    "message": "مسح الوسائط الاجتماعية",
+    "message": "مسح وسائل التواصل الاجتماعي",
     "description": "UA"
   },
   "scanMode1Tip": {
-    "message": "دعم فقط تعلم رمز المسح الضوئي ، لا تقم بحفظ سجلات التعلم",
+    "message": "امسح كود WeChat لغرض التعلم فقط - لا يتم حفظ سجلات التعلم",
     "description": "UA"
   },
   "scanMode2": {
-    "message": "مسح التطبيق",
+    "message": "تطبيق المسح الضوئي",
     "description": "UA"
   },
   "scanMode2Tip": {
-    "message": "مسح رمز التطبيق للتعلم داخل ULearning التطبيقات - يتم حفظ السجلات التعلم",
+    "message": "امسح كود التطبيق للتعلم داخل تطبيق ULearning - يتم حفظ سجلات التعلم",
     "description": "UA"
   },
   "codeTip": {
-    "message": "يتم تعيين كل برامج دراسية رمز QR. إذا تم حذف أدوات التدريب الدراسي، فلن يتمكن مسح رمز الاستجابة السريعة من الوصول إلى البرامج الدراسية.",
+    "message": "يتم تعيين كود الاستجابة السريعة لكل المنهاج  إذا تم حذف المناهج ، فلن يتمكن كود الاستجابة السريعة من الوصول إلى المناهج عند المسح.",
     "description": "UA"
   },
   "haveChoosen": {
-    "message": "المحدد",
+    "message": "تم الأختيار",
     "description": "UA"
   },
   "itemNum": {
-    "message": "البند",
+    "message": "عنصر",
     "description": "UA"
   },
   "allResource": {
-    "message": "كافة الموارد",
+    "message": "كل المصادر",
     "description": "UA"
   },
   "rootDir": {
-    "message": "الدليل الجذر",
+    "message": "المجلد الاساسي",
     "description": "UA"
   },
   "addQuestion": {
@@ -3720,27 +3620,27 @@
     "description": "UA"
   },
   "clear": {
-    "message": "واضحه",
+    "message": "مسح",
     "description": "UA"
   },
   "allChapter": {
-    "message": "جميع الوحدات",
+    "message": "كل الوحدات",
     "description": "UA"
   },
   "allQuestionType": {
-    "message": "جميع أنواع الأسئلة",
+    "message": "كل أنواع الأسئلة",
     "description": "UA"
   },
   "searchPlaceholder": {
-    "message": "أدخل السؤال/السؤال # للبحث",
+    "message": "أدخل السؤال/ الأسئلة # للبحث",
     "description": "UA"
   },
   "option": {
-    "message": "الخيار",
+    "message": "خيار",
     "description": "UA"
   },
   "retractDetail": {
-    "message": "انهيار",
+    "message": "طي",
     "description": "UA"
   },
   "refLocation": {
@@ -3748,7 +3648,7 @@
     "description": "UA"
   },
   "retract": {
-    "message": "انهيار",
+    "message": "طي",
     "description": "UA"
   },
   "open": {
@@ -3760,7 +3660,7 @@
     "description": "UA"
   },
   "importTip1": {
-    "message": "تحميل القالب وتنظيم البيانات في شكل القالب",
+    "message": "قم بتنزيل القالب وتنظيم البيانات حسب صيغ البيانات بالقالب",
     "description": "UA"
   },
   "downloadTemplate": {
@@ -3768,39 +3668,39 @@
     "description": "UA"
   },
   "importTip2": {
-    "message": "تحميل الملف المنظم",
+    "message": "رفع الملف المنظم",
     "description": "UA"
   },
   "uploadFile": {
-    "message": "تحميل الملف",
+    "message": "رفع ملف",
     "description": "UA"
   },
   "cloze": {
-    "message": "كلوز",
+    "message": "اغلاق",
     "description": "UA"
   },
   "orgTeacher": {
-    "message": "معلمة مدرسة",
+    "message": "معلم الأكاديمية",
     "description": "UA"
   },
   "allQuestion": {
-    "message": "جميع الأسئلة",
+    "message": "كل الاسئلة",
     "description": "UA"
   },
   "deleteQuestionTip1": {
-    "message": "سيؤدي حذف مجلد إلى حذف المجلد والمحتوى الموجود بداخله. هل تريد بالتأكيد حذفه؟",
+    "message": "سيؤدي حذف مجلد إلى حذفه و حذف المحتوى الموجود بداخله. هل تريد الحذف ؟",
     "description": "UA"
   },
   "deleteQuestionTip2": {
-    "message": "هل تريد بالتأكيد حذف هذا السؤال؟",
+    "message": "هل تريد حذف هذا السؤال؟",
     "description": "UA"
   },
   "deleteQuestionTip3": {
-    "message": "يتم استخدام أسئلة الاختبار المحددة في برامج التدريب. لا يمكنك حذف أسئلة الاختبار في المناهج الدراسية هنا. هل تريد بالتأكيد حذفها؟",
+    "message": "يتم استخدام أسئلة الاختبار التي تم اختيارها في المناهج التعليمية. لا يمكنك حذف أسئلة اختبار المناهج التعليمية هنا. هل تريد حذفها؟",
     "description": "UA"
   },
   "savingRecord": {
-    "message": "حفظ سجل التعلم، يرجى الانتظار لحظة",
+    "message": "جار حفظ سجل التعلم، يرجى الانتظار قليلا",
     "description": "UA"
   },
   "customerService": {
@@ -3812,43 +3712,43 @@
     "description": "UA"
   },
   "networkErrorTip": {
-    "message": "قد تكون الشبكة الحالية غير مستقرة، مما يؤدي إلى فشل متعددة في إرسال سجلات التعلم. قام النظام بتخزين سجل التعلم هذا بشكل مؤقت محليًا، ويمكنك إعادة إرساله في المرة التالية التي تدخل فيها إلى موقع تُدُنْدَي. حاول مرة أخرى بعد إنهاء التحقق من الشبكة.",
+    "message": "قد تكون الشبكة الحالية غير مستقرة ، مما يؤدي إلى إخفاقات متعددة في إرسال سجلات التعلم. قام النظام بتخزين سجل التعلم هذا مؤقتًا محليًا ، ويمكنك إعادة إرساله في المرة التالية التي تدخل فيها الموقع للدراسة. حاول مرة أخرى بعد الخروج من فحص الشبكة.",
     "description": "UA"
   },
   "recordTip1": {
-    "message": "تأكد من أن المستعرض مسموح لتحميل المكونات الإضافية الفلاش واستخدام إذن التسجيل.",
+    "message": "تأكد من أن متصفحك يسمح باستخدام الميكروفون لتسجيل الصوت.",
     "description": "UA"
   },
   "recordTip2": {
-    "message": "يرجى التأكد من أنك وافقت على استخدام تسجيل الهاتف المحمول وتسجيل الفيديو للصفحات و wechat",
+    "message": "يرجى التأكد من أنك وافقت على استخدام تسجيل الجوال وتسجيل الفيديو للصفحات و WeChat",
     "description": "UA"
   },
   "videoError1": {
-    "message": "الشبكة غير مستقرة. الرجاء التحقق من الشبكة والمحاولة مرة أخرى، أو تخزين الفيديو مؤقتًا قبل مشاهدة .",
+    "message": "الشبكة غير مستقرة. يرجى التحقق من الشبكة والمحاولة مرة أخرى أو تخزين الفيديو مؤقتًا قبل المشاهدة。",
     "description": "UA"
   },
   "videoError2": {
-    "message": "eNtwork ليست مستقرة. الرجاء التحقق من الشبكة وحاول مرة أخرى.。",
+    "message": "الشبكة غير مستقرة. يرجى التحقق من الشبكة والمحاولة مرة أخرى.",
     "description": "UA"
   },
   "clickRetry": {
-    "message": "انقر فوق إعادة المحاولة",
+    "message": "انقر إعادة المحاولة",
     "description": "UA"
   },
   "downloadError1": {
-    "message": "الموارد دون اتصال معطوبة. الرجاء حذف ذاكرة التخزين المؤقت وتحميل مرة أخرى.",
+    "message": "المصادر غير متصلة على الانترنت تالفة. يرجى حذف ذاكرة التخزين المؤقت والتنزيل مرة أخرى",
     "description": "UA"
   },
   "offlineView": {
-    "message": "عرض دون اتصال",
+    "message": "عرض دون اتصال بالإنترنت",
     "description": "UA"
   },
   "downloaded": {
-    "message": "تحميل",
+    "message": "تم التنزيل",
     "description": "UA"
   },
   "cachedLocally": {
-    "message": "تم تخزينها محلياً",
+    "message": "تم التخزين المؤقت محليا",
     "description": "UA"
   },
   "stopAnswer": {
@@ -3860,55 +3760,27 @@
     "description": "UA"
   },
   "overall": {
-    "message": "نقاط",
-    "description": "UA"
-  },
-  "fluency": {
-    "message": "الطلاقه",
-    "description": "UA"
-  },
-  "coherence": {
-    "message": "الاتساق",
-    "description": "UA"
-  },
-  "pronunciation": {
-    "message": "النطق",
+    "message": "الدرجة",
     "description": "UA"
   },
   "speed": {
-    "message": "سرعه",
+    "message": "السرعة",
     "description": "UA"
   },
   "words_minutes": {
-    "message": "الكلمات/ الدقيقة",
+    "message": "كلمات/دقيقة",
     "description": "UA"
   },
   "exitSplit": {
-    "message": "إنهاء تقسيم الشاشة",
+    "message": "الخروج من تقسيم الشاشة",
     "description": "UA"
   },
   "enterSplit": {
-    "message": "الإجابة على الأسئلة باستخدام شاشة منقسمة",
-    "description": "UA"
-  },
-  "limitedAnswer": {
-    "message": "الحد الزمني",
-    "description": "UA"
-  },
-  "chance": {
-    "message": "مرات",
-    "description": "UA"
-  },
-  "left": {
-    "message": "يسار",
-    "description": "UA"
-  },
-  "opportunity": {
-    "message": "الفرصه",
+    "message": "أجب عن الأسئلة باستخدام تقسيم الشاشة",
     "description": "UA"
   },
   "continueTip": {
-    "message": "فقط عندما يتم الرد على جميع الأسئلة بشكل صحيح يمكنك الاستمرار في مشاهدة الفيديو.",
+    "message": "فقط عندما تتم الإجابة على كل الأسئلة بشكل صحيح يمكنك الاستمرار في مشاهدة الفيديو.",
     "description": "UA"
   },
   "reviewVideo": {
@@ -3916,7 +3788,7 @@
     "description": "UA"
   },
   "continueVideo": {
-    "message": "متابعة اللعب",
+    "message": "استئناف",
     "description": "UA"
   },
   "limitTimeTip": {
@@ -3924,63 +3796,63 @@
     "description": "UA"
   },
   "chooseTipType": {
-    "message": "الرجاء اختيار نوع تلميح الحوار.",
+    "message": "يرجى اختيار نوع نصيحة الحوار.",
     "description": "UA"
   },
   "tipType1": {
-    "message": "عرض تلميحات كاملة",
+    "message": "عرض النصائح الكاملة",
     "description": "UA"
   },
   "tipType2": {
-    "message": "إظهار جزء من التلميح",
+    "message": "إظهار جزء من النصيحة",
     "description": "UA"
   },
   "tipType3": {
-    "message": "عدم عرض تلميحات",
+    "message": "عدم عرض النصائح",
     "description": "UA"
   },
   "pleaseTalk": {
-    "message": "تسجيل صوتي، رجاءً تحدث.",
+    "message": "تسجيل صوتي، رجاء تحدث.",
     "description": "UA"
   },
   "replay": {
-    "message": "اعاده",
+    "message": "إعادة تشغيل",
     "description": "UA"
   },
   "roleplay": {
-    "message": "دور اللعب",
+    "message": "مسرحية",
     "description": "UA"
   },
   "roleplayIntro": {
-    "message": "حوار بين الإنسان والآلة، وتبادل الأدوار",
+    "message": "حوار بين الإنسان والآلة، تبادل الأدوار",
     "description": "UA"
   },
   "resempty": {
-    "message": "لم تقم بتحميل أي موارد حتى الآن ~",
+    "message": "لم تقم برفع أي مصادر حتى الآن ~",
     "description": "UA"
   },
   "delSucess": {
-    "message": "تم حذفها بنجاح",
+    "message": "تم الحذف بنجاح",
     "description": "UA"
   },
   "delError": {
-    "message": "فشل في الحذف، حالة غير طبيعية",
+    "message": "لم نتمكن من الحذف، حالة غير طبيعية",
     "description": "UA"
   },
   "saveRoleError2": {
-    "message": "فشل الحفظ، البيانات غير كاملة",
+    "message": "لم نتمن من الحفظ، البيانات غير مكتملة",
     "description": "UA"
   },
   "prviewRoleTips2": {
-    "message": "يجب أن يكون اسم رولول بين 1-10 أحرف.",
+    "message": "اسم المسرحية يجب أن يترواح بين 1-10 حروف",
     "description": "UA"
   },
   "prviewRoleTips3": {
-    "message": "يجب أن يكون نص التلميح بين 1-300 حرف",
+    "message": "يجب أن يتراوح نص النصيحة بين 1-300 حرف",
     "description": "UA"
   },
   "importEditorCourse": {
-    "message": "دورة حساب محرر الاستيراد",
+    "message": "استيراد محرر مقرر المحاسبة",
     "description": "UA"
   },
   "password": {
@@ -3988,7 +3860,7 @@
     "description": "UA"
   },
   "editorAccount": {
-    "message": "تحرير الحساب",
+    "message": "تعديل الحساب",
     "description": "UA"
   },
   "teacherAccount": {
@@ -3996,11 +3868,11 @@
     "description": "UA"
   },
   "importEditorCourseTips1": {
-    "message": "يمكنك ترحيل المقررات الدراسية التي تم إنشاؤها في حساب التحرير الأصلي إلى حساب المعلم الحالي للإدارة الموحدة. يمكنك بعد ذلك استخدام حساب المعلم لإنشاء الدورات التدريبية المفتوحة ونشرها مباشرةً.",
+    "message": "يمكنك ترحيل المقررات الدراسية التي تم إنشاؤها في حساب التعديل الأصلي إلى حساب المعلم الحالي للإدارة الموحدة. يمكنك بعد ذلك استخدام حساب المدرس لإنشاء و فتح المقررات الدراسية ونشرها مباشرةً.",
     "description": "UA"
   },
   "importEditorCourseTips2": {
-    "message": "يرجى تحديد و تأكيد الدورات الدراسية التي تحتاج إلى ترحيل.",
+    "message": "يرجى اختيار وتأكيد المقررات التي تحتاج إلى ترحيل.",
     "description": "UA"
   },
   "passwordError": {
@@ -4012,15 +3884,15 @@
     "description": "UA"
   },
   "publishTips": {
-    "message": "بعد نشر المقرر الدراسي، يجب أن يراجعه المسؤول. بعد اجتياز مدير المدرسة للامتحان، ستصبح الدورة [منشورة]. إذا اخترت أيضا لنشر على موقع الكلية ممتازة، مدير المدرسة سوف يعود أيضا. سيتم عرضه على الموقع الرسمي للكلية الممتازة فقط بعد مراجعته من قبل مدير الكلية الممتاز.",
+    "message": "بعد نشر المقرر الدراسي، يجب مراجعته من قبل المسؤول. بعد اجتياز مدير المدرسة للامتحان ، سيصبح المقرر الدراسي[منشور]. إذا اخترت أيضًا النشر على موقع الكلية ، فسيعيده مسؤول المدرسة أيضًا. لن يتم عرض المقرر الدراسي على الموقع الرسمي للكلية إلا بعد مراجعته من قبل مدير الكلية.",
     "description": "UA"
   },
   "orgManager": {
-    "message": "مدير مدرستنا",
+    "message": "مدير أكاديميتنا",
     "description": "UA"
   },
   "ulearningManager": {
-    "message": "مدير الكلية الممتاز",
+    "message": "مدير كلية ممتاز",
     "description": "UA"
   },
   "courseInfo": {
@@ -4028,43 +3900,43 @@
     "description": "UA"
   },
   "resourceContent": {
-    "message": "تفاصيل المورد",
+    "message": "تفاصيل المصدر",
     "description": "UA"
   },
   "videoCut": {
-    "message": "السماح بالتقدم فقط إذا تمت الإجابة على كافة الأسئلة بشكل صحيح",
+    "message": "السماح بالتقدم فقط إذا تمت الإجابة على جميع الأسئلة بشكل صحيح",
     "description": "UA"
   },
   "leaveEditTip": {
-    "message": "لم تنته هذه الصفحة من التحرير بعد. لن يتم حفظ الجزء المحرر من الصفحة. هل أنت متأكد من تبديل الصفحات؟",
+    "message": "لم تنته من تعديل هذه الصفحة بعد. لن يتم حفظ الجزء المعدل من الصفحة. هل تريد تبديل الصفحات؟",
     "description": "UA"
   },
   "formulaEditorBeta": {
-    "message": "بيتا محرر الصيغة",
+    "message": "محرر المعادلات النسخة بيتا",
     "description": "UA"
   },
   "catalog1": {
-    "message": "كتالوج:",
+    "message": " كتالوج:",
     "description": "UA"
   },
   "allCollege": {
-    "message": "جميع الكليات",
+    "message": "كل الكليات",
     "description": "UA"
   },
   "confirmPublish": {
-    "message": "لا يوجد محتوى في فصل أو صفحة أدوات الدورات التدريبية. لمنع وقوع حادث غير طبيعي في جانب الطالب، سيقوم النظام بإخفاء الفصل أو الصفحة الفارغة عند نشر برامج التدريب. يمكنك تعديله ونشره مرة أخرى. هل تريد أن تُصدر؟",
+    "message": "لا يوجد محتوى في فصل أو صفحة أدوات المناهج الدراسية. لمنع تشتيت الطلاب، سيقوم النظام بإخفاء الفصل أو الصفحة الفارغة عند نشر المناهج الدراسية. يمكنك تعديله ونشره مرة أخرى.",
     "description": "UA"
   },
   "cannotRecord": {
-    "message": "لا يمكن للمتصفح تسجيل الصوت",
+    "message": "لا يمكن لمتصفحك تسجيل الصوت ",
     "description": "UA"
   },
   "scoreFail": {
-    "message": "فشل في التقدير",
+    "message": "لم نتمكن من التفدير",
     "description": "UA"
   },
   "scoringTimeout": {
-    "message": "تجاوز وقت التقدير، الرجاء الانتظار والمحاولة مرة أخرى",
+    "message": "تجاوز وقت التقدير، يرجى الانتظار والمحاولة مرة أخرى",
     "description": "UA"
   },
   "Results": {
@@ -4072,7 +3944,7 @@
     "description": "UA"
   },
   "noPermission": {
-    "message": "غير مخول باستخدام التسجيل الصوتي",
+    "message": "غير مصرح باستخدام التسجيل الصوتي",
     "description": "UA"
   },
   "checkDoc": {
@@ -4080,31 +3952,31 @@
     "description": "UA"
   },
   "fullScreenView": {
-    "message": "عرض في ملء الشاشة",
+    "message": "عرض في ملء الشاشة ",
     "description": "UA"
   },
   "publishCourseTip": {
-    "message": "المناهج الدراسية جاهزة للنشر، لكنها لا تظهر في صفحة الموقع، وهذا لن يؤثر على استخدام المناهج الدراسية.",
+    "message": " المناهج الدراسية جاهزة للنشر، لكنها لا تظهر في الموقع، وهذا لن يؤثر على استخدام المناهج الدراسية.",
     "description": "UA"
   },
   "publishCourseTip1": {
-    "message": "سيتم تغيير حالة البرامج التدريبية إلى \"منشور\" بعد النشر. إذا قمت أيضًا بتحديد ULearning Portal للنشر ، يجب أن تتم الموافقة عليه من قبل uLearning Admin لجعله يظهر على بوابة ULearning.",
+    "message": "سيتم تغيير حالة  المناهج الدراسية إلى \"منشور\" بعد النشر. إذا قمت أيضًا بتحديد ULearning Portal للنشر ، يجب أن تتم الموافقة عليه من قبل ULearning Admin لجعله يظهر على بوابة ULearning.",
     "description": "UA"
   },
   "publishCourseTip2": {
-    "message": "لم تكمل جميع المعلومات الخاصة بـ المناهج الدراسية، مثل المعلومات الأساسية، مقدمة مفصلة، معلومات عضو الفريق، إلخ. إذا كنت لا تنوي إظهار البرامج الدراسية في صفحة الموقع، يمكنك اختيار عدم ملئه.",
+    "message": "لم تكمل جميع المعلومات الخاصة بـ المناهج الدراسية، مثل المعلومات الأساسية، مقدمة مفصلة، معلومات عضو التدريس، إلخ. إذا كنت لا تنوي إظهار  المناهج الدراسية في  لموقع، يمكنك اختيار عدم ملئها.",
     "description": "UA"
   },
   "searchByUsernameTip": {
-    "message": "أدخل اسم المستخدم/ الاسم للبحث",
+    "message": "أدخل اسم المستخدم/ اسم للبحث",
     "description": "UA"
   },
   "continue": {
-    "message": "مواصله",
+    "message": "إستمرار",
     "description": "UA"
   },
   "selectFromResLib": {
-    "message": "حدد من مكتبة الموارد",
+    "message": "اختر من مكتبة المصادر",
     "description": "UA"
   },
   "backToCustomerService": {
@@ -4112,27 +3984,27 @@
     "description": "UA"
   },
   "skipStep": {
-    "message": "تخطي.",
+    "message": "‏‏تخطي",
     "description": "一个按钮"
   },
   "wipeSubtitleTip": {
-    "message": "هل تريد بالتأكيد إزالة ملف SRT هذا؟",
+    "message": "هل تريد إزالة ملف SRT هذا؟",
     "description": "UA"
   },
   "saveSubtitleTip": {
-    "message": "لا يمكن أن يكون المحتوى فارغاً.",
+    "message": "لا يمكن أن يكون المحتوى فارغا",
     "description": "UA"
   },
   "practiceSetCountTip": {
-    "message": "يجب أن يكون عدد الإجابات بين 1-50.",
+    "message": "يجب أن تكون فرصة الارسال بين 1-50",
     "description": "UA \"练习设置\" 设置提示"
   },
   "practiceSetMinuteTip": {
-    "message": "يجب ألا تكون مدة الرد أقل من 0.",
+    "message": "يجب ألا تقل المدة عن 0",
     "description": "UA \"练习设置\" 设置提示"
   },
   "practiceSetSecondTip": {
-    "message": "عدد الثواني للإجابة على السؤال يجب أن يكون بين 0-60.",
+    "message": "يجب أن تكون مدة الإجابة بين 0-60 ثانية",
     "description": "UA \"练习设置\" 设置提示"
   },
   "practiceConfig": {
@@ -4140,71 +4012,107 @@
     "description": "UA \"练习设置\""
   },
   "practiceCount": {
-    "message": "تمارين المحاولات",
+    "message": "محاولات التمرين",
     "description": "UA \"练习设置\""
   },
   "practiceUnlimit": {
-    "message": "بلا حدود",
+    "message": "بلا ملهلة زمنية",
     "description": "UA \"练习设置\""
   },
   "practiceLimitCount": {
-    "message": "الحد",
+    "message": "محدد بمهلة زمنية",
     "description": "UA \"练习设置\""
   },
   "practiceUnifiedSet": {
-    "message": "التقدم بطلب للحصول على الموضوع بأكمله",
+    "message": "تنطبق على كل المواضيع",
     "description": "UA \"练习设置\""
   },
   "timeLimitAnswer": {
-    "message": "الحد الزمني",
+    "message": "محدد بوقت",
     "description": "UA \"练习设置\""
   },
   "practiceLimitTime": {
-    "message": "الحد",
+    "message": "محدد بمهلة زمنية",
     "description": "UA \"练习设置\""
   },
   "practiceConfigTip1": {
-    "message": "1. يمكنك تعيين حد زمني فقط للصفحات التي بها أسئلة (أسئلة) ممارسة.",
+    "message": "1. يمكنك تعيين المهلة زمنية فقط للصفحات التي بها أسئلة أو تمرين.",
     "description": "UA \"练习设置\""
   },
   "practiceConfigTip2": {
-    "message": "2. ينطبق الحد الزمني على جميع العناصر (مثل الفيديو، الوثائق، النص، الخ) في صفحة المحتوى، وليس فقط على أسئلة التمرين.",
+    "message": "2. ينطبق الحد الزمني على جميع العناصر الموجودة في محتوى الصفحة (مثل الفيديو والمستندات والنصوص إلخ ...)  و ليس على أسئلة التمرين فقط.",
     "description": "UA \"练习设置\""
   },
   "practiceConfigTip3": {
-    "message": "3. يحتاج الطلاب إلى إكمال أسئلة التمرين في المهلة المحددة. إذا لم يكن كذلك، فإن النظام جعل الإرسال تلقائيا.",
+    "message": "3. يحتاج الطلاب إلى إكمال أسئلة التمرين في الوقت المحدد. إذا لم يتم الانتهاء منها فسيقوم النظام الإرسال تلقائيًا.",
     "description": "UA \"练习设置\""
   },
   "browserTip": {
-    "message": "تم اكتشاف أنك تستخدم إصدارًا قديمًا أو متصفحًا غير مدعوم من قبل النظام ، وهذا هو {emphasize}. يرجى استخدام المتصفح الموصى به من قبل النظام للتعلم ، أو ترقية إصدار المتصفح الخاص بك.يرجى تنزيل تطبيق ULearning للتعلم على هاتفك المحمول.",
+    "message": "تم اكتشاف أنك تستخدم إصدارًا قديمًا أو متصفحًا لا يدعمه النظام. هذا سوف {emphasize}. يرجى استخدام متصفح النظام الموصى به للتعلم ، أو ترقية إصدار المتصفح الخاص بك ، والهاتف المحمول ، يرجى تنزيل التطبيق التعليمي لأكاديمية الولايات المتحدة.",
     "description": "{emphasize} 是强调内容，因为需要进行单独的样式设置，所以会设置插值。插值处的内容是下面的“可能会导致学习记录不准确”"
   },
   "browserTipEm": {
-    "message": "قد يؤدي هذا إلى سجلات تعليمية غير دقيقة.",
+    "message": "قد ينتج عن هذا سجلات تعلم غير دقيقة",
     "description": "上面 browserTip 的插值内容"
   },
   "browserTipList": {
-    "message": "يتم اعتماد المستعرضات التالية فقط:",
+    "message": "ندعم المتصفحات التالية فقط:",
     "description": "浏览器兼容性提示"
   },
   "chromeBrowser": {
-    "message": "جوجل كروم (أفضل)",
+    "message": "جوجل كروم (الأفضل)",
     "description": "浏览器兼容性提示"
   },
   "safariBrowser": {
-    "message": "سفاري (نظام ماك OS)",
+    "message": "سفاري (لنظام تشغيل ماك)",
     "description": "浏览器兼容性提示"
   },
   "timePoint": {
-    "message": "بالتوقيت {time}",
+    "message": "الوقت: {time}",
     "description": "指视频剪辑的时间点"
   },
   "selectedQuestions": {
-    "message": "تم إنشاء سؤال {count} | تم إنشاء {count} الأسئلة",
+    "message": "تم اختيار {count}",
     "description": "出现于视频剪辑处"
   },
   "reSelectQuestion": {
-    "message": "إعادة تحديد السؤال.",
+    "message": "اعد اختيار الأسؤال",
     "description": "出现于视频剪辑处"
+  },
+  "restoreRecord": {
+    "message": "استرداد سجل التعلم الخاص بك",
+    "description": "UA"
+  },
+  "recordList": {
+    "message": " قائمة سجلات التعلم",
+    "description": "UA"
+  },
+  "restoreTip1": {
+    "message": "لا تقم بتحديث الصفحة إذا كنت تستعيد سجل تعليمي ناجح لم يتم حفظه من قبل ...",
+    "description": "UA"
+  },
+  "restoreTip2": {
+    "message": "ملاحظة: إذا لم يتم استرداد أحد السجلات بنجاح ، فاتصل بخدمة العملاء. إذا كنت بحاجة للعودة إلى صفحة المشغل للمتابعة ، فانقر زر \"رجوع\" في الزاوية اليمنى العليا. إذا كنت لا ترغب في ظهور تذكير منبثق لاستئناف سجلات التعلم عند دخول للمشغل ، فيمكنك حذف السجل الذي تعذر في الاسترداد (تحذير: قد تؤدي إزالة ذاكرة التخزين المؤقت المحلية إلى منع استرداد سجل التعلم الناجح) .\n",
+    "description": "UA"
+  },
+  "recovering": {
+    "message": "استرداد",
+    "description": "UA"
+  },
+  "restoreFailed": {
+    "message": "لم نتمكن من الاسترداد",
+    "description": "UA"
+  },
+  "removedFromCache": {
+    "message": " تمت إزالته من ذاكرة التخزين المؤقتة",
+    "description": "UA"
+  },
+  "restoreSuccess": {
+    "message": "تم الاسترداد بنجاح",
+    "description": "UA"
+  },
+  "restoreComplete": {
+    "message": "تم استرداد كل سجلات التعلم بنجاح",
+    "description": "UA"
   }
 }
