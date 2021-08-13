@@ -91,6 +91,18 @@
     "message": "Pengoperasian berhasil",
     "description": "smart-classroom 项目"
   },
+  "common.remind": {
+    "message": "Pengingat",
+    "description": "smart-classroom 项目"
+  },
+  "common.create": {
+    "message": "Buat",
+    "description": "smart-classroom 项目"
+  },
+  "common.finish2": {
+    "message": "Selesai",
+    "description": "smart-classroom 项目"
+  },
   "classroom.currentCourse": {
     "message": "Mata kuliah saat ini",
     "description": "smart Class"
@@ -135,21 +147,53 @@
     "message": "Sudah buat kelas?",
     "description": "smart Class"
   },
+  "classroom.noClassroomTip2": {
+    "message": "Guru belum membuat ruang kelas, harap tunggu guru membuat atau menghubungi guru.",
+    "description": "smart-classroom 项目"
+  },
   "classroom.refresh": {
     "message": "Klik untuk refresh",
     "description": "smart Class"
   },
-  "classroom.noCourseTip": {
-    "message": "Anda belum memiliki mata kuliah, silahkan buat mata kuliah dan kelas di web resmi ULearn terlebih dahulu",
-    "description": "smart Class"
+  "classroom.noCourseTip2": {
+    "message": "Anda belum memiliki kursus, membuat kursus di LMS dan mengundang siswa untuk bergabung",
+    "description": "smart-classroom 项目"
   },
-  "classroom.toCteate": {
-    "message": "Buat",
-    "description": "smart Class"
+  "classroom.noCourseTip3": {
+    "message": "Telah dibuat",
+    "description": "smart-classroom 项目"
   },
-  "classroom.noCourseTip1": {
-    "message": "Sudah buat mata kuliah?",
-    "description": "smart Class"
+  "classroom.noCourseTip4": {
+    "message": "Anda belum bergabung dengan kursus, silakan hubungi guru Anda.",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.newUser": {
+    "message": "Saya pengguna baru yang >>",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.introTip1": {
+    "message": "UClass adalah alat berorientasi ruang kelas yang perlu digunakan dengan LMS kami. Silakan selesaikan persiapan berikut dalam sistem LMS kami:",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.step1": {
+    "message": "Buat mata kuliah",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.step2": {
+    "message": "Buat kelas",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.step3": {
+    "message": "Mengundang/mengimpor siswa",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.introTip2": {
+    "message": "Klik di sini untuk {0} atau hubungi staf layanan kami untuk pelatihan.",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.viewHelp": {
+    "message": "Menampilkan bantuan >>",
+    "description": "smart-classroom 项目"
   },
   "classroom.ulearnWeb": {
     "message": "Situs resmi ULearn",
@@ -315,6 +359,34 @@
     "message": "Kelas {date} ",
     "description": "smart-classroom 项目"
   },
+  "classroom.noSearchData": {
+    "message": "Tidak ada konten yang memenuhi persyaratan",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.search": {
+    "message": "Cari",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.hasDataTip": {
+    "message": "Kelas ini telah menghasilkan data aktivitas dan tidak dapat mengubah kelas",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.findDetails": {
+    "message": "Lihat rincian",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.classesNum": {
+    "message": "Jumlah kelas",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.time": {
+    "message": "Waktu kelas",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.interactionsDesc1": {
+    "message": "Jumlah interaksi - Jumlah total peserta yang memilih, memilih, menjawab, mencetak gol, dan berdiskusi di kelas",
+    "description": "smart-classroom 项目"
+  },
   "login.welcomeTip": {
     "message": "Selamat datang di Kelas Pintar ULearn",
     "description": "smart Class"
@@ -322,6 +394,10 @@
   "login.inputUserNameTip1": {
     "message": "Nama pengguna/No. ponsel/Email",
     "description": "smart Class"
+  },
+  "login.inputUserNameTip2": {
+    "message": "Nama pengguna",
+    "description": "smart-classroom 项目"
   },
   "login.password": {
     "message": "Kata sandi",
@@ -495,6 +571,78 @@
     "message": "Kebijakan Privasi",
     "description": "smart-classroom 项目"
   },
+  "login.browserTip": {
+    "message": "Untuk hasil belajar mengajar terbaik, silakan gunakan chrome V58 ke atas.",
+    "description": "smart-classroom 项目"
+  },
+  "intro.welcomeTip": {
+    "message": "Selamat datang untuk digunakan",
+    "description": "smart-classroom 项目"
+  },
+  "intro.name": {
+    "message": "Ruang kelas pintar",
+    "description": "smart-classroom 项目"
+  },
+  "intro.tips1": {
+    "message": "Pengalaman baru untuk pengajaran hibrid",
+    "description": "smart-classroom 项目"
+  },
+  "intro.tips2": {
+    "message": "Anda harus mendapatkan nomor akun untuk UClass sebelum menggunakannya, jika Anda tidak memilikinya, silakan lakukan terlebih dahulu",
+    "description": "smart-classroom 项目"
+  },
+  "intro.connectMe": {
+    "message": "Hubungi kami",
+    "description": "smart-classroom 项目"
+  },
+  "intro.tips3": {
+    "message": "Klik di sini untuk melihat UClass",
+    "description": "smart-classroom 项目"
+  },
+  "intro.introVideo": {
+    "message": "Perkenalkan video",
+    "description": "smart-classroom 项目"
+  },
+  "intro.and": {
+    "message": "dan",
+    "description": "smart-classroom 项目"
+  },
+  "intro.introManual": {
+    "message": "Manual",
+    "description": "smart-classroom 项目"
+  },
+  "intro.start": {
+    "message": "Memulai",
+    "description": "smart-classroom 项目"
+  },
+  "intro.welcomeTip2": {
+    "message": "Selamat Datang di U-Class",
+    "description": "smart-classroom 项目"
+  },
+  "intro.params1": {
+    "message": "Kelas Pintar U-Class memberi Anda pengalaman pengajaran campuran baru. Pengajaran hibrida menggabungkan pengajaran online dan tatap muka. Dibandingkan dengan pengajaran tatap muka tradisional, pengajaran campuran lebih efektif. U-Class mendukung lingkungan belajar yang mulus yang meningkatkan keterlibatan siswa.<ul>  <li>Kombinasi mulus dari instruksi kelas online dan offline.</li>  <li>Interkoneksi multi-layar menghilangkan jarak antara pelajar dan guru.</li>  <li>Di bawah data-driven, meningkatkan efisiensi pengajaran guru.</li>  <li>Kemampuan AI mengurangi beban kerja guru.</li>  <li>Interaksi dan kolaborasi jarak jauh dan real-time memfasilitasi komunikasi yang efektif.</li>  <li>Gunakan papan tulis untuk kolaborasi di tempat dan virtual.</li>  <li>Laporan Analisis Ruang Kelas menyediakan analisis data yang komprehensif tentang kegiatan ruang kelas fisik dan virtual yang dilakukan selama kelas.</li></ul>Kami melayani lebih dari 400 organisasi pendidikan dan 2 juta pengguna secara nasional.",
+    "description": "smart-classroom 项目"
+  },
+  "intro.params2": {
+    "message": "Kelas Pintar U-Class, terdepan cerdas, tanpa batas.",
+    "description": "smart-classroom 项目"
+  },
+  "intro.land": {
+    "message": "Daratan Cina",
+    "description": "smart-classroom 项目"
+  },
+  "intro.outLand": {
+    "message": "internasional",
+    "description": "smart-classroom 项目"
+  },
+  "intro.noAccount": {
+    "message": "Tidak punya rekening?",
+    "description": "smart-classroom 项目"
+  },
+  "intro.helpCenter": {
+    "message": "Pusat bantuan",
+    "description": "smart-classroom 项目"
+  },
   "discuss.discuss": {
     "message": "Diskusi",
     "description": "smart Class"
@@ -506,6 +654,10 @@
   "discuss.noDiscuss": {
     "message": "Belum ada diskusi",
     "description": "smart Class"
+  },
+  "discuss.noClassDiscuss": {
+    "message": "Tidak ada diskusi di kelas saat ini",
+    "description": "smart-classroom 项目"
   },
   "discuss.anonymousDiscussion": {
     "message": "Diskusi anonim",
@@ -537,6 +689,18 @@
   },
   "discuss.discussTitle": {
     "message": "Diskusi kelas {date}",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.allDiscuss": {
+    "message": "Semua diskusi",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.classRoom": {
+    "message": "Kelas kelas",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.allClass": {
+    "message": "Semua kelas",
     "description": "smart-classroom 项目"
   },
   "score.createScoreTip": {
@@ -783,6 +947,18 @@
     "message": "Penilaian kelas {date}",
     "description": "smart-classroom 项目"
   },
+  "score.objectNums": {
+    "message": "Ulasan: Total {num}",
+    "description": "smart-classroom 项目"
+  },
+  "score.totalScore": {
+    "message": "Nilai sempurna {score} poin",
+    "description": "smart-classroom 项目"
+  },
+  "score.scoreResult": {
+    "message": "Nilai",
+    "description": "smart-classroom 项目"
+  },
   "pick.pickRecord": {
     "message": "Catatan Pilih Mahasiswa",
     "description": "smart Class"
@@ -790,6 +966,10 @@
   "pick.randomPick": {
     "message": "Pilih mahasiswa secara acak",
     "description": "smart Class"
+  },
+  "pick.handlePick": {
+    "message": "Pilih mahasiswa secara manual",
+    "description": "smart-classroom 项目"
   },
   "pick.noRecord": {
     "message": "Belum ada catatan Pilih Mahasiswa",
@@ -843,6 +1023,22 @@
     "message": "Kegiatan Pilih Mahasiswa kelas {date}",
     "description": "smart-classroom 项目"
   },
+  "pick.pickFromAttd": {
+    "message": "Pilih dari siswa yang diberi nama untuk hadir",
+    "description": "smart-classroom 项目"
+  },
+  "pick.selectStu": {
+    "message": "Pilih siswa untuk menjawab pertanyaan",
+    "description": "smart-classroom 项目"
+  },
+  "pick.addPickFirst": {
+    "message": "Tidak ada panggilan nama yang telah dimulai di ruang kelas saat ini, silakan gunakan fitur ini setelah memulai panggilan nama",
+    "description": "smart-classroom 项目"
+  },
+  "pick.preabsence": {
+    "message": "Mewakili ketidakhadiran",
+    "description": "smart-classroom 项目"
+  },
   "attendence.numAttendence": {
     "message": "Absen digital",
     "description": "smart Class"
@@ -855,6 +1051,10 @@
     "message": "Absensi",
     "description": "smart Class"
   },
+  "attendence.gosignNew": {
+    "message": "Pindai untuk check-in",
+    "description": "smart-classroom 项目"
+  },
   "attendence.codeSign": {
     "message": "Absensi kode QR",
     "description": "smart Class"
@@ -862,6 +1062,10 @@
   "attendence.phoneScan": {
     "message": "Scan kode QR dari ponsel",
     "description": "smart Class"
+  },
+  "attendence.phoneScanNew": {
+    "message": "Hanya siswa yang didukung untuk menggunakan ponsel mereka",
+    "description": "smart-classroom 项目"
   },
   "attendence.attendence": {
     "message": "Absensi",
@@ -1099,6 +1303,182 @@
     "message": "Mahasiswa",
     "description": "smart-classroom 项目"
   },
+  "student.praise": {
+    "message": "dukung",
+    "description": "smart-classroom 项目"
+  },
+  "student.notUnderstand": {
+    "message": "Ada masalah",
+    "description": "smart-classroom 项目"
+  },
+  "student.understand": {
+    "message": "Membatalkan pertanyaan",
+    "description": "smart-classroom 项目"
+  },
+  "student.participate": {
+    "message": "Untuk berpartisipasi",
+    "description": "smart-classroom 项目"
+  },
+  "student.involved": {
+    "message": "Berpartisipasi",
+    "description": "smart-classroom 项目"
+  },
+  "student.callRoll1": {
+    "message": "Silakan masukkan nomor yang ditampilkan di layar guru untuk menyelesaikan check-in",
+    "description": "smart-classroom 项目"
+  },
+  "student.fewPoints": {
+    "message": "Poin untuk {num}",
+    "description": "smart-classroom 项目"
+  },
+  "student.toBeSelected": {
+    "message": "Selamat telah dipilih oleh guru!",
+    "description": "smart-classroom 项目"
+  },
+  "student.discuss1": {
+    "message": "Bagaimana Anda memilih?",
+    "description": "smart-classroom 项目"
+  },
+  "student.submit": {
+    "message": "Kumpul",
+    "description": "smart-classroom 项目"
+  },
+  "student.teamEvaluation": {
+    "message": "Evaluasi grup latihan",
+    "description": "smart-classroom 项目"
+  },
+  "student.howPoints": {
+    "message": "Poin untuk {num}",
+    "description": "smart-classroom 项目"
+  },
+  "student.fullMarks": {
+    "message": "Skor penuh: {num}",
+    "description": "smart-classroom 项目"
+  },
+  "student.totalFew": {
+    "message": "Total {num} ",
+    "description": "smart-classroom 项目"
+  },
+  "student.combined": {
+    "message": "Total",
+    "description": "smart-classroom 项目"
+  },
+  "student.selected": {
+    "message": "Telah memilih",
+    "description": "smart-classroom 项目"
+  },
+  "student.hasBeenRated": {
+    "message": "Poin untuk {num}",
+    "description": "smart-classroom 项目"
+  },
+  "student.pleaseWaitFor": {
+    "message": "Harap tunggu guru memulai kegiatan kelas",
+    "description": "smart-classroom 项目"
+  },
+  "student.pleaseWatchTeacherScreen": {
+    "message": "Guru menunjukkan jenis sumber daya lainnya, silakan lihat layar guru",
+    "description": "smart-classroom 项目"
+  },
+  "student.finishSuccess": {
+    "message": "Check-in berhasil! Silakan lihat hasilnya di layar pengajar.",
+    "description": "smart-classroom 项目"
+  },
+  "student.voteErr": {
+    "message": "Pemilihan suara gagal",
+    "description": "smart-classroom 项目"
+  },
+  "student.maxSelectableCount": {
+    "message": "Pilihan-multi (pilih maksimum {selectionableCount})",
+    "description": "smart-classroom 项目"
+  },
+  "student.replySuccess": {
+    "message": "Pengiriman berhasil, silakan lihat semua respons di layar guru.",
+    "description": "smart-classroom 项目"
+  },
+  "student.showConfirm": {
+    "message": "Guru memulai {type} baru, tetap dalam aktivitas saat ini atau berpartisipasi dalam aktivitas baru?\n",
+    "description": "smart-classroom 项目"
+  },
+  "student.takePartIn": {
+    "message": "Ikut bergabung",
+    "description": "smart-classroom 项目"
+  },
+  "student.forPoints": {
+    "message": "Selamat atas perolehan {score} poin.\n",
+    "description": "smart-classroom 项目"
+  },
+  "student.replyAgain": {
+    "message": "Balas lagi",
+    "description": "smart-classroom 项目"
+  },
+  "student.replyContent": {
+    "message": "Anda telah berpartisipasi dalam balasan, untuk komentar lebih lanjut, silakan klik balas lagi.",
+    "description": "smart-classroom 项目"
+  },
+  "student.editClassroom": {
+    "message": "Keluar dari kelas",
+    "description": "smart-classroom 项目"
+  },
+  "student.classroomEnded": {
+    "message": "Pelajaran ini sudah berakhir.",
+    "description": "smart-classroom 项目"
+  },
+  "student.ercode": {
+    "message": "Absensi dengan menggunakan kode QR",
+    "description": "smart-classroom 项目"
+  },
+  "student.oneCall": {
+    "message": "Lokasi check-in",
+    "description": "smart-classroom 项目"
+  },
+  "student.notSupport": {
+    "message": "Perangkat saat ini tidak mendukung {sup}, harap hubungi guru.\n",
+    "description": "smart-classroom 项目"
+  },
+  "student.activityEnd": {
+    "message": "Pengajuan gagal dan aktivitas berakhir.",
+    "description": "smart-classroom 项目"
+  },
+  "student.activityDelete": {
+    "message": "Pengiriman gagal dan aktivitas dihapus.",
+    "description": "smart-classroom 项目"
+  },
+  "student.notice": {
+    "message": "memperhatikan",
+    "description": "smart-classroom 项目"
+  },
+  "student.submitFail": {
+    "message": "Gagal dikumpul",
+    "description": "smart-classroom 项目"
+  },
+  "student.classRecord": {
+    "message": "Transkrip untuk Aktivitas Kelas Ini",
+    "description": "smart-classroom 项目"
+  },
+  "student.average": {
+    "message": "Nilai rata-rata",
+    "description": "smart-classroom 项目"
+  },
+  "student.myScore": {
+    "message": "Penilaian saya",
+    "description": "smart-classroom 项目"
+  },
+  "student.pleaseIndicate": {
+    "message": "Harap beri nilai pada responden",
+    "description": "smart-classroom 项目"
+  },
+  "student.iWillGiveScore": {
+    "message": "Saya menilai subjek",
+    "description": "smart-classroom 项目"
+  },
+  "student.deleteUnInvolved": {
+    "message": "Tak bisa berpartisipasi, aktivitas telah dihapus.",
+    "description": "smart-classroom 项目"
+  },
+  "student.youInvolved": {
+    "message": "Anda sudah berpartisipasi dalam acara tersebut.",
+    "description": "smart-classroom 项目"
+  },
   "screen.inClass": {
     "message": "Sedang kelas",
     "description": "smart Class"
@@ -1283,6 +1663,106 @@
     "message": "Kelas dimulai!",
     "description": "smart-classroom 项目"
   },
+  "screen.activityRecord": {
+    "message": "Catatan aktivitas",
+    "description": "smart-classroom 项目"
+  },
+  "screen.activityNum": {
+    "message": "Jumlah: {num}",
+    "description": "smart-classroom 项目"
+  },
+  "screen.clearCache": {
+    "message": "Hapus cache",
+    "description": "smart-classroom 项目"
+  },
+  "screen.downloadFailed": {
+    "message": "Pengunduhan gagal",
+    "description": "smart-classroom 项目"
+  },
+  "screen.download": {
+    "message": "tembolok",
+    "description": "smart-classroom 项目"
+  },
+  "screen.waitDownload": {
+    "message": "Menunggu untuk mengunduh",
+    "description": "smart-classroom 项目"
+  },
+  "screen.downloaded": {
+    "message": "Cache",
+    "description": "smart-classroom 项目"
+  },
+  "screen.deleteTip": {
+    "message": "Yakin ingin menghapus semua sumberdaya yang tersimpan di bawah peranti saat ini?",
+    "description": "smart-classroom 项目"
+  },
+  "screen.shareScreen": {
+    "message": "Layar yang sama",
+    "description": "smart-classroom 项目"
+  },
+  "screen.shareScreenSuccess": {
+    "message": "Dengan kesuksesan layar yang sama, mahasiswa dapat melihat isi kuliah",
+    "description": "smart-classroom 项目"
+  },
+  "screen.unshareScreenSuccess": {
+    "message": "Layar yang sama telah dibatalkan",
+    "description": "smart-classroom 项目"
+  },
+  "screen.firsttimeShareScreenSuccess": {
+    "message": "Dengan mengklik layar yang sama, siswa dapat melihat konten Anda di sisi komputer dan menandai konten yang dimaksud. Saat ini hanya layar PPT yang didukung, format sumber daya lainnya yang dibuka nanti.",
+    "description": "smart-classroom 项目"
+  },
+  "screen.gotIt": {
+    "message": "Saya sudah tahu",
+    "description": "smart-classroom 项目"
+  },
+  "screen.xStudentsHasDoubt": {
+    "message": "{num} orang memiliki pertanyaan tentang halaman ini\n",
+    "description": "smart-classroom 项目"
+  },
+  "screen.doubtStudents": {
+    "message": "Siswa dengan pertanyaan di halaman ini:",
+    "description": "smart-classroom 项目"
+  },
+  "screen.hasxDoubts": {
+    "message": "{Num} pertanyaan di kelas ini\n",
+    "description": "smart-classroom 项目"
+  },
+  "screen.waitAnswer": {
+    "message": "Untuk dijawab",
+    "description": "smart-classroom 项目"
+  },
+  "screen.history": {
+    "message": "Catatan riwayat: ",
+    "description": "smart-classroom 项目"
+  },
+  "screen.openFromResource": {
+    "message": "Membuka dari sumber daya",
+    "description": "smart-classroom 项目"
+  },
+  "screen.recentOpen": {
+    "message": "Baru dibuka",
+    "description": "smart-classroom 项目"
+  },
+  "screen.openResource": {
+    "message": "Membuka sumber daya",
+    "description": "smart-classroom 项目"
+  },
+  "screen.createAttendance": {
+    "message": "Memulai absensi",
+    "description": "smart-classroom 项目"
+  },
+  "screen.leadTip1": {
+    "message": "1. Anda dapat membuat aktivitas terlebih dahulu dan menyimpannya sebagai draf. Setelah kelas, Anda dapat membuka draf dan memulai aktivitas",
+    "description": "smart-classroom 项目"
+  },
+  "screen.leadTip2": {
+    "message": "2. Anda dapat menemukan dan membuka courseware seperti PPT atau video untuk mengajar dari sumber daya, dan setelah kelas, Anda dapat dengan cepat menemukannya di catatan terbuka.",
+    "description": "smart-classroom 项目"
+  },
+  "screen.leadTip3": {
+    "message": "3. Setelah selesai persiapan, klik tombol \"Kelas\" di sebelah kanan untuk memulai kelas.",
+    "description": "smart-classroom 项目"
+  },
   "vote.start": {
     "message": "Memulai voting",
     "description": "smart-classroom 项目"
@@ -1399,6 +1879,10 @@
     "message": "Voting kelas {date}",
     "description": "smart-classroom 项目"
   },
+  "vote.optionsNum": {
+    "message": "Jumlah orang pilihan",
+    "description": "smart-classroom 项目"
+  },
   "answer.inputAnswerContent": {
     "message": "Silahkan masukkan konten jawab cepat",
     "description": "smart-classroom 项目"
@@ -1425,6 +1909,38 @@
   },
   "answer.answerTitle": {
     "message": "Jawab cepat kelas {date}",
+    "description": "smart-classroom 项目"
+  },
+  "answer.selectStu": {
+    "message": "Silakan pilih siswa",
+    "description": "smart-classroom 项目"
+  },
+  "answer.sort": {
+    "message": "Urutan",
+    "description": "smart-classroom 项目"
+  },
+  "answer.joinTimes": {
+    "message": "Mengurutkan menurut jumlah waktu",
+    "description": "smart-classroom 项目"
+  },
+  "answer.stuNum": {
+    "message": "Urutkan sesuai NIM",
+    "description": "smart-classroom 项目"
+  },
+  "answer.addStu": {
+    "message": "Tambah mahasiswa",
+    "description": "smart-classroom 项目"
+  },
+  "answer.totalTips": {
+    "message": "Menjawab {count} kali dan dipilih {selectPersonCount} kali",
+    "description": "smart-classroom 项目"
+  },
+  "answer.hasMe": {
+    "message": "Sudah jawab",
+    "description": "smart-classroom 项目"
+  },
+  "answer.isFull": {
+    "message": "Tempat ini telah dibentak",
     "description": "smart-classroom 项目"
   },
   "live.attdenceLive": {
@@ -1493,6 +2009,174 @@
   },
   "live.replaceEquipment": {
     "message": "Ganti perangkat",
+    "description": "smart-classroom 项目"
+  },
+  "live.joinMeeting": {
+    "message": "Bergabung dalam rapat",
+    "description": "smart-classroom 项目"
+  },
+  "live.meeting": {
+    "message": "Hidup",
+    "description": "smart-classroom 项目"
+  },
+  "live.enterSipNum": {
+    "message": "Silakan masukkan kode sip layar besar yang benar",
+    "description": "smart-classroom 项目"
+  },
+  "live.live": {
+    "message": "Live",
+    "description": "smart-classroom 项目"
+  },
+  "welink.loginTitle": {
+    "message": "Silakan ikat akun U-Class Anda terlebih dahulu, lalu masuk langsung dengan welink",
+    "description": "smart-classroom 项目"
+  },
+  "welink.user": {
+    "message": "Nama pengguna",
+    "description": "smart-classroom 项目"
+  },
+  "welink.bind": {
+    "message": "Ikat",
+    "description": "smart-classroom 项目"
+  },
+  "welink.bindSuccess": {
+    "message": "Pengikatan akun berhasil!",
+    "description": "smart-classroom 项目"
+  },
+  "welink.upErr": {
+    "message": "Nama pengguna atau kata sandi salah, silakan coba lagi!",
+    "description": "smart-classroom 项目"
+  },
+  "welink.welinkUser": {
+    "message": "Akun Welink",
+    "description": "smart-classroom 项目"
+  },
+  "welink.organization": {
+    "message": "institusi tempatnya berada",
+    "description": "smart-classroom 项目"
+  },
+  "welink.iKnow": {
+    "message": "Saya sudah tahu",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.classroom": {
+    "message": "kelas",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.network": {
+    "message": "Internet:",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.teacherScreen": {
+    "message": "Layar guru",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.groupScreen": {
+    "message": "Layar grup",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.offline": {
+    "message": "Offline",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.getFail": {
+    "message": "Gagal mendapatkan informasi",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.removeGroupScreen": {
+    "message": "Hapus dari ruang kelas",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.confirmToRemove": {
+    "message": "Yakin ingin menghapus layar grup dari ruang kelas saat ini?",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.removeSuccess": {
+    "message": "Penghapusan berhasil",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.removeFail": {
+    "message": "Penghapusan gagal",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.editSuccess": {
+    "message": "Modifikasi berhasil",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.groupDiscussionClassroom": {
+    "message": "Ruang kelas diskusi grup",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.school": {
+    "message": "Universitas",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.classroomCode": {
+    "message": "Ruang kelas no",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCode": {
+    "message": "Silakan masukkan nomor kelas",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.classroomCodeTip": {
+    "message": "Ikat layar pengajar ke layar grup di ruang kelas yang sama. Nomor kelas hanya tersedia dalam huruf dan angka bahasa Inggris.",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.theCurrentDeviceIs": {
+    "message": "Perangkat saat ini adalah",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.activationPrompt": {
+    "message": "Kelas pintar tipe lokakarya terdiri dari layar guru dan beberapa layar grup, dan klien UCLass memungkinkan fungsi seperti penyiaran layar, perbandingan grup, dan membawa proyeksi perangkat ANDA SENDIRI antara layar guru dan layar grup. Pastikan ruang kelas Anda dikonfigurasi dengan benar dengan layar guru dan grup, dan beli layanan interaktif multi-layar.",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.contactUs": {
+    "message": "Hubungi kami",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.activationPrompt1": {
+    "message": "Perangkat Anda saat ini tidak mengaktifkan interaksi multi-layar, jika Anda telah membeli layanan kami, silakan klik tombol di bawah ini untuk deteksi jaringan",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.detection": {
+    "message": "Mendeteksi",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.detecting": {
+    "message": "Perangkat sedang terdeteksi dan tidak menutup halaman",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.detectionTip": {
+    "message": "Anda telah diuji 3 kali berturut-turut, silakan coba lagi nanti.",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCodeTip": {
+    "message": "Silakan masukkan huruf atau nomor bahasa Inggris",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCodeTip1": {
+    "message": "Perangkat telah terikat ke ruang kelas {oldCode}, apakah Anda yakin akan mengubah ruang kelas menjadi {code}?\n",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCodeTip2": {
+    "message": "Nomor classroom tidak boleh melebihi 10 karakter",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.setSuccess": {
+    "message": "Penyetelan berhasil",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.setSuccess1": {
+    "message": "Pengaturan berhasil, silakan masuk dan gunakan fitur breakout.",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.setFail": {
+    "message": "Penyetelan gagal",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.noChange": {
+    "message": "Ruang kelas sudah terikat dan tidak perlu mengikat berulang kali",
     "description": "smart-classroom 项目"
   }
 }
