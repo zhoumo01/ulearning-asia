@@ -95,6 +95,14 @@
     "message": "Recordatorio",
     "description": "smart-classroom 项目"
   },
+  "common.create": {
+    "message": "crear",
+    "description": "smart-classroom 项目"
+  },
+  "common.finish2": {
+    "message": "Completado",
+    "description": "smart-classroom 项目"
+  },
   "classroom.currentCourse": {
     "message": "Curso actual",
     "description": "smart Class"
@@ -373,6 +381,10 @@
   },
   "classroom.time": {
     "message": "Tiempo de la sesión",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.interactionsDesc1": {
+    "message": "Número de interacciones : el número total de participantes que votaron, seleccionaron, respondieron, puntuaron y discutieron en clase",
     "description": "smart-classroom 项目"
   },
   "login.welcomeTip": {
@@ -939,6 +951,10 @@
     "message": "Revisar items",
     "description": "smart-classroom 项目"
   },
+  "score.totalScore": {
+    "message": "Puntuación completa {score}",
+    "description": "smart-classroom 项目"
+  },
   "score.scoreResult": {
     "message": "Puntaje",
     "description": "smart-classroom 项目"
@@ -1311,6 +1327,10 @@
     "message": "Por favor, ingresa el código de la pantalla del profesor para iniciar sesión",
     "description": "smart-classroom 项目"
   },
+  "student.fewPoints": {
+    "message": "{num} puntos\n",
+    "description": "smart-classroom 项目"
+  },
   "student.toBeSelected": {
     "message": "Felicitaciones! Has sido seleccionado.",
     "description": "smart-classroom 项目"
@@ -1327,12 +1347,28 @@
     "message": "Evalución de proyecto grupal",
     "description": "smart-classroom 项目"
   },
+  "student.howPoints": {
+    "message": "{num} puntos\n",
+    "description": "smart-classroom 项目"
+  },
+  "student.fullMarks": {
+    "message": "Puntuación completa: {num}",
+    "description": "smart-classroom 项目"
+  },
+  "student.totalFew": {
+    "message": "{Num} en total\n",
+    "description": "smart-classroom 项目"
+  },
   "student.combined": {
     "message": "Puntaje total",
     "description": "smart-classroom 项目"
   },
   "student.selected": {
     "message": "Seleccionado",
+    "description": "smart-classroom 项目"
+  },
+  "student.hasBeenRated": {
+    "message": "{num} puntos",
     "description": "smart-classroom 项目"
   },
   "student.pleaseWaitFor": {
@@ -1351,12 +1387,24 @@
     "message": "¡La votación ha fallado!",
     "description": "smart-classroom 项目"
   },
+  "student.maxSelectableCount": {
+    "message": "Selección múltiple (seleccione como máximo {selectionableCount} elementos)",
+    "description": "smart-classroom 项目"
+  },
   "student.replySuccess": {
     "message": "Enviado de manera exitosa - por favor, revisa las respuestas en la pantalla del profesor.",
     "description": "smart-classroom 项目"
   },
+  "student.showConfirm": {
+    "message": "El profesor inició un nuevo {type}, ¿permanecer en la actividad actual o participar en la nueva actividad?",
+    "description": "smart-classroom 项目"
+  },
   "student.takePartIn": {
     "message": "Ir",
+    "description": "smart-classroom 项目"
+  },
+  "student.forPoints": {
+    "message": "Felicitaciones por ganar {score} puntos.\n",
     "description": "smart-classroom 项目"
   },
   "student.replyAgain": {
@@ -1381,6 +1429,10 @@
   },
   "student.oneCall": {
     "message": "Inicio de sesión de ubicación",
+    "description": "smart-classroom 项目"
+  },
+  "student.notSupport": {
+    "message": "El dispositivo actual no es compatible con {sup}, comuníquese con el maestro.\n",
     "description": "smart-classroom 项目"
   },
   "student.activityEnd": {
@@ -1417,6 +1469,14 @@
   },
   "student.iWillGiveScore": {
     "message": "Puntaje asignado por mi",
+    "description": "smart-classroom 项目"
+  },
+  "student.deleteUnInvolved": {
+    "message": "No se puede participar, la actividad se ha eliminado.",
+    "description": "smart-classroom 项目"
+  },
+  "student.youInvolved": {
+    "message": "Ya estás participando en el evento.",
     "description": "smart-classroom 项目"
   },
   "screen.inClass": {
@@ -1607,6 +1667,10 @@
     "message": "Récord de actividad",
     "description": "smart-classroom 项目"
   },
+  "screen.activityNum": {
+    "message": "Cantidad: {num}",
+    "description": "smart-classroom 项目"
+  },
   "screen.clearCache": {
     "message": "Borrar caché",
     "description": "smart-classroom 项目"
@@ -1651,12 +1715,52 @@
     "message": "¡Entendido!",
     "description": "smart-classroom 项目"
   },
+  "screen.xStudentsHasDoubt": {
+    "message": "\n{num} personas tienen preguntas sobre esta página",
+    "description": "smart-classroom 项目"
+  },
   "screen.doubtStudents": {
     "message": "Estudiantes con preguntas en esta página:",
     "description": "smart-classroom 项目"
   },
+  "screen.hasxDoubts": {
+    "message": "{num} preguntas en esta clase\n",
+    "description": "smart-classroom 项目"
+  },
   "screen.waitAnswer": {
     "message": "Disponible",
+    "description": "smart-classroom 项目"
+  },
+  "screen.history": {
+    "message": "Historia",
+    "description": "smart-classroom 项目"
+  },
+  "screen.openFromResource": {
+    "message": "Abrir desde un recurso",
+    "description": "smart-classroom 项目"
+  },
+  "screen.recentOpen": {
+    "message": "Recientemente inaugurado",
+    "description": "smart-classroom 项目"
+  },
+  "screen.openResource": {
+    "message": "Abrir el recurso",
+    "description": "smart-classroom 项目"
+  },
+  "screen.createAttendance": {
+    "message": "Pasar lista",
+    "description": "smart-classroom 项目"
+  },
+  "screen.leadTip1": {
+    "message": "1. Puede crear la actividad por adelantado y guardarla como un borrador. Después de la clase, puede abrir el borrador e iniciar la actividad",
+    "description": "smart-classroom 项目"
+  },
+  "screen.leadTip2": {
+    "message": "2. Puede encontrar y abrir cursos como PPT o video para la enseñanza de los recursos, y después de la clase, puede encontrarlos rápidamente en el registro abierto.",
+    "description": "smart-classroom 项目"
+  },
+  "screen.leadTip3": {
+    "message": "3. Cuando haya terminado su preparación, haga clic en el botón \"Clase\" a la derecha para comenzar la clase.",
     "description": "smart-classroom 项目"
   },
   "vote.start": {
@@ -1827,6 +1931,18 @@
     "message": "Agregar estudiantes",
     "description": "smart-classroom 项目"
   },
+  "answer.totalTips": {
+    "message": "Respondió {count} veces y fue seleccionado {selectPersonCount} veces",
+    "description": "smart-classroom 项目"
+  },
+  "answer.hasMe": {
+    "message": "Respondió.",
+    "description": "smart-classroom 项目"
+  },
+  "answer.isFull": {
+    "message": "El lugar ha sido arrebatado",
+    "description": "smart-classroom 项目"
+  },
   "live.attdenceLive": {
     "message": "Participa en la transmisión en vivo ({count})",
     "description": "smart-classroom 项目"
@@ -1905,6 +2021,162 @@
   },
   "live.enterSipNum": {
     "message": "Introduzca el código de sip de pantalla grande correcto",
+    "description": "smart-classroom 项目"
+  },
+  "live.live": {
+    "message": "Transmisión en vivo",
+    "description": "smart-classroom 项目"
+  },
+  "welink.loginTitle": {
+    "message": "Por favor, enlace su cuenta de U-Class primero, y luego inicie sesión directamente con welink",
+    "description": "smart-classroom 项目"
+  },
+  "welink.user": {
+    "message": "Nombre de usuario",
+    "description": "smart-classroom 项目"
+  },
+  "welink.bind": {
+    "message": "Bind",
+    "description": "smart-classroom 项目"
+  },
+  "welink.bindSuccess": {
+    "message": "¡El enlace de cuentas se realizó correctamente!",
+    "description": "smart-classroom 项目"
+  },
+  "welink.upErr": {
+    "message": "Nombre de usuario o contraseña incorrectos, por favor inténtelo de nuevo!",
+    "description": "smart-classroom 项目"
+  },
+  "welink.welinkUser": {
+    "message": "Cuenta de Welink",
+    "description": "smart-classroom 项目"
+  },
+  "welink.organization": {
+    "message": "la agencia",
+    "description": "smart-classroom 项目"
+  },
+  "welink.iKnow": {
+    "message": "Entendido",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.classroom": {
+    "message": "aula",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.network": {
+    "message": "Network:",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.teacherScreen": {
+    "message": "Pantalla del profesor",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.groupScreen": {
+    "message": "Pantalla de grupo",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.offline": {
+    "message": "Sin conexión",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.getFail": {
+    "message": "No se pudo obtener la información",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.removeGroupScreen": {
+    "message": "Retirar del aula",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.confirmToRemove": {
+    "message": "¿Está seguro de que desea eliminar la pantalla de grupo del aula actual?",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.removeSuccess": {
+    "message": "¡Eliminado de manera exitosa!",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.removeFail": {
+    "message": "Error en la eliminación",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.editSuccess": {
+    "message": "Modificado exitosamente",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.groupDiscussionClassroom": {
+    "message": "Aula de discusión en grupo",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.school": {
+    "message": "Escuela",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.classroomCode": {
+    "message": "Aula no",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCode": {
+    "message": "Introduce el número de aula",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.classroomCodeTip": {
+    "message": "Enlace la pantalla del profesor a la pantalla del grupo en el mismo aula. Los números de clase solo están disponibles en letras y números en inglés.",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.theCurrentDeviceIs": {
+    "message": "El dispositivo actual es",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.activationPrompt": {
+    "message": "El aula inteligente de tipo taller consta de una pantalla de profesor y varias pantallas de grupo, y el cliente UCLass permite funciones como la transmisión de pantalla, la comparación de grupos y la proyección de dispositivos BRING YOUR OWN entre la pantalla del profesor y la pantalla del grupo. Asegúrese de que su aula esté configurada correctamente con pantallas de profesor y grupo, y compre un servicio interactivo multipantallas.",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.contactUs": {
+    "message": "Contáctanos",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.activationPrompt1": {
+    "message": "Su dispositivo actual no activa la interacción multipantalla, si ha comprado nuestros servicios, haga clic en el botón de abajo para detectar la red",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.detection": {
+    "message": "detectar",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.detecting": {
+    "message": "Se está detectando el dispositivo y no se cierra la página",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.detectionTip": {
+    "message": "Usted ha sido probado 3 veces seguidas, por favor inténtelo de nuevo más tarde.",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCodeTip": {
+    "message": "Introduce la letra o el número en inglés",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCodeTip1": {
+    "message": "El dispositivo se ha vinculado al aula {oldCode}, ¿está seguro de cambiar el aula a {code}?\n",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCodeTip2": {
+    "message": "El número de aula no puede superar los 10 caracteres",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.setSuccess": {
+    "message": "Configurado con éxito",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.setSuccess1": {
+    "message": "La configuración es correcta, inicie sesión y utilice la función de ruptura.",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.setFail": {
+    "message": "Configuración fallida",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.noChange": {
+    "message": "El aula ya está atada y no hay necesidad de atar repetidamente",
     "description": "smart-classroom 项目"
   }
 }
