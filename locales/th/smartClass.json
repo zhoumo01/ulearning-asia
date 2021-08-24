@@ -95,6 +95,14 @@
     "message": "แจ้งเตือน",
     "description": "smart-classroom 项目"
   },
+  "common.create": {
+    "message": "สร้าง",
+    "description": "smart-classroom 项目"
+  },
+  "common.finish2": {
+    "message": "เสร็จสิ้นเรียบร้อย",
+    "description": "smart-classroom 项目"
+  },
   "classroom.currentCourse": {
     "message": "หลักสูตรปัจจุบัน",
     "description": "smart Class"
@@ -373,6 +381,10 @@
   },
   "classroom.time": {
     "message": "เวลาเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.interactionsDesc1": {
+    "message": "จํานวนการโต้ตอบ = ผลรวมของจํานวนผู้เข้าร่วมที่ลงคะแนนเสียง, เลือก, คว้าคําตอบ, ให้คะแนนและการอภิปรายในชั้นเรียนในชั้นเรียน",
     "description": "smart-classroom 项目"
   },
   "login.welcomeTip": {
@@ -1459,6 +1471,14 @@
     "message": "คะแนนที่ฉันให้กับวัตถุการประเมิน",
     "description": "smart-classroom 项目"
   },
+  "student.deleteUnInvolved": {
+    "message": "ไม่สามารถเข้าร่วมได้ และกิจกรรมถูกลบแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "student.youInvolved": {
+    "message": "คุณมีส่วนร่วมในกิจกรรมนี้แล้ว",
+    "description": "smart-classroom 项目"
+  },
   "screen.inClass": {
     "message": "อยู่ในระหว่างการเข้าเรียน",
     "description": "smart Class"
@@ -1709,6 +1729,38 @@
   },
   "screen.waitAnswer": {
     "message": "รอชิงตอบคำถาม",
+    "description": "smart-classroom 项目"
+  },
+  "screen.history": {
+    "message": "ประวัติที่บันทึกไว้:",
+    "description": "smart-classroom 项目"
+  },
+  "screen.openFromResource": {
+    "message": "เปิดจากทรัพยากร",
+    "description": "smart-classroom 项目"
+  },
+  "screen.recentOpen": {
+    "message": "เปิดล่าสุด",
+    "description": "smart-classroom 项目"
+  },
+  "screen.openResource": {
+    "message": "เปิดทรัพยากร",
+    "description": "smart-classroom 项目"
+  },
+  "screen.createAttendance": {
+    "message": "เริ่มเรียกชื่อ",
+    "description": "smart-classroom 项目"
+  },
+  "screen.leadTip1": {
+    "message": "1.คุณสามารถสร้างกิจกรรมล่วงหน้าและบันทึกเป็นร่างของ หลังจากเรียนแล้ว คุณสามารถเปิดแบบร่างและเริ่มกิจกรรมได้",
+    "description": "smart-classroom 项目"
+  },
+  "screen.leadTip2": {
+    "message": "2.คุณสามารถค้นหาและเปิดบทเรียนเช่น ppt หรือวิดีโอสําหรับการเรียนการสอนจากทรัพยากร, และคุณจะพบพวกเขาได้อย่างรวดเร็วหลังจากชั้นเรียน.",
+    "description": "smart-classroom 项目"
+  },
+  "screen.leadTip3": {
+    "message": "3. เมื่อคุณเตรียมการเสร็จแล้วให้คลิกปุ่ม \"ชั้นเรียน\" ทางด้านขวาเพื่อเริ่มชั้นเรียน",
     "description": "smart-classroom 项目"
   },
   "vote.start": {
@@ -1969,6 +2021,162 @@
   },
   "live.enterSipNum": {
     "message": "กรุณาใส่รหัส sip หน้าจอขนาดใหญ่ที่ถูกต้อง",
+    "description": "smart-classroom 项目"
+  },
+  "live.live": {
+    "message": "สตรีมแบบสด",
+    "description": "smart-classroom 项目"
+  },
+  "welink.loginTitle": {
+    "message": "กรุณาผูกบัญชี U-Class ของคุณก่อนแล้วจึงเข้าสู่ระบบโดยตรงโดยใช้ welink",
+    "description": "smart-classroom 项目"
+  },
+  "welink.user": {
+    "message": "ชื่อผู้ใช้",
+    "description": "smart-classroom 项目"
+  },
+  "welink.bind": {
+    "message": "ผูก",
+    "description": "smart-classroom 项目"
+  },
+  "welink.bindSuccess": {
+    "message": "การผูกบัญชีสําเร็จแล้ว!",
+    "description": "smart-classroom 项目"
+  },
+  "welink.upErr": {
+    "message": "ชื่อผู้ใช้หรือรหัสผ่านไม่ถูกต้อง โปรดลองอีกครั้ง!",
+    "description": "smart-classroom 项目"
+  },
+  "welink.welinkUser": {
+    "message": "บัญชี Welink",
+    "description": "smart-classroom 项目"
+  },
+  "welink.organization": {
+    "message": "สถาบัน",
+    "description": "smart-classroom 项目"
+  },
+  "welink.iKnow": {
+    "message": "ฉันเข้าใจแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.classroom": {
+    "message": "ห้องเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.network": {
+    "message": "เครือข่าย:",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.teacherScreen": {
+    "message": "หน้าจอของครู",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.groupScreen": {
+    "message": "หน้าจอกลุ่ม",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.offline": {
+    "message": "ออฟไลน์",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.getFail": {
+    "message": "การรับข้อมูลล้มเหลว",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.removeGroupScreen": {
+    "message": "นําออกจากห้องเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.confirmToRemove": {
+    "message": "คุณแน่ใจหรือไม่ว่าจะเอาหน้าจอกลุ่มออกจากห้องเรียนปัจจุบัน",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.removeSuccess": {
+    "message": "นำออกเรียบร้อย",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.removeFail": {
+    "message": "เอาออกล้มเหลว",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.editSuccess": {
+    "message": "การปรับเปลี่ยนเสร็จเรียบร้อยแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.groupDiscussionClassroom": {
+    "message": "ห้องเรียนฝ่าวงล้อม",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.school": {
+    "message": "โรงเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.classroomCode": {
+    "message": "หมายเลขห้องเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCode": {
+    "message": "กรุณาใส่หมายเลขห้องเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.classroomCodeTip": {
+    "message": "ผูกหน้าจอครูและหน้าจอกลุ่มไว้ในห้องเรียนเดียวกัน หมายเลขห้องเรียนรองรับเฉพาะตัวอักษรและตัวเลขภาษาอังกฤษเท่านั้น",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.theCurrentDeviceIs": {
+    "message": "อุปกรณ์ปัจจุบันคือ",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.activationPrompt": {
+    "message": "ห้องเรียนอัจฉริยะแบบกลุ่มประกอบด้วยหน้าจอครูและหน้าจอกลุ่มหลายจอซึ่งช่วยให้ลูกค้า UCLass สามารถเปิดใช้งานการออกอากาศหน้าจอการเปรียบเทียบกลุ่มและหน้าจอ BYOD ระหว่างหน้าจอครูและหน้าจอกลุ่ม ตรวจสอบให้แน่ใจว่าห้องเรียนของคุณมีหน้าจอครูและหน้าจอกลุ่มอย่างถูกต้องและซื้อบริการแบบโต้ตอบแบบหลายหน้าจอ",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.contactUs": {
+    "message": "ติดต่อพวกเรา",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.activationPrompt1": {
+    "message": "ขณะนี้อุปกรณ์ของคุณไม่ได้เปิดใช้งานการโต้ตอบแบบหลายหน้าจอ หากคุณซื้อบริการของเราแล้ว โปรดคลิกปุ่มด้านล่างเพื่อตรวจหาเครือข่าย",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.detection": {
+    "message": "การตรวจสอบของ",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.detecting": {
+    "message": "อย่าปิดหน้าในขณะที่กําลังตรวจหาอุปกรณ์",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.detectionTip": {
+    "message": "คุณได้ทดสอบ 3 ครั้งติดต่อกันโปรดรอสักครู่แล้วลองอีกครั้ง",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCodeTip": {
+    "message": "กรุณาใส่ตัวอักษรหรือตัวเลขภาษาอังกฤษ",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCodeTip1": {
+    "message": "อุปกรณ์ถูกผูกไว้กับห้องเรียน {oldCode} แล้ว และคุณแน่ใจหรือไม่ว่าคุณต้องการเปลี่ยนห้องเรียนเป็น {code}?",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.enterClassroomCodeTip2": {
+    "message": "หมายเลขห้องเรียนต้องไม่เกิน 10 อักขระ",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.setSuccess": {
+    "message": "การตั้งค่าเสร็จเรียบร้อยแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.setSuccess1": {
+    "message": "การตั้งค่าสําเร็จ แล้วใช้คุณลักษณะการประชุมเชิงปฏิบัติการกลุ่มหลังจากเข้าสู่ระบบ",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.setFail": {
+    "message": "ตั้งค่าไม่สำเร็จ",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.noChange": {
+    "message": "ห้องเรียนถูกผูกไว้แล้วและไม่จําเป็นต้องผูกซ้ํา",
     "description": "smart-classroom 项目"
   }
 }
