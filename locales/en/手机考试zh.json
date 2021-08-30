@@ -23,6 +23,10 @@
     "message": "Highest Score",
     "description": "手机考试zh.json"
   },
+  "points": {
+    "message": "{n} points",
+    "description": "手机考试 -> 考试详情 -> 及格分数 \n 手机考试 -> 考试详情 -> 进入考试 -> 滑动到第一页 -> 奖杯图标右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 用户头像右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 答题记录列表 (需要用户有多个答题记录，才会弹出答题记录列表)"
+  },
   "examTime": {
     "message": "Exam Time",
     "description": "手机考试zh.json"
@@ -30,6 +34,10 @@
   "examLimitTime": {
     "message": "Time limit for exam",
     "description": "手机考试zh.json"
+  },
+  "minutes": {
+    "message": "{n} minutes",
+    "description": "手机考试 -> 考试详情 -> 考试限时"
   },
   "answerTime": {
     "message": "Answering Times",
@@ -43,6 +51,10 @@
     "message": "Unlimited",
     "description": "手机考试zh.json"
   },
+  "timesOf": {
+    "message": "{current}/{total} attempts",
+    "description": "手机考试 -> 考试详情 -> 答题次数"
+  },
   "passingScore": {
     "message": "Passing Score",
     "description": "手机考试zh.json"
@@ -50,6 +62,10 @@
   "lateTime": {
     "message": "Late Time Allowed",
     "description": "手机考试zh.json"
+  },
+  "betweenTime": {
+    "message": "{startTime} to {endTime}",
+    "description": "手机考试 -> 考试详情 -> 考试时间"
   },
   "clickUpload": {
     "message": "Click to upload  photo for verification",
@@ -468,7 +484,7 @@
     "description": "手机考试zh.json"
   },
   "hintTip2": {
-    "message": "The system detected that you’ve left the exam at < strong > {time} </strong>.",
+    "message": "The system detected that you left the exam at <strong> {time} </strong>.",
     "description": "手机考试zh.json"
   },
   "hintTip3": {
@@ -506,6 +522,14 @@
   "analysis": {
     "message": "Answer Explanation",
     "description": "手机考试zh.json"
+  },
+  "answerScore1": {
+    "message": "Score: To be graded, out of {num} points",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
+  "answerScore2": {
+    "message": "Score: {n} out of {num} points ",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
   },
   "teaComment": {
     "message": "Teacher’s comment",
@@ -589,6 +613,10 @@
   },
   "question12": {
     "message": "Cloze question",
+    "description": "手机考试zh.json"
+  },
+  "question25": {
+    "message": "Calculated Formula",
     "description": "手机考试zh.json"
   },
   "exitScreen": {
@@ -685,6 +713,174 @@
   },
   "fromAlbum": {
     "message": " Choose from album ",
+    "description": "手机考试zh.json"
+  },
+  "examInfo": {
+    "message": "Exam Information",
+    "description": "手机考试zh.json"
+  },
+  "lateLimit": {
+    "message": "Late Start: ",
+    "description": "手机考试zh.json"
+  },
+  "lateLimitTips": {
+    "message": "Not allowed to take the exam after {time} minutes from the start of the exam",
+    "description": "手机考试zh.json"
+  },
+  "submitLimit": {
+    "message": "Submit after: ",
+    "description": "手机考试zh.json"
+  },
+  "submitLimitTips": {
+    "message": "Not allowed to submit within {time} minutes from the beginning of the exam",
+    "description": "手机考试zh.json"
+  },
+  "securitySettings": {
+    "message": "Security Settings",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitor": {
+    "message": "IP Monitoring",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitorTip": {
+    "message": "{ip} is on - Do not switch to another network during the exam!",
+    "description": "{ip} 指的是 IP监控"
+  },
+  "deviceMonitor": {
+    "message": "Device Monitoring",
+    "description": "手机考试zh.json"
+  },
+  "deviceMonitorTip": {
+    "message": "{device} is on - Do not switch to another device or browser during the exam!",
+    "description": "{device} 指的是设备监控"
+  },
+  "photoMonitor": {
+    "message": "Camera Monitoring",
+    "description": "手机考试zh.json"
+  },
+  "photoMonitorTip": {
+    "message": "{photo} is on - Keep your device's front-facing camera on!",
+    "description": "{photo} 指的是抓拍监控"
+  },
+  "faceRecognition": {
+    "message": "Face Verification",
+    "description": "手机考试zh.json"
+  },
+  "faceRecognitionTip": {
+    "message": "{face} is on - Need to pass face verification to start the exam!",
+    "description": "{face} 指的是人脸识别"
+  },
+  "unOpened": {
+    "message": "Not enabled",
+    "description": "手机考试zh.json"
+  },
+  "IPException": {
+    "message": "IP Abnormal",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips1": {
+    "message": "IP monitoring is on. Students are not allowed to switch to another network during the exam. Switching the network may cause the IP address to change.",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips2": {
+    "message": "If you need to change the network under special circumstances, please ask the proctor for the verification code, and use the code to enter the exam.",
+    "description": "手机考试zh.json"
+  },
+  "deviceException": {
+    "message": "Device abnormal",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips1": {
+    "message": "The device monitoring is on and you are not allowed to change the device or browser during the exam. Please use the device or browser that entered the exam for the first time to answer the questions.",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips2": {
+    "message": "If you need to change the device/browser under special circumstances, please ask the proctor for the verification code, and use the code to enter the exam.",
+    "description": "手机考试zh.json"
+  },
+  "commitLimitTimeTips": {
+    "message": "You can submit only {time} minutes after the start of the exam!",
+    "description": "手机考试zh.json"
+  },
+  "examTip20": {
+    "message": "Left the exam {count} times",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitor": {
+    "message": "Screen Monitoring",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips": {
+    "message": "Screen monitoring is on. For students who leave the exam {num} times, the exam will be submitted involuntarily.",
+    "description": "{screen} 指的是切屏监控"
+  },
+  "recordShowAfterSubmit": {
+    "message": "Right after submission",
+    "description": "手机考试zh.json"
+  },
+  "leaveExamTimesTips": {
+    "message": "Left the exam {count} times",
+    "description": "手机考试zh.json"
+  },
+  "cameraAccess": {
+    "message": "The camera access is not enabled. Face verification or camera monitoring is on for this exam -Please enable the camera access to take the exam!",
+    "description": "手机考试zh.json"
+  },
+  "selectFile": {
+    "message": "Select File",
+    "description": "手机考试zh.json"
+  },
+  "fromAlbum1": {
+    "message": "Select from album",
+    "description": "手机考试zh.json"
+  },
+  "showAfterBatchEnd": {
+    "message": "Will be posted after all exam sessions are done",
+    "description": "手机考试zh.json"
+  },
+  "versionLowerTips": {
+    "message": "The current version is too old - Please upgrade before taking the exam!",
+    "description": "手机考试zh.json"
+  },
+  "monitoring": {
+    "message": "Monitoring",
+    "description": "手机考试zh.json"
+  },
+  "photoCountDown": {
+    "message": "Start taking pictures in {n} seconds",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCWeb": {
+    "message": "Only web",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCExe": {
+    "message": "Only lockdown browser",
+    "description": "手机考试zh.json"
+  },
+  "onlyMobile": {
+    "message": "Only mobile device",
+    "description": "手机考试zh.json"
+  },
+  "unlimitType": {
+    "message": "Mobile device/Web/Lockdown browser",
+    "description": "手机考试zh.json"
+  },
+  "viewOnPCExe": {
+    "message": "Please take the exam via ULearning lockdown browser",
+    "description": "手机考试zh.json"
+  },
+  "swipeTip": {
+    "message": "Slide left/right to switch screens",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip1": {
+    "message": "The camera access is disabled and cannot use this function - Please go to your device's Settings to enable it!",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip2": {
+    "message": "The microphone access is disabled and cannot use this function - Please go to your device's Settings to enable it!",
     "description": "手机考试zh.json"
   }
 }
