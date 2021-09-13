@@ -115,34 +115,6 @@
     "message": "Nested Routes",
     "description": "smart-classroom-admin 项目"
   },
-  "route.menu1": {
-    "message": "Menu 1",
-    "description": "smart-classroom-admin 项目"
-  },
-  "route.menu1-1": {
-    "message": "Menu 1-1",
-    "description": "smart-classroom-admin 项目"
-  },
-  "route.menu1-2": {
-    "message": "Menu 1-2",
-    "description": "smart-classroom-admin 项目"
-  },
-  "route.menu1-2-1": {
-    "message": "Menu 1-2-1",
-    "description": "smart-classroom-admin 项目"
-  },
-  "route.menu1-2-2": {
-    "message": "Menu 1-2-2",
-    "description": "smart-classroom-admin 项目"
-  },
-  "route.menu1-3": {
-    "message": "Menu 1-3",
-    "description": "smart-classroom-admin 项目"
-  },
-  "route.menu2": {
-    "message": "Menu 2",
-    "description": "smart-classroom-admin 项目"
-  },
   "route.Table": {
     "message": "Table",
     "description": "smart-classroom-admin 项目"
@@ -295,6 +267,66 @@
     "message": "Control Center Details",
     "description": "smart-classroom-admin 项目"
   },
+  "route.scheduleManage": {
+    "message": "Timetable Management",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.academicYear": {
+    "message": "Term Management",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.courseManage": {
+    "message": "Course Management",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.recordingPlan": {
+    "message": "Recording Schedule",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.hostSettings": {
+    "message": "Recording Server Settings",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.accountManage": {
+    "message": "Account Management",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.teaAccount": {
+    "message": "Teacher Management",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.stuAccount": {
+    "message": "Student Management",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.equipmentManageList": {
+    "message": "Equipment List",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.runLog": {
+    "message": "Operation Log",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.arranging": {
+    "message": "Scheduling Statistics",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.attendance": {
+    "message": "Smart Attendance",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.overview": {
+    "message": "Overview",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.studentList": {
+    "message": "Roster",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.attendanceRecord": {
+    "message": "Attendance Records",
+    "description": "smart-classroom-admin 项目"
+  },
   "navbar.dashboard": {
     "message": "Home",
     "description": "smart-classroom-admin 项目"
@@ -343,10 +375,6 @@
     "message": "Or connect with",
     "description": "smart-classroom-admin 项目"
   },
-  "login.thirdpartyTips": {
-    "message": "Can not be simulated on local, so please combine you own business simulation! ! !",
-    "description": "smart-classroom-admin 项目"
-  },
   "documentation.documentation": {
     "message": "Documentation",
     "description": "smart-classroom-admin 项目"
@@ -371,10 +399,6 @@
     "message": "Switch roles",
     "description": "smart-classroom-admin 项目"
   },
-  "permission.tips": {
-    "message": "In some cases, using v-permission will have no effect. For example: Element-UI  el-tab or el-table-column and other scenes that dynamically render dom. You can only do this with v-if.",
-    "description": "smart-classroom-admin 项目"
-  },
   "permission.delete": {
     "message": "Delete",
     "description": "smart-classroom-admin 项目"
@@ -387,48 +411,12 @@
     "message": "Cancel",
     "description": "smart-classroom-admin 项目"
   },
-  "guide.description": {
-    "message": "The guide page is useful for some people who entered the project for the first time. You can briefly introduce the features of the project. Demo is based on ",
-    "description": "smart-classroom-admin 项目"
-  },
   "guide.button": {
     "message": "Show Guide",
     "description": "smart-classroom-admin 项目"
   },
   "components.documentation": {
     "message": "Documentation",
-    "description": "smart-classroom-admin 项目"
-  },
-  "components.tinymceTips": {
-    "message": "Rich text is a core feature of the management backend, but at the same time it is a place with lots of pits. In the process of selecting rich texts, I also took a lot of detours. The common rich texts on the market have been basically used, and I finally chose Tinymce. See the more detailed rich text comparison and introduction.",
-    "description": "smart-classroom-admin 项目"
-  },
-  "components.dropzoneTips": {
-    "message": "Because my business has special needs, and has to upload images to qiniu, so instead of a third party, I chose encapsulate it by myself. It is very simple, you can see the detail code in @/components/Dropzone.",
-    "description": "smart-classroom-admin 项目"
-  },
-  "components.stickyTips": {
-    "message": "when the page is scrolled to the preset position will be sticky on the top.",
-    "description": "smart-classroom-admin 项目"
-  },
-  "components.backToTopTips1": {
-    "message": "When the page is scrolled to the specified position, the Back to Top button appears in the lower right corner",
-    "description": "smart-classroom-admin 项目"
-  },
-  "components.backToTopTips2": {
-    "message": "You can customize the style of the button, show / hide, height of appearance, height of the return. If you need a text prompt, you can use element-ui el-tooltip elements externally",
-    "description": "smart-classroom-admin 项目"
-  },
-  "components.imageUploadTips": {
-    "message": "Since I was using only the vue@1 version, and it is not compatible with mockjs at the moment, I modified it myself, and if you are going to use it, it is better to use official version.",
-    "description": "smart-classroom-admin 项目"
-  },
-  "table.dynamicTips1": {
-    "message": "Fixed header, sorted by header order",
-    "description": "smart-classroom-admin 项目"
-  },
-  "table.dynamicTips2": {
-    "message": "Not fixed header, sorted by click order",
     "description": "smart-classroom-admin 项目"
   },
   "table.dragTips1": {
@@ -519,16 +507,8 @@
     "message": "Confirm",
     "description": "smart-classroom-admin 项目"
   },
-  "example.warning": {
-    "message": "Creating and editing pages cannot be cached by keep-alive because keep-alive include does not currently support caching based on routes, so it is currently cached based on component name. If you want to achieve a similar caching effect, you can use a browser caching scheme such as localStorage. Or do not use keep-alive include to cache all pages directly. See details",
-    "description": "smart-classroom-admin 项目"
-  },
   "errorLog.tips": {
     "message": "Please click the bug icon in the upper right corner",
-    "description": "smart-classroom-admin 项目"
-  },
-  "errorLog.description": {
-    "message": "Now the management system are basically the form of the spa, it enhances the user experience, but it also increases the possibility of page problems, a small negligence may lead to the entire page deadlock. Fortunately Vue provides a way to catch handling exceptions, where you can handle errors or report exceptions.",
     "description": "smart-classroom-admin 项目"
   },
   "errorLog.documentation": {
@@ -565,10 +545,6 @@
   },
   "theme.documentation": {
     "message": "Theme documentation",
-    "description": "smart-classroom-admin 项目"
-  },
-  "theme.tips": {
-    "message": "Tips: It is different from the theme-pick on the navbar is two different skinning methods, each with different application scenarios. Refer to the documentation for details.",
     "description": "smart-classroom-admin 项目"
   },
   "tagsView.refresh": {
@@ -615,6 +591,10 @@
     "message": "Welcome, Admin!",
     "description": "smart-classroom-admin 项目"
   },
+  "common.welcomeUser": {
+    "message": "Welcome, {name}!",
+    "description": "smart-classroom-admin 项目"
+  },
   "common.logOut": {
     "message": "Log Out",
     "description": "smart-classroom-admin 项目"
@@ -629,6 +609,10 @@
   },
   "common.enterClassroom": {
     "message": "Click to enter the classroom name",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.enterClassroomCourse": {
+    "message": "Please enter the classroom name/course name",
     "description": "smart-classroom-admin 项目"
   },
   "common.startTime": {
@@ -787,6 +771,94 @@
     "message": "Language switched successfully!",
     "description": "smart-classroom-admin 项目"
   },
+  "common.UPERR": {
+    "message": "Wrong account or password",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.save": {
+    "message": "Save",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.error": {
+    "message": "Failed",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.changePwd": {
+    "message": "Change Password",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.oldPwd": {
+    "message": "Old Password",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.newPwd": {
+    "message": "New Password",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.confirmPwd": {
+    "message": "Confirm Password",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.pleaseOldPwd": {
+    "message": "Click to enter the old password ",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.pleaseNewPwd": {
+    "message": "Click to enter the new password",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.pleaseCPwd": {
+    "message": "Click to enter the new password to confirm",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.twoInconsistencies": {
+    "message": "Passwords do not match!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.userPwdNull": {
+    "message": "Password cannot be empty",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.RODP": {
+    "message": "Recording-on-Demand Platform",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.minutes": {
+    "message": "minutes",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.nameUsername": {
+    "message": "Name/Username",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.backToHome": {
+    "message": "Back to Homepage",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.noData": {
+    "message": "No data found",
+    "description": "smart-classroom-admin 项目"
+  },
+  "accountManage.importAccountsBatches": {
+    "message": "Batch Import Students",
+    "description": "smart-classroom-admin 项目"
+  },
+  "accountManage.createAccount": {
+    "message": "Add Student",
+    "description": "smart-classroom-admin 项目"
+  },
+  "accountManage.exportData": {
+    "message": "Export",
+    "description": "smart-classroom-admin 项目"
+  },
+  "accountManage.stuid": {
+    "message": "Student ID",
+    "description": "smart-classroom-admin 项目"
+  },
+  "accountManage.msg0": {
+    "message": "Exporting..., please do not refresh the page!",
+    "description": "smart-classroom-admin 项目"
+  },
   "recordedClass.recording": {
     "message": "Lecture recording is in progress in {recordingIndex} classrooms",
     "description": "smart-classroom-admin 项目"
@@ -895,6 +967,30 @@
     "message": "Course Description",
     "description": "smart-classroom-admin 项目"
   },
+  "videoPlayer.vlcLoadTip": {
+    "message": "To check the teacher in real-time, you need to use the vlc plug-in ({downloadVlc}) and only {windows} and {ieBrower} are supported.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.downloadVlc": {
+    "message": "Click to download the plug-in",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.windows": {
+    "message": "Windows system",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.ieBrower": {
+    "message": "IE kernel browser",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.classForClass": {
+    "message": "Class",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.notSupport": {
+    "message": "This browser does not support playback",
+    "description": "smart-classroom-admin 项目"
+  },
   "playback.msg1": {
     "message": "The video needs to be pre-processed after the lecture recording and you may need to wait.",
     "description": "smart-classroom-admin 项目"
@@ -933,6 +1029,66 @@
   },
   "playback.msg10": {
     "message": "Only one file is allowed to be uploaded",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg11": {
+    "message": "Done! Please wait for the device.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg12": {
+    "message": "The best use environment: operating system Win 7 or higher; browser: IE kernel browser",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg13": {
+    "message": "Keep at least one",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg14": {
+    "message": "Up to 20",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg15": {
+    "message": "No timetable found - Click the Import Timetable button to add one!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg16": {
+    "message": "Loading...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg17": {
+    "message": "Please check if the URL you entered is correct, or click the button below to return to the homepage.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg18": {
+    "message": "The page was not found!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg19": {
+    "message": "Notice",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg20": {
+    "message": "The accounts were not imported - please correct the errors in the form and upload it again!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg21": {
+    "message": "Please select course",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg22": {
+    "message": "Downloading..., please do not close this page! If there is no automatic download, please click the link to download.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg23": {
+    "message": "Download",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg24": {
+    "message": "The timetable was not imported - please correct the errors in the form and upload it again!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "playback.msg25": {
+    "message": "Downloading..., please do not close this page! If the download is successful, this page will automatically close.",
     "description": "smart-classroom-admin 项目"
   },
   "setUp.recordedClassroom": {
@@ -1091,6 +1247,10 @@
     "message": "All classrooms",
     "description": "smart-classroom-admin 项目"
   },
+  "controlCenter.powerSupply": {
+    "message": "Power",
+    "description": "smart-classroom-admin 项目"
+  },
   "controlCenter.computer": {
     "message": "Computers",
     "description": "smart-classroom-admin 项目"
@@ -1101,6 +1261,14 @@
   },
   "controlCenter.mike": {
     "message": "Microphones",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.miketea": {
+    "message": "Teacher Microphone",
+    "description": "smart-classroom-admin 项目"
+  },
+  "controlCenter.mikestu": {
+    "message": "Student Microphone",
     "description": "smart-classroom-admin 项目"
   },
   "controlCenter.stereo": {
@@ -1165,6 +1333,526 @@
   },
   "controlCenter.sccePS": {
     "message": "Please select the central control serial number",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.academicYear": {
+    "message": "Term",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.weekly": {
+    "message": "Week",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.addAyear": {
+    "message": "Add Term",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.editAyear": {
+    "message": "Edit Term",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.importSchedule": {
+    "message": "Import Timetable",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.editSchedule": {
+    "message": "Edit Timetable",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.schoolTime": {
+    "message": "Term Start",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.weekTeacherNum": {
+    "message": "Weeks",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.weekTeaching": {
+    "message": "Week",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.generateWT": {
+    "message": "Create Weeks",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.workRestTime": {
+    "message": "Schedule",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.section": {
+    "message": "Sessions",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.startTimes": {
+    "message": "Start",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.endTimes": {
+    "message": "End",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.rest": {
+    "message": "Breaks",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.date": {
+    "message": "Date",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.duration": {
+    "message": "Duration",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.msg1": {
+    "message": "Please set the correct schedule!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.msg2": {
+    "message": "Editing the term may affect the existing schedule - please be cautious? Are you sure to you want to edit?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.msg3": {
+    "message": "Please set the start time!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.msg4": {
+    "message": "Please set the number of weeks!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.msg5": {
+    "message": "If you need to edit the timetable, please re-import the course. Editing the timetable may affect the existing schedule - please be cautious!",
+    "description": "smart-classroom-admin 项目"
+  },
+  "schedule.msg6": {
+    "message": "Are you sure you want to edit?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.year": {
+    "message": "Year",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.faculty": {
+    "message": "College/Department",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.instructions": {
+    "message": "Instructions",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.isBind": {
+    "message": "Associated",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.unbounded": {
+    "message": "Unassociated",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.courseID": {
+    "message": "Course ID",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.courseName": {
+    "message": "Course Name",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.teacher": {
+    "message": "Teacher",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.subject": {
+    "message": "Subject",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.class": {
+    "message": "Class",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.grade": {
+    "message": "Year",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.bindOnlineCourses": {
+    "message": "Associated Online Course",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.college": {
+    "message": "College",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.bindCourses": {
+    "message": "Associate",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.allowedDemand": {
+    "message": "Enable On-Demand",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.removeBind": {
+    "message": "Remove Association",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.cancelDemand": {
+    "message": "Disable On-Demand",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.bind": {
+    "message": "Associate",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.confirmUnbind": {
+    "message": "Are you sure you want to associate?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.confirmAllowedDemand": {
+    "message": "Are you sure you want to enable on-demand?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.confirmCancelDemand": {
+    "message": "Are you sure you want to disable on-demand?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.founder": {
+    "message": "Creator",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.creationTime": {
+    "message": "Created at",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.msg1": {
+    "message": "Search by course name/ID",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.msg2": {
+    "message": "(1) Enable On-Demand: Click the Enable On-Demand button to make the lecture recording accessible. Students/teachers can view it on the Recording Resource Platform.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.msg3": {
+    "message": "(2) Associate Online Course: Associate the course to the ULMS online course. After being associated, the teachers/students of the online course can replay the lecture recording in ULMS.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.msg4": {
+    "message": "Enter course name to search",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseManage.msg5": {
+    "message": "Please create a term, set the start time, and then import the timetable.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordingPlan.msg1": {
+    "message": "Record by Timetable: The system will automatically record the lecture according to the timetable. ",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordingPlan.msg2": {
+    "message": "Please go to Teaching Management to ",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordingPlan.msg3": {
+    "message": "Record by Timetable",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordingPlan.msg4": {
+    "message": "Note: If the recording schedule in the timetable is conflict with the recording in progress, the scheduled recording in the timetable will not be executed.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordingPlan.msg5": {
+    "message": "The scheduled recording is in progress. Please wait until it is done.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordingPlan.setUpSchedule": {
+    "message": "Set Timetable",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordingPlan.schedule": {
+    "message": "Timetable",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordingPlan.determineOpening": {
+    "message": "Are you sure to enable?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordingPlan.determineClosed": {
+    "message": "Are you sure to disable?",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordingPlan.course": {
+    "message": "Course",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordingPlan.recordingTime": {
+    "message": "Recording Duration",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.searchMsg": {
+    "message": "Search by course/teacher",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.eachPage": {
+    "message": "{num} Per Page",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.lecturer": {
+    "message": "Instructor",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.video": {
+    "message": "Recordings",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.totalTime": {
+    "message": "Total Video Length (mins)",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.name": {
+    "message": "Name",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.username": {
+    "message": "Username",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.email": {
+    "message": "Email",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.phone": {
+    "message": "Phone",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.addteaAccount": {
+    "message": "Create Teacher Account",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.editteaAccount": {
+    "message": "Edit Teacher Account",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.plesename": {
+    "message": "Click to enter the full name",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.nameErr": {
+    "message": "Please enter 2-50 characters, no special characters except *-·",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.pleseusername": {
+    "message": "Click to enter the username",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.usernameErr": {
+    "message": "Please enter 6-50 digits or letters",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.plesepwd": {
+    "message": "Click to enter the password",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.pwdErr": {
+    "message": "8-16 characters, must contain both letters and digits, letters are case sensitive",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.twoInconsistencies": {
+    "message": "The two passwords do not match",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.addstuAccount": {
+    "message": "Create Student Account",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.editstuAccount": {
+    "message": "Edit Student Account",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.pleaseStuid": {
+    "message": "Click to enter the student ID",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.stuidErr": {
+    "message": "Please enter 6-50 letters and/or numbers",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.phoneErr": {
+    "message": "Please enter a valid phone number",
+    "description": "smart-classroom-admin 项目"
+  },
+  "courseCatalog.mailErr": {
+    "message": "Please enter a valid email",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.classRoomTotal": {
+    "message": "Total Classrooms",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.ClassroomSchedulStatistics": {
+    "message": "Classroom Schedule Statistics",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.TheDayArrangement": {
+    "message": "Today's Schedule",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.RecordingStatistics": {
+    "message": "Lecture Recording Statistics",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.most": {
+    "message": "Highest",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.average": {
+    "message": "Average",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.minimum": {
+    "message": "Lowest",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.boot": {
+    "message": "In Recording",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.free": {
+    "message": "Available",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.ArrangingNum": {
+    "message": "Sessions",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.aNum": {
+    "message": " ",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.minutes": {
+    "message": "minutes",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.theNumberOf": {
+    "message": "Sessions",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.DurationMinutes": {
+    "message": "Length: Minutes",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.timesC": {
+    "message": " ",
+    "description": "smart-classroom-admin 项目"
+  },
+  "equipmentManage.deviceType": {
+    "message": "Equipment Type",
+    "description": "smart-classroom-admin 项目"
+  },
+  "equipmentManage.inTheClassroom": {
+    "message": "Classroom",
+    "description": "smart-classroom-admin 项目"
+  },
+  "equipmentManage.event": {
+    "message": "Log",
+    "description": "smart-classroom-admin 项目"
+  },
+  "equipmentManage.central": {
+    "message": "Central Control",
+    "description": "smart-classroom-admin 项目"
+  },
+  "equipmentManage.bodyMachine": {
+    "message": "Air Conditioner",
+    "description": "smart-classroom-admin 项目"
+  },
+  "equipmentManage.amplificationEquipment": {
+    "message": "Amplifier",
+    "description": "smart-classroom-admin 项目"
+  },
+  "equipmentManage.theDigitalPlatform": {
+    "message": "Dashboard",
+    "description": "smart-classroom-admin 项目"
+  },
+  "equipmentManage.other": {
+    "message": "Others",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.menu1": {
+    "message": "Menu 1",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.menu1-1": {
+    "message": "Menu 1-1",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.menu1-2": {
+    "message": "Menu 1-2",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.menu1-2-1": {
+    "message": "Menu 1-2-1",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.menu1-2-2": {
+    "message": "Menu 1-2-2",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.menu1-3": {
+    "message": "Menu 1-3",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.menu2": {
+    "message": "Menu 2",
+    "description": "smart-classroom-admin 项目"
+  },
+  "login.thirdpartyTips": {
+    "message": "Can not be simulated on local, so please combine you own business simulation! ! !",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permission.tips": {
+    "message": "In some cases, using v-permission will have no effect. For example: Element-UI  el-tab or el-table-column and other scenes that dynamically render dom. You can only do this with v-if.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "guide.description": {
+    "message": "The guide page is useful for some people who entered the project for the first time. You can briefly introduce the features of the project. Demo is based on ",
+    "description": "smart-classroom-admin 项目"
+  },
+  "components.tinymceTips": {
+    "message": "Rich text is a core feature of the management backend, but at the same time it is a place with lots of pits. In the process of selecting rich texts, I also took a lot of detours. The common rich texts on the market have been basically used, and I finally chose Tinymce. See the more detailed rich text comparison and introduction.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "components.dropzoneTips": {
+    "message": "Because my business has special needs, and has to upload images to qiniu, so instead of a third party, I chose encapsulate it by myself. It is very simple, you can see the detail code in @/components/Dropzone.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "components.stickyTips": {
+    "message": "when the page is scrolled to the preset position will be sticky on the top.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "components.backToTopTips1": {
+    "message": "When the page is scrolled to the specified position, the Back to Top button appears in the lower right corner",
+    "description": "smart-classroom-admin 项目"
+  },
+  "components.backToTopTips2": {
+    "message": "You can customize the style of the button, show / hide, height of appearance, height of the return. If you need a text prompt, you can use element-ui el-tooltip elements externally",
+    "description": "smart-classroom-admin 项目"
+  },
+  "components.imageUploadTips": {
+    "message": "Since I was using only the vue@1 version, and it is not compatible with mockjs at the moment, I modified it myself, and if you are going to use it, it is better to use official version.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "table.dynamicTips1": {
+    "message": "Fixed header, sorted by header order",
+    "description": "smart-classroom-admin 项目"
+  },
+  "table.dynamicTips2": {
+    "message": "Not fixed header, sorted by click order",
+    "description": "smart-classroom-admin 项目"
+  },
+  "example.warning": {
+    "message": "Creating and editing pages cannot be cached by keep-alive because keep-alive include does not currently support caching based on routes, so it is currently cached based on component name. If you want to achieve a similar caching effect, you can use a browser caching scheme such as localStorage. Or do not use keep-alive include to cache all pages directly. See details",
+    "description": "smart-classroom-admin 项目"
+  },
+  "errorLog.description": {
+    "message": "Now the management system are basically the form of the spa, it enhances the user experience, but it also increases the possibility of page problems, a small negligence may lead to the entire page deadlock. Fortunately Vue provides a way to catch handling exceptions, where you can handle errors or report exceptions.",
+    "description": "smart-classroom-admin 项目"
+  },
+  "theme.tips": {
+    "message": "Tips: It is different from the theme-pick on the navbar is two different skinning methods, each with different application scenarios. Refer to the documentation for details.",
     "description": "smart-classroom-admin 项目"
   }
 }
