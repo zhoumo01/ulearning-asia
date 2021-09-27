@@ -39,17 +39,17 @@
     "message": "Tutup",
     "description": "2.0 admin.js"
   },
-  "total": {
-    "message": "Total ",
-    "description": "2.0 admin.js"
+  "totalOfItems": {
+    "message": "Total {n}",
+    "description": "https://courseweb.tongshike.cn/admin/#/courseDeclaration/declared 国际版用不到这个页面，但是这个页面也做了国际化，所以一并处理了 \n https://courseweb.tongshike.cn/admin/#/courseDeclaration/notDeclared 同上 \n https://courseweb.tongshike.cn/admin/#/courseDeclaration/pending 同上 \n 管理员账号 -> 系统管理 -> 管理员设置 https://courseweb.tongshike.cn/admin/#/main/system/administrator \n https://courseweb.tongshike.cn/admin/#/check \n 管理员账号 -> 课程管理 -> 本校自建MOOC https://courseweb.tongshike.cn/admin/#/main/teaching/course/open/local \n 管理员账号 -> 课程管理 -> 外部引用MOOC https://courseweb.tongshike.cn/admin/#/main/teaching/course/open/foreign \n 管理员账号 -> 课程管理 -> 本校课程 https://courseweb.tongshike.cn/admin/#/main/teaching/course/school \n 管理员账号 -> 课程管理 -> 本校自建MOOC -> 选课名单 \n 管理员账号 -> 考试管理 https://courseweb.tongshike.cn/admin/#/main/teaching/exam \n 管理员账号 -> 教师管理 https://courseweb.tongshike.cn/admin/#/main/teaching/teacher \n 管理员账号 -> 学生管理 https://courseweb.tongshike.cn/admin/#/main/teaching/student \n 管理员账号 -> 自然班级 https://courseweb.tongshike.cn/admin/#/main/teaching/naturalClass \n 管理员账号 -> 通知公告 https://courseweb.tongshike.cn/admin/#/main/teaching/notice"
   },
-  "items": {
-    "message": " buah",
-    "description": "2.0 admin.js"
+  "totalOfVideo": {
+    "message": "Total video {n}",
+    "description": "https://courseweb.tongshike.cn/admin/#/main/dataCenter/interactionTextbook \n https://courseweb.tongshike.cn/admin/#/main/uaDataAnalysis"
   },
-  "number": {
-    "message": " buah",
-    "description": "2.0 admin.js"
+  "numberOf": {
+    "message": "{n} buah",
+    "description": "https://courseweb.tongshike.cn/admin/#/courseDeclaration/declared 国际版用不到这个页面，但是这个页面也做了国际化，所以一并处理了"
   },
   "search": {
     "message": "Cari",
@@ -201,10 +201,6 @@
   },
   "watchVideoAverCompletionRate": {
     "message": "Rata-rata persentase tontonan",
-    "description": "2.0 admin.js"
-  },
-  "videos": {
-    "message": "video",
     "description": "2.0 admin.js"
   },
   "nearly15days": {
@@ -1731,6 +1727,14 @@
     "message": "Referensi eksternal",
     "description": "2.0 admin.js"
   },
+  "dataCenter.PCExe": {
+    "message": "Akun pelanggan komputer",
+    "description": "2.0 admin.js"
+  },
+  "dataCenter.PCweb": {
+    "message": "Web komputer",
+    "description": "2.0 admin.js"
+  },
   "courseDeclarationAdmin.ulearningCourseDeclarationInfoAdmin": {
     "message": "Pengelolaan informasi deklarasi mata kuliah ULearn",
     "description": "2.0 admin.js"
@@ -2151,6 +2155,10 @@
     "message": "Bahasa situs web",
     "description": "2.0 admin.js"
   },
+  "systemAdmin.websiteLanguageTip": {
+    "message": "Domain situs web tidak boleh kosong",
+    "description": "2.0 admin.js"
+  },
   "systemAdmin.default": {
     "message": "Default",
     "description": "2.0 admin.js"
@@ -2161,6 +2169,10 @@
   },
   "systemAdmin.websiteTemplate": {
     "message": "Templat situs web",
+    "description": "2.0 admin.js"
+  },
+  "systemAdmin.websiteTemplateTip": {
+    "message": "Silakan pilih templat situs",
     "description": "2.0 admin.js"
   },
   "systemAdmin.menuTypeTemplate": {
@@ -2205,6 +2217,10 @@
   },
   "systemAdmin.systemAdminTips20": {
     "message": "Disarankan untuk memakai templat ini jika anda hanya ingin mahasiswa memiliki entri login terpisah",
+    "description": "2.0 admin.js"
+  },
+  "systemAdmin.passwordLengthTips": {
+    "message": "Silakan masukkan kata sandi enam digit ke atas",
     "description": "2.0 admin.js"
   },
   "teachingAdmin.inSchoolCourse": {
@@ -2435,9 +2451,9 @@
     "message": "Jumlah peserta",
     "description": "2.0 admin.js"
   },
-  "teachingAdmin.to": {
-    "message": "sampai",
-    "description": "2.0 admin.js"
+  "teachingAdmin.timeBetween": {
+    "message": "{startTime} sampai {endTime}",
+    "description": "管理员账号 -> 数据中心 -> 教学动态 \n 管理员账号 -> 考试管理"
   },
   "teachingAdmin.viewScore": {
     "message": "Lihat nilai",
@@ -3027,6 +3043,10 @@
     "message": "Nama",
     "description": "2.0 admin.js"
   },
+  "description": {
+    "message": "deskripsi",
+    "description": "2.0 admin.js"
+  },
   "consumerKey": {
     "message": "Consumer Key",
     "description": "2.0 admin.js"
@@ -3049,6 +3069,86 @@
   },
   "deleteSuccess": {
     "message": "Berhasil dihapus",
+    "description": "2.0 admin.js"
+  },
+  "seats": {
+    "message": "Jumlah tempat duduk",
+    "description": "2.0 admin.js"
+  },
+  "expireTime": {
+    "message": "Waktu kadaluarsa",
+    "description": "2.0 admin.js"
+  },
+  "assignTeacher": {
+    "message": "Menetapkan guru",
+    "description": "2.0 admin.js"
+  },
+  "modifyMeeting": {
+    "message": "Memodifikasi ruang konferensi cloud",
+    "description": "2.0 admin.js"
+  },
+  "meetingNameTip": {
+    "message": "Silakan masukkan nama ruang konferensi cloud",
+    "description": "2.0 admin.js"
+  },
+  "meetingNameInvalid": {
+    "message": "Panjang dari 1 hingga 30 karakter",
+    "description": "2.0 admin.js"
+  },
+  "meetingDescTip": {
+    "message": "Silakan masukkan deskripsi ruang konferensi cloud",
+    "description": "2.0 admin.js"
+  },
+  "meetingDescInvalid": {
+    "message": "Panjangnya tidak lebih besar dari 100 karakter.",
+    "description": "2.0 admin.js"
+  },
+  "assignTo": {
+    "message": "Ditugaskan ke:",
+    "description": "2.0 admin.js"
+  },
+  "addTeacher": {
+    "message": "Tambah dosen",
+    "description": "2.0 admin.js"
+  },
+  "searchTeacherTip": {
+    "message": "Masukkan nama pengguna/nama lengkap untuk melakukan pencarian",
+    "description": "2.0 admin.js"
+  },
+  "teacherStats": {
+    "message": "{N} guru secara total\n",
+    "description": "2.0 admin.js"
+  },
+  "selectedTeacher": {
+    "message": "Dosen yang telah dipilih:",
+    "description": "2.0 admin.js"
+  },
+  "settings": {
+    "message": "Pengaturan",
+    "description": "2.0 admin.js"
+  },
+  "meetingNormal": {
+    "message": "biasa",
+    "description": "2.0 admin.js"
+  },
+  "meetingExpire": {
+    "message": "Ini akan berakhir",
+    "description": "2.0 admin.js"
+  },
+  "meetingDisable": {
+    "message": "Telah berhenti digunakan",
+    "description": "2.0 admin.js"
+  },
+  "cloudMeetingRoom": {
+    "message": "Ruang rapat awan",
+    "description": "2.0 admin.js"
+  },
+  "modifySuccess": {
+    "message": "Berhasil diubah",
+    "description": "2.0 admin.js"
+  },
+  "modifyFailed": {
+    "message": "Gagal mengubah",
     "description": "2.0 admin.js"
   }
 }
