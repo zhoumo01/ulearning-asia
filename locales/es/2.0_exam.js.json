@@ -123,6 +123,22 @@
     "message": "nombre",
     "description": "2.0 exam.js"
   },
+  "namePrefix": {
+    "message": "Nombre: {name}\n",
+    "description": "2.0 {filename}"
+  },
+  "accountPrefix": {
+    "message": "Cuenta: {account}",
+    "description": "2.0 {filename}"
+  },
+  "schoolPrefix": {
+    "message": "Escuela: {org}",
+    "description": "2.0 {filename}"
+  },
+  "certPrefix": {
+    "message": "Número de certificado de evaluación: {no}",
+    "description": "2.0 {filename}"
+  },
   "totalScore": {
     "message": "Puntaje total",
     "description": "2.0 exam.js"
@@ -186,6 +202,10 @@
   "chooseBatch": {
     "message": "Seleccione el lote para tomar el examen.",
     "description": "2.0 exam.js"
+  },
+  "betweenTime": {
+    "message": "{startTime} a {endTime}",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> “全部场次”选择框 \n 教师账号 -> 考试 -> 查看成绩 -> 设置重考 \n 教师账号 -> 考试 -> 添加考试 \n 教师账号 -> 考试 -> 查看成绩 -> 设置重考(要求当前没有批次) -> 添加批次 \n 教师账号 -> 考试 -> 查看成绩 -> 考务管理 -> 场次按排 -> 添加场次"
   },
   "confirm": {
     "message": "Ok",
@@ -579,6 +599,14 @@
     "message": "Horas",
     "description": "2.0 exam.js"
   },
+  "minute": {
+    "message": " {count} puntos ",
+    "description": "2.0 exam.js"
+  },
+  "timeLength": {
+    "message": "{días} días {horas} horas {minutos} minutos {segundos} segundos",
+    "description": "2.0 exam.js"
+  },
   "scoringRate": {
     "message": "Tasa de puntuación",
     "description": "2.0 exam.js"
@@ -647,6 +675,10 @@
     "message": "Respuestas",
     "description": "2.0 exam.js"
   },
+  "answeredTimes": {
+    "message": "Número de respuestas/permitidos",
+    "description": "2.0 {filename}"
+  },
   "achievement": {
     "message": "Logro",
     "description": "2.0 exam.js"
@@ -663,6 +695,14 @@
     "message": "Terminado",
     "description": "2.0 exam.js"
   },
+  "examDurationCl": {
+    "message": "Duración de la prueba: {count} minutos\n",
+    "description": "2.0 exam.js"
+  },
+  "lateTime": {
+    "message": "Hora tardía: {count}\n",
+    "description": "2.0 exam.js"
+  },
   "lateTimeSet": {
     "message": "Tiempo de retraso:",
     "description": "2.0 exam.js"
@@ -675,13 +715,25 @@
     "message": "Inicio",
     "description": "2.0 exam.js"
   },
+  "startDatePrefix": {
+    "message": "Inicio: {time}",
+    "description": "2.0 {filename}"
+  },
   "ended": {
     "message": "Fin",
     "description": "2.0 exam.js"
   },
+  "endDatePrefix": {
+    "message": "Hora de finalización : {time}",
+    "description": "2.0 {filename}"
+  },
   "noBatch": {
     "message": "Sin lote",
     "description": "2.0 exam.js"
+  },
+  "partOf": {
+    "message": "{n} copias",
+    "description": "教师账号 -> 考试"
   },
   "randomGroupPaper": {
     "message": "Papel de examen al azar",
@@ -727,6 +779,10 @@
     "message": "Despues del examen",
     "description": "2.0 exam.js"
   },
+  "dayShowExam": {
+    "message": "Mostrar {n} días después del examen\n",
+    "description": "学生账号 -> 考试"
+  },
   "examTips5": {
     "message": "Los resultados no serán anunciados",
     "description": "2.0 exam.js"
@@ -742,6 +798,10 @@
   "networkErrorTips": {
     "message": "\"Error de red, haga clic en\"",
     "description": "2.0 exam.js"
+  },
+  "networkErrorTips2": {
+    "message": "Error de red, haga clic en {button} para volver a cargar\n",
+    "description": "2.0 {filename}"
   },
   "loadErrorTips": {
     "message": "\"Error al cargar, haga clic\"",
@@ -777,6 +837,22 @@
   },
   "remarkTips1": {
     "message": "\"Nota: Si el candidato envía múltiples registros de respuestas, el último registro se mostrará de manera predeterminada\"",
+    "description": "2.0 exam.js"
+  },
+  "totalQue": {
+    "message": "Total {n} carreteras\n",
+    "description": "2.0 exam.js"
+  },
+  "queOf": {
+    "message": "{n} Carretera\n",
+    "description": "2.0 exam.js"
+  },
+  "queIndex": {
+    "message": "Pregunta {n}\n",
+    "description": "2.0 exam.js"
+  },
+  "answeringCount": {
+    "message": "En la {n} respuesta\n",
     "description": "2.0 exam.js"
   },
   "seeDetails": {
@@ -1003,6 +1079,10 @@
     "message": "El puntaje no puede exceder el puntaje total",
     "description": "2.0 exam.js"
   },
+  "timesOf": {
+    "message": "{n} veces\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息 \n 教师账号 -> 考试 -> 考试监控 -> 列表形式 -> 异常记录"
+  },
   "baseInformation": {
     "message": "Información básica",
     "description": "2.0 exam.js"
@@ -1010,6 +1090,14 @@
   "examNameCl": {
     "message": "Nombre del examen:",
     "description": "2.0 exam.js"
+  },
+  "answerDurationCl": {
+    "message": "Tiempo de respuesta: {count}\n",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesOf": {
+    "message": "Número de respuestas: {count}\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息"
   },
   "passScoreCl": {
     "message": "Puntaje de aprobación:",
@@ -1247,6 +1335,14 @@
     "message": "Pase el código de verificación para ingresar al examen",
     "description": "2.0 exam.js"
   },
+  "studentNOCl2": {
+    "message": "Identificación de estudiante: {no}\n",
+    "description": "2.0 {filename}"
+  },
+  "classOf": {
+    "message": "Clase: {className}\n",
+    "description": "此功能已被替换，但代码还在，为了安全，所以重构了插值。"
+  },
   "waitApproved": {
     "message": "Esperando aprobación",
     "description": "2.0 exam.js"
@@ -1391,6 +1487,14 @@
     "message": "Sesión",
     "description": "2.0 exam.js"
   },
+  "batchNo": {
+    "message": "Sesión {n}\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考务管理 -> 场次按排 \n 教师账号 -> 考试 -> 查看成绩 -> 考试监控 \n 教师账号 -> 考试 -> 添加考试 \n 教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
+  },
+  "batchNoTime": {
+    "message": "Sesión {n}: {startTime} a {endTime}\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排"
+  },
   "clearExamRoomPlan": {
     "message": "Disposición clara de la sala de examen",
     "description": "2.0 exam.js"
@@ -1422,6 +1526,18 @@
   "invigilator": {
     "message": "Supervisor",
     "description": "2.0 exam.js"
+  },
+  "etcOfPeople": {
+    "message": "{name} y otras {n} personas\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排"
+  },
+  "etcOf": {
+    "message": "{nombre}, etc.",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 (当学生单独参加考试，没有在班级中时，才会出现这个)"
+  },
+  "peopleOf": {
+    "message": "[{n} personas]\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "empty": {
     "message": "Vacio",
@@ -1557,6 +1673,10 @@
   },
   "roomTips7": {
     "message": "No estudiante",
+    "description": "2.0 exam.js"
+  },
+  "batchExpand": {
+    "message": "Extensión de lote por {count} minutos\n",
     "description": "2.0 exam.js"
   },
   "roomTips8": {
@@ -2195,6 +2315,18 @@
     "message": "Seleccione la sala de examen que se utilizará para cada sesión. El número total de asientos para cada sesión debe ser mayor que el número de candidatos",
     "description": "2.0 exam.js"
   },
+  "seatOf": {
+    "message": "{n} asientos\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
+  },
+  "examStudentOf": {
+    "message": "{n} candidato\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
+  },
+  "seatsOf": {
+    "message": "{n} asiento\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
+  },
   "roomEditorTips5": {
     "message": "El sistema ha generado automáticamente los resultados del diseño en función del número de clases y el número de asientos en la sala de examen. Puede ajustar y guardar manualmente los resultados del diseño después de la confirmación.",
     "description": "2.0 exam.js"
@@ -2238,6 +2370,10 @@
   "roomEditorTips15": {
     "message": "Por favor seleccione una sala de examen",
     "description": "2.0 exam.js"
+  },
+  "roomEditorTip16": {
+    "message": "El número de escaños en la sesión {n} es menor que el número de candidatos\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
   },
   "roomEditorTips17": {
     "message": "El número de personas en movimiento no puede ser cero.",
@@ -2294,6 +2430,10 @@
   "immediateDisplay": {
     "message": "Mostrar ahora",
     "description": "2.0 exam.js"
+  },
+  "afterDaysShow": {
+    "message": "Mostrar en {n} días\n",
+    "description": "教师账号 -> 考试 -> 添加考试"
   },
   "weekAfterShow": {
     "message": "{count} mostrar en semanas",
@@ -2535,6 +2675,18 @@
     "message": "No aprobado",
     "description": "2.0 exam.js"
   },
+  "remainSeatOf": {
+    "message": "Más de {n} asientos\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场"
+  },
+  "remainSeatOf2": {
+    "message": "{roomName} (más de {n} asientos)\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 -> 修改考场"
+  },
+  "modifyRoomTip": {
+    "message": "Mueva {n} de {className} (número total de estudiantes: {total}) a la siguiente sala de exámenes:\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考场按排 -> 编排考场 -> 修改考场"
+  },
   "objectivesQ": {
     "message": "Pregunta objetiva",
     "description": "2.0 exam.js"
@@ -2695,6 +2847,10 @@
     "message": "Abandonar",
     "description": "2.0 exam.js"
   },
+  "examHeadTips4": {
+    "message": "{detectEnv} antes del examen para confirmar que la red, el equipo, el navegador, etc. son normales.\n",
+    "description": "detectEnv 的插值是“检测考试环境”，就是下面的 detectEnv 字段"
+  },
   "detectEnv": {
     "message": "Entorno de prueba",
     "description": "2.0 exam.js"
@@ -2727,6 +2883,10 @@
     "message": "La foto ha sido eliminada",
     "description": "2.0 exam.js"
   },
+  "deviceID": {
+    "message": "ID de dispositivo: {id}\n",
+    "description": "2.0 exam.js"
+  },
   "confirmDeletePhoto": {
     "message": "¿Está seguro de que desea eliminar instantáneas de todos los alumnos de su clase actual?",
     "description": "2.0 exam.js"
@@ -2751,6 +2911,14 @@
     "message": "Mostrar después del examen",
     "description": "2.0 exam.js"
   },
+  "afterExamFinishedTips2": {
+    "message": "Mostrar {n} días después del examen\n",
+    "description": "2.0 {filename}"
+  },
+  "weekPublish": {
+    "message": "Anunciado en {n} semanas\n",
+    "description": "2.0 exam.js"
+  },
   "noPublish": {
     "message": "No publicado.",
     "description": "2.0 exam.js"
@@ -2759,6 +2927,10 @@
     "message": "Elimine la granja de servidores.",
     "description": "2.0 exam.js"
   },
+  "examDaysPublish": {
+    "message": "Anuncio {n} días después de que finalice el examen\n",
+    "description": "教师账号 -> 考试 -> 查看成绩 -> 考试信息"
+  },
   "auditTipsClassroom": {
     "message": "La verificación de reconocimiento facial está activada y las fotos de certificación de los candidatos deben cargarse con antelación. Las fotos pueden ser importadas a granel por los profesores o subidas por los propios estudiantes. Las fotos subidas por los propios estudiantes pueden ser revisadas por los profesores.",
     "description": "2.0 exam.js"
@@ -2766,6 +2938,10 @@
   "faceServiceTips": {
     "message": "Reconocimiento facial y supervisión de captura para un servicio basado en tarifas, su organización aún no ha abierto, si necesita abrir, póngase en contacto con el servicio de atención al cliente.",
     "description": "2.0 exam.js"
+  },
+  "borwserTip": {
+    "message": "El navegador ahora es: {browser}, use Internet Explorer para realizar el examen.\n",
+    "description": "2.0 {filename}"
   },
   "offlineTip": {
     "message": "Configure la dirección del examen sin conexión antes de realizar el examen",
@@ -2793,6 +2969,14 @@
   },
   "onlyPCExe": {
     "message": "Sólo el cliente de pantalla de bloqueo del ordenador",
+    "description": "2.0 exam.js"
+  },
+  "unlimit": {
+    "message": "Ilimitado",
+    "description": "2.0 exam.js"
+  },
+  "onlyPCExeTips": {
+    "message": "Utilice {PCExe} para realizar el examen. Después de ingresar al examen, los candidatos no pueden salir de la interfaz del examen. Es adecuado para exámenes más rigurosos o exámenes centralizados en la sala de computadoras.\n",
     "description": "2.0 exam.js"
   },
   "PCExe": {
@@ -2939,6 +3123,18 @@
     "message": "¿Está seguro de que desea vaciar los registros de supervisión?",
     "description": "2.0 exam.js"
   },
+  "timeDay": {
+    "message": "{días} días\n",
+    "description": "2.0 exam.js"
+  },
+  "timeHour": {
+    "message": "{hours} horas\n",
+    "description": "2.0 exam.js"
+  },
+  "timeSecond": {
+    "message": "{segundos} segundos\n",
+    "description": "2.0 exam.js"
+  },
   "UTestName": {
     "message": "Sistema de exámenes U-Test",
     "description": "2.0 exam.js"
@@ -3017,6 +3213,150 @@
   },
   "recoverErrorTips": {
     "message": "La recuperación falló, por favor inténtelo de nuevo más tarde!",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips1": {
+    "message": "Los tiempos de exportación pueden ser largos, tenga paciencia.",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips2": {
+    "message": "En el caso de que una ventana emergente de bloqueo del navegador, elija Permitir siempre ventanas emergentes del sitio web.",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips3": {
+    "message": "Se está generando un registro de la respuesta y está completo",
+    "description": "2.0 exam.js"
+  },
+  "cancelExport": {
+    "message": "Cancelar la exportación",
+    "description": "2.0 exam.js"
+  },
+  "randomTips13": {
+    "message": "El número de preguntas por tipo de pregunta debe ser un entero de 1-100",
+    "description": "2.0 exam.js"
+  },
+  "randomTips14": {
+    "message": "La puntuación para cada pregunta debe estar entre 0-100",
+    "description": "2.0 exam.js"
+  },
+  "randomTips15": {
+    "message": "Solo puede agregar hasta 10 secciones",
+    "description": "2.0 exam.js"
+  },
+  "randomTips16": {
+    "message": "No se admite la copia para el tipo de pregunta de prueba seleccionado",
+    "description": "2.0 exam.js"
+  },
+  "startCreatPaper": {
+    "message": "Iniciar el volumen del grupo",
+    "description": "2.0 exam.js"
+  },
+  "autoPaperSettings": {
+    "message": "Configuración de volumen de grupo",
+    "description": "2.0 exam.js"
+  },
+  "paperNum": {
+    "message": "volumen de exámenes por grupo",
+    "description": "2.0 exam.js"
+  },
+  "paperTip": {
+    "message": "Volumen del grupo, por favor espere...",
+    "description": "2.0 exam.js"
+  },
+  "paperTip1": {
+    "message": "El volumen del grupo se realizó correctamente y se guardó en el directorio actual de la biblioteca de papel",
+    "description": "2.0 exam.js"
+  },
+  "goView": {
+    "message": "Ir a la vista",
+    "description": "2.0 exam.js"
+  },
+  "continueCreate": {
+    "message": "Continuar con el volumen del grupo",
+    "description": "2.0 exam.js"
+  },
+  "oralSubject": {
+    "message": "Preguntas subjetivas orales",
+    "description": "2.0 exam.js"
+  },
+  "oralReading": {
+    "message": "Preguntas de lectura hablada",
+    "description": "2.0 exam.js"
+  },
+  "blankChoice": {
+    "message": "Completa los espacios en blanco",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips3": {
+    "message": "Activar la supervisión de corte de pantalla",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips4": {
+    "message": "Presentación obligatoria de trabajos después de que la licencia acumulada alcance {n} veces\n",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips5": {
+    "message": "Envío obligatorio de trabajos después de una única licencia de más de {s} segundos\n",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips6": {
+    "message": "(Se puede configurar en 5-300 segundos)",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips7": {
+    "message": "Elija al menos uno de los dos métodos de supervisión",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips8": {
+    "message": "Cortar el monitoreo de la pantalla, elegir al menos uno",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips9": {
+    "message": "A mitad de camino para llegar al número especificado de veces, el sistema forzó la entrega del papel.",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips10": {
+    "message": "Dejar a mitad de camino a través del período de tiempo especificado, el sistema forzó la entrega del volumen",
+    "description": "2.0 exam.js"
+  },
+  "remark": {
+    "message": "Volver a puntuar",
+    "description": "2.0 exam.js"
+  },
+  "remarkingTip": {
+    "message": "La última tarea de puntuación aún está en proceso, por favor revíselo más tarde.",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip1": {
+    "message": "Utilice esta función para volver a calificar automáticamente los trabajos puntuados si ha modificado las respuestas a las preguntas de los trabajos después de que haya comenzado el examen.",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip2": {
+    "message": "La nueva puntuación es para temas solo del sistema y no afecta a las puntuaciones de los temas que se puntúan manualmente.",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip3": {
+    "message": "¿Estás seguro de que quieres volver a la cuenta?",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip4": {
+    "message": "Las calificaciones pueden llevar mucho tiempo y se procesarán en segundo plano, así que verifique sus puntajes más tarde.",
+    "description": "2.0 exam.js"
+  },
+  "windowsVersion": {
+    "message": "Versión de Windows",
+    "description": "2.0 exam.js"
+  },
+  "windowsVersionDesc": {
+    "message": "Compatible con Windows 7 y versiones superiores del sistema",
+    "description": "2.0 exam.js"
+  },
+  "macVersion": {
+    "message": "Versión para Mac",
+    "description": "2.0 exam.js"
+  },
+  "macVersionDesc": {
+    "message": "Compatible con macOS10.11 y versiones superiores del sistema",
     "description": "2.0 exam.js"
   }
 }
