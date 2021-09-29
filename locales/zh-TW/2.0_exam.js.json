@@ -3162,5 +3162,201 @@
   "UTestDesc": {
     "message": "說明：此客戶端僅支持學生參加考試，註冊賬號、加入班級等操作，請提前登錄優學院網頁端或APP完成",
     "description": "2.0 exam.js"
+  },
+  "recoverLocalExamRecord": {
+    "message": "恢復本地答題記錄",
+    "description": "2.0 exam.js"
+  },
+  "ISee": {
+    "message": "我知道了",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips1": {
+    "message": "本地沒有答題記錄",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips2": {
+    "message": "注意：本地答題記錄是為了防止斷網等極端情況導致答題記錄丟失，絕大多數情況不需要手動恢復。 恢復本地答題記錄，將會覆蓋已上傳至平臺的答題記錄。 因此如果需要恢復，請注意比較答題記錄保存時間，務必謹慎操作。",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips3": {
+    "message": "本次考試答題記錄已提交，不能恢復本地答題記錄。",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips4": {
+    "message": "平臺保存的答題記錄與本地答題記錄相比較新，為避免成績被覆蓋，不能恢復答題記錄。",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips5": {
+    "message": "恢復本地答題記錄，將會覆蓋平臺已上傳的答題記錄，請確定是否恢復？",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTime": {
+    "message": "本地答題記錄保存時間",
+    "description": "2.0 exam.js"
+  },
+  "remoteRecordTime": {
+    "message": "平台答題記錄保存時間",
+    "description": "2.0 exam.js"
+  },
+  "confirmRecover": {
+    "message": "確定恢復",
+    "description": "2.0 exam.js"
+  },
+  "comfirmDelete": {
+    "message": "確定刪除嗎",
+    "description": "2.0 exam.js"
+  },
+  "recover": {
+    "message": "恢復",
+    "description": "2.0 exam.js"
+  },
+  "recoverErrorTips": {
+    "message": "恢復失敗，請稍後重試！",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips1": {
+    "message": "匯出時間可能較長，請耐心等待。",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips2": {
+    "message": "如遇瀏覽器攔截彈窗，請選擇始終允許網站彈出視窗。",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips3": {
+    "message": "正在生成答題記錄，已完成",
+    "description": "2.0 exam.js"
+  },
+  "cancelExport": {
+    "message": "取消匯出",
+    "description": "2.0 exam.js"
+  },
+  "randomTips13": {
+    "message": "每個題型的抽題數量應該為1-100的整數",
+    "description": "2.0 exam.js"
+  },
+  "randomTips14": {
+    "message": "每道題的分值應該在0-100之間",
+    "description": "2.0 exam.js"
+  },
+  "randomTips15": {
+    "message": "最多只能添加10個部分",
+    "description": "2.0 exam.js"
+  },
+  "randomTips16": {
+    "message": "所選試卷題型不支持複製",
+    "description": "2.0 exam.js"
+  },
+  "startCreatPaper": {
+    "message": "開始組卷",
+    "description": "2.0 exam.js"
+  },
+  "autoPaperSettings": {
+    "message": "組卷設置",
+    "description": "2.0 exam.js"
+  },
+  "paperNum": {
+    "message": "組卷數量",
+    "description": "2.0 exam.js"
+  },
+  "paperTip": {
+    "message": "正在組卷，請稍候...",
+    "description": "2.0 exam.js"
+  },
+  "paperTip1": {
+    "message": "組卷成功，已保存至試卷庫當前目錄",
+    "description": "2.0 exam.js"
+  },
+  "goView": {
+    "message": "前往查看",
+    "description": "2.0 exam.js"
+  },
+  "continueCreate": {
+    "message": "繼續組卷",
+    "description": "2.0 exam.js"
+  },
+  "oralSubject": {
+    "message": "口語主觀",
+    "description": "2.0 exam.js"
+  },
+  "oralReading": {
+    "message": "口語朗讀",
+    "description": "2.0 exam.js"
+  },
+  "blankChoice": {
+    "message": "選詞填空題",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips3": {
+    "message": "開啟切屏監控",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips4": {
+    "message": "累計離開達到{n}次后強制交卷",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips5": {
+    "message": "單次離開超過{s}秒后強制交卷",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips6": {
+    "message": "（可設定為5-300秒）",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips7": {
+    "message": "兩種監控方式至少選擇一種",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips8": {
+    "message": "切屏監控方式，至少選擇一種",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips9": {
+    "message": "中途離開達到規定次數，系統強制交卷",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips10": {
+    "message": "中途離開超過規定時長，系統強制交卷",
+    "description": "2.0 exam.js"
+  },
+  "remark": {
+    "message": "重新評分",
+    "description": "2.0 exam.js"
+  },
+  "remarkingTip": {
+    "message": "上次評分任務還在處理中，請稍後查看。",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip1": {
+    "message": "考試開始后，如果修改了試卷中的題目答案，使用此功能，可以對已評分的試卷重新自動評分。",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip2": {
+    "message": "重新評分僅針對系統評分的題目，不會影響人工評分的題目成績。",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip3": {
+    "message": "確定重新評分嗎？",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip4": {
+    "message": "評分耗時可能較長，系統將在後台處理，請稍後再查看重新評分后的成績。",
+    "description": "2.0 exam.js"
+  },
+  "windowsVersion": {
+    "message": "Windows版",
+    "description": "2.0 exam.js"
+  },
+  "windowsVersionDesc": {
+    "message": "支援Windows7及以上系統版本",
+    "description": "2.0 exam.js"
+  },
+  "macVersion": {
+    "message": "Mac版",
+    "description": "2.0 exam.js"
+  },
+  "macVersionDesc": {
+    "message": "支援macOS10.11及以上系統版本",
+    "description": "2.0 exam.js"
   }
 }
