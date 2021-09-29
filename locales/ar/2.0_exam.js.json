@@ -3043,6 +3043,10 @@
     "message": "فحص توافق الكمبيوتر",
     "description": "2.0 exam.js"
   },
+  "examFaceVerification": {
+    "message": "شهادة وجه الامتحان",
+    "description": "2.0 exam.js"
+  },
   "onlyPCExeBtnTips": {
     "message": "يرجى إجراء الامتحان عبر متصفح ULearning الآمن",
     "description": "2.0 exam.js"
@@ -3061,6 +3065,10 @@
   },
   "exceptionReminderFilter": {
     "message": "تصفية السلوكيات المشبوهة",
+    "description": "2.0 exam.js"
+  },
+  "exceptionReminderTitle1": {
+    "message": "مسار الإجابة غير طبيعي",
     "description": "2.0 exam.js"
   },
   "mobileExam": {
@@ -3155,8 +3163,36 @@
     "message": "ملاحظة: يتم استخدام متصفح ULearning الآمن لإجراء الامتحان فقط. يتم تسجيل المستخدمين وتسجيل المقرر الدراسي عبر منصة ULearning أو تطبيق ULearning.",
     "description": "2.0 exam.js"
   },
+  "recoverLocalExamRecord": {
+    "message": "استعادة سجل الإجابات المحلي",
+    "description": "2.0 exam.js"
+  },
   "ISee": {
     "message": "فهمت ذلك!",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips1": {
+    "message": "لا يوجد سجل إجابات محلي",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips2": {
+    "message": "ملاحظة: تم تصميم سجلات الإجابات المحلية لمنع فقدان سجلات الإجابات بسبب الحالات القصوى مثل قطع الاتصال بالشبكة، وفي الغالبية العظمى من الحالات لا تتطلب الاسترداد اليدوي. سيؤدي استعادة سجل الإجابات المحلي إلى الكتابة فوق سجل الإجابات الذي تم تحميله إلى النظام الأساسي. لذلك، إذا كنت بحاجة إلى استرداد، كن حذرا لمقارنة الوقت الذي يتم حفظ سجلات الإجابات.",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips3": {
+    "message": "تم إرسال سجل إجابات الامتحان ولا يمكن استعادة سجل الإجابات المحلي.",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips4": {
+    "message": "سجل الإجابات الذي تم حفظه بواسطة النظام الأساسي جديد نسبيا مقارنة بسجل الإجابات المحلي، ولا يمكن استعادة سجل الإجابات لتجنب الكتابة فوق الدرجة.",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips5": {
+    "message": "استعادة سجل الإجابات المحلية سوف يتجاوز سجل الإجابات التي تم تحميلها منصة، يرجى تحديد ما إذا كان لاستعادته؟",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTime": {
+    "message": "يتم حفظ سجل الإجابات المحلي",
     "description": "2.0 exam.js"
   },
   "remoteRecordTime": {
@@ -3177,6 +3213,150 @@
   },
   "recoverErrorTips": {
     "message": "لم نتمكن من الاستعادة -- الرجاء محاولة ذلك مرة أخرى في وقت لاحق!",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips1": {
+    "message": "قد تكون أوقات التصدير طويلة، يرجى التحلي بالصبر.",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips2": {
+    "message": "في حالة وجود نافذة منبثقة لحظر المتصفح، اختر السماح دائما بالنوافذ المنبثقة لموقع الويب.",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips3": {
+    "message": "يتم إنشاء سجل للإجابة ويتم إكماله",
+    "description": "2.0 exam.js"
+  },
+  "cancelExport": {
+    "message": "إلغاء التصدير",
+    "description": "2.0 exam.js"
+  },
+  "randomTips13": {
+    "message": "يجب أن يكون عدد الأسئلة لكل نوع سؤال عددا صحيحا من 1-100",
+    "description": "2.0 exam.js"
+  },
+  "randomTips14": {
+    "message": "يجب أن تكون النتيجة لكل سؤال بين 0-100",
+    "description": "2.0 exam.js"
+  },
+  "randomTips15": {
+    "message": "يمكنك إضافة ما يصل إلى 10 أقسام فقط",
+    "description": "2.0 exam.js"
+  },
+  "randomTips16": {
+    "message": "النسخ غير معتمد لنوع سؤال الاختبار المحدد",
+    "description": "2.0 exam.js"
+  },
+  "startCreatPaper": {
+    "message": "بدء تشغيل وحدة تخزين المجموعة",
+    "description": "2.0 exam.js"
+  },
+  "autoPaperSettings": {
+    "message": "إعدادات مستوى الصوت للمجموعة",
+    "description": "2.0 exam.js"
+  },
+  "paperNum": {
+    "message": "عدد وحدات تخزين المجموعة",
+    "description": "2.0 exam.js"
+  },
+  "paperTip": {
+    "message": "حجم المجموعة، يرجى الانتظار...",
+    "description": "2.0 exam.js"
+  },
+  "paperTip1": {
+    "message": "تم بنجاح وحدة تخزين المجموعة وحفظها في الدليل الحالي لمكتبة الورق",
+    "description": "2.0 exam.js"
+  },
+  "goView": {
+    "message": "الانتقال إلى العرض",
+    "description": "2.0 exam.js"
+  },
+  "continueCreate": {
+    "message": "متابعة وحدة تخزين المجموعة",
+    "description": "2.0 exam.js"
+  },
+  "oralSubject": {
+    "message": "اللغة - شفهي",
+    "description": "2.0 exam.js"
+  },
+  "oralReading": {
+    "message": "اللغة - قراءة بصوت مسموع",
+    "description": "2.0 exam.js"
+  },
+  "blankChoice": {
+    "message": "بنك الكلمات",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips3": {
+    "message": "تشغيل مراقبة قص الشاشة",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips4": {
+    "message": "التقديم الإجباري للأوراق بعد الإجازة المتراكمة تصل إلى {n} مرة\n",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips5": {
+    "message": "التقديم الإجباري للأوراق بعد إجازة واحدة لأكثر من {s} ثانية\n",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips6": {
+    "message": "(يمكن تعيينها إلى 5-300 ثانية)",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips7": {
+    "message": "اختر على الأقل واحدة من طريقتي الرصد",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips8": {
+    "message": "قطع مراقبة الشاشة، واختيار واحد على الأقل",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips9": {
+    "message": "في منتصف الطريق للوصول إلى عدد محدد من المرات ، أجبر النظام على تسليم الورق",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips10": {
+    "message": "ترك في منتصف الطريق من خلال طول الوقت المحدد، أجبر النظام تسليم وحدة التخزين",
+    "description": "2.0 exam.js"
+  },
+  "remark": {
+    "message": "إعادة التسجيل",
+    "description": "2.0 exam.js"
+  },
+  "remarkingTip": {
+    "message": "آخر مهمة تسجيل لا تزال قيد التنفيذ، يرجى مراجعتها لاحقا.",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip1": {
+    "message": "استخدم هذه الميزة لإعادة تسجيل الأوراق تلقائيا إذا قمت بتعديل الإجابات على الأسئلة في الأوراق بعد بدء الامتحان.",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip2": {
+    "message": "إعادة التسجيل هي للمواضيع النظام فقط ولا يؤثر على عشرات المواضيع التي يتم تسجيلها يدويا.",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip3": {
+    "message": "هل أنت متأكد من أنك تريد إعادة الدرجة؟",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip4": {
+    "message": "يمكن أن تستغرق التقييمات وقتا طويلا وسيتم معالجتها في الخلفية ، لذا تحقق من درجاتك لاحقا.",
+    "description": "2.0 exam.js"
+  },
+  "windowsVersion": {
+    "message": "إصدار ويندوز",
+    "description": "2.0 exam.js"
+  },
+  "windowsVersionDesc": {
+    "message": "يدعم ويندوز 7 وإصدارات النظام أعلاه",
+    "description": "2.0 exam.js"
+  },
+  "macVersion": {
+    "message": "إصدار ماك",
+    "description": "2.0 exam.js"
+  },
+  "macVersionDesc": {
+    "message": "يدعم إصدارات النظام macOS10.11 وما فوق",
     "description": "2.0 exam.js"
   }
 }
