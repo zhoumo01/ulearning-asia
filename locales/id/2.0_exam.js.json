@@ -3162,5 +3162,201 @@
   "UTestDesc": {
     "message": "Penjelasan: Sisi pelanggan ini hanya mendukung mahasiswa ikut serta dalam ujian. Untuk registrasi akun, ikut bergabung dalam kelas dan pengoperasian lainnya, silahkan login terlebih dahulu di web ULearn atau APP ULearn",
     "description": "2.0 exam.js"
+  },
+  "recoverLocalExamRecord": {
+    "message": "Kembalikan catatan jawaban lokal",
+    "description": "2.0 exam.js"
+  },
+  "ISee": {
+    "message": "Saya tahu",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips1": {
+    "message": "Tidak ada catatan jawaban lokal",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips2": {
+    "message": "Catatan: Catatan jawaban lokal dirancang untuk mencegah hilangnya catatan jawaban karena situasi ekstrem seperti pemutusan jaringan, dan dalam sebagian besar kasus tidak memerlukan pemulihan manual. Memulihkan catatan jawaban lokal akan menimpa catatan jawaban yang telah diunggah ke platform. Oleh karena itu, jika Anda perlu pulih, berhati-hatilah untuk membandingkan waktu catatan jawaban disimpan.",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips3": {
+    "message": "Catatan jawaban ujian telah diserahkan dan catatan jawaban lokal tidak dapat dipulihkan.",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips4": {
+    "message": "Catatan jawaban yang disimpan oleh platform relatif baru dibandingkan dengan catatan jawaban lokal, dan catatan jawaban tidak dapat dipulihkan untuk menghindari nilai yang ditimpa.",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTips5": {
+    "message": "Memulihkan catatan jawaban lokal akan mengesampingkan catatan jawaban yang telah diunggah platform, silakan tentukan apakah akan mengembalikannya?",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTime": {
+    "message": "Catatan jawaban lokal disimpan",
+    "description": "2.0 exam.js"
+  },
+  "remoteRecordTime": {
+    "message": "Catatan jawaban platform menghemat waktu",
+    "description": "2.0 exam.js"
+  },
+  "confirmRecover": {
+    "message": "Yakin",
+    "description": "2.0 exam.js"
+  },
+  "comfirmDelete": {
+    "message": "Yakin untuk hapus",
+    "description": "2.0 exam.js"
+  },
+  "recover": {
+    "message": "sembuh",
+    "description": "2.0 exam.js"
+  },
+  "recoverErrorTips": {
+    "message": "Pemulihan gagal, silakan coba lagi nanti!",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips1": {
+    "message": "Waktu ekspor mungkin panjang, harap bersabar.",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips2": {
+    "message": "Jika browser memblokir jendela pop-up, pilih Selalu izinkan pop-up situs web.",
+    "description": "2.0 exam.js"
+  },
+  "recordProgressTips3": {
+    "message": "Catatan jawaban sedang dihasilkan dan lengkap",
+    "description": "2.0 exam.js"
+  },
+  "cancelExport": {
+    "message": "Membatalkan ekspor",
+    "description": "2.0 exam.js"
+  },
+  "randomTips13": {
+    "message": "Jumlah pertanyaan per jenis pertanyaan harus berupa integer 1-100",
+    "description": "2.0 exam.js"
+  },
+  "randomTips14": {
+    "message": "Skor untuk setiap pertanyaan harus antara 0-100",
+    "description": "2.0 exam.js"
+  },
+  "randomTips15": {
+    "message": "Anda hanya dapat menambahkan hingga 10 bagian",
+    "description": "2.0 exam.js"
+  },
+  "randomTips16": {
+    "message": "Penyalinan tidak didukung untuk tipe pertanyaan uji yang dipilih",
+    "description": "2.0 exam.js"
+  },
+  "startCreatPaper": {
+    "message": "Memulai volume grup",
+    "description": "2.0 exam.js"
+  },
+  "autoPaperSettings": {
+    "message": "Setelan volume grup",
+    "description": "2.0 exam.js"
+  },
+  "paperNum": {
+    "message": "Jumlah kertas ujian",
+    "description": "2.0 exam.js"
+  },
+  "paperTip": {
+    "message": "Volume grup, tolong tunggu...",
+    "description": "2.0 exam.js"
+  },
+  "paperTip1": {
+    "message": "Volume grup berhasil dan disimpan ke direktori pustaka kertas saat ini",
+    "description": "2.0 exam.js"
+  },
+  "goView": {
+    "message": "Pergi untuk melihat",
+    "description": "2.0 exam.js"
+  },
+  "continueCreate": {
+    "message": "Lanjutkan dengan volume grup",
+    "description": "2.0 exam.js"
+  },
+  "oralSubject": {
+    "message": "Percakapan",
+    "description": "2.0 exam.js"
+  },
+  "oralReading": {
+    "message": "Membaca",
+    "description": "2.0 exam.js"
+  },
+  "blankChoice": {
+    "message": "Pilih kata dan isi",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips3": {
+    "message": "Mengaktifkan pemantauan pemotongan layar",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips4": {
+    "message": "Wajib menyerahkan makalah setelah cuti akumulatif mencapai {n} kali\n",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips5": {
+    "message": "Wajib menyerahkan makalah setelah satu kali cuti selama lebih dari {s} detik\n",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips6": {
+    "message": "(Dapat diatur ke 5-300 detik)",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips7": {
+    "message": "Pilih setidaknya satu dari dua metode pemantauan",
+    "description": "2.0 exam.js"
+  },
+  "screenMonitorTips8": {
+    "message": "Potong pemantauan layar, pilih setidaknya satu",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips9": {
+    "message": "Setengah jalan untuk mencapai jumlah waktu yang ditentukan, sistem memaksa pengiriman kertas.",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips10": {
+    "message": "Tinggalkan di tengah-tengah jangka waktu yang ditentukan, sistem memaksa pengiriman volume",
+    "description": "2.0 exam.js"
+  },
+  "remark": {
+    "message": "Skor ulang",
+    "description": "2.0 exam.js"
+  },
+  "remarkingTip": {
+    "message": "Tugas penilaian terakhir masih dalam proses, silakan tinjau nanti.",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip1": {
+    "message": "Gunakan fitur ini untuk secara otomatis mencetak ulang makalah yang dicetak ulang jika Anda telah memodifikasi jawaban atas pertanyaan di makalah setelah ujian dimulai.",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip2": {
+    "message": "Re-scoring adalah untuk topik sistem saja dan tidak mempengaruhi skor topik yang dinilai secara manual.",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip3": {
+    "message": "Apakah Anda yakin ingin rescore?",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip4": {
+    "message": "Peringkat dapat memakan waktu lama dan akan diproses di latar belakang, jadi periksa skor Anda nanti.",
+    "description": "2.0 exam.js"
+  },
+  "windowsVersion": {
+    "message": "Versi Windows",
+    "description": "2.0 exam.js"
+  },
+  "windowsVersionDesc": {
+    "message": "Mendukung Windows 7 dan versi sistem di atas",
+    "description": "2.0 exam.js"
+  },
+  "macVersion": {
+    "message": "Versi Mac",
+    "description": "2.0 exam.js"
+  },
+  "macVersionDesc": {
+    "message": "Mendukung macOS10.11 dan versi sistem di atas",
+    "description": "2.0 exam.js"
   }
 }
