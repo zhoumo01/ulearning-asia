@@ -2296,7 +2296,7 @@
     "description": "小应用"
   },
   "class.exitNeedCheck": {
-    "message": "学生退出班级需要审核",
+    "message": "学生退出班级时需要审批",
     "description": "小应用"
   },
   "resource.createFolder": {
@@ -2948,11 +2948,15 @@
     "description": "小应用"
   },
   "user.student": {
-    "message": "学生",
+    "message": "在校学生",
     "description": "小应用"
   },
   "user.teacher": {
     "message": "教师",
+    "description": "小应用"
+  },
+  "user.society": {
+    "message": "社会学习者",
     "description": "小应用"
   },
   "user.nameTitle": {
@@ -3196,7 +3200,7 @@
     "description": "小应用"
   },
   "user.inputStudentIdTip1": {
-    "message": "请输入学号",
+    "message": "请输入学号/工号",
     "description": "小应用"
   },
   "user.inputUserNameTip": {
@@ -3287,6 +3291,10 @@
     "message": "如果已统一开通帐号，请使用学校开通的帐号登录，切勿重复注册。",
     "description": "小应用"
   },
+  "user.registerTip2": {
+    "message": "注册所用手机号/邮箱即为登录用户名。",
+    "description": "小应用"
+  },
   "user.isStudent": {
     "message": "我是学生",
     "description": "小应用"
@@ -3316,11 +3324,11 @@
     "description": "小应用"
   },
   "user.repeatTip": {
-    "message": "该学号/工号已开通账号，请勿重复注册。如果忘记用户名或密码，请联系在线客服。",
+    "message": "该学号/工号已开通帐号，请勿重复注册。如果忘记用户名或密码，请联系在线客服。",
     "description": "小应用"
   },
   "user.repeatTip2": {
-    "message": "该学号/工号已开通账号（机构：{org}，用户名：{name}），请勿重复注册。如果忘记用户名或密码，请联系在线客服。",
+    "message": "该学号/工号已开通帐号（机构：{org}，用户名：{name}），请勿重复注册。如果忘记用户名或密码，请联系在线客服。",
     "description": "小应用"
   },
   "user.registErrorText": {
@@ -3908,11 +3916,15 @@
     "description": "小应用"
   },
   "loginCode.ulearningUser": {
-    "message": "优学院账号",
+    "message": "优学院帐号",
     "description": "小应用"
   },
   "loginCode.allowedLogin": {
     "message": "允许登录",
+    "description": "小应用"
+  },
+  "loginCode.screenCode": {
+    "message": "扫码投屏",
     "description": "小应用"
   },
   "loginCode.msg1": {
@@ -3928,7 +3940,7 @@
     "description": "小应用"
   },
   "loginCode.msg4": {
-    "message": "请使用优学院APP扫码登录",
+    "message": "请使用优学院2.0APP扫码登录",
     "description": "小应用"
   },
   "loginCode.msg5": {
@@ -3948,7 +3960,7 @@
     "description": "小应用"
   },
   "loginCode.tips1": {
-    "message": "开启该功能可支持手机端与大屏端的联动授课",
+    "message": "开启该功能可支持手机端与大屏端的联动授课，",
     "description": "小应用"
   },
   "loginCode.tips2": {
