@@ -227,6 +227,14 @@
     "message": "خطأ في الخادم - الرجاء المحاولة مرة أخرى لاحقًا!",
     "description": "1.0 questionNew.js"
   },
+  "examNetErrorTitle": {
+    "message": "استثناء الشبكة",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examNetErrorMsg": {
+    "message": "الشبكة الحالية غير طبيعية، لا يمكن تحميل الورق بشكل صحيح، يرجى التحقق من الشبكة المحلية، وانتظر الشبكة لاسترداد بعد محاولة لدخول الامتحان.",
+    "description": "1.0 questionNew.json.js"
+  },
   "processText": {
     "message": "يتم الآن تحميل سجلات الإجابات التي تمت ادخالها سابقاً...",
     "description": "1.0 questionNew.js"
@@ -250,6 +258,10 @@
   "errorOccurText": {
     "message": "حدث خطأ عندما قام النظام تلقائيًا بتحميل الإجابة لك. يرجى التحقق مما إذا كان الاتصال بالإنترنت على ما يرام أو اتصل المعلم للحصول على مساعدة. ",
     "description": "1.0 questionNew.js"
+  },
+  "examAutoSaveError": {
+    "message": "شذوذ الشبكة! يتم إعادة توصيل النظام، لا تترك أو إغلاق الصفحة، حتى يتم استعادة الشبكة، سيقوم النظام تلقائيا بتحميل سجل الإجابات.",
+    "description": "1.0 questionNew.json.js"
   },
   "guaranteeText": {
     "message": "لضمان إمكانية إجراء الامتحان بسلاسة، يرجى التحقق مما إذا كانت الشبكة تعمل بشكل جيد!",
@@ -294,6 +306,18 @@
   "checkText": {
     "message": "لم نتمكن من الإرسال - الرجاء التحقق مما إذا كانت الشبكة تعمل بشكل جيد!",
     "description": "1.0 questionNew.js"
+  },
+  "examFiailSubmitTitle": {
+    "message": " لم نتمكن من الإرسال ",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examFiailSubmitMsg1": {
+    "message": "فشل شذوذ الشبكة، اختبار تقديم الورق!",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examFiailSubmitMsg2": {
+    "message": "وضع النظام سجل الإجابات محليا بشكل مؤقت، وسوف يقوم بإرساله تلقائيا بعد استرداد الشبكة، لذا لا تغادر الصفحة أو تغلقها. يمكنك أيضا إغلاق النافذة المنبثقة ومحاولة إرسالها يدويا مرة أخرى لاحقا.",
+    "description": "1.0 questionNew.json.js"
   },
   "examTimeText": {
     "message": "عندما ينتهي الامتحان، سيقوم النظام تلقائياً بإرسال الامتحان الخاص بك وإغلاق نافذة المتصفح!",
@@ -434,5 +458,9 @@
   "photoConfirm": {
     "message": "للوصول إلى الامتحان، تحتاج إلى اجتياز التحقق من الوجه. هل تريد أن تفعل ذلك الآن؟",
     "description": "1.0 questionNew.js"
+  },
+  "commitLimitTimeTips": {
+    "message": "ولا يمكن تقديم أوراق الامتحان إلا بعد {time} دقائق من بدء الامتحان",
+    "description": "1.0 questionNew.json.js"
   }
 }
