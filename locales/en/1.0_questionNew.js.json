@@ -227,6 +227,14 @@
     "message": "Unknown server error - Please try again later!",
     "description": "1.0 questionNew.js"
   },
+  "examNetErrorTitle": {
+    "message": "Network error",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examNetErrorMsg": {
+    "message": "The network does not work, so the exam paper can not be loaded properly. Please check the local network, and try again later to start the exam until the network is restored.",
+    "description": "1.0 questionNew.json.js"
+  },
   "processText": {
     "message": "Loading the previously interrupted answer records...",
     "description": "1.0 questionNew.js"
@@ -250,6 +258,10 @@
   "errorOccurText": {
     "message": "An error occurred when the system automatically uploaded the answer for you. Please check if the Internet connection is OK or contact teacher for help. ",
     "description": "1.0 questionNew.js"
+  },
+  "examAutoSaveError": {
+    "message": "Network disconnection! The system is re-connecting, do not leave or close this page. Your answer records will be uploaded automatically when the network is restored.",
+    "description": "1.0 questionNew.json.js"
   },
   "guaranteeText": {
     "message": "To ensure you can take the exam smoothly, please check if your network works as expected!",
@@ -294,6 +306,18 @@
   "checkText": {
     "message": "Submission failed - Please check if your network works as expected!",
     "description": "1.0 questionNew.js"
+  },
+  "examFiailSubmitTitle": {
+    "message": "Submission failed",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examFiailSubmitMsg1": {
+    "message": "Network error. Failed to submit!",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examFiailSubmitMsg2": {
+    "message": "The system has temporarily stored the answer records locally, and will re-submit automatically when the network is restored. So please do not leave or close this page. You can also close this pop-up window and try to submit manually again later.",
+    "description": "1.0 questionNew.json.js"
   },
   "examTimeText": {
     "message": "When the exam ends, the system will automatically submit your exam and close the browser window!",
@@ -434,5 +458,9 @@
   "photoConfirm": {
     "message": "To access the exam, you need to pass the face verification. Want to do it now?",
     "description": "1.0 questionNew.js"
+  },
+  "commitLimitTimeTips": {
+    "message": "You can submit only {time} minutes after the start of the exam",
+    "description": "1.0 questionNew.json.js"
   }
 }
