@@ -227,6 +227,14 @@
     "message": "Se produjo un error desconocido en el servidor. ¡Inténtalo de nuevo más tarde!",
     "description": "1.0 questionNew.js"
   },
+  "examNetErrorTitle": {
+    "message": "Excepción de red",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examNetErrorMsg": {
+    "message": "La red actual es anormal, no puede cargar el documento correctamente, verifique la red local, espere a que la red se recupere después de intentar ingresar al examen.",
+    "description": "1.0 questionNew.json.js"
+  },
   "processText": {
     "message": "Cargando el último registro de respuesta interrumpida ...",
     "description": "1.0 questionNew.js"
@@ -250,6 +258,10 @@
   "errorOccurText": {
     "message": "Se produjo un error cuando el sistema cargó automáticamente la respuesta por usted",
     "description": "1.0 questionNew.js"
+  },
+  "examAutoSaveError": {
+    "message": "¡Anomalías de red! El sistema se está volviendo a conectar, no salga ni cierre la página, hasta que se restaure la red, el sistema cargará automáticamente el registro de respuesta.",
+    "description": "1.0 questionNew.json.js"
   },
   "guaranteeText": {
     "message": "Para asegurarse de que puede realizar la prueba normalmente, compruebe si su red es anormal.",
@@ -294,6 +306,18 @@
   "checkText": {
     "message": "Error al enviar, compruebe si su red es normal.",
     "description": "1.0 questionNew.js"
+  },
+  "examFiailSubmitTitle": {
+    "message": "No se pudo enviar",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examFiailSubmitMsg1": {
+    "message": "¡Anomalía de la red, error en el envío de documentos de prueba!",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examFiailSubmitMsg2": {
+    "message": "El sistema ha colocado temporalmente el registro de respuesta localmente y lo enviará automáticamente después de la recuperación de la red, así que no salga ni cierre la página. También puede cerrar la ventana emergente e intentar enviar manualmente de nuevo más tarde.",
+    "description": "1.0 questionNew.json.js"
   },
   "examTimeText": {
     "message": "Cuando se acabe el tiempo de prueba, el sistema enviará automáticamente el documento de prueba por usted y cerrará la ventana del navegador.",
@@ -434,5 +458,9 @@
   "photoConfirm": {
     "message": "No ha completado la certificación fotográfica para el reconocimiento facial y no puede participar en el examen. ¿Solicitar la certificación ahora?",
     "description": "1.0 questionNew.js"
+  },
+  "commitLimitTimeTips": {
+    "message": "No podrá presentar sus hojas de examen hasta {time} minutos después del inicio del examen",
+    "description": "1.0 questionNew.json.js"
   }
 }
