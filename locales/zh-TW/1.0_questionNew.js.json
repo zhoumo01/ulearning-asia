@@ -227,6 +227,14 @@
     "message": "服務器發生未知錯誤，請稍後再試！",
     "description": "1.0 questionNew.js"
   },
+  "examNetErrorTitle": {
+    "message": "網路異常",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examNetErrorMsg": {
+    "message": "當前網路異常，無法正常載入試卷，請檢查本地網路，待網路恢復后再嘗試進入考試。",
+    "description": "1.0 questionNew.json.js"
+  },
   "processText": {
     "message": "正在載入上次中斷的答題記錄…",
     "description": "1.0 questionNew.js"
@@ -250,6 +258,10 @@
   "errorOccurText": {
     "message": "系統在爲您自動上傳答案時出現錯誤，請檢查網絡連接是否正常，或者聯系老師請求幫助",
     "description": "1.0 questionNew.js"
+  },
+  "examAutoSaveError": {
+    "message": "網路異常！ 系統正在重連，請勿離開或關閉頁面，待網路恢復后系統將自動上傳答題記錄。",
+    "description": "1.0 questionNew.json.js"
   },
   "guaranteeText": {
     "message": "爲保障您能正常考試，請查看您的網絡是否出現異常！",
@@ -294,6 +306,18 @@
   "checkText": {
     "message": "提交失敗，請查看您的網絡是否正常!",
     "description": "1.0 questionNew.js"
+  },
+  "examFiailSubmitTitle": {
+    "message": "提交失敗",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examFiailSubmitMsg1": {
+    "message": "網路異常，試卷提交失敗！",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examFiailSubmitMsg2": {
+    "message": "系統已將答題記錄暫存在本地，待網路恢復后自動提交，請勿離開或關閉頁面。 您也可以關閉此彈窗，稍後再次嘗試手動提交。",
+    "description": "1.0 questionNew.json.js"
   },
   "examTimeText": {
     "message": "考試時間到，系統將爲您自動提交試卷並關閉浏覽器窗口!",
@@ -434,5 +458,9 @@
   "photoConfirm": {
     "message": "你還沒有完成人臉識別的照片認證，無法進入考試。現在去認證？",
     "description": "1.0 questionNew.js"
+  },
+  "commitLimitTimeTips": {
+    "message": "考試開始{time}分鐘後才可以交卷",
+    "description": "1.0 questionNew.json.js"
   }
 }
