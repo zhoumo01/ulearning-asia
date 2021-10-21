@@ -227,6 +227,14 @@
     "message": "Terjadi kesalahan pada server, silahkan coba kembali!",
     "description": "1.0 questionNew.js"
   },
+  "examNetErrorTitle": {
+    "message": "Pengecualian jaringan",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examNetErrorMsg": {
+    "message": "Jaringan saat ini tidak normal, tidak dapat memuat kertas dengan benar, silakan periksa jaringan lokal, tunggu jaringan pulih setelah mencoba memasuki ujian.",
+    "description": "1.0 questionNew.json.js"
+  },
   "processText": {
     "message": "Sedang memuat catatan jawaban yang terputus sebelumnya ... ",
     "description": "1.0 questionNew.js"
@@ -250,6 +258,10 @@
   "errorOccurText": {
     "message": "Sistem terjadi kesalahan pada saat mengunggah jawaban anda secara otomatis, silahkan periksa koneksi internet anda, atau keluar dan login kembali, supaya catatan jawaban tidak hilang ",
     "description": "1.0 questionNew.js"
+  },
+  "examAutoSaveError": {
+    "message": "Anomali jaringan! Sistem sedang terhubung kembali, tidak meninggalkan atau menutup halaman, sampai jaringan dipulihkan, sistem akan secara otomatis mengunggah catatan jawaban.",
+    "description": "1.0 questionNew.json.js"
   },
   "guaranteeText": {
     "message": "Guna menjamin supaya anda dapat melaksanakan ujian dengan lancar, silahkan periksa jaringan internet anda terlebih dahulu! ",
@@ -294,6 +306,18 @@
   "checkText": {
     "message": "Gagal dikumpul, silahkan periksa jaringan internet anda!  ",
     "description": "1.0 questionNew.js"
+  },
+  "examFiailSubmitTitle": {
+    "message": "Gagal dikumpul",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examFiailSubmitMsg1": {
+    "message": "Anomali jaringan, pengiriman kertas uji gagal!",
+    "description": "1.0 questionNew.json.js"
+  },
+  "examFiailSubmitMsg2": {
+    "message": "Sistem untuk sementara menempatkan catatan jawaban secara lokal dan akan mengirimkannya secara otomatis setelah pemulihan jaringan, jadi jangan meninggalkan atau menutup halaman. Anda juga dapat menutup jendela pop-up dan mencoba mengirimkan secara manual lagi nanti.",
+    "description": "1.0 questionNew.json.js"
   },
   "examTimeText": {
     "message": "Waktu ujian telah selesai, sistem akan mengumpulkan kertas ujian anda secara otomatis dan menutup browser!  ",
@@ -434,5 +458,9 @@
   "photoConfirm": {
     "message": "Anda belum menyelesaikan sertifikasi foto untuk pengenalan wajah dan tidak bisa mengikuti ujian. Mau sertifikasi sekarang?",
     "description": "1.0 questionNew.js"
+  },
+  "commitLimitTimeTips": {
+    "message": "Setelah ujian dimulai selama {time} menit, Anda dapat mengirimkan kertas uji.",
+    "description": "1.0 questionNew.json.js"
   }
 }
