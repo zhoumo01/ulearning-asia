@@ -3395,6 +3395,38 @@
     "message": "开始时间不能早于当前时间",
     "description": "2.0 exam.js"
   },
+  "editBatchTimeTip": {
+    "message": "注意：当前场次正在进行中，不能修改开始时间，结束时间可以延后，不能提前。",
+    "description": "2.0 exam.js"
+  },
+  "addAnswerTime": {
+    "message": "延长答题时间",
+    "description": "2.0 exam.js"
+  },
+  "batchExpandNew": {
+    "message": "延长{count}分钟",
+    "description": "2.0 exam.js"
+  },
+  "addTimeTip": {
+    "message": "（请输入1-100的整数）",
+    "description": "2.0 exam.js"
+  },
+  "addBatchLabel": {
+    "message": "同时延长当前场次的结束时间",
+    "description": "2.0 exam.js"
+  },
+  "addTimeDesc": {
+    "message": "使用此功能，可以给当前场次所有正在考试的学生批量增加答题时间。注意：{br1}1.仅对正在答题的学生有效。没有进入考试的学生，和已经交卷的学生，不受影响。{br2}2.延长后，学生端倒计时会在几秒后更新。{br3}3.如果当前场次剩余时间已少于需要增加的答题时间，请同时延长场次的结束时间。",
+    "description": "2.0 exam.js"
+  },
+  "cannotAddTip": {
+    "message": "当前场次剩余时间已不足1分钟，为避免引起混乱，不能再延长答题时间",
+    "description": "2.0 exam.js"
+  },
+  "roomTips15": {
+    "message": "延长时长需要在1-100之间",
+    "description": "2.0 exam.js"
+  },
   "activeExam": {
     "message": "激活考试",
     "description": "2.0 exam.js"
