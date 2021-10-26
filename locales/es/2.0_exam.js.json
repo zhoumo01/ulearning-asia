@@ -3394,5 +3394,41 @@
   "startTimeErrorTip": {
     "message": "La hora de inicio no puede ser anterior a la hora actual",
     "description": "2.0 exam.js"
+  },
+  "editBatchTimeTip": {
+    "message": "Nota: El campo actual está en curso, la hora de inicio no se puede modificar, la hora de finalización se puede posponer y la hora de inicio no se puede avanzar.",
+    "description": "2.0 exam.js"
+  },
+  "addAnswerTime": {
+    "message": "Ampliar el tiempo de respuesta",
+    "description": "2.0 exam.js"
+  },
+  "batchExpandNew": {
+    "message": "Extensión de {count} minuto",
+    "description": "2.0 exam.js"
+  },
+  "addTimeTip": {
+    "message": "(Introduzca un número entero de 1-100)",
+    "description": "2.0 exam.js"
+  },
+  "addBatchLabel": {
+    "message": "Amplía también la hora de finalización del campo",
+    "description": "2.0 exam.js"
+  },
+  "addTimeDesc": {
+    "message": "Con esta función, puede aumentar el tiempo de respuesta en masa para todos los estudiantes que están tomando el examen en la sesión actual. Nota: .br1.1. Válido solo para estudiantes que responden preguntas. Los estudiantes que no han ingresado al examen, y aquellos que ya han entregado sus trabajos, no se ven afectados. {br2} 2. Después de la extensión, la cuenta regresiva del lado del estudiante se actualizará en unos segundos. {br3} 3. Si el tiempo restante de la sesión actual es menor que el tiempo requerido para responder a la pregunta, por favor amplíe también la hora de finalización de la sesión.",
+    "description": "2.0 exam.js"
+  },
+  "cannotAddTip": {
+    "message": "El tiempo restante de la sesión actual es inferior a 1 minuto, con el fin de evitar confusiones, no se puede ampliar el tiempo de respuesta",
+    "description": "2.0 exam.js"
+  },
+  "roomTips15": {
+    "message": "El período de extensión debe estar entre 1-100",
+    "description": "2.0 exam.js"
+  },
+  "activeExam": {
+    "message": "Activar el examen",
+    "description": "2.0 exam.js"
   }
 }
