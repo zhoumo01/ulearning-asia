@@ -3394,5 +3394,41 @@
   "startTimeErrorTip": {
     "message": "The start time cannot be earlier than the current time.",
     "description": "2.0 exam.js"
+  },
+  "editBatchTimeTip": {
+    "message": "Note: This session is in progress, the start time cannot be modified, the end time can be postponed but can not be advanced.",
+    "description": "2.0 exam.js"
+  },
+  "addAnswerTime": {
+    "message": "Extend the answer time",
+    "description": "2.0 exam.js"
+  },
+  "batchExpandNew": {
+    "message": "Add {count} minutes",
+    "description": "2.0 exam.js"
+  },
+  "addTimeTip": {
+    "message": "(Enter an integral between 1~100)",
+    "description": "2.0 exam.js"
+  },
+  "addBatchLabel": {
+    "message": "Extend the end time of this session at the same time",
+    "description": "2.0 exam.js"
+  },
+  "addTimeDesc": {
+    "message": "With this function, you can increase the answer time in bulk for all students who are taking the exam at this session. Note: .br1.1. Valid only for students who are answering questions. Students who have not entered the exam, and those who have already submitted, are not affected. {br2} 2. After the operation, the student side countdown will be updated in a few seconds. {br3} 3. If the remaining time of this session is already less than the time you need to increase, please extend the end time of the session at the same time.",
+    "description": "2.0 exam.js"
+  },
+  "cannotAddTip": {
+    "message": "The remaining time of this session is less than 1 minute. To avoid confusion, you can not extend the answer time.",
+    "description": "2.0 exam.js"
+  },
+  "roomTips15": {
+    "message": "The extension duration should be between 1 and 100.",
+    "description": "2.0 exam.js"
+  },
+  "activeExam": {
+    "message": "Activate the exam",
+    "description": "2.0 exam.js"
   }
 }
