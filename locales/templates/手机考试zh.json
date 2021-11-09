@@ -887,6 +887,10 @@
     "message": "已开启{screen}，中途离开考试单次超过{num1}秒，或累计离开{num}次将强制交卷",
     "description": "手机考试zh.json"
   },
+  "screenMonitorTips2": {
+    "message": "已开启{screen}，中途离开超过{num}秒将强制交卷",
+    "description": "手机考试zh.json"
+  },
   "examMonitor": {
     "message": "考试监控",
     "description": "手机考试zh.json"
@@ -895,8 +899,32 @@
     "message": "本次考试开启了{screen}，请勿中途离开，交卷后才能退出。",
     "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
   },
-  "screenInterpolation2": {
+  "screenInterpolation": {
     "message": "切屏监控",
     "description": "此字段作为 exitTip2 字段插值处的内容"
+  },
+  "hintTip5": {
+    "message": "离开超过{s}秒，系统已强制交卷。",
+    "description": "手机考试zh.json"
+  },
+  "getIt": {
+    "message": "我知道了",
+    "description": "手机考试zh.json"
+  },
+  "netWorkError": {
+    "message": "网络异常，操作失败，请在网络连接恢复后重试。",
+    "description": "手机考试zh.json"
+  },
+  "agreenInstructions": {
+    "message": "我已阅读并同意考试须知中的事项",
+    "description": "手机考试zh.json"
+  },
+  "agreenTip": {
+    "message": "请先勾选",
+    "description": "手机考试zh.json"
+  },
+  "activeBook": {
+    "message": "激活",
+    "description": "手机考试zh.json"
   }
 }
