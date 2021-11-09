@@ -1,933 +1,930 @@
 {
-  {
-    "_name": {
-      "message": "简体中文",
-      "description": "手机考试zh.json"
-    },
-    "mobileExam": {
-      "message": "手机考试",
-      "description": "这个会显示在页面上方的一个导航条，建议尽量翻译的短一些"
-    },
-    "expand": {
-      "message": "展开",
-      "description": "手机考试zh.json"
-    },
-    "collapse": {
-      "message": "收起",
-      "description": "手机考试zh.json"
-    },
-    "answerRecord": {
-      "message": "答题记录",
-      "description": "手机考试zh.json"
-    },
-    "highestScore": {
-      "message": "最高分",
-      "description": "手机考试zh.json"
-    },
-    "points": {
-      "message": "{n}分",
-      "description": "手机考试 -> 考试详情 -> 及格分数 \n 手机考试 -> 考试详情 -> 进入考试 -> 滑动到第一页 -> 奖杯图标右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 用户头像右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 答题记录列表 (需要用户有多个答题记录，才会弹出答题记录列表)"
-    },
-    "examTime": {
-      "message": "考试时间",
-      "description": "手机考试zh.json"
-    },
-    "examLimitTime": {
-      "message": "考试限时",
-      "description": "手机考试zh.json"
-    },
-    "minutes": {
-      "message": "{n}分钟",
-      "description": "手机考试 -> 考试详情 -> 考试限时"
-    },
-    "answerTime": {
-      "message": "答题次数",
-      "description": "手机考试zh.json"
-    },
-    "unlimited": {
-      "message": "不限次数",
-      "description": "手机考试zh.json"
-    },
-    "unlimited2": {
-      "message": "不限制",
-      "description": "手机考试zh.json"
-    },
-    "timesOf": {
-      "message": "{current}/{total}次",
-      "description": "手机考试 -> 考试详情 -> 答题次数"
-    },
-    "passingScore": {
-      "message": "及格分数",
-      "description": "手机考试zh.json"
-    },
-    "lateTime": {
-      "message": "迟到时间",
-      "description": "手机考试zh.json"
-    },
-    "betweenTime": {
-      "message": "{startTime}至{endTime}",
-      "description": "手机考试 -> 考试详情 -> 考试时间"
-    },
-    "clickUpload": {
-      "message": "点击上传认证照片",
-      "description": "手机考试zh.json"
-    },
-    "lookOut": {
-      "message": "注意",
-      "description": "手机考试zh.json"
-    },
-    "faceTip1": {
-      "message": "认证照片用于刷脸考试，请务必上传真实照片。照片上传后，教师可以进行审核，如果发现照片与本人不符，将被视为作弊，可能会导致考试成绩被取消。",
-      "description": "手机考试zh.json"
-    },
-    "faceTip2": {
-      "message": "认证照片上传后不能修改",
-      "description": "手机考试zh.json"
-    },
-    "faceTip3": {
-      "message": "，请确认可用再上传。",
-      "description": "手机考试zh.json"
-    },
-    "authPhoto": {
-      "message": "认证照片",
-      "description": "手机考试zh.json"
-    },
-    "faceTip4": {
-      "message": "认证照片上传后不能修改，请测试可以刷脸成功再上传。",
-      "description": "手机考试zh.json"
-    },
-    "testFace": {
-      "message": "测试能否刷脸成功",
-      "description": "手机考试zh.json"
-    },
-    "reUpload": {
-      "message": "重新上传",
-      "description": "手机考试zh.json"
-    },
-    "confirmPhoto": {
-      "message": "确定使用这张照片",
-      "description": "手机考试zh.json"
-    },
-    "auditor": {
-      "message": "审核人",
-      "description": "手机考试zh.json"
-    },
-    "auditTime": {
-      "message": "审核时间",
-      "description": "手机考试zh.json"
-    },
-    "refuseReason": {
-      "message": "拒绝理由",
-      "description": "手机考试zh.json"
-    },
-    "faceNotPass": {
-      "message": "人脸认证未通过。",
-      "description": "手机考试zh.json"
-    },
-    "retry": {
-      "message": "重试",
-      "description": "手机考试zh.json"
-    },
-    "faceTip5": {
-      "message": "人脸验证失败？点击使用验证码验证",
-      "description": "手机考试zh.json"
-    },
-    "faceTip6": {
-      "message": "验证通过，3秒后进入考试",
-      "description": "手机考试zh.json"
-    },
-    "authPass": {
-      "message": "验证通过",
-      "description": "手机考试zh.json"
-    },
-    "enterCode": {
-      "message": "输入验证码",
-      "description": "手机考试zh.json"
-    },
-    "enterCodeTip": {
-      "message": "验证码请向监考老师索取",
-      "description": "手机考试zh.json"
-    },
-    "faceAuth": {
-      "message": "人脸认证",
-      "description": "手机考试zh.json"
-    },
-    "codeWrong": {
-      "message": "验证码错误",
-      "description": "手机考试zh.json"
-    },
-    "waitAuth": {
-      "message": "待教师审核",
-      "description": "手机考试zh.json"
-    },
-    "authPass2": {
-      "message": "审核通过",
-      "description": "手机考试zh.json"
-    },
-    "authNotPass": {
-      "message": "审核未通过",
-      "description": "手机考试zh.json"
-    },
-    "uploading": {
-      "message": "正在上传中",
-      "description": "手机考试zh.json"
-    },
-    "uploadError": {
-      "message": "上传出错",
-      "description": "手机考试zh.json"
-    },
-    "faceTip7": {
-      "message": "暂不支持人脸识别，请下载新版本APP",
-      "description": "手机考试zh.json"
-    },
-    "authing": {
-      "message": "验证中",
-      "description": "手机考试zh.json"
-    },
-    "faceTip8": {
-      "message": "请先验证该照片能刷脸成功",
-      "description": "手机考试zh.json"
-    },
-    "examCode": {
-      "message": "考试验证码",
-      "description": "手机考试zh.json"
-    },
-    "faceTip9": {
-      "message": "老师当前没有设置验证码或验证码已过期",
-      "description": "手机考试zh.json"
-    },
-    "examTip": {
-      "message": "考试须知",
-      "description": "手机考试zh.json"
-    },
-    "examTip1": {
-      "message": "考试过程中",
-      "description": "手机考试zh.json"
-    },
-    "examTip2": {
-      "message": "请勿离开优学院app考试界面",
-      "description": "手机考试zh.json"
-    },
-    "examTip3": {
-      "message": "，每次离开将会被记录。",
-      "description": "手机考试zh.json"
-    },
-    "examTip4": {
-      "message": "系统检测到{num}次中途离开，将会强制交卷",
-      "description": "手机考试zh.json"
-    },
-    "examTip6": {
-      "message": "如果考试允许重考，你的成绩将会以得分最高的一次为准。",
-      "description": "手机考试zh.json"
-    },
-    "examTip7": {
-      "message": "考试开始后，考生需认真答题，请勿在未作答的情况下直接点击“提交答卷”。",
-      "description": "手机考试zh.json"
-    },
-    "examTip8": {
-      "message": "试卷可能分为多个部分，请认真检查试卷，提交试卷前检查一下答题卡，以免漏题。",
-      "description": "手机考试zh.json"
-    },
-    "examTip9": {
-      "message": "试卷顶部会显示交卷的剩余时间，当剩余时间为0时，系统将自动提交答卷。",
-      "description": "手机考试zh.json"
-    },
-    "cancel": {
-      "message": "取消",
-      "description": "手机考试zh.json"
-    },
-    "confirm": {
-      "message": "确定",
-      "description": "手机考试zh.json"
-    },
-    "startExam": {
-      "message": "立即考试",
-      "description": "手机考试zh.json"
-    },
-    "startExam2": {
-      "message": "开始考试",
-      "description": "手机考试zh.json"
-    },
-    "reExam": {
-      "message": "重考",
-      "description": "手机考试zh.json"
-    },
-    "examNotExist": {
-      "message": "考试不存在",
-      "description": "手机考试zh.json"
-    },
-    "noAnswerRecord": {
-      "message": "没有答题记录",
-      "description": "手机考试zh.json"
-    },
-    "scoreFailed": {
-      "message": "评分失败",
-      "description": "手机考试zh.json"
-    },
-    "submitFailed": {
-      "message": "交卷失败",
-      "description": "手机考试zh.json"
-    },
-    "examDetailTip1": {
-      "message": "检测到您有未提交的考试，目前考试已经结束，请提交考试记录。",
-      "description": "手机考试zh.json"
-    },
-    "submitExam": {
-      "message": "交卷",
-      "description": "手机考试zh.json"
-    },
-    "photoNotAuthYet": {
-      "message": "认证照片未审核",
-      "description": "手机考试zh.json"
-    },
-    "photoNotPassAuth": {
-      "message": "认证照片审核未通过",
-      "description": "手机考试zh.json"
-    },
-    "authTip1": {
-      "message": "你还没有完成人脸识别的照片认证，无法进入考试。",
-      "description": "手机考试zh.json"
-    },
-    "goAuth": {
-      "message": "去认证",
-      "description": "手机考试zh.json"
-    },
-    "plzExitScreen": {
-      "message": "请退出分屏",
-      "description": "手机考试zh.json"
-    },
-    "noExamTip1": {
-      "message": "当前时间不能参加考试",
-      "description": "手机考试zh.json"
-    },
-    "noExamTip2": {
-      "message": "迟到超过规定时间，不能进入考试",
-      "description": "手机考试zh.json"
-    },
-    "noExamTip3": {
-      "message": "超过限制次数",
-      "description": "手机考试zh.json"
-    },
-    "examTip10": {
-      "message": "考试过程中，请勿离开APP考试界面。",
-      "description": "手机考试zh.json"
-    },
-    "examTip11": {
-      "message": "考试过程中，请勿离开APP考试界面，每次离开均会被记录。",
-      "description": "手机考试zh.json"
-    },
-    "examTip12": {
-      "message": "答题时请注意剩余时间，时间用完将自动交卷。",
-      "description": "手机考试zh.json"
-    },
-    "examTip13": {
-      "message": "交卷前请仔细检查是否全部作答，避免漏题。",
-      "description": "手机考试zh.json"
-    },
-    "examTip14": {
-      "message": "如果考试允许多次答题，成绩以最高一次为准。",
-      "description": "手机考试zh.json"
-    },
-    "examTip15": {
-      "message": "本次考试开启了人脸识别验证",
-      "description": "手机考试zh.json"
-    },
-    "examTip16": {
-      "message": "无法刷脸验证？",
-      "description": "手机考试zh.json"
-    },
-    "examTip17": {
-      "message": "使用验证码进入考试",
-      "description": "手机考试zh.json"
-    },
-    "examTip18": {
-      "message": "为防止替考等作弊行为，系统会记录参加考试所用设备、IP地址、进入/离开页面的行为轨迹等，请勿在非考试区域登录。",
-      "description": "手机考试zh.json"
-    },
-    "error": {
-      "message": "出错了",
-      "description": "手机考试zh.json"
-    },
-    "examEnd": {
-      "message": "考试已结束",
-      "description": "手机考试zh.json"
-    },
-    "notJoined": {
-      "message": "你未参与本次考试",
-      "description": "手机考试zh.json"
-    },
-    "finishExam": {
-      "message": "恭喜完成本次考试",
-      "description": "手机考试zh.json"
-    },
-    "viewScore": {
-      "message": "公布考试成绩",
-      "description": "手机考试zh.json"
-    },
-    "notViewScore": {
-      "message": "本次考试不公布考试成绩",
-      "description": "手机考试zh.json"
-    },
-    "scoring": {
-      "message": "正在批阅主观题，请耐心等待",
-      "description": "手机考试zh.json"
-    },
-    "notViewAnswer": {
-      "message": "本次考试不显示答题记录",
-      "description": "手机考试zh.json"
-    },
-    "refreshSuccess": {
-      "message": "刷新成功",
-      "description": "手机考试zh.json"
-    },
-    "refreshFailed": {
-      "message": "刷新失败",
-      "description": "手机考试zh.json"
-    },
-    "error2": {
-      "message": "哎呦，出错了",
-      "description": "手机考试zh.json"
-    },
-    "teaNoExam": {
-      "message": "教师还没有发布考试",
-      "description": "手机考试zh.json"
-    },
-    "viewOnPC": {
-      "message": "请在电脑上考试和查看考试成绩",
-      "description": "手机考试zh.json"
-    },
-    "enterExamTip": {
-      "message": "检测到您有未提交的考试，您可以继续参加考试并交卷。",
-      "description": "手机考试zh.json"
-    },
-    "enterExam": {
-      "message": "进入考试",
-      "description": "手机考试zh.json"
-    },
-    "pcExam": {
-      "message": "电脑考试",
-      "description": "手机考试zh.json"
-    },
-    "pcMobileExam": {
-      "message": "手机/电脑",
-      "description": "手机考试zh.json"
-    },
-    "ing": {
-      "message": "进行中",
-      "description": "手机考试zh.json"
-    },
-    "notStart": {
-      "message": "未开始",
-      "description": "手机考试zh.json"
-    },
-    "end": {
-      "message": "已结束",
-      "description": "手机考试zh.json"
-    },
-    "notJoined2": {
-      "message": "缺考",
-      "description": "手机考试zh.json"
-    },
-    "endSubmit": {
-      "message": "考试时间结束，正在交卷",
-      "description": "手机考试zh.json"
-    },
-    "lateExam": {
-      "message": "考试迟到，无法参加考试",
-      "description": "手机考试zh.json"
-    },
-    "enterPage": {
-      "message": "进入页面",
-      "description": "手机考试zh.json"
-    },
-    "exception": {
-      "message": "异常",
-      "description": "手机考试zh.json"
-    },
-    "autoSaveFailed": {
-      "message": "自动保存失败，请检查网络",
-      "description": "手机考试zh.json"
-    },
-    "savingAnswer": {
-      "message": "保存答案中",
-      "description": "手机考试zh.json"
-    },
-    "exitPage": {
-      "message": "离开页面",
-      "description": "手机考试zh.json"
-    },
-    "submitSuccess": {
-      "message": "交卷成功",
-      "description": "手机考试zh.json"
-    },
-    "reSubmit": {
-      "message": "重新交卷",
-      "description": "手机考试zh.json"
-    },
-    "submitTip1": {
-      "message": "你有{num}道题未作答,确定提交？",
-      "description": "手机考试zh.json"
-    },
-    "continueExam": {
-      "message": "继续答题",
-      "description": "手机考试zh.json"
-    },
-    "submitting": {
-      "message": "正在交卷",
-      "description": "手机考试zh.json"
-    },
-    "unusualLeave": {
-      "message": "异常离开",
-      "description": "手机考试zh.json"
-    },
-    "hintTip1": {
-      "message": "系统检测到你离开了考试。",
-      "description": "手机考试zh.json"
-    },
-    "hintTip2": {
-      "message": "系统检测到你于<strong>{time}</strong>离开了考试。",
-      "description": "手机考试zh.json"
-    },
-    "hintTip3": {
-      "message": "你已离开考试{totalCount}次，将强制为你交卷。",
-      "description": "手机考试zh.json"
-    },
-    "hintTip4": {
-      "message": "{totalCount}次离开将强制交卷，你还剩{count}次机会。",
-      "description": "手机考试zh.json"
-    },
-    "submitSeconds": {
-      "message": "交卷({seconds})",
-      "description": "手机考试zh.json"
-    },
-    "continueExam2": {
-      "message": "继续考试",
-      "description": "手机考试zh.json"
-    },
-    "exitExamTip": {
-      "message": "离开考试提示",
-      "description": "手机考试zh.json"
-    },
-    "correctAnswer": {
-      "message": "正确答案",
-      "description": "手机考试zh.json"
-    },
-    "userAnswer": {
-      "message": "你的答案",
-      "description": "手机考试zh.json"
-    },
-    "noAnswer": {
-      "message": "未作答",
-      "description": "手机考试zh.json"
-    },
-    "analysis": {
-      "message": "解析",
-      "description": "手机考试zh.json"
-    },
-    "answerScore1": {
-      "message": "得分：等待批阅，满分{num}分",
-      "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
-    },
-    "answerScore2": {
-      "message": "得分：{n}分，满分{num}分",
-      "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
-    },
-    "teaComment": {
-      "message": "教师评语",
-      "description": "手机考试zh.json"
-    },
-    "empty": {
-      "message": "无",
-      "description": "手机考试zh.json"
-    },
-    "correctAnswer2": {
-      "message": "参考答案",
-      "description": "手机考试zh.json"
-    },
-    "answerAnalysis": {
-      "message": "答案解析",
-      "description": "手机考试zh.json"
-    },
-    "useUp": {
-      "message": "本题播放次数已用完",
-      "description": "手机考试zh.json"
-    },
-    "useTimes": {
-      "message": "已播放{count}/{limitCount}次",
-      "description": "手机考试zh.json"
-    },
-    "playTip": {
-      "message": "注意：本题录音只能播放{num}次",
-      "description": "手机考试zh.json"
-    },
-    "inputAnswer": {
-      "message": "请输入你的答案",
-      "description": "手机考试zh.json"
-    },
-    "totalNum": {
-      "message": "共{num}题",
-      "description": "手机考试zh.json"
-    },
-    "question1": {
-      "message": "单选题",
-      "description": "手机考试zh.json"
-    },
-    "question2": {
-      "message": "多选题",
-      "description": "手机考试zh.json"
-    },
-    "question3": {
-      "message": "填空题",
-      "description": "手机考试zh.json"
-    },
-    "question4": {
-      "message": "判断题",
-      "description": "手机考试zh.json"
-    },
-    "question5": {
-      "message": "简答题",
-      "description": "手机考试zh.json"
-    },
-    "question6": {
-      "message": "排序题",
-      "description": "手机考试zh.json"
-    },
-    "question7": {
-      "message": "口语主观",
-      "description": "手机考试zh.json"
-    },
-    "question8": {
-      "message": "选词填空",
-      "description": "手机考试zh.json"
-    },
-    "question9": {
-      "message": "口语客观",
-      "description": "手机考试zh.json"
-    },
-    "question10": {
-      "message": "下拉选择题",
-      "description": "手机考试zh.json"
-    },
-    "question11": {
-      "message": "综合题",
-      "description": "手机考试zh.json"
-    },
-    "question12": {
-      "message": "完形填空题",
-      "description": "手机考试zh.json"
-    },
-    "question25": {
-      "message": "公式计算题",
-      "description": "手机考试zh.json"
-    },
-    "exitScreen": {
-      "message": "退出分屏",
-      "description": "手机考试zh.json"
-    },
-    "enterScreen": {
-      "message": "分屏模式",
-      "description": "手机考试zh.json"
-    },
-    "option": {
-      "message": "选项",
-      "description": "手机考试zh.json"
-    },
-    "dragTip": {
-      "message": "长按拖动选项",
-      "description": "手机考试zh.json"
-    },
-    "example": {
-      "message": "示范",
-      "description": "手机考试zh.json"
-    },
-    "replay": {
-      "message": "回放",
-      "description": "手机考试zh.json"
-    },
-    "record": {
-      "message": "录音",
-      "description": "手机考试zh.json"
-    },
-    "recordUploadFailed": {
-      "message": "录音上传失败，请检查网络",
-      "description": "手机考试zh.json"
-    },
-    "recording": {
-      "message": "录音中",
-      "description": "手机考试zh.json"
-    },
-    "stopRecord": {
-      "message": "正在录音，点击停止",
-      "description": "手机考试zh.json"
-    },
-    "reRecordTip": {
-      "message": "重录后原录音将会被删除，确定重录吗？",
-      "description": "手机考试zh.json"
-    },
-    "speakTip1": {
-      "message": "请朗读下面的内容，",
-      "description": "手机考试zh.json"
-    },
-    "speakTip2": {
-      "message": "3分钟",
-      "description": "手机考试zh.json"
-    },
-    "speakTip3": {
-      "message": "内完成",
-      "description": "手机考试zh.json"
-    },
-    "recordTip1": {
-      "message": "录音中... 是否切换题目",
-      "description": "手机考试zh.json"
-    },
-    "exitTip1": {
-      "message": "确定离开？",
-      "description": "手机考试zh.json"
-    },
-    "saveAndExit": {
-      "message": "保存草稿并离开",
-      "description": "手机考试zh.json"
-    },
-    "preview": {
-      "message": "查看",
-      "description": "手机考试zh.json"
-    },
-    "delete": {
-      "message": "删除",
-      "description": "手机考试zh.json"
-    },
-    "retryUpload": {
-      "message": "重传",
-      "description": "手机考试zh.json"
-    },
-    "stuFilesMaxTips": {
-      "message": "最多添加10个文件",
-      "description": "手机考试zh.json"
-    },
-    "examSubmitConfirm": {
-      "message": "确定交卷？",
-      "description": "手机考试zh.json"
-    },
-    "fromCamera": {
-      "message": "拍照",
-      "description": "手机考试zh.json"
-    },
-    "fromAlbum": {
-      "message": "从本机选择",
-      "description": "手机考试zh.json"
-    },
-    "examInfo": {
-      "message": "考试信息",
-      "description": "手机考试zh.json"
-    },
-    "lateLimit": {
-      "message": "迟到时间限制：",
-      "description": "手机考试zh.json"
-    },
-    "lateLimitTips": {
-      "message": "考试开始{time}分钟后不允许进入",
-      "description": "手机考试zh.json"
-    },
-    "submitLimit": {
-      "message": "交卷时间限制：",
-      "description": "手机考试zh.json"
-    },
-    "submitLimitTips": {
-      "message": "考试开始{time}分钟内不允许交卷",
-      "description": "手机考试zh.json"
-    },
-    "securitySettings": {
-      "message": "安全设置",
-      "description": "手机考试zh.json"
-    },
-    "IPMonitor": {
-      "message": "IP监控",
-      "description": "手机考试zh.json"
-    },
-    "IPMonitorTip": {
-      "message": "已开启{ip}，中途请勿切换网络",
-      "description": "{ip} 指的是 IP监控"
-    },
-    "deviceMonitor": {
-      "message": "设备监控",
-      "description": "手机考试zh.json"
-    },
-    "deviceMonitorTip": {
-      "message": "已开启{device}，中途请勿更换设备或浏览器",
-      "description": "{device} 指的是设备监控"
-    },
-    "photoMonitor": {
-      "message": "抓拍监控",
-      "description": "手机考试zh.json"
-    },
-    "photoMonitorTip": {
-      "message": "已开启{photo}，请保持前置摄像头开启状态",
-      "description": "{photo} 指的是抓拍监控"
-    },
-    "faceRecognition": {
-      "message": "人脸识别",
-      "description": "手机考试zh.json"
-    },
-    "faceRecognitionTip": {
-      "message": "已开启{face}，需要通过人脸验证进入考试",
-      "description": "{face} 指的是人脸识别"
-    },
-    "unOpened": {
-      "message": "未开启",
-      "description": "手机考试zh.json"
-    },
-    "IPException": {
-      "message": "IP异常",
-      "description": "手机考试zh.json"
-    },
-    "IPExceptionTips1": {
-      "message": "本次考试已开启IP监控，中途不允许更换IP地址。切换网络可能会导致IP地址变化。",
-      "description": "手机考试zh.json"
-    },
-    "IPExceptionTips2": {
-      "message": "如遇特殊情况需要更换网络，请向监考老师索取验证码，使用验证码进入考试。",
-      "description": "手机考试zh.json"
-    },
-    "deviceException": {
-      "message": "设备异常",
-      "description": "手机考试zh.json"
-    },
-    "deviceExceptionTips1": {
-      "message": "本次考试已开启设备监控，中途不允许更换设备或浏览器，请使用初次进入考试的设备或浏览器答题。",
-      "description": "手机考试zh.json"
-    },
-    "deviceExceptionTips2": {
-      "message": "如遇特殊情况需要更换设备，请向监考老师索取验证码，使用验证码进入考试。",
-      "description": "手机考试zh.json"
-    },
-    "commitLimitTimeTips": {
-      "message": "考试开始{time}分钟后才可以交卷！",
-      "description": "手机考试zh.json"
-    },
-    "examTip20": {
-      "message": "中途已离开考试{count}次",
-      "description": "手机考试zh.json"
-    },
-    "screenMonitor": {
-      "message": "切屏监控",
-      "description": "手机考试zh.json"
-    },
-    "screenMonitorTips": {
-      "message": "已开启{screen}，中途离开{num}次将强制交卷",
-      "description": "{screen} 指的是切屏监控"
-    },
-    "recordShowAfterSubmit": {
-      "message": "交卷后立即显示",
-      "description": "手机考试zh.json"
-    },
-    "leaveExamTimesTips": {
-      "message": "中途已离开考试{count}次",
-      "description": "手机考试zh.json"
-    },
-    "cameraAccess": {
-      "message": "未开启摄像头权限，本次考试开启了人脸识别或抓拍监控，请开启摄像头权限后参加考试！",
-      "description": "手机考试zh.json"
-    },
-    "selectFile": {
-      "message": "选择文件",
-      "description": "手机考试zh.json"
-    },
-    "fromAlbum1": {
-      "message": "从相册选择",
-      "description": "手机考试zh.json"
-    },
-    "showAfterBatchEnd": {
-      "message": "考试场次全部结束后公布",
-      "description": "手机考试zh.json"
-    },
-    "versionLowerTips": {
-      "message": "当前版本过低，请升级后再进行考试！",
-      "description": "手机考试zh.json"
-    },
-    "monitoring": {
-      "message": "监控中",
-      "description": "手机考试zh.json"
-    },
-    "photoCountDown": {
-      "message": "{n}秒后开始拍照",
-      "description": "手机考试zh.json"
-    },
-    "onlyPCWeb": {
-      "message": "仅电脑网页",
-      "description": "手机考试zh.json"
-    },
-    "onlyPCExe": {
-      "message": "仅电脑客户端",
-      "description": "手机考试zh.json"
-    },
-    "onlyMobile": {
-      "message": "仅手机",
-      "description": "手机考试zh.json"
-    },
-    "unlimitType": {
-      "message": "手机/网页/客户端",
-      "description": "手机考试zh.json"
-    },
-    "viewOnPCExe": {
-      "message": "请在电脑上使用优学院考试客户端考试",
-      "description": "手机考试zh.json"
-    },
-    "swipeTip": {
-      "message": "左右滑动，切换页面",
-      "description": "手机考试zh.json"
-    },
-    "mobilePermissionTip1": {
-      "message": "您已禁用相机权限，无法使用此功能，请进入手机【设置】进行授权",
-      "description": "手机考试zh.json"
-    },
-    "mobilePermissionTip2": {
-      "message": "您已禁用麦克风权限，无法使用此功能，请进入手机【设置】进行授权",
-      "description": "手机考试zh.json"
-    },
-    "screenMonitorTips1": {
-      "message": "已开启{screen}，中途离开考试单次超过{num1}秒，或累计离开{num}次将强制交卷",
-      "description": "手机考试zh.json"
-    },
-    "screenMonitorTips2": {
-      "message": "已开启{screen}，中途离开超过{num}秒将强制交卷",
-      "description": "手机考试zh.json"
-    },
-    "examMonitor": {
-      "message": "考试监控",
-      "description": "手机考试zh.json"
-    },
-    "exitTip2": {
-      "message": "本次考试开启了{screen}，请勿中途离开，交卷后才能退出。",
-      "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
-    },
-    "screenInterpolation": {
-      "message": "切屏监控",
-      "description": "此字段作为 exitTip2 字段插值处的内容"
-    },
-    "hintTip5": {
-      "message": "离开超过{s}秒，系统已强制交卷。",
-      "description": "手机考试zh.json"
-    },
-    "getIt": {
-      "message": "我知道了",
-      "description": "手机考试zh.json"
-    },
-    "netWorkError": {
-      "message": "网络异常，操作失败，请在网络连接恢复后重试。",
-      "description": "手机考试zh.json"
-    },
-    "agreenInstructions": {
-      "message": "我已阅读并同意考试须知中的事项",
-      "description": "手机考试zh.json"
-    },
-    "agreenTip": {
-      "message": "请先勾选",
-      "description": "手机考试zh.json"
-    },
-    "activeBook": {
-      "message": "激活",
-      "description": "手机考试zh.json"
-    }
+  "_name": {
+    "message": "简体中文",
+    "description": "手机考试zh.json"
+  },
+  "mobileExam": {
+    "message": "手机考试",
+    "description": "这个会显示在页面上方的一个导航条，建议尽量翻译的短一些"
+  },
+  "expand": {
+    "message": "展开",
+    "description": "手机考试zh.json"
+  },
+  "collapse": {
+    "message": "收起",
+    "description": "手机考试zh.json"
+  },
+  "answerRecord": {
+    "message": "答题记录",
+    "description": "手机考试zh.json"
+  },
+  "highestScore": {
+    "message": "最高分",
+    "description": "手机考试zh.json"
+  },
+  "points": {
+    "message": "{n}分",
+    "description": "手机考试 -> 考试详情 -> 及格分数 \n 手机考试 -> 考试详情 -> 进入考试 -> 滑动到第一页 -> 奖杯图标右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 用户头像右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 答题记录列表 (需要用户有多个答题记录，才会弹出答题记录列表)"
+  },
+  "examTime": {
+    "message": "考试时间",
+    "description": "手机考试zh.json"
+  },
+  "examLimitTime": {
+    "message": "考试限时",
+    "description": "手机考试zh.json"
+  },
+  "minutes": {
+    "message": "{n}分钟",
+    "description": "手机考试 -> 考试详情 -> 考试限时"
+  },
+  "answerTime": {
+    "message": "答题次数",
+    "description": "手机考试zh.json"
+  },
+  "unlimited": {
+    "message": "不限次数",
+    "description": "手机考试zh.json"
+  },
+  "unlimited2": {
+    "message": "不限制",
+    "description": "手机考试zh.json"
+  },
+  "timesOf": {
+    "message": "{current}/{total}次",
+    "description": "手机考试 -> 考试详情 -> 答题次数"
+  },
+  "passingScore": {
+    "message": "及格分数",
+    "description": "手机考试zh.json"
+  },
+  "lateTime": {
+    "message": "迟到时间",
+    "description": "手机考试zh.json"
+  },
+  "betweenTime": {
+    "message": "{startTime}至{endTime}",
+    "description": "手机考试 -> 考试详情 -> 考试时间"
+  },
+  "clickUpload": {
+    "message": "点击上传认证照片",
+    "description": "手机考试zh.json"
+  },
+  "lookOut": {
+    "message": "注意",
+    "description": "手机考试zh.json"
+  },
+  "faceTip1": {
+    "message": "认证照片用于刷脸考试，请务必上传真实照片。照片上传后，教师可以进行审核，如果发现照片与本人不符，将被视为作弊，可能会导致考试成绩被取消。",
+    "description": "手机考试zh.json"
+  },
+  "faceTip2": {
+    "message": "认证照片上传后不能修改",
+    "description": "手机考试zh.json"
+  },
+  "faceTip3": {
+    "message": "，请确认可用再上传。",
+    "description": "手机考试zh.json"
+  },
+  "authPhoto": {
+    "message": "认证照片",
+    "description": "手机考试zh.json"
+  },
+  "faceTip4": {
+    "message": "认证照片上传后不能修改，请测试可以刷脸成功再上传。",
+    "description": "手机考试zh.json"
+  },
+  "testFace": {
+    "message": "测试能否刷脸成功",
+    "description": "手机考试zh.json"
+  },
+  "reUpload": {
+    "message": "重新上传",
+    "description": "手机考试zh.json"
+  },
+  "confirmPhoto": {
+    "message": "确定使用这张照片",
+    "description": "手机考试zh.json"
+  },
+  "auditor": {
+    "message": "审核人",
+    "description": "手机考试zh.json"
+  },
+  "auditTime": {
+    "message": "审核时间",
+    "description": "手机考试zh.json"
+  },
+  "refuseReason": {
+    "message": "拒绝理由",
+    "description": "手机考试zh.json"
+  },
+  "faceNotPass": {
+    "message": "人脸认证未通过。",
+    "description": "手机考试zh.json"
+  },
+  "retry": {
+    "message": "重试",
+    "description": "手机考试zh.json"
+  },
+  "faceTip5": {
+    "message": "人脸验证失败？点击使用验证码验证",
+    "description": "手机考试zh.json"
+  },
+  "faceTip6": {
+    "message": "验证通过，3秒后进入考试",
+    "description": "手机考试zh.json"
+  },
+  "authPass": {
+    "message": "验证通过",
+    "description": "手机考试zh.json"
+  },
+  "enterCode": {
+    "message": "输入验证码",
+    "description": "手机考试zh.json"
+  },
+  "enterCodeTip": {
+    "message": "验证码请向监考老师索取",
+    "description": "手机考试zh.json"
+  },
+  "faceAuth": {
+    "message": "人脸认证",
+    "description": "手机考试zh.json"
+  },
+  "codeWrong": {
+    "message": "验证码错误",
+    "description": "手机考试zh.json"
+  },
+  "waitAuth": {
+    "message": "待教师审核",
+    "description": "手机考试zh.json"
+  },
+  "authPass2": {
+    "message": "审核通过",
+    "description": "手机考试zh.json"
+  },
+  "authNotPass": {
+    "message": "审核未通过",
+    "description": "手机考试zh.json"
+  },
+  "uploading": {
+    "message": "正在上传中",
+    "description": "手机考试zh.json"
+  },
+  "uploadError": {
+    "message": "上传出错",
+    "description": "手机考试zh.json"
+  },
+  "faceTip7": {
+    "message": "暂不支持人脸识别，请下载新版本APP",
+    "description": "手机考试zh.json"
+  },
+  "authing": {
+    "message": "验证中",
+    "description": "手机考试zh.json"
+  },
+  "faceTip8": {
+    "message": "请先验证该照片能刷脸成功",
+    "description": "手机考试zh.json"
+  },
+  "examCode": {
+    "message": "考试验证码",
+    "description": "手机考试zh.json"
+  },
+  "faceTip9": {
+    "message": "老师当前没有设置验证码或验证码已过期",
+    "description": "手机考试zh.json"
+  },
+  "examTip": {
+    "message": "考试须知",
+    "description": "手机考试zh.json"
+  },
+  "examTip1": {
+    "message": "考试过程中",
+    "description": "手机考试zh.json"
+  },
+  "examTip2": {
+    "message": "请勿离开优学院app考试界面",
+    "description": "手机考试zh.json"
+  },
+  "examTip3": {
+    "message": "，每次离开将会被记录。",
+    "description": "手机考试zh.json"
+  },
+  "examTip4": {
+    "message": "系统检测到{num}次中途离开，将会强制交卷",
+    "description": "手机考试zh.json"
+  },
+  "examTip6": {
+    "message": "如果考试允许重考，你的成绩将会以得分最高的一次为准。",
+    "description": "手机考试zh.json"
+  },
+  "examTip7": {
+    "message": "考试开始后，考生需认真答题，请勿在未作答的情况下直接点击“提交答卷”。",
+    "description": "手机考试zh.json"
+  },
+  "examTip8": {
+    "message": "试卷可能分为多个部分，请认真检查试卷，提交试卷前检查一下答题卡，以免漏题。",
+    "description": "手机考试zh.json"
+  },
+  "examTip9": {
+    "message": "试卷顶部会显示交卷的剩余时间，当剩余时间为0时，系统将自动提交答卷。",
+    "description": "手机考试zh.json"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "手机考试zh.json"
+  },
+  "confirm": {
+    "message": "确定",
+    "description": "手机考试zh.json"
+  },
+  "startExam": {
+    "message": "立即考试",
+    "description": "手机考试zh.json"
+  },
+  "startExam2": {
+    "message": "开始考试",
+    "description": "手机考试zh.json"
+  },
+  "reExam": {
+    "message": "重考",
+    "description": "手机考试zh.json"
+  },
+  "examNotExist": {
+    "message": "考试不存在",
+    "description": "手机考试zh.json"
+  },
+  "noAnswerRecord": {
+    "message": "没有答题记录",
+    "description": "手机考试zh.json"
+  },
+  "scoreFailed": {
+    "message": "评分失败",
+    "description": "手机考试zh.json"
+  },
+  "submitFailed": {
+    "message": "交卷失败",
+    "description": "手机考试zh.json"
+  },
+  "examDetailTip1": {
+    "message": "检测到您有未提交的考试，目前考试已经结束，请提交考试记录。",
+    "description": "手机考试zh.json"
+  },
+  "submitExam": {
+    "message": "交卷",
+    "description": "手机考试zh.json"
+  },
+  "photoNotAuthYet": {
+    "message": "认证照片未审核",
+    "description": "手机考试zh.json"
+  },
+  "photoNotPassAuth": {
+    "message": "认证照片审核未通过",
+    "description": "手机考试zh.json"
+  },
+  "authTip1": {
+    "message": "你还没有完成人脸识别的照片认证，无法进入考试。",
+    "description": "手机考试zh.json"
+  },
+  "goAuth": {
+    "message": "去认证",
+    "description": "手机考试zh.json"
+  },
+  "plzExitScreen": {
+    "message": "请退出分屏",
+    "description": "手机考试zh.json"
+  },
+  "noExamTip1": {
+    "message": "当前时间不能参加考试",
+    "description": "手机考试zh.json"
+  },
+  "noExamTip2": {
+    "message": "迟到超过规定时间，不能进入考试",
+    "description": "手机考试zh.json"
+  },
+  "noExamTip3": {
+    "message": "超过限制次数",
+    "description": "手机考试zh.json"
+  },
+  "examTip10": {
+    "message": "考试过程中，请勿离开APP考试界面。",
+    "description": "手机考试zh.json"
+  },
+  "examTip11": {
+    "message": "考试过程中，请勿离开APP考试界面，每次离开均会被记录。",
+    "description": "手机考试zh.json"
+  },
+  "examTip12": {
+    "message": "答题时请注意剩余时间，时间用完将自动交卷。",
+    "description": "手机考试zh.json"
+  },
+  "examTip13": {
+    "message": "交卷前请仔细检查是否全部作答，避免漏题。",
+    "description": "手机考试zh.json"
+  },
+  "examTip14": {
+    "message": "如果考试允许多次答题，成绩以最高一次为准。",
+    "description": "手机考试zh.json"
+  },
+  "examTip15": {
+    "message": "本次考试开启了人脸识别验证",
+    "description": "手机考试zh.json"
+  },
+  "examTip16": {
+    "message": "无法刷脸验证？",
+    "description": "手机考试zh.json"
+  },
+  "examTip17": {
+    "message": "使用验证码进入考试",
+    "description": "手机考试zh.json"
+  },
+  "examTip18": {
+    "message": "为防止替考等作弊行为，系统会记录参加考试所用设备、IP地址、进入/离开页面的行为轨迹等，请勿在非考试区域登录。",
+    "description": "手机考试zh.json"
+  },
+  "error": {
+    "message": "出错了",
+    "description": "手机考试zh.json"
+  },
+  "examEnd": {
+    "message": "考试已结束",
+    "description": "手机考试zh.json"
+  },
+  "notJoined": {
+    "message": "你未参与本次考试",
+    "description": "手机考试zh.json"
+  },
+  "finishExam": {
+    "message": "恭喜完成本次考试",
+    "description": "手机考试zh.json"
+  },
+  "viewScore": {
+    "message": "公布考试成绩",
+    "description": "手机考试zh.json"
+  },
+  "notViewScore": {
+    "message": "本次考试不公布考试成绩",
+    "description": "手机考试zh.json"
+  },
+  "scoring": {
+    "message": "正在批阅主观题，请耐心等待",
+    "description": "手机考试zh.json"
+  },
+  "notViewAnswer": {
+    "message": "本次考试不显示答题记录",
+    "description": "手机考试zh.json"
+  },
+  "refreshSuccess": {
+    "message": "刷新成功",
+    "description": "手机考试zh.json"
+  },
+  "refreshFailed": {
+    "message": "刷新失败",
+    "description": "手机考试zh.json"
+  },
+  "error2": {
+    "message": "哎呦，出错了",
+    "description": "手机考试zh.json"
+  },
+  "teaNoExam": {
+    "message": "教师还没有发布考试",
+    "description": "手机考试zh.json"
+  },
+  "viewOnPC": {
+    "message": "请在电脑上考试和查看考试成绩",
+    "description": "手机考试zh.json"
+  },
+  "enterExamTip": {
+    "message": "检测到您有未提交的考试，您可以继续参加考试并交卷。",
+    "description": "手机考试zh.json"
+  },
+  "enterExam": {
+    "message": "进入考试",
+    "description": "手机考试zh.json"
+  },
+  "pcExam": {
+    "message": "电脑考试",
+    "description": "手机考试zh.json"
+  },
+  "pcMobileExam": {
+    "message": "手机/电脑",
+    "description": "手机考试zh.json"
+  },
+  "ing": {
+    "message": "进行中",
+    "description": "手机考试zh.json"
+  },
+  "notStart": {
+    "message": "未开始",
+    "description": "手机考试zh.json"
+  },
+  "end": {
+    "message": "已结束",
+    "description": "手机考试zh.json"
+  },
+  "notJoined2": {
+    "message": "缺考",
+    "description": "手机考试zh.json"
+  },
+  "endSubmit": {
+    "message": "考试时间结束，正在交卷",
+    "description": "手机考试zh.json"
+  },
+  "lateExam": {
+    "message": "考试迟到，无法参加考试",
+    "description": "手机考试zh.json"
+  },
+  "enterPage": {
+    "message": "进入页面",
+    "description": "手机考试zh.json"
+  },
+  "exception": {
+    "message": "异常",
+    "description": "手机考试zh.json"
+  },
+  "autoSaveFailed": {
+    "message": "自动保存失败，请检查网络",
+    "description": "手机考试zh.json"
+  },
+  "savingAnswer": {
+    "message": "保存答案中",
+    "description": "手机考试zh.json"
+  },
+  "exitPage": {
+    "message": "离开页面",
+    "description": "手机考试zh.json"
+  },
+  "submitSuccess": {
+    "message": "交卷成功",
+    "description": "手机考试zh.json"
+  },
+  "reSubmit": {
+    "message": "重新交卷",
+    "description": "手机考试zh.json"
+  },
+  "submitTip1": {
+    "message": "你有{num}道题未作答,确定提交？",
+    "description": "手机考试zh.json"
+  },
+  "continueExam": {
+    "message": "继续答题",
+    "description": "手机考试zh.json"
+  },
+  "submitting": {
+    "message": "正在交卷",
+    "description": "手机考试zh.json"
+  },
+  "unusualLeave": {
+    "message": "异常离开",
+    "description": "手机考试zh.json"
+  },
+  "hintTip1": {
+    "message": "系统检测到你离开了考试。",
+    "description": "手机考试zh.json"
+  },
+  "hintTip2": {
+    "message": "系统检测到你于<strong>{time}</strong>离开了考试。",
+    "description": "手机考试zh.json"
+  },
+  "hintTip3": {
+    "message": "你已离开考试{totalCount}次，将强制为你交卷。",
+    "description": "手机考试zh.json"
+  },
+  "hintTip4": {
+    "message": "{totalCount}次离开将强制交卷，你还剩{count}次机会。",
+    "description": "手机考试zh.json"
+  },
+  "submitSeconds": {
+    "message": "交卷({seconds})",
+    "description": "手机考试zh.json"
+  },
+  "continueExam2": {
+    "message": "继续考试",
+    "description": "手机考试zh.json"
+  },
+  "exitExamTip": {
+    "message": "离开考试提示",
+    "description": "手机考试zh.json"
+  },
+  "correctAnswer": {
+    "message": "正确答案",
+    "description": "手机考试zh.json"
+  },
+  "userAnswer": {
+    "message": "你的答案",
+    "description": "手机考试zh.json"
+  },
+  "noAnswer": {
+    "message": "未作答",
+    "description": "手机考试zh.json"
+  },
+  "analysis": {
+    "message": "解析",
+    "description": "手机考试zh.json"
+  },
+  "answerScore1": {
+    "message": "得分：等待批阅，满分{num}分",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
+  "answerScore2": {
+    "message": "得分：{n}分，满分{num}分",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
+  "teaComment": {
+    "message": "教师评语",
+    "description": "手机考试zh.json"
+  },
+  "empty": {
+    "message": "无",
+    "description": "手机考试zh.json"
+  },
+  "correctAnswer2": {
+    "message": "参考答案",
+    "description": "手机考试zh.json"
+  },
+  "answerAnalysis": {
+    "message": "答案解析",
+    "description": "手机考试zh.json"
+  },
+  "useUp": {
+    "message": "本题播放次数已用完",
+    "description": "手机考试zh.json"
+  },
+  "useTimes": {
+    "message": "已播放{count}/{limitCount}次",
+    "description": "手机考试zh.json"
+  },
+  "playTip": {
+    "message": "注意：本题录音只能播放{num}次",
+    "description": "手机考试zh.json"
+  },
+  "inputAnswer": {
+    "message": "请输入你的答案",
+    "description": "手机考试zh.json"
+  },
+  "totalNum": {
+    "message": "共{num}题",
+    "description": "手机考试zh.json"
+  },
+  "question1": {
+    "message": "单选题",
+    "description": "手机考试zh.json"
+  },
+  "question2": {
+    "message": "多选题",
+    "description": "手机考试zh.json"
+  },
+  "question3": {
+    "message": "填空题",
+    "description": "手机考试zh.json"
+  },
+  "question4": {
+    "message": "判断题",
+    "description": "手机考试zh.json"
+  },
+  "question5": {
+    "message": "简答题",
+    "description": "手机考试zh.json"
+  },
+  "question6": {
+    "message": "排序题",
+    "description": "手机考试zh.json"
+  },
+  "question7": {
+    "message": "口语主观",
+    "description": "手机考试zh.json"
+  },
+  "question8": {
+    "message": "选词填空",
+    "description": "手机考试zh.json"
+  },
+  "question9": {
+    "message": "口语客观",
+    "description": "手机考试zh.json"
+  },
+  "question10": {
+    "message": "下拉选择题",
+    "description": "手机考试zh.json"
+  },
+  "question11": {
+    "message": "综合题",
+    "description": "手机考试zh.json"
+  },
+  "question12": {
+    "message": "完形填空题",
+    "description": "手机考试zh.json"
+  },
+  "question25": {
+    "message": "公式计算题",
+    "description": "手机考试zh.json"
+  },
+  "exitScreen": {
+    "message": "退出分屏",
+    "description": "手机考试zh.json"
+  },
+  "enterScreen": {
+    "message": "分屏模式",
+    "description": "手机考试zh.json"
+  },
+  "option": {
+    "message": "选项",
+    "description": "手机考试zh.json"
+  },
+  "dragTip": {
+    "message": "长按拖动选项",
+    "description": "手机考试zh.json"
+  },
+  "example": {
+    "message": "示范",
+    "description": "手机考试zh.json"
+  },
+  "replay": {
+    "message": "回放",
+    "description": "手机考试zh.json"
+  },
+  "record": {
+    "message": "录音",
+    "description": "手机考试zh.json"
+  },
+  "recordUploadFailed": {
+    "message": "录音上传失败，请检查网络",
+    "description": "手机考试zh.json"
+  },
+  "recording": {
+    "message": "录音中",
+    "description": "手机考试zh.json"
+  },
+  "stopRecord": {
+    "message": "正在录音，点击停止",
+    "description": "手机考试zh.json"
+  },
+  "reRecordTip": {
+    "message": "重录后原录音将会被删除，确定重录吗？",
+    "description": "手机考试zh.json"
+  },
+  "speakTip1": {
+    "message": "请朗读下面的内容，",
+    "description": "手机考试zh.json"
+  },
+  "speakTip2": {
+    "message": "3分钟",
+    "description": "手机考试zh.json"
+  },
+  "speakTip3": {
+    "message": "内完成",
+    "description": "手机考试zh.json"
+  },
+  "recordTip1": {
+    "message": "录音中... 是否切换题目",
+    "description": "手机考试zh.json"
+  },
+  "exitTip1": {
+    "message": "确定离开？",
+    "description": "手机考试zh.json"
+  },
+  "saveAndExit": {
+    "message": "保存草稿并离开",
+    "description": "手机考试zh.json"
+  },
+  "preview": {
+    "message": "查看",
+    "description": "手机考试zh.json"
+  },
+  "delete": {
+    "message": "删除",
+    "description": "手机考试zh.json"
+  },
+  "retryUpload": {
+    "message": "重传",
+    "description": "手机考试zh.json"
+  },
+  "stuFilesMaxTips": {
+    "message": "最多添加10个文件",
+    "description": "手机考试zh.json"
+  },
+  "examSubmitConfirm": {
+    "message": "确定交卷？",
+    "description": "手机考试zh.json"
+  },
+  "fromCamera": {
+    "message": "拍照",
+    "description": "手机考试zh.json"
+  },
+  "fromAlbum": {
+    "message": "从本机选择",
+    "description": "手机考试zh.json"
+  },
+  "examInfo": {
+    "message": "考试信息",
+    "description": "手机考试zh.json"
+  },
+  "lateLimit": {
+    "message": "迟到时间限制：",
+    "description": "手机考试zh.json"
+  },
+  "lateLimitTips": {
+    "message": "考试开始{time}分钟后不允许进入",
+    "description": "手机考试zh.json"
+  },
+  "submitLimit": {
+    "message": "交卷时间限制：",
+    "description": "手机考试zh.json"
+  },
+  "submitLimitTips": {
+    "message": "考试开始{time}分钟内不允许交卷",
+    "description": "手机考试zh.json"
+  },
+  "securitySettings": {
+    "message": "安全设置",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitor": {
+    "message": "IP监控",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitorTip": {
+    "message": "已开启{ip}，中途请勿切换网络",
+    "description": "{ip} 指的是 IP监控"
+  },
+  "deviceMonitor": {
+    "message": "设备监控",
+    "description": "手机考试zh.json"
+  },
+  "deviceMonitorTip": {
+    "message": "已开启{device}，中途请勿更换设备或浏览器",
+    "description": "{device} 指的是设备监控"
+  },
+  "photoMonitor": {
+    "message": "抓拍监控",
+    "description": "手机考试zh.json"
+  },
+  "photoMonitorTip": {
+    "message": "已开启{photo}，请保持前置摄像头开启状态",
+    "description": "{photo} 指的是抓拍监控"
+  },
+  "faceRecognition": {
+    "message": "人脸识别",
+    "description": "手机考试zh.json"
+  },
+  "faceRecognitionTip": {
+    "message": "已开启{face}，需要通过人脸验证进入考试",
+    "description": "{face} 指的是人脸识别"
+  },
+  "unOpened": {
+    "message": "未开启",
+    "description": "手机考试zh.json"
+  },
+  "IPException": {
+    "message": "IP异常",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips1": {
+    "message": "本次考试已开启IP监控，中途不允许更换IP地址。切换网络可能会导致IP地址变化。",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips2": {
+    "message": "如遇特殊情况需要更换网络，请向监考老师索取验证码，使用验证码进入考试。",
+    "description": "手机考试zh.json"
+  },
+  "deviceException": {
+    "message": "设备异常",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips1": {
+    "message": "本次考试已开启设备监控，中途不允许更换设备或浏览器，请使用初次进入考试的设备或浏览器答题。",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips2": {
+    "message": "如遇特殊情况需要更换设备，请向监考老师索取验证码，使用验证码进入考试。",
+    "description": "手机考试zh.json"
+  },
+  "commitLimitTimeTips": {
+    "message": "考试开始{time}分钟后才可以交卷！",
+    "description": "手机考试zh.json"
+  },
+  "examTip20": {
+    "message": "中途已离开考试{count}次",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitor": {
+    "message": "切屏监控",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips": {
+    "message": "已开启{screen}，中途离开{num}次将强制交卷",
+    "description": "{screen} 指的是切屏监控"
+  },
+  "recordShowAfterSubmit": {
+    "message": "交卷后立即显示",
+    "description": "手机考试zh.json"
+  },
+  "leaveExamTimesTips": {
+    "message": "中途已离开考试{count}次",
+    "description": "手机考试zh.json"
+  },
+  "cameraAccess": {
+    "message": "未开启摄像头权限，本次考试开启了人脸识别或抓拍监控，请开启摄像头权限后参加考试！",
+    "description": "手机考试zh.json"
+  },
+  "selectFile": {
+    "message": "选择文件",
+    "description": "手机考试zh.json"
+  },
+  "fromAlbum1": {
+    "message": "从相册选择",
+    "description": "手机考试zh.json"
+  },
+  "showAfterBatchEnd": {
+    "message": "考试场次全部结束后公布",
+    "description": "手机考试zh.json"
+  },
+  "versionLowerTips": {
+    "message": "当前版本过低，请升级后再进行考试！",
+    "description": "手机考试zh.json"
+  },
+  "monitoring": {
+    "message": "监控中",
+    "description": "手机考试zh.json"
+  },
+  "photoCountDown": {
+    "message": "{n}秒后开始拍照",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCWeb": {
+    "message": "仅电脑网页",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCExe": {
+    "message": "仅电脑客户端",
+    "description": "手机考试zh.json"
+  },
+  "onlyMobile": {
+    "message": "仅手机",
+    "description": "手机考试zh.json"
+  },
+  "unlimitType": {
+    "message": "手机/网页/客户端",
+    "description": "手机考试zh.json"
+  },
+  "viewOnPCExe": {
+    "message": "请在电脑上使用优学院考试客户端考试",
+    "description": "手机考试zh.json"
+  },
+  "swipeTip": {
+    "message": "左右滑动，切换页面",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip1": {
+    "message": "您已禁用相机权限，无法使用此功能，请进入手机【设置】进行授权",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip2": {
+    "message": "您已禁用麦克风权限，无法使用此功能，请进入手机【设置】进行授权",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips1": {
+    "message": "已开启{screen}，中途离开考试单次超过{num1}秒，或累计离开{num}次将强制交卷",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips2": {
+    "message": "已开启{screen}，中途离开超过{num}秒将强制交卷",
+    "description": "手机考试zh.json"
+  },
+  "examMonitor": {
+    "message": "考试监控",
+    "description": "手机考试zh.json"
+  },
+  "exitTip2": {
+    "message": "本次考试开启了{screen}，请勿中途离开，交卷后才能退出。",
+    "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
+  },
+  "screenInterpolation": {
+    "message": "切屏监控",
+    "description": "此字段作为 exitTip2 字段插值处的内容"
+  },
+  "hintTip5": {
+    "message": "离开超过{s}秒，系统已强制交卷。",
+    "description": "手机考试zh.json"
+  },
+  "getIt": {
+    "message": "我知道了",
+    "description": "手机考试zh.json"
+  },
+  "netWorkError": {
+    "message": "网络异常，操作失败，请在网络连接恢复后重试。",
+    "description": "手机考试zh.json"
+  },
+  "agreenInstructions": {
+    "message": "我已阅读并同意考试须知中的事项",
+    "description": "手机考试zh.json"
+  },
+  "agreenTip": {
+    "message": "请先勾选",
+    "description": "手机考试zh.json"
+  },
+  "activeBook": {
+    "message": "激活",
+    "description": "手机考试zh.json"
   }
-  
 }
