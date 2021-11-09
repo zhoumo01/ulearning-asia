@@ -23,6 +23,10 @@
     "message": "最高分數",
     "description": "手机考试zh.json"
   },
+  "points": {
+    "message": "{n}分",
+    "description": "手机考试 -> 考试详情 -> 及格分数 \n 手机考试 -> 考试详情 -> 进入考试 -> 滑动到第一页 -> 奖杯图标右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 用户头像右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 答题记录列表 (需要用户有多个答题记录，才会弹出答题记录列表)"
+  },
   "examTime": {
     "message": "考試時間",
     "description": "手机考试zh.json"
@@ -30,6 +34,10 @@
   "examLimitTime": {
     "message": "考試限時",
     "description": "手机考试zh.json"
+  },
+  "minutes": {
+    "message": "{n}分鐘",
+    "description": "手机考试 -> 考试详情 -> 考试限时"
   },
   "answerTime": {
     "message": "答題次數",
@@ -43,6 +51,10 @@
     "message": "不限制",
     "description": "手机考试zh.json"
   },
+  "timesOf": {
+    "message": "{current}/{total}次",
+    "description": "手机考试 -> 考试详情 -> 答题次数"
+  },
   "passingScore": {
     "message": "及格分數",
     "description": "手机考试zh.json"
@@ -50,6 +62,10 @@
   "lateTime": {
     "message": "遲到時間",
     "description": "手机考试zh.json"
+  },
+  "betweenTime": {
+    "message": "{startTime} 至 {endTime}",
+    "description": "手机考试 -> 考试详情 -> 考试时间"
   },
   "clickUpload": {
     "message": "點擊上傳認證照片",
@@ -507,6 +523,14 @@
     "message": "解析",
     "description": "手机考试zh.json"
   },
+  "answerScore1": {
+    "message": "得分：等待批閱，滿分{num}分",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
+  "answerScore2": {
+    "message": "得分：{n}分，滿分{num}分",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
   "teaComment": {
     "message": "教師評語",
     "description": "手机考试zh.json"
@@ -589,6 +613,10 @@
   },
   "question12": {
     "message": "完形填空題",
+    "description": "手机考试zh.json"
+  },
+  "question25": {
+    "message": "公式計算題",
     "description": "手机考试zh.json"
   },
   "exitScreen": {
@@ -685,6 +713,174 @@
   },
   "fromAlbum": {
     "message": "從本機選擇",
+    "description": "手机考试zh.json"
+  },
+  "examInfo": {
+    "message": "考試信息",
+    "description": "手机考试zh.json"
+  },
+  "lateLimit": {
+    "message": "遲到時間限制：",
+    "description": "手机考试zh.json"
+  },
+  "lateLimitTips": {
+    "message": "考試開始{time}分鐘後不允許進入",
+    "description": "手机考试zh.json"
+  },
+  "submitLimit": {
+    "message": "交卷時間限制：",
+    "description": "手机考试zh.json"
+  },
+  "submitLimitTips": {
+    "message": "考試開始{time}分鐘內不允許交卷",
+    "description": "手机考试zh.json"
+  },
+  "securitySettings": {
+    "message": "安全設置",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitor": {
+    "message": "IP監控",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitorTip": {
+    "message": "已開啟{ip}，中途請勿切換網路",
+    "description": "{ip} 指的是 IP监控"
+  },
+  "deviceMonitor": {
+    "message": "設備監控",
+    "description": "手机考试zh.json"
+  },
+  "deviceMonitorTip": {
+    "message": "已開啟{device}，中途請勿更換設備或瀏覽器",
+    "description": "{device} 指的是设备监控"
+  },
+  "photoMonitor": {
+    "message": "抓拍監控",
+    "description": "手机考试zh.json"
+  },
+  "photoMonitorTip": {
+    "message": "已開啟{photo}，請保持前置攝像頭開啟狀態",
+    "description": "{photo} 指的是抓拍监控"
+  },
+  "faceRecognition": {
+    "message": "人臉識別",
+    "description": "手机考试zh.json"
+  },
+  "faceRecognitionTip": {
+    "message": "已開啟{face}，需要通過人臉驗證進入考試",
+    "description": "{face} 指的是人脸识别"
+  },
+  "unOpened": {
+    "message": "未開啟",
+    "description": "手机考试zh.json"
+  },
+  "IPException": {
+    "message": "IP異常",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips1": {
+    "message": "本次考試已開啟IP監控，中途不允許更換IP位址。 切換網路可能會導致IP位址變化。",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips2": {
+    "message": "如遇特殊情況需要更換網路，請向監考老師索取驗證碼，使用驗證碼進入考試。",
+    "description": "手机考试zh.json"
+  },
+  "deviceException": {
+    "message": "設備異常",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips1": {
+    "message": "本次考試已開啟設備監控，中途不允許更換設備或瀏覽器，請使用初次進入考試的設備或瀏覽器答題。",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips2": {
+    "message": "如遇特殊情況需要更換設備，請向監考老師索取驗證碼，使用驗證碼進入考試。",
+    "description": "手机考试zh.json"
+  },
+  "commitLimitTimeTips": {
+    "message": "考試開始{time}分鐘後才可以交卷！",
+    "description": "手机考试zh.json"
+  },
+  "examTip20": {
+    "message": "中途已離開考試{count}次",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitor": {
+    "message": "切屏監控",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips": {
+    "message": "已開啟{screen}，中途離開{num}次將強制交卷",
+    "description": "{screen} 指的是切屏监控"
+  },
+  "recordShowAfterSubmit": {
+    "message": "交卷后立即顯示",
+    "description": "手机考试zh.json"
+  },
+  "leaveExamTimesTips": {
+    "message": "中途已離開考試{count}次",
+    "description": "手机考试zh.json"
+  },
+  "cameraAccess": {
+    "message": "未開啟攝像頭許可權，本次考試開啟了人臉識別或抓拍監控，請開啟攝像頭許可權后參加考試！",
+    "description": "手机考试zh.json"
+  },
+  "selectFile": {
+    "message": "選擇文件",
+    "description": "手机考试zh.json"
+  },
+  "fromAlbum1": {
+    "message": "從相冊選擇",
+    "description": "手机考试zh.json"
+  },
+  "showAfterBatchEnd": {
+    "message": "考試場次全部結束后公佈",
+    "description": "手机考试zh.json"
+  },
+  "versionLowerTips": {
+    "message": "當前版本過低，請升級后再進行考試！",
+    "description": "手机考试zh.json"
+  },
+  "monitoring": {
+    "message": "監控中",
+    "description": "手机考试zh.json"
+  },
+  "photoCountDown": {
+    "message": "{n}秒後開始拍照",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCWeb": {
+    "message": "僅電腦網頁",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCExe": {
+    "message": "僅電腦用戶端",
+    "description": "手机考试zh.json"
+  },
+  "onlyMobile": {
+    "message": "僅手機",
+    "description": "手机考试zh.json"
+  },
+  "unlimitType": {
+    "message": "手機/網頁/用戶端",
+    "description": "手机考试zh.json"
+  },
+  "viewOnPCExe": {
+    "message": "請在電腦上使用優學院考試客戶端考試",
+    "description": "手机考试zh.json"
+  },
+  "swipeTip": {
+    "message": "左右滑動，切換頁面",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip1": {
+    "message": "您已禁用相機許可權，無法使用此功能，請進入手機【設置】進行授權",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip2": {
+    "message": "您已禁用麥克風許可權，無法使用此功能，請進入手機【設置】進行授權",
     "description": "手机考试zh.json"
   }
 }
