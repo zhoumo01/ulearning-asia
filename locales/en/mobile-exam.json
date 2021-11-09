@@ -1,4 +1,888 @@
 {
+  "_name": {
+    "message": "English",
+    "description": "手机考试zh.json"
+  },
+  "mobileExam": {
+    "message": "Mobile Exam",
+    "description": "这个会显示在页面上方的一个导航条，建议尽量翻译的短一些"
+  },
+  "expand": {
+    "message": "Expand",
+    "description": "手机考试zh.json"
+  },
+  "collapse": {
+    "message": "Collapse",
+    "description": "手机考试zh.json"
+  },
+  "answerRecord": {
+    "message": "Answer Record",
+    "description": "手机考试zh.json"
+  },
+  "highestScore": {
+    "message": "Highest Score",
+    "description": "手机考试zh.json"
+  },
+  "points": {
+    "message": "{n} points",
+    "description": "手机考试 -> 考试详情 -> 及格分数 \n 手机考试 -> 考试详情 -> 进入考试 -> 滑动到第一页 -> 奖杯图标右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 用户头像右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 答题记录列表 (需要用户有多个答题记录，才会弹出答题记录列表)"
+  },
+  "examTime": {
+    "message": "Exam Time",
+    "description": "手机考试zh.json"
+  },
+  "examLimitTime": {
+    "message": "Time limit for exam",
+    "description": "手机考试zh.json"
+  },
+  "minutes": {
+    "message": "{n} minutes",
+    "description": "手机考试 -> 考试详情 -> 考试限时"
+  },
+  "answerTime": {
+    "message": "Answering Times",
+    "description": "手机考试zh.json"
+  },
+  "unlimited": {
+    "message": "Unlimited times",
+    "description": "手机考试zh.json"
+  },
+  "unlimited2": {
+    "message": "Unlimited",
+    "description": "手机考试zh.json"
+  },
+  "timesOf": {
+    "message": "{current}/{total} attempts",
+    "description": "手机考试 -> 考试详情 -> 答题次数"
+  },
+  "passingScore": {
+    "message": "Passing Score",
+    "description": "手机考试zh.json"
+  },
+  "lateTime": {
+    "message": "Late Time Allowed",
+    "description": "手机考试zh.json"
+  },
+  "betweenTime": {
+    "message": "{startTime} to {endTime}",
+    "description": "手机考试 -> 考试详情 -> 考试时间"
+  },
+  "clickUpload": {
+    "message": "Click to upload  photo for verification",
+    "description": "手机考试zh.json"
+  },
+  "lookOut": {
+    "message": "Attention",
+    "description": "手机考试zh.json"
+  },
+  "faceTip1": {
+    "message": "Verified photo is used for exams using face recognition scanning purpose. Be sure to upload real photos. Teachers will check them. If they find that the photos are not consistent with the students, students will be regarded as cheating, which may result in the cancellation of examination results.",
+    "description": "手机考试zh.json"
+  },
+  "faceTip2": {
+    "message": "Verified photo cannot be modified after uploading",
+    "description": "手机考试zh.json"
+  },
+  "faceTip3": {
+    "message": "，Please confirm it’s applicable before uploading",
+    "description": "手机考试zh.json"
+  },
+  "authPhoto": {
+    "message": "Verified photo",
+    "description": "手机考试zh.json"
+  },
+  "faceTip4": {
+    "message": "Verified photo cannot be modified after uploading. Please be sure to face verification successfully and upload again.",
+    "description": "手机考试zh.json"
+  },
+  "testFace": {
+    "message": "Test if the face verification is successful",
+    "description": "手机考试zh.json"
+  },
+  "reUpload": {
+    "message": "Upload again",
+    "description": "手机考试zh.json"
+  },
+  "confirmPhoto": {
+    "message": "Sure to use this photo",
+    "description": "手机考试zh.json"
+  },
+  "auditor": {
+    "message": "Auditor",
+    "description": "手机考试zh.json"
+  },
+  "auditTime": {
+    "message": "Audit Time",
+    "description": "手机考试zh.json"
+  },
+  "refuseReason": {
+    "message": "Reasons for refusal",
+    "description": "手机考试zh.json"
+  },
+  "faceNotPass": {
+    "message": "Face verification failed.",
+    "description": "手机考试zh.json"
+  },
+  "retry": {
+    "message": "Retry",
+    "description": "手机考试zh.json"
+  },
+  "faceTip5": {
+    "message": "Face verification failed? Click to use verification code to verify",
+    "description": "手机考试zh.json"
+  },
+  "faceTip6": {
+    "message": "Your face identity is verified and the exam will start in 3 seconds.",
+    "description": "手机考试zh.json"
+  },
+  "authPass": {
+    "message": " Verification passed",
+    "description": "手机考试zh.json"
+  },
+  "enterCode": {
+    "message": "Please enter verification code",
+    "description": "手机考试zh.json"
+  },
+  "enterCodeTip": {
+    "message": "Please ask invigilator for the verification code.",
+    "description": "手机考试zh.json"
+  },
+  "faceAuth": {
+    "message": "Face Verification",
+    "description": "手机考试zh.json"
+  },
+  "codeWrong": {
+    "message": "Incorrect verification code!",
+    "description": "手机考试zh.json"
+  },
+  "waitAuth": {
+    "message": "To be audited by teacher",
+    "description": "手机考试zh.json"
+  },
+  "authPass2": {
+    "message": "Audit passed",
+    "description": "手机考试zh.json"
+  },
+  "authNotPass": {
+    "message": "Not passed",
+    "description": "手机考试zh.json"
+  },
+  "uploading": {
+    "message": "Uploading",
+    "description": "手机考试zh.json"
+  },
+  "uploadError": {
+    "message": "Failed to upload",
+    "description": "手机考试zh.json"
+  },
+  "faceTip7": {
+    "message": "Face-scanning is not available, please download the new version of APP",
+    "description": "手机考试zh.json"
+  },
+  "authing": {
+    "message": "Verifying",
+    "description": "手机考试zh.json"
+  },
+  "faceTip8": {
+    "message": "Please verify that the photo can be successfully verified in face verification",
+    "description": "手机考试zh.json"
+  },
+  "examCode": {
+    "message": "Exam Verification Code",
+    "description": "手机考试zh.json"
+  },
+  "faceTip9": {
+    "message": "Teacher currently hasn’t set verification codes or the verification code has expired",
+    "description": "手机考试zh.json"
+  },
+  "examTip": {
+    "message": "Examination Note",
+    "description": "手机考试zh.json"
+  },
+  "examTip1": {
+    "message": "The exam is in progress",
+    "description": "手机考试zh.json"
+  },
+  "examTip2": {
+    "message": "Please do not leave the exam interface of ULearn APP",
+    "description": "手机考试zh.json"
+  },
+  "examTip3": {
+    "message": "，Every leaving will be recorded.",
+    "description": "手机考试zh.json"
+  },
+  "examTip4": {
+    "message": "Once the system detects {num} times of leaving exam halfway, it will force submitting your paper.",
+    "description": "手机考试zh.json"
+  },
+  "examTip6": {
+    "message": "If the exam is allowed to be re-sit, your score will be based on the one with the highest score.",
+    "description": "手机考试zh.json"
+  },
+  "examTip7": {
+    "message": "After the beginning of the exam, students need to answer questions carefully. Do not click \"Submit answer\" straight away without answering.",
+    "description": "手机考试zh.json"
+  },
+  "examTip8": {
+    "message": "Exam paper may be divided into several parts. Please check the exam paper carefully and check the answer card before submitting the exam paper so as to avoid missing the questions.",
+    "description": "手机考试zh.json"
+  },
+  "examTip9": {
+    "message": "The top of the exam paper will show the remaining time. When the remaining time is 0, system will submit paperautomatically.",
+    "description": "手机考试zh.json"
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "手机考试zh.json"
+  },
+  "confirm": {
+    "message": "Confirm",
+    "description": "手机考试zh.json"
+  },
+  "startExam": {
+    "message": "Exam Start",
+    "description": "手机考试zh.json"
+  },
+  "startExam2": {
+    "message": "Exam Start",
+    "description": "手机考试zh.json"
+  },
+  "reExam": {
+    "message": "Re-sit",
+    "description": "手机考试zh.json"
+  },
+  "examNotExist": {
+    "message": "The exam doesn’t exist",
+    "description": "手机考试zh.json"
+  },
+  "noAnswerRecord": {
+    "message": "No answer record",
+    "description": "手机考试zh.json"
+  },
+  "scoreFailed": {
+    "message": "Scoring failed",
+    "description": "手机考试zh.json"
+  },
+  "submitFailed": {
+    "message": "Submission failed",
+    "description": "手机考试zh.json"
+  },
+  "examDetailTip1": {
+    "message": "We have detected that you have not submitted the exam paper. Now the exam is over, please submit your exam record.",
+    "description": "手机考试zh.json"
+  },
+  "submitExam": {
+    "message": "Submit",
+    "description": "手机考试zh.json"
+  },
+  "photoNotAuthYet": {
+    "message": "Photo has been not verified",
+    "description": "手机考试zh.json"
+  },
+  "photoNotPassAuth": {
+    "message": "Photo verification failed",
+    "description": "手机考试zh.json"
+  },
+  "authTip1": {
+    "message": "You haven't completed the photo verification and you can't enter the exam.",
+    "description": "手机考试zh.json"
+  },
+  "goAuth": {
+    "message": "Go for verification",
+    "description": "手机考试zh.json"
+  },
+  "plzExitScreen": {
+    "message": "Please exit the split-screen",
+    "description": "手机考试zh.json"
+  },
+  "noExamTip1": {
+    "message": "Can’t enter the exam now",
+    "description": "手机考试zh.json"
+  },
+  "noExamTip2": {
+    "message": "You’re late for the exam beyond the prescribed time, you can’t enter the exam.",
+    "description": "手机考试zh.json"
+  },
+  "noExamTip3": {
+    "message": "Exceeding the number of limits",
+    "description": "手机考试zh.json"
+  },
+  "examTip10": {
+    "message": "Do not leave the APP exam interface during the examination.",
+    "description": "手机考试zh.json"
+  },
+  "examTip11": {
+    "message": "During the examination, please do not leave the APP exam interface. Every time you leave, it will be recorded.",
+    "description": "手机考试zh.json"
+  },
+  "examTip12": {
+    "message": "Please pay attention to the remaining time when answering questions. When the time is up, the paper will be submitted automatically.",
+    "description": "手机考试zh.json"
+  },
+  "examTip13": {
+    "message": "Before submitting the paper, please check carefully to avoid missing the questions.",
+    "description": "手机考试zh.json"
+  },
+  "examTip14": {
+    "message": "If the exam is allowed to be answeredseveral times, your score will be based on the one with the highest score.",
+    "description": "手机考试zh.json"
+  },
+  "examTip15": {
+    "message": "The exam adopts face-scanning verification",
+    "description": "手机考试zh.json"
+  },
+  "examTip16": {
+    "message": "Failed to verify?",
+    "description": "手机考试zh.json"
+  },
+  "examTip17": {
+    "message": "Enter the exam by verification code",
+    "description": "手机考试zh.json"
+  },
+  "examTip18": {
+    "message": "In order to prevent cheating for exams, the system will record the equipment used to take the exam, IP address, behavior track of entering/leaving pages, etc., please do not log in the non-exam area.",
+    "description": "手机考试zh.json"
+  },
+  "error": {
+    "message": "Error",
+    "description": "手机考试zh.json"
+  },
+  "examEnd": {
+    "message": "Exam is over",
+    "description": "手机考试zh.json"
+  },
+  "notJoined": {
+    "message": "You did not take the exam.",
+    "description": "手机考试zh.json"
+  },
+  "finishExam": {
+    "message": "Congratulations on completing this exam",
+    "description": "手机考试zh.json"
+  },
+  "viewScore": {
+    "message": "Publish the exam result",
+    "description": "手机考试zh.json"
+  },
+  "notViewScore": {
+    "message": "The results of the exam won’t be published temporarily.",
+    "description": "手机考试zh.json"
+  },
+  "scoring": {
+    "message": "Please wait patiently while the subjective questions are being reviewed.",
+    "description": "手机考试zh.json"
+  },
+  "notViewAnswer": {
+    "message": "No answer records are recorded in this exam.",
+    "description": "手机考试zh.json"
+  },
+  "refreshSuccess": {
+    "message": "Refreshed",
+    "description": "手机考试zh.json"
+  },
+  "refreshFailed": {
+    "message": "Refresh failed",
+    "description": "手机考试zh.json"
+  },
+  "error2": {
+    "message": "Error",
+    "description": "手机考试zh.json"
+  },
+  "teaNoExam": {
+    "message": "Teacher hasn't published the exam yet.",
+    "description": "手机考试zh.json"
+  },
+  "viewOnPC": {
+    "message": "Please check the exam results on the computer.",
+    "description": "手机考试zh.json"
+  },
+  "enterExamTip": {
+    "message": "It is detected that you have not submitted exam paper. You can continue to take the exam and submit it later.",
+    "description": "手机考试zh.json"
+  },
+  "enterExam": {
+    "message": "Enter exam",
+    "description": "手机考试zh.json"
+  },
+  "pcExam": {
+    "message": "Exam through PC",
+    "description": "手机考试zh.json"
+  },
+  "pcMobileExam": {
+    "message": "Phone/PC",
+    "description": "手机考试zh.json"
+  },
+  "ing": {
+    "message": "In process",
+    "description": "手机考试zh.json"
+  },
+  "notStart": {
+    "message": "Not started yet",
+    "description": "手机考试zh.json"
+  },
+  "end": {
+    "message": "Ended",
+    "description": "手机考试zh.json"
+  },
+  "notJoined2": {
+    "message": "Absent from exam",
+    "description": "手机考试zh.json"
+  },
+  "endSubmit": {
+    "message": "The exam is over, submitting.",
+    "description": "手机考试zh.json"
+  },
+  "lateExam": {
+    "message": "Late for the exam, can’t enter the exam",
+    "description": "手机考试zh.json"
+  },
+  "enterPage": {
+    "message": "Enter page",
+    "description": "手机考试zh.json"
+  },
+  "exception": {
+    "message": "Error",
+    "description": "手机考试zh.json"
+  },
+  "autoSaveFailed": {
+    "message": "Failed to save automatically. Check the network",
+    "description": "手机考试zh.json"
+  },
+  "savingAnswer": {
+    "message": "Saving",
+    "description": "手机考试zh.json"
+  },
+  "exitPage": {
+    "message": "Leaving page",
+    "description": "手机考试zh.json"
+  },
+  "submitSuccess": {
+    "message": "Submitted",
+    "description": "手机考试zh.json"
+  },
+  "reSubmit": {
+    "message": "Submit again",
+    "description": "手机考试zh.json"
+  },
+  "submitTip1": {
+    "message": "You have {num} questions have been not answered, sure to submit？",
+    "description": "手机考试zh.json"
+  },
+  "continueExam": {
+    "message": "Continue to answer",
+    "description": "手机考试zh.json"
+  },
+  "submitting": {
+    "message": "Submitting",
+    "description": "手机考试zh.json"
+  },
+  "unusualLeave": {
+    "message": "Unusual leaving",
+    "description": "手机考试zh.json"
+  },
+  "hintTip1": {
+    "message": "System detects that you’ve left the exam.",
+    "description": "手机考试zh.json"
+  },
+  "hintTip2": {
+    "message": "The system detected that you left the exam at <strong> {time} </strong>.",
+    "description": "手机考试zh.json"
+  },
+  "hintTip3": {
+    "message": "You have left the exam {totalCount} times and system will forcibly submit your paper.",
+    "description": "手机考试zh.json"
+  },
+  "hintTip4": {
+    "message": "If you leave the exam screen for more than {totalCount} times, your exam will be submitted involuntarily. You still have {count} times remaining.",
+    "description": "手机考试zh.json"
+  },
+  "submitSeconds": {
+    "message": "Submit ({seconds})",
+    "description": "手机考试zh.json"
+  },
+  "continueExam2": {
+    "message": "Continue to take exam",
+    "description": "手机考试zh.json"
+  },
+  "exitExamTip": {
+    "message": "Reminder for leaving the exam",
+    "description": "手机考试zh.json"
+  },
+  "correctAnswer": {
+    "message": "Correct answer",
+    "description": "手机考试zh.json"
+  },
+  "userAnswer": {
+    "message": "Your answer",
+    "description": "手机考试zh.json"
+  },
+  "noAnswer": {
+    "message": "No answer",
+    "description": "手机考试zh.json"
+  },
+  "analysis": {
+    "message": "Answer Explanation",
+    "description": "手机考试zh.json"
+  },
+  "answerScore1": {
+    "message": "Score: To be graded, out of {num} points",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
+  "answerScore2": {
+    "message": "Score: {n} out of {num} points ",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
+  "teaComment": {
+    "message": "Teacher’s comment",
+    "description": "手机考试zh.json"
+  },
+  "empty": {
+    "message": "Empty",
+    "description": "手机考试zh.json"
+  },
+  "correctAnswer2": {
+    "message": "Reference Answer",
+    "description": "手机考试zh.json"
+  },
+  "answerAnalysis": {
+    "message": "Answer Explanation",
+    "description": "手机考试zh.json"
+  },
+  "useUp": {
+    "message": "The number of playback has been used up.",
+    "description": "手机考试zh.json"
+  },
+  "useTimes": {
+    "message": "Played for {count}/{limitCount} times",
+    "description": "手机考试zh.json"
+  },
+  "playTip": {
+    "message": "Note: This recording can only be played {num} times.",
+    "description": "手机考试zh.json"
+  },
+  "inputAnswer": {
+    "message": "Please enter your answer",
+    "description": "手机考试zh.json"
+  },
+  "totalNum": {
+    "message": "{num} questions in total",
+    "description": "手机考试zh.json"
+  },
+  "question1": {
+    "message": "Single choice",
+    "description": "手机考试zh.json"
+  },
+  "question2": {
+    "message": "Multiple choice",
+    "description": "手机考试zh.json"
+  },
+  "question3": {
+    "message": "Fill-in-the-blank",
+    "description": "手机考试zh.json"
+  },
+  "question4": {
+    "message": "Judgment",
+    "description": "手机考试zh.json"
+  },
+  "question5": {
+    "message": "Short answer",
+    "description": "手机考试zh.json"
+  },
+  "question6": {
+    "message": "Sequencing question",
+    "description": "手机考试zh.json"
+  },
+  "question7": {
+    "message": "Oral subjective question",
+    "description": "手机考试zh.json"
+  },
+  "question8": {
+    "message": "Vocabulary fill-in-the-blank",
+    "description": "手机考试zh.json"
+  },
+  "question9": {
+    "message": "Oral objective question",
+    "description": "手机考试zh.json"
+  },
+  "question10": {
+    "message": "Pull-down selection",
+    "description": "手机考试zh.json"
+  },
+  "question11": {
+    "message": "Comprehensive question",
+    "description": "手机考试zh.json"
+  },
+  "question12": {
+    "message": "Cloze question",
+    "description": "手机考试zh.json"
+  },
+  "question25": {
+    "message": "Calculated Formula",
+    "description": "手机考试zh.json"
+  },
+  "exitScreen": {
+    "message": "Exit split-screen",
+    "description": "手机考试zh.json"
+  },
+  "enterScreen": {
+    "message": "Split-screen mode",
+    "description": "手机考试zh.json"
+  },
+  "option": {
+    "message": "Option",
+    "description": "手机考试zh.json"
+  },
+  "dragTip": {
+    "message": "Long press and drag Options",
+    "description": "手机考试zh.json"
+  },
+  "example": {
+    "message": "Example",
+    "description": "手机考试zh.json"
+  },
+  "replay": {
+    "message": "Replay",
+    "description": "手机考试zh.json"
+  },
+  "record": {
+    "message": "Record",
+    "description": "手机考试zh.json"
+  },
+  "recordUploadFailed": {
+    "message": "The recording upload failed, please check the network!",
+    "description": "手机考试zh.json"
+  },
+  "recording": {
+    "message": "Recording",
+    "description": "手机考试zh.json"
+  },
+  "stopRecord": {
+    "message": "Recording, click to pause",
+    "description": "手机考试zh.json"
+  },
+  "reRecordTip": {
+    "message": "The original recordings will be deleted. Are you sure to record again?",
+    "description": "手机考试zh.json"
+  },
+  "speakTip1": {
+    "message": "Please read the following.",
+    "description": "手机考试zh.json"
+  },
+  "speakTip2": {
+    "message": "within 3 minutes",
+    "description": "手机考试zh.json"
+  },
+  "speakTip3": {
+    "message": "to complete",
+    "description": "手机考试zh.json"
+  },
+  "recordTip1": {
+    "message": "Recording",
+    "description": "手机考试zh.json"
+  },
+  "exitTip1": {
+    "message": "Sure to leave？",
+    "description": "手机考试zh.json"
+  },
+  "saveAndExit": {
+    "message": "Save the draft and leave",
+    "description": "手机考试zh.json"
+  },
+  "preview": {
+    "message": "View",
+    "description": "手机考试zh.json"
+  },
+  "delete": {
+    "message": "Delete",
+    "description": "手机考试zh.json"
+  },
+  "retryUpload": {
+    "message": "Re-upload",
+    "description": "手机考试zh.json"
+  },
+  "stuFilesMaxTips": {
+    "message": "Add 10 files at most",
+    "description": "手机考试zh.json"
+  },
+  "examSubmitConfirm": {
+    "message": "Confirm to submit?",
+    "description": "手机考试zh.json"
+  },
+  "fromCamera": {
+    "message": " Take a photo ",
+    "description": "手机考试zh.json"
+  },
+  "fromAlbum": {
+    "message": " Choose from album ",
+    "description": "手机考试zh.json"
+  },
+  "examInfo": {
+    "message": "Exam Information",
+    "description": "手机考试zh.json"
+  },
+  "lateLimit": {
+    "message": "Late Start: ",
+    "description": "手机考试zh.json"
+  },
+  "lateLimitTips": {
+    "message": "Not allowed to take the exam after {time} minutes from the start of the exam",
+    "description": "手机考试zh.json"
+  },
+  "submitLimit": {
+    "message": "Submit after: ",
+    "description": "手机考试zh.json"
+  },
+  "submitLimitTips": {
+    "message": "Not allowed to submit within {time} minutes from the beginning of the exam",
+    "description": "手机考试zh.json"
+  },
+  "securitySettings": {
+    "message": "Security Settings",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitor": {
+    "message": "IP Monitoring",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitorTip": {
+    "message": "{ip} is on - Do not switch to another network during the exam!",
+    "description": "{ip} 指的是 IP监控"
+  },
+  "deviceMonitor": {
+    "message": "Device Monitoring",
+    "description": "手机考试zh.json"
+  },
+  "deviceMonitorTip": {
+    "message": "{device} is on - Do not switch to another device or browser during the exam!",
+    "description": "{device} 指的是设备监控"
+  },
+  "photoMonitor": {
+    "message": "Camera Monitoring",
+    "description": "手机考试zh.json"
+  },
+  "photoMonitorTip": {
+    "message": "{photo} is on - Keep your device's front-facing camera on!",
+    "description": "{photo} 指的是抓拍监控"
+  },
+  "faceRecognition": {
+    "message": "Face Verification",
+    "description": "手机考试zh.json"
+  },
+  "faceRecognitionTip": {
+    "message": "{face} is on - Need to pass face verification to start the exam!",
+    "description": "{face} 指的是人脸识别"
+  },
+  "unOpened": {
+    "message": "Not enabled",
+    "description": "手机考试zh.json"
+  },
+  "IPException": {
+    "message": "IP Abnormal",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips1": {
+    "message": "IP monitoring is on. Students are not allowed to switch to another network during the exam. Switching the network may cause the IP address to change.",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips2": {
+    "message": "If you need to change the network under special circumstances, please ask the proctor for the verification code, and use the code to enter the exam.",
+    "description": "手机考试zh.json"
+  },
+  "deviceException": {
+    "message": "Device abnormal",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips1": {
+    "message": "The device monitoring is on and you are not allowed to change the device or browser during the exam. Please use the device or browser that entered the exam for the first time to answer the questions.",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips2": {
+    "message": "If you need to change the device/browser under special circumstances, please ask the proctor for the verification code, and use the code to enter the exam.",
+    "description": "手机考试zh.json"
+  },
+  "commitLimitTimeTips": {
+    "message": "You can submit only {time} minutes after the start of the exam!",
+    "description": "手机考试zh.json"
+  },
+  "examTip20": {
+    "message": "Left the exam {count} times",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitor": {
+    "message": "Screen Monitoring",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips": {
+    "message": "Screen monitoring is on. For students who leave the exam {num} times, the exam will be submitted involuntarily.",
+    "description": "{screen} 指的是切屏监控"
+  },
+  "recordShowAfterSubmit": {
+    "message": "Right after submission",
+    "description": "手机考试zh.json"
+  },
+  "leaveExamTimesTips": {
+    "message": "Left the exam {count} times",
+    "description": "手机考试zh.json"
+  },
+  "cameraAccess": {
+    "message": "The camera access is not enabled. Face verification or camera monitoring is on for this exam -Please enable the camera access to take the exam!",
+    "description": "手机考试zh.json"
+  },
+  "selectFile": {
+    "message": "Select File",
+    "description": "手机考试zh.json"
+  },
+  "fromAlbum1": {
+    "message": "Select from album",
+    "description": "手机考试zh.json"
+  },
+  "showAfterBatchEnd": {
+    "message": "Will be posted after all exam sessions are done",
+    "description": "手机考试zh.json"
+  },
+  "versionLowerTips": {
+    "message": "The current version is too old - Please upgrade before taking the exam!",
+    "description": "手机考试zh.json"
+  },
+  "monitoring": {
+    "message": "Monitoring",
+    "description": "手机考试zh.json"
+  },
+  "photoCountDown": {
+    "message": "Start taking pictures in {n} seconds",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCWeb": {
+    "message": "Only web",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCExe": {
+    "message": "Only lockdown browser",
+    "description": "手机考试zh.json"
+  },
+  "onlyMobile": {
+    "message": "Only mobile device",
+    "description": "手机考试zh.json"
+  },
+  "unlimitType": {
+    "message": "Mobile device/Web/Lockdown browser",
+    "description": "手机考试zh.json"
+  },
+  "viewOnPCExe": {
+    "message": "Please take the exam via ULearning lockdown browser",
+    "description": "手机考试zh.json"
+  },
+  "swipeTip": {
+    "message": "Slide left/right to switch screens",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip1": {
+    "message": "The camera access is disabled and cannot use this function - Please go to your device's Settings to enable it!",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip2": {
+    "message": "The microphone access is disabled and cannot use this function - Please go to your device's Settings to enable it!",
+    "description": "手机考试zh.json"
+  },
   "screenMonitorTips1": {
     "message": "{screen} is on: If you leave the exam screen for more than {num1} seconds in one time or leave the exam screen for {num} times total, your exam will be submitted involuntarily.",
     "description": "手机考试zh.json"
@@ -7,16 +891,40 @@
     "message": "{screen} is on: If you leave the exam screen for more than {num1} seconds in one time, your exam will be submitted involuntarily.",
     "description": "手机考试zh.json"
   },
+  "examMonitor": {
+    "message": "Exam Proctoring",
+    "description": "手机考试zh.json"
+  },
   "exitTip2": {
     "message": "{screen} is on: Please do not leave the exam screen before you submit the exam.",
     "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
+  },
+  "screenInterpolation": {
+    "message": "Screen Monitoring",
+    "description": "此字段作为 exitTip2 字段插值处的内容"
   },
   "hintTip5": {
     "message": "Have left the exam screen for more than {s} seconds, your exam has been submitted by the system involuntarily.",
     "description": "手机考试zh.json"
   },
+  "getIt": {
+    "message": "Got It!",
+    "description": "手机考试zh.json"
+  },
   "netWorkError": {
     "message": "Network error and the operation failed. Please try again after the network connection is restored.",
+    "description": "手机考试zh.json"
+  },
+  "agreenInstructions": {
+    "message": "I have read and agree to the items in the exam instructions",
+    "description": "手机考试zh.json"
+  },
+  "agreenTip": {
+    "message": "Please select",
+    "description": "手机考试zh.json"
+  },
+  "activeBook": {
+    "message": "Activate",
     "description": "手机考试zh.json"
   }
 }
