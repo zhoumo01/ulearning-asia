@@ -1503,16 +1503,32 @@
     "message": "頁首",
     "description": "2.0 course.js"
   },
+  "homePage1": {
+    "message": "<<",
+    "description": "2.0 course.js"
+  },
   "lastPage": {
     "message": "頁尾",
+    "description": "2.0 course.js"
+  },
+  "lastPage1": {
+    "message": ">>",
     "description": "2.0 course.js"
   },
   "frontPage": {
     "message": "上頁",
     "description": "2.0 course.js"
   },
+  "frontPage1": {
+    "message": "<",
+    "description": "2.0 course.js"
+  },
   "backPage": {
     "message": "下頁",
+    "description": "2.0 course.js"
+  },
+  "backPage1": {
+    "message": ">",
     "description": "2.0 course.js"
   },
   "jumpPage": {
@@ -1949,6 +1965,14 @@
   },
   "orderNumber": {
     "message": "序號",
+    "description": "2.0 course.js"
+  },
+  "orderNumberPrefix": {
+    "message": "序號：",
+    "description": "2.0 course.js"
+  },
+  "textbookPrefix": {
+    "message": "教材：",
     "description": "2.0 course.js"
   },
   "gender": {
@@ -3304,10 +3328,6 @@
     "description": "2.0 course.js"
   },
   "modifyLive": {
-    "message": "修改直播",
-    "description": "2.0 course.js"
-  },
-  "modifyLive2": {
     "message": "修改直播",
     "description": "2.0 course.js"
   },
@@ -5075,6 +5095,18 @@
     "message": "直播互動",
     "description": "2.0 course.js"
   },
+  "signArea": {
+    "message": "簽字區",
+    "description": "2.0 course.js"
+  },
+  "resetSign": {
+    "message": "重簽",
+    "description": "2.0 course.js"
+  },
+  "sureSign": {
+    "message": "確認",
+    "description": "2.0 course.js"
+  },
   "signIn": {
     "message": "簽到",
     "description": "2.0 course.js"
@@ -5097,6 +5129,26 @@
   },
   "commitRate": {
     "message": "提交率",
+    "description": "2.0 course.js"
+  },
+  "answer": {
+    "message": "答題",
+    "description": "2.0 course.js"
+  },
+  "solution": {
+    "message": "答案",
+    "description": "2.0 course.js"
+  },
+  "answerNum": {
+    "message": "答題人數",
+    "description": "2.0 course.js"
+  },
+  "answerRate": {
+    "message": "答題率",
+    "description": "2.0 course.js"
+  },
+  "answerAightNum": {
+    "message": "答對人數",
     "description": "2.0 course.js"
   },
   "liveInteractionTip": {
@@ -5595,6 +5647,10 @@
     "message": "（複製後活動為未開始狀態，您可以在上課後開始這些活動，點名/選人活動不能被複製）",
     "description": "2.0 course.js"
   },
+  "copyClassroomTip1": {
+    "message": "複製課堂后，投票和搶答等活動為未開始狀態，您可以在上課后開始這些活動",
+    "description": "2.0 course.js"
+  },
   "copySuccess": {
     "message": "複製成功",
     "description": "2.0 course.js"
@@ -5711,12 +5767,24 @@
     "message": "未搜索到此應用",
     "description": "2.0 course.js"
   },
+  "exportLiveTip1": {
+    "message": "請輸入時間",
+    "description": "2.0 course.js"
+  },
+  "exportLiveTip2": {
+    "message": "請選擇狀態",
+    "description": "2.0 course.js"
+  },
   "activateErrorTip": {
     "message": "啟動碼只能使用一次。 如果不是本人啟動，可與同學確認是否拿錯教材，或聯繫客服。",
     "description": "2.0 course.js"
   },
   "activateMismatch": {
     "message": "啟動碼與當前課件不符",
+    "description": "2.0 course.js"
+  },
+  "textbookNumber": {
+    "message": "教材序號：",
     "description": "2.0 course.js"
   },
   "textbookName": {
@@ -5739,6 +5807,30 @@
     "message": "確定啟動",
     "description": "2.0 course.js"
   },
+  "iKnowThat": {
+    "message": "我知道了",
+    "description": "2.0 course.js"
+  },
+  "goToSee": {
+    "message": "去查看",
+    "description": "2.0 course.js"
+  },
+  "memberSpocValidateTips29": {
+    "message": "學生退出班級時需要審批",
+    "description": "2.0 course.js"
+  },
+  "joinExistClassApply": {
+    "message": "加退班申請",
+    "description": "2.0 course.js"
+  },
+  "applyType": {
+    "message": "申請類型",
+    "description": "2.0 course.js"
+  },
+  "applyDate": {
+    "message": "申請日期",
+    "description": "2.0 course.js"
+  },
   "allApplyType": {
     "message": "全部類型",
     "description": "2.0 course.js"
@@ -5751,8 +5843,476 @@
     "message": "退出班級",
     "description": "2.0 course.js"
   },
+  "shuakeCheck": {
+    "message": "刷課檢測",
+    "description": "2.0 course.js"
+  },
+  "shuakeMaybe": {
+    "message": "疑似刷課",
+    "description": "2.0 course.js"
+  },
+  "shuakeClearBtn": {
+    "message": "清除刷課標記",
+    "description": "2.0 course.js"
+  },
+  "shuakeTips": {
+    "message": "系統根據學習日誌，檢測到該學生存在疑似刷課行為。 核實處理后，您可以在此處清除學生刷課標記。",
+    "description": "2.0 course.js"
+  },
+  "anchorName": {
+    "message": "請輸入姓名",
+    "description": "指主播第一次进入直播间, 会提示用户输入主播姓名"
+  },
+  "shuakeClearConfirm": {
+    "message": "此操作只清除學生刷課標記，不清除學生學習記錄和成績。 如果需要清除學生成績，可以點擊學生姓名，在詳細成績中進行清除操作。 確定清除刷課標記嗎？",
+    "description": "2.0 course.js"
+  },
+  "courseGoal": {
+    "message": "課程目標",
+    "description": "2.0 course.js"
+  },
+  "evaluationRules": {
+    "message": "評價規則",
+    "description": "2.0 course.js"
+  },
+  "achievementStatistics": {
+    "message": "達成度統計",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysis": {
+    "message": "分析報告",
+    "description": "2.0 course.js"
+  },
+  "obeTitle": {
+    "message": "課程目標達成度分析",
+    "description": "2.0 course.js"
+  },
+  "obeLinkDelTips": {
+    "message": "刪除考核環節，對應環節的活動需要重新關聯。 確定刪除嗎？",
+    "description": "2.0 course.js"
+  },
+  "obeLinkDelTips2": {
+    "message": "至少保留一個考核環節。",
+    "description": "2.0 course.js"
+  },
+  "obeGoalDelTips": {
+    "message": "刪除目標后，已關聯課程目標的活動需要重新關聯。 確定刪除嗎？",
+    "description": "2.0 course.js"
+  },
+  "obeGoalDelTips2": {
+    "message": "至少保留一個課程目標。",
+    "description": "2.0 course.js"
+  },
+  "obeAddGoalMaxTips": {
+    "message": "最多添加10個目標。",
+    "description": "2.0 course.js"
+  },
+  "obeAddLinkMaxTips": {
+    "message": "最多添加10個考核環節。",
+    "description": "2.0 course.js"
+  },
+  "obeDefaultLink1": {
+    "message": "平時作業",
+    "description": "2.0 course.js"
+  },
+  "obeDefaultLink2": {
+    "message": "期末成績",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips1": {
+    "message": "課程目標內容不能為空。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips2": {
+    "message": "課程目標不能超過1000字元。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips3": {
+    "message": "達成度目標值不能為空。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips4": {
+    "message": "達成度目標值應為0-1的數位，可保留兩位小數。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips5": {
+    "message": "考核環節名稱不能為空。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips6": {
+    "message": "考核環節名稱不能超過50字元。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips7": {
+    "message": "各成績項權重總和不能超過100%。",
+    "description": "2.0 course.js"
+  },
+  "obeClearTips": {
+    "message": "清除課程目標，將同步清除已設置的所有評價規則和已導入的數據，請務必謹慎操作。 確定清除嗎？",
+    "description": "2.0 course.js"
+  },
+  "obeNullTips": {
+    "message": "暫未設置課程目標",
+    "description": "2.0 course.js"
+  },
+  "obePassScore": {
+    "message": "達成度目標值：",
+    "description": "2.0 course.js"
+  },
+  "obeLink": {
+    "message": "考核環節",
+    "description": "2.0 course.js"
+  },
+  "obeGoalEdit": {
+    "message": "編輯課程目標",
+    "description": "2.0 course.js"
+  },
+  "obeGoalClear": {
+    "message": "清除課程目標",
+    "description": "2.0 course.js"
+  },
+  "saveAndQuitEdit": {
+    "message": "保存並退出編輯",
+    "description": "2.0 course.js"
+  },
+  "obePassScoreTips": {
+    "message": "0~1的數位，保留2位小數",
+    "description": "2.0 course.js"
+  },
+  "gradeRatio": {
+    "message": "成績構成與比例",
+    "description": "2.0 course.js"
+  },
+  "obeLinkAdd": {
+    "message": "添加考核環節",
+    "description": "2.0 course.js"
+  },
+  "obeGoalAdd": {
+    "message": "添加目標",
+    "description": "2.0 course.js"
+  },
+  "total": {
+    "message": "合計",
+    "description": "2.0 course.js"
+  },
+  "goal": {
+    "message": "目標",
+    "description": "2.0 course.js"
+  },
+  "obeRulesTips": {
+    "message": "設置好課程目標及成績考核比例后，在這裡可以將課件和各類教學活動與課程目標相關聯。 未關聯課程目標和考核環節的數據，將不納入達成度統計。",
+    "description": "2.0 course.js"
+  },
+  "obeTextbookTips1": {
+    "message": "課件由課程管理員統一設置評價規則。 （僅支援優學院建課工具發佈的課件）",
+    "description": "2.0 course.js"
+  },
+  "textbookNullTips": {
+    "message": "暫無課件",
+    "description": "2.0 course.js"
+  },
+  "onlineActivities": {
+    "message": "在線教學活動",
+    "description": "2.0 course.js"
+  },
+  "activityTips1": {
+    "message": "可納入目標達成度統計的活動，暫時僅包括：作業、考試、討論。 在線教學活動可由課程管理員或各班級教師設置評價規則。",
+    "description": "2.0 course.js"
+  },
+  "activityTips2": {
+    "message": "暫未發佈活動",
+    "description": "2.0 course.js"
+  },
+  "activityTips3": {
+    "message": "沒有搜索到相應的活動",
+    "description": "2.0 course.js"
+  },
+  "associatedGoal": {
+    "message": "關聯課程目標",
+    "description": "2.0 course.js"
+  },
+  "rulesEdit": {
+    "message": "編輯規則",
+    "description": "2.0 course.js"
+  },
+  "exitEdit": {
+    "message": "退出編輯",
+    "description": "2.0 course.js"
+  },
+  "refreshData": {
+    "message": "刷新數據",
+    "description": "2.0 course.js"
+  },
+  "derive": {
+    "message": "導出",
+    "description": "2.0 course.js"
+  },
+  "weightScore": {
+    "message": "成績按權重值顯示",
+    "description": "2.0 course.js"
+  },
+  "percentageScore": {
+    "message": "成績按百分制顯示",
+    "description": "2.0 course.js"
+  },
+  "obeStatisticsNullTips": {
+    "message": "先設置課程目標和評價規則，才能統計目標達成度",
+    "description": "2.0 course.js"
+  },
+  "chapter": {
+    "message": "章節",
+    "description": "2.0 course.js"
+  },
+  "activityType": {
+    "message": "活動類型",
+    "description": "2.0 course.js"
+  },
+  "fullPoints": {
+    "message": "滿分",
+    "description": "2.0 course.js"
+  },
+  "obeOwnerLink": {
+    "message": "所屬考核環節",
+    "description": "2.0 course.js"
+  },
+  "moreClassNum": {
+    "message": "等{num}個班級",
+    "description": "2.0 course.js"
+  },
+  "obePaperTips": {
+    "message": "如有多套試卷，須為每套試卷關聯目標",
+    "description": "2.0 course.js"
+  },
+  "batchSetting": {
+    "message": "批量設置",
+    "description": "2.0 course.js"
+  },
+  "questionUnit": {
+    "message": "題",
+    "description": "2.0 course.js"
+  },
+  "associate": {
+    "message": "關聯",
+    "description": "2.0 course.js"
+  },
+  "question": {
+    "message": "題目",
+    "description": "2.0 course.js"
+  },
+  "linkNullTips": {
+    "message": "請先選擇所屬考核環節",
+    "description": "2.0 course.js"
+  },
+  "obeNullTips2": {
+    "message": "請先設置課程目標，再設置評價規則",
+    "description": "2.0 course.js"
+  },
+  "obeTitle2": {
+    "message": "目標達成度分析",
+    "description": "2.0 course.js"
+  },
+  "completion": {
+    "message": "達成度",
+    "description": "2.0 course.js"
+  },
+  "overallCompletion": {
+    "message": "總體達成度",
+    "description": "2.0 course.js"
+  },
+  "instructions": {
+    "message": "計算規則說明",
+    "description": "2.0 course.js"
+  },
+  "updataTime": {
+    "message": "資料更新時間：",
+    "description": "2.0 course.js"
+  },
+  "tipPedding": {
+    "message": "達成度統計的計算量較大，耗時較長，系統將在後台統計完成後更新數據，請稍後再查看新的統計數據",
+    "description": "2.0 course.js"
+  },
+  "tipFailling": {
+    "message": "上次統計任務還在處理中，請稍後再查看。",
+    "description": "2.0 course.js"
+  },
+  "statisticsTopTiP": {
+    "message": "每次修改課程目標或評價規則后，需手動刷新數據。 數據統計時間可能較長，請耐心等待。",
+    "description": "2.0 course.js"
+  },
+  "developmentTips": {
+    "message": "功能開發中，敬請期待",
+    "description": "2.0 course.js"
+  },
+  "iCourseTip": {
+    "message": "注意：使用愛課程的課件，不支援設置學習計劃，進度成績僅能查看課件整體數據，無法查看分章節數據，課件成績無法納入考核。",
+    "description": "2.0 course.js"
+  },
+  "percent": {
+    "message": "{n}%",
+    "description": "2.0 course.js"
+  },
   "activateAccount": {
     "message": "啟動帳號：",
+    "description": "2.0 course.js"
+  },
+  "offlineActivities": {
+    "message": "線下教學活動",
+    "description": "2.0 course.js"
+  },
+  "activityTips4": {
+    "message": "線下考試等活動，可以按照範本將成績數據導入系統中。 線下活動由課程管理員統一添加和導入。",
+    "description": "2.0 course.js"
+  },
+  "templeteDodnload": {
+    "message": "下載導入範本",
+    "description": "2.0 course.js"
+  },
+  "activityGrade": {
+    "message": "活動成績",
+    "description": "2.0 course.js"
+  },
+  "textbookName2": {
+    "message": "課件名稱",
+    "description": "2.0 course.js"
+  },
+  "addActivity": {
+    "message": "添加活動",
+    "description": "2.0 course.js"
+  },
+  "importData": {
+    "message": "匯入數據",
+    "description": "2.0 course.js"
+  },
+  "noDataImport": {
+    "message": "未匯入數據",
+    "description": "2.0 course.js"
+  },
+  "activityTipsMax10": {
+    "message": "最多添加10個活動。",
+    "description": "2.0 course.js"
+  },
+  "activityNameNullTips": {
+    "message": "活動名稱不能空。",
+    "description": "2.0 course.js"
+  },
+  "activityNameLengthTips": {
+    "message": "請輸入1~200字元",
+    "description": "2.0 course.js"
+  },
+  "offlineActivityDeleteTips": {
+    "message": "刪除活動，將同時刪除已導入的成績數據。 確定刪除嗎？",
+    "description": "2.0 course.js"
+  },
+  "importOverTips": {
+    "message": "重新匯入將覆蓋上次匯入的數據，確定重新導入嗎？",
+    "description": "2.0 course.js"
+  },
+  "offlineActivityGrade": {
+    "message": "線下活動成績",
+    "description": "2.0 course.js"
+  },
+  "fullPoints2": {
+    "message": "滿分：",
+    "description": "2.0 course.js"
+  },
+  "dataImportedTimeTips": {
+    "message": "資料匯入時間：",
+    "description": "2.0 course.js"
+  },
+  "randomQuestion": {
+    "message": "隨機抽題",
+    "description": "2.0 course.js"
+  },
+  "obeNullTips3": {
+    "message": "先設置課程目標和評價規則，才能查看分析報告",
+    "description": "2.0 course.js"
+  },
+  "exportReport": {
+    "message": "匯出報告",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysisTips1": {
+    "message": "圖表按照最新的統計數據生成",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysisTips2": {
+    "message": "課程目標達成概況",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysisTips3": {
+    "message": "單項達成度分析",
+    "description": "2.0 course.js"
+  },
+  "goalItemCompletion": {
+    "message": "課程目標{n}達成度",
+    "description": "2.0 course.js"
+  },
+  "goalDelTips": {
+    "message": "關聯目標已被刪除",
+    "description": "2.0 course.js"
+  },
+  "fullScoreIllegalTips": {
+    "message": "討論的滿分值應為0-100的整數。",
+    "description": "2.0 course.js"
+  },
+  "obeOfflineExportTemp": {
+    "message": "OBE線下活動成績導入範本",
+    "description": "2.0 course.js"
+  },
+  "obeRandomTips": {
+    "message": "本次考試為隨機抽題考試，請按照試卷結構，為每道題目關聯課程目標",
+    "description": "2.0 course.js"
+  },
+  "obeTotalCompletionTips": {
+    "message": "課程目標總體達成度",
+    "description": "2.0 course.js"
+  },
+  "obeStuCompletionTips": {
+    "message": "學生達標率",
+    "description": "2.0 course.js"
+  },
+  "topicNumberOf": {
+    "message": "帖子數：{n}",
+    "description": "2.0 course.js"
+  },
+  "toTop": {
+    "message": "置頂",
+    "description": "2.0 course.js"
+  },
+  "cancelTop": {
+    "message": "取消置頂",
+    "description": "2.0 course.js"
+  },
+  "recorded": {
+    "message": "錄播",
+    "description": "2.0 course.js"
+  },
+  "recordingTime": {
+    "message": "錄製時間",
+    "description": "2.0 course.js"
+  },
+  "Rclassroom": {
+    "message": "教室",
+    "description": "2.0 course.js"
+  },
+  "Rclass": {
+    "message": "上課班級",
+    "description": "2.0 course.js"
+  },
+  "courseRecorded": {
+    "message": "課堂錄播",
+    "description": "2.0 course.js"
+  },
+  "recorded1": {
+    "message": "課堂教學視頻由教室中的錄播系統進行錄製。 教學重播的生成需要時間，且可能經過教師的編輯加工后才發佈，請耐心等待。",
+    "description": "2.0 course.js"
+  },
+  "microCourseConvertTips": {
+    "message": "檔案轉碼失敗，無法匯入。 請檢查文件中是否包含特殊字型或內容。",
+    "description": "2.0 course.js"
+  },
+  "modifyLive2": {
+    "message": "修改直播",
     "description": "2.0 course.js"
   },
   "meetingRoom": {
@@ -5809,6 +6369,10 @@
   },
   "meetingLiveTip2": {
     "message": "您選擇的參會人數超過會議室最大人數，部分人員無法參加會議，您確定要這樣按排嗎？",
+    "description": "2.0 course.js"
+  },
+  "continue": {
+    "message": "繼續",
     "description": "2.0 course.js"
   }
 }
