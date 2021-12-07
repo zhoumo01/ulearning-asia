@@ -1,1 +1,130 @@
-{"uploadFile": {"message": "Télécharger le fichier", "description": "1.0 fileupplug.js"}, "referenceFile": {"message": "Lien", "description": "1.0 fileupplug.js"}, "selectFile": {"message": "Sélectionner le fichier", "description": "1.0 fileupplug.js"}, "attachment": {"message": "Télécharger la pièce jointe/ajouter un lien", "description": "1.0 fileupplug.js"}, "fileProcess": {"message": "S’il vous plaît attendre pendant que le fichier est le traitement ...", "description": "1.0 fileupplug.js"}, "uploading": {"message": "Téléchargement...", "description": "1.0 fileupplug.js"}, "uploadOnly": {"message": "Télécharger uniquement", "description": "1.0 fileupplug.js"}, "fileLessThan": {"message": "Les fichiers de téléchargement sont inférieurs à {size}", "description": "注意：花括号( 即 {} ) 里面的值是插值，不要改，大小写也不能变化"}, "netError": {"message": "Erreur réseau, s’il vous plaît vérifier le réseau", "description": "1.0 fileupplug.js"}, "fileText": {"message": "Fichiers", "description": "1.0 fileupplug.js"}, "failText": {"message": "Échec du téléchargement de fichiers", "description": "1.0 fileupplug.js"}, "cancel": {"message": "Annuler", "description": "1.0 fileupplug.js"}, "Delete": {"message": "Supprimer", "description": "1.0 fileupplug.js"}, "cancelUpload": {"message": "Annuler le téléchargement", "description": "1.0 fileupplug.js"}, "fileCountLimit": {"message": "Télécharger les pièces jointes {count} tout au plus", "description": "1.0 fileupplug.json"}, "comment": {"message": "Télécharger le commentaire", "description": "1.0 fileupplug.js"}, "uploadErr1": {"message": "Erreur de téléchargement, ne peut pas télécharger le même fichier!", "description": "1.0 fileupplug.json"}, "Fail": {"message": "UpLoad Fail", "description": "1.0 fileupplug.js"}, "uploadErr2": {"message": "Erreur de téléchargement, taille du fichier dépassé limite!", "description": "1.0 fileupplug.json"}, "uploadErr3": {"message": "Erreur de téléchargement, S’il vous plaît vérifier l’état du fichier ou du réseau et essayer à nouveau plus tard!", "description": "1.0 fileupplug.json"}, "uploadFileLimit": {"message": "Jusqu’à {count} pièces jointes", "description": "1.0 fileupplug.js"}, "docFailText": {"message": "Échec de la conversion de document !", "description": "1.0 fileupplug.js"}, "docConversionErrorText": {"message": "Erreur de format de conversion de document !", "description": "1.0 fileupplug.js"}, "videoFailText": {"message": "La conversion du clip vidéo a échoué !", "description": "1.0 fileupplug.js"}, "videoConversionErrorText": {"message": "Erreur de format de conversion de clip vidéo !", "description": "1.0 fileupplug.js"}, "uploadingStr": {"message": "Il y a des fichiers en cours de téléchargement", "description": "1.0 fileupplug.js"}, "uploadComplete": {"message": "Télécharger terminé", "description": "1.0 fileupplug.js"}, "uploadFail": {"message": "Échec du téléchargement", "description": "1.0 fileupplug.js"}, "onlyUpload": {"message": "Télécharger uniquement {file} Fichiers", "description": "1.0 fileupplug.js"}, "uploadcomponentFail": {"message": "L’initialisation des composants de téléchargement a échoué, s’il vous plaît modifier un navigateur essayer, sous résolution.", "description": "1.0 fileupplug.js"}, "uploadFileFail": {"message": "Échec du fichier de téléchargement", "description": "1.0 fileupplug.js"}, "contentFile": {"message": "S’il vous plaît ne pas télécharger le même fichier", "description": "1.0 fileupplug.js"}, "contentFile2": {"message": "Impossible de télécharger le même document", "description": "1.0 fileupplug.js"}, "addSubtitles": {"message": "Ajouter une piste", "description": "1.0 fileupplug.js"}, "confirmDelete": {"message": "Confirmer à supprimer?", "description": "1.0 fileupplug.js"}, "uploadAttach": {"message": "Télécharger la pièce jointe", "description": "1.0 fileupplug.js"}}
+{
+  "uploadFile": {
+    "message": "Télécharger le fichier",
+    "description": "1.0 fileupplug.js"
+  },
+  "referenceFile": {
+    "message": "Lien",
+    "description": "1.0 fileupplug.js"
+  },
+  "selectFile": {
+    "message": "Sélectionnez Fichier",
+    "description": "1.0 fileupplug.js"
+  },
+  "attachment": {
+    "message": "Télécharger la pièce jointe",
+    "description": "1.0 fileupplug.js"
+  },
+  "fileProcess": {
+    "message": "Le fichier est en cours de traitement, veuillez patienter...",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploading": {
+    "message": "Téléchargement...",
+    "description": "1.0 fileupplug.js"
+  },
+  "fileLessThan": {
+    "message": "Le fichier à télécharger doit être inférieur à {size}",
+    "description": "注意：花括号( 即 {} ) 里面的值是插值，不要改，大小写也不能变化"
+  },
+  "netError": {
+    "message": "Erreur réseau - veuillez vérifier votre connexion réseau!",
+    "description": "1.0 fileupplug.js"
+  },
+  "failText": {
+    "message": "Impossible de télécharger le fichier!",
+    "description": "1.0 fileupplug.js"
+  },
+  "cancel": {
+    "message": "Annulez",
+    "description": "1.0 fileupplug.js"
+  },
+  "Delete": {
+    "message": "Supprimez",
+    "description": "1.0 fileupplug.js"
+  },
+  "cancelUpload": {
+    "message": "Annuler le téléchargement",
+    "description": "1.0 fileupplug.js"
+  },
+  "fileCountLimit": {
+    "message": "Le nombre de fichiers à télécharger ne peut pas dépasser {count}",
+    "description": "1.0 fileupplug.json"
+  },
+  "uploadErr1": {
+    "message": "Erreur de téléchargement - le même fichier ne peut pas être téléchargé plusieurs fois!",
+    "description": "1.0 fileupplug.json"
+  },
+  "uploadErr2": {
+    "message": "La taille du fichier dépasse la limite!",
+    "description": "1.0 fileupplug.json"
+  },
+  "uploadErr3": {
+    "message": "Erreur de téléchargement - veuillez vérifier le fichier ou le réseau et réessayer plus tard!",
+    "description": "1.0 fileupplug.json"
+  },
+  "uploadFileLimit": {
+    "message": "Jusqu’à {count} pièces jointes",
+    "description": "1.0 fileupplug.js"
+  },
+  "docFailText": {
+    "message": "La conversion du document a échoué !",
+    "description": "1.0 fileupplug.js"
+  },
+  "docConversionErrorText": {
+    "message": "Erreur de format de conversion de document!",
+    "description": "1.0 fileupplug.js"
+  },
+  "videoFailText": {
+    "message": "La conversion vidéo a échoué!",
+    "description": "1.0 fileupplug.js"
+  },
+  "videoConversionErrorText": {
+    "message": "Erreur de format de conversion vidéo!",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadingStr": {
+    "message": "Il y a des fichiers en cours de téléchargement",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadComplete": {
+    "message": "Téléchargement terminé!",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadFail": {
+    "message": "Le téléchargement a échoué !",
+    "description": "1.0 fileupplug.js"
+  },
+  "onlyUpload": {
+    "message": "Seuls les fichiers de {file} peuvent être téléchargés",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadcomponentFail": {
+    "message": "Le composant de téléchargement n’a pas pu s’initialiser - En cours de résolution... mais vous pouvez utiliser un autre navigateur pour réessayer.",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadFileFail": {
+    "message": "Le téléchargement a échoué !",
+    "description": "1.0 fileupplug.js"
+  },
+  "contentFile": {
+    "message": "S’il vous plaît ne pas télécharger le même fichier plusieurs fois!",
+    "description": "1.0 fileupplug.js"
+  },
+  "contentFile2": {
+    "message": "Impossible de télécharger le même fichier!",
+    "description": "1.0 fileupplug.js"
+  },
+  "addSubtitles": {
+    "message": "Ajouter des sous-titres",
+    "description": "1.0 fileupplug.js"
+  },
+  "confirmDelete": {
+    "message": "Êtes-vous sûr de vouloir le supprimer?",
+    "description": "1.0 fileupplug.js"
+  },
+  "uploadAttach": {
+    "message": "Télécharger la pièce jointe",
+    "description": "1.0 fileupplug.js"
+  }
+}

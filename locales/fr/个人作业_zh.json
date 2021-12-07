@@ -1,1 +1,686 @@
-{"CLOSE": {"message": "Proche", "description": "个人作业zh_js"}, "GRADE_WAYS": {"message": "Classement", "description": "个人作业zh_js"}, "GRADE_TEA": {"message": "Classement des enseignants", "description": "个人作业zh_js"}, "GRADE_STUPEER": {"message": "Avis par les pairs", "description": "个人作业zh_js"}, "GRADE_WRITEAUTO": {"message": "Écriture anglaise auto-classement", "description": "个人作业zh_js"}, "GRADE_FULL": {"message": "Pts Possible", "description": "个人作业zh_js"}, "STARTTIME": {"message": "Commencer", "description": "个人作业zh_js"}, "ENDTIME": {"message": "Deux", "description": "个人作业zh_js"}, "PEERENDTIME": {"message": "Due (Avis par les pairs)", "description": "个人作业zh_js"}, "JOINCLASS": {"message": "Classes", "description": "个人作业zh_js"}, "SETTING_ATTACH_INFO": {"message": "Prise en charge de l’enregistrement audio, du support et de divers types de fichiers", "description": "个人作业zh_js"}, "SETTING_COPY": {"message": "Autoriser le copier/coller", "description": "个人作业zh_js"}, "SETTING_COPY_INFO": {"message": "En cas de handicap, les élèves ne peuvent entrer du texte que manuellement", "description": "个人作业zh_js"}, "SETTING_DUPICATE": {"message": "Autoriser le contrôle du plagiat", "description": "个人作业zh_js"}, "SETTING_DUPICATE_INFO": {"message": "Les pièces jointes ne peuvent pas être vérifiées contre le plagiat", "description": "个人作业zh_js"}, "SETTING_Grammar": {"message": "Autoriser la vérification grammaticale", "description": "个人作业zh_js"}, "SETTING_Grammar_INFO": {"message": "La vérification grammaticale peut détecter les erreurs grammaticales dans l’affectation en anglais", "description": "个人作业zh_js"}, "PUBLISTH": {"message": "Publier", "description": "个人作业zh_js"}, "SAVE_DRAFT": {"message": "Enregistrer le projet", "description": "个人作业zh_js"}, "upAttach": {"message": "Attachement", "description": "个人作业zh_js"}, "PCREQUEST": {"message": "Cliquez pour entrer les instructions d’affectation, jusqu’à 5000 caractères. L’application mobile prend en charge le téléchargement d’images et l’enregistrement audio. Les utilisateurs doivent soumettre ou télécharger d’autres types de pièces jointes via PC.", "description": "个人作业zh_js"}, "UPATTACH": {"message": "Attachement", "description": "个人作业zh_js"}, "RECORDING": {"message": "Enregistrement audio", "description": "个人作业zh_js"}, "CHOICECLASS": {"message": "Sélectionner la classe", "description": "个人作业zh_js"}, "EACH_STUDENTEvaluate": {"message": "Attribuer", "description": "个人作业zh_js"}, "COUNTWORK": {"message": "affectation(s) par étudiant", "description": "个人作业zh_js"}, "PEERRULES": {"message": "Règles d’examen par les pairs", "description": "个人作业zh_js"}, "GRADE_WRITEAUTOTIP": {"message": "Remarque : L’écriture anglaise de qualité automatique peut-elle être entrée en ligne, et non celle téléchargée par une pièce jointe.", "description": "个人作业zh_js"}, "GRADE_SPOKENAUTOTIP": {"message": "Remarque : Impossible d’enregistrer l’anglais oral auto-grade qui dépasse 3 min.", "description": "个人作业zh_js"}, "GRADE_SPOKENAUTOTIPerror": {"message": "Cliquez pour entrer du contenu en lecture à haute voix, jusqu’à 200 mots. Si vous utilisez le classement automatique pour la prononciation anglaise, n’entrez pas d’autres mots que l’anglais.", "description": "个人作业zh_js"}, "ASSIGNTITLE": {"message": "Affectation individuelle", "description": "个人作业zh_js"}, "sharetipInfo1": {"message": "Les affectations partagées sont visibles par d’autres étudiants", "description": "个人作业zh_js"}, "sharetipInfo3": {"message": "Lors du classement, la définition d’une affectation comme « Partager » le rend visible par d’autres étudiants", "description": "个人作业zh_js"}, "repateGrading": {"message": "Regrade", "description": "个人作业zh_js"}, "commentIpt": {"message": "Cliquez pour entrer les commentaires", "description": "个人作业zh_js"}, "scoreIpt": {"message": "Entrez le score", "description": "个人作业zh_js"}, "shareTxt": {"message": "Partager", "description": "个人作业zh_js"}, "repeatTxt": {"message": "Resubmission", "description": "个人作业zh_js"}, "stuevaluate": {"message": "Avis par les pairs", "description": "个人作业zh_js"}, "peerrules": {"message": "Règles d’examen par les pairs", "description": "个人作业zh_js"}}
+{
+  "m.cklang": {
+    "message": "en",
+    "description": "个人作业zh_js"
+  },
+  "m.LangCss": {
+    "message": "en-zone",
+    "description": "个人作业zh_js"
+  },
+  "m.Point": {
+    "message": ":",
+    "description": "个人作业zh_js"
+  },
+  "m.BACK": {
+    "message": "Précédent",
+    "description": "个人作业zh_js"
+  },
+  "m.CLOSE": {
+    "message": "Fermer",
+    "description": "个人作业zh_js"
+  },
+  "m.GRADE_WAYS": {
+    "message": "Méthodes d’évaluation",
+    "description": "个人作业zh_js"
+  },
+  "m.GRADE_TEA": {
+    "message": "Évaluation des enseignants",
+    "description": "个人作业zh_js"
+  },
+  "m.GRADE_STUPEER": {
+    "message": "Évaluation par les pairs",
+    "description": "个人作业zh_js"
+  },
+  "m.GRADE_WRITEAUTO": {
+    "message": "Marquage automatique du système écrit en anglais",
+    "description": "个人作业zh_js"
+  },
+  "m.GRADE_SPOKENAUTO": {
+    "message": "Marquage automatique du système oral en anglais",
+    "description": "个人作业zh_js"
+  },
+  "m.GRADE_SYSTEM": {
+    "message": "Marquage automatique du système",
+    "description": "个人作业zh_js"
+  },
+  "m.GRADE_FULL": {
+    "message": "Points complètes\n",
+    "description": "个人作业zh_js"
+  },
+  "m.GROWTH": {
+    "message": " Valeur de croissance ",
+    "description": "个人作业zh_js"
+  },
+  "m.STARTTIME": {
+    "message": "Heure de début",
+    "description": "个人作业zh_js"
+  },
+  "m.ENDTIME": {
+    "message": " Date limite de soumission",
+    "description": "个人作业zh_js"
+  },
+  "m.PEERENDTIME": {
+    "message": " Date limite pour l’évaluation par les pairs ",
+    "description": "个人作业zh_js"
+  },
+  "m.JOINCLASS": {
+    "message": " Participation en classe ",
+    "description": "个人作业zh_js"
+  },
+  "m.VIPSETTING": {
+    "message": " Paramètre avancé ",
+    "description": "个人作业zh_js"
+  },
+  "m.SETTING_ATTACH": {
+    "message": " Autoriser les étudiants à télécharger des pièces jointes ",
+    "description": "个人作业zh_js"
+  },
+  "m.SETTING_ATTACH_INFO": {
+    "message": " Prise en charge de l’enregistrement en ligne, de la documentation, de l’audio, de la vidéo, des images, des fichiers compressés, etc. ",
+    "description": "个人作业zh_js"
+  },
+  "m.SETTING_COPY": {
+    "message": " Autoriser le copier-coller ",
+    "description": "个人作业zh_js"
+  },
+  "m.SETTING_COPY_INFO": {
+    "message": " Les étudiants ne peuvent entrer manuellement qu’après l’annulation. S’il vous plaît soyez prudent. ",
+    "description": "个人作业zh_js"
+  },
+  "m.SETTING_DUPICATE": {
+    "message": " Autoriser la vérification en double du contenu de l’affectation ",
+    "description": "个人作业zh_js"
+  },
+  "m.SETTING_DUPICATE_INFO": {
+    "message": " Le contenu de la pièce jointe d’affectation ne peut pas être vérifié à nouveau ",
+    "description": "个人作业zh_js"
+  },
+  "m.SETTING_Grammar": {
+    "message": "Autoriser les étudiants à utiliser la vérification grammaticale",
+    "description": "个人作业zh_js"
+  },
+  "m.SETTING_Grammar_INFO": {
+    "message": "La vérification grammaticale peut détecter les erreurs grammaticales dans l’affectation en anglais.",
+    "description": "个人作业zh_js"
+  },
+  "m.PUBLISTH": {
+    "message": "Publier",
+    "description": "个人作业zh_js"
+  },
+  "m.SAVE_DRAFT": {
+    "message": " Sauvegarder le brouillon ",
+    "description": "个人作业zh_js"
+  },
+  "m.SAVE": {
+    "message": "Sauvegarder",
+    "description": "个人作业zh_js"
+  },
+  "m.Determine": {
+    "message": "Confirmer",
+    "description": "个人作业zh_js"
+  },
+  "m.CANCEL": {
+    "message": "Annuler",
+    "description": "个人作业zh_js"
+  },
+  "m.DELETE": {
+    "message": "Supprimer",
+    "description": "个人作业zh_js"
+  },
+  "m.upAttach": {
+    "message": "Télécharger les pièces jointes",
+    "description": "个人作业zh_js"
+  },
+  "m.CHOICE": {
+    "message": "Veuillez choisir",
+    "description": "个人作业zh_js"
+  },
+  "m.UpAttachInfo1": {
+    "message": " Télécharger tout au plus ",
+    "description": "个人作业zh_js"
+  },
+  "m.UpAttachInfo2": {
+    "message": "Pièces jointes",
+    "description": "个人作业zh_js"
+  },
+  "m.UpAttachError1": {
+    "message": " La vidéo ne doit pas dépasser 1G ",
+    "description": "个人作业zh_js"
+  },
+  "m.UpAttachError2": {
+    "message": " Les archives ne doivent pas dépasser 200M ",
+    "description": "个人作业zh_js"
+  },
+  "m.UpError3": {
+    "message": " Les documents de ce type ne sont pas pris en charge ",
+    "description": "个人作业zh_js"
+  },
+  "m.PCREQUEST": {
+    "message": " Veuillez saisir les conditions d’affectation. L’affectation peut prendre en charge jusqu’à 5000 mots. L’application mobile ne prend en charge que le téléchargement d’images et l’enregistrement, d’autres types de pièces jointes doivent être soumis par les étudiants utilisant l’ordinateur en version Web.",
+    "description": "个人作业zh_js"
+  },
+  "m.IPTHOMETITLE": {
+    "message": " Veuillez saisir le nom de l’affectation ",
+    "description": "个人作业zh_js"
+  },
+  "m.UPATTACH": {
+    "message": "Télécharger des pièces jointes",
+    "description": "个人作业zh_js"
+  },
+  "m.RECORDING": {
+    "message": "Enregistrement",
+    "description": "个人作业zh_js"
+  },
+  "m.CHOICECLASS": {
+    "message": "Sélectionner la classe.",
+    "description": "个人作业zh_js"
+  },
+  "m.PEERRULES": {
+    "message": "Règles d’évaluation par les pairs",
+    "description": "个人作业zh_js"
+  },
+  "m.GRADE_WRITEAUTOTIP": {
+    "message": " Remarque: Le devoir des étudiants ne peut être saisi qu’en anglais. Ne prend pas en charge la pièce jointe de téléchargement. ",
+    "description": "个人作业zh_js"
+  },
+  "m.GRADE_SPOKENAUTOTIP": {
+    "message": " Remarque: Le système ne sera pas en mesure d’évaluer l’enregistrement effectué par les étudiants qui dépasse 3 minutes. ",
+    "description": "个人作业zh_js"
+  },
+  "m.GRADE_SPOKENAUTOTIPerror": {
+    "message": " Veuillez entrer le contenu de l’écoute et de la lecture à haute voix, dans un délai de 200 mots. Ne saisissez pas de caractères chinois, sinon cela entraînera un échec de notation.",
+    "description": "个人作业zh_js"
+  },
+  "m.HOMEWORKTITLEEmptyERROR": {
+    "message": "Veuillez entré le titre",
+    "description": "个人作业zh_js"
+  },
+  "m.HOMEWORKTITLECountERROR": {
+    "message": " Ne peut pas dépasser 200 lettres (environ 100 mots pour les caractères chinois)",
+    "description": "个人作业zh_js"
+  },
+  "m.HOMEWORKRequestERROR": {
+    "message": " Pas plus de 10 000 lettres (environ 5 000 caractères de caractères chinois). Le motif tiendra également compte d’un certain nombre de caractères. ",
+    "description": "个人作业zh_js"
+  },
+  "m.HOMEWORKGradeEmptyERROR": {
+    "message": " Veuillez entrer le score total. ",
+    "description": "个人作业zh_js"
+  },
+  "m.HOMEWORKGradeCountERROR": {
+    "message": " Entrez des entiers compris entre 1 et 100 ",
+    "description": "个人作业zh_js"
+  },
+  "m.HOMEWORKClassEmptyERROR": {
+    "message": " Veuillez sélectionner la classe. ",
+    "description": "个人作业zh_js"
+  },
+  "m.HOMEWORKClassCountERROR": {
+    "message": " Le nombre d’évaluations par les pairs dépasse le nombre total de personnes ",
+    "description": "个人作业zh_js"
+  },
+  "m.HOMEWORKRepeatEmptyERROR": {
+    "message": " S’il vous plaît entrer le contenu de l’écoute et lire à haute voix ",
+    "description": "个人作业zh_js"
+  },
+  "m.STARTTIMEERROR": {
+    "message": " Veuillez entrer l’heure de début",
+    "description": "个人作业zh_js"
+  },
+  "m.ENDTIMEERROR": {
+    "message": " Veuillez entrer l’heure de fin ",
+    "description": "个人作业zh_js"
+  },
+  "m.PEERENDTIMEERROR": {
+    "message": " Veuillez entrer l’heure de fin de l’évaluation par les pairs ",
+    "description": "个人作业zh_js"
+  },
+  "m.HOMEWORKTITLE": {
+    "message": "Affectations",
+    "description": "个人作业zh_js"
+  },
+  "m.ASSIGNTITLE": {
+    "message": "Assigner des devoirs",
+    "description": "个人作业zh_js"
+  },
+  "m.MODIFYTITLE": {
+    "message": " Modifier l’affectation ",
+    "description": "个人作业zh_js"
+  },
+  "m.SAVING": {
+    "message": "Sauvegarde",
+    "description": "个人作业zh_js"
+  },
+  "m.SavingWork": {
+    "message": "Sauvegarder l’affectation",
+    "description": "个人作业zh_js"
+  },
+  "m.PUBLISTHWork": {
+    "message": "Publier l’affectation",
+    "description": "个人作业zh_js"
+  },
+  "m.SUCCESS": {
+    "message": "Succès",
+    "description": "个人作业zh_js"
+  },
+  "m.Failure": {
+    "message": "échec,",
+    "description": "个人作业zh_js"
+  },
+  "m.WORKSETTING": {
+    "message": "Paramètre d’affectation",
+    "description": "个人作业zh_js"
+  },
+  "m.Submissionstart": {
+    "message": " Début de la soumission ",
+    "description": "个人作业zh_js"
+  },
+  "m.WORKTiming": {
+    "message": "Temps d’affectation",
+    "description": "个人作业zh_js"
+  },
+  "m.WORKPublicClass": {
+    "message": " Publier des classes ",
+    "description": "个人作业zh_js"
+  },
+  "m.WORKDetailinfo": {
+    "message": " Détails de l’affectation",
+    "description": "个人作业zh_js"
+  },
+  "m.SHAREWork": {
+    "message": "Attribution de partage",
+    "description": "个人作业zh_js"
+  },
+  "m.MyWork": {
+    "message": "Mon affectation",
+    "description": "个人作业zh_js"
+  },
+  "m.otherWork": {
+    "message": "Son affectation",
+    "description": "个人作业zh_js"
+  },
+  "m.evaluationWork": {
+    "message": " Évaluation des affectations",
+    "description": "个人作业zh_js"
+  },
+  "m.PeerWorkTask": {
+    "message": "Tâche d’évaluation",
+    "description": "个人作业zh_js"
+  },
+  "m.WriteWork": {
+    "message": "Devoir d’écrit",
+    "description": "个人作业zh_js"
+  },
+  "m.resubmitted": {
+    "message": " Retirer et soumettre à nouveau ",
+    "description": "个人作业zh_js"
+  },
+  "m.AfterSubmitWork": {
+    "message": " Soumettre l’affectation après la date limite(",
+    "description": "个人作业zh_js"
+  },
+  "m.RewriteWork": {
+    "message": "Réécrire l’affectation(",
+    "description": "个人作业zh_js"
+  },
+  "m.BeforeSubmitWork": {
+    "message": "Soumettre avant)",
+    "description": "个人作业zh_js"
+  },
+  "m.workdetailsTipInfo1": {
+    "message": "Veuillez évaluer ce qui suit",
+    "description": "个人作业zh_js"
+  },
+  "m.workdetailsTipInfo2": {
+    "message": "  mission(s), la date limite d’évaluation par les pairs se termine le:",
+    "description": "个人作业zh_js"
+  },
+  "m.workdetailsTipInfo3": {
+    "message": " Devoir soumis, en attente de notation ",
+    "description": "个人作业zh_js"
+  },
+  "m.workdetailsTipInfo4": {
+    "message": " Après l’évaluation par les pairs, vous pouvez vérifier l’avis de vos camarades de classe à votre sujet. ",
+    "description": "个人作业zh_js"
+  },
+  "m.workdetailsTipInfo5": {
+    "message": " L'affectation est terminée. ",
+    "description": "个人作业zh_js"
+  },
+  "m.workdetailsTipInfo6": {
+    "message": " Le nombre d'affectation soumises est insuffisant pour mener une évaluation par les pairs. Veuillez attendre la notation de l’enseignant. ",
+    "description": "个人作业zh_js"
+  },
+  "m.workdetailsTipInfo9": {
+    "message": " Erreur lors de l’acquisition de l’affectation ",
+    "description": "个人作业zh_js"
+  },
+  "m.workdetailsTipInfo10": {
+    "message": " Le devoir n’a pas été évalué par les camarades de classe et il a été transmis à l’enseignant pour notation ",
+    "description": "个人作业zh_js"
+  },
+  "m.workdetailsTipInfo11": {
+    "message": "L’affectation n’a pas encore commencé",
+    "description": "个人作业zh_js"
+  },
+  "m.Period": {
+    "message": "Aucun",
+    "description": "个人作业zh_js"
+  },
+  "m.previewWork": {
+    "message": "Affectation précédente",
+    "description": "个人作业zh_js"
+  },
+  "m.nextWork": {
+    "message": "Affectation suivante",
+    "description": "个人作业zh_js"
+  },
+  "m.Appeal": {
+    "message": "Appel",
+    "description": "个人作业zh_js"
+  },
+  "m.Appealing": {
+    "message": " Attrayant ",
+    "description": "个人作业zh_js"
+  },
+  "m.Appealfailure": {
+    "message": " Non-appel ",
+    "description": "个人作业zh_js"
+  },
+  "m.AppealSuccess": {
+    "message": "Appel avec succès",
+    "description": "个人作业zh_js"
+  },
+  "m.sharetipInfo1": {
+    "message": " Les autres élèves de la classe peuvent également voir des devoirs partagés. ",
+    "description": "个人作业zh_js"
+  },
+  "m.sharetipInfo2": {
+    "message": " L’enseignant a partagé le devoir pour tout le monde. Les étudiants sont les plaît lire attentivement. ",
+    "description": "个人作业zh_js"
+  },
+  "m.sharetipInfo3": {
+    "message": " Lorsque vous marquez un devoir, définissez le devoir des élèves comme « partager ». Cela permettra aux autres élèves de la classe de lire. ",
+    "description": "个人作业zh_js"
+  },
+  "m.sharetipInfo4": {
+    "message": " L’enseignant ne partage pas les devoirs ",
+    "description": "个人作业zh_js"
+  },
+  "m.workVersion": {
+    "message": "Version",
+    "description": "个人作业zh_js"
+  },
+  "m.gradingInfo1": {
+    "message": " Les étudiants peuvent vérifier les détails de l’évaluation après l’évaluation par les pairs du devoir. ",
+    "description": "个人作业zh_js"
+  },
+  "m.gradingInfo2": {
+    "message": " Le devoir de l’étudiant n’a été évalué par aucun de ses camarades de classe, de sorte que votre évaluation est requise.",
+    "description": "个人作业zh_js"
+  },
+  "m.appealCause": {
+    "message": " Motifs de l’appel ",
+    "description": "个人作业zh_js"
+  },
+  "m.appealError": {
+    "message": " Le motif d’appel ne peut être vide de toutes pièces ",
+    "description": "个人作业zh_js"
+  },
+  "m.appealError01": {
+    "message": " Pas plus de 400 lettres (environ 200 caractères chinois)",
+    "description": "个人作业zh_js"
+  },
+  "m.reject": {
+    "message": "Rejeter",
+    "description": "个人作业zh_js"
+  },
+  "m.repateGrading": {
+    "message": " Re-marquage ",
+    "description": "个人作业zh_js"
+  },
+  "m.rejecting": {
+    "message": " Rejeter",
+    "description": "个人作业zh_js"
+  },
+  "m.rejectfailure": {
+    "message": " Échec du rejet ",
+    "description": "个人作业zh_js"
+  },
+  "m.appealCauseInfo1": {
+    "message": "Veuillez remplir les motifs de l’appel, jusqu’à 200 mots. Les enseignants marqueront à nouveau le devoir de l’élève lorsqu’ils recevront un appel ou une plainte.",
+    "description": "个人作业zh_js"
+  },
+  "m.smialInfo": {
+    "message": " Répétabilité des affectations",
+    "description": "个人作业zh_js"
+  },
+  "m.seek": {
+    "message": "Chercher",
+    "description": "个人作业zh_js"
+  },
+  "m.commentEmpty": {
+    "message": " Aucun commentaire laissé",
+    "description": "个人作业zh_js"
+  },
+  "m.stuCommentEmpty": {
+    "message": " L’étudiant n’a pas laissé de commentaire. ",
+    "description": "个人作业zh_js"
+  },
+  "m.comment": {
+    "message": " Commentaire:",
+    "description": "个人作业zh_js"
+  },
+  "m.commentIpt": {
+    "message": " S’il vous plaît entrer des commentaires ",
+    "description": "个人作业zh_js"
+  },
+  "m.saveComment": {
+    "message": "Sauvegarder le commentaire",
+    "description": "个人作业zh_js"
+  },
+  "m.scoreIpt": {
+    "message": " Veuillez saisir le score de l’affectation ",
+    "description": "个人作业zh_js"
+  },
+  "m.submittxt": {
+    "message": "Envoyer",
+    "description": "个人作业zh_js"
+  },
+  "m.repeateDay1": {
+    "message": "Soumettre à nouveau dans ",
+    "description": "个人作业zh_js"
+  },
+  "m.repeateDay": {
+    "message": " Jours ",
+    "description": "个人作业zh_js"
+  },
+  "m.shareTxt": {
+    "message": "Partager",
+    "description": "个人作业zh_js"
+  },
+  "m.shareTip": {
+    "message": " Les autres étudiants peuvent marquer le devoir de l’étudiant. ",
+    "description": "个人作业zh_js"
+  },
+  "m.repeatTxt": {
+    "message": "Récrire",
+    "description": "个人作业zh_js"
+  },
+  "m.needrepeatTxt": {
+    "message": "Besoin de réécrire",
+    "description": "个人作业zh_js"
+  },
+  "m.Marking": {
+    "message": " Marquage ",
+    "description": "个人作业zh_js"
+  },
+  "m.teaevaluate": {
+    "message": " Évaluation des enseignants ",
+    "description": "个人作业zh_js"
+  },
+  "m.stuevaluate": {
+    "message": "Évaluation par les pairs",
+    "description": "个人作业zh_js"
+  },
+  "m.peerrules": {
+    "message": "Règles d’évaluation par les pairs",
+    "description": "个人作业zh_js"
+  },
+  "m.advantage": {
+    "message": " Note moyenne :",
+    "description": "个人作业zh_js"
+  },
+  "m.systemEvaluate": {
+    "message": " Suggestions pour le marquage du système ",
+    "description": "个人作业zh_js"
+  },
+  "m.systemWriteError": {
+    "message": " Erreurs lexicales ",
+    "description": "个人作业zh_js"
+  },
+  "m.suggetSystem": {
+    "message": " Utilisation suggérée ",
+    "description": "个人作业zh_js"
+  },
+  "m.systemGrammerError": {
+    "message": " Erreur grammaticale ",
+    "description": "个人作业zh_js"
+  },
+  "m.iptScoreError": {
+    "message": " Veuillez entrer le score ",
+    "description": "个人作业zh_js"
+  },
+  "m.iptScoreError02": {
+    "message": " Veuillez entrer le score correct et ne garder qu’une seule décimale. ",
+    "description": "个人作业zh_js"
+  },
+  "m.iptScoreError03": {
+    "message": " Le score ne peut pas dépasser le score total ",
+    "description": "个人作业zh_js"
+  },
+  "m.CommentError01": {
+    "message": " Pas plus de 1000 mots (environ 500 caractères chinois)",
+    "description": "个人作业zh_js"
+  },
+  "m.workevulating": {
+    "message": "Sauvegarde",
+    "description": "个人作业zh_js"
+  },
+  "m.evulatSuccess": {
+    "message": " Marqué avec succès",
+    "description": "个人作业zh_js"
+  },
+  "m.evulatFailure": {
+    "message": " Impossible de marquer ",
+    "description": "个人作业zh_js"
+  },
+  "m.noEvaluate02": {
+    "message": " L’étudiant n’a pas évalué le devoir. ",
+    "description": "个人作业zh_js"
+  },
+  "m.goEvaluate": {
+    "message": " Pour évaluer ",
+    "description": "个人作业zh_js"
+  },
+  "m.goSeek": {
+    "message": " Regarder",
+    "description": "个人作业zh_js"
+  },
+  "m.FileConvert": {
+    "message": " Le document est en cours de conversion, veuillez vérifier plus tard ",
+    "description": "个人作业zh_js"
+  },
+  "m.VideoConvert": {
+    "message": " La vidéo est en cours de conversion, veuillez vérifier plus tard ",
+    "description": "个人作业zh_js"
+  },
+  "m.downing": {
+    "message": " Télécharger ",
+    "description": "个人作业zh_js"
+  },
+  "m.addComments": {
+    "message": " Ajouter des commentaires ",
+    "description": "个人作业zh_js"
+  },
+  "m.addPrise": {
+    "message": "Très bien",
+    "description": "个人作业zh_js"
+  },
+  "m.delPrise": {
+    "message": " Confirmer pour supprimer le 'Très bien'?",
+    "description": "个人作业zh_js"
+  },
+  "m.delComment": {
+    "message": "Confirmer pour supprimer des commentaires?",
+    "description": "个人作业zh_js"
+  },
+  "m.autoCommentEn": {
+    "message": " Super, votre article a été détecté sans problème se produit le problème ",
+    "description": "个人作业zh_js"
+  },
+  "m.peerruleTitle1": {
+    "message": " Règle de notation ",
+    "description": "个人作业zh_js"
+  },
+  "m.peerrule1": {
+    "message": " Résultats de l’affectation ",
+    "description": "个人作业zh_js"
+  },
+  "m.peerrule2": {
+    "message": " Score d’affectation = le score moyen qui vous a été donné par vos camarades de classe. (Vous devez effectuer les tâches d’évaluation qui vous sont assignées. Si vous ne le terminez pas, 5% du score total sera déduit.)",
+    "description": "个人作业zh_js"
+  },
+  "m.peerrule3": {
+    "message": "Par exemple",
+    "description": "个人作业zh_js"
+  },
+  "m.peerrule4": {
+    "message": " Score complet de l’affectation = 100 notes ",
+    "description": "个人作业zh_js"
+  },
+  "m.peerrule5": {
+    "message": " La note moyenne de votre devoir évalué par vos camarades de classe est de 80. ",
+    "description": "个人作业zh_js"
+  },
+  "m.peerrule6": {
+    "message": " L’enseignant a assigné 4 devoirs pour votre évaluation. Vous avez 3 devoirs qui ne sont pas évalués. Vos notes seront déduites à 3 * 5% * 100 marks",
+    "description": "个人作业zh_js"
+  },
+  "m.peerrule7": {
+    "message": " Score final = 80-3 * 5% * 100 = 65 notes;",
+    "description": "个人作业zh_js"
+  },
+  "m.peerrule8": {
+    "message": " Si vous n’êtes pas satisfait de la note moyenne de l’évaluation par les pairs, vous pouvez faire appel à l’enseignant, qui marquera votre devoir. Score final = score de l’enseignant.",
+    "description": "个人作业zh_js"
+  },
+  "m.scoreTip": {
+    "message": " Le score ne peut pas dépasser le score total ",
+    "description": "个人作业zh_js"
+  },
+  "m.confirmTip": {
+    "message": "Le score d’évaluation mutuelle et l’évaluation ne peuvent pas être modifiés après la soumission. Confirmer pour soumettre?",
+    "description": "个人作业zh_js"
+  },
+  "m.currentMonth": {
+    "message": "{m} {y}",
+    "description": "个人作业zh_js"
+  },
+  "m.timePickerHourFmt": {
+    "message": "Hh",
+    "description": "个人作业zh_js"
+  },
+  "m.reRecord": {
+    "message": "L’audio d’origine sera supprimé après le réinregistrement. Confirmer pour réenregistrer?",
+    "description": "个人作业zh_js"
+  },
+  "m.switchON": {
+    "message": "Activé",
+    "description": "switch按钮上显示的文本，可以在发布个人作业页面看到"
+  },
+  "m.switchOFF": {
+    "message": "Désactivé",
+    "description": "switch按钮上显示的文本，可以在发布个人作业页面看到"
+  }
+}

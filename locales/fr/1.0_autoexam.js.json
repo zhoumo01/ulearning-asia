@@ -1,1 +1,130 @@
-{"submittingText": {"message": "Soumettre", "description": "1.0 autoexam.js"}, "unitContentText": {"message": "Contenu de l’unité {0}", "description": "1.0 autoexam.js"}, "allUnitContentText": {"message": "Tout le contenu de l’unité", "description": "1.0 autoexam.js"}, "selectQBankRange": {"message": "Sélectionner la plage Q.Bank", "description": "1.0 autoexam.js"}, "myTemplateText": {"message": "Mon modèle", "description": "1.0 autoexam.js"}, "retainPartText": {"message": "Conserver au moins une partie", "description": "1.0 autoexam.js"}, "paperNameText": {"message": "Le nom du papier d’essai n’est pas vide", "description": "1.0 autoexam.js"}, "answerTimeText": {"message": "La durée des réponses n’est pas vide", "description": "1.0 autoexam.js"}, "collectText1": {"message": "Total 1 partie, | Nombre total de pièces {count},", "description": "1.0 autoexam.js"}, "collectText2": {"message": "1 question, | {compter} questions,", "description": "1.0 autoexam.js"}, "collectText3": {"message": "total 1 marque. | total {count} points.", "description": "1.0 autoexam.js"}, "collectText": {"message": "{parties} {questions} {marques}", "description": "{parts} 插值对应上面的 collectText1，{questions}插值对应上面的 collectText2，{marks}插值对应上面的collectText3，也就是说这三个分句组成一句话，翻译可根据需要调整三个分句的顺序，或者添加标点符号。"}, "surePaperNameLess": {"message": "S’il vous plaît assurez-vous que le nom du papier d’essai est inférieur à 50 mots", "description": "1.0 autoexam.js"}, "keyIntegerText": {"message": "Veuillez entrer un entier entre 1 et 300", "description": "1.0 autoexam.js"}, "makePaperText": {"message": "Faites du papier d’essai avec succès!", "description": "1.0 autoexam.js"}, "QnumberText": {"message": "Le No. de Q est petit dans Q.bank", "description": "1.0 autoexam.js"}, "addPaperQText": {"message": "Vous pouvez ajouter Q manuellement et continuer à faire du papier de test après ;", "description": "1.0 autoexam.js"}, "adjustmentPaperText": {"message": "Ajustement du papier d’essai", "description": "1.0 autoexam.js"}, "makePaperingText": {"message": "Fabrication du papier d’essai", "description": "1.0 autoexam.js"}, "returnModifyText": {"message": "Pas de Q facultatif dans la banque Q sélectionnée. S’il vous plaît revenir à modifier!", "description": "1.0 autoexam.js"}, "confirmText": {"message": "Confirmer", "description": "1.0 autoexam.js"}, "continueMakeText": {"message": "Continuer à faire", "description": "1.0 autoexam.js"}, "pleaseEnterName": {"message": "Veuillez saisir des noms de contenu allant jusqu’à {0} caractères", "description": "1.0 autoexam.js"}, "pleaseEnterTemplateName": {"message": "S’il vous plaît entrer le modèle du nom de moins de 20 caractères", "description": "1.0 autoexam.js"}, "pleaseAddQtype": {"message": "S’il vous plaît ajouter type Q", "description": "1.0 autoexam.js"}, "pleaseSelectQrange": {"message": "Sélectionnez la plage Q", "description": "1.0 autoexam.js"}, "correctRatioText": {"message": "Veuillez entrer le ratio correct", "description": "1.0 autoexam.js"}, "getDateErrorText": {"message": "Obtenir l’erreur de date", "description": "1.0 autoexam.js"}, "confirmDeleteTemplate": {"message": "Êtes-vous sûr de vouloir supprimer ce modèle ?", "description": "1.0 autoexam.js"}, "deleteTemplateError": {"message": "Erreur de supprimer le modèle", "description": "1.0 autoexam.js"}, "partNum": {"message": "Section {0}", "description": "1.0 autoexam.js"}, "totalScoreLabel": {"message": "Score total: {0}", "description": "1.0 autoexam.js"}}
+{
+  "submittingText": {
+    "message": "Soumettre...",
+    "description": "1.0 autoexam.js"
+  },
+  "unitContentText": {
+    "message": "{0} sections",
+    "description": "1.0 autoexam.js"
+  },
+  "allUnitContentText": {
+    "message": "Toutes les sections",
+    "description": "1.0 autoexam.js"
+  },
+  "selectQBankRange": {
+    "message": "Sélectionner la section Banque de questions",
+    "description": "1.0 autoexam.js"
+  },
+  "myTemplateText": {
+    "message": "Mon modèle",
+    "description": "1.0 autoexam.js"
+  },
+  "retainPartText": {
+    "message": "Inclure au moins une section",
+    "description": "1.0 autoexam.js"
+  },
+  "paperNameText": {
+    "message": "Le nom de l’examen ne peut pas être vide",
+    "description": "1.0 autoexam.js"
+  },
+  "answerTimeText": {
+    "message": "La durée de l’examen ne peut pas être vide",
+    "description": "1.0 autoexam.js"
+  },
+  "collectText1": {
+    "message": "Nombre total de sections {count},",
+    "description": "1.0 autoexam.js"
+  },
+  "collectText2": {
+    "message": "{nombre} questions,",
+    "description": "1.0 autoexam.js"
+  },
+  "collectText3": {
+    "message": "total des points {count} possibles.",
+    "description": "1.0 autoexam.js"
+  },
+  "collectText": {
+    "message": "{parties} {questions} {points}",
+    "description": "{parts} 插值对应上面的 collectText1，{questions}插值对应上面的 collectText2，{marks}插值对应上面的collectText3，也就是说这三个分句组成一句话，翻译可根据需要调整三个分句的顺序，或者添加标点符号。"
+  },
+  "surePaperNameLess": {
+    "message": "Le nom de l’examen doit être de moins de 50 caractères",
+    "description": "1.0 autoexam.js"
+  },
+  "keyIntegerText": {
+    "message": "Entrez une intégrale comprise entre 1 et 300",
+    "description": "1.0 autoexam.js"
+  },
+  "makePaperText": {
+    "message": "L’examen a été généré avec succès!",
+    "description": "1.0 autoexam.js"
+  },
+  "QnumberText": {
+    "message": "Il n’y a pas assez de questions dans la banque de questions!",
+    "description": "1.0 autoexam.js"
+  },
+  "addPaperQText": {
+    "message": "Vous pouvez ajouter des questions manuellement après la génération de l’examen",
+    "description": "1.0 autoexam.js"
+  },
+  "adjustmentPaperText": {
+    "message": "Modifier l’examen",
+    "description": "1.0 autoexam.js"
+  },
+  "makePaperingText": {
+    "message": "En production...",
+    "description": "1.0 autoexam.js"
+  },
+  "returnModifyText": {
+    "message": "Aucune question dans la section banque de questions sélectionnée - Revenir en arrière pour apporter des modifications",
+    "description": "1.0 autoexam.js"
+  },
+  "confirmText": {
+    "message": "Confirmer",
+    "description": "1.0 autoexam.js"
+  },
+  "continueMakeText": {
+    "message": "Continuer",
+    "description": "1.0 autoexam.js"
+  },
+  "pleaseEnterName": {
+    "message": "Entrez les noms des sections (jusqu’à {0} caractères)",
+    "description": "1.0 autoexam.js"
+  },
+  "pleaseEnterTemplateName": {
+    "message": "Entrez les noms des modèles (jusqu’à 20 caractères)",
+    "description": "1.0 autoexam.js"
+  },
+  "pleaseAddQtype": {
+    "message": "Ajouter un type de question",
+    "description": "1.0 autoexam.js"
+  },
+  "pleaseSelectQrange": {
+    "message": "Sélectionner une gamme de questions",
+    "description": "1.0 autoexam.js"
+  },
+  "correctRatioText": {
+    "message": "Entrez un ratio correct",
+    "description": "1.0 autoexam.js"
+  },
+  "getDateErrorText": {
+    "message": "Erreur de récupération de données!",
+    "description": "1.0 autoexam.js"
+  },
+  "confirmDeleteTemplate": {
+    "message": "Voulez-vous vraiment supprimer ce modèle ?",
+    "description": "1.0 autoexam.js"
+  },
+  "deleteTemplateError": {
+    "message": "Erreur de suppression de modèle!",
+    "description": "1.0 autoexam.js"
+  },
+  "partNum": {
+    "message": "Section {0}",
+    "description": "1.0 autoexam.js"
+  },
+  "totalScoreLabel": {
+    "message": "Total des points: {0}",
+    "description": "1.0 autoexam.js"
+  }
+}
