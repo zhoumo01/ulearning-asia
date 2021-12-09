@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">优学院2.0</string>
-    <string name="app_name_debug">优学院2-D</string>
+    <string name="app_name_debug">优学院2.0-D</string>
 
     <string name="chat_press_talk">按住 说话</string>
     <string name="chat_release_send">松开 结束</string>
@@ -10,11 +10,12 @@
     <string name="chat_photo">拍摄</string>
     <string name="chat_video">小视频</string>
 
-    <!-- time -->
     <string name="time_yesterday">昨天</string>
     <string name="time_day">日</string>
     <string name="time_month">月</string>
     <string name="time_year">年</string>
+
+    <string name="now_ready_data">正在准备课件数据，请稍候.</string>
 
     <string name="server_error">系统正在维护中，请稍后再试</string>
     <string name="toast_other_lesson_progress" formatted="false">正在缓存课件%s/%s</string>
@@ -40,6 +41,7 @@
     <string name="operation_create_course">创建课程</string>
     <string name="operation_create_course_next">下一步</string>
     <string name="operation_create_course_code">扫码加入班课</string>
+    <string name="scan_qrcode">扫码</string>
     <string name="operation_download">下载</string>
     <string name="operation_goon_study">继续！我有的是银子</string>
     <string name="operation_not_study">算了</string>
@@ -48,7 +50,7 @@
     <string name="operation_send_message">发送消息</string>
     <string name="operation_archive">归档</string>
     <string name="operation_quit_account">退出登录</string>
-    <string name="operation_quit_class">退出班级</string>
+    <string name="operation_quit_class">退出课程</string>
     <string name="operation_delete_class">删除班级</string>
     <string name="operation_student_list_sort_change">切换</string>
     <string name="operation_go_on_study">继续学习</string>
@@ -159,6 +161,8 @@
     <string name="search">查询</string>
     <string name="activate_course">激活课程</string>
     <string name="activate_textbook">激活教材</string>
+    <string name="input_active_code">——或输入激活码——</string>
+
     <string name="recording">录音中</string>
     <string name="playback">录音回放中</string>
     <string name="play_record">播放录音</string>
@@ -184,7 +188,7 @@
     <string name="success">成功</string>
     <string name="fail">失败</string>
     <string name="system_informs">系统通知</string>
-    <string name="teacher">教师</string>
+    <string name="yxy_teacher">教师</string>
     <string name="assistant">助教</string>
     <string name="student">学生</string>
     <string name="manager">管理员</string>
@@ -260,12 +264,13 @@
     <string name="hint_friendship">友情提醒</string>
     <string name="hint_tips">提醒小贴士</string>
     <string name="hint_input_content_limit_500_word">在此输入内容（不超过500字）</string>
-    <string name="hint_input_answer">在此输入答案...</string>
+    <string name="hint_input_answer">在此输入答案</string>
     <string name="hint_input_new_telphone">请输入新的手机号</string>
     <string name="hint_input_right_code">请输正确的班课编码</string>
     <string name="hint_input_telphone">请输入手机号</string>
     <string name="hint_input_username_pwd">请输入用户名和密码</string>
     <string name="hint_input_username">请输入用户名</string>
+    <string name="login_check_privacy_policy">请先勾选再登录</string>
     <string name="hint_input_pwd_please">请输入密码</string>
     <string name="hint_input_pwd">请输入旧密码</string>
     <string name="hint_input_new_pwd">请输入新密码</string>
@@ -289,8 +294,8 @@
     <string name="hint_feature_online_follow_up">此功能后续上线-.-</string>
     <string name="hint_course_page_not_study_finished">本页还没有学完-</string>
     <string name="hint_course_important">重要提示</string>
-    <string name="hint_classname_input_require">2-30个字符，不允许特殊字符（除下划线_，中划线-外）!</string>
-    <string name="hint_classcode_input_require">6-20位字母和数字及下划线_，中划线-!</string>
+    <string name="hint_classname_input_require">2—30个字符，不允许特殊字符（除下划线_，中划线-外）!</string>
+    <string name="hint_classcode_input_require">6—20位字母和数字及下划线_，中划线-!</string>
     <string name="hint_classyear_input_require">请按正确的年份格式输入,如: 2015</string>
     <string name="hint_classname_modify_success">@string/modify_success</string>
     <string name="hint_classcode_modify_success">@string/modify_success</string>
@@ -328,7 +333,7 @@
     <string name="hint_choose_teach_course">选择课件</string>
     <string name="hint_choose_course_cover">选择一个课程封面</string>
     <string name="hint_modify_personal_info_fail">@string/modify_fail</string>
-    <string name="hint_quit_class_info">退出班级后将无法查看与本班相关的活动如作业、考试等，确定退出吗？</string>
+    <string name="hint_quit_class_info">退出课程后将无法查看与本班相关的活动如作业、考试等，确定退出吗？</string>
     <string name="hint_quit_class_success">退班成功！</string>
     <string name="hint_quit_class_fail">退班失败！</string>
     <string name="hint_capture_join_class_fail">二维码已失效,请联系班级老师</string>
@@ -377,7 +382,7 @@
     <string name="warning_token_and_password_change">密码已修改,请使用新密码重新登录</string>
     <string name="warning_year_format_error">年份格式错误!</string>
 
-    <string name="warning_speech_no_speak">您还没有说话哦...</string>
+    <string name="warning_speech_no_speak">您还没有说话哦</string>
     <string name="warning_speech_network_visit_error">无法自动评分，请检查网络连接</string>
     <string name="warning_speech_no_network">无法自动评分，请检查网络连接</string>
 
@@ -401,7 +406,7 @@
     <string name="warning_file_not_select">未选择文件</string>
     <string name="warning_file_could_not_open">手机内没有安装可以打开该文件的应用</string>
     <string name="warning_resource_not_download">资源未下载</string>
-    <string name="warning_file_size_limit">文件大小超过限制</string>
+    <string name="warning_file_size_limit">文件超过200M,请从电脑端上传！</string>
     <string name="warning_file_not_found">没找到文件！</string>
     <string name="warning_file_download_fail">下载失败</string>
     <string name="warning_file_download_course_fail">课程获取失败，请下拉刷新重新获取</string>
@@ -436,14 +441,14 @@
     <string name="activing">激活中</string>
     <string name="loading1">@string/loading</string>
     <string name="loading_wait">@string/loading</string>
-    <string name="updating">更新中...</string>
-    <string name="creating_chat">创建聊天中...</string>
-    <string name="loading_course">正在加载课程...</string>
-    <string name="recording1">正在录音...</string>
-    <string name="checking">检测中...</string>
-    <string name="logining">登录中...</string>
+    <string name="updating">更新中</string>
+    <string name="creating_chat">创建聊天中</string>
+    <string name="loading_course">正在加载课程</string>
+    <string name="recording1">正在录音</string>
+    <string name="checking">检测中</string>
+    <string name="logining">登录中</string>
     <string name="saving">保存中</string>
-    <string name="scoring">正在评分...</string>
+    <string name="scoring">正在评分</string>
     <string name="watching">观看中</string>
     <string name="unwatch">未观看</string>
     <string name="class_creating">创建中</string>
@@ -456,7 +461,7 @@
     <string name="pop_course_menu_note">笔记列表</string>
 
     <string name="pop_course_menu_class_member">班级成员</string>
-    <string name="pop_course_menu_exit_class">退出班课</string>
+    <string name="pop_course_menu_exit_class">退出课程</string>
 
     <string name="pop_course_menu_modify_course">修改课程</string>
     <string name="pop_course_menu_end_course">结束课程</string>
@@ -491,7 +496,7 @@
     <string name="text_get_course">正在获取课程</string>
     <string name="text_pull_up_load_more">上拉加载更多</string>
     <string name="text_disentangle_load_more">松开加载更多</string>
-    <string name="text_loading">优优正在努力加载...</string>
+    <string name="text_loading">优优正在努力加载</string>
     <string name="text_timelimit_practice">限时练习</string>
     <string name="text_teacher_close_study">老师关闭了学习</string>
     <string name="text_cancel_send_finger_upglide">手指上滑取消发送</string>
@@ -568,8 +573,8 @@
     <string name="text_unanswer"> 未作答 </string>
     <string name="text_click_choose_answer">点击选择答案 </string>
     <string name="text_org_course_empty">您的机构下没有课程</string>
-    <string name="text_join_quit_class_apply">加班申请</string>
-    <string name="text_join_quit_class_apply_empty">没有加班申请</string>
+    <string name="text_join_quit_class_apply">加退班申请</string>
+    <string name="text_join_quit_class_apply_empty">没有加退班申请</string>
     <string name="text_join_class_apply_empty">暂时没有加班申请</string>
     <string name="text_quit_class_apply_empty">暂时没有退班申请</string>
     <string name="text_apply_count_format" formatted="false">共 %d 个新申请</string>
@@ -616,6 +621,7 @@
     <string name="about_menu_operation_guide">操作指南</string>
     <string name="about_menu_operation_update_notify">更新通知</string>
     <string name="about_menu_operation_feedback">意见反馈</string>
+    <string name="privacy_policy">隐私政策</string>
     <string name="about_menu_operation_update">检查更新</string>
 
     <string name="active_status_attendancing">点名中</string>
@@ -716,6 +722,8 @@
     <string name="course_app_class">课堂</string>
     <string name="course_app_test">考试</string>
     <string name="course_app_exam">考核</string>
+    <string name="course_app_words">单词听写</string>
+    <string name="course_app_speak">口语评测</string>
     <string name="course_app_assess">分析</string>
     <string name="course_app_member">成员</string>
 
@@ -744,8 +752,8 @@
     <string name="title_class_quit_apply">退班需要申请</string>
 
     <string name="join_class_apply">加入班级申请</string>
-    <string name="join_class_course_apply_count">个加入班课的申请</string>
-    <string name="quit_class_apply">退出班级申请</string>
+    <string name="join_class_course_apply_count">个加退班申请</string>
+    <string name="quit_class_apply">退出课程申请</string>
 
     <string name="title_course_name">课程名称</string>
     <string name="qr">二维码扫描</string>
@@ -790,12 +798,12 @@
     <string name="active_text_book_not_edit_remind">刮开纸质教材或学习卡背面的涂层,将激活码输入至下面空白框内</string>
     <string name="active_text_book_searched_remind">根据您输入的激活码查询到以下信息：</string>
     <string name="active_text_book_only_pc_remind">该课程不支持在手机上学习，请使用电脑学习</string>
-    <string name="active_text_book_not_edit_remind2">1.刮开纸质教材底部或学习卡的涂层获取激活码\n2.教材需在本人帐号下激活，请勿为其他人激活</string>
-    <string name="active_text_book_special_remind">特别提示:\n· 每张学习卡只能激活一次\n· 课件学习有效期自激活之日算起180天\n· 请使用自己的帐号登录激活</string>
+    <string name="active_text_book_not_edit_remind2">1.刮开纸质教材底部或学习卡的涂层获取激活码或二维码\n2.教材需在本人帐号下激活，请勿为其他人激活</string>
+    <string name="active_text_book_special_remind">特别提示:\n· 每张学习卡只能激活一次\n· 课件学习有效期自激活之日算起180天\n· 请使用自己的帐号登录激活\n· 如遇问题请致电 400 610 7808</string>
     <string name="active_text_book_search_remind">根据您输入的激活码查询到以下信息:</string>
     <string name="active_course_code_wrong">请输入正确的16位激活码</string>
     <string name="active_course_not_same">激活码不匹配!请使用本课件的激活码激活。</string>
-    <string name="active_course_right_course" formatted="false">你的激活码对应的课件:%s</string>
+    <string name="active_course_right_course">你的激活码对应的课件:%s</string>
     <string name="active_course_please_set">请输入激活码</string>
     <string name="active_course_please_set_keyboard">16位字母/数字,请在英文键盘下输入</string>
     <string name="active_course_code_success">课件激活成功</string>
@@ -876,7 +884,7 @@
     <string name="login_wechat_confirm">微信登录</string>
     <string name="login_wechat_binded">已绑定，点击解绑</string>
     <string name="login_binded_now">立即绑定</string>
-    <string name="login_wechat_app_not_installed">请安装微信客户端</string>
+    <string name="login_wechat_app_not_installed">请安装微信客户端和保持微信开启</string>
     <string name="login_qq_confirm">QQ登录</string>
     <string name="login_welcome">欢迎来到优学院</string>
     <string name="login_name">请输入用户名/手机/邮箱</string>
@@ -1018,7 +1026,7 @@
     <string name="no_resource_remind">您还未下载，请返回单元页面下载音视频。</string>
     <string name="course_resource_error_remind">课程已损坏，请致电400 610 7808，我们将立即解决。</string>
     <string name="record_file_not_found_remind">未找到录音文件，或者您的录音已丢失。</string>
-    <string name="mipca_not_find_course_remind">很遗憾，您访问的页面丢失了，请拨打400-610-7808与我们联系</string>
+    <string name="mipca_not_find_course_remind">很遗憾，您访问的页面丢失了，请拨打400—610—7808与我们联系</string>
     <string name="mipca_storecourse_null_remind">没有找到课程，请确定是否已激活课程</string>
     <string name="mipca_storecourse_null_remind_tea">您所在院校未开通本课程，如需体验请联系我们</string>
 
@@ -1043,11 +1051,11 @@
     <string name="remind_welcome_join_course_role">您在本课程的角色是%s</string>
     <string name="remind_welcome_join_course_admin">您可以管理课程所用课件、教学团队、班级成员，查看所有班级的教学情况，也可以创建自己的班级开展教学。</string>
     <string name="remind_finish_course">课程结束后：\n教师不能发布新的资源或活动，也不能修改课程中已有的内容，只能从电脑端查看和导出数据。\n学生可以继续浏览课程中的内容，但是不能再加入课程。\n确定将结束课程？</string>
-    <string name="remind_exit_course">退出班级后，您所在班级的作业、讨论、考试等记录将会清空，课件学习记录不受影响，确定要退出吗？</string>
+    <string name="remind_exit_course">退出课程后，您所在班级的作业、讨论、考试等记录将会清空，课件学习记录不受影响，确定要退出吗？</string>
     <string name="remind_clear_file_cache">确定清除所选课程的缓存文件？</string>
-    <string name="remind_exit_course_fail">退出班课失败</string>
-    <string name="remind_exit_course_success">您已成功退出班级，如需加入新班级请询问老师新班级的二维码或班级编码。</string>
-    <string name="remind_exit_course_wait_for_review">您已成功提交退班申请，请等待老师审核。</string>
+    <string name="remind_exit_course_fail">退出课程失败</string>
+    <string name="remind_exit_course_success">您已成功退出课程，如需加入新班级请询问老师新班级的二维码或班级编码。</string>
+    <string name="remind_exit_course_wait_for_review">您已成功提交退班申请，请等待教师审核。教师审批之前可以撤回申请。</string>
     <string name="remind_delete_course">删除后，课程将无法恢复，已经加入该课程的学生将无法继续学习，请谨慎操作！</string>
     <string name="remind_welcome_join_course_assistant">课程管理员或教师会为您指定班级，您可以协助教师开展教学。</string>
     <string name="remind_welcome_join_course_tea">课程管理员可能会为您分配班级，您也可以自己在课程中创建班级开展教学。</string>
@@ -1080,13 +1088,13 @@
     <string name="remind_join_class_course_different_org" formatted="false">您当前所在院校:\n%s\n加入该班课后,会将你的学校信息改为\n%s\n确定加入该班课?</string>
 
     <string name="remind_once_main_tab_mine">在这里查看我的班级、消\n息、个人资料和小应用</string>
-    <string name="remind_tools_empty">暂时没有应用</string>
+    <string name="remind_tools_empty">没有可用的应用</string>
     <string name="remind_once_main_tab_activity">作业和班级活动在这里</string>
     <string name="remind_once_lookup_student_course_progress">点图标查看学生进度成绩</string>
     <string name="remind_once_public_activity">点击发起班级活动</string>
     <string name="remind_once_show_or_edit_profile">点击查看并补全个人信息</string>
     <string name="remind_once_sync_study_record">点击同步学习记录</string>
-    <string name="remind_sync_record_ing">同步中...</string>
+    <string name="remind_sync_record_ing">同步中</string>
     <string name="remind_sync_record_success">同步成功</string>
     <string name="remind_sync_record_fail">同步失败，下拉刷新试试</string>
     <string name="remind_once_download_course_resource">下载离线课件包，断网也\n可以学习</string>
@@ -1125,7 +1133,7 @@
     <string name="download_pause">暂停</string>
     <string name="download_clear_section_all">清除本节资源</string>
 
-    <string name="person_info_1">如果您的帐号下没有课程，可以与我们取得联系。电话：400-610-7808</string>
+    <string name="person_info_1">如果您的帐号下没有课程，可以与我们取得联系。电话：400—610—7808</string>
     <string name="person_info_2">经我们核实您的信息后，您可以免费试使用我们的课程、教案、题库以及其他优质的教学服务。</string>
     <string name="person_info_have_tel">关联后,您可以使用新的手机号登陆</string>
     <string name="person_info_not_have_tel">为了方便找回密码,请关联手机号。关联后,您可以使用新的手机号登录</string>
@@ -1134,7 +1142,7 @@
     <string name="permission_camera_string_help_text">无法访问您的摄像机，请为应用开启相机权限。</string>
     <string name="permission_hint">权限提示</string>
     <string name="permission_btn_ok">@string/iknow</string>
-    <string name="filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="filter_vcode" translatable="false">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
 
     <string name="login_error_message_no_connection">当前网络不可用，请检查你的网络设置</string>
     <string name="networkerror">当前网络不可用，请检查网络连接</string>
@@ -1194,8 +1202,8 @@
     <string name="area_select_title">选择区域</string>
     <string name="area_select_latin_america">拉美</string>
     <string name="area_select_asia_pacific">亚太</string>
-    <string name="area_select_mainland_china">中国大陆</string>
-    <string name="area_select_south_africa">南非</string>
+    <string name="area_select_mainland_china">中国</string>
+    <string name="area_select_south_africa">非洲</string>
 
     <!--新增替换服务端语言-->
     <string name="server_msg_repeat_folder">已有相同名称的文件夹，请修改文件夹名称！</string>
@@ -1203,8 +1211,6 @@
     <string name="first_in_activity_icon_name">pop_activity</string>
 
     <string name="server_msg_course_name_unmatched">课程名长度必须在2~100字以内</string>
-    <string name="server_msg_username_inexit">用户名不存在</string>
-    <string name="server_msg_pwd_error">密码错误</string>
 
     <string name="agreement_title">用户协议与隐私保护</string>
     <string name="agreement_ok_accept">同意并使用</string>
@@ -1265,24 +1271,24 @@
     <string name="change_bind_email">修改/绑定邮箱</string>
     <string name="single_register">个人注册</string>
     <string name="bind_welcom_info">尊敬的用户,为了提示帐号安全性,请先绑定手机号或邮箱(至少绑定一项)</string>
-    <string name="school_num_input_hint">请输入长度在4-20位之间的字符串</string>
+    <string name="school_num_input_hint">请输入长度在4—20位之间的字符串</string>
 
 
     <string name="select_region">选择区域</string>
     <string name="select_region_message">优学院为不同的地区提供独立的服务，请在登录前选择您的组织所在的地区。</string>
-    <string name="latin_america">拉美</string>
-    <string name="asia_pacific">亚太</string>
-    <string name="china_mainland">中国大陆</string>
-    <string name="south_africa">南非</string>
-
-
+    <string name="latin_america">拉丁美洲</string>
+    <string name="asia_pacific">亚太地区</string>
+    <string name="china_mainland">中国</string>
+    <string name="zambia">赞比亚</string>
+    <string name="africa">非洲</string>
+    <string name="sandBox">沙盒</string>
     <string name="warning_new_pwd_null">请输入新密码</string>
-    <string name="warning_pwd_length">密码长度6-16位字符</string>
+    <string name="warning_pwd_length">密码长度6—16位字符</string>
 
     <string name="tip_type_not_image">选择的不是图片</string>
     <string name="tip_no_camera">没有相机</string>
     <string name="tip_tips">提示</string>
-    <string name="tip_compress">正在压缩照片...</string>
+    <string name="tip_compress">正在压缩照片</string>
     <string name="tip_compress_failed">"%1$s 图片压缩失败:%2$s picturePath:%3$s"</string>
     <string name="msg_crop_failed">"有裁切失败的图片"</string>
     <string name="msg_compress_failed">"有压缩失败的图片"</string>
@@ -1296,7 +1302,6 @@
     <!--custom multipleimageselect -->
     <string name="album_view">选择图片</string>
     <string name="image_view">单击选择</string>
-    <string name="select_file_count_to_many">选择文件数量超过限制</string>
 
     <string name="add">确定</string>
     <string name="selected">已选</string>
@@ -1309,8 +1314,8 @@
     <string name="permission_package">package</string>
 
     <string name="select_local_file">选择本机文件</string>
-    <string name="select_local_file_help">如果未能扫描到设备文件，请将文件拷贝至\nAndroid/data/cn.ulearning.yxy/files/</string>
-    <string name="file_size_too_big">文件大小超过限制</string>
+    <string name="select_local_file_help">如果未能扫描到目标文件，请从本机选择</string>
+    <string name="file_size_too_big">文件超过200M,请从电脑端上传！</string>
 
     <string name="voted">已投</string>
     <string name="not_voted">未投</string>
@@ -1353,8 +1358,85 @@
     <string name="complain_fail">申诉失败</string>
     <string name="not_reta_wait_teacher">待批阅</string>
 
-    <!--0816新增：Uclass相关 -->
+    <string name="version_updating">更新中</string>
+    <string name="dialog_new_version_title">版本更新啦~</string>
+    <string name="update">更新</string>
+
+    <string name="permisstion_store_hint">您的手机禁止优学院app下载课件！\n请授予优学院app读写内存卡权限。</string>
+    <string name="permisstion_store_record_hint">录音过程中需要使用您的存储空间，\n请授予优学院app读取内存卡权限。</string>
+
+    <string name="operation_look_storage_permisstion_setting">查看如何设置</string>
+    <string name="dont_update">不再提醒</string>
+    <string name="course_player_loading">正在更新课程播放器，请稍候</string>
+    <string name="course_player_unzip">即将开始学习,请稍候</string>
+    <string name="srl_header_pulling">下拉可以刷新</string>
+    <string name="srl_header_refreshing">正在刷新…</string>
+    <string name="srl_header_loading">正在加载…</string>
+    <string name="srl_header_release">释放立即刷新</string>
+    <string name="srl_header_finish">刷新完成</string>
+    <string name="srl_header_failed">刷新失败</string>
+    <string name="srl_header_update">上次更新 M-d HH:mm</string>
+    <string name="srl_header_secondary">释放进入二楼</string>
+
+    <string name="srl_footer_pulling">上拉加载更多</string>
+    <string name="srl_footer_release">释放立即加载</string>
+    <string name="srl_footer_loading">正在加载…</string>
+    <string name="srl_footer_refreshing">正在刷新…</string>
+    <string name="srl_footer_finish">加载完成</string>
+    <string name="srl_footer_failed">加载失败</string>
+    <string name="srl_footer_nothing">没有更多数据了</string>
+
+    <string name="srl_content_empty">SmartRefreshLayout中没有找到内容视图。您是否忘记在xml布局文件中添加？</string>
+    <string name="srl_component_falsify" formatted="false">%s 虚假区域\n代表运行时拖动的高度【%.1fdp】 \n而不会显示任何东西</string>
+
+    <string name="pull_to_refresh_pull_label">拉动以刷新</string>
+    <string name="pull_to_refresh_release_label">发布以刷新</string>
+    <string name="pull_to_refresh_refreshing_label">正在加载</string>
+
+
+    <string name="feedback_hint">请写下您的意见或建议</string>
+    <string name="feedback_log_hint">提交日志</string>
+    <string name="only_add_ten_textbook">只能添加10个课件</string>
+    <string name="document_no_support_down">文档暂不支持缓存</string>
+    <string name="teacher_not_support">教师不支持此功能</string>
+
+    <string name="app_setting">应用设置</string>
+    <string name="server_setting">服务器</string>
+    <string name="language_setting">语言</string>
+    <string name="cube_ptr_pull_down">Pull Down</string>
+    <string name="cube_ptr_pull_down_to_refresh">Pull Down to Refresh</string>
+    <string name="cube_ptr_release_to_refresh">Release To Refresh</string>
+    <string name="cube_ptr_refreshing">Updating</string>
+    <string name="cube_ptr_refresh_complete">Updated</string>
+
+    <string name="cube_ptr_last_update">last update:&#160;</string>
+    <string name="cube_ptr_seconds_ago">&#160;seconds ago</string>
+    <string name="cube_ptr_minutes_ago">&#160;minutes ago</string>
+    <string name="cube_ptr_hours_ago">&#160;hours ago</string>
+
+    <string name="exit_class_ing">已申请退出课程，请等待教师审核。</string>
+    <string name="exit_class_cancel">撤回</string>
+    <string name="active_code_use">激活码只 能使用一次。如非本人激活，可与同学联系是否拿错教材，或联系客服。</string>
+    <string name="active_code_use_person">激活码已被使用，激活账号:</string>
+    <string name="exit_class_finish">您已退出课程</string>
+
+    <string name="permission_apply">权限申请</string>
+    <string name="permission_overlay">为了保证您正常使用优学院内以下功能，需要您授权优学院悬浮权限：\n\n投屏、直播</string>
+    <string name="permission_read_external">为了保证您正常使用优学院内以下功能，需要您授权优学院读取存储权限：\n\n读取应用缓存数据、图片、文件</string>
+    <string name="permission_camera">为了保证您正常使用优学院内以下功能，需要您授权优学院获取相机权限：\n\n扫一扫，上传/更换头像，在公告、投票、作业和考试模块拍照上传图片附件，在考试中进行人脸验证和摄像监控、在直播中使用视频授课及师生视频连麦、客服系统。</string>
+    <string name="permission_location">为了保证您正常使用优学院内点名签到、考试、投屏功能，需要您授权优学院获取位置信息权限。</string>
+    <string name="permission_microphone">为了保证您正常使用优学院内以下功能，需要您授权优学院获取麦克风权限：\n\n口语练习、口语作业、单词听写、口语评测、口语考试、直播功能、客服系统。</string>
+    <string name="permission_camera_fail">您已禁用相机权限，无法使用此功能，请进入手机【设置】进行授权</string>
+    <string name="permission_microphone_fail">您已禁用录音权限，无法使用此功能，请进入手机【设置】进行授权</string>
+    <string name="permission_location_fail">您已禁用定位权限，无法使用此功能，请进入手机【设置】进行授权</string>
+    <string name="permission_read_storage_fail">您已禁用读取存储权限，无法使用此功能，请进入手机【设置】进行授权</string>
+    <string name="permission_camera_microphone_fail">您已禁用相机或麦克风权限，无法使用此功能，请进入手机【设置】进行授权</string>
+
     <string name="title_of_top">置顶</string>
+    <string name="item_all_class">全部班级</string>
+    <string name="sso_login">SSO 登录</string>
+    <string name="select_file_count_to_many">选择文件数量超过限制</string>
+
     <string name="not_allow_double_tap">请勿频繁点击</string>
     <string name="title_of_projection">投屏</string>
     <string name="projection_on">投屏中</string>
@@ -1362,4 +1444,10 @@
     <string name="permission_location_wifi_fail">您已禁用位置权限，无法获取WiFi名称，请进入手机【设置】进行授权</string>
     <string name="screen_fail_1">投屏失败！请打开大屏客户端，打开投屏功能，请确保手机和大屏处于同一个局域网。</string>
     <string name="screen_fail_2">接收端设备重启或者断开网络</string>
+    <string name="not_run_on_virtualmachine">请勿在虚拟机/模拟器中运行App</string>
+
+    <string name="screen_msg">网络不稳定可能会导致投屏画面丢失，如果大屏上长时间没有显示手机画面，可以停止后再次投屏。</string>
+    <string name="screen_device">设备</string>
+    <string name="screen_network">网络</string>
 </resources>
+
