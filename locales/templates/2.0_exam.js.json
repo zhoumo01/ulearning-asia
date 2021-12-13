@@ -271,10 +271,6 @@
     "message": "选择班级：",
     "description": "2.0 exam.js"
   },
-  "derivedExaminationAnalysis": {
-    "message": "导出考试分析",
-    "description": "2.0 exam.js"
-  },
   "basicInformation": {
     "message": "基本情况",
     "description": "2.0 exam.js"
@@ -2591,6 +2587,10 @@
     "message": "考试名称应该在2~100个字符之间",
     "description": "2.0 exam.js"
   },
+  "pleaseSelectExamTime": {
+    "message": "考试答题时长应该大于等于0",
+    "description": "2.0 exam.js"
+  },
   "setExamTips16": {
     "message": "至少保留一个启用试卷",
     "description": "2.0 exam.js"
@@ -3429,6 +3429,26 @@
   },
   "roomTips16": {
     "message": "当前场次已结束",
+    "description": "2.0 exam.js"
+  },
+  "exportAnalysisExcelreport": {
+    "message": "导出分析报告",
+    "description": "2.0 exam.js"
+  },
+  "derivedExaminationAnalysisExcel": {
+    "message": "导出Excel版",
+    "description": "2.0 exam.js"
+  },
+  "waitExeclDownload": {
+    "message": "请稍等，正在导出......",
+    "description": "2.0 exam.js"
+  },
+  "donwloadFalse": {
+    "message": "导出失败",
+    "description": "2.0 exam.js"
+  },
+  "derivedExaminationAnalysis": {
+    "message": "导出考试分析",
     "description": "2.0 exam.js"
   },
   "activeExam": {
