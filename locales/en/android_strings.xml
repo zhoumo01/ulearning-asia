@@ -1,83 +1,85 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">ULearning</string>
-    <string name="app_name_debug">ULearning-D</string>
+    <string name="app_name_debug">ULearning</string>
 
-    <string name="chat_press_talk">Press  Speak</string>
-    <string name="chat_release_send">Release  End</string>
-    <string name="chat_image">Picture</string>
-    <string name="chat_file">Document</string>
+    <string name="chat_press_talk">Hold to Speak</string>
+    <string name="chat_release_send">Release to End</string>
+    <string name="chat_image">Images</string>
+    <string name="chat_file">Documents</string>
     <string name="chat_photo">Shoot</string>
-    <string name="chat_video">Small video</string>
+    <string name="chat_video">Short Video</string>
 
-    <!-- time -->
     <string name="time_yesterday">Yesterday</string>
-    <string name="time_day">-</string>
-    <string name="time_month">-</string>
-    <string name="time_year">-</string>
+    <string name="time_day">Day</string>
+    <string name="time_month">Month</string>
+    <string name="time_year">Year</string>
 
-    <string name="server_error">System is under maintenance，please try again later</string>
+    <string name="now_ready_data">The courseware data is being prepared, please wait.</string>
 
-    <string name="toast_other_lesson_progress" formatted="false">Caching courseware%s/%s</string>
+    <string name="server_error">The system is under maintenance, please try again later.</string>
 
-    <string name="toast_please_check_if_the_SD_card_is_inserted">Check the SD card if it is plugged in！</string>
+    <string name="toast_other_lesson_progress" formatted="false">Caching the courseware %s/%s</string>
+
+    <string name="toast_please_check_if_the_SD_card_is_inserted">Please check if the SD card is inserted properly!</string>
     <!--<string name="telphone">400 610 7808</string>-->
     <string name="dialog_ok">@string/know</string>
-    <string name="dialog_quit" formatted="false">Quit(%s)</string>
+    <string name="dialog_quit" formatted="false">Logging out (%s)</string>
     <string name="dialog_confirm">Confirm</string>
     <string name="dialog_delete">@string/delete</string>
     <string name="dialog_cancel">Cancel</string>
-    <string name="dialog_ask_logout">Want to quit login</string>
-    <string name="normal_logout">exit</string>
+    <string name="dialog_ask_logout">Want to log out?</string>
+    <string name="normal_logout">Log out</string>
 
     <string name="iknow">@string/know</string>
-    <string name="know">OK noted</string>
+    <string name="know">Got It!</string>
     <string name="cancel">Cancel</string>
     <string name="ok">Ok</string>
-    <string name="leave">Leaving</string>
-    <string name="continue_to_create">Continue to create</string>
+    <string name="leave">Leave</string>
+    <string name="continue_to_create">Continue to Create</string>
     <string name="today">Today</string>
     <string name="mult_select">Multiple choice</string>
     <string name="operation_save">Save</string>
     <string name="operation_create">Create</string>
-    <string name="operation_create_course">Create course</string>
-    <string name="operation_create_course_next">Next step</string>
+    <string name="operation_create_course">Create</string>
+    <string name="operation_create_course_next">Next</string>
     <string name="operation_create_course_code">Scan QR code to join the class</string>
+    <string name="scan_qrcode">Scan QR Code</string>
     <string name="operation_download">Download</string>
-    <string name="operation_goon_study">Continue! I am rich</string>
-    <string name="operation_not_study">Forget about it</string>
-    <string name="operation_go_on_download">Continue to download</string>
+    <string name="operation_goon_study">Continue</string>
+    <string name="operation_not_study">Quit</string>
+    <string name="operation_go_on_download">Continue to Download</string>
     <string name="operation_send">Send</string>
-    <string name="operation_send_message">Send message</string>
+    <string name="operation_send_message">Send Message</string>
     <string name="operation_archive">Archive</string>
-    <string name="operation_quit_account">Exit from current account</string>
-    <string name="operation_quit_class">Quit the class</string>
-    <string name="operation_delete_class">Delete class</string>
+    <string name="operation_quit_account">Log out</string>
+    <string name="operation_quit_class">Withdraw</string>
+    <string name="operation_delete_class">Delete Class</string>
     <string name="operation_student_list_sort_change">Change</string>
     <string name="operation_go_on_study">Continue</string>
-    <string name="operation_course_download_clear_all">Clear all</string>
-    <string name="operation_change_telphone">Change link up mobile number</string>
-    <string name="operation_relevance_telphone">Link up mobile phone number</string>
-    <string name="operation_get_verification_code">Get verification code</string>
-    <string name="operation_download_all">Download</string>
-    <string name="operation_reject_all">Reject completely</string>
-    <string name="operation_agree_all">Agree completely</string>
-    <string name="operation_reject">Reject</string>
+    <string name="operation_course_download_clear_all">Clear All</string>
+    <string name="operation_change_telphone">Change Phone</string>
+    <string name="operation_relevance_telphone">Link Phone</string>
+    <string name="operation_get_verification_code">Get Verification Code</string>
+    <string name="operation_download_all">Download All</string>
+    <string name="operation_reject_all">Decline All</string>
+    <string name="operation_agree_all">Agree All</string>
+    <string name="operation_reject">Decline</string>
     <string name="operation_agree">Agree</string>
-    <string name="operation_start_study">Start learning</string>
+    <string name="operation_start_study">Start Learning</string>
 
-    <string name="operation_progress">Progress</string>
-    <string name="operation_look_progress">Check progress result</string>
-    <string name="icourse_resource" translatable="false">This courseware is provided by [Love Course], please check the courseware statistics from the computer</string>
-    <string name="icourse_resource_student" translatable="false">The courseware resources and data are provided by 【Love Course】</string>
-    <string name="operation_go_study">Oh dear, go back to study</string>
-    <string name="operation_go_study_to_next_page">Marching to the next page</string>
-    <string name="operation_go_study_course">Enter the course</string>
-    <string name="operation_start_answer">Start answering</string>
+    <string name="operation_progress">Learning Progress</string>
+    <string name="operation_look_progress">Check Progress</string>
+    <string name="icourse_resource" translatable="false">This courseware is offered by iCourse. Please check the courseware statistics from ULearning web.</string>
+    <string name="icourse_resource_student" translatable="false">The courseware and data are provided by iCourse</string>
+    <string name="operation_go_study">Back to Learning</string>
+    <string name="operation_go_study_to_next_page">Next Page</string>
+    <string name="operation_go_study_course">Open Course</string>
+    <string name="operation_start_answer">Start</string>
     <string name="operation_refresh_page">Refresh</string>
-    <string name="operation_relogin">Login again</string>
-    <string name="operation_check_grade">Check result</string>
-    <string name="operation_check_all">Check all</string>
+    <string name="operation_relogin">Log in Again</string>
+    <string name="operation_check_grade">View Results</string>
+    <string name="operation_check_all">View All</string>
     <string name="operation_check_all_close">Collapse</string>
     <string name="operation_join_class">Join Class</string>
     <string name="operation_join_class_course">Join class’ course</string>
@@ -136,7 +138,7 @@
     <string name="modify_resource">Rename</string>
     <string name="immediate_experience">Try it now</string>
     <string name="jump">Skip</string>
-    <string name="click_to_skip">Click to skip</string>
+    <string name="click_to_skip">Tap to skip</string>
     <string name="change_textbook">Change</string>
     <string name="setting">Setting</string>
     <string name="copy">Copy</string>
@@ -163,6 +165,7 @@
     <string name="search">Search</string>
     <string name="activate_course">activate</string>
     <string name="activate_textbook">Activate</string>
+
     <string name="recording">In recording</string>
     <string name="playback">Recording playback</string>
     <string name="play_record">Play recording</string>
@@ -188,11 +191,10 @@
     <string name="success">Success</string>
     <string name="fail">Failed</string>
     <string name="system_informs">System Notice</string>
-    <string name="teacher">Teacher</string>
     <string name="assistant">Teaching assistant</string>
     <string name="student">Student</string>
     <string name="manager">Administrator</string>
-    <string name="course_manager">Class administrator</string>
+    <string name="course_manager">Course Admin</string>
     <string name="start_speak">Start reading</string>
     <string name="correct">Correct</string>
     <string name="wrong">Wrong</string>
@@ -230,7 +232,7 @@
     <string name="clear_cache">Clear cache</string>
 
     <string name="my_class">My Class</string>
-    <string name="look_my_class">Check my class</string>
+    <string name="look_my_class">Go to my class</string>
     <string name="my_text_book">My eTextbooks</string>
     <string name="my_score">My points</string>
     <string name="class_status_apply">Class Apply</string>
@@ -280,7 +282,7 @@
     <string name="hint_input_new_pwd_rule">Password must be 8-16 characters, and include both letters and numbers (passwords are case-sensitive)</string>
     <string name="hint_input_new_pwd_again">Please key in new password again</string>
     <string name="hint_input_class_name">Enter class name</string>
-    <string name="hint_input_course_name">Please enter course name</string>
+    <string name="hint_input_course_name">Tap to enter the course name</string>
     <string name="hint_input_edit_class_name">Please enter class name, if more than a class, please separated by”;”</string>
     <string name="hint_search_contact">Search for contact person</string>
     <string name="hint_search_course">Search course</string>
@@ -335,7 +337,7 @@
     <string name="hint_keep_least_one_class">At least one class must be selected</string>
     <string name="hint_course_empty">Temporarily no course!</string>
     <string name="hint_choose_teach_course">Select course</string>
-    <string name="hint_choose_course_cover">Choose a course cover</string>
+    <string name="hint_choose_course_cover">Select a course cover</string>
     <string name="hint_modify_personal_info_fail">@string/modify_fail</string>
     <string name="hint_quit_class_info">After quitting the class, you will not be able to check activities related to the class, for example assignment, exams, etc, confirm to quit?</string>
     <string name="hint_quit_class_success">Successfully quitting the class！</string>
@@ -602,7 +604,7 @@
     <string name="toast_not_get_user_info">User info unfound</string>
     <string name="toast_name_empty">Name is empty, or it may contain spacing!</string>
     <string name="toast_course_name_empty">Course name is empty!</string>
-    <string name="toast_course_cover_empty">Please choose a course cover!</string>
+    <string name="toast_course_cover_empty">Please select a course cover!</string>
     <string name="toast_student_number_empty">Student ID is empty, or may contain spacing!</string>
     <string name="toast_email_empty">Mailbox is empty, or may contain spacing!</string>
     <string name="toast_email_format_error">Mailbox format error! Please key in again!</string>
@@ -743,7 +745,7 @@
     <string name="course_app_member">Member</string>
 
     <string name="course_home_course_textbook">Courseware</string>
-    <string name="course_cover">Course cover</string>
+    <string name="course_cover">Course Cover</string>
     <string name="course_home_manage">Manage</string>
 
     <string name="class_year">Class year</string>
@@ -821,7 +823,7 @@
     <string name="active_course_code_wrong">Please enter the correct 16-characters activation code </string>
     <string name="active_course_not_same">Activation code does not match! Please use the activation code of this courseware to activate. </string>
 
-    <string name="active_course_right_course" formatted="false">Your activation code corresponds to courseware: </string>
+    <string name="active_course_right_course">Your activation code corresponds to courseware: </string>
     <string name="active_course_please_set">Please enter activation code</string>
     <string name="active_course_please_set_keyboard">There are 16 characters of letters/numbers, please type under the English keyboard </string>
     <string name="active_course_code_success">Courseware activation success</string>
@@ -892,8 +894,8 @@
     <string name="feedback_activity_submit">Submit Feedback</string>
     <string name="pay_activity_title">Course purchase</string>
 
-    <string name="login_confirm">Login</string>
-    <string name="login_title">Login with account password</string>
+    <string name="login_confirm">Log in</string>
+    <string name="login_title">Log in via username/password</string>
     <string name="login_bind">Bind</string>
     <string name="login_no_account">No account</string>
     <string name="login_bind_title">Bind with ULearn account</string>
@@ -907,10 +909,10 @@
     <string name="login_wechat_app_not_installed">Please install WeChat app </string>
     <string name="login_qq_confirm">QQ login</string>
     <string name="login_welcome">Welcome to ULearn</string>
-    <string name="login_name">Please enter username/phone number/e-mail</string>
+    <string name="login_name">Username</string>
     <string name="login_password">Password</string>
     <string name="login_register">Register</string>
-    <string name="login_forget_password">Forgot password</string>
+    <string name="login_forget_password">Forgot password?</string>
     <string name="login_forget_password_line"><u>忘记密码?</u></string>
     <string name="register_activity_title">Register</string>
 
@@ -920,7 +922,7 @@
 
     <string name="main_logout">Your account has been logged on to another mobile phone, please make sure that your are operating it. If not, do change password to safeguard your account</string>
 
-    <string name="main_menu_courses_title">My course</string>
+    <string name="main_menu_courses_title">My Courses</string>
     <string name="main_menu_statistics_sync_success">The learning record has been synchronized</string>
     <string name="main_menu_statistics_sync_failed">Sorry, sychronization failed</string>
     <string name="main_menu_statistics_review">Review</string>
@@ -1076,7 +1078,7 @@
     <string name="remind_welcome_join_course">Welcome to the course. Your role in the course is </string>
     <string name="remind_welcome_join_course_title">Welcome to the course</string>
     <string name="remind_welcome_join_course_role">Your role in the course is %s</string>
-    <string name="remind_welcome_join_course_admin">You can manage all the courseware and teaching team of the course, check for teaching situation of all classes, and create your own class to carry out teaching </string>
+    <string name="remind_welcome_join_course_admin">You can manage the classes, students, and teaching team members of this course. You can add/teach a class. You can also add teacher(s) and/or TA(s) to co-teach a class.</string>
     <string name="remind_finish_course">After the course ended, teachers cannot publish new resources or activities, nor can teachers modify existing content in the course, and can only view and export data from the computer side.\n Students may continue to browse the content of the course, but may not be able to join the course.\n Confirm to end the course? </string>
     <string name="remind_exit_course">After leaving the class, your records of assignments, discussions and examinations in the class will be cleared, while the records of your courseware will not be affected. Confirm to leave class? </string>
     <string name="remind_clear_file_cache">Confirm to clear the cache files for the selected course?</string>
@@ -1091,7 +1093,7 @@
     <string name="remind_create_class_info_tea">Please create your own class or wait for the class administrator to assign classes for you </string>
 
     <string name="remind_create_class_info_ass">Please wait for the class administrator to assign classes for you. You can enter the course directly. </string>
-    <string name="remind_create_class_course">If the course is co-managed by the teaching and research group, it is only necessary for the administrator to create the course while the other teachers need only to join the teaching team. It is not necessary for each teacher to create the course separately. </string>
+    <string name="remind_create_class_course">For courses co-taught or co-managed by a team, only one course needs to be created. Other teachers can be added after the course is created.</string>
     <string name="remind_create_class_course_same_name" formatted="false">Course with the same name has already existed in our school (created by teacher %s). It is suggested that you contact the creator for confirmation, so as to avoid inconvenience caused by repeated name.
 Continue creating? </string>
     <string name="remind_modify_class_course_same_name" formatted="false">Course with the same name has already existed in our school (created by teacher %s). It is suggested that you contact the creator for confirmation, so as to avoid inconvenience caused by repeated name.
@@ -1179,7 +1181,7 @@ Continue saving? </string>
     <string name="permission_btn_ok">@string/iknow</string>
 
 
-    <string name="filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="filter_vcode" translatable="false">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
 
     <string name="login_error_message_no_connection">&quot;Network can't be used, please check your network setting&quot;</string>
     <string name="networkerror">&quot;Network can't be used, please check network connection&quot;</string>
@@ -1223,8 +1225,6 @@ Continue saving? </string>
     <string name="first_in_activity_icon_name">pop_activity_en</string>
 
     <string name="server_msg_course_name_unmatched">The course name must be within 2 to 100 characters. </string>
-    <string name="server_msg_username_inexit">User name does not exist </string>
-    <string name="server_msg_pwd_error">Wrong password</string>
 
     <string name="agreement_title"> User agreement and privacy protection </string>
     <string name="agreement_ok_accept">Agree and use </string>
@@ -1290,11 +1290,10 @@ Continue saving? </string>
 
 
     <string name="select_region">Select Region</string>
-    <string name="select_region_message">ULearning provides separate services for different locales, please select the region of your organization before logging in</string>
+    <string name="select_region_message">ULearning provides separate services for different regions. Please select the region where your organization is located before logging in.</string>
     <string name="latin_america">Latin America</string>
     <string name="asia_pacific">Asia Pacific</string>
     <string name="china_mainland">Mainland China</string>
-    <string name="south_africa">South Africa</string>
 
 
     <string name="warning_new_pwd_null">Please key in new password</string>
@@ -1318,7 +1317,6 @@ Continue saving? </string>
     <!--custom multipleimageselect -->
     <string name="album_view">select picture</string>
     <string name="image_view">a select</string>
-    <string name="select_file_count_to_many">select file too many</string>
 
     <string name="add">confirm</string>
     <string name="selected">selected</string>
@@ -1376,8 +1374,10 @@ Continue saving? </string>
     <string name="complain_fail"> appeal failed</string>
     <string name="not_reta_wait_teacher">Pending review</string>
 
-    <!--0816新增：Uclass相关 -->
+
     <string name="title_of_top">Stick to top</string>
+    <string name="select_file_count_to_many">select file too many</string>
+
     <string name="not_allow_double_tap">Do not click frequently</string>
     <string name="title_of_projection"> Screen casting </string>
     <string name="projection_on">In the screen</string>
@@ -1385,4 +1385,5 @@ Continue saving? </string>
     <string name="permission_location_wifi_fail">The Location of your device is off and the WiFi name cannot be obtained. Please go to &quot;Settings&quot; and turn Location on.</string>
     <string name="screen_fail_1">Failed to cast screen! Please open UClass on the large screen and then turn on the screen casting function. Note: Make sure that your mobile device and the large screen are in the same local area network.</string>
     <string name="screen_fail_2">Either the receiving device is restarting or the network is disconnected!</string>
-</resources>
+
+    </resources>
