@@ -10,11 +10,12 @@
     <string name="chat_photo">التقاط</string>
     <string name="chat_video">فيديو صغير</string>
 
-    <!-- time -->
     <string name="time_yesterday">أمس</string>
     <string name="time_day">-</string>
     <string name="time_month">-</string>
     <string name="time_year">-</string>
+
+    <string name="now_ready_data">الرجاء الانتظار أثناء إعداد بيانات البرامج الدراسية.</string>
 
     <string name="server_error">الموقع قيد الصيانة، الرجاء المحاولة مرة أخرى لاحقا</string>
     <string name="toast_other_lesson_progress" formatted="false">التخزين المؤقت لأدوات الدورة التدريبية٪s/٪s</string>
@@ -37,9 +38,10 @@
     <string name="mult_select">الاختيار من متعدد</string>
     <string name="operation_save">حفظ</string>
     <string name="operation_create">إنشاء</string>
-    <string name="operation_create_course">إنشاء دورة دراسية</string>
+    <string name="operation_create_course">خلق</string>
     <string name="operation_create_course_next">الخطوة التالية</string>
     <string name="operation_create_course_code">مسح رمز الاستجابة السريعة للانضمام إلى الفصل الدراسي</string>
+    <string name="scan_qrcode">مسح التعليمات البرمجية</string>
     <string name="operation_download">تنزيل</string>
     <string name="operation_goon_study">استمر! أنا غني</string>
     <string name="operation_not_study">أنسى الأمر</string>
@@ -158,6 +160,8 @@
     <string name="search">بحث</string>
     <string name="activate_course">تنشيط</string>
     <string name="activate_textbook">تنشيط</string>
+    <string name="input_active_code">- أو أدخل رمز تنشيط</string>
+
     <string name="recording">يتم التسجيل</string>
     <string name="playback">تشغيل التسجيل</string>
     <string name="play_record">تشغيل التسجيل</string>
@@ -183,7 +187,7 @@
     <string name="success">نجاح</string>
     <string name="fail">لم نتمكن</string>
     <string name="system_informs">إشعار النظام</string>
-    <string name="teacher">المعلم</string>
+    <string name="yxy_teacher">المعلم</string>
     <string name="assistant">معيد</string>
     <string name="student">طالب</string>
     <string name="manager">مدير</string>
@@ -202,6 +206,7 @@
     <string name="rewatch">يمكنك التحقق من ذلك مرة أخرى</string>
     <string name="campus_list">الحرم الجامعي</string>
     <string name="outside_list">خارجية</string>
+    <string name="icourse_list" translatable="false">دورات الحب</string>
     <string name="wechat">WeChat</string>
     <string name="chose_all">إختيار الكل</string>
     <string name="cancel_chose_all">إلغاء تحديد الكل</string>
@@ -264,6 +269,7 @@
     <string name="hint_input_telphone">يرجى إدخال رقم الهاتف المحمول</string>
     <string name="hint_input_username_pwd">الرجاء إدخال اسم المستخدم أو كلمة المرور</string>
     <string name="hint_input_username">الرجاء إدخال اسم المستخدم</string>
+    <string name="login_check_privacy_policy">يرجى التحقق قبل تسجيل الدخول</string>
     <string name="hint_input_pwd_please">الرجاء إدخال كلمة المرور</string>
     <string name="hint_input_pwd">الرجاء إدخال كلمة المرور القديمة </string>
     <string name="hint_input_new_pwd">الرجاء إدخال كلمة المرور الجديدة</string>
@@ -614,6 +620,7 @@
     <string name="about_menu_operation_guide">دليل المستخدم</string>
     <string name="about_menu_operation_update_notify">تحديث إشعار</string>
     <string name="about_menu_operation_feedback">انطباع</string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
     <string name="about_menu_operation_update">التحقق من التحديث</string>
 
     <string name="active_status_attendancing">جارٍ الاتصال...</string>
@@ -715,6 +722,8 @@
     <string name="course_app_class">فصل دراسي</string>
     <string name="course_app_test">اختبار</string>
     <string name="course_app_exam">تقييم</string>
+    <string name="course_app_words">الإملاء</string>
+    <string name="course_app_speak">اختبار شفوي</string>
     <string name="course_app_assess">تحليل</string>
     <string name="course_app_member">عضو</string>
 
@@ -794,7 +803,7 @@
     <string name="active_text_book_search_remind">تم العثور على المعلومات التالية استنادا إلى رمز التنشيط الذي أدخلته: </string>
     <string name="active_course_code_wrong">&quot;الرجاء إدخال رمز التفعيل الصحيح المكون من 16 حرفا!&quot;؛</string>
     <string name="active_course_not_same">&quot;رمز التنشيط غير مطابق! يرجى استخدام رمز تنشيط المنهج الدراسي للتنشيط.&quot;؛</string>
-    <string name="active_course_right_course" formatted="false">يتوافق رمز التنشيط مع البرامج الدراسية: </string>
+    <string name="active_course_right_course">يتوافق رمز التنشيط مع البرامج الدراسية: </string>
     <string name="active_course_please_set">الرجاء إدخال رمز التفعيل </string>
     <string name="active_course_please_set_keyboard">هناك 16 حرفا من الحروف / الأرقام، يرجى الكتابة تحت لوحة المفاتيح الإنجليزية </string>
     <string name="active_course_code_success">نجاح تنشيط البرامج الدراسية</string>
@@ -1146,7 +1155,7 @@
     <string name="permission_camera_string_help_text">غير قادر على الوصول إلى الكاميرا. الرجاء السماح إذن للوصول إلى الكاميرا!</string>
     <string name="permission_hint">مطالبة الإذن</string>
     <string name="permission_btn_ok">@string / تعرف</string>
-    <string name="filter_vcode">0123456789abcdefghijklmnoprstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="filter_vcode" translatable="false">0123456789abcdefghijklmnoprstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
 
     <string name="login_error_message_no_connection">&quot;لا يمكن استخدام الشبكة، يرجى التحقق من إعداد الشبكة&quot;</string>
     <string name="networkerror">&quot;لا يمكن استخدام الشبكة، يرجى التحقق من اتصال الشبكة&quot;</string>
@@ -1189,9 +1198,6 @@
     <string name="first_in_activity_icon_name">النشاط المنتشر بالإنجليزي</string>
 
     <string name="server_msg_course_name_unmatched">يجب أن يكون اسم الدورة 2-100 حرف!</string>
-    <string name="server_msg_username_inexit">اسم المستخدم غير موجود</string>
-
-    <string name="server_msg_pwd_error">كلمة مرور خاطئة</string>
 
     <string name="agreement_title"> اتفاقية المستخدم وحماية الخصوصية </string>
     <string name="agreement_ok_accept">الموافقة والاستخدام </string>
@@ -1260,9 +1266,11 @@
     <string name="latin_america">أمريكا اللاتينية</string>
     <string name="asia_pacific">آسيا والمحيط الهادئ</string>
     <string name="china_mainland">البر الرئيسى الصينى</string>
-    <string name="south_africa">جنوب أفريقيا</string>
 
 
+    <string name="zambia">زامبيا</string>
+    <string name="africa">أفريقيا</string>
+    <string name="sandBox">رمل</string>
     <string name="warning_new_pwd_null">الرجاء إدخال كلمة المرور الجديدة</string>
     <string name="warning_pwd_length">الرجاء إدخال من 6-16 حرفا أو رقما</string>
 
@@ -1284,7 +1292,6 @@
     <!--custom multipleimageselect -->
     <string name="album_view">حدد صورة</string>
     <string name="image_view">إختر</string>
-    <string name="select_file_count_to_many">تحديد ملفات كثيرة جدا</string>
 
     <string name="add">تأكيد</string>
     <string name="selected">تم الأختيار</string>
@@ -1341,8 +1348,85 @@
     <string name="complain_fail">لم نتمكن من تسجيل الشكوى</string>
     <string name="not_reta_wait_teacher">معلق للمراجعة</string>
 
-    <!--0816新增：Uclass相关 -->
+    <string name="version_updating">في التحديث</string>
+    <string name="dialog_new_version_title">تحديثات الإصدار</string>
+    <string name="update">تحديث</string>
+
+    <string name="permisstion_store_hint">يحظر هاتفك تطبيق You Academy من تنزيل البرامج الدراسية! الرجاء منح التطبيق You Academy أذونات بطاقة الذاكرة للقراءة والكتابة.</string>
+    <string name="permisstion_store_record_hint">تحتاج إلى استخدام مساحة التخزين الخاصة بك أثناء التسجيل، يرجى منح أنت أكاديمية التطبيق إذن لقراءة بطاقات الذاكرة.</string>
+
+    <string name="operation_look_storage_permisstion_setting">معرفة كيفية إعداده</string>
+    <string name="dont_update">لا تذكرني مرة أخرى</string>
+    <string name="course_player_loading">&quot;يتم تحديث مشغل المقرر الدراسي ، يرجى الانتظار&quot;؛</string>
+    <string name="course_player_unzip">الرجاء الانتظار حتى تبدأ دراستك</string>
+    <string name="srl_header_pulling">يمكن تحديث القائمة المنسدلة</string>
+    <string name="srl_header_refreshing">منعش...</string>
+    <string name="srl_header_loading">تحميل...</string>
+    <string name="srl_header_release">حرر التحديث فورا</string>
+    <string name="srl_header_finish">اكتمال التحديث</string>
+    <string name="srl_header_failed">لم نتمكن من التحديث</string>
+    <string name="srl_header_update">آخر تحديث M-d HH:mm</string>
+    <string name="srl_header_secondary">إطلاق سراح في الطابق الثاني</string>
+
+    <string name="srl_footer_pulling"> اسحب لتحميل المزيد </string>
+    <string name="srl_footer_release">الافراج عن الحمل على الفور</string>
+    <string name="srl_footer_loading">تحميل...</string>
+    <string name="srl_footer_refreshing">منعش...</string>
+    <string name="srl_footer_finish">تم التحميل بنجاح</string>
+    <string name="srl_footer_failed">لم نتمكن من التحميل </string>
+    <string name="srl_footer_nothing">لا مزيد من البيانات</string>
+
+    <string name="srl_content_empty">لم يتم العثور على أية طرق عرض للمحتوى في SmartRefresh Layout. هل نسيت إضافته إلى ملف تخطيط xml؟</string>
+    <string name="srl_component_falsify" formatted="false">تمثل المساحة false ٪s ارتفاع سحب وقت التشغيل .1fdp دون عرض أي شيء</string>
+
+    <string name="pull_to_refresh_pull_label">سحب للتحديث</string>
+    <string name="pull_to_refresh_release_label">النشر للتحديث</string>
+    <string name="pull_to_refresh_refreshing_label">جارٍ التحميل...</string>
+
+
+    <string name="feedback_hint">يرجى كتابة تعليقاتك أو اقتراحاتك</string>
+    <string name="feedback_log_hint">إرسال السجل</string>
+    <string name="only_add_ten_textbook">يمكن إضافة ما يصل إلى 10 مناهج دراسية</string>
+    <string name="document_no_support_down">التخزين المؤقت غير معتمد في المستندات في هذا الوقت</string>
+    <string name="teacher_not_support">المعلمون لا يدعمون هذه الميزة</string>
+
+    <string name="app_setting">تطبيق الإعدادات</string>
+    <string name="server_setting">ملقم</string>
+    <string name="language_setting">اللغة</string>
+    <string name="cube_ptr_pull_down">سحب لأسفل</string>
+    <string name="cube_ptr_pull_down_to_refresh">اسحب لأسفل للتحديث</string>
+    <string name="cube_ptr_release_to_refresh">الإصدار إلى تحديث</string>
+    <string name="cube_ptr_refreshing">تحديث</string>
+    <string name="cube_ptr_refresh_complete">تحديث</string>
+
+    <string name="cube_ptr_last_update">آخر تحديث:</string>
+    <string name="cube_ptr_seconds_ago">ثواني</string>
+    <string name="cube_ptr_minutes_ago">دقائق</string>
+    <string name="cube_ptr_hours_ago">منذ ساعات</string>
+
+    <string name="exit_class_ing">طلب الانسحاب من الدورة، يرجى الانتظار حتى يراجع المعلم.</string>
+    <string name="exit_class_cancel">إلغاء النشر</string>
+    <string name="active_code_use">يمكن استخدام رمز التنشيط مرة واحدة فقط. إذا لم يتم تنشيطه، يمكنك الاتصال بالطلاب سواء لأخذ مواد التدريس الخاطئة، أو الاتصال بخدمة العملاء.</string>
+    <string name="active_code_use_person">تم استخدام رمز التنشيط لتنشيط رقم الحساب:</string>
+    <string name="exit_class_finish">لقد انسحبت من الدورة</string>
+
+    <string name="permission_apply">طلب الإذن</string>
+    <string name="permission_overlay">لضمان استخدامك العادي للوظائف التالية داخل الأكاديمية، تحتاج إلى التصريح بحقوق تعليق الأكاديمية الأمريكية: .n</string>
+    <string name="permission_read_external">للتأكد من استخدام الوظائف التالية داخل الأكاديمية، تحتاج إلى تفويض الأكاديمية لقراءة حقوق التخزين: قراءة بيانات ذاكرة التخزين المؤقت للتطبيق والصور والملفات</string>
+    <string name="permission_camera">من أجل ضمان استخدامك العادي للوظائف التالية داخل الأكاديمية ، تحتاج إلى تفويض Ulearning للحصول على أذونات الكاميرا: الاجتياح ، تحميل / استبدال الصور الرمزية ، التقاط الصور وتحميل مرفقات الصور في الإعلان والتصويت والواجبات المنزلية ووحدات الامتحان ، وإجراء التحقق من الوجه ومراقبة الفيديو في الامتحانات ، واستخدام تعليم الفيديو في البث المباشر وفيديو المعلم والطالب ، نظام خدمة العملاء.</string>
+    <string name="permission_location">لضمان استخدامك العادي لتسجيل الدخول إلى الأسماء في الكلية الأمريكية والفحص ووظيفة الشاشة، يجب أن تأذن لك Ulearning بالحصول على أذونات معلومات الموقع.</string>
+    <string name="permission_microphone">من أجل ضمان استخدامك العادي للوظائف التالية داخل الأكاديمية ، تحتاج إلى تفويضك للحصول على حقوق الميكروفون: التدريبات الشفوية ، المهام الشفوية ، إملاء الكلمات ، التقييم الشفوي ، الفحص الشفوي ، وظائف البث المباشر ، نظام خدمة العملاء.</string>
+    <string name="permission_camera_fail">لقد قمت بتعطيل أذونات الكاميرا ولا يمكنك استخدام هذه الميزة، يرجى الانتقال إلى إعدادات الهاتف لتفويض</string>
+    <string name="permission_microphone_fail">لقد قمت بتعطيل حقوق التسجيل ولا يمكنك استخدام هذه الميزة، يرجى الانتقال إلى إعدادات الهاتف لتفويض</string>
+    <string name="permission_location_fail">لقد قمت بتعطيل إذن الموقع ولا يمكنك استخدام هذه الميزة، يرجى الانتقال إلى إعدادات الهاتف لتفويض</string>
+    <string name="permission_read_storage_fail">لقد قمت بتعطيل أذونات تخزين القراءة ولا يمكنك استخدام هذه الميزة، يرجى الانتقال إلى إعدادات الهاتف لتفويض</string>
+    <string name="permission_camera_microphone_fail">لقد عطلت أذونات الكاميرا أو الميكروفون ولا يمكنك استخدام هذه الميزة، انتقل إلى إعدادات هاتفك للتفويض</string>
+
     <string name="title_of_top">أعلى</string>
+    <string name="item_all_class">جميع الفصول الدراسية</string>
+    <string name="sso_login">تسجيل الدخول إلى SSO</string>
+    <string name="select_file_count_to_many">تحديد ملفات كثيرة جدا</string>
+
     <string name="not_allow_double_tap">لا تنقر بشكل متكرر</string>
     <string name="title_of_projection">عرض على الشاشة</string>
     <string name="projection_on">يعرض على الشاشة</string>
@@ -1350,4 +1434,9 @@
     <string name="permission_location_wifi_fail">لقد قمت بتعطيل أذونات الموقع ولا يمكنك الحصول على اسم WiFi، انتقل إلى إعدادات هاتفك للتفويض</string>
     <string name="screen_fail_1">الشاشة فشلت! الرجاء تشغيل عميل الشاشة الكبيرة، تشغيل وظيفة الشاشة، تأكد من أن الهاتف والشاشة الكبيرة على نفس الشبكة المحلية.</string>
     <string name="screen_fail_2">يقوم الجهاز المتلقي بإعادة تشغيل الشبكة أو قطع اتصالها</string>
+    <string name="not_run_on_virtualmachine">لا تقم بتشغيل التطبيق في الجهاز الظاهري / محاكاة</string>
+
+    <string name="screen_msg">قد يؤدي عدم استقرار الشبكة إلى فقدان الشاشة، إذا لم تعرض الشاشة الكبيرة لفترة طويلة شاشة الهاتف المحمول، يمكنك التوقف بعد عرض الشاشة مرة أخرى.</string>
+    <string name="screen_device">جهاز</string>
+    <string name="screen_network">إنترنت</string>
 </resources>
