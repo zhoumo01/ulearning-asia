@@ -155,13 +155,9 @@
     "message": "Semua universitas",
     "description": "2.0 public.js"
   },
-  "courseNumber1": {
-    "message": "Total ",
-    "description": "2.0 public.js"
-  },
-  "courseNumber2": {
-    "message": "mata kuliah",
-    "description": "2.0 public.js"
+  "totalCourse": {
+    "message": "Total kursus {n}",
+    "description": "自定义门户网站 -> 课程 (公开课程等)"
   },
   "departments": {
     "message": "Fakultas",
@@ -191,9 +187,9 @@
     "message": "Lebih banyak mata kuliah",
     "description": "2.0 public.js"
   },
-  "participantsNum": {
-    "message": "Jumlah peserta:",
-    "description": "2.0 public.js"
+  "joinCourseCount": {
+    "message": "Jumlah peserta: {n}",
+    "description": "自定义门户网站 -> 上方搜索框搜索 \n 自定义门户网站 -> 课程(不包括公开课) \n 自定义门户网站 -> 课程详情 \n 管理员账户 -> 系统管理 -> 网站设置 -> 菜单式"
   },
   "customNavigation": {
     "message": "Navigasi kustom",
@@ -291,9 +287,9 @@
     "message": "Tidak ada mata kuliah",
     "description": "2.0 public.js"
   },
-  "netErrorClick": {
-    "message": "Terjadi kesalahan pada jaringan internet, klik",
-    "description": "2.0 public.js"
+  "netError": {
+    "message": "Kesalahan jaringan, klik pada {reloadButton}",
+    "description": "自定义门户网站 -> 课程 (公开课程等)"
   },
   "reload": {
     "message": "Memuat ulang",
@@ -307,17 +303,13 @@
     "message": "Ringkasan konten:",
     "description": "2.0 public.js"
   },
-  "studyTimes": {
-    "message": "kali belajar",
-    "description": "2.0 public.js"
+  "studyTimesOf": {
+    "message": "{n} kali untuk belajar",
+    "description": "自定义门户网站 -> 公开课程 \n 自定义门户网站 -> 上方搜索框搜索"
   },
-  "totalSearch": {
-    "message": "Total telah menemukan",
-    "description": "2.0 public.js"
-  },
-  "about": {
-    "message": "yang berhubungan dengan",
-    "description": "2.0 public.js"
+  "totalSearchResult": {
+    "message": "Total {n} hasil yang terkait dengan \"{keyword}\" telah ditelusuri",
+    "description": "自定义门户网站 -> 上方搜索框搜索"
   },
   "schoolCourse": {
     "message": "Mata kuliah di dalam universitas",
@@ -325,10 +317,6 @@
   },
   "openCourse": {
     "message": "Mata kuliah umum",
-    "description": "2.0 public.js"
-  },
-  "resultNum": {
-    "message": "hasil",
     "description": "2.0 public.js"
   },
   "moreSearchResult": {
@@ -1067,6 +1055,10 @@
     "message": "Putar ulang live",
     "description": "2.0 public.js"
   },
+  "liveAnalysis": {
+    "message": "Analisa live",
+    "description": "2.0 public.js"
+  },
   "live": {
     "message": "Live",
     "description": "2.0 public.js"
@@ -1089,6 +1081,22 @@
   },
   "certificateSettings": {
     "message": "Pengaturan sertifikat",
+    "description": "2.0 public.js"
+  },
+  "certificateTemplate": {
+    "message": "Templat sertifikat saya",
+    "description": "2.0 public.js"
+  },
+  "createCertificate": {
+    "message": "Membuat templat baru",
+    "description": "2.0 public.js"
+  },
+  "selectTemplate": {
+    "message": "Pilih templat",
+    "description": "2.0 public.js"
+  },
+  "electronicSignature": {
+    "message": "Tanda tangan elektronik",
     "description": "2.0 public.js"
   },
   "liveManagement": {
@@ -1541,6 +1549,38 @@
   },
   "identityVerification": {
     "message": "Verifikasi identitas",
+    "description": "2.0 public.js"
+  },
+  "selectDomain": {
+    "message": "Nama domain institusional",
+    "description": "2.0 public.js"
+  },
+  "inputDomainTip": {
+    "message": "Silakan masukkan nama domain institusi Anda",
+    "description": "2.0 public.js"
+  },
+  "networkError": {
+    "message": "Ada kesalahan",
+    "description": "2.0 public.js"
+  },
+  "unopenedError": {
+    "message": "Maaf, agensi ini tidak mengaktifkan login SSO",
+    "description": "2.0 public.js"
+  },
+  "invalidDomainError": {
+    "message": "Domain tidak ditemukan, silakan masukkan kembali",
+    "description": "2.0 public.js"
+  },
+  "blankError": {
+    "message": "Nama domain kosong",
+    "description": "2.0 public.js"
+  },
+  "selectClassification": {
+    "message": "Pilih kategori",
+    "description": "2.0 public.js"
+  },
+  "secondClassification": {
+    "message": "Kategori level 2 (bisa pilih banyak)",
     "description": "2.0 public.js"
   }
 }
