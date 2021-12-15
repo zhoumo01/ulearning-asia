@@ -271,10 +271,6 @@
     "message": "Select Class: ",
     "description": "2.0 exam.js"
   },
-  "derivedExaminationAnalysis": {
-    "message": "Export Analysis Report",
-    "description": "2.0 exam.js"
-  },
   "basicInformation": {
     "message": "Basic Information",
     "description": "2.0 exam.js"
@@ -2591,6 +2587,10 @@
     "message": "The exam name should be between 2 and 100 characters",
     "description": "2.0 exam.js"
   },
+  "pleaseSelectExamTime": {
+    "message": "The exam duration should be geater than or equal to 0.",
+    "description": "2.0 exam.js"
+  },
   "setExamTips16": {
     "message": "Keep at least one exam enabled",
     "description": "2.0 exam.js"
@@ -3429,6 +3429,30 @@
   },
   "roomTips16": {
     "message": "This session has ended.",
+    "description": "2.0 exam.js"
+  },
+  "exportAnalysisExcelreport": {
+    "message": "Export Analysis Report",
+    "description": "2.0 exam.js"
+  },
+  "derivedExaminationAnalysisExcel": {
+    "message": "Export Excel Version",
+    "description": "2.0 exam.js"
+  },
+  "waitExeclDownload": {
+    "message": "Please wait, processing...",
+    "description": "2.0 exam.js"
+  },
+  "donwloadFalse": {
+    "message": "Failed to export.",
+    "description": "2.0 exam.js"
+  },
+  "excelMsg": {
+    "message": "This feature allows you to export the main data in the analysis report to an Excel file. Please select the classes that needs to be counted first.",
+    "description": "2.0 exam.js"
+  },
+  "derivedExaminationAnalysis": {
+    "message": "Export Analysis Report",
     "description": "2.0 exam.js"
   },
   "activeExam": {
