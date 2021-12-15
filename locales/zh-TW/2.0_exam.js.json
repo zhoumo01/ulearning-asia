@@ -271,10 +271,6 @@
     "message": "選擇班級:",
     "description": "2.0 exam.js"
   },
-  "derivedExaminationAnalysis": {
-    "message": "匯出考試分析",
-    "description": "2.0 exam.js"
-  },
   "basicInformation": {
     "message": "基本訊息",
     "description": "2.0 exam.js"
@@ -2591,6 +2587,10 @@
     "message": "考試名稱應該在2~100個字元之間",
     "description": "2.0 exam.js"
   },
+  "pleaseSelectExamTime": {
+    "message": "考試答題時長應該大於或等於0",
+    "description": "2.0 exam.js"
+  },
   "setExamTips16": {
     "message": "至少保留一個啟用考卷",
     "description": "2.0 exam.js"
@@ -3429,6 +3429,30 @@
   },
   "roomTips16": {
     "message": "當前場次已結束",
+    "description": "2.0 exam.js"
+  },
+  "exportAnalysisExcelreport": {
+    "message": "匯出分析報告",
+    "description": "2.0 exam.js"
+  },
+  "derivedExaminationAnalysisExcel": {
+    "message": "匯出Excel版",
+    "description": "2.0 exam.js"
+  },
+  "waitExeclDownload": {
+    "message": "請稍等，正在匯出......",
+    "description": "2.0 exam.js"
+  },
+  "donwloadFalse": {
+    "message": "匯出失敗",
+    "description": "2.0 exam.js"
+  },
+  "excelMsg": {
+    "message": "使用此功能，可以將分析報告中的主要數據，匯出到Excel錶中。 請先選擇需要統計的班級範圍。",
+    "description": "2.0 exam.js"
+  },
+  "derivedExaminationAnalysis": {
+    "message": "匯出考試分析",
     "description": "2.0 exam.js"
   },
   "activeExam": {
