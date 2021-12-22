@@ -10,7 +10,6 @@
     <string name="chat_photo">Tirer</string>
     <string name="chat_video">Petite vidéo</string>
 
-    <!-- time -->
     <string name="time_yesterday">Hier</string>
     <string name="time_day">-</string>
     <string name="time_month">-</string>
@@ -154,6 +153,8 @@
     <string name="search">Rechercher</string>
     <string name="activate_course">activer</string>
     <string name="activate_textbook">Activer</string>
+    <string name="input_active_code">- ou entrez le code d’activation -</string>
+
     <string name="recording">En enregistrement</string>
     <string name="playback">Lecture d’enregistrement</string>
     <string name="play_record">Lire l’enregistrement</string>
@@ -179,7 +180,6 @@
     <string name="success">Succès</string>
     <string name="fail">Raté</string>
     <string name="system_informs">Avis du système</string>
-    <string name="teacher">Enseignant</string>
     <string name="assistant">Assistant d’enseignement</string>
     <string name="student">Étudiant</string>
     <string name="manager">Administrateur</string>
@@ -260,6 +260,7 @@
     <string name="hint_input_telphone">S’il vous plaît saisir le numéro de téléphone mobile</string>
     <string name="hint_input_username_pwd">Veuillez saisir le nom d’utilisateur et le mot de passe</string>
     <string name="hint_input_username">veuillez entrer le nom d’utilisateur</string>
+    <string name="login_check_privacy_policy">Veuillez vérifier avant de vous connecter</string>
     <string name="hint_input_pwd_please">Veuillez entrer le mot de passe</string>
     <string name="hint_input_pwd">Veuillez saisir le mot de passe d’origine</string>
     <string name="hint_input_new_pwd">Veuillez saisir un nouveau mot de passe</string>
@@ -774,7 +775,7 @@
     <string name="active_text_book_search_remind">Les informations suivantes sont trouvées en fonction du code d’activation que vous avez entré : </string>
     <string name="active_course_code_wrong">Veuillez saisir le code d’activation correct de 16 caractères </string>
     <string name="active_course_not_same">Le code d’activation ne correspond pas! Veuillez utiliser le code d’activation de ce didacticiel pour l’activer. </string>
-    <string name="active_course_right_course" formatted="false">Votre code d’activation correspond au didacticiel : </string>
+    <string name="active_course_right_course">Votre code d’activation correspond au didacticiel : </string>
     <string name="active_course_please_set">Veuillez saisir le code d’activation</string>
     <string name="active_course_please_set_keyboard">Il y a 16 caractères de lettres / chiffres, veuillez taper sous le clavier anglais </string>
     <string name="active_course_code_success">Succès de l’activation des didacticiels</string>
@@ -1008,7 +1009,7 @@
     <string name="main_top_buycourse">Acheter un cours</string>
 
     <string name="remind_no_courseactive">Il n’y a rien ici ~\n Allez-y pour activer le cours</string>
-    <string name="remind_no_course_tea">Votre organisation n’a pas encore ouvert le cours \n, veuillez appeler la hotline du service clientèle 4006107808 pour nous contacter.</string>
+    <string name="remind_no_course_tea">Votre organisation n’a pas encore ouvert le cours \n, veuillez envoyer un e-mail à christinasg@ulearning.cn pour obtenir de l’aide</string>
     <string name="remind_no_joinclass">Vous n’avez encore rejoint aucune classe ~</string>
     <string name="remind_no_create_class">Vous n’avez pas encore créé de classe ~</string>
     <string name="remind_create_class">Créer une classe</string>
@@ -1111,7 +1112,7 @@ Continuer à épargner? </string>
     <string name="permission_string_help_text">Le microphone est silencieux et l’autre partie ne peut pas entendre votre voix. Votre autorisation d’enregistrement a été interdite, veuillez vérifier pour ouvrir l’autorisation et essayer de rejouer。</string>
     <string name="permission_camera_string_help_text">Impossible d’accéder à votre caméra. S’il vous plaît autoriser l’accès à votre caméra!</string>
     <string name="permission_hint">Invite d’autorisation</string>
-    <string name="filter_vcode">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+    <string name="filter_vcode" translatable="false">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
 
     <string name="login_error_message_no_connection">« Le réseau ne peut pas être utilisé, veuillez vérifier vos paramètres réseau »</string>
     <string name="networkerror">« Le réseau ne peut pas être utilisé, veuillez vérifier la connexion réseau »</string>
@@ -1148,8 +1149,6 @@ Continuer à épargner? </string>
     <string name="first_in_activity_icon_name">pop_activity_en</string>
 
     <string name="server_msg_course_name_unmatched">Le nom du cours doit être de 2 à 100 caractères. </string>
-    <string name="server_msg_username_inexit">Le nom d’utilisateur n’existe pas </string>
-    <string name="server_msg_pwd_error">Mot de passe erroné</string>
 
     <string name="agreement_title"> Conditions d’utilisation et protection de la vie privée </string>
     <string name="agreement_ok_accept">Accepter et utiliser </string>
@@ -1216,9 +1215,9 @@ Continuer à épargner? </string>
     <string name="latin_america">Amérique Latine</string>
     <string name="asia_pacific">Asie-Pacifique</string>
     <string name="china_mainland">Chine continentale</string>
-    <string name="south_africa">Afrique du Sud</string>
 
 
+    <string name="zambia">Zambie</string>
     <string name="warning_new_pwd_null">Veuillez saisir un nouveau mot de passe</string>
     <string name="warning_pwd_length">Veuillez entrer 6 à 16 lettres ou chiffres</string>
 
@@ -1239,7 +1238,6 @@ Continuer à épargner? </string>
     <!--custom multipleimageselect -->
     <string name="album_view">sélectionner une image</string>
     <string name="image_view">a sélectionner</string>
-    <string name="select_file_count_to_many">sélectionner un fichier trop nombreux</string>
 
     <string name="add">confirmer</string>
     <string name="selected">sélectionné</string>
@@ -1296,8 +1294,17 @@ Continuer à épargner? </string>
     <string name="complain_fail"> l’appel a échoué</string>
     <string name="not_reta_wait_teacher">En attente d’examen</string>
 
-    <!--0816新增：Uclass相关 -->
+
+    <string name="feedback_log_hint">Commit Log</string>
+
+    <string name="app_setting">Appliquer les paramètres</string>
+    <string name="server_setting">serveur</string>
+    <string name="language_setting">Langue</string>
+
     <string name="title_of_top">S’en tenir au sommet</string>
+    <string name="sso_login">Connexion SSO</string>
+    <string name="select_file_count_to_many">sélectionner un fichier trop nombreux</string>
+
     <string name="not_allow_double_tap">Ne cliquez pas fréquemment</string>
     <string name="title_of_projection"> Diffusion d’écran </string>
     <string name="projection_on">À l’écran</string>
@@ -1305,4 +1312,5 @@ Continuer à épargner? </string>
     <string name="permission_location_wifi_fail">L’emplacement de votre appareil est désactivé et le nom WiFi ne peut pas être obtenu. Veuillez aller dans « Paramètres » et activer l’emplacement.</string>
     <string name="screen_fail_1">Impossible de diffuser l’écran! Veuillez ouvrir UClass sur le grand écran, puis activer la fonction de diffusion d’écran. Remarque : Assurez-vous que votre appareil mobile et le grand écran se trouvent sur le même réseau local.</string>
     <string name="screen_fail_2">Soit l’appareil récepteur redémarre, soit le réseau est déconnecté !</string>
-</resources>
+
+    </resources>
