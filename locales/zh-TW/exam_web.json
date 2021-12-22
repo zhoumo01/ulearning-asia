@@ -47,16 +47,392 @@
     "message": "請輸入密碼",
     "description": "考试快捷地址"
   },
+  "freezeTip": {
+    "message": "系統檢測到此帳號在{names}課程學習中存在作弊等不當行為，系統已自動凍結此帳號，請聯繫任課老師或平台進行處理",
+    "description": "考试快捷地址"
+  },
+  "overErrorTimes": {
+    "message": "您已經連續輸錯5次，3分鐘後重試",
+    "description": "考试快捷地址"
+  },
+  "passwordErr": {
+    "message": "用戶名/密碼錯誤",
+    "description": "考试快捷地址"
+  },
+  "loginFail": {
+    "message": "登錄失敗",
+    "description": "考试快捷地址"
+  },
+  "personalInfo": {
+    "message": "個人中心",
+    "description": "考试快捷地址"
+  },
+  "quit": {
+    "message": "退出登錄",
+    "description": "考试快捷地址"
+  },
+  "faceSuccess": {
+    "message": "認證已通過，3秒後進入考試",
+    "description": "考试快捷地址"
+  },
+  "faceFail": {
+    "message": "人臉認證未通過。",
+    "description": "考试快捷地址"
+  },
+  "retry": {
+    "message": "重試",
+    "description": "考试快捷地址"
+  },
+  "leaveSeat": {
+    "message": "離開座位",
+    "description": "考试快捷地址"
+  },
+  "exam": {
+    "message": "考試",
+    "description": "考试快捷地址"
+  },
+  "joinType": {
+    "message": "參與管道",
+    "description": "考试快捷地址"
+  },
+  "limitTime": {
+    "message": "考試有效期",
+    "description": "考试快捷地址"
+  },
+  "openApp": {
+    "message": "前往【優學院2.0】APP參加考試",
+    "description": "考试快捷地址"
+  },
+  "downloadApp": {
+    "message": "下載【優學院2.0】APP",
+    "description": "考试快捷地址"
+  },
+  "pc": {
+    "message": "電腦網頁端",
+    "description": "考试快捷地址"
+  },
+  "app": {
+    "message": "手機APP",
+    "description": "考试快捷地址"
+  },
+  "exe": {
+    "message": "電腦鎖屏客戶端",
+    "description": "考试快捷地址"
+  },
+  "noCameraTip": {
+    "message": "攝像頭被佔用或權限被禁止，請允許攝像頭權限或關閉其他攝像頭應用",
+    "description": "考试快捷地址"
+  },
+  "fileSizeLimitType": {
+    "message": "附件大小不能超過{maxSize}",
+    "description": "考试快捷地址"
+  },
+  "notSupportTip": {
+    "message": "本次考試不支持網頁端答題，請按照指定的參與方式進入考試",
+    "description": "考试快捷地址"
+  },
+  "noFaceTip": {
+    "message": "本次考試開啟了人臉識別，完成人臉認證才能參加考試。",
+    "description": "考试快捷地址"
+  },
+  "identification": {
+    "message": "去認證",
+    "description": "考试快捷地址"
+  },
+  "timeLimit": {
+    "message": "考試限時",
+    "description": "考试快捷地址"
+  },
+  "minute": {
+    "message": "{n}分鐘",
+    "description": "考试快捷地址"
+  },
+  "allowedTimes": {
+    "message": "允許答題次數",
+    "description": "考试快捷地址"
+  },
+  "notLimit": {
+    "message": "不限制",
+    "description": "考试快捷地址"
+  },
+  "myScore": {
+    "message": "我的成績",
+    "description": "考试快捷地址"
+  },
+  "score": {
+    "message": "{n}分",
+    "description": "考试快捷地址"
+  },
+  "usedTimes": {
+    "message": "已用答題次數",
+    "description": "考试快捷地址"
+  },
+  "examTime": {
+    "message": "考試時間",
+    "description": "考试快捷地址"
+  },
+  "lateLimit": {
+    "message": "遲到限制",
+    "description": "考试快捷地址"
+  },
+  "lateLimitTip": {
+    "message": "考試開始{min}分鐘後不允許再進入",
+    "description": "考试快捷地址"
+  },
+  "submitLimit": {
+    "message": "交卷限制",
+    "description": "考试快捷地址"
+  },
+  "submitLimitType": {
+    "message": "考試開始{min}分鐘內不允許交卷",
+    "description": "考试快捷地址"
+  },
+  "examMonitor": {
+    "message": "考試監控",
+    "description": "考试快捷地址"
+  },
   "deviceMonitorTip": {
     "message": "已開啟{deviceMonitor}，中途請勿更換設備",
+    "description": "考试快捷地址"
+  },
+  "deviceMonitor": {
+    "message": "設備監控",
+    "description": "考试快捷地址"
+  },
+  "ipMonitorTip": {
+    "message": "已開啟{ipMonitor}，中途請勿切換網絡",
+    "description": "考试快捷地址"
+  },
+  "ipMonitor": {
+    "message": "IP監控",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitorTip1": {
+    "message": "已開啟{cutScreenMonitor}，單次離開超過{s}秒或累計離開超過{times}次，系統將強制交卷",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitorTip2": {
+    "message": "已開啟{cutScreenMonitor}，累計離開超過{times}次，系統將強制交卷",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitorTip3": {
+    "message": "已開啟{cutScreenMonitor}，單次離開超過{s}秒，系統將強制交卷",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitor": {
+    "message": "切屏監控",
+    "description": "考试快捷地址"
+  },
+  "faceMonitorTip": {
+    "message": "已開啟{faceMonitor}，需要通過人臉驗證進入考試",
+    "description": "考试快捷地址"
+  },
+  "faceMonitor": {
+    "message": "人臉識別",
+    "description": "考试快捷地址"
+  },
+  "cameraMonitorTip": {
+    "message": "已開啟{cameraMonitor}，請全程開啟並正對攝像頭",
+    "description": "考试快捷地址"
+  },
+  "cameraMonitor": {
+    "message": "攝像監控",
+    "description": "考试快捷地址"
+  },
+  "debugCamera": {
+    "message": "調試攝像頭",
+    "description": "考试快捷地址"
+  },
+  "stratExam": {
+    "message": "開始考試",
+    "description": "考试快捷地址"
+  },
+  "noPermissionTip": {
+    "message": "你沒有權限參加本次考試，如有疑問，請聯繫考試主辦方。",
+    "description": "考试快捷地址"
+  },
+  "multipleSessions": {
+    "message": "本次考試包含多個分段場次，考生可以參加的場次及具體時間，請登錄後查看",
+    "description": "考试快捷地址"
+  },
+  "loginToExam": {
+    "message": "登錄進入考試",
+    "description": "考试快捷地址"
+  },
+  "downloadAppBtn": {
+    "message": "下載App",
+    "description": "考试快捷地址"
+  },
+  "downloadExe": {
+    "message": "下載考試客戶端",
+    "description": "考试快捷地址"
+  },
+  "windows": {
+    "message": "Windows版",
+    "description": "考试快捷地址"
+  },
+  "windowsTip": {
+    "message": "支持Windows7及以上系統版本",
+    "description": "考试快捷地址"
+  },
+  "download": {
+    "message": "下載",
+    "description": "考试快捷地址"
+  },
+  "mac": {
+    "message": "Mac版",
+    "description": "考试快捷地址"
+  },
+  "macTip": {
+    "message": "支持macOS10.11及以上系統版本",
+    "description": "考试快捷地址"
+  },
+  "examEnvironmentTesting": {
+    "message": "考試環境檢測",
+    "description": "考试快捷地址"
+  },
+  "deviceAbnormality": {
+    "message": "設備異常",
+    "description": "考试快捷地址"
+  },
+  "ipAbnormality": {
+    "message": "IP異常",
     "description": "考试快捷地址"
   },
   "deviceAbnormalityTip": {
     "message": "本次考試已開啟 設備監控，中途不允許更換設備或瀏覽器，請使用初次進入考試的設備答題。",
     "description": "考试快捷地址"
   },
+  "ipAbnormalityTip": {
+    "message": "本次考試已開啟 IP監控，中途不允許更換IP地址（切換網絡可能會導致IP地址發生變化)。",
+    "description": "考试快捷地址"
+  },
   "useCodeTip": {
     "message": "如遇特殊情況需要更換設備，請向監考老師索取驗證碼，{useCode}進入考試。",
+    "description": "考试快捷地址"
+  },
+  "useCode": {
+    "message": "使用驗證碼",
+    "description": "考试快捷地址"
+  },
+  "faceVerification": {
+    "message": "人臉驗證",
+    "description": "考试快捷地址"
+  },
+  "faceVerificationTip": {
+    "message": "你還沒有完成人臉認證，無法通過人臉識別進入考試。",
+    "description": "考试快捷地址"
+  },
+  "faceVerificationTip1": {
+    "message": "現在{goToCertification}或{useCodeEnter}",
+    "description": "考试快捷地址"
+  },
+  "goToCertification": {
+    "message": "去認證",
+    "description": "考试快捷地址"
+  },
+  "useCodeEnter": {
+    "message": "使用驗證碼進入考試",
+    "description": "考试快捷地址"
+  },
+  "examNotes": {
+    "message": "考試須知",
+    "description": "考试快捷地址"
+  },
+  "agreenExamNotes": {
+    "message": "我已閱讀並同意考試須知中的事項",
+    "description": "考试快捷地址"
+  },
+  "checkFirst": {
+    "message": "請先勾選",
+    "description": "考试快捷地址"
+  },
+  "faceVerificationDesc": {
+    "message": "請正對攝像頭，確保光線充足。無法進行人臉驗證？",
+    "description": "考试快捷地址"
+  },
+  "examCode": {
+    "message": "考試驗證碼",
+    "description": "考试快捷地址"
+  },
+  "examCodeTip": {
+    "message": "請向監考老師索取驗證碼並輸入：",
+    "description": "考试快捷地址"
+  },
+  "examCodeError": {
+    "message": "驗證碼錯誤",
+    "description": "考试快捷地址"
+  },
+  "cameraMonitorDesc": {
+    "message": "開啟了攝像監控的考試，系統將實時檢測並記錄考生離開座位、視線長時間偏離、與人交頭接耳等異常行為。因此請注意：{br}1. 考前請調整好攝像頭角度，使面部完整出鏡，並儘量正對攝像頭。{br}2. 考試過程中保持視線專注於屏幕，不要離開座位，不要與人交談。",
+    "description": "考试快捷地址"
+  },
+  "notStart": {
+    "message": "未開始",
+    "description": "考试快捷地址"
+  },
+  "inProgress": {
+    "message": "進行中",
+    "description": "考试快捷地址"
+  },
+  "ended": {
+    "message": "已結束",
+    "description": "考试快捷地址"
+  },
+  "joinTypes": {
+    "message": "電腦網頁端 / 手機APP / 電腦鎖屏客戶端",
+    "description": "考试快捷地址"
+  },
+  "resultsNotAnnounce": {
+    "message": "本次考試不公佈成績",
+    "description": "考试快捷地址"
+  },
+  "resultsNotYetAnnounce": {
+    "message": "成績暫未公佈",
+    "description": "考试快捷地址"
+  },
+  "subjectiveQuestionsToBeReviewed": {
+    "message": "主觀題待批閱",
+    "description": "考试快捷地址"
+  },
+  "ipPermissionsTip": {
+    "message": "當前IP：{ip} 無進入考試權限，請使用規定電腦參加考試",
+    "description": "考试快捷地址"
+  },
+  "lateTip": {
+    "message": "你已超過本次考試允許遲到的時間，不能進入考試。",
+    "description": "考试快捷地址"
+  },
+  "noCamera": {
+    "message": "未檢測到攝像頭。",
+    "description": "考试快捷地址"
+  },
+  "noCameraTip1": {
+    "message": "本次考試啟用了人臉識別，請使用有攝像頭的設備參加考試。",
+    "description": "考试快捷地址"
+  },
+  "noCameraTip2": {
+    "message": "本次考試啟用了攝像監控，請使用有攝像頭的設備參加考試。",
+    "description": "考试快捷地址"
+  },
+  "testCamera": {
+    "message": "正在檢測攝像頭",
+    "description": "考试快捷地址"
+  },
+  "examNotStart": {
+    "message": "考試未開始",
+    "description": "考试快捷地址"
+  },
+  "examEnded": {
+    "message": "考試已結束",
+    "description": "考试快捷地址"
+  },
+  "loadError": {
+    "message": "請求失敗",
+    "description": "考试快捷地址"
+  },
+  "expireTip": {
+    "message": "登入已過期，請重新登入。",
     "description": "考试快捷地址"
   },
   "ltiTip1": {
@@ -69,6 +445,42 @@
   },
   "toUpdatePsd": {
     "message": "去修改密碼",
+    "description": "考试快捷地址"
+  },
+  "accountTipHead": {
+    "message": "你好，{name}",
+    "description": "考试快捷地址"
+  },
+  "accountTipContent": {
+    "message": "歡迎使用優學院考試系統。 我們已為你註冊優學院帳號，如果你需要使用手機參加考試，請先下載【優學院2.0】APP，並使用優學院帳號登錄。",
+    "description": "考试快捷地址"
+  },
+  "userInfo": {
+    "message": "你的優學院帳號如下：",
+    "description": "考试快捷地址"
+  },
+  "userName1": {
+    "message": "用戶名",
+    "description": "考试快捷地址"
+  },
+  "passwordTip": {
+    "message": "初始密碼與使用者名一致，登錄后可以修改。",
+    "description": "考试快捷地址"
+  },
+  "examInfo": {
+    "message": "考試信息",
+    "description": "考试快捷地址"
+  },
+  "examName": {
+    "message": "考試名稱",
+    "description": "考试快捷地址"
+  },
+  "openAppTip": {
+    "message": "如果沒有成功啟動【優學院2.0】APP，請確認是否已安裝。 如果還沒有安裝，請先下載並安裝。",
+    "description": "考试快捷地址"
+  },
+  "openAppBtn": {
+    "message": "啟動【優學院2.0】APP",
     "description": "考试快捷地址"
   }
 }
