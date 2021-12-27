@@ -15,6 +15,8 @@
     <string name="time_month">-</string>
     <string name="time_year">-</string>
 
+    <string name="now_ready_data">Préparation des données de didacticiel, veuillez patienter.</string>
+
     <string name="server_error">Le système est en cours de maintenance, veuillez réessayer plus tard</string>
     <string name="toast_other_lesson_progress" formatted="false">Mise en cache des didacticiels%s/%s</string>
     <string name="toast_please_check_if_the_SD_card_is_inserted">Vérifiez la carte SD si elle est branchée!</string>
@@ -35,6 +37,7 @@
     <string name="operation_create_course">Créer un cours</string>
     <string name="operation_create_course_next">Prochaine étape</string>
     <string name="operation_create_course_code">Scannez le code QR pour rejoindre la classe</string>
+    <string name="scan_qrcode">Scannez le code</string>
     <string name="operation_download">Télécharger</string>
     <string name="operation_goon_study">Continuer! Je suis riche</string>
     <string name="operation_not_study">Oubliez-le</string>
@@ -180,6 +183,7 @@
     <string name="success">Succès</string>
     <string name="fail">Raté</string>
     <string name="system_informs">Avis du système</string>
+    <string name="yxy_teacher">Enseignant</string>
     <string name="assistant">Assistant d’enseignement</string>
     <string name="student">Étudiant</string>
     <string name="manager">Administrateur</string>
@@ -198,6 +202,7 @@
     <string name="rewatch">Vous pouvez le vérifier à nouveau</string>
     <string name="campus_list">Campus</string>
     <string name="outside_list">Dehors</string>
+    <string name="icourse_list" translatable="false">Cours d’amour</string>
     <string name="wechat">WeChat</string>
     <string name="chose_all">Sélectionner tout</string>
     <string name="cancel_chose_all">Désélectionner tout</string>
@@ -600,6 +605,7 @@
     <string name="about_menu_operation_guide">Manuel</string>
     <string name="about_menu_operation_update_notify">Avis de mise à jour</string>
     <string name="about_menu_operation_feedback">Rétroaction</string>
+    <string name="privacy_policy">Politique de confidentialité</string>
     <string name="about_menu_operation_update">vérifier la mise à jour</string>
 
     <string name="active_status_attendancing">Appel</string>
@@ -696,6 +702,8 @@
     <string name="course_app_class">Salle de classe</string>
     <string name="course_app_test">Test</string>
     <string name="course_app_exam">Évaluation</string>
+    <string name="course_app_words">Dictée</string>
+    <string name="course_app_speak">Test d’anglais parlé</string>
     <string name="course_app_assess">Analyse</string>
     <string name="course_app_member">Membres</string>
 
@@ -1218,6 +1226,8 @@ Continuer à épargner? </string>
 
 
     <string name="zambia">Zambie</string>
+    <string name="africa">Afrique</string>
+    <string name="sandBox">Bac à sable</string>
     <string name="warning_new_pwd_null">Veuillez saisir un nouveau mot de passe</string>
     <string name="warning_pwd_length">Veuillez entrer 6 à 16 lettres ou chiffres</string>
 
@@ -1295,13 +1305,84 @@ Continuer à épargner? </string>
     <string name="not_reta_wait_teacher">En attente d’examen</string>
 
 
+    <string name="version_updating">Actualisation</string>
+    <string name="dialog_new_version_title">Version mise à jour ~</string>
+    <string name="update">Mettre à jour</string>
+
+    <string name="permisstion_store_hint">Votre téléphone portable vous interdit de télécharger des didacticiels depuis les États-Unis.app! \nVeuillez accorder à l’application Ulearning des autorisations de lecture et d’écriture de carte mémoire.</string>
+    <string name="permisstion_store_record_hint">Votre espace de stockage doit être utilisé pendant le processus d’enregistrement,\nVeuillez accorder à l’application Ulearning l’autorisation de lire la carte mémoire.</string>
+
+    <string name="operation_look_storage_permisstion_setting">Découvrez comment le configurer</string>
+    <string name="dont_update">Plus de rappels</string>
+    <string name="course_player_loading">Mise à jour du lecteur de cours, veuillez patienter</string>
+    <string name="course_player_unzip">L’apprentissage est sur le point de commencer, veuillez patienter</string>
+    <string name="srl_header_pulling">Les listes déroulantes peuvent être actualisées</string>
+    <string name="srl_header_refreshing">Rafraîchissant...</string>
+    <string name="srl_header_loading">Chargement...</string>
+    <string name="srl_header_release">La version s’actualise immédiatement</string>
+    <string name="srl_header_finish">Actualisation terminée</string>
+    <string name="srl_header_failed">Échec de l’actualisation</string>
+    <string name="srl_header_update">Dernière mise à jour M-d HH:mm</string>
+    <string name="srl_header_secondary">Libération au deuxième étage</string>
+
+    <string name="srl_footer_pulling">Tirez vers le haut pour charger plus</string>
+    <string name="srl_footer_release">Relâchez immédiatement les charges</string>
+    <string name="srl_footer_loading">Chargement...</string>
+    <string name="srl_footer_refreshing">Rafraîchissant...</string>
+    <string name="srl_footer_finish">Chargé avec succès</string>
+    <string name="srl_footer_failed">Échec du chargement</string>
+    <string name="srl_footer_nothing"> Plus de données </string>
+
+    <string name="srl_content_empty">La vue de contenu est introuvable dans SmartRefreshLayout. Avez-vous oublié de l’ajouter dans votre fichier de mise en page xml ?</string>
+    <string name="srl_component_falsify" formatted="false">%s fake region \n Assurer la hauteur [%.1f dp] \n la hauteur du glissement au moment de l’exécution \n sans rien afficher</string>
+
+    <string name="pull_to_refresh_pull_label">Tirer pour actualiser</string>
+    <string name="pull_to_refresh_release_label">Publier pour actualiser</string>
+    <string name="pull_to_refresh_refreshing_label">Chargement</string>
+
+
+    <string name="feedback_hint">Veuillez noter vos commentaires ou suggestions</string>
     <string name="feedback_log_hint">Commit Log</string>
+
+    <string name="only_add_ten_textbook">Seuls 10 didacticiels peuvent être ajoutés</string>
+    <string name="document_no_support_down">La mise en cache n’est pas prise en charge pour les documents pour le moment</string>
+    <string name="teacher_not_support">Les enseignants ne prennent pas en charge cette fonctionnalité</string>
 
     <string name="app_setting">Appliquer les paramètres</string>
     <string name="server_setting">serveur</string>
     <string name="language_setting">Langue</string>
 
+    <string name="cube_ptr_pull_down">Abattre</string>
+    <string name="cube_ptr_pull_down_to_refresh">Tirez vers le bas pour actualiser</string>
+    <string name="cube_ptr_release_to_refresh">Libérer pour actualiser</string>
+    <string name="cube_ptr_refreshing">Actualisation</string>
+    <string name="cube_ptr_refresh_complete">Actualisé</string>
+
+    <string name="cube_ptr_last_update">dernière mise à jour :</string>
+    <string name="cube_ptr_seconds_ago">il y a quelques secondes</string>
+    <string name="cube_ptr_minutes_ago">Minutes</string>
+    <string name="cube_ptr_hours_ago">Heures</string>
+
+    <string name="exit_class_ing">Vous avez demandé à vous retirer du cours, veuillez attendre que l’instructeur vous révise.</string>
+    <string name="exit_class_cancel">retirer</string>
+    <string name="active_code_use">Le code d’activation ne peut être utilisé qu’une seule fois. Si vous ne l’activez pas en personne, vous pouvez contacter vos camarades de classe pour voir si vous avez pris le mauvais matériel pédagogique ou contacter le service à la clientèle.</string>
+    <string name="active_code_use_person">Le code d’activation a été utilisé, activer le compte:</string>
+    <string name="exit_class_finish">Vous avez quitté le cours</string>
+
+    <string name="permission_apply">Demande d’autorisation</string>
+    <string name="permission_overlay">Afin de vous assurer que vous pouvez normalement utiliser les fonctions suivantes dans le Ulearning, vous devez autoriser l’autorisation de suspension Ulearning: \n\n Écran tactile, diffusion en direct</string>
+    <string name="permission_read_external">Afin de vous assurer que vous pouvez utiliser les fonctions suivantes au sein de Ulearning, vous devez autoriser Ulearning à lire les autorisations de stockage : \n \n Lire les données, les images et les fichiers du cache de l’application</string>
+    <string name="permission_camera">Afin de vous assurer que vous pouvez utiliser les fonctions suivantes dans le Ulearning, vous devez autoriser le Ulearning à obtenir des autorisations de caméra: \n\n\n Numériser, télécharger / remplacer l’avatar, prendre des photos et télécharger des pièces jointes dans les modules d’annonce, de vote, de devoirs et d’examen, effectuer la vérification du visage et la surveillance de la caméra dans l’examen, utiliser l’enseignement vidéo dans les émissions en direct et les microphones vidéo pour les enseignants et les étudiants, et le système de service à la clientèle.</string>
+    <string name="permission_location">Afin de vous assurer que vous pouvez normalement utiliser les fonctions d’enregistrement par appel nominal, d’examen et de projection d’écran dans Ulearning, vous devez autoriser Ulearning à obtenir des autorisations d’informations de localisation.</string>
+    <string name="permission_microphone">Afin d’assurer votre utilisation normale des fonctions suivantes dans le Ulearning, vous devez autoriser le Ulearning à obtenir des autorisations de microphone: \n\n/n Exercices d’expression orale, devoirs d’expression orale, dictée de mots, évaluation orale, test d’expression orale, fonction de diffusion en direct, système de service à la clientèle.</string>
+    <string name="permission_camera_fail">Vous avez désactivé l’autorisation de l’appareil photo et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser</string>
+    <string name="permission_microphone_fail">Vous avez désactivé l’autorisation d’enregistrement et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone mobile pour autoriser</string>
+    <string name="permission_location_fail">Vous avez désactivé l’autorisation de localisation et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser</string>
+    <string name="permission_read_storage_fail">Vous avez désactivé l’autorisation de stockage de lecture et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser</string>
+    <string name="permission_camera_microphone_fail">Vous avez désactivé l’autorisation de la caméra ou du microphone et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] de votre téléphone pour autoriser</string>
+
     <string name="title_of_top">S’en tenir au sommet</string>
+    <string name="item_all_class">Toutes les classes</string>
     <string name="sso_login">Connexion SSO</string>
     <string name="select_file_count_to_many">sélectionner un fichier trop nombreux</string>
 
@@ -1313,4 +1394,9 @@ Continuer à épargner? </string>
     <string name="screen_fail_1">Impossible de diffuser l’écran! Veuillez ouvrir UClass sur le grand écran, puis activer la fonction de diffusion d’écran. Remarque : Assurez-vous que votre appareil mobile et le grand écran se trouvent sur le même réseau local.</string>
     <string name="screen_fail_2">Soit l’appareil récepteur redémarre, soit le réseau est déconnecté !</string>
 
-    </resources>
+    <string name="not_run_on_virtualmachine">N’exécutez pas l’application dans la machine virtuelle/émulateur</string>
+
+    <string name="screen_msg">L’instabilité du réseau peut entraîner une perte de projection d’écran, si l’écran du téléphone n’est pas affiché sur le grand écran pendant une longue période, vous pouvez arrêter puis diffuser à nouveau l’écran.</string>
+    <string name="screen_device">Appareil</string>
+    <string name="screen_network">Internet</string>
+</resources>
