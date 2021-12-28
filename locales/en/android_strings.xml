@@ -43,7 +43,7 @@
     <string name="operation_create">Create</string>
     <string name="operation_create_course">Create</string>
     <string name="operation_create_course_next">Next</string>
-    <string name="operation_create_course_code">Scan QR code to enroll</string>
+    <string name="operation_create_course_code">Scan to Enroll</string>
     <string name="scan_qrcode">Scan QR Code</string>
     <string name="operation_download">Download</string>
     <string name="operation_goon_study">Continue</string>
@@ -60,7 +60,7 @@
     <string name="operation_course_download_clear_all">Clear All</string>
     <string name="operation_change_telphone">Change Phone</string>
     <string name="operation_relevance_telphone">Link Phone</string>
-    <string name="operation_get_verification_code">Get Verification Code</string>
+    <string name="operation_get_verification_code">Request Verification Code</string>
     <string name="operation_download_all">Download All</string>
     <string name="operation_reject_all">Decline All</string>
     <string name="operation_agree_all">Agree All</string>
@@ -82,7 +82,7 @@
     <string name="operation_check_all">View All</string>
     <string name="operation_check_all_close">Collapse</string>
     <string name="operation_join_class">Enroll</string>
-    <string name="operation_join_class_course">Enroll</string>
+    <string name="operation_join_class_course">Enroll Course/Class</string>
     <string name="operation_join">Enroll</string>
     <string name="operation_welcome">Welcome</string>
     <string name="operation_create_class">Create Class</string>
@@ -238,7 +238,7 @@
     <string name="my_class">My Classes</string>
     <string name="look_my_class">Go to my class</string>
     <string name="my_text_book">My eTextbooks</string>
-    <string name="my_score">My Scores</string>
+    <string name="my_score">My Points: </string>
     <string name="class_status_apply">Class Applications</string>
     <string name="class_status_agreed">Approved</string>
     <string name="class_status_rejected">Rejected</string>
@@ -293,7 +293,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="hint_search_course">Search course</string>
     <string name="hint_search">Search</string>
     <string name="hint_now_relevance_telphone">Linked phone number</string>
-    <string name="hint_input_verification_code">Enter the verification code</string>
+    <string name="hint_input_verification_code">Enter the email verification code</string>
     <string name="hint_face_recognition">- Face the camera and make sure there is enough light -</string>
     <string name="hint_qr_code">Aim at the QR code/barcode  to scan</string>
     <string name="hint_qr_code_error">The QR code is not detected</string>
@@ -367,10 +367,10 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="warning_course_no_desc">No course introduction information</string>
     <string name="warning_not_preview_file">Previewing the file is not currently supported \n You can use other apps to open</string>
     <string name="warning_course_resource_download_studyrecord">After the courseware is cached, it will no longer consume data traffic when playing media resources! Clearing the cached resources that have been learned will not affect your learning scores.</string>
-    <string name="warning_course_resource_download_size">Resources are cached</string>
-    <string name="warning_course_resource_download_space">Space Occupied</string>
+    <string name="warning_course_resource_download_size">Resources Cached</string>
+    <string name="warning_course_resource_download_space">Occupied</string>
 
-    <string name="warning_course_resource_phone_space">Available Space</string>
+    <string name="warning_course_resource_phone_space">Available</string>
     <string name="warning_course_expire">The course has expired</string>
     <string name="warning_course_buy_go_on_study">If you want to continue learning, please purchase this course again</string>
     <string name="warning_textbook_out_of_date">Courseware has expired! To continue learning, please re-purchase the course &gt;&gt;</string>
@@ -383,7 +383,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="warning_network_break">Network unavailable - please check your network connection!</string>
     <string name="warning_web_break">Something went wrong. We are fixing it now. Please try again later.</string>
     <string name="warning_qr_fail">Failed to scan the code!</string>
-    <string name="warning_qr_unsupport">The QR code is not supported. Currently only supports:\n1. ULearning course QR code\n2. ULearning class QR code</string>
+    <string name="warning_qr_unsupport">The QR code is not supported. Currently only supports:\n1. ULearning courseware QR code\n2. ULearning class QR code</string>
     <string name="warning_qr_textbook_not_active">You haven’t activated the eTextbook. Please activate and then scan the QR code to start learning - Activate Now</string>
     <string name="warning_qr_textbook_not_stu">Please log in and then scan the QR code</string>
     <string name="warning_qr_textbook_out_of_date">This eTextbook has expired. Please reactivate it to continue learning - Activate Now</string>
@@ -498,717 +498,718 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="text_course_score8">Page Score: </string>
     <string name="text_course_score9">Pages with exercise: Use exercise score (the last score if multiple attempts)</string>
     <string name="text_course_score10">Page without exercise : Only completion status is logged</string>
-    <string name="text_course_study_page_not_finished">You have not finished studying the page</string>
-    <string name="text_course_complete_status" formatted="false">Page:%d/%d</string>
-    <string name="text_course_download_stauts" formatted="false">Total %d resources, download %d resources(%s)</string>
-    <string name="text_file_downloaded_local_path" formatted="false">Download：%s</string>
-    <string name="text_downloading_format" formatted="false">Downloading(%s/%s)</string>
-    <string name="text_downloading_fail_format" formatted="false">Failed to load %s/%s</string>
-    <string name="text_downloading_recourse_format" formatted="false">%s of resource</string>
-    <string name="text_downloading_recourse_finish_format" formatted="false">Downloaded %s of resource</string>
+    <string name="text_course_study_page_not_finished">Learning this page is not yet completed.</string>
+    <string name="text_course_complete_status" formatted="false">Page: %d/%d</string>
+    <string name="text_course_download_stauts" formatted="false">%d total, %d downloaded (%s)</string>
+    <string name="text_file_downloaded_local_path" formatted="false">Downloaded: %s</string>
+    <string name="text_downloading_format" formatted="false">Downloading %s/%s</string>
+    <string name="text_downloading_fail_format" formatted="false">Download failed %s/%s</string>
+    <string name="text_downloading_recourse_format" formatted="false">%s resources</string>
+    <string name="text_downloading_recourse_finish_format" formatted="false">Downloaded %s resources</string>
     <string name="text_downloading_recourse_about_format" formatted="false">About %s</string>
     <string name="text_downloading_recourse_progress" formatted="false">(%s %s)</string>
 
-    <string name="text_get_course">Getting a course</string>
+    <string name="text_get_course">Fetching courseware...</string>
     <string name="text_pull_up_load_more">Pull up to load more</string>
     <string name="text_disentangle_load_more">Release to load more</string>
-    <string name="text_loading">YOYO is working hard on downloading...</string>
-    <string name="text_timelimit_practice">Timed practice</string>
-    <string name="text_teacher_close_study">Your teacher has closed the study permission</string>
-    <string name="text_cancel_send_finger_upglide">Finger off to cancel sending</string>
-    <string name="text_alum_select">Select from album</string>
-    <string name="text_course_expire_date" formatted="false">Course expiry date：%s</string>
-    <string name="text_course_class_count" formatted="false">Class :%s</string>
-    <string name="text_course_class_count_more" formatted="false">About %d of classes</string>
-    <string name="text_course_start_date" formatted="false">%s started</string>
-    <string name="text_course_end_date" formatted="false">%s Deadline</string>
-    <string name="submit_end_date" formatted="false">Deadline for submission</string>
-    <string name="peer_response_end_date" formatted="false">end</string>
-    <string name="text_course_submit_end_date" formatted="false">%s Submission deadline</string>
-    <string name="text_course_peer_response_end_date" formatted="false">%s Peer review’s deadline</string>
-    <string name="text_course_student_count" formatted="false">Student :%s</string>
-    <string name="text_course_expired_date" formatted="false">Course expired on %s</string>
-    <string name="text_course_study_record_empty">No learning records</string>
-    <string name="text_course_study_record_not_latest">Loading the latest learning record</string>
-    <string name="text_you_have_some_course_format" formatted="false">You got %d courses</string>
-    <string name="text_choose_file_upload">Select to upload file</string>
-    <string name="text_teacher_size_format" formatted="false">Teacher（%d）</string>
-    <string name="text_student_size_format" formatted="false">Student（%d）</string>
-    <string name="text_practice_correct_count_good" formatted="false">%d correct questions，really good！</string>
+    <string name="text_loading">YOYO is working hard on loading...</string>
+    <string name="text_timelimit_practice">Timed Exercises</string>
+    <string name="text_teacher_close_study">Access is turned off by your teacher</string>
+    <string name="text_cancel_send_finger_upglide">Swipe up to cancel sending</string>
+    <string name="text_alum_select">Select from Files</string>
+    <string name="text_course_expire_date" formatted="false">Courseware expires: %s</string>
+    <string name="text_course_class_count" formatted="false">Classes: %s...</string>
+    <string name="text_course_class_count_more" formatted="false"> total %d classes</string>
+    <string name="text_course_start_date" formatted="false">Start: %s </string>
+    <string name="text_course_end_date" formatted="false">End: %s </string>
+    <string name="submit_end_date" formatted="false">Submission Due </string>
+    <string name="peer_response_end_date" formatted="false">Peer Review Due</string>
+    <string name="text_course_submit_end_date" formatted="false">Submission Due: %s</string>
+    <string name="text_course_peer_response_end_date" formatted="false">Peer Review Due: %s</string>
+    <string name="text_course_student_count" formatted="false">Students: %s</string>
+    <string name="text_course_expired_date" formatted="false">Courseware expired on %s</string>
+    <string name="text_course_study_record_empty">No learning records found!</string>
+    <string name="text_course_study_record_not_latest">Loading the latest learning records...</string>
+    <string name="text_you_have_some_course_format" formatted="false">You have %d courses (courseware)</string>
+    <string name="text_choose_file_upload">Select File</string>
+    <string name="text_teacher_size_format" formatted="false">Teachers (%d)</string>
+    <string name="text_student_size_format" formatted="false">Students (%d)</string>
+    <string name="text_practice_correct_count_good" formatted="false">%d questions are correct  - Nice  job!</string>
     <string name="text_practice_correct_count" formatted="false">%d correct questions</string>
-    <string name="text_practice_wrong_count_good" formatted="false">%d wrongly answered questions, keep trying！</string>
-    <string name="text_practice_wrong_count" formatted="false">%d wrongly answered questions</string>
-    <string name="text_watched_format" formatted="false">%d%% watched</string>
+    <string name="text_practice_wrong_count_good" formatted="false">%d questions are incorrect - Keep trying!</string>
+    <string name="text_practice_wrong_count" formatted="false">Incorrect: %d</string>
+    <string name="text_watched_format" formatted="false">Watched %d%%</string>
     <string name="text_goto_look">Check Now!</string>
 
-    <string name="text_goto_study">Learn now</string>
+    <string name="text_goto_study">Start Learning</string>
 
     <string name="growth_format" formatted="false">%d Growth Points</string>
 
-    <string name="confirm_course_spoken_leave">There are still some incomplete word/sentence/paragraph in this page，are you sure you want to switch pages? </string>
+    <string name="confirm_course_spoken_leave">You have not completed this page. Are you sure you want to leave?</string>
 
     <string name="text_chat_conversation_draft">[Draft]</string>
-    <string name="text_chat_message_custom">[Self-defined message]</string>
-    <string name="text_chat_message_file">[File]</string>
-    <string name="text_chat_message_image">[Pictures]</string>
-    <string name="text_chat_message_video">[Video]</string>
+    <string name="text_chat_message_custom">[Custom Messages]</string>
+    <string name="text_chat_message_file">[Files]</string>
+    <string name="text_chat_message_image">[Images]</string>
+    <string name="text_chat_message_video">[Videos]</string>
 
-    <string name="text_chat_send_to" formatted="false">Send to  %s</string>
+    <string name="text_chat_send_to" formatted="false">Send to %s</string>
 
-    <string name="text_practice_limit_time_use_time" formatted="false">Time used:%s（time limit %s）</string>
-    <string name="text_practice_limit_time">Time limit%s</string>
+    <string name="text_practice_limit_time_use_time" formatted="false">Time Used: %s (Time Limit: %s)</string>
+    <string name="text_practice_limit_time">Time Limit: %s</string>
     <string name="text_practice_count_question">%d exercise questions</string>
-    <string name="text_video_page_finish_condition">(video watching time should be larger or equal to the length of the video, then it will be considered as completed watching)</string>
+    <string name="text_video_page_finish_condition">(Video viewing duration ≥ video length is considered as Complete)</string>
 
-    <string name="text_change_related_cell_phone">Chang linkup mobile phone</string>
-    <string name="text_related_cell_phone">Link up mobile phone</string>
-    <string name="text_back_umooc">Return to U-Learning Institute</string>
-    <string name="text_class_member">Class Students</string>
-    <string name="text_class_member_remove">Remove from class</string>
-    <string name="text_course_remove">Remove from course</string>
-    <string name="text_class_member_remove_fail">Failed to remove</string>
-    <string name="text_class_member_remove_remind">Removing students from the class will delete students ‘records of assignments, exams and other activities in the class. Please be careful. Confirm to remove? </string>
+    <string name="text_change_related_cell_phone">Chang Linked Phone</string>
+    <string name="text_related_cell_phone">Phone Linked</string>
+    <string name="text_back_umooc">Back to ULearning</string>
+    <string name="text_class_member">Class Members</string>
+    <string name="text_class_member_remove">Remove from Class</string>
+    <string name="text_course_remove">Remove from Course</string>
+    <string name="text_class_member_remove_fail">Failed to remove!</string>
+    <string name="text_class_member_remove_remind">Removing the student from the class will also delete the records of assignments, exams and other activities associated with the student. Be cautious. Are you sure to remove the student?</string>
 
     <string name="text_detail">Details </string>
     <string name="text_me">Me</string>
     <string name="text_open_with_other_app">Open with other APPs</string>
     <string name="text_preview">Preview</string>
 
-    <string name="text_book_preview">Preview courseware</string>
-    <string name="text_book_relevance_course">Courses relevant to current courseware</string>
-    <string name="text_book_relevance_course_study">After entering the course, you may learn the content of courseware</string>
-    <string name="text_book_un_activated">To activate</string>
-    <string name="text_book_my_empty">You haven’t activated the textbook</string>
-    <string name="text_book_cached_empty">No caching courseware currently~</string>
+    <string name="text_book_preview">Preview Courseware</string>
+    <string name="text_book_relevance_course">Courses using this courseware: </string>
+    <string name="text_book_relevance_course_study">After entering the course, you can access the courseware</string>
+    <string name="text_book_un_activated">Not Activated</string>
+    <string name="text_book_my_empty">You haven’t activated the courseware</string>
+    <string name="text_book_cached_empty">No cached courseware found!</string>
     <string name="out_of_date">Expired</string>
-    <string name="text_next_section_title_format" formatted="false">Next section:%s</string>
-    <string name="text_chapter_finish">Chapter completed</string>
-    <string name="text_select_spoken_audio_file">Select oral audio file</string>
-    <string name="text_pull_down_update_course">Drop down to update course structure</string>
-    <string name="text_put_down_update_course">Release update course structure</string>
-    <string name="text_answer_detail">Answer details：</string>
-    <string name="text_refer_to_the_answer">Reference answer：</string>
+    <string name="text_next_section_title_format" formatted="false">Next Topic: %s</string>
+    <string name="text_chapter_finish">This module is completed</string>
+    <string name="text_select_spoken_audio_file">Select Audio File</string>
+    <string name="text_pull_down_update_course">Pull down to update the course structure</string>
+    <string name="text_put_down_update_course">Release to update the course structure</string>
+    <string name="text_answer_detail">Answer Details: </string>
+    <string name="text_refer_to_the_answer">Reference Answer: </string>
     <string name="text_answer_analysis">Answer Explanation: </string>
-    <string name="text_unanswer">Not yet answered </string>
-    <string name="text_click_choose_answer">Click to select answer </string>
-    <string name="text_org_course_empty">No courses under your institution</string>
-    <string name="text_join_quit_class_apply">Add quit class application</string>
-    <string name="text_join_quit_class_apply_empty">No quit class application</string>
-    <string name="text_join_class_apply_empty">No add class application</string>
-    <string name="text_quit_class_apply_empty">No quit class application</string>
-    <string name="text_apply_count_format" formatted="false">Total %d of new applications</string>
-    <string name="text_apply_join_class_format" formatted="false">Apply to join\&quot;%s\&quot;</string>
-    <string name="text_apply_quit_class_format" formatted="false">Apply to quit\&quot;%s\&quot;</string>
+    <string name="text_unanswer">Not Answered</string>
+    <string name="text_click_choose_answer">Tap to select answer</string>
+    <string name="text_org_course_empty">No courses under your school/department</string>
+    <string name="text_join_quit_class_apply">Add Class Withdrawal Application</string>
+    <string name="text_join_quit_class_apply_empty">No Enrollment/Withdrawal applications</string>
+    <string name="text_join_class_apply_empty">No Enrollment applications</string>
+    <string name="text_quit_class_apply_empty">No Withdrawal applications</string>
+    <string name="text_apply_count_format" formatted="false">Total %d new applications</string>
+    <string name="text_apply_join_class_format" formatted="false">Apply to Enroll \&quot;%s\&quot;</string>
+    <string name="text_apply_quit_class_format" formatted="false">Apply to Withdraw \&quot;%s\&quot;</string>
 
-    <string name="toast_other_lesson_downloading">Downloading other units</string>
-    <string name="toast_course_expire">Course expired</string>
-    <string name="toast_course_no_content">Course has no content</string>
+    <string name="toast_other_lesson_downloading">Downloading other modules...</string>
+    <string name="toast_course_expire">Courseware expired</string>
+    <string name="toast_course_no_content">No content</string>
     <string name="toast_no_more_activities">No more activities</string>
-    <string name="toast_file_download_fail_format" formatted="false">%s Failed to download</string>
-    <string name="toast_apply_submited_wait_approve">The application has been submitted, please wait for the teacher to approve it</string>
-    <string name="toast_not_get_user_info">User info unfound</string>
-    <string name="toast_name_empty">Name is empty, or it may contain spacing!</string>
-    <string name="toast_course_name_empty">Course name is empty!</string>
+    <string name="toast_file_download_fail_format" formatted="false">Failed to download %s!</string>
+    <string name="toast_apply_submited_wait_approve">Your application has been submitted. Please wait for the teacher to process it.</string>
+    <string name="toast_not_get_user_info">No user information found!</string>
+    <string name="toast_name_empty">Name is empty or contains spaces!</string>
+    <string name="toast_course_name_empty">The course name is empty!</string>
     <string name="toast_course_cover_empty">Please select a course cover!</string>
-    <string name="toast_student_number_empty">Student ID is empty, or may contain spacing!</string>
-    <string name="toast_email_empty">Mailbox is empty, or may contain spacing!</string>
-    <string name="toast_email_format_error">Mailbox format error! Please key in again!</string>
-    <string name="toast_telphone_format_error">Mobile phone format error! Please key in again!</string>
-    <string name="toast_telhpone_empty">Mobile phone number or verification code is empty!</string>
-    <string name="toast_telhpone_empty1">Mobile phone number is empty!</string>
-    <string name="toast_same_telphone">Same as current mobile phone number!</string>
-    <string name="toast_send_fail">Failed to forward, please try again!</string>
-    <string name="toast_phone_number_has_been_occupied">The mobile phone number has been taken up by someone else. Please call Customer Service Hotline 400 610 7808 to contact us</string>
+    <string name="toast_student_number_empty">Student ID is empty or contains spaces!</string>
+    <string name="toast_email_empty">Email is empty or contains spaces!</string>
+    <string name="toast_email_format_error">Incorrect email format - Please re-enter!</string>
+    <string name="toast_telphone_format_error">Incorrect phone format - Please re-enter!</string>
+    <string name="toast_telhpone_empty">The phone number or verification code is empty!</string>
+    <string name="toast_telhpone_empty1">The phone number is empty!</string>
+    <string name="toast_same_telphone">Same as current phone number!</string>
+    <string name="toast_send_fail">Failed to send - please try again!</string>
+    <string name="toast_phone_number_has_been_occupied">The phone number is already occupied - please contact us at sg.service@ulearning.asia or via WhatsApp: +60 12-384 2060</string>
     <string name="toast_has_no_more">No more</string>
-    <string name="toast_unable_to_locate_the_course_page">Unable to locate the course page, please click the icon &quot;more&quot; in course page to select the said course and try again</string>
-    <string name="toast_file_breakdown">Document damaged, please go back to the course catalog page and download this chapter resource again !</string>
-    <string name="toast_file_not_found">File unfound, please go back to the course catalog page and download this chapter resource again !</string>
-    <string name="toast_play_file_not_found">Cannot find the video file to be played！</string>
-    <string name="toast_course_error_contact_us">Courseware error, please contact Customer Service at 400 610 7808 to solve it</string>
-    <string name="toast_your_answer_incomplete">Your answer is incomplete！</string>
-    <string name="toast_you_not_select_answer">You still have some unselected answers! Please make sure all current questions are answered！</string>
-    <string name="toast_please_choose_class_course">Please select the course for the class</string>
-    <string name="toast_create_class_fail">Failed to create</string>
-    <string name="toast_change_course_fail">Failed to modify</string>
+    <string name="toast_unable_to_locate_the_course_page">Unable to open this courseware page - Please click the More button on the Courses screen, select the courseware, and try again.</string>
+    <string name="toast_file_breakdown">The file is damaged - Please go back to the courseware TOC screen to download the module resources again!</string>
+    <string name="toast_file_not_found">The file is not found - Please go back to the courseware TOC screen to download the module resources again!</string>
+    <string name="toast_play_file_not_found">Unable to find the video to play!</string>
+    <string name="toast_course_error_contact_us">Courseware error - please contact us at sg.service@ulearning.asia or via WhatsApp: +60 12-384 2060</string>
+    <string name="toast_your_answer_incomplete">Your answers are not complete yet!</string>
+    <string name="toast_you_not_select_answer">You missed one or more questions - Please make sure that you have answered all!</string>
+    <string name="toast_please_choose_class_course">Please select the courseware for the class</string>
+    <string name="toast_create_class_fail">Failed to create!</string>
+    <string name="toast_change_course_fail">Failed to edit!</string>
     <string name="toast_course_update_success">@string/modify_success</string>
     <string name="toast_update_fail">@string/modify_fail</string>
 
-    <string name="toast_delete_success">Delete successfully</string>
-    <string name="toast_delete_success1">Deleted successfully</string>
-    <string name="toast_delete_fail">Failed to delete</string>
-    <string name="toast_set_success">Set successfully</string>
+    <string name="toast_delete_success">Deleted successfully!</string>
+    <string name="toast_delete_success1">Removed successfully!</string>
+    <string name="toast_delete_fail">Failed to delete!</string>
+    <string name="toast_set_success">Set successfully!</string>
 
-    <string name="about_menu_operation_guide">User Manual</string>
-    <string name="about_menu_operation_update_notify">Update Notice</string>
+    <string name="about_menu_operation_guide">User Guide</string>
+    <string name="about_menu_operation_update_notify">Update Notifications</string>
     <string name="about_menu_operation_feedback">Feedback</string>
 
-    <string name="about_menu_operation_update">check update</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about_menu_operation_update">Check Updates</string>
 
-    <string name="active_status_attendancing">Calling</string>
-    <string name="active_tag_student_hp">Peer marking</string>
+    <string name="active_status_attendancing">Roll call in progress</string>
+    <string name="active_tag_student_hp">Peer Review</string>
     <string name="active_tag_growth">@string/growth</string>
     <string name="active_tab_all">All</string>
     <string name="active_tab_all_tea">All teachers</string>
-    <string name="active_tab_work">Assignment</string>
-    <string name="active_tab_attendance">Roll Call</string>
-    <string name="active_tab_vote">Poll</string>
-    <string name="active_tab_discuss">Discussion</string>
-    <string name="active_tab_interlocution">Compete to Answer</string>
+    <string name="active_tab_work">Assignments</string>
+    <string name="active_tab_attendance">Roll Calls</string>
+    <string name="active_tab_vote">Polls</string>
+    <string name="active_tab_discuss">Discussions</string>
+    <string name="active_tab_interlocution">Compete to Answers</string>
 
-    <string name="active_tab_live">Live streaming</string>
-    <string name="active_tab_choose">Random Pick</string>
-    <string name="active_tab_grade">Mark</string>
-    <string name="active_tab_open_live">Live streaming in public</string>
+    <string name="active_tab_live">Live Sessions</string>
+    <string name="active_tab_choose">Random Picks</string>
+    <string name="active_tab_grade">Peer Reviews</string>
+    <string name="active_tab_open_live">Open for Public</string>
 
-    <string name="tools_exam_title">Take exam using mobile phone</string>
-    <string name="tools_exam_pc">Computer exam</string>
-    <string name="tools_exam_mobile_pc">Mobile/computer exam</string>
+    <string name="tools_exam_title">Mobile Exam</string>
+    <string name="tools_exam_pc">Web Exam</string>
+    <string name="tools_exam_mobile_pc">Mobile/Web Exam</string>
 
-    <string name="tools_exam_text">Sit for exam without having to go to computer lab</string>
+    <string name="tools_exam_text">Online exams can be done without a computer lab</string>
     <string name="tools_mobile_title">Mobile evaluation</string>
-    <string name="tools_mobile_text">Evaluate in class in order to improvise teaching </string>
-    <string name="tools_word_title">Vocabulary dictation</string>
-    <string name="tools_word_text">Revise vocabulary before class, vocabulary will be randomly selected during dictation in class </string>
-    <string name="tools_speech_title">Oral test</string>
-    <string name="tools_speech_text">Auto-marking oral English, a combination of learning, practice and examination</string>
+    <string name="tools_mobile_text">In-class evaluation to promote teaching</string>
+    <string name="tools_word_title">Vocabulary Dictation</string>
+    <string name="tools_word_text">Review of new vocabulary before class and random vocabulary dictation in class</string>
+    <string name="tools_speech_title">Spoken English Test</string>
+    <string name="tools_speech_text">Auto-grading for spoken English tests - a combination of learning, practicing and testing</string>
 
-    <string name="activity_home_work_test">Test</string>
-    <string name="activity_home_work_group">Group assignment</string>
-    <string name="activity_home_work_person">Individual assignment</string>
-    <string name="activity_public_activity">Launch an activity</string>
+    <string name="activity_home_work_test">Quiz</string>
+    <string name="activity_home_work_group">Group Assignment</string>
+    <string name="activity_home_work_person">Individual Assignment</string>
+    <string name="activity_public_activity">Launch Activity</string>
 
-    <string name="activity_more_menu_work">Personal\n Assignment</string>
-    <string name="activity_more_menu_write">Writing\n Assignment</string>
-    <string name="activity_more_menu_spoken">Oral\n Assignment</string>
-    <string name="activity_more_menu_upload">Upload\n Assignment</string>
-    <string name="activity_more_menu_group_work">Group\n Assignment</string>
-    <string name="activity_week_empty_tea_remind">There is no activity this week~</string>
-    <string name="activity_week_empty_stu_remind">Click the menu below to see the rest </string>
-    <string name="resource_more_menu_add_file">Add file</string>
-    <string name="resource_no_this_type">There is no resource of the current type </string>
-    <string name="resource_delete_remind">Confirm to delete resource?</string>
-    <string name="resource_delete_child_remind">Confirm to delete all resources in the folder and its sub-folders?</string>
-    <string name="resource_move_path_no_change">The moved resource already exists in the current folder</string>
+    <string name="activity_more_menu_work">Individual Assignment</string>
+    <string name="activity_more_menu_write">Writing Assignment</string>
+    <string name="activity_more_menu_spoken">Assignment - Spoken English</string>
+    <string name="activity_more_menu_upload">Assignment - File Upload</string>
+    <string name="activity_more_menu_group_work">Group Assignment</string>
+    <string name="activity_week_empty_tea_remind">No activities this week</string>
+    <string name="activity_week_empty_stu_remind">Click the menu below to see other content</string>
+    <string name="resource_more_menu_add_file">Add File</string>
+    <string name="resource_no_this_type">No resources of this type</string>
+    <string name="resource_delete_remind">Are you sure to delete the resource?</string>
+    <string name="resource_delete_child_remind">Are you sure to delete all resources in the folder and its subfolders?</string>
+    <string name="resource_move_path_no_change">The moved resource(s) already exists in the current folder</string>
     <string name="resource_move_self">Cannot move a folder to itself or to a sub-folder </string>
-    <string name="resource_no_check">Please select the resource first </string>
+    <string name="resource_no_check">Please select the resource(s) first</string>
     <string name="resource_no_permit_check">Please select permissions first </string>
-    <string name="resource_no_publish_resource_stu">Teacher has not published any resource yet</string>
-    <string name="resource_no_publish_resource_tea">No content posted yet </string>
-    <string name="resource_from_who" formatted="false">From:%s</string>
-    <string name="resource_more_menu_add_resource">Add resource</string>
-    <string name="resource_class_count_more" formatted="false">%s About %s of classes</string>
-    <string name="resource_more_menu_add_pic">Add graphic</string>
-    <string name="resource_more_menu_add_link">Add link</string>
-    <string name="resource_more_menu_create_file">Create file</string>
-    <string name="resource_permit_all_class">Allow all classes to view</string>
+    <string name="resource_no_publish_resource_stu">The teacher has not posted any resources</string>
+    <string name="resource_no_publish_resource_tea">No content posted</string>
+    <string name="resource_from_who" formatted="false">From %s</string>
+    <string name="resource_more_menu_add_resource">Add Resource</string>
+    <string name="resource_class_count_more" formatted="false">%s... %s classes</string>
+    <string name="resource_more_menu_add_pic">Add Page</string>
+    <string name="resource_more_menu_add_link">Add Link</string>
+    <string name="resource_more_menu_create_file">Add Folder</string>
+    <string name="resource_permit_all_class">Post to all my classes</string>
 
-    <string name="resource_permit_course_all_class">Allow all classes of the course to view</string>
-    <string name="resource_permit_specified_class">Allow specified classes to view</string>
+    <string name="resource_permit_course_all_class">Post to all classes of the course</string>
+    <string name="resource_permit_specified_class">Post to selected classes</string>
     <string name="resource_permit_to_child">Apply to sub-folders and resources </string>
     <string name="resource_please_select_class">Please select class</string>
-    <string name="resource_permit_to_child_warning">Once opened, access permissions to the resource and sub-folders under the selected folder will also change </string>
-    <string name="resource_first_remind_1">Updated new features of the course resource</string>
-    <string name="resource_first_remind_2">1. You may add file folders in the course resource</string>
-    <string name="resource_first_remind_3">2. You can set different access permissions for different classes. </string>
-    <string name="resource_first_remind_4">Add new access permissions</string>
+    <string name="resource_permit_to_child_warning">Once enabled, the access to sub-folders and their resources will also be updated</string>
+    <string name="resource_first_remind_1">A new feature is added to courseware resources</string>
+    <string name="resource_first_remind_2">1. You can add folders to course Resources</string>
+    <string name="resource_first_remind_3">2. You can set the access permission and allow selected classes to access.</string>
+    <string name="resource_first_remind_4">Added access permission settings</string>
 
     <string name="activity_more_menu_vote">@string/active_tab_vote</string>
     <string name="activity_more_menu_attendance">@string/active_tab_attendance</string>
     <string name="activity_more_menu_interlocution">@string/active_tab_interlocution</string>
 
-    <string name="file_tab_doc">Doc</string>
-    <string name="file_tab_video">video</string>
-    <string name="file_tab_pic">Pictures</string>
-    <string name="file_tab_archive">Zipped file</string>
+    <string name="file_tab_doc">Documents</string>
+    <string name="file_tab_video">Videos</string>
+    <string name="file_tab_pic">Images</string>
+    <string name="file_tab_archive">Compressed Files</string>
 
     <string name="main_tab_home">Home</string>
-    <string name="main_tab_course">Course</string>
-    <string name="main_tab_resource">Resource</string>
-    <string name="main_tab_activity">Activity</string>
+    <string name="main_tab_course">Courses</string>
+    <string name="main_tab_resource">Resources</string>
+    <string name="main_tab_activity">Activities</string>
     <string name="main_tab_textbook">Courseware</string>
     <string name="main_tab_other">Status</string>
     <string name="main_tab_mine">Me</string>
-    <string name="main_tab_tools">Application</string>
+    <string name="main_tab_tools">Apps</string>
 
     <string name="type_video">Video</string>
     <string name="type_audio">Audio</string>
-    <string name="type_word">Word file</string>
-    <string name="type_pic">Picture</string>
+    <string name="type_word">Document</string>
+    <string name="type_pic">Image</string>
     <string name="type_link">Link</string>
-    <string name="type_img_text">Image with text</string>
+    <string name="type_img_text">Page</string>
     <string name="type_other">Others</string>
 
     <string name="course_app_textbook">Courseware</string>
-    <string name="course_app_resource">Resource</string>
-    <string name="course_app_work">Assignment</string>
-    <string name="course_app_discuss">Discussion</string>
-    <string name="course_app_live">Live</string>
+    <string name="course_app_resource">Resources</string>
+    <string name="course_app_work">Assignments</string>
+    <string name="course_app_discuss">Discussions</string>
+    <string name="course_app_live">Live Sessions</string>
     <string name="course_app_class">Classroom</string>
-    <string name="course_app_test">Test</string>
-    <string name="course_app_exam">Assessment</string>
+    <string name="course_app_test">Exams</string>
+    <string name="course_app_exam">Grades</string>
+    <string name="course_app_words">Vocabulary Dictation</string>
+    <string name="course_app_speak">Spoken English Test</string>
     <string name="course_app_assess">Analysis</string>
-    <string name="course_app_member">Member</string>
+    <string name="course_app_member">Members</string>
 
     <string name="course_home_course_textbook">Courseware</string>
     <string name="course_cover">Course Cover</string>
     <string name="course_home_manage">Manage</string>
 
-    <string name="class_year">Class year</string>
-    <string name="course_school">School attached to</string>
+    <string name="class_year">Year</string>
+    <string name="course_school">College/Department</string>
     <string name="please_select">Please select</string>
-    <string name="join_class_course_class_name" formatted="false">Class name :%s</string>
-    <string name="join_class_course_course_name" formatted="false">Course :%s</string>
-    <string name="join_class_course_tea_name" formatted="false">Teacher :%s</string>
-    <string name="join_class_course_sch_name" formatted="false">School :%s</string>
-    <string name="join_class_course_class_code" formatted="false">Class code :%s</string>
+    <string name="join_class_course_class_name" formatted="false">Class Name: %s</string>
+    <string name="join_class_course_course_name" formatted="false">Course: %s</string>
+    <string name="join_class_course_tea_name" formatted="false">Teacher: %s</string>
+    <string name="join_class_course_sch_name" formatted="false">School: %s</string>
+    <string name="join_class_course_class_code" formatted="false">Class Code: %s</string>
 
     <string name="title_class_name">Class Name</string>
     <string name="title_class_code">Class Code</string>
     <string name="title_class_teacher_name">Teacher Name</string>
-    <string name="title_class_year">Academic year extended to</string>
-    <string name="title_class_join_approval">To or not to approve student to join in</string>
-    <string name="title_class_quit_approval">To or not to approve student to exit class</string>
-    <string name="title_class_practice_show_correct_answer">Show or not to show correct answers of the exercises</string>
-    <string name="title_class_practice_reanswer">Allow or disallow to repeat taking exercises</string>
+    <string name="title_class_year">Year</string>
+    <string name="title_class_join_approval">Approval is required for students to enroll the class</string>
+    <string name="title_class_quit_approval">Approval is required for students to withdraw from the class</string>
+    <string name="title_class_practice_show_correct_answer">Show/hide correct answers</string>
+    <string name="title_class_practice_reanswer">Allow multiple attempts</string>
     <string name="title_class_course">Class Course</string>
-    <string name="title_class_join_apply">Apply to join class</string>
-    <string name="title_class_quit_apply">Apply to quit class</string>
+    <string name="title_class_join_apply">Need to apply for enrollment</string>
+    <string name="title_class_quit_apply">Need to apply for withdrawal</string>
 
-    <string name="join_class_apply">Join class application</string>
-    <string name="join_class_course_apply_count">Apply to join the class</string>
-    <string name="quit_class_apply">Quit class application</string>
+    <string name="join_class_apply">Enrollment Applications</string>
+    <string name="join_class_course_apply_count"> enrollment/withdrawal applications</string>
+    <string name="quit_class_apply">Withdrawal Applications</string>
 
-    <string name="title_course_name">Course name</string>
-    <string name="qr">Textbook QR code</string>
+    <string name="title_course_name">Course Name</string>
+    <string name="qr">QR Code Scan</string>
 
-    <string name="face_recognition">Face recognition</string>
-    <string name="finish_qr">Completed</string>
-    <string name="photo_album">Photo album</string>
+    <string name="face_recognition">Face Verification</string>
+    <string name="finish_qr">Complete</string>
+    <string name="photo_album">Album</string>
 
     <string name="personal_information">Personal information</string>
     <string name="growth">Growth Points</string>
-    <string name="points">points</string>
+    <string name="points">Growth Points</string>
     <string name="achievement">Achievement Points</string>
-    <string name="get_growth_desc">Students sign up successfully to get growth value</string>
+    <string name="get_growth_desc">Students can get growth points if they sign in attendance successfully</string>
 
-    <string name="student_list">Student list</string>
-    <string name="student_list_sort_growth">Sort by growth point</string>
-    <string name="student_list_sort_studentno">Sort by student number</string>
+    <string name="student_list">Student List</string>
+    <string name="student_list_sort_growth">Sort by growth points</string>
+    <string name="student_list_sort_studentno">Sort by student ID</string>
 
     <string name="password_old">Old password</string>
     <string name="password_new">New password</string>
 
-    <string name="class_apply">Number of applications</string>
+    <string name="class_apply"> applications</string>
 
-    <string name="course_author">Author:</string>
-    <string name="course_copyright">Course Copyright:</string>
-    <string name="course_detail">Course Introduction:</string>
+    <string name="course_author">Author: </string>
+    <string name="course_copyright">Courseware Copyright: </string>
+    <string name="course_detail">Courseware Description: </string>
 
-    <string name="download_process_format">Downloading(0KB/0M)</string>
-    <string name="downloaded_process_format" formatted="false">Already downloaded %d of resources total %s</string>
-    <string name="format_class_member_ranking" formatted="false">No. %d</string>
+    <string name="download_process_format">Downloading... (0KB/0M)</string>
+    <string name="downloaded_process_format" formatted="false">%d resources have been downloaded, a total of %s</string>
+    <string name="format_class_member_ranking" formatted="false">Ranked No. %d</string>
 
-    <string name="not_publish">Not yet published</string>
-    <string name="finished_lesson">Chapters</string>
-    <string name="study_time">Time</string>
-    <string name="collect_score">Summarize result</string>
-    <string name="score">score</string>
-    <string name="level">level</string>
-    <string name="current_collect_score">Current score</string>
-    <string name="average_score">Average result</string>
-    <string name="collect_score_info">Result details</string>
-    <string name="assess_end_date">Assessment deadline: %s</string>
-    <string name="collect_score_remind">The teacher has set the assessment,  each part accounts for a certain weight and the score will change constantly during the learning process. Please take the score shown after the assessment deadline as the standard result. </string>
-    <string name="active_text_book_not_edit_remind">Scrape off  the coating on the back of the paper textbook or study card and enter the activation code into the blank box below </string>
-    <string name="active_text_book_searched_remind">The following information is found based on the activation code you’ve entered: </string>
-    <string name="active_text_book_only_pc_remind">This course does not support mobile learning, please use computer</string>
-    <string name="active_text_book_not_edit_remind2">1. Scrape off the coating on the back of the paper textbook or study card to get the activation code \n2. The textbook should be activated under individual’s account. Please do not activate it for others</string>
-    <string name="active_text_book_special_remind">Further reminder:\n.Each study card can only be activated once\n. The validity period of courseware is 180 days from the activation date\n. Please use your own account to login and activate</string>
-    <string name="active_text_book_search_remind">The following information is found based on the activation code you’ve entered: </string>
-    <string name="active_course_code_wrong">Please enter the correct 16-characters activation code </string>
-    <string name="active_course_not_same">Activation code does not match! Please use the activation code of this courseware to activate. </string>
+    <string name="not_publish">Not posted</string>
+    <string name="finished_lesson">Modules Completed: </string>
+    <string name="study_time">Cumulative Learning Time: </string>
+    <string name="collect_score">Summarized Results</string>
+    <string name="score">Score: </string>
+    <string name="level">Level</string>
+    <string name="current_collect_score">Current Score</string>
+    <string name="average_score">Average Results</string>
+    <string name="collect_score_info">Result Details</string>
+    <string name="assess_end_date">Grading Due: %s</string>
+    <string name="collect_score_remind">The teacher has set up the course grading rules. Each grading item accounts for a certain proportion. The results will change continuously during the learning process. Please refer to the results after the grading due date.</string>
+    <string name="active_text_book_not_edit_remind">Scratch off the coating on the back cover of the paper textbook or learning card to reveal the activation code. Enter the code in the box below.</string>
+    <string name="active_text_book_searched_remind">Base on the activation code entered, the following information is found: </string>
+    <string name="active_text_book_only_pc_remind">Mobile learning is not supported for this courseware. Please go to the web-version ULearning to learn.</string>
+    <string name="active_text_book_not_edit_remind2">1. Scratch off the coating on the back cover of the paper textbook or learning card to reveal the activation code or QR code. \n2. The courseware needs to be activated under your own account - please do not activate for others!</string>
+    <string name="active_text_book_special_remind">Note:\n· Each learning card can only be activated once\n· Courseware learning is valid for 180 days from the activation date\n· Please use your own account to log in to activate\n· If you have any problems, please contact us at sg.service@ulearning.asia</string>
+    <string name="active_text_book_search_remind">Base on the activation code entered, the following information is found: </string>
+    <string name="active_course_code_wrong">Please enter the valid 16-character activation code</string>
+    <string name="active_course_not_same">The activation code does not match! Please use the activation code of this courseware to activate.</string>
 
-    <string name="active_course_right_course">Your activation code corresponds to courseware: </string>
-    <string name="active_course_please_set">Please enter activation code</string>
-    <string name="active_course_please_set_keyboard">There are 16 characters of letters/numbers, please type under the English keyboard </string>
-    <string name="active_course_code_success">Courseware activation success</string>
-    <string name="active_course_code_fail">Failed to activate courseware, please try again later</string>
-    <string name="active_course_search_fail">Courseware query failed, please try again later </string>
-    <string name="active_course_code_uesd">The activation code has been used. If it is not activated by you, please contact customer service </string>
+    <string name="active_course_right_course">Courseware corresponding to the activation code: %s</string>
+    <string name="active_course_please_set">Enter the activation code</string>
+    <string name="active_course_please_set_keyboard">16 letters/numbers - Please enter under the English keyboard</string>
+    <string name="active_course_code_success">Courseware activated successfully!</string>
+    <string name="active_course_code_fail">Courseware activation failed - Please try again later!</string>
+    <string name="active_course_search_fail">Failed to find the courseware - Please try again later!</string>
+    <string name="active_course_code_uesd">The activation code has been used. If it is not activated by you, please contact us at sg.service@ulearning.asia</string>
 
     //汇总成绩
-    <string name="calculation_time" formatted="false">Time %s marks/Total score %s</string>
-    <string name="calculation_process" formatted="false">Learning progress %s marks/ Total score %s</string>
-    <string name="calculation_test" formatted="false">Exam %s marks/Total score %s</string>
-    <string name="calculation_score" formatted="false">Results %s marks/Total score %s</string>
-    <string name="calculation_total_score" formatted="false">Total score %d</string>
-    <string name="calculation_total" formatted="false">Total score</string>
-    <string name="calculation_work" formatted="false">Assignment %s marks/ Total score %s</string>
-    <string name="calculation_other" formatted="false">Others %s marks/Total score %s</string>
+    <string name="calculation_time" formatted="false">Learning Time: %s pts out of %s</string>
+    <string name="calculation_process" formatted="false">Learning Progress: %s pts out of %s</string>
+    <string name="calculation_test" formatted="false">Exams: %s pts out of %s</string>
+    <string name="calculation_score" formatted="false">Results: %s pts out of %s</string>
+    <string name="calculation_total_score" formatted="false">Total Score: %d</string>
+    <string name="calculation_total" formatted="false">Total Score</string>
+    <string name="calculation_work" formatted="false">Assignments: %s pts out of %s</string>
+    <string name="calculation_other" formatted="false">Others: %s pts out of %s</string>
 
     //无策略的说明
-    <string name="calculation_one">· Show average results by chapter</string>
-    <string name="calculation_two">· 0 points for incomplete chapters </string>
-    <string name="calculation_three">· Pull down to refresh latest result</string>
+    <string name="calculation_one">· Show average score by module</string>
+    <string name="calculation_two">· Uncompleted modules are given 0 points</string>
+    <string name="calculation_three">· Pull down to refresh latest scores</string>
 
     //汇总成绩说明
-    <string name="score_time" formatted="false">Time: total score %s</string>
-    <string name="score_process" formatted="false">Learning progress: total score %s</string>
-    <string name="score_test" formatted="false">Exam: total score %s</string>
+    <string name="score_time" formatted="false">Learning Time: %s points possible</string>
+    <string name="score_process" formatted="false">Learning Progress: %s points possible</string>
+    <string name="score_test" formatted="false">Exams: %s points possible</string>
 
-    <string name="score_score" formatted="false">Result: total score%s</string>
-    <string name="score_work" formatted="false">Assignment: total score %s</string>
-    <string name="score_other" formatted="false">Others: total score%s</string>
-    <string name="score_total" formatted="false">Full score %s</string>
+    <string name="score_score" formatted="false">Grade: %s points possible</string>
+    <string name="score_work" formatted="false">Assignments: %s points possible</string>
+    <string name="score_other" formatted="false">Others: %s points possible</string>
+    <string name="score_total" formatted="false">Total Possible: %s</string>
 
     //汇总成绩说明
-    <string name="score_info_time" formatted="false">According to the learning duration in assessment chapters, reaches %s minutes get full marks, less than %s minutes scored 0 marks. </string>
-    <string name="score_info_process" formatted="false">According to the learning progress in assessment chapters, reaches %s  get full marks, less than %s scored 0 marks。</string>
-    <string name="score_info_test" formatted="false">Calculation based on the selected exam’s results </string>
-    <string name="score_info_score" formatted="false">Calculation based on the average scores in assessment chapters </string>
-    <string name="score_info_work" formatted="false">Calculation based on the selected assignment’s results </string>
-    <string name="score_info_other" formatted="false">Calculation based on the scores imported by teachers</string>
+    <string name="score_info_time" formatted="false">If the cumulative learning time of the grading modules reaches %s minutes, a total possible score will be rewarded. 0 points will be counted for less than %s minutes.</string>
+    <string name="score_info_process" formatted="false">If the modules completed reaches %s of the grading modules, a total possible score will be rewarded. 0 points will be counted for less than %s modules.</string>
+    <string name="score_info_test" formatted="false">Calculated based on the results of the exams included for grading</string>
+    <string name="score_info_score" formatted="false">Calculated based on the average score of the topics included for grading</string>
+    <string name="score_info_work" formatted="false">Calculated based on the results of the assignments included for grading</string>
+    <string name="score_info_other" formatted="false">Calculated based on the scores imported by your teacher</string>
 
-    <string name="course_score">--Marks</string>
-    <string name="course_score_fromat" formatted="false">%s marks</string>
-    <string name="course_activity_size" formatted="false">%s of</string>
-    <string name="how_many_size" formatted="false">%s of</string>
+    <string name="course_score">-- points</string>
+    <string name="course_score_fromat" formatted="false">%s points</string>
+    <string name="course_activity_size" formatted="false">%s </string>
+    <string name="how_many_size" formatted="false">%s </string>
     <string name="course_activity_date" formatted="false">%d-%s</string>
-    <string name="course_study_plan_date" formatted="false">You may learn from %s to %s</string>
-    <string name="average_scores">Average score</string>
-    <string name="course_study_close_lesson">Your teacher has closed the chapter for study</string>
-    <string name="progress">Progress</string>
-    <string name="grade">Result</string>
-    <string name="grade1">Result：</string>
-    <string name="minute">Minute</string>
-    <string name="second">Second</string>
+    <string name="course_study_plan_date" formatted="false">Available from %s to %s</string>
+    <string name="average_scores">Average Score</string>
+    <string name="course_study_close_lesson">Module access is turned off by your teacher</string>
+    <string name="progress">Learning Progress</string>
+    <string name="grade">Grade</string>
+    <string name="grade1">Grade: </string>
+    <string name="minute">Minutes</string>
+    <string name="second">Seconds</string>
     <string name="clock">Clock</string>
-    <string name="time">Time:</string>
-    <string name="minute_format" formatted="false">%dMarks</string>
-    <string name="minute_format_str" formatted="false">%sMarks</string>
-    <string name="lesson_offline_resource">Offline resource for this chapter</string>
+    <string name="time">Time: </string>
+    <string name="minute_format" formatted="false">%d minutes</string>
+    <string name="minute_format_str" formatted="false">%s minutes</string>
+    <string name="lesson_offline_resource">Cached Courseware</string>
 
-    <string name="dialog_content_clear_course">Are you sure you want to delete the course? </string>
+    <string name="dialog_content_clear_course">Are you sure you want to remove the courseware? </string>
 
-    <string name="practice_correct_answer">Correct answer:</string>
-    <string name="practice_user_answer">Your answer:</string>
+    <string name="practice_correct_answer">Correct Answer: </string>
+    <string name="practice_user_answer">Your Answer: </string>
     <string name="practice_answer_analysis">Answer Explanation</string>
 
     <string name="about_activity_title">About Us</string>
     <string name="feedback_activity_title">Feedback</string>
     <string name="feedback_activity_submit">Submit Feedback</string>
-    <string name="pay_activity_title">Course purchase</string>
+    <string name="pay_activity_title">Purchase Courseware</string>
 
     <string name="login_confirm">Log in</string>
     <string name="login_title">Log in via username/password</string>
-    <string name="login_bind">Bind</string>
-    <string name="login_no_account">No account</string>
-    <string name="login_bind_title">Bind with ULearn account</string>
-    <string name="login_bind_remind">After binding, you can log in directly with a third-party application </string>
-    <string name="logout_unbind_success_remind">Unbind successfully</string>
-    <string name="logout_bind_success_remind">Binding success</string>
-    <string name="logout_bind_wechat_remind">Are you sure you want to unbind your account?</string>
-    <string name="login_wechat_confirm">WeChat login</string>
-    <string name="login_wechat_binded">Your account has been bound, click to unbind</string>
-    <string name="login_binded_now">Bind now</string>
-    <string name="login_wechat_app_not_installed">Please install WeChat app </string>
-    <string name="login_qq_confirm">QQ login</string>
-    <string name="login_welcome">Welcome to ULearn</string>
-    <string name="login_name">Username</string>
-    <string name="login_password">Password</string>
+    <string name="login_bind">Link</string>
+    <string name="login_no_account">No account?</string>
+    <string name="login_bind_title">Link with ULearning account</string>
+    <string name="login_bind_remind">After linking, you can log in directly with the third-party application</string>
+    <string name="logout_unbind_success_remind">Unlinked successfully!</string>
+    <string name="logout_bind_success_remind">Linked successfully!</string>
+    <string name="logout_bind_wechat_remind">Are you sure you want to unlink it?</string>
+    <string name="login_wechat_confirm">Log in via Wechat</string>
+    <string name="login_wechat_binded">Linked - Tap to Unlink</string>
+    <string name="login_binded_now">Link Now</string>
+    <string name="login_wechat_app_not_installed">Install WeChat and turn it on</string>
+    <string name="login_qq_confirm">Log in via QQ</string>
+    <string name="login_welcome">Welcome to ULearning</string>
+    <string name="login_name">Enter your username</string>
+    <string name="login_password">Enter your password</string>
     <string name="login_register">Register</string>
     <string name="login_forget_password">Forgot password?</string>
     <string name="login_forget_password_line"><u>忘记密码?</u></string>
     <string name="register_activity_title">Register</string>
 
-    <string name="register_stu">&quot;I'm student&quot;</string>
-    <string name="register_tea">&quot;I'm teacher&quot;</string>
+    <string name="register_stu">I am a student</string>
+    <string name="register_tea">I am a teacher</string>
 
 
-    <string name="main_logout">Your account has been logged on to another mobile phone, please make sure that your are operating it. If not, do change password to safeguard your account</string>
+    <string name="main_logout">Your account has been logged on to another mobile device, Make sure it is you. If not, change password to safeguard your account.</string>
 
     <string name="main_menu_courses_title">My Courses</string>
-    <string name="main_menu_statistics_sync_success">The learning record has been synchronized</string>
-    <string name="main_menu_statistics_sync_failed">Sorry, sychronization failed</string>
+    <string name="main_menu_statistics_sync_success">The learning records are synchronized</string>
+    <string name="main_menu_statistics_sync_failed">Synchronization failed!</string>
     <string name="main_menu_statistics_review">Review</string>
     <string name="main_menu_setting_font_small">Small</string>
-    <string name="main_menu_setting_font_normal">Normal</string>
+    <string name="main_menu_setting_font_normal">Medium</string>
     <string name="main_menu_setting_font_large">Large</string>
-    <string name="main_menu_setting_clear_title">Clear downloaded course</string>
-    <string name="main_menu_setting_service_title">Contact customer service</string>
+    <string name="main_menu_setting_clear_title">Remove downloaded courseware</string>
+    <string name="main_menu_setting_service_title">Contact Us</string>
 
     <string name="main_menu_setting_about_title">About Us</string>
-    <string name="main_menu_item_courselistgrade">Passing score of the oral practice</string>
-    <string name="main_menu_setting_font_size">Set font size</string>
-    <string name="main_join_class">Join class</string>
-    <string name="main_join_class_course">Join class’ course</string>
-    <string name="main_join_class_course_code_size">Class course code</string>
-    <string name="main_join_class_course_code_hint">Please enter class course code</string>
-    <string name="main_menu_option_upgrade_none_message">Current version is already the highest</string>
-    <string name="main_menu_invalid_warn_message">Please key in valid info</string>
-    <string name="main_menu_feedback_confirm_message">Submission successful, thank you for your feedback。</string>
+    <string name="main_menu_item_courselistgrade">Passing score for spoken English practice</string>
+    <string name="main_menu_setting_font_size">Edit Font Size</string>
+    <string name="main_join_class">Enroll</string>
+    <string name="main_join_class_course">Enroll Course/Class</string>
+    <string name="main_join_class_course_code_size">Class Code</string>
+    <string name="main_join_class_course_code_hint">Enter the class code</string>
+    <string name="main_menu_option_upgrade_none_message">It is already the latest version</string>
+    <string name="main_menu_invalid_warn_message">Please enter valid information</string>
+    <string name="main_menu_feedback_confirm_message">Submitted successfully - Thank you for your feedback.</string>
 
-    <string name="package_download_none_wifi_confirm">No Wifi provided, to download will consume data traffic, confirm to download?</string>
-    <string name="my_store_course_expired_label">Course expired, unable to view</string>
+    <string name="package_download_none_wifi_confirm">Is Wi-Fi not connected? Be aware that loading courseware will consume data traffic.</string>
+    <string name="my_store_course_expired_label">The courseware has expired and cannot be accessed</string>
 
-    <string name="course_menu_glossaries_title">Glossary list</string>
-    <string name="course_my_activity_count_title" formatted="false">This week’s activity(%d)</string>
-    <string name="course_my_grade_title">Course result</string>
-    <string name="course_my_grade_test_title">Assessment strategy</string>
-    <string name="course_my_grade_score">Current result</string>
-    <string name="course_my_grade_end_time" formatted="false">Assessment has ended, take %s as final result</string>
-    <string name="course_my_grade_unend_time" formatted="false">Assessment deadline%s</string>
-    <string name="course_my_publish_time" formatted="false">%s published on %s</string>
-    <string name="course_menu_bookmarks_title">Bookmark list</string>
-    <string name="course_menu_notes_title">Notes list</string>
-    <string name="course_menu_bookmarks_page_number">Page No. %d</string>
-    <string name="course_menu_notes_page_number">Page No. %d</string>
-    <string name="course_menu_notes_delete_dialog_message">Confirm to delete notes?</string>
-    <string name="course_menu_notes_empty_message">You have not added notes</string>
-    <string name="course_menu_bookmarks_delete_dialog_message">Confirm to delete bookmark？</string>
-    <string name="course_checking_remind">Applied to join the class, please wait for  teacher\'s approval </string>
-    <string name="course_select_change_remind">After modifying courseware, students\' assessment results may be affected, are you sure you want to modify? </string>
-    <string name="course_not_complete_remind">You haven’t completed studying your course, confirm to leave? </string>
-    <string name="course_teach_group_finish">You have formed a teaching team and you  cannot change the teaching mode</string>
-    <string name="course_complete_other_tea" formatted="false">Classes of other teachers：\n%s</string>
-    <string name="course_join_give_up">Give up joining the class</string>
+    <string name="course_menu_glossaries_title">Glossary</string>
+    <string name="course_my_activity_count_title" formatted="false">This week’s activities (%d)</string>
+    <string name="course_my_grade_title">Course Grade</string>
+    <string name="course_my_grade_test_title">Grading Rules</string>
+    <string name="course_my_grade_score">Current Score</string>
+    <string name="course_my_grade_end_time" formatted="false">The grading has ended - %s is your final grade</string>
+    <string name="course_my_grade_unend_time" formatted="false">Grading Due: %s</string>
+    <string name="course_my_publish_time" formatted="false">%s posted on %s</string>
+    <string name="course_menu_bookmarks_title">Favorites</string>
+    <string name="course_menu_notes_title">Notes</string>
+    <string name="course_menu_bookmarks_page_number">Page %d</string>
+    <string name="course_menu_notes_page_number">Page %d</string>
+    <string name="course_menu_notes_delete_dialog_message">Are you sure you want to delete the notes?</string>
+    <string name="course_menu_notes_empty_message">You have not added any notes</string>
+    <string name="course_menu_bookmarks_delete_dialog_message">Are you sure you want to delete the bookmark?</string>
+    <string name="course_checking_remind">Applied class enrollment already - Please wait for the teacher to approve</string>
+    <string name="course_select_change_remind">After editing the courseware, the student\'s grades may be affected. Are you sure to edit?</string>
+    <string name="course_not_complete_remind">You haven\'t completed the course settings. Are you sure to leave?</string>
+    <string name="course_teach_group_finish">You have set up a teaching team and cannot change the teaching mode</string>
+    <string name="course_complete_other_tea" formatted="false">Classes Taught by Others: \n%s</string>
+    <string name="course_join_give_up">Cancel Enrolling</string>
 
-    <string name="course_join_give_up_confirm">Confirm to give up joining the class? </string>
+    <string name="course_join_give_up_confirm">Are you sure to cancel the class enrolling?</string>
     <string name="course_menu_bookmarks_empty_message">You have not added bookmark</string>
     <string name="course_detail_download_fail">Course catalog loading failed, please call Customer Service Hotline 400 610 7808 to help resolve your problem</string>
     <string name="course_learn_page_option_submit">Submit</string>
-    <string name="course_learn_page_practice_score">Your score: % marks</string>
+    <string name="course_learn_page_practice_score">Your Score: % points</string>
     <string name="course_learn_page_bookmark_add">Saved</string>
-    <string name="course_learn_page_bookmark_remove">Deleted succcessfully</string>
-    <string name="course_learn_page_end_of_lesson">The last page</string>
-    <string name="course_learn_page_lei_empty_transcript">No original listening script is found</string>
-    <string name="course_learn_page_lei_empty_record">Please record the sound first</string>
-    <string name="course_learn_page_pronunciation_video_transcript">Listening script</string>
-    <string name="course_learn_objective_activity_title">Learning objective</string>
-    <string name="course_learn_test_result_answer_wrong">Your answer: wrong</string>
-    <string name="course_learn_test_result_answer_correct">Your answer: correct</string>
-    <string name="course_learn_lei_practice_answer_activity_title">Course practice answers</string>
-    <string name="course_learn_lei_role_play_help_option_a_title">Show full prompt</string>
-    <string name="course_learn_lei_role_play_help_option_b_title">Show partial prompt</string>
-    <string name="course_learn_lei_role_play_help_option_c_title">No hint is displayed</string>
-    <string name="course_learn_file_remind">Currently not supporting file review \n, you can open with other APPs</string>
+    <string name="course_learn_page_bookmark_remove">Deleted successfully!</string>
+    <string name="course_learn_page_end_of_lesson">Last page</string>
+    <string name="course_learn_page_lei_empty_transcript">No listening English scripts found</string>
+    <string name="course_learn_page_lei_empty_record">Please record the voice first</string>
+    <string name="course_learn_page_pronunciation_video_transcript">Listening English scripts</string>
+    <string name="course_learn_objective_activity_title">Learning Objectives</string>
+    <string name="course_learn_test_result_answer_wrong">Your answer: Incorrect</string>
+    <string name="course_learn_test_result_answer_correct">Your answer: Correct</string>
+    <string name="course_learn_lei_practice_answer_activity_title">Course Exercise Answers</string>
+    <string name="course_learn_lei_role_play_help_option_a_title">Show full hints</string>
+    <string name="course_learn_lei_role_play_help_option_b_title">Show partial hints</string>
+    <string name="course_learn_lei_role_play_help_option_c_title">Do not show hints</string>
+    <string name="course_learn_file_remind">This file type is not currently supported for previewing\nYou may open it with other apps</string>
 
-    <string name="course_not_create_remind">You haven’t created course</string>
-    <string name="course_not_join_remind">You haven’t joined the course</string>
-    <string name="course_not_learning_remind">There are no courses in progress </string>
-    <string name="course_not_end_remind">There are no ended courses</string>
+    <string name="course_not_create_remind">You haven’t created any courses</string>
+    <string name="course_not_join_remind">You haven’t enrolled any courses</string>
+    <string name="course_not_learning_remind">No courses in progress </string>
+    <string name="course_not_end_remind">No ended courses</string>
 
     <!--课程主页-->
-    <string name="coures_home_course_end">Course is ended!</string>
-    <string name="coures_home_course_end_not_add">You can no longer modify the course, publish new resources or activities. Students can continue to browse the course content, but can no longer join the course </string>
-    <string name="coures_home_course_end_look">If you want to review the previous teaching content and students\'learning data, please operate it on the computer </string>
+    <string name="coures_home_course_end">The course is ended!</string>
+    <string name="coures_home_course_end_not_add">You can no longer edit the course and post new resources or activities. Students can continue to view the course content. But the course is no longer enrollable.</string>
+    <string name="coures_home_course_end_look">To view the learning content/activities and learning data, please go to the web version ULearning.</string>
 
     <!--课件-->
-    <string name="textbook_empty_remind">There is no courseware at present. The courseware is designated by the class administrator </string>
-    <string name="textbook_empty_remind_stu">There is no courseware at present </string>
-    <string name="textbook_my_textbook_course">The courseware of this textbook is used in the following course. Please enter the course to study</string>
-    <string name="textbook_select">Select textbook</string>
-    <string name="textbook_out_of_date" formatted="false">%s expired</string>
-    <string name="textbook_is_out_of_date">The course has expired</string>
-    <string name="textbook_plan_chapter_out_of_date">This chapter has been completed</string>
-    <string name="textbook_plan_chapter_not_start">This chapter cannot be learned at the moment </string>
+    <string name="textbook_empty_remind">No courseware found - Courseware is assigned by the course admin </string>
+    <string name="textbook_empty_remind_stu">No courseware found</string>
+    <string name="textbook_my_textbook_course">The courseware is used in the following courses. Please open the course to access the courseware.</string>
+    <string name="textbook_select">Select Courseware</string>
+    <string name="textbook_out_of_date" formatted="false">Expires: %s </string>
+    <string name="textbook_is_out_of_date">The courseware has expired</string>
+    <string name="textbook_plan_chapter_out_of_date">Learning for this module ended</string>
+    <string name="textbook_plan_chapter_not_start">Learning for this module has not started</string>
 
     <!--活动-->
-    <string name="activity_all_empty_stu">There is no class’s activity published~</string>
-    <string name="activity_all_empty_tea">There is no announcement currently</string>
-    <string name="activity_type_empty">There are no eligible activities </string>
-    <string name="activity_not_start">Activity has yet to begin</string>
+    <string name="activity_all_empty_stu">No class activities posted</string>
+    <string name="activity_all_empty_tea">No content posted</string>
+    <string name="activity_type_empty">No eligible activities found</string>
+    <string name="activity_not_start">Not yet started</string>
 
-    <string name="course_select_title">Select course</string>
-    <string name="class_select_title">Select class</string>
+    <string name="course_select_title">Select Courseware</string>
+    <string name="class_select_title">Select Class</string>
     <string name="all_class">All</string>
     <string name="comfirm">Confirm</string>
 
-    <string name="comfirm_num" formatted="false">Confirm(%s)</string>
+    <string name="comfirm_num" formatted="false">Confirm (%s)</string>
 
-    <string name="comment_activity_comment_compose">Write a review</string>
-    <string name="comment_activity_comment_my_compose">My review</string>
+    <string name="comment_activity_comment_compose">Add Comment</string>
+    <string name="comment_activity_comment_my_compose">My Comments</string>
     <string name="comment_activity_more">@string/more</string>
-    <string name="comment_compose_create_activity_title">Write a review</string>
-    <string name="comment_compose_reply_activity_title">Reply comments</string>
-    <string name="comment_compose_send">Publish</string>
+    <string name="comment_compose_create_activity_title">Add Comment</string>
+    <string name="comment_compose_reply_activity_title">Reply</string>
+    <string name="comment_compose_send">Post</string>
 
-    <string name="downloads_clear_empty_message">You have yet to download course</string>
+    <string name="downloads_clear_empty_message">Courseware not downloaded yet</string>
     <string name="downloads_clear_clear">Clear</string>
-    <string name="downloads_clear_expired_date">Expiry deadline: </string>
+    <string name="downloads_clear_expired_date">Expires: </string>
 
-    <string name="setting_coursegrade_title">Course result setting</string>
+    <string name="setting_coursegrade_title">Grade Settings</string>
     <string name="setting_coursegrade_top_remind">The setting is only valid for some courses</string>
-    <string name="setting_course_all">Unified setting</string>
-    <string name="setting_course_one">Different setting for evey class</string>
-    <string name="setting_coursegrade_bottom_remind">*Students whose oral practice scores that are lower than the passing mark, their result will not be shown results\n*The above setting is only valid for mobile phone courses</string>
+    <string name="setting_course_all">Same for classes</string>
+    <string name="setting_course_one">Different across classes</string>
+    <string name="setting_coursegrade_bottom_remind">*The spoken English score will not be displayed if it is lower the passing score\n*This setting applies for ULearning app courses only</string>
 
     <!--活动-->
-    <string name="activity_null_remind_stu">No activities~</string>
-    <string name="activity_null_remind_tea">Hurry up to create activities</string>
+    <string name="activity_null_remind_stu">No activities found! </string>
+    <string name="activity_null_remind_tea">Create some activities now</string>
 
 
-    <string name="activity_publisher_name" formatted="false">Publisher:%s</string>
+    <string name="activity_publisher_name" formatted="false">Posted by: %s</string>
     <string name="activity_duration" formatted="false">From %s to %s</string>
-    <string name="activity_always_open">Long-term open discussion</string>
-    <string name="activity_always_open_dis">Long-term open</string>
+    <string name="activity_always_open">No time limit</string>
+    <string name="activity_always_open_dis">No time limit</string>
 
     <string name="activity_class" formatted="false">Class: %s</string>
-    <string name="activity_classes" formatted="false">Class: %d  classes</string>
+    <string name="activity_classes" formatted="false">Classes: %d</string>
 
 
-    <string name="no_resource_remind">You have not downloaded yet, please go back to the unit page to download the audio &amp; video。</string>
-    <string name="course_resource_error_remind">The course is damaged, please call 400 610 7808, we will fix it ASAP。</string>
-    <string name="record_file_not_found_remind">The recording file was not found, it may have been lost。</string>
-    <string name="mipca_not_find_course_remind">Unfortunately, the page you browse is missing, please call 400-610-7808 to contact us</string>
-    <string name="mipca_storecourse_null_remind">Unable to locate the course, please confirm if it has been activated</string>
-    <string name="mipca_storecourse_null_remind_tea">Your institute has not yet opened this course. If you wish to try it, please contact us</string>
+    <string name="no_resource_remind">Not yet downloaded - please return to the module page to download the audio/video</string>
+    <string name="course_resource_error_remind">The courseware is damaged - Please contact us at sg.service@ulearning.asia</string>
+    <string name="record_file_not_found_remind">The recording file was not found, or your recording has been lost.</string>
+    <string name="mipca_not_find_course_remind">The page requested is missing - Please contact us at sg.service@ulearning.asia</string>
+    <string name="mipca_storecourse_null_remind">No courseware found - Please make sure it is activated!</string>
+    <string name="mipca_storecourse_null_remind_tea">Your school does not have access to this courseware. Please contact us if you want to experience it.</string>
 
-    <string name="archiveinfo">&quot;1.Class files are not displayed on the teacher\'s homepage; \n 2.Unable to view class progress after archiving; \n 3. Cannot setup study plan for the class, assign homework, organize examination, release resource, etc.\n 4. Student account will no longer show the class;\n 5. Archived classes can be restored by cancelling archiving.&quot;</string>
-    <string name="speaking_item1">1.After exercise, you will upload your last recording. There will be data traffic incurred during uploading. It is recommended that you practice under    the WIFI environment。</string>
-    <string name="speaking_item2">2.Able to practice without network access, but your recording cannot be uploaded.  After having access to network, click on the synchronous learning record, your recording and learning records will be uploaded synchronously。</string>
+    <string name="archiveinfo">1. After the class is archived, it will not be listed on your course screen.\n2. You cannot view the class progress after archiving;\n3. You cannot set study plans, assign homework, schedule exams, publish resources, etc. for the class.\n4. Students won\'t see the class\n5. The archived class can be restored by unarchiving.</string>
+    <string name="speaking_item1">1. After the practice, your last recording will be submitted and there will be traffic charges during the recording upload process. It is recommended that you practice when Wi-Fi is connected.</string>
+    <string name="speaking_item2">2. You can practice when you are offline. But your recordings cannot be uploaded. After you are online, click the Synchronize Learning Records link to upload your recordings and learning records.</string>
 
-    <string name="main_menu_item_selectcourse">Select course</string>
+    <string name="main_menu_item_selectcourse">Select Courseware</string>
     <string name="main_top_activecourse">@string/activate_course</string>
     <string name="main_menu_class">@string/classs</string>
-    <string name="main_top_buycourse">Purchase course</string>
+    <string name="main_top_buycourse">Purchase Courseware</string>
 
-    <string name="remind_no_courseactive">There is nothing here~\n Go ahead to activate    course</string>
-    <string name="remind_no_course_tea">Your organization has not yet opened the course \n, please call Customer Service Hotline 4006107808 to contact us.</string>
-    <string name="remind_no_joinclass">You have not joined any class yet~</string>
-    <string name="remind_no_create_class">You have not created any class yet~</string>
-    <string name="remind_create_class">Create class</string>
-    <string name="remind_set_class">Setting class</string>
-    <string name="remind_select_model_of_teach">Please choose your teaching mode and complete the course</string>
-    <string name="remind_welcome_join_course">Welcome to the course. Your role in the course is </string>
-    <string name="remind_welcome_join_course_title">Welcome to the course</string>
+    <string name="remind_no_courseactive">Nothing found here~\n Activate courseware now</string>
+    <string name="remind_no_course_tea">Your school does not have access to courseware. Please contact us at sg.service@ulearning.asia</string>
+    <string name="remind_no_joinclass">You have not enrolled any classes</string>
+    <string name="remind_no_create_class">You have not created any classes</string>
+    <string name="remind_create_class">Create Class</string>
+    <string name="remind_set_class">Class Settings</string>
+    <string name="remind_select_model_of_teach">Please select your teaching mode and complete the course settings</string>
+    <string name="remind_welcome_join_course">Welcome to the course. \n Your role in the course is </string>
+    <string name="remind_welcome_join_course_title">Welcome to the course!</string>
     <string name="remind_welcome_join_course_role">Your role in the course is %s</string>
     <string name="remind_welcome_join_course_admin">You can manage the classes, students, and teaching team members of this course. You can add/teach a class. You can also add teacher(s) and/or TA(s) to co-teach a class.</string>
-    <string name="remind_finish_course">After the course ended, teachers cannot publish new resources or activities, nor can teachers modify existing content in the course, and can only view and export data from the computer side.\n Students may continue to browse the content of the course, but may not be able to join the course.\n Confirm to end the course? </string>
-    <string name="remind_exit_course">After leaving the class, your records of assignments, discussions and examinations in the class will be cleared, while the records of your courseware will not be affected. Confirm to leave class? </string>
-    <string name="remind_clear_file_cache">Confirm to clear the cache files for the selected course?</string>
-    <string name="remind_exit_course_fail">Failed to leave the class</string>
-    <string name="remind_exit_course_success">You have left the class successfully. If you want to join a new class, please ask your teacher for the QR code or class code of the new class </string>
+    <string name="remind_finish_course">After the course ends:\nTeachers cannot add new resources or activities, nor can they edit the existing content in the course. They can only view and export data from the web version ULearning. \nStudents can continue to view the course content. Enrolling the course is turned off. \nAre you sure you will end the course?</string>
+    <string name="remind_exit_course">After you withdraw the course, your assignments, discussions, exams, and other records of the class will be cleared. The courseware learning records will not be affected. Are you sure you want to withdraw?</string>
+    <string name="remind_clear_file_cache">Are you sure to clear the cache files of the selected course?</string>
+    <string name="remind_exit_course_fail">Failed to withdraw!</string>
+    <string name="remind_exit_course_success">You have successfully withdrawn the course. If you want to join a new class, please ask the teacher for the QR code or class code of the new class.</string>
 
-    <string name="remind_exit_course_wait_for_review">You have successfully submitted the application to leave the class, please wait for your teacher\'s approval </string>
-    <string name="remind_delete_course">After deletion, the course will not be restored. Students who have joined the course will not be able to continue learning. Please be careful ! </string>
-    <string name="remind_welcome_join_course_assistant">The class administrator or teacher will assign classes for you and you can assist the teacher in teaching </string>
-    <string name="remind_welcome_join_course_tea">The class administrator may assign classes to you, or you can create classes in the course to start teaching </string>
-    <string name="remind_create_class_info">Create classes, assign teachers, and invite students to join the class (or be created by each class’ teacher) </string>
-    <string name="remind_create_class_info_tea">Please create your own class or wait for the class administrator to assign classes for you </string>
+    <string name="remind_exit_course_wait_for_review">You have successfully submitted the class withdrawal application. Please wait for the teacher to process. You can cancel the application before approval.</string>
+    <string name="remind_delete_course">After deleting, the course cannot be restored, and students who have joined the course will not be able to continue learning - Please be cautious!</string>
+    <string name="remind_welcome_join_course_assistant">The course administrator or teacher will assign a class for you. You can assist the teacher in teaching.</string>
+    <string name="remind_welcome_join_course_tea">The course admin may assign you a class, or you can create a class in the course to start teaching.</string>
+    <string name="remind_create_class_info">Create classes, assign teachers, and invite students to join the class (or can also be done by each class teacher) </string>
+    <string name="remind_create_class_info_tea">Please create your own class or wait for the course admin to assign a class for you</string>
 
-    <string name="remind_create_class_info_ass">Please wait for the class administrator to assign classes for you. You can enter the course directly. </string>
+    <string name="remind_create_class_info_ass">Please wait for the course admin to assign a class for you. Or, you can enter the course directly.</string>
     <string name="remind_create_class_course">For courses co-taught or co-managed by a team, only one course needs to be created. Other teachers can be added after the course is created.</string>
-    <string name="remind_create_class_course_same_name" formatted="false">Course with the same name has already existed in our school (created by teacher %s). It is suggested that you contact the creator for confirmation, so as to avoid inconvenience caused by repeated name.
-Continue creating? </string>
-    <string name="remind_modify_class_course_same_name" formatted="false">Course with the same name has already existed in our school (created by teacher %s). It is suggested that you contact the creator for confirmation, so as to avoid inconvenience caused by repeated name.
-Continue saving? </string>
-    <string name="remind_create_class_info_person">Create classes and invite students to join classes (the system has preset a default class, which can be modified after entering the course) </string>
-    <string name="remind_select_course">Import courseware</string>
-    <string name="remind_select_course_info">Import school interactive courseware/ courseware in open course for students to do self-study. </string>
-    <string name="remind_select_course_info_per">Import school interactive courseware/ courseware in open course for students to do self-study.</string>
-    <string name="remind_select_course_info_is_admin">Course creator has not assigned courseware yet; \n It’s not necessary to be assigned ~ You can publish resources, assignments and other teaching activities as usual </string>
-    <string name="remind_select_course_info_no_admin">There is no courseware at present \n All courseware will be assigned by class administrator </string>
+    <string name="remind_create_class_course_same_name" formatted="false">Course with the same name has already existed (created by teacher %s). It is recommended that you contact the teacher to make sure there are no duplicate courses. \n Do you want to continue creating?</string>
+    <string name="remind_modify_class_course_same_name" formatted="false">Course with the same name has already existed (created by teacher %s). It is recommended that you contact the teacher to make sure there are no duplicate courses. \n Do you want to save?</string>
+    <string name="remind_create_class_info_person">Create classes and invite students to join classes (the system already created a default class, which can be edited after entering the course)</string>
+    <string name="remind_select_course">Import Courseware</string>
+    <string name="remind_select_course_info">Import courseware which can used as self-paced learning content</string>
+    <string name="remind_select_course_info_per">Import courseware which can used as self-paced learning content.</string>
+    <string name="remind_select_course_info_is_admin">The course creator has not yet imported/linked any courseware \nYou can start to publish/post resources, assignments, and other teaching activities as usual</string>
+    <string name="remind_select_course_info_no_admin">No courseware yet\nCourseware is assigned by the course admin</string>
 
-    <string name="remind_group_teacher">Set up teaching team</string>
-    <string name="remind_add_teacher">Add teacher</string>
-    <string name="remind_add_teacher_info">Add other teachers to the teaching team, co-manage the courses, and teach in different classes. </string>
-    <string name="remind_add_teacher_info_per">Create classes and invite students to join classes (the system has preset a default class, which can be modified after entering the course) </string>
-    <string name="remind_add_teacher_info_tea">Please create your own class or wait for the class administrator to assign classes for you </string>
-    <string name="remind_once_create_class_tea">Click here to create class</string>
-    <string name="remind_once_create_class_stu">Click here to add class and activate    courses</string>
+    <string name="remind_group_teacher">Form Teaching Team</string>
+    <string name="remind_add_teacher">Add Teacher</string>
+    <string name="remind_add_teacher_info">Add other teachers to the teaching team, co-managing the course and teaching in different classes.</string>
+    <string name="remind_add_teacher_info_per">Create classes and invite students to join classes (the system already created a default class, which can be edited after entering the course)</string>
+    <string name="remind_add_teacher_info_tea">Please create your class or wait for the course admin to assign you a class</string>
+    <string name="remind_once_create_class_tea">Tap here to create class</string>
+    <string name="remind_once_create_class_stu">Tap here to add class and activate courseware</string>
 
-    <string name="remind_join_class_course_wait_for_preview">Application to join has been submitted, please wait for the teacher\'s approval </string>
-    <string name="remind_join_class_course_wait_for_preview_to_another">Application to join another class of the course has been submitted, please wait for the teacher\'s approval </string>
-    <string name="remind_join_class_course_has_joined">You have already joined the class, please do not join again </string>
-    <string name="remind_join_class_course_finished">The class has completed its course and cannot be joined again</string>
+    <string name="remind_join_class_course_wait_for_preview">The enrollment application has been submitted - Please wait for the teacher to process</string>
+    <string name="remind_join_class_course_wait_for_preview_to_another">Application to join another class of this course has been submitted - Please wait for the teacher to process</string>
+    <string name="remind_join_class_course_has_joined">You have already enrolled this class</string>
+    <string name="remind_join_class_course_finished">The course has ended and enrollment is closed</string>
 
     <string name="remind_join_class_course_code_wrong">Please enter the correct class code</string>
-    <string name="remind_join_class_course_tea">Teachers are not allowed to join classes, please contact the class administrator to add you into the class</string>
-    <string name="remind_join_class_course_already_existed">You have already joined the class, please do not join again; if you’ve joined the wrong class, please contact the teacher to change class</string>
-    <string name="remind_join_class_course_different_org" formatted="false">Your current school: \n%s\n after joining the class, your school information will be changed into \n%s\n Confirm to join the class?</string>
+    <string name="remind_join_class_course_tea">Teachers cannot self-join a class. Please contact the class admin to add you to the class.</string>
+    <string name="remind_join_class_course_already_existed">You have already joined one class of this course. Please do not try to join another one. If you joined the wrong class, please contact the teacher to re-assign you to the right one.</string>
+    <string name="remind_join_class_course_different_org" formatted="false">Your current school: \n%s\nAfter joining this class, your school information will be changed to\n%s\nAre you sure you want to join this class?</string>
 
-    <string name="remind_once_main_tab_mine">View my class, message, profile and small apps</string>
-    <string name="remind_tools_empty">There is no application at present</string>
-    <string name="remind_once_main_tab_activity">View assignments and activities</string>
-    <string name="remind_once_lookup_student_course_progress">&quot;Click to check student’s progress&quot;</string>
-    <string name="remind_once_public_activity">Click to launch class activities</string>
-    <string name="remind_once_show_or_edit_profile">Click to view and fill in personal    information</string>
-    <string name="remind_once_sync_study_record">Click to sychronize study record</string>
+    <string name="remind_once_main_tab_mine">View my classes, messages, personal information, and apps here</string>
+    <string name="remind_tools_empty">No apps available!</string>
+    <string name="remind_once_main_tab_activity">Assignments and activities are here</string>
+    <string name="remind_once_lookup_student_course_progress">Tap the icon to view student progress results</string>
+    <string name="remind_once_public_activity">Tap to launch class activity</string>
+    <string name="remind_once_show_or_edit_profile">Tap to view and complete/edit personal information</string>
+    <string name="remind_once_sync_study_record">Tap to synchronize learning records</string>
     <string name="remind_sync_record_ing">Synchronizing...</string>
-    <string name="remind_sync_record_success">Synchronized successfully</string>
-    <string name="remind_sync_record_fail">Failed to synchronized, pull down to refresh </string>
-    <string name="remind_once_download_course_resource">Dowload off-line courseware,     you can still study without network access</string>
-    <string name="remind_once_collect_course_page">Click to store this page content</string>
-    <string name="remind_once_section_study_undone">You have a page that is incomplete,     click on the grey\n icon to return to continue learning</string>
-    <string name="remind_once_course_content">Click to check course content</string>
-    <string name="remind_once_course_progress_student">Click to check student’s progress</string>
+    <string name="remind_sync_record_success">Synchronized successfully!</string>
+    <string name="remind_sync_record_fail">Failed to synchronize - Pull down to refresh to retry</string>
+    <string name="remind_once_download_course_resource">Download courseware - You can learn even if offline</string>
+    <string name="remind_once_collect_course_page">Tap to add the page to Favorites</string>
+    <string name="remind_once_section_study_undone">You have uncompleted page(s) - Tap the gray icon to return to continue learning</string>
+    <string name="remind_once_course_content">Tap the cover to open the course</string>
+    <string name="remind_once_course_progress_student">Tap the icon to view student learning progress</string>
 
 
     <!-- 消息 -->
-    <string name="message_remind">Alert message</string>
-    <string name="message">Message</string>
+    <string name="message_remind">Notifications</string>
+    <string name="message">Messages</string>
     <string name="voice">Sound</string>
-    <string name="move_up_to_cancel">Touch screen and move upwards to cancel sending</string>
-    <string name="release_to_cancel">Loosen your finger to cancel sending</string>
-    <string name="The_recording_time_is_too_short">Recording time is too short</string>
+    <string name="move_up_to_cancel">Swipe up to cancel sending</string>
+    <string name="release_to_cancel">Release to cancel sending</string>
+    <string name="The_recording_time_is_too_short">Recording is too short</string>
 
-    <string name="notify">New notification</string>
-    <string name="newnotify">Alert on receiving new notification</string>
+    <string name="notify">New Notification</string>
+    <string name="newnotify">Receive new notification</string>
     <string name="shake">Vibrate</string>
     <!-- 消息 -->
 
 
-    <string name="file">File</string>
-    <string name="folder">Catalog</string>
-    <string name="include">%1$s of files,,%2$s of catalogs</string>
+    <string name="file">Files</string>
+    <string name="folder">Directory</string>
+    <string name="include">%1$s files, %2$s directories</string>
     <string name="yes">Yes</string>
     <string name="no">No</string>
 
-    <string name="detail_exam_submited">You have successfully submitted test    paper</string>
-    <string name="detail_exam_public">The class released the examination</string>
-    <string name="feedback_default_text">Thank you for choosing ULearning. We will listen very carefully on your feedback and will make improvements.</string>
-    <string name="download_wait_text">Waiting</string>
+    <string name="detail_exam_submited">Successfully submitted the exam!</string>
+    <string name="detail_exam_public">The class posted an exam</string>
+    <string name="feedback_default_text">Thank you for choosing ULearning. We will review your feedback and make improvements.</string>
+    <string name="download_wait_text">Waiting...</string>
 
-    <string name="download_normal_text">Caching</string>
+    <string name="download_normal_text">Cache Courseware</string>
     <string name="download_normal">Download</string>
     <string name="download_pause">Pause</string>
-    <string name="download_clear_section_all">Clear all resource in this chapter</string>
+    <string name="download_clear_section_all">Clear topic resources</string>
 
-    <string name="person_info_1">Please contact us should there be no course under your account. Telephone：400-610-7808</string>
-    <string name="person_info_2">After we have verified your information, you can try our course, question bank and other excellent teaching services free of charge。</string>
-    <string name="person_info_have_tel">After linking up, you can login with your new mobile phone number</string>
-    <string name="person_info_not_have_tel">To conveniently retrieve your password, please link up your mobile phone number. Upon linking up, you can login with your new mobile phone number</string>
+    <string name="person_info_1">If there are no courses under your account, contact us at sg.service@ulearning.asia</string>
+    <string name="person_info_2">After we verify your information, you can try ULearning (including sample courses, question bank, etc.) for free.</string>
+    <string name="person_info_have_tel">After linking, you can log in with your phone number</string>
+    <string name="person_info_not_have_tel">For password/account recovery, please link your phone number. After linking, you can also log in with your phone number.</string>
 
-    <string name="permission_string_help_text">The microphone is silent and the other party cannot hear your voice. Your recording permission has been banned, please check to open up the permission and try to replay。</string>
-    <string name="permission_camera_string_help_text">Unable to access your camera. Please allow permission to access your camera！</string>
-    <string name="permission_hint">Permission prompt</string>
+    <string name="permission_string_help_text">Unable to access the microphone - Either the microphone access is not turned on or the microphone is in use. \nPlease enable the access or release the microphone in use, and then try again</string>
+    <string name="permission_camera_string_help_text">Unable to access the camera - Please enable camera access for ULearning app!</string>
+    <string name="permission_hint">Access Note</string>
     <string name="permission_btn_ok">@string/iknow</string>
 
 
     <string name="filter_vcode" translatable="false">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
 
-    <string name="login_error_message_no_connection">&quot;Network can't be used, please check your network setting&quot;</string>
-    <string name="networkerror">&quot;Network can't be used, please check network connection&quot;</string>
-    <string name="empty_data_error">Data not found, pull down to refresh </string>
-    <string name="exception_parse_json_error">Data parsing error, please email to christinasg@ulearning.cn for help</string>
-    <string name="package_download_none_network_message">&quot;Network can't be used, please check network connection&quot;</string>
-    <string name="network_timeout">Network connection has timed out.  Please try again later</string>
-    <string name="network_error_url">Could not find the content you want to access, please email to christinasg@ulearning.cn for help</string>
-    <string name="network_error_server">Unable to connect to server, please email to christinasg@ulearning.cn for help</string>
-    <string name="network_error_json">Data parsing error, please email to christinasg@ulearning.cn for help</string>
-    <string name="server_data_error">Data update error, pull down to refresh </string>
+    <string name="login_error_message_no_connection">Network unavailable - Please check your network settings!</string>
+    <string name="networkerror">Network unavailable - Please check your network connection!</string>
+    <string name="empty_data_error">Data request failed - Pull down to refresh to retry!</string>
+    <string name="exception_parse_json_error">Data parsing error - Please contact us at sg.service@ulearning.asia</string>
+    <string name="package_download_none_network_message">Network unavailable - Please check your network connection!</string>
+    <string name="network_timeout">The network is not working well and the access timed out - Please try again later!</string>
+    <string name="network_error_url">Unable to find the content you want to visit - Please contact us at sg.service@ulearning.asia</string>
+    <string name="network_error_server">Server access error - Please contact us at sg.service@ulearning.asia</string>
+    <string name="network_error_json">Data parsing error - Please contact us at sg.service@ulearning.asia</string>
+    <string name="server_data_error">Data update error - Pull down to refresh to retry!</string>
 
-    <string name="font_size">Set font size</string>
+    <string name="font_size">Select Font Size</string>
     <string name="font_small">Small</string>
-    <string name="font_middle">Middle</string>
+    <string name="font_middle">Medium</string>
     <string name="font_big">Big</string>
 
 
     <string name="active_tab_all_space">   All   </string>
-    <string name="course_app_work_space">   Assignment   </string>
-    <string name="course_app_discuss_space">   Discussion   </string>
-    <string name="course_app_live_space">   Live   </string>
+    <string name="course_app_work_space">   Assignments   </string>
+    <string name="course_app_discuss_space">   Discussions   </string>
+    <string name="course_app_live_space">   Live Sessions   </string>
     <string name="course_app_class_space">   Classroom   </string>
 
     <!-- 播放器提示内容 -->
@@ -1225,73 +1226,73 @@ Continue saving? </string>
     <string name="area_select_south_africa">South Africa</string>
 
     <!--新增替换服务端语言-->
-    <string name="server_msg_repeat_folder">A folder with the same name already exists. Please change the folder name! </string>
+    <string name="server_msg_repeat_folder">The folder name already exists - Please use a different name!</string>
     <string name="first_in_resource_icon_name">pop_resource_en</string>
     <string name="first_in_activity_icon_name">pop_activity_en</string>
 
     <string name="server_msg_course_name_unmatched">The course name must be within 2 to 100 characters. </string>
 
-    <string name="agreement_title"> User agreement and privacy protection </string>
-    <string name="agreement_ok_accept">Agree and use </string>
-    <string name="agreement_no_accept">Not agree</string>
-    <string name="agreement_no_accept_and_exit">Not agree and exit now</string>
-    <string name="agreement_no_accept_content"> If you do not agree, you will not be able to use our products and services and will exit the App. </string>
-    <string name="activity_public_homework">Publish assignment</string>
+    <string name="agreement_title"> User Agreement and Privacy Policy</string>
+    <string name="agreement_ok_accept">Agree and Continue</string>
+    <string name="agreement_no_accept">Decline</string>
+    <string name="agreement_no_accept_and_exit">Decline and Exit</string>
+    <string name="agreement_no_accept_content">If you decline, you will not be able to use our products and services and will be logged out.</string>
+    <string name="activity_public_homework">Create Assignment</string>
     <string name="activity_more_count" formatted="false">%d class(es)</string>
     <string name="my_resource">Resource Library</string>
-    <string name="token_out_of_date">Login timed out, please log in again!</string>
-    <string name="main_tab_weike">Micro-course</string>
+    <string name="token_out_of_date">Login timed out - Please log in again!</string>
+    <string name="main_tab_weike">Micro-courses</string>
     <string name="type_weike">Micro-course</string>
-    <string name="right_publish_homework">Publish assignment</string>
-    <string name="right_publish_discuss">Launch discussion</string>
-    <string name="edit">Modify</string>
-    <string name="text_course_publish_date" formatted="false">%s Publish</string>
+    <string name="right_publish_homework">Create Assignment</string>
+    <string name="right_publish_discuss">Create Discussion</string>
+    <string name="edit">Edit</string>
+    <string name="text_course_publish_date" formatted="false">Posted on %s</string>
 
-    <string name="publish">publish</string>
+    <string name="publish">Post</string>
 
     <string name="app_launch1">app_android1_en</string>
     <string name="app_launch2">app_android2_en</string>
     <string name="app_launch3">app_android3_en</string>
     <string name="app_launch4">app_android4_en</string>
-    <string name="textbook_cache" formatted="false">Cache: %s</string>
-    <string name="more_language">Select language</string>
+    <string name="textbook_cache" formatted="false">Cached: %s</string>
+    <string name="more_language">Select Language</string>
 
 
     <string name="login_sms">Log in via SMS</string>
     <string name="login_sms_code">Login via SMS</string>
-    <string name="login_sms_only_china">SMS Login Only Support China Phone</string>
-    <string name="bind_account">Bind Account</string>
+    <string name="login_sms_only_china">SMS login only supports mobile phone numbers in Mainland China</string>
+    <string name="bind_account">Link Account</string>
     <string name="not_account">No account yet?</string>
     <string name="to_register">Register now</string>
-    <string name="account_manager">Account management</string>
-    <string name="mine">My</string>
+    <string name="account_manager">Account</string>
+    <string name="mine">Me</string>
     <string name="instructions">Instructions</string>
-    <string name="school_info">Institution information</string>
-    <string name="school">School/ Institution</string>
-    <string name="school_num">Student ID/ Work ID</string>
-    <string name="bind_other_account">Bind third-party account</string>
-    <string name="logout_account">logout</string>
-    <string name="logout_account_success">Logout successful</string>
-    <string name="to_bind">Bind now</string>
-    <string name="to_unbind">Unbind</string>
+    <string name="school_info">School Information</string>
+    <string name="school">School/Organization</string>
+    <string name="school_num">Student ID/Employee ID</string>
+    <string name="bind_other_account">Link 3rd-party Account</string>
+    <string name="logout_account">Log out</string>
+    <string name="logout_account_success">Logged out successfully!</string>
+    <string name="to_bind">Link Now</string>
+    <string name="to_unbind">Unlink</string>
 
-    <string name="input_phone_error">The phone number is entered incorrectly</string>
-    <string name="input_img_verify_code">Please enter the graphic verification code</string>
-    <string name="input_sms_code_error">Verification code input is incorrect</string>
-    <string name="switch_to_student">Switch to student mode</string>
-    <string name="switch_to_teacher">Switch back to teacher mode</string>
-    <string name="student_mode_not_modify_info">Account information cannot be modified in student mode</string>
-    <string name="student_mode">Student mode</string>
-    <string name="select_country_area">Select country/region</string>
-    <string name="bind_phone">Bind phone number</string>
-    <string name="bind_email">Bind e-mail</string>
-    <string name="other_login_type">Login with other methods</string>
+    <string name="input_phone_error">Invalid phone number!</string>
+    <string name="input_img_verify_code">Enter the code found on left</string>
+    <string name="input_sms_code_error">Incorrect verification code!</string>
+    <string name="switch_to_student">Switch to Student View</string>
+    <string name="switch_to_teacher">Switch back to Teacher View</string>
+    <string name="student_mode_not_modify_info">Account information is non-editable in student view</string>
+    <string name="student_mode">Student View</string>
+    <string name="select_country_area">Select Country/Region</string>
+    <string name="bind_phone">Link Phone</string>
+    <string name="bind_email">Link Email</string>
+    <string name="other_login_type">Other Login Methods</string>
 
-    <string name="please_input_email">please input your email</string>
-    <string name="change_bind_email">Modify / bind mailbox</string>
-    <string name="single_register">Personal registration</string>
-    <string name="bind_welcom_info">Dear users, in order to remind the account security, please bind your mobile phone number or email first (at least one item is bound)</string>
-    <string name="school_num_input_hint">Please enter a string between 4-20 digits</string>
+    <string name="please_input_email">Enter your email</string>
+    <string name="change_bind_email">Edit/Link Email</string>
+    <string name="single_register">Individual Registration</string>
+    <string name="bind_welcom_info">For account recovery and notification purpose, we recommend you link an email address with your ULearning account.</string>
+    <string name="school_num_input_hint">Please enter a string of 4-20 characters in length</string>
 
 
     <string name="select_region">Select Region</string>
@@ -1301,31 +1302,34 @@ Continue saving? </string>
     <string name="china_mainland">Mainland China</string>
 
 
-    <string name="warning_new_pwd_null">Please key in new password</string>
-    <string name="warning_pwd_length">Please key in or enter 6-16 letters or digits</string>
+    <string name="zambia">Zambia</string>
+    <string name="africa">Africa</string>
+    <string name="sandBox">Sandbox</string>
+    <string name="warning_new_pwd_null">Enter the new password</string>
+    <string name="warning_pwd_length">Password length is 6-16 characters</string>
 
-    <string name="tip_type_not_image">Choose not pictures</string>
-    <string name="tip_no_camera">No camera</string>
-    <string name="tip_tips">Tips</string>
-    <string name="tip_compress">Being compressed...</string>
-    <string name="tip_compress_failed">&quot;%1$s Picture compression failure:%2$s picturePath:%3$s&quot;</string>
-    <string name="msg_crop_failed">&quot;There are pictures of crop failures.&quot;</string>
-    <string name="msg_compress_failed">&quot;There are pictures of compress failures.&quot;</string>
-    <string name="msg_crop_canceled">&quot; canceled crop&quot;</string>
-    <string name="msg_operation_canceled">&quot;Operation canceled.&quot;</string>
-    <string name="tip_permission_camera">No permission to use the camera, open the rights management</string>
-    <string name="tip_permission_storage">No permission to use the SD card, open the rights management</string>
-    <string name="tip_permission_camera_storage">No permission to use the camera and SD card, open the rights management</string>
+    <string name="tip_type_not_image">The selected is not an image</string>
+    <string name="tip_no_camera">No camera found!</string>
+    <string name="tip_tips">Note</string>
+    <string name="tip_compress">Compressing photo...</string>
+    <string name="tip_compress_failed">&quot;%1$s Image compression failed: %2$s imagePath: %3$s&quot;</string>
+    <string name="msg_crop_failed">&quot;Cropping failed for some images&quot;</string>
+    <string name="msg_compress_failed">&quot;Compressing failed for some images&quot;</string>
+    <string name="msg_crop_canceled">&quot;Cancel Cropping&quot;</string>
+    <string name="msg_operation_canceled">&quot;Undone&quot;</string>
+    <string name="tip_permission_camera">No access to the camera - Please enable it for ULearning</string>
+    <string name="tip_permission_storage">No access to SD card - Please enable it for ULearning</string>
+    <string name="tip_permission_camera_storage">No access to camera and SD card - Please enable the access for ULearning</string>
 
-    <string name="file_type_not_support">file not support</string>
+    <string name="file_type_not_support">Unsupported file type</string>
 
     <!--custom multipleimageselect -->
-    <string name="album_view">select picture</string>
-    <string name="image_view">a select</string>
+    <string name="album_view">Select Image</string>
+    <string name="image_view">Tap to select</string>
 
-    <string name="add">confirm</string>
-    <string name="selected">selected</string>
-    <string name="limit_exceeded">select max limit %d </string>
+    <string name="add">Confirm</string>
+    <string name="selected">Selected</string>
+    <string name="limit_exceeded">Select up to %d </string>
 
     <string name="permission_info">App requires permission to Storage to view images.</string>
     <string name="permission_force">App requires permission to Storage to view images. Tap Settings and go to Permissions to grant permission.</string>
@@ -1334,52 +1338,96 @@ Continue saving? </string>
     <string name="permission_package">package</string>
 
     <string name="select_local_file">Select local file</string>
-    <string name="select_local_file_help">If the device file cannot be scanned, please copy the file to \nAndroid/data/cn.ulearning.yxy/files/</string>
+    <string name="select_local_file_help">If you cannot find the targeted file in the folder organized by ULearning, please look for it in Files on your mobile device.</string>
 
-    <string name="file_size_too_big">The file size exceeds the limit!</string>
+    <string name="file_size_too_big">The file size exceeds the 200MB limit! You can upload it from web version ULearning.</string>
 
-    <string name="voted">voted</string>
-    <string name="not_voted">unVoted</string>
+    <string name="voted">Voted</string>
+    <string name="not_voted">Not voted</string>
     <string name="absence">Absent</string>
     <string name="arrived">Present</string>
-    <string name="sign_success">Checked in</string>
-    <string name="be_late"> Late </string>
-    <string name="leave_early"> leave early</string>
-    <string name="sick_leave"> Sick Leave</string>
+    <string name="sign_success">Signed in</string>
+    <string name="be_late">Late</string>
+    <string name="leave_early">Leave Early</string>
+    <string name="sick_leave">Sick Leave</string>
     <string name="leave_story">Excused Leave</string>
-    <string name="has_rate"> has been approved</string>
-    <string name="commited">commited</string>
-    <string name="wait_rate">Pending review</string>
-    <string name="not_commit">unsubmitted</string>
-    <string name="evaluationed"> has been evaluated</string>
-    <string name="evaluation_ing"> in mutual evaluation</string>
-    <string name="not_evaluation"> not evaluated</string>
-    <string name="not_group_evaluation"> to be mutual evaluation</string>
-    <string name="un_answer"> not answered</string>
-    <string name="un_select"> not selected</string>
+    <string name="has_rate">Reviewed</string>
+    <string name="commited">Submitted</string>
+    <string name="wait_rate">Review Pending</string>
+    <string name="not_commit">Not submitted</string>
+    <string name="evaluationed">Peer-reviewed</string>
+    <string name="evaluation_ing">Peer-review in progress</string>
+    <string name="not_evaluation">Not peer-reviewed</string>
+    <string name="not_group_evaluation"> To be peer-reviewed</string>
+    <string name="un_answer">Not answered</string>
+    <string name="un_select">Not selected</string>
 
-    <string name="to_be_rated"> to be scored</string>
-    <string name="rated"> graded</string>
-    <string name="re_write"> need to be rewritten</string>
-    <string name="un_join"> did not participate</string>
-    <string name="complain_success"> The appeal is successful</string>
-    <string name="study_complete"> has finished learning</string>
-    <string name="not_study"> not learning </string>
-    <string name="study_progress"> learning progress </string>
-    <string name="not_exam"> missing exam </string>
-    <string name="not_show_result"> results will not be announced temporarily</string>
-    <string name="wait_reta">unreviewed</string>
-    <string name="home_work_type">Type</string>
-    <string name="submit_status">Status</string>
+    <string name="to_be_rated">To be graded</string>
+    <string name="rated">Graded</string>
+    <string name="re_write">Need rework</string>
+    <string name="un_join">Not participated</string>
+    <string name="complain_success">Appeal succeeded</string>
+    <string name="study_complete">Completed</string>
+    <string name="not_study">Not started</string>
+    <string name="study_progress">Learning Progress</string>
+    <string name="not_exam"> Missed exam</string>
+    <string name="not_show_result">Do not post results</string>
+    <string name="wait_reta">Subjective questions - to be graded</string>
+    <string name="home_work_type">Assignment Type</string>
+    <string name="submit_status">Submission Status</string>
     <string name="deadline_not_submit">Overdue</string>
-    <string name="integral">integral</string>
-    <string name="has_join">Have participated</string>
-    <string name="complaining">In appeal</string>
+    <string name="integral">Points</string>
+    <string name="has_join">Participated</string>
+    <string name="complaining">Appeal in progress</string>
     <string name="main_talk_person">Presenter</string>
-    <string name="complain_fail"> appeal failed</string>
-    <string name="not_reta_wait_teacher">Pending review</string>
+    <string name="complain_fail">Appeal failed</string>
+    <string name="not_reta_wait_teacher">To be reviewed</string>
 
 
+    <string name="version_updating">Updating...</string>
+    <string name="dialog_new_version_title">The version is updated!</string>
+    <string name="update">Update</string>
+
+    <string name="permisstion_store_hint">Your mobile device does not allow ULearning to download courseware! \nPlease enable ULearning to access to Storage on your device</string>
+    <string name="permisstion_store_record_hint">Recording needs to access to storage \nPlease enable ULearning to access to Storage on your device</string>
+
+    <string name="operation_look_storage_permisstion_setting">Check how to set up</string>
+    <string name="dont_update">Don’t show this again</string>
+    <string name="course_player_loading">The course viewer is being updated... Please wait!</string>
+    <string name="course_player_unzip">Start soon - Please wait</string>
+    <string name="srl_header_pulling">Pull down to refresh</string>
+    <string name="srl_header_refreshing">Refreshing...</string>
+    <string name="srl_header_loading">Loading...</string>
+    <string name="srl_header_release">Release to refresh</string>
+    <string name="srl_header_finish">Refreshing is done!</string>
+    <string name="srl_header_failed">Failed to refresh!</string>
+    <string name="srl_header_update">Last updated: M-d HH:mm</string>
+    <string name="srl_header_secondary">Release to go to next screen</string>
+
+    <string name="srl_footer_pulling">Pull up to load more</string>
+    <string name="srl_footer_release">Release to load instantly</string>
+    <string name="srl_footer_loading">Loading...</string>
+    <string name="srl_footer_refreshing">Refreshing...</string>
+    <string name="srl_footer_finish">Loaded successfully!</string>
+    <string name="srl_footer_failed">Failed to load!</string>
+    <string name="srl_footer_nothing">No more data</string>
+
+    <string name="srl_content_empty">No content view was found in SmartRefreshLayout. Did you forget to add it in the xml layout file?</string>
+    <string name="srl_component_falsify" formatted="false">%s false area\nRepresents the height of the drag at runtime [%.1fdp] \nWithout displaying anything</string>
+
+    <string name="pull_to_refresh_pull_label">Pull to refresh</string>
+    <string name="pull_to_refresh_release_label">Post to refresh</string>
+    <string name="pull_to_refresh_refreshing_label">Loading...</string>
+
+
+    <string name="feedback_hint">Enter your feedback/comments</string>
+    <string name="feedback_log_hint">Submit</string>
+    <string name="only_add_ten_textbook">Can add up to 10 courseware only</string>
+    <string name="document_no_support_down">Caching does not support  documents</string>
+    <string name="teacher_not_support">Teachers do not have access to this feature</string>
+
+    <string name="app_setting">App Settings</string>
+    <string name="server_setting">Server</string>
     <string name="language_setting">Language</string>
     <string name="cube_ptr_pull_down">Pull Down</string>
     <string name="cube_ptr_pull_down_to_refresh">Pull Down to Refresh</string>
@@ -1389,19 +1437,44 @@ Continue saving? </string>
 
     <string name="cube_ptr_last_update">Last Updated: </string>
 
+    <string name="cube_ptr_seconds_ago"> seconds ago</string>
+    <string name="cube_ptr_minutes_ago"> minutes ago</string>
+    <string name="cube_ptr_hours_ago"> hours ago</string>
+
+    <string name="exit_class_ing">You have applied the course withdrawal - Please wait for the teacher to process</string>
+    <string name="exit_class_cancel">Cancel</string>
+    <string name="active_code_use">The activation code can only be used once. If you do not activate it yourself, you can contact your classmate to see if you got the wrong courseware, or contact customer service.</string>
+    <string name="active_code_use_person">The activation code has been used - The activation account: </string>
+    <string name="exit_class_finish">You have withdrawn the course</string>
+
+    <string name="permission_apply">Access Request</string>
+    <string name="permission_overlay">ULearning needs access permission to screen overlay on your device to use the following features: \n\nCasting, Live session (video conferencing)</string>
+    <string name="permission_read_external">ULearning needs access permission to storage on your device to use the following feature(s): \n\nReading app cache data, pictures, and documents</string>
+    <string name="permission_camera">ULearning needs access permission to camera on your device to use the following features: \n\n Uploading/updating profile photo, using camera taking photos for for announcements, polls, assignments, exams, etc., face verification, camera monitoring, video conferencing, etc.</string>
+    <string name="permission_location">ULearning needs access permission to location service on your device to use the following features: roll calls, exams, and screen casting.</string>
+    <string name="permission_microphone">ULearning needs access permission to microphone on your device to use the following features: \n\n Spoken English practice, Spoken English assignments, vocabulary dictation, Spoken English tests, video conferencing, etc.</string>
+    <string name="permission_camera_fail">ULearning needs access to camera to use this function - Please enable it in Settings for ULearning</string>
+    <string name="permission_microphone_fail">ULearning needs access to microphone to use this function - Please enable it in Settings for ULearning</string>
+    <string name="permission_location_fail">ULearning needs access to location service to use this function - Please enable it in Settings for ULearning</string>
+    <string name="permission_read_storage_fail">ULearning needs access to storage to use this function - Please enable it in Settings for ULearning</string>
+    <string name="permission_camera_microphone_fail">ULearning needs access to camera and microphone to use this function - Please enable them in Settings for ULearning</string>
+
     <string name="title_of_top">Stick to top</string>
     <string name="item_all_class">All classes</string>
     <string name="sso_login">SSO Login</string>
-    <string name="select_file_count_to_many">select file too many</string>
+    <string name="select_file_count_to_many">The number of selected files exceeds the limit</string>
 
-    <string name="not_allow_double_tap">Do not click frequently</string>
-    <string name="title_of_projection"> Screen casting </string>
-    <string name="projection_on">In the screen</string>
+    <string name="not_allow_double_tap">Do not click too frequently</string>
+    <string name="title_of_projection">Cast</string>
+    <string name="projection_on">Casting</string>
     <string name="stop">Stop</string>
-    <string name="permission_location_wifi_fail">The Location of your device is off and the WiFi name cannot be obtained. Please go to &quot;Settings&quot; and turn Location on.</string>
+    <string name="permission_location_wifi_fail">The Location of your device is off and the Wi-Fi name cannot be obtained. Please go to Settings and enable Location for ULearning.</string>
     <string name="screen_fail_1">Failed to cast screen! Please open UClass on the large screen and then turn on the screen casting function. Note: Make sure that your mobile device and the large screen are in the same local area network.</string>
     <string name="screen_fail_2">Either the receiving device is restarting or the network is disconnected!</string>
 
+    <string name="not_run_on_virtualmachine">Do not run the app in a virtual machine/simulator</string>
+
+    <string name="screen_msg">Instable network may cause the screen casting to be lost. If the mobile device\'s screen is not displayed on the big screen for a long time, you can stop and cast the screen again.</string>
     <string name="screen_device">Device</string>
     <string name="screen_network">Network</string>
 </resources>
