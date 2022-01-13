@@ -4,7 +4,7 @@
     "description": "UA播放器内层"
   },
   "backToCourse": {
-    "message": "Exit",
+    "message": "Back",
     "description": "UA播放器内层"
   },
   "exit": {
@@ -36,51 +36,47 @@
     "description": "UA播放器内层"
   },
   "quizGuide": {
-    "message": "Quiz Rules",
+    "message": "Exercise Instructions",
     "description": "UA播放器内层"
   },
   "quizGuideP1": {
-    "message": "Please consider your answers carefully in order to deepen your understanding.",
+    "message": "Exercise is a good way to reinforce learning. Please answer the practice questions carefully!",
     "description": "UA播放器内层"
   },
   "quizUlLi1": {
-    "message": "Please pay attention to the number of questions and answer time. If there is a time limit, please make sure to submit your answers within it.",
+    "message": "Pay attention to the attempts and time limit allowed for the exercise. If there is a time limit, be sure to complete the practice questions within the specified time.",
     "description": "UA播放器内层"
   },
   "quizUlLi2": {
-    "message": "The system will give you feedback after you answer each question. Clicking on each small circle can redirect you to the question.",
+    "message": "After each question is answered, the system will report correct/incorrect in the question No circle on the top. Click on each the circle to jump directly to that question.",
     "description": "UA播放器内层"
   },
   "videoQuizUlLi1": {
-    "message": "The video will resume after you finish the exercise.",
+    "message": "The video will automatically continue to play after completing the exercise",
     "description": "UA播放器内层"
   },
   "beginQuiz": {
     "message": "Start",
     "description": "UA播放器内层"
   },
-  "questionNumber1": {
-    "message": "Total: ",
-    "description": "UA播放器内层"
-  },
-  "questionNumber2": {
-    "message": " question(s)",
-    "description": "UA播放器内层"
-  },
-  "questionNumber3": {
-    "message": " question(s)",
-    "description": "UA播放器内层"
+  "totalQuestions": {
+    "message": "Total {n} questions",
+    "description": "学生 -> 作答练习题"
   },
   "oneChance": {
     "message": "1 attempt allowed",
     "description": "UA播放器内层"
   },
   "manyChance": {
-    "message": "Repeatable",
+    "message": "Unlimited attempts",
     "description": "UA播放器内层"
   },
-  "answerTime1": {
-    "message": "Please finish within ",
+  "answerTimeLimit": {
+    "message": "Time limit {time}",
+    "description": "学生 -> 作答练习题"
+  },
+  "score": {
+    "message": "{n} minutes",
     "description": "UA播放器内层"
   },
   "submit": {
@@ -92,7 +88,7 @@
     "description": "UA播放器内层"
   },
   "theEnd": {
-    "message": "The End",
+    "message": "No more",
     "description": "UA播放器内层"
   },
   "redo": {
@@ -100,7 +96,7 @@
     "description": "UA播放器内层"
   },
   "answerRecord": {
-    "message": "Answer Record",
+    "message": "Answer Records",
     "description": "UA播放器内层"
   },
   "answerRight": {
@@ -112,7 +108,7 @@
     "description": "UA播放器内层"
   },
   "answered": {
-    "message": "Completed!",
+    "message": "Submitted!",
     "description": "UA播放器内层"
   },
   "oneChancePartialWrong": {
@@ -120,7 +116,7 @@
     "description": "UA播放器内层"
   },
   "manyChanceWrong": {
-    "message": "Incorrect, try again!",
+    "message": "Incorrect - Try again!",
     "description": "UA播放器内层"
   },
   "manyChancePartialWrong": {
@@ -129,14 +125,6 @@
   },
   "viewAnalysis": {
     "message": "See the answer analysis",
-    "description": "UA播放器内层"
-  },
-  "answerRightTip": {
-    "message": "Go to the next question, or ",
-    "description": "UA播放器内层"
-  },
-  "answerWrongTip": {
-    "message": "You can ",
     "description": "UA播放器内层"
   },
   "correctAnswer": {
@@ -337,10 +325,6 @@
   },
   "oralRecordingTips": {
     "message": "Please read each word / sentence / paragraph ",
-    "description": "UA播放器内层"
-  },
-  "oralRecordingTipsCount": {
-    "message": " times",
     "description": "UA播放器内层"
   },
   "oralRecording": {

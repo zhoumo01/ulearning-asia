@@ -164,7 +164,7 @@
     <string name="activate_code_wrong">Please enter the full activation code</string>
     <string name="search">Search</string>
     <string name="activate_course">Activate Course</string>
-    <string name="activate_textbook">Activate eTextbook</string>
+    <string name="activate_textbook">Activate Courseware</string>
 
     <string name="input_active_code">- or enter the activation code -</string>
 
@@ -265,8 +265,8 @@
     <string name="modify_fail">Failed to modify!</string>
 
     <string name="modify">Modify</string>
-    <string name="logout_message">After you remove your account, you will no longer be able to use the account to log in to ULearning and neither be able to use the same mobile phone number or email address to register a new account. The system will clear your personal information and historical data within a certain period of time.
-Please note that removing an account is an unrecoverable operation, so please be cautious! Are you sure to remove this account?</string>
+    <string name="logout_message">After deleting your account, you will no longer be able to use the account to log in to ULearning and neither be able to use the same mobile phone number or email address to register a new account. The system will clear your personal information and historical data within a certain period of time.
+Please note that deletinging an account is an unrecoverable operation, so please be cautious! Are you sure to delete this account?</string>
     <string name="confirm_logout">Continue</string>
     <string name="cancel_logout">Cancel</string>
 
@@ -295,7 +295,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="hint_now_relevance_telphone">Linked phone number</string>
     <string name="hint_input_verification_code">Enter the email verification code</string>
     <string name="hint_face_recognition">- Face the camera and make sure there is enough light -</string>
-    <string name="hint_qr_code">Aim at the QR code/barcode  to scan</string>
+    <string name="hint_qr_code">Aim at the QR code/barcode to scan</string>
     <string name="hint_qr_code_error">The QR code is not detected</string>
     <string name="hint_qr_code_touch">Tap to Scan</string>
     <string name="hint_open_light">Turn on lights</string>
@@ -340,7 +340,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="hint_not_download_course">You have not download the courseware for this course</string>
     <string name="hint_keep_least_one_course">Keep at least one course</string>
     <string name="hint_keep_least_one_class">Select at least one class</string>
-    <string name="hint_course_empty">No course found!</string>
+    <string name="hint_course_empty">No courses found!</string>
     <string name="hint_choose_teach_course">Select Courseware</string>
     <string name="hint_choose_course_cover">Select a course cover</string>
     <string name="hint_modify_personal_info_fail">@string/modify_fail</string>
@@ -378,15 +378,15 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="warning_chat_empty_message">No messages found!</string>
     <string name="warning_contact_empty">No matching contacts found!</string>
     <string name="warning_input_realinfo">Please enter real information. Otherwise it will affect your learning scores.</string>
-    <string name="warning_sys_notify_empty">No system announcements found! </string>
+    <string name="warning_sys_notify_empty">No system notifications found! </string>
     <string name="warning_practice_finish_limittime">Please complete the exercise within the specified time limit. It will be submitted automatically when the time is over.</string>
     <string name="warning_network_break">Network unavailable - please check your network connection!</string>
     <string name="warning_web_break">Something went wrong. We are fixing it now. Please try again later.</string>
     <string name="warning_qr_fail">Failed to scan the code!</string>
     <string name="warning_qr_unsupport">The QR code is not supported. Currently only supports:\n1. ULearning courseware QR code\n2. ULearning class QR code</string>
-    <string name="warning_qr_textbook_not_active">You haven’t activated the eTextbook. Please activate and then scan the QR code to start learning - Activate Now</string>
+    <string name="warning_qr_textbook_not_active">You haven’t activated the courseware. Please activate and then scan the QR code to start learning - Activate Now</string>
     <string name="warning_qr_textbook_not_stu">Please log in and then scan the QR code</string>
-    <string name="warning_qr_textbook_out_of_date">This eTextbook has expired. Please reactivate it to continue learning - Activate Now</string>
+    <string name="warning_qr_textbook_out_of_date">This courseware has expired. Please reactivate it to continue learning - Activate Now</string>
     <string name="warning_qr_textbook_out_of_plan">According to the study plan set by the course &quot;%s&quot;, the current topic is unavailable. You can view other topics - Open Course</string>
     <string name="warning_input_content">Enter the content!</string>
     <string name="warning_classname_format_error">Incorrect class name format!</string>
@@ -417,7 +417,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="warning_record_permission_close">Microphone access is off</string>
     <string name="warning_carema_permission_close">Camera access is off</string>
     <string name="warning_file_not_select">No file selected</string>
-    <string name="warning_file_could_not_open">There is no application installed in the phone that can open the file</string>
+    <string name="warning_file_could_not_open">There is no application installed in your device that can open the file</string>
     <string name="warning_resource_not_download">The resource is not downloaded</string>
     <string name="warning_file_size_limit">The file exceeds 200MB - please upload from the web version ULearning</string>
     <string name="warning_file_not_found">File not found!</string>
@@ -427,8 +427,8 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="warning_download_fail">Failed to download!</string>
     <string name="warning_file_upload_fail">Upload failed!</string>
     <string name="warning_update_fail">Failed to refresh!</string>
-    <string name="warning_version_is_new">Currently the latest version</string>
-    <string name="warning_delete_bookmark_fail">Failed to remove from Favorites!</string>
+    <string name="warning_version_is_new">It is the latest version</string>
+    <string name="warning_delete_bookmark_fail">Failed to delete the bookmark</string>
     <string name="warning_delete_note_fail">Failed to delete!</string>
     <string name="warning_practicing">The exercise is in progress - please submit first</string>
     <string name="warning_course_fail">Something wrong with the courseware - please contact us!</string>
@@ -471,7 +471,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="pop_course_menu_detail">Course Details</string>
     <string name="pop_course_menu_score">Grading Rules</string>
     <string name="pop_course_menu_glosarry">Glossary</string>
-    <string name="pop_course_menu_mark">Favorites</string>
+    <string name="pop_course_menu_mark">Bookmarks</string>
     <string name="pop_course_menu_recourse">Cache Courseware</string>
 
     <string name="pop_course_menu_note">Notes</string>
@@ -592,7 +592,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="text_unanswer">Not Answered</string>
     <string name="text_click_choose_answer">Tap to select answer</string>
     <string name="text_org_course_empty">No courses under your school/department</string>
-    <string name="text_join_quit_class_apply">Add Class Withdrawal Application</string>
+    <string name="text_join_quit_class_apply">Enrollment/Withdrawal Applications</string>
     <string name="text_join_quit_class_apply_empty">No Enrollment/Withdrawal applications</string>
     <string name="text_join_class_apply_empty">No Enrollment applications</string>
     <string name="text_quit_class_apply_empty">No Withdrawal applications</string>
@@ -690,7 +690,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="resource_delete_remind">Are you sure to delete the resource?</string>
     <string name="resource_delete_child_remind">Are you sure to delete all resources in the folder and its subfolders?</string>
     <string name="resource_move_path_no_change">The moved resource(s) already exists in the current folder</string>
-    <string name="resource_move_self">Cannot move a folder to itself or to a sub-folder </string>
+    <string name="resource_move_self">Cannot move a folder to itself or any of its sub-folders</string>
     <string name="resource_no_check">Please select the resource(s) first</string>
     <string name="resource_no_permit_check">Please select permissions first </string>
     <string name="resource_no_publish_resource_stu">The teacher has not posted any resources</string>
@@ -877,7 +877,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="course_activity_size" formatted="false">%s </string>
     <string name="how_many_size" formatted="false">%s </string>
     <string name="course_activity_date" formatted="false">%d-%s</string>
-    <string name="course_study_plan_date" formatted="false">Available from %s to %s</string>
+    <string name="course_study_plan_date" formatted="false">The content from %s to %s is available for learning</string>
     <string name="average_scores">Average Score</string>
     <string name="course_study_close_lesson">Module access is turned off by your teacher</string>
     <string name="progress">Learning Progress</string>
@@ -910,7 +910,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="login_bind_remind">After linking, you can log in directly with the third-party application</string>
     <string name="logout_unbind_success_remind">Unlinked successfully!</string>
     <string name="logout_bind_success_remind">Linked successfully!</string>
-    <string name="logout_bind_wechat_remind">Are you sure you want to unlink it?</string>
+    <string name="logout_bind_wechat_remind">Are you sure you want to unlink?</string>
     <string name="login_wechat_confirm">Log in via Wechat</string>
     <string name="login_wechat_binded">Linked - Tap to Unlink</string>
     <string name="login_binded_now">Link Now</string>
@@ -928,7 +928,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="register_tea">I am a teacher</string>
 
 
-    <string name="main_logout">Your account has been logged on to another mobile device, Make sure it is you. If not, change password to safeguard your account.</string>
+    <string name="main_logout">Your account has been logged on to another mobile device. Make sure it is you. If not, change password to safeguard your account.</string>
 
     <string name="main_menu_courses_title">My Courses</string>
     <string name="main_menu_statistics_sync_success">The learning records are synchronized</string>
@@ -955,14 +955,14 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="my_store_course_expired_label">The courseware has expired and cannot be accessed</string>
 
     <string name="course_menu_glossaries_title">Glossary</string>
-    <string name="course_my_activity_count_title" formatted="false">This week’s activities (%d)</string>
+    <string name="course_my_activity_count_title" formatted="false">This Week’s Activities (%d)</string>
     <string name="course_my_grade_title">Course Grade</string>
     <string name="course_my_grade_test_title">Grading Rules</string>
     <string name="course_my_grade_score">Current Score</string>
     <string name="course_my_grade_end_time" formatted="false">The grading has ended - %s is your final grade</string>
     <string name="course_my_grade_unend_time" formatted="false">Grading Due: %s</string>
     <string name="course_my_publish_time" formatted="false">%s posted on %s</string>
-    <string name="course_menu_bookmarks_title">Favorites</string>
+    <string name="course_menu_bookmarks_title">Bookmarks</string>
     <string name="course_menu_notes_title">Notes</string>
     <string name="course_menu_bookmarks_page_number">Page %d</string>
     <string name="course_menu_notes_page_number">Page %d</string>
@@ -977,7 +977,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="course_join_give_up">Cancel Enrolling</string>
 
     <string name="course_join_give_up_confirm">Are you sure to cancel the class enrolling?</string>
-    <string name="course_menu_bookmarks_empty_message">You have not added bookmark</string>
+    <string name="course_menu_bookmarks_empty_message">You have not added a bookmark</string>
     <string name="course_detail_download_fail">Course catalog loading failed, please call Customer Service Hotline 400 610 7808 to help resolve your problem</string>
     <string name="course_learn_page_option_submit">Submit</string>
     <string name="course_learn_page_practice_score">Your Score: % points</string>
@@ -1106,8 +1106,8 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="remind_modify_class_course_same_name" formatted="false">Course with the same name has already existed (created by teacher %s). It is recommended that you contact the teacher to make sure there are no duplicate courses. \n Do you want to save?</string>
     <string name="remind_create_class_info_person">Create classes and invite students to join classes (the system already created a default class, which can be edited after entering the course)</string>
     <string name="remind_select_course">Import </string>
-    <string name="remind_select_course_info">Import courseware which can used as self-paced learning content</string>
-    <string name="remind_select_course_info_per">Import courseware which can used as self-paced learning content.</string>
+    <string name="remind_select_course_info">Import courseware which can be used as self-paced learning content</string>
+    <string name="remind_select_course_info_per">Import courseware which can be used as self-paced learning content</string>
     <string name="remind_select_course_info_is_admin">The course creator has not yet imported/linked any courseware \nYou can start to publish/post resources, assignments, and other teaching activities as usual</string>
     <string name="remind_select_course_info_no_admin">No courseware yet\nCourseware is assigned by the course admin</string>
 
@@ -1125,7 +1125,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="remind_join_class_course_finished">The course has ended and enrollment is closed</string>
 
     <string name="remind_join_class_course_code_wrong">Please enter the correct class code</string>
-    <string name="remind_join_class_course_tea">Teachers cannot self-join a class. Please contact the class admin to add you to the class.</string>
+    <string name="remind_join_class_course_tea">Teachers cannot self-join a class. Please contact the course admin to add you to the class.</string>
     <string name="remind_join_class_course_already_existed">You have already joined one class of this course. Please do not try to join another one. If you joined the wrong class, please contact the teacher to re-assign you to the right one.</string>
     <string name="remind_join_class_course_different_org" formatted="false">Your current school: \n%s\nAfter joining this class, your school information will be changed to\n%s\nAre you sure you want to join this class?</string>
 
@@ -1271,7 +1271,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="school">School/Organization</string>
     <string name="school_num">Student ID/Employee ID</string>
     <string name="bind_other_account">Link 3rd-party Account</string>
-    <string name="logout_account">Log out</string>
+    <string name="logout_account">Delete Account</string>
     <string name="logout_account_success">Logged out successfully!</string>
     <string name="to_bind">Link Now</string>
     <string name="to_unbind">Unlink</string>
@@ -1358,7 +1358,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="evaluationed">Peer-reviewed</string>
     <string name="evaluation_ing">Peer-review in progress</string>
     <string name="not_evaluation">Not peer-reviewed</string>
-    <string name="not_group_evaluation"> To be peer-reviewed</string>
+    <string name="not_group_evaluation">To be peer-reviewed</string>
     <string name="un_answer">Not answered</string>
     <string name="un_select">Not selected</string>
 
@@ -1370,7 +1370,7 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="study_complete">Completed</string>
     <string name="not_study">Not started</string>
     <string name="study_progress">Learning Progress</string>
-    <string name="not_exam"> Missed exam</string>
+    <string name="not_exam">Missed exam</string>
     <string name="not_show_result">Do not post results</string>
     <string name="wait_reta">Subjective questions - to be graded</string>
     <string name="home_work_type">Assignment Type</string>
@@ -1450,8 +1450,8 @@ Please note that removing an account is an unrecoverable operation, so please be
     <string name="permission_apply">Access Request</string>
     <string name="permission_overlay">ULearning needs access permission to screen overlay on your device to use the following features: \n\nCasting, Live session (video conferencing)</string>
     <string name="permission_read_external">ULearning needs access permission to storage on your device to use the following feature(s): \n\nReading app cache data, pictures, and documents</string>
-    <string name="permission_camera">ULearning needs access permission to camera on your device to use the following features: \n\n Uploading/updating profile photo, using camera taking photos for for announcements, polls, assignments, exams, etc., face verification, camera monitoring, video conferencing, etc.</string>
-    <string name="permission_location">ULearning needs access permission to location service on your device to use the following features: roll calls, exams, and screen casting.</string>
+    <string name="permission_camera">ULearning needs access permission to camera on your device to use the following features: \n\n Scanning, uploading/updating profile photo, using camera taking photos for announcements, polls, assignments, exams, etc., face verification, camera monitoring, video conferencing, etc.</string>
+    <string name="permission_location">ULearning needs access permission to location services on your device to use the following features: roll calls, exams, and screen casting.</string>
     <string name="permission_microphone">ULearning needs access permission to microphone on your device to use the following features: \n\n Spoken English practice, Spoken English assignments, vocabulary dictation, Spoken English tests, video conferencing, etc.</string>
     <string name="permission_camera_fail">ULearning needs access to camera to use this function - Please enable it in Settings for ULearning</string>
     <string name="permission_microphone_fail">ULearning needs access to microphone to use this function - Please enable it in Settings for ULearning</string>
