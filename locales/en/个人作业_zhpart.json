@@ -75,6 +75,18 @@
     "message": "Sat",
     "description": "星期六"
   },
+  "points": {
+    "message": "{n} points",
+    "description": "PC -> 教师端 -> 学生提交作业列表 \n 移动端 -> 教师端 -> 学生提交作业列表 \n PC -> 教师端 -> 学生提交作业列表 -> 批阅 -> 批阅完成后显示"
+  },
+  "inputPoints": {
+    "message": "{input} points",
+    "description": "PC -> 教师端 -> 发布个人作业 -> 学生互评 -> 添加评分规则"
+  },
+  "inputPoints2": {
+    "message": "{input} points, Full marks {full}",
+    "description": "教师端 -> 学生提交作业列表 -> 右侧的批阅面板 (需要作业成绩设置为显示等级)"
+  },
   "允许复制粘贴": {
     "message": "Allow copy/paste",
     "description": "个人作业zh_part.json"
@@ -98,6 +110,10 @@
   "提交截止": {
     "message": "Due",
     "description": "个人作业zh_part.json"
+  },
+  "endTime": {
+    "message": "Deadline: {time}",
+    "description": "PC -> 教师端 -> 学生提交作业列表"
   },
   "优优正在努力加载中": {
     "message": " Youyou is working hard to load ",
@@ -203,6 +219,10 @@
     "message": "Not Submitted",
     "description": "个人作业zh_part.json"
   },
+  "wordsLength": {
+    "message": "{n} words",
+    "description": "学生 -> 写作业(需要系统评分的作业) -> 提交 \n 教师 -> 批阅作业 -> 相似度检测"
+  },
   "相似度检测": {
     "message": "Similarity detection",
     "description": "个人作业zh_part.json"
@@ -283,6 +303,14 @@
     "message": " English speaking system auto-marking ",
     "description": "个人作业zh_part.json"
   },
+  "reviewedOfperStudent": {
+    "message": "Each student evaluates {n} assignments",
+    "description": "PC/移动端 -> 教师 -> 布置作业 -> 学生互评"
+  },
+  "reviewedOfperStudent2": {
+    "message": "Each student reviews {n} servings",
+    "description": " PC/移动端 -> 学生 -> 互评作业详情"
+  },
   "互评规则": {
     "message": "Rules of peer assessment",
     "description": "个人作业zh_part.json"
@@ -290,6 +318,10 @@
   "总分": {
     "message": "Total score",
     "description": "个人作业zh_part.json"
+  },
+  "totalPointsOf": {
+    "message": "Total score{total}",
+    "description": "PC -> 学生 -> 互评作业 -> 评价任务(要求作业设置评分点)"
   },
   "注：学生录音超过3分钟系统将无法评分": {
     "message": " Note: System  will not be able to do marking when student’s recording exceeding 3 minutes. ",
@@ -399,6 +431,10 @@
     "message": " Please enter assignment requirements. The assignment supports up to 5,000 words; whereasmobile app only supports uploading pictures and recordings. For  other types of attachments, students are required to submit using the computer in web version.",
     "description": "个人作业zh_part.json"
   },
+  "writtenWords": {
+    "message": "{n} words has been written",
+    "description": "PC/移动端 -> 学生 -> 写作业"
+  },
   "您的文章不错，没有发现语法问题，请继续保持哦！": {
     "message": " Your article is good, no grammartical problems are found, please keep it up!",
     "description": "个人作业zh_part.json"
@@ -443,6 +479,10 @@
     "message": "Close peerevaluation",
     "description": "个人作业zh_part.json"
   },
+  "peerEndTime": {
+    "message": "Mutual evaluation deadline: {time}",
+    "description": "PC -> 教师端 -> 学生提交作业列表"
+  },
   "请选择互评截止日期": {
     "message": " Please select the deadline for peer evaluation ",
     "description": "个人作业zh_part.json"
@@ -482,6 +522,10 @@
   "语法检测": {
     "message": " Grammar check ",
     "description": "个人作业zh_part.json"
+  },
+  "reviewedOf": {
+    "message": "Evaluated {n}",
+    "description": "PC -> 教师端 -> 学生提交作业列表 \n 移动端 -> 教师端 -> 学生提交作业列表"
   },
   "相似": {
     "message": "Similar",
@@ -675,6 +719,10 @@
     "message": " Modify assignment ",
     "description": "个人作业zh_part.json"
   },
+  "studentsOfReviewed": {
+    "message": "Commented on by {n}",
+    "description": "PC -> 教师端 -> 学生提交作业列表 \n 移动端 -> 教师端 -> 学生提交作业列表"
+  },
   "你未提交作业，返回记录会丢失，确定返回吗？": {
     "message": " If you do not submit your assignment, the return record will be lost. Are you sure you want to return?",
     "description": "个人作业zh_part.json"
@@ -694,6 +742,10 @@
   "查重中": {
     "message": " Duplicate checking ",
     "description": "个人作业zh_part.json"
+  },
+  "duplicateTip2": {
+    "message": "After testing, your homework is similar to that of other classmates {n}%, please modify it and submit it again",
+    "description": "学生 -> 写作业 -> 查重 (要求教师布置作业时，设置查重)"
   },
   "还不错，放心提交吧": {
     "message": " It's not bad. Please feel free to submit  it. ",
@@ -775,6 +827,10 @@
     "message": "Assignment Time",
     "description": "个人作业zh_part.json"
   },
+  "homeworkTime": {
+    "message": "Assignment Availability: {startTime} to {endTime} ",
+    "description": "PC -> 教师端 -> 学生提交作业列表 分班级设置的作业才会显示"
+  },
   "各班分开设置": {
     "message": "Separate setting for classes",
     "description": "个人作业zh_part.json"
@@ -817,6 +873,22 @@
   },
   "确定删除评分规则": {
     "message": "Confirm to delete scoring rule ",
+    "description": "个人作业zh_part.json"
+  },
+  "fullPoints": {
+    "message": "Full marks: {n} points",
+    "description": "移动端 -> 教师端 -> 发布个人作业 -> 学生互评 -> 评分规则 \n PC -> 学生 -> 互评作业 -> 评价任务(要求作业设置评分点) \n PC -> 学生 -> 作业详情"
+  },
+  "remainPoints": {
+    "message": "Remaining: {n} points",
+    "description": "移动端 -> 教师端 -> 发布个人作业 -> 学生互评 -> 评分规则"
+  },
+  "scoringTip": {
+    "message": "Full score {m}, remaining {n}",
+    "description": "PC -> 教师端 -> 发布个人作业 -> 学生互评 -> 添加评分规则"
+  },
+  "fullPointsOf": {
+    "message": "Full marks {score} ",
     "description": "个人作业zh_part.json"
   },
   "添加评分点": {
@@ -907,6 +979,10 @@
     "message": "Start",
     "description": "个人作业zh_part.json"
   },
+  "startTime": {
+    "message": "Start Time: {time}",
+    "description": "PC -> 教师端 -> 学生提交作业列表"
+  },
   "每个班级分开设置": {
     "message": "Different across classes",
     "description": "个人作业zh_part.json"
@@ -954,6 +1030,26 @@
   "申述理由": {
     "message": " Reason for appeal ",
     "description": "个人作业zh_part.json"
+  },
+  "gradeOfStu": {
+    "message": "{stuName} score: {n} score, average score of mutual evaluation: {peer} score, unfinished evaluation task: {m} point",
+    "description": "PC -> 教师 -> 学生提交作业列表 -> TA给别人的评价"
+  },
+  "gradeOfStu2": {
+    "message": "{stuName} score: {n} points, inter-evaluation average score: {peer} points",
+    "description": "PC -> 教师 -> 学生提交作业列表 -> TA给别人的评价"
+  },
+  "deductScore": {
+    "message": "Points deducted: {content}",
+    "description": "移动端 -> 教师 -> 批阅互评作业"
+  },
+  "contentOfDeductScore": {
+    "message": "Unfinished evaluation task {n} score",
+    "description": "移动端 -> 教师 -> 批阅互评作业"
+  },
+  "noEvaluate": {
+    "message": "Unrated {deduct}",
+    "description": "移动端 -> 教师 -> 批阅互评作业 -> 评价任务"
   },
   "所在班级": {
     "message": "Classes",
@@ -1038,6 +1134,10 @@
   "的作业详情": {
     "message": " 's assignment details ",
     "description": "个人作业zh_part.json"
+  },
+  "scoringOf": {
+    "message": "Rating: {score}",
+    "description": "PC -> 教师 -> 学生提交作业列表 -> TA给别人的评价 \n PC -> 教师 -> 学生提交作业列表 -> 别人给TA的评价"
   },
   "评语": {
     "message": "Comment",
@@ -1127,6 +1227,10 @@
     "message": "Student List (Submitted)",
     "description": "个人作业zh_part.json"
   },
+  "submittedOn": {
+    "message": "Submit at {time}",
+    "description": "PC -> 教师 -> 批阅作业"
+  },
   "注：提交截止后开始互评。在提交截止后补交的学生将无法参与互评，需要教师来批阅该学生的作业。": {
     "message": "Late submission will be graded by teacher, instead of peer reviews",
     "description": "个人作业zh_part.json"
@@ -1142,6 +1246,10 @@
   "设置若干评分点，细化评分规则，可以帮助学生更客观地进行互评": {
     "message": " Setting up a number of scoring points and refining the scoring rules can increase the objectivity of peer evaluation ",
     "description": "个人作业zh_part.json"
+  },
+  "rateOfPoint": {
+    "message": "Corresponding score {n}%",
+    "description": "PC -> 教师端 -> 发布个人作业 -> 学生互评 -> 添加评分规则"
   },
   "注意：进入互评阶段后不允许修改": {
     "message": " Note: no modification is allowed after entering the peer evaluation stage ",
@@ -1174,6 +1282,10 @@
   "互评作业详情": {
     "message": "Peer-review assignment details",
     "description": "个人作业zh_part.json"
+  },
+  "duplicateTip1": {
+    "message": "After testing, your homework is lowly similar to that of other classmates",
+    "description": "学生 -> 写作业 -> 查重 (要求教师布置作业时，设置查重)"
   },
   "作业被批阅前你可以撤回重交，批阅后将无法撤回。确定提交作业？": {
     "message": "You can re-submit your assignment before it is graded. After being graded, no more re-submission is allowed.",
