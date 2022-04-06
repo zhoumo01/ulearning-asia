@@ -511,6 +511,10 @@
     "message": "Are you sure you want to delete it?",
     "description": "考试快捷地址"
   },
+  "transcodeTip": {
+    "message": "The file is being transcoded, please try again later.",
+    "description": "考试快捷地址"
+  },
   "transcodeTip1": {
     "message": "The file is being transcoded, please try again later",
     "description": "考试快捷地址"
@@ -561,6 +565,454 @@
   },
   "reRecord": {
     "message": " Record again ",
+    "description": "考试快捷地址"
+  },
+  "recordingTip": {
+    "message": "There is another audio recording in progress, please close it first.",
+    "description": "考试快捷地址"
+  },
+  "noRecordingTip": {
+    "message": "Recording permission has been denied, please turn on recording permission in your browser settings.",
+    "description": "考试快捷地址"
+  },
+  "uploadAudioFail": {
+    "message": "Audio upload failed, please check the network connection.",
+    "description": "考试快捷地址"
+  },
+  "addFile": {
+    "message": "Add Attachment",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError1": {
+    "message": "Upload up to {n} attachments",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError3": {
+    "message": "This type of file is not supported.",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError5": {
+    "message": "Transcoding failed.",
+    "description": "考试快捷地址"
+  },
+  "uploadFail": {
+    "message": "Upload failed!",
+    "description": "考试快捷地址"
+  },
+  "mark": {
+    "message": "Mark",
+    "description": "考试快捷地址"
+  },
+  "clear": {
+    "message": "Clear",
+    "description": "考试快捷地址"
+  },
+  "addMark": {
+    "message": " Add Comments",
+    "description": "考试快捷地址"
+  },
+  "deleteMark": {
+    "message": "Delete comments",
+    "description": "考试快捷地址"
+  },
+  "playTimesError": {
+    "message": "Parameter error. The playback times is incorrect.",
+    "description": "考试快捷地址"
+  },
+  "manualRefresh": {
+    "message": "Load manually",
+    "description": "考试快捷地址"
+  },
+  "selectQuestionType": {
+    "message": "Select question type",
+    "description": "考试快捷地址"
+  },
+  "questionType": {
+    "message": "Question Type",
+    "description": "考试快捷地址"
+  },
+  "singleQ": {
+    "message": "Multiple Choice",
+    "description": "考试快捷地址"
+  },
+  "multipleQ": {
+    "message": "Multiple Response",
+    "description": "考试快捷地址"
+  },
+  "judgmentQ": {
+    "message": "True/False",
+    "description": "考试快捷地址"
+  },
+  "completion": {
+    "message": "Fill in the Blank",
+    "description": "考试快捷地址"
+  },
+  "shortAnswer": {
+    "message": "Short Answer",
+    "description": "考试快捷地址"
+  },
+  "sortingQ": {
+    "message": "Sequence",
+    "description": "考试快捷地址"
+  },
+  "comprehensiveQ": {
+    "message": "Combination",
+    "description": "考试快捷地址"
+  },
+  "formulaCalculationQ": {
+    "message": "Calculated Formula",
+    "description": "考试快捷地址"
+  },
+  "blankQ": {
+    "message": "Word Bank",
+    "description": "考试快捷地址"
+  },
+  "clozeQ": {
+    "message": "Cloze Test",
+    "description": "考试快捷地址"
+  },
+  "dropDownQ": {
+    "message": "Multiple Drop-down",
+    "description": "考试快捷地址"
+  },
+  "oralSubjectQ": {
+    "message": "Language - Oral",
+    "description": "考试快捷地址"
+  },
+  "oralReadingQ": {
+    "message": "Language - Read Aloud",
+    "description": "考试快捷地址"
+  },
+  "single": {
+    "message": "Multiple Choice",
+    "description": "考试快捷地址"
+  },
+  "multiple": {
+    "message": "Multiple Response",
+    "description": "考试快捷地址"
+  },
+  "judgment": {
+    "message": "True/False",
+    "description": "考试快捷地址"
+  },
+  "completion1": {
+    "message": "Fill in the Blank",
+    "description": "考试快捷地址"
+  },
+  "shortAnswer1": {
+    "message": "Short Answer",
+    "description": "考试快捷地址"
+  },
+  "stuAnswer": {
+    "message": "Student's Answer",
+    "description": "考试快捷地址"
+  },
+  "correctAnswer": {
+    "message": "Correct Answer",
+    "description": "考试快捷地址"
+  },
+  "answer": {
+    "message": "Answer",
+    "description": "考试快捷地址"
+  },
+  "answerCanChangeTip": {
+    "message": "The answers for the blanks do not need to be in order.",
+    "description": "考试快捷地址"
+  },
+  "range": {
+    "message": "Allowable Error：",
+    "description": "考试快捷地址"
+  },
+  "examineeRecording": {
+    "message": "Student's Recording",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip": {
+    "message": "Fill in your answer here",
+    "description": "考试快捷地址"
+  },
+  "referenceAnswer": {
+    "message": "Reference Answer",
+    "description": "考试快捷地址"
+  },
+  "sortTip": {
+    "message": "Drag choices to sort",
+    "description": "考试快捷地址"
+  },
+  "yourAnswer": {
+    "message": "Your answer",
+    "description": "考试快捷地址"
+  },
+  "inputFormulaTip": {
+    "message": "Click the formula icon on the right to enter the formula",
+    "description": "考试快捷地址"
+  },
+  "backSpace": {
+    "message": "Backspace",
+    "description": "考试快捷地址"
+  },
+  "answerRight": {
+    "message": "Correct!",
+    "description": "考试快捷地址"
+  },
+  "answerError": {
+    "message": "Incorrect!",
+    "description": "考试快捷地址"
+  },
+  "scoreResult": {
+    "message": "Points",
+    "description": "考试快捷地址"
+  },
+  "graded": {
+    "message": "Graded",
+    "description": "考试快捷地址"
+  },
+  "toBeRated": {
+    "message": "Grade Pending",
+    "description": "考试快捷地址"
+  },
+  "comments": {
+    "message": "Comments",
+    "description": "考试快捷地址"
+  },
+  "analy": {
+    "message": "Answer Explanation",
+    "description": "考试快捷地址"
+  },
+  "rating": {
+    "message": "Points",
+    "description": "考试快捷地址"
+  },
+  "inputCommentsTip": {
+    "message": "Enter comments here, not reuqired",
+    "description": "考试快捷地址"
+  },
+  "option": {
+    "message": "Options",
+    "description": "考试快捷地址"
+  },
+  "optionContent": {
+    "message": "Click to enter the choice",
+    "description": "考试快捷地址"
+  },
+  "addOption": {
+    "message": "Add Item",
+    "description": "考试快捷地址"
+  },
+  "inputAnaly": {
+    "message": "Click to enter the answer explanation",
+    "description": "考试快捷地址"
+  },
+  "inputAnalyTip": {
+    "message": "The answer explanation cannot exceed  {n} characters",
+    "description": "考试快捷地址"
+  },
+  "addQuestionTip1": {
+    "message": "Add at least one sub-question",
+    "description": "考试快捷地址"
+  },
+  "optionContentTip1": {
+    "message": "Click to enter the choice or delete the extra choices",
+    "description": "考试快捷地址"
+  },
+  "optionContentTip2": {
+    "message": "No more than {n} choices",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip1": {
+    "message": "The answer can not be empty!",
+    "description": "考试快捷地址"
+  },
+  "inputQuestionTitle": {
+    "message": "Click to enter the question",
+    "description": "考试快捷地址"
+  },
+  "questionTitleTip1": {
+    "message": "The question can not be empty!",
+    "description": "考试快捷地址"
+  },
+  "insertBlankTip": {
+    "message": "Hit the Tab key also allows you to insert a fill-in-the-blank item",
+    "description": "考试快捷地址"
+  },
+  "inputAnswer": {
+    "message": "Click to enter the answer",
+    "description": "考试快捷地址"
+  },
+  "answerTip": {
+    "message": "The answers for the blanks do not need to be in order.",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip4": {
+    "message": "The answer cannot be empty!",
+    "description": "考试快捷地址"
+  },
+  "addSubQuestion": {
+    "message": "Add Sub-Questions",
+    "description": "考试快捷地址"
+  },
+  "formula": {
+    "message": "Formula",
+    "description": "考试快捷地址"
+  },
+  "remarked": {
+    "message": "Graded",
+    "description": "考试快捷地址"
+  },
+  "toBeGradedManually": {
+    "message": "Grade Pending",
+    "description": "考试快捷地址"
+  },
+  "select": {
+    "message": "Select",
+    "description": "考试快捷地址"
+  },
+  "completeRemark": {
+    "message": "Save Grading",
+    "description": "考试快捷地址"
+  },
+  "exitRemark": {
+    "message": "Exit",
+    "description": "考试快捷地址"
+  },
+  "nextPaper": {
+    "message": "Next",
+    "description": "考试快捷地址"
+  },
+  "end": {
+    "message": "Finish",
+    "description": "考试快捷地址"
+  },
+  "answerHistoryTimes": {
+    "message": "Attempt {n} ",
+    "description": "考试快捷地址"
+  },
+  "showAnswer": {
+    "message": "Show Answers",
+    "description": "考试快捷地址"
+  },
+  "hideAnswer": {
+    "message": "Hide Answers",
+    "description": "考试快捷地址"
+  },
+  "preview": {
+    "message": "Preview",
+    "description": "考试快捷地址"
+  },
+  "saveAndExit": {
+    "message": "Save and Exit",
+    "description": "考试快捷地址"
+  },
+  "more": {
+    "message": "More",
+    "description": "考试快捷地址"
+  },
+  "batchEntry": {
+    "message": "Batch Import",
+    "description": "考试快捷地址"
+  },
+  "submitSuccess": {
+    "message": "Submitted successfully!",
+    "description": "考试快捷地址"
+  },
+  "submiting": {
+    "message": "Submitting, please wait...",
+    "description": "考试快捷地址"
+  },
+  "nextPart": {
+    "message": "Next Section",
+    "description": "考试快捷地址"
+  },
+  "isLast": {
+    "message": "The End",
+    "description": "考试快捷地址"
+  },
+  "examinee": {
+    "message": "Examinee",
+    "description": "考试快捷地址"
+  },
+  "result": {
+    "message": "Score",
+    "description": "考试快捷地址"
+  },
+  "numberOfPlaysAllowed": {
+    "message": "Number of Plays: ",
+    "description": "考试快捷地址"
+  },
+  "notLimit1": {
+    "message": "Unlimited",
+    "description": "考试快捷地址"
+  },
+  "playTimesAllowed": {
+    "message": "Number of plays: {n} ",
+    "description": "考试快捷地址"
+  },
+  "finish": {
+    "message": "Done",
+    "description": "考试快捷地址"
+  },
+  "nextStep": {
+    "message": "Next",
+    "description": "考试快捷地址"
+  },
+  "skip": {
+    "message": "Skip",
+    "description": "考试快捷地址"
+  },
+  "guide1": {
+    "message": "Welcome to the new version of the exam editor. Let's take a look at the changes.",
+    "description": "考试快捷地址"
+  },
+  "guide2": {
+    "message": "On the left , you can add, move and delete exam sections. Click the section title to switch to the corresponding section.",
+    "description": "考试快捷地址"
+  },
+  "guide3": {
+    "message": "Click here to modify the section title and description.",
+    "description": "考试快捷地址"
+  },
+  "guide4": {
+    "message": "In this new version, you can create and edit questions in the exam directly ! Select a question type here to add a new question. Of course, you can also import questions from the question bank.",
+    "description": "考试快捷地址"
+  },
+  "guide5": {
+    "message": "Note: new questions created here will not be automatically saved to the question bank. If necessary, you can use the Import from Exam function in the question bank to import the questions from the exam into the question bank.",
+    "description": "考试快捷地址"
+  },
+  "guide6": {
+    "message": "Batch setting of score and audio playback times, moved here.",
+    "description": "考试快捷地址"
+  },
+  "guide7": {
+    "message": "Click here to preview the exam when editing.",
+    "description": "考试快捷地址"
+  },
+  "guide8": {
+    "message": "Remember to click Save after all editing.",
+    "description": "考试快捷地址"
+  },
+  "paperUsedTip": {
+    "message": "This exam is in use. Only the content, answers and scores of the questions can be modified. The structure of the sections cannot be modified, or the questions can be added or deleted. Combination Questions are not allowed to add or delete sub-questions.",
+    "description": "考试快捷地址"
+  },
+  "createPaper": {
+    "message": "Create Exam",
+    "description": "考试快捷地址"
+  },
+  "editPaper": {
+    "message": "Edit Exam",
+    "description": "考试快捷地址"
+  },
+  "previewPaper": {
+    "message": "Preview Exam",
+    "description": "考试快捷地址"
+  },
+  "teacherRemark": {
+    "message": "Grade Exam",
+    "description": "考试快捷地址"
+  },
+  "answerHistory": {
+    "message": "Exam Response",
     "description": "考试快捷地址"
   }
 }
