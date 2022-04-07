@@ -64,7 +64,7 @@
     "description": "考试快捷地址"
   },
   "personalInfo": {
-    "message": "Profile",
+    "message": "Personal Center",
     "description": "考试快捷地址"
   },
   "quit": {
@@ -148,7 +148,7 @@
     "description": "考试快捷地址"
   },
   "allowedTimes": {
-    "message": "Attempts",
+    "message": "Attempts Allowed",
     "description": "考试快捷地址"
   },
   "notLimit": {
@@ -184,7 +184,7 @@
     "description": "考试快捷地址"
   },
   "submitLimitType": {
-    "message": "The exam is not allowed to submit within {min} after the exam starts",
+    "message": "The exam is not allowed to submit within {min} minutes after the exam starts",
     "description": "考试快捷地址"
   },
   "examMonitor": {
@@ -208,11 +208,11 @@
     "description": "考试快捷地址"
   },
   "cutScreenMonitorTip1": {
-    "message": "{cutScreenMonitor} is on - The exam will be submitted involuntarily if the students switch from the exam screen to another screen/App for more than {s} seconds in a single switch or for more than {count} times!",
+    "message": "{cutScreenMonitor} is on - The exam will be submitted involuntarily if the students switch from the exam screen to another screen/App for more than {s} seconds in a single switch or for more than {times} times!",
     "description": "考试快捷地址"
   },
   "cutScreenMonitorTip2": {
-    "message": "{cutScreenMonitor} is no - The exam will be submitted involuntarily if the students switch from the exam screen to another screen/App more than {count} times!",
+    "message": "{cutScreenMonitor} is on - The exam will be submitted involuntarily if the students switch from the exam screen to another screen/App more than {times} times!",
     "description": "考试快捷地址"
   },
   "cutScreenMonitorTip3": {
@@ -380,7 +380,7 @@
     "description": "考试快捷地址"
   },
   "joinTypes": {
-    "message": "PC Web / ULearning APP / ULearning Lockdown Browser",
+    "message": "Web/ULearning app/ULearning lockdown browser",
     "description": "考试快捷地址"
   },
   "resultsNotAnnounce": {
@@ -587,12 +587,28 @@
     "message": "Upload up to {n} attachments",
     "description": "考试快捷地址"
   },
+  "uploadFileError2": {
+    "message": "File cannot exceed {size}",
+    "description": "考试快捷地址"
+  },
   "uploadFileError3": {
     "message": "This type of file is not supported.",
     "description": "考试快捷地址"
   },
+  "uploadFileError4": {
+    "message": "File size exceeds limit",
+    "description": "考试快捷地址"
+  },
   "uploadFileError5": {
     "message": "Transcoding failed.",
+    "description": "考试快捷地址"
+  },
+  "uploadImgError": {
+    "message": "File size cannot exceed {size}",
+    "description": "考试快捷地址"
+  },
+  "uploadMediaError": {
+    "message": "File size cannot exceed {size}",
     "description": "考试快捷地址"
   },
   "uploadFail": {
@@ -625,6 +641,10 @@
   },
   "selectQuestionType": {
     "message": "Select question type",
+    "description": "考试快捷地址"
+  },
+  "questionNum": {
+    "message": "{n} ",
     "description": "考试快捷地址"
   },
   "questionType": {
@@ -711,6 +731,14 @@
     "message": "Correct Answer",
     "description": "考试快捷地址"
   },
+  "questionScore": {
+    "message": "({n} pts)",
+    "description": "考试快捷地址"
+  },
+  "questionDesc": {
+    "message": "{n} sub-question, {score} points in total",
+    "description": "考试快捷地址"
+  },
   "answer": {
     "message": "Answer",
     "description": "考试快捷地址"
@@ -727,12 +755,28 @@
     "message": "Student's Recording",
     "description": "考试快捷地址"
   },
+  "notAnswer": {
+    "message": "Not answered",
+    "description": "考试快捷地址"
+  },
   "inputAnswerTip": {
     "message": "Fill in your answer here",
     "description": "考试快捷地址"
   },
+  "enableUploadTip": {
+    "message": "When publishing the exam, you can choose whether to allow examinees to upload attachments",
+    "description": "考试快捷地址"
+  },
   "referenceAnswer": {
     "message": "Reference Answer",
+    "description": "考试快捷地址"
+  },
+  "examUploadTip": {
+    "message": "When selecting a file, the system will temporarily exit the full-screen state, please complete the operation of selecting attachments and return to the exam page within 30 seconds, and then click any blank space on the page to return to the full-screen state, otherwise the system will record the operation as leaving the exam.",
+    "description": "考试快捷地址"
+  },
+  "uploadFailTip": {
+    "message": "Attachment upload or transcoding failed, please re-upload.",
     "description": "考试快捷地址"
   },
   "sortTip": {
@@ -768,7 +812,7 @@
     "description": "考试快捷地址"
   },
   "toBeRated": {
-    "message": "Grade Pending",
+    "message": "Ungraded",
     "description": "考试快捷地址"
   },
   "comments": {
@@ -783,8 +827,16 @@
     "message": "Points",
     "description": "考试快捷地址"
   },
+  "inputScoreTip": {
+    "message": "Enter {num} score",
+    "description": "考试快捷地址"
+  },
   "inputCommentsTip": {
     "message": "Enter comments here, not reuqired",
+    "description": "考试快捷地址"
+  },
+  "inputCommentsTip1": {
+    "message": "Comments cannot exceed {n} characters",
     "description": "考试快捷地址"
   },
   "option": {
@@ -811,6 +863,10 @@
     "message": "Add at least one sub-question",
     "description": "考试快捷地址"
   },
+  "optionContentTip": {
+    "message": "The choice cannot exceed {n} characters",
+    "description": "考试快捷地址"
+  },
   "optionContentTip1": {
     "message": "Click to enter the choice or delete the extra choices",
     "description": "考试快捷地址"
@@ -831,8 +887,16 @@
     "message": "The question can not be empty!",
     "description": "考试快捷地址"
   },
+  "questionTitleTip2": {
+    "message": "The question cannot exceed {n} characters",
+    "description": "考试快捷地址"
+  },
   "insertBlankTip": {
-    "message": "Hit the Tab key also allows you to insert a fill-in-the-blank item",
+    "message": "Hit the Tab key also allows you to insert a blank item",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip2": {
+    "message": "For multiple correct answer, please use // to seperate",
     "description": "考试快捷地址"
   },
   "inputAnswer": {
@@ -843,12 +907,96 @@
     "message": "The answers for the blanks do not need to be in order.",
     "description": "考试快捷地址"
   },
+  "addBlankTip1": {
+    "message": "Add at least one blank item",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip3": {
+    "message": "The answer cannot exceed  {n} characters",
+    "description": "考试快捷地址"
+  },
   "inputAnswerTip4": {
     "message": "The answer cannot be empty!",
     "description": "考试快捷地址"
   },
   "addSubQuestion": {
     "message": "Add Sub-Questions",
+    "description": "考试快捷地址"
+  },
+  "addSubQuestionTip": {
+    "message": "No more than {n} sub-questions",
+    "description": "考试快捷地址"
+  },
+  "defineRange": {
+    "message": "Define variables' range",
+    "description": "考试快捷地址"
+  },
+  "minimum": {
+    "message": "minimum",
+    "description": "考试快捷地址"
+  },
+  "max": {
+    "message": "maximum",
+    "description": "考试快捷地址"
+  },
+  "precision": {
+    "message": "Precision",
+    "description": "考试快捷地址"
+  },
+  "answerPrecision": {
+    "message": "Precision",
+    "description": "考试快捷地址"
+  },
+  "allowedDeviation": {
+    "message": "Allowable Error",
+    "description": "考试快捷地址"
+  },
+  "detectionFormula": {
+    "message": "Test Formula",
+    "description": "考试快捷地址"
+  },
+  "inputFormula": {
+    "message": "Enter the formula",
+    "description": "考试快捷地址"
+  },
+  "inputFormulaTip1": {
+    "message": "The formula length needs to be between 1 and {n} characters",
+    "description": "考试快捷地址"
+  },
+  "inputDeviationTip": {
+    "message": "The error needs to be between 0-{n}",
+    "description": "考试快捷地址"
+  },
+  "unableToCalculateAnswer": {
+    "message": "Cannot be calculated - check your formula!",
+    "description": "考试快捷地址"
+  },
+  "inputRangeTip": {
+    "message": "Please enter a valid value",
+    "description": "考试快捷地址"
+  },
+  "readText": {
+    "message": "Read-Aloud Content",
+    "description": "考试快捷地址"
+  },
+  "readTextTip": {
+    "message": "English only, no more than {n} words",
+    "description": "考试快捷地址"
+  },
+  "wordNum": {
+    "message": "Number of words",
+    "description": "考试快捷地址"
+  },
+  "readTextTip1": {
+    "message": "Read-aloud content cannot be empty",
+    "description": "考试快捷地址"
+  },
+  "readTextTip2": {
+    "message": "Read-aloud content cannot exceed {n} words",
+    "description": "考试快捷地址"
+  },
+  "inputReferenceAnswer": {
+    "message": "Click to enter the reference answer",
     "description": "考试快捷地址"
   },
   "formula": {
@@ -860,11 +1008,31 @@
     "description": "考试快捷地址"
   },
   "toBeGradedManually": {
-    "message": "Grade Pending",
+    "message": "Ungraded",
+    "description": "考试快捷地址"
+  },
+  "correctAnswerNotAnnounce": {
+    "message": "Correct Answer Unreleased",
     "description": "考试快捷地址"
   },
   "select": {
     "message": "Select",
+    "description": "考试快捷地址"
+  },
+  "paramErrorTip": {
+    "message": "Error: incomplete page parameters.",
+    "description": "考试快捷地址"
+  },
+  "getDataFail": {
+    "message": "Error: failed to get data.",
+    "description": "考试快捷地址"
+  },
+  "subjectiveQToBeGraded": {
+    "message": "Ungraded",
+    "description": "考试快捷地址"
+  },
+  "autoLoadNext": {
+    "message": "Auto load next one",
     "description": "考试快捷地址"
   },
   "completeRemark": {
@@ -879,8 +1047,24 @@
     "message": "Next",
     "description": "考试快捷地址"
   },
+  "completeRemarkTip": {
+    "message": "Congratulations, all examinees in your class have been graded.",
+    "description": "考试快捷地址"
+  },
+  "remarkTip": {
+    "message": "Question {n} is not graded, save it now?",
+    "description": "考试快捷地址"
+  },
   "end": {
-    "message": "Finish",
+    "message": "End Grading",
+    "description": "考试快捷地址"
+  },
+  "remarkSuccess": {
+    "message": "Saved successfully!",
+    "description": "考试快捷地址"
+  },
+  "remarkFail": {
+    "message": "Failed to save.",
     "description": "考试快捷地址"
   },
   "answerHistoryTimes": {
@@ -893,6 +1077,10 @@
   },
   "hideAnswer": {
     "message": "Hide Answers",
+    "description": "考试快捷地址"
+  },
+  "used": {
+    "message": "In Use",
     "description": "考试快捷地址"
   },
   "preview": {
@@ -908,15 +1096,251 @@
     "description": "考试快捷地址"
   },
   "batchEntry": {
-    "message": "Batch Import",
+    "message": "Batch Create",
+    "description": "考试快捷地址"
+  },
+  "importFromBank": {
+    "message": "Import from Question Bank",
+    "description": "考试快捷地址"
+  },
+  "batchEditScore": {
+    "message": "Points per question:",
+    "description": "考试快捷地址"
+  },
+  "inputScore": {
+    "message": "Enter score",
+    "description": "考试快捷地址"
+  },
+  "batchEditTimes": {
+    "message": "Number of plays per audio:",
+    "description": "考试快捷地址"
+  },
+  "batchSetting": {
+    "message": "Batch Setting",
+    "description": "考试快捷地址"
+  },
+  "partName": {
+    "message": "Name",
+    "description": "考试快捷地址"
+  },
+  "desc": {
+    "message": "Description",
+    "description": "考试快捷地址"
+  },
+  "savePaper": {
+    "message": "Save",
+    "description": "考试快捷地址"
+  },
+  "editName": {
+    "message": "Modify",
+    "description": "考试快捷地址"
+  },
+  "fullScore": {
+    "message": "Total Points",
+    "description": "考试快捷地址"
+  },
+  "inputPartName": {
+    "message": "Click to enter the section name",
+    "description": "考试快捷地址"
+  },
+  "inputPartNameTip": {
+    "message": "Section name cannot exceed {n} characters",
+    "description": "考试快捷地址"
+  },
+  "inputPartDescTip": {
+    "message": "Section description cannot exceed {n} characters",
+    "description": "考试快捷地址"
+  },
+  "inputPaperNameTip": {
+    "message": "Exam name is required",
+    "description": "考试快捷地址"
+  },
+  "inputPaperNameTip1": {
+    "message": "Exam name cannot exceed {n} characters",
+    "description": "考试快捷地址"
+  },
+  "newPaper": {
+    "message": "New Exam",
+    "description": "考试快捷地址"
+  },
+  "firstPart": {
+    "message": "Section 1",
+    "description": "考试快捷地址"
+  },
+  "paperUsedTip1": {
+    "message": "This exam is in use. Only the content, answers and scores of the questions can be modified. The structure of the sections cannot be modified, or the questions can be added or deleted. Combination Questions are not allowed to add or delete sub-questions. {br}If the answer or score of a question is modified, the graded records should be re-graded.",
+    "description": "考试快捷地址"
+  },
+  "previewTip": {
+    "message": "Add at least one question to each section to save or preview it.",
+    "description": "考试快捷地址"
+  },
+  "previewTip1": {
+    "message": "Question {n} is not saved, please save the question first.",
+    "description": "考试快捷地址"
+  },
+  "savingTip": {
+    "message": "Saving, please wait…",
+    "description": "考试快捷地址"
+  },
+  "addPartTip": {
+    "message": "Add up to {n} sections per exam.",
+    "description": "考试快捷地址"
+  },
+  "editPart": {
+    "message": "Modify Section",
+    "description": "考试快捷地址"
+  },
+  "deletePart": {
+    "message": "Delete Section",
+    "description": "考试快捷地址"
+  },
+  "deletePartTip": {
+    "message": "Caution! Deleting a section will delete all questions in that section at the same time. By default, new questions created in the exam will not be saved to the question bank, and cannot be restored after deletion, so please be careful. Are you sure you want to delete it?",
+    "description": "考试快捷地址"
+  },
+  "deletePartTip1": {
+    "message": "Keep at least one section.",
+    "description": "考试快捷地址"
+  },
+  "addPartQuestionTip": {
+    "message": "No more than {n} questions per section.",
+    "description": "考试快捷地址"
+  },
+  "confirmCancelEdit": {
+    "message": "Are you sure to cancel the modification?",
+    "description": "考试快捷地址"
+  },
+  "deleteQuestion": {
+    "message": "Delete",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteQuestion": {
+    "message": "Are you sure you want to delete this question?",
+    "description": "考试快捷地址"
+  },
+  "editSuccess": {
+    "message": "Modified successfully!",
+    "description": "考试快捷地址"
+  },
+  "editFail": {
+    "message": "Failed to modify!",
+    "description": "考试快捷地址"
+  },
+  "importFail": {
+    "message": "Failed to import!",
+    "description": "考试快捷地址"
+  },
+  "exitTip": {
+    "message": "The exam has not been saved.  If you exit now, the new questions created here will be lost. Are you sure you want to exit?",
+    "description": "考试快捷地址"
+  },
+  "exitTip1": {
+    "message": "Question {n} is not saved. If you leave now, the modification will not be saved. Are you sure you want to leave?",
+    "description": "考试快捷地址"
+  },
+  "confirmExit": {
+    "message": "Are you sure you want to exit?",
+    "description": "考试快捷地址"
+  },
+  "answered": {
+    "message": "Answered",
+    "description": "考试快捷地址"
+  },
+  "interruptAnswer": {
+    "message": "Drop Out",
+    "description": "考试快捷地址"
+  },
+  "saveAnswerRecord": {
+    "message": "Save Answers",
+    "description": "考试快捷地址"
+  },
+  "submitPaper": {
+    "message": "Submit Exam",
+    "description": "考试快捷地址"
+  },
+  "joinExamByCode": {
+    "message": "Enter the exam by verification code",
+    "description": "考试快捷地址"
+  },
+  "examLimitTime": {
+    "message": "Exam time",
+    "description": "考试快捷地址"
+  },
+  "saved": {
+    "message": "Saved",
+    "description": "考试快捷地址"
+  },
+  "networkError": {
+    "message": "Network error and submit failed!",
+    "description": "考试快捷地址"
+  },
+  "networkErrorTip1": {
+    "message": "The system has temporarily stored the answer record locally, do not leave or close the page, and try to submit manually again later.",
+    "description": "考试快捷地址"
+  },
+  "leftTimeTip": {
+    "message": "Less than 1 minute left",
+    "description": "考试快捷地址"
+  },
+  "restoringAnswerRecords": {
+    "message": "Loading answer records, please wait…",
+    "description": "考试快捷地址"
+  },
+  "networkErrorTip2": {
+    "message": "Network error, the exam cannot be loaded normally. Please check the network and restart the exam after the network is recovered.",
+    "description": "考试快捷地址"
+  },
+  "networkErrorTip3": {
+    "message": "Data error, the exam cannot be loaded normally. Please contact customer service.",
+    "description": "考试快捷地址"
+  },
+  "notExitFullScreenTip": {
+    "message": "Please do not exit the full screen during the exam, otherwise it will be recorded as leaving the exam and may be judged as cheating.",
+    "description": "考试快捷地址"
+  },
+  "submitPaperErrorTip": {
+    "message": "Please do not close the page - The system is submitting your exam!",
+    "description": "考试快捷地址"
+  },
+  "submitPaperErrorTip1": {
+    "message": "Network unavailable - Please check your network connection!",
+    "description": "考试快捷地址"
+  },
+  "submitPaperErrorTip2": {
+    "message": "Submission failed. Please do not close the page - The system is re-submitting your exam!",
     "description": "考试快捷地址"
   },
   "submitSuccess": {
     "message": "Submitted successfully!",
     "description": "考试快捷地址"
   },
+  "submitFail": {
+    "message": "Failed to submit!",
+    "description": "考试快捷地址"
+  },
   "submiting": {
     "message": "Submitting, please wait...",
+    "description": "考试快捷地址"
+  },
+  "notAllowedSubmitTip": {
+    "message": "Not allowed to submit within {time} minutes from the beginning of the exam.",
+    "description": "考试快捷地址"
+  },
+  "confirmPaperTip": {
+    "message": "Are you sure you want to submit?",
+    "description": "考试快捷地址"
+  },
+  "confirmPaperTip1": {
+    "message": "You have not answered (completed) the question {n} . Do you still want to submit it?\n",
+    "description": "考试快捷地址"
+  },
+  "confirmPaper": {
+    "message": "End Exam",
+    "description": "考试快捷地址"
+  },
+  "timeOverTip": {
+    "message": "The time is exhausted. Your response will be submitted automatically in 3 seconds.",
     "description": "考试快捷地址"
   },
   "nextPart": {
@@ -935,6 +1359,34 @@
     "message": "Score",
     "description": "考试快捷地址"
   },
+  "objectiveQuestionScore": {
+    "message": "Auto Score",
+    "description": "考试快捷地址"
+  },
+  "subjectiveQuestionScore": {
+    "message": "Manual Score",
+    "description": "考试快捷地址"
+  },
+  "totalNumberOfQuestions": {
+    "message": "Total Number of Questions",
+    "description": "考试快捷地址"
+  },
+  "totalScore": {
+    "message": "Total Points",
+    "description": "考试快捷地址"
+  },
+  "numberOfQuestions": {
+    "message": "Number of Questions",
+    "description": "考试快捷地址"
+  },
+  "scoreNum": {
+    "message": "Points",
+    "description": "考试快捷地址"
+  },
+  "addPart": {
+    "message": "Add Section",
+    "description": "考试快捷地址"
+  },
   "numberOfPlaysAllowed": {
     "message": "Number of Plays: ",
     "description": "考试快捷地址"
@@ -945,6 +1397,46 @@
   },
   "playTimesAllowed": {
     "message": "Number of plays: {n} ",
+    "description": "考试快捷地址"
+  },
+  "playedTimes": {
+    "message": "Played {n} times",
+    "description": "考试快捷地址"
+  },
+  "playTimesOver": {
+    "message": "Number of plays used up",
+    "description": "考试快捷地址"
+  },
+  "switchPartTipAboutRecording": {
+    "message": "There is a recording in progress, if switch to another section, the recording will stop. Do you till want to switch?",
+    "description": "考试快捷地址"
+  },
+  "submitTipAboutUpload": {
+    "message": "There are files being uploaded, please submit later.",
+    "description": "考试快捷地址"
+  },
+  "saveTipAboutUpload": {
+    "message": "There are files being uploaded, please save later.",
+    "description": "考试快捷地址"
+  },
+  "addBlankTip": {
+    "message": "No more than {n} blank items",
+    "description": "考试快捷地址"
+  },
+  "addQuestionTip": {
+    "message": "No more than {n} sub-questions",
+    "description": "考试快捷地址"
+  },
+  "notExitTip": {
+    "message": "It is forbidden to exit the full screen or leave the exam page during the exam!",
+    "description": "考试快捷地址"
+  },
+  "leaveTimesTip": {
+    "message": "You have left the exam {n} times!",
+    "description": "考试快捷地址"
+  },
+  "continueAnswer": {
+    "message": "Return to the Exam",
     "description": "考试快捷地址"
   },
   "finish": {
@@ -960,7 +1452,7 @@
     "description": "考试快捷地址"
   },
   "guide1": {
-    "message": "Welcome to the new version of the exam editor. Let's take a look at the changes.",
+    "message": "Welcome to the new version of the exam system. Let's take a look at the changes.",
     "description": "考试快捷地址"
   },
   "guide2": {
@@ -968,7 +1460,7 @@
     "description": "考试快捷地址"
   },
   "guide3": {
-    "message": "Click here to modify the section title and description.",
+    "message": "Click here to modify the section name and description.",
     "description": "考试快捷地址"
   },
   "guide4": {
@@ -976,7 +1468,7 @@
     "description": "考试快捷地址"
   },
   "guide5": {
-    "message": "Note: new questions created here will not be automatically saved to the question bank. If necessary, you can use the Import from Exam function in the question bank to import the questions from the exam into the question bank.",
+    "message": "New questions created here will not be automatically saved to the question bank. If necessary, you can use the Import from Exam function in the question bank to import the questions from the exam into the question bank.",
     "description": "考试快捷地址"
   },
   "guide6": {
@@ -1000,7 +1492,7 @@
     "description": "考试快捷地址"
   },
   "editPaper": {
-    "message": "Edit Exam",
+    "message": "Modify Exam",
     "description": "考试快捷地址"
   },
   "previewPaper": {
