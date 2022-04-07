@@ -1,14 +1,1510 @@
 {
+  "home": {
+    "message": "หน้าแรก",
+    "description": "考试快捷地址"
+  },
+  "note": {
+    "message": "เคล็ดลับ",
+    "description": "考试快捷地址"
+  },
+  "getIt": {
+    "message": "ฉันเข้าใจแล้ว",
+    "description": "考试快捷地址"
+  },
+  "confirm": {
+    "message": "ตกลง",
+    "description": "考试快捷地址"
+  },
+  "cancel": {
+    "message": "ยกเลิก",
+    "description": "考试快捷地址"
+  },
+  "userNameLogin": {
+    "message": "ลงชื่อเข้าใช้ด้วยรหัสผ่านบัญชี",
+    "description": "考试快捷地址"
+  },
+  "login": {
+    "message": "ลงชื่อเข้าใช้",
+    "description": "考试快捷地址"
+  },
+  "forgetPassword": {
+    "message": "ลืมรหัสผ่าน?",
+    "description": "考试快捷地址"
+  },
+  "userName": {
+    "message": "ชื่อผู้ใช้ / หมายเลขโทรศัพท์ / กล่องจดหมาย",
+    "description": "考试快捷地址"
+  },
+  "password": {
+    "message": "รหัสผ่าน",
+    "description": "考试快捷地址"
+  },
+  "inputUserName": {
+    "message": "โปรดป้อนชื่อผู้ใช้ / หมายเลขโทรศัพท์ / อีเมล",
+    "description": "考试快捷地址"
+  },
+  "inputPas": {
+    "message": "กรุณาใส่รหัสผ่าน",
+    "description": "考试快捷地址"
+  },
+  "freezeTip": {
+    "message": "ระบบตรวจพบการประพฤติมิชอบเช่นโกงในหลักสูตร {names} ระบบได้ระงับบัญชีนี้โดยอัตโนมัติ โปรดติดต่ออาจารย์หรือแพลตฟอร์มเพื่อดำเนินการ",
+    "description": "考试快捷地址"
+  },
+  "overErrorTimes": {
+    "message": "ท่านทำรายการผิดติดต่อกัน5ครั้งแล้ว อีก3นาทีกรุณาทดลองใหม่",
+    "description": "考试快捷地址"
+  },
+  "passwordErr": {
+    "message": "ชื่อบัญชี/พาสเวิร์ดไม่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "loginFail": {
+    "message": "การเข้าสู่ระบบล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "personalInfo": {
+    "message": "ศูนย์ส่วนบุคคล",
+    "description": "考试快捷地址"
+  },
+  "quit": {
+    "message": "ออกจากระบบ",
+    "description": "考试快捷地址"
+  },
+  "faceSuccess": {
+    "message": "การรับรองผ่าน เข้าสู่การสอบหลังจาก 3 วินาที",
+    "description": "考试快捷地址"
+  },
+  "faceFail": {
+    "message": "การยืนยันตนด้วยใบหน้าไม่ผ่าน",
+    "description": "考试快捷地址"
+  },
+  "retry": {
+    "message": "ลองอีกครั้ง",
+    "description": "考试快捷地址"
+  },
+  "leaveSeat": {
+    "message": "ออกจากที่นั่งของคุณ",
+    "description": "考试快捷地址"
+  },
+  "exam": {
+    "message": "สอบ",
+    "description": "考试快捷地址"
+  },
+  "joinType": {
+    "message": "รูปแบบการเข้าร่วม",
+    "description": "考试快捷地址"
+  },
+  "limitTime": {
+    "message": "ระยะเวลาการสอบมีผลบังคับใช้",
+    "description": "考试快捷地址"
+  },
+  "openApp": {
+    "message": "ไปที่แอพ ULearning เพื่อสอบ",
+    "description": "考试快捷地址"
+  },
+  "downloadApp": {
+    "message": "ดาวน์โหลดแอป ULearning",
+    "description": "考试快捷地址"
+  },
+  "pc": {
+    "message": "อินเตอร์เนท",
+    "description": "考试快捷地址"
+  },
+  "app": {
+    "message": "แอพมือถือ",
+    "description": "考试快捷地址"
+  },
+  "exe": {
+    "message": "ล็อคเบราว์เซอร์",
+    "description": "考试快捷地址"
+  },
+  "noCameraTip": {
+    "message": "หากกล้องถูกใช้งานหรือไม่ได้รับอนุญาตโปรดอนุญาตจากกล้องหรือปิดแอพกล้องอื่น ๆ",
+    "description": "考试快捷地址"
+  },
+  "fileSizeLimitType": {
+    "message": "ขนาดสิ่งที่แนบมาต้องไม่เกิน {maxSize}",
+    "description": "考试快捷地址"
+  },
+  "notSupportTip": {
+    "message": "การสอบนี้ไม่สนับสนุนคําตอบบนเว็บโปรดทําตามวิธีการเข้าร่วมที่ระบุเพื่อเข้าสู่การสอบ",
+    "description": "考试快捷地址"
+  },
+  "noFaceTip": {
+    "message": "การสอบนี้จะเปิดการจดจําใบหน้าและคุณสามารถทําการสอบได้หลังจากเสร็จสิ้นการรับรองใบหน้า",
+    "description": "考试快捷地址"
+  },
+  "identification": {
+    "message": "ไปยืนยัน",
+    "description": "考试快捷地址"
+  },
+  "timeLimit": {
+    "message": "การสอบมีระยะเวลาจํากัด",
+    "description": "考试快捷地址"
+  },
+  "minute": {
+    "message": "{n} นาที",
+    "description": "考试快捷地址"
+  },
+  "allowedTimes": {
+    "message": "จํานวนคําตอบที่อนุญาต",
+    "description": "考试快捷地址"
+  },
+  "notLimit": {
+    "message": "ไม่มีข้อ จํากัด",
+    "description": "考试快捷地址"
+  },
+  "myScore": {
+    "message": "เกรดของฉัน",
+    "description": "考试快捷地址"
+  },
+  "score": {
+    "message": "{n}คะแนน",
+    "description": "考试快捷地址"
+  },
+  "usedTimes": {
+    "message": "จํานวนคําตอบที่ใช้",
+    "description": "考试快捷地址"
+  },
+  "examTime": {
+    "message": "เวลาสอบ",
+    "description": "考试快捷地址"
+  },
+  "lateLimit": {
+    "message": "จํากัดการมาสาย",
+    "description": "考试快捷地址"
+  },
+  "lateLimitTip": {
+    "message": "ไม่อนุญาตให้เข้าหลังจากเริ่มการสอบ {min} นาที",
+    "description": "考试快捷地址"
+  },
+  "submitLimit": {
+    "message": "ขีดจํากัดของไดรฟ์ข้อมูลที่ส่งมอบ",
+    "description": "考试快捷地址"
+  },
+  "submitLimitType": {
+    "message": "ไม่อนุญาตให้ส่งกระดาษคำตอบภายใน {min} นาทีหลังจากเริ่มการสอบ",
+    "description": "考试快捷地址"
+  },
+  "examMonitor": {
+    "message": "การคุมสอบ",
+    "description": "考试快捷地址"
+  },
+  "deviceMonitorTip": {
+    "message": "เปิด {deviceMonitor} แล้ว โปรดอย่าเปลี่ยนอุปกรณ์หรือเบราว์เซอร์กลางคัน",
+    "description": "考试快捷地址"
+  },
+  "deviceMonitor": {
+    "message": "การตรวจสอบอุปกรณ์",
+    "description": "考试快捷地址"
+  },
+  "ipMonitorTip": {
+    "message": "{ipMonitor} เปิดอยู่",
+    "description": "考试快捷地址"
+  },
+  "ipMonitor": {
+    "message": "การตรวจสอบ IP",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitorTip1": {
+    "message": "{cutScreenMonitor} เปิดอยู่ และระบบจะบังคับให้โรลโอเวอร์ถ้าการออกเดินทางครั้งเดียวเกิน {s} วินาที หรือการออกเดินทางสะสมเกิน {times}",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitorTip2": {
+    "message": "{cutScreenMonitor} ถูกเปิดและสะสมมากกว่า {times} และระบบจะถูกบังคับให้ส่ง",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitorTip3": {
+    "message": "{cutScreenMonitor} ถูกเปิดใช้งานและปล่อยให้คนเดียวมากกว่า {s} และระบบจะถูกบังคับให้ส่ง",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitor": {
+    "message": "คุมสอบโดยการจับภาพหน้าจอ",
+    "description": "考试快捷地址"
+  },
+  "faceMonitorTip": {
+    "message": "{faceMonitor} เปิดอยู่และคุณต้องเข้าสู่การสอบผ่านการตรวจสอบใบหน้า",
+    "description": "考试快捷地址"
+  },
+  "faceMonitor": {
+    "message": "การจดจําใบหน้า",
+    "description": "考试快捷地址"
+  },
+  "cameraMonitorTip": {
+    "message": "{cameraMonitor} เปิดอยู่ โปรดเปิดกล้องและหันหน้าเข้าหากล้อง",
+    "description": "考试快捷地址"
+  },
+  "cameraMonitor": {
+    "message": "การเฝ้าระวังกล้อง",
+    "description": "考试快捷地址"
+  },
+  "debugCamera": {
+    "message": "ดีบักกล้อง",
+    "description": "考试快捷地址"
+  },
+  "stratExam": {
+    "message": "เริ่มการสอบ",
+    "description": "考试快捷地址"
+  },
+  "noPermissionTip": {
+    "message": "คุณไม่ได้รับอนุญาตให้ทําข้อสอบนี้หากคุณมีคําถามโปรดติดต่อผู้จัดสอบ",
+    "description": "考试快捷地址"
+  },
+  "multipleSessions": {
+    "message": "การสอบนี้ประกอบด้วยเซสชันหลายส่วนผู้สมัครสามารถเข้าร่วมในจํานวนเซสชันและเวลาที่กําหนดโปรดเข้าสู่ระบบเพื่อตรวจสอบ",
+    "description": "考试快捷地址"
+  },
+  "loginToExam": {
+    "message": "เข้าสู่ระบบเพื่อเข้าสู่การสอบ",
+    "description": "考试快捷地址"
+  },
+  "downloadAppBtn": {
+    "message": "ดาวน์โหลดแอป",
+    "description": "考试快捷地址"
+  },
+  "downloadExe": {
+    "message": "ดาวน์โหลดไคลเอ็นต์การสอบ",
+    "description": "考试快捷地址"
+  },
+  "windows": {
+    "message": "สําหรับหน้าต่าง",
+    "description": "考试快捷地址"
+  },
+  "windowsTip": {
+    "message": "รองรับ Windows 7 และเวอร์ชันระบบข้างต้น",
+    "description": "考试快捷地址"
+  },
+  "download": {
+    "message": "ดาวน์โหลด",
+    "description": "考试快捷地址"
+  },
+  "mac": {
+    "message": "รุ่น Mac",
+    "description": "考试快捷地址"
+  },
+  "macTip": {
+    "message": "รองรับรุ่นระบบ macOS 10.11 ขึ้นไป",
+    "description": "考试快捷地址"
+  },
+  "examEnvironmentTesting": {
+    "message": "การทดสอบสภาพแวดล้อมการสอบ",
+    "description": "考试快捷地址"
+  },
+  "deviceAbnormality": {
+    "message": "อุปกรณ์ผิดปกติ",
+    "description": "考试快捷地址"
+  },
+  "ipAbnormality": {
+    "message": "ข้อยกเว้น IP",
+    "description": "考试快捷地址"
+  },
+  "deviceAbnormalityTip": {
+    "message": "การตรวจสอบอุปกรณ์ถูกเปิดใช้งานสําหรับการสอบนี้และไม่อนุญาตให้เปลี่ยนอุปกรณ์หรือเบราว์เซอร์ตรงกลางดังนั้นโปรดใช้อุปกรณ์ที่เข้าสู่การสอบเป็นครั้งแรก",
+    "description": "考试快捷地址"
+  },
+  "ipAbnormalityTip": {
+    "message": "มีการเปิดใช้งานการตรวจสอบ IP สําหรับการสอบนี้และไม่อนุญาตให้มีการเปลี่ยนแปลงที่อยู่ IP ในระหว่างกระบวนการ (การสลับเครือข่ายอาจทําให้ที่อยู่ IP เปลี่ยนแปลง)",
+    "description": "考试快捷地址"
+  },
+  "useCodeTip": {
+    "message": "หากคุณต้องการเปลี่ยนอุปกรณ์ในกรณีพิเศษโปรดขอรหัสยืนยันจากผู้กระตุ้นและป้อนการสอบด้วย {useCode}",
+    "description": "考试快捷地址"
+  },
+  "useCode": {
+    "message": "ใช้รหัสยืนยัน",
+    "description": "考试快捷地址"
+  },
+  "faceVerification": {
+    "message": "การยืนยันตนด้วยใบหน้า",
+    "description": "考试快捷地址"
+  },
+  "faceVerificationTip": {
+    "message": "คุณยังไม่ได้การรับรองใบหน้าและจะไม่สามารถผ่านการจดจําใบหน้าเพื่อเข้าสู่การสอบได้",
+    "description": "考试快捷地址"
+  },
+  "faceVerificationTip1": {
+    "message": "{goToCertification} หรือว่า {useCodeEnter}",
+    "description": "考试快捷地址"
+  },
+  "goToCertification": {
+    "message": "ไปยืนยัน",
+    "description": "考试快捷地址"
+  },
+  "useCodeEnter": {
+    "message": "ใช้รหัสยืนยันเพื่อเข้าสอบ",
+    "description": "考试快捷地址"
+  },
+  "examNotes": {
+    "message": "ข้อควรทราบเกี่ยวกับการสอบ",
+    "description": "考试快捷地址"
+  },
+  "agreenExamNotes": {
+    "message": "ฉันได้อ่านและยอมรับสิ่งที่ควรทราบในการสอบ",
+    "description": "考试快捷地址"
+  },
+  "checkFirst": {
+    "message": "กรุณาทําเครื่องหมายก่อน",
+    "description": "考试快捷地址"
+  },
+  "faceVerificationDesc": {
+    "message": "หันหน้าเข้าหากล้องเพื่อให้แน่ใจว่ามีแสงมากมาย ไม่สามารถตรวจสอบใบหน้าได้ใช่หรือไม่",
+    "description": "考试快捷地址"
+  },
+  "examCode": {
+    "message": "รหัสยืนยันการสอบ",
+    "description": "考试快捷地址"
+  },
+  "examCodeTip": {
+    "message": "โปรดสอบถามรหัสยืนยันและป้อน:",
+    "description": "考试快捷地址"
+  },
+  "examCodeError": {
+    "message": "รหัสยืนยันไม่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "cameraMonitorDesc": {
+    "message": "เมื่อเปิดการตรวจสอบกล้องระบบจะตรวจจับและบันทึกพฤติกรรมที่ผิดปกติเช่นผู้สมัครออกจากที่นั่งการเบี่ยงเบนสายตาในระยะยาวและการสัมผัสกับผู้คนแบบตัวต่อตัว ดังนั้นโปรดทราบ: {br}1 โปรดปรับมุมกล้องก่อนการทดสอบเพื่อให้ใบหน้าได้รับการถ่ายภาพอย่างเต็มที่และพยายามหันหน้าเข้าหากล้องให้มากที่สุด {br} 2. จดจ่ออยู่กับหน้าจอระหว่างการสอบ อย่าลุกลามจากที่นั่ง และอย่าคุยกับคนอื่น",
+    "description": "考试快捷地址"
+  },
+  "notStart": {
+    "message": "ไม่ได้เริ่มต้น",
+    "description": "考试快捷地址"
+  },
+  "inProgress": {
+    "message": "กําลังดําเนินอยู่",
+    "description": "考试快捷地址"
+  },
+  "ended": {
+    "message": "มันจบแล้ว",
+    "description": "考试快捷地址"
+  },
+  "joinTypes": {
+    "message": "เทอร์มินัลเว็บคอมพิวเตอร์ / แอพมือถือ / ไคลเอนต์หน้าจอล็อคคอมพิวเตอร์",
+    "description": "考试快捷地址"
+  },
+  "resultsNotAnnounce": {
+    "message": "ไม่มีการเผยแพร่ผลลัพธ์สําหรับการสอบนี้",
+    "description": "考试快捷地址"
+  },
+  "resultsNotYetAnnounce": {
+    "message": "ยังไม่ประกาศผล",
+    "description": "考试快捷地址"
+  },
+  "subjectiveQuestionsToBeReviewed": {
+    "message": "ไม่มีเกรด",
+    "description": "考试快捷地址"
+  },
+  "ipPermissionsTip": {
+    "message": "IP ปัจจุบัน: {ip} ไม่ได้รับอนุญาตให้เข้าสอบโปรดใช้คอมพิวเตอร์ที่กําหนดเพื่อทําการสอบ",
+    "description": "考试快捷地址"
+  },
+  "lateTip": {
+    "message": "คุณเกินเวลาที่อนุญาตสําหรับการสอบนี้และไม่สามารถเข้าสอบได้",
+    "description": "考试快捷地址"
+  },
+  "noCamera": {
+    "message": "ตรวจไม่พบกล้อง",
+    "description": "考试快捷地址"
+  },
+  "noCameraTip1": {
+    "message": "การจดจําใบหน้าเปิดใช้งานสําหรับการสอบนี้ดังนั้นโปรดทําข้อสอบโดยใช้อุปกรณ์ที่มีกล้อง",
+    "description": "考试快捷地址"
+  },
+  "noCameraTip2": {
+    "message": "กล้องวงจรปิดเปิดใช้งานสําหรับการสอบนี้ดังนั้นโปรดทําการสอบโดยใช้อุปกรณ์ที่มีกล้อง",
+    "description": "考试快捷地址"
+  },
+  "testCamera": {
+    "message": "การตรวจจับกล้อง",
+    "description": "考试快捷地址"
+  },
+  "examNotStart": {
+    "message": "การสอบไม่ได้เริ่มต้น",
+    "description": "考试快捷地址"
+  },
+  "examEnded": {
+    "message": "การสอบจบลงแล้ว",
+    "description": "考试快捷地址"
+  },
+  "loadError": {
+    "message": "การร้องขอล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "expireTip": {
+    "message": "การเข้าสู่ระบบหมดอายุแล้ว โปรดเข้าสู่ระบบอีกครั้ง",
+    "description": "考试快捷地址"
+  },
   "ltiTip1": {
-    "message": "หากคุณต้องการทําการสอบผ่านไคลเอ็นต์ APP/Lock หน้าจอบนโทรศัพท์มือถือ ให้ลงชื่อเข้าใช้ด้วยบัญชี U-Test ชื่อผู้ใช้ของคุณคือ: {loginName}และรหัสผ่านเริ่มต้นจะตรงกับชื่อผู้ใช้",
+    "message": "หากคุณต้องการทําการสอบผ่านไคลเอ็นต์ APP/Lock หน้าจอบนโทรศัพท์มือถือ ให้ลงชื่อเข้าใช้ด้วยบัญชี ULearning ชื่อผู้ใช้ของคุณคือ: {loginName}และรหัสผ่านเริ่มต้นจะตรงกับชื่อผู้ใช้",
     "description": "考试快捷地址"
   },
   "ltiTip2": {
-    "message": "ทําการสอบผ่านไคลเอ็นต์ APP/Lock บนหน้าจอบนโทรศัพท์มือถือ และลงชื่อเข้าใช้ด้วยบัญชี U-Test ชื่อผู้ใช้ของคุณคือ: {loginName}และรหัสผ่านเริ่มต้นจะตรงกับชื่อผู้ใช้ เมื่อเข้าสู่ระบบคุณสามารถเปลี่ยนรหัสผ่านหรือปรับปรุงข้อมูลส่วนบุคคลในการจัดการบัญชีได้",
+    "message": "ทําการสอบผ่านไคลเอ็นต์ APP/Lock บนหน้าจอบนโทรศัพท์มือถือ และลงชื่อเข้าใช้ด้วยบัญชี ULearning ชื่อผู้ใช้ของคุณคือ: {loginName}และรหัสผ่านเริ่มต้นจะตรงกับชื่อผู้ใช้ เมื่อเข้าสู่ระบบคุณสามารถเปลี่ยนรหัสผ่านหรือปรับปรุงข้อมูลส่วนบุคคลในการจัดการบัญชีได้",
     "description": "考试快捷地址"
   },
   "toUpdatePsd": {
     "message": "เพื่อเปลี่ยนรหัสผ่านของคุณ",
+    "description": "考试快捷地址"
+  },
+  "accountTipHead": {
+    "message": "สวัสดีค่ะ {name}",
+    "description": "考试快捷地址"
+  },
+  "accountTipContent": {
+    "message": "ยินดีต้อนรับสู่การใช้ระบบการสอบ ULearning เราได้ลงทะเบียนสำหรับคุณที่จะเริ่มต้นบัญชี ถ้าคุณต้องการที่จะใช้โทรศัพท์มือถือของคุณสำหรับการสอบกรุณาดาวน์โหลดโปรแกรมเรียนรู้และเข้าสู่ระบบโดยใช้บัญชี ULearning ของคุณ",
+    "description": "考试快捷地址"
+  },
+  "userInfo": {
+    "message": "หมายเลขบัญชี ULearning ของคุณมีดังนี้:",
+    "description": "考试快捷地址"
+  },
+  "userName1": {
+    "message": "ชื่อผู้ใช้",
+    "description": "考试快捷地址"
+  },
+  "passwordTip": {
+    "message": "รหัสผ่านเริ่มต้นตรงกับชื่อผู้ใช้และสามารถเปลี่ยนแปลงได้หลังจากเข้าสู่ระบบ",
+    "description": "考试快捷地址"
+  },
+  "examInfo": {
+    "message": "ข้อมูลการสอบ",
+    "description": "考试快捷地址"
+  },
+  "examName": {
+    "message": "ชื่อการสอบ",
+    "description": "考试快捷地址"
+  },
+  "openAppTip": {
+    "message": "หากคุณไม่สามารถเริ่มแอป ULearning ได้สําเร็จ โปรดยืนยันว่าติดตั้งแล้วหรือยัง หากคุณยังไม่มีให้ดาวน์โหลดและติดตั้งก่อน",
+    "description": "考试快捷地址"
+  },
+  "openAppBtn": {
+    "message": "เปิดตัวแอพ ULearning",
+    "description": "考试快捷地址"
+  },
+  "save": {
+    "message": "บันทึก",
+    "description": "考试快捷地址"
+  },
+  "faceSuccess1": {
+    "message": "ผ่านการรับรองแล้ว",
+    "description": "考试快捷地址"
+  },
+  "faceVerificationDesc1": {
+    "message": "ไม่สามารถตรวจสอบใบหน้าได้ใช่หรือไม่",
+    "description": "考试快捷地址"
+  },
+  "close": {
+    "message": "ปิด",
+    "description": "考试快捷地址"
+  },
+  "view": {
+    "message": "ดู",
+    "description": "考试快捷地址"
+  },
+  "delete": {
+    "message": "ลบ",
+    "description": "考试快捷地址"
+  },
+  "confirmDelete": {
+    "message": "ยืนยันที่จะลบ?",
+    "description": "考试快捷地址"
+  },
+  "transcodeTip": {
+    "message": "แฟ้มกําลังแปลงรหัส โปรดเล่นในภายหลัง",
+    "description": "考试快捷地址"
+  },
+  "transcodeTip1": {
+    "message": "แฟ้มกําลังถูกแปลงโปรดลองอีกครั้งในภายหลัง",
+    "description": "考试快捷地址"
+  },
+  "clickToTry": {
+    "message": "คลิกเพื่อลองอีกครั้ง",
+    "description": "考试快捷地址"
+  },
+  "mute": {
+    "message": "ใบ้",
+    "description": "考试快捷地址"
+  },
+  "unmute": {
+    "message": "เปิดเสียง",
+    "description": "考试快捷地址"
+  },
+  "play": {
+    "message": "เล่น",
+    "description": "考试快捷地址"
+  },
+  "pause": {
+    "message": "หยุด",
+    "description": "考试快捷地址"
+  },
+  "fullscreen": {
+    "message": "เต็มหน้าจอ",
+    "description": "考试快捷地址"
+  },
+  "exitFullscreen": {
+    "message": "ออกจากโหมดเต็มหน้าจอ",
+    "description": "考试快捷地址"
+  },
+  "clickToRecord": {
+    "message": "แตะไอคอนเพื่อเริ่มการบันทึก",
+    "description": "考试快捷地址"
+  },
+  "saving": {
+    "message": "กำลังบันทึก",
+    "description": "考试快捷地址"
+  },
+  "saveFail": {
+    "message": "การบันทึกล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "saveSuccess": {
+    "message": "บันทึกสำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "reRecord": {
+    "message": "บันทึกเสียงใหม่",
+    "description": "考试快捷地址"
+  },
+  "recordingTip": {
+    "message": "มีการบันทึกเสียงอยู่แล้วโปรดปิดก่อน",
+    "description": "考试快捷地址"
+  },
+  "noRecordingTip": {
+    "message": "สิทธิ์การบันทึกถูกปฏิเสธ",
+    "description": "考试快捷地址"
+  },
+  "uploadAudioFail": {
+    "message": "การอัปโหลดเสียงล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "addFile": {
+    "message": "เพิ่มสิ่งที่แนบมา",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError1": {
+    "message": "อัพโหลดสิ่งที่แนบมาได้สูงสุด {n} รายการ",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError2": {
+    "message": "แฟ้มต้องไม่เกิน {size}",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError3": {
+    "message": "แฟ้มชนิดนี้ไม่ได้รับการสนับสนุน",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError4": {
+    "message": "ขนาดแฟ้มไม่ตรงกัน",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError5": {
+    "message": "การแปลงรหัสล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "uploadImgError": {
+    "message": "ขนาดรูปต้องไม่เกิน {size}",
+    "description": "考试快捷地址"
+  },
+  "uploadMediaError": {
+    "message": "เสียง/วิดีโอต้องไม่เกิน {size}",
+    "description": "考试快捷地址"
+  },
+  "uploadFail": {
+    "message": "การอัปโหลดล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "mark": {
+    "message": "รอย",
+    "description": "考试快捷地址"
+  },
+  "clear": {
+    "message": "เคลียร์",
+    "description": "考试快捷地址"
+  },
+  "addMark": {
+    "message": "เพิ่มคําอธิบายประกอบ",
+    "description": "考试快捷地址"
+  },
+  "deleteMark": {
+    "message": "ลบการตรวจแก้ใส่คำอธิบายประกอบ",
+    "description": "考试快捷地址"
+  },
+  "playTimesError": {
+    "message": "พารามิเตอร์หมายเลขการเล่นไม่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "manualRefresh": {
+    "message": "การโหลดด้วยตนเอง",
+    "description": "考试快捷地址"
+  },
+  "selectQuestionType": {
+    "message": "โปรดเลือกประเภทของข้อถามที่ต้องการเพิ่ม",
+    "description": "考试快捷地址"
+  },
+  "questionNum": {
+    "message": "{n}",
+    "description": "考试快捷地址"
+  },
+  "questionType": {
+    "message": "ประเภทคําถาม",
+    "description": "考试快捷地址"
+  },
+  "singleQ": {
+    "message": "คําถามตัวเลือกเดียว",
+    "description": "考试快捷地址"
+  },
+  "multipleQ": {
+    "message": "คำถามปรนัย",
+    "description": "考试快捷地址"
+  },
+  "judgmentQ": {
+    "message": "คำถามแบบถูกหรือผิด",
+    "description": "考试快捷地址"
+  },
+  "completion": {
+    "message": "เติมช่องว่าง",
+    "description": "考试快捷地址"
+  },
+  "shortAnswer": {
+    "message": "คําตอบสั้น ๆ",
+    "description": "考试快捷地址"
+  },
+  "sortingQ": {
+    "message": "เรียงลําดับคําถาม",
+    "description": "考试快捷地址"
+  },
+  "comprehensiveQ": {
+    "message": "คําถามประมวลความรู้",
+    "description": "考试快捷地址"
+  },
+  "formulaCalculationQ": {
+    "message": "คําถามการคํานวณสูตร",
+    "description": "考试快捷地址"
+  },
+  "blankQ": {
+    "message": "คําถามเติมคําแบบเติมในช่องว่าง",
+    "description": "考试快捷地址"
+  },
+  "clozeQ": {
+    "message": "กรอกคําถามที่ว่างเปล่า",
+    "description": "考试快捷地址"
+  },
+  "dropDownQ": {
+    "message": "คําถามแบบปรนัยแบบหล่นลง",
+    "description": "考试快捷地址"
+  },
+  "oralSubjectQ": {
+    "message": "ข้อการพูดตามอัตวิสัย",
+    "description": "考试快捷地址"
+  },
+  "oralReadingQ": {
+    "message": "คำถามการอ่านปากเปล่า",
+    "description": "考试快捷地址"
+  },
+  "single": {
+    "message": "ตัวเลือกเดียว",
+    "description": "考试快捷地址"
+  },
+  "multiple": {
+    "message": "หลายตัวเลือก",
+    "description": "考试快捷地址"
+  },
+  "judgment": {
+    "message": "วิเคราะห์ตัดสิน",
+    "description": "考试快捷地址"
+  },
+  "completion1": {
+    "message": "เติมลงในช่องว่าง",
+    "description": "考试快捷地址"
+  },
+  "shortAnswer1": {
+    "message": "ตอบแบบสั้น",
+    "description": "考试快捷地址"
+  },
+  "stuAnswer": {
+    "message": "คําตอบของผู้สมัคร",
+    "description": "考试快捷地址"
+  },
+  "correctAnswer": {
+    "message": "คําตอบที่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "questionScore": {
+    "message": "({n} คะแนน)",
+    "description": "考试快捷地址"
+  },
+  "questionDesc": {
+    "message": "{n} คําถามย่อย, คะแนนรวม {score}",
+    "description": "考试快捷地址"
+  },
+  "answer": {
+    "message": "คําตอบ",
+    "description": "考试快捷地址"
+  },
+  "answerCanChangeTip": {
+    "message": "ลําดับของคําตอบที่ว่างเปล่าแต่ละคําตอบสามารถใช้แทนกันได้",
+    "description": "考试快捷地址"
+  },
+  "range": {
+    "message": "ระยะขอบของข้อผิดพลาด",
+    "description": "考试快捷地址"
+  },
+  "examineeRecording": {
+    "message": "การบันทึกผู้สมัคร",
+    "description": "考试快捷地址"
+  },
+  "notAnswer": {
+    "message": "ไม่ได้ตอบ",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip": {
+    "message": "กรุณากรอกคําตอบที่นี่",
+    "description": "考试快捷地址"
+  },
+  "enableUploadTip": {
+    "message": "เมื่อคุณเผยแพร่การสอบ คุณสามารถเลือกได้ว่าจะอนุญาตให้ผู้สมัครอัปโหลดไฟล์แนบหรือไม่",
+    "description": "考试快捷地址"
+  },
+  "referenceAnswer": {
+    "message": "คำตอบอ้างอิง",
+    "description": "考试快捷地址"
+  },
+  "examUploadTip": {
+    "message": "เมื่อเลือกไฟล์ระบบจะออกจากสถานะเต็มหน้าจอชั่วคราวโปรดดําเนินการเลือกไฟล์แนบให้เสร็จสิ้นและกลับไปที่อินเทอร์เฟซการสอบภายใน 30 วินาทีแล้วคลิกพื้นที่ว่างใด ๆ ในหน้าเพื่อกลับสู่สถานะเต็มหน้าจอมิฉะนั้นระบบจะบันทึกการดําเนินการว่าออกจากการสอบ",
+    "description": "考试快捷地址"
+  },
+  "uploadFailTip": {
+    "message": "การอัปโหลดหรือแปลงรหัสสิ่งที่แนบมาล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "sortTip": {
+    "message": "ลากตัวเลือกเพื่อเรียงลําดับ",
+    "description": "考试快捷地址"
+  },
+  "yourAnswer": {
+    "message": "คําตอบของคุณ",
+    "description": "考试快捷地址"
+  },
+  "inputFormulaTip": {
+    "message": "โปรดป้อนสูตรสําหรับการคํานวณคําตอบ",
+    "description": "考试快捷地址"
+  },
+  "backSpace": {
+    "message": "ปุ่มย้อนถอยกลับ",
+    "description": "考试快捷地址"
+  },
+  "answerRight": {
+    "message": "คําตอบถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "answerError": {
+    "message": "คําตอบผิด",
+    "description": "考试快捷地址"
+  },
+  "scoreResult": {
+    "message": "ได้คะแนน",
+    "description": "考试快捷地址"
+  },
+  "graded": {
+    "message": "ประเมินคะแนนแล้ว",
+    "description": "考试快捷地址"
+  },
+  "toBeRated": {
+    "message": "รอการให้คะแนน",
+    "description": "考试快捷地址"
+  },
+  "comments": {
+    "message": "ความคิดเห็น",
+    "description": "考试快捷地址"
+  },
+  "analy": {
+    "message": "แยกวิเคราะห์",
+    "description": "考试快捷地址"
+  },
+  "rating": {
+    "message": "คะแนน",
+    "description": "考试快捷地址"
+  },
+  "inputScoreTip": {
+    "message": "โปรดใส่เศษส่วนของ {num} เพื่อจองตําแหน่งทศนิยม",
+    "description": "考试快捷地址"
+  },
+  "inputCommentsTip": {
+    "message": "ป้อนข้อคิดเห็น ที่ไม่จําเป็น",
+    "description": "考试快捷地址"
+  },
+  "inputCommentsTip1": {
+    "message": "ข้อคิดเห็นต้องไม่เกิน {n} อักขระ",
+    "description": "考试快捷地址"
+  },
+  "option": {
+    "message": "ตัวเลือก",
+    "description": "考试快捷地址"
+  },
+  "optionContent": {
+    "message": "กรุณาใส่เนื้อหาของตัวเลือก",
+    "description": "考试快捷地址"
+  },
+  "addOption": {
+    "message": "เพิ่มตัวเลือก",
+    "description": "考试快捷地址"
+  },
+  "inputAnaly": {
+    "message": "โปรดใส่การแยกวิเคราะห์",
+    "description": "考试快捷地址"
+  },
+  "inputAnalyTip": {
+    "message": "การแยกวิเคราะห์ต้องไม่เกินอักขระ {n} อักขระ",
+    "description": "考试快捷地址"
+  },
+  "addQuestionTip1": {
+    "message": "เพิ่มคําถามย่อยอย่างน้อยหนึ่งคําถาม",
+    "description": "考试快捷地址"
+  },
+  "optionContentTip": {
+    "message": "เนื้อหาของตัวเลือกต้องไม่เกินอักขระ {n} ตัว",
+    "description": "考试快捷地址"
+  },
+  "optionContentTip1": {
+    "message": "เนื้อหาของตัวเลือกต้องไม่ว่างเปล่า",
+    "description": "考试快捷地址"
+  },
+  "optionContentTip2": {
+    "message": "เพิ่มได้ถึง {n} ตัวเลือก",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip1": {
+    "message": "โปรดตั้งค่าคําตอบที่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "inputQuestionTitle": {
+    "message": "โปรดป้อนเนื้อหาของคําถาม",
+    "description": "考试快捷地址"
+  },
+  "questionTitleTip1": {
+    "message": "เนื้อหาของคําถามต้องไม่ว่างเปล่า",
+    "description": "考试快捷地址"
+  },
+  "questionTitleTip2": {
+    "message": "เนื้อหาชื่อเรื่องต้องไม่เกินอักขระ {n} อักขระ",
+    "description": "考试快捷地址"
+  },
+  "insertBlankTip": {
+    "message": "การพิมพ์แป้นแท็บยังช่วยให้คุณสามารถแทรกรายการเติมในช่องว่างได้ด้วย",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip2": {
+    "message": "ว่างเปล่าหากมีคําตอบหลายคําตอบคั่นด้วย //",
+    "description": "考试快捷地址"
+  },
+  "inputAnswer": {
+    "message": "กรุณาใส่คําตอบ",
+    "description": "考试快捷地址"
+  },
+  "answerTip": {
+    "message": "คําตอบที่ว่างเปล่าสําหรับคําถามนี้สามารถใช้แทนกันได้",
+    "description": "考试快捷地址"
+  },
+  "addBlankTip1": {
+    "message": "เพิ่มการเติมอย่างน้อยหนึ่งรายการในช่องว่าง",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip3": {
+    "message": "คําตอบต้องไม่เกินอักขระ {n} อักขระ",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip4": {
+    "message": "คําตอบต้องไม่ว่างเปล่า",
+    "description": "考试快捷地址"
+  },
+  "addSubQuestion": {
+    "message": "เพิ่มหัวข้อย่อย",
+    "description": "考试快捷地址"
+  },
+  "addSubQuestionTip": {
+    "message": "เพิ่มคําถามย่อย {n} มากที่สุด",
+    "description": "考试快捷地址"
+  },
+  "defineRange": {
+    "message": "กําหนดช่วงของค่าตัวแปรสุ่ม",
+    "description": "考试快捷地址"
+  },
+  "minimum": {
+    "message": "ขั้นต่ํา",
+    "description": "考试快捷地址"
+  },
+  "max": {
+    "message": "ระดับสูงสุด",
+    "description": "考试快捷地址"
+  },
+  "precision": {
+    "message": "ความแม่นยํา",
+    "description": "考试快捷地址"
+  },
+  "answerPrecision": {
+    "message": "ความถูกต้องของคําตอบ",
+    "description": "考试快捷地址"
+  },
+  "allowedDeviation": {
+    "message": "ข้อผิดพลาดที่อนุญาต",
+    "description": "考试快捷地址"
+  },
+  "detectionFormula": {
+    "message": "ตรวจหาสูตร",
+    "description": "考试快捷地址"
+  },
+  "inputFormula": {
+    "message": "กรุณาใส่สูตร",
+    "description": "考试快捷地址"
+  },
+  "inputFormulaTip1": {
+    "message": "ความยาวของสูตรต้องอยู่ระหว่าง 1 ถึง {n} อักขระ",
+    "description": "考试快捷地址"
+  },
+  "inputDeviationTip": {
+    "message": "ขนาดข้อผิดพลาดต้องอยู่ระหว่าง 0-{n}",
+    "description": "考试快捷地址"
+  },
+  "unableToCalculateAnswer": {
+    "message": "ไม่สามารถคํานวณคําตอบได้",
+    "description": "考试快捷地址"
+  },
+  "inputRangeTip": {
+    "message": "โปรดใส่ช่วงของค่าที่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "readText": {
+    "message": "อ่านออกเสียงข้อความ",
+    "description": "考试快捷地址"
+  },
+  "readTextTip": {
+    "message": "รองรับเฉพาะภาษาอังกฤษไม่เกิน {n} คํา",
+    "description": "考试快捷地址"
+  },
+  "wordNum": {
+    "message": "จํานวนคํา",
+    "description": "考试快捷地址"
+  },
+  "readTextTip1": {
+    "message": "การอ่านข้อความต้องไม่ว่างเปล่า",
+    "description": "考试快捷地址"
+  },
+  "readTextTip2": {
+    "message": "ข้อความต้องไม่เกิน {n} คํา",
+    "description": "考试快捷地址"
+  },
+  "inputReferenceAnswer": {
+    "message": "กรุณากรอกคำตอบอ้างอิง",
+    "description": "考试快捷地址"
+  },
+  "formula": {
+    "message": "สูตรการคํานวณ",
+    "description": "考试快捷地址"
+  },
+  "remarked": {
+    "message": "อนุมัติแล้ว",
+    "description": "考试快捷地址"
+  },
+  "toBeGradedManually": {
+    "message": "ไม่มีเกรด",
+    "description": "考试快捷地址"
+  },
+  "correctAnswerNotAnnounce": {
+    "message": "คำตอบที่ยังไม่ได้รับการตีพิมพ์",
+    "description": "考试快捷地址"
+  },
+  "select": {
+    "message": "โปรดเลือก",
+    "description": "考试快捷地址"
+  },
+  "paramErrorTip": {
+    "message": "พารามิเตอร์ของหน้าไม่สมบูรณ์",
+    "description": "考试快捷地址"
+  },
+  "getDataFail": {
+    "message": "การรับข้อมูลล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "subjectiveQToBeGraded": {
+    "message": "ไม่มีเกรด",
+    "description": "考试快捷地址"
+  },
+  "autoLoadNext": {
+    "message": "โหลดต่อไปโดยอัตโนมัติ",
+    "description": "考试快捷地址"
+  },
+  "completeRemark": {
+    "message": "บันทึกการอนุมัติ",
+    "description": "考试快捷地址"
+  },
+  "exitRemark": {
+    "message": "ออกจากการอนุมัติ",
+    "description": "考试快捷地址"
+  },
+  "nextPaper": {
+    "message": "คนต่อไป",
+    "description": "考试快捷地址"
+  },
+  "completeRemarkTip": {
+    "message": "ขอแสดงความยินดีผู้สมัครทุกคนในชั้นเรียนของคุณได้รับการอนุมัติเรียบร้อยแล้ว!",
+    "description": "考试快捷地址"
+  },
+  "remarkTip": {
+    "message": "คําถาม {n} ไม่ได้คะแนนมันจบแล้วหรือไม่?",
+    "description": "考试快捷地址"
+  },
+  "end": {
+    "message": "เสร็จสิ้น",
+    "description": "考试快捷地址"
+  },
+  "remarkSuccess": {
+    "message": "บันทึกความสำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "remarkFail": {
+    "message": "ล้มเหลวในการบันทึก",
+    "description": "考试快捷地址"
+  },
+  "answerHistoryTimes": {
+    "message": "อัดแผ่นเสียง {n}",
+    "description": "考试快捷地址"
+  },
+  "showAnswer": {
+    "message": "แสดงคําตอบ",
+    "description": "考试快捷地址"
+  },
+  "hideAnswer": {
+    "message": "ซ่อนคําตอบ",
+    "description": "考试快捷地址"
+  },
+  "used": {
+    "message": "ใช้แล้ว",
+    "description": "考试快捷地址"
+  },
+  "preview": {
+    "message": "แสดงตัวอย่าง",
+    "description": "考试快捷地址"
+  },
+  "saveAndExit": {
+    "message": "บันทึกและออก",
+    "description": "考试快捷地址"
+  },
+  "more": {
+    "message": "เพิ่มเติม",
+    "description": "考试快捷地址"
+  },
+  "batchEntry": {
+    "message": "รายการชุดงาน",
+    "description": "考试快捷地址"
+  },
+  "importFromBank": {
+    "message": "นําเข้าจากกลุ่มคําถาม",
+    "description": "考试快捷地址"
+  },
+  "batchEditScore": {
+    "message": "คะแนนต่อหัวข้อ",
+    "description": "考试快捷地址"
+  },
+  "inputScore": {
+    "message": "กรุณาใส่คะแนน",
+    "description": "考试快捷地址"
+  },
+  "batchEditTimes": {
+    "message": "จำนวนครั้งที่เล่นต่อเสียง",
+    "description": "考试快捷地址"
+  },
+  "batchSetting": {
+    "message": "การตั้งค่าจํานวนมาก",
+    "description": "考试快捷地址"
+  },
+  "partName": {
+    "message": "ชื่อ (กําหนดเองได้)",
+    "description": "考试快捷地址"
+  },
+  "desc": {
+    "message": "คําอธิบาย",
+    "description": "考试快捷地址"
+  },
+  "savePaper": {
+    "message": "เก็บรักษา",
+    "description": "考试快捷地址"
+  },
+  "editName": {
+    "message": "ปรับเปลี่ยนชื่อ",
+    "description": "考试快捷地址"
+  },
+  "fullScore": {
+    "message": "คะแนนเต็ม",
+    "description": "考试快捷地址"
+  },
+  "inputPartName": {
+    "message": "กรุณากรอกชื่อบางส่วน",
+    "description": "考试快捷地址"
+  },
+  "inputPartNameTip": {
+    "message": "ชื่อบางส่วนต้องไม่เกินอักขระ {n} ตัว",
+    "description": "考试快捷地址"
+  },
+  "inputPartDescTip": {
+    "message": "คําอธิบายบางส่วนต้องไม่เกินอักขระ {n} ตัว",
+    "description": "考试快捷地址"
+  },
+  "inputPaperNameTip": {
+    "message": "ชื่อกระดาษทดสอบต้องไม่ว่างเปล่า",
+    "description": "考试快捷地址"
+  },
+  "inputPaperNameTip1": {
+    "message": "ชื่อกระดาษแบบทดสอบต้องไม่เกินอักขระ {n} อักขระ",
+    "description": "考试快捷地址"
+  },
+  "newPaper": {
+    "message": "การสอบใหม่",
+    "description": "考试快捷地址"
+  },
+  "firstPart": {
+    "message": "ส่วนที่ 1",
+    "description": "考试快捷地址"
+  },
+  "paperUsedTip1": {
+    "message": "กระดาษทดสอบนี้ถูกนํามาใช้ในการสอบอนุญาตให้แก้ไขเนื้อหาของคําถามคําตอบและคะแนนเท่านั้นและโครงสร้างของกระดาษทดสอบไม่สามารถแก้ไขได้หรือคําถามสามารถเพิ่มหรือลบได้ คําถามที่มีคําถามย่อยไม่ได้รับอนุญาตให้เพิ่มหรือลบคําถามย่อย {br} หากมีการแก้ไขคําตอบหรือคะแนนของคําถาม",
+    "description": "考试快捷地址"
+  },
+  "previewTip": {
+    "message": "เพิ่มคําถามอย่างน้อยหนึ่งคําถามลงในแต่ละส่วนเพื่อบันทึกหรือแสดงตัวอย่าง",
+    "description": "考试快捷地址"
+  },
+  "previewTip1": {
+    "message": "คําถาม {n} ไม่ได้ถูกบันทึก โปรดบันทึกคําถามก่อน",
+    "description": "考试快捷地址"
+  },
+  "savingTip": {
+    "message": "กําลังบันทึก โปรดรอสักครู่...",
+    "description": "考试快捷地址"
+  },
+  "addPartTip": {
+    "message": "เพิ่มได้ถึง {n} ส่วนต่อชุดของเอกสารแบบทดสอบ",
+    "description": "考试快捷地址"
+  },
+  "editPart": {
+    "message": "ปรับเปลี่ยนส่วน",
+    "description": "考试快捷地址"
+  },
+  "deletePart": {
+    "message": "ลบ",
+    "description": "考试快捷地址"
+  },
+  "deletePartTip": {
+    "message": "การลบส่วนจะลบคําถามทั้งหมดในส่วนนั้นในเวลาเดียวกัน โดยค่าเริ่มต้นคําถามใหม่ที่สร้างขึ้นในกระดาษแบบทดสอบจะไม่ถูกบันทึกลงในธนาคารคําถามและไม่สามารถกู้คืนได้หลังจากลบดังนั้นโปรดใช้ความระมัดระวัง คุณแน่ใจหรือไม่ว่าคุณต้องการที่จะลบแฟ้มนี้",
+    "description": "考试快捷地址"
+  },
+  "deletePartTip1": {
+    "message": "เก็บอย่างน้อยหนึ่งส่วนไว้",
+    "description": "考试快捷地址"
+  },
+  "addPartQuestionTip": {
+    "message": "เพิ่มคําถามได้สูงสุด {n} คําถามในแต่ละส่วน",
+    "description": "考试快捷地址"
+  },
+  "confirmCancelEdit": {
+    "message": "คุณแน่ใจหรือไม่ว่าคุณต้องการยกเลิกการปรับเปลี่ยน",
+    "description": "考试快捷地址"
+  },
+  "deleteQuestion": {
+    "message": "ลบคําถาม",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteQuestion": {
+    "message": "คุณแน่ใจหรือไม่ว่าคุณต้องการที่จะลบคําถามนี้",
+    "description": "考试快捷地址"
+  },
+  "editSuccess": {
+    "message": "แก้ไขสำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "editFail": {
+    "message": "แก้ไขไม่สำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "importFail": {
+    "message": "นำเข้าไม่สำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "exitTip": {
+    "message": "กระดาษและคําถามยังไม่ได้รับการบันทึกและถ้าคุณออกจากที่นี่คําถามที่สร้างขึ้นใหม่จะไม่ได้รับการกู้คืน คุณแน่ใจหรือไม่ว่าคุณต้องการจบการทํางาน",
+    "description": "考试快捷地址"
+  },
+  "exitTip1": {
+    "message": "คําถาม {n} ไม่ได้ถูกบันทึก, ออกจากเวลานี้, การปรับเปลี่ยนจะไม่ถูกบันทึก คุณแน่ใจหรือว่าต้องการไป?",
+    "description": "考试快捷地址"
+  },
+  "confirmExit": {
+    "message": "คุณแน่ใจหรือไม่ว่าคุณต้องการจบการทํางาน",
+    "description": "考试快捷地址"
+  },
+  "answered": {
+    "message": "ตอบ",
+    "description": "考试快捷地址"
+  },
+  "interruptAnswer": {
+    "message": "ขัดจังหวะการตอบคําถาม",
+    "description": "考试快捷地址"
+  },
+  "saveAnswerRecord": {
+    "message": "บันทึกเรกคอร์ดคําตอบ",
+    "description": "考试快捷地址"
+  },
+  "submitPaper": {
+    "message": "ส่งข้อสอบ",
+    "description": "考试快捷地址"
+  },
+  "joinExamByCode": {
+    "message": "เข้าสู่การสอบผ่านการใส่รหัสยืนยัน",
+    "description": "考试快捷地址"
+  },
+  "examLimitTime": {
+    "message": "เวลาจํากัด",
+    "description": "考试快捷地址"
+  },
+  "saved": {
+    "message": "บันทึกแล้ว",
+    "description": "考试快捷地址"
+  },
+  "networkError": {
+    "message": "เครือข่ายผิดปกติการส่งกระดาษทดสอบล้มเหลว!",
+    "description": "考试快捷地址"
+  },
+  "networkErrorTip1": {
+    "message": "ระบบได้เก็บระเบียนคําตอบไว้ในเครื่องชั่วคราว",
+    "description": "考试快捷地址"
+  },
+  "leftTimeTip": {
+    "message": "เวลาน้อยกว่า 1 นาที",
+    "description": "考试快捷地址"
+  },
+  "restoringAnswerRecords": {
+    "message": "กําลังคืนค่าระเบียนคําตอบ",
+    "description": "考试快捷地址"
+  },
+  "networkErrorTip2": {
+    "message": "เครือข่ายปัจจุบันผิดปกติไม่สามารถโหลดกระดาษทดสอบได้ตามปกติโปรดตรวจสอบเครือข่ายท้องถิ่นแล้วลองเข้าสู่การทดสอบหลังจากกู้คืนเครือข่ายแล้ว",
+    "description": "考试快捷地址"
+  },
+  "networkErrorTip3": {
+    "message": "ข้อมูลผิดปกติและไม่สามารถโหลดกระดาษทดสอบได้ตามปกติโปรดติดต่อฝ่ายบริการลูกค้า",
+    "description": "考试快捷地址"
+  },
+  "notExitFullScreenTip": {
+    "message": "โปรดอย่าออกจากแบบเต็มหน้าจอในระหว่างการสอบมิฉะนั้นจะถือว่าเป็นการออกจากการสอบและอาจถูกตัดสินว่าเป็นการโกงซึ่งมีผลต่อคะแนนสอบ",
+    "description": "考试快捷地址"
+  },
+  "submitPaperErrorTip": {
+    "message": "กรุณาอย่าปิดหน้าเว็บ ระบบกําลังส่งข้อสอบ",
+    "description": "考试快捷地址"
+  },
+  "submitPaperErrorTip1": {
+    "message": "เครือข่ายปัจจุบันไม่เสถียร โปรดตรวจสอบว่าการเชื่อมต่อเครือข่ายเป็นปกติหรือไม่",
+    "description": "考试快捷地址"
+  },
+  "submitPaperErrorTip2": {
+    "message": "การส่งข้อสอบล้มเหลว โปรดอย่าปิดหน้าเว็บ ระบบกําลังส่งอีกครั้ง",
+    "description": "考试快捷地址"
+  },
+  "submitSuccess": {
+    "message": "ส่งเรียบร้อย",
+    "description": "考试快捷地址"
+  },
+  "submitFail": {
+    "message": "การส่งล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "submiting": {
+    "message": "กําลังส่ง โปรดรอสักครู่...",
+    "description": "考试快捷地址"
+  },
+  "notAllowedSubmitTip": {
+    "message": "ไม่อนุญาตให้ใช้เอกสารภายใน {time} นาทีหลังจากเริ่มการสอบ",
+    "description": "考试快捷地址"
+  },
+  "confirmPaperTip": {
+    "message": "คุณแน่ใจนะ ที่จะส่งเอกสารมา?",
+    "description": "考试快捷地址"
+  },
+  "confirmPaperTip1": {
+    "message": "คําถาม {n} ไม่ได้รับคําตอบคุณแน่ใจหรือว่าต้องการเปิดกระดาษ?",
+    "description": "考试快捷地址"
+  },
+  "confirmPaper": {
+    "message": "ยืนยันการโรลโอเวอร์",
+    "description": "考试快捷地址"
+  },
+  "timeOverTip": {
+    "message": "เวลาหมดลงและม้วนจะเปิดโดยอัตโนมัติหลังจาก 3 วินาที",
+    "description": "考试快捷地址"
+  },
+  "nextPart": {
+    "message": "ส่วนถัดไป",
+    "description": "考试快捷地址"
+  },
+  "isLast": {
+    "message": "มันคือจุดจบ",
+    "description": "考试快捷地址"
+  },
+  "examinee": {
+    "message": "ผู้สมัคร",
+    "description": "考试快捷地址"
+  },
+  "result": {
+    "message": "ผลการเรียน",
+    "description": "考试快捷地址"
+  },
+  "objectiveQuestionScore": {
+    "message": "คะแนนคําถามวัตถุประสงค์",
+    "description": "考试快捷地址"
+  },
+  "subjectiveQuestionScore": {
+    "message": "คะแนนคําถามอัตนัย",
+    "description": "考试快捷地址"
+  },
+  "totalNumberOfQuestions": {
+    "message": "จํานวนคําถามทั้งหมด",
+    "description": "考试快捷地址"
+  },
+  "totalScore": {
+    "message": "คะแนนรวม",
+    "description": "考试快捷地址"
+  },
+  "numberOfQuestions": {
+    "message": "จํานวนคําถาม",
+    "description": "考试快捷地址"
+  },
+  "scoreNum": {
+    "message": "คะแนน",
+    "description": "考试快捷地址"
+  },
+  "addPart": {
+    "message": "เพิ่มส่วน",
+    "description": "考试快捷地址"
+  },
+  "numberOfPlaysAllowed": {
+    "message": "จํานวนครั้งที่อนุญาตให้เล่นได้",
+    "description": "考试快捷地址"
+  },
+  "notLimit1": {
+    "message": "ไม่จํากัด",
+    "description": "考试快捷地址"
+  },
+  "playTimesAllowed": {
+    "message": "จํานวนครั้งที่เล่นได้: {n} ครั้ง",
+    "description": "考试快捷地址"
+  },
+  "playedTimes": {
+    "message": "ออกอากาศ {n} ครั้งที่",
+    "description": "考试快捷地址"
+  },
+  "playTimesOver": {
+    "message": "จํานวนการเล่นถูกใช้ไป",
+    "description": "考试快捷地址"
+  },
+  "switchPartTipAboutRecording": {
+    "message": "นอกจากนี้ยังมีการบันทึกที่กําลังดําเนินการอยู่ถ้าคุณสลับการบันทึกจะหยุดตกลงเพื่อสลับส่วน?",
+    "description": "考试快捷地址"
+  },
+  "submitTipAboutUpload": {
+    "message": "มีไฟล์ที่กําลังอัปโหลดโปรดส่งในภายหลัง",
+    "description": "考试快捷地址"
+  },
+  "saveTipAboutUpload": {
+    "message": "มีไฟล์ที่กําลังอัปโหลดโปรดบันทึกหลังจากการอัปโหลดเสร็จสมบูรณ์",
+    "description": "考试快捷地址"
+  },
+  "addBlankTip": {
+    "message": "เพิ่มค่าลงใน {n} การเติมในช่องว่าง",
+    "description": "考试快捷地址"
+  },
+  "addQuestionTip": {
+    "message": "เพิ่มคําถามย่อย {n} มากที่สุด",
+    "description": "考试快捷地址"
+  },
+  "notExitTip": {
+    "message": "ห้ามมิให้ออกจากแบบเต็มหน้าจอหรือออกจากส่วนต่อประสานการสอบในระหว่างการสอบ!",
+    "description": "考试快捷地址"
+  },
+  "leaveTimesTip": {
+    "message": "คุณออกจากการสอบ {n} ครั้งแล้ว!",
+    "description": "考试快捷地址"
+  },
+  "continueAnswer": {
+    "message": "ตอบคําถามต่อไป",
+    "description": "考试快捷地址"
+  },
+  "finish": {
+    "message": "เสร็จสิ้นเรียบร้อย",
+    "description": "考试快捷地址"
+  },
+  "nextStep": {
+    "message": "ขั้นตอนต่อไป",
+    "description": "考试快捷地址"
+  },
+  "skip": {
+    "message": "ข้ามไป",
+    "description": "考试快捷地址"
+  },
+  "guide1": {
+    "message": "ยินดีต้อนรับสู่กระดาษสอบเวอร์ชั่นใหม่มาดูกันว่าการเปลี่ยนแปลงคืออะไร!",
+    "description": "考试快捷地址"
+  },
+  "guide2": {
+    "message": "ทางด้านซ้ายคุณสามารถเพิ่มย้ายและลบส่วนแบบทดสอบได้ คลิกที่ส่วนหัวของส่วนเพื่อสลับไปยังส่วนที่เกี่ยวข้อง",
+    "description": "考试快捷地址"
+  },
+  "guide3": {
+    "message": "คลิกที่นี่เพื่อปรับเปลี่ยนชื่อและคําอธิบายบางอย่าง",
+    "description": "考试快捷地址"
+  },
+  "guide4": {
+    "message": "ในกระดาษทดสอบเวอร์ชันใหม่คุณสามารถสร้างและแก้ไขคําถามได้โดยตรง! เลือกชนิดคําถามที่นี่เพื่อเพิ่มคําถามใหม่ แน่นอนคุณยังสามารถนําเข้าคําถามจากธนาคารคําถามหรือป้อนเป็นชุด",
+    "description": "考试快捷地址"
+  },
+  "guide5": {
+    "message": "ควรสังเกตว่าคําถามใหม่ที่สร้างขึ้นในเอกสารทดสอบจะไม่ถูกบันทึกโดยอัตโนมัติไปยังธนาคารคําถามตามค่าเริ่มต้น หากจําเป็นคุณสามารถใช้ฟังก์ชันนําเข้าจากกระดาษแบบทดสอบในธนาคารคําถามเพื่อนําเข้าคําถามจากกระดาษแบบทดสอบไปยังธนาคารคําถาม",
+    "description": "考试快捷地址"
+  },
+  "guide6": {
+    "message": "ตั้งค่าคะแนนคําถามและจํานวนเวลาเล่นเสียงเป็นชุด และย้ายมาที่นี่",
+    "description": "考试快捷地址"
+  },
+  "guide7": {
+    "message": "ในระหว่างกระบวนการแก้ไข คลิกที่นี่เพื่อแสดงตัวอย่างเอฟเฟ็กต์กระดาษทดสอบ",
+    "description": "考试快捷地址"
+  },
+  "guide8": {
+    "message": "หลังจากแก้ไขเอกสารทดสอบทั้งหมดแล้วอย่าลืมคลิก [บันทึก] โอ้",
+    "description": "考试快捷地址"
+  },
+  "paperUsedTip": {
+    "message": "กระดาษทดสอบนี้ถูกนํามาใช้ในการสอบอนุญาตให้แก้ไขเนื้อหาของคําถามคําตอบและคะแนนเท่านั้นและโครงสร้างของกระดาษทดสอบไม่สามารถแก้ไขได้หรือคําถามสามารถเพิ่มหรือลบได้ คําถามที่มีคําถามย่อยไม่ได้รับอนุญาตให้เพิ่มหรือลบคําถามย่อย",
+    "description": "考试快捷地址"
+  },
+  "createPaper": {
+    "message": "สร้างเอกสารแบบทดสอบ",
+    "description": "考试快捷地址"
+  },
+  "editPaper": {
+    "message": "แก้ไขแบบทดสอบ",
+    "description": "考试快捷地址"
+  },
+  "previewPaper": {
+    "message": "แสดงตัวอย่างข้อสอบ",
+    "description": "考试快捷地址"
+  },
+  "teacherRemark": {
+    "message": "การอนุมัติจากครู",
+    "description": "考试快捷地址"
+  },
+  "answerHistory": {
+    "message": "บันทึกคําตอบ",
     "description": "考试快捷地址"
   }
 }
