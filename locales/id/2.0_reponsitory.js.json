@@ -23,13 +23,9 @@
     "message": "Input kertas ujian",
     "description": "2.0 reponsitory.js"
   },
-  "haveSelected": {
-    "message": "Sudah pilih",
-    "description": "2.0 reponsitory.js"
-  },
-  "examPapers": {
-    "message": "kertas ujian",
-    "description": "2.0 reponsitory.js"
+  "selectedPaper": {
+    "message": "{n} kertas kuis telah dipilih",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "myExamPaper": {
     "message": "Kertas ujian saya",
@@ -135,6 +131,10 @@
     "message": "Unduh",
     "description": "2.0 reponsitory.js"
   },
+  "rename": {
+    "message": "Ubah nama",
+    "description": "2.0 reponsitory.js"
+  },
   "share": {
     "message": "Berbagi",
     "description": "2.0 reponsitory.js"
@@ -159,9 +159,9 @@
     "message": "Tidak ada kertas ujian",
     "description": "2.0 reponsitory.js"
   },
-  "networkExceptionTips": {
-    "message": "Terjadi kesalahan pada jaringan internet, silahkan klik",
-    "description": "2.0 reponsitory.js"
+  "networkError": {
+    "message": "Pengecualian jaringan, silakan klik {reloadButton}",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源 \n 课程列表 -> 上方试卷库"
   },
   "reload": {
     "message": "Memuat ulang",
@@ -359,21 +359,17 @@
     "message": "Sudah pilih",
     "description": "2.0 reponsitory.js"
   },
-  "items": {
-    "message": " poin",
-    "description": "2.0 reponsitory.js"
+  "selectedItems": {
+    "message": "{n} item telah dipilih",
+    "description": "课程列表 -> 上方资源库 \n 课程列表 -> 上方试卷库"
   },
   "cancelMultipleSelection": {
     "message": "Batalkan pilihan",
     "description": "2.0 reponsitory.js"
   },
-  "total": {
-    "message": "Total ",
-    "description": "2.0 reponsitory.js"
-  },
-  "number": {
-    "message": " buah",
-    "description": "2.0 reponsitory.js"
+  "totalOf": {
+    "message": "Total {n}",
+    "description": "课程列表 -> 上方资源库 -> 我的资源 \n 课程列表 -> 上方资源库 -> 共享资源 \n 课程列表 -> 上方资源库 -> 本校资源"
   },
   "size": {
     "message": "Ukuran",
@@ -519,9 +515,9 @@
     "message": "Semua jenis",
     "description": "2.0 reponsitory.js"
   },
-  "selectedNum": {
-    "message": "Jumlah yang telah dipilih: ",
-    "description": "2.0 reponsitory.js"
+  "selectedCount": {
+    "message": "Kuantitas yang dipilih: {n}",
+    "description": "教师账号 -> 考试 -> 添加考试 -> 指定试卷 -> 右上角"
   },
   "selectRes": {
     "message": "Pilih sumber",
@@ -537,6 +533,210 @@
   },
   "resKeyword": {
     "message": "Masukkan kata kunci untuk mencari sumber",
+    "description": "2.0 reponsitory.js"
+  },
+  "archivePwdSet": {
+    "message": "Mengatur atau mengubah kata sandi tahan",
+    "description": "2.0 reponsitory.js"
+  },
+  "tips": {
+    "message": "Notifikasi",
+    "description": "2.0 reponsitory.js"
+  },
+  "unbindPhoneTips": {
+    "message": "Akun Anda belum ditautkan ke ponsel atau alamat email, jika Anda lupa kata sandi Anda, harap ikat alamat telepon atau email Anda ke profil Anda terlebih dahulu.",
+    "description": "2.0 reponsitory.js"
+  },
+  "toBind": {
+    "message": "Pergi mengikat",
+    "description": "2.0 reponsitory.js"
+  },
+  "setPaperPwd": {
+    "message": "Mengatur kata sandi tahan",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperPwdTips1": {
+    "message": "Setelah mengatur kata sandi arsip, Anda dapat menyegel kertas atau folder kuis yang ditentukan, dan kertas kuis atau folder yang disegel memerlukan kata sandi untuk melihat atau membuka blokir.",
+    "description": "2.0 reponsitory.js"
+  },
+  "updatePaperPwd": {
+    "message": "Mengubah kata sandi tahan",
+    "description": "2.0 reponsitory.js"
+  },
+  "oldPwd": {
+    "message": "Kata sandi lama",
+    "description": "2.0 reponsitory.js"
+  },
+  "newPwd": {
+    "message": "Kata sandi baru",
+    "description": "2.0 reponsitory.js"
+  },
+  "newPwdAgain": {
+    "message": "Masukkan kata sandi baru lagi",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdNullTips": {
+    "message": "Silahkan masukkan kata sandi",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdErrorTips": {
+    "message": "Sandi salah.",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdRegTips": {
+    "message": "Kata sandi harus 6-16 digit atau huruf",
+    "description": "2.0 reponsitory.js"
+  },
+  "pwdDifTips": {
+    "message": "Kata sandi yang dimasukkan dua kali tidak konsisten",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPwd": {
+    "message": "Masukkan kata sandi",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputAgain": {
+    "message": "Masuk kembali",
+    "description": "2.0 reponsitory.js"
+  },
+  "deletePaperPwd": {
+    "message": "Menghapus kata sandi tahan",
+    "description": "2.0 reponsitory.js"
+  },
+  "deletePaperPwdTips": {
+    "message": "Saat Anda menghapus kata sandi arsip, kertas dan folder kuis yang disimpan semuanya tidak diblokir",
+    "description": "2.0 reponsitory.js"
+  },
+  "setPaperPwdTips": {
+    "message": "Setelah mengatur kata sandi arsip, Anda dapat menyegel kertas atau folder kuis yang ditentukan, dan kertas kuis atau folder yang disimpan perlu memasukkan kata sandi untuk melihat atau membuka segel.",
+    "description": "2.0 reponsitory.js"
+  },
+  "forgetPwd": {
+    "message": "Lupa kata sandi",
+    "description": "2.0 reponsitory.js"
+  },
+  "authentication": {
+    "message": "Verifikasi identitas",
+    "description": "2.0 reponsitory.js"
+  },
+  "mail": {
+    "message": "Email",
+    "description": "2.0 reponsitory.js"
+  },
+  "sms": {
+    "message": "SMS",
+    "description": "2.0 reponsitory.js"
+  },
+  "phone": {
+    "message": "Nomor ponsel",
+    "description": "2.0 reponsitory.js"
+  },
+  "picCode": {
+    "message": "Captcha grafis",
+    "description": "2.0 reponsitory.js"
+  },
+  "smsCode": {
+    "message": "No. verifikasi SMS",
+    "description": "2.0 reponsitory.js"
+  },
+  "mailCode": {
+    "message": "Kode verifikasi email",
+    "description": "2.0 reponsitory.js"
+  },
+  "getCode": {
+    "message": "Dapatkan kode verifikasi",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPicCodeTips": {
+    "message": "Silakan masukkan kode grafis",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputCodeTips": {
+    "message": "Silahkan masukkan no. verifikasi",
+    "description": "2.0 reponsitory.js"
+  },
+  "authType": {
+    "message": "Cara verifikasi",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperLock": {
+    "message": "Disegel",
+    "description": "2.0 reponsitory.js"
+  },
+  "paperUnLock": {
+    "message": "Tidak biasa",
+    "description": "2.0 reponsitory.js"
+  },
+  "sharedPaperLockTips": {
+    "message": "Kertas atau folder kuis bersama tidak dapat diarsipkan, jadi ubah cakupan bersama sebelum pengarsipan.",
+    "description": "2.0 reponsitory.js"
+  },
+  "operateSuccess": {
+    "message": "Pengoperasian berhasil",
+    "description": "2.0 reponsitory.js"
+  },
+  "sendSuccess": {
+    "message": "Pengoperasian berhasil",
+    "description": "2.0 reponsitory.js"
+  },
+  "inputPaperPwd": {
+    "message": "Masukkan kata sandi tahan",
+    "description": "2.0 reponsitory.js"
+  },
+  "codeTimerTips": {
+    "message": "{n} dapat diambil setelah satu detik",
+    "description": "2.0 reponsitory.js"
+  },
+  "downloadPaper": {
+    "message": "Unduh kertas kuis",
+    "description": "2.0 reponsitory.js"
+  },
+  "isContainAnaly": {
+    "message": "Apakah akan memasukkan penguraian",
+    "description": "2.0 reponsitory.js"
+  },
+  "isContainAttach": {
+    "message": "Apakah akan mengekspor lampiran",
+    "description": "2.0 reponsitory.js"
+  },
+  "attachDownloadTips": {
+    "message": "Jika lampiran besar, waktu pengunduhan mungkin lebih lama",
+    "description": "2.0 reponsitory.js"
+  },
+  "yes": {
+    "message": "ada",
+    "description": "2.0 reponsitory.js"
+  },
+  "no": {
+    "message": "tidak",
+    "description": "2.0 reponsitory.js"
+  },
+  "confirmImport": {
+    "message": "Konfirmasi impor",
+    "description": "2.0 reponsitory.js"
+  },
+  "selectPaperTip": {
+    "message": "Pilih hingga {n} set kertas kuis sekaligus",
+    "description": "2.0 reponsitory.js"
+  },
+  "importFail": {
+    "message": "Gagal mengimpor",
+    "description": "2.0 reponsitory.js"
+  },
+  "importSuccess": {
+    "message": "Impor berhasil",
+    "description": "2.0 reponsitory.js"
+  },
+  "deletePaperTip": {
+    "message": "Folder berisi kertas kuis bekas dan tidak dapat dihapus.",
+    "description": "2.0 reponsitory.js"
+  },
+  "selectPaperTip1": {
+    "message": "Pilih kertas kuis dan impor pertanyaan dari kertas kuis ke direktori bank pertanyaan saat ini, pilih hingga {n} set kertas kuis sekaligus.",
+    "description": "2.0 reponsitory.js"
+  },
+  "pleaseSelectPaper": {
+    "message": "Silahkan pilih kertas ujian",
     "description": "2.0 reponsitory.js"
   }
 }
