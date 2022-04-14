@@ -2104,7 +2104,7 @@
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips7": {
-    "message": "确定删除该分类吗？",
+    "message": "删除分类后，关联到此分类的课程与专业将被设定为未分类，确定要删除吗？",
     "description": "2.0 admin.js"
   },
   "systemAdmin.systemAdminTips8": {
@@ -3539,6 +3539,14 @@
     "message": "选择图片",
     "description": "2.0 admin.js"
   },
+  "systemAdmin.chooseImageLoading": {
+    "message": "上传中",
+    "description": "2.0 admin.js"
+  },
+  "systemAdmin.chooseImageTips1": {
+    "message": "ico文件必须小于500kb",
+    "description": "2.0 admin.js"
+  },
   "systemAdmin.uploadTip": {
     "message": "建议使用48*48的ico文件",
     "description": "2.0 admin.js"
@@ -3551,12 +3559,68 @@
     "message": "请设置时区",
     "description": "2.0 admin.js"
   },
-  "systemAdmin.chooseImageLoading": {
-    "message": "上传中",
+  "majorType": {
+    "message": "专业类别",
     "description": "2.0 admin.js"
   },
-  "systemAdmin.chooseImageTips1": {
-    "message": "ico文件必须小于500kb",
+  "applicationName": {
+    "message": "申请人",
+    "description": "2.0 admin.js"
+  },
+  "email": {
+    "message": "邮件",
+    "description": "2.0 admin.js"
+  },
+  "phone": {
+    "message": "电话",
+    "description": "2.0 admin.js"
+  },
+  "applyTime": {
+    "message": "申请时间",
+    "description": "2.0 admin.js"
+  },
+  "applyOther": {
+    "message": "备注信息",
+    "description": "2.0 admin.js"
+  },
+  "isreply": {
+    "message": "已答复",
+    "description": "2.0 admin.js"
+  },
+  "isreply2": {
+    "message": "未答复",
+    "description": "2.0 admin.js"
+  },
+  "copy": {
+    "message": "复制",
+    "description": "2.0 admin.js"
+  },
+  "allMajor": {
+    "message": "全部专业",
+    "description": "2.0 admin.js"
+  },
+  "copySuccess": {
+    "message": "复制成功",
+    "description": "2.0 admin.js"
+  },
+  "deleteApplyMsg": {
+    "message": "确定要删除此条申请吗？",
+    "description": "2.0 admin.js"
+  },
+  "deleteFail": {
+    "message": "删除失败",
+    "description": "2.0 admin.js"
+  },
+  "inputNameEmail": {
+    "message": "输入申请人名字或邮件地址查询",
+    "description": "2.0 admin.js"
+  },
+  "changeMajor": {
+    "message": "关联专业",
+    "description": "2.0 admin.js"
+  },
+  "majorName": {
+    "message": "专业",
     "description": "2.0 admin.js"
   }
 }
