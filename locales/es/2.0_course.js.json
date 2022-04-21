@@ -195,6 +195,10 @@
     "message": "Video",
     "description": "2.0 course.js"
   },
+  "totalDurationOf": {
+    "message": "Duración total: {contar} minutos",
+    "description": "2.0 course.js"
+  },
   "document": {
     "message": "Documentación",
     "description": "2.0 course.js"
@@ -383,6 +387,10 @@
     "message": "Elija el número de visitas:",
     "description": "2.0 course.js"
   },
+  "examTimes": {
+    "message": "Número de exámenes: {n} veces",
+    "description": "2.0 course.js"
+  },
   "usePaperNumber": {
     "message": "Número de papeles de prueba utilizados:",
     "description": "2.0 course.js"
@@ -446,6 +454,14 @@
   "attendance": {
     "message": "Pasar lista",
     "description": "2.0 course.js"
+  },
+  "totalTimes": {
+    "message": "Número total de veces: {n} veces",
+    "description": "2.0 course.js"
+  },
+  "totalTimes2": {
+    "message": "Número total de veces: {n}",
+    "description": "教师账号 -> 课程分析"
   },
   "totalAttendanceRate": {
     "message": "Tasa de asistencia acumulada:",
@@ -647,6 +663,10 @@
     "message": "All College",
     "description": "2.0 course.js"
   },
+  "stuLibSelectTip1": {
+    "message": "Se han seleccionado las clases {count}",
+    "description": "教师账号 -> 成员 -> 班级管理 -> 批量导入班级 -> 从学生库导入 -> 弹框左下角"
+  },
   "grade": {
     "message": "Grado",
     "description": "2.0 course.js"
@@ -681,6 +701,10 @@
   },
   "analysisSpocTips6": {
     "message": "No se ha especificado ningún curso para este curso.",
+    "description": "2.0 course.js"
+  },
+  "minute": {
+    "message": " {count} puntos ",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -1387,16 +1411,32 @@
     "message": "Inicio",
     "description": "2.0 course.js"
   },
+  "homePage1": {
+    "message": "<<",
+    "description": "2.0 course.js"
+  },
   "lastPage": {
     "message": "Ultima pagina",
+    "description": "2.0 course.js"
+  },
+  "lastPage1": {
+    "message": ">>",
     "description": "2.0 course.js"
   },
   "frontPage": {
     "message": "Página anterior",
     "description": "2.0 course.js"
   },
+  "frontPage1": {
+    "message": "<",
+    "description": "2.0 course.js"
+  },
   "backPage": {
     "message": "Página siguiente",
+    "description": "2.0 course.js"
+  },
+  "backPage1": {
+    "message": ">",
     "description": "2.0 course.js"
   },
   "jumpPage": {
@@ -1429,6 +1469,10 @@
   },
   "activityName": {
     "message": "Nombre del evento",
+    "description": "2.0 course.js"
+  },
+  "numberOf": {
+    "message": "{n}",
     "description": "2.0 course.js"
   },
   "time": {
@@ -1579,6 +1623,22 @@
     "message": "\"El Debate abierta ayuda a los estudiantes a pensar profundamente. Puede publicar temas aquí y organizar a los estudiantes para discutir. Los administradores del curso pueden iniciar debates en todas las clases, y los maestros y asistentes de enseñanza solo pueden iniciar discusiones en sus propias clases.\"",
     "description": "2.0 course.js"
   },
+  "timesOf": {
+    "message": "{n} veces",
+    "description": "2.0 course.js"
+  },
+  "replyYouTimes": {
+    "message": "Te respondí {n} veces",
+    "description": "2.0 course.js"
+  },
+  "praiseYouTimes": {
+    "message": "Me gustó {n} veces",
+    "description": "2.0 course.js"
+  },
+  "youPraiseTimes": {
+    "message": "Te gustan {n} veces",
+    "description": "2.0 course.js"
+  },
   "yourPosts": {
     "message": "Tu publicación",
     "description": "2.0 course.js"
@@ -1613,6 +1673,10 @@
   },
   "start": {
     "message": "Inicio",
+    "description": "2.0 course.js"
+  },
+  "start1": {
+    "message": " ",
     "description": "2.0 course.js"
   },
   "ended": {
@@ -1689,6 +1753,14 @@
   },
   "detail": {
     "message": "Detalles",
+    "description": "2.0 course.js"
+  },
+  "homeworkBetweenTime": {
+    "message": "Tiempo de trabajo: {startTime} - {endTime}",
+    "description": "2.0 course.js"
+  },
+  "betweenTime": {
+    "message": "{startTime} - {endTime}",
     "description": "2.0 course.js"
   },
   "commitEnd": {
@@ -1789,6 +1861,10 @@
   },
   "deleteHomeworkTips": {
     "message": "¿Estás seguro de que deseas eliminar este trabajo?",
+    "description": "2.0 course.js"
+  },
+  "peopleOf": {
+    "message": "{n} personas",
     "description": "2.0 course.js"
   },
   "inputUserNameSearch": {
@@ -2251,6 +2327,10 @@
     "message": "\"Los siguientes estudiantes ya están en el curso, estos estudiantes no aparecerán en la lista de estudiantes recién introducidos.\"",
     "description": "2.0 course.js"
   },
+  "batchReplaceStudents": {
+    "message": "Reemplace {students} por: {classesForm}",
+    "description": "教师账号 -> 成员 -> 学生管理 -> 更换班级"
+  },
   "appointClassForTeacher": {
     "message": "Asignar clases a los maestros.",
     "description": "2.0 course.js"
@@ -2483,6 +2563,10 @@
     "message": "Designación fallida",
     "description": "2.0 course.js"
   },
+  "memberSpocValidateTips15": {
+    "message": "El nombre de la clase {n} tiene más de 100 caracteres",
+    "description": "2.0 course.js"
+  },
   "memberSpocValidateTips16": {
     "message": "Por favor ingrese el nombre de la clase",
     "description": "2.0 course.js"
@@ -2654,6 +2738,10 @@
   "groupLeader": {
     "message": "Jefe de equipo",
     "description": "2.0 course.js"
+  },
+  "randomDivideGroup": {
+    "message": "Dividido aleatoriamente en grupos {inputCount}",
+    "description": "教师账号 -> 成员 -> 班级小组方案 -> 随机分组"
   },
   "classGroupTips3": {
     "message": "Ya hay un grupo en la clase actual. ¿Está seguro de reemplazar el grupo existente?",
@@ -3187,8 +3275,16 @@
     "message": "Entrar",
     "description": "2.0 course.js"
   },
+  "enterInLive1": {
+    "message": "Ir a vivir",
+    "description": "2.0 course.js"
+  },
   "liveTips1": {
     "message": "No se ha buscado ninguna transmisión en vivo correspondiente",
+    "description": "2.0 course.js"
+  },
+  "liveTips13": {
+    "message": "Sin datos",
     "description": "2.0 course.js"
   },
   "noLive": {
@@ -3433,6 +3529,10 @@
   },
   "coursewareVideo": {
     "message": "Video del curso",
+    "description": "2.0 course.js"
+  },
+  "totalQuantityCl": {
+    "message": "Cantidad total: {contar}",
     "description": "2.0 course.js"
   },
   "nonVideoResource": {
@@ -5543,8 +5643,36 @@
     "message": "Por favor, ingrese su nombre.",
     "description": "指主播第一次进入直播间, 会提示用户输入主播姓名"
   },
+  "refreshData": {
+    "message": "Actualizar datos",
+    "description": "2.0 course.js"
+  },
+  "derive": {
+    "message": "Exportar",
+    "description": "2.0 course.js"
+  },
+  "chapter": {
+    "message": "Sección",
+    "description": "2.0 course.js"
+  },
+  "activityType": {
+    "message": "El tipo de actividad",
+    "description": "2.0 course.js"
+  },
+  "fullPoints": {
+    "message": "Puntuación completa",
+    "description": "2.0 course.js"
+  },
   "activateAccount": {
     "message": "Activa tu cuenta:",
+    "description": "2.0 course.js"
+  },
+  "templeteDodnload": {
+    "message": "Descargar la plantilla de importación",
+    "description": "2.0 course.js"
+  },
+  "activityGrade": {
+    "message": "Resultados de la actividad",
     "description": "2.0 course.js"
   },
   "topicNumberOf": {
@@ -5615,12 +5743,116 @@
     "message": "Se abre en una ventana nueva",
     "description": "2.0 course.js"
   },
+  "photoAndUploader": {
+    "message": "Toma una foto y súbela",
+    "description": "2.0 course.js"
+  },
+  "exportGrade": {
+    "message": "Calidades de exportación a granel",
+    "description": "2.0 course.js"
+  },
+  "batchExportData": {
+    "message": "Exportar datos de forma masiva",
+    "description": "2.0 course.js"
+  },
+  "createTencentLive": {
+    "message": "Creando conferencia",
+    "description": "2.0 course.js"
+  },
+  "TencentLiveName": {
+    "message": "El nombre de la reunión",
+    "description": "2.0 course.js"
+  },
+  "TencentTranscribe": {
+    "message": "La grabación en la nube se activa automáticamente",
+    "description": "2.0 course.js"
+  },
+  "Tencentpeople": {
+    "message": "Número máximo de participantes",
+    "description": "2.0 course.js"
+  },
+  "startStopTime": {
+    "message": "Horas de inicio y finalización",
+    "description": "2.0 course.js"
+  },
   "tencentLive": {
     "message": "Tencent Meetings",
     "description": "2.0 course.js"
   },
   "LargeClassLive": {
     "message": "U-Live",
+    "description": "2.0 course.js"
+  },
+  "endTiem": {
+    "message": "Hora de finalización",
+    "description": "2.0 course.js"
+  },
+  "residueDowFate": {
+    "message": "El número de días que quedan para ser descargable",
+    "description": "2.0 course.js"
+  },
+  "created": {
+    "message": "Generado",
+    "description": "2.0 course.js"
+  },
+  "created1": {
+    "message": "Generar",
+    "description": "2.0 course.js"
+  },
+  "createdIng": {
+    "message": "En la compilación",
+    "description": "2.0 course.js"
+  },
+  "NoCreated": {
+    "message": "No generado",
+    "description": "2.0 course.js"
+  },
+  "anewCreated": {
+    "message": "Regenerar",
+    "description": "2.0 course.js"
+  },
+  "errcreated": {
+    "message": "Error de compilación",
+    "description": "2.0 course.js"
+  },
+  "liveDownload": {
+    "message": "Descarga de archivos de reproducción",
+    "description": "2.0 course.js"
+  },
+  "liveHint": {
+    "message": "Alertas en vivo",
+    "description": "2.0 course.js"
+  },
+  "needInstall": {
+    "message": "Huawei Cloud Conference debe estar instalado",
+    "description": "2.0 course.js"
+  },
+  "downloadNow": {
+    "message": "Descargar ahora",
+    "description": "2.0 course.js"
+  },
+  "alreadyInstall": {
+    "message": "Lo he instalado",
+    "description": "2.0 course.js"
+  },
+  "tencentLiveNameEnter": {
+    "message": "Introduzca un nombre de reunión",
+    "description": "2.0 course.js"
+  },
+  "newStartTimeNotEmpty": {
+    "message": "La hora de inicio no puede ser anterior a la hora actual",
+    "description": "2.0 course.js"
+  },
+  "endStartTimeNotEmpty": {
+    "message": "La hora de finalización no puede ser anterior a la hora de inicio",
+    "description": "2.0 course.js"
+  },
+  "endTimeNotEmpty": {
+    "message": "La hora de finalización no puede estar vacía",
+    "description": "2.0 course.js"
+  },
+  "editmeeting": {
+    "message": "Editar la reunión",
     "description": "2.0 course.js"
   },
   "exportHomeworkScoresInBatches": {
@@ -5721,6 +5953,22 @@
   },
   "submitCount": {
     "message": "Enviar:",
+    "description": "2.0 course.js"
+  },
+  "sended": {
+    "message": "Enviado",
+    "description": "2.0 course.js"
+  },
+  "selectExportContent": {
+    "message": "Seleccione Exportar",
+    "description": "2.0 course.js"
+  },
+  "selectWorkType": {
+    "message": "Seleccione un tipo de trabajo",
+    "description": "2.0 course.js"
+  },
+  "exportSendTip": {
+    "message": "Los datos se generan y se envían al buzón más tarde.",
     "description": "2.0 course.js"
   }
 }
