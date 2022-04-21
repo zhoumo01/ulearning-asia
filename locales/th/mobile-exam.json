@@ -883,13 +883,29 @@
     "message": "คุณได้ปิดสิทธิ์การใช้ไมโครโฟน ไม่สามารถใช้ฟังก์ชั่นดังกล่าวได้ โปรดไปที่ [การตั้งค่า] ในโทรศัพท์มือถือเพื่อดำเนินการให้สิทธิ์",
     "description": "手机考试zh.json"
   },
+  "screenMonitorTips1": {
+    "message": "{screen} ถูกเปิดใช้งานแล้ว โดยปล่อยให้การสอบเป็นเวลาหนึ่งครั้งมากกว่า {num1} วินาที หรือการปล่อยให้ {num} ครั้งรวมทั้งหมดจะบังคับให้เปิดกระดาษ",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips2": {
+    "message": "{screen} ถูกเปิดอยู่ และปล่อยไว้ครึ่งทางนานกว่า {num} วินาทีจะบังคับให้โรลโอเวอร์",
+    "description": "手机考试zh.json"
+  },
   "examMonitor": {
     "message": "การคุมสอบ",
     "description": "手机考试zh.json"
   },
+  "exitTip2": {
+    "message": "การสอบนี้เปิดขึ้น {screen} โปรดอย่าออกครึ่งทางคุณสามารถออกได้หลังจากส่งเอกสารของคุณเท่านั้น",
+    "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
+  },
   "screenInterpolation": {
     "message": "คุมสอบโดยการจับภาพหน้าจอ",
     "description": "此字段作为 exitTip2 字段插值处的内容"
+  },
+  "hintTip5": {
+    "message": "ทิ้งไว้นานกว่า {s} วินาที ระบบถูกบังคับให้คลี่คลาย",
+    "description": "手机考试zh.json"
   },
   "getIt": {
     "message": "ฉันเข้าใจแล้ว",
