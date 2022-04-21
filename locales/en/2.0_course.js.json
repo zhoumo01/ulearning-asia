@@ -5147,6 +5147,26 @@
     "message": "Submission Rate",
     "description": "2.0 course.js"
   },
+  "answer": {
+    "message": "Answer",
+    "description": "2.0 course.js"
+  },
+  "solution": {
+    "message": "Answer",
+    "description": "2.0 course.js"
+  },
+  "answerNum": {
+    "message": "Number of respondents",
+    "description": "2.0 course.js"
+  },
+  "answerRate": {
+    "message": "Answer rate",
+    "description": "2.0 course.js"
+  },
+  "answerAightNum": {
+    "message": "Number of correct answers",
+    "description": "2.0 course.js"
+  },
   "liveInteractionTip": {
     "message": "No interactive activities (such as Sign-in, Poll, etc.)  have been launched in the live session.",
     "description": "2.0 course.js"
@@ -5449,6 +5469,10 @@
   },
   "goToJoinTheCourse": {
     "message": "Enroll the course via ULearning App",
+    "description": "2.0 course.js"
+  },
+  "goToActiveCode": {
+    "message": "Go to ULearning App to activate",
     "description": "2.0 course.js"
   },
   "downloadApp": {
@@ -5835,16 +5859,308 @@
     "message": "Withdraw",
     "description": "2.0 course.js"
   },
+  "shuakeCheck": {
+    "message": "Cheating Detection",
+    "description": "2.0 course.js"
+  },
+  "shuakeMaybe": {
+    "message": "Suspected Cheating",
+    "description": "2.0 course.js"
+  },
+  "shuakeClearBtn": {
+    "message": "Clear the cheating marker",
+    "description": "2.0 course.js"
+  },
+  "shuakeTips": {
+    "message": "According to the learning log, the system detects that the student has suspected cheating behavior. After verifying the processing, you can clear the student's cheating mark here.",
+    "description": "2.0 course.js"
+  },
+  "anchorName": {
+    "message": "Enter your name",
+    "description": "指主播第一次进入直播间, 会提示用户输入主播姓名"
+  },
+  "shuakeClearConfirm": {
+    "message": "This operation only clears students' cheating marks, not students' learning records and grades. If you need to clear the student's grade, you can click the student's name to clear it in the detailed grade. Are you sure to clear the cheating mark?",
+    "description": "2.0 course.js"
+  },
+  "courseGoal": {
+    "message": "Course objectives",
+    "description": "2.0 course.js"
+  },
+  "evaluationRules": {
+    "message": "Evaluation rules",
+    "description": "2.0 course.js"
+  },
+  "achievementStatistics": {
+    "message": "Achievement statistics",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysis": {
+    "message": "Analysis",
+    "description": "2.0 course.js"
+  },
+  "obeTitle": {
+    "message": "Objective Achievement",
+    "description": "2.0 course.js"
+  },
+  "obeLinkDelTips": {
+    "message": "Delete the assessment session, the corresponding activities of the session need to be re-associated. Are you sure you want to delete it?",
+    "description": "2.0 course.js"
+  },
+  "obeLinkDelTips2": {
+    "message": "Keep at least one assessment session.",
+    "description": "2.0 course.js"
+  },
+  "obeGoalDelTips": {
+    "message": "After you delete the objective, activities that have already associated need to be reassociated. Are you sure you want to delete it?",
+    "description": "2.0 course.js"
+  },
+  "obeGoalDelTips2": {
+    "message": "Keep at least one course objective.",
+    "description": "2.0 course.js"
+  },
+  "obeAddGoalMaxTips": {
+    "message": "Add up to 10 objectives.",
+    "description": "2.0 course.js"
+  },
+  "obeAddLinkMaxTips": {
+    "message": "Add up to 10 assessment sessions.",
+    "description": "2.0 course.js"
+  },
+  "obeDefaultLink1": {
+    "message": "Assignments",
+    "description": "2.0 course.js"
+  },
+  "obeDefaultLink2": {
+    "message": "Final Exam Grades",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips1": {
+    "message": "Course objective content cannot be empty.",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips3": {
+    "message": "The achievement target value cannot be empty.",
+    "description": "2.0 course.js"
+  },
+  "obeNullTips": {
+    "message": "No course objectives have been set yet",
+    "description": "2.0 course.js"
+  },
+  "obePassScore": {
+    "message": "Achievement target value:",
+    "description": "2.0 course.js"
+  },
+  "obeLink": {
+    "message": "Assessment Session",
+    "description": "2.0 course.js"
+  },
+  "obeGoalEdit": {
+    "message": "Edit",
+    "description": "2.0 course.js"
+  },
+  "obeGoalClear": {
+    "message": "Clear",
+    "description": "2.0 course.js"
+  },
+  "saveAndQuitEdit": {
+    "message": "Save and Exit",
+    "description": "2.0 course.js"
+  },
+  "obePassScoreTips": {
+    "message": "Enter 0-1 number, keeping 2 decimal places",
+    "description": "2.0 course.js"
+  },
+  "gradeRatio": {
+    "message": "Composition and proportion of grades",
+    "description": "2.0 course.js"
+  },
+  "obeLinkAdd": {
+    "message": "Add Assessment Session",
+    "description": "2.0 course.js"
+  },
+  "obeGoalAdd": {
+    "message": "Add Objective",
+    "description": "2.0 course.js"
+  },
+  "total": {
+    "message": "Total",
+    "description": "2.0 course.js"
+  },
+  "goal": {
+    "message": "Objectives",
+    "description": "2.0 course.js"
+  },
+  "textbookNullTips": {
+    "message": "No courseware",
+    "description": "2.0 course.js"
+  },
+  "onlineActivities": {
+    "message": "Online Activities",
+    "description": "2.0 course.js"
+  },
+  "activityTips2": {
+    "message": "No activities have been published yet",
+    "description": "2.0 course.js"
+  },
+  "associatedGoal": {
+    "message": "Associate course objectives",
+    "description": "2.0 course.js"
+  },
+  "rulesEdit": {
+    "message": "Edit",
+    "description": "2.0 course.js"
+  },
+  "exitEdit": {
+    "message": "Exit Editing",
+    "description": "2.0 course.js"
+  },
+  "refreshData": {
+    "message": "Refresh Data",
+    "description": "2.0 course.js"
+  },
+  "derive": {
+    "message": "Export",
+    "description": "2.0 course.js"
+  },
+  "weightScore": {
+    "message": "Grades displayed by weight value",
+    "description": "2.0 course.js"
+  },
+  "percentageScore": {
+    "message": "Grades displayed on a 100-point scale",
+    "description": "2.0 course.js"
+  },
+  "chapter": {
+    "message": "Chapters",
+    "description": "2.0 course.js"
+  },
+  "activityType": {
+    "message": "Activity Type",
+    "description": "2.0 course.js"
+  },
+  "fullPoints": {
+    "message": "Points",
+    "description": "2.0 course.js"
+  },
+  "batchSetting": {
+    "message": "Batch Setting",
+    "description": "2.0 course.js"
+  },
+  "obeNullTips2": {
+    "message": "Please set the course objectives first",
+    "description": "2.0 course.js"
+  },
+  "obeTitle2": {
+    "message": "Objective Achievement Analysis",
+    "description": "2.0 course.js"
+  },
+  "completion": {
+    "message": "Degree of achievement",
+    "description": "2.0 course.js"
+  },
+  "overallCompletion": {
+    "message": "Overall Achievement",
+    "description": "2.0 course.js"
+  },
+  "instructions": {
+    "message": "Calculation Rule",
+    "description": "2.0 course.js"
+  },
+  "updataTime": {
+    "message": "Data update time:",
+    "description": "2.0 course.js"
+  },
+  "developmentTips": {
+    "message": "The function/feature is not yet available!",
+    "description": "2.0 course.js"
+  },
   "iCourseTip": {
     "message": "Note: iCourse courseware does not support the learning plan function. You can view the learning progress data at the courseware level, but not at the module/topic level. The courseware's learning score won't be counted toward the course's final grade.",
+    "description": "2.0 course.js"
+  },
+  "percent": {
+    "message": "{n}%",
     "description": "2.0 course.js"
   },
   "activateAccount": {
     "message": "Activation Account: ",
     "description": "2.0 course.js"
   },
+  "offlineActivities": {
+    "message": "Offline Activities",
+    "description": "2.0 course.js"
+  },
+  "templeteDodnload": {
+    "message": "Download Template",
+    "description": "2.0 course.js"
+  },
+  "activityGrade": {
+    "message": "Activity Grades",
+    "description": "2.0 course.js"
+  },
+  "textbookName2": {
+    "message": "Courseware Name",
+    "description": "2.0 course.js"
+  },
+  "addActivity": {
+    "message": "Add Activity",
+    "description": "2.0 course.js"
+  },
+  "importData": {
+    "message": "Import Data",
+    "description": "2.0 course.js"
+  },
+  "noDataImport": {
+    "message": "The data is not imported",
+    "description": "2.0 course.js"
+  },
+  "fullPoints2": {
+    "message": "Total Points: ",
+    "description": "2.0 course.js"
+  },
+  "randomQuestion": {
+    "message": "Random draws",
+    "description": "2.0 course.js"
+  },
+  "exportReport": {
+    "message": "Export Report",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysisTips2": {
+    "message": "Overview ",
+    "description": "2.0 course.js"
+  },
   "topicNumberOf": {
     "message": "Posts: {n}",
+    "description": "2.0 course.js"
+  },
+  "toTop": {
+    "message": "Top",
+    "description": "2.0 course.js"
+  },
+  "cancelTop": {
+    "message": "Cancel top",
+    "description": "2.0 course.js"
+  },
+  "recorded": {
+    "message": "Recording",
+    "description": "2.0 course.js"
+  },
+  "recordingTime": {
+    "message": "Recording time",
+    "description": "2.0 course.js"
+  },
+  "Rclassroom": {
+    "message": "Classroom",
+    "description": "2.0 course.js"
+  },
+  "Rclass": {
+    "message": "Classes",
+    "description": "2.0 course.js"
+  },
+  "courseRecorded": {
+    "message": "Classroom recordings",
     "description": "2.0 course.js"
   },
   "modifyLive2": {
@@ -5915,12 +6231,36 @@
     "message": "Opens in a new page",
     "description": "2.0 course.js"
   },
+  "backToProjectList": {
+    "message": "Return to the project list",
+    "description": "2.0 course.js"
+  },
+  "practiceStudy": {
+    "message": "Practice Learning",
+    "description": "2.0 course.js"
+  },
+  "practiceReport": {
+    "message": "Practice Reports",
+    "description": "2.0 course.js"
+  },
+  "projectMember": {
+    "message": "Members",
+    "description": "2.0 course.js"
+  },
+  "photoAndUploader": {
+    "message": "Photo Uploading",
+    "description": "2.0 course.js"
+  },
   "exportGrade": {
     "message": "Batch Export Grades",
     "description": "2.0 course.js"
   },
   "batchExportData": {
     "message": "Batch Export Data",
+    "description": "2.0 course.js"
+  },
+  "modifyResourceText": {
+    "message": "You modified the suffix name, which may cause the resource to be unrecognized, are you sure to save the modification?",
     "description": "2.0 course.js"
   },
   "experience": {
@@ -5975,6 +6315,10 @@
     "message": "Client launch recommends downloading and logging in to the client in advance.",
     "description": "2.0 course.js"
   },
+  "descTip_new2": {
+    "message": "Tencent Meeting does not provide playback and statistics, if you need the recording, you can download it in Tencent Meeting APP.",
+    "description": "2.0 course.js"
+  },
   "descTip_new3": {
     "message": "To launch live session via web, please use ",
     "description": "2.0 course.js"
@@ -5995,12 +6339,88 @@
     "message": "If you use Tencent Meeting, please download and log in to the Tencent Meeting client in advance.",
     "description": "2.0 course.js"
   },
+  "descTip4": {
+    "message": "If you choose to use U-Live, please use ",
+    "description": "2.0 course.js"
+  },
+  "descTip4_1": {
+    "message": " to participate.",
+    "description": "2.0 course.js"
+  },
+  "descTip5": {
+    "message": "Playback is not provided.",
+    "description": "2.0 course.js"
+  },
+  "descTip6": {
+    "message": "Before the start of the meeting, please download and log in to the Tencent Meeting client. During the meeting, please interact civilly.",
+    "description": "2.0 course.js"
+  },
+  "residueDowFate": {
+    "message": "Remaining days of download",
+    "description": "2.0 course.js"
+  },
+  "tipNote2": {
+    "message": "Note: Tencent meetings do not support playback or viewing statistics",
+    "description": "2.0 course.js"
+  },
+  "infuse": {
+    "message": "Note:",
+    "description": "2.0 course.js"
+  },
+  "liveTime2": {
+    "message": "Duration",
+    "description": "2.0 course.js"
+  },
+  "liveState1": {
+    "message": "Video only",
+    "description": "2.0 course.js"
+  },
+  "liveCourseware": {
+    "message": "Video & Courseware",
+    "description": "2.0 course.js"
+  },
+  "created": {
+    "message": "Generated",
+    "description": "2.0 course.js"
+  },
+  "created1": {
+    "message": "Generate",
+    "description": "2.0 course.js"
+  },
+  "createdIng": {
+    "message": "Generating",
+    "description": "2.0 course.js"
+  },
+  "NoCreated": {
+    "message": "Ungenerated",
+    "description": "2.0 course.js"
+  },
+  "anewCreated": {
+    "message": "Re-Generate",
+    "description": "2.0 course.js"
+  },
+  "errcreated": {
+    "message": "Failed to generate",
+    "description": "2.0 course.js"
+  },
+  "liveDownload": {
+    "message": "Download Recording",
+    "description": "2.0 course.js"
+  },
+  "liveHint": {
+    "message": "Tips",
+    "description": "2.0 course.js"
+  },
   "needInstall": {
     "message": "Huawei Cloud Conference must be installed",
     "description": "2.0 course.js"
   },
   "downloadNow": {
     "message": "Download",
+    "description": "2.0 course.js"
+  },
+  "alreadyInstall": {
+    "message": "I have installed it",
     "description": "2.0 course.js"
   },
   "tencentLiveNameEnter": {
@@ -6121,6 +6541,22 @@
   },
   "submitCount": {
     "message": "submit:",
+    "description": "2.0 course.js"
+  },
+  "sended": {
+    "message": "Sent",
+    "description": "2.0 course.js"
+  },
+  "selectExportContent": {
+    "message": "Please select export content",
+    "description": "2.0 course.js"
+  },
+  "selectWorkType": {
+    "message": "Select assignment type",
+    "description": "2.0 course.js"
+  },
+  "exportSendTip": {
+    "message": "Data is generating and will be sent to the you email later.",
     "description": "2.0 course.js"
   }
 }
