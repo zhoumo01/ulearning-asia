@@ -779,6 +779,10 @@
     "message": "إجمالي {n} ",
     "description": "2.0 course.js"
   },
+  "totalOfItems1": {
+    "message": "ما مجموعه {n} البث المباشر",
+    "description": "2.0 course.js"
+  },
   "totalPages": {
     "message": "إجمالي {n}  صفحة (صفحات)",
     "description": "2.0 course.js"
@@ -1511,16 +1515,32 @@
     "message": "الصفحة الرئيسية",
     "description": "2.0 course.js"
   },
+  "homePage1": {
+    "message": "<<",
+    "description": "2.0 course.js"
+  },
   "lastPage": {
     "message": "آخر صفحة",
+    "description": "2.0 course.js"
+  },
+  "lastPage1": {
+    "message": ">>",
     "description": "2.0 course.js"
   },
   "frontPage": {
     "message": "الصفحة السابقة",
     "description": "2.0 course.js"
   },
+  "frontPage1": {
+    "message": "<",
+    "description": "2.0 course.js"
+  },
   "backPage": {
     "message": "الصفحة التالية",
+    "description": "2.0 course.js"
+  },
+  "backPage1": {
+    "message": ">",
     "description": "2.0 course.js"
   },
   "jumpPage": {
@@ -1759,6 +1779,10 @@
     "message": "إبدأ",
     "description": "2.0 course.js"
   },
+  "start1": {
+    "message": " ",
+    "description": "2.0 course.js"
+  },
   "ended": {
     "message": "‏‏النهاية",
     "description": "2.0 course.js"
@@ -1957,6 +1981,14 @@
   },
   "orderNumber": {
     "message": "#",
+    "description": "2.0 course.js"
+  },
+  "orderNumberPrefix": {
+    "message": "الرقم التسلسلي:",
+    "description": "2.0 course.js"
+  },
+  "textbookPrefix": {
+    "message": "المواد التعليمية:",
     "description": "2.0 course.js"
   },
   "gender": {
@@ -3347,8 +3379,16 @@
     "message": "إبدأ",
     "description": "2.0 course.js"
   },
+  "enterInLive1": {
+    "message": "إنشاء المحاضرة المباشرة",
+    "description": "2.0 course.js"
+  },
   "liveTips1": {
     "message": "لم يتم العثور على محاضرات مباشرة.",
+    "description": "2.0 course.js"
+  },
+  "liveTips13": {
+    "message": " لا توجد بيانات ",
     "description": "2.0 course.js"
   },
   "noLive": {
@@ -4939,6 +4979,10 @@
     "message": "أدخل اسم الدورة التدريبية/ اسم المعلم للبحث",
     "description": "2.0 course.js"
   },
+  "searchLive1": {
+    "message": "الرجاء إدخال البحث عن الكلمات المفتاحية",
+    "description": "2.0 course.js"
+  },
   "tipNote": {
     "message": "ملاحظات: تسجيل المحاضرات المباشرة متاح بعد 30 دقيقة من انتهاء الجلسة.",
     "description": "2.0 course.js"
@@ -4947,8 +4991,16 @@
     "message": "مدة المحاضرة المباشرة",
     "description": "2.0 course.js"
   },
+  "liveTime1": {
+    "message": "وقت بدء البث المباشر",
+    "description": "2.0 course.js"
+  },
   "courseOf": {
     "message": "الدورة التدريبية",
+    "description": "2.0 course.js"
+  },
+  "courseOf1": {
+    "message": "نوع المحاضرة المباشرة",
     "description": "2.0 course.js"
   },
   "arrivals": {
@@ -4957,6 +5009,10 @@
   },
   "getPlayCheck": {
     "message": "إنشاء إعادة عرض...",
+    "description": "2.0 course.js"
+  },
+  "getPlayCheck1": {
+    "message": "لم يبدأ",
     "description": "2.0 course.js"
   },
   "otherSchoolStudent": {
@@ -5055,6 +5111,18 @@
     "message": "التفاعل المباشر",
     "description": "2.0 course.js"
   },
+  "signArea": {
+    "message": "منطقة التوقيع",
+    "description": "2.0 course.js"
+  },
+  "resetSign": {
+    "message": "فحص",
+    "description": "2.0 course.js"
+  },
+  "sureSign": {
+    "message": "تأكيد",
+    "description": "2.0 course.js"
+  },
   "signIn": {
     "message": "تسجيل الدخول",
     "description": "2.0 course.js"
@@ -5077,6 +5145,14 @@
   },
   "commitRate": {
     "message": "معدل التسليم",
+    "description": "2.0 course.js"
+  },
+  "answer": {
+    "message": "الأسئلة",
+    "description": "2.0 course.js"
+  },
+  "solution": {
+    "message": "إجابة",
     "description": "2.0 course.js"
   },
   "liveInteractionTip": {
@@ -5767,8 +5843,192 @@
     "message": "سحب",
     "description": "2.0 course.js"
   },
+  "shuakeCheck": {
+    "message": "اكتشاف فئة الفرشاة",
+    "description": "2.0 course.js"
+  },
+  "shuakeMaybe": {
+    "message": "فئة الفرشاة المشتبه بها",
+    "description": "2.0 course.js"
+  },
+  "shuakeClearBtn": {
+    "message": "مسح علامة فئة الفرشاة",
+    "description": "2.0 course.js"
+  },
+  "courseGoal": {
+    "message": "أهداف الدورة",
+    "description": "2.0 course.js"
+  },
+  "achievementStatistics": {
+    "message": "إحصائيات التحصيل",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysis": {
+    "message": "تحليل",
+    "description": "2.0 course.js"
+  },
+  "obeDefaultLink1": {
+    "message": "عادة ما تعمل",
+    "description": "2.0 course.js"
+  },
+  "obeDefaultLink2": {
+    "message": "نتيجة نهاية التيرم",
+    "description": "2.0 course.js"
+  },
+  "obeNullTips": {
+    "message": "لم يتم تحديد أهداف الدورة التدريبية بعد",
+    "description": "2.0 course.js"
+  },
+  "obeLink": {
+    "message": "جلسة التقييم",
+    "description": "2.0 course.js"
+  },
+  "obeGoalEdit": {
+    "message": "تحرير أهداف المقرر الدراسي",
+    "description": "2.0 course.js"
+  },
+  "obeGoalClear": {
+    "message": "مسح أهداف الدورة",
+    "description": "2.0 course.js"
+  },
+  "saveAndQuitEdit": {
+    "message": "الحفظ والخروج",
+    "description": "2.0 course.js"
+  },
+  "obePassScoreTips": {
+    "message": "الأرقام من 0 إلى 1، مع الاحتفاظ بمنزلتين عشريتين",
+    "description": "2.0 course.js"
+  },
+  "gradeRatio": {
+    "message": "تكوين ونسبة الدرجات",
+    "description": "2.0 course.js"
+  },
+  "obeLinkAdd": {
+    "message": "إضافة جلسة تقييم",
+    "description": "2.0 course.js"
+  },
+  "obeGoalAdd": {
+    "message": "إضافة هدف",
+    "description": "2.0 course.js"
+  },
+  "total": {
+    "message": "مجموع",
+    "description": "2.0 course.js"
+  },
+  "goal": {
+    "message": "هدف",
+    "description": "2.0 course.js"
+  },
+  "textbookNullTips": {
+    "message": "\"لا توجد مناهج دراسية حاليا\"",
+    "description": "2.0 course.js"
+  },
+  "onlineActivities": {
+    "message": "أنشطة التدريس عبر الإنترنت",
+    "description": "2.0 course.js"
+  },
+  "activityTips2": {
+    "message": "الحدث لم ينشر بعد",
+    "description": "2.0 course.js"
+  },
+  "activityTips3": {
+    "message": "لم يتم البحث في النشاط المقابل",
+    "description": "2.0 course.js"
+  },
+  "associatedGoal": {
+    "message": "أهداف الدورة التدريبية المنتسبة",
+    "description": "2.0 course.js"
+  },
+  "rulesEdit": {
+    "message": "تحرير القاعدة",
+    "description": "2.0 course.js"
+  },
+  "exitEdit": {
+    "message": "إنهاء التحرير",
+    "description": "2.0 course.js"
+  },
+  "refreshData": {
+    "message": "تحديث البيانات",
+    "description": "2.0 course.js"
+  },
+  "derive": {
+    "message": "تصدير",
+    "description": "2.0 course.js"
+  },
+  "chapter": {
+    "message": "فصل",
+    "description": "2.0 course.js"
+  },
+  "activityType": {
+    "message": "نوع النشاط",
+    "description": "2.0 course.js"
+  },
+  "fullPoints": {
+    "message": "الدرجة النهائية",
+    "description": "2.0 course.js"
+  },
+  "batchSetting": {
+    "message": "الإعداد المجمع",
+    "description": "2.0 course.js"
+  },
+  "associate": {
+    "message": "اهميه",
+    "description": "2.0 course.js"
+  },
+  "question": {
+    "message": "اسم الاختبار",
+    "description": "2.0 course.js"
+  },
   "activateAccount": {
     "message": "حساب التنشيط:",
+    "description": "2.0 course.js"
+  },
+  "offlineActivities": {
+    "message": "أنشطة التدريس غير المتصلة بالإنترنت",
+    "description": "2.0 course.js"
+  },
+  "templeteDodnload": {
+    "message": "تنزيل قالب الاستيراد",
+    "description": "2.0 course.js"
+  },
+  "activityGrade": {
+    "message": "نتائج النشاط",
+    "description": "2.0 course.js"
+  },
+  "textbookName2": {
+    "message": "اسم البرنامج الدراسي",
+    "description": "2.0 course.js"
+  },
+  "addActivity": {
+    "message": "إضافة نشاط",
+    "description": "2.0 course.js"
+  },
+  "importData": {
+    "message": "استيراد البيانات",
+    "description": "2.0 course.js"
+  },
+  "noDataImport": {
+    "message": "لا يتم استيراد البيانات",
+    "description": "2.0 course.js"
+  },
+  "offlineActivityGrade": {
+    "message": "إنجازات النشاط غير المتصل بالإنترنت",
+    "description": "2.0 course.js"
+  },
+  "fullPoints2": {
+    "message": "خارج:",
+    "description": "2.0 course.js"
+  },
+  "dataImportedTimeTips": {
+    "message": "وقت استيراد البيانات:",
+    "description": "2.0 course.js"
+  },
+  "randomQuestion": {
+    "message": "سحوبات عشوائية",
+    "description": "2.0 course.js"
+  },
+  "exportReport": {
+    "message": "تصدير التقرير",
     "description": "2.0 course.js"
   },
   "obeRandomTips": {
@@ -5777,6 +6037,34 @@
   },
   "topicNumberOf": {
     "message": "مواضيع المناقشة: {n} ",
+    "description": "2.0 course.js"
+  },
+  "toTop": {
+    "message": "أعلى",
+    "description": "2.0 course.js"
+  },
+  "cancelTop": {
+    "message": "إلغاء الأعلى",
+    "description": "2.0 course.js"
+  },
+  "recorded": {
+    "message": "تسجيل",
+    "description": "2.0 course.js"
+  },
+  "recordingTime": {
+    "message": "وقت التسجيل",
+    "description": "2.0 course.js"
+  },
+  "Rclassroom": {
+    "message": "الفصول الدراسيه",
+    "description": "2.0 course.js"
+  },
+  "Rclass": {
+    "message": "فئه.",
+    "description": "2.0 course.js"
+  },
+  "courseRecorded": {
+    "message": "تسجيلات الفصول الدراسية",
     "description": "2.0 course.js"
   },
   "meetingRoom": {
@@ -5835,12 +6123,108 @@
     "message": "يفتح في نافذة جديدة",
     "description": "2.0 course.js"
   },
+  "photoAndUploader": {
+    "message": "التقاط صورة وتحميلها",
+    "description": "2.0 course.js"
+  },
   "exportGrade": {
     "message": "تصدير الدرجات بكميات كبيرة",
     "description": "2.0 course.js"
   },
   "batchExportData": {
     "message": "تصدير البيانات بشكل مجمع",
+    "description": "2.0 course.js"
+  },
+  "createTencentLive": {
+    "message": "إنشاء اجتماع",
+    "description": "2.0 course.js"
+  },
+  "TencentLiveName": {
+    "message": "اسم الاجتماع",
+    "description": "2.0 course.js"
+  },
+  "TencentTranscribe": {
+    "message": "يتم تشغيل التسجيل السحابي تلقائيا",
+    "description": "2.0 course.js"
+  },
+  "Tencentpeople": {
+    "message": "الحد الأقصى لعدد المشاركين",
+    "description": "2.0 course.js"
+  },
+  "startStopTime": {
+    "message": "أوقات البدء والانتهاء",
+    "description": "2.0 course.js"
+  },
+  "tencentLive": {
+    "message": "Tencent Meeting",
+    "description": "2.0 course.js"
+  },
+  "liveTime2": {
+    "message": "مدة المحاضرة المباشرة",
+    "description": "2.0 course.js"
+  },
+  "created": {
+    "message": "انشاء",
+    "description": "2.0 course.js"
+  },
+  "created1": {
+    "message": "ولد",
+    "description": "2.0 course.js"
+  },
+  "createdIng": {
+    "message": "في البناء",
+    "description": "2.0 course.js"
+  },
+  "NoCreated": {
+    "message": "لم يتم إنشاؤها",
+    "description": "2.0 course.js"
+  },
+  "anewCreated": {
+    "message": "اعاده",
+    "description": "2.0 course.js"
+  },
+  "errcreated": {
+    "message": "فشل البناء",
+    "description": "2.0 course.js"
+  },
+  "liveDownload": {
+    "message": "تنزيل ملف التشغيل",
+    "description": "2.0 course.js"
+  },
+  "liveHint": {
+    "message": "تنبيهات مباشرة",
+    "description": "2.0 course.js"
+  },
+  "needInstall": {
+    "message": "يجب تثبيت مؤتمر Huawei Cloud",
+    "description": "2.0 course.js"
+  },
+  "downloadNow": {
+    "message": "تحميل الآن",
+    "description": "2.0 course.js"
+  },
+  "alreadyInstall": {
+    "message": "لقد قمت بتثبيته",
+    "description": "2.0 course.js"
+  },
+  "tencentLiveNameEnter": {
+    "message": "الرجاء إدخال اسم الاجتماع",
+    "description": "2.0 course.js"
+  },
+  "newStartTimeNotEmpty": {
+    "message": "لا يمكن أن يكون وقت البدء أقدم من الوقت الحالي",
+    "description": "2.0 course.js"
+  },
+  "endStartTimeNotEmpty": {
+    "message": "لا يمكن أن يكون وقت الانتهاء أبكر من وقت البدء",
+    "description": "2.0 course.js"
+  },
+  "endTimeNotEmpty": {
+    "message": "لا يمكن أن يكون وقت الانتهاء فارغا",
+    "description": "2.0 course.js"
+  },
+  "editmeeting": {
+    "message": "تحرير الاجتماع",
     "description": "2.0 course.js"
   },
   "exportHomeworkScoresInBatches": {
@@ -5941,6 +6325,22 @@
   },
   "submitCount": {
     "message": "إرسال:",
+    "description": "2.0 course.js"
+  },
+  "sended": {
+    "message": "ارسال",
+    "description": "2.0 course.js"
+  },
+  "selectExportContent": {
+    "message": "الرجاء اختيار تصدير",
+    "description": "2.0 course.js"
+  },
+  "selectWorkType": {
+    "message": "الرجاء اختيار نوع الوظيفة",
+    "description": "2.0 course.js"
+  },
+  "exportSendTip": {
+    "message": "يتم إنشاء البيانات وإرسالها إلى صندوق البريد لاحقا.",
     "description": "2.0 course.js"
   }
 }

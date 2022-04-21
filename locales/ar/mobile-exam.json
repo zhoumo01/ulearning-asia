@@ -23,6 +23,10 @@
     "message": "أعلى درجة",
     "description": "手机考试zh.json"
   },
+  "points": {
+    "message": "{n} دقيقة",
+    "description": "手机考试 -> 考试详情 -> 及格分数 \n 手机考试 -> 考试详情 -> 进入考试 -> 滑动到第一页 -> 奖杯图标右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 用户头像右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 答题记录列表 (需要用户有多个答题记录，才会弹出答题记录列表)"
+  },
   "examTime": {
     "message": "وقت الامتحان",
     "description": "手机考试zh.json"
@@ -30,6 +34,10 @@
   "examLimitTime": {
     "message": "مدة الامتحان",
     "description": "手机考试zh.json"
+  },
+  "minutes": {
+    "message": "{n} دقيقة",
+    "description": "手机考试 -> 考试详情 -> 考试限时"
   },
   "answerTime": {
     "message": "عدد مرات الرد",
@@ -43,6 +51,10 @@
     "message": "غير محدود",
     "description": "手机考试zh.json"
   },
+  "timesOf": {
+    "message": "{current}/{total} وقت . ",
+    "description": "手机考试 -> 考试详情 -> 答题次数"
+  },
   "passingScore": {
     "message": "درجة النجاح",
     "description": "手机考试zh.json"
@@ -50,6 +62,10 @@
   "lateTime": {
     "message": "الوقت التأخر المسموح به",
     "description": "手机考试zh.json"
+  },
+  "betweenTime": {
+    "message": "{وقت البدء} - {نهاية الوقت} ",
+    "description": "手机考试 -> 考试详情 -> 考试时间"
   },
   "clickUpload": {
     "message": "انقر لرفع الصورة للتحقق",
@@ -507,6 +523,14 @@
     "message": "شرح الإجابة",
     "description": "手机考试zh.json"
   },
+  "answerScore1": {
+    "message": " النتيجة : استعراض",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
+  "answerScore2": {
+    "message": "النتيجة: {n} نقاط, النتيجة الكاملة {num} نقاط",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
   "teaComment": {
     "message": "تعليق المعلم",
     "description": "手机考试zh.json"
@@ -589,6 +613,10 @@
   },
   "question12": {
     "message": "إغلق السؤال",
+    "description": "手机考试zh.json"
+  },
+  "question25": {
+    "message": "معادلة محسوبة",
     "description": "手机考试zh.json"
   },
   "exitScreen": {
@@ -685,6 +713,214 @@
   },
   "fromAlbum": {
     "message": " اختر من الألبوم ",
+    "description": "手机考试zh.json"
+  },
+  "examInfo": {
+    "message": "معلومات الامتحان",
+    "description": "手机考试zh.json"
+  },
+  "lateLimit": {
+    "message": "الحد الزمني للوصول المتأخر:",
+    "description": "手机考试zh.json"
+  },
+  "lateLimitTips": {
+    "message": "لا يسمح بالدخول بعد {time} بعد دقائق من بدء الامتحان",
+    "description": "手机考试zh.json"
+  },
+  "submitLimit": {
+    "message": "الحد الزمني للتبييت:",
+    "description": "手机考试zh.json"
+  },
+  "submitLimitTips": {
+    "message": "لا يسمح بالأوراق خلال {time} دقائق من بدء الامتحان",
+    "description": "手机考试zh.json"
+  },
+  "securitySettings": {
+    "message": "إعدادات الأمان",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitor": {
+    "message": "مراقبة الملكية الفكرية.",
+    "description": "手机考试zh.json"
+  },
+  "IPMonitorTip": {
+    "message": "تم تمكين {ip}، ولا تقم بتبديل الشبكات في الوسط",
+    "description": "{ip} 指的是 IP监控"
+  },
+  "deviceMonitor": {
+    "message": "مراقبة الجهاز.",
+    "description": "手机考试zh.json"
+  },
+  "deviceMonitorTip": {
+    "message": "{device} قيد التشغيل، ولا تقم بتغيير الأجهزة أو المتصفحات في المنتصف",
+    "description": "{device} 指的是设备监控"
+  },
+  "photoMonitor": {
+    "message": "التقاط المراقبة.",
+    "description": "手机考试zh.json"
+  },
+  "photoMonitorTip": {
+    "message": "{photo} قيد التشغيل، يرجى إبقاء الكاميرا الأمامية قيد التشغيل",
+    "description": "{photo} 指的是抓拍监控"
+  },
+  "faceRecognition": {
+    "message": "التعرف على الوجه.",
+    "description": "手机考试zh.json"
+  },
+  "faceRecognitionTip": {
+    "message": "تم تشغيل {face} ويلزم التحقق من الوجه للدخول في الامتحان",
+    "description": "{face} 指的是人脸识别"
+  },
+  "unOpened": {
+    "message": "غير ممكّنة",
+    "description": "手机考试zh.json"
+  },
+  "IPException": {
+    "message": "استثناء عنوان IP.",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips1": {
+    "message": "يتم تشغيل مراقبة IP في هذا الامتحان ولا يُسمح بتغيير عنوان IP أثناء الاختبار. قد يؤدي تبديل الشبكات إلى تغييرات في عناوين IP.",
+    "description": "手机考试zh.json"
+  },
+  "IPExceptionTips2": {
+    "message": "إذا كنت بحاجة إلى تغيير الشبكة في ظل ظروف خاصة، يرجى أن تطلب من المراقب رمز التحقق واستخدام رمز التحقق لدخول الاختبار.",
+    "description": "手机考试zh.json"
+  },
+  "deviceException": {
+    "message": "الجهاز غير طبيعي.",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips1": {
+    "message": "يتم تشغيل مراقبة الجهاز لهذا الامتحان، ولا يسمح بتغيير الجهاز أو المتصفح في منتصف الامتحان، لذا يرجى استخدام الجهاز أو المتصفح الذي دخل الاختبار لأول مرة للإجابة على السؤال.",
+    "description": "手机考试zh.json"
+  },
+  "deviceExceptionTips2": {
+    "message": "إذا كنت بحاجة إلى تغيير الجهاز في ظل ظروف خاصة، يرجى أن تطلب من المراقب رمز التحقق واستخدام رمز التحقق لدخول الاختبار.",
+    "description": "手机考试zh.json"
+  },
+  "commitLimitTimeTips": {
+    "message": "يبدأ الامتحان {time} قبل دقائق من أن تتمكن من تسليم أوراقك!",
+    "description": "手机考试zh.json"
+  },
+  "examTip20": {
+    "message": "في منتصف الامتحان {count}مرات",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitor": {
+    "message": "مراقبة الشاشة",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips": {
+    "message": "تم تشغيل {screen}، وسيؤدي ترك {num} مرات في الوسط إلى فرض التمديد",
+    "description": "{screen} 指的是切屏监控"
+  },
+  "recordShowAfterSubmit": {
+    "message": "بعد التقديم مباشرة",
+    "description": "手机考试zh.json"
+  },
+  "leaveExamTimesTips": {
+    "message": "في منتصف الامتحان {count}مرات",
+    "description": "手机考试zh.json"
+  },
+  "cameraAccess": {
+    "message": "لم يفتح إذن الكاميرا ، فتح هذا الامتحان التعرف على الوجه أو التقاط المراقبة ، يرجى فتح إذن الكاميرا بعد إجراء الامتحان!",
+    "description": "手机考试zh.json"
+  },
+  "selectFile": {
+    "message": "إختيار الملف",
+    "description": "手机考试zh.json"
+  },
+  "fromAlbum1": {
+    "message": "من الألبوم المحلي",
+    "description": "手机考试zh.json"
+  },
+  "showAfterBatchEnd": {
+    "message": "سيتم الإعلان عن جميع جلسات الامتحان بعد انتهاء الجلسة",
+    "description": "手机考试zh.json"
+  },
+  "versionLowerTips": {
+    "message": "الإصدار الحالي منخفض جدا ، يرجى الترقية قبل إجراء الامتحان!",
+    "description": "手机考试zh.json"
+  },
+  "monitoring": {
+    "message": "المراقبة",
+    "description": "手机考试zh.json"
+  },
+  "photoCountDown": {
+    "message": "بدء التقاط الصور بعد {n} ثانية",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCWeb": {
+    "message": "ويب فقط",
+    "description": "手机考试zh.json"
+  },
+  "onlyPCExe": {
+    "message": "المتصفح الآمن فقط",
+    "description": "手机考试zh.json"
+  },
+  "onlyMobile": {
+    "message": "الهاتف فقط",
+    "description": "手机考试zh.json"
+  },
+  "unlimitType": {
+    "message": "الجوال/الويب/العميل",
+    "description": "手机考试zh.json"
+  },
+  "viewOnPCExe": {
+    "message": "يرجى استخدام اختبار عميل UCE Exam على جهاز الكمبيوتر الخاص بك",
+    "description": "手机考试zh.json"
+  },
+  "swipeTip": {
+    "message": "اسحب لليسار أو لليمين لتبديل الصفحات",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip1": {
+    "message": "لقد قمت بتعطيل إذن الكاميرا ولا يمكنك استخدام هذه الوظيفة ، يرجى الانتقال إلى [الإعدادات] الخاصة بالهاتف للتفويض",
+    "description": "手机考试zh.json"
+  },
+  "mobilePermissionTip2": {
+    "message": "لقد قمت بتعطيل إذن الميكروفون ولا يمكنك استخدام هذه الوظيفة ، يرجى الانتقال إلى [الإعدادات] للهاتف للتفويض",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips1": {
+    "message": "تم تشغيل {screen}، وترك الامتحان لمرة واحدة أكثر من {num1} ثانية، أو ترك {num} مرات في المجموع سيجبر الورقة على الإدخال",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips2": {
+    "message": "تم تشغيل {screen}، وترك منتصف الطريق لأكثر من {num} ثانية سيجبر التمديد",
+    "description": "手机考试zh.json"
+  },
+  "examMonitor": {
+    "message": "مراقبة الامتحان",
+    "description": "手机考试zh.json"
+  },
+  "exitTip2": {
+    "message": "تم تشغيل هذا الامتحان على {screen} ، يرجى عدم المغادرة في منتصف الطريق ، يمكنك الخروج فقط بعد تسليم أوراقك.",
+    "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
+  },
+  "screenInterpolation": {
+    "message": "مراقبة الشاشة",
+    "description": "此字段作为 exitTip2 字段插值处的内容"
+  },
+  "hintTip5": {
+    "message": "بعد تركه لأكثر من {s} ثانية ، أجبر النظام على الاسترخاء.",
+    "description": "手机考试zh.json"
+  },
+  "getIt": {
+    "message": "فهمت ذلك!",
+    "description": "手机考试zh.json"
+  },
+  "netWorkError": {
+    "message": "استثناء الشبكة ، فشلت العملية ، يرجى المحاولة مرة أخرى بعد استعادة اتصال الشبكة.",
+    "description": "手机考试zh.json"
+  },
+  "agreenInstructions": {
+    "message": "لقد قرأت وأوافق على التعليمات الواردة في تعليمات الامتحان",
+    "description": "手机考试zh.json"
+  },
+  "agreenTip": {
+    "message": "يرجى وضع علامة أولا",
     "description": "手机考试zh.json"
   },
   "activeBook": {
