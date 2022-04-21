@@ -523,6 +523,14 @@
     "message": "Analisa",
     "description": "手机考试zh.json"
   },
+  "answerScore1": {
+    "message": "Skor: untuk diperiksa{num}",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
+  "answerScore2": {
+    "message": "Skor: {n} poin, skor penuh {num} poin",
+    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
+  },
   "teaComment": {
     "message": "Komen dosen",
     "description": "手机考试zh.json"
@@ -715,8 +723,16 @@
     "message": "Batas waktu terlambat:",
     "description": "手机考试zh.json"
   },
+  "lateLimitTips": {
+    "message": "Entri tidak diperbolehkan setelah {time} beberapa menit setelah ujian dimulai",
+    "description": "手机考试zh.json"
+  },
   "submitLimit": {
     "message": "Batas waktu untuk pengiriman:",
+    "description": "手机考试zh.json"
+  },
+  "submitLimitTips": {
+    "message": "Makalah tidak diperbolehkan dalam waktu {time} menit dari dimulainya ujian",
     "description": "手机考试zh.json"
   },
   "securitySettings": {
@@ -727,17 +743,33 @@
     "message": "Pemantauan IP",
     "description": "手机考试zh.json"
   },
+  "IPMonitorTip": {
+    "message": "{ip} diaktifkan, jangan beralih jaringan di tengah",
+    "description": "{ip} 指的是 IP监控"
+  },
   "deviceMonitor": {
     "message": "Pengawasan perangkat",
     "description": "手机考试zh.json"
+  },
+  "deviceMonitorTip": {
+    "message": "{device} diaktifkan, jangan mengubah perangkat atau browser di tengah",
+    "description": "{device} 指的是设备监控"
   },
   "photoMonitor": {
     "message": "Penangkapan pengawasan",
     "description": "手机考试zh.json"
   },
+  "photoMonitorTip": {
+    "message": "{photo} dinyalakan, harap tetap menyala di kamera depan",
+    "description": "{photo} 指的是抓拍监控"
+  },
   "faceRecognition": {
     "message": "Identifikasi wajah",
     "description": "手机考试zh.json"
+  },
+  "faceRecognitionTip": {
+    "message": "{face} diaktifkan dan verifikasi wajah diperlukan untuk mengikuti ujian",
+    "description": "{face} 指的是人脸识别"
   },
   "unOpened": {
     "message": "Belum diaktifkan",
@@ -767,12 +799,28 @@
     "message": "Jika terjadi keadaan khusus, Anda perlu mengubah peralatan, silakan minta proctor untuk kode verifikasi, gunakan kode verifikasi untuk mengikuti ujian.",
     "description": "手机考试zh.json"
   },
+  "commitLimitTimeTips": {
+    "message": "Ujian dimulai {time} beberapa menit sebelum Anda dapat menyerahkan kertas Anda!",
+    "description": "手机考试zh.json"
+  },
+  "examTip20": {
+    "message": "Di tengah ujian {count} kali",
+    "description": "手机考试zh.json"
+  },
   "screenMonitor": {
     "message": "Pemantauan layar",
     "description": "手机考试zh.json"
   },
+  "screenMonitorTips": {
+    "message": "{screen} telah dinyalakan, dan meninggalkan {num} kali di tengah akan memaksa rollover",
+    "description": "{screen} 指的是切屏监控"
+  },
   "recordShowAfterSubmit": {
     "message": "Segera tampilkan setelah kumpul",
+    "description": "手机考试zh.json"
+  },
+  "leaveExamTimesTips": {
+    "message": "Di tengah ujian {count} kali",
     "description": "手机考试zh.json"
   },
   "cameraAccess": {
@@ -797,6 +845,10 @@
   },
   "monitoring": {
     "message": "Sedang dipantau",
+    "description": "手机考试zh.json"
+  },
+  "photoCountDown": {
+    "message": "Mulai mengambil gambar setelah {n} detik",
     "description": "手机考试zh.json"
   },
   "onlyPCWeb": {
@@ -831,13 +883,29 @@
     "message": "Anda telah menonaktifkan izin mikrofon dan tidak dapat menggunakan fitur ini, buka Pengaturan ponsel Anda untuk mengotorisasi",
     "description": "手机考试zh.json"
   },
+  "screenMonitorTips1": {
+    "message": "{screen} telah diaktifkan, meninggalkan ujian untuk satu kali lebih dari {num1} detik, atau meninggalkan {num} kali secara total akan memaksa kertas untuk diserahkan",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips2": {
+    "message": "{screen} telah dinyalakan, dan meninggalkan setengah jalan selama lebih dari {num} detik akan memaksa rollover",
+    "description": "手机考试zh.json"
+  },
   "examMonitor": {
     "message": "Pengawasan ujian",
     "description": "手机考试zh.json"
   },
+  "exitTip2": {
+    "message": "Ujian ini telah diaktifkan {screen}, tolong jangan pergi di tengah jalan, Anda hanya dapat keluar setelah menyerahkan kertas Anda.",
+    "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
+  },
   "screenInterpolation": {
     "message": "Pemantauan layar",
     "description": "此字段作为 exitTip2 字段插值处的内容"
+  },
+  "hintTip5": {
+    "message": "Sistem telah memaksa menyerahkan kertas setelah pergi selama lebih dari {s} detik.",
+    "description": "手机考试zh.json"
   },
   "getIt": {
     "message": "Saya tahu",
