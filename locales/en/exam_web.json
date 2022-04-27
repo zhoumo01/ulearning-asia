@@ -1196,7 +1196,7 @@
     "description": "考试快捷地址"
   },
   "deletePartTip": {
-    "message": "Caution! Deleting a section will delete all questions in that section at the same time. By default, new questions created in the exam will not be saved to the question bank, and cannot be restored after deletion, so please be careful. Are you sure you want to delete it?",
+    "message": "Deleting a section will delete all questions in that section. Newly created section questions won't be saved to the question bank and cannot be undone after deletion, so please use caution with deletion. Are you sure you want to delete it?",
     "description": "考试快捷地址"
   },
   "deletePartTip1": {
@@ -1212,7 +1212,7 @@
     "description": "考试快捷地址"
   },
   "deleteQuestion": {
-    "message": "Delete",
+    "message": "Delete Question",
     "description": "考试快捷地址"
   },
   "confirmDeleteQuestion": {
@@ -1220,11 +1220,11 @@
     "description": "考试快捷地址"
   },
   "editSuccess": {
-    "message": "Modified successfully!",
+    "message": "Edited successfully!",
     "description": "考试快捷地址"
   },
   "editFail": {
-    "message": "Failed to modify!",
+    "message": "Failed to edit!",
     "description": "考试快捷地址"
   },
   "importFail": {
@@ -1236,7 +1236,7 @@
     "description": "考试快捷地址"
   },
   "exitTip1": {
-    "message": "Question {n} is not saved. If you leave now, the modification will not be saved. Are you sure you want to leave?",
+    "message": "Question {n} is not saved. If you exit now, the editing won't be saved. Are you sure you want to exit?",
     "description": "考试快捷地址"
   },
   "confirmExit": {
@@ -1248,7 +1248,7 @@
     "description": "考试快捷地址"
   },
   "interruptAnswer": {
-    "message": "Drop Out",
+    "message": "Save Answers",
     "description": "考试快捷地址"
   },
   "saveAnswerRecord": {
@@ -1272,11 +1272,11 @@
     "description": "考试快捷地址"
   },
   "networkError": {
-    "message": "Network error and submit failed!",
+    "message": "Network error - Exam submission failed!",
     "description": "考试快捷地址"
   },
   "networkErrorTip1": {
-    "message": "The system has temporarily stored the answer record locally, do not leave or close the page, and try to submit manually again later.",
+    "message": "The system has temporarily saved your answers locally - Do not leave or close the exam screen. Try to re-submit the exam later.",
     "description": "考试快捷地址"
   },
   "leftTimeTip": {
@@ -1284,7 +1284,7 @@
     "description": "考试快捷地址"
   },
   "restoringAnswerRecords": {
-    "message": "Loading answer records, please wait…",
+    "message": "Restoring answer records..., please wait!",
     "description": "考试快捷地址"
   },
   "networkErrorTip2": {
@@ -1296,7 +1296,7 @@
     "description": "考试快捷地址"
   },
   "notExitFullScreenTip": {
-    "message": "Please do not exit the full screen during the exam, otherwise it will be recorded as leaving the exam and may be judged as cheating.",
+    "message": "Do not exit full screen during the exam. Otherwise it will be logged as leaving exam and might be treated as cheating.",
     "description": "考试快捷地址"
   },
   "submitPaperErrorTip": {
@@ -1324,7 +1324,7 @@
     "description": "考试快捷地址"
   },
   "notAllowedSubmitTip": {
-    "message": "Not allowed to submit within {time} minutes from the beginning of the exam.",
+    "message": "The exam is not allowed to submit within {time} minutes after the exam starts",
     "description": "考试快捷地址"
   },
   "confirmPaperTip": {
@@ -1332,7 +1332,7 @@
     "description": "考试快捷地址"
   },
   "confirmPaperTip1": {
-    "message": "You have not answered (completed) the question {n} . Do you still want to submit it?\n",
+    "message": "Question {n} is not yet answered. Do you still want to submit the exam?\n",
     "description": "考试快捷地址"
   },
   "confirmPaper": {
@@ -1340,7 +1340,7 @@
     "description": "考试快捷地址"
   },
   "timeOverTip": {
-    "message": "The time is exhausted. Your response will be submitted automatically in 3 seconds.",
+    "message": "The time has run out. Your exam will be submitted automatically in 3 seconds.",
     "description": "考试快捷地址"
   },
   "nextPart": {
@@ -1408,15 +1408,15 @@
     "description": "考试快捷地址"
   },
   "switchPartTipAboutRecording": {
-    "message": "There is a recording in progress, if switch to another section, the recording will stop. Do you till want to switch?",
+    "message": "A recording is still in progress. Switching to another section will stop the recording. Are you sure you want to switch?",
     "description": "考试快捷地址"
   },
   "submitTipAboutUpload": {
-    "message": "There are files being uploaded, please submit later.",
+    "message": "File uploading is still in progress - Please submit it later!",
     "description": "考试快捷地址"
   },
   "saveTipAboutUpload": {
-    "message": "There are files being uploaded, please save later.",
+    "message": "File uploading is still in progress - Please save later!",
     "description": "考试快捷地址"
   },
   "addBlankTip": {
@@ -1428,11 +1428,11 @@
     "description": "考试快捷地址"
   },
   "notExitTip": {
-    "message": "It is forbidden to exit the full screen or leave the exam page during the exam!",
+    "message": "You're not allowed to exit full screen or leave the exam screen during the exam!",
     "description": "考试快捷地址"
   },
   "leaveTimesTip": {
-    "message": "You have left the exam {n} times!",
+    "message": "You've left the exam screen {n} times!",
     "description": "考试快捷地址"
   },
   "continueAnswer": {
@@ -1456,11 +1456,11 @@
     "description": "考试快捷地址"
   },
   "guide2": {
-    "message": "On the left , you can add, move and delete exam sections. Click the section title to switch to the corresponding section.",
+    "message": "On the left , you can add, move and delete exam sections. Click the section name to switch to that section.",
     "description": "考试快捷地址"
   },
   "guide3": {
-    "message": "Click here to modify the section name and description.",
+    "message": "Click here to edit the section name and description.",
     "description": "考试快捷地址"
   },
   "guide4": {
@@ -1472,7 +1472,7 @@
     "description": "考试快捷地址"
   },
   "guide6": {
-    "message": "Batch setting of score and audio playback times, moved here.",
+    "message": "Batch setting of points per question and number of plays per audio moved here.",
     "description": "考试快捷地址"
   },
   "guide7": {
@@ -1484,7 +1484,7 @@
     "description": "考试快捷地址"
   },
   "paperUsedTip": {
-    "message": "This exam is in use. Only the content, answers and scores of the questions can be modified. The structure of the sections cannot be modified, or the questions can be added or deleted. Combination Questions are not allowed to add or delete sub-questions.",
+    "message": "This exam is in use. Only the question stem, answers, and points can be edited. The exam structure cannot be modified. Don't add/delete questions or sub-questions (for combination questions).",
     "description": "考试快捷地址"
   },
   "createPaper": {
@@ -1492,7 +1492,7 @@
     "description": "考试快捷地址"
   },
   "editPaper": {
-    "message": "Modify Exam",
+    "message": "Edit Exam",
     "description": "考试快捷地址"
   },
   "previewPaper": {
@@ -1505,6 +1505,14 @@
   },
   "answerHistory": {
     "message": "Exam Response",
+    "description": "考试快捷地址"
+  },
+  "cameraErrorTip": {
+    "message": "Camera monitoring error - The camera fails to start. Please check whether: {br}1. Camera access is not enabled. {br}2. The camera is used by another program. {br}3. The network is unavailable. {br}If any of the above exists, please fix it and then click the Continue to Answer button.",
+    "description": "考试快捷地址"
+  },
+  "cameraNoStartTip": {
+    "message": "Turn on the camera",
     "description": "考试快捷地址"
   }
 }
