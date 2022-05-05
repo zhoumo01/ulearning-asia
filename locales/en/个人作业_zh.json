@@ -19,18 +19,6 @@
     "message": "Close",
     "description": "个人作业zh_js"
   },
-  "m.SCORE": {
-    "message": "Score",
-    "description": "个人作业zh_js"
-  },
-  "m.YEAR": {
-    "message": "Year",
-    "description": "个人作业zh_js"
-  },
-  "m.PART": {
-    "message": "assignments",
-    "description": "个人作业zh_js"
-  },
   "m.GRADE_WAYS": {
     "message": "Evaluation Methods",
     "description": "个人作业zh_js"
@@ -43,10 +31,6 @@
     "message": " Peer Evaluation ",
     "description": "个人作业zh_js"
   },
-  "m.GRADE_SYSTEM": {
-    "message": "System auto-marking",
-    "description": "个人作业zh_js"
-  },
   "m.GRADE_WRITEAUTO": {
     "message": " English writing system auto-marking",
     "description": "个人作业zh_js"
@@ -55,9 +39,17 @@
     "message": "Oral English system auto-marking",
     "description": "个人作业zh_js"
   },
+  "m.GRADE_SYSTEM": {
+    "message": "System auto-marking",
+    "description": "个人作业zh_js"
+  },
   "m.GRADE_FULL": {
     "message": "Full marks",
     "description": "个人作业zh_js"
+  },
+  "m.GRADE_FULL_OF1": {
+    "message": "total score {n}\n",
+    "description": "移动端 -> 教师端 -> 作业详情 -> 批阅"
   },
   "m.GROWTH": {
     "message": " Growth Value ",
@@ -187,14 +179,6 @@
     "message": " Select class ",
     "description": "个人作业zh_js"
   },
-  "m.EACH_STUDENTEvaluate": {
-    "message": " Evaluation by every student ",
-    "description": "个人作业zh_js"
-  },
-  "m.COUNTWORK": {
-    "message": "  assignment(s)",
-    "description": "个人作业zh_js"
-  },
   "m.PEERRULES": {
     "message": "Rules of Peer  Evaluation",
     "description": "个人作业zh_js"
@@ -211,9 +195,9 @@
     "message": " Please enter the content of listen and read aloud, within 200 words. Do not input Chinese characters, otherwise it will cause scoring failure.",
     "description": "个人作业zh_js"
   },
-  "m.COUNTWORD": {
-    "message": "   word(s)",
-    "description": "个人作业zh_js"
+  "m.wordsLength": {
+    "message": "{n} words",
+    "description": "教师 -> 布置作业 -> 评价方式 -> 英文口语系统评分 -> 英文口语系统评分"
   },
   "m.HOMEWORKTITLEEmptyERROR": {
     "message": " Please enter title ",
@@ -375,13 +359,9 @@
     "message": " The number of assignment submitted is insufficient to conduct peer evaluation. Please wait for the teacher's grading. ",
     "description": "个人作业zh_js"
   },
-  "m.workdetailsTipInfo7": {
-    "message": " Assignment has been submitted. Please begin to",
-    "description": "个人作业zh_js"
-  },
-  "m.workdetailsTipInfo8": {
-    "message": " Start peer evaluation, which will end on",
-    "description": "个人作业zh_js"
+  "m.workdetailsTip7": {
+    "message": "The job has been submitted. Please start mutual evaluation at {startTime} until {endTime}",
+    "description": "学生 -> 作业详情(要求作业处于互评未开始的阶段)"
   },
   "m.workdetailsTipInfo9": {
     "message": " Error to acquire assignment ",
@@ -439,6 +419,10 @@
     "message": " Teacher does not share assignment ",
     "description": "个人作业zh_js"
   },
+  "m.prevWorkList": {
+    "message": "Historical commit records",
+    "description": "个人作业zh_js"
+  },
   "m.workVersion": {
     "message": "Version",
     "description": "个人作业zh_js"
@@ -491,9 +475,9 @@
     "message": "Seek",
     "description": "个人作业zh_js"
   },
-  "m.stuScore": {
-    "message": "Score：",
-    "description": "个人作业zh_js"
+  "m.scoreOf2": {
+    "message": "Score: {score}",
+    "description": "移动端 -> 教师端 -> 学生提交作业列表 -> 评价任务 (需要作业是互评作业) \n PC -> 学生 -> 评价任务 -> 评价结束后显示"
   },
   "m.commentEmpty": {
     "message": " No comments left",
@@ -563,14 +547,6 @@
     "message": "Rules of peer evaluation",
     "description": "个人作业zh_js"
   },
-  "m.deductScore": {
-    "message": " Deduct scores：",
-    "description": "个人作业zh_js"
-  },
-  "m.unevaluateTask": {
-    "message": " Unfinished evaluation task ",
-    "description": "个人作业zh_js"
-  },
   "m.advantage": {
     "message": " Average score:",
     "description": "个人作业zh_js"
@@ -619,10 +595,6 @@
     "message": " Failed to mark ",
     "description": "个人作业zh_js"
   },
-  "m.noEvaluate01": {
-    "message": " No evaluation  ",
-    "description": "个人作业zh_js"
-  },
   "m.noEvaluate02": {
     "message": " The student did not evaluate the assignment. ",
     "description": "个人作业zh_js"
@@ -653,10 +625,6 @@
   },
   "m.addPrise": {
     "message": " Thumbs-up ",
-    "description": "个人作业zh_js"
-  },
-  "m.CountWord": {
-    "message": "   word(s)",
     "description": "个人作业zh_js"
   },
   "m.delPrise": {
@@ -707,13 +675,13 @@
     "message": " If you are not satisfied with the average score of the peer evaluation, you can appeal to the teacher, who will mark your assignment. Final score = teacher's score.",
     "description": "个人作业zh_js"
   },
-  "m.hour": {
-    "message": "hour",
-    "description": "个人作业zh_js"
+  "m.pickHour": {
+    "message": "{n} hour",
+    "description": "用在 datepicker (时间选择器) 中"
   },
-  "m.min": {
-    "message": "min",
-    "description": "个人作业zh_js"
+  "m.pickMinute": {
+    "message": "{n} minute",
+    "description": "用在 datepicker (时间选择器) 中"
   },
   "m.scoreTip": {
     "message": " Score cannot exceed the total score ",
@@ -742,5 +710,17 @@
   "m.switchOFF": {
     "message": "OFF",
     "description": "switch按钮上显示的文本，可以在发布个人作业页面看到"
+  },
+  "m.historyTip": {
+    "message": "Submit multiple times, and the homework score will be the highest score",
+    "description": "个人作业zh_js"
+  },
+  "m.mobilePermissionTip1": {
+    "message": "You have disabled the camera permission and cannot use this function, please go to the [Settings] of the phone to authorize",
+    "description": "个人作业zh_js"
+  },
+  "m.mobilePermissionTip2": {
+    "message": "You have disabled the microphone permission and cannot use this function, please go to the [Settings] of the phone to authorize",
+    "description": "个人作业zh_js"
   }
 }
