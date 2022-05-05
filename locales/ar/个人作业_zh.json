@@ -39,6 +39,10 @@
     "message": "الدرجة النهائية",
     "description": "个人作业zh_js"
   },
+  "m.GRADE_FULL_OF1": {
+    "message": "مجموع النقاط {n}\n",
+    "description": "移动端 -> 教师端 -> 作业详情 -> 批阅"
+  },
   "m.GROWTH": {
     "message": " قدر التطور ",
     "description": "个人作业zh_js"
@@ -182,6 +186,10 @@
   "m.GRADE_SPOKENAUTOTIPerror": {
     "message": " يرجى إدخال محتوى الاستماع والقراءة بصوت مسموع بما لا يزيد عن 200 كلمة. لا تقم بإدخال حروف صينية وإلا فإنه سيؤدي إلى تعذر عملية إعطاء الدرجات.",
     "description": "个人作业zh_js"
+  },
+  "m.wordsLength": {
+    "message": "كلمات {n}",
+    "description": "教师 -> 布置作业 -> 评价方式 -> 英文口语系统评分 -> 英文口语系统评分"
   },
   "m.HOMEWORKTITLEEmptyERROR": {
     "message": " يرجى إدخال العنوان ",
@@ -343,6 +351,10 @@
     "message": "عدد الواجبات المرسلة غير كاف لتقييم الأقران. يرجى إنتظار تقدير المعلم",
     "description": "个人作业zh_js"
   },
+  "m.workdetailsTip7": {
+    "message": "تم تقديم الوظيفة. يرجى بدء التقييم المتبادل في {startTime} حتى {endTime}",
+    "description": "学生 -> 作业详情(要求作业处于互评未开始的阶段)"
+  },
   "m.workdetailsTipInfo9": {
     "message": " خطأ في الحصول على الواجب",
     "description": "个人作业zh_js"
@@ -399,6 +411,10 @@
     "message": "لم يقم المعلم بمشاركة الواجب ",
     "description": "个人作业zh_js"
   },
+  "m.prevWorkList": {
+    "message": "سجلات الالتزام التاريخية",
+    "description": "个人作业zh_js"
+  },
   "m.workVersion": {
     "message": "الإصدار",
     "description": "个人作业zh_js"
@@ -450,6 +466,10 @@
   "m.seek": {
     "message": "بحث",
     "description": "个人作业zh_js"
+  },
+  "m.scoreOf2": {
+    "message": "النتيجة: {score}",
+    "description": "移动端 -> 教师端 -> 学生提交作业列表 -> 评价任务 (需要作业是互评作业) \n PC -> 学生 -> 评价任务 -> 评价结束后显示"
   },
   "m.commentEmpty": {
     "message": " لم يتبقى تعليقات",
@@ -647,6 +667,14 @@
     "message": " إذا لم تكن راضيا عن متوسط درجة تقييم الأقران، يمكنك أن تشتكي للمعلم، الذي سيقوم بتصحيح واجبك. و ستكون النتيجة النهائية هي درجة المعلم.",
     "description": "个人作业zh_js"
   },
+  "m.pickHour": {
+    "message": "{n} ساعة\n",
+    "description": "用在 datepicker (时间选择器) 中"
+  },
+  "m.pickMinute": {
+    "message": "{n} دقيقة\n",
+    "description": "用在 datepicker (时间选择器) 中"
+  },
   "m.scoreTip": {
     "message": " لا يمكن أن تتجاوز الدرجة مجموع الدرجات",
     "description": "个人作业zh_js"
@@ -674,5 +702,17 @@
   "m.switchOFF": {
     "message": "إيقاف التشغيل",
     "description": "switch按钮上显示的文本，可以在发布个人作业页面看到"
+  },
+  "m.historyTip": {
+    "message": "أرسل عدة مرات ، وستكون درجة الواجب المنزلي هي أعلى درجة",
+    "description": "个人作业zh_js"
+  },
+  "m.mobilePermissionTip1": {
+    "message": "لقد قمت بتعطيل إذن الكاميرا ولا يمكنك استخدام هذه الوظيفة ، يرجى الانتقال إلى [الإعدادات] الخاصة بالهاتف للتفويض",
+    "description": "个人作业zh_js"
+  },
+  "m.mobilePermissionTip2": {
+    "message": "لقد قمت بتعطيل إذن الميكروفون ولا يمكنك استخدام هذه الوظيفة ، يرجى الانتقال إلى [الإعدادات] للهاتف للتفويض",
+    "description": "个人作业zh_js"
   }
 }
