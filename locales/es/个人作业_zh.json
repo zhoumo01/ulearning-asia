@@ -19,18 +19,6 @@
     "message": "Cerrar",
     "description": "个人作业zh_js"
   },
-  "m.SCORE": {
-    "message": "Puntos",
-    "description": "个人作业zh_js"
-  },
-  "m.YEAR": {
-    "message": "Año",
-    "description": "个人作业zh_js"
-  },
-  "m.PART": {
-    "message": "Parte",
-    "description": "个人作业zh_js"
-  },
   "m.GRADE_WAYS": {
     "message": "Método de evaluación",
     "description": "个人作业zh_js"
@@ -58,6 +46,10 @@
   "m.GRADE_FULL": {
     "message": "Marca completa",
     "description": "个人作业zh_js"
+  },
+  "m.GRADE_FULL_OF1": {
+    "message": "puntaje total {n}\n",
+    "description": "移动端 -> 教师端 -> 作业详情 -> 批阅"
   },
   "m.GROWTH": {
     "message": "Valor de crecimiento",
@@ -187,14 +179,6 @@
     "message": "Elige una clase",
     "description": "个人作业zh_js"
   },
-  "m.EACH_STUDENTEvaluate": {
-    "message": "Calificación por estudiante",
-    "description": "个人作业zh_js"
-  },
-  "m.COUNTWORK": {
-    "message": "Una tarea.",
-    "description": "个人作业zh_js"
-  },
   "m.PEERRULES": {
     "message": "Reglas de evaluación mutua",
     "description": "个人作业zh_js"
@@ -211,9 +195,9 @@
     "message": "Por favor, introduzca el contenido de seguimiento, 200 palabras dentro, no debe introducir caracteres chinos, de lo contrario causará el error de puntuación.",
     "description": "个人作业zh_js"
   },
-  "m.COUNTWORD": {
-    "message": "Una palabra",
-    "description": "个人作业zh_js"
+  "m.wordsLength": {
+    "message": "{n} palabras",
+    "description": "教师 -> 布置作业 -> 评价方式 -> 英文口语系统评分 -> 英文口语系统评分"
   },
   "m.HOMEWORKTITLEEmptyERROR": {
     "message": "Por favor, introduzca el título",
@@ -375,13 +359,9 @@
     "message": "No hay suficientes trabajos enviados para realizar la evaluación. Por favor, espere la puntuación del maestro",
     "description": "个人作业zh_js"
   },
-  "m.workdetailsTipInfo7": {
-    "message": "El trabajo se ha enviado. Por favor",
-    "description": "个人作业zh_js"
-  },
-  "m.workdetailsTipInfo8": {
-    "message": "La evaluación mutua inicia, finaliza el",
-    "description": "个人作业zh_js"
+  "m.workdetailsTip7": {
+    "message": "El trabajo ha sido enviado. Inicie la evaluación mutua en {startTime} hasta {endTime}",
+    "description": "学生 -> 作业详情(要求作业处于互评未开始的阶段)"
   },
   "m.workdetailsTipInfo9": {
     "message": "Se ha producido un error al obtener tarea",
@@ -439,6 +419,10 @@
     "message": "El maestro no compartió ninguna tarea",
     "description": "个人作业zh_js"
   },
+  "m.prevWorkList": {
+    "message": "Registros históricos de confirmación",
+    "description": "个人作业zh_js"
+  },
   "m.workVersion": {
     "message": "Versión",
     "description": "个人作业zh_js"
@@ -491,9 +475,9 @@
     "message": "Ver",
     "description": "个人作业zh_js"
   },
-  "m.stuScore": {
-    "message": "Puntuación:",
-    "description": "个人作业zh_js"
+  "m.scoreOf2": {
+    "message": "Puntuación: {score}",
+    "description": "移动端 -> 教师端 -> 学生提交作业列表 -> 评价任务 (需要作业是互评作业) \n PC -> 学生 -> 评价任务 -> 评价结束后显示"
   },
   "m.commentEmpty": {
     "message": "No quedan comentarios",
@@ -563,14 +547,6 @@
     "message": "Reglas de evaluación mutua",
     "description": "个人作业zh_js"
   },
-  "m.deductScore": {
-    "message": "Deducción:",
-    "description": "个人作业zh_js"
-  },
-  "m.unevaluateTask": {
-    "message": "Tarea de evaluación inacabada",
-    "description": "个人作业zh_js"
-  },
   "m.advantage": {
     "message": "Puntuación media:",
     "description": "个人作业zh_js"
@@ -619,10 +595,6 @@
     "message": "Revisión fallida",
     "description": "个人作业zh_js"
   },
-  "m.noEvaluate01": {
-    "message": "Sin evaluación",
-    "description": "个人作业zh_js"
-  },
   "m.noEvaluate02": {
     "message": "El compañero de clase no evaluó la tarea",
     "description": "个人作业zh_js"
@@ -653,10 +625,6 @@
   },
   "m.addPrise": {
     "message": "Me gusta",
-    "description": "个人作业zh_js"
-  },
-  "m.CountWord": {
-    "message": "Palabra",
     "description": "个人作业zh_js"
   },
   "m.delPrise": {
@@ -707,13 +675,13 @@
     "message": "Si no está satisfecho con la puntuación media de la evaluación mutua, puede presentar una queja ante el maestro, que calificará la asignación. Puntuación final = Puntuación del profesor.",
     "description": "个人作业zh_js"
   },
-  "m.hour": {
-    "message": "Punto",
-    "description": "个人作业zh_js"
+  "m.pickHour": {
+    "message": "{n} horas",
+    "description": "用在 datepicker (时间选择器) 中"
   },
-  "m.min": {
-    "message": "Puntos",
-    "description": "个人作业zh_js"
+  "m.pickMinute": {
+    "message": "{n} minutos",
+    "description": "用在 datepicker (时间选择器) 中"
   },
   "m.scoreTip": {
     "message": "La puntuación no puede ser superior a la puntuación completa",
@@ -742,5 +710,17 @@
   "m.switchOFF": {
     "message": "cerrado",
     "description": "switch按钮上显示的文本，可以在发布个人作业页面看到"
+  },
+  "m.historyTip": {
+    "message": "Envíe varias veces, y el puntaje de la tarea será el puntaje más alto",
+    "description": "个人作业zh_js"
+  },
+  "m.mobilePermissionTip1": {
+    "message": "Ha deshabilitado el permiso de la cámara y no puede usar esta función, vaya a [Configuración] del teléfono para autorizar",
+    "description": "个人作业zh_js"
+  },
+  "m.mobilePermissionTip2": {
+    "message": "Ha deshabilitado el permiso de micrófono y no puede usar esta función, vaya a [Configuración] del teléfono para autorizar",
+    "description": "个人作业zh_js"
   }
 }
