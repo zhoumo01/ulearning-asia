@@ -47,6 +47,10 @@
     "message": "Points complètes\n",
     "description": "个人作业zh_js"
   },
+  "m.GRADE_FULL_OF1": {
+    "message": "Score total {n}",
+    "description": "移动端 -> 教师端 -> 作业详情 -> 批阅"
+  },
   "m.GROWTH": {
     "message": " Valeur de croissance ",
     "description": "个人作业zh_js"
@@ -190,6 +194,10 @@
   "m.GRADE_SPOKENAUTOTIPerror": {
     "message": " Veuillez entrer le contenu de l’écoute et de la lecture à haute voix, dans un délai de 200 mots. Ne saisissez pas de caractères chinois, sinon cela entraînera un échec de notation.",
     "description": "个人作业zh_js"
+  },
+  "m.wordsLength": {
+    "message": "{n} mots",
+    "description": "教师 -> 布置作业 -> 评价方式 -> 英文口语系统评分 -> 英文口语系统评分"
   },
   "m.HOMEWORKTITLEEmptyERROR": {
     "message": "Veuillez entré le titre",
@@ -351,6 +359,10 @@
     "message": " Le nombre d'affectation soumises est insuffisant pour mener une évaluation par les pairs. Veuillez attendre la notation de l’enseignant. ",
     "description": "个人作业zh_js"
   },
+  "m.workdetailsTip7": {
+    "message": "Le travail a été soumis. Veuillez commencer l’évaluation mutuelle à {startTime} jusqu’à {endTime}",
+    "description": "学生 -> 作业详情(要求作业处于互评未开始的阶段)"
+  },
   "m.workdetailsTipInfo9": {
     "message": " Erreur lors de l’acquisition de l’affectation ",
     "description": "个人作业zh_js"
@@ -407,6 +419,10 @@
     "message": " L’enseignant ne partage pas les devoirs ",
     "description": "个人作业zh_js"
   },
+  "m.prevWorkList": {
+    "message": "Enregistrements de validation historiques",
+    "description": "个人作业zh_js"
+  },
   "m.workVersion": {
     "message": "Version",
     "description": "个人作业zh_js"
@@ -458,6 +474,10 @@
   "m.seek": {
     "message": "Chercher",
     "description": "个人作业zh_js"
+  },
+  "m.scoreOf2": {
+    "message": "Score: {score}",
+    "description": "移动端 -> 教师端 -> 学生提交作业列表 -> 评价任务 (需要作业是互评作业) \n PC -> 学生 -> 评价任务 -> 评价结束后显示"
   },
   "m.commentEmpty": {
     "message": " Aucun commentaire laissé",
@@ -655,6 +675,14 @@
     "message": " Si vous n’êtes pas satisfait de la note moyenne de l’évaluation par les pairs, vous pouvez faire appel à l’enseignant, qui marquera votre devoir. Score final = score de l’enseignant.",
     "description": "个人作业zh_js"
   },
+  "m.pickHour": {
+    "message": "{n} heures",
+    "description": "用在 datepicker (时间选择器) 中"
+  },
+  "m.pickMinute": {
+    "message": "{n} minutes",
+    "description": "用在 datepicker (时间选择器) 中"
+  },
   "m.scoreTip": {
     "message": " Le score ne peut pas dépasser le score total ",
     "description": "个人作业zh_js"
@@ -682,5 +710,17 @@
   "m.switchOFF": {
     "message": "Désactivé",
     "description": "switch按钮上显示的文本，可以在发布个人作业页面看到"
+  },
+  "m.historyTip": {
+    "message": "Soumettez plusieurs fois, et le score des devoirs sera le score le plus élevé",
+    "description": "个人作业zh_js"
+  },
+  "m.mobilePermissionTip1": {
+    "message": "L’accès à la caméra est désactivé et ne peut pas utiliser cette fonction - Veuillez accéder aux paramètres de votre appareil pour l’activer!",
+    "description": "个人作业zh_js"
+  },
+  "m.mobilePermissionTip2": {
+    "message": "Vous avez désactivé l’autorisation du microphone et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser",
+    "description": "个人作业zh_js"
   }
 }
