@@ -147,6 +147,18 @@
     "message": "Kelas",
     "description": "2.0 index.js"
   },
+  "courseWillEnd": {
+    "message": "Kursus akan berakhir pada {time}",
+    "description": "课程列表"
+  },
+  "courseHasEnd": {
+    "message": "Berakhir pada {time}",
+    "description": "课程列表 -> 已结束"
+  },
+  "courseCountdown": {
+    "message": "{n} hari sampai awal kursus",
+    "description": "课程列表 (需要课程为公开课)"
+  },
   "searchNoCourse": {
     "message": "Tidak menemukan mata kuliah terkait",
     "description": "2.0 index.js"
@@ -159,9 +171,17 @@
     "message": "Klik tombol sudut kanan atas untuk membuat mata kuliah!",
     "description": "2.0 index.js"
   },
+  "clickToJoinCourse": {
+    "message": "Klik tombol di sudut kanan atas untuk bergabung dengan kelas!",
+    "description": "2.0 index.js"
+  },
   "notJoinCourse": {
     "message": "Belum ikut bergabung dalam mata kuliah apapun",
     "description": "2.0 index.js"
+  },
+  "netError": {
+    "message": "Kesalahan jaringan, klik {reloadButton} untuk memuat ulang",
+    "description": "教师或学生账户 -> 课程列表"
   },
   "reload": {
     "message": "Memuat ulang",
@@ -177,6 +197,10 @@
   },
   "courseTitleTips": {
     "message": "Dosen telah membuat mata kuliah dengan nama yang sama. Anda disarankan untuk berkomunikasi terlebih dahulu dengan penanggung jawab mata kuliah, apakah perlu untuk membuat mata kuliah secara terpisah.",
+    "description": "2.0 index.js"
+  },
+  "courseTitleExistTips": {
+    "message": "Sudah ada kursus dengan nama yang sama di sekolah kami (dibuat oleh guru {nama}), disarankan agar Anda menghubungi guru untuk berkomunikasi dan mengkonfirmasi terlebih dahulu, untuk menghindari ketidaknyamanan mengulangi kursus.",
     "description": "2.0 index.js"
   },
   "isContinueCreate": {
@@ -723,6 +747,10 @@
     "message": "Total ",
     "description": "2.0 index.js"
   },
+  "totalTextbook": {
+    "message": "Total {n} buku teks ini",
+    "description": "非国际版首页 -> 更多教材"
+  },
   "detail": {
     "message": "Rincian",
     "description": "2.0 index.js"
@@ -783,9 +811,17 @@
     "message": "Kategori",
     "description": "2.0 index.js"
   },
+  "totalCourse": {
+    "message": "Total kursus {n}",
+    "description": "非国际版首页 -> 更多课程"
+  },
   "nationalBoutique": {
     "message": "Produk berkualitas negara",
     "description": "2.0 index.js"
+  },
+  "courseJoinCount": {
+    "message": "{n} orang berpartisipasi",
+    "description": "非国际版首页 -> 更多课程"
   },
   "summary": {
     "message": "Ringkasan konten",
@@ -1289,6 +1325,26 @@
   },
   "courseFile": {
     "message": "Arsip mata kuliah",
+    "description": "2.0 index.js"
+  },
+  "waitForCheckExit": {
+    "message": "Anda telah mengajukan permohonan untuk menarik diri dan sedang menunggu persetujuan dari guru Anda.",
+    "description": "2.0 index.js"
+  },
+  "courseRecorded": {
+    "message": "Rekaman kelas",
+    "description": "2.0 index.js"
+  },
+  "eLearning": {
+    "message": "eLearning",
+    "description": "2.0 index.js"
+  },
+  "joinCourseTips17": {
+    "message": "1. Kirim email ke avictvet@avic-intl.cn mengajukan akun baru dan mendapatkan kode kelas.",
+    "description": "2.0 index.js"
+  },
+  "joinCourseTips18": {
+    "message": "2. Hubungi sekolah atau guru Anda untuk mendapatkan kode kelas.",
     "description": "2.0 index.js"
   }
 }
