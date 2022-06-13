@@ -1514,5 +1514,681 @@
   "cameraNoStartTip": {
     "message": "请先开启摄像头",
     "description": "考试快捷地址"
+  },
+  "choiceQue": {
+    "message": "选择题目",
+    "description": "考试快捷地址"
+  },
+  "queBank": {
+    "message": "题库",
+    "description": "考试快捷地址"
+  },
+  "insert": {
+    "message": "插入",
+    "description": "考试快捷地址"
+  },
+  "alreadyChoices": {
+    "message": "已选{n}题",
+    "description": "考试快捷地址"
+  },
+  "mineQueBank": {
+    "message": "我的题库",
+    "description": "考试快捷地址"
+  },
+  "schoolQueBank": {
+    "message": "本校题库",
+    "description": "考试快捷地址"
+  },
+  "shareBank": {
+    "message": "共享题库",
+    "description": "考试快捷地址"
+  },
+  "goBack": {
+    "message": "返回",
+    "description": "考试快捷地址"
+  },
+  "allQuestions": {
+    "message": "全部题目",
+    "description": "考试快捷地址"
+  },
+  "parsentArea": {
+    "message": "当前位置",
+    "description": "考试快捷地址"
+  },
+  "search": {
+    "message": "搜索",
+    "description": "考试快捷地址"
+  },
+  "addQuestions": {
+    "message": "添加题目",
+    "description": "考试快捷地址"
+  },
+  "editQuestions": {
+    "message": "修改题目",
+    "description": "考试快捷地址"
+  },
+  "importQuestions": {
+    "message": "批量导入题目",
+    "description": "考试快捷地址"
+  },
+  "addBank": {
+    "message": "添加文件夹",
+    "description": "考试快捷地址"
+  },
+  "editBank": {
+    "message": "修改文件夹",
+    "description": "考试快捷地址"
+  },
+  "bankNameError1": {
+    "message": "文件夹名称不能为空",
+    "description": "考试快捷地址"
+  },
+  "bankNameError2": {
+    "message": "文件夹名称不能超过200字符",
+    "description": "考试快捷地址"
+  },
+  "bankNameError3": {
+    "message": "文件夹名称中不能包含以下字符：<>*?:\"'|/\\~",
+    "description": "考试快捷地址"
+  },
+  "bankNameError4": {
+    "message": "文件夹最多添加5级,当前目录为第{l}级,不能再添加子文件夹",
+    "description": "考试快捷地址"
+  },
+  "writeBankName": {
+    "message": "请输入文件夹名称",
+    "description": "考试快捷地址"
+  },
+  "addSuccess": {
+    "message": "添加成功",
+    "description": "考试快捷地址"
+  },
+  "addFail": {
+    "message": "添加失败",
+    "description": "考试快捷地址"
+  },
+  "queBankStatistics": {
+    "message": "题库统计",
+    "description": "考试快捷地址"
+  },
+  "importBank": {
+    "message": "导出题库",
+    "description": "考试快捷地址"
+  },
+  "importBankOverNum": {
+    "message": "题目导出数量超出上限。",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg": {
+    "message": "正在导出，请稍等......",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg1": {
+    "message": "导出时间可能较长，请耐心等待。",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg2": {
+    "message": "如遇浏览器拦截弹窗，请选择始终允许网站弹出窗口。",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg3": {
+    "message": "正在导出，已完成{n}/{m}",
+    "description": "考试快捷地址"
+  },
+  "cancelExportRecord": {
+    "message": "取消导出",
+    "description": "考试快捷地址"
+  },
+  "imporBanktNone": {
+    "message": "该目录下没有题目可供导出。",
+    "description": "考试快捷地址"
+  },
+  "importBankErrorMsg": {
+    "message": "导出失败",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsType": {
+    "message": "全部题型",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsLevel": {
+    "message": "全部难度",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsTime": {
+    "message": "按创建时间倒序",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsTimePositive": {
+    "message": "按创建时间正序",
+    "description": "考试快捷地址"
+  },
+  "writeSearch": {
+    "message": "搜索题目/文件夹",
+    "description": "考试快捷地址"
+  },
+  "titleDetails": {
+    "message": "题目详情",
+    "description": "考试快捷地址"
+  },
+  "choiceQueType": {
+    "message": "选择题型",
+    "description": "考试快捷地址"
+  },
+  "textImport": {
+    "message": "文本导入",
+    "description": "考试快捷地址"
+  },
+  "paperImport": {
+    "message": "从试卷导入",
+    "description": "考试快捷地址"
+  },
+  "paperImportError": {
+    "message": "在当前目录导入试卷，文件夹层级将超出上限。题库最多支持5级目录，请重新选择文件夹导入。",
+    "description": "考试快捷地址"
+  },
+  "excelImport": {
+    "message": "从Excel导入",
+    "description": "考试快捷地址"
+  },
+  "importExcelLoadMsg": {
+    "message": "正在导入，请稍等......",
+    "description": "考试快捷地址"
+  },
+  "importSuccess": {
+    "message": "导入成功",
+    "description": "考试快捷地址"
+  },
+  "hardlevels1": {
+    "message": "容易",
+    "description": "考试快捷地址"
+  },
+  "hardlevels2": {
+    "message": "较容易",
+    "description": "考试快捷地址"
+  },
+  "hardlevels3": {
+    "message": "一般",
+    "description": "考试快捷地址"
+  },
+  "hardlevels4": {
+    "message": "较难",
+    "description": "考试快捷地址"
+  },
+  "hardlevels5": {
+    "message": "困难",
+    "description": "考试快捷地址"
+  },
+  "downloadTemplate": {
+    "message": "下载模板",
+    "description": "考试快捷地址"
+  },
+  "downloadTemplateMsg": {
+    "message": "下载Excel模板，并按照模板要求填写题目",
+    "description": "考试快捷地址"
+  },
+  "uploadFile": {
+    "message": "上传文件",
+    "description": "考试快捷地址"
+  },
+  "uploadFileMsg": {
+    "message": "上传填写完成的Excel文件",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError": {
+    "message": "文件中部分题目信息不规范，请检查修改后再上传",
+    "description": "考试快捷地址"
+  },
+  "uploadFileErrorMsg": {
+    "message": "第{n}行，{m}列，",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg": {
+    "message": "请先选择题目",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg1": {
+    "message": "一次最多导入200题",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg2": {
+    "message": "最多导入200题",
+    "description": "考试快捷地址"
+  },
+  "choiceAll": {
+    "message": "全选",
+    "description": "考试快捷地址"
+  },
+  "moveSuccess": {
+    "message": "移动成功",
+    "description": "考试快捷地址"
+  },
+  "moveFail": {
+    "message": "移动失败",
+    "description": "考试快捷地址"
+  },
+  "moveFailMsg1": {
+    "message": "文件夹层级不能超过5级，目标文件夹和当前文件夹的层级总和超过上限，不能移动。",
+    "description": "考试快捷地址"
+  },
+  "moveFailMsg2": {
+    "message": "目标文件夹中存在同名文件夹，不能移动。",
+    "description": "考试快捷地址"
+  },
+  "moveLoadMsg": {
+    "message": "正在移动，请稍等......",
+    "description": "考试快捷地址"
+  },
+  "changeShareRange": {
+    "message": "修改共享范围",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacherError1": {
+    "message": "请选择指定老师",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacherError2": {
+    "message": "请选择共享人",
+    "description": "考试快捷地址"
+  },
+  "shareTeacherEmpty": {
+    "message": "暂无指定老师",
+    "description": "考试快捷地址"
+  },
+  "shareNumOver": {
+    "message": "最多选择100个教师",
+    "description": "考试快捷地址"
+  },
+  "shareLoadMsg": {
+    "message": "正在保存，请稍等......",
+    "description": "考试快捷地址"
+  },
+  "queBankEmpty": {
+    "message": "当前目录下没有题目",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirmNew": {
+    "message": "确定删除【{n}】吗？",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm1": {
+    "message": "如果选择【保留题目，只删除文件夹】，删除后，文件夹中包含的题目将被移动到根目录下。",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm2": {
+    "message": "如果选择【全部删除】，文件夹中的题目将被一并删除。",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm3": {
+    "message": "保留题目，只删除文件夹",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm4": {
+    "message": "确认要删除{x}等{n}项内容吗？",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm6": {
+    "message": "删除后数据无法恢复。",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm7": {
+    "message": "确认要删除吗？ 删除后数据无法恢复。",
+    "description": "考试快捷地址"
+  },
+  "deleteLoadMsg": {
+    "message": "正在删除，请稍等......",
+    "description": "考试快捷地址"
+  },
+  "deleteAll": {
+    "message": "全部删除",
+    "description": "考试快捷地址"
+  },
+  "deleteSuccess": {
+    "message": "删除成功",
+    "description": "考试快捷地址"
+  },
+  "deleteFail": {
+    "message": "删除失败",
+    "description": "考试快捷地址"
+  },
+  "hardLevel": {
+    "message": "难度",
+    "description": "考试快捷地址"
+  },
+  "schoolTeacher": {
+    "message": "本校教师",
+    "description": "考试快捷地址"
+  },
+  "allTeacher": {
+    "message": "全部教师",
+    "description": "考试快捷地址"
+  },
+  "appointTeacher": {
+    "message": "指定教师",
+    "description": "考试快捷地址"
+  },
+  "sameQueinPaper": {
+    "message": "试卷中已有相似题目",
+    "description": "考试快捷地址"
+  },
+  "alreadyinPaper": {
+    "message": "已在试卷中",
+    "description": "考试快捷地址"
+  },
+  "subQuestionNum": {
+    "message": "{n}个小题",
+    "description": "考试快捷地址"
+  },
+  "changeLastTime": {
+    "message": "上次修改时间：{t}",
+    "description": "考试快捷地址"
+  },
+  "queLocation": {
+    "message": "所在位置",
+    "description": "考试快捷地址"
+  },
+  "founder": {
+    "message": "创建人",
+    "description": "考试快捷地址"
+  },
+  "own": {
+    "message": "我自己",
+    "description": "考试快捷地址"
+  },
+  "batchType1": {
+    "message": "重命名",
+    "description": "考试快捷地址"
+  },
+  "batchType2": {
+    "message": "移动",
+    "description": "考试快捷地址"
+  },
+  "batchType3": {
+    "message": "共享",
+    "description": "考试快捷地址"
+  },
+  "batchType5": {
+    "message": "修改",
+    "description": "考试快捷地址"
+  },
+  "batchType6": {
+    "message": "复制",
+    "description": "考试快捷地址"
+  },
+  "copySuccess": {
+    "message": "复制成功！{y}已复制到你的{x}下。",
+    "description": "考试快捷地址"
+  },
+  "copyQuestion": {
+    "message": "题目",
+    "description": "考试快捷地址"
+  },
+  "copyFolder": {
+    "message": "文件夹",
+    "description": "考试快捷地址"
+  },
+  "copyFail": {
+    "message": "复制失败",
+    "description": "考试快捷地址"
+  },
+  "copyLoadMsg": {
+    "message": "正在复制，请稍等......",
+    "description": "考试快捷地址"
+  },
+  "currentDirectory": {
+    "message": "当前目录",
+    "description": "考试快捷地址"
+  },
+  "rootDirectory": {
+    "message": "根目录",
+    "description": "考试快捷地址"
+  },
+  "targetFolder": {
+    "message": "请选择目标文件夹。",
+    "description": "考试快捷地址"
+  },
+  "sharePeople": {
+    "message": "将当前题目共享给：",
+    "description": "考试快捷地址"
+  },
+  "justOwn": {
+    "message": "仅自己",
+    "description": "考试快捷地址"
+  },
+  "choiceschoolTeacher": {
+    "message": "本校指定教师",
+    "description": "考试快捷地址"
+  },
+  "choiceschoolAllTeacher": {
+    "message": "本校所有教师",
+    "description": "考试快捷地址"
+  },
+  "choicesallTeacher": {
+    "message": "所有教师",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacher": {
+    "message": "选择教师",
+    "description": "考试快捷地址"
+  },
+  "searchTeacher": {
+    "message": "输入教师姓名搜索",
+    "description": "考试快捷地址"
+  },
+  "previousPage": {
+    "message": "上一页",
+    "description": "考试快捷地址"
+  },
+  "NextPage": {
+    "message": "下一页",
+    "description": "考试快捷地址"
+  },
+  "choicePage": {
+    "message": "跳转",
+    "description": "考试快捷地址"
+  },
+  "totleQueNum": {
+    "message": "题目总数",
+    "description": "考试快捷地址"
+  },
+  "totleFolderNum": {
+    "message": "文件夹总数",
+    "description": "考试快捷地址"
+  },
+  "hardDistribution": {
+    "message": "难度分布",
+    "description": "考试快捷地址"
+  },
+  "queTypeDistribution": {
+    "message": "题型分布",
+    "description": "考试快捷地址"
+  },
+  "tagsMsg": {
+    "message": "标签(30个字以内，回车确认，最多添加3个)：",
+    "description": "考试快捷地址"
+  },
+  "analysisTit": {
+    "message": "此处填写解析，没有可不填",
+    "description": "考试快捷地址"
+  },
+  "stemArea": {
+    "message": "在此处输入题干部分的内容",
+    "description": "考试快捷地址"
+  },
+  "choiceA": {
+    "message": "选项一",
+    "description": "考试快捷地址"
+  },
+  "choiceB": {
+    "message": "选项二",
+    "description": "考试快捷地址"
+  },
+  "choiceC": {
+    "message": "选项三",
+    "description": "考试快捷地址"
+  },
+  "choiceD": {
+    "message": "选项四",
+    "description": "考试快捷地址"
+  },
+  "completionStem": {
+    "message": "奥运精神是 ( ) 、 ( ) 、 ( ) 。",
+    "description": "考试快捷地址"
+  },
+  "completionAnswer": {
+    "message": "更快 || 更高 || 更强",
+    "description": "考试快捷地址"
+  },
+  "shortAnsStem": {
+    "message": "在此处输入简答题题干",
+    "description": "考试快捷地址"
+  },
+  "shortAnsAnswer": {
+    "message": "在此处填写简答题答案",
+    "description": "考试快捷地址"
+  },
+  "saveErrorTips2": {
+    "message": "部分试题保存失败",
+    "description": "考试快捷地址"
+  },
+  "numExceededTips": {
+    "message": "单次录入题目数量不能超过200道",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage1": {
+    "message": "题目不能为空",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage2": {
+    "message": "选项不足两个",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage3": {
+    "message": "选项不能超过20个",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage4": {
+    "message": "正确答案不能为空",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage5": {
+    "message": "正确答案选项中的内容不能为空",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage6": {
+    "message": "请填写选项内容，或将多余的选项删除",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage7": {
+    "message": "正确答案的个数不能超过选项的个数",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage8": {
+    "message": "正确答案中不能出现非选择项",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage9": {
+    "message": "正确答案中有重复项",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage10": {
+    "message": "参考答案的内容不能为空",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage11": {
+    "message": "正确答案数量不能少于空的数量",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage12": {
+    "message": "最多添加20个填空项",
+    "description": "考试快捷地址"
+  },
+  "completionAnswerTips": {
+    "message": "注：本题各空答案可以互换，内容匹配就算正确",
+    "description": "考试快捷地址"
+  },
+  "changeScoreText": {
+    "message": "确定批量修改分值吗?",
+    "description": "考试快捷地址"
+  },
+  "scoreTips": {
+    "message": "请输入有效的分数",
+    "description": "考试快捷地址"
+  },
+  "setScoreTips": {
+    "message": "先创建试题",
+    "description": "考试快捷地址"
+  },
+  "detailDescription": {
+    "message": "详细说明",
+    "description": "考试快捷地址"
+  },
+  "batchChangeScore": {
+    "message": "批量修改分值",
+    "description": "考试快捷地址"
+  },
+  "questionEditarea": {
+    "message": "题目编辑区域",
+    "description": "考试快捷地址"
+  },
+  "questionPreviewarea": {
+    "message": "题目预览区域",
+    "description": "考试快捷地址"
+  },
+  "questionEdit1": {
+    "message": "1. 此功能支持的题型：单选、多选、判断、填空、简答。",
+    "description": "考试快捷地址"
+  },
+  "questionEdit2": {
+    "message": "2.目前仅适用于纯文本题目导入，不支持包含图片、公式、视频、音频的题目。",
+    "description": "考试快捷地址"
+  },
+  "questionEdit3": {
+    "message": "3.可以通过两种方式添加题目：（1）点击上方的题型添加新题，按照模板格式编辑题目。（2）直接将word文档中的题目文本粘贴到这里，系统将自动识别题型，生成题目。",
+    "description": "考试快捷地址"
+  },
+  "questionEdit4": {
+    "message": "4.题目导入后，请在右侧预览区域检查题型、分值、答案、解析等信息识别是否准确，确认后再保存。",
+    "description": "考试快捷地址"
+  },
+  "correct": {
+    "message": "正确",
+    "description": "考试快捷地址"
+  },
+  "incorrect": {
+    "message": "错误",
+    "description": "考试快捷地址"
+  },
+  "quesOrder": {
+    "message": "第{n}题，",
+    "description": "考试快捷地址"
+  },
+  "saveOutText": {
+    "message": "您有题目没有保存，确定退出吗?",
+    "description": "考试快捷地址"
+  },
+  "bindDownload": {
+    "message": "下载Moodle题库格式转换工具",
+    "description": "考试快捷地址"
+  },
+  "downloadMoodleTitle": {
+    "message": "使用方法",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc1": {
+    "message": "1、下载并安装格式转换工具（仅支持Windows系统）。",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc2": {
+    "message": "2、从Moodle平台将题库导出成xml格式文件（仅支持选择题、判断题、填空题、简答题）。",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc3": {
+    "message": "3、使用格式转换工具，将Moodle导出的xml文件，转换成Excel格式。",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc4": {
+    "message": "4、使用ULearning的批量导入功能，上传Excel文件，完成题库导入。",
+    "description": "考试快捷地址"
   }
 }
