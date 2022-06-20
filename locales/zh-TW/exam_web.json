@@ -1538,5 +1538,653 @@
   "schoolQueBank": {
     "message": "本校題庫",
     "description": "考试快捷地址"
+  },
+  "shareBank": {
+    "message": "共享題庫",
+    "description": "考试快捷地址"
+  },
+  "goBack": {
+    "message": "返回",
+    "description": "考试快捷地址"
+  },
+  "allQuestions": {
+    "message": "全部題目",
+    "description": "考试快捷地址"
+  },
+  "parsentArea": {
+    "message": "當前位置",
+    "description": "考试快捷地址"
+  },
+  "search": {
+    "message": "搜尋",
+    "description": "考试快捷地址"
+  },
+  "addQuestions": {
+    "message": "添加題目",
+    "description": "考试快捷地址"
+  },
+  "editQuestions": {
+    "message": "修改題目",
+    "description": "考试快捷地址"
+  },
+  "importQuestions": {
+    "message": "批量匯入題目",
+    "description": "考试快捷地址"
+  },
+  "addBank": {
+    "message": "添加資料夾",
+    "description": "考试快捷地址"
+  },
+  "editBank": {
+    "message": "修改資料夾",
+    "description": "考试快捷地址"
+  },
+  "bankNameError1": {
+    "message": "資料夾名稱不能為空",
+    "description": "考试快捷地址"
+  },
+  "bankNameError2": {
+    "message": "資料夾名稱不能超過200字元",
+    "description": "考试快捷地址"
+  },
+  "bankNameError3": {
+    "message": "資料夾名稱中不能包含以下字元：<>*？：“'|/\\~",
+    "description": "考试快捷地址"
+  },
+  "bankNameError4": {
+    "message": "資料夾最多添加5級，當前目錄為第{l}級，不能再添加子資料夾",
+    "description": "考试快捷地址"
+  },
+  "writeBankName": {
+    "message": "請輸入資料夾名稱",
+    "description": "考试快捷地址"
+  },
+  "addSuccess": {
+    "message": "添加成功",
+    "description": "考试快捷地址"
+  },
+  "addFail": {
+    "message": "添加失敗",
+    "description": "考试快捷地址"
+  },
+  "queBankStatistics": {
+    "message": "題庫統計",
+    "description": "考试快捷地址"
+  },
+  "importBank": {
+    "message": "匯出題庫",
+    "description": "考试快捷地址"
+  },
+  "importBankOverNum": {
+    "message": "題目匯出數量超出上限。",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg": {
+    "message": "正在匯出，請稍等......",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg1": {
+    "message": "匯出時間可能較長，請耐心等待。",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg2": {
+    "message": "如遇瀏覽器攔截彈窗，請選擇始終允許網站彈出視窗。",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg3": {
+    "message": "正在匯出，已完成{n}/{m}",
+    "description": "考试快捷地址"
+  },
+  "cancelExportRecord": {
+    "message": "取消匯出",
+    "description": "考试快捷地址"
+  },
+  "imporBanktNone": {
+    "message": "該目錄下沒有題目可供匯出。",
+    "description": "考试快捷地址"
+  },
+  "importBankErrorMsg": {
+    "message": "匯出失敗",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsType": {
+    "message": "全部題型",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsLevel": {
+    "message": "全部難度",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsTime": {
+    "message": "按創建時間倒序",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsTimePositive": {
+    "message": "按創建時間正序",
+    "description": "考试快捷地址"
+  },
+  "writeSearch": {
+    "message": "搜索題目/資料夾",
+    "description": "考试快捷地址"
+  },
+  "titleDetails": {
+    "message": "題目詳情",
+    "description": "考试快捷地址"
+  },
+  "choiceQueType": {
+    "message": "選擇題型",
+    "description": "考试快捷地址"
+  },
+  "textImport": {
+    "message": "文本匯入",
+    "description": "考试快捷地址"
+  },
+  "paperImport": {
+    "message": "從試卷匯入",
+    "description": "考试快捷地址"
+  },
+  "paperImportError": {
+    "message": "在當前目錄導入試卷，資料夾層級將超出上限。 題庫最多支援5級目錄，請重新選擇資料夾導入。",
+    "description": "考试快捷地址"
+  },
+  "excelImport": {
+    "message": "Excel匯入",
+    "description": "考试快捷地址"
+  },
+  "importExcelLoadMsg": {
+    "message": "正在匯入，請稍等......",
+    "description": "考试快捷地址"
+  },
+  "importSuccess": {
+    "message": "匯入成功",
+    "description": "考试快捷地址"
+  },
+  "hardlevels1": {
+    "message": "容易",
+    "description": "考试快捷地址"
+  },
+  "hardlevels2": {
+    "message": "較容易",
+    "description": "考试快捷地址"
+  },
+  "hardlevels3": {
+    "message": "一般",
+    "description": "考试快捷地址"
+  },
+  "hardlevels4": {
+    "message": "較難",
+    "description": "考试快捷地址"
+  },
+  "hardlevels5": {
+    "message": "困難",
+    "description": "考试快捷地址"
+  },
+  "downloadTemplate": {
+    "message": "下載範本",
+    "description": "考试快捷地址"
+  },
+  "downloadTemplateMsg": {
+    "message": "下載Excel範本，並按照範本要求填寫題目",
+    "description": "考试快捷地址"
+  },
+  "uploadFile": {
+    "message": "上傳檔案",
+    "description": "考试快捷地址"
+  },
+  "uploadFileMsg": {
+    "message": "上傳填寫完成的Excel檔",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError": {
+    "message": "部分題目填寫不規範，請檢查修改後再上傳",
+    "description": "考试快捷地址"
+  },
+  "uploadFileErrorMsg": {
+    "message": "第{n}行，{m}列，",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg": {
+    "message": "請先選擇題目",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg1": {
+    "message": "一次最多匯入200題",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg2": {
+    "message": "最多匯入200題",
+    "description": "考试快捷地址"
+  },
+  "choiceAll": {
+    "message": "全選",
+    "description": "考试快捷地址"
+  },
+  "moveSuccess": {
+    "message": "移動成功",
+    "description": "考试快捷地址"
+  },
+  "moveFail": {
+    "message": "移動失敗",
+    "description": "考试快捷地址"
+  },
+  "moveFailMsg1": {
+    "message": "資料夾層級不能超過5級，目標資料夾和當前資料夾的層級總和超過上限，不能移動。",
+    "description": "考试快捷地址"
+  },
+  "moveFailMsg2": {
+    "message": "目標資料夾中存在同名資料夾，不能移動。",
+    "description": "考试快捷地址"
+  },
+  "moveLoadMsg": {
+    "message": "正在移動，請稍等......",
+    "description": "考试快捷地址"
+  },
+  "changeShareRange": {
+    "message": "修改共享範圍",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacherError1": {
+    "message": "請選擇指定老師",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacherError2": {
+    "message": "請選擇共享人",
+    "description": "考试快捷地址"
+  },
+  "shareTeacherEmpty": {
+    "message": "暫無指定老師",
+    "description": "考试快捷地址"
+  },
+  "shareNumOver": {
+    "message": "最多選擇100個教師",
+    "description": "考试快捷地址"
+  },
+  "shareLoadMsg": {
+    "message": "正在保存，請稍等......",
+    "description": "考试快捷地址"
+  },
+  "queBankEmpty": {
+    "message": "當前目錄下沒有題目",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirmNew": {
+    "message": "確定刪除【{n}】嗎？",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm1": {
+    "message": "如果選擇【保留題目，只刪除資料夾】，刪除後，資料夾中包含的題目將被移動到根目錄下。",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm2": {
+    "message": "如果選擇【全部刪除】，資料夾中的題目將被一併刪除。",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm3": {
+    "message": "保留題目，只刪除資料夾",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm4": {
+    "message": "確認要刪除{x}等{n}項內容嗎？",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm6": {
+    "message": "刪除後數據無法恢復。",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm7": {
+    "message": "確認要刪除嗎？ 刪除後數據無法恢復。",
+    "description": "考试快捷地址"
+  },
+  "deleteLoadMsg": {
+    "message": "正在刪除，請稍等......",
+    "description": "考试快捷地址"
+  },
+  "deleteAll": {
+    "message": "全部刪除",
+    "description": "考试快捷地址"
+  },
+  "deleteSuccess": {
+    "message": "删除成功",
+    "description": "考试快捷地址"
+  },
+  "deleteFail": {
+    "message": "刪除失敗",
+    "description": "考试快捷地址"
+  },
+  "hardLevel": {
+    "message": "難度",
+    "description": "考试快捷地址"
+  },
+  "schoolTeacher": {
+    "message": "本校教師",
+    "description": "考试快捷地址"
+  },
+  "allTeacher": {
+    "message": "全部教師",
+    "description": "考试快捷地址"
+  },
+  "appointTeacher": {
+    "message": "指定教師",
+    "description": "考试快捷地址"
+  },
+  "sameQueinPaper": {
+    "message": "試卷中已有相似題目",
+    "description": "考试快捷地址"
+  },
+  "alreadyinPaper": {
+    "message": "已在試卷中",
+    "description": "考试快捷地址"
+  },
+  "subQuestionNum": {
+    "message": "{n}個小題",
+    "description": "考试快捷地址"
+  },
+  "changeLastTime": {
+    "message": "上次修改時間：{t}",
+    "description": "考试快捷地址"
+  },
+  "queLocation": {
+    "message": "所在位置",
+    "description": "考试快捷地址"
+  },
+  "founder": {
+    "message": "創建人",
+    "description": "考试快捷地址"
+  },
+  "own": {
+    "message": "我自己",
+    "description": "考试快捷地址"
+  },
+  "batchType1": {
+    "message": "重命名",
+    "description": "考试快捷地址"
+  },
+  "batchType2": {
+    "message": "移動",
+    "description": "考试快捷地址"
+  },
+  "batchType3": {
+    "message": "共享",
+    "description": "考试快捷地址"
+  },
+  "batchType5": {
+    "message": "修改",
+    "description": "考试快捷地址"
+  },
+  "batchType6": {
+    "message": "複製",
+    "description": "考试快捷地址"
+  },
+  "copySuccess": {
+    "message": "複製成功！ {y}已複製到你的{x}下。",
+    "description": "考试快捷地址"
+  },
+  "copyQuestion": {
+    "message": "題目",
+    "description": "考试快捷地址"
+  },
+  "copyFolder": {
+    "message": "資料夾",
+    "description": "考试快捷地址"
+  },
+  "copyFail": {
+    "message": "複製失敗",
+    "description": "考试快捷地址"
+  },
+  "copyLoadMsg": {
+    "message": "正在複製，請稍等......",
+    "description": "考试快捷地址"
+  },
+  "currentDirectory": {
+    "message": "當前目錄",
+    "description": "考试快捷地址"
+  },
+  "rootDirectory": {
+    "message": "根目錄",
+    "description": "考试快捷地址"
+  },
+  "targetFolder": {
+    "message": "請選擇目標資料夾。",
+    "description": "考试快捷地址"
+  },
+  "sharePeople": {
+    "message": "將題目共享給：",
+    "description": "考试快捷地址"
+  },
+  "justOwn": {
+    "message": "僅自己",
+    "description": "考试快捷地址"
+  },
+  "choiceschoolTeacher": {
+    "message": "本校指定教師",
+    "description": "考试快捷地址"
+  },
+  "choiceschoolAllTeacher": {
+    "message": "本校所有教師",
+    "description": "考试快捷地址"
+  },
+  "choicesallTeacher": {
+    "message": "所有教師",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacher": {
+    "message": "選擇教師",
+    "description": "考试快捷地址"
+  },
+  "searchTeacher": {
+    "message": "輸入教師姓名搜尋",
+    "description": "考试快捷地址"
+  },
+  "previousPage": {
+    "message": "上一頁",
+    "description": "考试快捷地址"
+  },
+  "NextPage": {
+    "message": "下一頁",
+    "description": "考试快捷地址"
+  },
+  "choicePage": {
+    "message": "跳轉",
+    "description": "考试快捷地址"
+  },
+  "totleQueNum": {
+    "message": "題目總數",
+    "description": "考试快捷地址"
+  },
+  "totleFolderNum": {
+    "message": "資料夾總數",
+    "description": "考试快捷地址"
+  },
+  "hardDistribution": {
+    "message": "難度分佈",
+    "description": "考试快捷地址"
+  },
+  "queTypeDistribution": {
+    "message": "題型分佈",
+    "description": "考试快捷地址"
+  },
+  "tagsMsg": {
+    "message": "標籤（30個字以內，回車確認，最多添加3個）：",
+    "description": "考试快捷地址"
+  },
+  "analysisTit": {
+    "message": "此處填寫解析，沒有可不填",
+    "description": "考试快捷地址"
+  },
+  "stemArea": {
+    "message": "在此處輸入題幹部分的內容",
+    "description": "考试快捷地址"
+  },
+  "choiceA": {
+    "message": "選項一",
+    "description": "考试快捷地址"
+  },
+  "choiceB": {
+    "message": "選項二",
+    "description": "考试快捷地址"
+  },
+  "choiceC": {
+    "message": "選項三",
+    "description": "考试快捷地址"
+  },
+  "choiceD": {
+    "message": "選項四",
+    "description": "考试快捷地址"
+  },
+  "completionStem": {
+    "message": "奧運精神是 （ ） 、 （ ） 、 （ ） 。",
+    "description": "考试快捷地址"
+  },
+  "completionAnswer": {
+    "message": "更快 || 更高 || 更強",
+    "description": "考试快捷地址"
+  },
+  "shortAnsStem": {
+    "message": "在此處輸入簡答題題幹",
+    "description": "考试快捷地址"
+  },
+  "shortAnsAnswer": {
+    "message": "在此處填寫簡答題答案",
+    "description": "考试快捷地址"
+  },
+  "saveErrorTips2": {
+    "message": "部分試題保存失敗",
+    "description": "考试快捷地址"
+  },
+  "numExceededTips": {
+    "message": "單次錄入題目數量不能超過200道",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage1": {
+    "message": "題目不能為空",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage2": {
+    "message": "選項不足兩個",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage3": {
+    "message": "選項不能超過20個",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage4": {
+    "message": "正確答案不能爲空",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage5": {
+    "message": "正確答案選項中的內容不能為空",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage6": {
+    "message": "請填寫選項內容，或將多余的選項刪除",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage7": {
+    "message": "正確答案的個數不能超過選項的個數",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage8": {
+    "message": "正確答案中不能出現非選擇項",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage9": {
+    "message": "正確答案中有重複項",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage10": {
+    "message": "參考答案的內容不能為空",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage11": {
+    "message": "正確答案數量不能少於空的數量",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage12": {
+    "message": "最多添加20個填空項",
+    "description": "考试快捷地址"
+  },
+  "completionAnswerTips": {
+    "message": "注：本題各空答案可以互換，內容匹配就算正確",
+    "description": "考试快捷地址"
+  },
+  "changeScoreText": {
+    "message": "確定批量修改分值嗎?",
+    "description": "考试快捷地址"
+  },
+  "scoreTips": {
+    "message": "請輸入有效的分數",
+    "description": "考试快捷地址"
+  },
+  "setScoreTips": {
+    "message": "先創建試題",
+    "description": "考试快捷地址"
+  },
+  "detailDescription": {
+    "message": "詳細說明",
+    "description": "考试快捷地址"
+  },
+  "batchChangeScore": {
+    "message": "批量修改分值",
+    "description": "考试快捷地址"
+  },
+  "questionEditarea": {
+    "message": "題目編輯區域",
+    "description": "考试快捷地址"
+  },
+  "questionPreviewarea": {
+    "message": "題目預覽區域",
+    "description": "考试快捷地址"
+  },
+  "questionEdit1": {
+    "message": "1. 此功能支援的題型：單選、多選、判斷、填空、簡答。",
+    "description": "考试快捷地址"
+  },
+  "questionEdit2": {
+    "message": "2.目前僅適用於純文本題目匯入，不支持包含圖片、公式、視頻、音訊的題目。",
+    "description": "考试快捷地址"
+  },
+  "questionEdit3": {
+    "message": "3.可以通過兩種方式添加題目：（1）點擊上方的題型添加新題，按照範本格式編輯題目。 （2）直接將word文檔中的題目文本粘貼到這裡，系統將自動識別題型，生成題目。",
+    "description": "考试快捷地址"
+  },
+  "questionEdit4": {
+    "message": "4.題目匯入后，請在右側預覽區域檢查題型、分值、答案、解析等信息識別是否準確，確認后再保存。",
+    "description": "考试快捷地址"
+  },
+  "correct": {
+    "message": "正確",
+    "description": "考试快捷地址"
+  },
+  "incorrect": {
+    "message": "錯誤",
+    "description": "考试快捷地址"
+  },
+  "quesOrder": {
+    "message": "第{n}題，",
+    "description": "考试快捷地址"
+  },
+  "saveOutText": {
+    "message": "您有題目沒有保存，確定退出嗎?",
+    "description": "考试快捷地址"
+  },
+  "bindDownload": {
+    "message": "下載Moodle題庫格式轉換工具",
+    "description": "考试快捷地址"
+  },
+  "downloadMoodleTitle": {
+    "message": "使用方法",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc1": {
+    "message": "1、下載並安裝格式轉換工具（僅支持Windows系統）。",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc2": {
+    "message": "2、從Moodle平臺將題庫導出成xml格式檔（僅支持選擇題、判斷題、填空題、簡答題）。",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc3": {
+    "message": "3、使用格式轉換工具，將Moodle導出的xml檔，轉換成Excel格式。",
+    "description": "考试快捷地址"
   }
 }
