@@ -1514,5 +1514,729 @@
   "cameraNoStartTip": {
     "message": "กรุณาเปิดกล้องก่อน",
     "description": "考试快捷地址"
+  },
+  "choiceQue": {
+    "message": "เลือกหัวข้อ",
+    "description": "考试快捷地址"
+  },
+  "queBank": {
+    "message": "คลังคำถาม",
+    "description": "考试快捷地址"
+  },
+  "insert": {
+    "message": "แทรก",
+    "description": "考试快捷地址"
+  },
+  "alreadyChoices": {
+    "message": "คําถาม {n} ถูกเลือกแล้ว",
+    "description": "考试快捷地址"
+  },
+  "mineQueBank": {
+    "message": "ธนาคารคําถามของฉัน",
+    "description": "考试快捷地址"
+  },
+  "schoolQueBank": {
+    "message": "ธนาคารคําถามของโรงเรียนของเรา",
+    "description": "考试快捷地址"
+  },
+  "shareBank": {
+    "message": "แชร์คลังข้อทดสอบ",
+    "description": "考试快捷地址"
+  },
+  "goBack": {
+    "message": "กลับ",
+    "description": "考试快捷地址"
+  },
+  "allQuestions": {
+    "message": "หัวข้อทั้งหมด",
+    "description": "考试快捷地址"
+  },
+  "parsentArea": {
+    "message": "ตําแหน่งปัจจุบัน",
+    "description": "考试快捷地址"
+  },
+  "search": {
+    "message": "ค้นหา",
+    "description": "考试快捷地址"
+  },
+  "addQuestions": {
+    "message": "เพิ่มคําถาม",
+    "description": "考试快捷地址"
+  },
+  "editQuestions": {
+    "message": "ปรับเปลี่ยนชื่อเรื่อง",
+    "description": "考试快捷地址"
+  },
+  "importQuestions": {
+    "message": "นําเข้าคําถามจํานวนมาก",
+    "description": "考试快捷地址"
+  },
+  "addBank": {
+    "message": "เพิ่มโฟลเดอร์",
+    "description": "考试快捷地址"
+  },
+  "editBank": {
+    "message": "แก้ไขโฟลเดอร์",
+    "description": "考试快捷地址"
+  },
+  "bankNameError1": {
+    "message": "ชื่อโฟลเดอร์ไม่สามารถเว้นว่างได้",
+    "description": "考试快捷地址"
+  },
+  "bankNameError2": {
+    "message": "ชื่อโฟลเดอร์ต้องไม่เกิน 200 อักขระ",
+    "description": "考试快捷地址"
+  },
+  "bankNameError3": {
+    "message": "ชื่อโฟลเดอร์ไม่สามารถประกอบด้วยอักขระต่อไปนี้:<> *?:\" '|/\\~.'\"",
+    "description": "考试快捷地址"
+  },
+  "bankNameError4": {
+    "message": "สามารถเพิ่มโฟลเดอร์ได้สูงสุด 5 ระดับไดเร็กทอรีปัจจุบันคือระดับ {l} และไม่สามารถเพิ่มโฟลเดอร์ย่อยได้",
+    "description": "考试快捷地址"
+  },
+  "writeBankName": {
+    "message": "กรุณาใส่ชื่อโฟลเดอร์",
+    "description": "考试快捷地址"
+  },
+  "addSuccess": {
+    "message": "เพิ่มสำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "addFail": {
+    "message": "เพิ่มไม่สำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "queBankStatistics": {
+    "message": "สถิติธนาคารคําถาม",
+    "description": "考试快捷地址"
+  },
+  "importBank": {
+    "message": "ส่งออกธนาคารคําถาม",
+    "description": "考试快捷地址"
+  },
+  "importBankOverNum": {
+    "message": "จํานวนคําถามที่ส่งออกเกินขีดจํากัดสูงสุด",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg": {
+    "message": "การส่งออกโปรดรอสักครู่ ...",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg1": {
+    "message": "เวลาในการส่งออกอาจใช้เวลานาน โปรดอดทนรอ",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg2": {
+    "message": "หากเบราว์เซอร์บล็อกหน้าต่างป๊อปอัป โปรดเลือกที่จะอนุญาตหน้าต่างป๊อปอัปของเว็บไซต์เสมอ",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg3": {
+    "message": "ดำเนินต่อไป, {n}/{m} เสร็จสมบูรณ์",
+    "description": "考试快捷地址"
+  },
+  "cancelExportRecord": {
+    "message": "ยกเลิกการส่งออก",
+    "description": "考试快捷地址"
+  },
+  "imporBanktNone": {
+    "message": "ไม่มีชื่อเรื่องในไดเรกทอรีนี้เพื่อส่งออก",
+    "description": "考试快捷地址"
+  },
+  "importBankErrorMsg": {
+    "message": "การส่งออกล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsType": {
+    "message": "คำถามทั้งหมด",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsLevel": {
+    "message": "ความยากเต็ม",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsTime": {
+    "message": "ในลําดับย้อนกลับของเวลาในการสร้าง",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsTimePositive": {
+    "message": "ในลําดับของเวลาในการสร้าง",
+    "description": "考试快捷地址"
+  },
+  "writeSearch": {
+    "message": "ค้นหาหัวข้อ/โฟลเดอร์",
+    "description": "考试快捷地址"
+  },
+  "titleDetails": {
+    "message": "รายละเอียดหัวข้อ",
+    "description": "考试快捷地址"
+  },
+  "choiceQueType": {
+    "message": "เลือกประเภทคําถาม",
+    "description": "考试快捷地址"
+  },
+  "textImport": {
+    "message": "การนําเข้าข้อความ",
+    "description": "考试快捷地址"
+  },
+  "paperImport": {
+    "message": "นำเข้าจากข้อสอบ",
+    "description": "考试快捷地址"
+  },
+  "paperImportError": {
+    "message": "เมื่อคุณนําเข้ากระดาษแบบทดสอบในไดเรกทอรีปัจจุบันระดับโฟลเดอร์จะเกินขีด จํากัด บน ธนาคารคําถามรองรับไดเรกทอรีได้ถึง 5 ระดับโปรดเลือกการนําเข้าโฟลเดอร์อีกครั้ง",
+    "description": "考试快捷地址"
+  },
+  "excelImport": {
+    "message": "นําเข้าจาก Excel",
+    "description": "考试快捷地址"
+  },
+  "importExcelLoadMsg": {
+    "message": "นําเข้าโปรดรอสักครู่ ...",
+    "description": "考试快捷地址"
+  },
+  "importSuccess": {
+    "message": "นำเข้าสำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "hardlevels1": {
+    "message": "ง่าย",
+    "description": "考试快捷地址"
+  },
+  "hardlevels2": {
+    "message": "ทั่วไป",
+    "description": "考试快捷地址"
+  },
+  "hardlevels3": {
+    "message": "ปานกลาง",
+    "description": "考试快捷地址"
+  },
+  "hardlevels4": {
+    "message": "ค่อนข้างยาก",
+    "description": "考试快捷地址"
+  },
+  "hardlevels5": {
+    "message": "ยาก",
+    "description": "考试快捷地址"
+  },
+  "downloadTemplate": {
+    "message": "ดาวน์โหลดแม่แบบ",
+    "description": "考试快捷地址"
+  },
+  "downloadTemplateMsg": {
+    "message": "ดาวน์โหลดเทมเพลต Excel และกรอกคําถามตามความต้องการของเทมเพลต",
+    "description": "考试快捷地址"
+  },
+  "uploadFile": {
+    "message": "อัปโหลดไฟล์",
+    "description": "考试快捷地址"
+  },
+  "uploadFileMsg": {
+    "message": "อัปโหลดไฟล์ Excel ที่เสร็จสมบูรณ์แล้ว",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError": {
+    "message": "ข้อมูลหัวข้อบางอย่างในไฟล์ไม่ได้มาตรฐานโปรดตรวจสอบและแก้ไขก่อนอัปโหลด",
+    "description": "考试快捷地址"
+  },
+  "uploadFileErrorMsg": {
+    "message": "แถว {n} คอลัมน์ {m}",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg": {
+    "message": "โปรดเลือกหัวข้อก่อน",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg1": {
+    "message": "นําเข้าคําถามได้สูงสุด 200 คําถามต่อครั้ง",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg2": {
+    "message": "นําเข้าคําถามได้สูงสุด 200 ข้อ",
+    "description": "考试快捷地址"
+  },
+  "choiceAll": {
+    "message": "เลือกทั้งหมด",
+    "description": "考试快捷地址"
+  },
+  "moveSuccess": {
+    "message": "การย้ายสำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "moveFail": {
+    "message": "การย้ายไม่สำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "moveFailMsg1": {
+    "message": "ระดับโฟลเดอร์ต้องไม่เกิน 5 ระดับ และผลรวมของระดับของโฟลเดอร์ปลายทางและโฟลเดอร์ปัจจุบันเกินขีดจํากัดบนและไม่สามารถย้ายได้",
+    "description": "考试快捷地址"
+  },
+  "moveFailMsg2": {
+    "message": "โฟลเดอร์ที่มีชื่อเดียวกันมีอยู่ในโฟลเดอร์ปลายทางและไม่สามารถย้ายได้",
+    "description": "考试快捷地址"
+  },
+  "moveLoadMsg": {
+    "message": "ย้ายโปรดรอสักครู่ ...",
+    "description": "考试快捷地址"
+  },
+  "changeShareRange": {
+    "message": "แก้ไขขอบเขตการแบ่งปัน",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacherError1": {
+    "message": "โปรดเลือกครูที่ได้รับมอบหมาย",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacherError2": {
+    "message": "โปรดเลือกผู้แชร์",
+    "description": "考试快捷地址"
+  },
+  "shareTeacherEmpty": {
+    "message": "ไม่มีครูที่ได้รับมอบหมาย",
+    "description": "考试快捷地址"
+  },
+  "shareNumOver": {
+    "message": "เลือกครูได้สูงสุด 100 คน",
+    "description": "考试快捷地址"
+  },
+  "shareLoadMsg": {
+    "message": "ประหยัดโปรดรอสักครู่ ...",
+    "description": "考试快捷地址"
+  },
+  "queBankEmpty": {
+    "message": "ไม่มีชื่อเรื่องในสารบัญปัจจุบัน",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirmNew": {
+    "message": "คุณแน่ใจหรือว่าต้องการลบ [{n}]",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm1": {
+    "message": "ถ้าคุณเลือก เก็บหัวข้อ, ลบโฟลเดอร์เท่านั้น, หัวข้อที่อยู่ในโฟลเดอร์จะถูกย้ายไปยังไดเรกทอรีรากหลังจากการลบ.",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm2": {
+    "message": "หากคุณเลือก ลบทั้งหมด คําถามในโฟลเดอร์จะถูกลบเช่นกัน",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm3": {
+    "message": "เก็บชื่อเรื่องและลบเฉพาะโฟลเดอร์",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm4": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบเนื้อหาของรายการ {n} เช่น {x}",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm6": {
+    "message": "ไม่สามารถกู้คืนข้อมูลได้หลังจากการลบ",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm7": {
+    "message": "คุณแน่ใจหรือว่าต้องการลบมัน? ไม่สามารถกู้คืนข้อมูลได้หลังจากการลบ",
+    "description": "考试快捷地址"
+  },
+  "deleteLoadMsg": {
+    "message": "กําลังลบโปรดรอสักครู่...",
+    "description": "考试快捷地址"
+  },
+  "deleteAll": {
+    "message": "ลบทั้งหมด",
+    "description": "考试快捷地址"
+  },
+  "deleteSuccess": {
+    "message": "ลบสำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "deleteFail": {
+    "message": "การลบล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "hardLevel": {
+    "message": "ความยาก",
+    "description": "考试快捷地址"
+  },
+  "schoolTeacher": {
+    "message": "ครูของเรา",
+    "description": "考试快捷地址"
+  },
+  "allTeacher": {
+    "message": "อาจารย์ทั้งหมด",
+    "description": "考试快捷地址"
+  },
+  "appointTeacher": {
+    "message": "กําหนดครู",
+    "description": "考试快捷地址"
+  },
+  "sameQueinPaper": {
+    "message": "คําถามที่คล้ายกันมีอยู่แล้วในเอกสาร",
+    "description": "考试快捷地址"
+  },
+  "alreadyinPaper": {
+    "message": "อยู่ในกระดาษแบบทดสอบแล้ว",
+    "description": "考试快捷地址"
+  },
+  "subQuestionNum": {
+    "message": "คําถามย่อย {n}",
+    "description": "考试快捷地址"
+  },
+  "changeLastTime": {
+    "message": "ปรับเปลี่ยนครั้งล่าสุด:{time}",
+    "description": "考试快捷地址"
+  },
+  "queLocation": {
+    "message": "สถานที่",
+    "description": "考试快捷地址"
+  },
+  "founder": {
+    "message": "ผู้สร้าง",
+    "description": "考试快捷地址"
+  },
+  "own": {
+    "message": "ตัวฉันเอง",
+    "description": "考试快捷地址"
+  },
+  "batchType1": {
+    "message": "เปลี่ยนชื่อ",
+    "description": "考试快捷地址"
+  },
+  "batchType2": {
+    "message": "ย้าย",
+    "description": "考试快捷地址"
+  },
+  "batchType3": {
+    "message": "แชร์",
+    "description": "考试快捷地址"
+  },
+  "batchType5": {
+    "message": "แก้ไข",
+    "description": "考试快捷地址"
+  },
+  "batchType6": {
+    "message": "คัดลอก",
+    "description": "考试快捷地址"
+  },
+  "copySuccess": {
+    "message": "คัดลอกสําเร็จแล้ว! {y} ถูกคัดลอกไปยัง {x} ของคุณแล้ว",
+    "description": "考试快捷地址"
+  },
+  "copyQuestion": {
+    "message": "คําถาม",
+    "description": "考试快捷地址"
+  },
+  "copyFolder": {
+    "message": "โฟลเดอร์",
+    "description": "考试快捷地址"
+  },
+  "copyFail": {
+    "message": "คัดลอกล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "copyLoadMsg": {
+    "message": "คัดลอกโปรดรอสักครู่ ...",
+    "description": "考试快捷地址"
+  },
+  "currentDirectory": {
+    "message": "ไดเรกทอรีปัจจุบัน",
+    "description": "考试快捷地址"
+  },
+  "rootDirectory": {
+    "message": "ราก",
+    "description": "考试快捷地址"
+  },
+  "targetFolder": {
+    "message": "โปรดเลือกโฟลเดอร์ปลายทาง",
+    "description": "考试快捷地址"
+  },
+  "sharePeople": {
+    "message": "แบ่งปันหัวข้อนี้กับ:",
+    "description": "考试快捷地址"
+  },
+  "justOwn": {
+    "message": "แค่ตัวเธอเอง",
+    "description": "考试快捷地址"
+  },
+  "choiceschoolTeacher": {
+    "message": "ครูได้รับมอบหมายจากโรงเรียน",
+    "description": "考试快捷地址"
+  },
+  "choiceschoolAllTeacher": {
+    "message": "ครูทุกคนในโรงเรียน",
+    "description": "考试快捷地址"
+  },
+  "choicesallTeacher": {
+    "message": "ครูทุกคน",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacher": {
+    "message": "เลือกครู",
+    "description": "考试快捷地址"
+  },
+  "searchTeacher": {
+    "message": "ใส่ชื่ออาจารย์เพื่อค้นหา",
+    "description": "考试快捷地址"
+  },
+  "previousPage": {
+    "message": "ก่อนหน้า",
+    "description": "考试快捷地址"
+  },
+  "NextPage": {
+    "message": "ถัดไป",
+    "description": "考试快捷地址"
+  },
+  "choicePage": {
+    "message": "ข้าม",
+    "description": "考试快捷地址"
+  },
+  "totleQueNum": {
+    "message": "จํานวนคําถามทั้งหมด",
+    "description": "考试快捷地址"
+  },
+  "totleFolderNum": {
+    "message": "จํานวนโฟลเดอร์ทั้งหมด",
+    "description": "考试快捷地址"
+  },
+  "hardDistribution": {
+    "message": "การกระจายความยาก",
+    "description": "考试快捷地址"
+  },
+  "queTypeDistribution": {
+    "message": "การกระจายของรูปแบบโจทย์",
+    "description": "考试快捷地址"
+  },
+  "tagsMsg": {
+    "message": "แท็ก (ภายใน 30 ตัวอักษร, การยืนยันการส่งคืนรถ, สูงสุด 3):",
+    "description": "考试快捷地址"
+  },
+  "analysisTit": {
+    "message": "กรอกความละเอียดที่นี่ไม่มีไม่กรอก",
+    "description": "考试快捷地址"
+  },
+  "stemArea": {
+    "message": "ป้อนเนื้อหาของส่วนลําต้นที่นี่",
+    "description": "考试快捷地址"
+  },
+  "choiceA": {
+    "message": "ตัวเลือกที่ 1",
+    "description": "考试快捷地址"
+  },
+  "choiceB": {
+    "message": "ตัวเลือกที่ 2",
+    "description": "考试快捷地址"
+  },
+  "choiceC": {
+    "message": "ตัวเลือกที่ 3",
+    "description": "考试快捷地址"
+  },
+  "choiceD": {
+    "message": "ตัวเลือกที่ 4",
+    "description": "考试快捷地址"
+  },
+  "completionStem": {
+    "message": "จิตวิญญาณโอลิมปิกคือ ( ), ( ) , ( ) .",
+    "description": "考试快捷地址"
+  },
+  "completionAnswer": {
+    "message": "เร็วขึ้น|| สูงกว่า|| แข็งแกร่งขึ้น",
+    "description": "考试快捷地址"
+  },
+  "shortAnsStem": {
+    "message": "ป้อนลําต้นของคําถามคําตอบสั้น ๆ ที่นี่",
+    "description": "考试快捷地址"
+  },
+  "shortAnsAnswer": {
+    "message": "กรอกคําตอบสําหรับคําถามสั้น ๆ ที่นี่",
+    "description": "考试快捷地址"
+  },
+  "saveErrorTips2": {
+    "message": "การบันทึกคําถามบางส่วนล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "numExceededTips": {
+    "message": "จำนวนคำถามที่ป้อนในแต่ละครั้งต้องไม่เกิน 200 ข้อ",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage1": {
+    "message": "ชื่อเรื่องห้ามเว้นว่าง",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage2": {
+    "message": "มีน้อยกว่าสองตัวเลือก",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage3": {
+    "message": "ต้องมีตัวเลือกไม่เกิน 20 ตัวเลือก",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage4": {
+    "message": "คําตอบที่ถูกต้องต้องไม่ว่างเปล่า",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage5": {
+    "message": "เนื้อหาในตัวเลือกคําตอบที่ถูกต้องต้องไม่เว้นว่าง",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage6": {
+    "message": "กรุณากรอกข้อมูลในตัวเลือกหรือลบตัวเลือกส่วนเกิน",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage7": {
+    "message": "จํานวนคําตอบที่ถูกต้องต้องไม่เกินจํานวนตัวเลือก",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage8": {
+    "message": "คำตอบที่ถูกต้องต้องไม่ปรากฎในรายการที่ไม่ถูกเลือก",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage9": {
+    "message": "มีรายการที่ซ้ำกันในคําตอบที่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage10": {
+    "message": "เนื้อหาของคําตอบอ้างอิงต้องไม่เว้นว่าง",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage11": {
+    "message": "จํานวนคําตอบที่ถูกต้องต้องไม่น้อยกว่าจํานวนที่ว่างเปล่า",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage12": {
+    "message": "เพิ่มรายการกรอกข้อมูลในช่องว่างได้สูงสุด 20 รายการ",
+    "description": "考试快捷地址"
+  },
+  "completionAnswerTips": {
+    "message": "หมายเหตุ: คําตอบที่ว่างเปล่าสําหรับคําถามนี้สามารถใช้แทนกันได้  จับคู่เนื้อหาถูกต้องให้ถือว่าถูก",
+    "description": "考试快捷地址"
+  },
+  "changeScoreText": {
+    "message": "แน่ใจว่าจะแก้ไขคะแนนเป็นชุด?",
+    "description": "考试快捷地址"
+  },
+  "scoreTips": {
+    "message": "กรุณาใส่คะแนนที่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "setScoreTips": {
+    "message": "สร้างคําถามก่อน",
+    "description": "考试快捷地址"
+  },
+  "detailDescription": {
+    "message": "คําอธิบายโดยละเอียด",
+    "description": "考试快捷地址"
+  },
+  "batchChangeScore": {
+    "message": "ปรับเปลี่ยนคะแนนเป็นกลุ่ม",
+    "description": "考试快捷地址"
+  },
+  "questionEditarea": {
+    "message": "พื้นที่แก้ไขชื่อเรื่อง",
+    "description": "考试快捷地址"
+  },
+  "questionPreviewarea": {
+    "message": "พื้นที่แสดงตัวอย่างชื่อเรื่อง",
+    "description": "考试快捷地址"
+  },
+  "questionEdit1": {
+    "message": "1. ประเภทคําถามที่รองรับโดยฟังก์ชันนี้: ตัวเลือกเดียว, ปรนัย, การตัดสิน, การเติมในช่องว่าง, คําตอบสั้น ๆ",
+    "description": "考试快捷地址"
+  },
+  "questionEdit2": {
+    "message": "2. ในปัจจุบันใช้ได้เฉพาะกับการนําเข้าคําถามข้อความธรรมดาเท่านั้นและไม่รองรับคําถามที่มีรูปภาพสูตรวิดีโอและเสียง",
+    "description": "考试快捷地址"
+  },
+  "questionEdit3": {
+    "message": "3. มีสองวิธีในการเพิ่มคําถาม: (1) คลิกที่ประเภทคําถามด้านบนเพื่อเพิ่มคําถามใหม่และแก้ไขคําถามตามรูปแบบเทมเพลต (2) วางข้อความชื่อเรื่องในเอกสารคําโดยตรงที่นี่และระบบจะระบุประเภทคําถามโดยอัตโนมัติและสร้างคําถาม",
+    "description": "考试快捷地址"
+  },
+  "questionEdit4": {
+    "message": "4. หลังจากนําเข้าคําถามแล้วโปรดตรวจสอบว่าข้อมูลเช่นประเภทคําถามคะแนนคําตอบและการวิเคราะห์นั้นถูกต้องในพื้นที่แสดงตัวอย่างที่ถูกต้องหรือไม่จากนั้นบันทึกหลังจากยืนยัน",
+    "description": "考试快捷地址"
+  },
+  "correct": {
+    "message": "ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "incorrect": {
+    "message": "ข้อผิดพลาด",
+    "description": "考试快捷地址"
+  },
+  "quesOrder": {
+    "message": "คําถามที่ {n}",
+    "description": "考试快捷地址"
+  },
+  "saveOutText": {
+    "message": "คุณมีคำตอบยังไม่ได้บันทึก ยืนยันต้องการออกจะเพจนี้?",
+    "description": "考试快捷地址"
+  },
+  "bindDownload": {
+    "message": "ดาวน์โหลดเครื่องมือแปลงรูปแบบไลบรารีคําถาม Moodle",
+    "description": "考试快捷地址"
+  },
+  "downloadMoodleTitle": {
+    "message": "วิธีใช้",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc1": {
+    "message": "1. ดาวน์โหลดและติดตั้งเครื่องมือแปลงรูปแบบ (รองรับเฉพาะระบบ Windows เท่านั้น)",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc2": {
+    "message": "2. ส่งออกธนาคารคําถามจากแพลตฟอร์ม Moodle เป็นไฟล์รูปแบบ xml (รองรับเฉพาะปรนัยการตัดสินการเติมคําตอบสั้น ๆ ในช่องว่าง)",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc3": {
+    "message": "3. ใช้เครื่องมือแปลงรูปแบบเพื่อแปลงไฟล์ xml ที่ส่งออกโดย Moodle เป็นรูปแบบ Excel",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc4": {
+    "message": "4. ใช้ฟังก์ชันการนําเข้าแบทช์ของ ULearning เพื่ออัปโหลดไฟล์ Excel และดําเนินการนําเข้าธนาคารคําถามให้เสร็จสมบูรณ์",
+    "description": "考试快捷地址"
+  },
+  "alreadyChoicesAll": {
+    "message": "มีการเลือกแล้ว {n} รายการ",
+    "description": "考试快捷地址"
+  },
+  "importLoadFirst1": {
+    "message": "1. ด้วยฟังก์ชั่นนี้คุณสามารถส่งออกหัวข้อทั้งหมดในโฟลเดอร์ปัจจุบันและโฟลเดอร์ย่อยได้",
+    "description": "考试快捷地址"
+  },
+  "importLoadFirst2": {
+    "message": "2. ในปัจจุบันรองรับเฉพาะการส่งออกรูปแบบ Excel เท่านั้นและไม่รองรับการส่งออกรูปภาพเสียงวิดีโอและไฟล์แนบอื่น ๆ ในชื่อ",
+    "description": "考试快捷地址"
+  },
+  "startImport": {
+    "message": "เริ่มการส่งออก",
+    "description": "考试快捷地址"
+  },
+  "queBankEmptyNew": {
+    "message": "ไม่พบคําถามที่มีสิทธิ์",
+    "description": "考试快捷地址"
+  },
+  "examUploadTipNew": {
+    "message": "เมื่อเลือกไฟล์ระบบจะออกจากสถานะเต็มหน้าจอชั่วคราวโปรดดําเนินการเลือกไฟล์แนบให้เสร็จสิ้นภายใน 60 วินาทีและกลับไปที่อินเทอร์เฟซการสอบจากนั้นคลิกพื้นที่ว่างบนหน้าเพื่อกลับสู่สถานะเต็มหน้าจอมิฉะนั้นระบบจะบันทึกการดําเนินการเมื่อออกจากการสอบ",
+    "description": "考试快捷地址"
+  },
+  "remarkScoreTip": {
+    "message": "โปรดให้คะแนนตามช่วงที่ระบุ",
+    "description": "考试快捷地址"
+  },
+  "textCount": {
+    "message": "{n} คํา",
+    "description": "考试快捷地址"
+  },
+  "noSkipping": {
+    "message": "ห้ามข้ามคําถามสําหรับการสอบนี้ดังนั้นโปรดตอบคําถามตามลําดับ",
+    "description": "考试快捷地址"
+  },
+  "preQue": {
+    "message": "ข้อที่แล้ว",
+    "description": "考试快捷地址"
+  },
+  "nextQue": {
+    "message": "ข้อถัดไป",
+    "description": "考试快捷地址"
+  },
+  "finallyQue": {
+    "message": "มันคือจุดจบ",
+    "description": "考试快捷地址"
   }
 }
