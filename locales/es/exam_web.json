@@ -1514,5 +1514,729 @@
   "cameraNoStartTip": {
     "message": "Encienda primero la cámara",
     "description": "考试快捷地址"
+  },
+  "choiceQue": {
+    "message": "Seleccionar un tema",
+    "description": "考试快捷地址"
+  },
+  "queBank": {
+    "message": "Banco de pruebas",
+    "description": "考试快捷地址"
+  },
+  "insert": {
+    "message": "Insertar",
+    "description": "考试快捷地址"
+  },
+  "alreadyChoices": {
+    "message": "{n} elementos seleccionados",
+    "description": "考试快捷地址"
+  },
+  "mineQueBank": {
+    "message": "Mi banco de examens",
+    "description": "考试快捷地址"
+  },
+  "schoolQueBank": {
+    "message": "Banco de preguntas de la escuela",
+    "description": "考试快捷地址"
+  },
+  "shareBank": {
+    "message": "Banco de preguntas compartido",
+    "description": "考试快捷地址"
+  },
+  "goBack": {
+    "message": "Volver",
+    "description": "考试快捷地址"
+  },
+  "allQuestions": {
+    "message": " Todas las preguntas",
+    "description": "考试快捷地址"
+  },
+  "parsentArea": {
+    "message": "Ubicación actual",
+    "description": "考试快捷地址"
+  },
+  "search": {
+    "message": "Buscar",
+    "description": "考试快捷地址"
+  },
+  "addQuestions": {
+    "message": "Añadir pregunta",
+    "description": "考试快捷地址"
+  },
+  "editQuestions": {
+    "message": "Editar la pregunta",
+    "description": "考试快捷地址"
+  },
+  "importQuestions": {
+    "message": "Importar preguntas a granel",
+    "description": "考试快捷地址"
+  },
+  "addBank": {
+    "message": "Añadir carpeta",
+    "description": "考试快捷地址"
+  },
+  "editBank": {
+    "message": "Modicar carpeta",
+    "description": "考试快捷地址"
+  },
+  "bankNameError1": {
+    "message": "El nombre de la carpeta no puede estar vacío",
+    "description": "考试快捷地址"
+  },
+  "bankNameError2": {
+    "message": "Los nombres de carpeta no pueden superar los 200 caracteres",
+    "description": "考试快捷地址"
+  },
+  "bankNameError3": {
+    "message": "El nombre de la carpeta no puede contener los siguientes caracteres:<> *?:\" '|/\\~.'\"",
+    "description": "考试快捷地址"
+  },
+  "bankNameError4": {
+    "message": "Las carpetas se pueden agregar hasta 5 niveles, el directorio actual es el nivel {l} y no se pueden agregar subcarpetas",
+    "description": "考试快捷地址"
+  },
+  "writeBankName": {
+    "message": "por favor ingrese un nombre de carpeta",
+    "description": "考试快捷地址"
+  },
+  "addSuccess": {
+    "message": "Agregado exitosamente",
+    "description": "考试快捷地址"
+  },
+  "addFail": {
+    "message": "Agregar error",
+    "description": "考试快捷地址"
+  },
+  "queBankStatistics": {
+    "message": "Pregunta Estadística",
+    "description": "考试快捷地址"
+  },
+  "importBank": {
+    "message": "Exportar el banco de preguntas",
+    "description": "考试快捷地址"
+  },
+  "importBankOverNum": {
+    "message": "El número de preguntas exportadas supera el límite superior.",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg": {
+    "message": "Exportando, por favor espere...",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg1": {
+    "message": "Los tiempos de exportación pueden ser largos, tenga paciencia.",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg2": {
+    "message": "En el caso de que una ventana emergente de bloqueo del navegador, elija Permitir siempre ventanas emergentes del sitio web.",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg3": {
+    "message": "Exportación, {n}/{m} completado",
+    "description": "考试快捷地址"
+  },
+  "cancelExportRecord": {
+    "message": "Cancelar la exportación",
+    "description": "考试快捷地址"
+  },
+  "imporBanktNone": {
+    "message": "No hay títulos en este directorio para exportar.",
+    "description": "考试快捷地址"
+  },
+  "importBankErrorMsg": {
+    "message": "Falló la exportación",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsType": {
+    "message": "Todos los tipos",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsLevel": {
+    "message": "Todas las dificultades",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsTime": {
+    "message": "En orden cronológico descendente",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsTimePositive": {
+    "message": "En orden cronológico descendente",
+    "description": "考试快捷地址"
+  },
+  "writeSearch": {
+    "message": "Buscar un tema/carpeta",
+    "description": "考试快捷地址"
+  },
+  "titleDetails": {
+    "message": "Detalles del tema",
+    "description": "考试快捷地址"
+  },
+  "choiceQueType": {
+    "message": "Seleccione el tipo",
+    "description": "考试快捷地址"
+  },
+  "textImport": {
+    "message": "Importación de texto",
+    "description": "考试快捷地址"
+  },
+  "paperImport": {
+    "message": "Importar del examen",
+    "description": "考试快捷地址"
+  },
+  "paperImportError": {
+    "message": "Al importar un cuestionario en el directorio actual, el nivel de carpeta superará el límite superior. El banco de preguntas admite hasta 5 niveles de directorios, vuelva a seleccionar la importación de carpetas.",
+    "description": "考试快捷地址"
+  },
+  "excelImport": {
+    "message": "Importar desde Excel",
+    "description": "考试快捷地址"
+  },
+  "importExcelLoadMsg": {
+    "message": "Importando, por favor espere...",
+    "description": "考试快捷地址"
+  },
+  "importSuccess": {
+    "message": "Importación exitosa",
+    "description": "考试快捷地址"
+  },
+  "hardlevels1": {
+    "message": "simple",
+    "description": "考试快捷地址"
+  },
+  "hardlevels2": {
+    "message": "general",
+    "description": "考试快捷地址"
+  },
+  "hardlevels3": {
+    "message": "medio",
+    "description": "考试快捷地址"
+  },
+  "hardlevels4": {
+    "message": "Más fuerte",
+    "description": "考试快捷地址"
+  },
+  "hardlevels5": {
+    "message": "difícil",
+    "description": "考试快捷地址"
+  },
+  "downloadTemplate": {
+    "message": "Descargar plantilla",
+    "description": "考试快捷地址"
+  },
+  "downloadTemplateMsg": {
+    "message": "Descargue la plantilla de Excel y complete las preguntas de acuerdo con los requisitos de la plantilla",
+    "description": "考试快捷地址"
+  },
+  "uploadFile": {
+    "message": "Subir archivo",
+    "description": "考试快捷地址"
+  },
+  "uploadFileMsg": {
+    "message": "Cargar el archivo de Excel completado",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError": {
+    "message": "Parte de la información del tema en el archivo no está estandarizada, verifique y modifique antes de cargar",
+    "description": "考试快捷地址"
+  },
+  "uploadFileErrorMsg": {
+    "message": "fila {n}, columna {m}",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg": {
+    "message": "Seleccione primero un tema",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg1": {
+    "message": "Importar hasta 200 preguntas a la vez",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg2": {
+    "message": "Importar hasta 200 preguntas",
+    "description": "考试快捷地址"
+  },
+  "choiceAll": {
+    "message": "Seleccionar todo",
+    "description": "考试快捷地址"
+  },
+  "moveSuccess": {
+    "message": "Movimiento exitoso",
+    "description": "考试快捷地址"
+  },
+  "moveFail": {
+    "message": "Movimiento fallido",
+    "description": "考试快捷地址"
+  },
+  "moveFailMsg1": {
+    "message": "El nivel de carpeta no puede superar los 5 niveles, y la suma de los niveles de la carpeta de destino y la carpeta actual supera el límite superior y no se puede mover.",
+    "description": "考试快捷地址"
+  },
+  "moveFailMsg2": {
+    "message": "Existe una carpeta con el mismo nombre en la carpeta de destino y no se puede mover.",
+    "description": "考试快捷地址"
+  },
+  "moveLoadMsg": {
+    "message": "Mudanza, por favor espere...",
+    "description": "考试快捷地址"
+  },
+  "changeShareRange": {
+    "message": "modificar el alcance para compartir",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacherError1": {
+    "message": "Por favor, seleccione el profesor designado",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacherError2": {
+    "message": "Seleccione un compartidor",
+    "description": "考试快捷地址"
+  },
+  "shareTeacherEmpty": {
+    "message": "No hay un maestro designado",
+    "description": "考试快捷地址"
+  },
+  "shareNumOver": {
+    "message": "Selecciona hasta 100 profesores",
+    "description": "考试快捷地址"
+  },
+  "shareLoadMsg": {
+    "message": "Ahorrando, por favor espere...",
+    "description": "考试快捷地址"
+  },
+  "queBankEmpty": {
+    "message": "No hay títulos en la tabla de contenido actual",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirmNew": {
+    "message": "¿Está seguro de que desea eliminar [{n}]?",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm1": {
+    "message": "Si selecciona [Mantener las preguntas, Eliminar solo carpeta], las preguntas de prueba de la carpeta se trasladarán al directorio raíz.",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm2": {
+    "message": "Si selecciona Eliminar todo, las preguntas de la carpeta también se eliminarán.",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm3": {
+    "message": "Mantener las preguntas, Eliminar solo carpeta",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm4": {
+    "message": "¿Está seguro de que desea eliminar el contenido de elementos {n} como {x}?",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm6": {
+    "message": "Los datos no se pueden recuperar después de la eliminación.",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm7": {
+    "message": "¿Está seguro de que desea eliminarlo? Los datos no se pueden recuperar después de la eliminación.",
+    "description": "考试快捷地址"
+  },
+  "deleteLoadMsg": {
+    "message": "Borrando, por favor espere...",
+    "description": "考试快捷地址"
+  },
+  "deleteAll": {
+    "message": "Eliminar todos",
+    "description": "考试快捷地址"
+  },
+  "deleteSuccess": {
+    "message": "Eliminado exitosamente",
+    "description": "考试快捷地址"
+  },
+  "deleteFail": {
+    "message": "Error al eliminar",
+    "description": "考试快捷地址"
+  },
+  "hardLevel": {
+    "message": "Dificultad",
+    "description": "考试快捷地址"
+  },
+  "schoolTeacher": {
+    "message": "Compártelo con todos los profesores de la escuela",
+    "description": "考试快捷地址"
+  },
+  "allTeacher": {
+    "message": "Comparte con todos los profesores",
+    "description": "考试快捷地址"
+  },
+  "appointTeacher": {
+    "message": "Comparta con el maestro designado de nuestra escuela",
+    "description": "考试快捷地址"
+  },
+  "sameQueinPaper": {
+    "message": "Preguntas similares ya están en el documento",
+    "description": "考试快捷地址"
+  },
+  "alreadyinPaper": {
+    "message": "Ya en el cuestionario",
+    "description": "考试快捷地址"
+  },
+  "subQuestionNum": {
+    "message": "{n} subpregunta",
+    "description": "考试快捷地址"
+  },
+  "changeLastTime": {
+    "message": "Última modificación: {time}",
+    "description": "考试快捷地址"
+  },
+  "queLocation": {
+    "message": "Ubicación",
+    "description": "考试快捷地址"
+  },
+  "founder": {
+    "message": "Creado por:",
+    "description": "考试快捷地址"
+  },
+  "own": {
+    "message": "Yo mismo",
+    "description": "考试快捷地址"
+  },
+  "batchType1": {
+    "message": "Rebautizar",
+    "description": "考试快捷地址"
+  },
+  "batchType2": {
+    "message": "Móvil",
+    "description": "考试快捷地址"
+  },
+  "batchType3": {
+    "message": "Compártelo",
+    "description": "考试快捷地址"
+  },
+  "batchType5": {
+    "message": "Modificar",
+    "description": "考试快捷地址"
+  },
+  "batchType6": {
+    "message": "Copiar",
+    "description": "考试快捷地址"
+  },
+  "copySuccess": {
+    "message": "¡Copiado con éxito! {y} se ha copiado en su {x}.",
+    "description": "考试快捷地址"
+  },
+  "copyQuestion": {
+    "message": "Pregunta",
+    "description": "考试快捷地址"
+  },
+  "copyFolder": {
+    "message": "Carpeta",
+    "description": "考试快捷地址"
+  },
+  "copyFail": {
+    "message": "Error de replicación",
+    "description": "考试快捷地址"
+  },
+  "copyLoadMsg": {
+    "message": "Copiando, por favor espere...",
+    "description": "考试快捷地址"
+  },
+  "currentDirectory": {
+    "message": "Posición actual",
+    "description": "考试快捷地址"
+  },
+  "rootDirectory": {
+    "message": "Directorio raíz",
+    "description": "考试快捷地址"
+  },
+  "targetFolder": {
+    "message": "Seleccione una carpeta de destino.",
+    "description": "考试快捷地址"
+  },
+  "sharePeople": {
+    "message": "Comparte la pregunta actual con:",
+    "description": "考试快捷地址"
+  },
+  "justOwn": {
+    "message": "Solo yo",
+    "description": "考试快捷地址"
+  },
+  "choiceschoolTeacher": {
+    "message": "Comparta con el maestro designado de nuestra escuela",
+    "description": "考试快捷地址"
+  },
+  "choiceschoolAllTeacher": {
+    "message": "Compártelo con todos los profesores de la escuela",
+    "description": "考试快捷地址"
+  },
+  "choicesallTeacher": {
+    "message": "Comparte con todos los profesores",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacher": {
+    "message": "Elegir profesor",
+    "description": "考试快捷地址"
+  },
+  "searchTeacher": {
+    "message": "ingrese la búsqueda del nombre del maestro",
+    "description": "考试快捷地址"
+  },
+  "previousPage": {
+    "message": "Anterior",
+    "description": "考试快捷地址"
+  },
+  "NextPage": {
+    "message": "Siguiente",
+    "description": "考试快捷地址"
+  },
+  "choicePage": {
+    "message": "Saltar",
+    "description": "考试快捷地址"
+  },
+  "totleQueNum": {
+    "message": "Número total de preguntas",
+    "description": "考试快捷地址"
+  },
+  "totleFolderNum": {
+    "message": "Número total de carpetas",
+    "description": "考试快捷地址"
+  },
+  "hardDistribution": {
+    "message": "Dificultad de distribución",
+    "description": "考试快捷地址"
+  },
+  "queTypeDistribution": {
+    "message": "Distribución del tipo de pregunta",
+    "description": "考试快捷地址"
+  },
+  "tagsMsg": {
+    "message": "Etiquetas (dentro de los 30 caracteres, confirmación de devolución del carro, hasta 3):",
+    "description": "考试快捷地址"
+  },
+  "analysisTit": {
+    "message": "Complete el análisis aquí, no es necesario que no complete",
+    "description": "考试快捷地址"
+  },
+  "stemArea": {
+    "message": "Ingrese el contenido del cuerpo de la pregunta aquí",
+    "description": "考试快捷地址"
+  },
+  "choiceA": {
+    "message": "Opción Uno",
+    "description": "考试快捷地址"
+  },
+  "choiceB": {
+    "message": "Opción dos",
+    "description": "考试快捷地址"
+  },
+  "choiceC": {
+    "message": "Opción tres",
+    "description": "考试快捷地址"
+  },
+  "choiceD": {
+    "message": "Opción cuatro",
+    "description": "考试快捷地址"
+  },
+  "completionStem": {
+    "message": "El espíritu olímpico es ( ), ( ) , ( ) .",
+    "description": "考试快捷地址"
+  },
+  "completionAnswer": {
+    "message": "Más rápido||Más alto||Más fuerte",
+    "description": "考试快捷地址"
+  },
+  "shortAnsStem": {
+    "message": "Ingrese preguntas de respuesta corta aquí",
+    "description": "考试快捷地址"
+  },
+  "shortAnsAnswer": {
+    "message": "Complete las respuestas cortas aquí",
+    "description": "考试快捷地址"
+  },
+  "saveErrorTips2": {
+    "message": "Algunas preguntas de la prueba no se pudieron guardar",
+    "description": "考试快捷地址"
+  },
+  "numExceededTips": {
+    "message": "El número de preguntas en una sola entrada no puede exceder de 200",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage1": {
+    "message": "El título no puede estar vacío",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage2": {
+    "message": "Menos de dos opciones",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage3": {
+    "message": "No más de 20 opciones.",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage4": {
+    "message": "La respuesta correcta no puede estar vacía.",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage5": {
+    "message": "El contenido de la opción de respuesta correcta no puede estar vacío",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage6": {
+    "message": "Complete las opciones o elimine las opciones adicionales.",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage7": {
+    "message": "El número de respuestas correctas no puede exceder el número de opciones.",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage8": {
+    "message": "Los elementos no seleccionados no pueden aparecer en la respuesta correcta",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage9": {
+    "message": "Hay duplicados en la respuesta correcta.",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage10": {
+    "message": "El contenido de la respuesta de referencia no puede estar vacío.",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage11": {
+    "message": "El número de respuestas correctas no puede ser menor que el número de respuestas vacías.",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage12": {
+    "message": "Agregue hasta 20 elementos de relleno en blanco",
+    "description": "考试快捷地址"
+  },
+  "completionAnswerTips": {
+    "message": "Nota: Las respuestas vacías a esta pregunta pueden intercambiarse, incluso si el contenido coincide correctamente",
+    "description": "考试快捷地址"
+  },
+  "changeScoreText": {
+    "message": "¿Estás seguro de modificar los puntajes en lotes?",
+    "description": "考试快捷地址"
+  },
+  "scoreTips": {
+    "message": "Por favor ingrese un puntaje válido",
+    "description": "考试快捷地址"
+  },
+  "setScoreTips": {
+    "message": "Crear preguntas de prueba primero",
+    "description": "考试快捷地址"
+  },
+  "detailDescription": {
+    "message": "Descripción detallada",
+    "description": "考试快捷地址"
+  },
+  "batchChangeScore": {
+    "message": "Lote modificar puntajes",
+    "description": "考试快捷地址"
+  },
+  "questionEditarea": {
+    "message": "Área de edición de títulos",
+    "description": "考试快捷地址"
+  },
+  "questionPreviewarea": {
+    "message": "Área de vista previa del título",
+    "description": "考试快捷地址"
+  },
+  "questionEdit1": {
+    "message": "1. Los tipos de preguntas compatibles con esta función: opción única, opción múltiple, juicio, rellenar el espacio en blanco, respuesta corta.",
+    "description": "考试快捷地址"
+  },
+  "questionEdit2": {
+    "message": "2. En la actualidad, solo es aplicable a la importación de preguntas de texto sin formato y no admite preguntas que contengan imágenes, fórmulas, videos y audio.",
+    "description": "考试快捷地址"
+  },
+  "questionEdit3": {
+    "message": "3. Hay dos formas de agregar una pregunta: (1) Haga clic en el tipo de pregunta anterior para agregar una nueva pregunta y editar la pregunta de acuerdo con el formato de la plantilla. (2) Pegue el texto del título en el documento de Word directamente aquí, y el sistema identificará automáticamente el tipo de pregunta y generará la pregunta.",
+    "description": "考试快捷地址"
+  },
+  "questionEdit4": {
+    "message": "4. Después de importar las preguntas, verifique si la información como el tipo de pregunta, la puntuación, la respuesta y el análisis es precisa en el área de vista previa correcta y luego guárdela después de la confirmación.",
+    "description": "考试快捷地址"
+  },
+  "correct": {
+    "message": "Verdadero",
+    "description": "考试快捷地址"
+  },
+  "incorrect": {
+    "message": "Falso",
+    "description": "考试快捷地址"
+  },
+  "quesOrder": {
+    "message": "Pregunta {n},",
+    "description": "考试快捷地址"
+  },
+  "saveOutText": {
+    "message": "No ha guardado el título, ¿está seguro de salir?",
+    "description": "考试快捷地址"
+  },
+  "bindDownload": {
+    "message": "Herramienta de conversión del banco de preguntas de Moodle",
+    "description": "考试快捷地址"
+  },
+  "downloadMoodleTitle": {
+    "message": "Cómo usarlo",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc1": {
+    "message": "1. Descargue e instale la herramienta de conversión de formato (solo sistema Windows).",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc2": {
+    "message": "2. Exporte la biblioteca de preguntas desde la plataforma Moodle a un archivo de formato xml (solo se admiten preguntas seleccionadas, preguntas de juicio, complete espacios en blanco, preguntas de respuesta corta).",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc3": {
+    "message": "3. Utilice la herramienta de conversión de formato para convertir el archivo xml exportado por Moodle a formato Excel.",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc4": {
+    "message": "4. Utilice la función de importación masiva de ULearning para cargar archivos de Excel y completar la importación de la biblioteca.",
+    "description": "考试快捷地址"
+  },
+  "alreadyChoicesAll": {
+    "message": "{n} elemento seleccionado",
+    "description": "考试快捷地址"
+  },
+  "importLoadFirst1": {
+    "message": "1. Con esta función, puede exportar todos los temas de la carpeta actual y sus subcarpetas.",
+    "description": "考试快捷地址"
+  },
+  "importLoadFirst2": {
+    "message": "2. En la actualidad, solo admite la exportación de formato Excel y no admite la exportación de imágenes, audio, video y otros archivos adjuntos en el título.",
+    "description": "考试快捷地址"
+  },
+  "startImport": {
+    "message": "Iniciar la exportación",
+    "description": "考试快捷地址"
+  },
+  "queBankEmptyNew": {
+    "message": "No se encontraron preguntas elegibles",
+    "description": "考试快捷地址"
+  },
+  "examUploadTipNew": {
+    "message": "Al seleccionar un archivo, el sistema saldrá temporalmente del estado de pantalla completa, complete la operación de selección de archivos adjuntos dentro de los 60 segundos y regrese a la interfaz del examen, y luego haga clic en cualquier espacio en blanco en la página para volver al estado de pantalla completa, de lo contrario, el sistema registrará la operación como si saliera del examen.",
+    "description": "考试快捷地址"
+  },
+  "remarkScoreTip": {
+    "message": "Por favor, califique por el rango especificado",
+    "description": "考试快捷地址"
+  },
+  "textCount": {
+    "message": "{n} palabra",
+    "description": "考试快捷地址"
+  },
+  "noSkipping": {
+    "message": "Omitir preguntas está prohibido para este examen, así que por favor respóndalas en orden.",
+    "description": "考试快捷地址"
+  },
+  "preQue": {
+    "message": "Anterior",
+    "description": "考试快捷地址"
+  },
+  "nextQue": {
+    "message": "Siguiente",
+    "description": "考试快捷地址"
+  },
+  "finallyQue": {
+    "message": "Es el final",
+    "description": "考试快捷地址"
   }
 }
