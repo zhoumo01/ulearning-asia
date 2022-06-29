@@ -2278,5 +2278,525 @@
   "candidates.neverRefresh": {
     "message": "不刷新",
     "description": "smart-classroom 项目"
+  },
+  "common.loading": {
+    "message": "正在加载中...",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.interactionsDesc2": {
+    "message": "互动次数=课堂中活动（不包括点名）的参与人次之和",
+    "description": "smart-classroom 项目"
+  },
+  "login.userAgreement": {
+    "message": "用户协议",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg1": {
+    "message": "故障检测",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg2": {
+    "message": "网络",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg3": {
+    "message": "检测中...",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg4": {
+    "message": "当前网络",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg5": {
+    "message": "有线",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg6": {
+    "message": "当前网络:WIFI,为了保障广播清晰度和稳定性请使用有线网络。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg7": {
+    "message": "组网IP",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg8": {
+    "message": "当前IP",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg9": {
+    "message": "当前IP和组网IP不一致！",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg10": {
+    "message": "请将设备的IP设置为{ip}，设置完成后，请重启U-Class应用",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg11": {
+    "message": "查看操作说明",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg12": {
+    "message": "请关闭WI-FI功能。设备同时连接有线和WIFI会导致设备IP地址异常。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg13": {
+    "message": "设置完成后，在教师端重新开启广播或小组对比。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg14": {
+    "message": "证书",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg15": {
+    "message": "正常",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg16": {
+    "message": "服务已过期",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg17": {
+    "message": "其它",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg18": {
+    "message": "如有其他问题，建议关闭并重新打开U-Class，服务会进行重启。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg19": {
+    "message": "小组屏显示离线或者无法接收广播画面，该怎么办？",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg20": {
+    "message": "检查小组屏的UClass是否正在运行",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg21": {
+    "message": "确保小组屏的UClass应用正在运行。小组屏的UClass未打开或者处于后台运行时无法接受教师屏的广播。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg22": {
+    "message": "可以尝试关闭并重新打开小组屏的UClass应用，小组屏将会尝试重新连接教师屏，重新连接需要10s左右的时间。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg23": {
+    "message": "查看如何关闭或打开U-Class应用",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg24": {
+    "message": "教师屏尝试关闭并重新打开相关功能",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg25": {
+    "message": "在小组屏的UClass运行正常的情况下，尝试在教师屏关闭并重新打开广播/小组对比等功能，系统将会尝试重新连接小组屏。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg26": {
+    "message": "可以尝试关闭并重新打开教师屏的UClass应用，服务会进行重启。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg27": {
+    "message": "检查小组屏的网络连接/IP地址是否正确",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg28": {
+    "message": "查看小组屏左下角，检查当前IP和组网IP是否一致。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg29": {
+    "message": "检查小组屏的网络连接是否正常。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg30": {
+    "message": "按照提示进行相关操作后任然无法解决问题，请寻求学校的IT人员的帮助。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg31": {
+    "message": "如果学校IT人员确定当前功能无法修复的情况，请与我们的技术支持进行联系。为了方便我们的技术人员定位问题，点击这里",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg32": {
+    "message": "发送错误报告",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg33": {
+    "message": "点击右下角设置",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg34": {
+    "message": "设置面板中找到以下路径查看：设置>高级设置>有线网络",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg35": {
+    "message": "首先将有线网络关闭",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg36": {
+    "message": "设置ip地址",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg37": {
+    "message": "点击图标",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg38": {
+    "message": "返回首页",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg39": {
+    "message": "点击右上角的“关闭”图标关闭U-Class应用",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg40": {
+    "message": "小组",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg41": {
+    "message": "无线",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg42": {
+    "message": "发送中，请稍等",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg43": {
+    "message": "发送成功",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg44": {
+    "message": "发送失败",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg45": {
+    "message": "点击首页右下角设置，设置面板中找到以下路径查看：设置>高级设置>有线网络。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg46": {
+    "message": "点击图标返回首页，点击右上角的“关闭”图标关闭U-Class应用",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg47": {
+    "message": "注：请勿同时连接多个网络，设备同时连接有线和WIFI会导致设备IP地址异常。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg48": {
+    "message": "设置路径：设置>高级设置>有线网络。",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code1": {
+    "message": "无法获取Mac地址",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code2": {
+    "message": "无法获取硬件信息",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code3": {
+    "message": "检验Mac地址失败",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code4": {
+    "message": "校验硬件信息失败",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code5": {
+    "message": "SDK类型不一致",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code6": {
+    "message": "授权已过期",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code7": {
+    "message": "无法解析license",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code8": {
+    "message": "其他验证错误",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code9": {
+    "message": "LICENSE信息为空",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code10": {
+    "message": "平台类型不匹配(windows, android 必须匹配)",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code11": {
+    "message": "productId不匹配",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code12": {
+    "message": "输入的sdkType参数不合法(请输入有效的sdkType)",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.photoUpload": {
+    "message": "拍照上传",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.commonUse": {
+    "message": "常用功能",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.moreFn": {
+    "message": "更多功能",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.when": {
+    "message": "用时",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.notation": {
+    "message": "批注",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.delnotation": {
+    "message": "删除批注",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.submitNumber": {
+    "message": "提交人数",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.noInvolved": {
+    "message": "未参与",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.share": {
+    "message": "分享",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.shareSucc": {
+    "message": "分享成功",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.sharestu": {
+    "message": "分享给学生",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.prompt": {
+    "message": "提示",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.screenshots": {
+    "message": "截图",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg1": {
+    "message": "常用的功能将会显示在右侧菜单栏中，最多选择6个",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg2": {
+    "message": "常用功能最多选6个",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg3": {
+    "message": "学生上传图片进行课堂展示",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg4": {
+    "message": "允许学生查看其他学生的图片",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg5": {
+    "message": "分享给学生",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg6": {
+    "message": "分享给本课堂内的所有学生，学生可以在课堂活动记录中查看。",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg7": {
+    "message": "批注正在保存中",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg8": {
+    "message": "批注正在删除中",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg9": {
+    "message": "确定删除批注？",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg10": {
+    "message": "将该图片或批注分享给课堂里的所有学生，分享后学生可以在课堂里查看该图片或批注",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg11": {
+    "message": "截图正在生成中",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg12": {
+    "message": "请上课后分享给学生",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg13": {
+    "message": "标题不能超过2000个字符",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg14": {
+    "message": "删除后，学生提交的图片将无法找回，需要学生重新提交，确定删除？如果活动已结束，学生将无法重新提交。",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg15": {
+    "message": "确定结束当前活动吗？",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg16": {
+    "message": "还没有学生提交",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg17": {
+    "message": "确定结束当前拍照上传吗？",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg18": {
+    "message": "截图失败",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg19": {
+    "message": "连接超时",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.tencentMeeting": {
+    "message": "腾讯会议",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.createMeeting": {
+    "message": "创建会议",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.addMeeting": {
+    "message": "加入会议",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg1": {
+    "message": "自动开启云录制",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg2": {
+    "message": "腾讯会议免费版提供1G云存储空间，大约可以录制3个小时。录制回放会保存至优学院，并保留180天。您可以在腾讯会议中下载保存后，删除非必要的录制，以节省录制空间。",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg3": {
+    "message": "会议正在进行中…",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg4": {
+    "message": "课堂名称：",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg5": {
+    "message": "开始时间：",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg6": {
+    "message": "会议号：",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg7": {
+    "message": "会议功能由腾讯会议提供，初次使用需要登录个人的腾讯会议账号并进行授权。如需解除授权，可以腾讯会议客户端中进行操作。",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.instructions": {
+    "message": "说明",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.authorization": {
+    "message": "去授权",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.saveClass": {
+    "message": "保存到课堂",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.openFile": {
+    "message": "打开课堂中的文件",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.processing": {
+    "message": "正在处理中，请稍后...",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.youNotLogin": {
+    "message": "你未登录，请登录后保存到课堂",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.scanAPP": {
+    "message": "使用优学院APP扫一扫",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.designation": {
+    "message": "名称",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.selectClass": {
+    "message": "选择课堂",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.exportImages": {
+    "message": "导出图片",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.open": {
+    "message": "打开",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.nameNotNull": {
+    "message": "名称不能为空",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.selectCourse": {
+    "message": "请选择课程",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.selectClassroom": {
+    "message": "请选择课堂",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.msg1": {
+    "message": "保存后，教师和学生可以在课堂里查看板书图片，教师可以在其他教室下载并打开该板书继续编辑。",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.msg2": {
+    "message": "您已成功保存板书图片和源文件到{name}。学生可以在课堂查看板书的图片，你可以在其他教室下载并打开该板书继续编辑。",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.msg3": {
+    "message": "保存到课堂后，您和学生可以在课堂文件中查看板书图片，您还可以再其他教室下载并打开板书继续编辑。",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.msg4": {
+    "message": "您已成功保存板书到{name}，现在可以在课堂文件中查看了。",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.noData": {
+    "message": "没有已保存的白板文件",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.saveErr": {
+    "message": "保存失败，无法连接到服务器",
+    "description": "smart-classroom 项目"
+  },
+  "remark.allCourse": {
+    "message": "全部课程",
+    "description": "smart-classroom 项目"
+  },
+  "remark.remark": {
+    "message": "备注，最多200字",
+    "description": "smart-classroom 项目"
+  },
+  "custom.custom": {
+    "message": "自定义",
+    "description": "smart-classroom 项目"
+  },
+  "custom.pleaseScore": {
+    "message": "请输入分值",
+    "description": "smart-classroom 项目"
+  },
+  "custom.qrMsg": {
+    "message": "使用微信/优学院APP扫码进行分享",
+    "description": "smart-classroom 项目"
   }
 }
