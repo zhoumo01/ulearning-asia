@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">U-الفئة</string>
+    <string name="app_name_2">الكلية الرقمية للفلسفة</string>
     <string name="version_update">تحديثات الإصدار</string>
     <string name="update">تحديث</string>
     <string name="cancel">إلغاء</string>
@@ -13,7 +14,9 @@
     <string name="china_mainland">الصين</string>
     <string name="africa">أفريقيا</string>
     <string name="sandBox">رمل</string>
-    <!--    分组研讨-->
+    <string name="device">com.zzy.ulearning01.DeviceName</string>
+
+<!--    分组研讨-->
     <string name="nav_broad">بث الشاشة</string>
     <string name="broading">بث</string>
     <string name="stop_broad">إلغاء البث</string>
@@ -41,6 +44,8 @@
 </string>
     <string name="msg_pc_screen">الكمبيوتر الرجاء استخدام شاشة خط HDMI</string>
     
+    <string name="title_screen_agent">الهاتف المحمول على الشاشة</string>
+    
     <string name="request_permission_fail">فشل التقدم بطلب للحصول على إذن</string>
     <string name="request_screen_permission_fail">فشل التطبيق في طلب حقوق التسجيل</string>
     <string name="request_float_permission_fail">فشل التطبيق في طلب إذن نافذة التحويم</string>
@@ -49,4 +54,99 @@
     <string name="no_activation">غير مفعل</string>
     <string name="perfect_information">انقر لتحسين إعدادات الشاشة</string>
 
-</resources>
+    <string name="network_check">يرجى التحقق من الشبكة</string>
+    <string name="title">النصائح</string>
+
+<!--    ABC为占位字符，请放于合适的位置-->
+    <string name="click_connect_again">إذا كانت هناك شاشة مجموعة في وضع عدم الاتصال ، فيرجى جعل الطلاب يفتحون شاشة المجموعة uclass. \nإذا تم تشغيل شاشة المجموعة uclass ، يرجى ABC توصيل شاشة المجموعة.</string>
+    <string name="ABC">اضغط هنا مرة أخرى</string>
+
+    <string name="malaysia">ماليزيا</string>
+    <string name="float_msg">تتطلب الفئة U أذونات مربع التمرير لتشغيلها في الخلفية أثناء عمليات البث متعددة الشاشات. يرجى النقر فوق \&quot;موافق\&quot; وفتح إذن مربع التمرير على واجهة الإعدادات المنبثقة.</string>
+    <string name="ip_msg">تتطلب الوظيفة التفاعلية متعددة الشاشات استخدام IP ثابت ، ولا تقم بتغيير أو توصيل شبكات متعددة بشكل تعسفي مثل الشبكات السلكية واللاسلكية في نفس الوقت.</string>
+    <string name="current_ip">الملكية الفكرية الحالية:</string>
+    <string name="register_ip">شبكة IP:</string>
+    <string name="nav_whiteboard">لوح النقاش</string>
+    <string name="zambia">زامبيا</string>
+
+<!--    待翻译-->
+    <string name="fault_detection">اكتشاف الأخطاء</string>
+    <string name="group_num">الرقم التسلسلي للمجموعة</string>
+    <string name="group_num_modify_msg">ملاحظة: لضمان التدريس العادي، يرجى عدم تغيير رقم تسلسل المجموعة حسب الرغبة، بعد تغيير رقم تسلسل المجموعة، يرجى تحديث الصفحة أو إعادة تشغيل التطبيق من جانب المعلم.</string>
+    <string name="connect_interrupt_msg">فشل بث شاشة المجموعة ، يرجى التحقق مما إذا كانت شاشة المجموعة متصلة بالإنترنت والمحاولة مرة أخرى. انقر فوق \&quot;اكتشاف الأخطاء\&quot; على شاشة المجموعة U-Class واجهة لعرض حالة شاشة المجموعة واتباع مطالبات المساعدة</string>
+
+<!--    白板相关-->
+    <string name="wb_tool_name_pen">أداة الرسم</string>
+    <string name="wb_tool_name_eraser">مساحة</string>
+    <string name="wb_tool_name_select">تحديد الدائرة</string>
+    <string name="wb_tool_name_canvas_mode">التكبير</string>
+    <string name="wb_tool_name_previous">السابقه</string>
+    <string name="wb_tool_name_next">التالي</string>
+    <string name="wb_tool_name_setting">الإعدادات</string>
+    <string name="wb_tool_name_save">حفظ</string>
+    <string name="wb_tool_name_open">توسيع</string>
+    <string name="wb_tool_name_thumbnail">مصغرات</string>
+
+    <string name="wb_tool_name_page_manager">إدارة الصفحة</string>
+
+    <string name="wb_tool_name_pen_pencil">قلم</string>
+    <string name="wb_tool_name_pen_finger">إصبع</string>
+    <string name="wb_tool_name_pen_brush">ريشه</string>
+    <string name="wb_tool_name_pen_smart">الكتابة الذكية</string>
+    <string name="wb_tool_name_pen_passive">تم مسح نهاية القلم</string>
+    <string name="wb_tool_smart_pen_txt">كتابه</string>
+    <string name="wb_tool_smart_pen_graphic">الرسومات</string>
+    <string name="wb_tool_smart_pen_table">جدول</string>
+    <string name="wb_tool_name_exit">إغلاق السبورة البيضاء</string>
+    <string name="wb_tool_name_save_course">حفظ في الصف</string>
+    <string name="wb_tool_name_save_pic">تصدير الصورة</string>
+    <string name="wb_tool_name_cancel">إلغاء</string>
+    <string name="wb_tool_name_done">مكتمل</string>
+    <string name="wb_tool_num">٪ 1 $ 02d / ٪ 2 $ 02d</string>
+    <string name="wb_name_eraser">محو</string>
+    <string name="wb_name_clear_screen">مسح الشاشة</string>
+    <string name="wb_message_canvas_lock">تكبير الصفحة مغلق ويمكن كتابته بشخصين</string>
+    <string name="wb_message_canvas_unlock">تم إلغاء قفل تكبير/تصغير الصفحة ويمكن تغيير حجمه</string>
+    <string name="double_writing">الكتابة المزدوجة</string>
+    <string name="wb_tool_name_background">خلفية السبورة البيضاء</string>
+    <string name="wb_message_canvas_unlock_at_smart_pen_type">الكتابة المكونة من شخصين غير مدعومة في وضع القلم الذكي، ويتم إلغاء قفل الصفحة</string>
+    <string name="common_task_finish_content">لديك محتوى غير محفوظ</string>
+    <string name="common_task_finish_delete_all">عدم الحفظ</string>
+    <string name="common_task_finish_cancel">إلغاء</string>
+    <string name="common_task_finish_save">حفظ</string>
+    <string name="common_delect_page_content">الصفحات المحذوفة غير قابلة للاسترداد</string>
+    <string name="common_sure">تأكيد</string>
+    <string name="common_delect_page_title">حذف</string>
+    <string name="common_save_failed">لم نتنكن من الحفظ</string>
+    <string name="common_save_success">تم الحفظ</string>
+    <string name="common_load_board_fail_title">فشل تحميل السبورة البيضاء</string>
+    <string name="common_load_board_success">تحميل ناجح</string>
+    <string name="common_new_board_failed">فشل في إنشاء لوح معلومات جديد</string>
+    <string name="common_new_page_failed">فشل في إنشاء صفحة جديدة</string>
+    <string name="wb_page_max_error">تم الوصول إلى الحد الأقصى لعدد الصفحات ولا يمكن إنشاؤه</string>
+
+    <string name="exit_wb_msg">لم يتم حفظ المحتوى الذي تم تحريره حاليا ، بعد إغلاق السبورة البيضاء ، سيتم مسح المحتوى الذي تم تحريره ، وتأكيد إغلاق السبورة؟</string>
+
+    <string name="title1"> تذكير </string>
+    <string name="close">إغلاق</string>
+    <string name="close_whiteboard">إغلاق السبورة البيضاء</string>
+    <string name="back_and_save">العودة إلى الحفظ</string>
+    <string name="open_wb_msg">في الوقت الحالي ، افتح الملفات فقط ضمن مسار حفظ هذا البرنامج. مسار:</string>
+    <string name="save_wb_msg">حفظ المسار:</string>
+    <string name="open_local_wb">فتح الملف المحلي</string>
+    <string name="open_course_wb">فتح ملف في الفصل الدراسي</string>
+    <string name="continue_to_use">أوافق واستمر</string>
+    <string name="give_up_using">التخلي عن الاستخدام</string>
+    <string name="title2">الشرح</string>
+    <string name="open_wb_not_save_msg">لم يتم حفظ لوح المعلومات الحالي وسيتم الكتابة فوق السبورة الحالية عند فتحها</string>
+    <string name="not_save">لم يتم حفظه</string>
+    <string name="continue_do">إستمرار</string>
+    <string name="input_file_name">الرجاء إدخال اسم الملف</string>
+    <string name="duplicate_file_name">أسماء الملفات المكررة</string>
+    <string name="wb_save_failed">فشل الحفظ، حاول تغيير اسم الملف</string>
+    <string name="del_wb_msg">هل أنت متأكد من أنك تريد حذف الصفحة الحالية؟</string>
+    <string name="wb_page_scale_min">تم تكبير الصفحة إلى الحد الأدنى</string>
+    <string name="wb_page_scale_max">تم تغيير حجم الصفحة إلى الحد الأقصى</string>
+    <string name="wb_page_scale">مقياس قماش</string>
+
+    <!--    待翻译--></resources>
