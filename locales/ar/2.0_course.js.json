@@ -5155,6 +5155,18 @@
     "message": "إجابة",
     "description": "2.0 course.js"
   },
+  "answerNum": {
+    "message": "رقم الإجابة",
+    "description": "2.0 course.js"
+  },
+  "answerRate": {
+    "message": "معدل الإجابة",
+    "description": "2.0 course.js"
+  },
+  "answerAightNum": {
+    "message": "الإجابة على عدد الأشخاص بشكل صحيح",
+    "description": "2.0 course.js"
+  },
   "liveInteractionTip": {
     "message": "لا توجد أنشطة تفاعلية (مثل تسجيل الدخول، و الإستطلاع، إلخ)  تم إطلاقها في المحاضرة المباشرة.",
     "description": "2.0 course.js"
@@ -5457,6 +5469,10 @@
   },
   "goToJoinTheCourse": {
     "message": "تسجيل الدورة التدريبية عبر تطبيق ULearning",
+    "description": "2.0 course.js"
+  },
+  "goToActiveCode": {
+    "message": "انتقل إلى [ULearning] لتفعيل المادة التعليمية",
     "description": "2.0 course.js"
   },
   "downloadApp": {
@@ -5855,8 +5871,24 @@
     "message": "مسح علامة فئة الفرشاة",
     "description": "2.0 course.js"
   },
+  "shuakeTips": {
+    "message": "استنادا إلى سجل التعلم ، اكتشف النظام أن الطالب يشتبه في سلوك تنظيف الأسنان بالفرشاة في الفصل. بعد التحقق من المعالجة ، يمكنك مسح علامة تنظيف الطلاب بالفرشاة هنا.",
+    "description": "2.0 course.js"
+  },
+  "anchorName": {
+    "message": "انقر لإدخال الاسم الكامل",
+    "description": "指主播第一次进入直播间, 会提示用户输入主播姓名"
+  },
+  "shuakeClearConfirm": {
+    "message": "يؤدي هذا الإجراء فقط إلى مسح علامة الفصل الدراسي بالتمرير السريع للطالب، وليس سجل تعلم الطالب ودرجاته. إذا كنت بحاجة إلى مسح تقدير الطالب، يمكنك النقر فوق اسم الطالب لمسحه في التقدير التفصيلي. هل أنت متأكد من أنك تريد مسح علامة التنظيف بالفرشاة؟",
+    "description": "2.0 course.js"
+  },
   "courseGoal": {
     "message": "أهداف الدورة",
+    "description": "2.0 course.js"
+  },
+  "evaluationRules": {
+    "message": "قواعد التقييم",
     "description": "2.0 course.js"
   },
   "achievementStatistics": {
@@ -5867,6 +5899,34 @@
     "message": "تحليل",
     "description": "2.0 course.js"
   },
+  "obeTitle": {
+    "message": "تحليل الإنجاز الموضوعي للدورة",
+    "description": "2.0 course.js"
+  },
+  "obeLinkDelTips": {
+    "message": "حذف رابط التقييم، ويلزم إعادة ربط أنشطة الرابط المقابل. هل أنت متأكد من أنك تريد حذفه؟",
+    "description": "2.0 course.js"
+  },
+  "obeLinkDelTips2": {
+    "message": "يتم الاحتفاظ بجلسة تقييم واحدة على الأقل.",
+    "description": "2.0 course.js"
+  },
+  "obeGoalDelTips": {
+    "message": "بعد حذف هدف، يجب إعادة إقران الأنشطة التي لها بالفعل أهداف المقرر الدراسي المقترنة. هل أنت متأكد من أنك تريد حذفه؟",
+    "description": "2.0 course.js"
+  },
+  "obeGoalDelTips2": {
+    "message": "احتفظ بهدف دورة تدريبية واحدة على الأقل.",
+    "description": "2.0 course.js"
+  },
+  "obeAddGoalMaxTips": {
+    "message": "أضف ما يصل إلى 10 أهداف.",
+    "description": "2.0 course.js"
+  },
+  "obeAddLinkMaxTips": {
+    "message": "يمكن إضافة ما يصل إلى 10 جلسات تقييم.",
+    "description": "2.0 course.js"
+  },
   "obeDefaultLink1": {
     "message": "عادة ما تعمل",
     "description": "2.0 course.js"
@@ -5875,8 +5935,44 @@
     "message": "نتيجة نهاية التيرم",
     "description": "2.0 course.js"
   },
+  "obeSaveTips1": {
+    "message": "لا يمكن أن يكون المحتوى المستهدف للمقرر الدراسي فارغا.",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips2": {
+    "message": "لا يمكن أن تتجاوز أهداف المقرر الدراسي 1000 حرف.",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips3": {
+    "message": "لا يمكن أن تكون القيمة المستهدفة للإنجاز فارغة.",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips4": {
+    "message": "يجب أن تكون القيمة المستهدفة للإنجاز عددا من 0-1 ، مع حجز منزلتين عشريتين.",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips5": {
+    "message": "لا يمكن أن يكون اسم رابط التقييم فارغا.",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips6": {
+    "message": "لا يمكن أن يتجاوز اسم جلسة التقييم 50 حرفا.",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips7": {
+    "message": "ولا يجوز أن يتجاوز مجموع أوزان كل بند من بنود الإنجاز 100 في المائة.",
+    "description": "2.0 course.js"
+  },
+  "obeClearTips": {
+    "message": "احرص على مسح أهداف المقرر الدراسي ومزامنة إزالة جميع قواعد المراجعة والبيانات المستوردة التي قمت بإعدادها. هل أنت متأكد من أنك تريد مسحه؟",
+    "description": "2.0 course.js"
+  },
   "obeNullTips": {
     "message": "لم يتم تحديد أهداف الدورة التدريبية بعد",
+    "description": "2.0 course.js"
+  },
+  "obePassScore": {
+    "message": "القيمة المستهدفة للتحقيق:",
     "description": "2.0 course.js"
   },
   "obeLink": {
@@ -5919,12 +6015,24 @@
     "message": "هدف",
     "description": "2.0 course.js"
   },
+  "obeRulesTips": {
+    "message": "بعد تحديد أهداف المقرر الدراسي ونسبة تقييم الدرجات، يمكنك ربط البرامج الدراسية والأنشطة التعليمية المختلفة بأهداف المقرر الدراسي هنا. لن يتم تضمين البيانات غير المرتبطة بأهداف الدورة التدريبية وروابط التقييم في إحصاءات الإنجاز.",
+    "description": "2.0 course.js"
+  },
+  "obeTextbookTips1": {
+    "message": "يتم تعيين البرامج الدراسية بشكل موحد من قبل مسؤول المقرر الدراسي لقواعد التقييم. (دعم البرامج الدراسية التي تم إصدارها بواسطة أداة منشئ المقرر الدراسي فقط)",
+    "description": "2.0 course.js"
+  },
   "textbookNullTips": {
     "message": "\"لا توجد مناهج دراسية حاليا\"",
     "description": "2.0 course.js"
   },
   "onlineActivities": {
     "message": "أنشطة التدريس عبر الإنترنت",
+    "description": "2.0 course.js"
+  },
+  "activityTips1": {
+    "message": "وتشمل الأنشطة التي يمكن إدراجها في إحصاءات تحقيق الأهداف، في الوقت الراهن، المهام والامتحانات والمناقشات فقط. يمكن تعيين أنشطة التدريس عبر الإنترنت من قبل مسؤول الدورة التدريبية أو معلمي الفصل الفرديين.",
     "description": "2.0 course.js"
   },
   "activityTips2": {
@@ -5955,6 +6063,18 @@
     "message": "تصدير",
     "description": "2.0 course.js"
   },
+  "weightScore": {
+    "message": "يتم عرض الدرجات حسب قيمة الوزن",
+    "description": "2.0 course.js"
+  },
+  "percentageScore": {
+    "message": "يتم عرض التقديرات على مقياس مكون من 100 نقطة",
+    "description": "2.0 course.js"
+  },
+  "obeStatisticsNullTips": {
+    "message": "يتم وضع أهداف الدورة وقواعد التقييم أولا لحساب درجة تحقيق الأهداف",
+    "description": "2.0 course.js"
+  },
   "chapter": {
     "message": "فصل",
     "description": "2.0 course.js"
@@ -5967,8 +6087,24 @@
     "message": "الدرجة النهائية",
     "description": "2.0 course.js"
   },
+  "obeOwnerLink": {
+    "message": "ينتمي إلى رابط التقييم",
+    "description": "2.0 course.js"
+  },
+  "moreClassNum": {
+    "message": "إلخ {n} فئات",
+    "description": "2.0 course.js"
+  },
+  "obePaperTips": {
+    "message": "إذا كانت هناك مجموعات متعددة من الأوراق ، فيجب تضمين الأهداف المرتبطة بكل مجموعة من الأوراق",
+    "description": "2.0 course.js"
+  },
   "batchSetting": {
     "message": "الإعداد المجمع",
+    "description": "2.0 course.js"
+  },
+  "questionUnit": {
+    "message": "عنوان",
     "description": "2.0 course.js"
   },
   "associate": {
@@ -5979,12 +6115,68 @@
     "message": "اسم الاختبار",
     "description": "2.0 course.js"
   },
+  "linkNullTips": {
+    "message": "يرجى اختيار رابط التقييم أولا",
+    "description": "2.0 course.js"
+  },
+  "obeNullTips2": {
+    "message": "حدد أهداف المقرر الدراسي قبل وضع قواعد التقييم",
+    "description": "2.0 course.js"
+  },
+  "obeTitle2": {
+    "message": "تحليل تحقيق الأهداف",
+    "description": "2.0 course.js"
+  },
+  "completion": {
+    "message": "درجة الإنجاز",
+    "description": "2.0 course.js"
+  },
+  "overallCompletion": {
+    "message": "الوصول العام",
+    "description": "2.0 course.js"
+  },
+  "instructions": {
+    "message": "وصف قاعدة الحساب",
+    "description": "2.0 course.js"
+  },
+  "updataTime": {
+    "message": "وقت تحديث البيانات:",
+    "description": "2.0 course.js"
+  },
+  "tipPedding": {
+    "message": "حجم حساب إحصائيات الدرجة كبير ويستغرق وقتا طويلا ، وسيقوم النظام بتحديث البيانات بعد اكتمال إحصائيات الخلفية ، لذا يرجى التحقق من الإحصاءات الجديدة لاحقا.",
+    "description": "2.0 course.js"
+  },
+  "tipFailling": {
+    "message": "لا تزال مهمة الإحصاءات الأخيرة قيد التقدم ، يرجى التحقق مرة أخرى لاحقا.",
+    "description": "2.0 course.js"
+  },
+  "statisticsTopTiP": {
+    "message": "في كل مرة تقوم فيها بتعديل هدف المقرر الدراسي أو قاعدة التقييم، ستحتاج إلى تحديث البيانات يدويا. قد تستغرق إحصاءات البيانات وقتا طويلا ، يرجى التحلي بالصبر.",
+    "description": "2.0 course.js"
+  },
+  "developmentTips": {
+    "message": "نظرا لأن الميزات قيد التطوير ، ترقبوا",
+    "description": "2.0 course.js"
+  },
+  "iCourseTip": {
+    "message": "ملاحظة: باستخدام البرامج الدراسية التي تحب الدورة التدريبية، فإنه لا يدعم إعداد خطة التعلم، ويمكن لدرجة التقدم فقط عرض البيانات الإجمالية للبرامج الدراسية، ولا يمكن عرض بيانات الفصول الفرعية، ولا يمكن تضمين درجة البرامج الدراسية في التقييم.",
+    "description": "2.0 course.js"
+  },
+  "percent": {
+    "message": "{n}٪",
+    "description": "2.0 course.js"
+  },
   "activateAccount": {
     "message": "حساب التنشيط:",
     "description": "2.0 course.js"
   },
   "offlineActivities": {
     "message": "أنشطة التدريس غير المتصلة بالإنترنت",
+    "description": "2.0 course.js"
+  },
+  "activityTips4": {
+    "message": "بالنسبة للامتحانات غير المتصلة بالإنترنت والأنشطة الأخرى، يمكنك استيراد بيانات التقدير إلى النظام وفقا للقالب. تتم إضافة الأحداث غير المتصلة بالإنترنت واستيرادها بواسطة مسؤولي المقرر الدراسي بطريقة موحدة.",
     "description": "2.0 course.js"
   },
   "templeteDodnload": {
@@ -6011,6 +6203,26 @@
     "message": "لا يتم استيراد البيانات",
     "description": "2.0 course.js"
   },
+  "activityTipsMax10": {
+    "message": "أضف ما يصل إلى 10 أنشطة.",
+    "description": "2.0 course.js"
+  },
+  "activityNameNullTips": {
+    "message": "لا يمكن أن يكون اسم النشاط فارغا.",
+    "description": "2.0 course.js"
+  },
+  "activityNameLengthTips": {
+    "message": "الرجاء إدخال 1 ~ 200 حرف",
+    "description": "2.0 course.js"
+  },
+  "offlineActivityDeleteTips": {
+    "message": "يؤدي حذف نشاط إلى حذف بيانات التقدير المستوردة في نفس الوقت. هل أنت متأكد من أنك تريد حذفه؟",
+    "description": "2.0 course.js"
+  },
+  "importOverTips": {
+    "message": "ستؤدي إعادة الاستيراد إلى الكتابة فوق آخر بيانات تم استيرادها ، هل أنت متأكد من إعادة الاستيراد؟",
+    "description": "2.0 course.js"
+  },
   "offlineActivityGrade": {
     "message": "إنجازات النشاط غير المتصل بالإنترنت",
     "description": "2.0 course.js"
@@ -6027,12 +6239,52 @@
     "message": "سحوبات عشوائية",
     "description": "2.0 course.js"
   },
+  "obeNullTips3": {
+    "message": "إعداد أهداف المقرر الدراسي وقواعد التقييم قبل أن تتمكن من عرض تقرير التحليلات",
+    "description": "2.0 course.js"
+  },
   "exportReport": {
     "message": "تصدير التقرير",
     "description": "2.0 course.js"
   },
+  "obeAnalysisTips1": {
+    "message": "يتم إنشاء الرسوم البيانية مع أحدث الإحصاءات",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysisTips2": {
+    "message": "نظرة عامة على تحقيق أهداف الدورة التدريبية",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysisTips3": {
+    "message": "تحليل درجة الإنجاز الفردي",
+    "description": "2.0 course.js"
+  },
+  "goalItemCompletion": {
+    "message": "هدف الدورة {n} درجة المحققة",
+    "description": "2.0 course.js"
+  },
+  "goalDelTips": {
+    "message": "تم حذف هدف الارتباط",
+    "description": "2.0 course.js"
+  },
+  "fullScoreIllegalTips": {
+    "message": "يجب أن تكون قيمة النتيجة الكاملة التي تمت مناقشتها عددا صحيحا من 0-100.",
+    "description": "2.0 course.js"
+  },
+  "obeOfflineExportTemp": {
+    "message": "قالب استيراد إنجاز نشاط OBE دون اتصال",
+    "description": "2.0 course.js"
+  },
   "obeRandomTips": {
     "message": "هذا الامتحان عبارة عن امتحان يانصيب عشوائي ، يرجى اتباع هيكل ورقة الامتحان ، وربط أهداف الدورة لكل سؤال",
+    "description": "2.0 course.js"
+  },
+  "obeTotalCompletionTips": {
+    "message": "الإنجاز العام لأهداف الدورة",
+    "description": "2.0 course.js"
+  },
+  "obeStuCompletionTips": {
+    "message": "معدل امتثال الطلاب",
     "description": "2.0 course.js"
   },
   "topicNumberOf": {
@@ -6065,6 +6317,18 @@
   },
   "courseRecorded": {
     "message": "تسجيلات الفصول الدراسية",
+    "description": "2.0 course.js"
+  },
+  "recorded1": {
+    "message": "يتم تسجيل مقاطع الفيديو التعليمية في الفصل الدراسي بواسطة نظام تسجيل في الفصل الدراسي. يستغرق توليد إعادة التدريس وقتا وقد يتم تحريره من قبل المدرب قبل نشره ، لذا يرجى التحلي بالصبر.",
+    "description": "2.0 course.js"
+  },
+  "microCourseConvertTips": {
+    "message": "فشل تحويل ترميز الملفات ولم يكن من الممكن استيراده. تحقق من أن المستند يحتوي على خطوط أو محتوى خاص.",
+    "description": "2.0 course.js"
+  },
+  "modifyLive2": {
+    "message": "تعديل البث المباشر للفصل الدراسي",
     "description": "2.0 course.js"
   },
   "meetingRoom": {
@@ -6103,6 +6367,14 @@
     "message": "خيارات:",
     "description": "2.0 course.js"
   },
+  "liveStatement": {
+    "message": "من خلال الإنشاء ، فإنك تلجأ إلى {policy} الخاصة بنا",
+    "description": "2.0 course.js"
+  },
+  "livePolicy": {
+    "message": "سياسة الخصوصية",
+    "description": "2.0 course.js"
+  },
   "startTimeTip": {
     "message": "إذا كان الوقت المحدد أقل من الوقت الحالي، يتم إنشاء البث المباشر في الوقت الحالي",
     "description": "2.0 course.js"
@@ -6123,6 +6395,22 @@
     "message": "يفتح في نافذة جديدة",
     "description": "2.0 course.js"
   },
+  "backToProjectList": {
+    "message": "إرجاع قائمة بالعناصر",
+    "description": "2.0 course.js"
+  },
+  "practiceStudy": {
+    "message": "التدريب العملي على التعلم",
+    "description": "2.0 course.js"
+  },
+  "practiceReport": {
+    "message": "تقارير الممارسة",
+    "description": "2.0 course.js"
+  },
+  "projectMember": {
+    "message": "أعضاء المشروع",
+    "description": "2.0 course.js"
+  },
   "photoAndUploader": {
     "message": "التقاط صورة وتحميلها",
     "description": "2.0 course.js"
@@ -6133,6 +6421,18 @@
   },
   "batchExportData": {
     "message": "تصدير البيانات بشكل مجمع",
+    "description": "2.0 course.js"
+  },
+  "homeworkHeadTips3": {
+    "message": "يتم عرض جميع تقارير الممارسة في صفك لهذه الدورة التدريبية هنا. يمكن لمسؤولي المقرر الدراسي عرض تقارير التدريب لجميع الفصول الدراسية، ويمكن للمعلمين ومساعدي التدريس عرض تقارير الممارسة للفصول الدراسية الخاصة بهم فقط.",
+    "description": "2.0 course.js"
+  },
+  "modifyResourceText": {
+    "message": "قمت بتعديل اسم اللاحقة ، مما قد يتسبب في عدم التعرف على المورد ، موافق التعديل؟",
+    "description": "2.0 course.js"
+  },
+  "experience": {
+    "message": "تجربة",
     "description": "2.0 course.js"
   },
   "createTencentLive": {
@@ -6159,8 +6459,128 @@
     "message": "Tencent Meeting",
     "description": "2.0 course.js"
   },
+  "LargeClassLive": {
+    "message": "دروس مباشرة",
+    "description": "2.0 course.js"
+  },
+  "endTiem": {
+    "message": "وقت الانتهاء",
+    "description": "2.0 course.js"
+  },
+  "accreditHint": {
+    "message": "مطالبة التفويض",
+    "description": "2.0 course.js"
+  },
+  "timeout": {
+    "message": "انتهت المهلة، يرجى إعادة التفويض",
+    "description": "2.0 course.js"
+  },
+  "accreditSuccesss": {
+    "message": "التفويض ناجح",
+    "description": "2.0 course.js"
+  },
+  "descTip_new1": {
+    "message": "يوصي تشغيل العميل بالتنزيل وتسجيل الدخول إلى العميل مقدما.",
+    "description": "2.0 course.js"
+  },
+  "descTip_new2": {
+    "message": "يمكنك تنزيل التشغيل وتصدير البيانات في اجتماعات Tencent. يمكن ل ULearning الاحتفاظ بتشغيل تسجيل مؤتمر Tencent.",
+    "description": "2.0 course.js"
+  },
+  "descTip_new3": {
+    "message": "يوصى بالبث الشبكي",
+    "description": "2.0 course.js"
+  },
+  "descTip_new4": {
+    "message": "لاستخدام Tencent Meetings، تحتاج إلى تنزيل عميل اجتماعات Tencent، لذلك يوصى بالتنزيل وتسجيل الدخول مسبقا.",
+    "description": "2.0 course.js"
+  },
+  "Chrome": {
+    "message": " جوجل كروم",
+    "description": "2.0 course.js"
+  },
+  "browser": {
+    "message": "متصفح",
+    "description": "2.0 course.js"
+  },
+  "descTip3": {
+    "message": "إذا كنت تستخدم اجتماعات Tencent، فيرجى تنزيل عميل Tencent Meetings وتسجيل الدخول إليه مسبقا.",
+    "description": "2.0 course.js"
+  },
+  "descTip4": {
+    "message": "إذا كنت ترغب في استخدام البث المباشر للفصل ، يرجى استخدام",
+    "description": "2.0 course.js"
+  },
+  "descTip4_1": {
+    "message": "شارك في البث المباشر.",
+    "description": "2.0 course.js"
+  },
+  "descTip5": {
+    "message": "لا تتوفر مقاطع فيديو قيد التشغيل.",
+    "description": "2.0 course.js"
+  },
+  "descTip6": {
+    "message": "قبل بدء الاجتماع ، يرجى تنزيل عميل مؤتمر Tencent وتسجيل الدخول إليه ، أثناء الاجتماع ، يرجى التفاعل بشكل مدني.",
+    "description": "2.0 course.js"
+  },
+  "polyvCheckLiveTip": {
+    "message": "سيتم الاحتفاظ برابط التشغيل المباشر لمدة 2 سنوات. تتوفر ملفات فيديو التشغيل للتنزيل في غضون 180 يوما",
+    "description": "2.0 course.js"
+  },
+  "residueDowFate": {
+    "message": "عدد الأيام المتبقية لتكون قابلة للتنزيل",
+    "description": "2.0 course.js"
+  },
+  "tipNote1": {
+    "message": " ملاحظة: يمكنك عرض التشغيل بعد 30 دقيقة من نهاية البث المباشر للصف. إذا قمت بتمكين التسجيل السحابي ل Tencent Meeting، فيمكنك عرض التشغيل بعد اكتمال التسجيل.",
+    "description": "2.0 course.js"
+  },
+  "tipNote2": {
+    "message": "ملاحظة: إذا قمت بتمكين التسجيل السحابي لاجتماع Tencent، يمكنك عرض التشغيل بعد اكتمال التسجيل.",
+    "description": "2.0 course.js"
+  },
+  "infuse": {
+    "message": "ركز:",
+    "description": "2.0 course.js"
+  },
+  "dowLiveHint1": {
+    "message": "1. يحتوي الفيديو فقط على مشاركة الشاشة والوسائط المتعددة ولقطات الكاميرا. تتضمن مقاطع الفيديو والبرامج الدراسية السبورات البيضاء والبرامج الدراسية والمستندات ومشاركة الشاشة والوسائط المتعددة ولقطات الكاميرا.",
+    "description": "2.0 course.js"
+  },
+  "dowLiveHint2": {
+    "message": "2. قد يفشل إنشاء الفيديو والبرامج الدراسية بسبب ضعف شبكة البث المباشر وعدم اكتمال البيانات ، إذا استمر فشل التجديد ، فلا يمكن إنشاؤه ، فمن المستحسن استخدام تنزيل الفيديو فقط.",
+    "description": "2.0 course.js"
+  },
+  "dowLiveHint3": {
+    "message": "3. وقت إنشاء الفيديو والبرامج الدراسية يساوي تقريبا مدة البث المباشر ، ووقت البث المباشر أطول من 6 ساعات.",
+    "description": "2.0 course.js"
+  },
+  "dowLiveHint4": {
+    "message": "4. يمكن تنزيل ملف التشغيل في غضون 180 يوما.",
+    "description": "2.0 course.js"
+  },
+  "createdhint": {
+    "message": "البث المباشر شبكة ضعيفة ، والحفاظ على البيانات غير مكتملة. إذا فشلت عملية إعادة الإنشاء مرة أخرى ، فمن المستحسن تنزيل الفيديو فقط.",
+    "description": "2.0 course.js"
+  },
   "liveTime2": {
     "message": "مدة المحاضرة المباشرة",
+    "description": "2.0 course.js"
+  },
+  "liveState": {
+    "message": "حالة الفيديو فقط",
+    "description": "2.0 course.js"
+  },
+  "liveState1": {
+    "message": "فيديو فقط",
+    "description": "2.0 course.js"
+  },
+  "liveCoursewareState": {
+    "message": "حالة البرامج الدراسية للفيديو",
+    "description": "2.0 course.js"
+  },
+  "liveCourseware": {
+    "message": "مقاطع الفيديو والبرامج الدراسية",
     "description": "2.0 course.js"
   },
   "created": {
@@ -6341,6 +6761,46 @@
   },
   "exportSendTip": {
     "message": "يتم إنشاء البيانات وإرسالها إلى صندوق البريد لاحقا.",
+    "description": "2.0 course.js"
+  },
+  "classificationAttributes": {
+    "message": "تصنيف سمات المقرر الدراسي",
+    "description": "2.0 course.js"
+  },
+  "transcribe": {
+    "message": "تسجيل",
+    "description": "2.0 course.js"
+  },
+  "createdhint1": {
+    "message": "إذا كنت بحاجة إلى التشغيل ، فيرجى تشغيل التسجيل السحابي والتأكد من وجود مساحة كافية لتسجيل اجتماع Tencent. يتم حفظ الإعادة المسجلة في ULearning والاحتفاظ بها لمدة 180 يوما. يمكنك حذف التسجيلات غير الضرورية بعد التنزيل والحفظ في اجتماعات Tencent لتوفير مساحة التسجيل.",
+    "description": "2.0 course.js"
+  },
+  "teacherInfuse": {
+    "message": "ملاحظة: تم الاحتفاظ بفيديو التشغيل بواسطة ULearning ، ولن يؤثر حذف ملف التسجيل في اجتماع Tencent على العرض العادي للتشغيل. سنحتفظ بها لك لمدة 180 يوما ، والتي سيتم تنظيفها تلقائيا عند انتهاء صلاحيتها.",
+    "description": "2.0 course.js"
+  },
+  "teacherBackLive": {
+    "message": "تشغيل مقطع فيديو",
+    "description": "2.0 course.js"
+  },
+  "teacherBackLiveStu": {
+    "message": "يتم حجز التشغيل لمدة 180 يوما، يرجى التحقق مرة أخرى في الوقت المناسب.",
+    "description": "2.0 course.js"
+  },
+  "teacherBackLiveTea": {
+    "message": "ملاحظة: تم حفظ فيديو التشغيل في U-College ويمكن الاحتفاظ به لمدة 180 يوما",
+    "description": "2.0 course.js"
+  },
+  "pastDue": {
+    "message": "انتهت صلاحية التشغيل",
+    "description": "2.0 course.js"
+  },
+  "getLivedata": {
+    "message": "إحصائيات في ",
+    "description": "2.0 course.js"
+  },
+  "NoPlayCheck": {
+    "message": "لا يوجد تشغيل",
     "description": "2.0 course.js"
   }
 }
