@@ -407,6 +407,18 @@
     "message": "請勿頻繁操作",
     "description": "小应用"
   },
+  "mobilePermissionTip1": {
+    "message": "您已禁用相機許可權，無法使用此功能，請進入手機【設置】進行授權",
+    "description": "小应用"
+  },
+  "mobilePermissionTip2": {
+    "message": "您已禁用麥克風許可權，無法使用此功能，請進入手機【設置】進行授權",
+    "description": "小应用"
+  },
+  "mobilePermissionTip3": {
+    "message": "您已禁用定位許可權，無法使用此功能，請進入手機【設置】進行授權",
+    "description": "小应用"
+  },
   "teacher.title": {
     "message": "教師",
     "description": "小应用"
@@ -597,6 +609,10 @@
   },
   "vote.voted": {
     "message": "已投票",
+    "description": "小应用"
+  },
+  "vote.deadline": {
+    "message": "截止時間：{time}",
     "description": "小应用"
   },
   "vote.end": {
@@ -1135,8 +1151,16 @@
     "message": "“二維碼簽到”需開啟投屏，在大屏幕上展示簽到二維碼。",
     "description": "小应用"
   },
+  "attendance.screenTipsNew": {
+    "message": "“二維碼簽到”需開啟投屏，在大螢幕上展示簽到二維碼。 學生僅能使用手機掃碼簽到。",
+    "description": "小应用"
+  },
   "attendance.locationTips": {
     "message": "\"位置簽到\"需開啟定位。 由於4G網路基站和網路穩定情況的影響，位置數據會有一定的誤差。",
+    "description": "小应用"
+  },
+  "attendance.locationTipsNew": {
+    "message": "“位置簽到”需學生使用手機，並開啟定位。 由於4G網路基站和網路穩定情況的影響，位置數據會有一定的誤差。",
     "description": "小应用"
   },
   "attendance.qrCodeUpdateTips": {
@@ -2271,6 +2295,10 @@
     "message": "課堂選人、搶答活動獲得的積分，",
     "description": "小应用"
   },
+  "class.exitNeedCheck": {
+    "message": "學生退出班級時需要審批",
+    "description": "小应用"
+  },
   "resource.createFolder": {
     "message": "添加資料夾",
     "description": "小应用"
@@ -2927,6 +2955,10 @@
     "message": "教師",
     "description": "小应用"
   },
+  "user.society": {
+    "message": "社會學習者",
+    "description": "小应用"
+  },
   "user.nameTitle": {
     "message": "姓名",
     "description": "小应用"
@@ -3255,6 +3287,10 @@
     "message": "如果已統一開通帳號，請使用學校開通的帳號登入，切勿重複注册。",
     "description": "小应用"
   },
+  "user.registerTip2": {
+    "message": "註冊所用手機號/郵箱即為登錄使用者名。",
+    "description": "小应用"
+  },
   "user.isStudent": {
     "message": "我是學生",
     "description": "小应用"
@@ -3281,6 +3317,18 @@
   },
   "user.noDataTip": {
     "message": "沒有找到該學校/機構",
+    "description": "小应用"
+  },
+  "user.repeatTip": {
+    "message": "該學號/工號已開通帳號，請勿重複註冊。 如果忘記使用者名或密碼，請聯繫在線客服。",
+    "description": "小应用"
+  },
+  "user.repeatTip2": {
+    "message": "該學號/工號已開通帳號（機構：{org}，使用者名：{name}），請勿重複註冊。 如果忘記使用者名或密碼，請聯繫在線客服。",
+    "description": "小应用"
+  },
+  "user.registErrorText": {
+    "message": "請先勾選再註冊",
     "description": "小应用"
   },
   "search.title": {
@@ -3863,6 +3911,122 @@
     "message": "教師正在直播，點擊進入",
     "description": "小应用"
   },
+  "loginCode.loginCode": {
+    "message": "掃碼登錄",
+    "description": "小应用"
+  },
+  "loginCode.ulearningUser": {
+    "message": "優學院賬號",
+    "description": "小应用"
+  },
+  "loginCode.allowedLogin": {
+    "message": "允許登錄",
+    "description": "小应用"
+  },
+  "loginCode.screenCode": {
+    "message": "掃碼投屏",
+    "description": "小应用"
+  },
+  "loginCode.msg1": {
+    "message": "正在其它設備終端登錄",
+    "description": "小应用"
+  },
+  "loginCode.msg2": {
+    "message": "請確認以上為本人操作",
+    "description": "小应用"
+  },
+  "loginCode.msg3": {
+    "message": "並確認二維碼來源的安全性",
+    "description": "小应用"
+  },
+  "loginCode.msg4": {
+    "message": "請使用優學院APP掃碼登錄",
+    "description": "小应用"
+  },
+  "loginCode.msg5": {
+    "message": "前往【優學院】掃碼登錄",
+    "description": "小应用"
+  },
+  "loginCode.msg6": {
+    "message": "啟動【優學院】APP",
+    "description": "小应用"
+  },
+  "loginCode.msg7": {
+    "message": "二維碼已過期，請刷新二維碼后再試。",
+    "description": "小应用"
+  },
+  "loginCode.msg8": {
+    "message": "操作超時，請重新掃描二維碼登錄。",
+    "description": "小应用"
+  },
+  "loginCode.tips1": {
+    "message": "開啟該功能可支持手機端與大屏端的聯動授課，",
+    "description": "小应用"
+  },
+  "loginCode.tips2": {
+    "message": "具體包含",
+    "description": "小应用"
+  },
+  "loginCode.tips3": {
+    "message": "免輸使用者名密碼，掃碼即可登錄智慧屏U-Class用戶端或電腦瀏覽器端的課堂。",
+    "description": "小应用"
+  },
+  "loginCode.tips4": {
+    "message": "可支援手機遙控大屏端PPT翻頁。",
+    "description": "小应用"
+  },
+  "loginCode.tips5": {
+    "message": "使用手機控制大屏端活動的開啟、結束、顯示詳情等狀態。",
+    "description": "小应用"
+  },
+  "loginCode.tips6": {
+    "message": "使用方式",
+    "description": "小应用"
+  },
+  "loginCode.tips7": {
+    "message": "請在大螢幕端開啟U-Class用戶端或在瀏覽器中輸入以下網址顯示如下頁面：",
+    "description": "小应用"
+  },
+  "loginCode.tips8": {
+    "message": "掃描大屏的二維碼完成連接",
+    "description": "小应用"
+  },
+  "loginCode.tips9": {
+    "message": "勾選后不再提示",
+    "description": "小应用"
+  },
+  "candidates.notChoose": {
+    "message": "未被選過的學生數不足（剩餘人數：{num}），請重新設置人數，或者創建一個新的選人活動。",
+    "description": "小应用"
+  },
+  "candidates.notPickMember": {
+    "message": "所有學生都被選過了，請創建一個新的選人活動",
+    "description": "小应用"
+  },
+  "newSign.signPosition": {
+    "message": "簽到位置",
+    "description": "小应用"
+  },
+  "newSign.locationWrong": {
+    "message": "位置不準確",
+    "description": "小应用"
+  },
+  "newSign.posTitle": {
+    "message": "定位偏差較大",
+    "description": "小应用"
+  },
+  "newSign.posMsg1": {
+    "message": "確認優學院的讀取位置許可權未被禁止",
+    "description": "小应用"
+  },
+  "newSign.posMsg2": {
+    "message": "如果連接的是公共熱點，請嘗試關閉WLAN，開啟移動數據后再次定位。",
+    "description": "小应用"
+  },
+  "newSign.known": {
+    "message": "知道了",
+    "description": "小应用"
+  },
   "newSign.neverRefresh": {
     "message": "不刷新",
     "description": "小应用"
@@ -3925,6 +4089,250 @@
   },
   "user.getCodeTip5": {
     "message": "今日發送次數已達上限",
+    "description": "小应用"
+  },
+  "modification": {
+    "message": "您修改了後綴名，可能會導致資源無法識別，確定修改？",
+    "description": "小应用"
+  },
+  "photograph.photograph": {
+    "message": "拍照上傳",
+    "description": "小应用"
+  },
+  "photograph.submit": {
+    "message": "提交",
+    "description": "小应用"
+  },
+  "photograph.otherStu": {
+    "message": "其它學生",
+    "description": "小应用"
+  },
+  "photograph.notation": {
+    "message": "批註",
+    "description": "小应用"
+  },
+  "photograph.delnotation": {
+    "message": "刪除批註",
+    "description": "小应用"
+  },
+  "photograph.addScore": {
+    "message": "加分",
+    "description": "小应用"
+  },
+  "photograph.coursewareScreenshots": {
+    "message": "課件截圖",
+    "description": "小应用"
+  },
+  "photograph.share": {
+    "message": "分享",
+    "description": "小应用"
+  },
+  "photograph.submitted": {
+    "message": "已提交",
+    "description": "小应用"
+  },
+  "photograph.uncommitted": {
+    "message": "未提交",
+    "description": "小应用"
+  },
+  "photograph.back": {
+    "message": "撤銷",
+    "description": "小应用"
+  },
+  "photograph.clear": {
+    "message": "清空",
+    "description": "小应用"
+  },
+  "photograph.shareSucc": {
+    "message": "分享成功",
+    "description": "小应用"
+  },
+  "photograph.msg1": {
+    "message": "按照教師要求上傳照片，最多上傳20張圖片",
+    "description": "小应用"
+  },
+  "photograph.msg2": {
+    "message": "其他同學提交的圖片",
+    "description": "小应用"
+  },
+  "photograph.msg3": {
+    "message": "我提交的圖片",
+    "description": "小应用"
+  },
+  "photograph.msg4": {
+    "message": "活動已結束",
+    "description": "小应用"
+  },
+  "photograph.msg5": {
+    "message": "活動已結束，你未參與",
+    "description": "小应用"
+  },
+  "photograph.msg6": {
+    "message": "請上傳圖片",
+    "description": "小应用"
+  },
+  "photograph.msg7": {
+    "message": "最多上傳20張",
+    "description": "小应用"
+  },
+  "photograph.msg8": {
+    "message": "確定刪除？ ",
+    "description": "小应用"
+  },
+  "photograph.msg9": {
+    "message": "學生上傳圖片進行課堂展示",
+    "description": "小应用"
+  },
+  "photograph.msg10": {
+    "message": "學生提交后可以查看其他學生的圖片",
+    "description": "小应用"
+  },
+  "photograph.msg11": {
+    "message": "確定再次開啟拍照上傳嗎？",
+    "description": "小应用"
+  },
+  "photograph.msg12": {
+    "message": "確定結束拍照上傳嗎？",
+    "description": "小应用"
+  },
+  "photograph.msg13": {
+    "message": "確定刪除拍照上傳嗎？",
+    "description": "小应用"
+  },
+  "photograph.msg14": {
+    "message": "分享給本課堂內的所有學生，學生可以在課堂活動記錄中查看。",
+    "description": "小应用"
+  },
+  "photograph.msg15": {
+    "message": "確定刪除批註？",
+    "description": "小应用"
+  },
+  "photograph.msg16": {
+    "message": "批註正在刪除中",
+    "description": "小应用"
+  },
+  "photograph.msg17": {
+    "message": "批註正在保存中",
+    "description": "小应用"
+  },
+  "photograph.msg18": {
+    "message": "請等待圖片上傳完成",
+    "description": "小应用"
+  },
+  "photograph.msg19": {
+    "message": "提交失敗，活動已結束。",
+    "description": "小应用"
+  },
+  "photograph.msg20": {
+    "message": "提交失敗，活動已刪除。",
+    "description": "小应用"
+  },
+  "photograph.msg21": {
+    "message": "確定刪除該圖片分享？",
+    "description": "小应用"
+  },
+  "photograph.msg22": {
+    "message": "刪除后，學生提交的圖片將無法找回，需要學生重新提交，確定刪除？ 如果活動已結束，學生將無法重新提交。",
+    "description": "小应用"
+  },
+  "photograph.msg23": {
+    "message": "還沒有學生提交",
+    "description": "小应用"
+  },
+  "photograph.msg24": {
+    "message": "還沒有其他學生提交",
+    "description": "小应用"
+  },
+  "photograph.msg25": {
+    "message": "正在提交",
+    "description": "小应用"
+  },
+  "photograph.msg26": {
+    "message": "提交成功",
+    "description": "小应用"
+  },
+  "photograph.msg27": {
+    "message": "演示PPT或者點評學生提交的圖片時，可以將圖片分享給班級內的學生",
+    "description": "小应用"
+  },
+  "photograph.msg28": {
+    "message": "當前課堂沒有分享的內容",
+    "description": "小应用"
+  },
+  "photograph.msg29": {
+    "message": "請選擇后提交",
+    "description": "小应用"
+  },
+  "whiteBoard.blackboard": {
+    "message": "課堂板書",
+    "description": "小应用"
+  },
+  "whiteBoard.stuAccountScanCode": {
+    "message": "請使用學生賬號掃碼",
+    "description": "小应用"
+  },
+  "whiteBoard.teaAccountScanCode": {
+    "message": "請使用教師賬號掃碼",
+    "description": "小应用"
+  },
+  "whiteBoard.getWb": {
+    "message": "正在獲取板書內容",
+    "description": "小应用"
+  },
+  "whiteBoard.saveCourse": {
+    "message": "保存到課堂",
+    "description": "小应用"
+  },
+  "whiteBoard.name": {
+    "message": "名稱",
+    "description": "小应用"
+  },
+  "whiteBoard.selectClass": {
+    "message": "選擇課堂",
+    "description": "小应用"
+  },
+  "whiteBoard.beginDown": {
+    "message": "開始下載",
+    "description": "小应用"
+  },
+  "whiteBoard.downSucc": {
+    "message": "下載成功",
+    "description": "小应用"
+  },
+  "whiteBoard.downErr": {
+    "message": "下載失敗",
+    "description": "小应用"
+  },
+  "whiteBoard.nameNotNull": {
+    "message": "名稱不能為空",
+    "description": "小应用"
+  },
+  "whiteBoard.selectCourse": {
+    "message": "請選擇課程",
+    "description": "小应用"
+  },
+  "whiteBoard.selectClassroom": {
+    "message": "請選擇課堂",
+    "description": "小应用"
+  },
+  "whiteBoard.newestAPP": {
+    "message": "當前版本不支持下載，請將APP版本更新后，再進行下載",
+    "description": "小应用"
+  },
+  "whiteBoard.saveErr": {
+    "message": "儲存失敗，無法連接到伺服器",
+    "description": "小应用"
+  },
+  "custom.custom": {
+    "message": "自定義",
+    "description": "小应用"
+  },
+  "custom.pleaseScore": {
+    "message": "請輸入分值",
+    "description": "小应用"
+  },
+  "remark.remark": {
+    "message": "備註，最多200字",
     "description": "小应用"
   }
 }
