@@ -772,7 +772,7 @@
     "description": "考试快捷地址"
   },
   "examUploadTip": {
-    "message": "选择文件时，系统将暂时退出全屏状态，请在30秒内完成选择附件的操作并返回考试界面，然后点击页面任意空白位置回到全屏状态，否则系统会将本次操作记录为离开考试。",
+    "message": "选择文件时，系统将暂时退出全屏状态，请在60秒内完成选择附件的操作并返回考试界面，然后点击页面任意空白位置回到全屏状态，否则系统会将本次操作记录为离开考试。",
     "description": "考试快捷地址"
   },
   "uploadFailTip": {
@@ -2249,6 +2249,38 @@
   },
   "networkMsg2": {
     "message": "如果网络暂时无法恢复，建议征得教师同意后，先退出考试，择期再安排重考。",
+    "description": "考试快捷地址"
+  },
+  "submissionExam": {
+    "message": "强制交卷",
+    "description": "考试快捷地址"
+  },
+  "submissionExamTip1": {
+    "message": "你已离开考试达到{n}次，按照考试监控设置，即将强制交卷。",
+    "description": "考试快捷地址"
+  },
+  "submissionExamTip2": {
+    "message": "你已离开考试超过{n}秒，按照考试监控设置，即将强制交卷。",
+    "description": "考试快捷地址"
+  },
+  "submitingNew": {
+    "message": "正在提交...",
+    "description": "考试快捷地址"
+  },
+  "leaveLimitTip": {
+    "message": "离开{n}次 ，系统将强制交卷！",
+    "description": "考试快捷地址"
+  },
+  "leaveLimitTimeTip": {
+    "message": "本次已离开{n}秒，离开超过{m}秒，系统将强制交卷!",
+    "description": "考试快捷地址"
+  },
+  "uploadFileType": {
+    "message": "上传附件",
+    "description": "考试快捷地址"
+  },
+  "uploadFinishTip": {
+    "message": "附件选择完成后，请点击【继续答题】返回考试。",
     "description": "考试快捷地址"
   }
 }
