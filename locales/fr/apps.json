@@ -407,6 +407,18 @@
     "message": "Ne le faites pas trop souvent!",
     "description": "小应用"
   },
+  "mobilePermissionTip1": {
+    "message": "Vous avez désactivé l’autorisation de l’appareil photo et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser",
+    "description": "小应用"
+  },
+  "mobilePermissionTip2": {
+    "message": "L’accès au microphone est désactivé et ne peut pas utiliser cette fonction - Veuillez accéder aux paramètres de votre appareil pour l’activer!",
+    "description": "小应用"
+  },
+  "mobilePermissionTip3": {
+    "message": "Vous avez désactivé l’autorisation de localisation et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser",
+    "description": "小应用"
+  },
   "teacher.title": {
     "message": "Enseignant",
     "description": "小应用"
@@ -2283,6 +2295,10 @@
     "message": "Points gagnés lors des activités Random/Manual Pick and Compete to Answer, ",
     "description": "小应用"
   },
+  "class.exitNeedCheck": {
+    "message": "L’approbation est requise pour que les étudiants se retirent de la classe",
+    "description": "小应用"
+  },
   "resource.createFolder": {
     "message": " Créer un dossier ",
     "description": "小应用"
@@ -2939,6 +2955,10 @@
     "message": "Enseignant",
     "description": "小应用"
   },
+  "user.society": {
+    "message": "Apprenants sociaux",
+    "description": "小应用"
+  },
   "user.nameTitle": {
     "message": "Nom",
     "description": "小应用"
@@ -3271,6 +3291,10 @@
     "message": " Si le compte est enregistré par l’administrateur, veuillez utiliser le compte donné par l’école pour vous connecter. Ne répétez pas l’enregistrement ",
     "description": "小应用"
   },
+  "user.registerTip2": {
+    "message": "Le numéro de téléphone mobile/ adresse e-mail utilisé pour l’inscription est le nom d’utilisateur de connexion.",
+    "description": "小应用"
+  },
   "user.isStudent": {
     "message": "Je suis un étudiant",
     "description": "小应用"
@@ -3297,6 +3321,18 @@
   },
   "user.noDataTip": {
     "message": "L’école/l’institut n’a pas été trouvé",
+    "description": "小应用"
+  },
+  "user.repeatTip": {
+    "message": "Le numéro d’étudiant / numéro de travail a été ouvert, veuillez ne pas vous inscrire à nouveau. Si vous avez oublié votre nom d’utilisateur ou votre mot de passe, veuillez contacter Live Chat.",
+    "description": "小应用"
+  },
+  "user.repeatTip2": {
+    "message": "Le numéro d’étudiant / numéro de travail a été ouvert pour le compte (institution: {org}, nom d’utilisateur: {nom}), veuillez ne pas vous inscrire à nouveau. Si vous avez oublié votre nom d’utilisateur ou votre mot de passe, veuillez contacter Live Chat.",
+    "description": "小应用"
+  },
+  "user.registErrorText": {
+    "message": "Veuillez cocher avant de vous inscrire",
     "description": "小应用"
   },
   "search.title": {
@@ -3425,6 +3461,10 @@
   },
   "classroom.copyTip": {
     "message": "(Les activités répétitives sont inactives. Vous pouvez activer ces activités après le début de la session. Les activités d’appel et de choix aléatoire ne peuvent pas être répétitifs.)",
+    "description": "小应用"
+  },
+  "classroom.copyTip1": {
+    "message": "Après avoir copié une classe, les activités telles que le vote et les réponses préventives ne sont pas démarrées, et vous pouvez commencer ces activités après la classe",
     "description": "小应用"
   },
   "classroom.unOpen": {
@@ -3875,8 +3915,428 @@
     "message": "La session en direct est en cours - Cliquez pour vous inscrire",
     "description": "小应用"
   },
+  "loginCode.loginCode": {
+    "message": "Scannez le code pour vous connecter",
+    "description": "小应用"
+  },
+  "loginCode.ulearningUser": {
+    "message": "Compte ULearning",
+    "description": "小应用"
+  },
+  "loginCode.allowedLogin": {
+    "message": "Autoriser les connexions",
+    "description": "小应用"
+  },
+  "loginCode.screenCode": {
+    "message": "Scannez le code pour diffuser l’écran",
+    "description": "小应用"
+  },
+  "loginCode.msg1": {
+    "message": "Connexion à un autre terminal d’appareil",
+    "description": "小应用"
+  },
+  "loginCode.msg2": {
+    "message": "Veuillez confirmer que ce qui précède est votre opération",
+    "description": "小应用"
+  },
+  "loginCode.msg3": {
+    "message": "Et confirmez la sécurité de la source du code QR",
+    "description": "小应用"
+  },
+  "loginCode.msg4": {
+    "message": "Veuillez utiliser le code d’analyse de l’application ULearning 2.0 pour vous connecter",
+    "description": "小应用"
+  },
+  "loginCode.msg5": {
+    "message": "Accédez à [ULearning ] scannez le code pour vous connecter",
+    "description": "小应用"
+  },
+  "loginCode.msg6": {
+    "message": "Téléchargez l’application ULearning",
+    "description": "小应用"
+  },
+  "loginCode.msg7": {
+    "message": "Le code QR a expiré, veuillez actualiser le code QR et réessayer.",
+    "description": "小应用"
+  },
+  "loginCode.msg8": {
+    "message": "L’opération a expiré, veuillez scanner à nouveau le code QR pour vous connecter.",
+    "description": "小应用"
+  },
+  "loginCode.tips1": {
+    "message": "Activez cette fonction pour prendre en charge la liaison entre le téléphone mobile et l’enseignement sur grand écran,",
+    "description": "小应用"
+  },
+  "loginCode.tips2": {
+    "message": "Spécifiquement",
+    "description": "小应用"
+  },
+  "loginCode.tips3": {
+    "message": "Sans entrer le nom d’utilisateur et le mot de passe, vous pouvez scanner le code pour vous connecter à la salle de classe du client U-Class ou du navigateur de l’ordinateur.",
+    "description": "小应用"
+  },
+  "loginCode.tips4": {
+    "message": "Il peut prendre en charge le téléphone mobile télécommande grand écran PPT page tournant.",
+    "description": "小应用"
+  },
+  "loginCode.tips5": {
+    "message": "Utilisez votre téléphone pour contrôler l’ouverture, la fin, les détails d’affichage et d’autres états des activités sur grand écran.",
+    "description": "小应用"
+  },
+  "loginCode.tips6": {
+    "message": "Usage",
+    "description": "小应用"
+  },
+  "loginCode.tips7": {
+    "message": "Ouvrez le client U-Class sur grand écran ou entrez l’URL suivante dans le navigateur pour afficher la page suivante :",
+    "description": "小应用"
+  },
+  "loginCode.tips8": {
+    "message": "Scannez le code QR sur le grand écran pour terminer la connexion",
+    "description": "小应用"
+  },
+  "loginCode.tips9": {
+    "message": "Plus d’invites après la vérification",
+    "description": "小应用"
+  },
+  "candidates.notChoose": {
+    "message": "Si le nombre d’étudiants non sélectionnés est insuffisant (nombre restant : {num}), veuillez réinitialiser le nombre d’étudiants ou créer une nouvelle activité de sélection.",
+    "description": "小应用"
+  },
+  "candidates.notPickMember": {
+    "message": "Tous les étudiants ont été sélectionnés, veuillez créer une nouvelle activité de sélection",
+    "description": "小应用"
+  },
+  "newSign.signPosition": {
+    "message": "Lieu d’enregistrement",
+    "description": "小应用"
+  },
+  "newSign.locationWrong": {
+    "message": "L’emplacement n’est pas exact",
+    "description": "小应用"
+  },
+  "newSign.posTitle": {
+    "message": "L’écart de positionnement est important",
+    "description": "小应用"
+  },
+  "newSign.posMsg1": {
+    "message": "Confirmez que l’autorisation de lecture de l’emplacement de ULearning n’est pas interdite",
+    "description": "小应用"
+  },
+  "newSign.posMsg2": {
+    "message": "Si vous vous connectez à un point d’accès public, essayez de désactiver votre Wi-Fi, d’activer les données mobiles, puis de le localiser à nouveau.",
+    "description": "小应用"
+  },
+  "newSign.known": {
+    "message": "Reçus!",
+    "description": "小应用"
+  },
+  "newSign.neverRefresh": {
+    "message": "Ne pas actualiser",
+    "description": "小应用"
+  },
+  "user.bindEmail": {
+    "message": "Lier le courrier électronique",
+    "description": "小应用"
+  },
+  "user.reviseEmail": {
+    "message": "Modifier / lier une boîte aux lettres",
+    "description": "小应用"
+  },
+  "user.writeEmail": {
+    "message": "Cliquez pour entrer l’e-mail",
+    "description": "小应用"
+  },
+  "user.Emailadd": {
+    "message": "E-mail:",
+    "description": "小应用"
+  },
+  "user.wrongEmail": {
+    "message": "La boîte aux lettres est mal formée",
+    "description": "小应用"
+  },
+  "user.alreadyEmail": {
+    "message": "L’adresse e-mail est déjà enregistrée",
+    "description": "小应用"
+  },
+  "user.textCode": {
+    "message": "Nous avons envoyé un e-mail à votre e-mail, veuillez vérifier l’e-mail et entrer le code de vérification numérique dans l’e-mail ci-dessous:",
+    "description": "小应用"
+  },
+  "user.securityVerification": {
+    "message": "Veuillez effectuer la vérification de sécurité",
+    "description": "小应用"
+  },
   "user.bindEmailSuccess": {
     "message": "La boîte aux lettres est liée avec succès",
+    "description": "小应用"
+  },
+  "user.codeAgain": {
+    "message": "Renvoyer",
+    "description": "小应用"
+  },
+  "user.slideSuccess": {
+    "message": "Vérifier le succès",
+    "description": "小应用"
+  },
+  "user.slideFalse": {
+    "message": "Échec de la validation",
+    "description": "小应用"
+  },
+  "user.slideRight": {
+    "message": "Balayez vers la droite pour terminer la vérification",
+    "description": "小应用"
+  },
+  "user.codeOverdue": {
+    "message": "Échec du code de vérification",
+    "description": "小应用"
+  },
+  "user.getCodeTip5": {
+    "message": "Le nombre d’envois aujourd’hui a atteint son maximum",
+    "description": "小应用"
+  },
+  "modification": {
+    "message": "Vous avez modifié le nom du suffixe, ce qui peut entraîner la non-reconnaissance de la ressource, ok modification ?",
+    "description": "小应用"
+  },
+  "photograph.photograph": {
+    "message": "Prenez une photo et téléchargez-la",
+    "description": "小应用"
+  },
+  "photograph.submit": {
+    "message": "Envoyer",
+    "description": "小应用"
+  },
+  "photograph.otherStu": {
+    "message": "Autres étudiants",
+    "description": "小应用"
+  },
+  "photograph.notation": {
+    "message": "Annotation",
+    "description": "小应用"
+  },
+  "photograph.delnotation": {
+    "message": "Supprimer des annotations ",
+    "description": "小应用"
+  },
+  "photograph.addScore": {
+    "message": "Ajouter un point",
+    "description": "小应用"
+  },
+  "photograph.coursewareScreenshots": {
+    "message": "Capture d’écran du didacticiel",
+    "description": "小应用"
+  },
+  "photograph.share": {
+    "message": "Partager",
+    "description": "小应用"
+  },
+  "photograph.submitted": {
+    "message": "Soumis",
+    "description": "小应用"
+  },
+  "photograph.uncommitted": {
+    "message": "Non soumis",
+    "description": "小应用"
+  },
+  "photograph.back": {
+    "message": "Ignorer",
+    "description": "小应用"
+  },
+  "photograph.clear": {
+    "message": "Clair",
+    "description": "小应用"
+  },
+  "photograph.shareSucc": {
+    "message": "Partagé avec succès!",
+    "description": "小应用"
+  },
+  "photograph.msg1": {
+    "message": "Téléchargez des photos à la demande de votre instructeur, jusqu’à un maximum de 20 images",
+    "description": "小应用"
+  },
+  "photograph.msg2": {
+    "message": "Photos soumises par d’autres étudiants",
+    "description": "小应用"
+  },
+  "photograph.msg3": {
+    "message": "J’ai soumis la photo",
+    "description": "小应用"
+  },
+  "photograph.msg4": {
+    "message": "Activité terminée",
+    "description": "小应用"
+  },
+  "photograph.msg5": {
+    "message": "L’événement est terminé et vous ne participez pas",
+    "description": "小应用"
+  },
+  "photograph.msg6": {
+    "message": "S’il vous plaît télécharger une image",
+    "description": "小应用"
+  },
+  "photograph.msg7": {
+    "message": "Téléchargez jusqu’à 20 images",
+    "description": "小应用"
+  },
+  "photograph.msg8": {
+    "message": "Êtes-vous sûr de vouloir le supprimer?",
+    "description": "小应用"
+  },
+  "photograph.msg9": {
+    "message": "Les élèves téléchargent des photos pour les présentations en classe",
+    "description": "小应用"
+  },
+  "photograph.msg10": {
+    "message": "Les étudiants peuvent voir des photos d’autres étudiants après avoir soumis",
+    "description": "小应用"
+  },
+  "photograph.msg11": {
+    "message": "Êtes-vous sûr de vouloir réactiver le téléchargement de photos ?",
+    "description": "小应用"
+  },
+  "photograph.msg12": {
+    "message": "Êtes-vous sûr de vouloir mettre fin au téléchargement de photos?",
+    "description": "小应用"
+  },
+  "photograph.msg13": {
+    "message": "Êtes-vous sûr de vouloir supprimer le téléchargement de photos?",
+    "description": "小应用"
+  },
+  "photograph.msg14": {
+    "message": "Partagez-le avec tous les élèves de la classe et les élèves peuvent le voir dans leur historique d’activités en classe.",
+    "description": "小应用"
+  },
+  "photograph.msg15": {
+    "message": "Êtes-vous sûr de vouloir supprimer un commentaire ?",
+    "description": "小应用"
+  },
+  "photograph.msg16": {
+    "message": "Les annotations sont supprimées",
+    "description": "小应用"
+  },
+  "photograph.msg17": {
+    "message": "Les annotations sont enregistrées",
+    "description": "小应用"
+  },
+  "photograph.msg18": {
+    "message": "Veuillez attendre que l’image termine le téléchargement",
+    "description": "小应用"
+  },
+  "photograph.msg19": {
+    "message": "Échec de la soumission, fin de l’activité",
+    "description": "小应用"
+  },
+  "photograph.msg20": {
+    "message": "Impossible de soumettre et l’activité a été supprimée!",
+    "description": "小应用"
+  },
+  "photograph.msg21": {
+    "message": "Voulez-vous vraiment supprimer le partage d’images ?",
+    "description": "小应用"
+  },
+  "photograph.msg22": {
+    "message": "Après la suppression, les photos soumises par l’étudiant ne seront pas récupérées et l’étudiant doit être soumis à nouveau, est-il sûr de les supprimer? Si l’activité est terminée, les élèves ne pourront pas soumettre à nouveau.",
+    "description": "小应用"
+  },
+  "photograph.msg23": {
+    "message": "Aucune soumission d’étudiant n’a encore été faite",
+    "description": "小应用"
+  },
+  "photograph.msg24": {
+    "message": "Aucun autre étudiant n’a encore soumis",
+    "description": "小应用"
+  },
+  "photograph.msg25": {
+    "message": "Soumettre...",
+    "description": "小应用"
+  },
+  "photograph.msg26": {
+    "message": "Soumis avec succès!",
+    "description": "小应用"
+  },
+  "photograph.msg27": {
+    "message": "Lorsque vous faites une démonstration de PPT ou que vous commentez des photos soumises par des élèves, vous pouvez partager les photos avec les élèves de la classe.",
+    "description": "小应用"
+  },
+  "photograph.msg28": {
+    "message": "Il n’y a pas de contenu partagé dans la classe actuelle",
+    "description": "小应用"
+  },
+  "photograph.msg29": {
+    "message": "Veuillez sélectionner Publier",
+    "description": "小应用"
+  },
+  "whiteBoard.blackboard": {
+    "message": "Livre de tableau de classe",
+    "description": "小应用"
+  },
+  "whiteBoard.stuAccountScanCode": {
+    "message": "Veuillez utiliser le compte étudiant pour scanner le code",
+    "description": "小应用"
+  },
+  "whiteBoard.teaAccountScanCode": {
+    "message": "Veuillez utiliser le compte de votre professeur pour scanner le code",
+    "description": "小应用"
+  },
+  "whiteBoard.getWb": {
+    "message": "Obtenir le contenu du livre de bord",
+    "description": "小应用"
+  },
+  "whiteBoard.saveCourse": {
+    "message": "Enregistrer en classe",
+    "description": "小应用"
+  },
+  "whiteBoard.name": {
+    "message": "Nom",
+    "description": "小应用"
+  },
+  "whiteBoard.selectClass": {
+    "message": "Sélectionner classroom",
+    "description": "小应用"
+  },
+  "whiteBoard.beginDown": {
+    "message": "Démarrer le téléchargement",
+    "description": "小应用"
+  },
+  "whiteBoard.downSucc": {
+    "message": "Téléchargement réussi",
+    "description": "小应用"
+  },
+  "whiteBoard.downErr": {
+    "message": "Echec du téléchargement",
+    "description": "小应用"
+  },
+  "whiteBoard.nameNotNull": {
+    "message": "Le nom ne peut pas être vide",
+    "description": "小应用"
+  },
+  "whiteBoard.selectCourse": {
+    "message": "Veuillez sélectionner un cours",
+    "description": "小应用"
+  },
+  "whiteBoard.selectClassroom": {
+    "message": "Veuillez sélectionner Classroom",
+    "description": "小应用"
+  },
+  "whiteBoard.newestAPP": {
+    "message": "La version actuelle ne prend pas en charge le téléchargement, veuillez mettre à jour la version app avant de télécharger",
+    "description": "小应用"
+  },
+  "whiteBoard.saveErr": {
+    "message": "Échec de l’enregistrement et impossibilité de se connecter au serveur",
+    "description": "小应用"
+  },
+  "custom.custom": {
+    "message": "Personnalisé",
+    "description": "小应用"
+  },
+  "custom.pleaseScore": {
+    "message": "S’il vous plaît entrer le score",
+    "description": "小应用"
+  },
+  "remark.remark": {
+    "message": "Notes, jusqu’à 200 mots",
     "description": "小应用"
   }
 }
