@@ -883,6 +883,86 @@
     "message": "لقد قمت بتعطيل إذن الميكروفون ولا يمكنك استخدام هذه الوظيفة ، يرجى الانتقال إلى [الإعدادات] للهاتف للتفويض",
     "description": "手机考试zh.json"
   },
+  "screenMonitorTips1": {
+    "message": "تم تشغيل {screen}، وترك الامتحان لمرة واحدة أكثر من {num1} ثانية، أو ترك {num} مرات في المجموع سيجبر الورقة على الإدخال",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips2": {
+    "message": "تم تشغيل {screen}، وترك منتصف الطريق لأكثر من {num} ثانية سيجبر التمديد",
+    "description": "手机考试zh.json"
+  },
+  "examMonitor": {
+    "message": "مراقبة الامتحان",
+    "description": "手机考试zh.json"
+  },
+  "exitTip2": {
+    "message": "تم تشغيل هذا الامتحان على {screen} ، يرجى عدم المغادرة في منتصف الطريق ، يمكنك الخروج فقط بعد تسليم أوراقك.",
+    "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
+  },
+  "screenInterpolation": {
+    "message": "مراقبة الشاشة",
+    "description": "此字段作为 exitTip2 字段插值处的内容"
+  },
+  "hintTip5": {
+    "message": "بعد تركه لأكثر من {s} ثانية ، أجبر النظام على الاسترخاء.",
+    "description": "手机考试zh.json"
+  },
+  "getIt": {
+    "message": "أعرف",
+    "description": "手机考试zh.json"
+  },
+  "netWorkError": {
+    "message": "استثناء الشبكة ، فشلت العملية ، يرجى المحاولة مرة أخرى بعد استعادة اتصال الشبكة.",
+    "description": "手机考试zh.json"
+  },
+  "agreenInstructions": {
+    "message": "لقد قرأت وأوافق على التعليمات الواردة في تعليمات الامتحان",
+    "description": "手机考试zh.json"
+  },
+  "agreenTip": {
+    "message": "يرجى وضع علامة أولا",
+    "description": "手机考试zh.json"
+  },
+  "activeBook": {
+    "message": "تنشيط",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips": {
+    "message": "يحظر تسجيل الشاشة أو مشاركتها للامتحان.",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips1": {
+    "message": "إذا كان تسجيل الشاشة أو مشاركتها قيد التشغيل، فقم بإيقاف تشغيله قبل الدخول في الامتحان.",
+    "description": "手机考试zh.json"
+  },
+  "inExam": {
+    "message": "قيد التنفيذ",
+    "description": "手机考试zh.json"
+  },
+  "forbidScreenRecord": {
+    "message": "تعطيل تسجيل/مشاركة الشاشة",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips2": {
+    "message": "إذا كنت تقوم بتسجيل شاشة أو مشاركتها، فأغلقها قبل العودة إلى الاختبار لمتابعة الإجابة على الأسئلة",
+    "description": "手机考试zh.json"
+  },
+  "textCount": {
+    "message": "كلمة {n}",
+    "description": "手机考试zh.json"
+  },
+  "question9New": {
+    "message": "اللغة - قراءة بصوت مسموع",
+    "description": "手机考试zh.json"
+  },
+  "noSkippingTips": {
+    "message": "النصائح",
+    "description": "手机考试zh.json"
+  },
+  "noSkippingMsg": {
+    "message": "يحظر تخطي الأسئلة لهذا الامتحان، لذا يرجى الإجابة عليها بالترتيب.",
+    "description": "手机考试zh.json"
+  },
   "netWorkErrorNew": {
     "message": "تشوهات الشبكة، يرجى التحقق من اتصال الشبكة",
     "description": "手机考试zh.json"
@@ -901,6 +981,70 @@
   },
   "submitPaperErrorMsg": {
     "message": "شذوذ الشبكة ، فشل في إرسال الملف!<br/>يمكنك محاولة إعادة الإرسال. إذا استمرت الشبكة غير طبيعية ولا يمكن استردادها مؤقتا ، فمن المستحسن الانسحاب من الامتحان بموافقة المعلم.",
+    "description": "手机考试zh.json"
+  },
+  "deviceSupportTip": {
+    "message": "يرجى إجراء الامتحان على هاتفك المحمول",
+    "description": "手机考试zh.json"
+  },
+  "examType1": {
+    "message": "الموقع",
+    "description": "手机考试zh.json"
+  },
+  "examType2": {
+    "message": "الهاتف فقط",
+    "description": "手机考试zh.json"
+  },
+  "examType3": {
+    "message": "الجوال/الويب/العميل",
+    "description": "手机考试zh.json"
+  },
+  "examType4": {
+    "message": "الكمبيوتر العميل",
+    "description": "手机考试zh.json"
+  },
+  "examType5": {
+    "message": "الجوال/الويب",
+    "description": "手机考试zh.json"
+  },
+  "examType6": {
+    "message": "ويب / كمبيوتر العميل",
+    "description": "手机考试zh.json"
+  },
+  "examType7": {
+    "message": "تطبيقات الجوال / عملاء الكمبيوتر",
+    "description": "手机考试zh.json"
+  },
+  "examTypeTip": {
+    "message": "يرجى إجراء الامتحان باستخدام {examType}",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitor": {
+    "message": "مراقبة الكاميرا",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip": {
+    "message": "{الكاميرا} قيد التشغيل، يرجى تشغيلها ومواجهة الكاميرا",
+    "description": "手机考试zh.json"
+  },
+  "checkCamera": {
+    "message": "تصحيح أخطاء الكاميرا",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip1": {
+    "message": "إذا تم تشغيل مراقبة الكاميرا للامتحان ، فسيقوم النظام باكتشاف وتسجيل السلوكيات غير الطبيعية مثل مغادرة المرشحين لمقاعدهم ، والانحراف طويل الأجل لأعينهم ، ولمس رؤوسهم وآذانهم.",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip2": {
+    "message": "قبل الدخول في الامتحان ، يوصى بإصلاح الهاتف المحمول ، وضبط زاوية الكاميرا ووضعية الجلوس ، والحفاظ على الاستقرار أثناء عملية الإجابة.",
+    "description": "手机考试zh.json"
+  },
+  "leaveSeat": {
+    "message": "ترك مقعد",
+    "description": "手机考试zh.json"
+  },
+  "manualRefresh": {
+    "message": "التحميل اليدوي",
     "description": "手机考试zh.json"
   }
 }
