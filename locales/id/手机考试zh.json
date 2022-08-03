@@ -883,6 +883,86 @@
     "message": "Anda telah menonaktifkan izin mikrofon dan tidak dapat menggunakan fungsi ini, silakan buka [Pengaturan] telepon untuk mengotorisasi",
     "description": "手机考试zh.json"
   },
+  "screenMonitorTips1": {
+    "message": "{screen} telah diaktifkan, meninggalkan ujian untuk satu kali lebih dari {num1} detik, atau meninggalkan {num} kali secara total akan memaksa kertas untuk diserahkan",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips2": {
+    "message": "{screen} telah dinyalakan, dan meninggalkan setengah jalan selama lebih dari {num} detik akan memaksa rollover",
+    "description": "手机考试zh.json"
+  },
+  "examMonitor": {
+    "message": "Pengawasan ujian",
+    "description": "手机考试zh.json"
+  },
+  "exitTip2": {
+    "message": "Ujian ini telah diaktifkan {screen}, tolong jangan pergi di tengah jalan, Anda hanya dapat keluar setelah menyerahkan kertas Anda.",
+    "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
+  },
+  "screenInterpolation": {
+    "message": "Pemantauan layar",
+    "description": "此字段作为 exitTip2 字段插值处的内容"
+  },
+  "hintTip5": {
+    "message": "Sistem telah memaksa menyerahkan kertas setelah pergi selama lebih dari {s} detik.",
+    "description": "手机考试zh.json"
+  },
+  "getIt": {
+    "message": "Saya tahu",
+    "description": "手机考试zh.json"
+  },
+  "netWorkError": {
+    "message": "Jaringan tidak normal dan operasi telah gagal, silakan coba lagi setelah koneksi jaringan dipulihkan.",
+    "description": "手机考试zh.json"
+  },
+  "agreenInstructions": {
+    "message": "Saya telah membaca dan setuju dengan hal-hal dalam catatan ujian",
+    "description": "手机考试zh.json"
+  },
+  "agreenTip": {
+    "message": "Silakan periksa dulu",
+    "description": "手机考试zh.json"
+  },
+  "activeBook": {
+    "message": "Aktivasi",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips": {
+    "message": "Perekaman layar atau berbagi layar dilarang untuk ujian.",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips1": {
+    "message": "Jika perekaman atau berbagi layar diaktifkan, matikan sebelum memasuki ujian.",
+    "description": "手机考试zh.json"
+  },
+  "inExam": {
+    "message": "Ujian sedang berlangsung",
+    "description": "手机考试zh.json"
+  },
+  "forbidScreenRecord": {
+    "message": "Nonaktifkan perekaman layar / berbagi layar",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips2": {
+    "message": "Jika Anda merekam atau berbagi layar, tutup sebelum kembali ke ujian untuk melanjutkan menjawab pertanyaan",
+    "description": "手机考试zh.json"
+  },
+  "textCount": {
+    "message": "{n} kata",
+    "description": "手机考试zh.json"
+  },
+  "question9New": {
+    "message": "Membaca",
+    "description": "手机考试zh.json"
+  },
+  "noSkippingTips": {
+    "message": "Tips",
+    "description": "手机考试zh.json"
+  },
+  "noSkippingMsg": {
+    "message": "Melewatkan pertanyaan dilarang untuk ujian ini, jadi harap jawab secara berurutan.",
+    "description": "手机考试zh.json"
+  },
   "netWorkErrorNew": {
     "message": "Kelainan jaringan, silakan periksa koneksi jaringan",
     "description": "手机考试zh.json"
@@ -901,6 +981,70 @@
   },
   "submitPaperErrorMsg": {
     "message": "Kelainan jaringan, gagal mengirimkan file!<br/>Anda dapat mencoba mengirim ulang. Jika jaringan terus menjadi tidak normal dan tidak dapat dipulihkan sementara, disarankan untuk mundur dari ujian dengan persetujuan guru.",
+    "description": "手机考试zh.json"
+  },
+  "deviceSupportTip": {
+    "message": "Silakan ikuti ujian di ponsel Anda",
+    "description": "手机考试zh.json"
+  },
+  "examType1": {
+    "message": "Web",
+    "description": "手机考试zh.json"
+  },
+  "examType2": {
+    "message": "Hanya telepon",
+    "description": "手机考试zh.json"
+  },
+  "examType3": {
+    "message": "Seluler/web/klien",
+    "description": "手机考试zh.json"
+  },
+  "examType4": {
+    "message": "Klien PC",
+    "description": "手机考试zh.json"
+  },
+  "examType5": {
+    "message": "Seluler/Web",
+    "description": "手机考试zh.json"
+  },
+  "examType6": {
+    "message": "Web/klien",
+    "description": "手机考试zh.json"
+  },
+  "examType7": {
+    "message": "Seluler/klien",
+    "description": "手机考试zh.json"
+  },
+  "examTypeTip": {
+    "message": "Silakan ikuti ujian dengan {examType}",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitor": {
+    "message": "Pemantauan kamera",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip": {
+    "message": "{camera} dihidupkan, silakan nyalakan dan menghadap kamera",
+    "description": "手机考试zh.json"
+  },
+  "checkCamera": {
+    "message": "Debug kamera",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip1": {
+    "message": "Jika pemantauan kamera dihidupkan untuk ujian, sistem akan mendeteksi dan merekam perilaku abnormal seperti kandidat yang meninggalkan tempat duduk mereka, penyimpangan jangka panjang mata mereka, dan menyentuh kepala dan telinga mereka.",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip2": {
+    "message": "Sebelum memasuki ujian, disarankan untuk memperbaiki ponsel, menyesuaikan sudut kamera dan postur duduk, dan menjaga stabilitas selama proses penjawaban.",
+    "description": "手机考试zh.json"
+  },
+  "leaveSeat": {
+    "message": "Meninggalkan kursi",
+    "description": "手机考试zh.json"
+  },
+  "manualRefresh": {
+    "message": "Pemuatan manual",
     "description": "手机考试zh.json"
   }
 }
