@@ -883,6 +883,86 @@
     "message": "The microphone access is disabled and cannot use this function - Please go to your device's Settings to enable it!",
     "description": "手机考试zh.json"
   },
+  "screenMonitorTips1": {
+    "message": "{screen} is on: If you leave the exam screen for more than {num1} seconds in one time or leave the exam screen for {num} times total, your exam will be submitted involuntarily.",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips2": {
+    "message": "{screen} is on: If you leave the exam screen for more than {num} seconds in one time, your exam will be submitted involuntarily.",
+    "description": "手机考试zh.json"
+  },
+  "examMonitor": {
+    "message": "Exam Proctoring",
+    "description": "手机考试zh.json"
+  },
+  "exitTip2": {
+    "message": "{screen} is on: Please do not leave the exam screen before you submit the exam.",
+    "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
+  },
+  "screenInterpolation": {
+    "message": "Screen Monitoring",
+    "description": "此字段作为 exitTip2 字段插值处的内容"
+  },
+  "hintTip5": {
+    "message": "Have left the exam screen for more than {s} seconds, your exam has been submitted by the system involuntarily.",
+    "description": "手机考试zh.json"
+  },
+  "getIt": {
+    "message": "Got It!",
+    "description": "手机考试zh.json"
+  },
+  "netWorkError": {
+    "message": "Network error! Please try again after the network connection is restored.",
+    "description": "手机考试zh.json"
+  },
+  "agreenInstructions": {
+    "message": "I have read and agree to the items in the exam instructions",
+    "description": "手机考试zh.json"
+  },
+  "agreenTip": {
+    "message": "Please select",
+    "description": "手机考试zh.json"
+  },
+  "activeBook": {
+    "message": "Activate",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips": {
+    "message": "Screen recording orsharing is prohibited in the exam.",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips1": {
+    "message": "If screen recording or sharing is on, turn it off before entering the exam.",
+    "description": "手机考试zh.json"
+  },
+  "inExam": {
+    "message": "Exam in progress",
+    "description": "手机考试zh.json"
+  },
+  "forbidScreenRecord": {
+    "message": "Disable screen recording/sharing",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips2": {
+    "message": "If you're recording or sharing a screen, close it before returning to the exam.",
+    "description": "手机考试zh.json"
+  },
+  "textCount": {
+    "message": "{n} words",
+    "description": "手机考试zh.json"
+  },
+  "question9New": {
+    "message": "Language - Read Aloud",
+    "description": "手机考试zh.json"
+  },
+  "noSkippingTips": {
+    "message": "Alert",
+    "description": "手机考试zh.json"
+  },
+  "noSkippingMsg": {
+    "message": "This exam prohibits skipping questions, please answer in order.",
+    "description": "手机考试zh.json"
+  },
   "netWorkErrorNew": {
     "message": "Network error! Please check the network connection.",
     "description": "手机考试zh.json"
@@ -904,7 +984,63 @@
     "description": "手机考试zh.json"
   },
   "deviceSupportTip": {
-    "message": "Please take the exam on your mobile phone",
+    "message": "Please take the exam via mobile APP",
+    "description": "手机考试zh.json"
+  },
+  "examType2": {
+    "message": "Mobile APP Only",
+    "description": "手机考试zh.json"
+  },
+  "examType3": {
+    "message": "Mobile APP/Web/PC Client",
+    "description": "手机考试zh.json"
+  },
+  "examType4": {
+    "message": "PC Client",
+    "description": "手机考试zh.json"
+  },
+  "examType5": {
+    "message": "Mobile/Web",
+    "description": "手机考试zh.json"
+  },
+  "examType6": {
+    "message": "Web/Client",
+    "description": "手机考试zh.json"
+  },
+  "examType7": {
+    "message": "Mobile APP/PC Client",
+    "description": "手机考试zh.json"
+  },
+  "examTypeTip": {
+    "message": "Please take the exam with {examType}",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitor": {
+    "message": "Camera Monitoring",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip": {
+    "message": "{camera} is on - Keep the front-facing camera on all the time through the exam!",
+    "description": "手机考试zh.json"
+  },
+  "checkCamera": {
+    "message": "Check Camera",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip1": {
+    "message": "If camera monitoring is on, the system will detect and record suspicious behaviors of examinees, such as leaving seat, long-time deviated eye focuses, talking with others.",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip2": {
+    "message": "Before starting the exam, it is recommended to fix your mobile phone, adjust the camera angle and your sitting posture, and keep it stable during the exam.",
+    "description": "手机考试zh.json"
+  },
+  "leaveSeat": {
+    "message": "Leaving Seat",
+    "description": "手机考试zh.json"
+  },
+  "manualRefresh": {
+    "message": "Load manually",
     "description": "手机考试zh.json"
   }
 }
