@@ -883,6 +883,86 @@
     "message": "您已禁用麥克風許可權，無法使用此功能，請進入手機【設置】進行授權",
     "description": "手机考试zh.json"
   },
+  "screenMonitorTips1": {
+    "message": "已開啟{screen}，中途離開考試單次超過{num1}秒，或累計離開{num}次將強制交卷",
+    "description": "手机考试zh.json"
+  },
+  "screenMonitorTips2": {
+    "message": "已開啟{screen}，中途離開超過{num}秒將強制交卷",
+    "description": "手机考试zh.json"
+  },
+  "examMonitor": {
+    "message": "考試監控",
+    "description": "手机考试zh.json"
+  },
+  "exitTip2": {
+    "message": "本次考試開啟了{screen}，請勿中途離開，交卷后才能退出。",
+    "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
+  },
+  "screenInterpolation": {
+    "message": "切屏監控",
+    "description": "此字段作为 exitTip2 字段插值处的内容"
+  },
+  "hintTip5": {
+    "message": "離開超過{s}秒，系統已強制交卷。",
+    "description": "手机考试zh.json"
+  },
+  "getIt": {
+    "message": "我知道了",
+    "description": "手机考试zh.json"
+  },
+  "netWorkError": {
+    "message": "網路異常，操作失敗，請在網路連接恢復后重試。",
+    "description": "手机考试zh.json"
+  },
+  "agreenInstructions": {
+    "message": "我已閱讀並同意考試須知中的事項",
+    "description": "手机考试zh.json"
+  },
+  "agreenTip": {
+    "message": "請先勾選",
+    "description": "手机考试zh.json"
+  },
+  "activeBook": {
+    "message": "啟動",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips": {
+    "message": "考試禁止錄屏或分享螢幕。",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips1": {
+    "message": "如果開啟了螢幕錄製或分享，請先關閉再進入考試。",
+    "description": "手机考试zh.json"
+  },
+  "inExam": {
+    "message": "考試中",
+    "description": "手机考试zh.json"
+  },
+  "forbidScreenRecord": {
+    "message": "禁止錄屏/分享螢幕",
+    "description": "手机考试zh.json"
+  },
+  "screenRecordTips2": {
+    "message": "如果正在錄屏或分享螢幕，請先關閉再返回考試繼續答題",
+    "description": "手机考试zh.json"
+  },
+  "textCount": {
+    "message": "{n}字",
+    "description": "手机考试zh.json"
+  },
+  "question9New": {
+    "message": "口語朗讀",
+    "description": "手机考试zh.json"
+  },
+  "noSkippingTips": {
+    "message": "提示",
+    "description": "手机考试zh.json"
+  },
+  "noSkippingMsg": {
+    "message": "本次考試禁止跳題，請按順序作答。",
+    "description": "手机考试zh.json"
+  },
   "netWorkErrorNew": {
     "message": "網路異常，請檢查網路連接",
     "description": "手机考试zh.json"
@@ -901,6 +981,70 @@
   },
   "submitPaperErrorMsg": {
     "message": "網路異常，交卷失敗！<br/>你可以嘗試重新提交。 如果網路持續異常，且暫時無法恢復，建議徵得教師同意后，先退出考試。",
+    "description": "手机考试zh.json"
+  },
+  "deviceSupportTip": {
+    "message": "請用手機參加考試",
+    "description": "手机考试zh.json"
+  },
+  "examType1": {
+    "message": "電腦網頁端",
+    "description": "手机考试zh.json"
+  },
+  "examType2": {
+    "message": "僅手機",
+    "description": "手机考试zh.json"
+  },
+  "examType3": {
+    "message": "手機/網頁/用戶端",
+    "description": "手机考试zh.json"
+  },
+  "examType4": {
+    "message": "電腦用戶端",
+    "description": "手机考试zh.json"
+  },
+  "examType5": {
+    "message": "手機/網頁",
+    "description": "手机考试zh.json"
+  },
+  "examType6": {
+    "message": "電腦網頁/用戶端",
+    "description": "手机考试zh.json"
+  },
+  "examType7": {
+    "message": "手機/電腦用戶端",
+    "description": "手机考试zh.json"
+  },
+  "examTypeTip": {
+    "message": "請通過{examType}參加考試",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitor": {
+    "message": "攝像監控",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip": {
+    "message": "已開啟{camera}，請全程開啟並正對攝像頭",
+    "description": "手机考试zh.json"
+  },
+  "checkCamera": {
+    "message": "調試攝像頭",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip1": {
+    "message": "考試如果開啟了攝像監控，系統將實時檢測並記錄考生離開座位、視線長時間偏離、與人交頭接耳等異常行為。",
+    "description": "手机考试zh.json"
+  },
+  "cameraMonitorTip2": {
+    "message": "進入考試之前，建議將手機固定，調整好攝像頭角度與坐姿，並在答題過程中保持穩定。",
+    "description": "手机考试zh.json"
+  },
+  "leaveSeat": {
+    "message": "離開座位",
+    "description": "手机考试zh.json"
+  },
+  "manualRefresh": {
+    "message": "手動載入",
     "description": "手机考试zh.json"
   }
 }
