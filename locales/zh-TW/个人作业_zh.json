@@ -47,6 +47,10 @@
     "message": "滿分",
     "description": "个人作业zh_js"
   },
+  "m.GRADE_FULL_OF1": {
+    "message": "滿分{n}",
+    "description": "移动端 -> 教师端 -> 作业详情 -> 批阅"
+  },
   "m.GROWTH": {
     "message": "成長值",
     "description": "个人作业zh_js"
@@ -190,6 +194,10 @@
   "m.GRADE_SPOKENAUTOTIPerror": {
     "message": "請輸入跟讀內容，200個單詞以內，不得輸入漢字，否則會造成評分失敗。",
     "description": "个人作业zh_js"
+  },
+  "m.wordsLength": {
+    "message": "{n}個單詞",
+    "description": "教师 -> 布置作业 -> 评价方式 -> 英文口语系统评分 -> 英文口语系统评分"
   },
   "m.HOMEWORKTITLEEmptyERROR": {
     "message": "請輸入標題",
@@ -351,6 +359,10 @@
     "message": "提交的作業數量不足，無法進行作業互評。請等待教師評分",
     "description": "个人作业zh_js"
   },
+  "m.workdetailsTip7": {
+    "message": "作業已提交。 請於 {startTime} 開始互評，互評截止到 {endTime}",
+    "description": "学生 -> 作业详情(要求作业处于互评未开始的阶段)"
+  },
   "m.workdetailsTipInfo9": {
     "message": "獲取作業出錯了",
     "description": "个人作业zh_js"
@@ -407,6 +419,10 @@
     "message": "老師沒有共享作業",
     "description": "个人作业zh_js"
   },
+  "m.prevWorkList": {
+    "message": "歷史提交記錄",
+    "description": "个人作业zh_js"
+  },
   "m.workVersion": {
     "message": "版本",
     "description": "个人作业zh_js"
@@ -458,6 +474,10 @@
   "m.seek": {
     "message": "查看",
     "description": "个人作业zh_js"
+  },
+  "m.scoreOf2": {
+    "message": "得分：{score}",
+    "description": "移动端 -> 教师端 -> 学生提交作业列表 -> 评价任务 (需要作业是互评作业) \n PC -> 学生 -> 评价任务 -> 评价结束后显示"
   },
   "m.commentEmpty": {
     "message": "沒有留評語",
@@ -659,6 +679,10 @@
     "message": "{n} 时",
     "description": "用在 datepicker (时间选择器) 中"
   },
+  "m.pickMinute": {
+    "message": "{n}分",
+    "description": "用在 datepicker (时间选择器) 中"
+  },
   "m.scoreTip": {
     "message": "得分不能高於滿分",
     "description": "个人作业zh_js"
@@ -687,16 +711,16 @@
     "message": "關",
     "description": "switch按钮上显示的文本，可以在发布个人作业页面看到"
   },
-   "m.historyTip": {
+  "m.historyTip": {
     "message": "多次提交，作業成績取最高分",
     "description": "个人作业zh_js"
   },
   "m.mobilePermissionTip1": {
-    "message": "您已禁用相機權限，無法使用此功能，請進入手機【設置】進行授權",
+    "message": "您已禁用相機許可權，無法使用此功能，請進入手機【設置】進行授權",
     "description": "个人作业zh_js"
   },
   "m.mobilePermissionTip2": {
-    "message": "您已禁用麥克風權限，無法使用此功能，請進入手機【設置】進行授權",
+    "message": "您已禁用麥克風許可權，無法使用此功能，請進入手機【設置】進行授權",
     "description": "个人作业zh_js"
   },
   "m.otherpeertip": {
@@ -717,6 +741,14 @@
   },
   "m.workSettings": {
     "message": "作業設置",
+    "description": "个人作业zh_js"
+  },
+  "m.openBrowserContinue": {
+    "message": "該類型作業無法在APP中打開，請在瀏覽器中打開繼續使用",
+    "description": "个人作业zh_js"
+  },
+  "m.openInBrowser": {
+    "message": "在瀏覽器打開",
     "description": "个人作业zh_js"
   }
 }
