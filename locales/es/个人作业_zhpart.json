@@ -79,6 +79,14 @@
     "message": "{n} Puntos",
     "description": "PC -> 教师端 -> 学生提交作业列表 \n 移动端 -> 教师端 -> 学生提交作业列表 \n PC -> 教师端 -> 学生提交作业列表 -> 批阅 -> 批阅完成后显示"
   },
+  "inputPoints": {
+    "message": "{input} puntos",
+    "description": "PC -> 教师端 -> 发布个人作业 -> 学生互评 -> 添加评分规则"
+  },
+  "inputPoints2": {
+    "message": "{input} Puntos, marcas completas {full}",
+    "description": "教师端 -> 学生提交作业列表 -> 右侧的批阅面板 (需要作业成绩设置为显示等级)"
+  },
   "允许复制粘贴": {
     "message": "Permitir copiar y pegar",
     "description": "个人作业zh_part.json"
@@ -102,6 +110,10 @@
   "提交截止": {
     "message": "Fecha límite de envío",
     "description": "个人作业zh_part.json"
+  },
+  "endTime": {
+    "message": "Fecha límite: {time}",
+    "description": "PC -> 教师端 -> 学生提交作业列表"
   },
   "优优正在努力加载中": {
     "message": "Trabajando en cargar",
@@ -207,6 +219,10 @@
     "message": "No enviado",
     "description": "个人作业zh_part.json"
   },
+  "wordsLength": {
+    "message": "{n} mots",
+    "description": "学生 -> 写作业(需要系统评分的作业) -> 提交 \n 教师 -> 批阅作业 -> 相似度检测"
+  },
   "相似度检测": {
     "message": "Detección de similitudes",
     "description": "个人作业zh_part.json"
@@ -287,6 +303,14 @@
     "message": "Puntuación de ingles hablado del sistema",
     "description": "个人作业zh_part.json"
   },
+  "reviewedOfperStudent": {
+    "message": "Chaque élève évalue {n} missions",
+    "description": "PC/移动端 -> 教师 -> 布置作业 -> 学生互评"
+  },
+  "reviewedOfperStudent2": {
+    "message": "Chaque élève évalue {n} missions",
+    "description": " PC/移动端 -> 学生 -> 互评作业详情"
+  },
   "互评规则": {
     "message": "Reglas de evaluación mutua",
     "description": "个人作业zh_part.json"
@@ -294,6 +318,10 @@
   "总分": {
     "message": "Puntaje total",
     "description": "个人作业zh_part.json"
+  },
+  "totalPointsOf": {
+    "message": "Score total {total}",
+    "description": "PC -> 学生 -> 互评作业 -> 评价任务(要求作业设置评分点)"
   },
   "注：学生录音超过3分钟系统将无法评分": {
     "message": "Nota: Los estudiantes con grabaciones de más de 3 minutos no podrán ser evaluados por el sistema",
@@ -403,6 +431,10 @@
     "message": "Introduzca los requisitos de la tarea. La tarea admite hasta 5000 palabras; la aplicación móvil solo admite la carga de imágenes y grabaciones. Para adjuntar otros tipos de archivos se requiere que los alumnos los envíen mediante una versión web de computadora.",
     "description": "个人作业zh_part.json"
   },
+  "writtenWords": {
+    "message": "{n} Les mots ont été écrits",
+    "description": "PC/移动端 -> 学生 -> 写作业"
+  },
   "您的文章不错，没有发现语法问题，请继续保持哦！": {
     "message": "Su artículo es bueno, no encontró problemas gramaticales, siga así!",
     "description": "个人作业zh_part.json"
@@ -447,6 +479,10 @@
     "message": "Fecha limite de evaluación mutua",
     "description": "个人作业zh_part.json"
   },
+  "peerEndTime": {
+    "message": "Date limite d'évaluation mutuelle: {time}",
+    "description": "PC -> 教师端 -> 学生提交作业列表"
+  },
   "请选择互评截止日期": {
     "message": "Seleccione la fecha de vencimiento para la evaluación mutua",
     "description": "个人作业zh_part.json"
@@ -486,6 +522,10 @@
   "语法检测": {
     "message": "Detección de gramática",
     "description": "个人作业zh_part.json"
+  },
+  "reviewedOf": {
+    "message": "Évalué {n}",
+    "description": "PC -> 教师端 -> 学生提交作业列表 \n 移动端 -> 教师端 -> 学生提交作业列表"
   },
   "相似": {
     "message": "Similar",
@@ -679,6 +719,10 @@
     "message": "Corregir tarea",
     "description": "个人作业zh_part.json"
   },
+  "studentsOfReviewed": {
+    "message": "Commentaire par {n}",
+    "description": "PC -> 教师端 -> 学生提交作业列表 \n 移动端 -> 教师端 -> 学生提交作业列表"
+  },
   "你未提交作业，返回记录会丢失，确定返回吗？": {
     "message": "Aun no envías el trabajo, si regresas se podría perder el registro ¿Estas seguro de regresar?",
     "description": "个人作业zh_part.json"
@@ -698,6 +742,10 @@
   "查重中": {
     "message": "Revisión en progreso",
     "description": "个人作业zh_part.json"
+  },
+  "duplicateTip2": {
+    "message": "Après les tests, vos devoirs sont similaires à ceux des autres camarades de classe {n}%, veuillez le modifier et le soumettre Aganin",
+    "description": "学生 -> 写作业 -> 查重 (要求教师布置作业时，设置查重)"
   },
   "还不错，放心提交吧": {
     "message": "No está mal, puede presentarlo con seguridad",
@@ -830,6 +878,14 @@
   "fullPoints": {
     "message": "Puntuación completa: {n} puntos",
     "description": "移动端 -> 教师端 -> 发布个人作业 -> 学生互评 -> 评分规则 \n PC -> 学生 -> 互评作业 -> 评价任务(要求作业设置评分点) \n PC -> 学生 -> 作业详情"
+  },
+  "remainPoints": {
+    "message": "Points restants: {n}",
+    "description": "移动端 -> 教师端 -> 发布个人作业 -> 学生互评 -> 评分规则"
+  },
+  "scoringTip": {
+    "message": "Score complet {m}, restant {n}",
+    "description": "PC -> 教师端 -> 发布个人作业 -> 学生互评 -> 添加评分规则"
   },
   "fullPointsOf": {
     "message": "Puntuación completa {score}",
@@ -975,6 +1031,26 @@
     "message": "Razones para la representación",
     "description": "个人作业zh_part.json"
   },
+  "gradeOfStu": {
+    "message": "{stuName} Score: {n} Score, score moyen d'évolution mutuelle: {peer} Score, évolution inachevée de: {m} Point",
+    "description": "PC -> 教师 -> 学生提交作业列表 -> TA给别人的评价"
+  },
+  "gradeOfStu2": {
+    "message": "{stuName} Score: {n} Points, Score moyen inter-évaluation: {peer} Points",
+    "description": "PC -> 教师 -> 学生提交作业列表 -> TA给别人的评价"
+  },
+  "deductScore": {
+    "message": "Points déduits: {content}",
+    "description": "移动端 -> 教师 -> 批阅互评作业"
+  },
+  "contentOfDeductScore": {
+    "message": "Tâche d'évaluation inébranlable {n} Score",
+    "description": "移动端 -> 教师 -> 批阅互评作业"
+  },
+  "noEvaluate": {
+    "message": "Sin clasificar {deduct}",
+    "description": "移动端 -> 教师 -> 批阅互评作业 -> 评价任务"
+  },
   "所在班级": {
     "message": "Todas las clases",
     "description": "个人作业zh_part.json"
@@ -1058,6 +1134,10 @@
   "的作业详情": {
     "message": "Detalles del trabajo",
     "description": "个人作业zh_part.json"
+  },
+  "scoringOf": {
+    "message": "Note: {score}",
+    "description": "PC -> 教师 -> 学生提交作业列表 -> TA给别人的评价 \n PC -> 教师 -> 学生提交作业列表 -> 别人给TA的评价"
   },
   "评语": {
     "message": "Comentarios",
@@ -1147,6 +1227,10 @@
     "message": "Lista de estudiantes",
     "description": "个人作业zh_part.json"
   },
+  "submittedOn": {
+    "message": "Soumettre à {time}",
+    "description": "PC -> 教师 -> 批阅作业"
+  },
   "注：提交截止后开始互评。在提交截止后补交的学生将无法参与互评，需要教师来批阅该学生的作业。": {
     "message": "Nota: La evaluación mutua comienza después de la fecha límite de entrega. Los estudiantes que son reasignados después de la fecha límite de entrega no podrán participar en la evaluación mutua y necesitarán un maestro para revisar la tarea del estudiante.",
     "description": "个人作业zh_part.json"
@@ -1162,6 +1246,10 @@
   "设置若干评分点，细化评分规则，可以帮助学生更客观地进行互评": {
     "message": "La configuración de varios puntos de evaluación y las reglas de evaluación detalladas pueden ayudar a los alumnos a evaluarse de forma más objetiva",
     "description": "个人作业zh_part.json"
+  },
+  "rateOfPoint": {
+    "message": "Score correspondant {n}%",
+    "description": "PC -> 教师端 -> 发布个人作业 -> 学生互评 -> 添加评分规则"
   },
   "注意：进入互评阶段后不允许修改": {
     "message": "Nota: Las modificaciones no están permitidas después de entrar en la etapa de evaluación mutua",
@@ -1194,6 +1282,10 @@
   "互评作业详情": {
     "message": "Detalles de la evaluación mutua de la tarea.",
     "description": "个人作业zh_part.json"
+  },
+  "duplicateTip1": {
+    "message": "Après les tests, vos devoirs sont habilement similaires à ceux des autres camarades de classe",
+    "description": "学生 -> 写作业 -> 查重 (要求教师布置作业时，设置查重)"
   },
   "作业被批阅前你可以撤回重交，批阅后将无法撤回。确定提交作业？": {
     "message": "Antes de que la tarea sea revisada puede retirarla y enviarla nuevamente, una vez revisada no será posible retirarla. ¿Está seguro de que desea enviarla?",
@@ -1309,6 +1401,18 @@
   },
   "选择文件": {
     "message": "Seleccionar archivo",
+    "description": "个人作业zh_part.json"
+  },
+  "openBrowserContinue": {
+    "message": "Ce type d'affectation ne peut pas être ouvert dans l'application, veuillez continuer avec le navigateur.",
+    "description": "个人作业zh_part.json"
+  },
+  "在浏览器打开": {
+    "message": "Ouvert dans le navigateur",
+    "description": "个人作业zh_part.json"
+  },
+  "该类型作业无法在APP中打开，请在浏览器中打开继续使用": {
+    "message": "Ce type d'affectation ne peut pas être ouvert dans l'application, veuillez continuer avec le navigateur.",
     "description": "个人作业zh_part.json"
   }
 }
