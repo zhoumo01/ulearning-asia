@@ -3323,6 +3323,18 @@
     "message": "The school/institute was not found",
     "description": "小应用"
   },
+  "user.repeatTip": {
+    "message": "The student ID/Employee ID already exists, please do not register again. If you forget your username or password, please contact customer service.",
+    "description": "小应用"
+  },
+  "user.repeatTip2": {
+    "message": "The student/job number already exists (Organization: {org}; Username: {name}), please do not register again. If you forget your username or password, please contact customer service.",
+    "description": "小应用"
+  },
+  "user.registErrorText": {
+    "message": "Select the checkbox before registering",
+    "description": "小应用"
+  },
   "search.title": {
     "message": " Search ",
     "description": "小应用"
@@ -3987,6 +3999,38 @@
     "message": "Don't show this message again",
     "description": "小应用"
   },
+  "candidates.notChoose": {
+    "message": "The number of unselected students is insufficient (the remaining number: {num}). Please reset the number or create a new Random Pick activity.",
+    "description": "小应用"
+  },
+  "candidates.notPickMember": {
+    "message": "No more students available! Please create a new Random Pick activity.",
+    "description": "小应用"
+  },
+  "newSign.signPosition": {
+    "message": "Sign-in Location",
+    "description": "小应用"
+  },
+  "newSign.locationWrong": {
+    "message": "Location is not accurate",
+    "description": "小应用"
+  },
+  "newSign.posTitle": {
+    "message": "Location precision is low",
+    "description": "小应用"
+  },
+  "newSign.posMsg1": {
+    "message": "Make sure location services is enabled for ULearning ",
+    "description": "小应用"
+  },
+  "newSign.posMsg2": {
+    "message": "If you are connecting to a public hotspot, try turning off Wi-Fi, turning on cellular/mobile data, and positioning again.",
+    "description": "小应用"
+  },
+  "newSign.known": {
+    "message": "Got It!",
+    "description": "小应用"
+  },
   "newSign.neverRefresh": {
     "message": "Do not refresh",
     "description": "小应用"
@@ -4049,6 +4093,250 @@
   },
   "user.getCodeTip5": {
     "message": "The number of emails sent today has been used up.",
+    "description": "小应用"
+  },
+  "modification": {
+    "message": "If you change a file name extension, the file might become unusable. Are you sure you want to change it?",
+    "description": "小应用"
+  },
+  "photograph.photograph": {
+    "message": "Image Upload",
+    "description": "小应用"
+  },
+  "photograph.submit": {
+    "message": "Submit",
+    "description": "小应用"
+  },
+  "photograph.otherStu": {
+    "message": "Other students",
+    "description": "小应用"
+  },
+  "photograph.notation": {
+    "message": "Annotations",
+    "description": "小应用"
+  },
+  "photograph.delnotation": {
+    "message": "Remove Annotations ",
+    "description": "小应用"
+  },
+  "photograph.addScore": {
+    "message": "Add Points",
+    "description": "小应用"
+  },
+  "photograph.coursewareScreenshots": {
+    "message": "Courseware screenshot",
+    "description": "小应用"
+  },
+  "photograph.share": {
+    "message": "Share",
+    "description": "小应用"
+  },
+  "photograph.submitted": {
+    "message": "Submitted",
+    "description": "小应用"
+  },
+  "photograph.uncommitted": {
+    "message": "Unsubmitted",
+    "description": "小应用"
+  },
+  "photograph.back": {
+    "message": "Undo",
+    "description": "小应用"
+  },
+  "photograph.clear": {
+    "message": "Clear",
+    "description": "小应用"
+  },
+  "photograph.shareSucc": {
+    "message": "Shared successfully!",
+    "description": "小应用"
+  },
+  "photograph.msg1": {
+    "message": "Upload images as required by the teacher, up to 20 images",
+    "description": "小应用"
+  },
+  "photograph.msg2": {
+    "message": "Images submitted by other students",
+    "description": "小应用"
+  },
+  "photograph.msg3": {
+    "message": "Images submitted by me",
+    "description": "小应用"
+  },
+  "photograph.msg4": {
+    "message": "The activity has ended",
+    "description": "小应用"
+  },
+  "photograph.msg5": {
+    "message": "The activity has ended. You did not participate.",
+    "description": "小应用"
+  },
+  "photograph.msg6": {
+    "message": "Please upload an image",
+    "description": "小应用"
+  },
+  "photograph.msg7": {
+    "message": "Upload up to 20 images",
+    "description": "小应用"
+  },
+  "photograph.msg8": {
+    "message": "Are you sure you want to delete it?",
+    "description": "小应用"
+  },
+  "photograph.msg9": {
+    "message": "Students upload images for classroom presentation",
+    "description": "小应用"
+  },
+  "photograph.msg10": {
+    "message": "Students can view images of other students after submitting",
+    "description": "小应用"
+  },
+  "photograph.msg11": {
+    "message": "Are you sure you want to re-start this Image Upload?",
+    "description": "小应用"
+  },
+  "photograph.msg12": {
+    "message": "Are you sure you want to end this Image Upload activity?",
+    "description": "小应用"
+  },
+  "photograph.msg13": {
+    "message": "Are you sure you want to delete this Image Upload activity?",
+    "description": "小应用"
+  },
+  "photograph.msg14": {
+    "message": "Share with all students in this session and students can view it in the classroom activity records",
+    "description": "小应用"
+  },
+  "photograph.msg15": {
+    "message": "Are you sure you want to remove the annotations?",
+    "description": "小应用"
+  },
+  "photograph.msg16": {
+    "message": "Annotations are being removed...",
+    "description": "小应用"
+  },
+  "photograph.msg17": {
+    "message": "Annotations are being saved...",
+    "description": "小应用"
+  },
+  "photograph.msg18": {
+    "message": "Please wait for the image upload to complete",
+    "description": "小应用"
+  },
+  "photograph.msg19": {
+    "message": "Failed to submit and the activity has ended!",
+    "description": "小应用"
+  },
+  "photograph.msg20": {
+    "message": "Failed to submit and the activity was deleted!",
+    "description": "小应用"
+  },
+  "photograph.msg21": {
+    "message": "Are you sure you want to delete the image sharing?",
+    "description": "小应用"
+  },
+  "photograph.msg22": {
+    "message": "After removal, the images submitted by students cannot be restored. Students need to re-submit them. Are you sure you want to remove? Students will not be able to re-submit if the activity has ended.",
+    "description": "小应用"
+  },
+  "photograph.msg23": {
+    "message": "No submissions yet",
+    "description": "小应用"
+  },
+  "photograph.msg24": {
+    "message": "No submissions yet",
+    "description": "小应用"
+  },
+  "photograph.msg25": {
+    "message": "Submitting...",
+    "description": "小应用"
+  },
+  "photograph.msg26": {
+    "message": "Submitted successfully!",
+    "description": "小应用"
+  },
+  "photograph.msg27": {
+    "message": "When presenting PPT or commenting on images submitted by students, you can share images with students in the class.",
+    "description": "小应用"
+  },
+  "photograph.msg28": {
+    "message": "There is no shared content in this session",
+    "description": "小应用"
+  },
+  "photograph.msg29": {
+    "message": "Please select and then submit",
+    "description": "小应用"
+  },
+  "whiteBoard.blackboard": {
+    "message": "Whiteboard Screenshot",
+    "description": "小应用"
+  },
+  "whiteBoard.stuAccountScanCode": {
+    "message": "Please use the student account to scan the code",
+    "description": "小应用"
+  },
+  "whiteBoard.teaAccountScanCode": {
+    "message": "Please use your teacher account to scan the code",
+    "description": "小应用"
+  },
+  "whiteBoard.getWb": {
+    "message": "Capturing whiteboard content...",
+    "description": "小应用"
+  },
+  "whiteBoard.saveCourse": {
+    "message": "Save to Classroom",
+    "description": "小应用"
+  },
+  "whiteBoard.name": {
+    "message": "Name",
+    "description": "小应用"
+  },
+  "whiteBoard.selectClass": {
+    "message": "Select Session",
+    "description": "小应用"
+  },
+  "whiteBoard.beginDown": {
+    "message": "Start Download",
+    "description": "小应用"
+  },
+  "whiteBoard.downSucc": {
+    "message": "Downloaded successfully!",
+    "description": "小应用"
+  },
+  "whiteBoard.downErr": {
+    "message": "Failed to download!",
+    "description": "小应用"
+  },
+  "whiteBoard.nameNotNull": {
+    "message": "Name cannot be empty",
+    "description": "小应用"
+  },
+  "whiteBoard.selectCourse": {
+    "message": "Please select course",
+    "description": "小应用"
+  },
+  "whiteBoard.selectClassroom": {
+    "message": "Please select session",
+    "description": "小应用"
+  },
+  "whiteBoard.newestAPP": {
+    "message": "The current version does not support downloading. Please update ULearning App version before downloading.",
+    "description": "小应用"
+  },
+  "whiteBoard.saveErr": {
+    "message": "Failed to save, unable to connect to server.",
+    "description": "小应用"
+  },
+  "custom.custom": {
+    "message": "Custom",
+    "description": "小应用"
+  },
+  "custom.pleaseScore": {
+    "message": "Please enter the score",
+    "description": "小应用"
+  },
+  "remark.remark": {
+    "message": "Note: Up to 200 characters",
     "description": "小应用"
   }
 }
