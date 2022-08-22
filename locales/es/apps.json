@@ -207,10 +207,6 @@
     "message": "Ordenar por número de estudiante",
     "description": "小应用"
   },
-  "orderByEnterTimes": {
-    "message": "Ordenar por número de eventos a los que asistió",
-    "description": "小应用"
-  },
   "complete": {
     "message": "Completado",
     "description": "小应用"
@@ -356,7 +352,7 @@
     "description": "小应用"
   },
   "ulearn": {
-    "message": "ULearning",
+    "message": "ulearn",
     "description": "小应用"
   },
   "noStudentInClass": {
@@ -401,22 +397,6 @@
   },
   "logTip": {
     "message": "Ya ha iniciado sesión en otro terminal",
-    "description": "小应用"
-  },
-  "dontActToo": {
-    "message": "No operar con frecuencia",
-    "description": "小应用"
-  },
-  "mobilePermissionTip1": {
-    "message": "Ha deshabilitado el permiso de la cámara y no puede usar esta función, vaya a [Configuración] del teléfono para autorizar",
-    "description": "小应用"
-  },
-  "mobilePermissionTip2": {
-    "message": "Ha deshabilitado el permiso de micrófono y no puede usar esta función, vaya a [Configuración] del teléfono para autorizar",
-    "description": "小应用"
-  },
-  "mobilePermissionTip3": {
-    "message": "Ha deshabilitado el permiso de ubicación y no puede usar esta función, vaya a [Configuración] del teléfono para autorizar",
     "description": "小应用"
   },
   "teacher.title": {
@@ -611,10 +591,6 @@
     "message": "Votado",
     "description": "小应用"
   },
-  "vote.deadline": {
-    "message": "Fecha límite: {time}",
-    "description": "小应用"
-  },
   "vote.end": {
     "message": "La votación ha concluído",
     "description": "小应用"
@@ -765,34 +741,6 @@
   },
   "pick.confirmRestart": {
     "message": "¿Está seguro de que desea abrir el candidato de nuevo?",
-    "description": "小应用"
-  },
-  "pick.pickStuTitle": {
-    "message": "Por favor, seleccione el estudiante",
-    "description": "小应用"
-  },
-  "pick.participateTimes2": {
-    "message": "Grab answer {interlocutionCount} times, selected {joinCount} times",
-    "description": "小应用"
-  },
-  "pick.picked": {
-    "message": "Seleccionado",
-    "description": "小应用"
-  },
-  "pick.absent": {
-    "message": "Sin asistencia",
-    "description": "小应用"
-  },
-  "pick.pick": {
-    "message": "Seleccionar",
-    "description": "小应用"
-  },
-  "pick.pickFromDuty": {
-    "message": "Seleccionados de los estudiantes de la lista de asistentes",
-    "description": "小应用"
-  },
-  "pick.addPickFirst": {
-    "message": "No se han iniciado llamadas de nombre en el aula actual, utilice esta función después de iniciar una llamada de nombre",
     "description": "小应用"
   },
   "score.title": {
@@ -1151,24 +1099,8 @@
     "message": "Para usar \"Inicio de sesión con código QR\"  es necesario encender la pantalla de proyección. En dicha pantalla se mostrará el código QR para hacer el check-in.",
     "description": "小应用"
   },
-  "attendance.screenTipsNew": {
-    "message": "El \"check-in con código QR\" debe abrir la pantalla de proyección y mostrar el código QR de check-in en la pantalla grande. Los estudiantes solo pueden usar sus teléfonos móviles para escanear el código para iniciar sesión.",
-    "description": "小应用"
-  },
-  "attendance.locationTips": {
-    "message": "El registro de ubicación requiere que el posicionamiento esté activado. Debido al impacto de las estaciones base de la red 4G y la estabilidad de la red, habrá ciertos errores en los datos de ubicación.",
-    "description": "小应用"
-  },
-  "attendance.locationTipsNew": {
-    "message": "El registro de ubicación requiere que los estudiantes usen sus teléfonos y enciendan la ubicación. Debido al impacto de las estaciones base de la red 4G y la estabilidad de la red, habrá ciertos errores en los datos de ubicación.",
-    "description": "小应用"
-  },
   "attendance.qrCodeUpdateTips": {
     "message": "Actualizar el código QR cada 15s",
-    "description": "小应用"
-  },
-  "attendance.oneKeySign": {
-    "message": "Inicio de sesión de ubicación",
     "description": "小应用"
   },
   "attendance.qrCodeSign": {
@@ -1344,11 +1276,11 @@
     "description": "小应用"
   },
   "attendance.mobilePluginTips1": {
-    "message": "Permita que ULearnig use los servicios de ubicación y vuelva a intentarlo",
+    "message": "Permita que use los servicios de ubicación e intente nuevamente después de obtener el permiso",
     "description": "小应用"
   },
   "attendance.mobilePluginTips2": {
-    "message": "Active el servicio de ubicación en la configuración del sistema del teléfono móvil y permita que ULearning use el servicio de ubicación",
+    "message": "Habilite el servicio de ubicación en la configuración del sistema de teléfono móvil y le permite usar el servicio de ubicación",
     "description": "小应用"
   },
   "attendance.mobilePluginTips3": {
@@ -1397,42 +1329,6 @@
   },
   "attendance.endAttendence": {
     "message": "Termina el guirnón.",
-    "description": "小应用"
-  },
-  "attendance.inputNumCode": {
-    "message": "Introduzca un código numérico",
-    "description": "小应用"
-  },
-  "attendance.surround": {
-    "message": "Ubicación cercana",
-    "description": "小应用"
-  },
-  "attendance.getPosAgain": {
-    "message": "Reposicionamiento",
-    "description": "小应用"
-  },
-  "attendance.openPos": {
-    "message": "Activar la ubicación del teléfono",
-    "description": "小应用"
-  },
-  "attendance.positon": {
-    "message": "Posición",
-    "description": "小应用"
-  },
-  "attendance.confirmPos": {
-    "message": "Por favor, confirme la ubicación del check-in",
-    "description": "小应用"
-  },
-  "attendance.userNumber": {
-    "message": "ID de estudiante: {studentID}",
-    "description": "小应用"
-  },
-  "attendance.attData": {
-    "message": "Horas de asistencia {signCount}, horas de ausencia {freedomCount}, tasa de asistencia {rate}",
-    "description": "小应用"
-  },
-  "attendance.teaEnter": {
-    "message": "Sin ubicación, entrada de profesores",
     "description": "小应用"
   },
   "announcement.title": {
@@ -1689,10 +1585,6 @@
   },
   "answer.participateTimes": {
     "message": "Participar {times} veces",
-    "description": "小应用"
-  },
-  "answer.participateAndSelectTimes": {
-    "message": "Respondió {count} veces y fue seleccionado {selectPersonCount} veces",
     "description": "小应用"
   },
   "answer.orderByStuNo": {
@@ -2295,10 +2187,6 @@
     "message": "Elección de personas en la clase, puntos obtenidos durante actividad de  preguntas y respuestas",
     "description": "小应用"
   },
-  "class.exitNeedCheck": {
-    "message": "Los estudiantes están obligados a aprobar cuando salen de la clase",
-    "description": "小应用"
-  },
   "resource.createFolder": {
     "message": "Agregar carpeta",
     "description": "小应用"
@@ -2768,7 +2656,7 @@
     "description": "小应用"
   },
   "course.qrCodeJoin": {
-    "message": "Por favor, utilice la aplicación ULearning  para escanear el código y poder unirse a la clase",
+    "message": "Por favor, utilice la aplicación uLearning 2.0 para escanear el código y poder unirse a la clase",
     "description": "小应用"
   },
   "course.creator": {
@@ -2955,10 +2843,6 @@
     "message": "profesor",
     "description": "小应用"
   },
-  "user.society": {
-    "message": "Aprendices sociales",
-    "description": "小应用"
-  },
   "user.nameTitle": {
     "message": "Nombre",
     "description": "小应用"
@@ -3016,7 +2900,7 @@
     "description": "小应用"
   },
   "user.tip": {
-    "message": "Al registrarte, aceptas ULearning",
+    "message": "Registrarse es estar de acuerdo con la excelente universidad",
     "description": "小应用"
   },
   "user.userAgreement": {
@@ -3216,7 +3100,7 @@
     "description": "小应用"
   },
   "user.ULearningAccount": {
-    "message": "Cuenta ULearning",
+    "message": "Excelente cuenta universitaria",
     "description": "小应用"
   },
   "user.inputUserNameTip1": {
@@ -3291,10 +3175,6 @@
     "message": "Si ha abierto una cuenta de manera uniforme, inicie sesión con la cuenta abierta por la escuela y no vuelva a registrarse. ",
     "description": "小应用"
   },
-  "user.registerTip2": {
-    "message": "El número de teléfono móvil / dirección de correo electrónico utilizada para el registro es el nombre de usuario de inicio de sesión.",
-    "description": "小应用"
-  },
   "user.isStudent": {
     "message": "Soy estudiante",
     "description": "小应用"
@@ -3321,18 +3201,6 @@
   },
   "user.noDataTip": {
     "message": "No se encontró la escuela/institución",
-    "description": "小应用"
-  },
-  "user.repeatTip": {
-    "message": "El número de estudiante / número de trabajo ha sido abierto, por favor no se registre de nuevo. Si ha olvidado su nombre de usuario o contraseña, comuníquese con Live Chat.",
-    "description": "小应用"
-  },
-  "user.repeatTip2": {
-    "message": "El número de estudiante / número de trabajo se ha abierto para la cuenta (institución: {org}, nombre de usuario: {name}), por favor no se registre de nuevo. Si ha olvidado su nombre de usuario o contraseña, comuníquese con Live Chat.",
-    "description": "小应用"
-  },
-  "user.registErrorText": {
-    "message": "Por favor, marque antes de registrarse",
     "description": "小应用"
   },
   "search.title": {
@@ -3903,134 +3771,6 @@
     "message": "Reproducir/pausa",
     "description": "小应用"
   },
-  "classroom.classLive": {
-    "message": "Clase en vivo",
-    "description": "小应用"
-  },
-  "classroom.playbackTip": {
-    "message": "En la generación de video, se puede ver unos 30 minutos después del final de la transmisión en vivo.",
-    "description": "小应用"
-  },
-  "live.enterLiveRoom": {
-    "message": "El profesor está transmitiendo, haga clic para ingresar",
-    "description": "小应用"
-  },
-  "loginCode.loginCode": {
-    "message": "Inicio de sesión de código de barrido",
-    "description": "小应用"
-  },
-  "loginCode.ulearningUser": {
-    "message": "Cuenta ULearning",
-    "description": "小应用"
-  },
-  "loginCode.allowedLogin": {
-    "message": "Permitir inicios de sesión",
-    "description": "小应用"
-  },
-  "loginCode.screenCode": {
-    "message": "Escanear el código para transmitir la pantalla",
-    "description": "小应用"
-  },
-  "loginCode.msg1": {
-    "message": "Iniciar sesión en otro terminal de dispositivo",
-    "description": "小应用"
-  },
-  "loginCode.msg2": {
-    "message": "Por favor, confirme que lo anterior es su operación",
-    "description": "小应用"
-  },
-  "loginCode.msg3": {
-    "message": "Y confirmar la seguridad de la fuente del código QR",
-    "description": "小应用"
-  },
-  "loginCode.msg4": {
-    "message": "Utilice el código de escaneo de la aplicación ULearning para iniciar sesión",
-    "description": "小应用"
-  },
-  "loginCode.msg5": {
-    "message": "Vaya a ULearning escanee el código para iniciar sesión",
-    "description": "小应用"
-  },
-  "loginCode.msg6": {
-    "message": "Descarga la app ULearning",
-    "description": "小应用"
-  },
-  "loginCode.msg7": {
-    "message": "El código QR ha caducado, actualice el código QR e inténtelo de nuevo.",
-    "description": "小应用"
-  },
-  "loginCode.msg8": {
-    "message": "Se agotó el tiempo de espera de la operación, vuelva a escanear el código QR para iniciar sesión.",
-    "description": "小应用"
-  },
-  "loginCode.tips1": {
-    "message": "Active esta función para admitir la vinculación del teléfono móvil y la enseñanza de pantalla grande,",
-    "description": "小应用"
-  },
-  "loginCode.tips2": {
-    "message": "Específicamente",
-    "description": "小应用"
-  },
-  "loginCode.tips3": {
-    "message": "Sin ingresar el nombre de usuario y la contraseña, puede escanear el código para iniciar sesión en el aula del cliente U-Class o en el navegador de la computadora.",
-    "description": "小应用"
-  },
-  "loginCode.tips4": {
-    "message": "Puede admitir el control remoto del teléfono móvil de pantalla grande PPT page turning.",
-    "description": "小应用"
-  },
-  "loginCode.tips5": {
-    "message": "Use su teléfono para controlar la apertura, el final, los detalles de visualización y otros estados de las actividades de pantalla grande.",
-    "description": "小应用"
-  },
-  "loginCode.tips6": {
-    "message": "Uso",
-    "description": "小应用"
-  },
-  "loginCode.tips7": {
-    "message": "Abra el cliente U-Class en la pantalla grande o ingrese la siguiente URL en el navegador para mostrar la siguiente página:",
-    "description": "小应用"
-  },
-  "loginCode.tips8": {
-    "message": "Escanee el código QR en la pantalla grande para completar la conexión",
-    "description": "小应用"
-  },
-  "loginCode.tips9": {
-    "message": "No más indicaciones después de verificar",
-    "description": "小应用"
-  },
-  "candidates.notChoose": {
-    "message": "Si el número de estudiantes no seleccionados es insuficiente (número de estudiantes restantes: {num}), restablezca el número de estudiantes o cree una nueva actividad de selección.",
-    "description": "小应用"
-  },
-  "candidates.notPickMember": {
-    "message": "Todos los estudiantes han sido seleccionados, por favor cree una nueva actividad de selección",
-    "description": "小应用"
-  },
-  "newSign.signPosition": {
-    "message": "Lugar de check-in",
-    "description": "小应用"
-  },
-  "newSign.locationWrong": {
-    "message": "La ubicación no es precisa",
-    "description": "小应用"
-  },
-  "newSign.posTitle": {
-    "message": "La desviación de posicionamiento es grande",
-    "description": "小应用"
-  },
-  "newSign.posMsg1": {
-    "message": "Confirme que el permiso de ubicación de lectura de ULearning no está prohibido",
-    "description": "小应用"
-  },
-  "newSign.posMsg2": {
-    "message": "Si te estás conectando a un punto de acceso público, intenta apagar la conexión Wi-Fi, activar los datos móviles y, a continuación, volver a localizarla.",
-    "description": "小应用"
-  },
-  "newSign.known": {
-    "message": "Entendido",
-    "description": "小应用"
-  },
   "newSign.neverRefresh": {
     "message": "No actualizar",
     "description": "小应用"
@@ -4093,250 +3833,6 @@
   },
   "user.getCodeTip5": {
     "message": "El número de envíos hoy en día ha alcanzado su máximo",
-    "description": "小应用"
-  },
-  "modification": {
-    "message": "Ha modificado el nombre del sufijo, lo que puede hacer que el recurso no se reconozca, ¿está bien la modificación?",
-    "description": "小应用"
-  },
-  "photograph.photograph": {
-    "message": "Toma una foto y súbela",
-    "description": "小应用"
-  },
-  "photograph.submit": {
-    "message": "Enviar",
-    "description": "小应用"
-  },
-  "photograph.otherStu": {
-    "message": "Otros estudiantes",
-    "description": "小应用"
-  },
-  "photograph.notation": {
-    "message": "Comentarios",
-    "description": "小应用"
-  },
-  "photograph.delnotation": {
-    "message": "Eliminar comentario.",
-    "description": "小应用"
-  },
-  "photograph.addScore": {
-    "message": "Agregar punto",
-    "description": "小应用"
-  },
-  "photograph.coursewareScreenshots": {
-    "message": "Captura de pantalla de courseware",
-    "description": "小应用"
-  },
-  "photograph.share": {
-    "message": "Compartir",
-    "description": "小应用"
-  },
-  "photograph.submitted": {
-    "message": "Enviado",
-    "description": "小应用"
-  },
-  "photograph.uncommitted": {
-    "message": "No enviado",
-    "description": "小应用"
-  },
-  "photograph.back": {
-    "message": "Revocar",
-    "description": "小应用"
-  },
-  "photograph.clear": {
-    "message": "vacío",
-    "description": "小应用"
-  },
-  "photograph.shareSucc": {
-    "message": "Comparte el éxito",
-    "description": "小应用"
-  },
-  "photograph.msg1": {
-    "message": "Sube fotos según te lo pida tu instructor, hasta un máximo de 20 imágenes",
-    "description": "小应用"
-  },
-  "photograph.msg2": {
-    "message": "Fotos enviadas por otros estudiantes",
-    "description": "小应用"
-  },
-  "photograph.msg3": {
-    "message": "Envié la foto",
-    "description": "小应用"
-  },
-  "photograph.msg4": {
-    "message": "La actividad ya ha terminado",
-    "description": "小应用"
-  },
-  "photograph.msg5": {
-    "message": "El evento ha finalizado y no estás participando",
-    "description": "小应用"
-  },
-  "photograph.msg6": {
-    "message": "Por favor, suba una imagen",
-    "description": "小应用"
-  },
-  "photograph.msg7": {
-    "message": "Sube hasta 20 imágenes",
-    "description": "小应用"
-  },
-  "photograph.msg8": {
-    "message": "¿Está seguro de que desea eliminarlo?",
-    "description": "小应用"
-  },
-  "photograph.msg9": {
-    "message": "Los estudiantes suben imágenes para presentaciones en el aula",
-    "description": "小应用"
-  },
-  "photograph.msg10": {
-    "message": "Los estudiantes pueden ver fotos de otros estudiantes después de enviar",
-    "description": "小应用"
-  },
-  "photograph.msg11": {
-    "message": "¿Estás seguro de que quieres volver a activar la carga de fotos?",
-    "description": "小应用"
-  },
-  "photograph.msg12": {
-    "message": "¿Estás seguro de que quieres terminar la carga de fotos?",
-    "description": "小应用"
-  },
-  "photograph.msg13": {
-    "message": "¿Está seguro de que desea eliminar la carga de fotos?",
-    "description": "小应用"
-  },
-  "photograph.msg14": {
-    "message": "Compártalo con todos los estudiantes en el aula y los estudiantes pueden verlo en su historial de actividades de clase.",
-    "description": "小应用"
-  },
-  "photograph.msg15": {
-    "message": "¿Está seguro de que desea eliminar un comentario?",
-    "description": "小应用"
-  },
-  "photograph.msg16": {
-    "message": "Se están eliminando las anotaciones",
-    "description": "小应用"
-  },
-  "photograph.msg17": {
-    "message": "Se están guardando anotaciones",
-    "description": "小应用"
-  },
-  "photograph.msg18": {
-    "message": "Espere a que la imagen termine de cargarse",
-    "description": "小应用"
-  },
-  "photograph.msg19": {
-    "message": "Error en el envío, actividad finalizada",
-    "description": "小应用"
-  },
-  "photograph.msg20": {
-    "message": "Error de envío y actividad eliminada",
-    "description": "小应用"
-  },
-  "photograph.msg21": {
-    "message": "¿Está seguro de que desea eliminar el uso compartido de imágenes?",
-    "description": "小应用"
-  },
-  "photograph.msg22": {
-    "message": "Después de la eliminación, las imágenes enviadas por el estudiante no se recuperarán y el estudiante debe volver a enviarlas, ¿es seguro que las eliminará? Si la actividad ha finalizado, los alumnos no podrán volver a presentarse.",
-    "description": "小应用"
-  },
-  "photograph.msg23": {
-    "message": "Aún no se han realizado presentaciones de estudiantes",
-    "description": "小应用"
-  },
-  "photograph.msg24": {
-    "message": "Ningún otro estudiante se ha presentado todavía",
-    "description": "小应用"
-  },
-  "photograph.msg25": {
-    "message": "Enviando",
-    "description": "小应用"
-  },
-  "photograph.msg26": {
-    "message": "Enviado con éxito",
-    "description": "小应用"
-  },
-  "photograph.msg27": {
-    "message": "Al demostrar PPT o comentar las imágenes enviadas por los estudiantes, puede compartir las imágenes con los estudiantes de la clase.",
-    "description": "小应用"
-  },
-  "photograph.msg28": {
-    "message": "No hay contenido compartido en el aula actual",
-    "description": "小应用"
-  },
-  "photograph.msg29": {
-    "message": "Por favor, seleccione Publicar",
-    "description": "小应用"
-  },
-  "whiteBoard.blackboard": {
-    "message": "Libro de pizarras para el aula",
-    "description": "小应用"
-  },
-  "whiteBoard.stuAccountScanCode": {
-    "message": "Utilice la cuenta de estudiante para escanear el código",
-    "description": "小应用"
-  },
-  "whiteBoard.teaAccountScanCode": {
-    "message": "Utilice la cuenta de su profesor para escanear el código",
-    "description": "小应用"
-  },
-  "whiteBoard.getWb": {
-    "message": "Obtener contenido de libros de tablero",
-    "description": "小应用"
-  },
-  "whiteBoard.saveCourse": {
-    "message": "Guardar en clase",
-    "description": "小应用"
-  },
-  "whiteBoard.name": {
-    "message": "Nombre",
-    "description": "小应用"
-  },
-  "whiteBoard.selectClass": {
-    "message": "Elige un curso",
-    "description": "小应用"
-  },
-  "whiteBoard.beginDown": {
-    "message": "Iniciar la descarga",
-    "description": "小应用"
-  },
-  "whiteBoard.downSucc": {
-    "message": "Descarga exitosa",
-    "description": "小应用"
-  },
-  "whiteBoard.downErr": {
-    "message": "No se pudo descargar.",
-    "description": "小应用"
-  },
-  "whiteBoard.nameNotNull": {
-    "message": "El nombre no puede estar vacío",
-    "description": "小应用"
-  },
-  "whiteBoard.selectCourse": {
-    "message": "Por favor seleccione un curso",
-    "description": "小应用"
-  },
-  "whiteBoard.selectClassroom": {
-    "message": "Elige un curso",
-    "description": "小应用"
-  },
-  "whiteBoard.newestAPP": {
-    "message": "La versión actual no admite la descarga, actualice la versión de la aplicación antes de descargar",
-    "description": "小应用"
-  },
-  "whiteBoard.saveErr": {
-    "message": "Error al guardar y no se puede conectar al servidor",
-    "description": "小应用"
-  },
-  "custom.custom": {
-    "message": "Definir personalmente",
-    "description": "小应用"
-  },
-  "custom.pleaseScore": {
-    "message": "Por favor, introduzca una puntuación",
-    "description": "小应用"
-  },
-  "remark.remark": {
-    "message": "Notas, hasta 200 palabras",
     "description": "小应用"
   }
 }

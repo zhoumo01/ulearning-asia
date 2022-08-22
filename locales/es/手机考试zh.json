@@ -23,10 +23,6 @@
     "message": "Puntuación más alta",
     "description": "手机考试zh.json"
   },
-  "points": {
-    "message": "{n} puntos",
-    "description": "手机考试 -> 考试详情 -> 及格分数 \n 手机考试 -> 考试详情 -> 进入考试 -> 滑动到第一页 -> 奖杯图标右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 用户头像右侧 \n 手机考试 -> 交卷后 -> 考试详情 -> 答题记录列表 (需要用户有多个答题记录，才会弹出答题记录列表)"
-  },
   "examTime": {
     "message": "Sesión de clase:",
     "description": "手机考试zh.json"
@@ -34,10 +30,6 @@
   "examLimitTime": {
     "message": "Límite de tiempo del examen",
     "description": "手机考试zh.json"
-  },
-  "minutes": {
-    "message": "{n} minutos",
-    "description": "手机考试 -> 考试详情 -> 考试限时"
   },
   "answerTime": {
     "message": "Número de respuestas",
@@ -51,10 +43,6 @@
     "message": "Sin restricciones",
     "description": "手机考试zh.json"
   },
-  "timesOf": {
-    "message": "{current}/{total} tiempo",
-    "description": "手机考试 -> 考试详情 -> 答题次数"
-  },
   "passingScore": {
     "message": "Puntaje de aprobación",
     "description": "手机考试zh.json"
@@ -62,10 +50,6 @@
   "lateTime": {
     "message": "Limite de Entrada Tardia:",
     "description": "手机考试zh.json"
-  },
-  "betweenTime": {
-    "message": "{startTime} - {endTime}",
-    "description": "手机考试 -> 考试详情 -> 考试时间"
   },
   "clickUpload": {
     "message": "Haga clic para subir foto de autentificación.",
@@ -523,14 +507,6 @@
     "message": "Analizar",
     "description": "手机考试zh.json"
   },
-  "answerScore1": {
-    "message": "Puntuación: pendiente de aprobación",
-    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
-  },
-  "answerScore2": {
-    "message": "Puntuación: {n} puntos, puntuación completa {num} puntos",
-    "description": "手机考试 -> 交卷后 -> 考试详情 -> 答题记录 (需要考试设置为显示答案)"
-  },
   "teaComment": {
     "message": "Comentarios del profesor",
     "description": "手机考试zh.json"
@@ -715,336 +691,8 @@
     "message": "Seleccionar desde el ordenador",
     "description": "手机考试zh.json"
   },
-  "examInfo": {
-    "message": "Información del examen",
-    "description": "手机考试zh.json"
-  },
-  "lateLimit": {
-    "message": "Límite de tiempo tardío:",
-    "description": "手机考试zh.json"
-  },
   "lateLimitTips": {
     "message": "No se permite la entrada después de {time} minutos desde el inicio del examen\n",
-    "description": "手机考试zh.json"
-  },
-  "submitLimit": {
-    "message": "Plazo de entrega:",
-    "description": "手机考试zh.json"
-  },
-  "submitLimitTips": {
-    "message": "No se permiten trabajos dentro de los minutos {time} del inicio del examen.",
-    "description": "手机考试zh.json"
-  },
-  "securitySettings": {
-    "message": "Configuraciones de seguridad",
-    "description": "手机考试zh.json"
-  },
-  "IPMonitor": {
-    "message": "Supervisión de IP.",
-    "description": "手机考试zh.json"
-  },
-  "IPMonitorTip": {
-    "message": "{ip} está habilitado, no cambie de red en el medio",
-    "description": "{ip} 指的是 IP监控"
-  },
-  "deviceMonitor": {
-    "message": "Supervisión del dispositivo.",
-    "description": "手机考试zh.json"
-  },
-  "deviceMonitorTip": {
-    "message": "{device} está activado, no cambie los dispositivos o navegadores en el medio",
-    "description": "{device} 指的是设备监控"
-  },
-  "photoMonitor": {
-    "message": "Capturar monitoreo.",
-    "description": "手机考试zh.json"
-  },
-  "photoMonitorTip": {
-    "message": "{foto} está encendida, por favor mantenga la cámara frontal encendida",
-    "description": "{photo} 指的是抓拍监控"
-  },
-  "faceRecognition": {
-    "message": "Reconocimiento facial",
-    "description": "手机考试zh.json"
-  },
-  "faceRecognitionTip": {
-    "message": "{face} está activado y se requiere verificación facial para ingresar al examen",
-    "description": "{face} 指的是人脸识别"
-  },
-  "unOpened": {
-    "message": "No abierto",
-    "description": "手机考试zh.json"
-  },
-  "IPException": {
-    "message": "Anomalía de IP",
-    "description": "手机考试zh.json"
-  },
-  "IPExceptionTips1": {
-    "message": "La supervisión de IP se ha activado para este examen y no se permite cambiarla durante el examen. Cambiar la red puede hacer que la dirección IP cambie.",
-    "description": "手机考试zh.json"
-  },
-  "IPExceptionTips2": {
-    "message": "En caso de circunstancias especiales que necesite cambiar la red, solicite al supervisor el código de verificación, use el código de verificación para ingresar al examen.",
-    "description": "手机考试zh.json"
-  },
-  "deviceException": {
-    "message": "Anomalía en dispositivo",
-    "description": "手机考试zh.json"
-  },
-  "deviceExceptionTips1": {
-    "message": "El monitoreo del dispositivo está activado para este examen, y no se permite el reemplazo del dispositivo o navegador en el medio, use el dispositivo o navegador que ingresó al examen por primera vez para responder la pregunta.",
-    "description": "手机考试zh.json"
-  },
-  "deviceExceptionTips2": {
-    "message": "En caso de circunstancias especiales, debe cambiar el equipo, solicite al supervisor el código de verificación, use el código de verificación para ingresar al examen.",
-    "description": "手机考试zh.json"
-  },
-  "commitLimitTimeTips": {
-    "message": "No podrá presentar sus hojas de examen hasta {time} minutos después del inicio del examen",
-    "description": "手机考试zh.json"
-  },
-  "examTip20": {
-    "message": "A mitad del examen {count}} veces",
-    "description": "手机考试zh.json"
-  },
-  "screenMonitor": {
-    "message": "Monitoreo de pantalla de corte",
-    "description": "手机考试zh.json"
-  },
-  "screenMonitorTips": {
-    "message": "{screen} se ha activado, y dejar {num} veces en el medio forzará el rollover",
-    "description": "{screen} 指的是切屏监控"
-  },
-  "recordShowAfterSubmit": {
-    "message": "El examen se muestra tan pronto como se entrega.",
-    "description": "手机考试zh.json"
-  },
-  "leaveExamTimesTips": {
-    "message": "A mitad del examen {count}} veces",
-    "description": "手机考试zh.json"
-  },
-  "cameraAccess": {
-    "message": "No encienda el permiso de la cámara, este examen active el reconocimiento facial o el monitoreo de captura, ¡active el permiso de la cámara para participar en el examen!",
-    "description": "手机考试zh.json"
-  },
-  "selectFile": {
-    "message": "Elegir archivo",
-    "description": "手机考试zh.json"
-  },
-  "fromAlbum1": {
-    "message": "Elegir desde el álbum",
-    "description": "手机考试zh.json"
-  },
-  "showAfterBatchEnd": {
-    "message": "El examen se anunciará al final del examen",
-    "description": "手机考试zh.json"
-  },
-  "versionLowerTips": {
-    "message": "La versión actual es demasiado baja, ¡actualice y luego realice el examen!",
-    "description": "手机考试zh.json"
-  },
-  "monitoring": {
-    "message": "Bajo supervisión.",
-    "description": "手机考试zh.json"
-  },
-  "photoCountDown": {
-    "message": "Comience a tomar fotos después de {n} segundos",
-    "description": "手机考试zh.json"
-  },
-  "onlyPCWeb": {
-    "message": "Solo páginas de ordenadores",
-    "description": "手机考试zh.json"
-  },
-  "onlyPCExe": {
-    "message": "El cliente de la computadora",
-    "description": "手机考试zh.json"
-  },
-  "onlyMobile": {
-    "message": "Solo teléfono",
-    "description": "手机考试zh.json"
-  },
-  "unlimitType": {
-    "message": "Móvil/Web/Cliente",
-    "description": "手机考试zh.json"
-  },
-  "viewOnPCExe": {
-    "message": "Utilice el examen ULearning Exam Client en su computadora",
-    "description": "手机考试zh.json"
-  },
-  "swipeTip": {
-    "message": "Desliza el dedo hacia la izquierda y hacia la derecha para cambiar de página",
-    "description": "手机考试zh.json"
-  },
-  "mobilePermissionTip1": {
-    "message": "Ha deshabilitado los permisos de la cámara y no puede usar esta función, vaya a la configuración de su teléfono para autorizar",
-    "description": "手机考试zh.json"
-  },
-  "mobilePermissionTip2": {
-    "message": "Ha deshabilitado el permiso de micrófono y no puede usar esta función, vaya a [Configuración] del teléfono para autorizar",
-    "description": "手机考试zh.json"
-  },
-  "screenMonitorTips1": {
-    "message": "{screen} se ha activado, dejando el examen por una sola vez más de {num1} segundos, o dejando {num} veces en total obligará a entregar el papel",
-    "description": "手机考试zh.json"
-  },
-  "screenMonitorTips2": {
-    "message": "{screen} se ha activado, y dejar a mitad de camino durante más de {num} segundos forzará el rollover",
-    "description": "手机考试zh.json"
-  },
-  "examMonitor": {
-    "message": "Examen de seguimiento",
-    "description": "手机考试zh.json"
-  },
-  "exitTip2": {
-    "message": "Este examen ha activado {pantalla}, por favor no salga a mitad de camino, solo puede salir después de entregar sus trabajos.",
-    "description": "{screen} 插值处的内容，见 exitTip2Interpolation 字段"
-  },
-  "screenInterpolation": {
-    "message": "Monitoreo de pantalla de corte",
-    "description": "此字段作为 exitTip2 字段插值处的内容"
-  },
-  "hintTip5": {
-    "message": "Dejado durante más de {s} segundos, el sistema ha obligado a relajarse.",
-    "description": "手机考试zh.json"
-  },
-  "getIt": {
-    "message": "Entendido",
-    "description": "手机考试zh.json"
-  },
-  "netWorkError": {
-    "message": "La red es anormal y la operación ha fallado, inténtelo de nuevo después de restaurar la conexión de red.",
-    "description": "手机考试zh.json"
-  },
-  "agreenInstructions": {
-    "message": "He leído y estoy de acuerdo con los asuntos en las notas del examen",
-    "description": "手机考试zh.json"
-  },
-  "agreenTip": {
-    "message": "Por favor, compruebe primero",
-    "description": "手机考试zh.json"
-  },
-  "activeBook": {
-    "message": "Activar",
-    "description": "手机考试zh.json"
-  },
-  "screenRecordTips": {
-    "message": "La grabación de pantalla o el uso compartido de pantalla están prohibidos para el examen.",
-    "description": "手机考试zh.json"
-  },
-  "screenRecordTips1": {
-    "message": "Si la grabación o el uso compartido de pantalla están activados, apáguelos antes de ingresar al examen.",
-    "description": "手机考试zh.json"
-  },
-  "inExam": {
-    "message": "Examen",
-    "description": "手机考试zh.json"
-  },
-  "forbidScreenRecord": {
-    "message": "Deshabilitar la grabación de pantalla / compartir pantallas",
-    "description": "手机考试zh.json"
-  },
-  "screenRecordTips2": {
-    "message": "Si está grabando o compartiendo una pantalla, ciérrela antes de volver al examen para continuar respondiendo preguntas.",
-    "description": "手机考试zh.json"
-  },
-  "textCount": {
-    "message": "{n} palabra",
-    "description": "手机考试zh.json"
-  },
-  "question9New": {
-    "message": "Lectura oral",
-    "description": "手机考试zh.json"
-  },
-  "noSkippingTips": {
-    "message": "Consejo",
-    "description": "手机考试zh.json"
-  },
-  "noSkippingMsg": {
-    "message": "Omitir preguntas está prohibido para este examen, así que por favor respóndalas en orden.",
-    "description": "手机考试zh.json"
-  },
-  "netWorkErrorNew": {
-    "message": "Anomalías de red, compruebe la conexión de red",
-    "description": "手机考试zh.json"
-  },
-  "netWorkErrorMsg": {
-    "message": "La red actual es inestable y continuar respondiendo preguntas puede hacer que se pierda el registro de respuestas. Si la red no se puede restaurar temporalmente, se recomienda retirarse del examen después de obtener el consentimiento del profesor y luego organizar una repetición en una fecha posterior.",
-    "description": "手机考试zh.json"
-  },
-  "quiteExam": {
-    "message": "Salir del examen",
-    "description": "手机考试zh.json"
-  },
-  "quiteExamAgain": {
-    "message": "¿Está seguro de que quiere dejar de fumar ahora?",
-    "description": "手机考试zh.json"
-  },
-  "submitPaperErrorMsg": {
-    "message": "Anormalidad de la red, no se pudo enviar el archivo!<br/>Puede intentar volver a enviar. Si la red continúa siendo anormal y no se puede recuperar temporalmente, se recomienda retirarse del examen con el consentimiento del profesor.",
-    "description": "手机考试zh.json"
-  },
-  "deviceSupportTip": {
-    "message": "Por favor, realice el examen en su teléfono móvil",
-    "description": "手机考试zh.json"
-  },
-  "examType1": {
-    "message": "Web",
-    "description": "手机考试zh.json"
-  },
-  "examType2": {
-    "message": "Solo Móvil",
-    "description": "手机考试zh.json"
-  },
-  "examType3": {
-    "message": "Móvil/web/cliente",
-    "description": "手机考试zh.json"
-  },
-  "examType4": {
-    "message": "El cliente de la computadora",
-    "description": "手机考试zh.json"
-  },
-  "examType5": {
-    "message": "Móvil/Web",
-    "description": "手机考试zh.json"
-  },
-  "examType6": {
-    "message": "Web/cliente",
-    "description": "手机考试zh.json"
-  },
-  "examType7": {
-    "message": "Móvil/cliente",
-    "description": "手机考试zh.json"
-  },
-  "examTypeTip": {
-    "message": "Por favor, realice el examen con {examType}",
-    "description": "手机考试zh.json"
-  },
-  "cameraMonitor": {
-    "message": "Monitorización de la cámara",
-    "description": "手机考试zh.json"
-  },
-  "cameraMonitorTip": {
-    "message": "{cámara} está encendida, por favor enciéndala y enfréntela a la cámara",
-    "description": "手机考试zh.json"
-  },
-  "checkCamera": {
-    "message": "Depurar la cámara",
-    "description": "手机考试zh.json"
-  },
-  "cameraMonitorTip1": {
-    "message": "Si la vigilancia por cámara está activada, el sistema detectará y grabará los comportamientos sospechosos de los examinados, como abandonar el asiento, enfocar los ojos de forma prolongada o hablar con otras personas.",
-    "description": "手机考试zh.json"
-  },
-  "cameraMonitorTip2": {
-    "message": "Antes de comenzar el examen, se recomienda fijar el teléfono móvil, ajustar el ángulo de la cámara y la postura de sentado, y mantenerlo estable durante el examen.",
-    "description": "手机考试zh.json"
-  },
-  "leaveSeat": {
-    "message": "Deja tu asiento",
-    "description": "手机考试zh.json"
-  },
-  "manualRefresh": {
-    "message": "Carga manual",
     "description": "手机考试zh.json"
   }
 }

@@ -5939,8 +5939,32 @@
     "message": "课程目标内容不能为空。",
     "description": "2.0 course.js"
   },
+  "obeSaveTips2": {
+    "message": "课程目标不能超过1000字符。",
+    "description": "2.0 course.js"
+  },
   "obeSaveTips3": {
     "message": "达成度目标值不能为空。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips4": {
+    "message": "达成度目标值应为0-1的数字，可保留两位小数。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips5": {
+    "message": "考核环节名称不能为空。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips6": {
+    "message": "考核环节名称不能超过50字符。",
+    "description": "2.0 course.js"
+  },
+  "obeSaveTips7": {
+    "message": "各成绩项权重总和不能超过100%。",
+    "description": "2.0 course.js"
+  },
+  "obeClearTips": {
+    "message": "清除课程目标，将同步清除已设置的所有评价规则和已导入的数据，请务必谨慎操作。确定清除吗？",
     "description": "2.0 course.js"
   },
   "obeNullTips": {
@@ -5991,6 +6015,14 @@
     "message": "目标",
     "description": "2.0 course.js"
   },
+  "obeRulesTips": {
+    "message": "设置好课程目标及成绩考核比例后，在这里可以将课件和各类教学活动与课程目标相关联。未关联课程目标和考核环节的数据，将不纳入达成度统计。",
+    "description": "2.0 course.js"
+  },
+  "obeTextbookTips1": {
+    "message": "课件由课程管理员统一设置评价规则。（仅支持优学院建课工具发布的课件）",
+    "description": "2.0 course.js"
+  },
   "textbookNullTips": {
     "message": "暂无课件",
     "description": "2.0 course.js"
@@ -5999,8 +6031,16 @@
     "message": "在线教学活动",
     "description": "2.0 course.js"
   },
+  "activityTips1": {
+    "message": "可纳入目标达成度统计的活动，暂时仅包括：作业、考试、讨论。在线教学活动可由课程管理员或各班级教师设置评价规则。",
+    "description": "2.0 course.js"
+  },
   "activityTips2": {
     "message": "暂未发布活动",
+    "description": "2.0 course.js"
+  },
+  "activityTips3": {
+    "message": "没有搜索到相应的活动",
     "description": "2.0 course.js"
   },
   "associatedGoal": {
@@ -6031,6 +6071,10 @@
     "message": "成绩按百分制显示",
     "description": "2.0 course.js"
   },
+  "obeStatisticsNullTips": {
+    "message": "先设置课程目标和评价规则，才能统计目标达成度",
+    "description": "2.0 course.js"
+  },
   "chapter": {
     "message": "章节",
     "description": "2.0 course.js"
@@ -6043,8 +6087,36 @@
     "message": "满分",
     "description": "2.0 course.js"
   },
+  "obeOwnerLink": {
+    "message": "所属考核环节",
+    "description": "2.0 course.js"
+  },
+  "moreClassNum": {
+    "message": "等{n}个班级",
+    "description": "2.0 course.js"
+  },
+  "obePaperTips": {
+    "message": "如有多套试卷，须为每套试卷关联目标",
+    "description": "2.0 course.js"
+  },
   "batchSetting": {
     "message": "批量设置",
+    "description": "2.0 course.js"
+  },
+  "questionUnit": {
+    "message": "题",
+    "description": "2.0 course.js"
+  },
+  "associate": {
+    "message": "关联",
+    "description": "2.0 course.js"
+  },
+  "question": {
+    "message": "题目",
+    "description": "2.0 course.js"
+  },
+  "linkNullTips": {
+    "message": "请先选择所属考核环节",
     "description": "2.0 course.js"
   },
   "obeNullTips2": {
@@ -6071,6 +6143,18 @@
     "message": "数据更新时间：",
     "description": "2.0 course.js"
   },
+  "tipPedding": {
+    "message": "达成度统计的计算量较大，耗时较长，系统将在后台统计完成后更新数据，请稍后再查看新的统计数据",
+    "description": "2.0 course.js"
+  },
+  "tipFailling": {
+    "message": "上次统计任务还在处理中，请稍后再查看。",
+    "description": "2.0 course.js"
+  },
+  "statisticsTopTiP": {
+    "message": "每次修改课程目标或评价规则后，需手动刷新数据。数据统计时间可能较长，请耐心等待。",
+    "description": "2.0 course.js"
+  },
   "developmentTips": {
     "message": "功能开发中，敬请期待",
     "description": "2.0 course.js"
@@ -6089,6 +6173,10 @@
   },
   "offlineActivities": {
     "message": "线下教学活动",
+    "description": "2.0 course.js"
+  },
+  "activityTips4": {
+    "message": "线下考试等活动，可以按照模板将成绩数据导入系统中。线下活动由课程管理员统一添加和导入。",
     "description": "2.0 course.js"
   },
   "templeteDodnload": {
@@ -6115,20 +6203,88 @@
     "message": "未导入数据",
     "description": "2.0 course.js"
   },
+  "activityTipsMax10": {
+    "message": "最多添加10个活动。",
+    "description": "2.0 course.js"
+  },
+  "activityNameNullTips": {
+    "message": "活动名称不能空。",
+    "description": "2.0 course.js"
+  },
+  "activityNameLengthTips": {
+    "message": "请输入1~200字符",
+    "description": "2.0 course.js"
+  },
+  "offlineActivityDeleteTips": {
+    "message": "删除活动，将同时删除已导入的成绩数据。确定删除吗？",
+    "description": "2.0 course.js"
+  },
+  "importOverTips": {
+    "message": "重新导入将覆盖上次导入的数据，确定重新导入吗？",
+    "description": "2.0 course.js"
+  },
+  "offlineActivityGrade": {
+    "message": "线下活动成绩",
+    "description": "2.0 course.js"
+  },
   "fullPoints2": {
     "message": "满分：",
+    "description": "2.0 course.js"
+  },
+  "dataImportedTimeTips": {
+    "message": "数据导入时间：",
     "description": "2.0 course.js"
   },
   "randomQuestion": {
     "message": "随机抽题",
     "description": "2.0 course.js"
   },
+  "obeNullTips3": {
+    "message": "先设置课程目标和评价规则，才能查看分析报告",
+    "description": "2.0 course.js"
+  },
   "exportReport": {
     "message": "导出报告",
     "description": "2.0 course.js"
   },
+  "obeAnalysisTips1": {
+    "message": "图表按照最新的统计数据生成",
+    "description": "2.0 course.js"
+  },
   "obeAnalysisTips2": {
     "message": "课程目标达成概况",
+    "description": "2.0 course.js"
+  },
+  "obeAnalysisTips3": {
+    "message": "单项达成度分析",
+    "description": "2.0 course.js"
+  },
+  "goalItemCompletion": {
+    "message": "课程目标{n}达成度",
+    "description": "2.0 course.js"
+  },
+  "goalDelTips": {
+    "message": "关联目标已被删除",
+    "description": "2.0 course.js"
+  },
+  "fullScoreIllegalTips": {
+    "message": "讨论的满分值应为0-100的整数。",
+    "description": "2.0 course.js"
+  },
+  "obeOfflineExportTemp": {
+    "message": "OBE线下活动成绩导入模板",
+    "description": "2.0 course.js"
+  },
+  "obeRandomTips": {
+    "message": "本次考试为随机抽题考试，请按照试卷结构，为每道题目关联课程目标",
+    "description": "2.0 course.js"
+  },
+  "obeTotalCompletionTips": {
+    "message": "课程目标总体达成度",
+    "description": "2.0 course.js"
+  },
+  "obeStuCompletionTips": {
+    "message": "学生达标率",
     "description": "2.0 course.js"
   },
   "topicNumberOf": {
@@ -6328,7 +6484,7 @@
     "description": "2.0 course.js"
   },
   "descTip_new2": {
-    "message": "可在腾讯会议下载回放、导出数据。优学院可保留腾讯会议录制完成的回放。",
+    "message": "腾讯会议不提供回放与统计数据，若您需要回放文件，可在腾讯会议下载。",
     "description": "2.0 course.js"
   },
   "descTip_new3": {
@@ -6368,7 +6524,7 @@
     "description": "2.0 course.js"
   },
   "polyvCheckLiveTip": {
-    "message": "直播回放链接将保留2年。回放视频文件180天内可下载",
+    "message": "直播回放链接将保留2年。回放视频文件180天内可下载。",
     "description": "2.0 course.js"
   },
   "residueDowFate": {
@@ -6376,11 +6532,11 @@
     "description": "2.0 course.js"
   },
   "tipNote1": {
-    "message": " 注：班课直播结束后30分钟后可查看回放。腾讯会议若开启云录制，录制完成后可查看回放。",
+    "message": "注：班课直播结束后30分钟后可查看回放。腾讯会议不支持查看回放，应到人数与观看人数统计",
     "description": "2.0 course.js"
   },
   "tipNote2": {
-    "message": "注：腾讯会议若开启云录制，录制完成后可查看回放。",
+    "message": "注：腾讯会议不支持查看回放，应到人数与观看人数统计",
     "description": "2.0 course.js"
   },
   "infuse": {
@@ -6605,98 +6761,6 @@
   },
   "exportSendTip": {
     "message": "数据生成中，稍后发送至邮箱。",
-    "description": "2.0 course.js"
-  },
-  "classificationAttributes": {
-    "message": "课程属性分类",
-    "description": "2.0 course.js"
-  },
-  "transcribe": {
-    "message": "录制",
-    "description": "2.0 course.js"
-  },
-  "createdhint1": {
-    "message": "若需回放，请开启云录制，并确保腾讯会议录制空间充足。录制的回放会保存至优学院，并保留180天。您可以在腾讯会议中下载保存后，删除非必要的录制，以节省录制空间。",
-    "description": "2.0 course.js"
-  },
-  "teacherInfuse": {
-    "message": "注：回放视频已保留至优学院，在腾讯会议中删除录制文件不影响回放的正常观看。我们将为您保留180天，到期自动清理。",
-    "description": "2.0 course.js"
-  },
-  "teacherBackLive": {
-    "message": "回放视频",
-    "description": "2.0 course.js"
-  },
-  "teacherBackLiveStu": {
-    "message": "回放保留180天，请及时查看。",
-    "description": "2.0 course.js"
-  },
-  "teacherBackLiveTea": {
-    "message": "注：回放视频已保存到优学院，可保留180天",
-    "description": "2.0 course.js"
-  },
-  "pastDue": {
-    "message": "回放已过期",
-    "description": "2.0 course.js"
-  },
-  "getLivedata": {
-    "message": "数据统计中 ",
-    "description": "2.0 course.js"
-  },
-  "NoPlayCheck": {
-    "message": "无回放",
-    "description": "2.0 course.js"
-  },
-  "courseCode": {
-    "message": "课程代码",
-    "description": "2.0 course.js"
-  },
-  "settingValidateTips14": {
-    "message": "课程编码名称应为2~64个字符！",
-    "description": "2.0 course.js"
-  },
-  "noCourseCode": {
-    "message": "课程代码尚未设置。完成课程代码设置后，在进行成绩同步",
-    "description": "2.0 course.js"
-  },
-  "CourseSyncFail": {
-    "message": "成绩同步到SIS失败, 请稍后尝试",
-    "description": "2.0 course.js"
-  },
-  "CourseSyncSuccess": {
-    "message": "成绩已同步到SIS",
-    "description": "2.0 course.js"
-  },
-  "CourseSummary": {
-    "message": "正在汇总中...",
-    "description": "2.0 course.js"
-  },
-  "terms": {
-    "message": "学期",
-    "description": "2.0 course.js"
-  },
-  "description": {
-    "message": "描述",
-    "description": "2.0 course.js"
-  },
-  "CourseUpdateTime": {
-    "message": "更新时间",
-    "description": "2.0 course.js"
-  },
-  "ServerInternalError": {
-    "message": "服务器内部错误",
-    "description": "2.0 course.js"
-  },
-  "ErrorLog": {
-    "message": "错误日志",
-    "description": "2.0 course.js"
-  },
-  "SyncSIS": {
-    "message": "同步到SIS",
-    "description": "2.0 course.js"
-  },
-  "GradSync": {
-    "message": "成绩同步",
     "description": "2.0 course.js"
   }
 }
