@@ -216,7 +216,7 @@
     "description": "smart Class"
   },
   "classroom.classNames": {
-    "message": "La clase de la clase, como el nombre, etc.",
+    "message": "{name} y otras clases {count}",
     "description": "smart Class"
   },
   "classroom.living": {
@@ -460,7 +460,7 @@
     "description": "smart Class"
   },
   "login.freezeTip": {
-    "message": "El sistema ha detectado que esta cuenta ha hecho trampa en el curso de {nombres}. El sistema ha congelado automáticamente esta cuenta. Póngase en contacto con el maestro o la plataforma para el procesamiento",
+    "message": "El sistema ha detectado que esta cuenta ha hecho trampa en el curso de {names}. El sistema ha congelado automáticamente esta cuenta. Póngase en contacto con el maestro o la plataforma para el procesamiento",
     "description": "smart Class"
   },
   "login.overErrorTimes": {
@@ -952,7 +952,7 @@
     "description": "smart-classroom 项目"
   },
   "score.objectNums": {
-    "message": "Revisar items",
+    "message": "Evaluado por {num} en total",
     "description": "smart-classroom 项目"
   },
   "score.totalScore": {
@@ -1360,7 +1360,7 @@
     "description": "smart-classroom 项目"
   },
   "student.totalFew": {
-    "message": "{Num} en total\n",
+    "message": "{num} en total\n",
     "description": "smart-classroom 项目"
   },
   "student.combined": {
@@ -1500,7 +1500,7 @@
     "description": "smart-classroom 项目"
   },
   "screen.classActivityNum": {
-    "message": "{Num} actividades en el aula actual",
+    "message": "{num} actividades en el aula actual",
     "description": "smart Class"
   },
   "screen.start": {
@@ -1628,7 +1628,7 @@
     "description": "smart Class"
   },
   "screen.afterClass": {
-    "message": "Inicia {actividad} después de la clase",
+    "message": "Inicia {activity} después de la clase",
     "description": "smart Class"
   },
   "screen.underDevelopment": {
@@ -2231,8 +2231,624 @@
     "message": "Bienvenido al Aula Inteligente de ULearning.",
     "description": "smart-classroom 项目"
   },
+  "loginCode.msg9": {
+    "message": "Utilice la aplicación ulearning {msg} para escanear el código QR para iniciar sesión",
+    "description": "smart-classroom 项目"
+  },
+  "candidates.info": {
+    "message": "Detalles",
+    "description": "smart-classroom 项目"
+  },
+  "candidates.instructions": {
+    "message": "Tema Descripción",
+    "description": "smart-classroom 项目"
+  },
+  "candidates.attachment": {
+    "message": "{num} archivos adjuntos: vaya a la página de inicio del curso> discusiones para verificar los archivos adjuntos",
+    "description": "smart-classroom 项目"
+  },
+  "candidates.notChoose": {
+    "message": "El número de estudiantes no seleccionados es insuficiente (el número restante: {num}).Restablezca el número o cree una nueva actividad aleatoria de selección.",
+    "description": "smart-classroom 项目"
+  },
+  "candidates.numberRandom": {
+    "message": "El número de estudiantes para elegir",
+    "description": "smart-classroom 项目"
+  },
+  "candidates.studentid": {
+    "message": "Identificación del Estudiante",
+    "description": "smart-classroom 项目"
+  },
+  "candidates.notPickMember": {
+    "message": "¡No más estudiantes disponibles!Cree una nueva actividad aleatoria de selección.",
+    "description": "smart-classroom 项目"
+  },
+  "candidates.msg1": {
+    "message": "Hasta 10 estudiantes",
+    "description": "smart-classroom 项目"
+  },
+  "candidates.msg2": {
+    "message": "El título no puede exceder los 200 caracteres",
+    "description": "smart-classroom 项目"
+  },
+  "candidates.record": {
+    "message": "Registros",
+    "description": "smart-classroom 项目"
+  },
   "candidates.neverRefresh": {
     "message": "No actualizar",
+    "description": "smart-classroom 项目"
+  },
+  "common.loading": {
+    "message": "Cargando...",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.interactionsDesc2": {
+    "message": "El número de interacciones = la suma del número de participaciones de todos los estudiantes en las actividades (excluyendo la llamada de la lista) en el aula",
+    "description": "smart-classroom 项目"
+  },
+  "login.userAgreement": {
+    "message": "Acuerdo del Usuario",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg1": {
+    "message": "Solución de problemas",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg2": {
+    "message": "La red",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg3": {
+    "message": "Comprobación...",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg4": {
+    "message": "Red actual",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg5": {
+    "message": "Cableado",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg6": {
+    "message": "Red actual: Wi-Fi.Para garantizar la claridad y la estabilidad de la transmisión, utilice una red con cable.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg7": {
+    "message": "IP previamente asignada",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg8": {
+    "message": "IP actual",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg9": {
+    "message": "¡La IP actual no es la misma que la IP preasignada!",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg10": {
+    "message": "Establezca la IP del dispositivo como {ip}.Cuando esté terminado, reinicie la clase U.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg11": {
+    "message": "Ver las instrucciones",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg12": {
+    "message": "Por favor, apague Wi-Fi.Conectarse a redes Wired y Wi-Fi al mismo tiempo causará los errores de IP del dispositivo.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg13": {
+    "message": "Después de hacerlo, reinicie la transmisión de pantalla o la comparación de grupos en el lado del maestro.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg14": {
+    "message": "Certificado",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg15": {
+    "message": "Normal",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg16": {
+    "message": "Venció",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg18": {
+    "message": "Si hay otros problemas, se recomienda apagar y luego comenzar la clase U, y el servicio se reiniciará.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg19": {
+    "message": "¿Qué debo hacer si la pantalla del grupo está fuera de línea o no puede recibir la pantalla de transmisión?",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg20": {
+    "message": "Compruebe si se ejecuta la clase U de la pantalla de grupo",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg21": {
+    "message": "Asegúrese de que se esté ejecutando la clase U de la pantalla de grupo.Cuando la clase U no se enciende o se ejecuta en segundo plano, no se puede recibir la transmisión de la pantalla del maestro.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg22": {
+    "message": "Puede intentar apagar y luego iniciar la clase U de la pantalla de grupo.Intentará volver a conectarse a la pantalla del maestro, y la conexión tomará alrededor de 10 segundos.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg23": {
+    "message": "Ver cómo apagar/iniciar U-Class",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg24": {
+    "message": "La pantalla del maestro intenta finalizar y luego volver a abrir la característica/actividad relevante",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg25": {
+    "message": "Cuando la clase U de la pantalla de grupo se ejecuta normalmente y la pantalla del maestro intenta finalizar y luego volver a abrir una característica/actividad como la transmisión de pantalla, la comparación de grupos, etc., el sistema intentará reconectar la pantalla del grupo.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg26": {
+    "message": "Puede intentar apagar y luego comenzar a Clase U en la pantalla del maestro, y el servicio se reiniciará.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg27": {
+    "message": "Verifique si la dirección de conexión de red/IP de la pantalla de grupo es correcta",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg28": {
+    "message": "Compruebe si la IP actual es la misma que la dirección IP pre-asignada en la pantalla en la esquina inferior izquierda de la pantalla de grupo",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg29": {
+    "message": "Verifique si la conexión de red de la pantalla de grupo es normal",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg30": {
+    "message": "Si aún no puede resolver el problema después de seguir las instrucciones aquí, busque ayuda de sus escuelas que ayude.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg31": {
+    "message": "Si el personal de TI de la escuela determina que el problema no se puede solucionar, comuníquese con nuestro soporte técnico.Click aquí para",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg32": {
+    "message": "Envía un boleto.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg33": {
+    "message": "Haga clic en el enlace de configuración en la esquina inferior derecha",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg34": {
+    "message": "Busque la siguiente ruta en el panel de configuración para ver: Configuración> Configuración avanzada> Red con cable",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg35": {
+    "message": "Primero apagar la red cableada",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg36": {
+    "message": "Establecer la dirección IP",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg37": {
+    "message": "Haga clic en el icono",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg38": {
+    "message": "Volver a la pantalla de inicio",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg39": {
+    "message": "Haga clic en el icono de cierre en la esquina superior derecha para apagar la clase U",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg40": {
+    "message": "Grupo",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg42": {
+    "message": "Enviando ..., por favor espera!",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg43": {
+    "message": "¡Enviado correctamente!",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg44": {
+    "message": "¡Fallo al enviar!",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg45": {
+    "message": "Haga clic en el enlace de configuración en la esquina inferior derecha de la pantalla de inicio.Encuentre la siguiente ruta en el panel de configuración para ver: Configuración> Configuración avanzada> Red con cable.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg46": {
+    "message": "Haga clic en el icono para volver a la pantalla de inicio y luego haga clic en el icono Cerrar en la esquina superior derecha para apagar la clase U.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg47": {
+    "message": "Nota: No se conecte a varias redes al mismo tiempo.Conectarse a redes Wired y Wi-Fi al mismo tiempo causará los errores de IP del dispositivo.",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg48": {
+    "message": "Ruta de configuración: Configuración> Configuración avanzada> Red con cable",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code1": {
+    "message": "No se puede obtener la dirección MAC",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code2": {
+    "message": "No se puede obtener información de hardware",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code3": {
+    "message": "No se pudo verificar la dirección MAC",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code4": {
+    "message": "No se pudo verificar la información del hardware",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code5": {
+    "message": "Tipos de SDK inconsistentes",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code6": {
+    "message": "La autorización ha expirado",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code7": {
+    "message": "Incapaz de analizar la licencia",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code8": {
+    "message": "Otros errores de verificación",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code9": {
+    "message": "La información de la licencia está vacía",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code10": {
+    "message": "Los tipos de plataforma no coinciden (Windows y Android deben coincidir)",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code11": {
+    "message": "ProductID no coincide",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code12": {
+    "message": "El parámetro SDKTYPE ingresado no es válido (ingrese un sdktype válido)",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.photoUpload": {
+    "message": "Toma fotos y sube",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.commonUse": {
+    "message": "Características de uso frecuente",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.moreFn": {
+    "message": "Más características",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.when": {
+    "message": "Tiempo utilizado",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.notation": {
+    "message": "Anotaciones",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.delnotation": {
+    "message": "Eliminar anotaciones",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.submitNumber": {
+    "message": "Presentaciones",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.noInvolved": {
+    "message": "No participó en",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.share": {
+    "message": "Cuota",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.shareSucc": {
+    "message": "¡Compartido con éxito!",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.sharestu": {
+    "message": "Compartir con los estudiantes",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.prompt": {
+    "message": "Alerta",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.screenshots": {
+    "message": "Captura de pantalla",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg1": {
+    "message": "Las características de uso frecuente se muestran en la barra de menú correcta, y puede seleccionar hasta 6.",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg2": {
+    "message": "Puede seleccionar hasta 6 características de uso frecuente",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg3": {
+    "message": "Los estudiantes suben imágenes para la presentación en el aula",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg4": {
+    "message": "Permitir que los estudiantes vean imágenes de otros estudiantes",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg5": {
+    "message": "Compartir con los estudiantes",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg6": {
+    "message": "Comparta con todos los estudiantes en esta sesión y los estudiantes pueden verlo en los registros de actividad del aula",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg7": {
+    "message": "Se están guardando anotaciones ...",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg8": {
+    "message": "Se están eliminando las anotaciones ...",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg9": {
+    "message": "¿Estás seguro de que quieres eliminar las anotaciones?",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg10": {
+    "message": "Comparta la imagen o las anotaciones a todos los estudiantes en la sesión.Los estudiantes pueden ver la imagen o las anotaciones más tarde.",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg11": {
+    "message": "La captura de pantalla se está generando ...",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg12": {
+    "message": "Comparta con los estudiantes después de que comience la sesión",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg13": {
+    "message": "El título no puede exceder los 200 caracteres",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg14": {
+    "message": "Después de la eliminación, las imágenes presentadas por los estudiantes no pueden ser restauradas.Los estudiantes necesitan volver a enviarlos.¿Estás seguro de que desea eliminar?Los estudiantes no podrán volver a sumar si la actividad ha terminado.",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg15": {
+    "message": "¿Estás seguro de que quieres terminar esta actividad?",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg16": {
+    "message": "Todavía no hay presentaciones",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg17": {
+    "message": "¿Estás seguro de que quieres terminar con esta toma de fotos y subir la actividad?",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg18": {
+    "message": "Captura de pantalla falló",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.msg19": {
+    "message": "Tiempo de conexión agotado",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.tencentMeeting": {
+    "message": "Reunión de VOOV",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.createMeeting": {
+    "message": "Crear reunión",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.addMeeting": {
+    "message": "Unirse a la reunión",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg1": {
+    "message": "Encienda la grabación en la nube automáticamente",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg2": {
+    "message": "La versión gratuita de la reunión de VOOV ofrece almacenamiento en la nube de 1 GB y puede grabar la reunión durante alrededor de 3 horas.Las grabaciones se almacenan en UlArming y se conservan durante 180 días.Puede descargar y luego eliminar las grabaciones para guardar su espacio de almacenamiento en la nube.",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg3": {
+    "message": "La reunión está en progreso ...",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg4": {
+    "message": "Nombre de la sesión:",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg5": {
+    "message": "Hora de inicio:",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg6": {
+    "message": "ID de reunión:",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg7": {
+    "message": "La función de reunión es proporcionada por la reunión de VOOV.Para el primer uso, debe iniciar sesión en su cuenta personal de reunión de VOOV para autorizar.Si necesita desautorizar, puede hacerlo en VOOV Meeting Client.",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.instructions": {
+    "message": "Instrucciones",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.authorization": {
+    "message": "Ir a autorizar",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.saveClass": {
+    "message": "Guardar en el aula",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.openFile": {
+    "message": "Abra archivos en el aula",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.processing": {
+    "message": "Procesando .. por favor espere.",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.youNotLogin": {
+    "message": "No ha iniciado sesión. Inicie sesión y luego guarde en el aula.",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.scanAPP": {
+    "message": "Utilice la aplicación UlArming para escanear",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.designation": {
+    "message": "Nombre",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.selectClass": {
+    "message": "SELECCIÓN SESIÓN",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.exportImages": {
+    "message": "Exportación de imágenes",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.open": {
+    "message": "Abierto",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.nameNotNull": {
+    "message": "El nombre no puede estar vacío",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.selectCourse": {
+    "message": "Seleccione el curso",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.selectClassroom": {
+    "message": "Seleccione la sesión",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.msg1": {
+    "message": "Después de guardar, los maestros y los estudiantes pueden ver las capturas de pantalla de la pizarra en la pantalla del aula.Los maestros también pueden descargar y editar las capturas de pantalla de la pizarra desde otra pantalla del aula.",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.msg2": {
+    "message": "Ha guardado con éxito la captura de pantalla de la pizarra y el archivo de origen en {name}.Los estudiantes pueden ver la captura de pantalla de la pizarra en la pantalla del aula, y puede descargar y editar la captura de pantalla de la pizarra desde otra pantalla de clase.",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.msg3": {
+    "message": "Después de guardar, los maestros y los estudiantes pueden ver las capturas de pantalla de la pizarra en la pantalla del aula.Los maestros también pueden descargar y editar las capturas de pantalla de la pizarra desde otra pantalla del aula.",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.msg4": {
+    "message": "Ha guardado con éxito la pizarra en {name} y ahora puede verlo en archivos de aula",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.noData": {
+    "message": "No se encontraron archivos de pizarra guardados",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.saveErr": {
+    "message": "No se pudo guardar, no se puede conectar al servidor.",
+    "description": "smart-classroom 项目"
+  },
+  "remark.allCourse": {
+    "message": "Todos los cursos",
+    "description": "smart-classroom 项目"
+  },
+  "remark.remark": {
+    "message": "El comentario puede ser hasta 200 caracteres",
+    "description": "smart-classroom 项目"
+  },
+  "custom.custom": {
+    "message": "Personalizar",
+    "description": "smart-classroom 项目"
+  },
+  "custom.pleaseScore": {
+    "message": "Por favor ingrese el puntaje",
+    "description": "smart-classroom 项目"
+  },
+  "custom.qrMsg": {
+    "message": "Utilice la aplicación UlArming para escanear el código QR para compartir",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.duration": {
+    "message": "Duración",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.unlimited": {
+    "message": "Sin límite",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.minute": {
+    "message": "minutos",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.again": {
+    "message": "¿Estás seguro de que quieres reiniciar estas discusiones？",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.end": {
+    "message": "¿Estás seguro de que quieres terminar estas discusiones？",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.successStart": {
+    "message": "¡Comenzó con éxito!",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.successEnd": {
+    "message": "Terminó con éxito!",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.failStart": {
+    "message": "¡Error al iniciar!",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.failEnd": {
+    "message": "¡No terminó!",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.enterDuration": {
+    "message": "Por favor ingrese una duración",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code13": {
+    "message": "La dirección MAC no coincide",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code14": {
+    "message": "Ya en uso",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.code15": {
+    "message": "Error desconocido",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.port": {
+    "message": "Puerto",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.portError": {
+    "message": "El puerto ya está en uso.Póngase en contacto con nosotros para reconfigurar.",
     "description": "smart-classroom 项目"
   }
 }
