@@ -3662,5 +3662,165 @@
   "examTypeTips": {
     "message": "Utilice {type} para realizar el examen",
     "description": "2.0 exam.js"
+  },
+  "examSignIn": {
+    "message": "Check-in del examen",
+    "description": "2.0 exam.js"
+  },
+  "enableSignIn": {
+    "message": "Activar el código de inicio de sesión del examen",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInTip": {
+    "message": "Aplicable solo a exámenes de teléfonos móviles, active este elemento, los candidatos pueden ingresar las respuestas del examen después de escanear el código para iniciar sesión",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInIntro": {
+    "message": "El registro de exámenes es adecuado para escenarios de exámenes centralizados en el aula y se puede usar para evitar sustituciones fuera del sitio. {br} abre la prueba de check-in y los candidatos pueden ingresar al examen después de escanear el código para iniciar sesión. Antes del inicio del examen, los profesores pueden usar sus teléfonos móviles para ver y presentar el código de registro en la página de monitoreo del examen de la aplicación ULearning.",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInNote": {
+    "message": "Nota:",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInDesc": {
+    "message": "1. La hora de inicio del check-in está sujeta a la hora en que el profesor presenta el código de inicio de sesión, y no está limitada por la hora de inicio de la prueba; Después de que se hayan completado todos los exámenes, ya no se permitirá el check-in. {br} 2. La prueba de check-in ha sido abierta, y se recomienda reservar el tiempo requerido para el check-in en el lugar al organizar la sesión de examen para evitar confusiones. {br1} 3. Si hay múltiples oportunidades para responder a las preguntas de la prueba, solo necesita registrarse una vez. {br2} 4. Los candidatos solo pueden usar el dispositivo que han registrado para responder a las preguntas del examen después del check-in. Si encuentra circunstancias especiales que requieren que reemplace su equipo, puede solicitar al supervisor un código de verificación para ingresar.",
+    "description": "2.0 exam.js"
+  },
+  "signInCode": {
+    "message": "Código de inicio de sesión del examen",
+    "description": "2.0 exam.js"
+  },
+  "facePhotoVerify": {
+    "message": "Revisión de fotos de la cara",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTitle": {
+    "message": "Estación de monitoreo móvil",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeIntro": {
+    "message": "El código de registro de la prueba es un código QR dinámico, use la aplicación [ULearning] para ingresar a la vista de prueba, o use su teléfono móvil para escanear el código QR a continuación e ingrese la estación de monitoreo móvil para ver.",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTip": {
+    "message": "Consejo: Los profesores que no forman parte del equipo del curso también pueden usar su navegador móvil para escanear este código QR para ingresar a la estación de monitoreo móvil si necesitan participar en el supervisor. Al ingresar usando su navegador móvil, deberá ingresar un código de verificación de respaldo.",
+    "description": "2.0 exam.js"
+  },
+  "refresh": {
+    "message": "Actualizar",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeDesc": {
+    "message": "Los candidatos que no pueden ingresar a la prueba debido a circunstancias especiales pueden usar este código de verificación para ingresar, que incluye: {br}- Examen con monitoreo de dispositivo / IP activado, los candidatos deben cambiar su dispositivo o IP a mitad de camino. {br1}- El examen para el reconocimiento facial estaba activado y los candidatos no podían pasar la verificación facial",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeTip": {
+    "message": "El código de verificación es válido dentro de {minute}, actualícelo y vuelva a obtenerlo después de la invalidación.",
+    "description": "2.0 exam.js"
+  },
+  "signedIn": {
+    "message": "Registrado",
+    "description": "2.0 exam.js"
+  },
+  "notSignIn": {
+    "message": "No registrado",
+    "description": "2.0 exam.js"
+  },
+  "answerTimes1": {
+    "message": "{n} Respuesta",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration1": {
+    "message": "Transcurrido: {contar}",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcel": {
+    "message": "Exportar la tabla de check-in",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcelDesc": {
+    "message": "Con esta función, puede exportar registros de protección para las clases y clases seleccionadas actualmente.",
+    "description": "2.0 exam.js"
+  },
+  "exportInfo": {
+    "message": "Información de exportación:",
+    "description": "2.0 exam.js"
+  },
+  "courseClass": {
+    "message": "Secciones del curso",
+    "description": "2.0 exam.js"
+  },
+  "college": {
+    "message": "Colegio",
+    "description": "2.0 exam.js"
+  },
+  "naturalClass": {
+    "message": "Clase Ejecutiva/Clase naturaleza",
+    "description": "2.0 exam.js"
+  },
+  "exportType": {
+    "message": "Exportación por:",
+    "description": "2.0 exam.js"
+  },
+  "exportType1": {
+    "message": "Exportar un archivo de Excel con todas las clases en una hoja de cálculo",
+    "description": "2.0 exam.js"
+  },
+  "exportType2": {
+    "message": "Exportar un archivo de Excel con una hoja de cálculo por clase",
+    "description": "2.0 exam.js"
+  },
+  "exportType3": {
+    "message": "Exportar un archivo de Excel por clase",
+    "description": "2.0 exam.js"
+  },
+  "startExport": {
+    "message": "Iniciar la exportación",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmit": {
+    "message": "Finalización anticipada",
+    "description": "2.0 exam.js"
+  },
+  "answerNums": {
+    "message": "Número de personas que responden: {num}",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip1": {
+    "message": "Usando esta función, la sesión actual terminará temprano y todos los estudiantes que estén respondiendo las preguntas se verán obligados a recoger los trabajos. Puede haber un retraso de aproximadamente 10 segundos a 1 minuto para el devanado. Esta operación no se puede retirar y debe usarse con precaución.",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip3": {
+    "message": "¿Estás seguro de que cierras con anticipación?",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip4": {
+    "message": "Los candidatos están respondiendo preguntas, y utilizando esta función, los exámenes del candidato se reciclarán a la fuerza. Puede haber un retraso de aproximadamente 10 segundos a 1 minuto para el devanado. Esta operación no se puede retirar y debe usarse con precaución.",
+    "description": "2.0 exam.js"
+  },
+  "answerUsedTime": {
+    "message": "Tiempo utilizado",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips11": {
+    "message": "Los profesores recogen los papeles con antelación",
+    "description": "2.0 exam.js"
+  },
+  "submitSuccess": {
+    "message": "La solicitud se envió correctamente",
+    "description": "2.0 exam.js"
+  },
+  "submitFail": {
+    "message": "Error previo al viento",
+    "description": "2.0 exam.js"
+  },
+  "student": {
+    "message": "Examinando:",
+    "description": "2.0 exam.js"
+  },
+  "submitStatus": {
+    "message": "Rebobinar",
+    "description": "2.0 exam.js"
   }
 }
