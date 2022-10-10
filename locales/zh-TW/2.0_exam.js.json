@@ -3662,5 +3662,165 @@
   "examTypeTips": {
     "message": "請使用{type}參加考試",
     "description": "2.0 exam.js"
+  },
+  "examSignIn": {
+    "message": "考試簽到",
+    "description": "2.0 exam.js"
+  },
+  "enableSignIn": {
+    "message": "開啟考試簽到碼",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInTip": {
+    "message": "僅適用於手機考試，開啟此項，考生掃碼簽到後才能進入考試答題",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInIntro": {
+    "message": "考試簽到適用於教室集中考試場景，可用於防止場外替考。 {br}開啟了簽到的考試，考生掃碼簽到後才能進入考試。 {br1}考試開始前，教師可以使用手機，在優學院APP的考試監控頁面查看和出示簽到碼。",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInNote": {
+    "message": "註意：",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInDesc": {
+    "message": "1. 簽到開始時間，以教師出示簽到碼的時間為準，不受考試開始時間限制; 考試場次全部結束后，不再允許簽到。 {br} 2. 開啟了簽到的考試，建議在安排考試場次時，預留出現場簽到所需時間，避免造成混亂。 {br1} 3. 考試如果有多次答題機會，僅需要簽到1次。 {br2} 4. 考生簽到后，只能使用簽到的設備進入考試答題。 如果遇到特殊情況需要更換設備，可以向監考教師索取驗證碼進入。",
+    "description": "2.0 exam.js"
+  },
+  "signInCode": {
+    "message": "考試簽到碼",
+    "description": "2.0 exam.js"
+  },
+  "facePhotoVerify": {
+    "message": "人臉照片審核",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTitle": {
+    "message": "移動監控台",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeIntro": {
+    "message": "考試簽到碼為動態二維碼，請使用【優學院2.0】APP進入考試查看，或使用手機掃描下方二維碼，進入移動監控台查看。",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTip": {
+    "message": "提示：非課程團隊的教師，如果需要參與監考，也可以使用手機瀏覽器掃描此二維碼，進入移動監控台。 使用手機瀏覽器進入時，需要輸入備用驗證碼。",
+    "description": "2.0 exam.js"
+  },
+  "refresh": {
+    "message": "刷新",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeDesc": {
+    "message": "考生遇特殊情況無法進入考試時，可憑此驗證碼進入，包括：{br}- 開啟了設備 / IP監控的考試，考生中途需要更換設備或 IP。 {br1}- 開啟了人臉識別的考試，考生無法通過人臉驗證",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeTip": {
+    "message": "驗證碼{minute}內有效，失效後請刷新重新獲取。",
+    "description": "2.0 exam.js"
+  },
+  "signedIn": {
+    "message": "已簽到",
+    "description": "2.0 exam.js"
+  },
+  "notSignIn": {
+    "message": "未簽到",
+    "description": "2.0 exam.js"
+  },
+  "answerTimes1": {
+    "message": "第{n}次答題",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration1": {
+    "message": "用時：{count}",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcel": {
+    "message": "匯出簽到表",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcelDesc": {
+    "message": "使用此功能，可以匯出當前所選場次和班級的簽到記錄。",
+    "description": "2.0 exam.js"
+  },
+  "exportInfo": {
+    "message": "匯出內容：",
+    "description": "2.0 exam.js"
+  },
+  "courseClass": {
+    "message": "課程班級",
+    "description": "2.0 exam.js"
+  },
+  "college": {
+    "message": "學院",
+    "description": "2.0 exam.js"
+  },
+  "naturalClass": {
+    "message": "行政班級/自然班級",
+    "description": "2.0 exam.js"
+  },
+  "exportType": {
+    "message": "匯出方式：",
+    "description": "2.0 exam.js"
+  },
+  "exportType1": {
+    "message": "匯出一個Excel檔，且所有班級在一個工作表中",
+    "description": "2.0 exam.js"
+  },
+  "exportType2": {
+    "message": "匯出一個Excel檔，且每個班級一個工作表",
+    "description": "2.0 exam.js"
+  },
+  "exportType3": {
+    "message": "每個班級導出一個Excel檔",
+    "description": "2.0 exam.js"
+  },
+  "startExport": {
+    "message": "開始匯出",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmit": {
+    "message": "提前收卷",
+    "description": "2.0 exam.js"
+  },
+  "answerNums": {
+    "message": "正在答題人數：{num}",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip1": {
+    "message": "使用此功能，將提前結束當前場次，並對所有正在答題的學生強制收卷。 收卷可能會有10秒~1分鐘左右的延遲。 此操作不可撤回，請謹慎使用。",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip3": {
+    "message": "確定提前收卷嗎？",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip4": {
+    "message": "考生正在答題，使用此功能，將強制回收考生試卷。 收卷可能會有10秒~1分鐘左右的延遲。 此操作不可撤回，請謹慎使用。",
+    "description": "2.0 exam.js"
+  },
+  "answerUsedTime": {
+    "message": "已用答題時長",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips11": {
+    "message": "教師提前收卷",
+    "description": "2.0 exam.js"
+  },
+  "submitSuccess": {
+    "message": "請求發送成功",
+    "description": "2.0 exam.js"
+  },
+  "submitFail": {
+    "message": "提前收卷失敗",
+    "description": "2.0 exam.js"
+  },
+  "student": {
+    "message": "考生：",
+    "description": "2.0 exam.js"
+  },
+  "submitStatus": {
+    "message": "收卷中",
+    "description": "2.0 exam.js"
   }
 }
