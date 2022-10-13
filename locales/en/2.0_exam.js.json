@@ -1124,7 +1124,7 @@
     "description": "2.0 exam.js"
   },
   "standbyVerificationCode": {
-    "message": "Alternative verification code",
+    "message": "Spare verification code",
     "description": "2.0 exam.js"
   },
   "detailTips1": {
@@ -1720,7 +1720,7 @@
     "description": "2.0 exam.js"
   },
   "viewStandbyVerificationCode": {
-    "message": "View the alternate verification code",
+    "message": "View the verification code",
     "description": "2.0 exam.js"
   },
   "monitorTips1": {
@@ -3661,6 +3661,166 @@
   },
   "examTypeTips": {
     "message": "Please take the exam via {type}",
+    "description": "2.0 exam.js"
+  },
+  "examSignIn": {
+    "message": "Exam sign-in",
+    "description": "2.0 exam.js"
+  },
+  "enableSignIn": {
+    "message": "Enable exam sign-in",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInTip": {
+    "message": "For mobile exams only. When enabled, examinees can only enter the exam after signing in by scanning the sign-in code.",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInIntro": {
+    "message": "Exam sign-in is applicable to exams conducted in classrooms or other designated places. {br}When exam sign-in is enabled, examinees can only enter the exam after signing in by scanning the sign-in code. {br1}Before the exam starts, teachers can view and present the sign-in code  by ULearning APP.",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInNote": {
+    "message": "Note:",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInDesc": {
+    "message": "1. The sign-in starts when the instructor presents the sign-in code and is not limited by the exam start time. Sign-in is no longer allowed after all exam sessions are ended. {br}2. If sign-in is enabled, it is recommended that the time required for sign-in be set aside when scheduling the sessions. {br1}3. Exams allow multiple attemps will only require sign-in once. {br2}4. After signing in, examinees can only use the equipment they signed in with to enter the exam.",
+    "description": "2.0 exam.js"
+  },
+  "signInCode": {
+    "message": "Exam sign-in code",
+    "description": "2.0 exam.js"
+  },
+  "facePhotoVerify": {
+    "message": "Facial photo review",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTitle": {
+    "message": "Mobile Monitor",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeIntro": {
+    "message": "The sign-in code is a dynamic QR code, please check it in the ULearning APP, or you can scan the QR code below and enter the mobile monitor to view.",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTip": {
+    "message": "Tips: Faculty who are not part of the course team can also scan this QR code to access the mobile monitor. When using the mobile browser to access, you need to enter the spare verification code.",
+    "description": "2.0 exam.js"
+  },
+  "refresh": {
+    "message": "Refresh",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeDesc": {
+    "message": "This verification code can be used to enter the exam when examinees are unable to enter the exam under special circumstances, including: {br}- exams with device/IP monitoring enabled, where examinees need to change devices or IPs  during the exam. {br1}- exams with face recognition enabled, where examinees cannot pass face verification.",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeTip": {
+    "message": "The verification code is valid within {minute}, please refresh to get it again after it expires.",
+    "description": "2.0 exam.js"
+  },
+  "signedIn": {
+    "message": "Signed in",
+    "description": "2.0 exam.js"
+  },
+  "notSignIn": {
+    "message": "Unsigned",
+    "description": "2.0 exam.js"
+  },
+  "answerTimes1": {
+    "message": "Attempt {n}  ",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration1": {
+    "message": "Exam Time Used: {count} ",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcel": {
+    "message": "Export the sign-in record",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcelDesc": {
+    "message": "Using this feature, you can export sign-in records for the selected sessions and classes.",
+    "description": "2.0 exam.js"
+  },
+  "exportInfo": {
+    "message": "Export information:",
+    "description": "2.0 exam.js"
+  },
+  "courseClass": {
+    "message": "Course class",
+    "description": "2.0 exam.js"
+  },
+  "college": {
+    "message": "College",
+    "description": "2.0 exam.js"
+  },
+  "naturalClass": {
+    "message": "Executive Class",
+    "description": "2.0 exam.js"
+  },
+  "exportType": {
+    "message": "Export Format: ",
+    "description": "2.0 exam.js"
+  },
+  "exportType1": {
+    "message": "Export an Excel file with all classes in one worksheet.",
+    "description": "2.0 exam.js"
+  },
+  "exportType2": {
+    "message": "Export an Excel file with one worksheet per class.",
+    "description": "2.0 exam.js"
+  },
+  "exportType3": {
+    "message": "Export one Excel file per class.",
+    "description": "2.0 exam.js"
+  },
+  "startExport": {
+    "message": "Start to Export",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmit": {
+    "message": "Early Terminate",
+    "description": "2.0 exam.js"
+  },
+  "answerNums": {
+    "message": "Number of students answering: {num}",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip1": {
+    "message": "Using this function will end the current session early, and all students in the exam will be forced to submit. There may be a delay of about 10 seconds to 1 minute. This operation cannot be undone, so please use it with caution.",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip3": {
+    "message": "Are you sure to terminate early?",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip4": {
+    "message": "The student is answering questions. Using this feature, the student will be forced to submit early. There may be a delay of about 10 seconds to 1 minute. This operation cannot be undone, so please use it with caution.",
+    "description": "2.0 exam.js"
+  },
+  "answerUsedTime": {
+    "message": "Exam time used",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips11": {
+    "message": "Exam submitted involuntarily by the teacher.",
+    "description": "2.0 exam.js"
+  },
+  "submitSuccess": {
+    "message": "The request was sent successfully.",
+    "description": "2.0 exam.js"
+  },
+  "submitFail": {
+    "message": "Operation failed.",
+    "description": "2.0 exam.js"
+  },
+  "student": {
+    "message": "Examinee:",
+    "description": "2.0 exam.js"
+  },
+  "submitStatus": {
+    "message": "Submitting",
     "description": "2.0 exam.js"
   }
 }
