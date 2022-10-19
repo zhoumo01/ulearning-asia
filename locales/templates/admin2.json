@@ -922,5 +922,321 @@
   "settings.sidebarLogo": {
     "message": "Sidebar Logo",
     "description": "新版管理后台 zh.json"
+  },
+  "permission.editSuccessTip": {
+    "message": "特性编辑成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteSuccessTip": {
+    "message": "特性删除成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.changeStatusDesc": {
+    "message": "修改权限组会影响所有与该权限组所关联的角色，确定要修改该权限吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionCreatetSuccess": {
+    "message": "权限组添加成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionEditSuccess": {
+    "message": "权限组编辑成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionDeleteSuccess": {
+    "message": "权限组已删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.saveSuccess": {
+    "message": "保存成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.back": {
+    "message": "返回上一页",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.newAnno": {
+    "message": "创建公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.title": {
+    "message": "公告标题",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.content": {
+    "message": "公告内容",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.upload": {
+    "message": "上传附件",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.successUpload": {
+    "message": "上传文件成功!",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errUpload": {
+    "message": "当前限制选择 {0} 个文件，本次选择了 {1} 个文件，共选择了 {2} 个文件",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.delUpload": {
+    "message": "该操作将删除此项，是否继续？",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.hint": {
+    "message": "提示",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.organizations": {
+    "message": "接收机构的范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.addOrg": {
+    "message": "请选择需要接收该公告的机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.check": {
+    "message": "查看",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.edit": {
+    "message": "编辑",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.range": {
+    "message": "接收人",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Admins": {
+    "message": "所有管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Teachers": {
+    "message": "所有教师",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Students": {
+    "message": "所有学生",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.methods": {
+    "message": "发布方式",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.now": {
+    "message": "立即发布",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.later": {
+    "message": "定时发布",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.pubTime": {
+    "message": "发布时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.selectTime": {
+    "message": "请选择发布时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.moreOptions": {
+    "message": "更多设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.sendEmail": {
+    "message": "同步发送到邮箱",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.isSendEmail": {
+    "message": "是否同步发送到邮箱？",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.sendIntro": {
+    "message": "该通知同步发送到接收者的邮箱中（若无接收者邮箱则不发送）",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.showAnno": {
+    "message": "在页面中显示通知提醒",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.showIntro": {
+    "message": "将消息显示在页面顶部或者弹窗方式显示，达到失效时间后，不再显示",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.showWay": {
+    "message": "显示方式",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.atTop": {
+    "message": "顶部提醒",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.topIntro": {
+    "message": "通知显示在顶部，直到接收者关闭或查看才可消失。",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.atRight": {
+    "message": "右侧弹窗提醒",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.rightIntro": {
+    "message": "通知在右侧显示，10s后会自动消失",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Expiration": {
+    "message": "失效时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.ExpirationIntro": {
+    "message": "超过该时间后，接收者将不会收到以上提醒方式",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.selectExpiration": {
+    "message": "请选择失效时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.publishAnno": {
+    "message": "发布公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.orgRange": {
+    "message": "请选择需通知的机构范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.orgRanges": {
+    "message": "接收机构的范围：",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Organizaiton": {
+    "message": "机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.cancel": {
+    "message": "取消",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.confirm": {
+    "message": "确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.delSuccess": {
+    "message": "删除成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.delFail": {
+    "message": "已取消删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errTitle": {
+    "message": "请输入公告标题",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errContent": {
+    "message": "点击输入公告的内容",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errRange": {
+    "message": "请选择接收人",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errWay": {
+    "message": "请选择发送方式",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errSendTime": {
+    "message": "请设置发布时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errExpiration": {
+    "message": "请设置失效时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errShowWay": {
+    "message": "请设置显示方式",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errForm": {
+    "message": "公告信息未填写完整",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.successPub": {
+    "message": "发布公告成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.announcements": {
+    "message": "公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.searchAnno": {
+    "message": "请输入公告标题搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.readTotal": {
+    "message": "已读/总数量",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.pubUser": {
+    "message": "发布人",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.annoEdit": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.annoView": {
+    "message": "查看",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.annodel": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.viewAnno": {
+    "message": "查看公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Attachment": {
+    "message": "附件：",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.download": {
+    "message": "下载",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.AllStudents": {
+    "message": "全部学生",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.AllTeachers": {
+    "message": "全部老师",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.AllAdmins": {
+    "message": "全部管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.No": {
+    "message": "无",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.selectStatus": {
+    "message": "请选择状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.status": {
+    "message": "状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.all": {
+    "message": "全部",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.read": {
+    "message": "已读",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.unread": {
+    "message": "未读",
+    "description": "新版管理后台 zh.json"
   }
 }
