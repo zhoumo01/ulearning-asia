@@ -1,1 +1,598 @@
-{}
+{
+  "allStudentsList": {
+    "message": "ሁሉም ተማሪዎች",
+    "description": "2.0 certification.js "
+  },
+  "passStuList": {
+    "message": "የስኬት ተማሪዎች",
+    "description": "2.0 certification.js "
+  },
+  "excellenceStuList": {
+    "message": "የላቀ ተማሪዎች",
+    "description": "2.0 certification.js "
+  },
+  "unqualifiedStuList": {
+    "message": "ያልተስተካከሉ ተማሪዎች",
+    "description": "2.0 certification.js "
+  },
+  "allClasses": {
+    "message": "ሁሉም ክፍሎች",
+    "description": "2.0 certification.js "
+  },
+  "pass": {
+    "message": "ብቁ",
+    "description": "2.0 certification.js "
+  },
+  "certificateConfirm": {
+    "message": "እርግጠኛ ነዎት የምስክር ወረቀቶችን ማዋረድ ይፈልጋሉ?",
+    "description": "2.0 certificate.js"
+  },
+  "certificateIssuedSuccess": {
+    "message": "በተሳካ ሁኔታ ተሰጠ!",
+    "description": "2.0 certification.js "
+  },
+  "issueCertificateFailed": {
+    "message": "የምስክር ወረቀቶችን ማዋረድ አልተሳካም!",
+    "description": "2.0 certification.js "
+  },
+  "batchIssueCertificates": {
+    "message": "የ Batch እትም የምስክር ወረቀት",
+    "description": "2.0 certification.js "
+  },
+  "batchTip": {
+    "message": "እርግጠኛ ነዎት ብቁ ለሆኑ ተማሪዎች የምስክር ወረቀቶችን ማዋቀር ይፈልጋሉ?እባክዎን የምስክር ወረቀቶች አንዴ ከተገለጡ, ሊቀየሩ ወይም ሊታወቅ እንደማይችል እባክዎ ልብ ይበሉ",
+    "description": "2.0 certification.js "
+  },
+  "issueCertificate": {
+    "message": "ሰርቲፊኬት",
+    "description": "2.0 certification.js "
+  },
+  "refreshFailed": {
+    "message": "ማደስ አልተሳካም",
+    "description": "2.0 certification.js "
+  },
+  "excellent": {
+    "message": "እጅግ በጣም ጥሩ",
+    "description": "2.0 certification.js "
+  },
+  "certificateManagement": {
+    "message": "የምስክር ወረቀት አስተዳደር",
+    "description": "2.0 certification.js "
+  },
+  "certificateMaTip": {
+    "message": "ኮርስ ወይም አስተዳዳሪ የምስክር ወረቀቶችን ማስተዳደር እና ማውጣት የሚችሉት ኮርስ",
+    "description": "2.0 certification.js "
+  },
+  "certificateSettings": {
+    "message": "የምስክር ወረቀት ቅንብሮች",
+    "description": "2.0 certification.js "
+  },
+  "certificateTemplate": {
+    "message": "የእኔ የምስክር ወረቀት አብነቶች",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificate": {
+    "message": "አብነት ይፍጠሩ",
+    "description": "2.0 certificate.js"
+  },
+  "createBgImage": {
+    "message": "የበስተጀርባ ምስል",
+    "description": "2.0 certificate.js"
+  },
+  "studentName": {
+    "message": "የተማሪ ስም",
+    "description": "2.0 certificate.js"
+  },
+  "certificateBody": {
+    "message": "የእውቅና ማረጋገጫ አካል",
+    "description": "2.0 certificate.js"
+  },
+  "certificateNum": {
+    "message": "የምስክር ወረቀት ቁ.",
+    "description": "2.0 certificate.js"
+  },
+  "createDate": {
+    "message": "ቀን",
+    "description": "2.0 certificate.js"
+  },
+  "createSignature": {
+    "message": "የኤሌክትሮኒክ ፊርማ",
+    "description": "2.0 certificate.js"
+  },
+  "issuingUnit": {
+    "message": "የተፈቀደለት በ",
+    "description": "2.0 certificate.js"
+  },
+  "operating": {
+    "message": "መመሪያዎች",
+    "description": "2.0 certificate.js"
+  },
+  "changeBg": {
+    "message": "ለውጥ",
+    "description": "2.0 certificate.js"
+  },
+  "editText": {
+    "message": "አርትዕ",
+    "description": "2.0 certificate.js"
+  },
+  "scanCode": {
+    "message": "ፍተሻ",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip1": {
+    "message": "የሰርቲፊኬት ክፍሎችን ይምረጡ",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip2": {
+    "message": "የእውቅና ማረጋገጫ ቅድመ-እይታ",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip3": {
+    "message": "1. የጀርባው ምስል ያስፈልጋል.የራስዎን የጀርባ ምስል ለመስቀል የለውጥ አገናኝን ጠቅ ያድርጉ.እሱ እስከ 2 ሜባ እስከ 2 ሜባ ድረስ JPG / JPEG / ፒንግ ቅርፀቶችን ይደግፋል.ስፋት x ቁመት: 1754x1240 PX ወይም የተለየ መጠን ይመከራል.",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip4": {
+    "message": "የእውቅና ማረጋገጫ አካል ሊበጅ እና ሊስተካከል ይችላል.የኤሌክትሮኒክ ፊርማውን ለመቃኘት እና ለመስቀል የፍተሻ አገናኝን ጠቅ ያድርጉ.",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip5": {
+    "message": "3. የተማሪ ስም እና የተፈቀደላቸው ከሆነ የምስክር ወረቀቱ በእውቅና ማረጋገጫው በሚሰጡበት ጊዜ ስርዓታቸው በራስ-ሰር የተያዙ ይሆናሉ.ተማሪዎቻቸውን ለፕሮፋካቸው እንዲጠቀሙባቸው ያስታውሱ.",
+    "description": "2.0 certificate.js"
+  },
+  "createCertificateTip6": {
+    "message": "4. የምስክር ወረቀት ቁጥር እና ቀን ከተመረጡ እሴቶቻቸው በስርዓቱ የሚመጡ ናቸው.እነሱ አርትዕ አይደሉም.",
+    "description": "2.0 certificate.js"
+  },
+  "noFinish": {
+    "message": "የመረጥከው የኤሌክትሮኒክ ፊርማ የተሟላ አይደለም, እባክዎ {finishSign} ወይም {cancelSelect}",
+    "description": "{finishSign} 和 {cancelSelect} 是两个按钮，完整句子为：您选择的电子签名未完成，请 完成签名 或 取消选择"
+  },
+  "finishSign": {
+    "message": "የተሟላ ፊርማ",
+    "description": "2.0 certificate.js"
+  },
+  "cancelSelect": {
+    "message": "ምርጫን ሰርዝ",
+    "description": "2.0 certificate.js"
+  },
+  "cropBgImg": {
+    "message": "የሰብል ዳራ ምስል",
+    "description": "2.0 certificate.js"
+  },
+  "editTemplateName": {
+    "message": "የአብነት ስም አርትዕ",
+    "description": "2.0 certificate.js"
+  },
+  "newTemplateTip": {
+    "message": "ወደ አብነት ስም ለማስገባት ጠቅ ያድርጉ",
+    "description": "2.0 certificate.js"
+  },
+  "editTemplateTip": {
+    "message": "ማሳሰቢያ: - የተባዙ ማበቂያ ስሞች አይፈቀዱም!",
+    "description": "2.0 certificate.js"
+  },
+  "outTime": {
+    "message": "ከጊዜ በኋላ ተሽሯል",
+    "description": "2.0 certificate.js"
+  },
+  "eligibleCertificateTem": {
+    "message": "የስኬት አብነት",
+    "description": "2.0 certificate.js"
+  },
+  "excellentCertificateTem": {
+    "message": "የከፍተኛ ጥራት ማኅበርን የምስክር ወረቀት",
+    "description": "2.0 certificate.js"
+  },
+  "systemTemplate": {
+    "message": "የስርዓት አብነት",
+    "description": "2.0 certificate.js"
+  },
+  "selectTemplate": {
+    "message": "አብነት የሚለውን ይምረጡ",
+    "description": "2.0 certificate.js"
+  },
+  "refreshGrade": {
+    "message": "ውጤቶችን ያድሱ",
+    "description": "2.0 certification.js "
+  },
+  "exportList": {
+    "message": "ወደ ውጭ የመላክ ውጤቶች",
+    "description": "2.0 certification.js "
+  },
+  "certSummary": {
+    "message": "በዚህ ኮርስ ውስጥ የተማሪዎች ጠቅላላ ቁጥር {total} ነው። በሰርተፍኬት ግዢ ሁኔታ መሰረት ብቁ የሆኑ {qualified} ቁጥር፣ ብቁ ያልሆኑ {unqualified} ቁጥር፣ የማስገቢያ መጠን {rate}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
+  },
+  "certSummary2": {
+    "message": "በዚህ ኮርስ ውስጥ የተማሪዎች አጠቃላይ ቁጥር {total} ነው, የምስክር ወረቀት ግዢ ሁኔታ መሠረት, ብቃት ያላቸው {qualified} ያልሆኑ{unqualified}ቁጥር, የማስገቢያ መጠን {rate}%, the excellent rate {excellent}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
+  },
+  "type": {
+    "message": "የምስክር ወረቀት",
+    "description": "2.0 certification.js "
+  },
+  "certificateRequest": {
+    "message": "ብቃቶች",
+    "description": "2.0 certification.js "
+  },
+  "selectedCertificateTem": {
+    "message": "የተመረጠው አብነት",
+    "description": "2.0 certificate.js"
+  },
+  "preview": {
+    "message": "ቅድመ-እይታ",
+    "description": "2.0 certificate.js"
+  },
+  "passNum": {
+    "message": "የተማሪ ቆጠራዎች",
+    "description": "2.0 certification.js "
+  },
+  "proportion": {
+    "message": "መቶኛ",
+    "description": "2.0 certification.js "
+  },
+  "conformityCertificate": {
+    "message": "የስኬት ማረጋገጫ የምስክር ወረቀት",
+    "description": "2.0 certification.js "
+  },
+  "sample": {
+    "message": "ለማየት ጠቅ ያድርጉ",
+    "description": "2.0 certification.js "
+  },
+  "sureSelect": {
+    "message": "ምርጫን ያረጋግጡ",
+    "description": "2.0 certificate.js"
+  },
+  "createTemplate": {
+    "message": "አብነት ይፍጠሩ",
+    "description": "2.0 certificate.js"
+  },
+  "createTemplate2": {
+    "message": "አዲስ የምስክር ወረቀት ቴምፕሌት ይፍጠሩ",
+    "description": "2.0 certificate.js"
+  },
+  "editTemplate": {
+    "message": "አብነት አርትዕ",
+    "description": "2.0 certificate.js"
+  },
+  "signErrorTip": {
+    "message": "መጀመሪያ የኤሌክትሮኒክ ፊርማ ይምረጡ",
+    "description": "2.0 certificate.js"
+  },
+  "electronicSignature": {
+    "message": "የኤሌክትሮኒክ ፊርማ",
+    "description": "2.0 certificate.js"
+  },
+  "courseName": {
+    "message": "የኮርስ ስም",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip1": {
+    "message": "አብነት ስም ባዶ ሊሆን አይችልም!",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip2": {
+    "message": "የአብኙነት ስም አስቀድሞ አለ!",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip3": {
+    "message": "አብነቱ በተሳካ ሁኔታ ተፈጠረ!",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip4": {
+    "message": "አብነቱ በተሳካ ሁኔታ ዘምኗል!",
+    "description": "2.0 certificate.js"
+  },
+  "editContent": {
+    "message": "የእውቅና ማረጋገጫ አካልን ያርትዑ",
+    "description": "2.0 certificate.js"
+  },
+  "editContentTip1": {
+    "message": "ማሳሰቢያ-በውጊያው ምልክቶች (ጉሌሞስስ - የጎን ቼቭሮኖች መልክ) ውስጥ የኮርስ ስሙ (ጉንዶች)ለአስተዳድዎ ለአብነትዎ በተሰጡት ዝርዝር ውስጥ የኮርስ ስሙን ማርትዕ ይችላሉ.ሆኖም, የጥቅስ ምልክቶችን ከኮርስ ስም ጋር ከተዘረዘሩ, ይህንን አብነት በመጠቀም የምስክር ወረቀቱን ለትምህርቱ በሚሰጡበት ጊዜ ስርዓቱ የኮርስ ስሙን በራስ-ሰር አያደርግም.የኮርስ ስሙን እራስዎ ማስገባት ያስፈልግዎታል.",
+    "description": "2.0 certificate.js"
+  },
+  "scanCodeTitle": {
+    "message": "ለፊርማ የ QR ኮድ ይቃኙ",
+    "description": "2.0 certificate.js"
+  },
+  "signTip": {
+    "message": "እባክዎ ፊርማውን በ{time} ውስጥ ይጨርሱ፤ ከዚያ በኋላ ፊርማው ያልተጠናቀቀ፣ መስኮቱ በራሱ ይዘጋል",
+    "description": "2.0 certificate.js"
+  },
+  "defaultText": {
+    "message": "ነባሪ",
+    "description": "2.0 certificate.js"
+  },
+  "setDefault": {
+    "message": "እንደ ነባሪ ያዘጋጁ",
+    "description": "2.0 certificate.js"
+  },
+  "cancelDefault": {
+    "message": "እንደ ነባሪው ይቅር",
+    "description": "2.0 certificate.js"
+  },
+  "copyTemplate": {
+    "message": "የተባዛ",
+    "description": "2.0 certificate.js"
+  },
+  "delTemplate": {
+    "message": "ሰርዝ",
+    "description": "2.0 certificate.js"
+  },
+  "confirmDelete": {
+    "message": "ከተሰረዙ በኋላ መመለስ አይቻልም, እርግጠኛ ነዎት መሰረዝ ይፈልጋሉ?",
+    "description": "2.0 certificate.js"
+  },
+  "deleteSuccessMsg": {
+    "message": "በተሳካ ሁኔታ ተሰር .ል!",
+    "description": "2.0 certificate.js"
+  },
+  "deleteFailMsg": {
+    "message": "መሰረዝ አልተሳካም!",
+    "description": "2.0 certificate.js"
+  },
+  "defaultSucMsg": {
+    "message": "እንደ ነባሪነት በተሳካ ሁኔታ ያዘጋጁ!",
+    "description": "2.0 certificate.js"
+  },
+  "defaultFailMsg": {
+    "message": "እንደ ነባሪ ሆኖ ማዘጋጀት አልተሳካም!",
+    "description": "2.0 certificate.js"
+  },
+  "cancelDefaultSuc": {
+    "message": "እንደ ነባሪነት በተሳካ ሁኔታ ተሰር ed ል!",
+    "description": "2.0 certificate.js"
+  },
+  "cancelDefaultFail": {
+    "message": "እንደ ነባሪነት መሰረዝ አልተሳካም!",
+    "description": "2.0 certificate.js"
+  },
+  "copySuccessMsg": {
+    "message": "በተሳካ ሁኔታ የተባበረው!",
+    "description": "2.0 certificate.js"
+  },
+  "copyFailMsg": {
+    "message": "ማባዛት አልተሳካም!",
+    "description": "2.0 certificate.js"
+  },
+  "fileTypeError": {
+    "message": "በ JPG / JPEG / PPG / PNG ቅርፀቶች ብቻ የጀርባ ምስሎችን ይደግፉ!",
+    "description": "2.0 certificate.js"
+  },
+  "nameErrorTip": {
+    "message": "የአብኙነት ስም ከ 70 ቁምፊዎች መብለጥ አይችልም!",
+    "description": "2.0 certificate.js"
+  },
+  "contentErrorTip": {
+    "message": "የአብኙነት የሰውነት ይዘት ከ 70 ቁምፊዎች መብለጥ አይችልም!",
+    "description": "2.0 certificate.js"
+  },
+  "contentErrorTip2": {
+    "message": "የአብኙነት አካል ይዘት ለማስገባት ጠቅ ያድርጉ",
+    "description": "2.0 certificate.js"
+  },
+  "courseAssessmentScore": {
+    "message": "የመጨረሻ ደረጃ",
+    "description": "2.0 certification.js "
+  },
+  "assessRule1": {
+    "message": "ኮርስ ግምገማ ውጤት≥{min} ነጥቦች,<{max}分",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule2": {
+    "message": "ኮርስ ግምገማ ውጤት ≥{n} ነጥቦች",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule3": {
+    "message": "ኮርስ ግምገማ ውጤት ≥{n} ነጥቦች",
+    "description": "教师账户 -> 考核 -> 证书管理"
+  },
+  "excellenceCertificate": {
+    "message": "የልኬት የምስክር ወረቀት",
+    "description": "2.0 certification.js "
+  },
+  "unqualified": {
+    "message": "ያልተስተካከለ",
+    "description": "2.0 certification.js "
+  },
+  "studentList": {
+    "message": "የተማሪ ዝርዝር",
+    "description": "2.0 certification.js "
+  },
+  "lastCertificateIssued": {
+    "message": "ለመጨረሻ ጊዜ የተሰጠ",
+    "description": "2.0 certification.js "
+  },
+  "username": {
+    "message": "የተጠቃሚ ስም",
+    "description": "2.0 certification.js "
+  },
+  "actualName": {
+    "message": "የሕግ ስም",
+    "description": "2.0 certification.js "
+  },
+  "explanation": {
+    "message": "ተጨማሪ >>",
+    "description": "2.0 certification.js "
+  },
+  "explanationContent": {
+    "message": "የምስክር ወረቀቱ በሚሰጥበት የመጨረሻ ደረጃ ላይ የተመሠረተ.የዘመነ የመጨረሻው ደረጃ ቀደም ሲል የወጡትን የእውቅና ማረጋገጫ ብቃቶች እና ምስሎች አይቀየሩም.",
+    "description": "2.0 certification.js "
+  },
+  "certificateType": {
+    "message": "የምስክር ወረቀት",
+    "description": "2.0 certification.js "
+  },
+  "certificateIssued": {
+    "message": "የምስክር ወረቀቶች የተሰጡ ናቸው",
+    "description": "2.0 certification.js "
+  },
+  "NoResults": {
+    "message": "ምንም ውጤቶች አልተገኙም!",
+    "description": "2.0 certification.js "
+  },
+  "noCourseAssessment": {
+    "message": "የመግቢያ ህጎችን ላያያዙት ኮርሶች የምስክር ወረቀቶች ሊሰጡ አይችሉም.",
+    "description": "2.0 certification.js "
+  },
+  "clickToSet": {
+    "message": "ለማዋቀር ጠቅ ያድርጉ >>",
+    "description": "2.0 certification.js "
+  },
+  "noCertificate": {
+    "message": "የምስክር ወረቀቶች ገና አልተቀመጡም",
+    "description": "2.0 certification.js "
+  },
+  "certificateTip1": {
+    "message": "የምስክር ወረቀቱ የሰርቲፊው ቅንብሮች ተቀባይነት አላገኘም",
+    "description": "2.0 certification.js "
+  },
+  "certificateTip2": {
+    "message": "ማስታወሻዎች የምስክር ወረቀቶችን ከማዋቀሩ በፊት የማድገ ህጎች መቀመጥ አለባቸው.",
+    "description": "2.0 certification.js "
+  },
+  "gradeRule1": {
+    "message": "የኮርሱ ማጠቃለያ ≥ ክፍል {input} የብቃት ማረጋገጫ የምስክር ወረቀት ለማግኘት ነጥቦች",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
+  },
+  "gradeRule2": {
+    "message": "የኮርሱ ማጠቃለያ ነጥብ ≥ {inputLow} ነጥቦች፣ <{inputHigh} ነጥቦች፣ የማለፊያ ሰርተፍኬት ማግኘት ይችላል",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
+  },
+  "gradeRule3": {
+    "message": "የኮርስ ማጠቃለያ ውጤት ≥ {input} ነጥቦች የላቀ የምስክር ወረቀት ለማግኘት",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
+  },
+  "setPass": {
+    "message": "የስኬት የምስክር ወረቀት ብቻ",
+    "description": "2.0 certification.js "
+  },
+  "setPassAndExcellence": {
+    "message": "የሁሉም የስኬት የምስክር ወረቀት እና የልግስት የምስክር ወረቀት",
+    "description": "2.0 certification.js "
+  },
+  "enterScore": {
+    "message": "እዚህ ውጤት ያስገቡ",
+    "description": "2.0 certification.js "
+  },
+  "enterScoreTip": {
+    "message": "ትክክለኛውን የአስርዮሽ ቦታ ብቻውን ብቻ ያስገቡ",
+    "description": "2.0 certification.js "
+  },
+  "enterScoreTip1": {
+    "message": "የገባው ውጤት ለመጨረሻው ውጤት ከተዘጋጁ ነጥቦች መብለጥ የለበትም.",
+    "description": "2.0 certification.js "
+  },
+  "enterScoreTip2": {
+    "message": "የስኬት ውጤት ከከፍተኛ ደረጃ ውጤት ከፍ ሊል አይችልም",
+    "description": "2.0 certification.js "
+  },
+  "enterScoreTip3": {
+    "message": "የምስክር ወረቀቶች ብቻ የምስክር ወረቀቶችን ማቀናበር ይችላል",
+    "description": "2.0 certification.js "
+  },
+  "enterScoreTip4": {
+    "message": "አንዳንድ የምስክር ወረቀቶች ቀድሞውኑ ተሰጥተዋል.የሰርቲፊኬት ብቃቶች ሊቀየሩ አይችሉም.",
+    "description": "2.0 certification.js "
+  },
+  "save": {
+    "message": "አስቀምጥ",
+    "description": "2.0 certification.js "
+  },
+  "cancel": {
+    "message": "ይቅር",
+    "description": "2.0 certification.js "
+  },
+  "close": {
+    "message": "ገጠመ",
+    "description": "2.0 certification.js "
+  },
+  "certificate": {
+    "message": "የምስክር ወረቀት",
+    "description": "2.0 certification.js "
+  },
+  "enterScoreTip5": {
+    "message": "በተሳካ ሁኔታ ተድኗል!",
+    "description": "2.0 certification.js "
+  },
+  "studentID": {
+    "message": "የተማሪ መታወቂያ",
+    "description": "2.0 certification.js "
+  },
+  "school": {
+    "message": "ትምህርት ቤት",
+    "description": "2.0 certification.js "
+  },
+  "qualifiedCert2": {
+    "message": "የ {coursename} ኮርስ ጥናት እና ግምገማ በተሳካ ሁኔታ በማጠናቀቅ እና ክፍል በማለፍ ምስጋና ይድረሱ.",
+    "description": "2.0 certificate.js"
+  },
+  "excellentCert2": {
+    "message": "የ {coursename} ኮርስ ን ጥናታዊ እና ግምገማ በተሳካ ሁኔታ በማጠናቀቅ እናመሰግናለኝ ግሩም ውጤቶች ጋር.",
+    "description": "2.0 certificate.js"
+  },
+  "certificateNo": {
+    "message": "የምስክር ወረቀት ቁ.",
+    "description": "2.0 certification.js "
+  },
+  "certificateSignature": {
+    "message": "የኤሌክትሮኒክ ፊርማ",
+    "description": "2.0 certificate.js"
+  },
+  "CertificateIssuing": {
+    "message": "የተፈቀደለት በ",
+    "description": "2.0 certificate.js"
+  },
+  "issueDate": {
+    "message": "ቀን",
+    "description": "2.0 certification.js "
+  },
+  "certificateReq": {
+    "message": "የሰርቲፊኬት ብቃቶች",
+    "description": "2.0 certification.js "
+  },
+  "viewExample": {
+    "message": "ናሙና ይመልከቱ",
+    "description": "2.0 certification.js "
+  },
+  "myCertificate": {
+    "message": "የምስክር ወረቀቶች",
+    "description": "2.0 certification.js "
+  },
+  "qualifiedNotice": {
+    "message": "ለስኬት ማረጋገጫ የምስክር ወረቀት እና የምስክር ወረቀት ብቃቶች አረካቸው አነስተኛ የኮርስ ውጤት ደርሰዎታል.እንኳን ደስ አለዎት!",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
+  },
+  "excellentNotice": {
+    "message": "ለትክክለኛነት የምስክር ወረቀት የምስክር ወረቀት እና የምስክር ወረቀቱን ያረካዋል.እንኳን ደስ አለዎት!",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
+  },
+  "certificateStuTip": {
+    "message": "ማስታወሻዎች የኮርስ ደረጃዎ ቢቀየረም እንኳ የምስክር ወረቀት ሰመመን.",
+    "description": "2.0 certification.js "
+  },
+  "downloadCertificate": {
+    "message": "የምስክር ወረቀት ያውርዱ",
+    "description": "2.0 certification.js "
+  },
+  "noCerTip": {
+    "message": "የምስክር ወረቀቶች አልተገኙም",
+    "description": "2.0 certification.js "
+  },
+  "certTip": {
+    "message": "የምስክር ወረቀቱን መረጃ ትክክለኛነት ለማረጋገጥ ወደ {informLink} እርግጠኛ ይሁኑ",
+    "description": "学生账户 -> 考核 -> 课程证书 (还未发放证书时，才会显示)"
+  },
+  "informLink": {
+    "message": "የመገለጫ መረጃዎን ይሙሉ (እስካሁን ካደረጉት).",
+    "description": "2.0 certificate.js"
+  },
+  "notSetCerTip": {
+    "message": "አስተማሪዎ ማንኛውንም የኮርስ የምስክር ወረቀት አላዘጋጀም.",
+    "description": "2.0 certification.js "
+  },
+  "newTemplate": {
+    "message": "ወደ አብነት ስም ለማስገባት ጠቅ ያድርጉ",
+    "description": "2.0 certificate.js"
+  }
+}

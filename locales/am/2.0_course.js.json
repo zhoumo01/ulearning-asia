@@ -196,7 +196,7 @@
     "description": "2.0 course.js"
   },
   "totalDurationOf": {
-    "message": "ጠቅላላ ርዝመት: - {ቆጠራ} ደቂቃ",
+    "message": "ጠቅላላ የጊዜ ርዝመት {count} ደቂቃ",
     "description": "2.0 course.js"
   },
   "document": {
@@ -388,7 +388,7 @@
     "description": "2.0 course.js"
   },
   "examTimes": {
-    "message": "ፈተና ክፍለ-ጊዜዎች: {n}",
+    "message": "የፈተና ቁጥር {n} ጊዜ",
     "description": "2.0 course.js"
   },
   "usePaperNumber": {
@@ -456,11 +456,11 @@
     "description": "2.0 course.js"
   },
   "totalTimes": {
-    "message": "ጠቅላላ: {n}",
+    "message": "ጠቅላላ ጊዜ ፦{n} ጊዜ",
     "description": "2.0 course.js"
   },
   "totalTimes2": {
-    "message": "ጠቅላላ: {n}",
+    "message": "ጠቅላላ ጊዜ ፦{n}",
     "description": "教师账号 -> 课程分析"
   },
   "totalAttendanceRate": {
@@ -608,7 +608,7 @@
     "description": "2.0 course.js"
   },
   "weekOf": {
-    "message": "{ቆጠራ} ሳምንቶች (ቶች)",
+    "message": "{count} ሳምንታት",
     "description": "登录ua后 - 创建或查看一门课程 -> 左侧导航栏 -> 学期管理 -> 添加学期"
   },
   "weekIndex": {
@@ -620,7 +620,7 @@
     "description": "2.0 course.js"
   },
   "periodIndex": {
-    "message": "ሴሚስተር {n}",
+    "message": "ጉዳይ {n}",
     "description": "2.0 course.js"
   },
   "teacher": {
@@ -672,7 +672,7 @@
     "description": "2.0 course.js"
   },
   "stuLibSelectTip1": {
-    "message": "የተመረጠው {ቆጠራ} ክፍሎች",
+    "message": "{count} ክፍሎች የተመረጡ",
     "description": "教师账号 -> 成员 -> 班级管理 -> 批量导入班级 -> 从学生库导入 -> 弹框左下角"
   },
   "grade": {
@@ -684,7 +684,7 @@
     "description": "2.0 course.js"
   },
   "stuLibSelectTip2": {
-    "message": "የተመረጠው {ቆጠራ} ተማሪ (ቶች)",
+    "message": "{count} ተማሪዎች ተመረጡ",
     "description": "教师账号 -> 成员 -> 班级管理 -> 添加学生 -> 弹框左下角"
   },
   "stuLibImportTips9": {
@@ -716,7 +716,7 @@
     "description": "2.0 course.js"
   },
   "minute": {
-    "message": "{ቆጠራ} ደቂቃ",
+    "message": "{count} ደቂቃ",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -764,23 +764,23 @@
     "description": "2.0 course.js"
   },
   "totalOfItems": {
-    "message": "ጠቅላላ {n}",
+    "message": "ጠቅላላ {n} ማስገቢያዎች",
     "description": "2.0 course.js"
   },
   "totalOfItems1": {
-    "message": "ጠቅላላ {n} የቀጥታ ክፍለ-ጊዜዎች",
+    "message": "በአጠቃላይ {n} የቀጥታ ጅረቶች",
     "description": "2.0 course.js"
   },
   "totalPages": {
-    "message": "ጠቅላላ: {n} ገጽ (ቶች)",
+    "message": "ጠቅላላ ፦{n} ገጾች",
     "description": "2.0 course.js"
   },
   "totalOfTeacher": {
-    "message": "ጠቅላላ {n} መምህር (ቶች)",
+    "message": "ጠቅላላ {n} መምህራን",
     "description": "2.0 course.js"
   },
   "totalOfTeacher2": {
-    "message": "ጠቅላላ {n} መምህር (ቶች)",
+    "message": "ጠቅላላ {n} መምህራን",
     "description": "2.0 course.js"
   },
   "publishNewAnnouncement": {
@@ -808,11 +808,11 @@
     "description": "2.0 course.js"
   },
   "readedOf": {
-    "message": "{ቆጠራ} የተማሪ (ቶች) የታዩ ናቸው",
+    "message": "{count} ሰዎች ተነበዋል",
     "description": "教师账号 -> 公告"
   },
   "classesOf": {
-    "message": "ትምህርቶች: {ክፍሎች}",
+    "message": "መደብ {መደብ}",
     "description": "教师账号 -> 公告"
   },
   "download": {
@@ -976,11 +976,11 @@
     "description": "2.0 course.js"
   },
   "stuScore": {
-    "message": "{Stunise}: {ቆጠራ} ነጥብ (ቶች)",
+    "message": "{stuName}{count} ",
     "description": "2.0 course.js"
   },
   "points": {
-    "message": "{ቆጠራ}} ነጥብ (ቶች)",
+    "message": "{count} ነጥቦች",
     "description": "2.0 course.js"
   },
   "scoreCol": {
@@ -1012,7 +1012,7 @@
     "description": "2.0 course.js"
   },
   "studyScoreOf": {
-    "message": "የኮርስ ጉዞ ትምህርት ውጤት: {በመቶ}%",
+    "message": "የትምህርት ውጤት {percent}%",
     "description": "2.0 course.js"
   },
   "averageScoreByChapter": {
@@ -1020,31 +1020,31 @@
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "ኮርስ ዴይንት ትምህርት ጊዜ: - {በመቶ}%",
+    "message": "የመማር ጊዜ {percent}%",
     "description": "2.0 course.js"
   },
   "totalStudyTimeAchieve": {
-    "message": "ድምር የትምህርት ጊዜ ለ {max} ደቂቃዎች ሙሉ ለሙሉ እንዲቻል,ከ {ደቂቃዎች በታች ለ 0 ነጥቦች",
+    "message": "ሙሉ ውጤት በ {max} ደቂቃዎች ውስጥ የተቀማጭ የመማር ጊዜ ተሸላሚ ነው, እና 0 ነጥብ ከ {min} በታች ለደቂቃዎች ተሸልሟል",
     "description": "2.0 course.js"
   },
   "chapterStudyTimeAchieve": {
-    "message": "የሞዱል ትምህርት ጊዜ ለ {ማክስ} ደቂቃዎች ሙሉ በሙሉ እንዲቻል,ከ {ደቂቃዎች በታች ለ 0 ነጥቦች",
+    "message": "ፍጹም ውጤት ለእያንዳንዱ ምዕራፍ {max} ደቂቃ፣ 0 ነጥብ ደግሞ ከ {min} ደቂቃ ባነሰ ጊዜ ተሸልሟል",
     "description": "2.0 course.js"
   },
   "sectionStudyTimeAchieve": {
-    "message": "የርዕሱ ትምህርት ጊዜ ለ {max Nove Dest Dest Dest Dests Dests;ከ {ደቂቃዎች በታች ለ 0 ነጥቦች",
+    "message": "ሙሉ ውጤት ለ {max} ደቂቃ የመማር ጊዜ ተሸላሚ ሲሆን 0 ነጥብ ከ {min} በታች ለደቂቃዎች ተሸልሟል",
     "description": "2.0 course.js"
   },
   "studyProgressColon": {
-    "message": "ኮርስ Down ትምህርት እድገት: - {በመቶ}%",
+    "message": "ዕድገት መማር {percent}%",
     "description": "2.0 course.js"
   },
   "totalStudyProgress": {
-    "message": "ድምር የመማር እድገት% ለ {ማክስ}% በጠቅላላው የሚቻል,ከ {ደቂቃ}% በታች ለ 0 ነጥቦች",
+    "message": "ሙሉ ውጤት በ {max}%, እና 0 ነጥብ በ {min}% ለመቀነስ ተሸልሟል.",
     "description": "2.0 course.js"
   },
   "chapterStudyProgress": {
-    "message": "የእያንዳንዱ ሞዱል መሻሻል {max Mox}% በተቻለው ሁኔታ,ከ {ደቂቃ}% በታች ለ 0 ነጥቦች",
+    "message": "ለእያንዳንዱ ምዕራፍ ሙሉ ውጤት የሚሰጠው በ {max}% የመማር ዕድገት ሲሆን 0 ነጥብ ደግሞ ከዚህ በታች {min}% በመማር ዕድገት ተሸልሟል።",
     "description": "2.0 course.js"
   },
   "noParticipants": {
@@ -1116,15 +1116,15 @@
     "description": "2.0 course.js"
   },
   "unfoldAllClasses": {
-    "message": "ሁሉንም {ቆጠራ} ትምህርቶችን አስፋፋ",
+    "message": "ሁሉንም {count} ክፍሎች አሰፋ",
     "description": "教师账号 -> 考核 -> 查看策略 \n 教师账号 -> 考核 -> 查看成绩 (汇总成绩后才会出现查看成绩这个按钮)"
   },
   "classesEtc": {
-    "message": "{ክፍሎች}, ... - {ቆጠራ} ክፍሎች",
+    "message": "{classes} ወዘተ. {count} ክፍሎች",
     "description": "教师账号 -> 考核 \n 教师账号 -> 课堂 \n 教师账号 -> 成员 -> 教学团队"
   },
   "classesLink": {
-    "message": "{ቆጠራ} ክፍሎች >>",
+    "message": "{count} የክፍል >>",
     "description": "2.0 course.js"
   },
   "classes2": {
@@ -1564,7 +1564,7 @@
     "description": "2.0 course.js"
   },
   "numberOf": {
-    "message": "{n}",
+    "message": "{n} pcs",
     "description": "2.0 course.js"
   },
   "time": {
@@ -1716,11 +1716,11 @@
     "description": "2.0 course.js"
   },
   "timesOf": {
-    "message": "{n}",
+    "message": "{n} ጊዜ",
     "description": "2.0 course.js"
   },
   "replyYouTimes": {
-    "message": "መልስ: - {n}",
+    "message": "መልስ ለእርስዎ {n} ጊዜ",
     "description": "2.0 course.js"
   },
   "praiseYouTimes": {
@@ -1844,11 +1844,11 @@
     "description": "2.0 course.js"
   },
   "homeworkBetweenTime": {
-    "message": "ምደባ ተገኝነት: {DestMat {ENTTETTET}",
+    "message": "የስራ ጊዜ {startTime} ወደ {endTime}",
     "description": "2.0 course.js"
   },
   "betweenTime": {
-    "message": "{ጅማሬ {ፍትት}}",
+    "message": " {startTime} ወደ {endTime}",
     "description": "2.0 course.js"
   },
   "commitEnd": {
@@ -2416,7 +2416,7 @@
     "description": "2.0 course.js"
   },
   "batchReplaceStudents": {
-    "message": "{ተማሪዎች} {ተማሪዎች} {ACTED}",
+    "message": "ምትክ {students} ወደ {classesForm}",
     "description": "教师账号 -> 成员 -> 学生管理 -> 更换班级"
   },
   "appointClassForTeacher": {
@@ -2652,7 +2652,7 @@
     "description": "2.0 course.js"
   },
   "memberSpocValidateTips15": {
-    "message": "የሉም {n} ክፍል ከ 200 ቁምፊዎች ያልበለጠ ነው!",
+    "message": "የ {n} መደብ ስም ከ100 ፊደሎች በላይ ነው",
     "description": "2.0 course.js"
   },
   "memberSpocValidateTips16": {
@@ -2828,7 +2828,7 @@
     "description": "2.0 course.js"
   },
   "randomDivideGroup": {
-    "message": "በዘፈቀደ ወደ {ግቤት} ቡድኖች ተከፍሏል",
+    "message": "በአጋጣሚ በ {inputCount} ቡድኖች ውስጥ ይከፋፈላል",
     "description": "教师账号 -> 成员 -> 班级小组方案 -> 随机分组"
   },
   "classGroupTips3": {
@@ -3620,7 +3620,7 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "ጠቅላላ: {ቆጠራ}",
+    "message": "ጠቅላላ ቁጥር {count}",
     "description": "2.0 course.js"
   },
   "nonVideoResource": {
@@ -3628,15 +3628,15 @@
     "description": "2.0 course.js"
   },
   "semesterRichText": {
-    "message": "ኮርስዲያን የበለፀጉ ይዘቶች: {n}",
+    "message": "በ ኮርስዌር ውስጥ የግራፊክ ገጾች ብዛት {n}",
     "description": "2.0 course.js"
   },
   "semesterResource": {
-    "message": "የኮርስ መከላከያ ሀብቶች: {n}",
+    "message": "ክፍል ውስጥ የሚገኙ የውሰት ሀብቶች ብዛት {n}",
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "ጠቅላላ: {count}",
+    "message": "ብዛት ፦{count} ጊዜ",
     "description": "2.0 course.js"
   },
   "homeworkAndTest": {
@@ -3644,7 +3644,7 @@
     "description": "2.0 course.js"
   },
   "testQueNumberOf": {
-    "message": "ጥያቄዎች ጥያቄዎች: {n}",
+    "message": "የጥያቄዎች ብዛት {n}",
     "description": "2.0 course.js"
   },
   "testQueNumberTip": {
@@ -3652,7 +3652,7 @@
     "description": "2.0 course.js"
   },
   "participantsPeopleOf": {
-    "message": "ተሳታፊዎች: {n}",
+    "message": "የተሳታፊዎች ብዛት {n} ሰዎች",
     "description": "2.0 course.js"
   },
   "discussAndCommunication": {
@@ -3660,7 +3660,7 @@
     "description": "2.0 course.js"
   },
   "topicTotalNumberOf": {
-    "message": "የውይይት ርዕሶች {n}",
+    "message": "ጠቅላላ የድህረ ገጾች ብዛት {n}",
     "description": "2.0 course.js"
   },
   "semesterTips7": {
@@ -3672,11 +3672,11 @@
     "description": "2.0 course.js"
   },
   "examQueNumberOf": {
-    "message": "ፈተና ጥያቄዎች: {n}",
+    "message": "የፈተና ጥያቄዎች ብዛት {n}",
     "description": "2.0 course.js"
   },
   "passPeopleOf": {
-    "message": "ፈተናዎችን ያልፋሉ ተማሪዎች: - {n}",
+    "message": "የአላፊዎች ብዛት {n} ሰዎች",
     "description": "2.0 course.js"
   },
   "outsideSchoolClass": {
@@ -3864,7 +3864,7 @@
     "description": "2.0 course.js"
   },
   "remaining": {
-    "message": "{n} ቀናት ይቀራሉ",
+    "message": "{n} ቀኖች የቀሩት",
     "description": "2.0 course.js"
   },
   "progress": {
@@ -3896,7 +3896,7 @@
     "description": "2.0 course.js"
   },
   "browserTip": {
-    "message": "ፒሲን ለመድረስ ፒሲን የሚጠቀሙ ከሆነ {CROCH} ወይም {አሳሽ አሳሽ እንዲጠቀሙ እንመክራለን.",
+    "message": "ከኮምፒዩተር ለመማር {chrome} ወይም {qqBrowser} ይመከራል",
     "description": "{chrome} 插值见 chrome 字段，qqBrowser 插值见 qqBrowser 字段"
   },
   "chrome": {
@@ -4204,7 +4204,7 @@
     "description": "2.0 course.js"
   },
   "remainingStudyTime": {
-    "message": "የቀረው የመማር ቀናት: - {n}",
+    "message": "የቀረው የመማር ጊዜ {n} ቀናት ነው",
     "description": "2.0 course.js"
   },
   "textbookTips38": {
@@ -4492,15 +4492,15 @@
     "description": "2.0 course.js"
   },
   "scoreItemType2Option1": {
-    "message": "ድምር የትምህርት ጊዜ ለ {max} ደቂቃዎች ሙሉ ለሙሉ እንዲቻል,ከ {ደቂቃዎች በታች ለ 0 ነጥቦች",
+    "message": "የእያንዳንዱ ምዕራፍ የተከማቸ የመማር ጊዜ {max} ደቂቃዎች ፍጹም ውጤት ሲሆን ከ {min} ደቂቃ ያነሰው ደግሞ 0 ነጥብ ነው",
     "description": "2.0 course.js"
   },
   "scoreItemType2Option2": {
-    "message": "በአንድ ሞዱል የመማር ጊዜ {max} ደቂቃዎችን በጠቅላላው እንዲቻል,ከ {ደቂቃዎች በታች ለ 0 ነጥቦች",
+    "message": "እያንዳንዱ ምዕራፍ ከ {max} ደቂቃ ውስጥ ይመረተራል, እና ከ {min} ደቂቃ ያነሰ ነው 0 ነጥብ",
     "description": "2.0 course.js"
   },
   "scoreItemType2Option3": {
-    "message": "በምርኮር ጊዜ በርዕሰ ሌሊቲክ {Max Mex Dess Doves Dodes Dodes Desses {Max Mex ደቂቃዎች አጠቃላይ ለሆኑ.ከ {ደቂቃዎች በታች ለ 0 ነጥቦች",
+    "message": "እያንዳንዱ ትምህርት ከ {max} ደቂቃ ውስጥ ይመረተራል, እና ከ {min} ደቂቃ ያነሰ ነው 0 ነጥብ",
     "description": "2.0 course.js"
   },
   "scoreItemType3": {
@@ -4552,7 +4552,7 @@
     "description": "2.0 course.js"
   },
   "scoreItemType7Option1": {
-    "message": "የተጠቀሙባቸው የውይይት ውጤቶች ድምር {ውጤት}",
+    "message": "የተወያዩባቸው ርዕሰ ጉዳዮች በሙሉ አጠቃላይ ቁጥር፣ {score} ፍጹም ውጤት ነው",
     "description": "2.0 course.js"
   },
   "scoreItemType8": {
@@ -4560,7 +4560,7 @@
     "description": "2.0 course.js"
   },
   "scoreItemType8Option1": {
-    "message": "1 መቅረት = {ውጤት 1} ነጥቦች) ቅናሽ, 1 ዘግይቶ / የታመመ / የታመቀ / ትትል / የወጡ / ች / ች",
+    "message": "ሙሉ ለሙሉ ተሰብሳቢ የሚሆኑ ነጥቦች ይቀነሳሉ፣ {score1} ነጥቦች ለሌሉ አንድ ጊዜ ይቀነሳሉ። {score2} ነጥቦች ደግሞ ለመዘግየት/ቀደም ብሎ ለመልቀቅ/ለመታመም ፈቃድ/ የግል ፈቃድ ይቀነሳሉ፣ ቅናሹ እስኪጠናቀቅ ድረስ",
     "description": "2.0 course.js"
   },
   "scoreItemType9": {
@@ -4568,7 +4568,7 @@
     "description": "2.0 course.js"
   },
   "scoreItemType9Option1": {
-    "message": "የተካተቱ ውጤቶች ድምር (ከመማሪያ ክፍል, ወዘተ. ከመማሪያ ክፍል (የመማሪያ ክፍሎች ወዘተ) ድምር.",
+    "message": "በክፍል ምርጫ እና በቅድመ መልስ እንቅስቃሴዎች ውስጥ የሚገኙ ነጥቦች፣ {score} ከሞላ ጎደል ይመረጫሉ",
     "description": "2.0 course.js"
   },
   "newStrategyTips10": {
@@ -5040,7 +5040,7 @@
     "description": "2.0 course.js"
   },
   "speechUnitOf": {
-    "message": "{n}",
+    "message": "{n} ስሪት",
     "description": "教师账号 -> 直播 -> 直播统计 -> 发言数"
   },
   "viewTerminal": {
@@ -5204,7 +5204,7 @@
     "description": "2.0 course.js"
   },
   "liveUpdateTimeLabel": {
-    "message": "ውሂብ በ {0} ላይ አድጓል",
+    "message": "{0} ላይ የተሻሻሉ መረጃዎች",
     "description": "2.0 course.js"
   },
   "liveViewTip": {
@@ -5212,7 +5212,7 @@
     "description": "2.0 course.js"
   },
   "pollOf": {
-    "message": "{n} ድምጾች - {በመቶ}%",
+    "message": "{n}ድምፅ {percent}%",
     "description": "教师账号 -> 直播 -> 直播统计 -> 直播互动 -> 问卷 (非拓课云直播才有直播互动数据)"
   },
   "liveAnalysisTips": {
@@ -5356,7 +5356,7 @@
     "description": "2.0 course.js"
   },
   "weights": {
-    "message": "{በመቶ}%, {ቆጠራ} pts",
+    "message": "{percent}፣{count} ነጥብ",
     "description": "2.0 course.js"
   },
   "importBBCourse": {
@@ -6196,7 +6196,7 @@
     "description": "2.0 course.js"
   },
   "liveStatement": {
-    "message": "የመቆጠብ ቁልፍን ጠቅ በማድረግ, እዚህ ተስማምተው {ፖሊሲ} ይስማማሉ.",
+    "message": "በመፍጠር, እኛ {policy} ጋር ትጨቃጨቃላችሁ",
     "description": "2.0 course.js"
   },
   "livePolicy": {
