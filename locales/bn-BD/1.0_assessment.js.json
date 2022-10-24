@@ -1,0 +1,454 @@
+{
+  "courseAssess": {
+    "message": "কোর্স গ্রেডিং বিধি",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt1": {
+    "message": "গ্রেড সংক্ষিপ্তসার চলছে - উইন্ডোটি শেষ হওয়ার আগে বন্ধ করবেন না!",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt2": {
+    "message": "কোর্স গ্রেডিং বিধি মোছা কোর্স গ্রেডিং বিধিগুলির ভিত্তিতে সংক্ষিপ্ত গ্রেডগুলি মুছে ফেলবে।সাবধানতার সাথে এগিয়ে যান।আপনি যদি সত্যিই মুছতে চান তবে নীচের যাচাইকরণ কোডটি প্রবেশ করান।",
+    "description": "1.0 assessment.json"
+  },
+  "codeErrorTxt": {
+    "message": "ভুল যাচাইকরণ কোড!",
+    "description": "1.0 assessment.json"
+  },
+  "deleteSucTxt": {
+    "message": "সফলভাবে মুছে ফেলা!",
+    "description": "1.0 assessment.json"
+  },
+  "failDeleteTxt": {
+    "message": "মুছতে ব্যর্থ!",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt3": {
+    "message": "গ্রেডের সংক্ষিপ্তসার চলাকালীন একটি ত্রুটি ঘটেছে!",
+    "description": "1.0 assessment.json"
+  },
+  "summarizingTipsTxt4": {
+    "message": "সার্ভার ত্রুটি - গ্রেড সংক্ষিপ্তকরণ ব্যর্থ হয়েছে!",
+    "description": "1.0 assessment.json"
+  },
+  "serviceErrorTxt": {
+    "message": "সার্ভার ত্রুটি - দয়া করে পরে আবার চেষ্টা করুন!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips": {
+    "message": "ব্যবহারকারীর নামগুলিতে কেবল অক্ষর, সংখ্যা, আন্ডারস্কোর এবং চীনা অক্ষর থাকতে পারে।",
+    "description": "1.0 assessment.json"
+  },
+  "notFoundTxt": {
+    "message": "কোনও কোর্স পাওয়া যায় নি - দয়া করে পুনরায় প্রবেশ করুন বা নির্বাচন করুন!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips1": {
+    "message": "গ্রেডিং নিয়মের নাম লিখুন",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips2": {
+    "message": "গ্রেডিং বিধিগুলির নাম অবশ্যই 200 টিরও কম অক্ষরের হতে হবে!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips3": {
+    "message": "বিশেষ অক্ষর থাকতে পারে না!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips4": {
+    "message": "গ্রেডিং বিধিগুলির নাম ইতিমধ্যে বিদ্যমান!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips5": {
+    "message": "একটি কোর্স নির্বাচন করতে হবে!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips6": {
+    "message": "মোট পয়েন্ট প্রবেশ করতে হবে!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips7": {
+    "message": "5-1000 এর একটি ইতিবাচক পূর্ণসংখ্যা লিখুন!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips8": {
+    "message": "একটি নির্ধারিত তারিখ সেট করা আবশ্যক!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxtTips9": {
+    "message": "একটি ক্লাস বা ক্লাস নির্বাচন করতে হবে!",
+    "description": "1.0 assessment.json"
+  },
+  "tipsTxt1": {
+    "message": "এটি ইতিমধ্যে নির্ধারিত তারিখটি পাস করেছে।সম্পাদনা আর কোনও অনুমোদিত নয়।",
+    "description": "1.0 assessment.json"
+  },
+  "tipsTxt2": {
+    "message": "দ্রষ্টব্য: আপনি যদি এখনও সম্পাদনা করতে চান তবে গ্রেডিংয়ের নির্ধারিত তারিখটি পুনরায় সেট করুন।",
+    "description": "1.0 assessment.json"
+  },
+  "alerttips": {
+    "message": "এটি নির্ধারিত তারিখটি পাস করেছে এবং গ্রেডগুলি ইতিমধ্যে সংক্ষিপ্ত করা হয়েছে।আপনি কোর্স গ্রেডগুলি পুনরায় শিমাতে পারবেন না।",
+    "description": "1.0 assessment.json"
+  },
+  "examTipTxt": {
+    "message": "এটি বর্তমানে পরীক্ষার ধরণের কোর্সগুলিকে সমর্থন করে না!",
+    "description": "1.0 assessment.json"
+  },
+  "resourceTxt": {
+    "message": "এটি বর্তমানে রিসোর্স-টাইপ কোর্সগুলিকে সমর্থন করে না!",
+    "description": "1.0 assessment.json"
+  },
+  "selectCourseTxt": {
+    "message": "প্রথমে কোর্স নির্বাচন করুন!",
+    "description": "1.0 assessment.json"
+  },
+  "selectRelevantCourseTxt": {
+    "message": "প্রথমে, এর সাথে যুক্ত হওয়ার জন্য কোর্সটি নির্বাচন করুন!",
+    "description": "1.0 assessment.json"
+  },
+  "selectByYearTxt": {
+    "message": "বছর অনুসারে নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "selectByTeacherTxt": {
+    "message": "শিক্ষক দ্বারা নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "searchTxt": {
+    "message": "অনুসন্ধান",
+    "description": "1.0 assessment.json"
+  },
+  "inputClassNameTxt": {
+    "message": "শ্রেণীর নাম লিখুন",
+    "description": "1.0 assessment.json"
+  },
+  "selectClassTxt": {
+    "message": "ক্লাস নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "selectClassFirseTxt": {
+    "message": "প্রথমে ক্লাস নির্বাচন করুন!",
+    "description": "1.0 assessment.json"
+  },
+  "noDataTxt": {
+    "message": "কোনও ডেটা পাওয়া যায় নি - দয়া করে আবার চেষ্টা করুন!",
+    "description": "1.0 assessment.json"
+  },
+  "selectAllTxt": {
+    "message": "সমস্ত নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "haveRule": {
+    "message": "এটি ইতিমধ্যে গ্রেডিং নিয়ম আছে",
+    "description": "1.0 assessment.json"
+  },
+  "noDataTxt1": {
+    "message": "কোনও ডেটা পাওয়া যায় নি!",
+    "description": "1.0 assessment.json"
+  },
+  "loadDataTxt": {
+    "message": "ডেটা লোড করতে ব্যর্থ - দয়া করে নেটওয়ার্কটি পরীক্ষা করুন!",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt": {
+    "message": "শুধুমাত্র 1-100 এর একটি পূর্ণসংখ্যা লিখুন!",
+    "description": "1.0 assessment.json"
+  },
+  "selectNodeTxt": {
+    "message": "এই কোর্সে আপনার নির্বাচন করার জন্য এখনও কাঠামোগত সামগ্রী নেই",
+    "description": "1.0 assessment.json"
+  },
+  "countRuleTxt": {
+    "message": "গ্রেডিং বিধি",
+    "description": "1.0 assessment.json"
+  },
+  "selectAllChpaterTxt": {
+    "message": "সমস্ত মডিউল নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "averageScoreTxt": {
+    "message": "নির্বাচিত মডিউলগুলির এভিজি স্কোর দ্বারা গ্রেড",
+    "description": "1.0 assessment.json"
+  },
+  "selectCourseAndRulesTxt": {
+    "message": "কোর্স মডিউল এবং গ্রেডিং বিধি নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt1": {
+    "message": "মোট সম্ভাব্য স্কোরের জন্য একটি শেখার সময় প্রবেশ করুন",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt2": {
+    "message": "0 এর স্কোরের জন্য একটি কাট-অফ শেখার সময় লিখুন",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt3": {
+    "message": "একটি গ্রেডিং নিয়ম নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "inputTipsTxt4": {
+    "message": "গ্রেডিং মডিউল/বিষয় নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "noAssiTxt": {
+    "message": "এখনও কোন অ্যাসাইনমেন্ট",
+    "description": "1.0 assessment.json"
+  },
+  "averageScoreAssiTxt": {
+    "message": "নির্বাচিত অ্যাসাইনমেন্টগুলির এভিজি স্কোর দ্বারা গ্রেড",
+    "description": "1.0 assessment.json"
+  },
+  "selectAssiTxt": {
+    "message": "অ্যাসাইনমেন্ট নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "noAssiTxt1": {
+    "message": "এখনও কোন অ্যাসাইনমেন্ট",
+    "description": "1.0 assessment.json"
+  },
+  "noExamTxt": {
+    "message": "এখনও কোন পরীক্ষা",
+    "description": "1.0 assessment.json"
+  },
+  "examTipsTxt": {
+    "message": "যদি পরীক্ষার জন্য একাধিক প্রচেষ্টা অনুমোদিত হয় তবে সর্বোচ্চ স্কোর গণনা করা হয়",
+    "description": "1.0 assessment.json"
+  },
+  "moreExamTxt": {
+    "message": "একাধিক পরীক্ষার জন্য গ্রেডিং বিধি",
+    "description": "1.0 assessment.json"
+  },
+  "highTxt": {
+    "message": "সর্বোচ্চ নম্বর",
+    "description": "1.0 assessment.json"
+  },
+  "averageTxt": {
+    "message": "গড় স্কোর",
+    "description": "1.0 assessment.json"
+  },
+  "selectExamTxt": {
+    "message": "পরীক্ষা নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "confirmDeleteTxt": {
+    "message": "আপনি কি নিশ্চিত যে আপনি এই গ্রেড আইটেমটি মুছতে চান?",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTipsTxt1": {
+    "message": "নির্বাচিত গ্রেডিং আইটেমগুলির মোট ওজন ইতিমধ্যে 100%।আপনি যদি আরও গ্রেডিং আইটেম যুক্ত করতে চান তবে মোট 100%এর চেয়ে ছোট করার জন্য প্রথমে ওজন সম্পাদনা করুন।",
+    "description": "1.0 assessment.json"
+  },
+  "tableTipsTxt": {
+    "message": "ফর্মটিতে এখনও অনুপস্থিত এন্ট্রি রয়েছে",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTipsTxt2": {
+    "message": "ওজনের যোগফল 100%হওয়া উচিত।ওজন সম্পাদনা করুন এবং তারপরে তৈরি করতে ফিনিস বোতামটি ক্লিক করুন।",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTipsTxt3": {
+    "message": "ওজনের যোগফল 100%এরও বেশি।ওজন সম্পাদনা করুন এবং তারপরে সংরক্ষণ করুন।",
+    "description": "1.0 assessment.json"
+  },
+  "createSucTxt": {
+    "message": "সফলভাবে তৈরি!",
+    "description": "1.0 assessment.json"
+  },
+  "createFailTxt": {
+    "message": "তৈরি করতে ব্যর্থ!",
+    "description": "1.0 assessment.json"
+  },
+  "confirmCancelTxt": {
+    "message": "এই পৃষ্ঠায় আপনি যে আপডেটগুলি করেছেন তা বাতিল হওয়ার পরে সংরক্ষণ করা হবে না।আপনি বাতিল করতে চান?",
+    "description": "1.0 assessment.json"
+  },
+  "confirmCancel": {
+    "message": "বাতিল করার বিষয়টি নিশ্চিত করুন",
+    "description": "1.0 assessment.json"
+  },
+  "clickErrorTxt": {
+    "message": "ভুল ক্লিক!",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation1": {
+    "message": "এই কোর্সওয়্যারের সামগ্রীটি পিসি সংস্করণ এবং উলারিং অ্যাপ সংস্করণের মধ্যে পৃথক।শিক্ষার্থীরা যদি উভয় পিসি এবং উলেরিং অ্যাপে সামগ্রীটি অ্যাক্সেস করে থাকে তবে উভয়ের মোট যোগফলের ভিত্তিতে শেখার সময়টি গণনা করা হবে।",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation2": {
+    "message": "কোর্সওয়্যার স্কোরটি পিসি এবং উলারিং অ্যাপের জন্য আলাদাভাবে গণনা করা হয়।প্রতিটি মডিউল/বিষয়ের উচ্চতর স্কোর কোর্স চূড়ান্ত গ্রেডের দিকে গণনা করা হয়।এছাড়াও পিসি-কেবল সামগ্রীর জন্য স্কোর (সামগ্রীটি উলারিং অ্যাপের জন্য উপলভ্য নয়) চূড়ান্ত গ্রেডের দিকে গণনা করা হয়",
+    "description": "1.0 assessment.json"
+  },
+  "assessExplanation3": {
+    "message": "(লাল রঙ ইঙ্গিত করে যে এই বিভাগটি কেবল পিসি সংস্করণে প্রদর্শিত হবে)",
+    "description": "1.0 assessment.json"
+  },
+  "associatePaper": {
+    "message": "সম্পর্কিত পরীক্ষা",
+    "description": "1.0 assessment.json"
+  },
+  "selectRule": {
+    "message": "কোর্স মডিউল এবং গ্রেডিং বিধি নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "setCourseTime": {
+    "message": "কোর্স শেখার সময় সেট করুন",
+    "description": "1.0 assessment.json"
+  },
+  "setCourseGrade": {
+    "message": "গ্রেড কোর্স",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps1": {
+    "message": "নীচের পদক্ষেপগুলি অনুসরণ করুন:",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps2": {
+    "message": "টেমপ্লেটটি ডাউনলোড করুন এবং টেমপ্লেটে নির্দিষ্ট ফর্ম্যাটগুলিতে ডেটা সংগঠিত করুন",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps3": {
+    "message": "টেমপ্লেট ডাউনলোড করুন",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps4": {
+    "message": "সম্পূর্ণ ফাইল আপলোড করুন",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps5": {
+    "message": "দ্রষ্টব্য: আপনি যদি শিক্ষার্থীদের জন্য কোর্স গ্রেড আপডেট করতে চান তবে আপনি ফাইলটি আপডেট করতে পারেন এবং তারপরে এটি পুনরায় আপলোড করতে পারেন।",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps6": {
+    "message": "পুনরায় আপলোড করার পরে, শিক্ষার্থীদের গ্রেডগুলি নতুন গ্রেড দ্বারা প্রতিস্থাপন করা হবে",
+    "description": "1.0 assessment.json"
+  },
+  "operationSetps7": {
+    "message": "ফাইল আপলোড করুন",
+    "description": "1.0 assessment.json"
+  },
+  "classTxt": {
+    "message": "ক্লাস:",
+    "description": "1.0 assessment.json"
+  },
+  "toSelectTxt": {
+    "message": "নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "typeTxt": {
+    "message": "প্রকার",
+    "description": "1.0 assessment.json"
+  },
+  "scoreTxt": {
+    "message": "গ্রেডিং আইটেম",
+    "description": "1.0 assessment.json"
+  },
+  "scoreRuleTxt": {
+    "message": "গ্রেডিং বিধি",
+    "description": "1.0 assessment.json"
+  },
+  "weightTxt": {
+    "message": "ওজন (%)",
+    "description": "1.0 assessment.json"
+  },
+  "fullMarkTxt": {
+    "message": "মোট সম্ভব",
+    "description": "1.0 assessment.json"
+  },
+  "actionTxt": {
+    "message": "ক্রিয়া",
+    "description": "1.0 assessment.json"
+  },
+  "finishtxt": {
+    "message": "সম্পূর্ণ",
+    "description": "1.0 assessment.json"
+  },
+  "cancelTxt": {
+    "message": "বাতিল",
+    "description": "1.0 assessment.json"
+  },
+  "selectTxt": {
+    "message": "নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "courseTxt": {
+    "message": "অবশ্যই",
+    "description": "1.0 assessment.json"
+  },
+  "assignmentTxt": {
+    "message": "অ্যাসাইনমেন্ট",
+    "description": "1.0 assessment.json"
+  },
+  "examTxt": {
+    "message": "পরীক্ষা",
+    "description": "1.0 assessment.json"
+  },
+  "othersTxt": {
+    "message": "অন্যান্য",
+    "description": "1.0 assessment.json"
+  },
+  "ruleTxt6": {
+    "message": "নির্বাচিত মডিউল/বিষয়গুলির এভিজি স্কোর দ্বারা গ্রেড",
+    "description": "1.0 assessment.json"
+  },
+  "editTxt": {
+    "message": "সম্পাদনা",
+    "description": "1.0 assessment.json"
+  },
+  "selectScoreTxt": {
+    "message": "একটি গ্রেডিং নিয়ম নির্বাচন করুন",
+    "description": "1.0 assessment.json"
+  },
+  "studyTimeTxt": {
+    "message": "শেখার সময়",
+    "description": "1.0 assessment.json"
+  },
+  "studyProgressTxt": {
+    "message": "অগ্রগতি শেখা",
+    "description": "1.0 assessment.json"
+  },
+  "courseResultTxt": {
+    "message": "শেখার ফলাফল",
+    "description": "1.0 assessment.json"
+  },
+  "assignmentResultTxt": {
+    "message": "অ্যাসাইনমেন্ট স্কোর",
+    "description": "1.0 assessment.json"
+  },
+  "examResultTxt": {
+    "message": "পরীক্ষার স্কোর",
+    "description": "1.0 assessment.json"
+  },
+  "notSelectAssiTxt": {
+    "message": "কোনও অ্যাসাইনমেন্ট নির্বাচিত নয়",
+    "description": "1.0 assessment.json"
+  },
+  "notSelectExamTxt": {
+    "message": "কোন পরীক্ষা নির্বাচিত",
+    "description": "1.0 assessment.json"
+  },
+  "notInputScoreTxt": {
+    "message": "স্কোরগুলিতে প্রবেশ করল না",
+    "description": "1.0 assessment.json"
+  },
+  "haveInputScore": {
+    "message": "ইতিমধ্যে স্কোর প্রবেশ করেছে",
+    "description": "1.0 assessment.json"
+  },
+  "deleteTxt": {
+    "message": "মুছে ফেলা",
+    "description": "1.0 assessment.json"
+  },
+  "inputTxt": {
+    "message": "ম্যানুয়ালি প্রবেশ করুন",
+    "description": "1.0 assessment.json"
+  },
+  "inputScoreTxt": {
+    "message": "স্কোর প্রবেশ করুন",
+    "description": "1.0 assessment.json"
+  },
+  "selectTipTxt": {
+    "message": "গ্রেডিং আইটেমের নাম, উদাঃ, শেখার সময়",
+    "description": "1.0 assessment.json"
+  }
+}
