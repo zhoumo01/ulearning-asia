@@ -1238,5 +1238,653 @@
   "notice.unread": {
     "message": "未读",
     "description": "新版管理后台 zh.json"
+  },
+  "routers.announcements": {
+    "message": "公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.courseManager": {
+    "message": "课程管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.courseStatistics": {
+    "message": "课程统计",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.courseAnalysis": {
+    "message": "课程分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.examManage": {
+    "message": "考试管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.examAnalysis": {
+    "message": "考试分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.routerBack": {
+    "message": "返回",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManageradd": {
+    "message": "添加",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerPlaceload1": {
+    "message": "全部角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerPlaceload2": {
+    "message": "全部基础角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader1": {
+    "message": "名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader2": {
+    "message": "角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader3": {
+    "message": "基础角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader4": {
+    "message": "应用范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader5": {
+    "message": "说明",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader6": {
+    "message": "角色人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader7": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormTitle": {
+    "message": "添加角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem1": {
+    "message": "角色名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem2": {
+    "message": "角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem3": {
+    "message": "基础角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem4": {
+    "message": "角色作用范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem5": {
+    "message": "数据范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem6": {
+    "message": "说明",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem7": {
+    "message": "仅应用于本机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem8": {
+    "message": "应用于本机构与子机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItemSubmit": {
+    "message": "更新设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItemPlaceholder1": {
+    "message": "输入角色名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItemPlaceholder2": {
+    "message": "输入角色名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerSettingPermission": {
+    "message": "配置权限",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerViewRole": {
+    "message": "查看用户",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerAddUser": {
+    "message": "添加用户",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerCreateByRole": {
+    "message": "按角色创建",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerDeleteRole": {
+    "message": "删除角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleSettingPermissionSetting": {
+    "message": "权限设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleSettingFilter": {
+    "message": "按名称过滤",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleNameTips": {
+    "message": "请填写角色名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleRoleAreaPlaceload": {
+    "message": "选择角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleBaseRolePlaceload": {
+    "message": "选择基础角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleDataRangePlaceload": {
+    "message": "选择数据范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleDataRangeOption1": {
+    "message": "本机构与子机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleDataRangeOption2": {
+    "message": "仅本机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleTextareaPlaceload": {
+    "message": "输入备注信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionconfirmDeleteRole": {
+    "message": "确认要删除该角色吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionConfirm": {
+    "message": "操作确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionconfirmBtnMsg": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionRoleChange": {
+    "message": "角色变更",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionRoleByDel": {
+    "message": "角色已删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmRoleSetting": {
+    "message": "您更改了基础角色，是否需要按照新的基础角色重置权限？",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText1": {
+    "message": "操作确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText2": {
+    "message": "仅更改不重置",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText3": {
+    "message": "更改, 同时重置",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText4": {
+    "message": "更新角色成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText5": {
+    "message": "取消更新角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addRoleSuccess": {
+    "message": "添加角色成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addRoleFail": {
+    "message": "添加角色失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.noPermissionUpdate": {
+    "message": "没有权限修改此角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.rolePermissionSuccess": {
+    "message": "角色权限修改成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleAllSort": {
+    "message": "全部类别",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleNull": {
+    "message": "无",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.startDate": {
+    "message": "开始时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.endDate": {
+    "message": "结束时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dateTo": {
+    "message": "至",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errTitle1": {
+    "message": "最多可输入100个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errContent1": {
+    "message": "文字不可超过{num}个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.failPub": {
+    "message": "发布公告失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.knowMore": {
+    "message": "了解更多 》",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.sendAndFailErr": {
+    "message": "发送时间不得等于或晚于失效时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.noPublish": {
+    "message": "尚未发布",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.fileErr": {
+    "message": "上传文件格式不正确!",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.checkMore": {
+    "message": "查看更多",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.okDown": {
+    "message": "已下载",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseManager": {
+    "message": "课程管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseDesc": {
+    "message": "Courses hosted by the school.",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseStatistics": {
+    "message": "课程统计",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseStatisticsDesc": {
+    "message": "注：数据每天更新一次，上次更新时间 {date}",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseTypeSettings": {
+    "message": "课程类型设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.createCourse": {
+    "message": "创建课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.fullYear": {
+    "message": "全部年份",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.allOrg": {
+    "message": "全部机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.allState": {
+    "message": "所有状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.processing": {
+    "message": "进行中",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.over": {
+    "message": "已结束",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.allType": {
+    "message": "所有类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.searchPlaceholder": {
+    "message": "输入课程名称或教师姓名搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseID": {
+    "message": "课程ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseName": {
+    "message": "课程名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseCode": {
+    "message": "课程代码",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseType": {
+    "message": "课程类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.subordinateCollege": {
+    "message": "所属机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.state": {
+    "message": "状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseCreator": {
+    "message": "课程创建人",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.createTime": {
+    "message": "创建时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.teacherNum": {
+    "message": "教师人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.classNum": {
+    "message": "班级数量",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.studentNum": {
+    "message": "学生人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.actions": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.editCourse": {
+    "message": "编辑课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.addPerson": {
+    "message": "添加人员",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.joinCourse": {
+    "message": "进入课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseAnalysis": {
+    "message": "课程分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.to": {
+    "message": "至",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.startDate": {
+    "message": "开始时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.endDate": {
+    "message": "结束时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.setTheClassTypeOfTheSchoolClass": {
+    "message": "设置本校班课课程类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.delete": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.addContinue": {
+    "message": "继续添加",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.cancel": {
+    "message": "取消",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.confirm": {
+    "message": "确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.selectOrg": {
+    "message": "选择机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseGeneral": {
+    "message": "概况统计",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseGeneralDesc": {
+    "message": "仅统计选定时间范围内新建的课程，不包含学生人数小于10的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.numberOfCoursesRunning": {
+    "message": "运行课程数量",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.totalNumberOfCoursewareUsed": {
+    "message": "使用课件总数",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.numberOfLecturesPerTeacher": {
+    "message": "教师人均授课数",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.numberOfCoursesTakenPerStudent": {
+    "message": "学生人均选课门数",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.theCumulativeNumberOfStudentsEnrolledInCourses": {
+    "message": "学生累计选课人次",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseSizeDistribution": {
+    "message": "课程规模分布",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseSizeDistributionDesc": {
+    "message": "仅统计选定时间范围内新建的课程，不包含学生人数小于10的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.peopleCouse": {
+    "message": "{num}人的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.teachModelAnalyze": {
+    "message": "教学模式分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.teachModelAnalyzeDesc": {
+    "message": "仅统计选定时间范围内新建的课程，不包含学生人数小于10的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.resourceLearningClass": {
+    "message": "资源学习型课",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.resourceLearningClassDesc": {
+    "message": "除公告、课件和资源以外，课程中发布的其它教学活动少于5个的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.classroomInteractiveCourse": {
+    "message": "课堂互动型课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.classroomInteractiveCourseDesc": {
+    "message": "课程中发布的作业、讨论、直播、课堂活动，累计超过20个，且其中直播和课堂活动占比超过80",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.blendedCourse": {
+    "message": "混合型课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.blendedCourseDesc": {
+    "message": "课程中发布的作业、讨论、直播、课堂活动，累计超过20个，其中至少包含3类活动，且直播和课堂活动占比低于50",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.otherTypesOfCourses": {
+    "message": "其他类型课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.otherTypesOfCoursesDesc": {
+    "message": "不包含在前3类之中的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.evaluationMethod": {
+    "message": "课程评价方式分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.evaluationMethodDesc": {
+    "message": "仅统计选定时间范围内新建的课程，不包含学生人数小于10的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.examPercentage": {
+    "message": "发布了考试的课程占比",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.theProportionOfAssessmentRules": {
+    "message": "设置了考核规则的课程占比",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.in": {
+    "message": "其中：",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.onlyStatisticsOfCoursewareLearning": {
+    "message": "仅统计课件学习情况",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.includeClassRollCallAndPerformanceInTheAssessment": {
+    "message": "将课堂点名及表现纳入考核",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.incorporateTestScoresIntoAssessments": {
+    "message": "将考试成绩纳入考核",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.analysis": {
+    "message": "分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder1": {
+    "message": "输入考试/教师名称搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder2": {
+    "message": "检索时间范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder3": {
+    "message": "所有考试",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder4": {
+    "message": "选择机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead1": {
+    "message": "考试名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead2": {
+    "message": "发布人",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead3": {
+    "message": "所属课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead4": {
+    "message": "所属机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead5": {
+    "message": "状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead6": {
+    "message": "有效期",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead7": {
+    "message": "参与人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead8": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examGrade": {
+    "message": "查看成绩",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.analysisTitle1": {
+    "message": "基本情况",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.baseTip1": {
+    "message": "考试发布量",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.baseTip2": {
+    "message": "考生参与人次",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.baseTip3": {
+    "message": "考生参与人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examAnalysisTitle": {
+    "message": "考试概况",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.selectOrg": {
+    "message": "选择机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status1": {
+    "message": "所有考试",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status2": {
+    "message": "未开始",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status3": {
+    "message": "进行中",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status4": {
+    "message": "已结束",
+    "description": "新版管理后台 zh.json"
   }
 }
