@@ -2632,7 +2632,7 @@
     "description": "新版管理后台 zh.json"
   },
   "live.optionsTableAction2": {
-    "message": "停用/启用",
+    "message": "停用",
     "description": "新版管理后台 zh.json"
   },
   "live.optionsTableAction3": {
@@ -2740,7 +2740,7 @@
     "description": "新版管理后台 zh.json"
   },
   "live.liveTableHead7": {
-    "message": "观看人数/应到人数",
+    "message": "应到人数",
     "description": "新版管理后台 zh.json"
   },
   "live.liveTableHead8": {
@@ -2841,6 +2841,282 @@
   },
   "live.lessHour": {
     "message": "{hour}小时以内",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.action": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.warning": {
+    "message": "警告",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteRoleFail": {
+    "message": "该角色已关联至用户, 无法删除, 请移除该角色与用户的关联后继续删除操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.deleteBtn": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportBtn": {
+    "message": "导出",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportTitle": {
+    "message": "批量导出",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportDesc": {
+    "message": "可一次性导出指定范围的数据",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportTip": {
+    "message": "请设置需要导出的数据范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportSuccess": {
+    "message": "数据导出成功，请注意查收",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.back": {
+    "message": "返回",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.passwordFail": {
+    "message": "密码修改失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.newPassword": {
+    "message": "新密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.autoGenerate": {
+    "message": "自动生成",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.autoGenerateSuccess": {
+    "message": "自动生成的密码以复制到剪贴板",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.confirmPassword": {
+    "message": "确认密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.lastLogin": {
+    "message": "最后登录:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.usersItem1": {
+    "message": "可用会话",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.usersItem2": {
+    "message": "课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.usersItem3": {
+    "message": "存储",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.stopUserSuccess": {
+    "message": "停用账号成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.stopUserFail": {
+    "message": "停用账号失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeUserSuccess": {
+    "message": "激活账号成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeUserFail": {
+    "message": "激活账号失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.deleteUserSuccess": {
+    "message": "删除账号成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.deleteUserFail": {
+    "message": "删除账号失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.lessOneUser": {
+    "message": "添加至少一个已有账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.lessOneMail": {
+    "message": "添加至少一个邀请邮件",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createAccountSuccess": {
+    "message": "创建账号成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createAccountFail": {
+    "message": "创建账号失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteMailSuccess": {
+    "message": "通过邮件邀请创建新账号 {mail} 等 {num} 个账号已添加",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerMailSuccess": {
+    "message": "{mail} 等 {num} 个账号注册已完成",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteMailFail": {
+    "message": "已向{mail1} 等 {num1} 个邮箱发送注册邀请。{mail2} 等{num2} 个邮箱发送邮件失败。您可以进行以下操作:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeStatus": {
+    "message": "激活",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.suspendStatus": {
+    "message": "已停用",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.pendingStatus": {
+    "message": "待激活",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.removeAccountSuccess": {
+    "message": "移除账号成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.removeAccountFail": {
+    "message": "移除账号失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editRegisterFail": {
+    "message": "修改注册关系失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.noAccount": {
+    "message": "账号不存在，无法添加，联系账号管理员添加账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountList": {
+    "message": "账号列表",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.byEmail": {
+    "message": "通过邮件",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.byAccount": {
+    "message": "通过账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendNewMail": {
+    "message": "更改email后，发送验证邮件到新邮箱",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction5": {
+    "message": "启用",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormLabel1": {
+    "message": "机构范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormPlaceholder1": {
+    "message": "请选择机构范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormLabel2": {
+    "message": "时间范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormPlaceholder2": {
+    "message": "请选择时间范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormLabel3": {
+    "message": "直播状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.distributeTeacherTip": {
+    "message": "只可选择所分配机构下的教师和管理员。<br/>默认选择所分配机构下的所有教师和管理员。 ",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider1": {
+    "message": "云会议",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider2": {
+    "message": "拓课云",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider3": {
+    "message": "保利威",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider4": {
+    "message": "welink",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider5": {
+    "message": "腾讯云会议",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.saveMeetingOptionSuccess": {
+    "message": "云会议室配置已更新",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.createMeetingRoomTitle": {
+    "message": "创建云会议室",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.editMeetingRoomTitle": {
+    "message": "修改云会议室",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.createMeetingRoomSuccess": {
+    "message": "会议室创建成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.editMeetingRoomSuccess": {
+    "message": "会议室修改成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomTitle": {
+    "message": "删除该会议室资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomDesc": {
+    "message": "删除该会议室资源后，所有与该会议室资源相关的数据将被删除，存储空间将被释放，此操作不可逆，确认要执行此操作吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomConfirm": {
+    "message": "删除该会议室资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomSuccess": {
+    "message": "会议室删除成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.selctTea": {
+    "message": "选择老师",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.seetingMeetingRoomTitle": {
+    "message": "配置云会议室",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.selectPlaceholder": {
+    "message": "请选择",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction6": {
+    "message": "停用",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead9": {
+    "message": "应到人数",
     "description": "新版管理后台 zh.json"
   }
 }
