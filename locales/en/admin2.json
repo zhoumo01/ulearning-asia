@@ -12,7 +12,7 @@
     "description": "新版管理后台 zh.json"
   },
   "organization.addOrganization": {
-    "message": "Add organization",
+    "message": "Add sub-organization",
     "description": "新版管理后台 zh.json"
   },
   "organization.search": {
@@ -84,7 +84,7 @@
     "description": "新版管理后台 zh.json"
   },
   "organization.addTenantDesc": {
-    "message": "Add a new tenant and click Tenant Management to view the details",
+    "message": "Add a sub-organization, click Organization Management to view details.",
     "description": "新版管理后台 zh.json"
   },
   "organization.parentOrg": {
@@ -3158,5 +3158,225 @@
   "live.liveTableAction2": {
     "message": "The meeting has ended",
     "description": "新版管理后台"
+  },
+  "organization.choseAdmin": {
+    "message": "Select administrator",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.choseAdminTip": {
+    "message": "Enter name or email address  to search",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.loading": {
+    "message": "Loading...",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.nomore": {
+    "message": "No more",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType1": {
+    "message": "Management orgnization",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType2": {
+    "message": "Instructional orgnization",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType3": {
+    "message": "Internal orgnization",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepTitle": {
+    "message": "New tenant",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step1": {
+    "message": "General settings",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step2": {
+    "message": "Set general information of tenant.",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step3": {
+    "message": "Resources",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step4": {
+    "message": "Configure the resources available to the tenant",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step5": {
+    "message": "Set administrator",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step6": {
+    "message": "Create a super administrator for tenant",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step7": {
+    "message": "Notify other stakeholders",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step8": {
+    "message": "Send a notification email to stakeholders",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step9": {
+    "message": "Email preview",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepDesc": {
+    "message": "After the tenant is created, an email notification of details will send to the stakeholders, include  tenant and agent administrator. If you need to send it to other people, enter emails address below.",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn1": {
+    "message": "Next",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn2": {
+    "message": "Previous",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn3": {
+    "message": "New tenant",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn4": {
+    "message": "Close",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepSuccess": {
+    "message": "Tenant created successfully. Click the close button  to return. Click the link below to continue setting up the tenant.",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp1": {
+    "message": "Respectful ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp2": {
+    "message": "Thank you for using ULearning, here are the details of your order",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp3": {
+    "message": "General:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp4": {
+    "message": "Tenant name: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp5": {
+    "message": "Resources:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp6": {
+    "message": "Service start time: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp7": {
+    "message": "Service expiration time:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp8": {
+    "message": "Archive expiration time:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp9": {
+    "message": "Maximum number of accounts:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp10": {
+    "message": "Maximum number of active accounts:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp11": {
+    "message": "Maximum cloud storage: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp12": {
+    "message": "Review the following information to help your use:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp13": {
+    "message": "ULearning User Manual",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp14": {
+    "message": "\"How to use\" video clips for teachers (En)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp15": {
+    "message": "\"How to use\" video clips for students (En)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp16": {
+    "message": "If you have any questions, please contact your Customer Success Manager",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp17": {
+    "message": "Sincerely",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp18": {
+    "message": "ULearning team",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp19": {
+    "message": "sg.service@ulearning.asia",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.repeatTip": {
+    "message": "The name is already taken, please use a different one",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addRuleErr1": {
+    "message": "Required field",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addRuleErr2": {
+    "message": "Text cannot exceed {num} characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailerr": {
+    "message": "The email {mail} is incorrect",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.toggleOrgSuccess": {
+    "message": "The institution switch is successful, and the page will be updated soon",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.addAnnouncement": {
+    "message": "Create announcement",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.announcementDetail": {
+    "message": "View announcements",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.orgResource": {
+    "message": "Resources",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.baseResourceSetting": {
+    "message": "General resources",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.rolePermissionSetting": {
+    "message": "Configure permissions",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.homePage": {
+    "message": "Dashboard",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.baseResourceSettingSuccess": {
+    "message": "The general resource is configured successfully",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.error": {
+    "message": "Failed to operate",
+    "description": "新版管理后台 zh.json"
   }
 }
