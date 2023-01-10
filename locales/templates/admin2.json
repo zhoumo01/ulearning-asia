@@ -12,7 +12,7 @@
     "description": "新版管理后台 zh.json"
   },
   "organization.addOrganization": {
-    "message": "添加机构",
+    "message": "添加子机构",
     "description": "新版管理后台 zh.json"
   },
   "organization.search": {
@@ -84,7 +84,7 @@
     "description": "新版管理后台 zh.json"
   },
   "organization.addTenantDesc": {
-    "message": "添加新租户，点击租户管理查看详细信息",
+    "message": "添加子机构，点击机构管理查看详细信息",
     "description": "新版管理后台 zh.json"
   },
   "organization.parentOrg": {
@@ -1148,7 +1148,7 @@
     "description": "新版管理后台 zh.json"
   },
   "notice.isSendEmail": {
-    "message": "是否同步发送到邮箱？",
+    "message": "是否同步发送到邮箱",
     "description": "新版管理后台 zh.json"
   },
   "notice.sendIntro": {
@@ -3158,5 +3158,225 @@
   "live.liveTableAction2": {
     "message": "会议已结束",
     "description": "新版管理后台"
+  },
+  "organization.choseAdmin": {
+    "message": "选择管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.choseAdminTip": {
+    "message": "请输入姓名或者邮箱，回车进行搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.loading": {
+    "message": "加载中...",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.nomore": {
+    "message": "没有更多了",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType1": {
+    "message": "管理机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType2": {
+    "message": "教学机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType3": {
+    "message": "内部机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepTitle": {
+    "message": "新建租户",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step1": {
+    "message": "基础设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step2": {
+    "message": "设置租户基础信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step3": {
+    "message": "资源设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step4": {
+    "message": "配置租户可用资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step5": {
+    "message": "设置管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step6": {
+    "message": "为该租户创建超级管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step7": {
+    "message": "通知相关人",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step8": {
+    "message": "将通知邮件发送给相关人",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step9": {
+    "message": "邮件预览",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepDesc": {
+    "message": "租户创建后，向相关人发送邮件通知，告知本租户详细信息。邮件将会发送给租户管理代理管理员与系统管理员。如果需要发送给其他相关人，在下方输入邮件地址。",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn1": {
+    "message": "下一步",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn2": {
+    "message": "上一步",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn3": {
+    "message": "创建租户",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn4": {
+    "message": "关闭",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepSuccess": {
+    "message": "租户创建成功，点击下方关闭按钮回到原页面，点击以下链接地址，继续对该租户进行设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp1": {
+    "message": "尊敬的",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp2": {
+    "message": "感谢您使用ULearning，以下是您的订单详情",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp3": {
+    "message": "通用信息:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp4": {
+    "message": "租户名称: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp5": {
+    "message": "资源:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp6": {
+    "message": "服务开始时间: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp7": {
+    "message": "服务到期时间: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp8": {
+    "message": "存档到期时间: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp9": {
+    "message": "最大账号数量: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp10": {
+    "message": "最大活跃账号数量: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp11": {
+    "message": "最大云存储: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp12": {
+    "message": "查看以下信息以帮助您的使用:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp13": {
+    "message": "ULearning用户手册（EN）",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp14": {
+    "message": "\"How to use\" video clips for teachers (En)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp15": {
+    "message": "\"How to use\" video clips for students (En)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp16": {
+    "message": "如果有任何问题，请联系您的客户经理",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp17": {
+    "message": "此致",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp18": {
+    "message": "ULearning 团队",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp19": {
+    "message": "sg.service@ulearning.asia",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.repeatTip": {
+    "message": "该名称已经被占用，请使用其他名字",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addRuleErr1": {
+    "message": "必填项",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addRuleErr2": {
+    "message": "文字不可超过{num}个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailerr": {
+    "message": "{mail} 邮箱格式不正确",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.toggleOrgSuccess": {
+    "message": "机构切换成功，页面即将更新",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.addAnnouncement": {
+    "message": "创建公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.announcementDetail": {
+    "message": "查看公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.orgResource": {
+    "message": "机构资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.baseResourceSetting": {
+    "message": "基础资源配置",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.rolePermissionSetting": {
+    "message": "配置权限",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.homePage": {
+    "message": "主页",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.baseResourceSettingSuccess": {
+    "message": "基础资源配置成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.error": {
+    "message": "操作失败",
+    "description": "新版管理后台 zh.json"
   }
 }
