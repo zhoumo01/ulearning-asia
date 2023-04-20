@@ -3378,5 +3378,373 @@
   "saas.error": {
     "message": "操作失败",
     "description": "新版管理后台 zh.json"
+  },
+  "organization.updateconfirmDesc": {
+    "message": "您对以下字段做了修改，确认要更新这些字段吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.repeatTip1": {
+    "message": "该标识符已经被占用，请使用其他标识符",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.uploadLogoTip": {
+    "message": "上传图标只能为 png、jpg、jpeg、gif 格式!",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.emailErrorTip": {
+    "message": "请输入正确的邮箱地址",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementType": {
+    "message": "用户协议类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementContent": {
+    "message": "用户协议内容",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementContentTip": {
+    "message": "用户协议内容不能为空",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.policyContentTip": {
+    "message": "隐私协议内容不能为空",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.updatepolicyContentSuccess": {
+    "message": "更新隐私设置成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate1": {
+    "message": "网站模板",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate2": {
+    "message": "菜单式",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate3": {
+    "message": "如果您想自己自定义菜单或者首页的内容，建议使用该模板",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate4": {
+    "message": "登录式",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate5": {
+    "message": "如果您仅想让学生有个单独的登录入口建议使用该模板",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.errorTip1": {
+    "message": "此ID已占用，请使用其他的ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.errorTip2": {
+    "message": "该域名已占用，请输入其他名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAdd": {
+    "message": "批量添加",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.uploaderTitle": {
+    "message": "选择文件",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.uploaderDesc": {
+    "message": "拖拽文件到此处或者选择文件(.csv .xlsx)",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddErrorTip1": {
+    "message": "文件格式不正确，请选择.csv或者.xlsx文件",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddErrorTip2": {
+    "message": "文件不能超过5M",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.backStepBtn": {
+    "message": "上一步",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.nextStepBtn": {
+    "message": "下一步",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.continueBtn": {
+    "message": "继续",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataTotal": {
+    "message": "总计",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataFail": {
+    "message": "错误条目",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataPass": {
+    "message": "校验通过",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.options": {
+    "message": "选项",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddMaxTip": {
+    "message": "单次导入数据不能超过{n}条，请分次导入",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportErrorList": {
+    "message": "下载错误数据",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.inputRequireErrorTip": {
+    "message": "请填写{labelTitle}",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.selectRequireErrorTip": {
+    "message": "请选择{labelTitle}",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.minErrorTip": {
+    "message": "内容不可少于{min}个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.maxErrorTip": {
+    "message": "内容不可超过{max}个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountTitle": {
+    "message": "批量添加账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountDesc": {
+    "message": "通过文件一次性添加多条数据",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountRule": {
+    "message": "单次导入不超过1000条，文件不超过5M",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.template1": {
+    "message": "模板(.csv)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.template2": {
+    "message": "模板(.xlsx)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRuleTitle": {
+    "message": "数据要求",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule1": {
+    "message": "【fullname】文本，必填，不多于128字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule2": {
+    "message": "【display_name】文本，必填，不多于64字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule3": {
+    "message": "【email】必填，不可重复",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule4": {
+    "message": "【sis_id】可选，文本，不多于128字符，不可重复",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule5": {
+    "message": "【password】必填，文本，8-20位，含字母与数字",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule6": {
+    "message": "【enroll_to】可选，默认注册到本机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule7": {
+    "message": "【role】必填，多个角色使用逗号分开，用户注册到的机构所支持的角色列表",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendEmailTitle": {
+    "message": "账号创建后发送通知邮件",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendEmailDesc": {
+    "message": "添加账号后，将按照账号邮件地址向用户发送通知邮件。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.submitBtn": {
+    "message": "添加",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountMaxTip": {
+    "message": "账号数量已达到本机构账号上限， 无法创建新的账号，<br/> 请联系管理员购买新的账号。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeAccountMaxTip": {
+    "message": "活跃账号数量已达到上限，无法创建新的账号，<br/>请联系管理员购买新的活跃账号。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip1": {
+    "message": "请输入账号全名",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip2": {
+    "message": "全名不能超过128字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip3": {
+    "message": "请输入显示名",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip4": {
+    "message": "显示名不能超过64个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip5": {
+    "message": "请输入邮件地址",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip6": {
+    "message": "邮件格式错误，请填写正确的邮件地址",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip7": {
+    "message": "该邮件地址已注册，请使用其他邮件",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip8": {
+    "message": "文件内邮件地址存在重复，请确保文件中邮件地址是唯一的",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip9": {
+    "message": "SISID不能超过128字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip10": {
+    "message": "该SISID已使用，请使用其他ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip11": {
+    "message": "SISID存在重复，确保文件中SIS ID是唯一的",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip12": {
+    "message": "请输入密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip13": {
+    "message": "密码不能少于8位",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip14": {
+    "message": "密码不能多于20位",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip15": {
+    "message": "密码必须包含字母与数字",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip16": {
+    "message": "请输入要注册到的机构名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip17": {
+    "message": "机构名称未找到，请使用正确的机构名",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip18": {
+    "message": "机构名称不能超过256字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip19": {
+    "message": "机构名称至少两个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip20": {
+    "message": "请填写角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip21": {
+    "message": "无法验证，请填写要分配的角色名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip22": {
+    "message": "角色名称不能超过128个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip23": {
+    "message": "请使用该机构支持的角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip24": {
+    "message": "当前没有通过校验的数据,请重新导入",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddSuccessTip": {
+    "message": "成功新增{n}个账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddFailTip": {
+    "message": "{n}个账号添加失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.exportErrorData": {
+    "message": "点击导出错误数据",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.addCountMaxTip": {
+    "message": "待创建账号数量({addNum}) 超过本机构剩余可用活跃账号数量({maxNum})， 无法创建新的账号， 请联系管理员购买新的账号。",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth1": {
+    "message": "登录与认证",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth2": {
+    "message": "设置用户登录与认证方式以及SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth3": {
+    "message": "设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth4": {
+    "message": "认证设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth5": {
+    "message": "基本信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth6": {
+    "message": "登录页URL",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth7": {
+    "message": "设置页面",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth8": {
+    "message": "登录设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth9": {
+    "message": "允许邮件密码登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth10": {
+    "message": "允许用户通过账号密码登录系统。停用此功能，用户无法使用邮件与密码登录，也无法修改个人密码。",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth11": {
+    "message": "禁止邮件密码登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth12": {
+    "message": "用此设置将不再允许用户使用电子邮件和密码登录。在进行更改之前，请确保用户具有替代的登录方法。单击确认按钮以应用更改。",
+    "description": "新版管理后台 zh.json"
   }
 }
