@@ -3378,5 +3378,373 @@
   "saas.error": {
     "message": "Failed to operate",
     "description": "新版管理后台 zh.json"
+  },
+  "organization.updateconfirmDesc": {
+    "message": "You have made edits to the following fields. Do you confirm updating these fields?",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.repeatTip1": {
+    "message": "The identifier is already in use, use a different identifier",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.uploadLogoTip": {
+    "message": "Upload icons can only be in PNG, JPG, JPEG, GIF formats!",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.emailErrorTip": {
+    "message": "Please enter a valid email",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementType": {
+    "message": "User Agreement Type",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementContent": {
+    "message": "User Agreement Content",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementContentTip": {
+    "message": "The user agreement content cannot be empty",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.policyContentTip": {
+    "message": "The content of the privacy policy cannot be empty",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.updatepolicyContentSuccess": {
+    "message": "The privacy settings were updated successfully",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate1": {
+    "message": "Site templates",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate2": {
+    "message": "Menu Style",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate3": {
+    "message": "Recommended if you want to customize the menu and content of the homepage",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate4": {
+    "message": "Login Style",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate5": {
+    "message": "Recommended if you want to keep the homepage clean with a login box",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.errorTip1": {
+    "message": "This ID is already taken, please use a different ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.errorTip2": {
+    "message": "The domain name is already occupied, please enter a different name",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAdd": {
+    "message": "Batch add",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.uploaderTitle": {
+    "message": "Select File",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.uploaderDesc": {
+    "message": "Drag and drop files here or select files (.csv .xlsx)",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddErrorTip1": {
+    "message": "The file format is incorrect, please select .csv or .xlsx file",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddErrorTip2": {
+    "message": "Files cannot exceed 5M",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.backStepBtn": {
+    "message": "Previous",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.nextStepBtn": {
+    "message": "Next",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.continueBtn": {
+    "message": "Continue",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataTotal": {
+    "message": "Total ",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataFail": {
+    "message": "Errors",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataPass": {
+    "message": "Passed",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.options": {
+    "message": "Options",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddMaxTip": {
+    "message": "The data imported at a time cannot exceed {n}, please import it in stages",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportErrorList": {
+    "message": "Download error data",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.inputRequireErrorTip": {
+    "message": "Please fill in {labelTitle}",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.selectRequireErrorTip": {
+    "message": "Please select {labelTitle}",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.minErrorTip": {
+    "message": "The content must not be less than {min} characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.maxErrorTip": {
+    "message": "Content cannot exceed {max} characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountTitle": {
+    "message": "Batch add accounts",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountDesc": {
+    "message": "Add multiple items of data at once from a file",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountRule": {
+    "message": "A single import does not exceed 1000 items, and the file does not exceed 5M",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.template1": {
+    "message": "Template (.csv)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.template2": {
+    "message": "Template (.xlsx)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRuleTitle": {
+    "message": "Data requirements",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule1": {
+    "message": "【fullname】Text, required, no more than 128 characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule2": {
+    "message": "【display_name】Text, required, no more than 64 characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule3": {
+    "message": "【Email】Required, not repeatable",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule4": {
+    "message": "【sis_id】Optional, text, no more than 128 characters, not repeatable",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule5": {
+    "message": "【password】Required, text, 8-20 digits, including letters and numbers",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule6": {
+    "message": "【enroll_to】Optional, registered with this institution by default",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule7": {
+    "message": "【role】Required, multiple roles separated by commas, a list of roles supported by the institution to which the user is registered",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendEmailTitle": {
+    "message": "Send a notification email after the account is created",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendEmailDesc": {
+    "message": "After the account is added, a notification email will be sent to the user according to the account email address.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.submitBtn": {
+    "message": "Add",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountMaxTip": {
+    "message": "The number of accounts has reached the maximum number of accounts of the institution, and it is not possible to create new accounts.<br/> Contact your administrator to purchase a new account.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeAccountMaxTip": {
+    "message": "The maximum number of active accounts has been reached and new accounts cannot be created,<br/>Contact your administrator to purchase a new active account.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip1": {
+    "message": "Please enter your full name",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip2": {
+    "message": "The full name cannot exceed 128 characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip3": {
+    "message": "Please enter a display name",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip4": {
+    "message": "The display name cannot exceed 64 characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip5": {
+    "message": "Please enter your email address",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip6": {
+    "message": "The email format is incorrect, please fill in the correct email address",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip7": {
+    "message": "This email address is already registered, please use another email",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip8": {
+    "message": "There are duplicates of email addresses in the file, please make sure that the email addresses in the file are unique",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip9": {
+    "message": "SIS IDs cannot exceed 128 characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip10": {
+    "message": "The SIS ID is already in use, please use a different ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip11": {
+    "message": "SIS IDs are duplicated, ensuring that the SIS ID is unique in the file",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip12": {
+    "message": "Please enter the password",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip13": {
+    "message": "The password must not be less than 8 digits",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip14": {
+    "message": "The password cannot be more than 20 digits",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip15": {
+    "message": "The password must contain letters and numbers",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip16": {
+    "message": "Please enter the name of the orgnization you want to enroll to",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip17": {
+    "message": "Organization name not found, please use the correct organization name",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip18": {
+    "message": "The name of the organization cannot exceed 256 characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip19": {
+    "message": "The organization name must be at least two characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip20": {
+    "message": "Please fill in the role",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip21": {
+    "message": "Unable to verify, please fill in the name of the role to assign",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip22": {
+    "message": "Role names cannot exceed 128 characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip23": {
+    "message": "Use roles that are supported by the orgnization",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip24": {
+    "message": "Data that has not passed the verification is currently imported",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddSuccessTip": {
+    "message": "{n} accounts were added",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddFailTip": {
+    "message": "{n} accounts failed to add",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.exportErrorData": {
+    "message": " Click to export error data",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.addCountMaxTip": {
+    "message": "The number of accounts to be created ({addNum}) exceeds the number of remaining active accounts ({maxNum}) in the orgnization, and the new account cannot be created, please contact the administrator to purchase a new account.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth1": {
+    "message": "Authentication",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth2": {
+    "message": "Set the user login and authentication methods and SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth3": {
+    "message": "Settings",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth4": {
+    "message": "Authentication settings",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth5": {
+    "message": "Basic Information",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth6": {
+    "message": "Login page URL",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth7": {
+    "message": "Customize page",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth8": {
+    "message": "Login settings",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth9": {
+    "message": "Allow email password login",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth10": {
+    "message": "Allow users to log in to the system through email and password. When this feature is disabled, users cannot log in with email and password, and they cannot change their personal passwords.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth11": {
+    "message": "Disable email password login",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth12": {
+    "message": "With this setting, users will no longer be allowed to sign in with email and password. Before you make changes, make sure that users have an alternative sign-in method. Click the Confirm button to apply the changes.",
+    "description": "新版管理后台 zh.json"
   }
 }
