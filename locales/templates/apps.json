@@ -2776,11 +2776,11 @@
     "description": "小应用"
   },
   "course.resetTip": {
-    "message": "确定将{name}的密码重置为123456?",
+    "message": "确定将{name}的密码重置为Yxy123456?",
     "description": "小应用"
   },
   "course.resetSucTip": {
-    "message": "学生密码已经重置为123456",
+    "message": "学生密码已经重置为Yxy123456",
     "description": "小应用"
   },
   "course.resetFailTip": {
@@ -3048,7 +3048,7 @@
     "description": "小应用"
   },
   "user.inputPasswordTip": {
-    "message": "请输入密码(8-16位数字和字母的组合)",
+    "message": "请输入密码",
     "description": "小应用"
   },
   "user.confirmPassword": {
@@ -3124,7 +3124,7 @@
     "description": "小应用"
   },
   "user.inputPasswordTip1": {
-    "message": "密码必须为8-16位数字、字母的组合",
+    "message": "8-16位，须包含至少3种字符（数字、大写字母、小写字母或特殊符号）",
     "description": "小应用"
   },
   "user.inputPasswordTip2": {
@@ -3280,7 +3280,7 @@
     "description": "小应用"
   },
   "user.back": {
-    "message": "返回上一步",
+    "message": "返回",
     "description": "小应用"
   },
   "user.registerTip": {
@@ -3964,7 +3964,7 @@
     "description": "小应用"
   },
   "loginCode.tips1": {
-    "message": "开启该功能可支持手机端与大屏端的联动授课，",
+    "message": "开启该功能可支持手机端与大屏端的联动授课",
     "description": "小应用"
   },
   "loginCode.tips2": {
@@ -3980,7 +3980,7 @@
     "description": "小应用"
   },
   "loginCode.tips5": {
-    "message": "使用手机控制大屏端活动的开启、结束、显示详情等状态。",
+    "message": "使用手机控制大屏端活动的开启、结束、显示详情等状态;",
     "description": "小应用"
   },
   "loginCode.tips6": {
@@ -4152,15 +4152,15 @@
     "description": "小应用"
   },
   "photograph.msg1": {
-    "message": "按照教师要求上传照片，最多上传20张图片",
+    "message": "按照教师要求上传照片/视频，最多上传20张图片或视频",
     "description": "小应用"
   },
   "photograph.msg2": {
-    "message": "其他同学提交的图片",
+    "message": "其他同学提交的图片/视频",
     "description": "小应用"
   },
   "photograph.msg3": {
-    "message": "我提交的图片",
+    "message": "我提交的图片/视频",
     "description": "小应用"
   },
   "photograph.msg4": {
@@ -4184,11 +4184,11 @@
     "description": "小应用"
   },
   "photograph.msg9": {
-    "message": "学生上传图片进行课堂展示",
+    "message": "学生上传图片/视频进行课堂展示",
     "description": "小应用"
   },
   "photograph.msg10": {
-    "message": "学生提交后可以查看其他学生的图片",
+    "message": "学生提交后可以查看其他学生的图片/视频",
     "description": "小应用"
   },
   "photograph.msg11": {
@@ -4509,6 +4509,542 @@
   },
   "user.pwd27": {
     "message": "密码重复",
+    "description": "小应用"
+  },
+  "vote.endTime": {
+    "message": "结束时间",
+    "description": "小应用"
+  },
+  "score.teacherScore": {
+    "message": "教师评",
+    "description": "小应用"
+  },
+  "score.teacherScoreTip": {
+    "message": "教师参与评分，与学生评分得出综合成绩",
+    "description": "小应用"
+  },
+  "score.teacherWeight": {
+    "message": "教师评分所占比重",
+    "description": "小应用"
+  },
+  "score.teacherWeightTip": {
+    "message": "请输入0～100的整数",
+    "description": "小应用"
+  },
+  "score.scoreTip": {
+    "message": "{n}人评价，平均分{score}",
+    "description": "小应用"
+  },
+  "score.average": {
+    "message": "平均分",
+    "description": "小应用"
+  },
+  "score.teacherWeightIntro": {
+    "message": "教师评分所占比重{percent}%",
+    "description": "小应用"
+  },
+  "score.teacherWeightErrTip": {
+    "message": "比重请输入0~100的整数",
+    "description": "小应用"
+  },
+  "score.finalScore": {
+    "message": "最终得分",
+    "description": "小应用"
+  },
+  "score.studentScore": {
+    "message": "学生评分",
+    "description": "小应用"
+  },
+  "score.teacherScore1": {
+    "message": "教师评分",
+    "description": "小应用"
+  },
+  "score.teacherScoreInputTip": {
+    "message": "分数不能为空",
+    "description": "小应用"
+  },
+  "score.pleaseMarkTips1": {
+    "message": "请打分，满分{max}分",
+    "description": "小应用"
+  },
+  "score.maxTips1": {
+    "message": "分数不能超过{max}分",
+    "description": "小应用"
+  },
+  "score.fullmarks": {
+    "message": "满分",
+    "description": "小应用"
+  },
+  "score.inputFullmarkTip": {
+    "message": "满分不能为空",
+    "description": "小应用"
+  },
+  "score.inputFullmarkTip1": {
+    "message": "请输入有效的分值",
+    "description": "小应用"
+  },
+  "score.scoreSettings": {
+    "message": "评分设置",
+    "description": "小应用"
+  },
+  "score.scoreTemplate": {
+    "message": "评分模板",
+    "description": "小应用"
+  },
+  "score.createTemplate": {
+    "message": "新建模板",
+    "description": "小应用"
+  },
+  "score.use": {
+    "message": "使用",
+    "description": "小应用"
+  },
+  "score.createTemplateTip": {
+    "message": "最多创建50个模板",
+    "description": "小应用"
+  },
+  "score.inputName": {
+    "message": "请输入名称",
+    "description": "小应用"
+  },
+  "score.confirmDelete": {
+    "message": "确定删除？",
+    "description": "小应用"
+  },
+  "score.weightTip": {
+    "message": "比重{n}%",
+    "description": "小应用"
+  },
+  "score.open": {
+    "message": "开启",
+    "description": "小应用"
+  },
+  "score.inputNameTip": {
+    "message": "名称不能为空",
+    "description": "小应用"
+  },
+  "score.inputNameTip1": {
+    "message": "不能超过200字",
+    "description": "小应用"
+  },
+  "score.maxTips2": {
+    "message": "评分项总分不能超过满分",
+    "description": "小应用"
+  },
+  "score.teacherFullMarksTip": {
+    "message": "请输入1～100的整数",
+    "description": "小应用"
+  },
+  "announcement.unRead": {
+    "message": "未阅",
+    "description": "小应用"
+  },
+  "announcement.readStat": {
+    "message": "阅读统计",
+    "description": "小应用"
+  },
+  "announcement.titleLengthTips": {
+    "message": "标题长度必须在2-200字以内",
+    "description": "小应用"
+  },
+  "announcement.noUnReadUser": {
+    "message": "暂无未阅人员",
+    "description": "小应用"
+  },
+  "announcement.noReadedUser": {
+    "message": "暂无已阅人员",
+    "description": "小应用"
+  },
+  "download.success": {
+    "message": "下载成功了",
+    "description": "小应用"
+  },
+  "download.already": {
+    "message": "本地已存在该文件",
+    "description": "小应用"
+  },
+  "resource.videoProgressTips": {
+    "message": "累计播放时长>=视频时长才算完成。",
+    "description": "小应用"
+  },
+  "resource.audioProgressTips": {
+    "message": "累计播放时长>=音频时长才算完成。",
+    "description": "小应用"
+  },
+  "resource.watched": {
+    "message": "已看完",
+    "description": "小应用"
+  },
+  "resource.watchedPercent": {
+    "message": "已观看{n}",
+    "description": "小应用"
+  },
+  "remind.repeatRemindTips": {
+    "message": "同一资源每天只能发送一次提醒。今天已经提醒过了，明天再试吧~",
+    "description": "小应用"
+  },
+  "user.websitHomepage": {
+    "message": "网站首页",
+    "description": "小应用"
+  },
+  "user.contactCustomerService": {
+    "message": "联系客服",
+    "description": "小应用"
+  },
+  "user.bindTips": {
+    "message": "如果已有优学院帐号，请先绑定帐号。",
+    "description": "小应用"
+  },
+  "answerQue.publish": {
+    "message": "答题",
+    "description": "小应用"
+  },
+  "answerQue.queType": {
+    "message": "题型",
+    "description": "小应用"
+  },
+  "answerQue.singleChoice": {
+    "message": "单选",
+    "description": "小应用"
+  },
+  "answerQue.multipleChoice": {
+    "message": "多选",
+    "description": "小应用"
+  },
+  "answerQue.judge": {
+    "message": "判断",
+    "description": "小应用"
+  },
+  "answerQue.singleChoiceQ": {
+    "message": "单选题",
+    "description": "小应用"
+  },
+  "answerQue.multipleChoiceQ": {
+    "message": "多选题",
+    "description": "小应用"
+  },
+  "answerQue.judgeQ": {
+    "message": "判断题",
+    "description": "小应用"
+  },
+  "answerQue.titlePlaceholder1": {
+    "message": "请同学们选择正确的答案",
+    "description": "小应用"
+  },
+  "answerQue.titlePlaceholder2": {
+    "message": "请判断对错",
+    "description": "小应用"
+  },
+  "answerQue.choiceNum": {
+    "message": "选项数量",
+    "description": "小应用"
+  },
+  "answerQue.join": {
+    "message": "参与答题",
+    "description": "小应用"
+  },
+  "answerQue.correctAnswer": {
+    "message": "回答正确",
+    "description": "小应用"
+  },
+  "answerQue.correctAnswerIcon": {
+    "message": "回答正确！",
+    "description": "小应用"
+  },
+  "answerQue.errorAnswer": {
+    "message": "回答错误！",
+    "description": "小应用"
+  },
+  "answerQue.titleEmptyTips": {
+    "message": "题目内容不能为空",
+    "description": "小应用"
+  },
+  "answerQue.endAnswer": {
+    "message": "结束答题",
+    "description": "小应用"
+  },
+  "answerQue.endAnswerMsg": {
+    "message": "确定结束答题吗？",
+    "description": "小应用"
+  },
+  "answerQue.deleteConfirmTips": {
+    "message": "确定删除答题吗？",
+    "description": "小应用"
+  },
+  "answerQue.confirmEnd": {
+    "message": "确定结束答题吗？",
+    "description": "小应用"
+  },
+  "answerQue.confirmRestart": {
+    "message": "确定再次开启答题吗？",
+    "description": "小应用"
+  },
+  "answerQue.studentAnswer": {
+    "message": "学生答案",
+    "description": "小应用"
+  },
+  "answerQue.showAnswer": {
+    "message": "公布答案",
+    "description": "小应用"
+  },
+  "answerQue.editAnswer": {
+    "message": "修改答案",
+    "description": "小应用"
+  },
+  "answerQue.accuracy": {
+    "message": "正确率：",
+    "description": "小应用"
+  },
+  "answerQue.setAnswer": {
+    "message": "设置正确答案",
+    "description": "小应用"
+  },
+  "answerQue.msg1": {
+    "message": "本题有一个正确答案",
+    "description": "小应用"
+  },
+  "answerQue.msg2": {
+    "message": "本题有多个正确答案",
+    "description": "小应用"
+  },
+  "answerQue.ballot": {
+    "message": "{n}人",
+    "description": "小应用"
+  },
+  "answerQue.choiceAnswerError": {
+    "message": "请先选择正确答案",
+    "description": "小应用"
+  },
+  "answerQue.studentchoice": {
+    "message": "选{c}学生（{n}）",
+    "description": "小应用"
+  },
+  "answerQue.answerQueBanner": {
+    "message": "答题已结束，请等待教师公布答案",
+    "description": "小应用"
+  },
+  "answerQue.answerNull": {
+    "message": "请选择答案",
+    "description": "小应用"
+  },
+  "answerQue.studentChangeAnswer": {
+    "message": "修改答案",
+    "description": "小应用"
+  },
+  "answerQue.isOver": {
+    "message": "提交失败，活动已结束",
+    "description": "小应用"
+  },
+  "answerQue.isDeleted": {
+    "message": "提交失败，活动已删除",
+    "description": "小应用"
+  },
+  "answerQue.rightKey": {
+    "message": "正确答案：",
+    "description": "小应用"
+  },
+  "answerQue.yourAnswer": {
+    "message": "你的答案：",
+    "description": "小应用"
+  },
+  "answerQue.correct": {
+    "message": "正确",
+    "description": "小应用"
+  },
+  "answerQue.error": {
+    "message": "错误",
+    "description": "小应用"
+  },
+  "answerQue.viewStudentList": {
+    "message": "查看学生列表",
+    "description": "小应用"
+  },
+  "classroom.answerque": {
+    "message": "答题",
+    "description": "小应用"
+  },
+  "classroom.goPublish": {
+    "message": "进入答题活动",
+    "description": "小应用"
+  },
+  "classroom.goPhotograph": {
+    "message": "进入拍照上传活动",
+    "description": "小应用"
+  },
+  "classroom.discussDetails": {
+    "message": "进讨论详情",
+    "description": "小应用"
+  },
+  "classroom.reverseOrder": {
+    "message": "倒序",
+    "description": "小应用"
+  },
+  "classroom.positiveOrder": {
+    "message": "正序",
+    "description": "小应用"
+  },
+  "loginCode.tip10": {
+    "message": "大屏端登录后即可进行联动授课",
+    "description": "小应用"
+  },
+  "loginCode.tip11": {
+    "message": "点此扫码登录",
+    "description": "小应用"
+  },
+  "loginCode.tip12": {
+    "message": "请确保大屏端软件已打开",
+    "description": "小应用"
+  },
+  "loginCode.tip13": {
+    "message": "大屏端进入课堂互动，即可进行联动授课",
+    "description": "小应用"
+  },
+  "loginCode.loginAccount": {
+    "message": "登录账号",
+    "description": "小应用"
+  },
+  "photograph.pictureSwitching": {
+    "message": "拍照上传图片切换",
+    "description": "小应用"
+  },
+  "photograph.closeViewImage": {
+    "message": "拍照上传关闭查看图片",
+    "description": "小应用"
+  },
+  "photograph.viewPictures": {
+    "message": "拍照上传查看图片",
+    "description": "小应用"
+  },
+  "wx.UClass": {
+    "message": "UClass智慧课堂",
+    "description": "小应用"
+  },
+  "wx.joinClass": {
+    "message": "加入班级",
+    "description": "小应用"
+  },
+  "wx.applyForJoin": {
+    "message": "申请加入的班级",
+    "description": "小应用"
+  },
+  "wx.selectJoin": {
+    "message": "请选择并加入班级",
+    "description": "小应用"
+  },
+  "wx.giveUp": {
+    "message": "放弃",
+    "description": "小应用"
+  },
+  "wx.join": {
+    "message": "加入",
+    "description": "小应用"
+  },
+  "wx.joinClassSucc": {
+    "message": "加班成功",
+    "description": "小应用"
+  },
+  "wx.msg1": {
+    "message": "已提交加班申请，请等待教师审核，审核通过后可以进入课堂学习。",
+    "description": "小应用"
+  },
+  "wx.msg2": {
+    "message": "确定放弃加入该班级？",
+    "description": "小应用"
+  },
+  "wx.msg3": {
+    "message": "你已加入该课程其它班级，请勿重复加入。如果你加入错误的班级，请联系任课教师更改班级。",
+    "description": "小应用"
+  },
+  "wx.msg4": {
+    "message": "已提交加班申请，请等待教师审核，审核通过后可以进入课堂学习。",
+    "description": "小应用"
+  },
+  "wx.msg5": {
+    "message": "暂不支持教师扫描课堂码",
+    "description": "小应用"
+  },
+  "stuList.file": {
+    "message": "文件",
+    "description": "小应用"
+  },
+  "stuList.live": {
+    "message": "直播",
+    "description": "小应用"
+  },
+  "stuList.liveEnd": {
+    "message": "直播已结束",
+    "description": "小应用"
+  },
+  "stuList.notRated": {
+    "message": "未打分",
+    "description": "小应用"
+  },
+  "stuList.haveScored": {
+    "message": "已打分",
+    "description": "小应用"
+  },
+  "stuList.amount": {
+    "message": "总数",
+    "description": "小应用"
+  },
+  "stuList.yourPosts": {
+    "message": "你的帖子",
+    "description": "小应用"
+  },
+  "stuList.notRob": {
+    "message": "未抢",
+    "description": "小应用"
+  },
+  "stuList.yourAnswer": {
+    "message": "你的答案",
+    "description": "小应用"
+  },
+  "stuList.notJoin": {
+    "message": "未参加",
+    "description": "小应用"
+  },
+  "stuList.notChoose": {
+    "message": "未选",
+    "description": "小应用"
+  },
+  "stuList.answerTheQuestion": {
+    "message": "去抢答",
+    "description": "小应用"
+  },
+  "stuList.getInvolved": {
+    "message": "去参与",
+    "description": "小应用"
+  },
+  "stuList.notInvolved": {
+    "message": "未参与",
+    "description": "小应用"
+  },
+  "stuList.yetInvolved": {
+    "message": "已参与",
+    "description": "小应用"
+  },
+  "stuList.enterAtOnce": {
+    "message": "立即进入",
+    "description": "小应用"
+  },
+  "stuList.yourSelect": {
+    "message": "你的选择",
+    "description": "小应用"
+  },
+  "stuList.msg": {
+    "message": "直播地址已复制，请在浏览器中打开",
+    "description": "小应用"
+  },
+  "welink.bound": {
+    "message": "当前帐号已经绑定了Welink帐号",
+    "description": "小应用"
+  },
+  "welink.activeDelete": {
+    "message": "活动已删除",
+    "description": "小应用"
+  },
+  "welink.toastTips": {
+    "message": "当前老师不是本活动创建者",
     "description": "小应用"
   }
 }
