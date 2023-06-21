@@ -167,6 +167,30 @@
     "message": "Silahkan masukkan nama templat",
     "description": "2.0 certificate.js"
   },
+  "editTemplateTip": {
+    "message": "Catatan: Nama template tidak dapat diulang",
+    "description": "2.0 certificate.js"
+  },
+  "outTime": {
+    "message": "Pindai batas waktu kode",
+    "description": "2.0 certificate.js"
+  },
+  "eligibleCertificateTem": {
+    "message": "Template Sertifikat Kelayakan",
+    "description": "2.0 certificate.js"
+  },
+  "excellentCertificateTem": {
+    "message": "Template sertifikat yang sangat baik",
+    "description": "2.0 certificate.js"
+  },
+  "systemTemplate": {
+    "message": "Template sistem",
+    "description": "2.0 certificate.js"
+  },
+  "selectTemplate": {
+    "message": "Pilih templat",
+    "description": "2.0 certificate.js"
+  },
   "refreshGrade": {
     "message": "Refresh nilai",
     "description": "2.0 certification.js "
@@ -175,6 +199,14 @@
     "message": "Ekspor daftar",
     "description": "2.0 certification.js "
   },
+  "certSummary": {
+    "message": "Jumlah total siswa dalam kursus ini {total}, sesuai dengan kondisi perolehan sertifikat, jumlah yang memenuhi syarat {memenuhi syarat}, jumlah yang tidak memenuhi syarat {tidak memenuhi syarat}, tingkat kelulusan {rate}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
+  },
+  "certSummary2": {
+    "message": "Jumlah total siswa dalam kursus ini {total}, sesuai dengan kondisi perolehan sertifikat, jumlah orang yang memenuhi syarat {qualified}, jumlah orang yang tidak memenuhi syarat {unqualified}, tingkat kelulusan {rate}%, tingkat sangat baik {excellent}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
+  },
   "type": {
     "message": "Jenis",
     "description": "2.0 certification.js "
@@ -182,6 +214,14 @@
   "certificateRequest": {
     "message": "Persyaratan sertifikat",
     "description": "2.0 certification.js "
+  },
+  "selectedCertificateTem": {
+    "message": "Templat sertifikat yang dipilih",
+    "description": "2.0 certificate.js"
+  },
+  "preview": {
+    "message": "Pra-tinjau",
+    "description": "2.0 certificate.js"
   },
   "passNum": {
     "message": "Jumlah mahasiswa yang lolos ",
@@ -199,9 +239,153 @@
     "message": "Contoh",
     "description": "2.0 certification.js "
   },
+  "sureSelect": {
+    "message": "Konfirmasikan pilihan Anda",
+    "description": "2.0 certificate.js"
+  },
+  "createTemplate": {
+    "message": "Membuat templat baru",
+    "description": "2.0 certificate.js"
+  },
+  "createTemplate2": {
+    "message": "Membuat templat sertifikat baru",
+    "description": "2.0 certificate.js"
+  },
+  "editTemplate": {
+    "message": "Edit templat",
+    "description": "2.0 certificate.js"
+  },
+  "signErrorTip": {
+    "message": "Silakan periksa Tanda tangan elektronik terlebih dahulu",
+    "description": "2.0 certificate.js"
+  },
+  "electronicSignature": {
+    "message": "Tanda tangan elektronik",
+    "description": "2.0 certificate.js"
+  },
+  "courseName": {
+    "message": "《Nama Kursus》",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip1": {
+    "message": "Nama template tidak boleh kosong",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip2": {
+    "message": "Nama template tidak dapat diduplikasi",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip3": {
+    "message": "Template berhasil dibuat",
+    "description": "2.0 certificate.js"
+  },
+  "templateTip4": {
+    "message": "Template dimodifikasi",
+    "description": "2.0 certificate.js"
+  },
+  "editContent": {
+    "message": "Mengedit isi sertifikat",
+    "description": "2.0 certificate.js"
+  },
+  "editContentTip1": {
+    "message": "Catatan: Nama kursus di nomor judul buku secara otomatis diambil oleh sistem, dan konten tengah nomor judul buku dapat diedit, jika nama kursus dihapus bersama dengan nomor judul buku, data sistem tidak dapat diakses secara otomatis di template, dan Anda perlu mengeditnya sendiri.",
+    "description": "2.0 certificate.js"
+  },
+  "scanCodeTitle": {
+    "message": "Harap pindai kode QR untuk menandatangani",
+    "description": "2.0 certificate.js"
+  },
+  "signTip": {
+    "message": "Silakan masuk dalam {time}, jendela akan ditutup secara otomatis",
+    "description": "2.0 certificate.js"
+  },
+  "defaultText": {
+    "message": "Default",
+    "description": "2.0 certificate.js"
+  },
+  "setDefault": {
+    "message": "Setel sebagai default",
+    "description": "2.0 certificate.js"
+  },
+  "cancelDefault": {
+    "message": "Membatalkan default",
+    "description": "2.0 certificate.js"
+  },
+  "copyTemplate": {
+    "message": "Salin templat",
+    "description": "2.0 certificate.js"
+  },
+  "delTemplate": {
+    "message": "Menghapus template",
+    "description": "2.0 certificate.js"
+  },
+  "confirmDelete": {
+    "message": "Itu tidak dapat dipulihkan setelah penghapusan, harap konfirmasi apakah akan menghapusnya?",
+    "description": "2.0 certificate.js"
+  },
+  "deleteSuccessMsg": {
+    "message": "Berhasil dihapus",
+    "description": "2.0 certificate.js"
+  },
+  "deleteFailMsg": {
+    "message": "Gagal menghapus",
+    "description": "2.0 certificate.js"
+  },
+  "defaultSucMsg": {
+    "message": "Menetapkan keberhasilan default",
+    "description": "2.0 certificate.js"
+  },
+  "defaultFailMsg": {
+    "message": "Mengatur kegagalan default",
+    "description": "2.0 certificate.js"
+  },
+  "cancelDefaultSuc": {
+    "message": "Membatalkan keberhasilan default",
+    "description": "2.0 certificate.js"
+  },
+  "cancelDefaultFail": {
+    "message": "Membatalkan kegagalan default",
+    "description": "2.0 certificate.js"
+  },
+  "copySuccessMsg": {
+    "message": "Berhasil disalin",
+    "description": "2.0 certificate.js"
+  },
+  "copyFailMsg": {
+    "message": "Replikasi gagal",
+    "description": "2.0 certificate.js"
+  },
+  "fileTypeError": {
+    "message": "Gambar latar belakang hanya mendukung format JPG / JPEG / PNG",
+    "description": "2.0 certificate.js"
+  },
+  "nameErrorTip": {
+    "message": "Nama template tidak boleh melebihi 70 kata",
+    "description": "2.0 certificate.js"
+  },
+  "contentErrorTip": {
+    "message": "Isi template tidak boleh melebihi 256 kata",
+    "description": "2.0 certificate.js"
+  },
+  "contentErrorTip2": {
+    "message": "Silakan masukkan isi konten sertifikat",
+    "description": "2.0 certificate.js"
+  },
   "courseAssessmentScore": {
     "message": "Nilai mata kuliah ",
     "description": "2.0 certification.js "
+  },
+  "assessRule1": {
+    "message": "Skor penilaian kursus≥{min} poin,<{max}分",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule2": {
+    "message": "Skor penilaian kursus ≥{n} poin",
+    "description": "教师账户 -> 考核 -> 证书管理 \n 学生账户 -> 考核 -> 课程证书"
+  },
+  "assessRule3": {
+    "message": "Skor penilaian kursus<{n}分",
+    "description": "教师账户 -> 考核 -> 证书管理"
   },
   "excellenceCertificate": {
     "message": "Sertifikat keunggulan",
@@ -267,6 +451,18 @@
     "message": "Catatan: hanya penanggung jawab mata kuliah yang bisa melakukan pengaturan sertifikat. Untuk kelas yang belum ada strategi nilai, kondisi penerimaan sertifikatnya tidak dapat dihitung.",
     "description": "2.0 certification.js "
   },
+  "gradeRule1": {
+    "message": "Skor ringkasan kursus ≥ {input} poin untuk mendapatkan sertifikat kelayakan",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
+  },
+  "gradeRule2": {
+    "message": "Nilai ringkasan kursus≥ {inputLow} poin, tetapi< {inputHigh} 分，可获得合格证书",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
+  },
+  "gradeRule3": {
+    "message": "Skor ringkasan kursus ≥ {input} poin untuk mendapatkan sertifikat keunggulan",
+    "description": "教师账户 -> 考核 -> 证书管理 -> 证书设置"
+  },
   "setPass": {
     "message": "Hanya mengatur sertifikat kesesuaian mata kuliah",
     "description": "2.0 certification.js "
@@ -327,9 +523,25 @@
     "message": "Universitas",
     "description": "2.0 certification.js "
   },
+  "qualifiedCert2": {
+    "message": "Selamat atas keberhasilan menyelesaikan studi dan penilaian kursus \"{coursename}\" dan lulus nilai.",
+    "description": "2.0 certificate.js"
+  },
+  "excellentCert2": {
+    "message": "Selamat telah berhasil menyelesaikan studi dan penilaian kursus \"{coursename}\" dengan hasil yang sangat baik.",
+    "description": "2.0 certificate.js"
+  },
   "certificateNo": {
     "message": "No. sertifikat",
     "description": "2.0 certification.js "
+  },
+  "certificateSignature": {
+    "message": "Tanda tangan elektronik",
+    "description": "2.0 certificate.js"
+  },
+  "CertificateIssuing": {
+    "message": "Unit penerbit",
+    "description": "2.0 certificate.js"
   },
   "issueDate": {
     "message": "Tanggal penerbitan",
@@ -347,6 +559,14 @@
     "message": "Sertifikat saya",
     "description": "2.0 certification.js "
   },
+  "qualifiedNotice": {
+    "message": "Skor penilaian kursus Anda telah memenuhi kriteria kelayakan untuk Sertifikat Kelayakan, selamat telah memperoleh sertifikat berikut.",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
+  },
+  "excellentNotice": {
+    "message": "Skor penilaian kursus Anda telah memenuhi kriteria untuk memperoleh Sertifikat Keunggulan, selamat telah memperoleh sertifikat berikut.",
+    "description": "学生账户 -> 考核 -> 课程证书 (教师发放证书后，才会显示)"
+  },
   "certificateStuTip": {
     "message": "Catatan: Apabila terjadi perubahan nilai dikarenakan mahasiswa melanjutkan pembelajaran setelah dosen menerbitkan sertifikat, maka sertifikat tersebut tidak dapat diperbarui.",
     "description": "2.0 certification.js "
@@ -359,8 +579,28 @@
     "message": "Belum mendapatkan sertifikat mata kuliah",
     "description": "2.0 certification.js "
   },
+  "certTip": {
+    "message": "Untuk memastikan keakuratan informasi sertifikat, pastikan untuk {informLink}",
+    "description": "学生账户 -> 考核 -> 课程证书 (还未发放证书时，才会显示)"
+  },
+  "informLink": {
+    "message": "Lengkapi informasi dasar pribadi",
+    "description": "2.0 certificate.js"
+  },
   "notSetCerTip": {
     "message": "Dosen belum mengatur persyaratan sertifikat",
     "description": "2.0 certification.js "
+  },
+  "newTemplate": {
+    "message": "Silahkan masukkan nama templat",
+    "description": "2.0 certificate.js"
+  },
+  "contentErrorTip3": {
+    "message": "Konten template tidak boleh melebihi 100 kata",
+    "description": "2.0 certificate.js"
+  },
+  "saveTemplateCheck": {
+    "message": "Silakan periksa setidaknya satu item",
+    "description": "2.0 certificate.js"
   }
 }
