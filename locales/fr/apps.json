@@ -80,7 +80,7 @@
     "description": "小应用"
   },
   "second": {
-    "message": "0 secondes | 1 deuxième | {n} Secondes",
+    "message": "deuxième",
     "description": "小应用"
   },
   "saveAsDraft": {
@@ -612,7 +612,7 @@
     "description": "小应用"
   },
   "vote.deadline": {
-    "message": "Date limite : {heure}",
+    "message": "Date limite : {time}",
     "description": "小应用"
   },
   "vote.end": {
@@ -972,7 +972,7 @@
     "description": "小应用"
   },
   "score.nameAndCount": {
-    "message": "{nom}, {nombre} étudiants ",
+    "message": "{name}, {count} étudiants ",
     "description": "小应用"
   },
   "score.evaluated": {
@@ -1428,7 +1428,7 @@
     "description": "小应用"
   },
   "attendance.attData": {
-    "message": "Présent: {signCount}; Absent : {absenceCount}; Taux de fréquentation : {tarif} ",
+    "message": "Présent: {signCount}; Absent : {absenceCount}; Taux de fréquentation : {rate} ",
     "description": "小应用"
   },
   "attendance.teaEnter": {
@@ -2676,7 +2676,7 @@
     "description": "小应用"
   },
   "course.teacherCount": {
-    "message": "{nombre} enseignants ",
+    "message": "{count} enseignants ",
     "description": "小应用"
   },
   "course.modify": {
@@ -3328,7 +3328,7 @@
     "description": "小应用"
   },
   "user.repeatTip2": {
-    "message": "Le numéro d’étudiant / numéro de travail a été ouvert pour le compte (institution: {org}, nom d’utilisateur: {nom}), veuillez ne pas vous inscrire à nouveau. Si vous avez oublié votre nom d’utilisateur ou votre mot de passe, veuillez contacter Live Chat.",
+    "message": "Le numéro d’étudiant / numéro de travail a été ouvert pour le compte (institution: {org}, nom d’utilisateur: {name}), veuillez ne pas vous inscrire à nouveau. Si vous avez oublié votre nom d’utilisateur ou votre mot de passe, veuillez contacter Live Chat.",
     "description": "小应用"
   },
   "user.registErrorText": {
@@ -4337,6 +4337,722 @@
   },
   "remark.remark": {
     "message": "Notes, jusqu’à 200 mots",
+    "description": "小应用"
+  },
+  "duration": {
+    "message": "Durée (minutes)",
+    "description": "小应用"
+  },
+  "submitNum": {
+    "message": "Soumissions:",
+    "description": "小应用"
+  },
+  "useTime": {
+    "message": "Temps utilisé:",
+    "description": "小应用"
+  },
+  "enterDuration": {
+    "message": "Veuillez saisir une durée",
+    "description": "小应用"
+  },
+  "durationTime1": {
+    "message": "La durée doit être un entier",
+    "description": "小应用"
+  },
+  "durationTime2": {
+    "message": "La durée doit être supérieure à 0 et inférieure à 100",
+    "description": "小应用"
+  },
+  "discuss.start": {
+    "message": "Êtes-vous sûr de vouloir commencer ces discussions?",
+    "description": "小应用"
+  },
+  "discuss.end": {
+    "message": "Êtes-vous sûr de vouloir mettre fin à ces discussions?",
+    "description": "小应用"
+  },
+  "discuss.beginning": {
+    "message": "Commencer les discussions ...",
+    "description": "小应用"
+  },
+  "uploadError": {
+    "message": "Raté",
+    "description": "小应用"
+  },
+  "timeRemaining": {
+    "message": "Temps restant",
+    "description": "小应用"
+  },
+  "photograph.msg30": {
+    "message": "Téléchargez des images / vidéos selon les besoins de l'enseignant, jusqu'à 20 images / vidéos",
+    "description": "小应用"
+  },
+  "photograph.msg31": {
+    "message": "Images / vidéos soumises par d'autres étudiants",
+    "description": "小应用"
+  },
+  "photograph.msg32": {
+    "message": "Images / vidéos soumises par moi",
+    "description": "小应用"
+  },
+  "photograph.msg33": {
+    "message": "Les élèves téléchargent des images / vidéos pour la présentation en classe",
+    "description": "小应用"
+  },
+  "photograph.msg34": {
+    "message": "Les étudiants peuvent voir des images / vidéos d'autres étudiants",
+    "description": "小应用"
+  },
+  "user.pwd1": {
+    "message": "Mot de passe oublié",
+    "description": "小应用"
+  },
+  "user.pwd2": {
+    "message": "Entrez votre adresse e-mail et nous vous enverrons un lien pour réinitialiser votre mot de passe.",
+    "description": "小应用"
+  },
+  "user.pwd3": {
+    "message": "Votre adresse e-mail",
+    "description": "小应用"
+  },
+  "user.pwd4": {
+    "message": "Envoyer un e-mail de réinitialisation de mot de passe",
+    "description": "小应用"
+  },
+  "user.pwd5": {
+    "message": "Nous avons envoyé un e-mail à {email}. Veuillez vérifier votre boîte de réception et suivre les instructions pour réinitialiser votre mot de passe.",
+    "description": "小应用"
+  },
+  "user.pwd6": {
+    "message": "Un e-mail a été envoyé. Veuillez vérifier votre boîte de réception et suivre les instructions pour réinitialiser votre mot de passe.",
+    "description": "小应用"
+  },
+  "user.pwd7": {
+    "message": "Revenir à",
+    "description": "小应用"
+  },
+  "user.pwd8": {
+    "message": "Page de connexion",
+    "description": "小应用"
+  },
+  "user.pwd9": {
+    "message": "Le format de l’e-mail est incorrect, veuillez entrer l’adresse e-mail correcte",
+    "description": "小应用"
+  },
+  "user.pwd10": {
+    "message": "L’adresse e-mail n’existe pas, veuillez la saisir à nouveau",
+    "description": "小应用"
+  },
+  "user.pwd11": {
+    "message": "Le compte est en attente d’activation",
+    "description": "小应用"
+  },
+  "user.pwd12": {
+    "message": "Le compte est désactivé",
+    "description": "小应用"
+  },
+  "user.pwd13": {
+    "message": "Envoi de messages trop fréquent",
+    "description": "小应用"
+  },
+  "user.pwd14": {
+    "message": "Echec de l’envoi du message",
+    "description": "小应用"
+  },
+  "user.pwd15": {
+    "message": "Réinitialiser le mot de passe",
+    "description": "小应用"
+  },
+  "user.pwd16": {
+    "message": "Le mot de passe comporte entre 8 et 20 caractères et doit contenir des lettres et des chiffres",
+    "description": "小应用"
+  },
+  "user.pwd17": {
+    "message": "Confirmez votre nouveau mot de passe",
+    "description": "小应用"
+  },
+  "user.pwd18": {
+    "message": "Le lien de réinitialisation du mot de passe a expiré, veuillez revenir en arrière et renvoyer le lien de réinitialisation du mot de passe",
+    "description": "小应用"
+  },
+  "user.pwd19": {
+    "message": "La réinitialisation du mot de passe est réussie et vous serez redirigé vers la page de connexion",
+    "description": "小应用"
+  },
+  "user.pwd20": {
+    "message": "Aller à l’atterrissage",
+    "description": "小应用"
+  },
+  "user.pwd21": {
+    "message": "Le format du mot de passe est incorrect, veuillez le saisir à nouveau",
+    "description": "小应用"
+  },
+  "user.pwd22": {
+    "message": "Les mots de passe ne correspondent pas, veuillez saisir à nouveau",
+    "description": "小应用"
+  },
+  "user.pwd23": {
+    "message": "Informations incomplètes",
+    "description": "小应用"
+  },
+  "user.pwd24": {
+    "message": "Échec du code de vérification",
+    "description": "小应用"
+  },
+  "user.pwd25": {
+    "message": "Le captcha a déjà été utilisé",
+    "description": "小应用"
+  },
+  "user.pwd26": {
+    "message": "La boîte aux lettres n’existe pas",
+    "description": "小应用"
+  },
+  "user.pwd27": {
+    "message": "Duplication de mot de passe",
+    "description": "小应用"
+  },
+  "vote.endTime": {
+    "message": "Heure de fin",
+    "description": "小应用"
+  },
+  "score.teacherScore": {
+    "message": "Commentaires de l’enseignant",
+    "description": "小应用"
+  },
+  "score.teacherScoreTip": {
+    "message": "Les enseignants participent à la notation et notent les élèves pour arriver à une note complète",
+    "description": "小应用"
+  },
+  "score.teacherWeight": {
+    "message": "Proportion des évaluations des enseignants",
+    "description": "小应用"
+  },
+  "score.teacherWeightTip": {
+    "message": "Veuillez entrer le numéro entier seulement entre 0-100",
+    "description": "小应用"
+  },
+  "score.scoreTip": {
+    "message": "{n} avis, note moyenne {score}",
+    "description": "小应用"
+  },
+  "score.average": {
+    "message": "Score moyen",
+    "description": "小应用"
+  },
+  "score.teacherWeightIntro": {
+    "message": "Pourcentage de l’évaluation des enseignants {percent}%",
+    "description": "小应用"
+  },
+  "score.teacherWeightErrTip": {
+    "message": "Densité Entrez un entier de 0~100",
+    "description": "小应用"
+  },
+  "score.finalScore": {
+    "message": "Score final",
+    "description": "小应用"
+  },
+  "score.studentScore": {
+    "message": "Notes de l’élève",
+    "description": "小应用"
+  },
+  "score.teacherScore1": {
+    "message": "Évaluation des enseignants",
+    "description": "小应用"
+  },
+  "score.teacherScoreInputTip": {
+    "message": "Le score ne peut pas être vide",
+    "description": "小应用"
+  },
+  "score.pleaseMarkTips1": {
+    "message": "S’il vous plaît notez-le sur {max}",
+    "description": "小应用"
+  },
+  "score.maxTips1": {
+    "message": "Le score ne peut pas dépasser {max} points",
+    "description": "小应用"
+  },
+  "score.fullmarks": {
+    "message": "Marques complètes",
+    "description": "小应用"
+  },
+  "score.inputFullmarkTip": {
+    "message": "Un score parfait ne peut pas être vide",
+    "description": "小应用"
+  },
+  "score.inputFullmarkTip1": {
+    "message": "Veuillez saisir une valeur en points valide",
+    "description": "小应用"
+  },
+  "score.scoreSettings": {
+    "message": "Paramètres de notation",
+    "description": "小应用"
+  },
+  "score.scoreTemplate": {
+    "message": "Modèle de notation",
+    "description": "小应用"
+  },
+  "score.createTemplate": {
+    "message": "Créer un modèle",
+    "description": "小应用"
+  },
+  "score.use": {
+    "message": "utiliser",
+    "description": "小应用"
+  },
+  "score.createTemplateTip": {
+    "message": "Créer jusqu’à 50 modèles",
+    "description": "小应用"
+  },
+  "score.inputName": {
+    "message": "Sélectionnez le package SCORM",
+    "description": "小应用"
+  },
+  "score.confirmDelete": {
+    "message": "Êtes-vous sûr de vouloir le supprimer?",
+    "description": "小应用"
+  },
+  "score.weightTip": {
+    "message": "Densité {n}%",
+    "description": "小应用"
+  },
+  "score.open": {
+    "message": "Ouvert",
+    "description": "小应用"
+  },
+  "score.inputNameTip": {
+    "message": "Le nom ne peut pas être vide",
+    "description": "小应用"
+  },
+  "score.inputNameTip1": {
+    "message": "Ne peut pas dépasser 200 mots",
+    "description": "小应用"
+  },
+  "score.maxTips2": {
+    "message": "Le score total de l’élément noté ne peut pas dépasser le score complet",
+    "description": "小应用"
+  },
+  "score.teacherFullMarksTip": {
+    "message": "(Entrez une intégrale entre 1 ~ 100)",
+    "description": "小应用"
+  },
+  "announcement.unRead": {
+    "message": "Non lu",
+    "description": "小应用"
+  },
+  "announcement.readStat": {
+    "message": "Lire les statistiques",
+    "description": "小应用"
+  },
+  "announcement.titleLengthTips": {
+    "message": "Le titre doit comporter entre 2 et 200 mots",
+    "description": "小应用"
+  },
+  "announcement.noUnReadUser": {
+    "message": "Il n’y a pas de personnel non lu",
+    "description": "小应用"
+  },
+  "announcement.noReadedUser": {
+    "message": "Aucun peuple n’a été lu",
+    "description": "小应用"
+  },
+  "download.success": {
+    "message": "Le téléchargement a réussi",
+    "description": "小应用"
+  },
+  "download.already": {
+    "message": "Le fichier existe déjà localement",
+    "description": "小应用"
+  },
+  "resource.videoProgressTips": {
+    "message": "Temps de lecture cumulé >= durée de la vidéo.",
+    "description": "小应用"
+  },
+  "resource.audioProgressTips": {
+    "message": "Temps de lecture cumulé >= durée audio.",
+    "description": "小应用"
+  },
+  "resource.watched": {
+    "message": "Fini",
+    "description": "小应用"
+  },
+  "resource.watchedPercent": {
+    "message": "Regardé {n}",
+    "description": "小应用"
+  },
+  "remind.repeatRemindTips": {
+    "message": "La même ressource ne peut envoyer un rappel qu’une fois par jour. Il a été rappelé aujourd’hui, essayez à nouveau demain ~",
+    "description": "小应用"
+  },
+  "user.websitHomepage": {
+    "message": "Page d’accueil",
+    "description": "小应用"
+  },
+  "user.contactCustomerService": {
+    "message": "Contacter le service client",
+    "description": "小应用"
+  },
+  "user.bindTips": {
+    "message": "Si vous avez déjà un compte Ulearning, veuillez d’abord lier le compte.",
+    "description": "小应用"
+  },
+  "answerQue.publish": {
+    "message": "Réponse",
+    "description": "小应用"
+  },
+  "answerQue.queType": {
+    "message": "Question Type",
+    "description": "小应用"
+  },
+  "answerQue.singleChoice": {
+    "message": "Choix unique",
+    "description": "小应用"
+  },
+  "answerQue.multipleChoice": {
+    "message": "Choix multiple",
+    "description": "小应用"
+  },
+  "answerQue.judge": {
+    "message": "Vrai/Faux",
+    "description": "小应用"
+  },
+  "answerQue.singleChoiceQ": {
+    "message": "Choix multiple",
+    "description": "小应用"
+  },
+  "answerQue.multipleChoiceQ": {
+    "message": "Réponse multiple",
+    "description": "小应用"
+  },
+  "answerQue.judgeQ": {
+    "message": "Vrai/Faux",
+    "description": "小应用"
+  },
+  "answerQue.titlePlaceholder1": {
+    "message": "Veuillez choisir la bonne réponse",
+    "description": "小应用"
+  },
+  "answerQue.titlePlaceholder2": {
+    "message": "S’il vous plaît, jugez bien ou mal",
+    "description": "小应用"
+  },
+  "answerQue.choiceNum": {
+    "message": "Nombre d’options",
+    "description": "小应用"
+  },
+  "answerQue.join": {
+    "message": "Participer aux réponses aux questions",
+    "description": "小应用"
+  },
+  "answerQue.correctAnswer": {
+    "message": "C’est bien ça!",
+    "description": "小应用"
+  },
+  "answerQue.correctAnswerIcon": {
+    "message": "C’est bien ça!",
+    "description": "小应用"
+  },
+  "answerQue.errorAnswer": {
+    "message": "Incorrect!",
+    "description": "小应用"
+  },
+  "answerQue.titleEmptyTips": {
+    "message": "Le contenu de la question ne peut pas être vide",
+    "description": "小应用"
+  },
+  "answerQue.endAnswer": {
+    "message": "Fin de la réponse",
+    "description": "小应用"
+  },
+  "answerQue.endAnswerMsg": {
+    "message": "Êtes-vous sûr de vouloir terminer la question?",
+    "description": "小应用"
+  },
+  "answerQue.deleteConfirmTips": {
+    "message": "Voulez-vous vraiment supprimer les réponses ?",
+    "description": "小应用"
+  },
+  "answerQue.confirmEnd": {
+    "message": "Êtes-vous sûr de vouloir terminer la question?",
+    "description": "小应用"
+  },
+  "answerQue.confirmRestart": {
+    "message": "Voulez-vous vraiment recommencer les questions?",
+    "description": "小应用"
+  },
+  "answerQue.studentAnswer": {
+    "message": "Réponses",
+    "description": "小应用"
+  },
+  "answerQue.showAnswer": {
+    "message": "Publier la réponse",
+    "description": "小应用"
+  },
+  "answerQue.editAnswer": {
+    "message": "Modifier la réponse",
+    "description": "小应用"
+  },
+  "answerQue.accuracy": {
+    "message": "Taux correct:",
+    "description": "小应用"
+  },
+  "answerQue.setAnswer": {
+    "message": "Définir la bonne réponse",
+    "description": "小应用"
+  },
+  "answerQue.msg1": {
+    "message": "Il y a une bonne réponse à cette question",
+    "description": "小应用"
+  },
+  "answerQue.msg2": {
+    "message": "Il existe plusieurs réponses correctes à cette question",
+    "description": "小应用"
+  },
+  "answerQue.ballot": {
+    "message": "{n} ",
+    "description": "小应用"
+  },
+  "answerQue.choiceAnswerError": {
+    "message": "Veuillez d’abord sélectionner la bonne réponse",
+    "description": "小应用"
+  },
+  "answerQue.studentchoice": {
+    "message": "Sélectionnez {c} étudiant ({n})",
+    "description": "小应用"
+  },
+  "answerQue.answerQueBanner": {
+    "message": "La réponse est terminée, veuillez attendre que l’enseignant annonce la réponse",
+    "description": "小应用"
+  },
+  "answerQue.answerNull": {
+    "message": "Veuillez sélectionner la réponse",
+    "description": "小应用"
+  },
+  "answerQue.studentChangeAnswer": {
+    "message": "Modifier la réponse",
+    "description": "小应用"
+  },
+  "answerQue.isOver": {
+    "message": "Échec de la soumission, fin de l’activité",
+    "description": "小应用"
+  },
+  "answerQue.isDeleted": {
+    "message": "Impossible de soumettre et l’activité a été supprimée!",
+    "description": "小应用"
+  },
+  "answerQue.rightKey": {
+    "message": "Réponse correcte:",
+    "description": "小应用"
+  },
+  "answerQue.yourAnswer": {
+    "message": "Votre réponse : ",
+    "description": "小应用"
+  },
+  "answerQue.correct": {
+    "message": "Vrai",
+    "description": "小应用"
+  },
+  "answerQue.error": {
+    "message": "Erreur",
+    "description": "小应用"
+  },
+  "answerQue.viewStudentList": {
+    "message": "Voir la liste des étudiants",
+    "description": "小应用"
+  },
+  "classroom.answerque": {
+    "message": "Réponse",
+    "description": "小应用"
+  },
+  "classroom.goPublish": {
+    "message": "Accéder à l’activité Quiz",
+    "description": "小应用"
+  },
+  "classroom.goPhotograph": {
+    "message": "Accéder à l’événement de téléchargement de photos",
+    "description": "小应用"
+  },
+  "classroom.discussDetails": {
+    "message": "Discutons des détails",
+    "description": "小应用"
+  },
+  "classroom.reverseOrder": {
+    "message": "Ordre inverse",
+    "description": "小应用"
+  },
+  "classroom.positiveOrder": {
+    "message": "Ordre positif",
+    "description": "小应用"
+  },
+  "loginCode.tip10": {
+    "message": "Après vous être connecté sur le grand écran, vous pouvez effectuer un enseignement de liaison",
+    "description": "小应用"
+  },
+  "loginCode.tip11": {
+    "message": "Cliquez ici pour scanner le code pour vous connecter",
+    "description": "小应用"
+  },
+  "loginCode.tip12": {
+    "message": "Assurez-vous que le logiciel grand écran est activé",
+    "description": "小应用"
+  },
+  "loginCode.tip13": {
+    "message": "Le grand écran peut entrer dans l’interaction de la classe et vous pouvez effectuer un enseignement de liaison",
+    "description": "小应用"
+  },
+  "loginCode.loginAccount": {
+    "message": "Compte de connexion",
+    "description": "小应用"
+  },
+  "photograph.pictureSwitching": {
+    "message": "Prendre une photo et télécharger une image pour changer",
+    "description": "小应用"
+  },
+  "photograph.closeViewImage": {
+    "message": "Prendre une photo, la télécharger et l’éteindre pour voir l’image",
+    "description": "小应用"
+  },
+  "photograph.viewPictures": {
+    "message": "Prendre une photo, télécharger et visualiser l’image",
+    "description": "小应用"
+  },
+  "wx.UClass": {
+    "message": "UClass Smart Classroom",
+    "description": "小应用"
+  },
+  "wx.joinClass": {
+    "message": "Rejoindre la classe",
+    "description": "小应用"
+  },
+  "wx.applyForJoin": {
+    "message": "La classe à laquelle vous postulez",
+    "description": "小应用"
+  },
+  "wx.selectJoin": {
+    "message": "Veuillez sélectionner et rejoindre la classe",
+    "description": "小应用"
+  },
+  "wx.giveUp": {
+    "message": "Abandonner",
+    "description": "小应用"
+  },
+  "wx.join": {
+    "message": "Rejoindre",
+    "description": "小应用"
+  },
+  "wx.joinClassSucc": {
+    "message": "Succès des heures supplémentaires",
+    "description": "小应用"
+  },
+  "wx.msg1": {
+    "message": "Si vous avez soumis une demande d’heures supplémentaires, veuillez attendre l’examen de l’enseignant et vous pouvez entrer dans la salle de classe une fois l’examen approuvé.",
+    "description": "小应用"
+  },
+  "wx.msg2": {
+    "message": "Êtes-vous sûr de vouloir abandonner la classe?",
+    "description": "小应用"
+  },
+  "wx.msg3": {
+    "message": "Vous avez déjà rejoint une autre classe dans le cours, veuillez ne pas vous inscrire à nouveau. Si vous vous trompez de classe, veuillez contacter votre professeur pour changer de classe.",
+    "description": "小应用"
+  },
+  "wx.msg4": {
+    "message": "Si vous avez soumis une demande d’heures supplémentaires, veuillez attendre l’examen de l’enseignant et vous pouvez entrer dans la salle de classe une fois l’examen approuvé.",
+    "description": "小应用"
+  },
+  "wx.msg5": {
+    "message": "Les enseignants ne sont pas pris en charge pour scanner les codes de classe",
+    "description": "小应用"
+  },
+  "stuList.file": {
+    "message": "Fichiers",
+    "description": "小应用"
+  },
+  "stuList.live": {
+    "message": "Vivre",
+    "description": "小应用"
+  },
+  "stuList.liveEnd": {
+    "message": "Le streaming en direct est terminé",
+    "description": "小应用"
+  },
+  "stuList.notRated": {
+    "message": "Non noté",
+    "description": "小应用"
+  },
+  "stuList.haveScored": {
+    "message": "Marqué",
+    "description": "小应用"
+  },
+  "stuList.amount": {
+    "message": "total",
+    "description": "小应用"
+  },
+  "stuList.yourPosts": {
+    "message": "Vos messages",
+    "description": "小应用"
+  },
+  "stuList.notRob": {
+    "message": "Non volé",
+    "description": "小应用"
+  },
+  "stuList.yourAnswer": {
+    "message": "Votre réponse",
+    "description": "小应用"
+  },
+  "stuList.notJoin": {
+    "message": "Non participé",
+    "description": "小应用"
+  },
+  "stuList.notChoose": {
+    "message": "Non sélectionné",
+    "description": "小应用"
+  },
+  "stuList.answerTheQuestion": {
+    "message": "Aller à la réponse préventive",
+    "description": "小应用"
+  },
+  "stuList.getInvolved": {
+    "message": "Aller",
+    "description": "小应用"
+  },
+  "stuList.notInvolved": {
+    "message": "Non participé à",
+    "description": "小应用"
+  },
+  "stuList.yetInvolved": {
+    "message": "Participé",
+    "description": "小应用"
+  },
+  "stuList.enterAtOnce": {
+    "message": "Entrez immédiatement",
+    "description": "小应用"
+  },
+  "stuList.yourSelect": {
+    "message": "Votre choix",
+    "description": "小应用"
+  },
+  "stuList.msg": {
+    "message": "L’adresse du flux en direct a été copiée, veuillez l’ouvrir dans votre navigateur",
+    "description": "小应用"
+  },
+  "welink.bound": {
+    "message": "Le compte courant est déjà lié au compte Welink",
+    "description": "小应用"
+  },
+  "welink.activeDelete": {
+    "message": "L’activité a été supprimée",
+    "description": "小应用"
+  },
+  "welink.toastTips": {
+    "message": "L’enseignant actuel n’est pas le créateur de cette activité",
+    "description": "小应用"
+  },
+  "user.pwd28": {
+    "message": "Le compte est en attente d’activation",
+    "description": "小应用"
+  },
+  "user.pwd29": {
+    "message": "Le compte est désactivé",
     "description": "小应用"
   }
 }

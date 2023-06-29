@@ -1,6 +1,3782 @@
 {
-  "userInfo.organization": {
-    "message": "简体中文机构名",
+  "organization.orgnization": {
+    "message": "机构管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgDesc": {
+    "message": "查看组织机构列表，创建与管理子机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addTenant": {
+    "message": "添加租户",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addOrganization": {
+    "message": "添加子机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.search": {
+    "message": "搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.allStatus": {
+    "message": "全部状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.trial": {
+    "message": "试用",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.normal": {
+    "message": "正常",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.expiringSoon": {
+    "message": "即将到期",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.discontinued": {
+    "message": "停用",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.suspend": {
+    "message": "停用",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.archive": {
+    "message": "归档",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgName": {
+    "message": "机构名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.admin": {
+    "message": "管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.startTime": {
+    "message": "开始时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.status": {
+    "message": "状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.action": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.view": {
+    "message": "查看",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.edit": {
+    "message": "编辑",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addSubOrg": {
+    "message": "添加子机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.activate": {
+    "message": "激活",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addTenantDesc": {
+    "message": "添加子机构，点击机构管理查看详细信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.parentOrg": {
+    "message": "上级机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgType": {
+    "message": "机构类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.remarkOptional": {
+    "message": "备注 (可选)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.cancel": {
+    "message": "取消",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.save": {
+    "message": "保存",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.createdSuccess": {
+    "message": "创建成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.createdSuccessDesc": {
+    "message": "新租户创建成功，点击返回按钮，返回界面。点击下方链接，对机构进行设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.generalSettings": {
+    "message": "基础设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.accountSettings": {
+    "message": "添加账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.featuresSettings": {
+    "message": "特性配置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.back": {
+    "message": "返回",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.serverError": {
+    "message": "serverError",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.serverErrorDesc": {
+    "message": "There is a server error, you didn’t submit the data. Please click the “Try again” to re-submit, or click “Cancel” to close the popup and try later",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.tryAgain": {
+    "message": "Try again",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.settings": {
+    "message": "设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.settingsDesc": {
+    "message": "对机构进行配置，打开“机构设置”查看详细说明",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.general": {
+    "message": "通用设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.features": {
+    "message": "特性设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.resources": {
+    "message": "资源设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.apps": {
+    "message": "应用",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.basicSettings": {
+    "message": "基础设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.remark": {
+    "message": "备注",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.detailSettings": {
+    "message": "详细设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgId": {
+    "message": "机构 ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgLogo": {
+    "message": "机构图标",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.defaultTimezone": {
+    "message": "默认时区",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.language": {
+    "message": "语言",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteNameOptional": {
+    "message": "站点名称 (可选)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.customDomain": {
+    "message": "自定义域名",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgAddressOptional": {
+    "message": "机构地址 (可选)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.phoneOptional": {
+    "message": "联系电话 (可选)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.emailOptional": {
+    "message": "联系邮件 (可选)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.privacyPolicies": {
+    "message": "隐私设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.policyType": {
+    "message": "隐私类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.policyContent": {
+    "message": "隐私协议内容",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.updateSettings": {
+    "message": "更新设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.reset": {
+    "message": "重置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.default": {
+    "message": "默认",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.custom": {
+    "message": "自定义",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.resetconfirm": {
+    "message": "重置确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.resetconfirmDesc": {
+    "message": "您对以下字段做了修改，确认要重置这些字段吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.confirm": {
+    "message": "确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.updateSuccess": {
+    "message": "更新成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.saveSuccess": {
+    "message": "保存成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.title": {
+    "message": "登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.username": {
+    "message": "用户名",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.password": {
+    "message": "密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.logIn": {
+    "message": "登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.tokenTips": {
+    "message": "登录状态失效",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.loginStatus": {
+    "message": "您的登录状态已失效！您可以取消停留在此页面，或者点击【确定】重新登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.reloginBtn": {
+    "message": "确定",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.cancelBtn": {
+    "message": "取消",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.organizationManager": {
+    "message": "机构管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.organizationSetting": {
+    "message": "机构设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.setting": {
+    "message": "设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.permissionManager": {
+    "message": "权限管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.announcements": {
+    "message": "公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.courseManager": {
+    "message": "课程管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.courseStatistics": {
+    "message": "课程统计",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.courseAnalysis": {
+    "message": "课程分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.examManage": {
+    "message": "考试管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.examAnalysis": {
+    "message": "考试分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.routerBack": {
+    "message": "返回",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.people": {
+    "message": "用户",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.liveOptions": {
+    "message": "云会议室配置",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.live": {
+    "message": "直播",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.liveAnalysis": {
+    "message": "直播分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionDesc": {
+    "message": "管理系统权限与设置角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionRegist": {
+    "message": "权限注册",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroup": {
+    "message": "权限组",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManager": {
+    "message": "角色管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicManager": {
+    "message": "特性管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.keywordPlaceholder": {
+    "message": "请输入关键字",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.statusPlaceholder": {
+    "message": "全部分组",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristic": {
+    "message": "新增",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader1": {
+    "message": "名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader2": {
+    "message": "适用机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader3": {
+    "message": "分组",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader4": {
+    "message": "标签",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader5": {
+    "message": "是否启用",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader6": {
+    "message": "是否显示",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader7": {
+    "message": "是否锁定",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader8": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicAdd": {
+    "message": "新增特性",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicEdit": {
+    "message": "编辑特性",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.saveBtn": {
+    "message": "保存",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.cancelBtn": {
+    "message": "取消",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem1": {
+    "message": "名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder1": {
+    "message": "输入特性名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem2": {
+    "message": "标识符",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder2": {
+    "message": "输入标识符名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem3": {
+    "message": "分组",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder3": {
+    "message": "请选择分组",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem4": {
+    "message": "标签",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder4": {
+    "message": "为特性添加标签",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem5": {
+    "message": "适用机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem6": {
+    "message": "权限",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder6": {
+    "message": "为特性指定所关联的权限，当特性关闭时，机构的任何角色无法访问这些权限资源。",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem7": {
+    "message": "是否启用",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem8": {
+    "message": "是否显示",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem9": {
+    "message": "是否锁定",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem10": {
+    "message": "描述",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder10": {
+    "message": "为特性添加说明",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.OrgType1": {
+    "message": "管理机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.OrgType2": {
+    "message": "教学机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.OrgType3": {
+    "message": "内部机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.edit": {
+    "message": "编辑",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.delete": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.requierTip": {
+    "message": "必填项",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.repeatTip": {
+    "message": "该名称已经被占用，请使用其他名字",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.formTip1": {
+    "message": "文字不可超过{num}个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.saveSuccessTip": {
+    "message": "特性添加成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.editSuccessTip": {
+    "message": "特性编辑成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteSuccessTip": {
+    "message": "特性删除成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionConfirmTitle": {
+    "message": "操作确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionConfirmDesc": {
+    "message": "这个操作将会影响系统中全部机构，请确认后继续。",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionConfirmTip": {
+    "message": "输入'{msg}'确认操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionConfirmMsg": {
+    "message": "特性变更",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteConfirmTitle": {
+    "message": "删除特性",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteConfirmDesc": {
+    "message": "特性删除后，将会同时清除机构对该特性的设置，该操作是不可逆的，请确保已对相关代码做好处理后继续该操作。",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.confirmBtn": {
+    "message": "确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.features": {
+    "message": "特性",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteBtn": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader1": {
+    "message": "名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader2": {
+    "message": "应用",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader3": {
+    "message": "类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader4": {
+    "message": "权限标识",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader5": {
+    "message": "排序",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader6": {
+    "message": "路由",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader7": {
+    "message": "接口",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader8": {
+    "message": "是否显示",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader9": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.appPickerPlaceholder": {
+    "message": "全部应用",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.menuType1": {
+    "message": "目录",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.menuType2": {
+    "message": "菜单",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.menuType3": {
+    "message": "页面",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.menuType4": {
+    "message": "页面元素",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionCheckPwd": {
+    "message": "输入管理员密码以确认以上操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader1": {
+    "message": "名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader2": {
+    "message": "角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader3": {
+    "message": "分类",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader4": {
+    "message": "排序",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader5": {
+    "message": "是否显示",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader6": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGriupFilterPlaceholder1": {
+    "message": "全部角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGriupFilterPlaceholder2": {
+    "message": "全部类别",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupAdd": {
+    "message": "添加权限组",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupEdit": {
+    "message": "编辑权限组",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem1": {
+    "message": "名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder1": {
+    "message": "输入权限组名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem2": {
+    "message": "角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder2": {
+    "message": "选择角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem3": {
+    "message": "分类",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder3": {
+    "message": "选择分类",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem4": {
+    "message": "权限",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder4": {
+    "message": "选择权限",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem5": {
+    "message": "排序",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder5": {
+    "message": "输入权限组序号",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem6": {
+    "message": "是否显示",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem7": {
+    "message": "描述",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder7": {
+    "message": "输入描述信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deletePermissionGroupConfirmTitle": {
+    "message": "操作确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deletePermissionGroupConfirmDesc": {
+    "message": "确认要删除这个权限组吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deletePermissionGroupConfirmTitle1": {
+    "message": "警告",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deletePermissionGroupConfirmBtn": {
+    "message": "关闭",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deletePermissionGroupConfirmDesc1": {
+    "message": "该权限组已经关联至角色， 请接触与角色的关联后再执行删除操作 ",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.changeStatusDesc": {
+    "message": "修改权限组会影响所有与该权限组所关联的角色，确定要修改该权限吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionCreatetSuccess": {
+    "message": "权限组添加成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionEditSuccess": {
+    "message": "权限组编辑成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionDeleteSuccess": {
+    "message": "权限组已删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.saveSuccess": {
+    "message": "保存成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManageradd": {
+    "message": "添加",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerPlaceload1": {
+    "message": "全部角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerPlaceload2": {
+    "message": "全部基础角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader1": {
+    "message": "名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader2": {
+    "message": "角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader3": {
+    "message": "基础角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader4": {
+    "message": "应用范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader5": {
+    "message": "说明",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader6": {
+    "message": "角色人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader7": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormTitle": {
+    "message": "添加角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem1": {
+    "message": "角色名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem2": {
+    "message": "角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem3": {
+    "message": "基础角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem4": {
+    "message": "角色作用范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem5": {
+    "message": "数据范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem6": {
+    "message": "说明",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem7": {
+    "message": "仅应用于本机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem8": {
+    "message": "应用于本机构与子机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItemSubmit": {
+    "message": "更新设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItemPlaceholder1": {
+    "message": "输入角色名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItemPlaceholder2": {
+    "message": "输入角色名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerSettingPermission": {
+    "message": "配置权限",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerViewRole": {
+    "message": "查看用户",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerAddUser": {
+    "message": "添加用户",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerCreateByRole": {
+    "message": "按角色创建",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerDeleteRole": {
+    "message": "删除角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleSettingPermissionSetting": {
+    "message": "权限设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleSettingFilter": {
+    "message": "按名称过滤",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleNameTips": {
+    "message": "请填写角色名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleRoleAreaPlaceload": {
+    "message": "选择角色域",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleBaseRolePlaceload": {
+    "message": "选择基础角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleDataRangePlaceload": {
+    "message": "选择数据范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleDataRangeOption1": {
+    "message": "本机构与子机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleDataRangeOption2": {
+    "message": "仅本机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleTextareaPlaceload": {
+    "message": "输入备注信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionconfirmDeleteRole": {
+    "message": "确认要删除该角色吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionConfirm": {
+    "message": "操作确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionconfirmBtnMsg": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionRoleChange": {
+    "message": "角色变更",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionRoleByDel": {
+    "message": "角色已删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmRoleSetting": {
+    "message": "您更改了基础角色，是否需要按照新的基础角色重置权限？",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText1": {
+    "message": "操作确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText2": {
+    "message": "仅更改不重置",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText3": {
+    "message": "更改, 同时重置",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText4": {
+    "message": "更新角色成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText5": {
+    "message": "取消更新角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addRoleSuccess": {
+    "message": "添加角色成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addRoleFail": {
+    "message": "添加角色失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.noPermissionUpdate": {
+    "message": "没有权限修改此角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.rolePermissionSuccess": {
+    "message": "角色权限修改成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleAllSort": {
+    "message": "全部类别",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleNull": {
+    "message": "无",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.warning": {
+    "message": "警告",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteRoleFail": {
+    "message": "该角色已关联至用户, 无法删除, 请移除该角色与用户的关联后继续删除操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.uploadBtn": {
+    "message": "上传图片",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.imageUploadTips": {
+    "message": "点击上传图片",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.confirmBtn": {
+    "message": "确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.deleteBtn": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.cancelBtn": {
+    "message": "取消",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportBtn": {
+    "message": "导出",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.startDate": {
+    "message": "开始时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.endDate": {
+    "message": "结束时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dateTo": {
+    "message": "至",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.closeBtn": {
+    "message": "关闭",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportTitle": {
+    "message": "批量导出",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportDesc": {
+    "message": "可一次性导出指定范围的数据",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportTip": {
+    "message": "请设置需要导出的数据范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportSuccess": {
+    "message": "数据导出成功，请注意查收",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.selectPlaceholder": {
+    "message": "请选择",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.back": {
+    "message": "返回上一页",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.newAnno": {
+    "message": "创建公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.title": {
+    "message": "公告标题",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.content": {
+    "message": "公告内容",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.upload": {
+    "message": "上传附件",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.successUpload": {
+    "message": "上传文件成功!",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errUpload": {
+    "message": "当前限制选择 {0} 个文件，本次选择了 {1} 个文件，共选择了 {2} 个文件",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.delUpload": {
+    "message": "该操作将删除此项，是否继续？",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.hint": {
+    "message": "提示",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.organizations": {
+    "message": "接收机构的范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.addOrg": {
+    "message": "请选择需要接收该公告的机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.check": {
+    "message": "查看",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.edit": {
+    "message": "编辑",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.range": {
+    "message": "接收人",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Admins": {
+    "message": "所有管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Teachers": {
+    "message": "所有教师",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Students": {
+    "message": "所有学生",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.methods": {
+    "message": "发布方式",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.now": {
+    "message": "立即发布",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.later": {
+    "message": "定时发布",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.pubTime": {
+    "message": "发布时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.selectTime": {
+    "message": "请选择发布时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.moreOptions": {
+    "message": "更多设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.sendEmail": {
+    "message": "同步发送到邮箱",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.isSendEmail": {
+    "message": "是否同步发送到邮箱",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.sendIntro": {
+    "message": "该通知同步发送到接收者的邮箱中（若无接收者邮箱则不发送）",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.showAnno": {
+    "message": "在页面中显示通知提醒",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.showIntro": {
+    "message": "将消息显示在页面顶部或者弹窗方式显示，达到失效时间后，不再显示",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.showWay": {
+    "message": "显示方式",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.atTop": {
+    "message": "顶部提醒",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.topIntro": {
+    "message": "通知显示在顶部，直到接收者关闭或查看才可消失。",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.atRight": {
+    "message": "右侧弹窗提醒",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.rightIntro": {
+    "message": "通知在右侧显示，10s后会自动消失",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Expiration": {
+    "message": "失效时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.ExpirationIntro": {
+    "message": "超过该时间后，接收者将不会收到以上提醒方式",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.selectExpiration": {
+    "message": "请选择失效时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.publishAnno": {
+    "message": "发布公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.orgRange": {
+    "message": "请选择需通知的机构范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.orgRanges": {
+    "message": "接收机构的范围：",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Organizaiton": {
+    "message": "机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.cancel": {
+    "message": "取消",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.confirm": {
+    "message": "确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.delSuccess": {
+    "message": "删除成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.delFail": {
+    "message": "已取消删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errTitle": {
+    "message": "请输入公告标题",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errTitle1": {
+    "message": "最多可输入100个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errContent": {
+    "message": "点击输入公告的内容",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errContent1": {
+    "message": "文字不可超过{num}个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errRange": {
+    "message": "请选择接收人",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errWay": {
+    "message": "请选择发送方式",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errSendTime": {
+    "message": "请设置发布时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errExpiration": {
+    "message": "请设置失效时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errShowWay": {
+    "message": "请设置显示方式",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errForm": {
+    "message": "公告信息未填写完整",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.successPub": {
+    "message": "发布公告成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.failPub": {
+    "message": "发布公告失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.announcements": {
+    "message": "公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.searchAnno": {
+    "message": "请输入公告标题搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.readTotal": {
+    "message": "已读/总数量",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.pubUser": {
+    "message": "发布人",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.annoEdit": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.annoView": {
+    "message": "查看",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.annodel": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.viewAnno": {
+    "message": "查看公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Attachment": {
+    "message": "附件：",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.download": {
+    "message": "下载",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.AllStudents": {
+    "message": "全部学生",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.AllTeachers": {
+    "message": "全部老师",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.AllAdmins": {
+    "message": "全部管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.No": {
+    "message": "无",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.selectStatus": {
+    "message": "请选择状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.status": {
+    "message": "状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.all": {
+    "message": "全部",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.read": {
+    "message": "已读",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.unread": {
+    "message": "未读",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.knowMore": {
+    "message": "了解更多 》",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.sendAndFailErr": {
+    "message": "发送时间不得等于或晚于失效时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.noPublish": {
+    "message": "尚未发布",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.fileErr": {
+    "message": "上传文件格式不正确!",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.checkMore": {
+    "message": "查看更多",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.okDown": {
+    "message": "已下载",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.delete": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseManager": {
+    "message": "课程管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseDesc": {
+    "message": "Courses hosted by the school.",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseStatistics": {
+    "message": "课程统计",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseStatisticsDesc": {
+    "message": "注：数据每天更新一次，上次更新时间 {date}",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseTypeSettings": {
+    "message": "课程类型设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.createCourse": {
+    "message": "创建课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.fullYear": {
+    "message": "全部年份",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.allOrg": {
+    "message": "全部机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.allState": {
+    "message": "所有状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.processing": {
+    "message": "进行中",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.over": {
+    "message": "已结束",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.allType": {
+    "message": "所有类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.searchPlaceholder": {
+    "message": "输入课程名称或教师姓名搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseID": {
+    "message": "课程ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseName": {
+    "message": "课程名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseCode": {
+    "message": "课程代码",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseType": {
+    "message": "课程类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.subordinateCollege": {
+    "message": "所属机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.state": {
+    "message": "状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseCreator": {
+    "message": "课程创建人",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.createTime": {
+    "message": "创建时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.teacherNum": {
+    "message": "教师人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.classNum": {
+    "message": "班级数量",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.studentNum": {
+    "message": "学生人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.actions": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.editCourse": {
+    "message": "编辑课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.addPerson": {
+    "message": "添加人员",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.joinCourse": {
+    "message": "进入课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseAnalysis": {
+    "message": "课程分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.to": {
+    "message": "至",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.startDate": {
+    "message": "开始时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.endDate": {
+    "message": "结束时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.setTheClassTypeOfTheSchoolClass": {
+    "message": "设置本校班课课程类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.delete": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.addContinue": {
+    "message": "继续添加",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.cancel": {
+    "message": "取消",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.confirm": {
+    "message": "确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.selectOrg": {
+    "message": "选择机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseGeneral": {
+    "message": "概况统计",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseGeneralDesc": {
+    "message": "仅统计选定时间范围内新建的课程，不包含学生人数小于10的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.numberOfCoursesRunning": {
+    "message": "运行课程数量",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.totalNumberOfCoursewareUsed": {
+    "message": "使用课件总数",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.numberOfLecturesPerTeacher": {
+    "message": "教师人均授课数",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.numberOfCoursesTakenPerStudent": {
+    "message": "学生人均选课门数",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.theCumulativeNumberOfStudentsEnrolledInCourses": {
+    "message": "学生累计选课人次",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseSizeDistribution": {
+    "message": "课程规模分布",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseSizeDistributionDesc": {
+    "message": "仅统计选定时间范围内新建的课程，不包含学生人数小于10的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.peopleCouse": {
+    "message": "{num}人的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.teachModelAnalyze": {
+    "message": "教学模式分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.teachModelAnalyzeDesc": {
+    "message": "仅统计选定时间范围内新建的课程，不包含学生人数小于10的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.resourceLearningClass": {
+    "message": "资源学习型课",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.resourceLearningClassDesc": {
+    "message": "除公告、课件和资源以外，课程中发布的其它教学活动少于5个的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.classroomInteractiveCourse": {
+    "message": "课堂互动型课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.classroomInteractiveCourseDesc": {
+    "message": "课程中发布的作业、讨论、直播、课堂活动，累计超过20个，且其中直播和课堂活动占比超过80",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.blendedCourse": {
+    "message": "混合型课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.blendedCourseDesc": {
+    "message": "课程中发布的作业、讨论、直播、课堂活动，累计超过20个，其中至少包含3类活动，且直播和课堂活动占比低于50",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.otherTypesOfCourses": {
+    "message": "其他类型课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.otherTypesOfCoursesDesc": {
+    "message": "不包含在前3类之中的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.evaluationMethod": {
+    "message": "课程评价方式分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.evaluationMethodDesc": {
+    "message": "仅统计选定时间范围内新建的课程，不包含学生人数小于10的课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.examPercentage": {
+    "message": "发布了考试的课程占比",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.theProportionOfAssessmentRules": {
+    "message": "设置了考核规则的课程占比",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.in": {
+    "message": "其中：",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.onlyStatisticsOfCoursewareLearning": {
+    "message": "仅统计课件学习情况",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.includeClassRollCallAndPerformanceInTheAssessment": {
+    "message": "将课堂点名及表现纳入考核",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.incorporateTestScoresIntoAssessments": {
+    "message": "将考试成绩纳入考核",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.requireTip": {
+    "message": "必填",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.lengthTip": {
+    "message": "长度 2-200",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.saveError": {
+    "message": "保存失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.saveErrorRepeat": {
+    "message": "保存失败，课程名称重复",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.back": {
+    "message": "返回",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.analysis": {
+    "message": "分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder1": {
+    "message": "输入考试/教师名称搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder2": {
+    "message": "检索时间范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder3": {
+    "message": "所有考试",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder4": {
+    "message": "选择机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead1": {
+    "message": "考试名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead2": {
+    "message": "发布人",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead3": {
+    "message": "所属课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead4": {
+    "message": "所属机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead5": {
+    "message": "状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead6": {
+    "message": "有效期",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead7": {
+    "message": "参与人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead8": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examGrade": {
+    "message": "查看成绩",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.analysisTitle1": {
+    "message": "基本情况",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.baseTip1": {
+    "message": "考试发布量",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.baseTip2": {
+    "message": "考生参与人次",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.baseTip3": {
+    "message": "考生参与人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examAnalysisTitle": {
+    "message": "考试概况",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.selectOrg": {
+    "message": "选择机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status1": {
+    "message": "所有考试",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status2": {
+    "message": "未开始",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status3": {
+    "message": "进行中",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status4": {
+    "message": "已结束",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.userManager": {
+    "message": "用户管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.userDesc1": {
+    "message": "管理机构中的账号与用户，点击",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.userDesc2": {
+    "message": "用户管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.userDesc3": {
+    "message": "查看更多信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountManager": {
+    "message": "账号管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerManager": {
+    "message": "注册管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.account": {
+    "message": "账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountfilter1": {
+    "message": "按姓名、邮件、SIS ID搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountfilter2": {
+    "message": "全部状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction1": {
+    "message": "邀请用户",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction2": {
+    "message": "创建账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction3": {
+    "message": "批量添加",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction4": {
+    "message": "与SIS同步",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction5": {
+    "message": "导出",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction6": {
+    "message": "统计数据",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction7": {
+    "message": "设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable1": {
+    "message": "显示名",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable2": {
+    "message": "邮件地址",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable3": {
+    "message": "SIS ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable4": {
+    "message": "状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable5": {
+    "message": "创建时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable6": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable7": {
+    "message": "邮件列表",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTableAction1": {
+    "message": "编辑",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTableAction2": {
+    "message": "更改密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTableAction3": {
+    "message": "停用",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTableAction4": {
+    "message": "激活账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTableAction5": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createAccount": {
+    "message": "创建账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editAccount": {
+    "message": "编辑账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm1": {
+    "message": "全名",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm2": {
+    "message": "显示名",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm3": {
+    "message": "SIS ID (可选)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm4": {
+    "message": "邮箱",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm5": {
+    "message": "新建密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm6": {
+    "message": "注册到",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm7": {
+    "message": "角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm8": {
+    "message": "账号创建后发送邮件通知",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder1": {
+    "message": "您的全名，将用于证书与正式报告中",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder2": {
+    "message": "系统中显示的名字",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder3": {
+    "message": "在SIS系统中的ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder4": {
+    "message": "输入邮件地址用于身份确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder5": {
+    "message": "至少8位密码，包含字母与数字",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder6": {
+    "message": "您的全名，将用于证书与正式报告中",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder7": {
+    "message": "您的全名，将用于证书与正式报告中",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder8": {
+    "message": "您的全名，将用于证书与正式报告中",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr1": {
+    "message": "必须填写全名",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr2": {
+    "message": "文字长度不超过128个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr3": {
+    "message": "必须填写显示名",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr4": {
+    "message": "文字不能超过64个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr5": {
+    "message": "文字长度不超过128个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr6": {
+    "message": "邮件地址必须填写",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr7": {
+    "message": "邮件地址已经被使用，请更换其他地址",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr8": {
+    "message": "邮件地址不正确",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr9": {
+    "message": "密码最少8位",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr10": {
+    "message": "密码在8-20位，含字母与数字",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr11": {
+    "message": "必须填写密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr12": {
+    "message": "至少选择一个角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteUser": {
+    "message": "邀请用户",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteTitle": {
+    "message": "邀请用户",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteDesc": {
+    "message": "通过邮件邀请创建新账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm1": {
+    "message": "邮件地址 (使用逗号划分)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm2": {
+    "message": "添加到",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm3": {
+    "message": "角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm4": {
+    "message": "附加消息 (可选)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm5": {
+    "message": "邀请过期时间(可选项)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm6": {
+    "message": "邮件列表 (使用逗号划分)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder1": {
+    "message": "样例: sample@example.net, sample2@example.net",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder2": {
+    "message": "添加到",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder3": {
+    "message": "选择角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder4": {
+    "message": "在邀请邮件中的附加信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder5": {
+    "message": "选择日期",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder6": {
+    "message": "验证邮件中的附加消息",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder7": {
+    "message": "输入已有账号的邮件地址，使用逗号分开",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteTable1": {
+    "message": "邮箱",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteTable2": {
+    "message": "添加到",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteTable3": {
+    "message": "角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteTable4": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.deleteAccount": {
+    "message": "删除账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.disableAccount": {
+    "message": "停用账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.removeAccount": {
+    "message": "移除注册关系",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeAccount": {
+    "message": "激活账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.deleteDesc": {
+    "message": "删除账号将永久移除用户的数据(包括课程、分数)与用户文件，这个操作无法恢复。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.disableDesc": {
+    "message": "账号停用后，用户无法登录系统，用户数据不会删除，可重新启用账号。点击下方按钮确认该操作。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.removeDesc": {
+    "message": "移除注册关系后，该账号无法使用本机构资源与应用，该账号在本机构创建的数据将会保留，确认要移除该账号吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeDesc": {
+    "message": "激活账号停用后，该账号可以正常使用各项功能，确认要激活这个账号吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.delete": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.disable": {
+    "message": "停用",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.remove": {
+    "message": "移除",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.active": {
+    "message": "激活",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendUserMail": {
+    "message": "发送通知到该用户邮箱",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPassword": {
+    "message": "修改密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.amendBtn": {
+    "message": "修改",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.allStatus": {
+    "message": "全部:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.passStatus": {
+    "message": "通过:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.errorStatus": {
+    "message": "错误:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerfilter1": {
+    "message": "按姓名、邮件地址检索",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerfilter2": {
+    "message": "全部状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerfilter3": {
+    "message": "全部角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAccount": {
+    "message": "注册账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAction1": {
+    "message": "添加(批量)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAction2": {
+    "message": "SIS同步",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAction3": {
+    "message": "导出",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAction4": {
+    "message": "统计数据",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTable1": {
+    "message": "账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTable2": {
+    "message": "账号归属",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTable3": {
+    "message": "注册到",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTable4": {
+    "message": "角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTable5": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTableAction1": {
+    "message": "编辑",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTableAction2": {
+    "message": "移除用户",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTableAction3": {
+    "message": "学习成果",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTableAction4": {
+    "message": "教学日志",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTableAction5": {
+    "message": "管理日志",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerFormTitle": {
+    "message": "注册账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerFormDesc": {
+    "message": "将已有账号添加到机构中，如果你需要创建新账号请联系账号管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerForm1": {
+    "message": "从已有账号选择",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerBtnText": {
+    "message": "注册账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.preStep": {
+    "message": "上一步",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.nextStep": {
+    "message": "下一步",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.cancel": {
+    "message": "取消",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.close": {
+    "message": "关闭",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.save": {
+    "message": "保存",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.create": {
+    "message": "创建",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.edit": {
+    "message": "编辑",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPasswordErr1": {
+    "message": "请填写密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPasswordErr2": {
+    "message": "密码在8-20位，含字母与数字",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPasswordErr3": {
+    "message": "新密码不能与原密码相同",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPasswordErr4": {
+    "message": "请再次确认密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPasswordErr5": {
+    "message": "密码输入不一致",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.mailNull": {
+    "message": "必须填写邮件地址",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.mailOver": {
+    "message": "不能超过5000个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editRegister": {
+    "message": "修改注册",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTo": {
+    "message": "注册到",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editUserRet": {
+    "message": "账号{mail}的注册关系已修改",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAccountRet": {
+    "message": "{mail}等 {count}个账号注册已完成",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteUserErr": {
+    "message": "账号数量已达到本机构账号上限，无法创建新的账号，请联系管理员购买新的账号。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteUserSuccess": {
+    "message": "已向{mail}等 {count}个邮箱发送注册邀请。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.passwordSuccess": {
+    "message": "密码已修改",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.passwordFail": {
+    "message": "密码修改失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeAccountErr": {
+    "message": "活跃账号数量已达到最大值，无法再增加新的活跃账号，请联系管理员购买新的活跃账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountOver": {
+    "message": "账号数量已达到本机构账号上限，无法创建新的账号，请联系管理员购买新的账号。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.delRegisterRole1": {
+    "message": "了解更多",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.delRegisterRole2": {
+    "message": "注册管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.loadingText1": {
+    "message": "正在处理中，请耐心等待...",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.loadingText2": {
+    "message": "正在处理中，请耐心等待...",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendCodeToMail": {
+    "message": "发送验证邮件到邮箱中",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.selectUser": {
+    "message": "选择用户",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.usersCount": {
+    "message": "条数:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.selected": {
+    "message": "已选中: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.select": {
+    "message": "选择",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.search": {
+    "message": "搜索...",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.isNew": {
+    "message": "最新最前",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.isNotNew": {
+    "message": "最新最后",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.newPassword": {
+    "message": "新密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.autoGenerate": {
+    "message": "自动生成",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.autoGenerateSuccess": {
+    "message": "自动生成的密码以复制到剪贴板",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.confirmPassword": {
+    "message": "确认密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.lastLogin": {
+    "message": "最后登录:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.usersItem1": {
+    "message": "可用会话",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.usersItem2": {
+    "message": "课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.usersItem3": {
+    "message": "存储",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.stopUserSuccess": {
+    "message": "停用账号成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.stopUserFail": {
+    "message": "停用账号失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeUserSuccess": {
+    "message": "激活账号成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeUserFail": {
+    "message": "激活账号失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.deleteUserSuccess": {
+    "message": "删除账号成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.deleteUserFail": {
+    "message": "删除账号失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.lessOneUser": {
+    "message": "添加至少一个已有账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.lessOneMail": {
+    "message": "添加至少一个邀请邮件",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createAccountSuccess": {
+    "message": "创建账号成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createAccountFail": {
+    "message": "创建账号失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteMailSuccess": {
+    "message": "已向 {mail} 等 {num} 个邮箱发送注册邀请。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerMailSuccess": {
+    "message": "{mail} 等 {num} 个账号已注册到 {org} 机构中",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteMailFail": {
+    "message": "已向{mail1} 等 {num1} 个邮箱发送注册邀请。{mail2} 等{num2} 个邮箱发送邮件失败。您可以进行以下操作:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeStatus": {
+    "message": "激活",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.suspendStatus": {
+    "message": "已停用",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.pendingStatus": {
+    "message": "待激活",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.removeAccountSuccess": {
+    "message": "移除注册关系成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.removeAccountFail": {
+    "message": "移除注册关系失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editRegisterFail": {
+    "message": "修改注册关系失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.noAccount": {
+    "message": "账号不存在，无法添加，联系账号管理员添加账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountList": {
+    "message": "账号列表",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.byEmail": {
+    "message": "通过邮件",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.byAccount": {
+    "message": "通过账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendNewMail": {
+    "message": "更改email后，发送验证邮件到新邮箱",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.tabItem1": {
+    "message": "配置",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.tabItem2": {
+    "message": "资源管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsForm1": {
+    "message": "云服务器提供者",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsForm2": {
+    "message": "虚拟会议室启用状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsForm3": {
+    "message": "管理员账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsForm4": {
+    "message": "云录播功能启用状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.updateBtn": {
+    "message": "更新",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFilterPlaceholder1": {
+    "message": "输入会议室名称搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFilterPlaceholder2": {
+    "message": "所有状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.addResource": {
+    "message": "创建",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader1": {
+    "message": "会议室ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader2": {
+    "message": "名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader3": {
+    "message": "描述",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader4": {
+    "message": "座位数",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader5": {
+    "message": "状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader6": {
+    "message": "到期时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader7": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader8": {
+    "message": "分配机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader9": {
+    "message": "分配教师",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction1": {
+    "message": "修改",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction3": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction4": {
+    "message": "配置",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction5": {
+    "message": "启用",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction6": {
+    "message": "停用",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel1": {
+    "message": "会议室名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel1Placeholder": {
+    "message": "请输入会议室名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel2": {
+    "message": "会议室ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel2Placeholder": {
+    "message": "请输入会议室ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel3": {
+    "message": "座位数",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel3Placeholder": {
+    "message": "请输入座位数",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel4": {
+    "message": "到期时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel4Placeholder": {
+    "message": "请选择到期时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel5": {
+    "message": "描述",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel5Placeholder": {
+    "message": "你可对该会议室进行简单的描述（选填）",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel6": {
+    "message": "分配给机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel6Placeholder": {
+    "message": "请选择机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel7": {
+    "message": "分配给教师",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel7Placeholder": {
+    "message": "请选择教师",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.filterPlaceholder1": {
+    "message": "输入直播/教师名称搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.filterPlaceholder2": {
+    "message": "检索时间范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.filterPlaceholder3": {
+    "message": "所有状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.filterPlaceholder4": {
+    "message": "选择机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead1": {
+    "message": "直播名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead2": {
+    "message": "教师",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead3": {
+    "message": "所属课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead4": {
+    "message": "所属机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead5": {
+    "message": "状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead6": {
+    "message": "直播时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead8": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead9": {
+    "message": "应到人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.baseTip1": {
+    "message": "直播总数",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.baseTip2": {
+    "message": "直播教师人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.baseTip3": {
+    "message": "直播累计观看人次",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.baseTip4": {
+    "message": "单次直播最多观看人数",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.baseTip5": {
+    "message": "累计开播时长",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveAnalysisTitle": {
+    "message": "直播概况",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.selectOrg": {
+    "message": "选择机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status1": {
+    "message": "未开始",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status2": {
+    "message": "进行中",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status3": {
+    "message": "已结束",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status4": {
+    "message": "正常",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status5": {
+    "message": "即将到期",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status6": {
+    "message": "已停用",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableAction1": {
+    "message": "进入会议",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveHeaderAction1": {
+    "message": "导出列表",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveHeaderAction2": {
+    "message": "云会议室资源配置",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.analysis": {
+    "message": "统计分析",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.analysisTitle1": {
+    "message": "基本情况",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveChartTitle1": {
+    "message": "直播时长",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveChartTitle2": {
+    "message": "发布直播最多的老师 TOP5",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveChartTitle3": {
+    "message": "发布直播最多的课程 TOP5",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.hour": {
+    "message": "{hour}小时",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.moreHour": {
+    "message": "{hour}小时以上",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.lessHour": {
+    "message": "{hour}小时以内",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormLabel1": {
+    "message": "机构范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormPlaceholder1": {
+    "message": "请选择机构范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormLabel2": {
+    "message": "时间范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormPlaceholder2": {
+    "message": "请选择时间范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormLabel3": {
+    "message": "直播状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.distributeTeachersTip": {
+    "message": "只可选择所分配机构下的教师。<br/>默认选择所分配机构下的所有教师。 ",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider1": {
+    "message": "云会议",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider2": {
+    "message": "拓课云",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider3": {
+    "message": "保利威",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider4": {
+    "message": "welink",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider5": {
+    "message": "腾讯云会议",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.saveMeetingOptionSuccess": {
+    "message": "云会议室配置已更新",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.createMeetingRoomTitle": {
+    "message": "创建云会议室",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.editMeetingRoomTitle": {
+    "message": "修改云会议室",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.createMeetingRoomSuccess": {
+    "message": "会议室创建成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.editMeetingRoomSuccess": {
+    "message": "会议室修改成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomTitle": {
+    "message": "删除该会议室资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomDesc": {
+    "message": "删除该会议室资源后，所有与该会议室资源相关的数据将被删除，存储空间将被释放，此操作不可逆，确认要执行此操作吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomConfirm": {
+    "message": "删除该会议室资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomSuccess": {
+    "message": "会议室删除成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.selctTea": {
+    "message": "选择老师",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.setMeetingRoomTitle": {
+    "message": "配置云会议室",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFileTitle": {
+    "message": "直播列表",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.title": {
+    "message": "机构资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.desc": {
+    "message": "查看机构可用资源与已用资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resource": {
+    "message": "资源状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.start": {
+    "message": "开始",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.end": {
+    "message": "结束",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.used": {
+    "message": "已用",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.max": {
+    "message": "最大",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.expired": {
+    "message": "已过期",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.expired1": {
+    "message": "已到期",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.total": {
+    "message": "总数",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.totalQuota": {
+    "message": "总配额",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.serverTitle": {
+    "message": "服务到期时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.storeTitle": {
+    "message": "存档到期时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.totalAccountTitle": {
+    "message": "总账户数",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.activeAccountTitle": {
+    "message": "活跃账号数",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.yunTitle": {
+    "message": "云存储",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.yunMeetingTitle": {
+    "message": "云会议室",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.lesseeTitle": {
+    "message": "租户",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.totalActiveAccountTitle": {
+    "message": "总活跃账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.bigScreen": {
+    "message": "智慧大屏",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.baseResourceSetting": {
+    "message": "基础资源配置",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceSettingDesc1": {
+    "message": "控制机构可用资源，点击",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceSettingDesc2": {
+    "message": "资源管理",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceSettingDesc3": {
+    "message": "查看更多信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceTitle1": {
+    "message": "租期",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceTitle2": {
+    "message": "云存储",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceTitle3": {
+    "message": "账号数",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceItem1": {
+    "message": "服务到期时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceItem2": {
+    "message": "归档到期时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceItem3": {
+    "message": "最大存储空间 (GB)",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceItem4": {
+    "message": "最大账号数量",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceItem5": {
+    "message": "最大活跃账号数量",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceSubmit": {
+    "message": "更新设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceReset": {
+    "message": "重置",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm1": {
+    "message": "变更资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm2": {
+    "message": "将要变更以下资源，确认后继续",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm3": {
+    "message": "关于",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm4": {
+    "message": "资源变更",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm5": {
+    "message": "向机构管理员发送通知邮件",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm6": {
+    "message": "确认",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceChange": {
+    "message": "资源变更",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.sendMail": {
+    "message": "向机构管理员发送通知邮件",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips1": {
+    "message": "到期时间不足一个月，请您做好使用规划",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips2": {
+    "message": "已达到服务期，联系客户经理扩展资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips3": {
+    "message": "归档到期时间不足一个月，请您做好备份",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips4": {
+    "message": "已超过存档到期时间，将在5个工作日内删除归档",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips5": {
+    "message": "账号已超过80%用量，请做好使用规划",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips6": {
+    "message": "已达到最大账号用量，无法创建新的账号，联系客户经理扩展资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips7": {
+    "message": "活跃账号已超过80%用量，请做好使用规划",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips8": {
+    "message": "已达到最大活跃账号用量，无法新增或激活账号，联系客户经理扩展资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips9": {
+    "message": "云存储已超过80%用量，请做好使用规划",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips10": {
+    "message": "已达到最大存储，联系客户经理扩展资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips11": {
+    "message": "部分会议室已过期，请联系客户经理及时续约",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips12": {
+    "message": "全部会议室均已过期无法使用，请联系客户经理及时续约",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule1": {
+    "message": "该项为必填项",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule2": {
+    "message": "最大存储空间不能小于1",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule3": {
+    "message": "存储空间超过1000G请与商务代表联系处理",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule4": {
+    "message": "最大账号数量不能小于100",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule5": {
+    "message": "最大不能超过1千万",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule6": {
+    "message": "最大活跃账号数量不能小于100",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule7": {
+    "message": "不能超过最大账号数量",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.downloadErrlog": {
+    "message": "下载错误日志",
     "description": "新版管理后台"
+  },
+  "users.passwordP1": {
+    "message": "8-20位字符，含字母与数字",
+    "description": "新版管理后台"
+  },
+  "users.passwordP2": {
+    "message": "再次输入密码确认",
+    "description": "新版管理后台"
+  },
+  "users.mailAddressErr": {
+    "message": "邮件地址已被注册",
+    "description": "新版管理后台"
+  },
+  "users.editAccountSuccess": {
+    "message": "编辑账号成功",
+    "description": "新版管理后台"
+  },
+  "live.liveTableAction2": {
+    "message": "会议已结束",
+    "description": "新版管理后台"
+  },
+  "organization.choseAdmin": {
+    "message": "选择管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.choseAdminTip": {
+    "message": "请输入姓名或者邮箱，回车进行搜索",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.loading": {
+    "message": "加载中...",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.nomore": {
+    "message": "没有更多了",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType1": {
+    "message": "管理机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType2": {
+    "message": "教学机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType3": {
+    "message": "内部机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepTitle": {
+    "message": "新建租户",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step1": {
+    "message": "基础设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step2": {
+    "message": "设置租户基础信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step3": {
+    "message": "资源设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step4": {
+    "message": "配置租户可用资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step5": {
+    "message": "设置管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step6": {
+    "message": "为该租户创建超级管理员",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step7": {
+    "message": "通知相关人",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step8": {
+    "message": "将通知邮件发送给相关人",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step9": {
+    "message": "邮件预览",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepDesc": {
+    "message": "租户创建后，向相关人发送邮件通知，告知本租户详细信息。邮件将会发送给租户管理代理管理员与系统管理员。如果需要发送给其他相关人，在下方输入邮件地址。",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn1": {
+    "message": "下一步",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn2": {
+    "message": "上一步",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn3": {
+    "message": "创建租户",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn4": {
+    "message": "关闭",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepSuccess": {
+    "message": "租户创建成功，点击下方关闭按钮回到原页面，点击以下链接地址，继续对该租户进行设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp1": {
+    "message": "尊敬的",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp2": {
+    "message": "感谢您使用ULearning，以下是您的订单详情",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp3": {
+    "message": "通用信息:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp4": {
+    "message": "租户名称: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp5": {
+    "message": "资源:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp6": {
+    "message": "服务开始时间: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp7": {
+    "message": "服务到期时间: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp8": {
+    "message": "存档到期时间: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp9": {
+    "message": "最大账号数量: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp10": {
+    "message": "最大活跃账号数量: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp11": {
+    "message": "最大云存储: ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp12": {
+    "message": "查看以下信息以帮助您的使用:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp13": {
+    "message": "ULearning用户手册（EN）",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp14": {
+    "message": "\"How to use\" video clips for teachers (En)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp15": {
+    "message": "\"How to use\" video clips for students (En)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp16": {
+    "message": "如果有任何问题，请联系您的客户经理",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp17": {
+    "message": "此致",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp18": {
+    "message": "ULearning 团队",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp19": {
+    "message": "sg.service@ulearning.asia",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.repeatTip": {
+    "message": "该名称已经被占用，请使用其他名字",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addRuleErr1": {
+    "message": "必填项",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addRuleErr2": {
+    "message": "文字不可超过{num}个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailerr": {
+    "message": "{mail} 邮箱格式不正确",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.toggleOrgSuccess": {
+    "message": "机构切换成功，页面即将更新",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.addAnnouncement": {
+    "message": "创建公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.announcementDetail": {
+    "message": "查看公告",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.orgResource": {
+    "message": "机构资源",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.baseResourceSetting": {
+    "message": "基础资源配置",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.rolePermissionSetting": {
+    "message": "配置权限",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.homePage": {
+    "message": "主页",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.baseResourceSettingSuccess": {
+    "message": "基础资源配置成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.error": {
+    "message": "操作失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.updateconfirmDesc": {
+    "message": "您对以下字段做了修改，确认要更新这些字段吗？",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.repeatTip1": {
+    "message": "该标识符已经被占用，请使用其他标识符",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.uploadLogoTip": {
+    "message": "上传图标只能为 png、jpg、jpeg、gif 格式!",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.emailErrorTip": {
+    "message": "请输入正确的邮箱地址",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementType": {
+    "message": "用户协议类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementContent": {
+    "message": "用户协议内容",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementContentTip": {
+    "message": "用户协议内容不能为空",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.policyContentTip": {
+    "message": "隐私协议内容不能为空",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.updatepolicyContentSuccess": {
+    "message": "更新隐私设置成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate1": {
+    "message": "网站模板",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate2": {
+    "message": "菜单式",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate3": {
+    "message": "如果您想自己自定义菜单或者首页的内容，建议使用该模板",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate4": {
+    "message": "登录式",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate5": {
+    "message": "如果您仅想让学生有个单独的登录入口建议使用该模板",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.errorTip1": {
+    "message": "此ID已占用，请使用其他的ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.errorTip2": {
+    "message": "该域名已占用，请输入其他名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAdd": {
+    "message": "批量添加",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.uploaderTitle": {
+    "message": "选择文件",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.uploaderDesc": {
+    "message": "拖拽文件到此处或者选择文件(.csv .xlsx)",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddErrorTip1": {
+    "message": "文件格式不正确，请选择.csv或者.xlsx文件",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddErrorTip2": {
+    "message": "文件不能超过5M",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.backStepBtn": {
+    "message": "上一步",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.nextStepBtn": {
+    "message": "下一步",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.continueBtn": {
+    "message": "继续",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataTotal": {
+    "message": "总计",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataFail": {
+    "message": "错误条目",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataPass": {
+    "message": "校验通过",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.options": {
+    "message": "选项",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddMaxTip": {
+    "message": "单次导入数据不能超过{n}条，请分次导入",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportErrorList": {
+    "message": "下载错误数据",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.inputRequireErrorTip": {
+    "message": "请填写{labelTitle}",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.selectRequireErrorTip": {
+    "message": "请选择{labelTitle}",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.minErrorTip": {
+    "message": "内容不可少于{min}个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.maxErrorTip": {
+    "message": "内容不可超过{max}个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountTitle": {
+    "message": "批量添加账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountDesc": {
+    "message": "通过文件一次性添加多条数据",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountRule": {
+    "message": "单次导入不超过1000条，文件不超过5M",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.template1": {
+    "message": "模板(.csv)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.template2": {
+    "message": "模板(.xlsx)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRuleTitle": {
+    "message": "数据要求",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule1": {
+    "message": "【fullname】文本，必填，不多于128字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule2": {
+    "message": "【display_name】文本，必填，不多于64字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule3": {
+    "message": "【email】必填，不可重复",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule4": {
+    "message": "【sis_id】可选，文本，不多于128字符，不可重复",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule5": {
+    "message": "【password】必填，文本，8-20位，含字母与数字",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule6": {
+    "message": "【enroll_to】可选，默认注册到本机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule7": {
+    "message": "【role】必填，多个角色使用逗号分开，用户注册到的机构所支持的角色列表",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendEmailTitle": {
+    "message": "账号创建后发送通知邮件",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendEmailDesc": {
+    "message": "添加账号后，将按照账号邮件地址向用户发送通知邮件。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.submitBtn": {
+    "message": "添加",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountMaxTip": {
+    "message": "账号数量已达到本机构账号上限， 无法创建新的账号，<br/> 请联系管理员购买新的账号。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeAccountMaxTip": {
+    "message": "活跃账号数量已达到上限，无法创建新的账号，<br/>请联系管理员购买新的活跃账号。",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip1": {
+    "message": "请输入账号全名",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip2": {
+    "message": "全名不能超过128字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip3": {
+    "message": "请输入显示名",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip4": {
+    "message": "显示名不能超过64个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip5": {
+    "message": "请输入邮件地址",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip6": {
+    "message": "邮件格式错误，请填写正确的邮件地址",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip7": {
+    "message": "该邮件地址已注册，请使用其他邮件",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip8": {
+    "message": "文件内邮件地址存在重复，请确保文件中邮件地址是唯一的",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip9": {
+    "message": "SISID不能超过128字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip10": {
+    "message": "该SISID已使用，请使用其他ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip11": {
+    "message": "SISID存在重复，确保文件中SIS ID是唯一的",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip12": {
+    "message": "请输入密码",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip13": {
+    "message": "密码不能少于8位",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip14": {
+    "message": "密码不能多于20位",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip15": {
+    "message": "密码必须包含字母与数字",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip16": {
+    "message": "请输入要注册到的机构名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip17": {
+    "message": "机构名称未找到，请使用正确的机构名",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip18": {
+    "message": "机构名称不能超过256字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip19": {
+    "message": "机构名称至少两个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip20": {
+    "message": "请填写角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip21": {
+    "message": "无法验证，请填写要分配的角色名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip22": {
+    "message": "角色名称不能超过128个字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip23": {
+    "message": "请使用该机构支持的角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip24": {
+    "message": "当前没有通过校验的数据,请重新导入",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddSuccessTip": {
+    "message": "成功新增{n}个账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddFailTip": {
+    "message": "{n}个账号添加失败",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.exportErrorData": {
+    "message": "点击导出错误数据",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.addCountMaxTip": {
+    "message": "待创建账号数量({addNum}) 超过本机构剩余可用活跃账号数量({maxNum})， 无法创建新的账号， 请联系管理员购买新的账号。",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth1": {
+    "message": "登录与认证",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth2": {
+    "message": "设置用户登录与认证方式以及SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth3": {
+    "message": "设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth4": {
+    "message": "认证设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth5": {
+    "message": "基本信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth6": {
+    "message": "登录页URL",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth7": {
+    "message": "设置页面",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth8": {
+    "message": "登录设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth9": {
+    "message": "允许邮件密码登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth10": {
+    "message": "允许用户通过账号密码登录系统。停用此功能，用户无法使用邮件与密码登录，也无法修改个人密码。",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth11": {
+    "message": "禁止邮件密码登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth12": {
+    "message": "用此设置将不再允许用户使用电子邮件和密码登录。在进行更改之前，请确保用户具有替代的登录方法。单击确认按钮以应用更改。",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.switchOldVersion": {
+    "message": "切换到旧版本",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.switchRole": {
+    "message": "切换角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.switchRoleDesc": {
+    "message": "选择你希望使用的角色",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.setting": {
+    "message": "设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.logout": {
+    "message": "退出登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.hello": {
+    "message": "你好，{userNickName}",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.email": {
+    "message": "邮箱：{email}",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.userId": {
+    "message": "用户Id：{userId}",
+    "description": "新版管理后台 zh.json"
   }
 }

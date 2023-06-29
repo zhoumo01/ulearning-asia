@@ -275,6 +275,10 @@
     "message": "Saved at",
     "description": "UA"
   },
+  "autoSaveAt": {
+    "message": "Automatically saved at {time}",
+    "description": "UA -> 教师 -> 编辑课件 -> 右上角"
+  },
   "automaticSorting": {
     "message": "Automatic Sorting",
     "description": "UA"
@@ -811,6 +815,10 @@
     "message": "Interactive Textbook",
     "description": "UA"
   },
+  "totalCourses": {
+    "message": "Total {n} ",
+    "description": "UA -> 教师 -> 首页 -> 相关代码已隐藏，因此无法在页面上看到"
+  },
   "coursewareQBank": {
     "message": "Courseware Question Bank",
     "description": "UA"
@@ -902,6 +910,10 @@
   "dataError": {
     "message": "Incorrect data",
     "description": "UA"
+  },
+  "totalData": {
+    "message": "Total: {n} ",
+    "description": "UA -> 教师 -> 首页"
   },
   "delete": {
     "message": "Delete",
@@ -1527,6 +1539,22 @@
     "message": "Flash structure is wrong",
     "description": "UA"
   },
+  "evaluationHasChinese": {
+    "message": "There are Chinese in paragraph {n} of the review",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "evaluationEmpty": {
+    "message": "In paragraph {n}, please enter the content of the test",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "referenceAnswerEmpty": {
+    "message": "Please enter the reference answer in paragraph {n}",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "referenceTextHasChinese": {
+    "message": "Paragraph {n} is scored with Chinese in the text",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
   "followReadingFormat": {
     "message": "Mp3 format, no more than 3M",
     "description": "UA"
@@ -1558,6 +1586,10 @@
   "fullSubtitle": {
     "message": "Complete subtitle",
     "description": "UA"
+  },
+  "items": {
+    "message": "{n} ",
+    "description": "UA -> 首页 -> 指课程发布到几个站点 -> 相关代码已隐藏，因此无法在页面上看到"
   },
   "generateFLASH": {
     "message": "Genearing Flash...",
@@ -1939,6 +1971,10 @@
     "message": "Menu Type",
     "description": "UA"
   },
+  "inputMinutes": {
+    "message": "{input} minutes",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
+  },
   "modifyFail": {
     "message": "Failed to modify",
     "description": "UA"
@@ -2255,6 +2291,10 @@
     "message": "Page exercise",
     "description": "UA"
   },
+  "stopTimingTip": {
+    "message": "In order to ensure the accuracy of the learning record, the system has stopped learning on this page at {time}, and the learning record of this page will not be saved.",
+    "description": "UA -> 学生账户 -> 学习课件"
+  },
   "pageHasBeenEditedConfirmDelete": {
     "message": "The current page has been edited. Are you sure you want to delete it?",
     "description": "UA"
@@ -2439,6 +2479,14 @@
     "message": "No. of Questions",
     "description": "UA"
   },
+  "questionError": {
+    "message": "The data of the {n} question on this page is incorrect, the question ID: {id}",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
+  },
+  "questionError2": {
+    "message": "Question ID: {id} The data is incorrect",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
+  },
   "questionsNotCompleted": {
     "message": "There are still some questions in this page not yet completed.，",
     "description": "UA"
@@ -2486,6 +2534,10 @@
   "recommendedLearningHours1": {
     "message": "Recommended learning hours",
     "description": "UA"
+  },
+  "recordTimeOf": {
+    "message": "Recording duration: {input} seconds",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 弹框右上角"
   },
   "recordingTime": {
     "message": "Recording duration",
@@ -2647,6 +2699,10 @@
     "message": "School Teacher",
     "description": "UA"
   },
+  "points": {
+    "message": "{n} minutes",
+    "description": "教师账户 -> ua -> 课程查看 -> 课件试题 \n 课程查看 -> 预览课件 -> 选择练习题 (或者学生账户登录 -> 练习题)"
+  },
   "scoreModels": {
     "message": "Scoring Model",
     "description": "UA"
@@ -2674,6 +2730,10 @@
   "second": {
     "message": "second(s)",
     "description": "UA"
+  },
+  "inputSeconds": {
+    "message": "{input} seconds",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
   },
   "secondLevelMenu": {
     "message": "2nd Level Menu",
@@ -2851,6 +2911,10 @@
     "message": "Selected",
     "description": "UA"
   },
+  "selectedQue": {
+    "message": "{n} question selected",
+    "description": "UA -> 教师 -> 编辑课件 -> 导入练习"
+  },
   "selectedTeacher": {
     "message": "Selected teachers",
     "description": "UA"
@@ -2974,6 +3038,10 @@
   "slotVideoIntoContent": {
     "message": "Insert Video",
     "description": "UA"
+  },
+  "smallQue": {
+    "message": "Sub-Questions {n}",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题 (需要题型为选词填空)"
   },
   "sortQuestions": {
     "message": "Sequence",
@@ -3194,6 +3262,10 @@
   "timeLimitedExercises": {
     "message": "Timed Exercises",
     "description": "UA"
+  },
+  "inputTimes": {
+    "message": "{input} times",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 添加后下方工具栏设置按钮"
   },
   "timingLearningSuspended": {
     "message": "Learning Paused!",
@@ -3526,6 +3598,10 @@
   "wrongTip": {
     "message": "Ouch, there's a mistake.",
     "description": "UA"
+  },
+  "inputMonth": {
+    "message": "{inputYear} - {inputMonth}",
+    "description": "UA -> 教师 -> 选择一门课程 -> 侧边栏详细介绍 -> 勾选已出版互动教材 -> 出版时间"
   },
   "zippedFile": {
     "message": ".zip files",
@@ -4103,12 +4179,128 @@
     "message": "Please enter content",
     "description": "UA"
   },
+  "inputFileName": {
+    "message": "Enter a keyword to search",
+    "description": "UA"
+  },
   "otherSetting": {
     "message": "Other Settings",
     "description": "UA"
   },
   "hideDownload": {
     "message": "Hide the document download link",
+    "description": "UA"
+  },
+  "username": {
+    "message": "Username",
+    "description": "UA"
+  },
+  "login": {
+    "message": "Login",
+    "description": "UA"
+  },
+  "urlAddress": {
+    "message": "Video URL:",
+    "description": "UA"
+  },
+  "implant": {
+    "message": "embed",
+    "description": "UA"
+  },
+  "videoAddress": {
+    "message": "By URL",
+    "description": "UA"
+  },
+  "videoErr": {
+    "message": "This video url is not available, try another one",
+    "description": "UA"
+  },
+  "videoErr1": {
+    "message": "Enter youtube video url",
+    "description": "UA"
+  },
+  "youtubeIframe": {
+    "message": "Paste the YouTube embed code:",
+    "description": "UA"
+  },
+  "iframeErr": {
+    "message": "The code is not available, try another one",
+    "description": "UA"
+  },
+  "iframeErr1": {
+    "message": "Please enter the iframe code",
+    "description": "UA"
+  },
+  "courseCoverImage": {
+    "message": "Cover image",
+    "description": "UA"
+  },
+  "publishCourseTip4": {
+    "message": "When a course is published, it changes to the Published state.",
+    "description": "UA"
+  },
+  "folderNameExistTips": {
+    "message": "A folder with the same name already exists",
+    "description": "UA"
+  },
+  "videoRevertErrorTips": {
+    "message": "The file encoding format cannot be parsed, please try to transcode to MP4 before uploading.",
+    "description": "UA"
+  },
+  "addYoutubeURL": {
+    "message": "Paste the YouTube video url",
+    "description": "UA"
+  },
+  "addYoutubeIframe": {
+    "message": "Paste the iframe code from YouTube",
+    "description": "UA"
+  },
+  "slotScormIntoContent": {
+    "message": "Add SCORM package",
+    "description": "UA"
+  },
+  "selectScorm": {
+    "message": "Select SRM package",
+    "description": "UA"
+  },
+  "enterScormKeywordSearch": {
+    "message": "Enter a keyword to search",
+    "description": "UA"
+  },
+  "createH5p": {
+    "message": "Create H5p",
+    "description": "UA"
+  },
+  "uploadFail": {
+    "message": "Upload failed!",
+    "description": "UA"
+  },
+  "failToken": {
+    "message": "Token acquisition failed",
+    "description": "UA"
+  },
+  "scormError": {
+    "message": "Resolve the SCORM exception",
+    "description": "UA"
+  },
+  "slotH5pIntoContent": {
+    "message": "Insert H5P courseware into your content",
+    "description": "UA"
+  },
+  "enterH5pKeywordSearch": {
+    "message": "Enter H5p keyword search",
+    "description": "UA"
+  },
+  "createH5pLoading": {
+    "message": "H5P file uploading...",
+    "description": "UA"
+  },
+  "H5PDownloadBtn": {
+    "message": "Download Client",
+    "description": "UA"
+  },
+  "H5PcreateOnline": {
+    "message": "Created online",
     "description": "UA"
   }
 }

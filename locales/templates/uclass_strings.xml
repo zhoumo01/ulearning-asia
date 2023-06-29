@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">U-Class</string>
+    <string name="app_name">UClass</string>
     <string name="app_name_2">人民数字马院</string>
     <string name="version_update">版本更新</string>
     <string name="update">更新</string>
@@ -55,22 +55,22 @@
     <string name="title">提示</string>
 
 <!--    ABC为占位字符，请放于合适的位置-->
-    <string name="click_connect_again">有小组屏离线，请让学生打开小组屏uclass。\n如果小组屏uclass已打开，请ABC连接小组屏。</string>
+    <string name="click_connect_again">有小组屏离线，请让学生打开小组屏UClass。\n如果小组屏UClass已打开，请ABC连接小组屏。</string>
     <string name="ABC">点击此处重新</string>
 
     <string name="malaysia">马来西亚</string>
-    <string name="float_msg">U-Class需要悬浮框权限，保证多屏广播时可以在后台运行。请点击\"确定\"并在弹出的设置界面上开启悬浮框权限。</string>
+    <string name="float_msg">UClass需要悬浮框权限，保证多屏广播时可以在后台运行。请点击\"确定\"并在弹出的设置界面上开启悬浮框权限。</string>
     <string name="ip_msg">多屏互动功能需要使用固定IP，请勿随意更改或者同时连接有线和WIFI等多个网络。</string>
     <string name="current_ip">当前IP:</string>
     <string name="register_ip">组网IP:</string>
     <string name="nav_whiteboard">白板</string>
     <string name="zambia">赞比亚</string>
 
-<!--    待翻译-->
+    <string name="nav_course">课堂</string>
     <string name="fault_detection">故障检测</string>
     <string name="group_num">小组序号</string>
     <string name="group_num_modify_msg">注：为保障正常教学，请勿随意更改小组序号，更改小组序号后，请在教师端刷新页面或者重启应用。</string>
-    <string name="connect_interrupt_msg">广播小组屏失败，请检查小组屏是否在线后重试。在小组屏U-Class界面点击\"故障检测\"查看小组屏状态并按照帮助提示进行操作</string>
+    <string name="connect_interrupt_msg">广播小组屏失败，请检查小组屏是否在线后重试。在小组屏UClass界面点击\"故障检测\"查看小组屏状态并按照帮助提示进行操作</string>
 
 <!--    白板相关-->
     <string name="wb_tool_name_pen">画笔</string>
@@ -132,7 +132,7 @@
     <string name="save_wb_msg">保存路径：</string>
     <string name="open_local_wb">打开本地文件</string>
     <string name="open_course_wb">打开课堂中的文件</string>
-    <string name="login_protocol"><Data><![CDATA[使用前请您仔细阅读U-Class智慧课堂系统的<a href="https://www.ulearning.cn/smart-classroom/pc.html#/userPrivacy?index=2&isPush=1&hide=1">《用户协议》</a>及<a href="https://www.ulearning.cn/smart-classroom/pc.html#/userPrivacy?index=1&isPush=1&hide=1">《隐私政策》</a>。使用U-Class智慧课堂系统即代表您已同意以上约定。]]></Data></string>
+    <string name="login_protocol"><Data><![CDATA[使用前请您仔细阅读UClass智慧课堂系统的<a href="https://smartclassroom.ulearning.cn/pc.html#/userPrivacy?index=2&isPush=1&hide=1">《用户协议》</a>及<a href="https://smartclassroom.ulearning.cn/pc.html#/userPrivacy?index=1&isPush=1&hide=1">《隐私政策》</a>。使用UClass智慧课堂系统即代表您已同意以上约定。]]></Data></string>
     <string name="continue_to_use">同意并继续</string>
     <string name="give_up_using">放弃使用</string>
     <string name="title2">说明</string>
@@ -148,4 +148,107 @@
     <string name="wb_page_scale">画布比例</string>
 
 <!--    待翻译-->
+    <string-array name="common_pen_type">
+        <item>铅笔</item>
+        <item>毛笔</item>
+        <item>荧光笔</item>
+        <item>文字笔</item>
+        <item>图形笔</item>
+    </string-array>
+
+    <string name="select_language">选择语言</string>
+    <string name="language_cn">简体中文</string>
+    <string name="language_en">English</string>
+    <string name="simple_welcome">欢迎使用多屏互动系统</string>
+    <string name="simple_not_activated">当前未激活多屏互动系统 </string>
+    <string name="click_contact_us">如未购买该服务请DEF，如已购买请重启软件</string>
+    <string name="DEF">联系我们</string>
+    <string name="user_msg1">点击右侧按钮开始使用</string>
+    <string name="user_msg2">轻触屏幕，点击屏幕2侧的九宫格\n切换至其他应用或windows系统</string>
+    <string name="watch_tea_screen">正在观看教师屏</string>
+    <string name="title_screen_1">扫码投屏</string>
+    <string name="message_screen_1">安卓手机用户请使用优学院APP扫码</string>
+    <string name="language_ar">عربى</string>
+    <string name="language_es">Español</string>
+    <string name="language_in">Indonesia</string>
+    <string name="language_th">ภาษาไทย</string>
+    <string name="language_zh">繁體中文</string>
+    <string name="ethiopia">埃塞俄比亚</string>
+
+<!--    20230410翻译新增-->
+    <string name="app_name_3">UClass多屏互动</string>
+    <string name="watch_stu_screen">正在观看小组</string>
+    <string name="license_0">已激活</string>
+    <string name="license_10001">媒体协议端口占用</string>
+    <string name="license_10002">控制协议端口占用</string>
+    <string name="license_101">无法获取Mac地址</string>
+    <string name="license_102">无法获取硬件信息</string>
+    <string name="license_103">检验Mac地址失败</string>
+    <string name="license_104">校验硬件信息失败</string>
+    <string name="license_105">SDK类型不一致</string>
+    <string name="license_106">授权已过期</string>
+    <string name="license_107">无法解析license</string>
+    <string name="license_108">其他验证错误</string>
+    <string name="license_109">LICENSE信息为空</string>
+    <string name="license_110">平台类型不匹配</string>
+    <string name="license_111">productId不匹配</string>
+    <string name="license_112">输入的sdkType参数不合法</string>
+    <string name="license_other">未知错误</string>
+    <string name="modify">修改</string>
+    <string name="save">保存</string>
+    <string name="check_ip_tea">请检查小组屏IP地址和组网信息是否一致。路径：小组屏首页>设置>高级设置>有线网络。如不一致，请修改小组屏IP或者修改组网信息。</string>
+    <string name="check_running_tea">检查小组屏UClass是否正在运行。</string>
+    <string name="try_restart">尝试关闭并重新打开教师屏和小组屏的UClass软件。</string>
+    <string name="check_ip_stu">在教师屏UClass内点击"故障检测"，查看组网信息。检查小组屏IP地址和组网信息是否一致。如不一致，请修改小组屏IP或者修改组网信息。</string>
+    <string name="modify_success_restart">修改成功，请关闭并重新打开UClass!</string>
+    <string name="modify_fail_reinput">格式有误请核对参数</string>
+    <string name="device_info">当前设备信息</string>
+    <string name="screen">屏幕</string>
+    <string name="mac_addr">MAC地址</string>
+    <string name="network_info">当前网络</string>
+    <string name="network_wifi_warn">当前网络：WIFI, 为了保障广播清晰度和稳定性请使用有线网络。</string>
+    <string name="network_cur_ip">当前IP</string>
+    <string name="license">证书</string>
+    <string name="version">版本</string>
+    <string name="media_port">通信端口</string>
+    <string name="agent_offline">如果小组屏离线:</string>
+    <string name="network_group_info">组网信息</string>
+    <string name="back">返回</string>
+    <string name="no_group_msg">组网信息错误，请使用备份文件进行修复</string>
+    <string name="update_version" formatted="false">更新版本可用：UClass%s，是否更新？</string>
+    <string name="is_new_version">当前版本是最新版本</string>
+<!--    自动广播需求-->
+    <string name="auto_broadcast_tea_screen">自动广播教师屏</string>
+    <string name="stu_screen_offline_reminder">如果有小组屏离线，请检查小组屏UClass客户端是否打开。</string>
+    <string name="groups_checking">检测中…</string>
+    <string name="groups_off_line">离线</string>
+    <string name="groups_on_line">在线</string>
+    <string name="auto_staring">正在启动...</string>
+    <string name="auto_start_success">启动成功！正在广播教师屏至小组屏。</string>
+    <string name="auto_start_fail">启动失败！请点击右侧“屏幕广播”按钮手动开启广播。</string>
+<!--    投屏界面优化需求 -->
+    <string name="classroom_lan">教室局域网</string>
+    <string name="yxy_app_name">优学院</string>
+    <string name="idea_share">投屏</string>
+    <string name="msg_android2">仅支持安卓</string>
+    <string name="step1">Step1.</string>
+    <string name="step2">Step2.</string>
+    <string name="step3">Step3.</string>
+    <string name="welink_str">WeLink</string>
+    <string name="idea_share_str">IdeaShare</string>
+    <string name="share_type">IdeaShare</string>
+    <string name="ideashare_remind1">手机或电脑下载IdeaShare</string>
+    <string name="ideashare_remind2">手机或电脑连接到教室局域网</string>
+    <string name="ideashare_remind3">打开IdeaShare，输入终端右上角投屏码进行投屏</string>
+    <string name="ideashare_remind4">手机接入教室局域网后进行投屏</string>
+    <string name="ideashare_remind5">打开WeLink，点击右上角 +号，选择 “投影”，输入终端右上角投屏码进行投屏</string>
+    <string name="wifi">WIFI：</string>
+    <string name="wifi_password">密码：</string>
+    <string name="wifi_save">保存</string>
+    <string name="wifi_cancel">取消</string>
+    <string name="wifi_edit">手动修改</string>
+    <string name="wifi_remind">无法获取教室WIFI信息，请手动输入</string>
+    <string name="storage_permission_reminder">请先授予存储权限</string>
+    <string name="wifi_unknown">未知</string>
+
 </resources>

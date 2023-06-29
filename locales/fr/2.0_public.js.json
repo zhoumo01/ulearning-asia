@@ -1730,5 +1730,665 @@
   "waitingApply": {
     "message": "Appliqué, en attente d'approbation",
     "description": "2.0 public.js"
+  },
+  "newVersion": {
+    "message": "Nouveau côté administrateur",
+    "description": "2.0 public.js"
+  },
+  "loginTip": {
+    "message": "Entrez votre nom d’utilisateur ou votre mot de passe",
+    "description": "2.0 public.js"
+  },
+  "schoolBadge": {
+    "message": "Logo",
+    "description": "2.0 public.js"
+  },
+  "uploadSchoolBadge": {
+    "message": "Télécharger le logo",
+    "description": "2.0 public.js"
+  },
+  "uploadSchoolBadgeTip1": {
+    "message": " Formats: png, bmp, jpg, gif; Taille: jusqu’à 2 Mo; Largeur suggérée x hauteur: 120x120 px",
+    "description": "2.0 public.js"
+  },
+  "uploadSchoolBadgeTip2": {
+    "message": "Seuls les fichiers peuvent être téléchargés en PNG, BMP, JPG, JPEG, GIF",
+    "description": "2.0 public.js"
+  },
+  "uploadSchoolBadgeTip3": {
+    "message": "Le fichier téléchargé doit être inférieur à 2 Mo",
+    "description": "2.0 public.js"
+  },
+  "uploadLogo": {
+    "message": "Téléchargez",
+    "description": "2.0 public.js"
+  },
+  "background": {
+    "message": "Image d’arrière-plan",
+    "description": "2.0 public.js"
+  },
+  "setBackground": {
+    "message": "Images d’arrière-plan du site (sélectionnez une ou plusieurs, jusqu’à 5)",
+    "description": "2.0 public.js"
+  },
+  "customImage": {
+    "message": "Télécharger l’image",
+    "description": "2.0 public.js"
+  },
+  "uploadBackgroundTip1": {
+    "message": "Spécifications de l’image: PNG, BMP, JPG, JPEG, GIF; Taille:<=5M；尺寸：不小于1920*1080px（当您上传的图片未达到建议尺寸时,我们将按照上传图片的原始大小在页面居中显示）。",
+    "description": "2.0 public.js"
+  },
+  "uploadBackgroundTip2": {
+    "message": " Les images seront affichées dans l’ordre dans lequel vous les téléchargez.",
+    "description": "2.0 public.js"
+  },
+  "uploadBackgroundTip3": {
+    "message": "Seuls les fichiers peuvent être téléchargés en PNG, BMP, JPG, JPEG, GIF",
+    "description": "2.0 public.js"
+  },
+  "uploadBackgroundTip4": {
+    "message": "Les fichiers téléchargés doivent être inférieurs à 1 Mo",
+    "description": "2.0 public.js"
+  },
+  "uploadBackgroundTip5": {
+    "message": "Pas plus de 5",
+    "description": "2.0 public.js"
+  },
+  "editFriendLinks": {
+    "message": "Modifier les liens",
+    "description": "2.0 public.js"
+  },
+  "friendLinksPlaceholder1": {
+    "message": "Cliquez pour entrer le nom du lien",
+    "description": "2.0 public.js"
+  },
+  "friendLinksPlaceholder2": {
+    "message": "Cliquez pour entrer l’URL du lien au format de http://",
+    "description": "2.0 public.js"
+  },
+  "friendLinksTip1": {
+    "message": "Remarque: Vous pouvez ajouter jusqu’à 10 liens; nom du lien jusqu’à 20 caractères. Vous pouvez faire glisser pour déplacer les liens afin de les réorganiser.",
+    "description": "2.0 public.js"
+  },
+  "friendLinksTip2": {
+    "message": "Ajouter pas plus de 10",
+    "description": "2.0 public.js"
+  },
+  "addFriendLinks": {
+    "message": "Ajouter un lien",
+    "description": "2.0 public.js"
+  },
+  "resource1": {
+    "message": "Type",
+    "description": "2.0 public.js"
+  },
+  "resource2": {
+    "message": "Classification",
+    "description": "2.0 public.js"
+  },
+  "resource3": {
+    "message": "Vidéo",
+    "description": "2.0 public.js"
+  },
+  "resource4": {
+    "message": "Audio",
+    "description": "2.0 public.js"
+  },
+  "resource5": {
+    "message": "Image",
+    "description": "2.0 public.js"
+  },
+  "resource6": {
+    "message": "Document",
+    "description": "2.0 public.js"
+  },
+  "resource7": {
+    "message": "Lien",
+    "description": "2.0 public.js"
+  },
+  "searchResource": {
+    "message": "Ressources de recherche",
+    "description": "2.0 public.js"
+  },
+  "resourceDetail": {
+    "message": "Détails des ressources",
+    "description": "2.0 public.js"
+  },
+  "hotResource": {
+    "message": "Ressources populaires",
+    "description": "2.0 public.js"
+  },
+  "uploadTime": {
+    "message": "Temps de téléchargement",
+    "description": "2.0 public.js"
+  },
+  "viewCount": {
+    "message": "Temps de navigation",
+    "description": "2.0 public.js"
+  },
+  "downloadCount": {
+    "message": "Temps de téléchargement",
+    "description": "2.0 public.js"
+  },
+  "name": {
+    "message": "Nom",
+    "description": "2.0 public.js"
+  },
+  "searchNoResource": {
+    "message": "Aucune ressource n’a été publiée",
+    "description": "2.0 public.js"
+  },
+  "uploadFile": {
+    "message": "Télécharger le fichier",
+    "description": "2.0 public.js"
+  },
+  "addLink": {
+    "message": "Ajouter un lien",
+    "description": "2.0 public.js"
+  },
+  "addRichtext": {
+    "message": "Ajouter du texte enrichi",
+    "description": "2.0 public.js"
+  },
+  "passwordRegTips": {
+    "message": "8-16 caractères, contenant au moins 3 caractères (chiffres, lettres majuscules, lettres minuscules ou symboles spéciaux)",
+    "description": "2.0 public.js"
+  },
+  "friendLinksTip3": {
+    "message": "Pas plus de 40 caractères",
+    "description": "2.0 public.js"
+  },
+  "curCourseStatus1": {
+    "message": "Ce cours est terminé",
+    "description": "2.0 public.js"
+  },
+  "curCourseStatus2": {
+    "message": "Le cours n’a pas commencé",
+    "description": "2.0 public.js"
+  },
+  "joinNum": {
+    "message": "Participer",
+    "description": "2.0 public.js"
+  },
+  "courseinfo1": {
+    "message": "Institut",
+    "description": "2.0 public.js"
+  },
+  "courseinfo2": {
+    "message": "Heures d’apprentissage recommandées",
+    "description": "2.0 public.js"
+  },
+  "courseinfo3": {
+    "message": "Catégorie de sujet",
+    "description": "2.0 public.js"
+  },
+  "courseinfo4": {
+    "message": "Majeur",
+    "description": "2.0 public.js"
+  },
+  "coursebtn1": {
+    "message": "Essayez maintenant",
+    "description": "2.0 public.js"
+  },
+  "coursebtn2": {
+    "message": "Commencer à apprendre",
+    "description": "2.0 public.js"
+  },
+  "coursebtn3": {
+    "message": "Joignez-vous au cours de classe",
+    "description": "2.0 public.js"
+  },
+  "coursebtn4": {
+    "message": "Achetez maintenant",
+    "description": "2.0 public.js"
+  },
+  "coursebtn5": {
+    "message": "aller l’expérience",
+    "description": "2.0 public.js"
+  },
+  "coursetime": {
+    "message": "Heures d’apprentissage",
+    "description": "2.0 public.js"
+  },
+  "courseTitle1": {
+    "message": "Catalogue de chapitres",
+    "description": "2.0 public.js"
+  },
+  "courseTitle2": {
+    "message": "Cours Intro",
+    "description": "2.0 public.js"
+  },
+  "courseTitle3": {
+    "message": "Contour du cours",
+    "description": "2.0 public.js"
+  },
+  "courseTitle4": {
+    "message": "Équipe de cours",
+    "description": "2.0 public.js"
+  },
+  "courseTitle5": {
+    "message": "Manuel recommandé",
+    "description": "2.0 public.js"
+  },
+  "courseTitle6": {
+    "message": "Cours recommandés",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook1": {
+    "message": "Fixation du prix",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook2": {
+    "message": "Auteur",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook3": {
+    "message": "Translator",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook4": {
+    "message": "domestique",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook5": {
+    "message": "à l’étranger",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook6": {
+    "message": "Éditeur",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook7": {
+    "message": "Introduction de l’auteur",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook8": {
+    "message": "Introduction du traducteur",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook9": {
+    "message": "Caractéristiques du cours",
+    "description": "2.0 public.js"
+  },
+  "send": {
+    "message": "Envoyer",
+    "description": "2.0 public.js"
+  },
+  "login1": {
+    "message": "Titre",
+    "description": "2.0 public.js"
+  },
+  "login2": {
+    "message": "Mise en page",
+    "description": "2.0 public.js"
+  },
+  "login3": {
+    "message": "Image d’arrière-plan",
+    "description": "2.0 public.js"
+  },
+  "login4": {
+    "message": "Enregistrer les paramètres",
+    "description": "2.0 public.js"
+  },
+  "login5": {
+    "message": "Votre adresse e-mail",
+    "description": "2.0 public.js"
+  },
+  "login6": {
+    "message": "Entrez votre adresse e-mail",
+    "description": "2.0 public.js"
+  },
+  "login7": {
+    "message": "Se souvenir de moi",
+    "description": "2.0 public.js"
+  },
+  "login8": {
+    "message": "Vérifier le message",
+    "description": "2.0 public.js"
+  },
+  "login11": {
+    "message": "E-mail non reçu?",
+    "description": "2.0 public.js"
+  },
+  "login12": {
+    "message": "Compte désactivé",
+    "description": "2.0 public.js"
+  },
+  "login13": {
+    "message": "Votre compte a été désactivé et vous ne pourrez pas vous connecter au système. Contactez l’administrateur de votre organisation pour réactiver votre compte.",
+    "description": "2.0 public.js"
+  },
+  "login14": {
+    "message": "Veuillez saisir votre adresse e-mail",
+    "description": "2.0 public.js"
+  },
+  "login15": {
+    "message": "Le format de l’e-mail est incorrect, veuillez entrer l’adresse e-mail correcte",
+    "description": "2.0 public.js"
+  },
+  "login16": {
+    "message": "Veuillez saisir votre mot de passe",
+    "description": "2.0 public.js"
+  },
+  "login17": {
+    "message": "Le mot de passe comporte entre 8 et 20 caractères et doit contenir des lettres et des chiffres",
+    "description": "2.0 public.js"
+  },
+  "login18": {
+    "message": "Les informations entrantes sont incomplètes",
+    "description": "2.0 public.js"
+  },
+  "login19": {
+    "message": "Le compte n’existe pas",
+    "description": "2.0 public.js"
+  },
+  "login20": {
+    "message": "Le compte est en attente d’activation",
+    "description": "2.0 public.js"
+  },
+  "login21": {
+    "message": "Le compte est désactivé",
+    "description": "2.0 public.js"
+  },
+  "login22": {
+    "message": "Le nombre d’erreurs a atteint cinq",
+    "description": "2.0 public.js"
+  },
+  "login23": {
+    "message": "Le compte a été supprimé",
+    "description": "2.0 public.js"
+  },
+  "login24": {
+    "message": "Mot de passe erroné",
+    "description": "2.0 public.js"
+  },
+  "login25": {
+    "message": "Envoi de messages trop fréquent",
+    "description": "2.0 public.js"
+  },
+  "login26": {
+    "message": "Echec de l’envoi du message",
+    "description": "2.0 public.js"
+  },
+  "login27": {
+    "message": "Les informations ne sont pas valides",
+    "description": "2.0 public.js"
+  },
+  "firstLogin1": {
+    "message": "Bonjour",
+    "description": "2.0 public.js"
+  },
+  "firstLogin2": {
+    "message": "Consentement de l’utilisateur",
+    "description": "2.0 public.js"
+  },
+  "firstLogin3": {
+    "message": "Complétez vos informations personnelles",
+    "description": "2.0 public.js"
+  },
+  "firstLogin4": {
+    "message": "Préférences",
+    "description": "2.0 public.js"
+  },
+  "firstLogin5": {
+    "message": "Finir!",
+    "description": "2.0 public.js"
+  },
+  "firstLogin6": {
+    "message": "Veuillez lire l’accord et la politique de confidentialité suivants, et signer le consentement de l’utilisateur à l’utilisation",
+    "description": "2.0 public.js"
+  },
+  "firstLogin7": {
+    "message": "Utilisation des protocoles",
+    "description": "2.0 public.js"
+  },
+  "firstLogin8": {
+    "message": "Cet accord d’utilisation régit la façon dont les utilisateurs utilisent ce site Web. Si vous souhaitez voir l’intégralité des Conditions d’utilisation, consultez Conditions d’utilisation complètes.",
+    "description": "2.0 public.js"
+  },
+  "firstLogin9": {
+    "message": "J'accepte les",
+    "description": "2.0 public.js"
+  },
+  "firstLogin10": {
+    "message": "Conditions d’utilisation",
+    "description": "2.0 public.js"
+  },
+  "firstLogin11": {
+    "message": "Politique de confidentialité",
+    "description": "2.0 public.js"
+  },
+  "firstLogin12": {
+    "message": "Cette déclaration de confidentialité concerne les comptes d’utilisateurs créés sur ce site. Si vous souhaitez voir le texte intégral, veuillez vous référer à la déclaration de confidentialité complète.",
+    "description": "2.0 public.js"
+  },
+  "firstLogin13": {
+    "message": "Politique de cookies",
+    "description": "2.0 public.js"
+  },
+  "firstLogin14": {
+    "message": "Notre politique en matière de cookies explique ce que sont les cookies, comment nous utilisons les cookies, comment les tiers avec lesquels nous travaillons peuvent utiliser des cookies sur ce site Web et vos choix concernant les cookies. Si vous souhaitez voir le texte intégral, veuillez vous référer à la politique complète en matière de cookies.",
+    "description": "2.0 public.js"
+  },
+  "firstLogin15": {
+    "message": "Votre nom complet",
+    "description": "2.0 public.js"
+  },
+  "firstLogin16": {
+    "message": "Nom d’affichage",
+    "description": "2.0 public.js"
+  },
+  "firstLogin17": {
+    "message": "Modifier le mot de passe",
+    "description": "2.0 public.js"
+  },
+  "firstLogin18": {
+    "message": "Langue",
+    "description": "2.0 public.js"
+  },
+  "firstLogin19": {
+    "message": "Bienvenue sur Ulearning et vous souhaite le meilleur dans votre parcours d’apprentissage",
+    "description": "2.0 public.js"
+  },
+  "firstLogin20": {
+    "message": "Terminer la configuration",
+    "description": "2.0 public.js"
+  },
+  "firstLogin21": {
+    "message": "Mot de passe à 8-20 chiffres, y compris les chiffres et les lettres",
+    "description": "2.0 public.js"
+  },
+  "firstLogin22": {
+    "message": "Veuillez indiquer votre nom complet",
+    "description": "2.0 public.js"
+  },
+  "firstLogin23": {
+    "message": "Le nom complet ne peut pas comporter plus de 128 caractères",
+    "description": "2.0 public.js"
+  },
+  "firstLogin24": {
+    "message": "Veuillez remplir le nom d’affichage",
+    "description": "2.0 public.js"
+  },
+  "firstLogin25": {
+    "message": "Le nom complet ne peut pas dépasser 64 caractères",
+    "description": "2.0 public.js"
+  },
+  "firstLogin26": {
+    "message": "Le format du mot de passe est incorrect, veuillez le saisir à nouveau",
+    "description": "2.0 public.js"
+  },
+  "firstLogin27": {
+    "message": "Les mots de passe ne correspondent pas, veuillez saisir à nouveau",
+    "description": "2.0 public.js"
+  },
+  "firstLogin28": {
+    "message": "Le mot de passe d’origine ne peut pas être utilisé",
+    "description": "2.0 public.js"
+  },
+  "cookieSettings": {
+    "message": "Paramètres des cookies",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle1": {
+    "message": "Préférences en matière de cookies",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip1": {
+    "message": "Il existe trois types de cookies utilisés sur notre site Web: obligatoires, fonctionnels et tiers. Vous pouvez choisir d’appliquer ou non des fonctionnalités et d’activer les cookies tiers. Cliquez sur les différentes catégories de cookies pour en savoir plus sur chaque catégorie et modifier les paramètres par défaut.",
+    "description": "2.0 public.js"
+  },
+  "cookiesAll": {
+    "message": "Toujours actif",
+    "description": "2.0 public.js"
+  },
+  "cookiesMore": {
+    "message": "Plus d’informations",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle2": {
+    "message": "Cookies requis",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip2": {
+    "message": "Les cookies nécessaires sont nécessaires pour les fonctionnalités de base du site Web. Quelques exemples incluent: les cookies de session, les cookies d’authentification et les cookies de sécurité nécessaires pour transmettre des sites Web.",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle3": {
+    "message": "Cookies fonctionnels",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip3": {
+    "message": "Les cookies fonctionnels améliorent la fonctionnalité, les performances et les services sur le site Web. Quelques exemples incluent: les cookies utilisés pour analyser le trafic du site Web, les cookies utilisés pour la recherche d’utilisateurs et les cookies utilisés pour afficher des publicités qui ne ciblent pas une personne spécifique.",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle4": {
+    "message": "Cookies tiers",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip4": {
+    "message": "En plus de nos propres cookies, nous pouvons utiliser divers cookies tiers pour rapporter des statistiques d’utilisation du site Web et optimiser les efforts de marketing.",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle5": {
+    "message": "Cookies de suivi : ",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip5": {
+    "message": "Suivez le comportement du site Web et reliez-le à d’autres mesures pour mieux comprendre les habitudes d’utilisation.",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle6": {
+    "message": "Optimiser les cookies : ",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip6": {
+    "message": "Permet un suivi en temps réel des conversions des utilisateurs à partir de différents canaux marketing pour évaluer leur efficacité.",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle7": {
+    "message": "Cookies partenaires : ",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip7": {
+    "message": "Fournir des mesures de conversion marketing à nos partenaires afin qu’ils puissent optimiser leurs efforts de marketing payant.",
+    "description": "2.0 public.js"
+  },
+  "policies": {
+    "message": "accord",
+    "description": "2.0 public.js"
+  },
+  "usePolicy": {
+    "message": "Contrat d’utilisation de l’utilisateur",
+    "description": "2.0 public.js"
+  },
+  "privacyPolicy": {
+    "message": "Accord de confidentialité",
+    "description": "2.0 public.js"
+  },
+  "cookiesPolicy": {
+    "message": "Politique de cookies",
+    "description": "2.0 public.js"
+  },
+  "cookiesSetting1": {
+    "message": "Nous utilisons des cookies pour mémoriser vos informations de connexion, fournir une expérience de connexion sécurisée et collecter des statistiques afin d’optimiser la fonctionnalité du site Web.",
+    "description": "2.0 public.js"
+  },
+  "cookiesSetting2": {
+    "message": "Vous trouverez une description détaillée des types de cookies que nous utilisons dans notre Politique en matière de cookies. Cliquez sur « Accepter » pour accepter tous les cookies ou sur « Rejeter » pour n’autoriser que les cookies nécessaires. Cliquez sur Paramètres des cookies pour configurer les cookies en détail.",
+    "description": "2.0 public.js"
+  },
+  "refuse": {
+    "message": "Refuser",
+    "description": "2.0 public.js"
+  },
+  "agree": {
+    "message": "Acceptez",
+    "description": "2.0 public.js"
+  },
+  "userPolicy": {
+    "message": "Conditions d’utilisation",
+    "description": "2.0 public.js"
+  },
+  "switchRole": {
+    "message": "Changer de rôle",
+    "description": "2.0 public.js"
+  },
+  "selectRole": {
+    "message": "Sélectionner un rôle",
+    "description": "2.0 public.js"
+  },
+  "switchRoleDesc": {
+    "message": "Sélectionnez le rôle que vous souhaitez utiliser",
+    "description": "2.0 public.js"
+  },
+  "switchRoleSubmit": {
+    "message": "Confirmer",
+    "description": "2.0 public.js"
+  },
+  "register01": {
+    "message": "Invitation à s’inscrire",
+    "description": "2.0 public.js"
+  },
+  "register02": {
+    "message": "Vous avez déjà un compte ?",
+    "description": "2.0 public.js"
+  },
+  "register03": {
+    "message": "Connexion",
+    "description": "2.0 public.js"
+  },
+  "register04": {
+    "message": "En cochant cette case, vous acceptez",
+    "description": "2.0 public.js"
+  },
+  "register06": {
+    "message": "L’invitation a expiré",
+    "description": "2.0 public.js"
+  },
+  "register07": {
+    "message": "L’invitation par e-mail a expiré. Si vous ne terminez pas votre inscription, contactez votre administrateur pour renvoyer l’invitation.",
+    "description": "2.0 public.js"
+  },
+  "register08": {
+    "message": "L’inscription est terminée",
+    "description": "2.0 public.js"
+  },
+  "register09": {
+    "message": "L’invitation est complète et vous pouvez vous connecter avec votre adresse e-mail et votre mot de passe.",
+    "description": "2.0 public.js"
+  },
+  "register10": {
+    "message": "Échec du code de vérification",
+    "description": "2.0 public.js"
+  },
+  "register11": {
+    "message": "Le captcha a déjà été utilisé",
+    "description": "2.0 public.js"
+  },
+  "register12": {
+    "message": "La boîte aux lettres n’existe pas",
+    "description": "2.0 public.js"
   }
 }

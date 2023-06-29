@@ -199,6 +199,14 @@
     "message": "derivar la lista de alumnos",
     "description": "2.0 certification.js "
   },
+  "certSummary": {
+    "message": "El número total de estudiantes en este curso {total}, de acuerdo con las condiciones de adquisición del certificado, el número de calificados {qualified}, el número de no calificados {unqualified}, la tasa de aprobación {rate}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
+  },
+  "certSummary2": {
+    "message": "El número total de estudiantes en este curso {total}, de acuerdo con las condiciones de adquisición del certificado, el número de personas calificadas {qualified}, el número de personas no calificadas {unqualified}, la tasa de aprobación{rate}%, excelente tasa {excellent}%",
+    "description": "教师账户 -> 考核 -> 证书管理"
+  },
   "type": {
     "message": "tipo",
     "description": "2.0 certification.js "
@@ -237,6 +245,10 @@
   },
   "createTemplate": {
     "message": "Crear una nueva plantilla",
+    "description": "2.0 certificate.js"
+  },
+  "createTemplate2": {
+    "message": "Crear una nueva plantilla de certificado",
     "description": "2.0 certificate.js"
   },
   "editTemplate": {
@@ -281,6 +293,10 @@
   },
   "scanCodeTitle": {
     "message": "Por favor, escanee el código QR en busca de firma",
+    "description": "2.0 certificate.js"
+  },
+  "signTip": {
+    "message": "Por favor, firme dentro de {time}, la ventana se cerrará automáticamente",
     "description": "2.0 certificate.js"
   },
   "defaultText": {
@@ -563,6 +579,10 @@
     "message": "certificado pendiente",
     "description": "2.0 certification.js "
   },
+  "certTip": {
+    "message": "Para garantizar la exactitud de la información del certificado, asegúrese de {informLink}",
+    "description": "学生账户 -> 考核 -> 课程证书 (还未发放证书时，才会显示)"
+  },
   "informLink": {
     "message": "Mejore su información personal básica",
     "description": "2.0 certificate.js"
@@ -573,6 +593,14 @@
   },
   "newTemplate": {
     "message": "Introduzca el nombre de la plantilla",
+    "description": "2.0 certificate.js"
+  },
+  "contentErrorTip3": {
+    "message": "El contenido de la plantilla no puede superar las 100 palabras",
+    "description": "2.0 certificate.js"
+  },
+  "saveTemplateCheck": {
+    "message": "Por favor, compruebe al menos un artículo",
     "description": "2.0 certificate.js"
   }
 }

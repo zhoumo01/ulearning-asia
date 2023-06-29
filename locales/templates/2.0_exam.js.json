@@ -3638,5 +3638,361 @@
   "localRecordTime1": {
     "message": "本地记录保存时间",
     "description": "2.0 exam.js"
+  },
+  "PCexeType": {
+    "message": "优学院考试客户端",
+    "description": "2.0 exam.js"
+  },
+  "appType": {
+    "message": "优学院APP",
+    "description": "2.0 exam.js"
+  },
+  "PCType": {
+    "message": "优学院网页端",
+    "description": "2.0 exam.js"
+  },
+  "appOrPCType": {
+    "message": "优学院APP/网页端",
+    "description": "2.0 exam.js"
+  },
+  "appOrPCexeType": {
+    "message": "优学院APP/考试客户端",
+    "description": "2.0 exam.js"
+  },
+  "examTypeTips": {
+    "message": "请使用{type}参加考试",
+    "description": "2.0 exam.js"
+  },
+  "examSignIn": {
+    "message": "考试签到",
+    "description": "2.0 exam.js"
+  },
+  "enableSignIn": {
+    "message": "开启考试签到码",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInTip": {
+    "message": "仅适用于手机考试，开启此项，考生扫码签到后才能进入考试答题",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInIntro": {
+    "message": "考试签到适用于教室集中考试场景，可用于防止场外替考。{br}开启了签到的考试，考生扫码签到后才能进入考试。{br1}考试开始前，教师可以使用手机，在优学院APP的考试监控页面查看和出示签到码。",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInNote": {
+    "message": "注意：",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInDesc": {
+    "message": "1. 签到开始时间，以教师出示签到码的时间为准，不受考试开始时间限制；考试场次全部结束后，不再允许签到。{br}2. 开启了签到的考试，建议在安排考试场次时，预留出现场签到所需时间，避免造成混乱。{br1}3. 考试如果有多次答题机会，仅需要签到1次。{br2}4. 考生签到后，只能使用签到的设备进入考试答题。如果遇到特殊情况需要更换设备，可以向监考教师索取验证码进入。",
+    "description": "2.0 exam.js"
+  },
+  "signInCode": {
+    "message": "考试签到码",
+    "description": "2.0 exam.js"
+  },
+  "facePhotoVerify": {
+    "message": "人脸照片审核",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTitle": {
+    "message": "移动监控台",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeIntro": {
+    "message": "考试签到码为动态二维码，请使用【优学院2.0】APP进入考试查看，或使用手机扫描下方二维码，进入移动监控台查看。",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTip": {
+    "message": "提示：非课程团队的教师，如果需要参与监考，也可以使用手机浏览器扫描此二维码，进入移动监控台。使用手机浏览器进入时，需要输入备用验证码。",
+    "description": "2.0 exam.js"
+  },
+  "refresh": {
+    "message": "刷新",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeDesc": {
+    "message": "考生遇特殊情况无法进入考试时，可凭此验证码进入，包括：{br}- 开启了设备 / IP监控的考试，考生中途需要更换设备或 IP。{br1}- 开启了人脸识别的考试，考生无法通过人脸验证",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeTip": {
+    "message": "验证码{minute}内有效，失效后请刷新重新获取。",
+    "description": "2.0 exam.js"
+  },
+  "signedIn": {
+    "message": "已签到",
+    "description": "2.0 exam.js"
+  },
+  "notSignIn": {
+    "message": "未签到",
+    "description": "2.0 exam.js"
+  },
+  "answerTimes1": {
+    "message": "第{n}次答题",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration1": {
+    "message": "用时：{count}",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcel": {
+    "message": "导出签到表",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcelDesc": {
+    "message": "使用此功能，可以导出当前所选场次和班级的签到记录。",
+    "description": "2.0 exam.js"
+  },
+  "exportInfo": {
+    "message": "导出信息：",
+    "description": "2.0 exam.js"
+  },
+  "courseClass": {
+    "message": "课程班级",
+    "description": "2.0 exam.js"
+  },
+  "college": {
+    "message": "学院",
+    "description": "2.0 exam.js"
+  },
+  "naturalClass": {
+    "message": "行政班级/自然班级",
+    "description": "2.0 exam.js"
+  },
+  "exportType": {
+    "message": "导出方式：",
+    "description": "2.0 exam.js"
+  },
+  "exportType1": {
+    "message": "导出一个Excel文件，且所有班级在一个工作表中",
+    "description": "2.0 exam.js"
+  },
+  "exportType2": {
+    "message": "导出一个Excel文件，且每个班级一个工作表",
+    "description": "2.0 exam.js"
+  },
+  "exportType3": {
+    "message": "每个班级导出一个Excel文件",
+    "description": "2.0 exam.js"
+  },
+  "startExport": {
+    "message": "开始导出",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmit": {
+    "message": "提前收卷",
+    "description": "2.0 exam.js"
+  },
+  "answerNums": {
+    "message": "正在答题人数：{num}",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip1": {
+    "message": "使用此功能，将提前结束当前场次，并对所有正在答题的学生强制收卷。收卷可能会有10秒~1分钟左右的延迟。此操作不可撤回，请谨慎使用。",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip3": {
+    "message": "确定提前收卷吗？",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip4": {
+    "message": "考生正在答题，使用此功能，将强制回收考生试卷。收卷可能会有10秒~1分钟左右的延迟。此操作不可撤回，请谨慎使用。",
+    "description": "2.0 exam.js"
+  },
+  "answerUsedTime": {
+    "message": "已用答题时长",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips11": {
+    "message": "教师提前收卷",
+    "description": "2.0 exam.js"
+  },
+  "submitSuccess": {
+    "message": "请求发送成功",
+    "description": "2.0 exam.js"
+  },
+  "submitFail": {
+    "message": "提前收卷失败",
+    "description": "2.0 exam.js"
+  },
+  "student": {
+    "message": "考生：",
+    "description": "2.0 exam.js"
+  },
+  "submitStatus": {
+    "message": "收卷中",
+    "description": "2.0 exam.js"
+  },
+  "remarkSetting": {
+    "message": "评分设置",
+    "description": "2.0 exam.js"
+  },
+  "remarkSettingDesc": {
+    "message": "多选题部分正确得一半分",
+    "description": "2.0 exam.js"
+  },
+  "remarkSettingTip": {
+    "message": "错选不得分",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitor": {
+    "message": "开启截图监控",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitorDesc": {
+    "message": "仅适用于手机考试，检测到考生有截图行为时，第一次给予警告，第二次强制交卷",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitorTip": {
+    "message": "受手机系统特性影响，此功能仅苹果手机有效，安卓手机已直接禁止在考试中截图",
+    "description": "2.0 exam.js"
+  },
+  "screenshot": {
+    "message": "截图",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips13": {
+    "message": "违规截图，系统强制交卷",
+    "description": "2.0 exam.js"
+  },
+  "studentExamRoom": {
+    "message": "考场: {n}",
+    "description": "2.0 exam.js"
+  },
+  "questionTrain": {
+    "message": "题库训练",
+    "description": "2.0 exam.js"
+  },
+  "questionBankManage": {
+    "message": "题库管理 >>",
+    "description": "2.0 exam.js"
+  },
+  "openQuestion": {
+    "message": "开启题库训练",
+    "description": "2.0 exam.js"
+  },
+  "closeQuestion": {
+    "message": "关闭题库训练",
+    "description": "2.0 exam.js"
+  },
+  "openQuestionMsg1": {
+    "message": "此功能需由课程管理员开启/关闭。",
+    "description": "2.0 exam.js"
+  },
+  "openQuestionMsg2": {
+    "message": "开启后学生即可进入题库练习，确定开启吗？",
+    "description": "2.0 exam.js"
+  },
+  "closeQuestionMsg": {
+    "message": "关闭后学生不能进入题库练习，确定关闭吗？",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg1": {
+    "message": "使用【题库训练】功能，可以开放指定题库，供学生考前刷题练习。此功能需由课程管理员开启。正式考试之前，建议关闭题库训练入口。",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg2": {
+    "message": "题库训练模块：",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg3": {
+    "message": "1. 课程中所有学生均可进入题库练习，暂时仅支持电脑端访问。",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg4": {
+    "message": "2. 训练题库仅支持导入客观题和填空题。",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg5": {
+    "message": "3. 每道题提交后即可查看正确答案和解析，不限答题次数。",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg6": {
+    "message": "特别提示：题库训练目前为实验功能，后续入口及功能可能发生变化。",
+    "description": "2.0 exam.js"
+  },
+  "getInToqueBank": {
+    "message": "进入题库 >>",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesNew": {
+    "message": "提交次数",
+    "description": "2.0 exam.js"
+  },
+  "answeredTimesNew": {
+    "message": "已提交次数/允许次数",
+    "description": "2.0 exam.js"
+  },
+  "studentBatch": {
+    "message": "场次: {startTime} - {endTime}",
+    "description": "2.0 exam.js"
+  },
+  "studentSeatNumber": {
+    "message": "座位数: {n}",
+    "description": "2.0 exam.js"
+  },
+  "studentExamStudentOf": {
+    "message": "考生: {n}",
+    "description": "2.0 exam.js"
+  },
+  "studentRemainSeat": {
+    "message": "余座: {n}",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboard": {
+    "message": "启用安全键盘",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboardTip": {
+    "message": "仅适用于手机，支持中英文、数字及常用标点符号输入",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboardTip1": {
+    "message": "安全键盘可用于防止使用手机输入法特殊功能作弊的行为，但输入体验不如手机自带键盘流畅，如果试卷中有需要输入大段文字的题目，不推荐启用。",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips14": {
+    "message": "时间用尽，系统自动交卷",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesOfNew": {
+    "message": "提交次数：{count}",
+    "description": "2.0 exam.js"
+  },
+  "attachmentHelpDesc": {
+    "message": "附件支持图片、文档、视频、音频等常见格式。{link}{br}每道题最多上传10个附件。{br1}电脑端上传，单个文件不超过500M;手机端上传，单个文件不超过200M。{br2}电脑端答题可以从本地选择文件或者使用手机扫码拍照上传。",
+    "description": "2.0 exam.js"
+  },
+  "attachmentHelpLink": {
+    "message": "点击查看允许上传的文件格式",
+    "description": "2.0 exam.js"
+  },
+  "deleteExam": {
+    "message": "删除考试",
+    "description": "2.0 exam.js"
+  },
+  "exportLayout": {
+    "message": "导出版式",
+    "description": "2.0 exam.js"
+  },
+  "standardType": {
+    "message": "标准版",
+    "description": "2.0 exam.js"
+  },
+  "compactType": {
+    "message": "紧凑版（节省打印纸张）",
+    "description": "2.0 exam.js"
+  },
+  "attachments": {
+    "message": "导出附件",
+    "description": "2.0 exam.js"
+  },
+  "yes": {
+    "message": "是",
+    "description": "2.0 exam.js"
+  },
+  "no": {
+    "message": "否",
+    "description": "2.0 exam.js"
   }
 }

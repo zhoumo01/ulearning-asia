@@ -3634,5 +3634,365 @@
   "selectLevelip": {
     "message": "ความยากเลือกอย่างน้อยหนึ่งอย่าง",
     "description": "2.0 exam.js"
+  },
+  "localRecordTime1": {
+    "message": "เวลาเก็บรักษาบันทึกภายในเครื่อง",
+    "description": "2.0 exam.js"
+  },
+  "PCexeType": {
+    "message": "ลูกค้าสอบ ULearning",
+    "description": "2.0 exam.js"
+  },
+  "appType": {
+    "message": "รองรับแอป ULearning",
+    "description": "2.0 exam.js"
+  },
+  "PCType": {
+    "message": "เว็บไซต์ ULearning",
+    "description": "2.0 exam.js"
+  },
+  "appOrPCType": {
+    "message": "รองรับแอป / เว็บไซต์ ULearning",
+    "description": "2.0 exam.js"
+  },
+  "appOrPCexeType": {
+    "message": "รองรับแอป /ลูกค้าสอบ ULearning",
+    "description": "2.0 exam.js"
+  },
+  "examTypeTips": {
+    "message": "โปรดใช้ {type} เพื่อทําข้อสอบ",
+    "description": "2.0 exam.js"
+  },
+  "examSignIn": {
+    "message": "เช็คอินสอบ",
+    "description": "2.0 exam.js"
+  },
+  "enableSignIn": {
+    "message": "เปิดรหัสการลงชื่อเข้าใช้ข้อสอบ",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInTip": {
+    "message": "ใช้ได้กับการสอบโทรศัพท์มือถือเท่านั้นเปิดรายการนี้ผู้สมัครสามารถป้อนคําตอบการสอบหลังจากสแกนรหัสเพื่อลงชื่อเข้าใช้",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInIntro": {
+    "message": "การเช็คอินข้อสอบเหมาะสําหรับสถานการณ์การสอบแบบรวมศูนย์ในห้องเรียนและสามารถใช้เพื่อป้องกันการทดแทนนอกสถานที่ได้ {br} จะเปิดการทดสอบการเช็คอิน และผู้สมัครสามารถเข้าสู่การสอบได้หลังจากสแกนรหัสเพื่อลงชื่อเข้าใช้ ก่อนเริ่มการสอบครูสามารถใช้โทรศัพท์มือถือเพื่อดูและแสดงรหัสเช็คอินในหน้าการตรวจสอบการสอบของ UCoS APP",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInNote": {
+    "message": "โน้ต:",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInDesc": {
+    "message": "1. เวลาเริ่มต้นการเช็คอินขึ้นอยู่กับเวลาที่ครูแสดงรหัสลงชื่อเข้าใช้และไม่จํากัดด้วยเวลาเริ่มการทดสอบ หลังจากการสอบทั้งหมดเสร็จสิ้นแล้วจะไม่อนุญาตให้เช็คอินอีกต่อไป {br} 2. เปิดการสอบเช็คอินแล้ว และขอแนะนําให้จองเวลาที่จําเป็นสําหรับการเช็คอินนอกสถานที่เมื่อจัดช่วงการสอบเพื่อหลีกเลี่ยงความสับสน {br1} 3. หากมีโอกาสหลายครั้งที่จะตอบคําถามในการทดสอบคุณจะต้องเช็คอินเพียงครั้งเดียว {br2} 4. ผู้สมัครสามารถใช้อุปกรณ์ที่เช็คอินเพื่อตอบคําถามข้อสอบหลังจากเช็คอินเท่านั้น หากคุณพบสถานการณ์พิเศษที่กําหนดให้คุณต้องเปลี่ยนอุปกรณ์ของคุณคุณสามารถขอรหัสยืนยันจากผู้คุมสอบเพื่อป้อนได้",
+    "description": "2.0 exam.js"
+  },
+  "signInCode": {
+    "message": "รหัสลงชื่อเข้าใช้การสอบ",
+    "description": "2.0 exam.js"
+  },
+  "facePhotoVerify": {
+    "message": "รีวิวรูปภาพใบหน้า",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTitle": {
+    "message": "สถานีตรวจสอบมือถือ",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeIntro": {
+    "message": "รหัสลงทะเบียนทดสอบเป็นรหัส QR แบบไดนามิกโปรดใช้แอป [ULearning] เพื่อเข้าสู่มุมมองการทดสอบหรือใช้โทรศัพท์มือถือของคุณเพื่อสแกนรหัส QR ด้านล่างและเข้าสู่สถานีตรวจสอบมือถือเพื่อดู",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTip": {
+    "message": "เคล็ดลับ: ครูที่ไม่ได้เป็นส่วนหนึ่งของทีมหลักสูตรสามารถใช้เบราว์เซอร์มือถือเพื่อสแกนรหัส QR นี้เพื่อเข้าสู่สถานีตรวจสอบมือถือได้หากต้องการเข้าร่วมในผู้คุมสอบ เมื่อเข้าสู่การใช้เบราว์เซอร์มือถือของคุณคุณจะต้องป้อนรหัสยืนยันสํารอง",
+    "description": "2.0 exam.js"
+  },
+  "refresh": {
+    "message": "รีเฟรช",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeDesc": {
+    "message": "ผู้สมัครที่ไม่สามารถเข้าร่วมการทดสอบได้เนื่องจากสถานการณ์พิเศษสามารถใช้รหัสยืนยันนี้เพื่อป้อนรวมถึง: {br}- Exam ที่เปิดใช้งานการตรวจสอบอุปกรณ์ / IP ผู้สมัครจําเป็นต้องเปลี่ยนอุปกรณ์หรือ IP ของพวกเขาครึ่งทาง {br1}- เปิดการสอบเพื่อจดจําใบหน้าและผู้สมัครไม่สามารถผ่านการตรวจสอบใบหน้าได้",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeTip": {
+    "message": "รหัสยืนยันใช้ได้ภายใน {นาที} โปรดรีเฟรชและรับรหัสอีกครั้งหลังจากยกเลิกการใช้งาน",
+    "description": "2.0 exam.js"
+  },
+  "signedIn": {
+    "message": "เช็คอินแล้ว",
+    "description": "2.0 exam.js"
+  },
+  "notSignIn": {
+    "message": "ไม่ได้เช็คอิน",
+    "description": "2.0 exam.js"
+  },
+  "answerTimes1": {
+    "message": "{n} คําตอบ",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration1": {
+    "message": "ผ่านไป: {count}",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcel": {
+    "message": "ส่งออกตารางเช็คอิน",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcelDesc": {
+    "message": "เมื่อใช้คุณสมบัตินี้ คุณจะส่งออกบันทึกการเช็คอินสําหรับชั้นเรียนและชั้นเรียนที่เลือกในปัจจุบันได้",
+    "description": "2.0 exam.js"
+  },
+  "exportInfo": {
+    "message": "ส่งออกข้อมูล:",
+    "description": "2.0 exam.js"
+  },
+  "courseClass": {
+    "message": "ชั้นเรียนของหลักสูตร",
+    "description": "2.0 exam.js"
+  },
+  "college": {
+    "message": "วิทยาลัย",
+    "description": "2.0 exam.js"
+  },
+  "naturalClass": {
+    "message": "คลาสเอ็กเซ็กคูทีฟ/คลาสธรรมชาติ",
+    "description": "2.0 exam.js"
+  },
+  "exportType": {
+    "message": "ส่งออกโดย:",
+    "description": "2.0 exam.js"
+  },
+  "exportType1": {
+    "message": "ส่งออกไฟล์ Excel ด้วยคลาสทั้งหมดในเวิร์กชีตเดียว",
+    "description": "2.0 exam.js"
+  },
+  "exportType2": {
+    "message": "ส่งออกไฟล์ Excel ด้วยแผ่นงานหนึ่งแผ่นต่อชั้นเรียน",
+    "description": "2.0 exam.js"
+  },
+  "exportType3": {
+    "message": "ส่งออกไฟล์ Excel หนึ่งไฟล์ต่อคลาส",
+    "description": "2.0 exam.js"
+  },
+  "startExport": {
+    "message": "เริ่มการส่งออก",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmit": {
+    "message": "สรุปล่วงหน้า",
+    "description": "2.0 exam.js"
+  },
+  "answerNums": {
+    "message": "จํานวนคนที่ตอบ: {num}",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip1": {
+    "message": "การใช้คุณสมบัตินี้เซสชันปัจจุบันจะสิ้นสุดก่อนกําหนดและนักเรียนทุกคนที่ตอบคําถามจะถูกบังคับให้รวบรวมเอกสาร อาจมีความล่าช้าประมาณ 10 วินาทีถึง 1 นาทีสําหรับการคดเคี้ยว การดําเนินการนี้ไม่สามารถถอนออกได้ และควรใช้ด้วยความระมัดระวัง",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip3": {
+    "message": "คุณแน่ใจหรือว่าคุณปิดล่วงหน้า?",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip4": {
+    "message": "ผู้สมัครกําลังตอบคําถามและการใช้คุณสมบัตินี้เอกสารการสอบของผู้สมัครจะถูกบังคับนํากลับมาใช้ใหม่ อาจมีความล่าช้าประมาณ 10 วินาทีถึง 1 นาทีสําหรับการคดเคี้ยว การดําเนินการนี้ไม่สามารถถอนออกได้ และควรใช้ด้วยความระมัดระวัง",
+    "description": "2.0 exam.js"
+  },
+  "answerUsedTime": {
+    "message": "ระยะเวลาที่ใช้ในการตอบคําถาม",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips11": {
+    "message": "ครูรวบรวมเอกสารล่วงหน้า",
+    "description": "2.0 exam.js"
+  },
+  "submitSuccess": {
+    "message": "คําขอถูกส่งเรียบร้อยแล้ว",
+    "description": "2.0 exam.js"
+  },
+  "submitFail": {
+    "message": "การกรอกลับล้มเหลว",
+    "description": "2.0 exam.js"
+  },
+  "student": {
+    "message": "ผู้สอบ:",
+    "description": "2.0 exam.js"
+  },
+  "submitStatus": {
+    "message": "กรอกลับ",
+    "description": "2.0 exam.js"
+  },
+  "remarkSetting": {
+    "message": "การตั้งค่าการให้คะแนน",
+    "description": "2.0 exam.js"
+  },
+  "remarkSettingDesc": {
+    "message": "ครึ่งหนึ่งของคำตอบที่ถูกต้อง",
+    "description": "2.0 exam.js"
+  },
+  "remarkSettingTip": {
+    "message": "จะไม่มีการทําคะแนนสําหรับการเลือกที่ไม่ถูกต้อง",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitor": {
+    "message": "เปิดการตรวจสอบภาพหน้าจอ",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitorDesc": {
+    "message": "สำหรับการสอบมือถือเท่านั้นเมื่อหน้าจอถูกตรวจพบครั้งแรกจะถูกเตือนและครั้งที่สองจะถูกบังคับให้ส่ง",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitorTip": {
+    "message": "คุณลักษณะนี้ใช้เฉพาะกับ iOS และ Android ได้ปิดการใช้งานหน้าจอในการสอบ",
+    "description": "2.0 exam.js"
+  },
+  "screenshot": {
+    "message": "ภาพหน้าจอ",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips13": {
+    "message": "หน้าจอการละเมิดระบบบังคับส่ง",
+    "description": "2.0 exam.js"
+  },
+  "studentExamRoom": {
+    "message": "ห้องสอบ: {n}",
+    "description": "2.0 exam.js"
+  },
+  "questionTrain": {
+    "message": "คําถามการฝึกอบรมธนาคาร",
+    "description": "2.0 exam.js"
+  },
+  "questionBankManage": {
+    "message": "การจัดการคลังคำถาม >>",
+    "description": "2.0 exam.js"
+  },
+  "openQuestion": {
+    "message": "เปิดการฝึกอบรมธนาคารคําถาม",
+    "description": "2.0 exam.js"
+  },
+  "closeQuestion": {
+    "message": "ปิดคําถามการฝึกอบรมธนาคาร",
+    "description": "2.0 exam.js"
+  },
+  "openQuestionMsg1": {
+    "message": "คุณลักษณะนี้จะต้องเปิด / ปิดโดยผู้ดูแลระบบหลักสูตร",
+    "description": "2.0 exam.js"
+  },
+  "openQuestionMsg2": {
+    "message": "หลังจากเปิดแล้วนักเรียนสามารถป้อนธนาคารคําถามเพื่อฝึกฝนคุณแน่ใจหรือไม่ว่าจะเปิดมัน?",
+    "description": "2.0 exam.js"
+  },
+  "closeQuestionMsg": {
+    "message": "หลังจากปิดแล้วนักเรียนไม่สามารถป้อนธนาคารคําถามเพื่อฝึกฝนพวกเขาจะปิดได้หรือไม่?",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg1": {
+    "message": "เมื่อใช้ฟังก์ชัน [Question Bank Training] คุณสามารถเปิดธนาคารคําถามที่กําหนดเพื่อให้นักเรียนฝึกฝนก่อนการสอบได้ ผู้ดูแลระบบหลักสูตรต้องเปิดใช้งานคุณลักษณะนี้ ก่อนการสอบอย่างเป็นทางการขอแนะนําให้ปิดทางเข้าการฝึกอบรมธนาคารคําถาม",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg2": {
+    "message": "คําถามโมดูลการฝึกอบรมธนาคาร:",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg3": {
+    "message": "1. นักเรียนทุกคนในหลักสูตรสามารถป้อนธนาคารคําถามเพื่อฝึกฝนและรองรับการเข้าถึงคอมพิวเตอร์เท่านั้นในขณะนี้",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg4": {
+    "message": "2. ธนาคารคําถามการฝึกอบรมรองรับการนําเข้าคําถามวัตถุประสงค์และคําถามที่กรอกข้อมูลในช่องว่างเท่านั้น",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg5": {
+    "message": "3. หลังจากส่งคําถามแต่ละข้อคุณสามารถดูคําตอบและการวิเคราะห์ที่ถูกต้องและไม่มีการ จํากัด จํานวนคําตอบ",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg6": {
+    "message": "หมายเหตุพิเศษ: การฝึกอบรมธนาคารคําถามในปัจจุบันเป็นฟังก์ชันการทดลองและรายการและฟังก์ชันที่ตามมาอาจมีการเปลี่ยนแปลง",
+    "description": "2.0 exam.js"
+  },
+  "getInToqueBank": {
+    "message": "ไปที่ธนาคารคําถาม>>",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesNew": {
+    "message": "จํานวนผลงานที่ส่งเข้าประกวด",
+    "description": "2.0 exam.js"
+  },
+  "answeredTimesNew": {
+    "message": "จํานวนผู้กระทํา/อนุญาต",
+    "description": "2.0 exam.js"
+  },
+  "studentBatch": {
+    "message": "เวลาเซสชัน: {startTime} - {endTime}",
+    "description": "2.0 exam.js"
+  },
+  "studentSeatNumber": {
+    "message": "จํานวนที่นั่ง: {n}",
+    "description": "2.0 exam.js"
+  },
+  "studentExamStudentOf": {
+    "message": "ผู้สมัคร: {n}",
+    "description": "2.0 exam.js"
+  },
+  "studentRemainSeat": {
+    "message": "ที่นั่งที่เหลือ: {n}",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboard": {
+    "message": "เปิดใช้งานคีย์บอร์ดที่ปลอดภัย",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboardTip": {
+    "message": "เฉพาะสําหรับโทรศัพท์มือถือสนับสนุนภาษาจีนและภาษาอังกฤษตัวเลขและการป้อนข้อมูลเครื่องหมายวรรคตอนทั่วไป",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboardTip1": {
+    "message": "แป้นพิมพ์ที่ปลอดภัยสามารถใช้เพื่อป้องกันการโกงด้วยฟังก์ชั่นพิเศษของวิธีการป้อนข้อมูลโทรศัพท์มือถือ แต่ประสบการณ์การป้อนข้อมูลไม่ราบรื่นเท่ากับแป้นพิมพ์ที่มาพร้อมกับโทรศัพท์มือถือและไม่แนะนําให้เปิดใช้งานหากมีคําถามในกระดาษทดสอบที่ต้องใช้ข้อความจํานวนมาก",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips14": {
+    "message": "เมื่อหมดเวลาระบบจะส่งเอกสารโดยอัตโนมัติ",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesOfNew": {
+    "message": "จํานวนคอมมิท: {count}",
+    "description": "2.0 exam.js"
+  },
+  "attachmentHelpDesc": {
+    "message": "สิ่งที่แนบมารองรับรูปแบบทั่วไป เช่น รูปภาพ เอกสาร วิดีโอ เสียง และอื่นๆ {ลิงก์} {br} อัปโหลดไฟล์แนบได้สูงสุด 10 รายการต่อคําถามหนึ่งข้อ {br1} การอัปโหลดฝั่งคอมพิวเตอร์ ไฟล์เดียวไม่เกิน 500 ล้านไฟล์ สําหรับการอัปโหลดบนมือถือไฟล์เดียวไม่เกิน 200M สามารถเลือกคําตอบฝั่งพีซี {br2} ในเครื่องหรืออัปโหลดได้โดยการสแกนรหัสบนโทรศัพท์มือถือของคุณ",
+    "description": "2.0 exam.js"
+  },
+  "attachmentHelpLink": {
+    "message": "คลิกดูรูปแบบไฟล์ที่อนุญาต",
+    "description": "2.0 exam.js"
+  },
+  "deleteExam": {
+    "message": "ลบการสอบ",
+    "description": "2.0 exam.js"
+  },
+  "exportLayout": {
+    "message": "วิธีการส่งออก",
+    "description": "2.0 exam.js"
+  },
+  "standardType": {
+    "message": "รุ่นมาตรฐาน",
+    "description": "2.0 exam.js"
+  },
+  "compactType": {
+    "message": "รุ่นกะทัดรัด (บันทึกกระดาษพิมพ์)",
+    "description": "2.0 exam.js"
+  },
+  "attachments": {
+    "message": "ส่งออกไฟล์แนบ",
+    "description": "2.0 exam.js"
+  },
+  "yes": {
+    "message": "คือ",
+    "description": "2.0 exam.js"
+  },
+  "no": {
+    "message": "ไม่",
+    "description": "2.0 exam.js"
   }
 }

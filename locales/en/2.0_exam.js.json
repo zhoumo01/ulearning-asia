@@ -1124,7 +1124,7 @@
     "description": "2.0 exam.js"
   },
   "standbyVerificationCode": {
-    "message": "Alternative verification code",
+    "message": "Spare verification code",
     "description": "2.0 exam.js"
   },
   "detailTips1": {
@@ -1720,7 +1720,7 @@
     "description": "2.0 exam.js"
   },
   "viewStandbyVerificationCode": {
-    "message": "View the alternate verification code",
+    "message": "View the verification code",
     "description": "2.0 exam.js"
   },
   "monitorTips1": {
@@ -3633,6 +3633,366 @@
   },
   "selectLevelip": {
     "message": "Select at least one level of difficulty.",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTime1": {
+    "message": "Saving time of the local record",
+    "description": "2.0 exam.js"
+  },
+  "PCexeType": {
+    "message": "ULearning Lockdown Browser",
+    "description": "2.0 exam.js"
+  },
+  "appType": {
+    "message": "ULearning APP",
+    "description": "2.0 exam.js"
+  },
+  "PCType": {
+    "message": "ULearning  Web Portal",
+    "description": "2.0 exam.js"
+  },
+  "appOrPCType": {
+    "message": "ULearning APP / Web Portal",
+    "description": "2.0 exam.js"
+  },
+  "appOrPCexeType": {
+    "message": "ULearning APP / Lockdown Browser",
+    "description": "2.0 exam.js"
+  },
+  "examTypeTips": {
+    "message": "Please take the exam via {type}",
+    "description": "2.0 exam.js"
+  },
+  "examSignIn": {
+    "message": "Exam sign-in",
+    "description": "2.0 exam.js"
+  },
+  "enableSignIn": {
+    "message": "Enable exam sign-in",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInTip": {
+    "message": "For mobile exams only. When enabled, examinees can only enter the exam after signing in by scanning the sign-in code.",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInIntro": {
+    "message": "Exam sign-in is applicable to exams conducted in classrooms or other designated places. {br}When exam sign-in is enabled, examinees can only enter the exam after signing in by scanning the sign-in code. {br1}Before the exam starts, teachers can view and present the sign-in code  by ULearning APP.",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInNote": {
+    "message": "Note:",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInDesc": {
+    "message": "1. The sign-in starts when the instructor presents the sign-in code and is not limited by the exam start time. Sign-in is no longer allowed after all exam sessions are ended. {br}2. If sign-in is enabled, it is recommended that the time required for sign-in be set aside when scheduling the sessions. {br1}3. Exams allow multiple attemps will only require sign-in once. {br2}4. After signing in, examinees can only use the equipment they signed in with to enter the exam.",
+    "description": "2.0 exam.js"
+  },
+  "signInCode": {
+    "message": "Exam sign-in code",
+    "description": "2.0 exam.js"
+  },
+  "facePhotoVerify": {
+    "message": "Facial photo review",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTitle": {
+    "message": "Mobile Monitor",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeIntro": {
+    "message": "The sign-in code is a dynamic QR code, please check it in the ULearning APP, or you can scan the QR code below and enter the mobile monitor to view.",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTip": {
+    "message": "Tips: Faculty who are not part of the course team can also scan this QR code to access the mobile monitor. When using the mobile browser to access, you need to enter the spare verification code.",
+    "description": "2.0 exam.js"
+  },
+  "refresh": {
+    "message": "Refresh",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeDesc": {
+    "message": "This verification code can be used to enter the exam when examinees are unable to enter the exam under special circumstances, including: {br}- exams with device/IP monitoring enabled, where examinees need to change devices or IPs  during the exam. {br1}- exams with face recognition enabled, where examinees cannot pass face verification.",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeTip": {
+    "message": "The verification code is valid within {minute}, please refresh to get it again after it expires.",
+    "description": "2.0 exam.js"
+  },
+  "signedIn": {
+    "message": "Signed in",
+    "description": "2.0 exam.js"
+  },
+  "notSignIn": {
+    "message": "Unsigned",
+    "description": "2.0 exam.js"
+  },
+  "answerTimes1": {
+    "message": "Attempt {n}  ",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration1": {
+    "message": "Exam Time Used: {count} ",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcel": {
+    "message": "Export the sign-in record",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcelDesc": {
+    "message": "Using this feature, you can export sign-in records for the selected sessions and classes.",
+    "description": "2.0 exam.js"
+  },
+  "exportInfo": {
+    "message": "Export information:",
+    "description": "2.0 exam.js"
+  },
+  "courseClass": {
+    "message": "Course class",
+    "description": "2.0 exam.js"
+  },
+  "college": {
+    "message": "College",
+    "description": "2.0 exam.js"
+  },
+  "naturalClass": {
+    "message": "Executive Class",
+    "description": "2.0 exam.js"
+  },
+  "exportType": {
+    "message": "Export Format: ",
+    "description": "2.0 exam.js"
+  },
+  "exportType1": {
+    "message": "Export an Excel file with all classes in one worksheet.",
+    "description": "2.0 exam.js"
+  },
+  "exportType2": {
+    "message": "Export an Excel file with one worksheet per class.",
+    "description": "2.0 exam.js"
+  },
+  "exportType3": {
+    "message": "Export one Excel file per class.",
+    "description": "2.0 exam.js"
+  },
+  "startExport": {
+    "message": "Start to Export",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmit": {
+    "message": "Early Terminate",
+    "description": "2.0 exam.js"
+  },
+  "answerNums": {
+    "message": "Number of students answering: {num}",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip1": {
+    "message": "Using this function will end the current session early, and all students in the exam will be forced to submit. There may be a delay of about 10 seconds to 1 minute. This operation cannot be undone, so please use it with caution.",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip3": {
+    "message": "Are you sure to terminate early?",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip4": {
+    "message": "The student is answering questions. Using this feature, the student will be forced to submit early. There may be a delay of about 10 seconds to 1 minute. This operation cannot be undone, so please use it with caution.",
+    "description": "2.0 exam.js"
+  },
+  "answerUsedTime": {
+    "message": "Exam time used",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips11": {
+    "message": "Exam submitted involuntarily by the teacher.",
+    "description": "2.0 exam.js"
+  },
+  "submitSuccess": {
+    "message": "The request was sent successfully.",
+    "description": "2.0 exam.js"
+  },
+  "submitFail": {
+    "message": "Operation failed.",
+    "description": "2.0 exam.js"
+  },
+  "student": {
+    "message": "Examinee:",
+    "description": "2.0 exam.js"
+  },
+  "submitStatus": {
+    "message": "Submitting",
+    "description": "2.0 exam.js"
+  },
+  "remarkSetting": {
+    "message": "Scoring Settings",
+    "description": "2.0 exam.js"
+  },
+  "remarkSettingDesc": {
+    "message": "Half marks for partially correct answers",
+    "description": "2.0 exam.js"
+  },
+  "remarkSettingTip": {
+    "message": "No points for wrong choice",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitor": {
+    "message": "Enable screenshot monitoring",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitorDesc": {
+    "message": "Only applicable to mobile exams, when screenshots are detected, a warning will be given for the first time, and a mandatory submission for the second time.",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitorTip": {
+    "message": "This feature is only valid for iOS, Android has disabled screenshots in the exam.",
+    "description": "2.0 exam.js"
+  },
+  "screenshot": {
+    "message": "Screenshot",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips13": {
+    "message": "Screenshot of the violation, forced submission by the system.",
+    "description": "2.0 exam.js"
+  },
+  "studentExamRoom": {
+    "message": "Exam Room: {n}",
+    "description": "2.0 exam.js"
+  },
+  "questionTrain": {
+    "message": "Question Bank Training",
+    "description": "2.0 exam.js"
+  },
+  "questionBankManage": {
+    "message": "Question Bank Management >>",
+    "description": "2.0 exam.js"
+  },
+  "openQuestion": {
+    "message": "Turn on Question Bank Training",
+    "description": "2.0 exam.js"
+  },
+  "closeQuestion": {
+    "message": "Close Question Bank Training",
+    "description": "2.0 exam.js"
+  },
+  "openQuestionMsg1": {
+    "message": "This feature needs to be turned on/off by the course administrator.",
+    "description": "2.0 exam.js"
+  },
+  "openQuestionMsg2": {
+    "message": "Once turned on, students can enter the question bank to start practice. Are you sure to turn on?",
+    "description": "2.0 exam.js"
+  },
+  "closeQuestionMsg": {
+    "message": "After turning off, students cannot enter the question bank to practice. Are you sure to turn off?",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg1": {
+    "message": "Using the Question Bank Training function, you can designate a question bank for students to practice before the exam. This feature needs to be turned on by the course administrator. Before the official exam, it is recommended to close the question bank training entrance.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg2": {
+    "message": "Question Bank Training Module:",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg3": {
+    "message": "1. All students in the course can enter the question bank to practice, and only computer access is supported for the time being.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg4": {
+    "message": "2. The training question bank only supports importing objective questions and fill-in-the-blank questions.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg5": {
+    "message": "3. Students can check the correct answers immediately after submitting, and there is no limit to the number of submits.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg6": {
+    "message": "Special note: Question bank training is currently an experimental function, and entry and function may change in the future.",
+    "description": "2.0 exam.js"
+  },
+  "getInToqueBank": {
+    "message": "Go to the question bank >>",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesNew": {
+    "message": "Attempts",
+    "description": "2.0 exam.js"
+  },
+  "answeredTimesNew": {
+    "message": "Attempted/Attempts",
+    "description": "2.0 exam.js"
+  },
+  "studentBatch": {
+    "message": "Session: {startTime} - {endTime} ",
+    "description": "2.0 exam.js"
+  },
+  "studentSeatNumber": {
+    "message": "Number of seats: {n}",
+    "description": "2.0 exam.js"
+  },
+  "studentExamStudentOf": {
+    "message": "Examinees",
+    "description": "2.0 exam.js"
+  },
+  "studentRemainSeat": {
+    "message": "Remaining seats: {n}",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboard": {
+    "message": "Enable Secure Keyboard",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboardTip": {
+    "message": "Only for mobile exam, support Chinese and English, numbers and common punctuation input",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboardTip1": {
+    "message": "The secure keyboard can be used to prevent cheating with the special function of the mobile phone input method, but the input experience is not as smooth as the keyboard that comes with the mobile phone, and it is not recommended to enable it if there are questions that require large paragraphs of text.",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips14": {
+    "message": "Time exhausted, exam submitted by the system automatically.",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesOfNew": {
+    "message": "Attempts: {count}",
+    "description": "2.0 exam.js"
+  },
+  "attachmentHelpDesc": {
+    "message": "Attachments support common formats such as pictures, documents, videos, audio, and more. {link} {br} Upload up to 10 attachments per question. {br1} PC-side upload, a single file does not exceed 500M; For mobile upload, a single file does not exceed 200M. {br2} PC-side answers can be selected locally or uploaded by scanning the code using mobile phone.",
+    "description": "2.0 exam.js"
+  },
+  "attachmentHelpLink": {
+    "message": "Click to view allowed file formats",
+    "description": "2.0 exam.js"
+  },
+  "deleteExam": {
+    "message": "Delete Exam",
+    "description": "2.0 exam.js"
+  },
+  "exportLayout": {
+    "message": "Export format",
+    "description": "2.0 exam.js"
+  },
+  "standardType": {
+    "message": "Standard",
+    "description": "2.0 exam.js"
+  },
+  "compactType": {
+    "message": "Compact  (saves printing paper)",
+    "description": "2.0 exam.js"
+  },
+  "attachments": {
+    "message": "Export attachments",
+    "description": "2.0 exam.js"
+  },
+  "yes": {
+    "message": "Yes",
+    "description": "2.0 exam.js"
+  },
+  "no": {
+    "message": "No",
     "description": "2.0 exam.js"
   }
 }

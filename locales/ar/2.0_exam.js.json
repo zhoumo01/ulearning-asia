@@ -3634,5 +3634,365 @@
   "selectLevelip": {
     "message": "صعوبة اختيار واحد على الأقل",
     "description": "2.0 exam.js"
+  },
+  "localRecordTime1": {
+    "message": "يتم حفظ سجل الإجابات المحلي",
+    "description": "2.0 exam.js"
+  },
+  "PCexeType": {
+    "message": "عميل امتحان ULearning",
+    "description": "2.0 exam.js"
+  },
+  "appType": {
+    "message": "دعم تطبيق ULearning",
+    "description": "2.0 exam.js"
+  },
+  "PCType": {
+    "message": "موقع ULearning",
+    "description": "2.0 exam.js"
+  },
+  "appOrPCType": {
+    "message": "ULearning التطبيق المحمول / نهاية الصفحة ",
+    "description": "2.0 exam.js"
+  },
+  "appOrPCexeType": {
+    "message": "ULearning موبايل التطبيق / اختبار العملاء ش ",
+    "description": "2.0 exam.js"
+  },
+  "examTypeTips": {
+    "message": "يرجى استخدام {type} لإجراء الامتحان",
+    "description": "2.0 exam.js"
+  },
+  "examSignIn": {
+    "message": "تسجيل الوصول للامتحان",
+    "description": "2.0 exam.js"
+  },
+  "enableSignIn": {
+    "message": "تشغيل رمز تسجيل الدخول إلى الامتحان",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInTip": {
+    "message": "ينطبق على امتحانات الهاتف المحمول فقط ، قم بتشغيل هذا العنصر ، يمكن للمرشحين إدخال إجابات الامتحان بعد مسح الرمز لتسجيل الدخول",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInIntro": {
+    "message": "يعد تسجيل الوصول للامتحان مناسبا لسيناريوهات الامتحانات المركزية في الفصل الدراسي ويمكن استخدامه لمنع البدائل خارج الموقع. يفتح {br} اختبار تسجيل الوصول، ويمكن للمرشحين الدخول في الاختبار بعد مسح الرمز لتسجيل الدخول. قبل بدء الامتحان، يمكن للمعلمين استخدام هواتفهم المحمولة لعرض وتقديم رمز تسجيل الوصول على صفحة مراقبة الامتحان في تطبيق UCoS.",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInNote": {
+    "message": "ملاحظه:",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInDesc": {
+    "message": "1. يخضع وقت بدء تسجيل الوصول للوقت الذي يقدم فيه المعلم رمز تسجيل الدخول ، ولا يقتصر على وقت بدء الاختبار ؛ بعد الانتهاء من جميع الامتحانات ، لن يسمح بتسجيل الوصول. {br} 2. تم فتح اختبار تسجيل الوصول، ويوصى بحجز الوقت اللازم لتسجيل الوصول في الموقع عند ترتيب جلسة الامتحان لتجنب الالتباس. {br1} 3. إذا كانت هناك فرص متعددة للإجابة على الأسئلة في الاختبار ، فأنت بحاجة فقط إلى تسجيل الوصول مرة واحدة. {br2} 4. يمكن للمرشحين فقط استخدام الجهاز الذي قاموا بتسجيل الوصول إليه للإجابة على أسئلة الامتحان بعد تسجيل الوصول. إذا واجهت ظروفا خاصة تتطلب منك استبدال معداتك، فيمكنك أن تطلب من المراقب إدخال رمز تحقق.",
+    "description": "2.0 exam.js"
+  },
+  "signInCode": {
+    "message": "رمز تسجيل الدخول إلى الامتحان",
+    "description": "2.0 exam.js"
+  },
+  "facePhotoVerify": {
+    "message": "مراجعة صور الوجه",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTitle": {
+    "message": "محطة رصد متنقلة",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeIntro": {
+    "message": "رمز التسجيل في الاختبار هو رمز QR ديناميكي ، يرجى استخدام تطبيق [ULearning] للدخول إلى عرض الاختبار ، أو استخدام هاتفك المحمول لمسح رمز الاستجابة السريعة أدناه وإدخال محطة المراقبة المحمولة لعرضها.",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTip": {
+    "message": "نصيحة: يمكن للمعلمين الذين ليسوا جزءا من فريق الدورة التدريبية أيضا استخدام متصفح الجوال الخاص بهم لمسح رمز الاستجابة السريعة هذا ضوئيا للدخول إلى محطة المراقبة المتنقلة إذا كانوا بحاجة إلى المشاركة في المراقب. عند الدخول باستخدام متصفح الجوال الخاص بك ، ستحتاج إلى إدخال رمز تحقق احتياطي.",
+    "description": "2.0 exam.js"
+  },
+  "refresh": {
+    "message": "تحديث",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeDesc": {
+    "message": "يمكن للمرشحين الذين لا يستطيعون الدخول في الاختبار بسبب ظروف خاصة استخدام رمز التحقق هذا للدخول ، بما في ذلك: {br}- الاختبار مع تشغيل مراقبة الجهاز / IP ، يحتاج المرشحون إلى تغيير أجهزتهم أو IP في منتصف الطريق. {br1}- تم تشغيل اختبار التعرف على الوجه، ولم يتمكن المرشحون من اجتياز التحقق من الوجه",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeTip": {
+    "message": "رمز التحقق صالح في غضون {minute} ، يرجى تحديثه وإعادة الحصول عليه بعد الإبطال.",
+    "description": "2.0 exam.js"
+  },
+  "signedIn": {
+    "message": "تم تسجيل الدخول",
+    "description": "2.0 exam.js"
+  },
+  "notSignIn": {
+    "message": "لم يتم تسجيل الدخول",
+    "description": "2.0 exam.js"
+  },
+  "answerTimes1": {
+    "message": "{n} الإجابة",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration1": {
+    "message": "المنقضية: {count}",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcel": {
+    "message": "تصدير جدول تسجيل الوصول",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcelDesc": {
+    "message": "باستخدام هذه الميزة، يمكنك تصدير سجلات تسجيل الوصول للفئات والفئات المحددة حاليا.",
+    "description": "2.0 exam.js"
+  },
+  "exportInfo": {
+    "message": "تصدير المعلومات:",
+    "description": "2.0 exam.js"
+  },
+  "courseClass": {
+    "message": "دروس الدورة",
+    "description": "2.0 exam.js"
+  },
+  "college": {
+    "message": "الكلية",
+    "description": "2.0 exam.js"
+  },
+  "naturalClass": {
+    "message": "فئة تنفيذية / فئة الطبيعة",
+    "description": "2.0 exam.js"
+  },
+  "exportType": {
+    "message": "التصدير بواسطة:",
+    "description": "2.0 exam.js"
+  },
+  "exportType1": {
+    "message": "تصدير ملف Excel مع كافة الفئات في ورقة عمل واحدة",
+    "description": "2.0 exam.js"
+  },
+  "exportType2": {
+    "message": "تصدير ملف Excel باستخدام ورقة عمل واحدة لكل فئة",
+    "description": "2.0 exam.js"
+  },
+  "exportType3": {
+    "message": "تصدير ملف Excel واحد لكل فئة",
+    "description": "2.0 exam.js"
+  },
+  "startExport": {
+    "message": "بدء التصدير",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmit": {
+    "message": "اختتم مقدما",
+    "description": "2.0 exam.js"
+  },
+  "answerNums": {
+    "message": "عدد الأشخاص الذين يجيبون: {num}",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip1": {
+    "message": "باستخدام هذه الميزة ، ستنتهي الدورة الحالية مبكرا وسيضطر جميع الطلاب الذين يجيبون على الأسئلة إلى جمع الأوراق. قد يكون هناك تأخير من حوالي 10 ثوان إلى 1 دقيقة للتعبئة. لا يمكن سحب هذه العملية ويجب استخدامها بحذر.",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip3": {
+    "message": "هل أنت متأكد من أنك تغلق مقدما؟",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip4": {
+    "message": "يجيب المرشحون على الأسئلة ، وباستخدام هذه الميزة ، سيتم إعادة تدوير أوراق امتحان المرشح بالقوة. قد يكون هناك تأخير من حوالي 10 ثوان إلى 1 دقيقة للتعبئة. لا يمكن سحب هذه العملية ويجب استخدامها بحذر.",
+    "description": "2.0 exam.js"
+  },
+  "answerUsedTime": {
+    "message": "طول الوقت المستغرق في الإجابة على السؤال",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips11": {
+    "message": "يقوم المعلمون بجمع الأوراق مقدما",
+    "description": "2.0 exam.js"
+  },
+  "submitSuccess": {
+    "message": "تم إرسال الطلب بنجاح",
+    "description": "2.0 exam.js"
+  },
+  "submitFail": {
+    "message": "فشل اللف المسبق",
+    "description": "2.0 exam.js"
+  },
+  "student": {
+    "message": "الممتحن:",
+    "description": "2.0 exam.js"
+  },
+  "submitStatus": {
+    "message": "اللف",
+    "description": "2.0 exam.js"
+  },
+  "remarkSetting": {
+    "message": "إعدادات تسجيل النقاط",
+    "description": "2.0 exam.js"
+  },
+  "remarkSettingDesc": {
+    "message": "يتم منح نصف نقطة للجزء الصحيح متعدد الخيارات",
+    "description": "2.0 exam.js"
+  },
+  "remarkSettingTip": {
+    "message": "لن يتم منح أي نقاط للاختيار الخاطئ",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitor": {
+    "message": "تشغيل مراقبة لقطة الشاشة",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitorDesc": {
+    "message": "وهو ينطبق فقط على امتحانات الهاتف المحمول ، وعندما يكتشف أن المرشحين لديهم لقطات شاشة ، سيتم إعطاؤهم تحذيرا لأول مرة وإجبارهم على تقديم أوراقهم للمرة الثانية.",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitorTip": {
+    "message": "هذه الميزة لا تنطبق إلا على دائرة الرقابة الداخلية ، وقد تم تعطيل الروبوت لقطات الشاشة في الامتحان .",
+    "description": "2.0 exam.js"
+  },
+  "screenshot": {
+    "message": "لقطة شاشة",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips13": {
+    "message": "مخالفة لقطة الشاشة ، نظام إلزامي .",
+    "description": "2.0 exam.js"
+  },
+  "studentExamRoom": {
+    "message": "قاعة الامتحان: {n}",
+    "description": "2.0 exam.js"
+  },
+  "questionTrain": {
+    "message": "تدريب بنك الأسئلة",
+    "description": "2.0 exam.js"
+  },
+  "questionBankManage": {
+    "message": " إدارة بنك الأسئلة>>",
+    "description": "2.0 exam.js"
+  },
+  "openQuestion": {
+    "message": "تشغيل التدريب على بنك الأسئلة",
+    "description": "2.0 exam.js"
+  },
+  "closeQuestion": {
+    "message": "إغلاق تدريب بنك الأسئلة",
+    "description": "2.0 exam.js"
+  },
+  "openQuestionMsg1": {
+    "message": "يجب تشغيل / إيقاف تشغيل هذه الميزة بواسطة مسؤول المقرر الدراسي.",
+    "description": "2.0 exam.js"
+  },
+  "openQuestionMsg2": {
+    "message": "بعد الافتتاح ، يمكن للطلاب الدخول إلى بنك الأسئلة للتدرب ، هل أنت متأكد من فتحه؟",
+    "description": "2.0 exam.js"
+  },
+  "closeQuestionMsg": {
+    "message": "بعد الإغلاق ، لا يمكن للطلاب الدخول إلى بنك الأسئلة للتدرب ، هل هم متأكدون من الإغلاق؟",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg1": {
+    "message": "باستخدام وظيفة [تدريب بنك الأسئلة] ، يمكنك فتح بنك أسئلة مخصص للطلاب للتدرب عليه قبل الاختبار. يجب تشغيل هذه الميزة بواسطة مسؤول المقرر الدراسي. قبل الامتحان الرسمي ، يوصى بإغلاق مدخل تدريب بنك الأسئلة.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg2": {
+    "message": "وحدة تدريب بنك الأسئلة:",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg3": {
+    "message": "1. يمكن لجميع الطلاب في الدورة الدخول إلى بنك الأسئلة للتدرب ، ويتم دعم الوصول إلى الكمبيوتر فقط في الوقت الحالي.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg4": {
+    "message": "2. يدعم بنك أسئلة التدريب فقط استيراد الأسئلة الموضوعية وأسئلة ملء الفراغ.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg5": {
+    "message": "3. بعد تقديم كل سؤال ، يمكنك عرض الإجابة الصحيحة والتحليل ، ولا يوجد حد لعدد الإجابات.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg6": {
+    "message": "ملاحظة خاصة: يعد التدريب على بنك الأسئلة حاليا وظيفة تجريبية ، وقد تتغير الإدخالات والوظائف اللاحقة.",
+    "description": "2.0 exam.js"
+  },
+  "getInToqueBank": {
+    "message": "انتقل إلى بنك الأسئلة >>",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesNew": {
+    "message": "عدد الطلبات المقدمة",
+    "description": "2.0 exam.js"
+  },
+  "answeredTimesNew": {
+    "message": "عدد الملتزمين / المسموح بهم",
+    "description": "2.0 exam.js"
+  },
+  "studentBatch": {
+    "message": "وقت الجلسة: {وقت البدء} - {وقت الانتهاء}",
+    "description": "2.0 exam.js"
+  },
+  "studentSeatNumber": {
+    "message": "عدد المقاعد: {n}",
+    "description": "2.0 exam.js"
+  },
+  "studentExamStudentOf": {
+    "message": "المرشح: {n}",
+    "description": "2.0 exam.js"
+  },
+  "studentRemainSeat": {
+    "message": "المقاعد المتبقية: {n}",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboard": {
+    "message": "تمكين لوحة المفاتيح الآمنة",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboardTip": {
+    "message": "فقط للهواتف المحمولة ، ودعم الصينية والإنجليزية والأرقام وإدخال علامات الترقيم الشائعة",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboardTip1": {
+    "message": "يمكن استخدام لوحة المفاتيح الآمنة لمنع الغش مع الوظيفة الخاصة لطريقة إدخال الهاتف المحمول ، ولكن تجربة الإدخال ليست سلسة مثل لوحة المفاتيح التي تأتي مع الهاتف المحمول ، ولا يوصى بتمكينها إذا كانت هناك أسئلة في ورقة الاختبار تتطلب فقرات كبيرة من النص.",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips14": {
+    "message": "عند نفاد الوقت ، يقوم النظام تلقائيا بتقديم الأوراق",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesOfNew": {
+    "message": "عدد الالتزامات: {count}",
+    "description": "2.0 exam.js"
+  },
+  "attachmentHelpDesc": {
+    "message": "تدعم المرفقات التنسيقات الشائعة مثل الصور والمستندات ومقاطع الفيديو والصوت والمزيد. {رابط} {br} قم بتحميل ما يصل إلى 10 مرفقات لكل سؤال. {br1} تحميل من جانب الكمبيوتر ، ملف واحد لا يتجاوز 500M ؛ بالنسبة لتحميل الهاتف المحمول ، لا يتجاوز الملف الواحد 200 ميغابايت. {br2} يمكن تحديد الإجابات من جانب الكمبيوتر الشخصي محليا أو تحميلها عن طريق مسح الرمز على هاتفك المحمول.",
+    "description": "2.0 exam.js"
+  },
+  "attachmentHelpLink": {
+    "message": "انقر على عرض تنسيقات الملفات المسموح بها",
+    "description": "2.0 exam.js"
+  },
+  "deleteExam": {
+    "message": "حذف الامتحان",
+    "description": "2.0 exam.js"
+  },
+  "exportLayout": {
+    "message": "تصدير",
+    "description": "2.0 exam.js"
+  },
+  "standardType": {
+    "message": "الإصدار القياسي",
+    "description": "2.0 exam.js"
+  },
+  "compactType": {
+    "message": "نسخة مدمجة (توفر ورق الطباعة)",
+    "description": "2.0 exam.js"
+  },
+  "attachments": {
+    "message": "تصدير المرفقات",
+    "description": "2.0 exam.js"
+  },
+  "yes": {
+    "message": "كن",
+    "description": "2.0 exam.js"
+  },
+  "no": {
+    "message": "لا",
+    "description": "2.0 exam.js"
   }
 }
