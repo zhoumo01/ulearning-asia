@@ -2922,5 +2922,605 @@
   "photoUpload.msg21": {
     "message": "อนุญาตให้นักเรียนดูรูปภาพ/วิดีโอจากนักเรียนคนอื่น ๆ",
     "description": "smart-classroom 项目"
+  },
+  "classroom.reverseOrder": {
+    "message": "ย้อนกลับตามเวลา",
+    "description": "smart-classroom 项目"
+  },
+  "classroom.positiveOrder": {
+    "message": "ในลําดับเวลาบวก",
+    "description": "smart-classroom 项目"
+  },
+  "discuss.timeRemaining": {
+    "message": "เวลาที่เหลือ：",
+    "description": "smart-classroom 项目"
+  },
+  "score.evaluatedScoreNew": {
+    "message": "คะแนนประเมินนักเรียนเฉลี่ย",
+    "description": "smart-classroom 项目"
+  },
+  "score.teacherScore": {
+    "message": "คะแนนของครู",
+    "description": "smart-classroom 项目"
+  },
+  "score.weight": {
+    "message": "น้ําหนัก",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputWeightTip": {
+    "message": "น้ําหนักต้องไม่ว่างเปล่า",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputWeightTip1": {
+    "message": "โปรดระบุน้ําหนักที่ถูกต้อง",
+    "description": "smart-classroom 项目"
+  },
+  "score.teacherScoreDesc": {
+    "message": "ครูมีส่วนร่วมในการให้คะแนนและให้คะแนนนักเรียนเพื่อให้ได้เกรดที่ครอบคลุม",
+    "description": "smart-classroom 项目"
+  },
+  "score.teacherScore1": {
+    "message": "คะแนนของครู",
+    "description": "smart-classroom 项目"
+  },
+  "score.waitTeacherScore": {
+    "message": "ได้รับการประเมินโดยครู",
+    "description": "smart-classroom 项目"
+  },
+  "score.teacherScoreWeightTip": {
+    "message": "สัดส่วนคะแนนครู {n}%",
+    "description": "smart-classroom 项目"
+  },
+  "score.teacherRemark": {
+    "message": "ความคิดเห็นของครู",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputScore": {
+    "message": "กรุณาใส่คะแนน",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputScoreTip": {
+    "message": "คะแนนไม่สามารถว่างเปล่าได้",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputWeight": {
+    "message": "โปรดป้อนความถ่วงจําเพาะ",
+    "description": "smart-classroom 项目"
+  },
+  "score.teacherScoreDesc1": {
+    "message": "คุณยังสามารถทําคะแนนบนโทรศัพท์ของคุณเปิดโมดูลชั้นเรียนและค้นหากิจกรรมการให้คะแนนที่เผยแพร่เพื่อทําคะแนน",
+    "description": "smart-classroom 项目"
+  },
+  "score.teacherScoreWeightTitle": {
+    "message": "น้ําหนักการให้คะแนนของครู",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputNumTip": {
+    "message": "กรุณาใส่จำนวนเต็ม 0-100",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputNumTip1": {
+    "message": "โปรดป้อนจํานวนเต็มของ 0~{n}",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputNumTip2": {
+    "message": "โปรดป้อนจํานวนเต็ม 1~100",
+    "description": "smart-classroom 项目"
+  },
+  "score.fullmarks": {
+    "message": "คะแนนเต็ม",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputFullmarkTip": {
+    "message": "คะแนนที่สมบูรณ์แบบไม่สามารถว่างเปล่าได้",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputFullmarkTip1": {
+    "message": "โปรดป้อนค่าคะแนนที่ถูกต้อง",
+    "description": "smart-classroom 项目"
+  },
+  "score.scoreSettings": {
+    "message": "การตั้งค่าการให้คะแนน",
+    "description": "smart-classroom 项目"
+  },
+  "score.scoreTemplate": {
+    "message": "เทมเพลตการให้คะแนน",
+    "description": "smart-classroom 项目"
+  },
+  "score.createTemplate": {
+    "message": "สร้างแม่แบบใหม่",
+    "description": "smart-classroom 项目"
+  },
+  "score.use": {
+    "message": "ใช้",
+    "description": "smart-classroom 项目"
+  },
+  "score.createTemplateTip": {
+    "message": "สร้างเทมเพลตได้สูงสุด 50 แบบ",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputName": {
+    "message": "กรุณาใส่ชื่อ",
+    "description": "smart-classroom 项目"
+  },
+  "score.confirmDelete": {
+    "message": "ยืนยันการลบ?",
+    "description": "smart-classroom 项目"
+  },
+  "score.weightTip": {
+    "message": "ความถ่วงจําเพาะ {n}%",
+    "description": "smart-classroom 项目"
+  },
+  "score.open": {
+    "message": "เปิดใช้งาน",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputNameTip": {
+    "message": "ชื่อห้ามเว้นว่าง",
+    "description": "smart-classroom 项目"
+  },
+  "score.inputNameTip1": {
+    "message": "ชื่อต้องไม่เกิน 200 ตัวอักษร",
+    "description": "smart-classroom 项目"
+  },
+  "score.saveErrorTip7": {
+    "message": "แต่ละรายการต้องมีความยาวไม่เกิน 100 ตัวอักษร",
+    "description": "smart-classroom 项目"
+  },
+  "pick.confirmEnd": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการสิ้นสุดการเลือกปัจจุบัน?",
+    "description": "smart-classroom 项目"
+  },
+  "screen.openRecent": {
+    "message": "เปิดล่าสุด",
+    "description": "smart-classroom 项目"
+  },
+  "live.createLive": {
+    "message": "สร้างสตรีมแบบสด",
+    "description": "smart-classroom 项目"
+  },
+  "live.reservation": {
+    "message": "ทําการนัดหมายวันนี้",
+    "description": "smart-classroom 项目"
+  },
+  "live.noReservation": {
+    "message": "ไม่มีการถ่ายทอดสดในวันนี้",
+    "description": "smart-classroom 项目"
+  },
+  "welink.bindAccount": {
+    "message": "ผูกบัญชี",
+    "description": "smart-classroom 项目"
+  },
+  "welink.bindMsg": {
+    "message": "กรุณาผูกบัญชี U-Class และคุณสามารถใช้ welink เพื่อสแกนรหัสเพื่อเข้าสู่ระบบ",
+    "description": "smart-classroom 项目"
+  },
+  "welink.alreadyBind": {
+    "message": "บัญชีปัจจุบันถูกผูกไว้กับบัญชี Welink แล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "welink.bindDesc": {
+    "message": "หากคุณยังไม่ได้ผูกบัญชี WELINK โปรดสแกนรหัสเพื่อผูกและเริ่มการถ่ายทอดสด",
+    "description": "smart-classroom 项目"
+  },
+  "welink.huaweiLive": {
+    "message": "การประชุม HUAWEI CLOUD",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.requestActivation": {
+    "message": "ขอเปิดใช้งาน",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.msg1": {
+    "message": "คุณลักษณะการโต้ตอบหลายหน้าจอยังไม่ได้เปิดใช้งานบนอุปกรณ์ในขณะนี้",
+    "description": "smart-classroom 项目"
+  },
+  "multiScreen.msg2": {
+    "message": "หากคุณซื้อบริการของเราแล้ว โปรดติดต่อเราเพื่อรับรหัสเปิดใช้งานและคลิกปุ่มด้านล่างเพื่อเริ่มการเปิดใช้งาน",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg49": {
+    "message": "อัปเดต IP",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg50": {
+    "message": "พอร์ตมีการใช้งานแล้วกรุณาติดต่อเราเพื่อกำหนดค่าใหม่",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg51": {
+    "message": "อัปเดตเรียบร้อยแล้ว! โปรดรีสตาร์ทแอป UClass สําหรับทั้งหน้าจอครูและหน้าจอกลุ่ม",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg52": {
+    "message": "หลังจากอัปเดต IP ลิงก์จะถูกสร้างขึ้นด้วย IP ล่าสุดและอุปกรณ์อื่น ๆ เพื่อกําหนด IP อัปเดต?",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.msg53": {
+    "message": "เพื่อความเสถียรของระบบขอแนะนําให้คุณตั้งค่าที่อยู่ IP แบบคงที่สําหรับอุปกรณ์ปัจจุบัน อุปกรณ์ที่ใช้เครือข่ายแบบมีสายตั้งค่า IP แบบคงที่ในการตั้งค่าขั้นสูง อุปกรณ์ที่ใช้ WiFi สามารถตั้งค่า IP แบบคงที่สําหรับอุปกรณ์ในเราเตอร์ได้",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.version": {
+    "message": "เวอร์ชั่น",
+    "description": "smart-classroom 项目"
+  },
+  "faultDetect.checkUpdates": {
+    "message": "ค้นหาการอัปเดต",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.msg2New": {
+    "message": "หากจําเป็นต้องเล่นให้เปิดใช้งานการบันทึกบนคลาวด์และตรวจสอบให้แน่ใจว่ามีพื้นที่เพียงพอสําหรับการบันทึกการประชุมของ Tencent คุณสามารถลบการบันทึกที่ไม่จําเป็นหลังจากดาวน์โหลดและบันทึกใน Tencent Meeting เพื่อประหยัดพื้นที่บันทึก",
+    "description": "smart-classroom 项目"
+  },
+  "tencentMeeting.tencentMeetingAccount": {
+    "message": "บัญชีการประชุม Tencent",
+    "description": "smart-classroom 项目"
+  },
+  "remark.allClassroom": {
+    "message": "ห้องเรียนทั้งหมด",
+    "description": "smart-classroom 项目"
+  },
+  "remark.classroomList": {
+    "message": "รายการคลาส",
+    "description": "smart-classroom 项目"
+  },
+  "wx.noticeClass": {
+    "message": "แจ้งชั้นเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "wx.noticeSucc": {
+    "message": "การแจ้งเตือนสําเร็จแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "wx.classQr": {
+    "message": "รหัสห้องเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "wx.msg": {
+    "message": "นักเรียนสแกนรหัสบน WeChat/APP เพื่อเข้าสู่ชั้นเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.answerSheet": {
+    "message": "ตอบคําถาม",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.createAnswer": {
+    "message": "สร้างคําถามคําตอบ",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.optionsNum": {
+    "message": "จํานวนตัวเลือก",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.joinScore": {
+    "message": "มีส่วนร่วมในกิจกรรมคะแนน",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.answerScore": {
+    "message": "ตอบถูกประเด็น",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.judge": {
+    "message": "วิเคราะห์ตัดสิน",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.selectAnswer": {
+    "message": "ขอให้นักเรียนเลือกคําตอบที่ถูกต้อง",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.judgeTorF": {
+    "message": "โปรดตัดสินว่าถูกหรือผิด",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.stuAnswer": {
+    "message": "คําตอบของนักเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.correct": {
+    "message": "อัตราที่ถูกต้อง",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.endAnswer": {
+    "message": "จบการตอบคำถาม",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.updateAnswer": {
+    "message": "แก้ไขคําตอบ",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.revealAnswer": {
+    "message": "เผยแพร่คําตอบ",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.sureClose": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการจบคําถาม?",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.setAnswer": {
+    "message": "ตั้งค่าคําตอบที่ถูกต้อง",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.onlyAnswer": {
+    "message": "มีคําตอบที่ถูกต้องสําหรับคําถามนี้",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.mulitAnswer": {
+    "message": "มีคําตอบที่ถูกต้องหลายข้อสําหรับคําถามนี้",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.contentNull": {
+    "message": "ชื่อเรื่องห้ามเว้นว่าง",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.scoreCorrectScore": {
+    "message": "เข้าร่วมคะแนน {score} และตอบคะแนน {correctScore} อย่างถูกต้อง",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.theRadio": {
+    "message": "คําถามตัวเลือกเดียว",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.multipleChoice": {
+    "message": "คำถามปรนัย",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.trueORfalse": {
+    "message": "คำถามแบบถูกหรือผิด",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.isSubmitted": {
+    "message": "กำลังส่ง",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.true": {
+    "message": "ถูกต้อง",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.false": {
+    "message": "ข้อผิดพลาด",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.correctAnswer": {
+    "message": "คําตอบที่ถูกต้อง",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.yourAnswer": {
+    "message": "คําตอบของคุณ",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.msg1": {
+    "message": "คําตอบจบลงแล้วโปรดรอให้ครูประกาศคําตอบ",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.msg2": {
+    "message": "ประเภทไฟล์ไม่ถูกต้องโปรดเลือกประเภทรูปภาพ",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.answerTrue": {
+    "message": "ถูกต้อง",
+    "description": "smart-classroom 项目"
+  },
+  "answerSheet.answerFalse": {
+    "message": "คําตอบผิด",
+    "description": "smart-classroom 项目"
+  },
+  "uploadPic.uploadImgVideo": {
+    "message": "อัปโหลดรูปภาพ/วิดีโอ",
+    "description": "smart-classroom 项目"
+  },
+  "uploadPic.uploadLoading": {
+    "message": "โปรดรอให้การอัปโหลดไฟล์เสร็จสมบูรณ์",
+    "description": "smart-classroom 项目"
+  },
+  "uploadPic.submitSucc": {
+    "message": "ส่งเรียบร้อย",
+    "description": "smart-classroom 项目"
+  },
+  "uploadPic.submitErrEnd": {
+    "message": "การส่งล้มเหลว กิจกรรมได้สิ้นสุดลงแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "uploadPic.submitErrDel": {
+    "message": "การส่งล้มเหลว กิจกรรมได้ถูกลบแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "uploadPic.uploadMax20": {
+    "message": "อัปโหลดรูปภาพหรือวิดีโอได้สูงสุด 20 รายการ",
+    "description": "smart-classroom 项目"
+  },
+  "uploadPic.msg": {
+    "message": "อัปโหลดรูปภาพ/วิดีโอตามที่ครูต้องการมากถึง 20 ภาพ/วิดีโอ",
+    "description": "smart-classroom 项目"
+  },
+  "uploadPic.msg1": {
+    "message": "กิจกรรมได้สิ้นสุดลงแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "uploadPic.msg2": {
+    "message": "กิจกรรมได้สิ้นสุดลงแล้วและคุณไม่ได้เข้าร่วม",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.shareBoardWriting": {
+    "message": "แบ่งปันหนังสือบอร์ด",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.shareClassroom": {
+    "message": "แชร์ไปยังชั้นเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.msg1": {
+    "message": "สแกนด้วยแอป ULearning เพื่อแชร์เนื้อหาไวท์บอร์ดไปยังเซสชันหลักสูตร",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.msg2": {
+    "message": "สแกนรหัสและนําออก",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.msg3": {
+    "message": "สแกนด้วยแอป ULearning",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.msg4": {
+    "message": "คลิกที่นี่สําหรับโทรศัพท์ของคุณ",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.msg5": {
+    "message": "สแกนรหัสเพื่อนําหนังสือบอร์ดออกไป",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.msg6": {
+    "message": "สแกนเพื่อเข้าสู่ระบบด้วยแอป ULearning",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.welink1": {
+    "message": "สแกนเพื่อเข้าสู่ระบบด้วย WeLink",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.welink2": {
+    "message": "สแกนรหัสเพื่อดู",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.welink3": {
+    "message": "สแกนด้วย WeLink",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.welink4": {
+    "message": "สแกนรหัสเพื่อดูหนังสือบอร์ด",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.enter": {
+    "message": "เข้า",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.today": {
+    "message": "วันนี้",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.reserveLive": {
+    "message": "กําหนดเวลาสตรีมแบบสด/การประชุม",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.welikAccount": {
+    "message": "บัญชี Welink",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.bindAccount": {
+    "message": "ผูกบัญชี",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.startTime": {
+    "message": "เวลาเริ่มต้น",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.duration": {
+    "message": "ระยะเวลา",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.1hour": {
+    "message": "1 ชั่วโมง",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.2hour": {
+    "message": "2 ชั่วโมง",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.4hour": {
+    "message": "4 ชั่วโมง",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.12hour": {
+    "message": "12 ชั่วโมง",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.msg": {
+    "message": "รายการชั้นเรียนจะแสดงสตรีมแบบสดที่คุณสร้างหรือจองในหลักสูตร และคุณสามารถเลือกเข้าร่วมสตรีมแบบสดเพื่อสอนชั้นเรียนได้ หากคุณต้องการสร้างสตรีมแบบสด ก่อนอื่นให้สร้างห้องเรียนแล้วคลิกปุ่ม \"สด\" ทางด้านขวาเพื่อเริ่มสตรีมแบบสด",
+    "description": "smart-classroom 项目"
+  },
+  "welinkLive.msg1": {
+    "message": "โปรดผูกบัญชีของคุณและสร้างสตรีมสด!",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.activated": {
+    "message": "เปิดใช้งานแล้ว",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.activationCode": {
+    "message": "รหัสเปิดใช้งาน",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.classroomName": {
+    "message": "ชื่อห้องเรียน",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.equipment": {
+    "message": "อุปกรณ์",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.groupNumber": {
+    "message": "หมายเลขซีเรียลของกลุ่ม",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.macAddress": {
+    "message": "ที่อยู่ MAC",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.ipAddress": {
+    "message": "ที่อยู่ IP",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.site": {
+    "message": "สถานที่",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg1": {
+    "message": "ข้อมูลการเปิดใช้งานถูกส่งแล้วโปรดรอให้เจ้าหน้าที่ของเราดําเนินการ",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg2": {
+    "message": "การตั้งค่าสิทธิ์ UClass",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg3": {
+    "message": "เพื่อให้แน่ใจว่า UClass ทํางานได้ตามปกติโปรดตั้งค่าหน้าจอดังนี้",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg4": {
+    "message": "ตั้งค่า UClass ให้แสดงบนหน้าจอหลัก",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg5": {
+    "message": "บนหน้าจอหลัก ให้แตะไอคอน UClass ค้างไว้ (กดค้างไว้) เพื่อเข้าสู่โหมดแก้ไข จากนั้นเลือก UClass",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg6": {
+    "message": "ตั้งค่า UClass เป็น Run at Startup (เปิดอัตโนมัติ) และเปิดใช้งาน Suspension (Floating) Window",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg7": {
+    "message": "การตั้งค่า > การจัดการแอป>ขั้นสูง > สิทธิ์ของแอป > UClass - เปิดใช้งาน Run at Startup, Suspension Window และ Custom Broadcast",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg8": {
+    "message": "ตั้งค่า UClass เป็นแอปพื้นหลัง",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg9": {
+    "message": "การตั้งค่าหน้าจอขนาดใหญ่> การตั้งค่าขั้นสูง> การจัดการแอปพลิเคชัน> แอปพลิเคชันที่อยู่ในพื้นหลัง",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg10": {
+    "message": "เปิดใช้งานการโต้ตอบหลายหน้าจอ",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg11": {
+    "message": "กรุณาใส่รหัสเปิดใช้งาน",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg12": {
+    "message": "รหัสเปิดใช้งานต้องไม่ว่างเปล่า",
+    "description": "smart-classroom 项目"
+  },
+  "deviceActivation.msg13": {
+    "message": "หมายเลขห้องเรียนต้องไม่ว่างเปล่า",
+    "description": "smart-classroom 项目"
   }
 }
