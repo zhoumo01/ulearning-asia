@@ -3778,5 +3778,537 @@
   "layout.userId": {
     "message": "用户Id：{userId}",
     "description": "新版管理后台 zh.json"
+  },
+  "routers.dashboard": {
+    "message": "工作台",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso": {
+    "message": "单点登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.ssoSetting": {
+    "message": "单点登录设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.openSSO": {
+    "message": "开启SSO登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.openSSOTip": {
+    "message": "开启SSO登录后，系统支持用户通过SP-initated登录或者在IdP侧登录。关闭后，不再允许用户通过SSO方式登录。",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.addSSO": {
+    "message": "添加 SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.SSOName": {
+    "message": "SSO名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.SSOList": {
+    "message": "SSO列表",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.connectType": {
+    "message": "连接类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.status": {
+    "message": "状态",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.isDefault": {
+    "message": "是否默认",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSO": {
+    "message": "创建SSO连接",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.baseSetting": {
+    "message": "基础设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.attrMapping": {
+    "message": "属性映射",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.roleMapping": {
+    "message": "角色映射",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.options": {
+    "message": "选项",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSAMLConnect": {
+    "message": "创建SAML连接",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso18": {
+    "message": "名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso19": {
+    "message": "Redirect URL",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso20": {
+    "message": "IdP设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso21": {
+    "message": "从您的IDP获取元数据文件并在此处上传，或手动输入值。",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso22": {
+    "message": "上传IdP XML",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso23": {
+    "message": "发行人字符串或实体ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso24": {
+    "message": "IDP重定向终点",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso25": {
+    "message": "SAML主题身份属性名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso26": {
+    "message": "X.509公共证书",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso27": {
+    "message": "签署AuthnRequest",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso28": {
+    "message": "No(default)",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso29": {
+    "message": "Yes",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso30": {
+    "message": "SAML请求绑定",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso31": {
+    "message": "HTTP-Redirect",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso32": {
+    "message": "HTTP-Post(default)",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso33": {
+    "message": "包括断言使用方服务URL",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso34": {
+    "message": "身份验证请求签名算法",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso35": {
+    "message": "SHA1",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso36": {
+    "message": "SHA256(default)",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso37": {
+    "message": "AuthnContextClassRef",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.spSetting": {
+    "message": "SP 设置",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.downloadSPXML": {
+    "message": "下载SP Metadata XML",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.XMLDownloadTips": {
+    "message": "请在完成IDP设置后下载",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.emailIdpAttr": {
+    "message": "Email IdP属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputEmailIdp": {
+    "message": "输入Email对应的的IdP属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.nameIdpAttr": {
+    "message": "全名 IdP属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputnameIdp": {
+    "message": "输入用户全名对应的IdP属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputnameIdpTip": {
+    "message": "如果未设置，将会使用用户邮件地址作为全名",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.usernameIdpAttr": {
+    "message": "用户名 IdP 属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputusernameIdp": {
+    "message": "输入用户名对应的IdP属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputusernameIdpTip": {
+    "message": "如果未设置，将会使用用户邮件地址作为全名",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.customMapping": {
+    "message": "开启自定义属性映射",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdpMappingLMS": {
+    "message": "将IdP属性映射到LMS的用户属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.add": {
+    "message": "添加",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.LMSAttr": {
+    "message": "LMS属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdpAttr": {
+    "message": "IdP属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.action": {
+    "message": "操作",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultOrg": {
+    "message": "默认机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdPOrgAttr": {
+    "message": "IdP机构属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.setIdPOrgAttr": {
+    "message": "设置IdP侧的机构属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso48": {
+    "message": "机构映射规则",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdpAttrVal": {
+    "message": "IdP属性值",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso50": {
+    "message": "LMS机构",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption1": {
+    "message": "自动开通账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption2": {
+    "message": "如果登录时没有匹配的nameid，自动创建新账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption3": {
+    "message": "登录时更新用户属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption4": {
+    "message": "用户登录时，如果发现IdP侧属性发生变化，自动更新用户属性",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption5": {
+    "message": "设为默认SSO连接",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption6": {
+    "message": "将此SSO设为系统默认SSO，用户通过此SSO登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso57": {
+    "message": "角色映射规则",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.active": {
+    "message": "激活",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.stop": {
+    "message": "停用",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.edit": {
+    "message": "编辑",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso61": {
+    "message": "测试",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.del": {
+    "message": "删除",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.delSSO": {
+    "message": "删除SSO连接",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.delSSOTip": {
+    "message": "您即将删除下列SSO连接，这将禁用用户使用sp-initate和idp-initate登录系统。确认继续删除。",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso65": {
+    "message": "名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso66": {
+    "message": "类型",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso67": {
+    "message": "IdP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSO": {
+    "message": "激活SSO连接",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSOTip": {
+    "message": "您即将激活以下SSO连接，这将使用户可以使用sp-initate和idp-initate登录到系统。如果不需要，请禁用此设置。",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.stopSSO": {
+    "message": "停用SSO连接",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.stopSSOTip": {
+    "message": "您即将停用以下SSO连接，这将禁用用户使用sp-initate和idp-initate登录系统。",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.nextStep": {
+    "message": "下一步",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.save": {
+    "message": "保存",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.cancel": {
+    "message": "取消",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.close": {
+    "message": "关闭",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOSuccess": {
+    "message": "SSO连接已保存",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.copySuccess": {
+    "message": "复制成功",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.NameErrTip1": {
+    "message": "请输入名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.NameErrTip2": {
+    "message": "不能超过64字符",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.NameErrTip3": {
+    "message": "名称已使用，请重新输入",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.uploadIdpErr": {
+    "message": "当前限制选择 {num} 个文件",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr1": {
+    "message": "请输入发行人字符串或实体ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr2": {
+    "message": "请输入IDP重定向终点",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr3": {
+    "message": "请输入SAML主题身份属性名称",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr4": {
+    "message": "请输入X.509公共证书",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO": {
+    "message": "测试SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO1": {
+    "message": "按照以下步骤测试SSO连接",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO2": {
+    "message": "连接测试",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO3": {
+    "message": "测试连接",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO4": {
+    "message": "登录测试",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO5": {
+    "message": "按照以下步骤测试SSO登录",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO6": {
+    "message": "登录地址",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO7": {
+    "message": "退出测试",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO8": {
+    "message": "按照以下步骤测试SSO退出",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO9": {
+    "message": "登出地址",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSuccess": {
+    "message": "连接正常",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.copy": {
+    "message": "复制",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Accounts": {
+    "message": "账号",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Courses": {
+    "message": "课程",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CourseEnrollments": {
+    "message": "课程注册",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Activities": {
+    "message": "学习活动",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserLogin": {
+    "message": "用户登录趋势",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Detail": {
+    "message": "详细信息",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Description": {
+    "message": "指标说明",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.DataScope": {
+    "message": "数据范围",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Update": {
+    "message": "数据更新",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.timeFilterWeek": {
+    "message": "前7天",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.timeFilterMonth": {
+    "message": "前30天",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.AccountsDescription": {
+    "message": "本机构与子机构的账号总数量，以及该数量昨日的变化",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.AccountsDataScope": {
+    "message": "机构范围：本机构与子机构<br/>账号范围：所有账号，包括活跃账号与已冻结的账号<br/>时间范围：所有时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.AccountsUpdate": {
+    "message": "每日更新<br/>最后更新时间：{time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesDescription": {
+    "message": "本机构与子机构的所有课程数量，以及改数量昨日的变化",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesDataScope": {
+    "message": "机构范围： 本机构与子机构<br/>课程范围： 所有课程，包括进行中、已结束与已归档的课程<br/>时间范围： 所有时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesUpdate": {
+    "message": "每日更新<br/>最后更新时间：{time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesEnrollmentsDescription": {
+    "message": "本机构与子机构所有课程中所注册的学生数量，以及该数量昨日的变化",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesEnrollmentsDataScope": {
+    "message": "机构范围：本机构与子机构<br/>课程范围：所有课程，包括进行中、已结束与已归档的课程<br/>时间范围： 所有时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesEnrollmentsUpdate": {
+    "message": "每日更新<br/>最后更新时间：{time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.ActivitiesDescription": {
+    "message": "属于本机构与子机构的所有课程的学习活动数量以及该数量的昨日变化，学习活动包括作业、测验、讨论、课堂、直播与考试。",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.ActivitiesDataScope": {
+    "message": "机构范围： 本机构与子机构<br/>课程范围： 所有课程，包括进行中、已结束与已归档的课程<br/>时间范围： 所有时间",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.ActivitiesUpdate": {
+    "message": "每日更新<br/>最后更新时间：{time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserloginDescription": {
+    "message": "显示每日登录系统的用户数量",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserloginDataScope": {
+    "message": "机构范围： 本机构与子机构<br/>账号范围：所有属于本机构与子机构的账号<br/>时间范围：机构所在时区的00:00 - 24:00",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserloginUpdate": {
+    "message": "每日更新<br/>最后更新时间：{time}",
+    "description": "新版管理后台 zh.json"
   }
 }
