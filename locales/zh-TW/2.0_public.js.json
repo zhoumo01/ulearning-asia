@@ -1726,5 +1726,701 @@
   "waitingApply": {
     "message": "已申請，等待教師批准",
     "description": "2.0 public.js"
+  },
+  "newVersion": {
+    "message": "新管理員端",
+    "description": "2.0 public.js"
+  },
+  "loginTip": {
+    "message": "請輸入使用者名或密碼",
+    "description": "2.0 public.js"
+  },
+  "schoolBadge": {
+    "message": "校徽",
+    "description": "2.0 public.js"
+  },
+  "uploadSchoolBadge": {
+    "message": "上傳校徽",
+    "description": "2.0 public.js"
+  },
+  "uploadSchoolBadgeTip1": {
+    "message": "格式：.png， .bmp， .jpg， .jpeg， .gif; 大小：不超過2M; 建議尺寸：120*120px",
+    "description": "2.0 public.js"
+  },
+  "uploadSchoolBadgeTip2": {
+    "message": "只能上傳png，bmp，jpg，jpeg，gif的檔",
+    "description": "2.0 public.js"
+  },
+  "uploadSchoolBadgeTip3": {
+    "message": "上傳的檔應小於 2MB",
+    "description": "2.0 public.js"
+  },
+  "uploadLogo": {
+    "message": "上傳logo",
+    "description": "2.0 public.js"
+  },
+  "background": {
+    "message": "背景圖片",
+    "description": "2.0 public.js"
+  },
+  "setBackground": {
+    "message": "設定網站背景（最多選擇5個）",
+    "description": "2.0 public.js"
+  },
+  "customImage": {
+    "message": "自訂圖片",
+    "description": "2.0 public.js"
+  },
+  "uploadBackgroundTip1": {
+    "message": "圖片規格：png， bmp， jpg， jpeg， gif; 大小：<=5M；尺寸：不小于1920*1080px（当您上传的图片未达到建议尺寸时,我们将按照上传图片的原始大小在页面居中显示）。",
+    "description": "2.0 public.js"
+  },
+  "uploadBackgroundTip2": {
+    "message": "當您上傳了多張圖片時，按照上傳的順序顯示。",
+    "description": "2.0 public.js"
+  },
+  "uploadBackgroundTip3": {
+    "message": "只能上傳png，bmp，jpg，jpeg，gif的檔",
+    "description": "2.0 public.js"
+  },
+  "uploadBackgroundTip4": {
+    "message": "上傳的檔應小於5MB",
+    "description": "2.0 public.js"
+  },
+  "uploadBackgroundTip5": {
+    "message": "不能超過5個",
+    "description": "2.0 public.js"
+  },
+  "editFriendLinks": {
+    "message": "編輯友情連結",
+    "description": "2.0 public.js"
+  },
+  "friendLinksPlaceholder1": {
+    "message": "請輸入連結名",
+    "description": "2.0 public.js"
+  },
+  "friendLinksPlaceholder2": {
+    "message": "請按https://www.ulearning.asia 的格式輸入",
+    "description": "2.0 public.js"
+  },
+  "friendLinksTip1": {
+    "message": "說明：最多可添加10個鏈接位址，鏈接名稱最多為20個字，拖動可進行重新排序。",
+    "description": "2.0 public.js"
+  },
+  "friendLinksTip2": {
+    "message": "最多添加10個",
+    "description": "2.0 public.js"
+  },
+  "addFriendLinks": {
+    "message": "添加連結",
+    "description": "2.0 public.js"
+  },
+  "resource1": {
+    "message": "類型",
+    "description": "2.0 public.js"
+  },
+  "resource2": {
+    "message": "分類",
+    "description": "2.0 public.js"
+  },
+  "resource3": {
+    "message": "視頻",
+    "description": "2.0 public.js"
+  },
+  "resource4": {
+    "message": "音頻",
+    "description": "2.0 public.js"
+  },
+  "resource5": {
+    "message": "圖片",
+    "description": "2.0 public.js"
+  },
+  "resource6": {
+    "message": "文檔",
+    "description": "2.0 public.js"
+  },
+  "resource7": {
+    "message": "鏈接",
+    "description": "2.0 public.js"
+  },
+  "searchResource": {
+    "message": "搜索資源",
+    "description": "2.0 public.js"
+  },
+  "resourceDetail": {
+    "message": "資源詳情",
+    "description": "2.0 public.js"
+  },
+  "hotResource": {
+    "message": "熱門資源",
+    "description": "2.0 public.js"
+  },
+  "uploadTime": {
+    "message": "上傳時間",
+    "description": "2.0 public.js"
+  },
+  "viewCount": {
+    "message": "瀏覽量",
+    "description": "2.0 public.js"
+  },
+  "downloadCount": {
+    "message": "下載量",
+    "description": "2.0 public.js"
+  },
+  "name": {
+    "message": "名稱",
+    "description": "2.0 public.js"
+  },
+  "searchNoResource": {
+    "message": "還未發布任何資源吶",
+    "description": "2.0 public.js"
+  },
+  "uploadFile": {
+    "message": "上傳文件",
+    "description": "2.0 public.js"
+  },
+  "addLink": {
+    "message": "添加鏈接",
+    "description": "2.0 public.js"
+  },
+  "addRichtext": {
+    "message": "添加圖文",
+    "description": "2.0 public.js"
+  },
+  "passwordRegTips": {
+    "message": "8-16位，須包含至少3種字元（數位、大寫字母、小寫字母或特殊符號）",
+    "description": "2.0 public.js"
+  },
+  "friendLinksTip3": {
+    "message": "不能超過20個字",
+    "description": "2.0 public.js"
+  },
+  "curCourseStatus1": {
+    "message": "課程已結束",
+    "description": "2.0 public.js"
+  },
+  "curCourseStatus2": {
+    "message": "課程未開始",
+    "description": "2.0 public.js"
+  },
+  "joinNum": {
+    "message": "人參與",
+    "description": "2.0 public.js"
+  },
+  "courseinfo1": {
+    "message": "開課院校",
+    "description": "2.0 public.js"
+  },
+  "courseinfo2": {
+    "message": "建議學習時長",
+    "description": "2.0 public.js"
+  },
+  "courseinfo3": {
+    "message": "學科分類",
+    "description": "2.0 public.js"
+  },
+  "courseinfo4": {
+    "message": "適用專業",
+    "description": "2.0 public.js"
+  },
+  "coursebtn1": {
+    "message": "立即體驗",
+    "description": "2.0 public.js"
+  },
+  "coursebtn2": {
+    "message": "開始學習",
+    "description": "2.0 public.js"
+  },
+  "coursebtn3": {
+    "message": "加入班課",
+    "description": "2.0 public.js"
+  },
+  "coursebtn4": {
+    "message": "立即購買",
+    "description": "2.0 public.js"
+  },
+  "coursebtn5": {
+    "message": "去體驗",
+    "description": "2.0 public.js"
+  },
+  "coursetime": {
+    "message": "課時",
+    "description": "2.0 public.js"
+  },
+  "courseTitle1": {
+    "message": "章節目錄",
+    "description": "2.0 public.js"
+  },
+  "courseTitle2": {
+    "message": "課程介紹",
+    "description": "2.0 public.js"
+  },
+  "courseTitle3": {
+    "message": "課程大綱",
+    "description": "2.0 public.js"
+  },
+  "courseTitle4": {
+    "message": "課程團隊",
+    "description": "2.0 public.js"
+  },
+  "courseTitle5": {
+    "message": "推薦教材",
+    "description": "2.0 public.js"
+  },
+  "courseTitle6": {
+    "message": "推薦課程",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook1": {
+    "message": "定價",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook2": {
+    "message": "作者",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook3": {
+    "message": "譯者",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook4": {
+    "message": "國內",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook5": {
+    "message": "國外",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook6": {
+    "message": "出版社",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook7": {
+    "message": "作者簡介",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook8": {
+    "message": "譯者簡介",
+    "description": "2.0 public.js"
+  },
+  "recommendTextbook9": {
+    "message": "教材特色",
+    "description": "2.0 public.js"
+  },
+  "send": {
+    "message": "發送",
+    "description": "2.0 public.js"
+  },
+  "login1": {
+    "message": "標題",
+    "description": "2.0 public.js"
+  },
+  "login2": {
+    "message": "頁面佈局",
+    "description": "2.0 public.js"
+  },
+  "login3": {
+    "message": "背景圖片",
+    "description": "2.0 public.js"
+  },
+  "login4": {
+    "message": "儲存設定",
+    "description": "2.0 public.js"
+  },
+  "login5": {
+    "message": "你的郵箱",
+    "description": "2.0 public.js"
+  },
+  "login6": {
+    "message": "輸入你的郵箱位址",
+    "description": "2.0 public.js"
+  },
+  "login7": {
+    "message": "記住我",
+    "description": "2.0 public.js"
+  },
+  "login8": {
+    "message": "驗證郵件",
+    "description": "2.0 public.js"
+  },
+  "login9": {
+    "message": "我們已向 {email} 發送了一封確認電子郵件，請在下面輸入驗證碼以驗證您的電子郵件。",
+    "description": "2.0 public.js"
+  },
+  "login10": {
+    "message": "發送了一封確認電子郵件，請在下面輸入驗證碼以驗證您的電子郵件。",
+    "description": "2.0 public.js"
+  },
+  "login11": {
+    "message": "郵件未收到？",
+    "description": "2.0 public.js"
+  },
+  "login12": {
+    "message": "帳號已停用",
+    "description": "2.0 public.js"
+  },
+  "login13": {
+    "message": "您的帳戶已被停用，您將無法登錄系統。 請聯繫您所在組織的管理員以重新啟動您的帳戶。",
+    "description": "2.0 public.js"
+  },
+  "login14": {
+    "message": "請輸入您的郵件位址",
+    "description": "2.0 public.js"
+  },
+  "login15": {
+    "message": "郵件格式不正確，請輸入正確的郵件位址",
+    "description": "2.0 public.js"
+  },
+  "login16": {
+    "message": "請輸入您的密碼",
+    "description": "2.0 public.js"
+  },
+  "login17": {
+    "message": "密碼長度8-20位，必須包含字母與數位",
+    "description": "2.0 public.js"
+  },
+  "login18": {
+    "message": "傳入資訊不完整",
+    "description": "2.0 public.js"
+  },
+  "login19": {
+    "message": "帳號不存在",
+    "description": "2.0 public.js"
+  },
+  "login20": {
+    "message": "賬號處於待激活狀態",
+    "description": "2.0 public.js"
+  },
+  "login21": {
+    "message": "帳號被停用",
+    "description": "2.0 public.js"
+  },
+  "login22": {
+    "message": "錯誤次數達到了五次",
+    "description": "2.0 public.js"
+  },
+  "login23": {
+    "message": "帳號已經被刪除",
+    "description": "2.0 public.js"
+  },
+  "login24": {
+    "message": "密碼錯誤",
+    "description": "2.0 public.js"
+  },
+  "login25": {
+    "message": "發送郵件過於頻繁",
+    "description": "2.0 public.js"
+  },
+  "login26": {
+    "message": "發送郵件失敗",
+    "description": "2.0 public.js"
+  },
+  "login27": {
+    "message": "資訊失效",
+    "description": "2.0 public.js"
+  },
+  "firstLogin1": {
+    "message": "你好",
+    "description": "2.0 public.js"
+  },
+  "firstLogin2": {
+    "message": "使用者同意書",
+    "description": "2.0 public.js"
+  },
+  "firstLogin3": {
+    "message": "完善你的個人資訊",
+    "description": "2.0 public.js"
+  },
+  "firstLogin4": {
+    "message": "偏好設置",
+    "description": "2.0 public.js"
+  },
+  "firstLogin5": {
+    "message": "完成！",
+    "description": "2.0 public.js"
+  },
+  "firstLogin6": {
+    "message": "請您閱讀以下協議與隱私政策，簽署使用者同意以使用",
+    "description": "2.0 public.js"
+  },
+  "firstLogin7": {
+    "message": "使用協定",
+    "description": "2.0 public.js"
+  },
+  "firstLogin8": {
+    "message": "此使用者協定涉及使用者如何使用本網站。 如果您想查看完整的使用者協定，請參閱完整的用戶協定。",
+    "description": "2.0 public.js"
+  },
+  "firstLogin9": {
+    "message": "我同意",
+    "description": "2.0 public.js"
+  },
+  "firstLogin10": {
+    "message": "用戶協定",
+    "description": "2.0 public.js"
+  },
+  "firstLogin11": {
+    "message": "隱私政策",
+    "description": "2.0 public.js"
+  },
+  "firstLogin12": {
+    "message": "此隱私聲明與在本網站上創建的用戶帳戶有關。 如果您想查看完整的文本，請參閱完整的隱私聲明。",
+    "description": "2.0 public.js"
+  },
+  "firstLogin13": {
+    "message": "Cookies政策",
+    "description": "2.0 public.js"
+  },
+  "firstLogin14": {
+    "message": "我們的Cookie政策解釋了什麼是Cookie，我們如何使用Cookie，我們與之合作的第三方可能如何在本網站上使用Cookie以及您在Cookie方面的選擇。 如果您想查看完整文本，請參閱完整的Cookie政策。",
+    "description": "2.0 public.js"
+  },
+  "firstLogin15": {
+    "message": "你的全名",
+    "description": "2.0 public.js"
+  },
+  "firstLogin16": {
+    "message": "顯示名",
+    "description": "2.0 public.js"
+  },
+  "firstLogin17": {
+    "message": "更改密碼",
+    "description": "2.0 public.js"
+  },
+  "firstLogin18": {
+    "message": "語言",
+    "description": "2.0 public.js"
+  },
+  "firstLogin19": {
+    "message": "歡迎您來到Ulearning，祝您學習的旅途一帆風順",
+    "description": "2.0 public.js"
+  },
+  "firstLogin20": {
+    "message": "完成設置",
+    "description": "2.0 public.js"
+  },
+  "firstLogin21": {
+    "message": "8-20位密碼，包含數位與字母",
+    "description": "2.0 public.js"
+  },
+  "firstLogin22": {
+    "message": "請填寫全名",
+    "description": "2.0 public.js"
+  },
+  "firstLogin23": {
+    "message": "全名不能多於128個字元",
+    "description": "2.0 public.js"
+  },
+  "firstLogin24": {
+    "message": "請填寫顯示名",
+    "description": "2.0 public.js"
+  },
+  "firstLogin25": {
+    "message": "顯示名不能多於64個字元",
+    "description": "2.0 public.js"
+  },
+  "firstLogin26": {
+    "message": "密碼格式不正確，請重新輸入",
+    "description": "2.0 public.js"
+  },
+  "firstLogin27": {
+    "message": "密碼不一致，請重新輸入",
+    "description": "2.0 public.js"
+  },
+  "firstLogin28": {
+    "message": "不能使用原密碼",
+    "description": "2.0 public.js"
+  },
+  "cookieSettings": {
+    "message": "Cookies設置",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle1": {
+    "message": "Cookies偏好設置",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip1": {
+    "message": "我們的網站上使用三種cookie：必需、功能和第三方。 您可以選擇是否應用功能和開啟第三方cookie。 按兩下不同的cookie類別以瞭解每個類別的詳細資訊並更改預設設置。",
+    "description": "2.0 public.js"
+  },
+  "cookiesAll": {
+    "message": "一直開啟",
+    "description": "2.0 public.js"
+  },
+  "cookiesMore": {
+    "message": "更多資訊",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle2": {
+    "message": "必須的Cookies",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip2": {
+    "message": "必需的cookie對於基本網站功能是必要的。 一些示例包括：傳輸網站所需的會話cookie、身份驗證cookie和安全cookie。",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle3": {
+    "message": "功能性Cookie",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip3": {
+    "message": "功能性cookie增強了網站上的功能、性能和服務。 一些示例包括：用於分析網站流量的cookie、用於使用者研究的cookie以及用於顯示未針對特定個人的廣告的cookie。",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle4": {
+    "message": "第三方cookies",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip4": {
+    "message": "除了我們自己的cookie外，我們還可能使用各種第三方cookie來報告網站的使用統計數據並優化行銷工作。",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle5": {
+    "message": "跟蹤 cookie： ",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip5": {
+    "message": "跟蹤網站行為並將其與其他指標聯繫起來，以更好地瞭解使用習慣。",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle6": {
+    "message": "優化 cookie： ",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip6": {
+    "message": "允許從不同的行銷渠道即時跟蹤用戶轉化，以評估它們的效果。",
+    "description": "2.0 public.js"
+  },
+  "cookiesTitle7": {
+    "message": "合作夥伴 cookie： ",
+    "description": "2.0 public.js"
+  },
+  "cookiesTip7": {
+    "message": "向我們的合作夥伴提供營銷轉化指標，以便他們優化他們的付費行銷工作。",
+    "description": "2.0 public.js"
+  },
+  "policies": {
+    "message": "協定",
+    "description": "2.0 public.js"
+  },
+  "usePolicy": {
+    "message": "使用者使用協定",
+    "description": "2.0 public.js"
+  },
+  "privacyPolicy": {
+    "message": "隱私協定",
+    "description": "2.0 public.js"
+  },
+  "cookiesPolicy": {
+    "message": "Cookies政策",
+    "description": "2.0 public.js"
+  },
+  "cookiesSetting1": {
+    "message": "我們使用cookie來記住您的登錄詳細資訊，提供安全的登錄體驗，收集統計資訊以優化網站功能。",
+    "description": "2.0 public.js"
+  },
+  "cookiesSetting2": {
+    "message": "您可以在我們的Cookie政策中查看我們使用的cookie類型的詳細描述。 點擊“同意”以接受所有cookie或“拒絕”以僅允許必要的cookie。 點擊Cookies設置，進行詳細的Cookies配置。",
+    "description": "2.0 public.js"
+  },
+  "refuse": {
+    "message": "拒絕",
+    "description": "2.0 public.js"
+  },
+  "agree": {
+    "message": "同意",
+    "description": "2.0 public.js"
+  },
+  "userPolicy": {
+    "message": "用戶協定",
+    "description": "2.0 public.js"
+  },
+  "switchRole": {
+    "message": "切換角色",
+    "description": "2.0 public.js"
+  },
+  "selectRole": {
+    "message": "選擇角色",
+    "description": "2.0 public.js"
+  },
+  "switchRoleDesc": {
+    "message": "選擇你希望使用的角色",
+    "description": "2.0 public.js"
+  },
+  "switchRoleSubmit": {
+    "message": "確認",
+    "description": "2.0 public.js"
+  },
+  "register01": {
+    "message": "邀請註冊",
+    "description": "2.0 public.js"
+  },
+  "register02": {
+    "message": "已經有帳號了？",
+    "description": "2.0 public.js"
+  },
+  "register03": {
+    "message": "去登錄",
+    "description": "2.0 public.js"
+  },
+  "register04": {
+    "message": "勾選此複選框表示您同意",
+    "description": "2.0 public.js"
+  },
+  "register05": {
+    "message": "和",
+    "description": "2.0 public.js"
+  },
+  "register06": {
+    "message": "邀請已失效",
+    "description": "2.0 public.js"
+  },
+  "register07": {
+    "message": "郵件邀請已過期。 如果您未完成註冊，請聯繫管理員重新發送邀請。",
+    "description": "2.0 public.js"
+  },
+  "register08": {
+    "message": "註冊已完成",
+    "description": "2.0 public.js"
+  },
+  "register09": {
+    "message": "邀請已完成，您可以使用電子郵件和密碼登錄。",
+    "description": "2.0 public.js"
+  },
+  "register10": {
+    "message": "驗證碼失效",
+    "description": "2.0 public.js"
+  },
+  "register11": {
+    "message": "驗證碼已經使用過",
+    "description": "2.0 public.js"
+  },
+  "register12": {
+    "message": "郵箱不存在",
+    "description": "2.0 public.js"
+  },
+  "login28": {
+    "message": "我們已向 {registeremail} 發送了一封註冊邀請電子郵件。",
+    "description": "2.0 public.js"
+  },
+  "login29": {
+    "message": "二級網站信息錯誤",
+    "description": "2.0 public.js"
+  },
+  "login30": {
+    "message": "不存在郵箱對應的帳號",
+    "description": "2.0 public.js"
+  },
+  "login31": {
+    "message": "登錄帳號不是該網站或子機構的帳號",
+    "description": "2.0 public.js"
+  },
+  "register13": {
+    "message": "驗證碼已發送，請檢查您的郵件",
+    "description": "2.0 public.js"
+  },
+  "login32": {
+    "message": "系統檢測到此帳號在 {textbooks} 課程學習中存在作弊等不當行為，系統已自動凍結此帳號，請聯繫任課老師或平臺進行處理",
+    "description": "2.0 public.js"
   }
 }
