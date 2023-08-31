@@ -3603,6 +3603,10 @@
     "message": "{inputYear} - {inputMonth}",
     "description": "UA -> 教师 -> 选择一门课程 -> 侧边栏详细介绍 -> 勾选已出版互动教材 -> 出版时间"
   },
+  "inputYuan": {
+    "message": "{input} ¥",
+    "description": "指的输入定价，此功能未上线，不会在页面上显示。"
+  },
   "zippedFile": {
     "message": ".zip files",
     "description": "UA"
@@ -3657,6 +3661,10 @@
   },
   "codeTip": {
     "message": "Each courseware is assigned a QR code. If the courseware is deleted, scanning QR code won't be able to access the courseware.",
+    "description": "UA"
+  },
+  "hasChoosen": {
+    "message": "{n} item selected",
     "description": "UA"
   },
   "allResource": {
@@ -3819,6 +3827,18 @@
     "message": "Score",
     "description": "UA"
   },
+  "fluencyOf": {
+    "message": "Fluency: {n} points",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
+  },
+  "coherenceOf": {
+    "message": "Logical: {n} points",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
+  },
+  "pronunciationOf": {
+    "message": "Pronunciation: {n} points",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
+  },
   "speed": {
     "message": "Speed",
     "description": "UA"
@@ -3834,6 +3854,14 @@
   "enterSplit": {
     "message": "Answer questions with split screen",
     "description": "UA"
+  },
+  "limitAnswer": {
+    "message": "Limit to {n} attempts",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
+  },
+  "limitAnswer2": {
+    "message": "Limit {n} attempts, remaining {m} chances",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
   },
   "continueTip": {
     "message": "Only when all questions are answered correctly can you continue to watch the video.",
@@ -4171,6 +4199,18 @@
     "message": "The learning record has all recovered successfully",
     "description": "UA"
   },
+  "micPermissionTips": {
+    "message": "You have disabled the microphone permission and cannot use this function, please go to the [Settings] of your mobile phone to authorize.",
+    "description": "UA"
+  },
+  "isbnFormatError": {
+    "message": "Please enter the ISBN-10 or ISBN-13 code",
+    "description": "UA"
+  },
+  "unsupportFileFormat": {
+    "message": "Unsupported resource file types",
+    "description": "UA"
+  },
   "contentIntro": {
     "message": "Course Description",
     "description": "UA"
@@ -4179,8 +4219,136 @@
     "message": "Please enter content",
     "description": "UA"
   },
+  "publishCourseTip3": {
+    "message": "If you have not completed the basic information of the course, team members and other information, if you do not need to display the lesson on the website page, you can skip it.",
+    "description": "UA"
+  },
   "inputFileName": {
     "message": "Enter a keyword to search",
+    "description": "UA"
+  },
+  "inputNumber": {
+    "message": "Please enter an integer or one decimal place",
+    "description": "UA"
+  },
+  "courseCoverLimit": {
+    "message": "Course cover size cannot exceed 10M",
+    "description": "UA"
+  },
+  "videoSet": {
+    "message": "Video settings",
+    "description": "UA"
+  },
+  "videoHead": {
+    "message": "Titles",
+    "description": "UA"
+  },
+  "videoHeadTip": {
+    "message": "Mark the length of the video title so that students can skip the title while learning the courseware",
+    "description": "UA"
+  },
+  "markVideoHead": {
+    "message": "Mark the title",
+    "description": "UA"
+  },
+  "batchSetVideoHead": {
+    "message": "Batch Setting",
+    "description": "UA"
+  },
+  "onlyCurrentVideo": {
+    "message": "Current video only",
+    "description": "UA"
+  },
+  "setVideo1": {
+    "message": "Set the titles of all videos in this chapter simultaneously",
+    "description": "UA"
+  },
+  "setVideo2": {
+    "message": "Set the titles of all videos in this courseware synchronously",
+    "description": "UA"
+  },
+  "videoHeadLengthTip": {
+    "message": "The opening credits cannot exceed 180 seconds",
+    "description": "UA"
+  },
+  "courseDesign": {
+    "message": "Instructional design",
+    "description": "UA"
+  },
+  "courseDesignDesc": {
+    "message": "Upload lecture videos, class transcripts and other materials",
+    "description": "UA"
+  },
+  "inputContent": {
+    "message": "Please enter content",
+    "description": "UA"
+  },
+  "addFile": {
+    "message": "Add file",
+    "description": "UA"
+  },
+  "addDesignType": {
+    "message": "Add a category",
+    "description": "UA"
+  },
+  "addDesignTypeTip": {
+    "message": "Add up to 10 categories",
+    "description": "UA"
+  },
+  "designType1": {
+    "message": "Lectures",
+    "description": "UA"
+  },
+  "designType2": {
+    "message": "Instructional design cases",
+    "description": "UA"
+  },
+  "designType3": {
+    "message": "Pedagogical review",
+    "description": "UA"
+  },
+  "designType4": {
+    "message": "Courseware",
+    "description": "UA"
+  },
+  "designType5": {
+    "message": "Micro-course",
+    "description": "UA"
+  },
+  "designType6": {
+    "message": "Classroom Monitoring",
+    "description": "UA"
+  },
+  "inputTypeName": {
+    "message": "please input name",
+    "description": "UA"
+  },
+  "inputTypeNameTip": {
+    "message": "Name cannot exceed 10 characters",
+    "description": "UA"
+  },
+  "inputTypeNameTip1": {
+    "message": "There is already a category with the same name under the current courseware",
+    "description": "UA"
+  },
+  "deleteTypeNameTip": {
+    "message": "Are you sure you want to delete a category?",
+    "description": "UA"
+  },
+  "addDesignResourceTip1": {
+    "message": "Add up to 5 files per category",
+    "description": "UA"
+  },
+  "deleteDesignResourceTip": {
+    "message": "Are you sure you want to delete the file?",
+    "description": "UA"
+  },
+  "deleteDesignResourceTip1": {
+    "message": "You cannot select the same file",
+    "description": "UA"
+  },
+  "inputTypeNameTip2": {
+    "message": "The category name cannot be empty",
     "description": "UA"
   },
   "otherSetting": {
@@ -4189,6 +4357,58 @@
   },
   "hideDownload": {
     "message": "Hide the document download link",
+    "description": "UA"
+  },
+  "imageSection": {
+    "message": "Picture section",
+    "description": "UA"
+  },
+  "linkSection": {
+    "message": "Link column",
+    "description": "UA"
+  },
+  "addImageTip1": {
+    "message": "In order to ensure the viewing effect, please control the number of images to add 4 or more (more than four will be scrolled), and the image ratio is recommended to be 16:9",
+    "description": "UA"
+  },
+  "addImageTip2": {
+    "message": "Image formats: PNG, JPG, GIF, JPEG, BMP",
+    "description": "UA"
+  },
+  "addImageTip3": {
+    "message": "The size of a single image cannot be larger than 2M",
+    "description": "UA"
+  },
+  "addImageTip4": {
+    "message": "When you add 4 image links, the page displays best; The optimal size of a single image is 200px*50px, up to 10 can be added",
+    "description": "UA"
+  },
+  "addSectionTip": {
+    "message": "Please enter a column name",
+    "description": "UA"
+  },
+  "sectionName2": {
+    "message": "Column name",
+    "description": "UA"
+  },
+  "addMenuTip": {
+    "message": "Please enter a menu name, up to 100 characters",
+    "description": "UA"
+  },
+  "participation": {
+    "message": " participants",
+    "description": "UA"
+  },
+  "websiteVisits": {
+    "message": "Number of website visits",
+    "description": "UA"
+  },
+  "providedBy": {
+    "message": "Support",
+    "description": "UA"
+  },
+  "ie8Tip": {
+    "message": "It is recommended to use IE8 or above browser, 1024*798 resolution or above to access this site",
     "description": "UA"
   },
   "username": {
@@ -4285,6 +4505,10 @@
   },
   "slotH5pIntoContent": {
     "message": "Insert H5P courseware into your content",
+    "description": "UA"
+  },
+  "selectH5p": {
+    "message": "Select H5P Courseware",
     "description": "UA"
   },
   "enterH5pKeywordSearch": {

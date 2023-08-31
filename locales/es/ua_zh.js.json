@@ -275,6 +275,10 @@
     "message": "En",
     "description": "UA"
   },
+  "autoSaveAt": {
+    "message": "Guardado automáticamente en {time}",
+    "description": "UA -> 教师 -> 编辑课件 -> 右上角"
+  },
   "automaticSorting": {
     "message": "Clasificación automática",
     "description": "UA"
@@ -811,6 +815,10 @@
     "message": "Materiales interactivos",
     "description": "UA"
   },
+  "totalCourses": {
+    "message": "Total {n}",
+    "description": "UA -> 教师 -> 首页 -> 相关代码已隐藏，因此无法在页面上看到"
+  },
   "coursewareQBank": {
     "message": "Banco de preguntas del curso",
     "description": "UA"
@@ -902,6 +910,10 @@
   "dataError": {
     "message": "Error de datos",
     "description": "UA"
+  },
+  "totalData": {
+    "message": "Total {n}",
+    "description": "UA -> 教师 -> 首页"
   },
   "delete": {
     "message": "Eliminar",
@@ -1527,6 +1539,22 @@
     "message": "La estructura del flash no es correcta",
     "description": "UA"
   },
+  "evaluationHasChinese": {
+    "message": "Hay chinos en el párrafo {n} de la revisión",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "evaluationEmpty": {
+    "message": "En el párrafo {n}, introduzca el contenido de la prueba",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "referenceAnswerEmpty": {
+    "message": "Introduzca la respuesta de referencia en el párrafo {n}",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "referenceTextHasChinese": {
+    "message": "El párrafo {n} se puntúa con chino en el texto",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
   "followReadingFormat": {
     "message": "formato mp3, no puede exceder los 3M",
     "description": "UA"
@@ -1558,6 +1586,10 @@
   "fullSubtitle": {
     "message": "Subtítulos completos",
     "description": "UA"
+  },
+  "items": {
+    "message": "{n}",
+    "description": "UA -> 首页 -> 指课程发布到几个站点 -> 相关代码已隐藏，因此无法在页面上看到"
   },
   "generateFLASH": {
     "message": "Generando FLASH",
@@ -1939,6 +1971,10 @@
     "message": "Tipo de menú",
     "description": "UA"
   },
+  "inputMinutes": {
+    "message": "{entrada} minutos",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
+  },
   "modifyFail": {
     "message": "La modificación falló",
     "description": "UA"
@@ -2255,6 +2291,10 @@
     "message": "Ejercicios de página",
     "description": "UA"
   },
+  "stopTimingTip": {
+    "message": "Para garantizar la precisión del registro de aprendizaje, el sistema ha dejado de aprender en esta página en {time}, y el registro de aprendizaje de esta página no se guardará.",
+    "description": "UA -> 学生账户 -> 学习课件"
+  },
   "pageHasBeenEditedConfirmDelete": {
     "message": "La página actual ha sido editada. ¿Estás seguro de que deseas eliminarla?",
     "description": "UA"
@@ -2439,6 +2479,14 @@
     "message": "Número de ejercicios",
     "description": "UA"
   },
+  "questionError": {
+    "message": "Los datos de la pregunta {n} en esta página son incorrectos, el ID de la pregunta: {id}",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
+  },
+  "questionError2": {
+    "message": "ID de pregunta: {id} Los datos son incorrectos",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
+  },
   "questionsNotCompleted": {
     "message": "Esta página aún tiene temas que no se han completado",
     "description": "UA"
@@ -2486,6 +2534,10 @@
   "recommendedLearningHours1": {
     "message": "Tiempo de aprendizaje sugerido",
     "description": "UA"
+  },
+  "recordTimeOf": {
+    "message": "Duración de la grabación: {input} segundos",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 弹框右上角"
   },
   "recordingTime": {
     "message": "Tiempo de grabación",
@@ -2679,6 +2731,10 @@
     "message": "Segundos",
     "description": "UA"
   },
+  "inputSeconds": {
+    "message": "{input} segundos",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
+  },
   "secondLevelMenu": {
     "message": "Menú nivel 1",
     "description": "UA"
@@ -2855,6 +2911,10 @@
     "message": "Seleccionado",
     "description": "UA"
   },
+  "selectedQue": {
+    "message": "{n} pregunta seleccionada",
+    "description": "UA -> 教师 -> 编辑课件 -> 导入练习"
+  },
   "selectedTeacher": {
     "message": "Profesor seleccionado",
     "description": "UA"
@@ -2978,6 +3038,10 @@
   "slotVideoIntoContent": {
     "message": "Insertar video en el contenido",
     "description": "UA"
+  },
+  "smallQue": {
+    "message": "Subtítulo {n}",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题 (需要题型为选词填空)"
   },
   "sortQuestions": {
     "message": "Preguntas de secuencia",
@@ -3198,6 +3262,10 @@
   "timeLimitedExercises": {
     "message": "Ejercicios con límite de tiempo",
     "description": "UA"
+  },
+  "inputTimes": {
+    "message": "{input} veces",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 添加后下方工具栏设置按钮"
   },
   "timingLearningSuspended": {
     "message": "El aprendizaje cronometrado ha sido suspendido",
@@ -3531,6 +3599,14 @@
     "message": "Algo salió mal.",
     "description": "UA"
   },
+  "inputMonth": {
+    "message": "{inputYear} - {inputMonth}",
+    "description": "UA -> 教师 -> 选择一门课程 -> 侧边栏详细介绍 -> 勾选已出版互动教材 -> 出版时间"
+  },
+  "inputYuan": {
+    "message": "{input} ¥",
+    "description": "指的输入定价，此功能未上线，不会在页面上显示。"
+  },
   "zippedFile": {
     "message": "Archivo comprimido",
     "description": "UA"
@@ -3585,6 +3661,10 @@
   },
   "codeTip": {
     "message": "Cada página del curso corresponde a un código QR. Si se elimina la página del curso, ¡No se podrá accedercon el código QR!",
+    "description": "UA"
+  },
+  "hasChoosen": {
+    "message": "Se ha seleccionado el elemento {n}",
     "description": "UA"
   },
   "allResource": {
@@ -3774,6 +3854,14 @@
   "enterSplit": {
     "message": "Responder en pantalla dividida",
     "description": "UA"
+  },
+  "limitAnswer": {
+    "message": "Límite a {n} respuestas",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
+  },
+  "limitAnswer2": {
+    "message": "Limite {n} veces, las posibilidades restantes de {m}",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
   },
   "continueTip": {
     "message": "Si todas las preguntas son contestadas correctamente, puede continuar viendo el video",
@@ -4111,6 +4199,18 @@
     "message": "El registro de aprendizaje se ha recuperado con éxito",
     "description": "UA"
   },
+  "micPermissionTips": {
+    "message": "Ha desactivado el permiso del micrófono y no puede utilizar esta función, vaya a [Ajustes] de su teléfono móvil para autorizar.",
+    "description": "UA"
+  },
+  "isbnFormatError": {
+    "message": "Introduce el código ISBN-10 o ISBN-13",
+    "description": "UA"
+  },
+  "unsupportFileFormat": {
+    "message": "Tipos de archivos de recursos no admitidos",
+    "description": "UA"
+  },
   "contentIntro": {
     "message": "Introduccion",
     "description": "UA"
@@ -4119,8 +4219,136 @@
     "message": "Por favor, ingrese contenido",
     "description": "UA"
   },
+  "publishCourseTip3": {
+    "message": "No ha completado la información básica del curso, la introducción detallada, los miembros del equipo y otra información, si no necesita mostrar el curso en la página del sitio, puede omitir el llenado.",
+    "description": "UA"
+  },
   "inputFileName": {
     "message": "Ingrese la búsqueda de palabras clave",
+    "description": "UA"
+  },
+  "inputNumber": {
+    "message": "Introduzca un número entero o un decimal",
+    "description": "UA"
+  },
+  "courseCoverLimit": {
+    "message": "El tamaño de la cubierta del curso no puede exceder los 10 m",
+    "description": "UA"
+  },
+  "videoSet": {
+    "message": "Configuración de vídeo",
+    "description": "UA"
+  },
+  "videoHead": {
+    "message": "Títulos",
+    "description": "UA"
+  },
+  "videoHeadTip": {
+    "message": "Marque la longitud del título del video para que los estudiantes puedan omitir el título mientras aprenden el material didáctico",
+    "description": "UA"
+  },
+  "markVideoHead": {
+    "message": "Marca el título",
+    "description": "UA"
+  },
+  "batchSetVideoHead": {
+    "message": "Ajuste de lotes",
+    "description": "UA"
+  },
+  "onlyCurrentVideo": {
+    "message": "Solo video actual",
+    "description": "UA"
+  },
+  "setVideo1": {
+    "message": "Establecer los títulos de todos los vídeos de este capítulo simultáneamente",
+    "description": "UA"
+  },
+  "setVideo2": {
+    "message": "Establecer los títulos de todos los vídeos de este curso de forma sincrónica",
+    "description": "UA"
+  },
+  "videoHeadLengthTip": {
+    "message": "Los créditos de apertura no pueden exceder los 180 segundos",
+    "description": "UA"
+  },
+  "courseDesign": {
+    "message": "Diseño instruccional",
+    "description": "UA"
+  },
+  "courseDesignDesc": {
+    "message": "Sube videos de conferencias, transcripciones de clases y otros materiales",
+    "description": "UA"
+  },
+  "inputContent": {
+    "message": "Por favor, ingrese contenido",
+    "description": "UA"
+  },
+  "addFile": {
+    "message": "Agregar archivo",
+    "description": "UA"
+  },
+  "addDesignType": {
+    "message": "Añadir una categoría",
+    "description": "UA"
+  },
+  "addDesignTypeTip": {
+    "message": "Añadir hasta 10 categorías",
+    "description": "UA"
+  },
+  "designType1": {
+    "message": "Conferencias",
+    "description": "UA"
+  },
+  "designType2": {
+    "message": "Casos de diseño instruccional",
+    "description": "UA"
+  },
+  "designType3": {
+    "message": "Reflexión pedagógica",
+    "description": "UA"
+  },
+  "designType4": {
+    "message": "Cursos magistrales",
+    "description": "UA"
+  },
+  "designType5": {
+    "message": "microclass",
+    "description": "UA"
+  },
+  "designType6": {
+    "message": "Transcripciones de conferencias",
+    "description": "UA"
+  },
+  "inputTypeName": {
+    "message": "Introduce un nombre",
+    "description": "UA"
+  },
+  "inputTypeNameTip": {
+    "message": "El nombre no puede superar los 10 caracteres",
+    "description": "UA"
+  },
+  "inputTypeNameTip1": {
+    "message": "Ya hay una categoría con el mismo nombre en el material didáctico actual",
+    "description": "UA"
+  },
+  "deleteTypeNameTip": {
+    "message": "¿Está seguro de que desea eliminar una categoría?",
+    "description": "UA"
+  },
+  "addDesignResourceTip1": {
+    "message": "Agregar hasta 5 archivos por categoría",
+    "description": "UA"
+  },
+  "deleteDesignResourceTip": {
+    "message": "¿Está seguro de que desea eliminar el archivo?",
+    "description": "UA"
+  },
+  "deleteDesignResourceTip1": {
+    "message": "No puede seleccionar el mismo archivo",
+    "description": "UA"
+  },
+  "inputTypeNameTip2": {
+    "message": "El nombre de la categoría no puede estar vacío",
     "description": "UA"
   },
   "otherSetting": {
@@ -4129,6 +4357,66 @@
   },
   "hideDownload": {
     "message": "Ocultar el vínculo de descarga del documento",
+    "description": "UA"
+  },
+  "imageSection": {
+    "message": "Sección de imágenes",
+    "description": "UA"
+  },
+  "linkSection": {
+    "message": "Columna de enlace",
+    "description": "UA"
+  },
+  "addImageTip1": {
+    "message": "Para garantizar el efecto de visualización, controle el número de imágenes para agregar 4 o más (se desplazarán más de cuatro), y se recomienda que la relación de imagen sea de 16: 9",
+    "description": "UA"
+  },
+  "addImageTip2": {
+    "message": "Formatos de imagen: PNG, JPG, GIF, JPEG, BMP",
+    "description": "UA"
+  },
+  "addImageTip3": {
+    "message": "El tamaño de una sola imagen no puede ser mayor de 2M",
+    "description": "UA"
+  },
+  "addImageTip4": {
+    "message": "Cuando agrega 4 enlaces de imagen, la página se muestra mejor; El tamaño óptimo de una sola imagen es 200px * 50px, se pueden agregar hasta 10",
+    "description": "UA"
+  },
+  "addSectionTip": {
+    "message": "Introduzca un nombre de columna",
+    "description": "UA"
+  },
+  "sectionName2": {
+    "message": "Nombre del campo",
+    "description": "UA"
+  },
+  "addMenuTip": {
+    "message": "Introduzca un nombre de menú, hasta 100 caracteres",
+    "description": "UA"
+  },
+  "participation": {
+    "message": "Participación humana",
+    "description": "UA"
+  },
+  "websiteVisits": {
+    "message": "Número de visitas al sitio web",
+    "description": "UA"
+  },
+  "providedBy": {
+    "message": "Soporte técnico",
+    "description": "UA"
+  },
+  "ie8Tip": {
+    "message": "Se recomienda utilizar IE8 o superior navegador, resolución 1024 * 798 o superior para acceder a este sitio",
+    "description": "UA"
+  },
+  "username": {
+    "message": "Nombre de usuario",
+    "description": "UA"
+  },
+  "login": {
+    "message": "Iniciar sesión",
     "description": "UA"
   },
   "urlAddress": {
