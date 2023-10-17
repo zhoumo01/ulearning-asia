@@ -95,9 +95,9 @@
     "message": "No. of students",
     "description": "投屏"
   },
-  "system.people": {
-    "message": "  students",
-    "description": "投屏"
+  "system.peopleOf": {
+    "message": "{n} people",
+    "description": "发起活动 -> 抢答 -> 人数 \n 发起活动 -> 选人 \n 发起活动 -> 投票"
   },
   "system.option": {
     "message": "Option",
@@ -131,9 +131,9 @@
     "message": " Adding scoring points ",
     "description": "投屏"
   },
-  "system.tip5": {
-    "message": " Full marks 100, remaining score ",
-    "description": "投屏"
+  "system.tips5": {
+    "message": "100 out of 100, remaining score {score}",
+    "description": "发起活动 -> 打分 -> 分项打分"
   },
   "system.startNow": {
     "message": "Start now",
@@ -327,9 +327,9 @@
     "message": "All",
     "description": "投屏"
   },
-  "vote.ticket": {
-    "message": " votes",
-    "description": "投屏"
+  "vote.tickets": {
+    "message": "{n} votes",
+    "description": "发起活动 -> 投票"
   },
   "vote.notVote": {
     "message": " Not voted ",
@@ -339,13 +339,13 @@
     "message": " Access source ",
     "description": "投屏"
   },
-  "grade.score": {
-    "message": "Score",
-    "description": "投屏"
+  "grade.points": {
+    "message": "{n} points",
+    "description": "发起活动 -> 选人 -> 打分 \n 发起活动 -> 打分 -> 指定添加(或随机添加) -> 右上角 \n 发起活动 -> 打分 -> 指定添加(或随机添加) -> 未评价(或已评价) \n 发起活动 -> 打分 -> 指定添加(或随机添加) -> 请输入正确的分数 \n 发起活动 -> 打分 -> 指定添加(或随机添加) -> 右上角"
   },
-  "grade.randomChoose": {
-    "message": " Randomly selected {num} students ",
-    "description": "投屏"
+  "grade.randomChooseInput": {
+    "message": "Randomly select {num} students ",
+    "description": "发起活动 -> 打分 -> 随机添加"
   },
   "grade.chooseStu": {
     "message": "Select  student",
@@ -367,9 +367,9 @@
     "message": "Member:",
     "description": "投屏"
   },
-  "grade.class": {
-    "message": "Class：",
-    "description": "投屏"
+  "grade.classes": {
+    "message": "Class: {className}",
+    "description": "发起活动 -> 打分"
   },
   "grade.noClass": {
     "message": " No team ",
