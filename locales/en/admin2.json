@@ -3778,5 +3778,677 @@
   "layout.userId": {
     "message": "UserId:{userId}",
     "description": "新版管理后台 zh.json"
+  },
+  "routers.dashboard": {
+    "message": "Dashboard",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso": {
+    "message": "Single sign-on",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.ssoSetting": {
+    "message": "Single sign-on setup",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.openSSO": {
+    "message": "Enable SSO Login",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.openSSOTip": {
+    "message": "After SSO login is enabled, the system supports SP-initated login or IdP login. When disabled, users are no longer allowed to log in through SSO.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.addSSO": {
+    "message": "Add SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.SSOName": {
+    "message": "SSO name",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.SSOList": {
+    "message": "SSO list",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.connectType": {
+    "message": "Connection type",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.status": {
+    "message": "Status",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.isDefault": {
+    "message": "Default",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSO": {
+    "message": "Create SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.baseSetting": {
+    "message": "General settings",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.attrMapping": {
+    "message": "Attribute mapping",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.roleMapping": {
+    "message": "Role mapping",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.options": {
+    "message": "Options",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSAMLConnect": {
+    "message": "Create a SAML connection",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso18": {
+    "message": "Name",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso19": {
+    "message": "Redirect URL",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso20": {
+    "message": "IdP settings",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso21": {
+    "message": "Get a metadata file from your IDP and upload it here, or enter the values manually.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso22": {
+    "message": "Upload the IdP XML",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso23": {
+    "message": "Issuer string or entity ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso24": {
+    "message": "IDP redirect endpoint",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso25": {
+    "message": "SAML subject identity attribute name",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso26": {
+    "message": "X.509 public certificates",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso27": {
+    "message": "Sign AuthnRequest",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso28": {
+    "message": "No(default)",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso29": {
+    "message": "Yes",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso30": {
+    "message": "SAML request binding",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso31": {
+    "message": "HTTP-Redirect",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso32": {
+    "message": "HTTP-Post(default)",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso33": {
+    "message": "Include assertion consumer service URLs",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso34": {
+    "message": "Authentication request signing algorithm",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso35": {
+    "message": "SHA1",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso36": {
+    "message": "SHA256(default)",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso37": {
+    "message": "AuthnContextClassRef",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.spSetting": {
+    "message": "SP settings",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.downloadSPXML": {
+    "message": "Download the SP Metadata XML",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.XMLDownloadTips": {
+    "message": "Please download it after completing the IDP setup",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.emailIdpAttr": {
+    "message": "Email IdP attribute",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputEmailIdp": {
+    "message": "Enter the IdP attribute corresponding to the email",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.nameIdpAttr": {
+    "message": "Full name IdP attribute",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputnameIdp": {
+    "message": "Enter the IdP attribute that corresponds to the user's full name",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputnameIdpTip": {
+    "message": "If not set, the user's email address will be used as the full name",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.usernameIdpAttr": {
+    "message": "The user name IdP attribute",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputusernameIdp": {
+    "message": "Enter the IdP attribute that corresponds to the user name",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputusernameIdpTip": {
+    "message": "If not set, the user's email address will be used as the full name",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.customMapping": {
+    "message": "Turn on custom attribute mapping",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdpMappingLMS": {
+    "message": "Map IdP attributes to user attributes of the LMS",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.add": {
+    "message": "Add",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.LMSAttr": {
+    "message": "LMS attribute",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdpAttr": {
+    "message": "IdP attribute",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.action": {
+    "message": "Action",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultOrg": {
+    "message": "Default authority",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdPOrgAttr": {
+    "message": "IdP institution attributes",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.setIdPOrgAttr": {
+    "message": "Set the organization properties on the IdP side",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso48": {
+    "message": "Institution mapping rules",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdpAttrVal": {
+    "message": "IdP attribute",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso50": {
+    "message": "LMS Agency",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption1": {
+    "message": "Enable auto-provisioning",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption2": {
+    "message": "If there is no matching nameid, a new account is automatically created",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption3": {
+    "message": "Update user properties at logon",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption4": {
+    "message": "If the IdP attribute changes when the user logs in, the user attributes are automatically updated",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption5": {
+    "message": "Set as the default SSO connection",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption6": {
+    "message": "This SSO is set as the system default SSO through which users log in",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso57": {
+    "message": "Role mapping rules",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.active": {
+    "message": "Activate",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.stop": {
+    "message": "Disable",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.edit": {
+    "message": "Edit",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso61": {
+    "message": "Test",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.del": {
+    "message": "Delete",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.delSSO": {
+    "message": "Delete the SSO connection",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.delSSOTip": {
+    "message": "You are about to delete the following SSO connections, which will disable users from logging in to the system using sp-initate and idp-initate. Confirm that the deletion continues.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso65": {
+    "message": "Name",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso66": {
+    "message": "Type",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso67": {
+    "message": "IdP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSO": {
+    "message": "Activate the SSO connection",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSOTip": {
+    "message": "You are about to activate the following SSO connection, which will allow users to log in to the system using sp-initate and idp-initate. If not, disable this setting.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.stopSSO": {
+    "message": "Deactivate the SSO connection",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.stopSSOTip": {
+    "message": "You are about to deactivate the following SSO connection, which will disable users from logging into the system using sp-initate and idp-initate.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.nextStep": {
+    "message": "Next",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.save": {
+    "message": "Save",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.cancel": {
+    "message": "Cancel",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.close": {
+    "message": "Close",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOSuccess": {
+    "message": "The SSO connection is saved",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.copySuccess": {
+    "message": "Duplicated successfully!",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.NameErrTip1": {
+    "message": "please input name",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.NameErrTip2": {
+    "message": "Cannot exceed 64 characters",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.NameErrTip3": {
+    "message": "Name already used, please re-enter",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.uploadIdpErr": {
+    "message": "The current limit is {num} files",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr1": {
+    "message": "Please enter the issuer string or entity ID",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr2": {
+    "message": "Please enter the IDP redirect destination",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr3": {
+    "message": "Enter the SAML Subject Identity Attribute Name",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr4": {
+    "message": "Please enter the X.509 public certificate",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO": {
+    "message": "Test SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO1": {
+    "message": "Follow these steps to test the SSO connection",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO2": {
+    "message": "Connection test",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO3": {
+    "message": "Test the connection",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO4": {
+    "message": "Login test",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO5": {
+    "message": "Follow these steps to test SSO login",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO6": {
+    "message": "Login address",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO7": {
+    "message": "Exit the test",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO8": {
+    "message": "Follow these steps to test SSO exit",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO9": {
+    "message": "Logout address",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSuccess": {
+    "message": "The connection is normal",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.copy": {
+    "message": "Copy",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Accounts": {
+    "message": "Account",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Courses": {
+    "message": "Course",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CourseEnrollments": {
+    "message": "Course enrollment",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Activities": {
+    "message": "Learning activities",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserLogin": {
+    "message": "User login trends",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Detail": {
+    "message": "Details",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Description": {
+    "message": "Description of the indicator",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.DataScope": {
+    "message": "Data range",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Update": {
+    "message": "Data updates",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.timeFilterWeek": {
+    "message": "Last 7 days",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.timeFilterMonth": {
+    "message": "Last 30 Days",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.AccountsDescription": {
+    "message": "The total number of accounts of the organization and its subsidiaries, and the change in this number yesterday",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.AccountsDataScope": {
+    "message": "Scope of the organization: the institution and its sub-institutions<br/>Account scope: All accounts, including active accounts and suspended accounts<br/>Time range: All time",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.AccountsUpdate": {
+    "message": "Updated daily<br/>Last updated: {time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesDescription": {
+    "message": "The number of all courses in the institution and its sub-institutions, as well as the change in the number yesterday",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesDataScope": {
+    "message": "Scope of the organization: This organization and its sub-institutions<br/>Course Scope: All courses, including active, closed, and archived courses<br/>Time Range: All time",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesUpdate": {
+    "message": "Updated daily<br/>Last updated: {time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesEnrollmentsDescription": {
+    "message": "The number of students enrolled in all courses of the institution and its sub-institutions, and the change in this number yesterday",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesEnrollmentsDataScope": {
+    "message": "Scope of the organization: the institution and its sub-institutions<br/>Course Scope: All courses, including active, ended, and archived courses<br/>Time Range: All time",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesEnrollmentsUpdate": {
+    "message": "Updated daily<br/>Last updated: {time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.ActivitiesDescription": {
+    "message": "The number of learning activities for all courses belonging to the institution and its sub-institutions and the change in that number yesterday, including assignments, quizzes, discussions, classes, live streams and exams.",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.ActivitiesDataScope": {
+    "message": "Scope of the organization: the institution and its sub-institutions<br/>Course Scope: All courses, including active, ended, and archived courses<br/>Time Range: All time",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.ActivitiesUpdate": {
+    "message": "Updated daily<br/>Last updated: {time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserloginDescription": {
+    "message": "Displays the number of users logged in to the system per day",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserloginDataScope": {
+    "message": "Scope of the organization: This organization and its sub-institutions<br/>Account scope: All accounts belonging to the organization and sub-institutions<br/>Time range: 00:00 - 24:00 in the time zone of the institution",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserloginUpdate": {
+    "message": "Updated daily<br/>Last updated: {time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.uploadLogoTip2": {
+    "message": "Please upload an image of {ratio} ratio",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.editSSO": {
+    "message": "Edit the SSO connection",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.disabledSSO": {
+    "message": "Disable SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.disabledSSOTip": {
+    "message": "Disabling this setting will prevent users from logging in using SSO connections, including SP-initiated and IDP-initiated. Click Confirm to continue",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.xmlParseError": {
+    "message": "XML parsing failed",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.address": {
+    "message": "Address",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.phtone": {
+    "message": "telephone number",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sex": {
+    "message": "Gender",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultRole": {
+    "message": "Default user role",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.selectDefaultRole": {
+    "message": "Select the default user role",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultRoleMapping": {
+    "message": "IdP role attribute",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.settingDefaultRoleMapping": {
+    "message": "Enter the role attribute on the IdP side",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultErrtip1": {
+    "message": "Please select the default institution",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultErrtip2": {
+    "message": "Enter the IdP organization attribute",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultErrtip3": {
+    "message": "Select the default user role",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultErrtip4": {
+    "message": "Enter the IdP role attribute",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputIdPValue": {
+    "message": "Please enter the IdP attribute",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.delSSOSuccess": {
+    "message": "The SSO deletion is successful",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSsoSuccess": {
+    "message": "SSO login is enabled",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.disableSsoSuccess": {
+    "message": "SSO login is closed",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSOTitle": {
+    "message": "Enable SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSODesc": {
+    "message": "Enabling this setting allows users to log in using SSO connections, including SP-initiated and IDP-initiat logins. Click the Confirm button to continue",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSOBtn": {
+    "message": "Enable",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.cloudStorage": {
+    "message": "Cloud storage",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.detail": {
+    "message": "Details ",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.action": {
+    "message": "Action",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.yes": {
+    "message": "Yes",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.no": {
+    "message": "Not",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.loginUser": {
+    "message": "Act as User",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage1": {
+    "message": "Enter name to search",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage2": {
+    "message": "Institute",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage3": {
+    "message": "Used (GB)",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage4": {
+    "message": "Quota (GB)",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage5": {
+    "message": "Proportion",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage6": {
+    "message": "View institutional resources",
+    "description": "新版管理后台 zh.json"
   }
 }

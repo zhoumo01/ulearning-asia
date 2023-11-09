@@ -2064,7 +2064,7 @@
     "description": "smart-classroom-admin 项目"
   },
   "videoPlayer.layDownTable": {
-    "message": "趴桌",
+    "message": "趴桌率",
     "description": "smart-classroom-admin 项目"
   },
   "videoPlayer.week": {
@@ -2096,7 +2096,7 @@
     "description": "smart-classroom-admin 项目"
   },
   "videoPlayer.teacherPublished": {
-    "message": "教师发布了",
+    "message": "教师发布了{type}",
     "description": "smart-classroom-admin 项目"
   },
   "videoPlayer.participation": {
@@ -2496,7 +2496,7 @@
     "description": "smart-classroom-admin 项目"
   },
   "courseManage.byCourse": {
-    "message": "按教室",
+    "message": "按课程",
     "description": "smart-classroom-admin 项目"
   },
   "courseManage.allColleges": {
@@ -2536,7 +2536,7 @@
     "description": "smart-classroom-admin 项目"
   },
   "attendance.msg2": {
-    "message": "2、AI算法也可以通过比对照片识别学生。如果使用该功能，需要管理员在课程管理里提前导入学生的照片，使用该功能表示学校已经了解该功能存在可能会存在的隐私问题。",
+    "message": "2、AI算法也可以通过比对照片识别学生。如果使用该功能，需要管理员在课程管理里提前导入学生的照片，使用该功能表示学校已经了解该功能可能会存在的隐私问题。",
     "description": "smart-classroom-admin 项目"
   },
   "attendance.dalyAttendance": {
@@ -2812,7 +2812,7 @@
     "description": "smart-classroom-admin 项目"
   },
   "permisSubtitle.downloadTaskTip1": {
-    "message": "课堂录播后生成教师、学生和课件等多个视频，拼接视频功能可以将本堂课堂的多个视频拼在一个画面里生成一个视频。您可以在视频回放的下载界面选择拼接视频。每拼接1个视频需要30~60分钟不等的时间，您可以在当前页面查看拼接的进度。",
+    "message": "视频的拼接、音频处理等需要较长时间，您可以在此处查看处理进度。",
     "description": "smart-classroom-admin 项目"
   },
   "permisSubtitle.reJoin": {
@@ -3012,7 +3012,7 @@
     "description": "smart-classroom-admin 项目"
   },
   "permisSubtitle.jointVideoTip1": {
-    "message": "关闭当前窗口不影响视频拼接。您可以点击系统右上角“拼接视频”按钮查看视频的拼接进度。",
+    "message": "关闭当前窗口不影响视频拼接，请稍后进行下载。",
     "description": "smart-classroom-admin 项目"
   },
   "permisSubtitle.jointVideoTip2": {
@@ -4041,6 +4041,326 @@
   },
   "translation.enterkeyInputOneRow": {
     "message": "请使用回车键输入，一行一个",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.reservationRecordingSchedule": {
+    "message": "预约录制计划",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.classroomVideo": {
+    "message": "课堂视频",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.allCourse": {
+    "message": "全部课程",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.topic": {
+    "message": "专题",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.topicDetail": {
+    "message": "专题详情",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.reservationRecording": {
+    "message": "预约录制",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.recordingSchedule": {
+    "message": "预约录制计划",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.pleaseEnterTeacher": {
+    "message": "请输入教师名称",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.reservationSuccessful": {
+    "message": "预约录制成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.scheduledRecordingModification": {
+    "message": "预约录制修改成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.programDirector": {
+    "message": "导播",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.audienceFeature": {
+    "message": "听众特写",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.audiencePanorama": {
+    "message": "听众全景",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.keynoteFeature": {
+    "message": "主讲特写",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.lecturePanorama": {
+    "message": "主讲全景",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.multichannelVideoMerging": {
+    "message": "多画面视频(将多路视频合成1个视频)",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.interaction": {
+    "message": "互动",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.attentionCue": {
+    "message": "系统对课堂视频进行检测可以识别出学生的姿态和行为，包括学生听课，趴桌睡觉等。学生的抬头率、趴桌率曲线的变化趋势一定程度上可以反应学生的学习状态的变化，给教学管理者一定的参考帮助。抬头率：学生听课行为占所有行为的占比。趴桌率：学生趴桌行为占所有行为的占比。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teacherWalk": {
+    "message": "教师走动",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teacherGuidance": {
+    "message": "教师指导",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teacherTaught": {
+    "message": "教师讲授",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teacherBoard": {
+    "message": "教师板书",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.playPhone": {
+    "message": "玩手机",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.studentsListenLectures": {
+    "message": "学生听课",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.studentLiteracy": {
+    "message": "学生读写",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.groupDiscussion": {
+    "message": "小组讨论",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.raiseHand": {
+    "message": "举手",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.sleep": {
+    "message": "睡觉",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.expectedNumber": {
+    "message": "应到人数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.attendance": {
+    "message": "实到人数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teachingMode": {
+    "message": "教学模式",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.didactical": {
+    "message": "讲授型",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.concentrationCurve": {
+    "message": "专注度曲线",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teacherBehaviorDistribution": {
+    "message": "教学行为分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teacherBehaviorCue": {
+    "message": "系统对课堂视频进行检测可以识别出教师的教学行为，包括学教师讲授、板书等。系统可以统计教学行为的时长，在整个教学过程中的分布情况。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teacherLate": {
+    "message": "教师疑似迟到5分钟",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teachersLeaveEarly": {
+    "message": "教师疑似早退5分钟",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.total": {
+    "message": "累计",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teacherBehavior": {
+    "message": "教学行为",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.stuBehavior": {
+    "message": "学生行为",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.stAnalyze": {
+    "message": "S-T分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.instructionalAnalysisMethod": {
+    "message": "S-T教学分析法：对课堂中的教学行为进采样分析，T表示当前时间教师的行为占主导，包括教师讲授、板书、指导，S（非T行为）表示学生的行为占主导。S-T教学分析法可以将教学行为量化，分析出课堂的教学模式。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.classroomQualityReport": {
+    "message": "课堂质量分析报告",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.viewAnalysisReport": {
+    "message": "查看分析报告",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.concentrationRatio": {
+    "message": "抬头率=学生听讲行为占总行为的比率；趴桌率=学生趴桌行为占总行为的比率",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.annotatedAnalysisResults": {
+    "message": "在视频上标注行为分析的结果",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.markingProcess": {
+    "message": "将行为分析的结果标注在视频上，正在处理视频，大约持续1个小时",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.analysisResultPrompt": {
+    "message": "系统可以将师生行为分析的结果标注在视频上，点击“开始”按钮进行标注，整个处理过程需要1个小时左右。（该标注仅在分析报告中展示，学生在观看课堂回放时不会看到这些标注）",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.initiate": {
+    "message": "开始",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.dialogueType": {
+    "message": "对话型",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.exerciseType": {
+    "message": "练习型",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.mixedType": {
+    "message": "混合型",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teachersAndStudents": {
+    "message": "师生互动/问答",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.seminarGroup": {
+    "message": "小组研讨",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.studentPresentation": {
+    "message": "学生发言/展示",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.clockToAnalysis": {
+    "message": "点此对视频进行分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.analysisTip": {
+    "message": "视频分析中，预计持续10-20分钟",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.totalClassroomReplay": {
+    "message": "课堂回放总数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.recordingDuration": {
+    "message": "累计录制时长",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.storageSpace": {
+    "message": "存储空间",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.haveBeenUsed": {
+    "message": "已使用",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.used": {
+    "message": "已用",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.usable": {
+    "message": "可用",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.hours": {
+    "message": "小时",
+    "description": "smart-classroom-admin 项目"
+  },
+  "dashboard.classroomOverview": {
+    "message": "教室概况",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.videoWithoutSound": {
+    "message": "视频无声音，下载前点此进行合并声音",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.haveVoice": {
+    "message": "有声音",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.mergeInSound": {
+    "message": "正在合并声音",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.mergeSound": {
+    "message": "合并声音",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.successfulMerger": {
+    "message": "合并成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.mergeFailure": {
+    "message": "合并失败",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.mergerProgress": {
+    "message": "正在合并声音，预计持续30分钟，请稍后进行下载。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.reconsolidate": {
+    "message": "重新合并成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.reconsolidateLose": {
+    "message": "重新合并失败",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.unmergeScss": {
+    "message": "取消合并成功",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.unmergeError": {
+    "message": "取消合并失败",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.remerge": {
+    "message": "重新合并",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.searchKeywords": {
+    "message": "搜索关键词",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.noSubtitles": {
+    "message": "暂无匹配字幕",
+    "description": "smart-classroom-admin 项目"
+  },
+  "permisSubtitle.titleGeneration": {
+    "message": "字幕生成中，请稍后查看",
     "description": "smart-classroom-admin 项目"
   }
 }

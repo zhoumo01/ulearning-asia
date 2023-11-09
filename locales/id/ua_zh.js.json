@@ -275,6 +275,10 @@
     "message": "pada",
     "description": "UA"
   },
+  "autoSaveAt": {
+    "message": "Disimpan secara otomatis pada {time}",
+    "description": "UA -> 教师 -> 编辑课件 -> 右上角"
+  },
   "automaticSorting": {
     "message": "Pengurutan otomatis",
     "description": "UA"
@@ -811,6 +815,10 @@
     "message": "Materi pengajaran interaktif",
     "description": "UA"
   },
+  "totalCourses": {
+    "message": "Total {n} gerbang",
+    "description": "UA -> 教师 -> 首页 -> 相关代码已隐藏，因此无法在页面上看到"
+  },
   "coursewareQBank": {
     "message": "Kumpulan soal bahan mata kuliah",
     "description": "UA"
@@ -902,6 +910,10 @@
   "dataError": {
     "message": "Data salah",
     "description": "UA"
+  },
+  "totalData": {
+    "message": "Total {n} data",
+    "description": "UA -> 教师 -> 首页"
   },
   "delete": {
     "message": "Hapus",
@@ -1527,6 +1539,22 @@
     "message": "Struktur flash tidak benar",
     "description": "UA"
   },
+  "evaluationHasChinese": {
+    "message": "Ada bahasa Cina di paragraf {n} ulasan",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "evaluationEmpty": {
+    "message": "Pada paragraf {n}, masukkan isi tes",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "referenceAnswerEmpty": {
+    "message": "Silakan masukkan jawaban referensi dalam paragraf {n}",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "referenceTextHasChinese": {
+    "message": "Paragraf {n} dinilai dengan bahasa Tionghoa dalam teks",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
   "followReadingFormat": {
     "message": "format mp3, tidak boleh lebih dari 3M",
     "description": "UA"
@@ -1558,6 +1586,10 @@
   "fullSubtitle": {
     "message": "Subtitle lengkap",
     "description": "UA"
+  },
+  "items": {
+    "message": "{n} buah",
+    "description": "UA -> 首页 -> 指课程发布到几个站点 -> 相关代码已隐藏，因此无法在页面上看到"
   },
   "generateFLASH": {
     "message": "Sedang dalam proses menghasilkan FLASH...",
@@ -1939,6 +1971,10 @@
     "message": "Jenis menu",
     "description": "UA"
   },
+  "inputMinutes": {
+    "message": "{input} menit",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
+  },
   "modifyFail": {
     "message": "Gagal mengubah",
     "description": "UA"
@@ -2131,6 +2167,10 @@
     "message": "Notifikasi",
     "description": "UA"
   },
+  "recoverRecordTip": {
+    "message": "Jika Anda telah mendeteksi bahwa Anda belum mengirimkan catatan pembelajaran yang berhasil, apakah Anda ingin memulihkannya sekarang?",
+    "description": "UA"
+  },
   "noteFollowTimeTip": {
     "message": "Waktu membaca paling panjang untuk kata/kalimat/paragraph masing-masing adalah 20 detik/40 detik/120 detik, silahkan perhatikan waktu membaca.",
     "description": "UA"
@@ -2250,6 +2290,10 @@
   "pageExercises": {
     "message": "Latihan halaman",
     "description": "UA"
+  },
+  "stopTimingTip": {
+    "message": "Untuk memastikan keakuratan catatan pembelajaran, sistem telah berhenti belajar di halaman ini pada {time}, dan catatan pembelajaran halaman ini tidak akan disimpan.",
+    "description": "UA -> 学生账户 -> 学习课件"
   },
   "pageHasBeenEditedConfirmDelete": {
     "message": "Saat ini halaman sudah diedit, yakin untuk hapus?",
@@ -2435,6 +2479,14 @@
     "message": "Jumlah latihan",
     "description": "UA"
   },
+  "questionError": {
+    "message": "Data pertanyaan {n} di halaman ini salah, ID pertanyaan: {id}",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
+  },
+  "questionError2": {
+    "message": "ID Pertanyaan: {id} Data salah",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
+  },
   "questionsNotCompleted": {
     "message": "Halaman ini masih ada topik yang belum diselesaikan，",
     "description": "UA"
@@ -2482,6 +2534,10 @@
   "recommendedLearningHours1": {
     "message": "Saran durasi belajar",
     "description": "UA"
+  },
+  "recordTimeOf": {
+    "message": "Durasi perekaman: {input} detik",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 弹框右上角"
   },
   "recordingTime": {
     "message": "Durasi perekaman",
@@ -2643,6 +2699,10 @@
     "message": "Dosen universitas ini",
     "description": "UA"
   },
+  "points": {
+    "message": "{n} menit",
+    "description": "教师账户 -> ua -> 课程查看 -> 课件试题 \n 课程查看 -> 预览课件 -> 选择练习题 (或者学生账户登录 -> 练习题)"
+  },
   "scoreModels": {
     "message": "Mode penilaian",
     "description": "UA"
@@ -2670,6 +2730,10 @@
   "second": {
     "message": "detik",
     "description": "UA"
+  },
+  "inputSeconds": {
+    "message": "{input} detik",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
   },
   "secondLevelMenu": {
     "message": "Menu level 2",
@@ -2847,6 +2911,10 @@
     "message": "Sudah pilih",
     "description": "UA"
   },
+  "selectedQue": {
+    "message": "{n} pertanyaan dipilih",
+    "description": "UA -> 教师 -> 编辑课件 -> 导入练习"
+  },
   "selectedTeacher": {
     "message": "Dosen yang telah dipilih",
     "description": "UA"
@@ -2970,6 +3038,10 @@
   "slotVideoIntoContent": {
     "message": "Masukkan video di dalam konten",
     "description": "UA"
+  },
+  "smallQue": {
+    "message": "Soal kecil {n}",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题 (需要题型为选词填空)"
   },
   "sortQuestions": {
     "message": "Urutan",
@@ -3190,6 +3262,10 @@
   "timeLimitedExercises": {
     "message": "Latihan waktu terbatas",
     "description": "UA"
+  },
+  "inputTimes": {
+    "message": "{masukan} kali",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 添加后下方工具栏设置按钮"
   },
   "timingLearningSuspended": {
     "message": "Pembelajaran waktu terbatas sudah diberhentikan",
@@ -3523,6 +3599,14 @@
     "message": "Aduh, salah.",
     "description": "UA"
   },
+  "inputMonth": {
+    "message": "{inputYear} - {inputMonth}",
+    "description": "UA -> 教师 -> 选择一门课程 -> 侧边栏详细介绍 -> 勾选已出版互动教材 -> 出版时间"
+  },
+  "inputYuan": {
+    "message": "{input} ¥",
+    "description": "指的输入定价，此功能未上线，不会在页面上显示。"
+  },
   "zippedFile": {
     "message": "Paket zip",
     "description": "UA"
@@ -3577,6 +3661,10 @@
   },
   "codeTip": {
     "message": "Setiap halaman bahan mata kuliah memiliki satu lembar kode QR, apabila menghapus halaman mata kuliah, maka kode QR tersebut tidak akan bisa diakses!",
+    "description": "UA"
+  },
+  "hasChoosen": {
+    "message": "{n} item dipilih",
     "description": "UA"
   },
   "allResource": {
@@ -3739,6 +3827,18 @@
     "message": "Poin yang didapat",
     "description": "UA"
   },
+  "fluencyOf": {
+    "message": "Kefasihan: {n} poin",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
+  },
+  "coherenceOf": {
+    "message": "Logika: {n} poin",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
+  },
+  "pronunciationOf": {
+    "message": "Pengucapan: {n} poin",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
+  },
   "speed": {
     "message": "Kecepatan berbahasa",
     "description": "UA"
@@ -3754,6 +3854,14 @@
   "enterSplit": {
     "message": "Jawab di layar terpisah",
     "description": "UA"
+  },
+  "limitAnswer": {
+    "message": "Batasi hingga {n} jawaban",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
+  },
+  "limitAnswer2": {
+    "message": "Batasi {n} kali, sisa {m} peluang",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
   },
   "continueTip": {
     "message": "Video hanya dapat dilanjutkan apabila semua soal telah dijawab dengan benar dan tepat",
@@ -4055,6 +4163,54 @@
     "message": "Pilih ulang soal",
     "description": "出现于视频剪辑处"
   },
+  "restoreRecord": {
+    "message": "Memulihkan catatan pembelajaran",
+    "description": "UA"
+  },
+  "recordList": {
+    "message": "Daftar catatan pembelajaran",
+    "description": "UA"
+  },
+  "restoreTip1": {
+    "message": "Memulihkan catatan pembelajaran sebelumnya yang gagal satu per satu, tolong jangan segarkan halaman...",
+    "description": "UA"
+  },
+  "restoreTip2": {
+    "message": "Catatan: Jika catatan tidak berhasil dipulihkan, silakan hubungi layanan pelanggan. Jika Anda perlu kembali ke halaman pemain untuk terus belajar, klik tombol \"Kembali\" di sudut kanan atas. Jika Anda tidak ingin prompt untuk memulihkan catatan pembelajaran muncul saat memasuki pemutar, Anda dapat menghapus catatan yang gagal (peringatan: menghapus cache lokal dapat menyebabkan catatan pembelajaran yang gagal tidak dapat dipulihkan).",
+    "description": "UA"
+  },
+  "recovering": {
+    "message": "Memulihkan",
+    "description": "UA"
+  },
+  "restoreFailed": {
+    "message": "Pemulihan gagal",
+    "description": "UA"
+  },
+  "removedFromCache": {
+    "message": "Dihapus dari cache",
+    "description": "UA"
+  },
+  "restoreSuccess": {
+    "message": "Pemulihan berhasil",
+    "description": "UA"
+  },
+  "restoreComplete": {
+    "message": "Semua catatan pembelajaran telah berhasil dipulihkan",
+    "description": "UA"
+  },
+  "micPermissionTips": {
+    "message": "Anda telah menonaktifkan izin mikrofon dan tidak dapat menggunakan fungsi ini, silakan buka [Pengaturan] ponsel Anda untuk mengotorisasi.",
+    "description": "UA"
+  },
+  "isbnFormatError": {
+    "message": "Masukkan kode ISBN-10 atau ISBN-13",
+    "description": "UA"
+  },
+  "unsupportFileFormat": {
+    "message": "Jenis file sumber daya yang tidak didukung",
+    "description": "UA"
+  },
   "contentIntro": {
     "message": "Ringkasan konten",
     "description": "UA"
@@ -4063,8 +4219,136 @@
     "message": "Silahkan masukkan konten",
     "description": "UA"
   },
+  "publishCourseTip3": {
+    "message": "Jika Anda belum menyelesaikan informasi dasar kursus, anggota tim, dan informasi lainnya, jika Anda tidak perlu menampilkan pelajaran di halaman situs web, Anda dapat melewatinya.",
+    "description": "UA"
+  },
   "inputFileName": {
     "message": "Masukkan kata kunci untuk mencari",
+    "description": "UA"
+  },
+  "inputNumber": {
+    "message": "Silakan masukkan bilangan bulat atau satu tempat desimal",
+    "description": "UA"
+  },
+  "courseCoverLimit": {
+    "message": "Ukuran penutup kursus tidak boleh melebihi 10M",
+    "description": "UA"
+  },
+  "videoSet": {
+    "message": "Pengaturan video",
+    "description": "UA"
+  },
+  "videoHead": {
+    "message": "Judul",
+    "description": "UA"
+  },
+  "videoHeadTip": {
+    "message": "Tandai panjang judul video sehingga siswa dapat melewati judul sambil mempelajari courseware",
+    "description": "UA"
+  },
+  "markVideoHead": {
+    "message": "Menandai judul",
+    "description": "UA"
+  },
+  "batchSetVideoHead": {
+    "message": "Penyetelan massal",
+    "description": "UA"
+  },
+  "onlyCurrentVideo": {
+    "message": "Hanya video saat ini",
+    "description": "UA"
+  },
+  "setVideo1": {
+    "message": "Atur judul semua video dalam bab ini secara bersamaan",
+    "description": "UA"
+  },
+  "setVideo2": {
+    "message": "Atur judul semua video dalam courseware ini secara sinkron",
+    "description": "UA"
+  },
+  "videoHeadLengthTip": {
+    "message": "Kredit pembuka tidak boleh melebihi 180 detik",
+    "description": "UA"
+  },
+  "courseDesign": {
+    "message": "Desain instruksional",
+    "description": "UA"
+  },
+  "courseDesignDesc": {
+    "message": "Unggah video kuliah, transkrip kelas, dan materi lainnya",
+    "description": "UA"
+  },
+  "inputContent": {
+    "message": "Silakan masukkan konten",
+    "description": "UA"
+  },
+  "addFile": {
+    "message": "Menambahkan file",
+    "description": "UA"
+  },
+  "addDesignType": {
+    "message": "Menambahkan kategori",
+    "description": "UA"
+  },
+  "addDesignTypeTip": {
+    "message": "Menambahkan hingga 10 kategori",
+    "description": "UA"
+  },
+  "designType1": {
+    "message": "Kuliah",
+    "description": "UA"
+  },
+  "designType2": {
+    "message": "Kasus desain instruksional",
+    "description": "UA"
+  },
+  "designType3": {
+    "message": "Refleksi pedagogis",
+    "description": "UA"
+  },
+  "designType4": {
+    "message": "Courseware kuliah",
+    "description": "UA"
+  },
+  "designType5": {
+    "message": "Kelas mikro",
+    "description": "UA"
+  },
+  "designType6": {
+    "message": "Transkrip kuliah",
+    "description": "UA"
+  },
+  "inputTypeName": {
+    "message": "Silakan masukkan nama",
+    "description": "UA"
+  },
+  "inputTypeNameTip": {
+    "message": "Nama tidak boleh melebihi 10 karakter",
+    "description": "UA"
+  },
+  "inputTypeNameTip1": {
+    "message": "Sudah ada kategori dengan nama yang sama di bawah courseware saat ini",
+    "description": "UA"
+  },
+  "deleteTypeNameTip": {
+    "message": "Apakah Anda yakin ingin menghapus kategori?",
+    "description": "UA"
+  },
+  "addDesignResourceTip1": {
+    "message": "Menambahkan hingga 5 file per kategori",
+    "description": "UA"
+  },
+  "deleteDesignResourceTip": {
+    "message": "Apakah Anda yakin ingin menghapus file?",
+    "description": "UA"
+  },
+  "deleteDesignResourceTip1": {
+    "message": "Anda tidak dapat memilih file yang sama",
+    "description": "UA"
+  },
+  "inputTypeNameTip2": {
+    "message": "Nama kategori tidak boleh kosong",
     "description": "UA"
   },
   "otherSetting": {
@@ -4073,6 +4357,62 @@
   },
   "hideDownload": {
     "message": "Menyembunyikan tautan unduhan dokumen",
+    "description": "UA"
+  },
+  "imageSection": {
+    "message": "Bagian gambar",
+    "description": "UA"
+  },
+  "linkSection": {
+    "message": "Kolom link",
+    "description": "UA"
+  },
+  "addImageTip1": {
+    "message": "Untuk memastikan efek tampilan, harap kontrol jumlah gambar untuk menambahkan 4 atau lebih (lebih dari empat akan digulir), dan rasio gambar disarankan 16: 9",
+    "description": "UA"
+  },
+  "addImageTip2": {
+    "message": "Format gambar: PNG, JPG, GIF, JPEG, BMP",
+    "description": "UA"
+  },
+  "addImageTip3": {
+    "message": "Ukuran satu gambar tidak boleh lebih besar dari 2M",
+    "description": "UA"
+  },
+  "addImageTip4": {
+    "message": "Saat Anda menambahkan 4 tautan gambar, halaman menampilkan yang terbaik; Ukuran optimal satu gambar adalah 200px*50px, hingga 10 dapat ditambahkan",
+    "description": "UA"
+  },
+  "addSectionTip": {
+    "message": "Silakan masukkan nama kolom",
+    "description": "UA"
+  },
+  "sectionName2": {
+    "message": "Nama kolom",
+    "description": "UA"
+  },
+  "addMenuTip": {
+    "message": "Silakan masukkan nama menu, maksimal 100 karakter",
+    "description": "UA"
+  },
+  "participation": {
+    "message": "orang berpartisipasi",
+    "description": "UA"
+  },
+  "websiteVisits": {
+    "message": "Jumlah kunjungan situs web",
+    "description": "UA"
+  },
+  "providedBy": {
+    "message": "Dukungan teknis",
+    "description": "UA"
+  },
+  "ie8Tip": {
+    "message": "Disarankan untuk menggunakan browser IE8 atau di atasnya, resolusi 1024 * 798 atau lebih tinggi untuk mengakses situs ini",
+    "description": "UA"
+  },
+  "username": {
+    "message": "Nama pengguna",
     "description": "UA"
   },
   "login": {
@@ -4185,6 +4525,18 @@
   },
   "H5PcreateOnline": {
     "message": "Dibuat secara online",
+    "description": "UA"
+  },
+  "exportCCFile": {
+    "message": "Ekspor file CC",
+    "description": "UA"
+  },
+  "exportCCFileSuccess": {
+    "message": "File CC berhasil diekspor",
+    "description": "UA"
+  },
+  "exportCCFileError": {
+    "message": "Mengekspor kesalahan file CC",
     "description": "UA"
   }
 }

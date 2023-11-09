@@ -275,6 +275,10 @@
     "message": "تم الحفظ في",
     "description": "UA"
   },
+  "autoSaveAt": {
+    "message": "يتم الحفظ تلقائيا في {time}",
+    "description": "UA -> 教师 -> 编辑课件 -> 右上角"
+  },
   "automaticSorting": {
     "message": "ترتيب تلقائي",
     "description": "UA"
@@ -811,6 +815,10 @@
     "message": "الكتاب المدرسي التفاعلي",
     "description": "UA"
   },
+  "totalCourses": {
+    "message": "المجموع {n} ",
+    "description": "UA -> 教师 -> 首页 -> 相关代码已隐藏，因此无法在页面上看到"
+  },
   "coursewareQBank": {
     "message": "بنك أسئلة المنهج",
     "description": "UA"
@@ -902,6 +910,10 @@
   "dataError": {
     "message": "بيانات غير صحيحة",
     "description": "UA"
+  },
+  "totalData": {
+    "message": "المجموع: {n} ",
+    "description": "UA -> 教师 -> 首页"
   },
   "delete": {
     "message": "حذف",
@@ -1527,6 +1539,22 @@
     "message": "بنية الفلاش خاطئة",
     "description": "UA"
   },
+  "evaluationHasChinese": {
+    "message": "هناك الصينية في الفقرة {n} من الاستعراض",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "evaluationEmpty": {
+    "message": "في الفقرة {n} ، يرجى إدخال محتوى الاختبار",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "referenceAnswerEmpty": {
+    "message": "الرجاء إدخال الإجابة المرجعية في الفقرة {n}",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
+  "referenceTextHasChinese": {
+    "message": "يتم تسجيل الفقرة {n} مع الصينية في النص",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分"
+  },
   "followReadingFormat": {
     "message": "صيغة Mp3، لا يزيد عن 3 ميغابايت",
     "description": "UA"
@@ -1558,6 +1586,10 @@
   "fullSubtitle": {
     "message": "الترجمة الكاملة",
     "description": "UA"
+  },
+  "items": {
+    "message": "{n} ",
+    "description": "UA -> 首页 -> 指课程发布到几个站点 -> 相关代码已隐藏，因此无法在页面上看到"
   },
   "generateFLASH": {
     "message": "إنشاء فلاش...",
@@ -1939,6 +1971,10 @@
     "message": "نوع القائمة",
     "description": "UA"
   },
+  "inputMinutes": {
+    "message": "نقاط {input}",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
+  },
   "modifyFail": {
     "message": " لم نتمكن من التعديل",
     "description": "UA"
@@ -2255,6 +2291,10 @@
     "message": "تمرين الصفحة",
     "description": "UA"
   },
+  "stopTimingTip": {
+    "message": "لضمان دقة سجل التعلم، توقف النظام عن التعلم على هذه الصفحة في {time}، ولن يتم حفظ سجل التعلم لهذه الصفحة.",
+    "description": "UA -> 学生账户 -> 学习课件"
+  },
   "pageHasBeenEditedConfirmDelete": {
     "message": "تم تعديل الصفحة الحالية. هل تريد حذفه؟",
     "description": "UA"
@@ -2439,6 +2479,14 @@
     "message": "سؤال رقم",
     "description": "UA"
   },
+  "questionError": {
+    "message": "بيانات السؤال {n} في هذه الصفحة غير صحيحة ، معرف السؤال: {id}",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
+  },
+  "questionError2": {
+    "message": "معرف السؤال: {id} البيانات غير صحيحة",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题"
+  },
   "questionsNotCompleted": {
     "message": "لا تزال هناك بعض الأسئلة في هذه الصفحة لم تكتمل بعد.",
     "description": "UA"
@@ -2486,6 +2534,10 @@
   "recommendedLearningHours1": {
     "message": "ساعات التعلم الموصى بها",
     "description": "UA"
+  },
+  "recordTimeOf": {
+    "message": "مدة التسجيل: {input} ثوان",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 弹框右上角"
   },
   "recordingTime": {
     "message": "مدة التسجيل",
@@ -2647,6 +2699,10 @@
     "message": "معلم الأكاديمية",
     "description": "UA"
   },
+  "points": {
+    "message": "{n} نقطة",
+    "description": "教师账户 -> ua -> 课程查看 -> 课件试题 \n 课程查看 -> 预览课件 -> 选择练习题 (或者学生账户登录 -> 练习题)"
+  },
   "scoreModels": {
     "message": "نموذج احتساب الدرجات",
     "description": "UA"
@@ -2674,6 +2730,10 @@
   "second": {
     "message": "ثانية",
     "description": "UA"
+  },
+  "inputSeconds": {
+    "message": "{إدخال} ثواني",
+    "description": "UA -> 教师 -> 编辑课件  -> 添加练习 -> 练习题下方的工具栏 -> 设置练习题 \n UA -> 教师 -> 编辑课件  -> 添加练习 -> 标题右侧 -> 限时答题按钮"
   },
   "secondLevelMenu": {
     "message": "قائمة المستوى الثاني",
@@ -2851,6 +2911,10 @@
     "message": "تم الأختيار",
     "description": "UA"
   },
+  "selectedQue": {
+    "message": "{n} السؤال المحدد",
+    "description": "UA -> 教师 -> 编辑课件 -> 导入练习"
+  },
   "selectedTeacher": {
     "message": "المعلمون المختارون",
     "description": "UA"
@@ -2974,6 +3038,10 @@
   "slotVideoIntoContent": {
     "message": "إدراج فيديو",
     "description": "UA"
+  },
+  "smallQue": {
+    "message": "{n} سؤال فرعى",
+    "description": "UA -> 教师 -> 编辑课件 -> 练习题 (需要题型为选词填空)"
   },
   "sortQuestions": {
     "message": "التسلسل",
@@ -3194,6 +3262,10 @@
   "timeLimitedExercises": {
     "message": "تمارين محددة بمهلة زمنية",
     "description": "UA"
+  },
+  "inputTimes": {
+    "message": "{input} مرات",
+    "description": "UA -> 教师 -> 编辑课件 -> 口语评分 -> 添加后下方工具栏设置按钮"
   },
   "timingLearningSuspended": {
     "message": "توقف التعلم مؤقتا!",
@@ -3527,6 +3599,14 @@
     "message": "هناك خطأ.",
     "description": "UA"
   },
+  "inputMonth": {
+    "message": "{inputYear} - {inputMonth}",
+    "description": "UA -> 教师 -> 选择一门课程 -> 侧边栏详细介绍 -> 勾选已出版互动教材 -> 出版时间"
+  },
+  "inputYuan": {
+    "message": "{input} ¥",
+    "description": "指的输入定价，此功能未上线，不会在页面上显示。"
+  },
   "zippedFile": {
     "message": "ملف مضغوط",
     "description": "UA"
@@ -3581,6 +3661,10 @@
   },
   "codeTip": {
     "message": "يتم تعيين كود الاستجابة السريعة لكل المنهاج  إذا تم حذف المناهج ، فلن يتمكن كود الاستجابة السريعة من الوصول إلى المناهج عند المسح.",
+    "description": "UA"
+  },
+  "hasChoosen": {
+    "message": "{n} العنصر المحدد",
     "description": "UA"
   },
   "allResource": {
@@ -3743,6 +3827,18 @@
     "message": "الدرجة",
     "description": "UA"
   },
+  "fluencyOf": {
+    "message": "الطلاقة: {n} نقطة",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
+  },
+  "coherenceOf": {
+    "message": "منطقي: {n} نقاط",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
+  },
+  "pronunciationOf": {
+    "message": "النطق: {n} نقاط",
+    "description": "学生账户 -> 口语评分 -> 情景问答"
+  },
   "speed": {
     "message": "السرعة",
     "description": "UA"
@@ -3758,6 +3854,14 @@
   "enterSplit": {
     "message": "أجب عن الأسئلة باستخدام تقسيم الشاشة",
     "description": "UA"
+  },
+  "limitAnswer": {
+    "message": "الحد من إجابات {n}",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
+  },
+  "limitAnswer2": {
+    "message": "الحد من {n} مرات ، وفرص {m} المتبقية",
+    "description": "UA -> 教师预览(或学生账号) -> 做练习题"
   },
   "continueTip": {
     "message": "فقط عندما تتم الإجابة على كل الأسئلة بشكل صحيح يمكنك الاستمرار في مشاهدة الفيديو.",
@@ -4095,6 +4199,18 @@
     "message": "تم استرداد كل سجلات التعلم بنجاح",
     "description": "UA"
   },
+  "micPermissionTips": {
+    "message": "لقد قمت بتعطيل إذن الميكروفون ولا يمكنك استخدام هذه الوظيفة ، يرجى الانتقال إلى [إعدادات] هاتفك المحمول للحصول على إذن.",
+    "description": "UA"
+  },
+  "isbnFormatError": {
+    "message": "الرجاء إدخال رمز ISBN-10 أو ISBN-13",
+    "description": "UA"
+  },
+  "unsupportFileFormat": {
+    "message": "أنواع ملفات الموارد غير المعتمدة",
+    "description": "UA"
+  },
   "contentIntro": {
     "message": "وصف الدورة التدريبية",
     "description": "UA"
@@ -4103,8 +4219,136 @@
     "message": "الرجاء إدخال المحتوى",
     "description": "UA"
   },
+  "publishCourseTip3": {
+    "message": "إذا لم تكن قد أكملت المعلومات الأساسية للدورة التدريبية وأعضاء الفريق والمعلومات الأخرى ، إذا لم تكن بحاجة إلى عرض الدرس على صفحة موقع الويب ، فيمكنك تخطيه.",
+    "description": "UA"
+  },
   "inputFileName": {
     "message": "أدخل كلمة أساسية للبحث\n",
+    "description": "UA"
+  },
+  "inputNumber": {
+    "message": "الرجاء إدخال عدد صحيح أو منزلة عشرية واحدة",
+    "description": "UA"
+  },
+  "courseCoverLimit": {
+    "message": "لا يمكن أن يتجاوز حجم تغطية الدورة 10 أمتار",
+    "description": "UA"
+  },
+  "videoSet": {
+    "message": "إعدادات الفيديو",
+    "description": "UA"
+  },
+  "videoHead": {
+    "message": "القاب",
+    "description": "UA"
+  },
+  "videoHeadTip": {
+    "message": "حدد طول عنوان الفيديو حتى يتمكن الطلاب من تخطي العنوان أثناء تعلم البرامج التعليمية",
+    "description": "UA"
+  },
+  "markVideoHead": {
+    "message": "ضع علامة على العنوان",
+    "description": "UA"
+  },
+  "batchSetVideoHead": {
+    "message": "الإعداد المجمع",
+    "description": "UA"
+  },
+  "onlyCurrentVideo": {
+    "message": "الفيديو الحالي فقط",
+    "description": "UA"
+  },
+  "setVideo1": {
+    "message": "تعيين عناوين جميع مقاطع الفيديو في هذا الفصل في وقت واحد",
+    "description": "UA"
+  },
+  "setVideo2": {
+    "message": "قم بتعيين عناوين جميع مقاطع الفيديو في هذه البرامج التعليمية بشكل متزامن",
+    "description": "UA"
+  },
+  "videoHeadLengthTip": {
+    "message": "لا يمكن أن تتجاوز الاعتمادات الافتتاحية 180 ثانية",
+    "description": "UA"
+  },
+  "courseDesign": {
+    "message": "التصميم التعليمي",
+    "description": "UA"
+  },
+  "courseDesignDesc": {
+    "message": "قم بتحميل مقاطع فيديو المحاضرات ونصوص الفصل والمواد الأخرى",
+    "description": "UA"
+  },
+  "inputContent": {
+    "message": "الرجاء إدخال المحتوى",
+    "description": "UA"
+  },
+  "addFile": {
+    "message": "إضافة ملف",
+    "description": "UA"
+  },
+  "addDesignType": {
+    "message": "إضافة فئة",
+    "description": "UA"
+  },
+  "addDesignTypeTip": {
+    "message": "أضف ما يصل إلى 10 فئات",
+    "description": "UA"
+  },
+  "designType1": {
+    "message": "المحاضرات",
+    "description": "UA"
+  },
+  "designType2": {
+    "message": "حالات التصميم التعليمي",
+    "description": "UA"
+  },
+  "designType3": {
+    "message": "التفكير التربوي",
+    "description": "UA"
+  },
+  "designType4": {
+    "message": "مناهج المحاضرات",
+    "description": "UA"
+  },
+  "designType5": {
+    "message": "دورات تدريبية صغيرة (ميكرو)",
+    "description": "UA"
+  },
+  "designType6": {
+    "message": "محاضر المحاضرات",
+    "description": "UA"
+  },
+  "inputTypeName": {
+    "message": "الرجاء إدخال اسم",
+    "description": "UA"
+  },
+  "inputTypeNameTip": {
+    "message": "لا يمكن أن يتجاوز الاسم 10 أحرف",
+    "description": "UA"
+  },
+  "inputTypeNameTip1": {
+    "message": "هناك بالفعل فئة بنفس الاسم تحت المناهج التعليمية الحالية",
+    "description": "UA"
+  },
+  "deleteTypeNameTip": {
+    "message": "هل أنت متأكد من أنك تريد حذف فئة؟",
+    "description": "UA"
+  },
+  "addDesignResourceTip1": {
+    "message": "إضافة ما يصل إلى 5 ملفات لكل فئة",
+    "description": "UA"
+  },
+  "deleteDesignResourceTip": {
+    "message": "هل أنت متأكد من أنك تريد حذف الملف؟",
+    "description": "UA"
+  },
+  "deleteDesignResourceTip1": {
+    "message": "لا يمكنك تحديد نفس الملف",
+    "description": "UA"
+  },
+  "inputTypeNameTip2": {
+    "message": "لا يمكن أن يكون اسم الفئة فارغا",
     "description": "UA"
   },
   "otherSetting": {
@@ -4113,6 +4357,58 @@
   },
   "hideDownload": {
     "message": "إخفاء رابط تنزيل المستند",
+    "description": "UA"
+  },
+  "imageSection": {
+    "message": "قسم الصور",
+    "description": "UA"
+  },
+  "linkSection": {
+    "message": "عمود الارتباط",
+    "description": "UA"
+  },
+  "addImageTip1": {
+    "message": "من أجل ضمان تأثير المشاهدة ، يرجى التحكم في عدد الصور لإضافة 4 أو أكثر (سيتم تمرير أكثر من أربعة) ، ويوصى بأن تكون نسبة الصورة 16: 9",
+    "description": "UA"
+  },
+  "addImageTip2": {
+    "message": "تنسيقات الصور: PNG ، JPG ، GIF ، JPEG ، BMP",
+    "description": "UA"
+  },
+  "addImageTip3": {
+    "message": "لا يمكن أن يكون حجم الصورة الواحدة أكبر من 2M",
+    "description": "UA"
+  },
+  "addImageTip4": {
+    "message": "عند إضافة 4 روابط صور ، تعرض الصفحة بشكل أفضل ؛ الحجم الأمثل لصورة واحدة هو 200 بكسل * 50 بكسل ، ويمكن إضافة ما يصل إلى 10",
+    "description": "UA"
+  },
+  "addSectionTip": {
+    "message": "الرجاء إدخال اسم العمود",
+    "description": "UA"
+  },
+  "sectionName2": {
+    "message": "اسم العمود",
+    "description": "UA"
+  },
+  "addMenuTip": {
+    "message": "الرجاء إدخال اسم القائمة ، حتى 100 حرف",
+    "description": "UA"
+  },
+  "participation": {
+    "message": "شارك",
+    "description": "UA"
+  },
+  "websiteVisits": {
+    "message": "عدد زيارات الموقع",
+    "description": "UA"
+  },
+  "providedBy": {
+    "message": "الدعم الفني",
+    "description": "UA"
+  },
+  "ie8Tip": {
+    "message": "يوصى باستخدام متصفح IE8 أو أعلى ، دقة 1024 * 798 أو أعلى للوصول إلى هذا الموقع",
     "description": "UA"
   },
   "username": {
@@ -4229,6 +4525,18 @@
   },
   "H5PcreateOnline": {
     "message": "تم إنشاؤها على الإنترنت",
+    "description": "UA"
+  },
+  "exportCCFile": {
+    "message": "تصدير ملف CC",
+    "description": "UA"
+  },
+  "exportCCFileSuccess": {
+    "message": "يتم تصدير ملف CC بنجاح",
+    "description": "UA"
+  },
+  "exportCCFileError": {
+    "message": "تصدير خطأ ملف CC",
     "description": "UA"
   }
 }
