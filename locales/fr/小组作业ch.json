@@ -135,6 +135,10 @@
     "message": "{{n}} Heure",
     "description": "小组作业"
   },
+  "points": {
+    "message": "{{score}} points",
+    "description": "教师 -> 学生作业列表 -> 教师批阅后才会显示分数"
+  },
   "分钟": {
     "message": "{{n}} Minute",
     "description": "小组作业"
@@ -515,6 +519,10 @@
     "message": "Évaluation des enseignants",
     "description": "小组作业"
   },
+  "groupOf": {
+    "message": "Groupes {{n}}",
+    "description": "教师 -> 学生作业列表 \n 教师 -> 学生作业列表 -> 批阅作业 \n 教师 -> 发起作业 -> 下一步 -> 选择班级 -> 几个小组 \n 学生 -> 作业详情"
+  },
   "需重写": {
     "message": "Récrire",
     "description": "小组作业"
@@ -547,6 +555,14 @@
     "message": "S’il vous plaît entrer un commentaire",
     "description": "小组作业"
   },
+  "fullPointsOf": {
+    "message": "Marques complètes : {{n}} points",
+    "description": "教师 -> 学生作业列表 -> 右上角“详情”按钮"
+  },
+  "fullPointsOf2": {
+    "message": "Marques complètes {{n}}",
+    "description": "教师 -> 学生作业列表 -> 批阅作业"
+  },
   "满分": {
     "message": "Points complètes\n",
     "description": "小组作业"
@@ -558,6 +574,14 @@
   "保存批阅": {
     "message": "Sauvegarder l’avis",
     "description": "小组作业"
+  },
+  "submittedOn": {
+    "message": "{{nom}} Soumis à {{time}}",
+    "description": "教师 -> 学生作业列表 -> 批阅作业"
+  },
+  "wordsCount": {
+    "message": "{{n}} mots",
+    "description": "教师 -> 学生作业列表 -> 批阅作业"
   },
   "优优正在加载中": {
     "message": "Youyou est en cours de chargement",
@@ -686,6 +710,10 @@
   "上传作业失败": {
     "message": "Impossible de télécharger",
     "description": "小组作业"
+  },
+  "uploadNo": {
+    "message": "Téléchargement de {{progress}}",
+    "description": "示例，正在上传第3/5个，这个是完整的文本，后面没有其他文字，比如不是：“正在上传第{{progress}}个文件”"
   },
   "是否放弃本次作业？": {
     "message": "Sûr d’abandonner ce travail?",
@@ -874,6 +902,10 @@
   "请将作业写在这里": {
     "message": "Veuillez écrire votre travail ici.",
     "description": "小组作业"
+  },
+  "writtenCount": {
+    "message": "{{count}} mots",
+    "description": "学生 -> 写作业"
   },
   "作业详情": {
     "message": "Détails du travail",
@@ -1295,6 +1327,10 @@
     "message": "Erreur de soumission",
     "description": "小组作业"
   },
+  "groupCount": {
+    "message": "Groupes {{n}}",
+    "description": "教师 -> 发起作业 -> 下一步 -> 选择班级"
+  },
   "包含未分组的同学": {
     "message": "{{classes}} inclut les étudiants qui ne sont pas regroupés !",
     "description": "小组作业"
@@ -1342,6 +1378,10 @@
   "查看更多条讨论": {
     "message": "Voir plus de discussions {{count}}",
     "description": "小组作业"
+  },
+  "countOfDiscussion": {
+    "message": "{{n}} éléments",
+    "description": "举例：2条(评论) 教师 -> 学生作业列表 -> 批阅作业"
   },
   "评价作业": {
     "message": "Affectation d’évaluation",
@@ -1501,6 +1541,34 @@
   },
   "startRecordFail": {
     "message": "Échec de l’enregistrement",
+    "description": "小组作业"
+  },
+  "sameTitleTip": {
+    "message": "Le nom de l’affectation existe déjà. Veuillez saisir un autre nom, puis enregistrer.",
+    "description": "小组作业"
+  },
+  "下载出错了": {
+    "message": "Erreur de téléchargement",
+    "description": "小组作业"
+  },
+  "作业未开始": {
+    "message": "La mission n’a pas encore commencé",
+    "description": "小组作业"
+  },
+  "的作业": {
+    "message": "Affectations {{index}}",
+    "description": "小组作业"
+  },
+  "的作业讨论": {
+    "message": "Discussion sur le groupe {{index}}",
+    "description": "小组作业"
+  },
+  "mobilePermissionTip1": {
+    "message": "L’accès à la caméra est désactivé et ne peut pas utiliser cette fonction - Veuillez vous rendre dans les paramètres de votre appareil pour l’activer !",
+    "description": "小组作业"
+  },
+  "mobilePermissionTip2": {
+    "message": "L’accès au microphone est désactivé et ne peut pas utiliser cette fonction - Veuillez vous rendre dans les paramètres de votre appareil pour l’activer !",
     "description": "小组作业"
   }
 }
