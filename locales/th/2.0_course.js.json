@@ -7322,5 +7322,237 @@
   "importCCFile": {
     "message": "นําเข้าไฟล์ imscc",
     "description": "2.0 course.js"
+  },
+  "noBindWelink": {
+    "message": "บริการสตรีมมิงแบบสดให้บริการโดย WeLink โปรดผูกบัญชี WeLink ของคุณก่อน โปรดคลิกปุ่มด้านล่างเพื่อไปที่หน้าการผูก",
+    "description": "2.0 course.js"
+  },
+  "bind": {
+    "message": "ไปผูก",
+    "description": "2.0 course.js"
+  },
+  "numOfResource": {
+    "message": "ทรัพยากร {n}",
+    "description": "2.0 course.js"
+  },
+  "numOfUnViewed": {
+    "message": "{n} ไม่ได้ดู",
+    "description": "2.0 course.js"
+  },
+  "watched": {
+    "message": "ดูเสร็จเรียบร้อย",
+    "description": "2.0 course.js"
+  },
+  "searchStudent": {
+    "message": "ค้นหานักเรียน",
+    "description": "2.0 course.js"
+  },
+  "videoProgressTips": {
+    "message": "เวลาเล่นสะสม>= ระยะเวลาของวิดีโอ",
+    "description": "2.0 course.js"
+  },
+  "audioProgressTips": {
+    "message": "เวลาเล่นสะสม>= ระยะเวลาเสียง",
+    "description": "2.0 course.js"
+  },
+  "watchedProgressTips": {
+    "message": "ดู {percent}",
+    "description": "2.0 course.js"
+  },
+  "fileUnsupportPreviewdTips": {
+    "message": "ไฟล์ไม่รองรับการแสดงตัวอย่างออนไลน์",
+    "description": "2.0 course.js"
+  },
+  "downloadForViewTips": {
+    "message": "กรุณาดาวน์โหลดและดู",
+    "description": "2.0 course.js"
+  },
+  "pageNum": {
+    "message": "หน้า",
+    "description": "2.0 course.js"
+  },
+  "resourceType": {
+    "message": "ชนิดทรัพยากร",
+    "description": "2.0 course.js"
+  },
+  "noResourceTips": {
+    "message": "ยังไม่มีทรัพยากร",
+    "description": "2.0 course.js"
+  },
+  "courseClass": {
+    "message": "เรียน",
+    "description": "2.0 course.js"
+  },
+  "subjectBank": {
+    "message": "ทรัพยากรห้องสมุดบทเรียน",
+    "description": "2.0 course.js"
+  },
+  "unsupported": {
+    "message": "ชนิดแฟ้มทรัพยากรนี้ไม่สนับสนุนการประกาศ",
+    "description": "2.0 course.js"
+  },
+  "noChaptersTips": {
+    "message": "โปรดเลือกบท",
+    "description": "2.0 course.js"
+  },
+  "integral": {
+    "message": "คะแนน",
+    "description": "2.0 course.js"
+  },
+  "readed2": {
+    "message": "อ่านแล้ว",
+    "description": "2.0 course.js"
+  },
+  "unRead": {
+    "message": "ไม่ได้อ่าน",
+    "description": "2.0 course.js"
+  },
+  "bookLiveStream": {
+    "message": "กําหนดเวลาสตรีมแบบสด/การประชุม",
+    "description": "2.0 course.js"
+  },
+  "welinkAccount": {
+    "message": "บัญชี Welink",
+    "description": "2.0 course.js"
+  },
+  "bindingAccount": {
+    "message": "ผูกบัญชี",
+    "description": "2.0 course.js"
+  },
+  "tencentConferenceAccount": {
+    "message": "บัญชีการประชุม Tencent",
+    "description": "2.0 course.js"
+  },
+  "huaweiCloudConference": {
+    "message": "การประชุม HUAWEI CLOUD",
+    "description": "2.0 course.js"
+  },
+  "bindingAccountCreateLive": {
+    "message": "โปรดผูกบัญชีของคุณและสร้างสตรีมสด!",
+    "description": "2.0 course.js"
+  },
+  "setObeClass": {
+    "message": "ตั้งค่าชั้นเรียนการประเมิน",
+    "description": "2.0 course.js"
+  },
+  "pleaseSelectObeClass": {
+    "message": "โปรดเลือกชั้นเรียนที่คุณต้องการเข้าร่วม",
+    "description": "2.0 course.js"
+  },
+  "obeActivityNullTips": {
+    "message": "ไม่มีชั้นเรียนที่เข้าร่วมในการประเมินหรือไม่มีกิจกรรมใด ๆ",
+    "description": "2.0 course.js"
+  },
+  "viewOperationDesc": {
+    "message": "ดูคำแนะนำ",
+    "description": "2.0 course.js"
+  },
+  "obeDesc": {
+    "message": "หากคุณใช้โหมด OBE (Outcome-based Education) เพื่อสอนหรือเข้าร่วมในหลักสูตรที่ได้รับการรับรองอย่างมืออาชีพคุณสามารถกําหนดวัตถุประสงค์ของหลักสูตรและกฎการประเมินผลได้ที่นี่และระบบจะสรุปผลลัพธ์ของแต่ละกิจกรรมที่สอดคล้องกับวัตถุประสงค์ของหลักสูตรและนับความสําเร็จของวัตถุประสงค์ของหลักสูตรโดยอัตโนมัติ วัตถุประสงค์ของหลักสูตรถูกกําหนดโดยผู้ดูแลหลักสูตร",
+    "description": "2.0 course.js"
+  },
+  "reverseOrder": {
+    "message": "ย้อนกลับตามเวลา",
+    "description": "2.0 course.js"
+  },
+  "positiveOrder": {
+    "message": "ในลําดับเวลาบวก",
+    "description": "2.0 course.js"
+  },
+  "uploadTime": {
+    "message": "เวลาอัปโหลด",
+    "description": "2.0 course.js"
+  },
+  "screenshot": {
+    "message": "ภาพหน้าจอ",
+    "description": "2.0 course.js"
+  },
+  "sourceInstitution": {
+    "message": "สถาบันต้นทาง",
+    "description": "2.0 course.js"
+  },
+  "schoolName": {
+    "message": "ชื่อสถาบัน",
+    "description": "2.0 course.js"
+  },
+  "attendanceAssessmentTips": {
+    "message": "หมายเหตุ: โดยค่าเริ่มต้น การเรียกแบบม้วนทั้งหมดจะรวมอยู่ในการประเมิน หากคุณไม่ได้เข้าร่วมในการโทรแบบม้วนโปรดยกเลิกการเลือกด้านล่าง",
+    "description": "2.0 course.js"
+  },
+  "attendanceRate": {
+    "message": "การเข้าร่วม:",
+    "description": "2.0 course.js"
+  },
+  "scoreItemType8Option2": {
+    "message": "การเข้าร่วมเต็มคือคะแนนเต็ม โดยหักคะแนน {score1} สําหรับการขาดงานหนึ่งครั้ง {score2} คะแนนถูกหักสําหรับการออกเดินทางล่าช้า/ก่อนกําหนด และ {score3} คะแนนถูกหักสําหรับการลาป่วย/ลากิจส่วนตัว จนกว่าการหักจะหมดลง",
+    "description": "2.0 course.js"
+  },
+  "relateKnowledgePoints": {
+    "message": "เชื่อมโยงจุดความรู้",
+    "description": "2.0 course.js"
+  },
+  "numOfKnowledgePoints": {
+    "message": "จุดความรู้ {n}",
+    "description": "2.0 course.js"
+  },
+  "newStrategyTips38": {
+    "message": "หากคุณต้องการใช้กฎการประเมินกับชั้นเรียนอื่น ๆ โปรดคลิก [นําไปใช้กับชั้นเรียนอื่น] เพื่อตั้งค่า",
+    "description": "2.0 course.js"
+  },
+  "knowledgeNoAccessTips": {
+    "message": "คุณลักษณะนี้จะต้องเปิด / ปิดโดยผู้ดูแลระบบหลักสูตร",
+    "description": "2.0 course.js"
+  },
+  "knowledgeOpenTips": {
+    "message": "หลังจากเปิดเครื่องนักเรียนสามารถดูแผนที่ได้คุณแน่ใจว่าจะเปิดหรือไม่?",
+    "description": "2.0 course.js"
+  },
+  "openKnowledgeGraph": {
+    "message": "เปิดกราฟความรู้",
+    "description": "2.0 course.js"
+  },
+  "knowledgeGraph": {
+    "message": "กราฟความรู้",
+    "description": "2.0 course.js"
+  },
+  "knowledgeGraphTips1": {
+    "message": "บทเรียนปัจจุบันได้รับการเผยแพร่พร้อมกราฟความรู้",
+    "description": "2.0 course.js"
+  },
+  "knowledgeGraphTips2": {
+    "message": "หลังจากเปิดกราฟนักเรียนสามารถป้อนกราฟและทําแบบทดสอบหรือเรียนรู้ตามจุดความรู้และครูยังสามารถตรวจสอบความเชี่ยวชาญของนักเรียนตามคะแนนความรู้",
+    "description": "2.0 course.js"
+  },
+  "unOpened": {
+    "message": "ไม่ได้เปิดอยู่",
+    "description": "2.0 course.js"
+  },
+  "opened": {
+    "message": "เปิดแล้ว",
+    "description": "2.0 course.js"
+  },
+  "issueStudents": {
+    "message": "ส่งให้นักเรียน",
+    "description": "2.0 course.js"
+  },
+  "postToClass": {
+    "message": "โพสต์ไปยัง Classroom",
+    "description": "2.0 course.js"
+  },
+  "resourcesPostedClassroom": {
+    "message": "เลือกห้องเรียนที่คุณต้องการเผยแพร่เนื้อหา",
+    "description": "2.0 course.js"
+  },
+  "noClassPleaseCreate": {
+    "message": "ยังไม่มีชั้นเรียนโปรดขอให้ครูสร้างชั้นเรียนก่อนส่ง",
+    "description": "2.0 course.js"
+  },
+  "subUnitFound": {
+    "message": "สร้างโมดูล",
+    "description": "2.0 course.js"
+  },
+  "createSubUnit": {
+    "message": "โมดูล",
+    "description": "2.0 course.js"
   }
 }
