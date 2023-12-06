@@ -1639,10 +1639,7 @@
     "message": "提交截止时间必须晚于作业开始时间",
     "description": "endtimeafterstart"
   },
-  "peerreviewafterend": {
-    "message": "互评截止时间必须晚于提交截止时间",
-    "description": "peerreviewafterend"
-  },
+
   "starttimenotnull": {
     "message": "请选择作业开始时间",
     "description": "starttimenotnull"
@@ -1654,5 +1651,69 @@
   "peerreviewafterend": {
     "message": "互评截止时间必须晚于提交截止时间",
     "description": "peerreviewafterend"
+  },
+  "excelnotgroupexcel": {
+    "message": "表格不属于分组模板，请检查",
+    "description": "excelnotgroupexcel"
+  },
+  "thefilewasnotread": {
+    "message": "未读取到文件",
+    "description": "thefilewasnotread"
+  },
+  "rowcolumndataerror": {
+    "message": "第{0}行，{1}列数据错误",
+    "description": "rowcolumndataerror"
+  },
+  "studentidnotempty": {
+    "message": "学号不能为空",
+    "description": "studentidnotempty"
+  },
+  "groupnamenotempty": {
+    "message": "小组名称不能为空",
+    "description": "groupnamenotempty"
+  },
+  "groupnamemax100": {
+    "message": "组别名称不能超过100字符",
+    "description": "groupnamemax100"
+  },
+  "notinclassandpass": {
+    "message": "名学生不在课程班级中，已自动跳过",
+    "description": "notinclassandpass"
+  },
+  "groupstrideoverclass": {
+    "message": "名单中不同班级存在相同的小组名称。小组作业不支持跨班分组，不同班级的学生，即使小组名称相同，也将被分到不同的小组。请确认是否继续导入？",
+    "description": "groupstrideoverclass"
+  },
+  
+  
+  "peertimenotnull": {
+    "message": "请选择互评截止时间",
+    "description": "peertimenotnull"
+  },
+  "pleasesetpublishtime": {
+    "message": "请选择成绩公布时间",
+    "description": "pleasesetpublishtime"
+  },
+  
+  
+  "classnogroup": {
+    "message": "没有分组",
+    "description": "classnogroup"
+  },
+  "notingroupclass": {
+    "message": "不在该作业班级",
+    "description": "notingroupclass"
+  },
+  "notallowpostattach": {
+    "message": "作业不允许上传附件",
+    "description": "notallowpostattach"
+  },
+  "homeworksubmitend": {
+    "message": "作业已截止提交",
+    "description": "homeworksubmitend"
+  },
+  "homeworkhadsubmit": {
+    "message": "作业已提交，不可重复提交！",
+    "description": "homeworkhadsubmit"
   }
 }
