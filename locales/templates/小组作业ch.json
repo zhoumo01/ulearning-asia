@@ -1598,5 +1598,170 @@
   "grouplist": {
     "message": "分组名单（含学生信息）",
     "description": "小组作业"
+  },
+  "studentId": {
+    "message": "学号",
+    "description": "studentId"
+  }, 
+  "name": {
+    "message": "姓名",
+    "description": "name"
+  },
+  "className": {
+    "message": "班级名称",
+    "description": "className"
+  },
+  "fillingInstructions": {
+    "message": "填写说明：\n\"+\"1.学号组别为必填项，姓名、班级名称可以为空，但不能删除该列\\n\"+\"2.没有账号，或不在本课程班级的学生不能导入\\n\"+\"3.不支持跨班级分组，同一班级中，小组名称相同的学生将归为一组，每组至少一人。小组名称可自定义，如1组，2组。\\n",
+    "description": "fillingInstructions"
+  },
+  "homeworktitlerepeat": {
+    "message": "课程中存在同名作业，请修改作业标题",
+    "description": "homeworktitlerepeat"
+  },
+  "gradecantupdate": {
+    "message": "发布后不能修改作业满分",
+    "description": "gradecantupdate"
+  },
+  "autoremarkcantupdate": {
+    "message": "发布后不能修改作业评分方式",
+    "description": "autoremarkcantupdate"
+  },
+  "endtimecantupdateafterpeerreview": {
+    "message": "互评开始后不能修改作业提交截止时间",
+    "description": "endtimecantupdateafterpeerreview"
+  },
+  "peerreviewcountbigthangroupnum": {
+    "message": "各班级小组数量须大于每人评价的作业份数",
+    "description": "autoremarkcantupdate"
+  },
+  "endtimeafterstart": {
+    "message": "提交截止时间必须晚于作业开始时间",
+    "description": "endtimeafterstart"
+  },
+
+  "starttimenotnull": {
+    "message": "请选择作业开始时间",
+    "description": "starttimenotnull"
+  },
+  "studentnotingroup": {
+    "message": "有未分组的学生",
+    "description": "studentnotingroup"
+  },
+  "peerreviewafterend": {
+    "message": "互评截止时间必须晚于提交截止时间",
+    "description": "peerreviewafterend"
+  },
+  "excelnotgroupexcel": {
+    "message": "表格不属于分组模板，请检查",
+    "description": "excelnotgroupexcel"
+  },
+  "thefilewasnotread": {
+    "message": "未读取到文件",
+    "description": "thefilewasnotread"
+  },
+  "rowcolumndataerror": {
+    "message": "第{0}行，{1}列数据错误",
+    "description": "rowcolumndataerror"
+  },
+  "studentidnotempty": {
+    "message": "学号不能为空",
+    "description": "studentidnotempty"
+  },
+  "groupnamenotempty": {
+    "message": "小组名称不能为空",
+    "description": "groupnamenotempty"
+  },
+  "groupnamemax100": {
+    "message": "组别名称不能超过100字符",
+    "description": "groupnamemax100"
+  },
+  "notinclassandpass": {
+    "message": "名学生不在课程班级中，已自动跳过",
+    "description": "notinclassandpass"
+  },
+  "groupstrideoverclass": {
+    "message": "名单中不同班级存在相同的小组名称。小组作业不支持跨班分组，不同班级的学生，即使小组名称相同，也将被分到不同的小组。请确认是否继续导入？",
+    "description": "groupstrideoverclass"
+  },
+  
+  
+  "peertimenotnull": {
+    "message": "请选择互评截止时间",
+    "description": "peertimenotnull"
+  },
+  "pleasesetpublishtime": {
+    "message": "请选择成绩公布时间",
+    "description": "pleasesetpublishtime"
+  },
+  
+  
+  "classnogroup": {
+    "message": "没有分组",
+    "description": "classnogroup"
+  },
+  "notingroupclass": {
+    "message": "不在该作业班级",
+    "description": "notingroupclass"
+  },
+  "notallowpostattach": {
+    "message": "作业不允许上传附件",
+    "description": "notallowpostattach"
+  },
+  "homeworksubmitend": {
+    "message": "作业已截止提交",
+    "description": "homeworksubmitend"
+  },
+  "homeworkhadsubmit": {
+    "message": "作业已提交，不可重复提交！",
+    "description": "homeworkhadsubmit"
+  },
+  "defaultclass": {
+    "description": "defaultclass",
+    "message": "默认班级"
+  },
+  "withdrawstatuserror": {
+    "description": "withdrawstatuserror",
+    "message": "状态错误，不允许撤回"
+  },
+  "endtimenotnull": {
+    "description": "endtimenotnull",
+    "message": "请选择提交截止时间"
+  },
+  "homeworkhasend": {
+    "description": "homeworkhasend",
+    "message": "作业提交已截止"
+  },
+  "studentandgrouperror": {
+    "description": "studentandgrouperror",
+    "message": "学生和组别不一致"
+  },
+  "peerReviewStart": {
+    "description": "peerReviewStart",
+    "message": "作业{0}已开始互评，请按时完成评价任务！"
+  },
+  "onlydeletemydiscuss": {
+    "description": "onlydeletemydiscuss",
+    "message": "只能删除自己的评论"
+  },
+  "gradepublishbeforepeer": {
+    "description": "gradepublishbeforepeer",
+    "message": "成绩公布时间必须晚于互评截止时间"
+  },
+  "homeworkstarttitle": {
+    "description": "homeworkstarttitle",
+    "message": "作业已开始，请按时提交"
+  },
+  "strideovergroup": {
+    "description": "strideovergroup",
+    "message": "跨班小组"
+  },
+  "endtimebeforenow": {
+    "description": "endtimebeforenow",
+    "message": "提交截止时间必须晚于当前时间"
+  },
+  "homeworkreviewedbyteacher": {
+    "description": "homeworkreviewedbyteacher",
+    "message": "你的作业{0}已被批阅"
   }
 }
