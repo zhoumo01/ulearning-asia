@@ -1585,7 +1585,7 @@
   },
   "peerreviewcountbigthangroupnum": {
     "message": "El número de grupos en cada clase debe ser mayor que el número de tareas evaluadas por cada persona",
-    "description": "小组作业"
+    "description": "autoremarkcantupdate"
   },
   "groupexport": {
     "message": "Plantilla de importación de lista de grupos Assignment_Grouping",
@@ -1598,5 +1598,157 @@
   "grouplist": {
     "message": "Lista de grupos (con información del estudiante)",
     "description": "小组作业"
+  },
+  "studentId": {
+    "message": "ID del estudiante",
+    "description": "studentId"
+  },
+  "name": {
+    "message": "Nombre",
+    "description": "name"
+  },
+  "className": {
+    "message": "Nombre de la clase",
+    "description": "className"
+  },
+  "fillingInstructions": {
+    "message": "Instrucciones:\\n\\\"+\\\"1.Se requiere el grupo de números de estudiante, y el nombre y el nombre de la clase pueden estar en blanco, pero la columna no se puede eliminar\\\\n\\\"+\\\"2.Los estudiantes que no tienen una cuenta o no están en la clase de este curso no se pueden importar\\\\n\\\"+\\\"3.No se admite la agrupación entre clases, en la misma clase, los estudiantes con el mismo nombre de grupo se agruparán en un grupo y habrá al menos una persona en cada grupo. El nombre del grupo se puede personalizar, como 1 grupo, 2 grupos. \\\\n",
+    "description": "fillingInstructions"
+  },
+  "homeworktitlerepeat": {
+    "message": "Si hay una tarea con el mismo nombre en el curso, modifique el título de la actividad",
+    "description": "homeworktitlerepeat"
+  },
+  "gradecantupdate": {
+    "message": "La puntuación completa de la tarea no se puede modificar después de su publicación",
+    "description": "gradecantupdate"
+  },
+  "endtimecantupdateafterpeerreview": {
+    "message": "El plazo de entrega de trabajos no podrá modificarse una vez iniciada la evaluación por pares",
+    "description": "endtimecantupdateafterpeerreview"
+  },
+  "endtimeafterstart": {
+    "message": "La fecha límite de envío debe ser posterior a la hora de inicio de la tarea",
+    "description": "endtimeafterstart"
+  },
+  "starttimenotnull": {
+    "message": "Por favor seleccione una fecha de inicio",
+    "description": "starttimenotnull"
+  },
+  "studentnotingroup": {
+    "message": "Hay alumnos que no están agrupados",
+    "description": "studentnotingroup"
+  },
+  "peerreviewafterend": {
+    "message": "La fecha límite de evaluación mutua debe ser posterior a la fecha de entrega",
+    "description": "peerreviewafterend"
+  },
+  "excelnotgroupexcel": {
+    "message": "La tabla no forma parte de la plantilla de agrupación, por favor marque",
+    "description": "excelnotgroupexcel"
+  },
+  "thefilewasnotread": {
+    "message": "El archivo no fue leído",
+    "description": "thefilewasnotread"
+  },
+  "rowcolumndataerror": {
+    "message": "En la fila {0}, los datos de la columna {1} son incorrectos",
+    "description": "rowcolumndataerror"
+  },
+  "studentidnotempty": {
+    "message": "El número de la escuela no puede estar vacío.",
+    "description": "studentidnotempty"
+  },
+  "groupnamenotempty": {
+    "message": "El nombre del grupo no puede estar vacío",
+    "description": "groupnamenotempty"
+  },
+  "groupnamemax100": {
+    "message": "El nombre del grupo no puede superar los 100 caracteres",
+    "description": "groupnamemax100"
+  },
+  "notinclassandpass": {
+    "message": "Los estudiantes no están en la clase y se han saltado automáticamente",
+    "description": "notinclassandpass"
+  },
+  "groupstrideoverclass": {
+    "message": "Existe el mismo nombre de grupo para diferentes clases en la lista. Las tareas grupales no admiten la agrupación entre clases, y los estudiantes de diferentes clases se colocarán en diferentes grupos, incluso si el nombre del grupo es el mismo. Por favor, confirme si procede con la importación.",
+    "description": "groupstrideoverclass"
+  },
+  "peertimenotnull": {
+    "message": "Por favor, introduzca el plazo de evaluación mutua",
+    "description": "peertimenotnull"
+  },
+  "pleasesetpublishtime": {
+    "message": "Por favor seleccione la hora en que se publicarán los resultados",
+    "description": "pleasesetpublishtime"
+  },
+  "classnogroup": {
+    "message": "No hay agrupaciones",
+    "description": "classnogroup"
+  },
+  "notingroupclass": {
+    "message": "No está en la clase de asignación",
+    "description": "notingroupclass"
+  },
+  "notallowpostattach": {
+    "message": "No se permite cargar archivos adjuntos para tareas",
+    "description": "notallowpostattach"
+  },
+  "homeworksubmitend": {
+    "message": "El trabajo ha llegado al final de la presentación",
+    "description": "homeworksubmitend"
+  },
+  "homeworkhadsubmit": {
+    "message": "¡La tarea ha sido enviada y no se puede enviar repetidamente!",
+    "description": "homeworkhadsubmit"
+  },
+  "defaultclass": {
+    "description": "defaultclass",
+    "message": "Clase predeterminada"
+  },
+  "withdrawstatuserror": {
+    "description": "withdrawstatuserror",
+    "message": "El estado es incorrecto y no se permite la revocación"
+  },
+  "endtimenotnull": {
+    "description": "endtimenotnull",
+    "message": "Por favor seleccione una fecha límite"
+  },
+  "homeworkhasend": {
+    "description": "homeworkhasend",
+    "message": "La entrega de tareas está cerrada"
+  },
+  "studentandgrouperror": {
+    "description": "studentandgrouperror",
+    "message": "Los estudiantes y los grupos son inconsistentes"
+  },
+  "peerReviewStart": {
+    "description": "peerReviewStart",
+    "message": "La evaluación mutua ha comenzado en la asignación {0}, ¡complete la tarea de evaluación a tiempo!"
+  },
+  "onlydeletemydiscuss": {
+    "description": "onlydeletemydiscuss",
+    "message": "Solo puedes eliminar tus propios comentarios"
+  },
+  "gradepublishbeforepeer": {
+    "description": "gradepublishbeforepeer",
+    "message": "La fecha de publicación de los resultados debe ser posterior a la fecha límite de envío"
+  },
+  "homeworkstarttitle": {
+    "description": "homeworkstarttitle",
+    "message": "La tarea ha comenzado, envíela a tiempo"
+  },
+  "strideovergroup": {
+    "description": "strideovergroup",
+    "message": "Grupos interclasistas"
+  },
+  "endtimebeforenow": {
+    "description": "endtimebeforenow",
+    "message": "La fecha límite de presentación debe ser posterior a la hora actual"
+  },
+  "homeworkreviewedbyteacher": {
+    "description": "homeworkreviewedbyteacher",
+    "message": "Su tarea {0} ha sido calificada"
   }
 }
