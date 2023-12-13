@@ -1585,7 +1585,7 @@
   },
   "peerreviewcountbigthangroupnum": {
     "message": "Le nombre de groupes dans chaque classe doit être supérieur au nombre de devoirs évalués par chaque personne",
-    "description": "小组作业"
+    "description": "autoremarkcantupdate"
   },
   "groupexport": {
     "message": "Modèle d’importation de liste de Assignment_Grouping de groupe",
@@ -1598,5 +1598,157 @@
   "grouplist": {
     "message": "Liste des groupes (avec informations sur les élèves)",
     "description": "小组作业"
+  },
+  "studentId": {
+    "message": "ID d’étudiant",
+    "description": "studentId"
+  },
+  "name": {
+    "message": "Nom",
+    "description": "name"
+  },
+  "className": {
+    "message": "Nom de classe",
+    "description": "className"
+  },
+  "fillingInstructions": {
+    "message": "Instructions :\\n\\\"+\\\"1.Le groupe de numéros d’étudiants est obligatoire, et le nom et le nom de la classe peuvent être vides, mais la colonne ne peut pas être supprimée\\\\n\\\"+\\\"2.Les étudiants qui n’ont pas de compte ou qui ne sont pas dans la classe de ce cours ne peuvent pas être importés\\\\n\\\"+\\\"3.Le regroupement interclasse n’est pas pris en charge, dans la même classe, les étudiants portant le même nom de groupe seront regroupés dans un groupe et il y aura au moins une personne dans chaque groupe. Le nom du groupe peut être personnalisé, par exemple 1 groupe, 2 groupes. \\\\n",
+    "description": "fillingInstructions"
+  },
+  "homeworktitlerepeat": {
+    "message": "S’il y a un devoir portant le même nom dans votre cours, modifiez le titre du devoir",
+    "description": "homeworktitlerepeat"
+  },
+  "gradecantupdate": {
+    "message": "La note complète du devoir ne peut pas être modifiée après sa publication",
+    "description": "gradecantupdate"
+  },
+  "endtimecantupdateafterpeerreview": {
+    "message": "La date limite de remise des devoirs ne peut pas être modifiée après le début de l’évaluation par les pairs",
+    "description": "endtimecantupdateafterpeerreview"
+  },
+  "endtimeafterstart": {
+    "message": "La date limite de soumission doit être ultérieure à l'heure de début de l'exercice",
+    "description": "endtimeafterstart"
+  },
+  "starttimenotnull": {
+    "message": "Veuillez sélectionner l'heure de début de la tâche",
+    "description": "starttimenotnull"
+  },
+  "studentnotingroup": {
+    "message": "Il y a des élèves qui ne sont pas regroupés",
+    "description": "studentnotingroup"
+  },
+  "peerreviewafterend": {
+    "message": "La date limite d'évaluation par les pairs doit être ultérieure à la date limite de soumission",
+    "description": "peerreviewafterend"
+  },
+  "excelnotgroupexcel": {
+    "message": "Le tableau ne fait pas partie du modèle de regroupement, veuillez vérifier",
+    "description": "excelnotgroupexcel"
+  },
+  "thefilewasnotread": {
+    "message": "Le fichier n’a pas été lu",
+    "description": "thefilewasnotread"
+  },
+  "rowcolumndataerror": {
+    "message": "À la ligne {0}, les données de la colonne {1} sont incorrectes",
+    "description": "rowcolumndataerror"
+  },
+  "studentidnotempty": {
+    "message": "La carte d’étudiant ne peut pas être vide",
+    "description": "studentidnotempty"
+  },
+  "groupnamenotempty": {
+    "message": "Le nom du groupe ne peut pas être vide",
+    "description": "groupnamenotempty"
+  },
+  "groupnamemax100": {
+    "message": "Le nom du groupe ne peut pas dépasser 100 caractères",
+    "description": "groupnamemax100"
+  },
+  "notinclassandpass": {
+    "message": "Les élèves ne sont pas dans la classe et ont été automatiquement ignorés",
+    "description": "notinclassandpass"
+  },
+  "groupstrideoverclass": {
+    "message": "Le même nom de groupe existe pour les différentes classes de la liste. Les devoirs de groupe ne prennent pas en charge le regroupement inter-classes, et les élèves de différentes classes seront placés dans des groupes différents, même si le nom du groupe est le même. Veuillez confirmer si vous souhaitez procéder à l’importation ?",
+    "description": "groupstrideoverclass"
+  },
+  "peertimenotnull": {
+    "message": "Veuillez sélectionner une date limite pour l’évaluation par les pairs",
+    "description": "peertimenotnull"
+  },
+  "pleasesetpublishtime": {
+    "message": "Veuillez sélectionner l'heure de publication des résultats",
+    "description": "pleasesetpublishtime"
+  },
+  "classnogroup": {
+    "message": "Il n’y a pas de regroupement",
+    "description": "classnogroup"
+  },
+  "notingroupclass": {
+    "message": "Ne fait pas partie de la classe d’affectation",
+    "description": "notingroupclass"
+  },
+  "notallowpostattach": {
+    "message": "Les pièces jointes ne peuvent pas être téléchargées pour les devoirs",
+    "description": "notallowpostattach"
+  },
+  "homeworksubmitend": {
+    "message": "La mission doit être soumise",
+    "description": "homeworksubmitend"
+  },
+  "homeworkhadsubmit": {
+    "message": "Le devoir a été soumis et il ne peut pas être soumis à plusieurs reprises !",
+    "description": "homeworkhadsubmit"
+  },
+  "defaultclass": {
+    "description": "defaultclass",
+    "message": "Classe par défaut"
+  },
+  "withdrawstatuserror": {
+    "description": "withdrawstatuserror",
+    "message": "Le statut est incorrect et la révocation n’est pas autorisée"
+  },
+  "endtimenotnull": {
+    "description": "endtimenotnull",
+    "message": "Veuillez sélectionner la date limite de soumission"
+  },
+  "homeworkhasend": {
+    "description": "homeworkhasend",
+    "message": "La soumission des devoirs est terminée"
+  },
+  "studentandgrouperror": {
+    "description": "studentandgrouperror",
+    "message": "Les élèves et les groupes sont incohérents"
+  },
+  "peerReviewStart": {
+    "description": "peerReviewStart",
+    "message": "L’évaluation mutuelle a commencé sur le {0} des devoirs, veuillez terminer la tâche d’évaluation à temps !"
+  },
+  "onlydeletemydiscuss": {
+    "description": "onlydeletemydiscuss",
+    "message": "Vous ne pouvez supprimer que vos propres commentaires"
+  },
+  "gradepublishbeforepeer": {
+    "description": "gradepublishbeforepeer",
+    "message": "La date de publication des résultats doit être postérieure à la date limite de soumission"
+  },
+  "homeworkstarttitle": {
+    "description": "homeworkstarttitle",
+    "message": "Le devoir a commencé, veuillez le soumettre à temps"
+  },
+  "strideovergroup": {
+    "description": "strideovergroup",
+    "message": "Groupes inter-classes"
+  },
+  "endtimebeforenow": {
+    "description": "endtimebeforenow",
+    "message": "La date limite de soumission doit être postérieure à l’heure actuelle."
+  },
+  "homeworkreviewedbyteacher": {
+    "description": "homeworkreviewedbyteacher",
+    "message": "Votre devoir a {0} été noté"
   }
 }
