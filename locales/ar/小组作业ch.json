@@ -1585,7 +1585,7 @@
   },
   "peerreviewcountbigthangroupnum": {
     "message": "يجب أن يكون عدد المجموعات في كل فصل أكبر من عدد المهام التي تم تقييمها من قبل كل شخص",
-    "description": "小组作业"
+    "description": "autoremarkcantupdate"
   },
   "groupexport": {
     "message": "قالب استيراد قائمة Assignment_Grouping المجموعة",
@@ -1598,5 +1598,157 @@
   "grouplist": {
     "message": "قائمة المجموعة (مع معلومات الطالب)",
     "description": "小组作业"
+  },
+  "studentId": {
+    "message": "كود الطالب",
+    "description": "studentId"
+  },
+  "name": {
+    "message": "اسم",
+    "description": "name"
+  },
+  "className": {
+    "message": "اسم الفصل",
+    "description": "className"
+  },
+  "fillingInstructions": {
+    "message": "التعليمات:\\n\\\"+\\\"1.مجموعة رقم الطالب مطلوبة، ويمكن أن يكون الاسم واسم الفصل فارغين، ولكن لا يمكن حذف العمود\\\\n\\\"+\\\"2.لا يمكن استيراد الطلاب الذين ليس لديهم حساب أو ليسوا في فصل هذا المقرر الدراسي\\\\n\\\"+\\\"3.التجميع عبر الفصل غير مدعوم، في نفس الفصل، سيتم تجميع الطلاب الذين لديهم نفس اسم المجموعة في مجموعة، وسيكون هناك شخص واحد على الأقل في كل مجموعة. يمكن تخصيص اسم المجموعة ، مثل 1 مجموعة ، 2 مجموعات. \\\\n",
+    "description": "fillingInstructions"
+  },
+  "homeworktitlerepeat": {
+    "message": "في حالة وجود واجب بنفس الاسم في مقررك الدراسي، قم بتعديل عنوان الواجب",
+    "description": "homeworktitlerepeat"
+  },
+  "gradecantupdate": {
+    "message": "لا يمكن تعديل الدرجة الكاملة للمهمة بعد نشرها",
+    "description": "gradecantupdate"
+  },
+  "endtimecantupdateafterpeerreview": {
+    "message": "لا يمكن تعديل الموعد النهائي لتقديم المهام بعد بدء تقييم الأقران",
+    "description": "endtimecantupdateafterpeerreview"
+  },
+  "endtimeafterstart": {
+    "message": "يجب أن يكون وقت استلام الأعمال في وقت لاحق من وقت بدء الواجب",
+    "description": "endtimeafterstart"
+  },
+  "starttimenotnull": {
+    "message": "برجاء اختيار وقت بدء العمل",
+    "description": "starttimenotnull"
+  },
+  "studentnotingroup": {
+    "message": "هناك طلاب غير مجمعين",
+    "description": "studentnotingroup"
+  },
+  "peerreviewafterend": {
+    "message": "يجب أن يكون الموعد النهائي لتقييم الأقران متأخرا عن الموعد النهائي للتقديم",
+    "description": "peerreviewafterend"
+  },
+  "excelnotgroupexcel": {
+    "message": "الجدول ليس جزءا من قالب التجميع ، يرجى التحقق",
+    "description": "excelnotgroupexcel"
+  },
+  "thefilewasnotread": {
+    "message": "لم تتم قراءة الملف",
+    "description": "thefilewasnotread"
+  },
+  "rowcolumndataerror": {
+    "message": "في الصف {0}، العمود {1} البيانات غير صحيحة",
+    "description": "rowcolumndataerror"
+  },
+  "studentidnotempty": {
+    "message": "لا يمكن أن يكونكود الطالب فارغا",
+    "description": "studentidnotempty"
+  },
+  "groupnamenotempty": {
+    "message": "لا يمكن أن يكون اسم المجموعة فارغا",
+    "description": "groupnamenotempty"
+  },
+  "groupnamemax100": {
+    "message": "لا يمكن أن يتجاوز اسم المجموعة 100 حرف",
+    "description": "groupnamemax100"
+  },
+  "notinclassandpass": {
+    "message": "الطلاب ليسوا في الفصل وتم تخطيهم تلقائيا",
+    "description": "notinclassandpass"
+  },
+  "groupstrideoverclass": {
+    "message": "يوجد نفس اسم المجموعة لفئات مختلفة في القائمة. لا تدعم واجبات المجموعة التجميع عبر الصفوف، وسيتم وضع الطلاب في فصول مختلفة في مجموعات مختلفة، حتى إذا كان اسم المجموعة هو نفسه. يرجى تأكيد ما إذا كنت تريد المضي قدما في الاستيراد؟",
+    "description": "groupstrideoverclass"
+  },
+  "peertimenotnull": {
+    "message": "الرجاء اختيار موعد نهائي لكل مراجعة",
+    "description": "peertimenotnull"
+  },
+  "pleasesetpublishtime": {
+    "message": "الرجاء اختيار وقت الإعلان عن النتائج",
+    "description": "pleasesetpublishtime"
+  },
+  "classnogroup": {
+    "message": "لا توجد تجمعات",
+    "description": "classnogroup"
+  },
+  "notingroupclass": {
+    "message": "ليس في فئة الواجب",
+    "description": "notingroupclass"
+  },
+  "notallowpostattach": {
+    "message": "لا يسمح بتحميل المرفقات للمهام",
+    "description": "notallowpostattach"
+  },
+  "homeworksubmitend": {
+    "message": "المهمة مستحقة للتقديم",
+    "description": "homeworksubmitend"
+  },
+  "homeworkhadsubmit": {
+    "message": "تم تقديم المهمة ، ولا يمكن تقديمها بشكل متكرر!",
+    "description": "homeworkhadsubmit"
+  },
+  "defaultclass": {
+    "description": "defaultclass",
+    "message": "الفصل الدراسي الافتراضي"
+  },
+  "withdrawstatuserror": {
+    "description": "withdrawstatuserror",
+    "message": "الحالة غير صحيحة، ولا يسمح بالإلغاء"
+  },
+  "endtimenotnull": {
+    "description": "endtimenotnull",
+    "message": "يرى اختيار الموعد النهائي للتسليم"
+  },
+  "homeworkhasend": {
+    "description": "homeworkhasend",
+    "message": "تم إغلاق تقديم الواجب"
+  },
+  "studentandgrouperror": {
+    "description": "studentandgrouperror",
+    "message": "الطلاب والمجموعات غير متناسقة"
+  },
+  "peerReviewStart": {
+    "description": "peerReviewStart",
+    "message": "بدأ التقييم المتبادل في {0} المهمة ، يرجى إكمال مهمة التقييم في الوقت المحدد!"
+  },
+  "onlydeletemydiscuss": {
+    "description": "onlydeletemydiscuss",
+    "message": "يمكنك فقط حذف تعليقاتك الخاصة"
+  },
+  "gradepublishbeforepeer": {
+    "description": "gradepublishbeforepeer",
+    "message": "لا بد أن يكون وقت الإعلان عن النتائج في وقت لاحق من وقت انتهاء التقديم"
+  },
+  "homeworkstarttitle": {
+    "description": "homeworkstarttitle",
+    "message": "بدأت المهمة ، يرجى تقديمها في الوقت المحدد"
+  },
+  "strideovergroup": {
+    "description": "strideovergroup",
+    "message": "المجموعات عبر الفئات"
+  },
+  "endtimebeforenow": {
+    "description": "endtimebeforenow",
+    "message": "يجب أن يكون الموعد النهائي للتقديم متأخرا عن الوقت الحالي"
+  },
+  "homeworkreviewedbyteacher": {
+    "description": "homeworkreviewedbyteacher",
+    "message": "تم تقدير واجبك {0}"
   }
 }
