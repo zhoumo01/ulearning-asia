@@ -1585,7 +1585,7 @@
   },
   "peerreviewcountbigthangroupnum": {
     "message": "Jumlah kelompok di setiap kelas harus lebih besar dari jumlah tugas yang dievaluasi oleh setiap orang",
-    "description": "小组作业"
+    "description": "autoremarkcantupdate"
   },
   "groupexport": {
     "message": "Templat Impor Daftar Assignment_Grouping Grup",
@@ -1598,5 +1598,157 @@
   "grouplist": {
     "message": "Daftar Grup (dengan informasi siswa)",
     "description": "小组作业"
+  },
+  "studentId": {
+    "message": "NIM",
+    "description": "studentId"
+  },
+  "name": {
+    "message": "Nama lengkap",
+    "description": "name"
+  },
+  "className": {
+    "message": "Nama kelas",
+    "description": "className"
+  },
+  "fillingInstructions": {
+    "message": "Instruksi:\\n\\\"+\\\"1.Grup nomor siswa diperlukan, dan nama serta nama kelas boleh kosong, tetapi kolom tidak dapat dihapus\\\\n\\\"+\\\"2.Siswa yang tidak memiliki akun atau tidak berada di kelas kursus ini tidak dapat diimpor\\\\n\\\"+\\\"3.Pengelompokan lintas kelas tidak didukung, di kelas yang sama, siswa dengan nama grup yang sama akan dikelompokkan ke dalam grup, dan akan ada setidaknya satu orang di setiap grup. Nama grup dapat disesuaikan, seperti 1 grup, 2 grup. \\\\n",
+    "description": "fillingInstructions"
+  },
+  "homeworktitlerepeat": {
+    "message": "Jika ada tugas dengan nama yang sama dalam kursus Anda, ubah judul tugas",
+    "description": "homeworktitlerepeat"
+  },
+  "gradecantupdate": {
+    "message": "Skor penuh tugas tidak dapat diubah setelah dipublikasikan",
+    "description": "gradecantupdate"
+  },
+  "endtimecantupdateafterpeerreview": {
+    "message": "Batas waktu penyerahan tugas tidak dapat diubah setelah penilaian sejawat dimulai",
+    "description": "endtimecantupdateafterpeerreview"
+  },
+  "endtimeafterstart": {
+    "message": "Batas waktu pengiriman harus lebih lambat dari waktu mulai pekerjaan",
+    "description": "endtimeafterstart"
+  },
+  "starttimenotnull": {
+    "message": "Pilih waktu mulai pekerjaan",
+    "description": "starttimenotnull"
+  },
+  "studentnotingroup": {
+    "message": "Ada siswa yang tidak dikelompokkan",
+    "description": "studentnotingroup"
+  },
+  "peerreviewafterend": {
+    "message": "Batas waktu peer review harus lebih lambat dari batas waktu pengiriman",
+    "description": "peerreviewafterend"
+  },
+  "excelnotgroupexcel": {
+    "message": "Tabel bukan bagian dari template pengelompokan, silakan periksa",
+    "description": "excelnotgroupexcel"
+  },
+  "thefilewasnotread": {
+    "message": "File tidak dibaca",
+    "description": "thefilewasnotread"
+  },
+  "rowcolumndataerror": {
+    "message": "Di baris {0}, kolom {1} data salah",
+    "description": "rowcolumndataerror"
+  },
+  "studentidnotempty": {
+    "message": "NIM tidak boleh kosong",
+    "description": "studentidnotempty"
+  },
+  "groupnamenotempty": {
+    "message": "Nama grup tidak boleh kosong",
+    "description": "groupnamenotempty"
+  },
+  "groupnamemax100": {
+    "message": "Nama grup tidak boleh melebihi 100 karakter",
+    "description": "groupnamemax100"
+  },
+  "notinclassandpass": {
+    "message": "Siswa tidak berada di kelas dan telah dilewati secara otomatis",
+    "description": "notinclassandpass"
+  },
+  "groupstrideoverclass": {
+    "message": "Nama grup yang sama ada untuk kelas yang berbeda dalam daftar. Tugas grup tidak mendukung pengelompokan lintas kelas, dan siswa di kelas yang berbeda akan ditempatkan dalam grup yang berbeda, meskipun nama grupnya sama. Harap konfirmasi apakah akan melanjutkan impor?",
+    "description": "groupstrideoverclass"
+  },
+  "peertimenotnull": {
+    "message": "Silahkan pilih waktu selesai penilaian bersama",
+    "description": "peertimenotnull"
+  },
+  "pleasesetpublishtime": {
+    "message": "Silahkan pilih waktu publikasi jawaban",
+    "description": "pleasesetpublishtime"
+  },
+  "classnogroup": {
+    "message": "Tidak ada pengelompokan",
+    "description": "classnogroup"
+  },
+  "notingroupclass": {
+    "message": "Tidak berada di kelas tugas",
+    "description": "notingroupclass"
+  },
+  "notallowpostattach": {
+    "message": "Lampiran tidak diizinkan diunggah untuk tugas",
+    "description": "notallowpostattach"
+  },
+  "homeworksubmitend": {
+    "message": "Penugasan harus diserahkan",
+    "description": "homeworksubmitend"
+  },
+  "homeworkhadsubmit": {
+    "message": "Tugas telah diserahkan, dan tidak dapat diserahkan berulang kali!",
+    "description": "homeworkhadsubmit"
+  },
+  "defaultclass": {
+    "description": "defaultclass",
+    "message": "Kelas default"
+  },
+  "withdrawstatuserror": {
+    "description": "withdrawstatuserror",
+    "message": "Status salah, dan pencabutan tidak diperbolehkan"
+  },
+  "endtimenotnull": {
+    "description": "endtimenotnull",
+    "message": "Silahkan pilih batas waktu kumpul"
+  },
+  "homeworkhasend": {
+    "description": "homeworkhasend",
+    "message": "Pengiriman tugas ditutup"
+  },
+  "studentandgrouperror": {
+    "description": "studentandgrouperror",
+    "message": "Siswa dan kelompok tidak konsisten"
+  },
+  "peerReviewStart": {
+    "description": "peerReviewStart",
+    "message": "Evaluasi bersama telah dimulai pada {0} tugas, harap selesaikan tugas evaluasi tepat waktu!"
+  },
+  "onlydeletemydiscuss": {
+    "description": "onlydeletemydiscuss",
+    "message": "Anda hanya dapat menghapus komentar Anda sendiri"
+  },
+  "gradepublishbeforepeer": {
+    "description": "gradepublishbeforepeer",
+    "message": "Waktu pengumuman hasil harus setelah batas waktu penilaian sesama"
+  },
+  "homeworkstarttitle": {
+    "description": "homeworkstarttitle",
+    "message": "Tugas telah dimulai, harap kirimkan tepat waktu"
+  },
+  "strideovergroup": {
+    "description": "strideovergroup",
+    "message": "Grup lintas kelas"
+  },
+  "endtimebeforenow": {
+    "description": "endtimebeforenow",
+    "message": "Batas waktu pengiriman harus lebih lambat dari waktu saat ini"
+  },
+  "homeworkreviewedbyteacher": {
+    "description": "homeworkreviewedbyteacher",
+    "message": "Tugas Anda {0} dinilai"
   }
 }
