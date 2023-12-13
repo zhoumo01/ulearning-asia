@@ -1585,7 +1585,7 @@
   },
   "peerreviewcountbigthangroupnum": {
     "message": "จํานวนกลุ่มในแต่ละชั้นเรียนต้องมากกว่าจํานวนงานที่ประเมินโดยแต่ละคน",
-    "description": "小组作业"
+    "description": "autoremarkcantupdate"
   },
   "groupexport": {
     "message": "เทมเพลตการนําเข้ารายการ Group Assignment_Grouping",
@@ -1598,5 +1598,157 @@
   "grouplist": {
     "message": "รายชื่อกลุ่ม (พร้อมข้อมูลนักเรียน)",
     "description": "小组作业"
+  },
+  "studentId": {
+    "message": "หมายเลขโรงเรียน",
+    "description": "studentId"
+  },
+  "name": {
+    "message": "ชื่อ",
+    "description": "name"
+  },
+  "className": {
+    "message": "ชื่อชั้นเรียน",
+    "description": "className"
+  },
+  "fillingInstructions": {
+    "message": "คําแนะนํา:\\n\\\"+\\\"1.กลุ่มหมายเลขนักเรียนเป็นสิ่งจําเป็นและชื่อและชื่อชั้นเรียนสามารถเว้นว่างได้ แต่คอลัมน์ไม่สามารถลบได้\\\\n\\\"+\\\"2.นักเรียนที่ไม่มีบัญชีหรือไม่ได้อยู่ในชั้นเรียนของหลักสูตรนี้จะไม่สามารถนําเข้า\\\\n\\\"+\\\"3.ไม่รองรับการจัดกลุ่มข้ามชั้นเรียนในชั้นเรียนเดียวกันนักเรียนที่มีชื่อกลุ่มเดียวกันจะถูกจัดกลุ่มเป็นกลุ่มและจะมีอย่างน้อยหนึ่งคนในแต่ละกลุ่ม ชื่อกลุ่มสามารถกําหนดเองได้ เช่น 1 กลุ่ม 2 กลุ่ม \\\\n",
+    "description": "fillingInstructions"
+  },
+  "homeworktitlerepeat": {
+    "message": "หากมีงานที่มีชื่อเดียวกันในหลักสูตรของคุณ ให้แก้ไขชื่องาน",
+    "description": "homeworktitlerepeat"
+  },
+  "gradecantupdate": {
+    "message": "คะแนนเต็มของงานไม่สามารถแก้ไขได้หลังจากเผยแพร่แล้ว",
+    "description": "gradecantupdate"
+  },
+  "endtimecantupdateafterpeerreview": {
+    "message": "กําหนดเวลาสําหรับการส่งงานไม่สามารถแก้ไขได้หลังจากการประเมินโดยเพื่อนเริ่มขึ้น",
+    "description": "endtimecantupdateafterpeerreview"
+  },
+  "endtimeafterstart": {
+    "message": "ดาวน์โหลดเทมเพลตที่มีรายชื่อนักเรียน",
+    "description": "endtimeafterstart"
+  },
+  "starttimenotnull": {
+    "message": "โปรดเลือกเวลาเริ่มต้นงาน",
+    "description": "starttimenotnull"
+  },
+  "studentnotingroup": {
+    "message": "มีนักเรียนที่ไม่ได้จัดกลุ่ม",
+    "description": "studentnotingroup"
+  },
+  "peerreviewafterend": {
+    "message": "กําหนดเวลาการประเมินโดยเพื่อนจะต้องช้ากว่ากําหนดเวลาการส่ง",
+    "description": "peerreviewafterend"
+  },
+  "excelnotgroupexcel": {
+    "message": "ตารางไม่ได้เป็นส่วนหนึ่งของเทมเพลตการจัดกลุ่มโปรดตรวจสอบ",
+    "description": "excelnotgroupexcel"
+  },
+  "thefilewasnotread": {
+    "message": "ไม่ได้อ่านแฟ้ม",
+    "description": "thefilewasnotread"
+  },
+  "rowcolumndataerror": {
+    "message": "ในแถวที่ {0} คอลัมน์{1}ข้อมูลไม่ถูกต้อง",
+    "description": "rowcolumndataerror"
+  },
+  "studentidnotempty": {
+    "message": "หมายเลขโรงเรียนต้องไม่ว่างเปล่า",
+    "description": "studentidnotempty"
+  },
+  "groupnamenotempty": {
+    "message": "ชื่อกลุ่มต้องไม่ว่างเปล่า",
+    "description": "groupnamenotempty"
+  },
+  "groupnamemax100": {
+    "message": "ชื่อกลุ่มต้องไม่เกิน 100 อักขระ",
+    "description": "groupnamemax100"
+  },
+  "notinclassandpass": {
+    "message": "นักเรียนไม่ได้อยู่ในชั้นเรียนและถูกข้ามไปโดยอัตโนมัติ",
+    "description": "notinclassandpass"
+  },
+  "groupstrideoverclass": {
+    "message": "มีชื่อกลุ่มเดียวกันสําหรับคลาสที่แตกต่างกันในบัญชีรายชื่อ การมอบหมายงานกลุ่มไม่รองรับการจัดกลุ่มข้ามชั้นเรียน และนักเรียนในชั้นเรียนต่างๆ จะอยู่ในกลุ่มต่างๆ แม้ว่าชื่อกลุ่มจะเหมือนกันก็ตาม โปรดยืนยันว่าจะดําเนินการนําเข้าต่อไปหรือไม่?",
+    "description": "groupstrideoverclass"
+  },
+  "peertimenotnull": {
+    "message": "โปรดเลือกกําหนดเวลาสิ้นสุดสําหรับการประเมินร่วมกัน",
+    "description": "peertimenotnull"
+  },
+  "pleasesetpublishtime": {
+    "message": "โปรดเลือกเวลาที่การประกาศผล",
+    "description": "pleasesetpublishtime"
+  },
+  "classnogroup": {
+    "message": "ไม่มีการจัดกลุ่ม",
+    "description": "classnogroup"
+  },
+  "notingroupclass": {
+    "message": "ไม่ได้อยู่ในชั้นเรียนที่ได้รับมอบหมาย",
+    "description": "notingroupclass"
+  },
+  "notallowpostattach": {
+    "message": "ไม่อนุญาตให้อัปโหลดไฟล์แนบสําหรับงาน",
+    "description": "notallowpostattach"
+  },
+  "homeworksubmitend": {
+    "message": "การมอบหมายมีกําหนดส่ง",
+    "description": "homeworksubmitend"
+  },
+  "homeworkhadsubmit": {
+    "message": "ส่งงานแล้วและไม่สามารถส่งซ้ําได้!",
+    "description": "homeworkhadsubmit"
+  },
+  "defaultclass": {
+    "description": "defaultclass",
+    "message": "ชั้นเรียนเริ่มต้น"
+  },
+  "withdrawstatuserror": {
+    "description": "withdrawstatuserror",
+    "message": "สถานะไม่ถูกต้อง และไม่อนุญาตให้เพิกถอน"
+  },
+  "endtimenotnull": {
+    "description": "endtimenotnull",
+    "message": "โปรดเลือกกําหนดเวลาส่ง"
+  },
+  "homeworkhasend": {
+    "description": "homeworkhasend",
+    "message": "การส่งงานถูกปิด"
+  },
+  "studentandgrouperror": {
+    "description": "studentandgrouperror",
+    "message": "นักเรียนและกลุ่มไม่สอดคล้องกัน"
+  },
+  "peerReviewStart": {
+    "description": "peerReviewStart",
+    "message": "การประเมินร่วมกันได้เริ่มต้นขึ้นเมื่อได้รับมอบหมาย{0}โปรดทํางานประเมินให้เสร็จตรงเวลา!"
+  },
+  "onlydeletemydiscuss": {
+    "description": "onlydeletemydiscuss",
+    "message": "คุณสามารถลบได้เฉพาะความคิดเห็นของคุณเองเท่านั้น"
+  },
+  "gradepublishbeforepeer": {
+    "description": "gradepublishbeforepeer",
+    "message": "เวลาประกาศผลต้องหลังจากเวลาสิ้นสุดการประเมินระหว่างเพื่อนร่วมงาน"
+  },
+  "homeworkstarttitle": {
+    "description": "homeworkstarttitle",
+    "message": "การมอบหมายได้เริ่มต้นขึ้นโปรดส่งตรงเวลา"
+  },
+  "strideovergroup": {
+    "description": "strideovergroup",
+    "message": "กลุ่มข้ามชนชั้น"
+  },
+  "endtimebeforenow": {
+    "description": "endtimebeforenow",
+    "message": "กําหนดเวลาส่งผลงานต้องช้ากว่าเวลาปัจจุบัน"
+  },
+  "homeworkreviewedbyteacher": {
+    "description": "homeworkreviewedbyteacher",
+    "message": "งานของคุณ{0}ให้คะแนนแล้ว"
   }
 }
