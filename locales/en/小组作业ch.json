@@ -1585,7 +1585,7 @@
   },
   "peerreviewcountbigthangroupnum": {
     "message": "The number of groups in each class must be greater than the number of assignments evaluated by each person",
-    "description": "小组作业"
+    "description": "autoremarkcantupdate"
   },
   "groupexport": {
     "message": "Group Assignment_Grouping List Import Template",
@@ -1598,5 +1598,157 @@
   "grouplist": {
     "message": "Group List (with student information)",
     "description": "小组作业"
+  },
+  "studentId": {
+    "message": "Student ID",
+    "description": "studentId"
+  },
+  "name": {
+    "message": "Name",
+    "description": "name"
+  },
+  "className": {
+    "message": "Class Name",
+    "description": "className"
+  },
+  "fillingInstructions": {
+    "message": "Instructions:\\n\\\"+\\\"1.The student number group is required, and the name and class name can be blank, but the column cannot be deleted\\\\n\\\"+\\\"2.Students who do not have an account or are not in the class of this course cannot be imported\\\\n\\\"+\\\"3.Cross-class grouping is not supported, in the same class, students with the same group name will be grouped into a group, and there will be at least one person in each group. The group name can be customized, such as 1 group, 2 groups. \\\\n",
+    "description": "fillingInstructions"
+  },
+  "homeworktitlerepeat": {
+    "message": "If there is an assignment with the same name in your course, modify the assignment title",
+    "description": "homeworktitlerepeat"
+  },
+  "gradecantupdate": {
+    "message": "The full score of the assignment cannot be modified after it is published",
+    "description": "gradecantupdate"
+  },
+  "endtimecantupdateafterpeerreview": {
+    "message": "The deadline for submission of assignments cannot be modified after the peer assessment has started",
+    "description": "endtimecantupdateafterpeerreview"
+  },
+  "endtimeafterstart": {
+    "message": "The submission deadline must be later than the start time",
+    "description": "endtimeafterstart"
+  },
+  "starttimenotnull": {
+    "message": "Select a start time",
+    "description": "starttimenotnull"
+  },
+  "studentnotingroup": {
+    "message": "There are students who are not grouped",
+    "description": "studentnotingroup"
+  },
+  "peerreviewafterend": {
+    "message": "The peer evaluation deadline must be later than the submission deadline",
+    "description": "peerreviewafterend"
+  },
+  "excelnotgroupexcel": {
+    "message": "The table is not part of the grouping template, please check",
+    "description": "excelnotgroupexcel"
+  },
+  "thefilewasnotread": {
+    "message": "The file was not read",
+    "description": "thefilewasnotread"
+  },
+  "rowcolumndataerror": {
+    "message": "In row {0}, column {1} data is incorrect",
+    "description": "rowcolumndataerror"
+  },
+  "studentidnotempty": {
+    "message": "Student ID cannot be empty",
+    "description": "studentidnotempty"
+  },
+  "groupnamenotempty": {
+    "message": "Group name cannot be empty",
+    "description": "groupnamenotempty"
+  },
+  "groupnamemax100": {
+    "message": "The group name cannot exceed 100 characters",
+    "description": "groupnamemax100"
+  },
+  "notinclassandpass": {
+    "message": "students are not in the class and have been automatically skipped",
+    "description": "notinclassandpass"
+  },
+  "groupstrideoverclass": {
+    "message": "The same group name exists for different classes in the roster. Group assignments do not support cross-class grouping, and students in different classes will be placed in different groups, even if the group name is the same. Please confirm whether to proceed with the import?",
+    "description": "groupstrideoverclass"
+  },
+  "peertimenotnull": {
+    "message": "Select deadline for peer evaluation",
+    "description": "peertimenotnull"
+  },
+  "pleasesetpublishtime": {
+    "message": "Please select the time when the results will be announced",
+    "description": "pleasesetpublishtime"
+  },
+  "classnogroup": {
+    "message": "There are no groupings",
+    "description": "classnogroup"
+  },
+  "notingroupclass": {
+    "message": "Not in the assignment class",
+    "description": "notingroupclass"
+  },
+  "notallowpostattach": {
+    "message": "Attachments are not allowed to be uploaded for assignments",
+    "description": "notallowpostattach"
+  },
+  "homeworksubmitend": {
+    "message": "The assignment is due for submission",
+    "description": "homeworksubmitend"
+  },
+  "homeworkhadsubmit": {
+    "message": "The assignment has been submitted, and it cannot be submitted repeatedly!",
+    "description": "homeworkhadsubmit"
+  },
+  "defaultclass": {
+    "description": "defaultclass",
+    "message": " Default class "
+  },
+  "withdrawstatuserror": {
+    "description": "withdrawstatuserror",
+    "message": "The status is incorrect, and revocation is not allowed"
+  },
+  "endtimenotnull": {
+    "description": "endtimenotnull",
+    "message": "Set the due date"
+  },
+  "homeworkhasend": {
+    "description": "homeworkhasend",
+    "message": "Assignment submission is closed"
+  },
+  "studentandgrouperror": {
+    "description": "studentandgrouperror",
+    "message": "Students and groups are inconsistent"
+  },
+  "peerReviewStart": {
+    "description": "peerReviewStart",
+    "message": "Mutual evaluation has started on assignment {0}, please complete the evaluation task on time!"
+  },
+  "onlydeletemydiscuss": {
+    "description": "onlydeletemydiscuss",
+    "message": "You can only delete your own comments"
+  },
+  "gradepublishbeforepeer": {
+    "description": "gradepublishbeforepeer",
+    "message": "Results must be released later than the Peer Assessment Deadline"
+  },
+  "homeworkstarttitle": {
+    "description": "homeworkstarttitle",
+    "message": "The assignment has started, please submit it on time"
+  },
+  "strideovergroup": {
+    "description": "strideovergroup",
+    "message": "Cross-class groups"
+  },
+  "endtimebeforenow": {
+    "description": "endtimebeforenow",
+    "message": "The submission deadline must be later than the current time"
+  },
+  "homeworkreviewedbyteacher": {
+    "description": "homeworkreviewedbyteacher",
+    "message": "Your assignment has {0} been graded"
   }
 }
