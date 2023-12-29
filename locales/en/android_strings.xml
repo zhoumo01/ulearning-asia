@@ -23,15 +23,12 @@
 
     <string name="toast_please_check_if_the_SD_card_is_inserted">Please check if the SD card is inserted properly!</string>
     <!--<string name="telphone">400 610 7808</string>-->
-    <string name="dialog_ok">@string/know</string>
     <string name="dialog_quit" formatted="false">Logging out (%s)</string>
     <string name="dialog_confirm">Confirm</string>
-    <string name="dialog_delete">@string/delete</string>
     <string name="dialog_cancel">Cancel</string>
     <string name="dialog_ask_logout">Want to log out?</string>
     <string name="normal_logout">Log out</string>
 
-    <string name="iknow">@string/know</string>
     <string name="know">Got It!</string>
     <string name="cancel">Cancel</string>
     <string name="ok">Ok</string>
@@ -284,7 +281,6 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="hint_input_pwd_please">Enter the password</string>
     <string name="hint_input_pwd">Enter the old password</string>
     <string name="hint_input_new_pwd">Enter the new password</string>
-    <string name="hint_input_new_pwd_rule">Password must be 8-16 characters and must contain letters and numbers (case sensitive)</string>
     <string name="hint_input_new_pwd_again">Enter the new password again</string>
     <string name="hint_input_class_name">Enter the class name</string>
     <string name="hint_input_course_name">Enter the course name</string>
@@ -308,13 +304,8 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="hint_classname_input_require">2-30 characters, no special characters except underscore _ and hyphen -</string>
     <string name="hint_classcode_input_require">6-20 characters, no special characters except underscore _ and hyphen -</string>
     <string name="hint_classyear_input_require">Enter in the year in the format of yyyy (for exam 2021)</string>
-    <string name="hint_classname_modify_success">@string/modify_success</string>
-    <string name="hint_classcode_modify_success">@string/modify_success</string>
-    <string name="hint_classyear_modify_success">@string/modify_success</string>
     <string name="hint_chat_message_copy_success">Duplicated successfully!</string>
     <string name="hint_copy_to_clipboard">Duplicated successfully!</string>
-    <string name="hint_pwd_modify_success">@string/modify_success</string>
-    <string name="hint_pwd_modify_fail">@string/modify_fail</string>
     <string name="hint_class_member_empty">No students in the class - Ask the students to use the class code or the teacher’s name  to search for the class to enroll</string>
     <string name="hint_first_page">Already the first page</string>
     <string name="hint_time_out">Time up</string>
@@ -343,7 +334,6 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="hint_course_empty">No courses found!</string>
     <string name="hint_choose_teach_course">Select Courseware</string>
     <string name="hint_choose_course_cover">Select a course cover</string>
-    <string name="hint_modify_personal_info_fail">@string/modify_fail</string>
     <string name="hint_quit_class_info">After withdrawing the course, you will not be able to view the activities related to the class, such as assignments, exams, etc. Are you sure you want to withdraw?</string>
     <string name="hint_quit_class_success">Successfully withdrawn!</string>
     <string name="hint_quit_class_fail">Failed to withdraw!</string>
@@ -363,7 +353,6 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="warning_old_pwd_null">Enter the old password</string>
     <string name="warning_old_pwd_input_error">Incorrect old password!</string>
     <string name="warning_pwd_disagree">Passwords don’t match</string>
-    <string name="warning_pwd_type">New password must contain letters and numbers</string>
     <string name="warning_course_no_desc">No course introduction information</string>
     <string name="warning_not_preview_file">Previewing the file is not currently supported \n You can use other apps to open</string>
     <string name="warning_course_resource_download_studyrecord">After the courseware is cached, it will no longer consume data traffic when playing media resources! Clearing the cached resources that have been learned will not affect your learning scores.</string>
@@ -454,8 +443,6 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="size_g">GB</string>
     <string name="loading">Loading...</string>
     <string name="activing">Activating...</string>
-    <string name="loading1">@string/loading</string>
-    <string name="loading_wait">@string/loading</string>
     <string name="updating">Updating...</string>
     <string name="creating_chat">Creating chat...</string>
     <string name="loading_course">Loading course...</string>
@@ -484,7 +471,6 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="pop_course_new_announcement">Latest Announcement</string>
     <string name="pop_course_menu_delete_course">Delete Course</string>
 
-    <string name="setup_menu_modify_pwd">@string/page_title_modify_pwd</string>
     <string name="setup_menu_only_wifi_download">Download/upload via Wi-Fi only </string>
     <string name="setup_menu_check_version">Check New Version</string>
 
@@ -630,8 +616,6 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="toast_please_choose_class_course">Please select the courseware for the class</string>
     <string name="toast_create_class_fail">Failed to create!</string>
     <string name="toast_change_course_fail">Failed to edit!</string>
-    <string name="toast_course_update_success">@string/modify_success</string>
-    <string name="toast_update_fail">@string/modify_fail</string>
 
     <string name="toast_delete_success">Deleted successfully!</string>
     <string name="toast_delete_success1">Removed successfully!</string>
@@ -647,7 +631,6 @@ Please note that deletinging an account is an unrecoverable operation, so please
 
     <string name="active_status_attendancing">Roll call in progress</string>
     <string name="active_tag_student_hp">Peer Review</string>
-    <string name="active_tag_growth">@string/growth</string>
     <string name="active_tab_all">All</string>
     <string name="active_tab_all_tea">All teachers</string>
     <string name="active_tab_work">Assignments</string>
@@ -713,10 +696,6 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="resource_first_remind_3">2. You can set the access permission and allow selected classes to access.</string>
     <string name="resource_first_remind_4">Added access permission settings</string>
 
-    <string name="activity_more_menu_vote">@string/active_tab_vote</string>
-    <string name="activity_more_menu_attendance">@string/active_tab_attendance</string>
-    <string name="activity_more_menu_interlocution">@string/active_tab_interlocution</string>
-
     <string name="file_tab_doc">Documents</string>
     <string name="file_tab_video">Videos</string>
     <string name="file_tab_pic">Images</string>
@@ -746,10 +725,9 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="course_app_live">Live Sessions</string>
     <string name="course_app_class">Classroom</string>
     <string name="course_app_test">Exams</string>
-    <string name="course_app_exam">Grades</string>
+    <string name="course_app_assess">Analysis</string>
     <string name="course_app_words">Vocabulary Dictation</string>
     <string name="course_app_speak">Spoken English Test</string>
-    <string name="course_app_assess">Analysis</string>
     <string name="course_app_member">Members</string>
 
     <string name="course_home_course_textbook">Courseware</string>
@@ -921,7 +899,8 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="login_password">Enter your password</string>
     <string name="login_register">Register</string>
     <string name="login_forget_password">Forgot password?</string>
-    <string name="login_forget_password_line"><u>忘记密码?</u></string>
+    <string name="login_forget_password_line">
+        <u>忘记密码?</u>&lt;string name=&quot;login_forget_password_line&quot;&gt;&lt;u&gt;忘记密码?&lt;/u&gt;&lt;/string&gt;</string>
     <string name="register_activity_title">Register</string>
 
     <string name="register_stu">I am a student</string>
@@ -1031,7 +1010,6 @@ Please note that deletinging an account is an unrecoverable operation, so please
 
     <string name="comment_activity_comment_compose">Add Comment</string>
     <string name="comment_activity_comment_my_compose">My Comments</string>
-    <string name="comment_activity_more">@string/more</string>
     <string name="comment_compose_create_activity_title">Add Comment</string>
     <string name="comment_compose_reply_activity_title">Reply</string>
     <string name="comment_compose_send">Post</string>
@@ -1072,8 +1050,6 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="speaking_item2">2. You can practice when you are offline. But your recordings cannot be uploaded. After you are online, click the Synchronize Learning Records link to upload your recordings and learning records.</string>
 
     <string name="main_menu_item_selectcourse">Select Courseware</string>
-    <string name="main_top_activecourse">@string/activate_course</string>
-    <string name="main_menu_class">@string/classs</string>
     <string name="main_top_buycourse">Purchase Courseware</string>
 
     <string name="remind_no_courseactive">Nothing found here~\n Activate courseware now</string>
@@ -1184,7 +1160,6 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="permission_string_help_text">Unable to access the microphone - Either the microphone access is not turned on or the microphone is in use. \nPlease enable the access or release the microphone in use, and then try again</string>
     <string name="permission_camera_string_help_text">Unable to access the camera - Please enable camera access for ULearning app!</string>
     <string name="permission_hint">Access Note</string>
-    <string name="permission_btn_ok">@string/iknow</string>
 
 
     <string name="filter_vcode" translatable="false">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
@@ -1212,13 +1187,8 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="course_app_live_space">   Live Sessions   </string>
     <string name="course_app_class_space">   Classroom   </string>
 
+
     <!-- 播放器提示内容 -->
-    <string name="no_net">@string/warning_network_break</string>
-    <string name="tips_not_wifi">@string/hint_no_connect_wifi_ask_play_video</string>
-    <string name="tips_not_wifi_confirm">@string/operation_go_on</string>
-    <string name="tips_not_wifi_cancel">@string/dialog_cancel</string>
-
-
     <string name="area_select_title">Select Region</string>
     <string name="area_select_latin_america">Latin America</string>
     <string name="area_select_asia_pacific">Asia Pacific</string>
@@ -1323,7 +1293,8 @@ Please note that deletinging an account is an unrecoverable operation, so please
 
     <string name="file_type_not_support">Unsupported file type</string>
 
-    <!--custom multipleimageselect -->
+    <!--custom
+    multipleimageselect -->
     <string name="album_view">Select Image</string>
     <string name="image_view">Tap to select</string>
 
@@ -1449,13 +1420,13 @@ Please note that deletinging an account is an unrecoverable operation, so please
 
     <string name="permission_apply">Access Request</string>
     <string name="permission_overlay">ULearning needs access permission to screen overlay on your device to use the following features: \n\nCasting, Live session (video conferencing)</string>
-    <string name="permission_read_external">ULearning needs access permission to storage on your device to use the following feature(s): \n\nReading app cache data, pictures, and documents</string>
     <string name="permission_camera">ULearning needs access permission to camera on your device to use the following features: \n\n Scanning, uploading/updating profile photo, using camera taking photos for announcements, polls, assignments, exams, etc., face verification, camera monitoring, video conferencing, etc.</string>
     <string name="permission_location">ULearning needs access permission to location services on your device to use the following features: roll calls, exams, and screen casting.</string>
     <string name="permission_microphone">ULearning needs access permission to microphone on your device to use the following features: \n\n Spoken English practice, Spoken English assignments, vocabulary dictation, Spoken English tests, video conferencing, etc.</string>
     <string name="permission_camera_fail">ULearning needs access to camera to use this function - Please enable it in Settings for ULearning</string>
     <string name="permission_microphone_fail">ULearning needs access to microphone to use this function - Please enable it in Settings for ULearning</string>
     <string name="permission_location_fail">ULearning needs access to location service to use this function - Please enable it in Settings for ULearning</string>
+    <string name="permission_read_external">ULearning needs access permission to storage on your device to use the following feature(s): \n\nReading app cache data, pictures, and documents</string>
     <string name="permission_read_storage_fail">ULearning needs access to storage to use this function - Please enable it in Settings for ULearning</string>
     <string name="permission_camera_microphone_fail">ULearning needs access to camera and microphone to use this function - Please enable them in Settings for ULearning</string>
 
@@ -1474,6 +1445,7 @@ Please note that deletinging an account is an unrecoverable operation, so please
 
     <string name="not_run_on_virtualmachine">Do not run the app in a virtual machine/simulator</string>
 
+    <string name="not_group_score_announced">Results unpublished</string>
     <string name="screen_msg">Instable network may cause the screen casting to be lost. If the mobile device\'s screen is not displayed on the big screen for a long time, you can stop and cast the screen again.</string>
     <string name="screen_device">Device</string>
     <string name="screen_network">Network</string>
@@ -1510,6 +1482,8 @@ Please note that deletinging an account is an unrecoverable operation, so please
     <string name="crop_cancel">Cancel</string>
     <string name="crop_rotate">Rotate</string>
 
+    <string name="warning_pwd_type">New password must contain letters and numbers</string>
+    <string name="hint_input_new_pwd_rule">Password must be 8-16 characters and must contain letters and numbers (case sensitive)</string>
     <string name="token_expired_msg">The login information has expired, please log in again</string>
     <string name="manual_login">Please log out and log in manually</string>
     <string name="course_app_units">Modules</string>
