@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">UClass</string>
     <string name="app_name_2">人民数字马院</string>
     <string name="version_update">版本更新</string>
@@ -17,6 +17,7 @@
     <string name="device">com.zzy.ulearning01.DeviceName</string>
 
 
+    <!--    分组研讨-->
     <string name="nav_broad">屏幕廣播</string>
     <string name="broading">廣播中</string>
     <string name="stop_broad">取消廣播</string>
@@ -56,6 +57,7 @@
     <string name="title">提示</string>
 
 
+    <!--    ABC为占位字符，请放于合适的位置-->
     <string name="click_connect_again">有小組屏離線，請讓學生打開小組屏UClass。 \n如果小組屏UClass已打開，請ABC連接小組屏。</string>
     <string name="ABC">點擊此處重新</string>
 
@@ -74,6 +76,7 @@
     <string name="connect_interrupt_msg">廣播小組屏失敗，請檢查小組屏是否在線後重試。在小組屏UClass界面點擊\&quot;故障檢測\&quot;查看小組屏狀態並按照幫助提示進行操作</string>
 
 
+    <!--    白板相关-->
     <string name="wb_tool_name_pen">畫筆</string>
     <string name="wb_tool_name_eraser">橡皮擦</string>
     <string name="wb_tool_name_select">圈選</string>
@@ -164,9 +167,11 @@
     <string name="language_in">Indonesia</string>
     <string name="language_th">ภาษาไทย</string>
     <string name="language_zh">繁體中文</string>
+    <string name="language_fr">Français</string>
     <string name="ethiopia">埃塞俄比亞</string>
 
 
+    <!--    20230410翻译新增-->
     <string name="app_name_3">UClass多屏互動</string>
     <string name="watch_stu_screen">正在觀看小組</string>
     <string name="license_0">已啟動</string>
@@ -209,15 +214,17 @@
     <string name="update_version" formatted="false">更新版本可用：UClass%s，是否更新？</string>
     <string name="is_new_version">當前版本是最新版本</string>
 
+    <!--    自动广播需求-->
     <string name="auto_broadcast_tea_screen">自動廣播教師屏</string>
     <string name="stu_screen_offline_reminder">如果有小組屏離線，請檢查小組屏UClass用戶端是否打開。</string>
     <string name="groups_checking">檢測中...</string>
     <string name="groups_off_line">離線</string>
     <string name="groups_on_line">在線</string>
-    <string name="auto_staring">啟動...</string>
+    <string name="auto_staring" tools:ignore="TypographyEllipsis">啟動...</string>
     <string name="auto_start_success">啟動成功！ 正在廣播教師屏至小組屏。</string>
     <string name="auto_start_fail">啟動失敗！ 請點擊右側「螢幕廣播」按鈕手動開啟廣播。</string>
 
+    <!--    投屏界面优化需求 -->
     <string name="classroom_lan">教室局域網</string>
     <string name="yxy_app_name">優學院</string>
     <string name="idea_share">投影</string>
