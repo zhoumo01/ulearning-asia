@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">UClass</string>
     <string name="app_name_2">人民数字马院</string>
     <string name="version_update">Mise à jour version</string>
@@ -17,6 +17,7 @@
     <string name="device">com.zzy.ulearning01.DeviceName</string>
 
 
+    <!--    分组研讨-->
     <string name="nav_broad">Diffusion sur écran</string>
     <string name="broading">Radiodiffusion</string>
     <string name="stop_broad">Sortie de diffusion</string>
@@ -56,6 +57,7 @@
     <string name="title">Indice</string>
 
 
+    <!--    ABC为占位字符，请放于合适的位置-->
     <string name="click_connect_again">Si l’écran de groupe est hors ligne, demandez aux élèves d’ouvrir le logiciel d’écran de groupe UClass. \n Si l’écran de groupe UClass a été ouvert, veuillez ABC l’écran de groupe.</string>
     <string name="ABC">Cliquez ici pour refaire</string>
 
@@ -74,6 +76,7 @@
     <string name="connect_interrupt_msg">Impossible de diffuser l’écran du groupe. Veuillez vérifier si l’écran groupe est en ligne et réessayer. Cliquez sur \&quot; détection de défaut \&quot; sur l’interface UClass de l’écran de groupe pour afficher l’état de l’écran de groupe et opérer selon les conseils d’aide</string>
 
 
+    <!--    白板相关-->
     <string name="wb_tool_name_pen">Stylo</string>
     <string name="wb_tool_name_eraser">Gomme à effacer</string>
     <string name="wb_tool_name_select">Cercle-sélectionner</string>
@@ -164,9 +167,11 @@
     <string name="language_in">Indonesia</string>
     <string name="language_th">ภาษาไทย</string>
     <string name="language_zh">繁體中文</string>
+    <string name="language_fr">Français</string>
     <string name="ethiopia">Ethiopie en</string>
 
 
+    <!--    20230410翻译新增-->
     <string name="app_name_3">UClass interactif multi-écrans</string>
     <string name="watch_stu_screen">Regardez le groupe maintenant</string>
     <string name="license_0">A été activé</string>
@@ -209,15 +214,17 @@
     <string name="update_version" formatted="false">Nouvelle version disponible: UClass%s, vous voulez mettre à jour?</string>
     <string name="is_new_version">La version actuelle est la dernière version</string>
 
+    <!--    自动广播需求-->
     <string name="auto_broadcast_tea_screen">Diffusion automatique de l’écran enseignant</string>
     <string name="stu_screen_offline_reminder">Si un écran de groupe est hors ligne, vérifiez que l’écran de groupe UClass client est ouvert.</string>
     <string name="groups_checking">En détection...</string>
     <string name="groups_off_line">off-line</string>
     <string name="groups_on_line">En ligne</string>
-    <string name="auto_staring">Lancement en cours...</string>
+    <string name="auto_staring" tools:ignore="TypographyEllipsis">Lancement en cours...</string>
     <string name="auto_start_success">Lancement réussi! Diffuse l’écran du Professeur À l’écran du groupe.</string>
     <string name="auto_start_fail">Échec du démarrage! Veuillez cliquer sur le bouton &quot;screencast&quot; à droite pour activer la diffusion manuellement.</string>
 
+    <!--    投屏界面优化需求 -->
     <string name="classroom_lan">Lan en salle</string>
     <string name="yxy_app_name">Ulearning</string>
     <string name="idea_share">Vote des écrans</string>
