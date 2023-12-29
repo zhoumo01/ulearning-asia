@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">UClass</string>
     <string name="app_name_2">人民数字马院</string>
     <string name="version_update"> تحديث الإصدار </string>
@@ -17,6 +17,7 @@
     <string name="device">com.zzy.ulearning01.DeviceName</string>
 
 
+    <!--    分组研讨-->
     <string name="nav_broad">بث الشاشة</string>
     <string name="broading">البث</string>
     <string name="stop_broad">الخروج من البث</string>
@@ -56,6 +57,7 @@
     <string name="title">ملحوظة</string>
 
 
+    <!--    ABC为占位字符，请放于合适的位置-->
     <string name="click_connect_again">إذا كانت شاشة المجموعة غير متصلة بالإنترنت ، فيرجى مطالبة الطلاب بفتح برنامج شاشة المجموعة UClass.\nإذا تم فتح UClass شاشة المجموعة ، يرجى ABC شاشة المجموعة.</string>
     <string name="ABC">انقر هنا لإعادة الاتصال</string>
 
@@ -74,6 +76,7 @@
     <string name="connect_interrupt_msg">فشل بث شاشة المجموعة ، يرجى التحقق مما إذا كانت شاشة المجموعة متصلة بالإنترنت والمحاولة مرة أخرى. انقر فوق &quot;\اكتشاف الأخطاء&quot;\ على شاشة المجموعة UClass واجهة لعرض حالة شاشة المجموعة واتباع مطالبات المساعدة</string>
 
 
+    <!--    白板相关-->
     <string name="wb_tool_name_pen">أداة الرسم</string>
     <string name="wb_tool_name_eraser">مساحة</string>
     <string name="wb_tool_name_select">تحديد الدائرة</string>
@@ -164,9 +167,11 @@
     <string name="language_in">Indonesia</string>
     <string name="language_th">ภาษาไทย</string>
     <string name="language_zh">繁體中文</string>
+    <string name="language_fr">Français</string>
     <string name="ethiopia">أثيوبيا</string>
 
 
+    <!--    20230410翻译新增-->
     <string name="app_name_3">تفاعل UClass متعدد الشاشات</string>
     <string name="watch_stu_screen">مشاهدة المجموعة</string>
     <string name="license_0">تنشيط</string>
@@ -209,15 +214,17 @@
     <string name="update_version" formatted="false">تحديث الإصدار المتاح: UClass٪ s ، محدث أم لا؟</string>
     <string name="is_new_version">الإصدار الحالي هو أحدث إصدار</string>
 
+    <!--    自动广播需求-->
     <string name="auto_broadcast_tea_screen">بث شاشة المعلم تلقائيا</string>
     <string name="stu_screen_offline_reminder">إذا كانت شاشة المجموعة غير متصلة بالإنترنت، فتحقق مما إذا كان عميل UClass قيد التشغيل.</string>
     <string name="groups_checking">الكشف عن...</string>
     <string name="groups_off_line">غير متصل بالانترنت</string>
     <string name="groups_on_line">متصل بالانترنت</string>
-    <string name="auto_staring">بدء...</string>
+    <string name="auto_staring" tools:ignore="TypographyEllipsis">بدء...</string>
     <string name="auto_start_success">بدأت بنجاح! بث شاشة المعلم إلى شاشة المجموعة.</string>
     <string name="auto_start_fail">فشل الإطلاق! الرجاء النقر فوق الزر &quot;بث الشاشة&quot; على اليمين لتشغيل البث يدويا.</string>
 
+    <!--    投屏界面优化需求 -->
     <string name="classroom_lan">الشبكة المحلية للفصول الدراسية</string>
     <string name="yxy_app_name">ULearning</string>
     <string name="idea_share">عرض على الشاشة</string>
