@@ -2,12 +2,1388 @@
 <resources>
 
     //汇总成绩说明
-    <string name="remind_set_class">Pengaturan</string>
-    <string name="remind_select_course">Impor</string>
-    <string name="remind_add_teacher">Menambahkan</string>
+    <string name="app_name">ULearning</string>
+    <string name="app_name_debug">ULearning-D</string>
+    <string name="chat_press_talk">tekan dan tahan untuk berbicara</string>
+    <string name="chat_release_send">lepaskan bagian akhir</string>
+    <string name="chat_image">gambar</string>
+    <string name="chat_file">file</string>
+    <string name="chat_photo">menembak</string>
+    <string name="chat_video">video kecil</string>
+    <string name="time_yesterday">kemarin</string>
+    <string name="time_day">hari</string>
+    <string name="time_month">bulan</string>
+    <string name="time_year">tahun</string>
+    <string name="now_ready_data">Data courseware sedang disiapkan, harap tunggu.</string>
+    <string name="server_error">Sistem sedang dalam proses pemeliharaan, silahkan dicoba kembali</string>
+    <string name="toast_other_lesson_progress" formatted="false">Sedang menyimpan mata kuliah ke dalam cache %s/%s</string>
+    <string name="toast_please_check_if_the_SD_card_is_inserted">Silahkan periksa apakah karu SD telah dipasang dengan baik!</string>    <!--<string name="telphone">400 610 7808</string>-->
+    <string name="dialog_quit" formatted="false">Keluar(%s)</string>
+    <string name="dialog_confirm">Setuju</string>
+    <string name="dialog_cancel">Batal</string>
+    <string name="dialog_ask_logout">Apakah ingin keluar?</string>
+    <string name="normal_logout">Keluar</string>
+    <string name="know">Ya, sudah tahu</string>
+    <string name="cancel">Batal</string>
+    <string name="ok">Baik</string>
+    <string name="leave">Tinggalkan</string>
+    <string name="continue_to_create">Lanjut membuat</string>
+    <string name="today">Hari ini</string>
+    <string name="mult_select">Pilih</string>
+    <string name="operation_save">Simpan</string>
+    <string name="operation_create">Buat</string>
+    <string name="operation_create_course">Buat mata kuliah</string>
+    <string name="operation_create_course_next">Selanjutnya</string>
+    <string name="operation_create_course_code">Scan untuk masuk ke dalam mata kuliah kelas</string>
+    <string name="scan_qrcode">kode pindai</string>
+    <string name="operation_download">Unduh</string>
+    <string name="operation_goon_study">Lanjutkan! Saya memiliki perak</string>
+    <string name="operation_not_study">Sudahlah</string>
+    <string name="operation_go_on_download">Lanjut mengunduh</string>
+    <string name="operation_send">Kirim</string>
+    <string name="operation_send_message">Kirim informasi</string>
+    <string name="operation_archive">Simpan ke dalam arsip</string>
+    <string name="operation_quit_account">Keluar</string>
+    <string name="operation_quit_class">Keluar dari kelas</string>
+    <string name="operation_delete_class">Hapus kelas</string>
+    <string name="operation_student_list_sort_change">Ganti</string>
+    <string name="operation_go_on_study">Lanjut belajar</string>
+    <string name="operation_course_download_clear_all">Hapus semua</string>
+    <string name="operation_change_telphone">Ganti nomor ponsel</string>
+    <string name="operation_relevance_telphone">Hubungkan nomor ponsel</string>
+    <string name="operation_get_verification_code">Dapatkan</string>
+    <string name="operation_download_all">Unduh semua</string>
+    <string name="operation_reject_all">Tolak semua</string>
+    <string name="operation_agree_all">Setuju semua</string>
+    <string name="operation_reject">Tolak</string>
+    <string name="operation_agree">Setuju</string>
+    <string name="operation_start_study">Mulai belajar</string>
+    <string name="operation_progress">Nilai progres</string>
+    <string name="operation_look_progress">Lihat nilai progres</string>
+    <string name="icourse_resource" translatable="false">Courseware ini disediakan oleh [Love Course], silakan cek statistik courseware dari komputer</string>
+    <string name="icourse_resource_student" translatable="false">Sumber daya dan data courseware disediakan oleh 【Kursus Cinta】</string>
+    <string name="operation_go_study">Emma~kembali dan teruskan belajar</string>
+    <string name="operation_go_study_to_next_page">Masuk ke halaman berikutnya</string>
+    <string name="operation_go_study_course">Masuk ke dalam mata kuliah</string>
+    <string name="operation_start_answer">Mulai menjawab pertanyaan</string>
+    <string name="operation_refresh_page">Refresh</string>
+    <string name="operation_relogin">Login ulang</string>
+    <string name="operation_check_grade">Lihat nilai</string>
+    <string name="operation_check_all">Lihat semua</string>
+    <string name="operation_check_all_close">Simpan</string>
+    <string name="operation_join_class">Tambah kelas</string>
+    <string name="operation_join_class_course">Ikut bergabung</string>
+    <string name="operation_join">Ikut bergabung</string>
+    <string name="operation_welcome">Selamat datang</string>
+    <string name="operation_create_class">Membuat kelas</string>
+    <string name="operation_revocation_apply">Permohonan pembatalan</string>
+    <string name="operation_re_apply">Permohonan ulang</string>
+    <string name="operation_revocation">Batal</string>
+    <string name="please_permission">Ijin belum dibuka</string>
+    <string name="operation_not_download">Jangan diunduh terlebih dahulu</string>
+    <string name="operation_cancel_download">Batalkan pengunduhan</string>
+    <string name="operation_forward_download">Unduh</string>
+    <string name="operation_go_on">Lanjut</string>
+    <string name="operation_redo">Buat ulang</string>
+    <string name="operation_cancel_collect">Batalkan penyimpanan</string>
+    <string name="operation_course_spoken_goon_study">Terus belajar</string>
+    <string name="operation_course_spoken_leave_study">Keluar dari halaman ini</string>
+    <string name="course_practice_remind_text_once">Tes ini hanya boleh dilakukan 1 kali saja</string>
+    <string name="course_practice_word_score">poin</string>
+    <string name="please_set_the_recording_permission">Silahkan atur akeses rekaman suara!</string>
+    <string name="please_set_the_video_and_photo_permissions">Silahkan atur akses rekaman video dan foto! </string>
+    <string name="the_recording_failure">Rekaman suara gagal</string>
+    <string name="loading_record_component">Sedang memuat ulang komponen rekaman suara</string>
+    <string name="capture_light_dark">\n Terlalu gelap, mohon nyalakan flash</string>
+    <string name="loading_record_component_fail">Gagal memuat ulang komponen rekaman suara</string>
+    <string name="microphone_permissions_are_not_allowed">Akses mikrofon belum diperbolehkan</string>
+    <string name="cache_data_failed">Data cache gagal</string>
+    <string name="cache_data_null">Tidak ada data cache</string>
+    <string name="request_failed">Permintaan gagal</string>
+    <string name="link_server_failed">Gagal terhubung ke server, silahkan coba kembali</string>
+    <string name="page_not_found">Halaman web tidak dapat ditemukan</string>
+    <string name="the_teacher_invited_you_to_join_the_class">Guru mengundang anda untuk ikut bergabung ke dalam kelas</string>
+    <string name="back_umooc">Kembali ke Ulearning</string>
+    <string name="wait_complete">Dilengkapi nanti</string>
+    <string name="skip_setup">Lewati pengaturan&gt;&gt;</string>
+    <string name="complete_your_course">Lengkapi mata kuliah anda</string>
+    <string name="change_your_course">Revisi informasi mata kuliah</string>
+    <string name="select_your_school">Pilih fakultas</string>
+    <string name="team_teaching">Pengajaran kelompok</string>
+    <string name="personal_teaching">Pengajaran individu</string>
+    <string name="net_is_broken">Internet terputus</string>
+    <string name="login_style">Metode login lainnya</string>
+    <string name="close">Tutup</string>
+    <string name="play">Mainkan</string>
+    <string name="change">Ganti</string>
+    <string name="classs">Kelas</string>
+    <string name="type">Jenis</string>
+    <string name="more">Lebih banyak</string>
+    <string name="move">Geser</string>
+    <string name="rename">Penamaan ulang</string>
+    <string name="access_right">Hak akses</string>
+    <string name="modify_resource">Revisi sumber</string>
+    <string name="immediate_experience">Segera mencoba</string>
+    <string name="jump">Lewati</string>
+    <string name="click_to_skip">Klik untuk lewati</string>
+    <string name="change_textbook">Ganti</string>
+    <string name="setting">Pengaturan</string>
+    <string name="copy">Salin</string>
+    <string name="delete">Hapus</string>
+    <string name="delete_ing">Sedang menghapus</string>
+    <string name="move_ing">Sedang digeser</string>
+    <string name="delete_fail">Gagal menghapus</string>
+    <string name="delete_success">Berhasil menghapus</string>
+    <string name="move_success">Berhasil digeser</string>
+    <string name="forward">Teruskan</string>
+    <string name="select_contact">Pilih kontak</string>
+    <string name="chat">Chat</string>
+    <string name="contact">Kontak</string>
+    <string name="avatar">Foto</string>
+    <string name="username">Nama pengguna</string>
+    <string name="name">Nama lengkap</string>
+    <string name="gender">Jenis kelamin</string>
+    <string name="student_number">Nomor siswa</string>
+    <string name="telphone">Ponsel</string>
+    <string name="email">E-mail</string>
+    <string name="activate">Aktivasi</string>
+    <string name="go_activate">Aktivasi</string>
+    <string name="activate_code_wrong">Silahkan masukkan nomor aktivasi yang lengkap</string>
+    <string name="search">Cari</string>
+    <string name="activate_course">Aktivasi mata kuliah</string>
+    <string name="activate_textbook">Aktifkan</string>
+    <string name="input_active_code">——Atau masukkan kode aktivasi——</string>
+    <string name="recording">Sedang merekam</string>
+    <string name="playback">Sedang memainkan ulang rekaman suara</string>
+    <string name="play_record">Memainkan rekaman suara</string>
+    <string name="relect_role">Pilih ulang peran</string>
+    <string name="take_pic">Ambil foto</string>
+    <string name="bulletin">Merilis pengumuman</string>
+    <string name="announcement">Pengumuman</string>
+    <string name="announcement_empty">Belum ada pengumuman untuk saat ini</string>
+    <string name="quite">Diam~</string>
+    <string name="class_group">Grup kelas</string>
+    <string name="start">Mulai</string>
+    <string name="finish">Selesai</string>
+    <string name="published">Telah dirilis</string>
+    <string name="draft">Rancangan</string>
+    <string name="response">Penilaian bersama</string>
+    <string name="need_rewrite">Perlu ditulis ulang</string>
+    <string name="application">Aplikasi</string>
+    <string name="video_type">Video (MP4/AVI/MOV/FLV/RMVB/MPG)</string>
+    <string name="class_detail">Informasi kelas</string>
+    <string name="class_info">Informasi rinci kelas</string>
+    <string name="personal_info">Data pribadi</string>
+    <string name="telphone_number">Nomor ponsel</string>
+    <string name="success">Berhasil</string>
+    <string name="fail">Gagal</string>
+    <string name="system_informs">Pemberitahuan sistem</string>
+    <string name="yxy_teacher">Guru</string>
+    <string name="assistant">Asisten guru</string>
+    <string name="student">Mahasiswa</string>
+    <string name="manager">Pengelola administrasi</string>
+    <string name="course_manager">Pengelola administrasi mata kuliah</string>
+    <string name="start_speak">Mulai membaca</string>
+    <string name="correct">Benar</string>
+    <string name="wrong">Salah</string>
+    <string name="apply">Daftar</string>
+    <string name="unstart">Belum mulai</string>
+    <string name="goon">Dalam proses</string>
+    <string name="end">Selesai</string>
+    <string name="ended">Telah selesai</string>
+    <string name="deleted">Telah dihapus</string>
+    <string name="course_end">Telah selesai</string>
+    <string name="wait_for_approval">Sedang diperiksa</string>
+    <string name="rewatch">Dapat dilihat kembali</string>
+    <string name="campus_list">Sekolah ini</string>
+    <string name="outside_list">Sekolah lain</string>
+    <string name="icourse_list" translatable="false">iCourse</string>
+    <string name="wechat">Wechat</string>
+    <string name="chose_all">Pilih semua</string>
+    <string name="cancel_chose_all">Batalkan pilihan</string>
+    <string name="resource_folder">Folder</string>
+    <string name="resource">Sumber</string>
+    <string name="resource_select">Telah memilih %d dokumen</string>
+    <string name="resource_set_permit">Atur hak akses</string>
+    <string name="check_the_details">Lihat informasi rinci</string>
+    <string name="i_have_read">Saya telah membaca</string>
+    <string name="download_recourse_type_video">Video</string>
+    <string name="download_recourse_type_audio">Audio</string>
+    <string name="download_recourse_type_word">Dokumen</string>
+    <string name="download_recourse_type_image">Gambar</string>
+    <string name="download_recourse_type_other">Lainnya</string>
+    <string name="clear_cache">Hapus cache</string>
+    <string name="my_class">Kelas saya</string>
+    <string name="look_my_class">Lihat kelas saya</string>
+    <string name="my_text_book">Bahan pengajaran saya</string>
+    <string name="my_score">Poin saya</string>
+    <string name="class_status_apply">Daftar kelas</string>
+    <string name="class_status_agreed">Telah setuju</string>
+    <string name="class_status_rejected">Telah menolak</string>
+    <string name="class_status_apply_quiting">Sedang keluar dari pendaftaran</string>
+    <string name="class_status_apply_joining">Sedang masuk ke dalam pendaftaran</string>
+    <string name="course_learn_status_finished">Telah selesai</string>
+    <string name="course_learn_status_unfinished">Belum selesai</string>
+    <string name="course_learn_status_unstart">Belum mulai</string>
+    <string name="course_learn_status_ongoing">Dalam proses</string>
+    <string name="course_learn_status_expired">Telah lewat dari masa berlaku</string>
+    <string name="activity_status_need_rewrite">Perlu ditulis ulang</string>
+    <string name="sex_male">Laki-laki</string>
+    <string name="sex_madam">Perempuan</string>
+    <string name="growth_student_level_default">Tingkat siswa</string>
+    <string name="growth_teacher_level_default">Tingkat guru</string>
+    <string name="page_title_modify_pwd">Ubah kata sandi</string>
+    <string name="modify_success">Revisi berhasil</string>
+    <string name="modify_fail">Revisi gagal</string>
+    <string name="modify">Ganti</string>
+    <string name="logout_message">Setelah Anda membatalkan akun Anda, Anda tidak lagi dapat menggunakan akun itu untuk masuk ke U Academy, dan Anda tidak akan dapat menggunakan nomor ponsel atau alamat email yang sama untuk mendaftarkan akun baru. Sistem akan menghapus informasi pribadi dan data historis Anda dalam periode waktu tertentu.
+     Harap perhatikan bahwa membatalkan akun adalah operasi yang tidak dapat dipulihkan, jadi harap berhati-hati! Apakah Anda yakin untuk membatalkan akun ini?</string>
+    <string name="confirm_logout">Keluar</string>
+    <string name="cancel_logout">membatalkan</string>
+    <string name="hint">Petunjuk</string>
+    <string name="hint_friendship">Pengingat</string>
+    <string name="hint_tips">Tips pengingat</string>
+    <string name="hint_input_content_limit_500_word">Masukkan isi konten di sini (tidak lebih dari 500 kata)</string>
+    <string name="hint_input_answer">Masukkan jawaban di sini</string>
+    <string name="hint_input_new_telphone">Silahkan masukkan nomor ponsel baru</string>
+    <string name="hint_input_right_code">Silahkan masukkan nomor kode kelas yang tepat</string>
+    <string name="hint_input_telphone">Silahkan masukkan no. ponsel</string>
+    <string name="hint_input_username_pwd">Silahkan masukkan nama pengguna dan kata sandi</string>
+    <string name="hint_input_username">harap masukkan nama pengguna</string>
+    <string name="login_check_privacy_policy"> Silakan periksa dulu lalu masuk </string>
+    <string name="hint_input_pwd_please">Silakan masukkan kata sandi</string>
+    <string name="hint_input_pwd">Silahkan masukkan kata sandi lama</string>
+    <string name="hint_input_new_pwd">Silahkan masukkan kata sandi baru</string>
+    <string name="hint_input_new_pwd_again">Silahkan masukkan kata sandi baru sekali lagi</string>
+    <string name="hint_input_class_name">Silahkan masukkan nama kelas</string>
+    <string name="hint_input_course_name">Silahkan masukkan nama mata kuliah</string>
+    <string name="hint_input_edit_class_name">Silahkan masukkan nama kelas, setiap kelas dipisahkan dengan tanda &quot;;&quot; </string>
+    <string name="hint_search_contact">Cari kontak</string>
+    <string name="hint_search_course">Cari mata kuliah</string>
+    <string name="hint_search">Cari</string>
+    <string name="hint_now_relevance_telphone">Saat ini telah terhubung dengan nomor ponsel</string>
+    <string name="hint_input_verification_code">Silahkan masukkan nomor verifikasi</string>
+    <string name="hint_face_recognition">- Silahkan menghadap kamera, pastikan cahaya sekitar anda cukup terang -</string>
+    <string name="hint_qr_code">Masukkan nomor QR/nomor barcode ke dalam viewfinder untuk scan secara otomatis</string>
+    <string name="hint_qr_code_error">Kode QR tidak dapat dibaca</string>
+    <string name="hint_qr_code_touch">Sentuh untuk melanjutkan scan</string>
+    <string name="hint_open_light">Buka pencahayaan</string>
+    <string name="hint_telphone_unwrite">Belum diisi</string>
+    <string name="hint_email_unwrite">Belum ada</string>
+    <string name="hint_feature_online_follow_up">Fungsi ini akan ditindak lanjuti-.-</string>
+    <string name="hint_course_page_not_study_finished">Halaman ini belum selesai dipelajari-</string>
+    <string name="hint_course_important">Tips penting</string>
+    <string name="hint_classname_input_require">2-30 karakter, tidak boleh terdiri dari karakter khusus (selain dari garis bawah_, garis tengah-)!</string>
+    <string name="hint_classcode_input_require">6-20 karakter huruf dan angka serta garis bawah_, garis tengah-!</string>
+    <string name="hint_classyear_input_require">Silahkan masukkan sesuai dengan format tahun yang tepat, misalnya: 2015</string>
+    <string name="hint_chat_message_copy_success">Berhasil menyalin</string>
+    <string name="hint_copy_to_clipboard">Berhasil menyalin</string>
+    <string name="hint_class_member_empty">Tidak ada siswa di dalam kelas, silahkan biarkan siswa menggunakan nomor kode kelas atau nama lengkap guru untuk mencari kelas dan ikut bergabung dalam kelas</string>
+    <string name="hint_first_page">Sudah berada di halaman pertama</string>
+    <string name="hint_time_out">Waktu telah habis</string>
+    <string name="hint_download_three_count">Memperbolehkan paling banyak 3 buah untuk diunduh dalam waktu bersamaan</string>
+    <string name="hint_download_three_count_support">Paling banyak mendukung 3 sumber untuk diunduh dalam waktu bersamaan!</string>
+    <string name="hint_next_section_empty">Tidak ada isi konten pada bagian selanjutnya</string>
+    <string name="hint_section_no_grade">Bagian ini belum selesai, \n Nilai akan muncul setelah diselesaikan</string>
+    <string name="hint_no_sd_card">Tidak memiliki kartu SD</string>
+    <string name="hint_clear_course">Apakah anda ingin menghapus mata kuliah tersebut?</string>
+    <string name="hint_confirm_delete_all_course">Apakah anda yakin untuk menghapus sumber bagian ini?</string>
+    <string name="hint_confirm_delete_offline_course">Apakah anda yakin untuk menghapus sumber tersebut?</string>
+    <string name="hint_audio_file_empty">Untuk saat ini belum ada dokumen audio</string>
+    <string name="hint_glosarry_empty">Untuk saat ini mata kuliah tidak memiliki daftar kata istilah</string>
+    <string name="hint_section_study_close">Guru telah menutup isi konten bagian ini, untuk saat ini tidak dapat dipelajari</string>
+    <string name="hint_video_undownload_flow_play">Video tersebut belum diunduh, saat ini berada di lingkungan tanpa Wifi, apabila dimainkan akan menghabiskan kuota, apakah anda yakin untuk memainkannya?</string>
+    <string name="hint_no_connect_wifi_ask_download">Belum tersambung ke Wifi, pengunduhan membutuhkan kuota, apakah anda yakin untuk mengunduh?</string>
+    <string name="hint_no_connect_wifi_ask_play_video">Belum tersambung ke Wifi, akan mengurangi kuota pada saat memainkannya, apakah anda yakin untuk lanjut menonton?</string>
+    <string name="hint_apply_join_class_wait_teacher_approval">Telah mendaftar untuk ikut bergabung dalam kelas, silahkan menunggu guru untuk menilai</string>
+    <string name="hint_join_class_need_approval">Perlu pemeriksaan pada saat siswa ikut bergabung dalam kelas</string>
+    <string name="hint_confirm_revocation_join_class_apply">Apakah anda yakin untuk membatalkan pendaftaran untuk ikut bergabung dalam kelas?</string>
+    <string name="hint_revocation_success">Berhasil membatalkan</string>
+    <string name="hint_revocation_fail">Gagal membatalkan</string>
+    <string name="hint_not_download_course">Anda tidak mengunduh bahan mata kuliah ini</string>
+    <string name="hint_keep_least_one_course">Silahkan sisakan minimal 1 buah mata mata kuliah</string>
+    <string name="hint_keep_least_one_class">Silahkan pilih minimal 1 kelas</string>
+    <string name="hint_course_empty">Tidak ada mata kuliah untuk saat ini</string>
+    <string name="hint_choose_teach_course">Pilih</string>
+    <string name="hint_choose_course_cover">Memilih 1 halaman depan mata kuliah</string>
+    <string name="hint_quit_class_info">Setelah keluar dari kelas, tidak akan bisa melihat kegiatan yang berkaitan dengan kelas ini seperti: pekerjaan rumah, ujian dll. Apakah anda yakin untuk keluar?</string>
+    <string name="hint_quit_class_success">Berhasil keluar dari kelas!</string>
+    <string name="hint_quit_class_fail">Gagal keluar dari kelas!</string>
+    <string name="hint_capture_join_class_fail">Kode QR sudah tidak berlaku, silahkan hubungi guru kelas</string>
+    <string name="hint_save_success">Berhasil menyimpan</string>
+    <string name="hint_save_fail">Gagal menyimpan</string>
+    <string name="hint_change_success">Berhasil diganti</string>
+    <string name="hint_speech_grade">Pembelajaran akan dianggap selesai apabila pengucapan setiap kalimat/kata yang ditentukan oleh guru sudah mencapai %d poin. Semangat!</string>
+    <string name="hint_speech_must_on_network">Fungsi penilaian otomatis rekaman suara hanya dapat digunakan apabila telah tersambung ke jaringan internet. Silahkan buka koneksi jaringan internet.</string>
+    <string name="hint_collect_success">Berhasil menyimpan</string>
+    <string name="hint_class_create_success_tell_class_code_to_student" formatted="false">Berhasil membuat kelas \n Silahkan beritahu siswa nomor kode kelas: %s</string>
+    <string name="hint_delete_class">Hapus kelas?</string>
+    <string name="warning_input_text_too_long">Panjang isi konten yang diinput tidak boleh lebih dari %d, bagian yang berlebih tidak akan dikirim!</string>
+    <string name="warning_pwd_length_out_16">Kata sandi baru tidak boleh lebih dari 16 karakter</string>
+    <string name="warning_pwd_length_less_8">Kata sandi baru tidak boleh lebih sedikit dari 8 karakter</string>
+    <string name="warning_old_pwd_null">Silahkan masukkan kata sandi lama</string>
+    <string name="warning_old_pwd_input_error">Terjadi kesalahan pada saat memasukkan kata sandi lama</string>
+    <string name="warning_pwd_disagree">2 kali kata sandi baru tidak sama</string>
+    <string name="warning_course_no_desc">Untuk saat ini belum ada informasi ringkasan mata kuliah</string>
+    <string name="warning_not_preview_file">Untuk sementara ini tidak mendukung pra-tinjau dokumen tersebut \n Anda dapat menggunakan aplikasi lain untuk membukanya</string>
+    <string name="warning_course_resource_download_studyrecord">Setelah bahan mata kuliah disimpan ke dalam cache, kuota tidak akan terpakai saat memainkan sumber media! Menghapus sumber bab yang dipelajari tidak akan mempengaruhi nilai belajar.</string>
+    <string name="warning_course_resource_download_size">Telah disimpan</string>
+    <string name="warning_course_resource_download_space">Telah dipakai</string>
+    <string name="warning_course_resource_phone_space">Tersisa</string>
+    <string name="warning_course_expire">Mata kuliah telah kadaluarsa</string>
+    <string name="warning_course_buy_go_on_study">Apabila ingin lanjut belajar, silahkan beli mata kuliah ini sekali lagi</string>
+    <string name="warning_textbook_out_of_date">Bahan mata kuliah telah kadaluarsa! Apabila butuh lanjut belajar, silahkan beli ulang&gt;&gt;</string>
+    <string name="warning_textbook_get_data">Konten telah diperbarui, tarik ke bawah untuk refresh.</string>
+    <string name="warning_chat_empty_message">Pesan kosong, carilah orang lain untuk berbincang^.^</string>
+    <string name="warning_contact_empty">Tidak ada kontak</string>
+    <string name="warning_input_realinfo">Silahkan masukkan informasi yang benar, supaya tidak mempengaruhi nilai belajar anda</string>
+    <string name="warning_sys_notify_empty">Pemberitahuan sistem kosong^.^</string>
+    <string name="warning_practice_finish_limittime">Silahkan selesaikan latihan di dalam waktu yang ditentukan, setelah waktu selesai, akan secara otomatis dikumpul</string>
+    <string name="warning_network_break">Jaringan internet tidak dapat digunakan untuk saat ini, silahkan periksa koneksi jaringan internet</string>
+    <string name="warning_web_break">Terjadi kesalahan~Sedang diperbaiki, silahkan coba kembali</string>
+    <string name="warning_qr_fail">Gagal scan!</string>
+    <string name="warning_qr_unsupport">Tidak dapat mengenali, harap pindai kode QR yang benar</string>
+    <string name="warning_qr_textbook_not_active">Anda belum mengaktifkan bahan pengajaran, silahkan aktivasi kemudian scan untuk belajar.【Aktivasi】</string>
+    <string name="warning_qr_textbook_not_stu">Silahkan gunakan akun siswa untuk login kemudian scan</string>
+    <string name="warning_qr_textbook_out_of_date">Bahan pengajaran tersebut telah kadaluarsa, apabila perlu untuk lanjut belajar, silahkan aktivasi ulang.【Aktivasi】</string>
+    <string name="warning_qr_textbook_out_of_plan">Bab ini tidak dapat dipelajari untuk saat ini sesuai dengan rencana belajar yang diatur dalam mata kuliah《%s》, anda dapat masuk ke dalam mata kuliah untuk melihat isi konten lainnya【Masuk ke mata kuliah】</string>
+    <string name="warning_input_content">Silahkan masukkan isi konten!</string>
+    <string name="warning_classname_format_error">Terjadi kesalahan pada format nama kelas!</string>
+    <string name="warning_classcode_format_error">Terjadi kesalahan pada format nomor kode kelas!</string>
+    <string name="warning_token_and_password_change">Kata sandi telah direvisi, silahkan gunakan kata sandi baru untuk login ulang</string>
+    <string name="warning_year_format_error">Terjadi kesalahan pada format tahun!</string>
+    <string name="warning_speech_no_speak">Anda belum berbicara</string>
+    <string name="warning_speech_network_visit_error">Tidak dapat menilai secara otomatis, silahkan periksa jaringan internet</string>
+    <string name="warning_speech_no_network">Tidak dapat menilai secara otomatis, silahkan periksa jaringan internet</string>
+    <string name="warning_chat_no_login">Belum login ke sistem informasi, silahkan coba kembali!</string>
+    <string name="warning_chat_conversation_create_fail">Gagal membentuk percakapan</string>
+    <string name="warning_chat_conversation_unsupport_type">Jenis yang tidak mendukung</string>
+    <string name="warning_chat_message_forward_fail">Gagal diteruskan</string>
+    <string name="warning_chat_message_forward_success">Berhasil diteruskan</string>
+    <string name="warning_location_fail">Gagal menentukan lokasi jaringan internet layanan, silahkan coba kembali</string>
+    <string name="warning_location_permission_fail">Silahkan nyalakan layanan lokasi di dalam pengaturan sistem telepon seluler, serta memperbolehkan ULearn untuk menggunakan layanan lokasi</string>
+    <string name="warning_notify_permission_fail">Silahkan buka akses pemberitahuan di dalam pengaturan sistem telepon seluler, serta memperbolehkan ULearn untuk menggunakan hak akses pemberitahuan</string>
+    <string name="warning_audio_file_not_found">Belum menemukan dokumen audio.</string>
+    <string name="warning_record_time_short">Waktu rekaman terlalu singkat, silahkan dihentikan</string>
+    <string name="warning_audio_file_is_not_valid">Bukan dokkumen audio yang berlaku!</string>
+    <string name="warning_speech_rejected">Anda tidak membaca dengan teliti, kali ini tidak dinilai, nilai anda sebelumnya yang akan disimpan!</string>
+    <string name="warning_speech_start_fail">Gagal mengaktifkan penilaian, rekaman suara kali ini tidak dinilai, namun jumlah nya dicatat</string>
+    <string name="warning_record_permission_close">Belum membuka akses rekaman suara</string>
+    <string name="warning_carema_permission_close">Belum membuka akses kamera</string>
+    <string name="warning_file_not_select">Belum memilih dokumen</string>
+    <string name="warning_file_could_not_open">Di dalam telepon seluler tidak ada aplikasi untuk membuka dokumen tersebut</string>
+    <string name="warning_resource_not_download">Sumber belum diunduh</string>
+    <string name="warning_file_size_limit">Berkas melebihi 200M, tolong diupload dari ujung komputer!</string>
+    <string name="warning_file_not_found">Dokumen tidak dapat ditemukan!</string>
+    <string name="warning_file_download_fail">Gagal mengunduh</string>
+    <string name="warning_file_download_course_fail">Gagal mendapatkan mata kuliah, silahkan tarik ke bawah untuk refresh </string>
+    <string name="warning_download_fail">Gagal mengunduh</string>
+    <string name="warning_file_upload_fail">Gagal mengunggah</string>
+    <string name="warning_update_fail">Gagal memperbarui</string>
+    <string name="warning_version_is_new">Saat ini sudah berupa versi terbaru</string>
+    <string name="warning_delete_bookmark_fail">Gagal menghapus bookmark</string>
+    <string name="warning_delete_note_fail">Gagal menghapus catatan!</string>
+    <string name="warning_practicing">Latihan sedang berlangsung, silahkan kumpul terlebih dahulu</string>
+    <string name="warning_course_fail">Terdapat masalah pada bahan mata kuliah, silahkan hubungi kami!</string>
+    <string name="warning_storage_short">Memori telepon seluler tidak cukup</string>
+    <string name="warning_storage_short_and_release_redownload">Memori telepon seluler tidak cukup, silahkan hapus sebagian data kemudian unduh kembali</string>
+    <string name="warning_share_qq_success">Berhasil membagikan QQ</string>
+    <string name="warning_share_qq_fail">Gagal membagikan QQ</string>
+    <string name="warning_share_qq_cancel">Batal membagikan QQ</string>
+    <string name="warning_share_qqzone_success">Berhasil dibagikan ke Qzone</string>
+    <string name="warning_share_qqzone_fail">Gagal dibagikan ke Qzone</string>
+    <string name="warning_share_qqzone_cancel">Gagal dibagikan ke Qzone</string>
+    <string name="warning_share_wx_success">Berhasil dibagikan ke teman Wechat</string>
+    <string name="warning_share_wx_fail">Gagal dibagikan ke teman Wechat</string>
+    <string name="warning_share_wx_cancel">Batal dibagikan ke teman Wechat</string>
+    <string name="warning_share_wxq_success">Berhasil dibagikan ke Moments</string>
+    <string name="warning_share_wxq_fail">Gagal dibagikan ke Moments</string>
+    <string name="warning_share_wxq_cancel">Batal untuk dibagikan ke Moments</string>
+    <string name="num">Buah</string>
+    <string name="size_m">M</string>
+    <string name="size_g">G</string>
+    <string name="loading">Sedang memuat</string>
+    <string name="activing">Sedang meng-aktivasi</string>
+    <string name="updating">Sedang memperbarui</string>
+    <string name="creating_chat">Sedang membuat perbincangan</string>
+    <string name="loading_course">Sedang memuat mata kuliah</string>
+    <string name="recording1">Sedang direkam</string>
+    <string name="checking">Sedang diperiksa</string>
+    <string name="logining">Sedang proses login</string>
+    <string name="saving">Sedang menyimpan</string>
+    <string name="scoring">Sedang dalam proses penilaian...</string>
+    <string name="watching">Sedang ditonton</string>
+    <string name="unwatch">Belum ditonton</string>
+    <string name="class_creating">Sedang membuat</string>
+    <string name="pop_course_menu_detail">Informasi rinci mengenai mata kuliah</string>
+    <string name="pop_course_menu_score">Cara penghitungan nilai</string>
+    <string name="pop_course_menu_glosarry">Daftar kata istilah</string>
+    <string name="pop_course_menu_mark">Daftar bookmark</string>
+    <string name="pop_course_menu_recourse">Menyimpan bahan mata kuliah ke dalam cache</string>
+    <string name="pop_course_menu_note">Daftar catatan</string>
+    <string name="pop_course_menu_class_member">Anggota kelas</string>
+    <string name="pop_course_menu_exit_class">Keluar</string>
+    <string name="pop_course_menu_modify_course">Revisi</string>
+    <string name="pop_course_menu_end_course">Selesai</string>
+    <string name="pop_course_new_announcement">Pengumuman terbaru</string>
+    <string name="pop_course_menu_delete_course">Hapus</string>
+    <string name="setup_menu_only_wifi_download">Hanya mengunduh/mengunggah dengan menggunakan WiFi</string>
+    <string name="setup_menu_check_version">Memeriksa versi terbaru</string>
+    <string name="text_course_score1">Nilai rata-rata mata kuliah: </string>
+    <string name="text_course_score2">Total nilai seluruh bab dari mata kuliah ini/jumlah bab</string>
+    <string name="text_course_score3">Nilai bab: </string>
+    <string name="text_course_score4">Total nilai seluruh bagian yang telah diselesaikan dari bab ini/jumlah bagian</string>
+    <string name="text_course_score5">Nilai bagian: </string>
+    <string name="text_course_score6">Total nilai pada seluruh halaman di bagian ini/jumlah halaman</string>
+    <string name="text_course_score7">※Bagian yang belum selesai tidak akan dihitung nilainya</string>
+    <string name="text_course_score8">Nilai halaman: </string>
+    <string name="text_course_score9">Halaman latihan: mengambil nilai latihan (nilai terakhir yang akan diambil untuk latihan yang dilakukan berkali-kali)</string>
+    <string name="text_course_score10">Halaman tanpa latihan: hanya mencatat kondisi penyelesaian</string>
+    <string name="text_course_study_page_not_finished">Halaman ini belum selesai dipelajari</string>
+    <string name="text_course_complete_status" formatted="false">Halaman: %d/%d</string>
+    <string name="text_course_download_stauts" formatted="false">Total %d buah, telah mengunduh %d buah (%s)</string>
+    <string name="text_file_downloaded_local_path" formatted="false">Telah mengunduh: %s</string>
+    <string name="text_downloading_format" formatted="false">Sedang mengunduh %s/%s</string>
+    <string name="text_downloading_fail_format" formatted="false">Gagal mengunduh %s/%s</string>
+    <string name="text_downloading_recourse_format" formatted="false">%s sumber</string>
+    <string name="text_downloading_recourse_finish_format" formatted="false">Telah mengunduh %s sumber</string>
+    <string name="text_downloading_recourse_about_format" formatted="false">Kira-kira %s</string>
+    <string name="text_downloading_recourse_progress" formatted="false">(%s %s)</string>
+    <string name="text_get_course">Sedang dalam proses mendapatkan mata kuliah</string>
+    <string name="text_pull_up_load_more">Tarik ke atas untuk memuat lebih banyak</string>
+    <string name="text_disentangle_load_more">Lepas untuk memuat lebih banyak</string>
+    <string name="text_loading">ULearn sedang memuat</string>
+    <string name="text_timelimit_practice">Latihan dengan batas waktu</string>
+    <string name="text_teacher_close_study">Guru telah menutup pembelajaran</string>
+    <string name="text_cancel_send_finger_upglide">Swipe ke atas untuk membatalkan pengiriman</string>
+    <string name="text_alum_select">Pilih dari telepon seluler ini</string>
+    <string name="text_course_expire_date" formatted="false">Tanggal habis berlaku mata kuliah: %s</string>
+    <string name="text_course_class_count" formatted="false">Kelas: %s</string>
+    <string name="text_course_class_count_more" formatted="false"> total %d kelas</string>
+    <string name="text_course_start_date" formatted="false">%s Mulai</string>
+    <string name="text_course_end_date" formatted="false">%s Selesai</string>
+    <string name="submit_end_date" formatted="false">Memotong</string>
+    <string name="peer_response_end_date" formatted="false">Memotong</string>
+    <string name="text_course_submit_end_date" formatted="false">%s Pengumpulan telah selesai</string>
+    <string name="text_course_peer_response_end_date" formatted="false">%s Penilaian bersama telah selesai</string>
+    <string name="text_course_student_count" formatted="false">Mahasiswa: %s</string>
+    <string name="text_course_expired_date" formatted="false">Mata kuliah telah kadaluarsa pada tanggal %s</string>
+    <string name="text_course_study_record_empty">Tidak ada catatan belajar</string>
+    <string name="text_course_study_record_not_latest">Sedang dalam proses mendapatkan catatan belajar terbaru</string>
+    <string name="text_you_have_some_course_format" formatted="false">Anda memiliki %d mata kuliah</string>
+    <string name="text_choose_file_upload">Memilih dokumen yang diunggah</string>
+    <string name="text_teacher_size_format" formatted="false">Guru（%d）</string>
+    <string name="text_student_size_format" formatted="false">Siswa（%d）</string>
+    <string name="text_practice_correct_count_good" formatted="false">Benar %d soal, anda hebat!</string>
+    <string name="text_practice_correct_count" formatted="false">Benar %d soal</string>
+    <string name="text_practice_wrong_count_good" formatted="false">Salah %d soal, jangan berhenti mencoba!</string>
+    <string name="text_practice_wrong_count" formatted="false">Salah %d soal</string>
+    <string name="text_watched_format" formatted="false">Telah menonton %d%%</string>
+    <string name="text_goto_look">Lihat</string>
+    <string name="text_goto_study">Belajar</string>
+    <string name="growth_format" formatted="false">%d nilai pertumbuhan</string>
+    <string name="confirm_course_spoken_leave">Di halaman ini terdapat kata/kalimat/paragraf yang belum diselesaikan, apakah anda yakin untuk keluar?</string>
+    <string name="text_chat_conversation_draft">[Rancangan]</string>
+    <string name="text_chat_message_custom">[Informasi secara customize]</string>
+    <string name="text_chat_message_file">[Dokumen]</string>
+    <string name="text_chat_message_image">[Gambar]</string>
+    <string name="text_chat_message_video">[Video]</string>
+    <string name="text_chat_send_to" formatted="false">Dikirim ke  %s</string>
+    <string name="text_practice_limit_time_use_time" formatted="false">Waktu yang dipakai: %s (Batas waktu %s) </string>
+    <string name="text_practice_limit_time">Batas waktu %s</string>
+    <string name="text_practice_count_question">%d soal latihan</string>
+    <string name="text_video_page_finish_condition">(Akan dianggap selesai apabila durasi menonton video ≥ durasi video)</string>
+    <string name="text_change_related_cell_phone">Ubah ponsel yang terhubung</string>
+    <string name="text_related_cell_phone">Hubungkan ponsel</string>
+    <string name="text_back_umooc">Kembali ke Ulearning</string>
+    <string name="text_class_member">Anggota kelas</string>
+    <string name="text_class_member_remove">memindahkan kelas</string>
+    <string name="text_course_remove">Memindahkan mata kuliah</string>
+    <string name="text_class_member_remove_fail">Gagal memindahkan</string>
+    <string name="text_class_member_remove_remind">Dengan memindahkan siswa dari kelas, maka akan secara bersamaan menghapus seluruh catatan kegiatan siswa di dalam kelas tersebut, seperti pekerjaan rumah, ujian dll, mohon dilakukan secara teliti. Apakah anda yakin untuk memindahkannya? </string>
+    <string name="text_detail">Informasi rinci</string>
+    <string name="text_me">Saya</string>
+    <string name="text_open_with_other_app">Gunakan aplikasi lain untuk membukanya</string>
+    <string name="text_preview">Pra-tinjau</string>
+    <string name="text_book_preview">Pra-tinjau bahan mata kuliah</string>
+    <string name="text_book_relevance_course">Mata kuliah yang berhubungan dengan bahan mata kuliah ini:</string>
+    <string name="text_book_relevance_course_study">Masuk ke dalam mata kuliah dapat belajar mengenai isi konten bahan mata kuliah</string>
+    <string name="text_book_un_activated">Belum aktivasi</string>
+    <string name="text_book_my_empty">Anda belum aktivasi bahan pengajaran</string>
+    <string name="text_book_cached_empty">Tidak ada cache untuk saat ini</string>
+    <string name="out_of_date">Telah kadaluarsa</string>
+    <string name="text_next_section_title_format" formatted="false">Bagian selanjutnya: %s</string>
+    <string name="text_chapter_finish">Bab ini telah selesai</string>
+    <string name="text_select_spoken_audio_file">Memilih dokumen audio percakapan</string>
+    <string name="text_pull_down_update_course">Tarik ke bawah untuk memperbarui struktur mata kuliah</string>
+    <string name="text_put_down_update_course">Lepaskan untuk memperbarui struktur mata kuliah</string>
+    <string name="text_answer_detail">Informasi rinci mengenai jawaban: </string>
+    <string name="text_refer_to_the_answer">Jawaban referensi: </string>
+    <string name="text_answer_analysis">Analisa jawaban: </string>
+    <string name="text_unanswer"> Belum dijawab </string>
+    <string name="text_click_choose_answer">Klik untuk memilih jawaban </string>
+    <string name="text_org_course_empty">Organisasi anda tidak memiliki mata kuliah</string>
+    <string name="text_join_quit_class_apply">Pendaftaran untuk ikut bergabung dalam kelas</string>
+    <string name="text_join_quit_class_apply_empty">Tidak ada pendaftaran untuk ikut bergabung dalam kelas</string>
+    <string name="text_join_class_apply_empty">Untuk saat ini tidak ada pendaftaran untuk ikut bergabung dalam kelas</string>
+    <string name="text_quit_class_apply_empty">Untuk saat ini tidak ada pendaftaran untuk keluar dari kelas</string>
+    <string name="text_apply_count_format" formatted="false">Total %d  pendaftaran baru</string>
+    <string name="text_apply_join_class_format" formatted="false">Mendaftar untuk ikut bergabung\&quot;%s\&quot;</string>
+    <string name="text_apply_quit_class_format" formatted="false">Mendaftar untuk keluar\&quot;%s\&quot;</string>
+    <string name="toast_other_lesson_downloading">Bab lainnya sedang diunduh</string>
+    <string name="toast_course_expire">Mata kuliah telah kadaluarsa</string>
+    <string name="toast_course_no_content">Tidak ada isi konten dalam mata kuliah</string>
+    <string name="toast_no_more_activities">Tidak ada kegiatan lainya</string>
+    <string name="toast_file_download_fail_format" formatted="false">%s Pengunduhan gagal</string>
+    <string name="toast_apply_submited_wait_approve">Pendaftaran telah dikumpulkan, mohon menunggu persetujuan dari guru</string>
+    <string name="toast_not_get_user_info">Tidak mendapatkan informasi pengguna</string>
+    <string name="toast_name_empty">Nama lengkap belum diisi, atau terdiri dari spasi!</string>
+    <string name="toast_course_name_empty">Nama mata kuliah belum diisi!</string>
+    <string name="toast_course_cover_empty">Silahkan pilih halaman depan mata kuliah!</string>
+    <string name="toast_student_number_empty">Nomor siswa belum diisi, atau terdiri dari spasi!</string>
+    <string name="toast_email_empty">Email belum diisi, atau terdiri dari spasi!</string>
+    <string name="toast_email_format_error">Terjadi kesalahan pada format Email! Silahkan isi kembali!</string>
+    <string name="toast_telphone_format_error">Terjadi kesalahan pada format ponsel! Silahkan isi kembali!</string>
+    <string name="toast_telhpone_empty">Nomor ponsel atau nomor verifikasi belum diisi!</string>
+    <string name="toast_telhpone_empty1">Nomor ponsel belum diisi!</string>
+    <string name="toast_same_telphone">Sama dengan nomor ponsel saat ini!</string>
+    <string name="toast_send_fail">Gagal mengirim, silahkan coba kembali!</string>
+    <string name="toast_phone_number_has_been_occupied">Nomor ponsel telah digunakan, silahkan hubungi layanan pelanggan di nomor 400 610 7808</string>
+    <string name="toast_has_no_more">Tidak ada lagi</string>
+    <string name="toast_unable_to_locate_the_course_page">Tidak bisa diletakkan di halaman mata kuliah ini, silahkan klik tombol “Lebih banyak”pada halaman mata kuliah, pilih mata kuliah tersebut kemudian coba kembali</string>
+    <string name="toast_file_breakdown">Terjadi kerusakan pada dokumen, silahkan kembali ke halaman daftar isi mata kuliah untuk mengunduh ulang sumber bab ini!</string>
+    <string name="toast_file_not_found">Dokumen belum ditemukan, silahkan kembali ke halaman daftar isi mata kuliah untuk mengunduh ulang sumber bab ini! </string>
+    <string name="toast_play_file_not_found">Tidak dapat menemukan dokumen video yang dimainkan!</string>
+    <string name="toast_course_error_contact_us">Terjadi kesalahan pada bahan mata kuliah, silahkan hubungi layanan pelanggan di nomor 400 610 7808, kami akan menyelesaikannya untuk anda</string>
+    <string name="toast_your_answer_incomplete">Jawaban anda masih belum lengkap!</string>
+    <string name="toast_you_not_select_answer">Masih ada pertanyaan yang belum anda isi! Mohon pastikan anda telah menjawab semua pertanyaan!</string>
+    <string name="toast_please_choose_class_course">Silahkan pilih mata kuliah yang dipakai oleh kelas</string>
+    <string name="toast_create_class_fail">Pembuatan gagal</string>
+    <string name="toast_change_course_fail">Revisi gagal</string>
+    <string name="toast_delete_success">Berhasil menghapus</string>
+    <string name="toast_delete_success1">Berhasil dihapus</string>
+    <string name="toast_delete_fail">Gagal menghapus</string>
+    <string name="toast_set_success">Pengaturan berhasil</string>
+    <string name="about_menu_operation_guide">Petunjuk pengoperasian</string>
+    <string name="about_menu_operation_update_notify">Pemberitahuan mengenai pembaruan</string>
+    <string name="about_menu_operation_feedback">Pendapat dan saran</string>
+    <string name="privacy_policy"> Kebijakan Privasi </string>
+    <string name="about_menu_operation_update">Periksa pembaruan</string>
+    <string name="active_status_attendancing">Absensi sedang berlangsung</string>
+    <string name="active_tag_student_hp">Penilaian bersama oleh para siswa</string>
+    <string name="active_tab_all">Semua</string>
+    <string name="active_tab_all_tea">Semua guru</string>
+    <string name="active_tab_work">Tugas</string>
+    <string name="active_tab_attendance">Absensi</string>
+    <string name="active_tab_vote">Voting</string>
+    <string name="active_tab_discuss">Diskusi</string>
+    <string name="active_tab_interlocution">Menjawab cepat</string>
+    <string name="active_tab_live">Live</string>
+    <string name="active_tab_choose">Pilih mahasiswa</string>
+    <string name="active_tab_grade">Memberi nilai</string>
+    <string name="active_tab_open_live">Siaran langsung publik</string>
+    <string name="tools_exam_title">Ujian dari telepon seluler</string>
+    <string name="tools_exam_pc">Ujian komputer</string>
+    <string name="tools_exam_mobile_pc">Mobile / Web</string>
+    <string name="tools_exam_text">Tetap bisa mengikuti ujian dari jaringan internet meskipun tidak ada ruang komputer</string>
+    <string name="tools_mobile_title">Geser evaluasi</string>
+    <string name="tools_mobile_text">Menilai di dalam kelas, belajar melalui kegiatan evaluasi</string>
+    <string name="tools_word_title">Dikte kosa kata</string>
+    <string name="tools_word_text">Mempelajari kosa kata baru terlebih dahulu sebelum memulai kelas, kata-kata akan dipilih secara acak di dalam kelas untuk tes dikte</string>
+    <string name="tools_speech_title">Penilaian percakapan</string>
+    <string name="tools_speech_text">Penilaian kemampuan percakapan, gabungan antara pembelajaran, latihan dan ujian</string>
+    <string name="activity_home_work_test">Tes</string>
+    <string name="activity_home_work_group">Tugas kelompok</string>
+    <string name="activity_home_work_person">Tugas individu</string>
+    <string name="activity_public_activity">Memulai kegiatan</string>
+    <string name="activity_more_menu_work">Tugas individu</string>
+    <string name="activity_more_menu_write">Pekerjaan rumah esai</string>
+    <string name="activity_more_menu_spoken">Pekerjaan rumah percakapan</string>
+    <string name="activity_more_menu_upload">Unggah pekerjaan rumah</string>
+    <string name="activity_more_menu_group_work">Tugas kelompok</string>
+    <string name="activity_week_empty_tea_remind">Untuk sementara ini, dalam minggu ini tidak ada kegiatan apapun~</string>
+    <string name="activity_week_empty_stu_remind">Klik menu di bawah ini untuk melihat isi konten lainnya</string>
+    <string name="resource_more_menu_add_file">Tambah dokumen</string>
+    <string name="resource_no_this_type">Tidak ada sumber dengan jenis saat ini</string>
+    <string name="resource_delete_remind">Apakah anda yakin untuk menghapus sumber?</string>
+    <string name="resource_delete_child_remind">Apakah anda yakin untuk menghapus seluruh sumber di dalam folder dan subfolder?</string>
+    <string name="resource_move_path_no_change">Sumber yang dipindahkan telah ada di dalam folder saat ini</string>
+    <string name="resource_move_self">Folder tidak dapat dipindahkan ke folder itu sendiri atau ke dalam subfolder</string>
+    <string name="resource_no_check">Silahkan pilih sumber terlebih dahulu</string>
+    <string name="resource_no_permit_check">Silahkan pilih ijin terlebih dahulu</string>
+    <string name="resource_no_publish_resource_stu">Guru tidak merilis sumber apapun</string>
+    <string name="resource_no_publish_resource_tea">Tidak ada isi konten perilisan untuk saat ini</string>
+    <string name="resource_from_who" formatted="false">Berasal dari %s</string>
+    <string name="resource_more_menu_add_resource">Tambah sumber</string>
+    <string name="resource_class_count_more" formatted="false">%s total %s kelas</string>
+    <string name="resource_more_menu_add_pic">Menambah teks gambar</string>
+    <string name="resource_more_menu_add_link">Menambah tautan</string>
+    <string name="resource_more_menu_create_file">Membuat folder</string>
+    <string name="resource_permit_all_class">Dapat dilihat oleh seluruh kelas saya</string>
+    <string name="resource_permit_course_all_class">Dapat dilihat oleh seluruh kelas mata kuliah</string>
+    <string name="resource_permit_specified_class">Dapat dilihat oleh kelas yang ditentukan</string>
+    <string name="resource_permit_to_child">Diaplikasikan ke subfolder dan sumber</string>
+    <string name="resource_please_select_class">Silahkan pilih kelas</string>
+    <string name="resource_permit_to_child_warning">Setelah mengaktifkan, hak akses sumber di dalam folder dan subfolder yang dipilih akan secara otomatis diperbarui</string>
+    <string name="resource_first_remind_1">Sumber mata kuliah telah memiliki fungsi baru</string>
+    <string name="resource_first_remind_2">1. Di dalam sumber mata kuliah sudah boleh menambahkan folder</string>
+    <string name="resource_first_remind_3">2. Bisa mengatur hak akses, dibagikan ke kelas yang ditentukan</string>
+    <string name="resource_first_remind_4">Pengaturan untuk menambah hak akses</string>
+    <string name="file_tab_doc">Dokumen</string>
+    <string name="file_tab_video">Video dan audio</string>
+    <string name="file_tab_pic">Gambar</string>
+    <string name="file_tab_archive">Paket zip</string>
+    <string name="main_tab_home">Beranda</string>
+    <string name="main_tab_course">Mata kuliah</string>
+    <string name="main_tab_resource">Sumber</string>
+    <string name="main_tab_activity">Kegiatan</string>
+    <string name="main_tab_textbook">Bahan mata kuliah</string>
+    <string name="main_tab_other">Pergerakan</string>
+    <string name="main_tab_mine">Saya</string>
+    <string name="main_tab_tools">Aplikasi</string>
+    <string name="type_video">Video</string>
+    <string name="type_audio">Audio</string>
+    <string name="type_word">Dokumen</string>
+    <string name="type_pic">Gambar</string>
+    <string name="type_link">Tautan</string>
+    <string name="type_img_text">Teks gambar</string>
+    <string name="type_other">Lainnya</string>
+    <string name="course_app_textbook">Bahan mata kuliah</string>
+    <string name="course_app_resource">Sumber</string>
+    <string name="course_app_work">Tugas</string>
+    <string name="course_app_discuss">Diskusi</string>
+    <string name="course_app_live">Live</string>
+    <string name="course_app_class">Kelas</string>
+    <string name="course_app_test">pemeriksaan</string>
+    <string name="course_app_assess">Penilaian</string>
+    <string name="course_app_words">Ejaan kata</string>
+    <string name="course_app_speak">Evaluasi bahasa lisan</string>
+    <string name="course_app_member">Anggota</string>
+    <string name="course_home_course_textbook">Bahan mata kuliah</string>
+    <string name="course_cover">Halaman depan mata kuliah</string>
+    <string name="course_home_manage">Pengelolaan</string>
+    <string name="class_year">Tahun kelas</string>
+    <string name="course_school">Fakultas</string>
+    <string name="please_select">Silahkan pilih</string>
+    <string name="join_class_course_class_name" formatted="false">Nama kelas: %s</string>
+    <string name="join_class_course_course_name" formatted="false">Mata kuliah: %s</string>
+    <string name="join_class_course_tea_name" formatted="false">Guru: %s</string>
+    <string name="join_class_course_sch_name" formatted="false">Institusi: %s</string>
+    <string name="join_class_course_class_code" formatted="false">Nomor kode kelas: %s</string>
+    <string name="title_class_name">Nama kelas</string>
+    <string name="title_class_code">Nomor kode kelas</string>
+    <string name="title_class_teacher_name">Nama lengkap guru</string>
+    <string name="title_class_year">Tahun akademis</string>
+    <string name="title_class_join_approval">Apakah perlu persetujuan pada saat mendaftar untuk ikut bergabung dalam kelas</string>
+    <string name="title_class_quit_approval">Apakah perlu persetujuan pada saat mendaftar untuk keluar dari kelas</string>
+    <string name="title_class_practice_show_correct_answer">Apakah jawaban yang tepat ditampilkan setelah latihan</string>
+    <string name="title_class_practice_reanswer">Apakah diperbolehkan untuk mengulang latihan</string>
+    <string name="title_class_course">Mata kuliah kelas</string>
+    <string name="title_class_join_apply">Harus mendaftar terlebih dahulu sebelum ikut bergabung dalam kelas</string>
+    <string name="title_class_quit_apply">Harus mendaftar terlebih dahulu sebelum keluar dari kelas</string>
+    <string name="join_class_apply">Pendaftaran untuk ikut bergabung dalam kelas</string>
+    <string name="join_class_course_apply_count">pendaftaran untuk ikut bergabung dalam mata kuliah kelas</string>
+    <string name="quit_class_apply">Keluar dari pendaftaran kelas</string>
+    <string name="title_course_name">Nama mata kuliah</string>
+    <string name="qr">Scan kode QR</string>
+    <string name="face_recognition">Pengenalan wajah</string>
+    <string name="finish_qr">Selesai</string>
+    <string name="photo_album">Album foto</string>
+    <string name="personal_information">Informasi pribadi</string>
+    <string name="growth">Nilai pertumbuhan</string>
+    <string name="points">Nilai pertumbuhan</string>
+    <string name="achievement">Nilai pencapaian</string>
+    <string name="get_growth_desc">Setelah absensi siswa berhasil, akan mendapatkan nilai pertumbuhan</string>
+    <string name="student_list">Daftar nama siswa</string>
+    <string name="student_list_sort_growth">Diurutkan sesuai dengan nilai pertumbuhan</string>
+    <string name="student_list_sort_studentno">Diurutkan sesuai dengan nomor siswa</string>
+    <string name="password_old">Kata sandi lama</string>
+    <string name="password_new">Kata sandi baru</string>
+    <string name="class_apply">pendaftaran</string>
+    <string name="course_author">Penulis:</string>
+    <string name="course_copyright">Versi mata kuliah:</string>
+    <string name="course_detail">Ringkasan mata kuliah:</string>
+    <string name="download_process_format">Sedang mengunduh (0KB/0M)</string>
+    <string name="downloaded_process_format" formatted="false">Telah mengunduh %d sumber  Total%s</string>
+    <string name="format_class_member_ranking" formatted="false">Peringkat ke %d </string>
+    <string name="not_publish">Belum dirilis</string>
+    <string name="finished_lesson">Bab yang telah diselesaikan:</string>
+    <string name="study_time">Pembelajaran yang diakumulasi:</string>
+    <string name="collect_score">Nilai yang terkumpul</string>
+    <string name="score">Skor</string>
+    <string name="level">kelas</string>
+    <string name="current_collect_score">Poin yang didapat saat ini</string>
+    <string name="average_score">Nilai rata-rata</string>
+    <string name="collect_score_info">Informasi rinci nilai</string>
+    <string name="assess_end_date">Waktu selesai penilaian: %s</string>
+    <string name="collect_score_remind">Guru telah mengatur cara ujian, setiap bagian memiliki proporsi tertentu. Di dalam proses belajar, nilai akan terus mengalami perubahan, silahkan gunakan nilai setelah waktu penilaian habis sebagai acuannya.</string>
+    <string name="active_text_book_not_edit_remind">Gores lapisan belakang bahan pengajaran versi print atau kartu belajar, lalu masukkan nomor aktivasi ke dalam kotak kosong di bawah</string>
+    <string name="active_text_book_searched_remind">Cari informasi-informasi di bawah ini sesuai dengan nomor aktivasi yang anda masukkan</string>
+    <string name="active_text_book_only_pc_remind">Mata kuliah ini tidak mendukung pembelajaran di telepon seluler, silahkan gunakan komputer</string>
+    <string name="active_text_book_not_edit_remind2">1. Gores bagian bawah buku teks kertas atau lapisan pada kartu pembelajaran untuk mendapatkan kode aktivasi atau kode QR \n 2. Buku teks perlu diaktifkan dengan akun saya, jangan aktifkan untuk orang lain</string>
+    <string name="active_text_book_special_remind">Tips khusus: \n· Setiap lembar kartu belajar hanya bisa mengaktifkan 1 kali \n· Batas waktu belajar bahan mata kuliah adalah 180 hari dihitung setelah hari aktivasi \n· Silahkan gunakan akun sendiri untuk login dan aktivasi</string>
+    <string name="active_text_book_search_remind">Mencari informasi-informasi di bawah ini sesuai dengan nomor aktivasi yang anda masukkan:</string>
+    <string name="active_course_code_wrong">Silahkan masukkan nomor aktivasi 16 nomor yang tepat</string>
+    <string name="active_course_not_same">Nomor aktivasi tidak sesuai! Silahkan gunakan nomor aktivasi bahan mata kuliah ini untuk melakukan aktivasi.</string>
+    <string name="active_course_right_course">Bahan mata kuliah yang sesuai dengan nomor aktivasi anda: %s</string>
+    <string name="active_course_please_set">Silahkan masukkan nomor aktivasi</string>
+    <string name="active_course_please_set_keyboard">16 huruf/angka, silahkan masukkan di keyboard bahasa Inggris</string>
+    <string name="active_course_code_success">Berhasil mengaktifkan bahan mata kuliah</string>
+    <string name="active_course_code_fail">Gagal mengaktifkan bahan mata kuliah, mohon dicoba kembali</string>
+    <string name="active_course_search_fail">Gagal mencari bahan mata kuliah, mohon dicoba kembali</string>
+    <string name="active_course_code_uesd">Nomor aktivasi telah digunakan. Apabila bukan anda sendiri yang mengaktifasi, silahkan hubungi layanan pelanggan</string> //汇总成绩    <string name="calculation_time" formatted="false">Waktu %s poin/total nilai%s</string>
+    <string name="calculation_process" formatted="false">Progres %s poin/total nilai %s</string>
+    <string name="calculation_test" formatted="false">Ujian %s poin/total nilai%s</string>
+    <string name="calculation_score" formatted="false">Nilai %s poin/total nilai%s</string>
+    <string name="calculation_total_score" formatted="false">Total nilai %d</string>
+    <string name="calculation_total" formatted="false">Total nilai</string>
+    <string name="calculation_work" formatted="false">Pekerjaan rumah %s poin/total nilai %s</string>
+    <string name="calculation_other" formatted="false">Lainnya %s poin/total nilai %s</string> //无策略的说明    <string name="calculation_one">· Menampilkan nilai rata-rata bab</string>
+    <string name="calculation_two">· Bab yang belum diselesaikan dihitung 0 poin</string>
+    <string name="calculation_three">· Tarik ke bawah untuk refresh nilai</string>
+    //汇总成绩说明    <string name="score_time" formatted="false">Waktu : total nilai%s</string>
+    <string name="score_process" formatted="false">Progres : total nilai%s</string>
+    <string name="score_test" formatted="false">Ujian : total nilai%s</string>
+    <string name="score_score" formatted="false">Nilai : total nilai%s</string>
+    <string name="score_work" formatted="false">Pekerjaan rumah : total nilai%s</string>
+    <string name="score_other" formatted="false">Lainnya : total nilai %s</string>
+    <string name="score_total" formatted="false">Nilai sempurna %s</string>
+    //汇总成绩说明    <string name="score_info_time" formatted="false">Untuk bab yang ikut serta dalam penilaian, apabila pembelajarannya diakumulasikan mencapai %s menit akan mendapatkan nilai sempurna, lebih rendah dari %s menit akan dihitung 0 poin.</string>
+    <string name="score_info_process" formatted="false">Untuk bab yang ikut serta dalam penilaian, apabila pembelajarannya diakumulasikan mencapai %s akan mendapatkan nilai sempurna, lebih rendah dari %s akan dihitung 0 poin.</string>
+    <string name="score_info_test" formatted="false">Dihitung sesuai dengan nilai ujian yang dipilih</string>
+    <string name="score_info_score" formatted="false">Dihitung sesuai dengan nilai rata-rata yang ikut serta dalam bab penilaian</string>
+    <string name="score_info_work" formatted="false">Dihitung sesuai dengan nilai pekerjaan rumah yang dipilih</string>
+    <string name="score_info_other" formatted="false">Dihitung sesuai dengan nilai yang diimpor oleh guru</string>
+
+    <string name="course_score">-- poin</string>
+    <string name="course_score_fromat" formatted="false">%s Poin</string>
+    <string name="course_activity_size" formatted="false">%s Buah</string>
+    <string name="how_many_size" formatted="false">%s Buah</string>
+    <string name="course_activity_date" formatted="false">%d-%s</string>
+    <string name="course_study_plan_date" formatted="false">%s sampai %s dapat dipelajari</string>
+    <string name="average_scores">Nilai rata-rata</string>
+    <string name="course_study_close_lesson">Guru telah menutup pembelajaran untuk bab ini</string>
+    <string name="progress">Progres</string>
+    <string name="grade">Nilai</string>
+    <string name="grade1">Nilai: </string>
+    <string name="minute">Menit</string>
+    <string name="second">Detik</string>
+    <string name="clock">Jam</string>
+    <string name="time">Waktu:</string>
+    <string name="minute_format" formatted="false">%d poin</string>
+    <string name="minute_format_str" formatted="false">%s poin</string>
+    <string name="lesson_offline_resource">Simpan bahan mata kuliah ke dalam cache</string>
+
+    <string name="dialog_content_clear_course">Apakah anda yakin untuk menghapus mata kuliah tersebut?</string>
+
+    <string name="practice_correct_answer">Jawaban yang tepat:</string>
+    <string name="practice_user_answer">Jawaban anda:</string>
+    <string name="practice_answer_analysis">Analisa</string>
+
+    <string name="about_activity_title">Tentang kami</string>
+    <string name="feedback_activity_title">Pendapat dan kritik</string>
+    <string name="feedback_activity_submit">Mengumpulkan kritik dan saran</string>
+    <string name="pay_activity_title">Pembelian mata kuliah</string>
+
+    <string name="login_confirm">Login</string>
+    <string name="login_title">Login lewat akun dan kata sandi</string>
+    <string name="login_bind">Ikat</string>
+    <string name="login_no_account">Tidak memiliki akun</string>
+    <string name="login_bind_title">Ikat nomor akun ULearn</string>
+    <string name="login_bind_remind">Setelah diikat, dapat secara langsung menggunakan aplikasi pihak ketiga untuk login</string>
+    <string name="logout_unbind_success_remind">Pelepasan pengikatan berhasil</string>
+    <string name="logout_bind_success_remind">Pengikatan berhasil</string>
+    <string name="logout_bind_wechat_remind">Apakah anda yakin untuk menghapus pengikatan akun?</string>
+    <string name="login_wechat_confirm">Login Wechat</string>
+    <string name="login_wechat_binded">Telah diikat, klik untuk melepasnya</string>
+    <string name="login_binded_now">Segera mengikat</string>
+    <string name="login_wechat_app_not_installed">Silahkan pasang di platform pelanggan Wechat</string>
+    <string name="login_qq_confirm">Login QQ</string>
+    <string name="login_welcome">Selamat datang ke Ulearning</string>
+    <string name="login_name">Silahkan masukkan nama pengguna/no. ponsel/Email</string>
+    <string name="login_password">Silahkan masukkan kata sandi</string>
+    <string name="login_register">Registrasi akun</string>
+    <string name="login_forget_password">Lupa kata sandi</string>
+    <string name="login_forget_password_line">
+        <u>忘记密码?</u>&lt;string name=&quot;login_forget_password_line&quot;&gt;&lt;u&gt;Lupa kata sandi&lt;/u&gt;&lt;/string&gt;</string>
+    <string name="register_activity_title">Registrasi</string>
+
+    <string name="register_stu">Saya adalah siswa</string>
+    <string name="register_tea">Saya adalah guru</string>
+
+
+    <string name="main_logout">Akun anda telah di login di telepon seluler lain, silahkan pastikan apakah orang itu anda, apabila bukan, anda disarankan untuk mengganti kata sandi untuk memperkuat keamanan akun</string>
+
+    <string name="main_menu_courses_title">Mata kuliah</string>
+    <string name="main_menu_statistics_sync_success">Catatan belajar telah disinkronisasi</string>
+    <string name="main_menu_statistics_sync_failed">Maaf, sinkronisasi gagal</string>
+    <string name="main_menu_statistics_review">Ulasan</string>
+    <string name="main_menu_setting_font_small">Kecil</string>
+    <string name="main_menu_setting_font_normal">Sedang</string>
+    <string name="main_menu_setting_font_large">Besar</string>
+    <string name="main_menu_setting_clear_title">Hapus mata kuliah yang diunduh</string>
+    <string name="main_menu_setting_service_title">Hubungi layanan pelanggan</string>
+    <string name="main_menu_setting_about_title">Tentang kami</string>
+    <string name="main_menu_item_courselistgrade">Batas nilai lolos untuk latihan percakapan</string>
+    <string name="main_menu_setting_font_size">Mengatur ukuran tulisan</string>
+    <string name="main_join_class">Ikut bergabung dalam kelas</string>
+    <string name="main_join_class_course">Ikut bergabung dalam mata kuliah kelas</string>
+    <string name="main_join_class_course_code_size">Nomor kode mata kuliah kelas</string>
+    <string name="main_join_class_course_code_hint">Silahkan masukkan nomor kode mata kuliah kelas</string>
+    <string name="main_menu_option_upgrade_none_message">Saat ini sudah merupakan versi paling tinggi</string>
+    <string name="main_menu_invalid_warn_message">Silahkan masukkan informasi yang berlaku</string>
+    <string name="main_menu_feedback_confirm_message">Berhasil dikumpul, terima kasih untuk saran dari anda.</string>
+
+    <string name="package_download_none_wifi_confirm">Tidak ada wifi?! Pemuatan mata kuliah dapat menghabiskan kuota, berhati-hatilah!</string>
+    <string name="my_store_course_expired_label">Mata kuliah telah berakhir, tidak dapat dilihat</string>
+
+    <string name="course_menu_glossaries_title">Daftar nama istilah</string>
+    <string name="course_my_activity_count_title" formatted="false">Kegiatan minggu ini (%d)</string>
+    <string name="course_my_grade_title">Nilai mata kuliah</string>
+    <string name="course_my_grade_test_title">Aturan penilaian</string>
+    <string name="course_my_grade_score">Nilai saat ini</string>
+    <string name="course_my_grade_end_time" formatted="false">Penilaian telah selesai, nilai akhir adalah %s nilai</string>
+    <string name="course_my_grade_unend_time" formatted="false">Penilaian selesai %s</string>
+    <string name="course_my_publish_time" formatted="false">%s Dirilis pada %s</string>
+    <string name="course_menu_bookmarks_title">Daftar bookmark</string>
+    <string name="course_menu_notes_title">Daftar catatan</string>
+    <string name="course_menu_bookmarks_page_number">Halaman ke %d</string>
+    <string name="course_menu_notes_page_number">Halaman ke %d</string>
+    <string name="course_menu_notes_delete_dialog_message">Apakah anda yakin akan menghapus catatan?</string>
+    <string name="course_menu_notes_empty_message">Anda belum menambah catatan</string>
+    <string name="course_menu_bookmarks_delete_dialog_message">Apakah anda yakin untuk menghapus bookmark?</string>
+    <string name="course_checking_remind">Telah mendaftar untuk ikut bergabung ke dalam kelas tersebut, silahkan menunggu guru untuk memeriksanya</string>
+    <string name="course_select_change_remind">Setelah mengganti mata kuliah, nilai siswa akan terpengaruh. Apakah anda yakin untuk ganti?</string>
+    <string name="course_not_complete_remind">Anda belum menyelesaikan mata kuliah, apakah yakin untuk meninggalkannya?</string>
+    <string name="course_teach_group_finish">Anda telah membentuk tim pengajaran, tidak dapat merubah model</string>
+    <string name="course_complete_other_tea" formatted="false">Kelas guru lainnya: \n%s</string>
+    <string name="course_join_give_up">Tidak ikut serta dalam kelas</string>
+    <string name="course_join_give_up_confirm">Apakah anda yakin untuk tidak ikut bergabung dalam kelas?</string>
+    <string name="course_menu_bookmarks_empty_message">Anda belum menambah bookmark</string>
+    <string name="course_detail_download_fail">Gagal memuat daftar isi mata kuliah, silahkan hubungi layanan customer 400 610 7808 untuk menyelesaikan masalah untuk anda</string>
+    <string name="course_learn_page_option_submit">Kumpul</string>
+    <string name="course_learn_page_practice_score">Nilai anda: %s poin</string>
+    <string name="course_learn_page_bookmark_add">Telah disimpan</string>
+    <string name="course_learn_page_bookmark_remove">Berhasil dihapus</string>
+    <string name="course_learn_page_end_of_lesson">Sudah di halaman terakhir</string>
+    <string name="course_learn_page_lei_empty_transcript">Tidak menemukan teks asli pendengaran</string>
+    <string name="course_learn_page_lei_empty_record">Silahkan lakukan rekaman suara terlebih dahulu</string>
+    <string name="course_learn_page_pronunciation_video_transcript">Teks asli pendengaran</string>
+    <string name="course_learn_objective_activity_title">Target belajar</string>
+    <string name="course_learn_test_result_answer_wrong">Jawaban anda: Salah</string>
+    <string name="course_learn_test_result_answer_correct">Jawaban anda: Tepat</string>
+    <string name="course_learn_lei_practice_answer_activity_title">Jawaban latihan mata kuliah</string>
+    <string name="course_learn_lei_role_play_help_option_a_title">Menampilkan seluruh tips</string>
+    <string name="course_learn_lei_role_play_help_option_b_title">Menampilkan sebagian tips</string>
+    <string name="course_learn_lei_role_play_help_option_c_title">Tidak menampilkan tips</string>
+    <string name="course_learn_file_remind">Tidak mendukung pra-tinjau dokumen tersebut untuk saat ini \n Anda dapat menggunakan aplikasi lain untuk membukanya</string>
+    <string name="course_not_create_remind">Anda belum membuat mata kuliah</string>
+    <string name="course_not_join_remind">Anda belum ikut bergabung ke dalam mata kuliah</string>
+    <string name="course_not_learning_remind">Tidak ada mata kuliah yang sedang berlangsung</string>
+    <string name="course_not_end_remind">Tidak ada mata kuliah yang telah selesai</string>
+
+    <!--课程主页-->
+    <string name="coures_home_course_end">Mata kuliah telah selesai!</string>
+    <string name="coures_home_course_end_not_add">Anda tidak dapat merevisi ulang mata kuliah, merilis sumber atau kegiatan baru. Siswa dapat terus melihat isi konten mata kuliah, namun tidak dapat ikut bergabung lagi ke dalam mata kuliah</string>
+    <string name="coures_home_course_end_look">Apabila memerlukan isi konten pengajaran sebelum pemeriksaan dan data belajar siswa, silahkan mengoperasikannya lewat komputer</string>
+
+    <!--课件-->
+    <string name="textbook_empty_remind">Belum ada bahan mata kuliah untuk saat ini, bahan mata kuliah ditentukan secara terpadu oleh pengelola administrasi mata kuliah</string>
+    <string name="textbook_empty_remind_stu">Belum ada bahan mata kuliah untuk saat ini</string>
+    <string name="textbook_my_textbook_course">Mata kuliah di bawah ini telah menggunakan bahan pengajaran tersebut, silahkan masuk ke dalam mata kuliah untuk belajar</string>
+    <string name="textbook_select">Pilih bahan mata kuliah</string>
+    <string name="textbook_out_of_date" formatted="false">berakhir pada %s</string>
+    <string name="textbook_is_out_of_date">Mata kuliah tersebut telah lewat dari batas waktu</string>
+    <string name="textbook_plan_chapter_out_of_date">Waktu pembelajaran bab tersebut telah selesai</string>
+    <string name="textbook_plan_chapter_not_start">Saat ini tidak dapat belajar bab tersebut</string>
+
+    <!--活动-->
+    <string name="activity_all_empty_stu">Belum merilis kegiatan kelas~</string>
+    <string name="activity_all_empty_tea">Belum merilis isi konten untuk saat ini</string>
+    <string name="activity_type_empty">Kegiatan yang tidak sesuai dengan persyaratan</string>
+    <string name="activity_not_start">Kegiatan belum dimulai</string>
+
+    <string name="course_select_title">Pilih</string>
+    <string name="class_select_title">Pilih kelas</string>
+    <string name="all_class">Semua</string>
+    <string name="comfirm">Setuju</string>
+    <string name="comfirm_num" formatted="false">Setuju(%s)</string>
+
+    <string name="comment_activity_comment_compose">Menulis penilaian</string>
+    <string name="comment_activity_comment_my_compose">Penilaian saya</string>
+    <string name="comment_compose_create_activity_title">Menulis penilaian</string>
+    <string name="comment_compose_reply_activity_title">Membalas penilaian</string>
+    <string name="comment_compose_send">Penerbitan</string>
+
+    <string name="downloads_clear_empty_message">Mata kuliah yang belum diunduh oleh anda</string>
+    <string name="downloads_clear_clear">Hapus</string>
+    <string name="downloads_clear_expired_date">Waktu habis berlaku: </string>
+
+    <string name="setting_coursegrade_title">Pengaturan nilai mata kuliah</string>
+    <string name="setting_coursegrade_top_remind">Pengaturan tersebut hanya berlaku untuk sebagian mata kuliah</string>
+    <string name="setting_course_all">Pengaturan terpadu</string>
+    <string name="setting_course_one">Pengaturan diferensiasi setiap kelas</string>
+    <string name="setting_coursegrade_bottom_remind">*Nilai latihan percakapan siswa yang lebih rendah dari nilai lolos tidak akan ditampilkan \n* Pengaturan di atas hanya berlaku untuk mata kuliah telepon seluler</string>
+
+    <!--活动-->
+    <string name="activity_null_remind_stu">Tidak ada kegiatan untuk saat ini~</string>
+    <string name="activity_null_remind_tea">Buat kegiatan</string>
+    <string name="activity_publisher_name" formatted="false">Perilis: %s</string>
+    <string name="activity_duration" formatted="false">%s sampai %s</string>
+    <string name="activity_always_open">Diskusi terbuka dalam jangka waktu panjang</string>
+    <string name="activity_always_open_dis">Buka dalam jangka waktu yang panjang</string>
+    <string name="activity_class" formatted="false">Kelas: %s</string>
+    <string name="activity_classes" formatted="false">Kelas: %d kelas</string>
+
+
+    <string name="no_resource_remind">Anda belum mengunduh, silahkan kembali ke halaman unit untuk mengunduh video dan audio.</string>
+    <string name="course_resource_error_remind">Terjadi kerusakan pada mata kuliah, silahkan hubungi 400 610 7808, kami akan segera menyelesaikannya.</string>
+    <string name="record_file_not_found_remind">Belum menemukan dokumen rekaman suara, atau rekaman suara anda telah hilang.</string>
+    <string name="mipca_not_find_course_remind">Sayang sekali, halaman yang anda akses telah hilang, silahkan hubungi kami ke nomor telepon 400-610-7808</string>
+    <string name="mipca_storecourse_null_remind">Tidak dapat menemukan mata kuliah, silahkan konfirmasi apakah mata kuliah telah diaktifkan</string>
+    <string name="mipca_storecourse_null_remind_tea">Institusi anda belum mengaktifkan mata kuliah ini, apabila perlu mencobanya, silahkan hubungi kami</string>
+
+    <string name="archiveinfo">1. Tidak akan ditampilkan di halaman depan guru setelah pengarsipan kelas;\n2. Tidak dapat melihat nilai progres kelas setelah pengarsipan;\n3. Tidak dapat mengatur rencana pembelajaran, memberikan pekerjaan rumah, mengatur ujian, merilis sumber dll untuk kelas.\n4. Tidak akan menampilkan kelas tersebut di platform siswa;\n5. Kelas yang telah diarsipkan dapat dikembalikan melalui pembatalan pengarsipan.</string>
+    <string name="speaking_item1">1. Setelah latihan, akan mengumpulkan rekaman suara anda yang terakhir, dalam proses pengunggahan rekaman suara akan muncul biaya kuota, anda disarankan untuk menggunakan WIFI. </string>
+    <string name="speaking_item2">2. Tetap dapat melakukan latihan pada saat belum terhubung ke jaringan internet, namun catatan rekaman suara anda tidak dapat diunggah, setelah anda terhubung ke dalam jaringan internet, silahkan klik “sinkronisasi catatan pembelajaran”untuk mengunggah rekaman suara dan catatan pembelajaran anda.</string>
+
+    <string name="main_menu_item_selectcourse">Pilih mata kuliah</string>
+    <string name="main_top_buycourse">Beli mata kuliah</string>
+
+    <string name="remind_no_courseactive">Tidak ada apapun di sini~\n Aktifkan mata kuliah</string>
+    <string name="remind_no_course_tea">Institusi anda belum mengaktifkan mata kuliah \n Silahkan hubungi hotline kami di 4006107808.</string>
+    <string name="remind_no_joinclass">Anda belum menambah kelas sama sekali~</string>
+    <string name="remind_no_create_class">Anda belum membuat kelas~</string>
+    <string name="remind_create_class">Buat kelas</string>
+    <string name="remind_set_class">Atur kelas</string>
+    <string name="remind_select_model_of_teach">Silahkan pilih mode pengajaran anda, serta selesaikan mata kuliah</string>
+    <string name="remind_welcome_join_course">Selamat ikut bergabung dalam mata kuliah ini, \n Peran anda di dalam mata kuliah adalah</string>
+    <string name="remind_welcome_join_course_title">Selamat ikut bergabung dalam mata kuliah</string>
+    <string name="remind_welcome_join_course_role">Peran anda di dalam mata kuliah ini adalah %s</string>
+    <string name="remind_welcome_join_course_admin">Anda dapat mengelola bahan mata kuliah yang dipakai, tim pengajaran, anggota kelas dari mata kuliah, melihat kondisi pengajaran seluruh kelas, juga dapat membuat kelas sendiri untuk memulai pengajaran.</string>
+    <string name="remind_finish_course">Setelah mata kuliah selesai: \n Guru tidak dapat merilis sumber atau kegiatan baru, juga tidak dapat merevisi isi konten yang telah ada di dalam mata kuliah, hanya bisa melihat dari komputer dan mengekspor data. \n Murid dapat terus melihat isi konten di dalam peajaran, namun tidak dapat ikut bergabung lagi ke dalam mata kuliah. \n\n Apakah anda yakin untuk menyelesaikan mata kuliah?</string>
+    <string name="remind_exit_course">Setelah keluar dari kelas, catatan tugas, diskusi, ujian dari kelas anda akan dihapus, namun catatan pembelajaran tidak akan terpengaruh. Yakin untuk keluar?</string>
+    <string name="remind_clear_file_cache">Yakin untuk menghapus dokumen cache dari mata kuliah yang dipilih?</string>
+    <string name="remind_exit_course_fail">Gagal keluar dari kelas</string>
+    <string name="remind_exit_course_success">Anda telah berhasil keluar dari kelas, apabila ingin ikut bergabung dalam kelas baru, silahkan minta kode QR atau nomor kode kelas baru dari dosen.</string>
+    <string name="remind_exit_course_wait_for_review">Anda telah berhasil mengirimkan aplikasi penarikan Anda, harap tunggu guru untuk memeriksanya.</string>
+    <string name="remind_delete_course">Setelah dihapus, mata kuliah tidak akan dapat dikembalikan, siswa yang telah ikut bergabung dalam mata kuliah tersebut tidak bisa melanjutkan pembelajaran mereka, silahkan mengoperasikannya secara teliti! </string>
+    <string name="remind_welcome_join_course_assistant">Pengelola administrasi mata kuliah atau guru akan menentukan kelas untuk anda, anda dapat membantu guru untuk memulai pengajaran. </string>
+    <string name="remind_welcome_join_course_tea">Pengelola administrasi mata kuliah mungkin akan membagikan kelas untuk anda, anda juga dapat membuat kelas sendiri di dalam mata kuliah untuk memulai pengajaran.</string>
+    <string name="remind_create_class_info">Membuat kelas pengajaran, menentukan guru kelas serta mengundang siswa untuk ikut bergabung dalam kelas. </string>
+    <string name="remind_create_class_info_tea">Silahkan buat kelas anda atau tunggu pengelola administrasi untuk menentukan kelas untuk anda. </string>
+    <string name="remind_create_class_info_ass">Silahkan menunggu pengelola adiminstrasi untuk menentukan kelas untuk anda, anda dapat secara langsung masuk ke dalam mata kuliah.</string>
+    <string name="remind_create_class_course">Apabila mata kuliah dikelola oleh sebuah tim pengajaran, maka hanya penanggung jawab mata kuliah saja yang membuatnya, setelah itu menambahkan dosen-dosen lainnya masuk ke dalam tim. Mata kuliah tidak perlu dibuat secara terpisah oleh masing-masing dosen.</string>
+    <string name="remind_create_class_course_same_name" formatted="false"> Sekolah ini telah memiliki mata kuliah dengan nama yang sama (Dibuat oleh guru %s), anda disarankan untuk menghubungi guru pembuat mata kuliah tersebut untuk melakukan konfirmasi, guna menghindari terjadinya pengulangan pembuatan mata kuliah. \n Apakah anda yakin untuk melanjutkan pembuatan?</string>
+    <string name="remind_modify_class_course_same_name" formatted="false">Sekolah ini telah memiliki mata kuliah dengan nama yang sama (Dibuat oleh guru %s), anda disarankan untuk menghubungi guru pembuat mata kuliah tersebut untuk melakukan konfirmasi, guna menghindari terjadinya pengulangan pembuatan mata kuliah. \n Apakah anda yakin untuk menyimpannya?</string>
+    <string name="remind_create_class_info_person">Mmebuat kelas pengajaran, serta mengundang siswa untuk ikut bergabung dalam kelas. (Sistem telah mengatur satu kelas, dapat melakukan revisi setelah masuk ke dalam mata kuliah)</string>
+    <string name="remind_select_course">Impor bahan mata kuliah</string>
+    <string name="remind_select_course_info"> Impor bahan mata kuliah interaksi sekolah ini / bahan mata kuliah umum, untuk dijadikan bahan pembelajaran sendiri oleh para siswa.</string>
+    <string name="remind_select_course_info_per">Impor bahan mata kuliah interaksi sekolah ini / bahan mata kuliah umum, untuk dijadikan bahan pembelajaran sendiri oleh para siswa. </string>
+    <string name="remind_select_course_info_is_admin">Pembuat mata kuliah belum menentukan bahan mata kuliah; \n Tanpa menentukan bahan mata kuliah, anda tetap dapat merilis sumber, pekerjaan rumah dan kegiatan pengajaran lainnya</string>
+    <string name="remind_select_course_info_no_admin">Tidak ada bahan mata kuliah untuk saat ini \n Bahan mata kuliah ditentukan secara terpadu oleh pengelola administrasi mata kuliah</string>
+    <string name="remind_group_teacher">Membentuk tim pengajaran</string>
+    <string name="remind_add_teacher">Menambah guru</string>
+
+
+    <string name="remind_add_teacher_info">Tambahkan guru lainnya ke dalam tim pengajaran, mengelola mata kuliah bersama-sama, mengajar di kelas yang telah dibagi.</string>
+    <string name="remind_add_teacher_info_per">Membuat kelas pengajaran, serta mengundang siswa untuk ikut bergabung dalam kelas. (Sistem telah mengatur satu kelas, dapat melakukan revisi setelah masuk ke dalam mata kuliah)</string>
+    <string name="remind_add_teacher_info_tea">Silahkan buat kelas anda atau menunggu pengelola administrasi mata kuliah untuk menentukan kelas untuk anda.</string>
+    <string name="remind_once_create_class_tea">Klik di sini untuk membuat kelas</string>
+    <string name="remind_once_create_class_stu">Klik di sini untuk menambah kelas dan mengaktifkan mata kuliah</string>
+    <string name="remind_join_class_course_wait_for_preview">Telah mengumpulkan pendaftaran untuk ikut bergabung, silahkan tunggu pemeriksaan dari guru</string>
+    <string name="remind_join_class_course_wait_for_preview_to_another">Telah mendaftar kelas lainnya dari mata kuliah tersebut, silahkan menunggu pemeriksaan</string>
+    <string name="remind_join_class_course_has_joined">Anda telah ikut bergabung dalam kelas ini, mohon jangan diulang</string>
+    <string name="remind_join_class_course_finished">Mata kuliah di dalam kelas ini telah selesai, tidak dapat ikut bergabung ke dalamnya</string>
+    <string name="remind_join_class_course_code_wrong">Silahkan masukkan nomor kode kelas yang tepat</string>
+    <string name="remind_join_class_course_tea">Guru tidak dapat menambah kelas, silahkan hubungi pembuat mata kuliah ini untuk memasukkan anda ke dalam kelas tersebut</string>
+    <string name="remind_join_class_course_already_existed">Anda telah ikut bergabung dalam kelas lainnya dari mata kuliah ini, mohon jangan diulang; apabila anda ikut serta ke dalam kelas yang salah, silahkan hubungi guru kelas untuk mengubah kelas </string>
+    <string name="remind_join_class_course_different_org" formatted="false">Saat ini anda berada di institusi: \n%s\n Setelah ikut bergabung dalam kelas ini, informasi sekolah anda akan diganti menjadi \n%s\n Apakah anda yakin untuk ikut bergabung dalam kelas ini? </string>
+
+    <string name="remind_once_main_tab_mine">Lihat kelas saya, informasi \n, informasi pribadi dan applet di sini</string>
+    <string name="remind_tools_empty">Tidak ada aplikasi yang tersedia</string>
+    <string name="remind_once_main_tab_activity">Pekerjaan rumah dan kegiatan kelas ada di sini</string>
+    <string name="remind_once_lookup_student_course_progress">Klik icon untuk melihat nilai progres siswa</string>
+    <string name="remind_once_public_activity">Klik untuk memulai kegiatan kelas</string>
+    <string name="remind_once_show_or_edit_profile">Klik untuk melihat dan menyelesaikan informasi pribadi</string>
+    <string name="remind_once_sync_study_record">Klik untuk sinkronisasi catatan pembelajaran</string>
+    <string name="remind_sync_record_ing">Sedang sinkronisasi...</string>
+    <string name="remind_sync_record_success">Berhasil sinkronisasi</string>
+    <string name="remind_sync_record_fail">Gagal sinkronisasi, tarik ke bawah untuk refresh</string>
+    <string name="remind_once_download_course_resource">Unduh paket bahan mata kuliah offline, tetap dapat dipelajari meskipun tidak ada internet \n </string>
+    <string name="remind_once_collect_course_page">Klik untuk menyimpan isi konten halaman ini </string>
+    <string name="remind_once_section_study_undone">Anda memiliki halaman yang belum diselesaikan, klik icon warna abu-abu \n untuk lanjut belajar </string>
+    <string name="remind_once_course_content">Klik halaman depan untuk memeriksa isi konten mata kuliah</string>
+    <string name="remind_once_course_progress_student">Klik icon untuk memeriksa progres siswa</string>
 
 
     <!-- 消息 -->
+    <string name="message_remind">Pengingat pesan</string>
+    <string name="message">Pesan</string>
+    <string name="voice">Suara</string>
+    <string name="move_up_to_cancel">Swipe ke atas untuk membatalkan pengiriman</string>
+    <string name="release_to_cancel">Lepaskan jari anda untuk membatalkan pengiriman</string>
+    <string name="The_recording_time_is_too_short">Waktu rekaman terlalu singkat</string>
+
+    <string name="notify">Pengingat pesan baru</string>
+    <string name="newnotify">Pemberitahuan pesan baru</string>
+    <string name="shake">Getar</string>
+    <!-- 消息 -->
 
 
-    </resources>
+    <string name="file">Dokumen</string>
+    <string name="folder">Daftar isi</string>
+    <string name="include">%1$s dokumen, %2$s daftar isi</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+
+    <string name="detail_exam_submited">Anda telah berhasil mengumpulkan kertas ujian</string>
+    <string name="detail_exam_public">Kelas telah merilis ujian</string>
+    <string name="feedback_default_text">Terima kasih telah memilih ULearn. Kami akan mendengar setiap keluhan dan saran dari anda, serta meningkatkan kualitas kami. </string>
+    <string name="download_wait_text">Menunggu</string>
+    <string name="download_normal_text">Cache</string>
+    <string name="download_normal">Unduh</string>
+    <string name="download_pause">Berhenti sementara</string>
+    <string name="download_clear_section_all">Hapus sumber pada bagian ini</string>
+
+    <string name="person_info_1">Silahkan hubungi kami di nomor telepon 400-610-7808 apabila tidak ada mata kuliah di dalam akun anda</string>
+    <string name="person_info_2">Setelah memeriksa informasi anda, anda dapat menggunakan mata kuliah, bahan pengajaran, kumpulan soal kami dan layanan pengajaran lainnya dari kami secara gratis. </string>
+    <string name="person_info_have_tel">Setelah terhubung, anda dapat menggunakan nomor ponsel baru untuk login</string>
+    <string name="person_info_not_have_tel">Guna memudahkan pencarian kata sandi, silahkan hubungkan nomor ponsel. Setelah terhubung, anda dapat menggunakan nomor ponsel baru untuk login</string>
+
+    <string name="permission_string_help_text">Sistem tidak dapat mengakses mikrofon anda, mungkin karena anda belum mengaktifkan akses tersebut, atau mikrofon sedang digunakan. \n Silahkan aktifkan akses atau berhenti menggunakannya lalu coba kembali</string>
+    <string name="permission_camera_string_help_text">Maaf, kamera anda tidak dapat diakses, silahkan aktifkan akses kamera anda</string>
+    <string name="permission_hint">Pengingat akses</string>
+    <string name="filter_vcode" translatable="false">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="login_error_message_no_connection">Jaringan internet tidak dapat digunakan untuk saat ini, silahkan periksa pengaturan jaringan internet anda</string>
+    <string name="networkerror">Jaringan internet tidak dapat digunakan untuk saat ini, silahkan periksa jaringan internet anda</string>
+    <string name="empty_data_error">Belum mendapatkan data, tarik ke bawah untuk refresh</string>
+    <string name="exception_parse_json_error">Terjadi kesalahan pada penjelasan data, silahkan telepon ke 4006107808</string>
+    <string name="package_download_none_network_message">Jaringan internet tidak dapat digunakan untuk saat ini, silahkan periksa jaringan internet anda </string>
+    <string name="network_timeout">Terjadi masalah pada jaringan internet, akses telah melewati batas waktu, silahkan dicoba kembali</string>
+    <string name="network_error_url">Tidak dapat menemukan isi konten yang ingin anda akses, silahkan telepon ke 4006107808</string>
+    <string name="network_error_server">Terjadi kesalahan pada akses server, silahakn telepon ke 4006107808</string>
+    <string name="network_error_json">Terjadi kesalahan pada penjelasan data, silahkan telepon ke 4006107808</string>
+    <string name="server_data_error">Terjadi kesalahan pada pembaruan data, tarik ke bawah untuk refresh</string>
+
+    <string name="font_size">Atur ukuran tulisan</string>
+    <string name="font_small">Kecil</string>
+    <string name="font_middle">Sedang</string>
+    <string name="font_big">Besar</string>
+
+    <string name="active_tab_all_space"> Semua </string>
+    <string name="course_app_work_space"> Tugas </string>
+    <string name="course_app_discuss_space"> Diskusi </string>
+    <string name="course_app_live_space"> Live </string>
+    <string name="course_app_class_space"> Kelas </string>
+
+    <!-- 播放器提示内容 -->
+    <string name="area_select_title">Pilih area</string>
+    <string name="area_select_latin_america">Amerika Latin</string>
+    <string name="area_select_asia_pacific">Asia Pasifik</string>
+    <string name="area_select_mainland_china">China</string>
+    <string name="area_select_south_africa">Afrika Selatan</string>
+
+    <!--新增替换服务端语言-->
+    <string name="server_msg_repeat_folder">Folder dengan nama yang sama sudah ada.Silakan modifikasi nama folder!</string>
+    <string name="first_in_resource_icon_name">pop_resource_in</string>
+    <string name="first_in_activity_icon_name">pop_activity_in</string>
+
+    <string name="server_msg_course_name_unmatched">Nama mata kuliah harus berada diantara 2~100 karakter</string>
+
+    <string name="agreement_title">Perjanjian Pengguna dan Perlindungan Privasi </string>
+    <string name="agreement_ok_accept">Setuju dan gunakan </string>
+    <string name="agreement_no_accept">Tidak setuju </string>
+    <string name="agreement_no_accept_and_exit">Tidak setuju dan keluar</string>
+    <string name="agreement_no_accept_content">Dengan memilih tidak setuju, maka anda tidak dapat menggunakan produk dan layanan kami, serta akan keluar dari APP. </string>
+    <string name="activity_public_homework">Beri tugas</string>
+    <string name="activity_more_count" formatted="false">%d kelas </string>
+    <string name="my_resource">Kumpulan sumber</string>
+    <string name="token_out_of_date">Login telah kadaluarsa, silahkan login ulang. </string>
+    <string name="main_tab_weike">Kelas mikro</string>
+    <string name="type_weike">Kelas mikro</string>
+    <string name="right_publish_homework">Beri tugas</string>
+    <string name="right_publish_discuss">Mulai diskusi</string>
+    <string name="edit">Edit</string>
+    <string name="text_course_publish_date" formatted="false">%sRilis</string>
+    <string name="publish">melepaskan</string>
+    <string name="app_launch1">app_android1_in</string>
+    <string name="app_launch2">app_android2_in</string>
+    <string name="app_launch3">app_android3_in</string>
+    <string name="app_launch4">app_android4_in</string>
+    <string name="textbook_cache" formatted="false">Cache: %s</string>
+    <string name="more_language">Ganti bahasa</string>
+
+    <string name="login_sms">Login lewat SMS</string>
+    <string name="login_sms_code">Login via SMS</string>
+    <string name="login_sms_only_china">Login SMS hanya mendukung nomor ponsel di Cina Daratan</string>
+    <string name="bind_account">Bind akun</string>
+    <string name="not_account">Tidak ada akun? </string>
+    <string name="to_register">Registrasi</string>
+    <string name="account_manager">Pengelolaan akun</string>
+    <string name="mine">Milik saya</string>
+    <string name="instructions">Penjelasan pengoperasian</string>
+    <string name="school_info">Informasi universitas</string>
+    <string name="school">Universitas / Lembaga</string>
+    <string name="school_num">NIM / No. Kerja</string>
+    <string name="bind_other_account">Ikat akun pihak ketiga</string>
+    <string name="logout_account">Batalkan akun</string>
+    <string name="logout_account_success">Keluar berhasil</string>
+    <string name="to_bind">Ikat</string>
+    <string name="to_unbind">Lepas</string>
+    <string name="input_phone_error">Nomor telepon salah dimasukkan</string>
+    <string name="input_img_verify_code">Masukkan kode verifikasi grafik</string>
+    <string name="input_sms_code_error">Masukan kode verifikasi salah</string>
+    <string name="switch_to_student">Ganti ke mode mahasiswa</string>
+    <string name="switch_to_teacher">Kembali ke mode dosen</string>
+    <string name="student_mode_not_modify_info">Tidak bisa mengubah informasi akun di dalam mode mahasiswa</string>
+    <string name="student_mode">Mode mahasiswa</string>
+    <string name="select_country_area">Pilih negara / wilayah</string>
+    <string name="bind_phone">Ikat no. ponsel</string>
+    <string name="bind_email">Ikat Email</string>
+    <string name="other_login_type">Cara login lainnya</string>
+
+    <string name="please_input_email">silakan masukan email anda</string>
+    <string name="change_bind_email">Ubah / ikat kotak surat</string>
+    <string name="single_register">registrasi single_register</string>
+    <string name="bind_welcom_info">Pengguna yang terhormat, untuk mengingatkan keamanan akun, harap ikat nomor ponsel atau email Anda terlebih dahulu (setidaknya satu item terikat)</string>
+    <string name="school_num_input_hint">Silakan masukkan string antara 4-20 digit</string>
+
+
+    <string name="select_region">Pilih area</string>
+    <string name="select_region_message">ULearn menyediakan layanan terpisah untuk masing-masing area, silahkan pilih area universitas anda terlebih dahulu sebelum login.</string>
+    <string name="latin_america">Amerika Latin</string>
+    <string name="asia_pacific">Asia Pacific</string>
+    <string name="china_mainland">China</string>
+    <string name="zambia">Zambia.</string>
+    <string name="africa">Afrika</string>
+    <string name="sandBox">Bak pasir</string>
+    <string name="warning_new_pwd_null">Silakan masukkan kata sandi baru</string>
+    <string name="warning_pwd_length">Panjang kata sandi adalah 6-16 karakter</string>
+
+    <string name="tip_type_not_image">Saya tidak memilih gambar</string>
+    <string name="tip_no_camera">Tidak ada kamera</string>
+    <string name="tip_tips">cepat</string>
+    <string name="tip_compress">Mengompresi foto</string>
+    <string name="tip_compress_failed">&quot;%1$s Kompresi gambar gagal:%2$s picturePath:%3$s&quot;</string>
+    <string name="msg_crop_failed">&quot;Gambar yang gagal dipotong&quot;</string>
+    <string name="msg_compress_failed">&quot;Gambar yang gagal dikompres&quot;</string>
+    <string name="msg_crop_canceled">&quot;Batalkan pemangkasan&quot;</string>
+    <string name="msg_operation_canceled">&quot;Operasi dibatalkan&quot;</string>
+    <string name="tip_permission_camera">Tidak ada izin untuk menggunakan kamera, mohon aktifkan dalam manajemen izin</string>
+    <string name="tip_permission_storage">Tidak ada izin untuk menggunakan kartu SD, harap aktifkan dalam pengelolaan izin</string>
+    <string name="tip_permission_camera_storage">Tidak ada izin untuk menggunakan kamera dan kartu SD, harap aktifkan dalam manajemen izin</string>
+    <string name="file_type_not_support">Tipe file tidak didukung</string>
+
+    <!--custom
+    multipleimageselect -->
+    <string name="album_view">Pilih gambar</string>
+    <string name="image_view">Klik untuk memilih</string>
+
+    <string name="add">menentukan</string>
+    <string name="selected">terpilih</string>
+    <string name="limit_exceeded">Bisa memilih paling banyak %d </string>
+
+    <string name="permission_info">App requires permission to Storage to view images.</string>
+    <string name="permission_force">App requires permission to Storage to view images. Tap Settings and go to Permissions to grant permission.</string>
+    <string name="permission_ok">OK</string>
+    <string name="permission_settings">Settings</string>
+    <string name="permission_package">package</string>
+
+    <string name="select_local_file">Pilih file lokal</string>
+    <string name="select_local_file_help">Jika file perangkat tidak dapat dipindai, harap salin file tersebut ke \nAndroid/data/cn.ulearning.yxy/files/</string>
+    <string name="file_size_too_big">Berkas melebihi 200M, tolong diupload dari ujung komputer!</string>
+
+    <string name="voted">telah dipilih</string>
+    <string name="not_voted">tidak memilih</string>
+    <string name="absence">Absen</string>
+    <string name="arrived">telah tiba</string>
+    <string name="sign_success">berhasil masuk</string>
+    <string name="be_late">Terlambat</string>
+    <string name="leave_early">pergi lebih awal</string>
+    <string name="sick_leave">cuti sakit</string>
+    <string name="leave_story">tinggalkan</string>
+    <string name="has_rate">telah disetujui</string>
+    <string name="commited">telah dikirim</string>
+    <string name="wait_rate">untuk disetujui</string>
+    <string name="not_commit">tidak dikirim</string>
+    <string name="evaluationed">telah dievaluasi</string>
+    <string name="evaluation_ing">dalam evaluasi bersama</string>
+    <string name="not_evaluation">tidak dievaluasi</string>
+    <string name="not_group_evaluation">untuk menjadi evaluasi bersama</string>
+    <string name="un_answer">tidak dijawab</string>
+    <string name="un_select">tidak dipilih</string>
+
+    <string name="to_be_rated">untuk dinilai</string>
+    <string name="rated">bertingkat</string>
+    <string name="re_write">perlu ditulis ulang</string>
+    <string name="un_join">tidak berpartisipasi</string>
+    <string name="complain_success">Banding berhasil</string>
+    <string name="study_complete">telah selesai belajar</string>
+    <string name="not_study">tidak belajar</string>
+    <string name="study_progress">kemajuan pembelajaran</string>
+    <string name="not_exam">ujian hilang</string>
+    <string name="not_show_result">hasil tidak akan diumumkan untuk sementara</string>
+    <string name="wait_reta">Untuk dinilai</string>
+    <string name="home_work_type">jenis pekerjaan</string>
+    <string name="submit_status">status pengiriman</string>
+    <string name="deadline_not_submit">terlambat tidak diserahkan</string>
+    <string name="integral">integral</string>
+    <string name="has_join">telah berpartisipasi dalam</string>
+    <string name="complaining">menarik</string>
+    <string name="main_talk_person">presenter</string>
+    <string name="complain_fail">banding gagal</string>
+    <string name="not_reta_wait_teacher">untuk disetujui</string>
+
+    <string name="version_updating">Sedang diperbarui</string>
+    <string name="dialog_new_version_title">Versi sudah diperbarui~</string>
+    <string name="update">Perbarui</string>
+
+    <string name="permisstion_store_hint">Ponsel anda melarang pengunduhan mata kuliah di aplikasi ULearn!\nMohon berikan akses kepada aplikasi ULearn untuk membaca memori.</string>
+    <string name="permisstion_store_record_hint">Perlu menggunakan memori anda saat merekam, \n mohon berikan akses kepada aplikasi ULearn untuk membaca memori.</string>
+
+    <string name="operation_look_storage_permisstion_setting">Lihat cara pengaturan</string>
+    <string name="dont_update">Tidak ada lagi pengingat</string>
+    <string name="course_player_loading">Sedang memperbarui player mata kuliah, mohon menunggu</string>
+    <string name="course_player_unzip">Pembelajaran akan dimulai, mohon menunggu</string>
+    <string name="srl_header_pulling">Tarik ke bawah untuk menyegarkan</string>
+    <string name="srl_header_refreshing">Segar</string>
+    <string name="srl_header_loading">Memuat</string>
+    <string name="srl_header_release">Segarkan segera setelah rilis</string>
+    <string name="srl_header_finish">Segarkan selesai</string>
+    <string name="srl_header_failed">Penyegaran gagal</string>
+    <string name="srl_header_update">Pembaharuan Terakhir M-d HH:mm</string>
+    <string name="srl_header_secondary">Lepaskan ke lantai dua</string>
+
+    <string name="srl_footer_pulling">Tarik untuk memuat lebih banyak</string>
+    <string name="srl_footer_release">Lepaskan dan muat segera</string>
+    <string name="srl_footer_loading">Memuat</string>
+    <string name="srl_footer_refreshing">Segar</string>
+    <string name="srl_footer_finish">Pemuatan selesai</string>
+    <string name="srl_footer_failed">Gagal untuk memuat</string>
+    <string name="srl_footer_nothing">Tidak ada lagi data</string>
+
+    <string name="srl_content_empty">SmartRefreshLayout fail？</string>
+    <string name="srl_component_falsify" formatted="false">%s fail </string>
+
+    <string name="pull_to_refresh_pull_label">Tarik untuk menyegarkan</string>
+    <string name="pull_to_refresh_release_label">Lepaskan untuk menyegarkan</string>
+    <string name="pull_to_refresh_refreshing_label">Memuat</string>
+
+
+    <string name="feedback_hint">tulis komentar atau saran Anda</string>
+    <string name="feedback_log_hint">kirimkan log</string>
+    <string name="only_add_ten_textbook">Hanya 10 courseware yang dapat ditambahkan</string>
+    <string name="document_no_support_down">Dokumen tidak didukung</string>
+    <string name="teacher_not_support">guru tidak mendukung fitur ini</string>
+
+    <string name="app_setting"> pengaturan aplikasi </string>
+    <string name="server_setting"> pengaturan server </string>
+    <string name="language_setting"> pengaturan bahasa </string>
+    <string name="cube_ptr_pull_down"> Tarik ke Bawah </string>
+    <string name="cube_ptr_pull_down_to_refresh"> Tarik ke Bawah untuk Menyegarkan </string>
+    <string name="cube_ptr_release_to_refresh"> Lepaskan Untuk Menyegarkan </string>
+    <string name="cube_ptr_refreshing"> Memperbarui </string>
+    <string name="cube_ptr_refresh_complete"> Diperbarui </string>
+
+    <string name="cube_ptr_last_update">last update: </string>
+    <string name="cube_ptr_seconds_ago"> seconds ago</string>
+    <string name="cube_ptr_minutes_ago"> minutes ago</string>
+    <string name="cube_ptr_hours_ago"> hours ago</string>
+
+    <string name="exit_class_ing">telah mengajukan permohonan untuk mundur dari kursus, harap tunggu peninjauan guru. </string>
+    <string name="exit_class_cancel">Penarikan </string>
+    <string name="active_code_use"> Kode aktivasi hanya dapat digunakan satu kali. Jika Anda tidak mengaktifkannya sendiri, Anda dapat menghubungi teman sekelas Anda untuk mengetahui apakah Anda mendapatkan buku teks yang salah, atau hubungi layanan pelanggan. </string>
+    <string name="active_code_use_person"> Kode aktivasi telah digunakan, aktifkan akun: </string>
+    <string name="exit_class_finish"> Anda telah keluar dari mata pelajaran </string>
+
+    <string name="permission_apply"> aplikasi izin </string>
+    <string name="permission_overlay">Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di ULearning secara normal, Anda perlu mengesahkan izin penangguhan ULearning:\n\nScreencasting, siaran langsung</string>
+    <string name="permission_camera"> Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di You Academy secara normal, Anda perlu memberi otorisasi kepada You Academy untuk mendapatkan izin kamera: \n\nPindai, unggah / ubah avatar Anda, di Pengumuman, Modul Voting, Tugas dan Ujian Ambil gambar dan unggah lampiran gambar, lakukan verifikasi wajah dan pemantauan kamera selama ujian, gunakan pengajaran video dan penautan video guru dan siswa dalam siaran langsung. </string>
+    <string name="permission_location">Untuk memastikan bahwa Anda dapat menggunakan fungsi roll-in, ujian, dan casting layar di ULearning secara normal, Anda perlu memberi otorisasi kepada perguruan tinggi unggulan tersebut untuk mendapatkan otoritas informasi lokasi. </string>
+    <string name="permission_microphone"> Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di You Academy secara normal, Anda perlu memberi otorisasi kepada You Academy untuk mendapatkan izin mikrofon: \n\nPraktik berbicara, pekerjaan rumah lisan, dikte kata, evaluasi lisan, ujian lisan, fungsi siaran langsung </string>
+    <string name="permission_camera_fail"> Anda telah menonaktifkan izin kamera dan tidak dapat menggunakan fungsi ini, silakan masuk ke telepon [Pengaturan] untuk otorisasi </string>
+    <string name="permission_microphone_fail"> Anda telah menonaktifkan izin perekaman dan tidak dapat menggunakan fungsi ini, silakan masuk ke telepon [Pengaturan] untuk otorisasi </string>
+    <string name="permission_location_fail"> Anda telah menonaktifkan izin lokasi, Anda tidak dapat menggunakan fitur ini, silakan masukkan telepon [Pengaturan] untuk otorisasi </string>
+    <string name="permission_read_external"> Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di You Academy secara normal, Anda perlu memberi otorisasi kepada You Academy untuk membaca izin penyimpanan: \n\nBaca data cache aplikasi, gambar, file </string>
+    <string name="permission_read_storage_fail"> Anda telah menonaktifkan izin penyimpanan baca dan tidak dapat menggunakan fungsi ini, silakan masukkan telepon [Pengaturan] untuk otorisasi </string>
+    <string name="permission_camera_microphone_fail">Anda telah menonaktifkan izin kamera atau mikrofon, Anda tidak dapat menggunakan fitur ini, silakan masukkan telepon Anda [Pengaturan] untuk mengotorisasi</string>
+
+    <string name="title_of_top">Puncak</string>
+    <string name="item_all_class">Semua kelas</string>
+    <string name="sso_login">SSO masuk</string>
+    <string name="select_file_count_to_many">Jumlah file yang dipilih melebihi batas</string>
+
+    <string name="not_allow_double_tap">Jangan sering mengklik</string>
+    <string name="title_of_projection">layar proyeksi</string>
+    <string name="projection_on">di layar proyeksi</string>
+    <string name="stop">berhenti</string>
+    <string name="permission_location_wifi_fail">Anda telah menonaktifkan izin lokasi dan tidak bisa mendapatkan nama WiFi, silakan masukkan telepon [Pengaturan] untuk otorisasi</string>
+    <string name="screen_fail_1">Siaran layar gagal! Silakan buka klien layar besar, nyalakan fungsi proyeksi layar, pastikan ponsel dan layar besar berada di jaringan area lokal yang sama. </string>
+    <string name="screen_fail_2">perangkat penerima restart atau terputus dari jaringan </string>
+    <string name="not_run_on_virtualmachine">Jangan menjalankan aplikasi di mesin/emulator virtual</string>
+
+    <string name="not_group_score_announced">Hasil yang belum diumumkan</string>
+    <string name="screen_msg">Ketidakstabilan jaringan dapat menyebabkan proyeksi layar hilang. Jika layar ponsel tidak ditampilkan di layar lebar untuk waktu yang lama, Anda dapat berhenti dan mentransmisikan layar lagi.</string>
+    <string name="screen_device">Perangkat</string>
+    <string name="screen_network">Jaringan</string>
+    <string name="trans_error">Format pengkodean file tidak dapat diuraikan. Silakan coba transcoding dan upload.</string>
+    <string name="malaysia">Malaysia</string>
+
+    <string name="import_something">Impor</string>
+    <string name="add_something">Menambahkan</string>
+    <string name="class_setting">Pengaturan</string>
+    <string name="permission_read_phone_state">Untuk memastikan penggunaan normal Anda atas fungsi-fungsi berikut di ULearning, Anda perlu mengotorisasi izin telepon ULearning untuk mendapatkan status panggilan dan informasi jaringan:\n\nPesan</string>
+    <string name="permission_read_phone_state_fail">Anda telah menonaktifkan izin telepon dan tidak dapat menggunakan fungsi ini, silakan masuk ke [Pengaturan] telepon untuk mengotorisasi</string>
+    <string name="active_tab_photo_upload">Unggah Gambar</string>
+
+    <string name="active_item_normal_live">Kelas Langsung</string>
+    <string name="active_item_tencent_live">Tencent Pertemuan</string>
+    <string name="permission_write_external">Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di You Academy secara normal, Anda perlu memberi otorisasi kepada You Academy untuk membaca izin penyimpanan: \n\nBaca data cache aplikasi, gambar, file </string>
+    <string name="permission_write_storage_fail"> Anda telah menonaktifkan izin penyimpanan baca dan tidak dapat menggunakan fungsi ini, silakan masukkan telepon [Pengaturan] untuk otorisasi </string>
+    <string name="scan_and_activate_book">Pindai kode QR untuk mengaktifkan buku teks</string>
+
+    <string name="live_order_asc">Urutan positif</string>
+    <string name="live_order_des">Urutan terbalik</string>
+    <string name="file_not_supported">Jenis file ini tidak didukung</string>
+    <string name="unable_to_identify">Tidak bisa scan wajah untuk verifikasi?</string>
+    <string name="code_enter_exam">Gunakan nomor verifikasi untuk masuk ujian</string>
+    <string name="active_tab_answer_sheet">Pertanyaan</string>
+
+    <string name="crop_saving">Menyimpan gambar…</string>
+    <string name="crop_wait">Silakan tunggu…</string>
+    <string name="crop_pick_error">Tidak ada sumber gambar yang tersedia</string>
+
+    <string name="crop_done">SELESAI</string>
+    <string name="crop_cancel">BATAL</string>
+    <string name="crop_rotate">MEMUTAR</string>
+
+    <string name="warning_pwd_type">Kata sandi harus 8-16 karakter dan mengandung setidaknya 3 karakter (angka, huruf besar, huruf kecil atau simbol khusus)</string>
+    <string name="hint_input_new_pwd_rule">Kata sandi harus 8-16 karakter dan mengandung setidaknya 3 karakter (angka, huruf besar, huruf kecil atau simbol khusus)</string>
+    <string name="token_expired_msg">Informasi login telah kedaluwarsa, silakan login lagi</string>
+    <string name="manual_login">Harap logout dan login secara manual</string>
+    <string name="course_app_units">Satuan</string>
+    <string name="unable_modify_username">Sekolah melarang siswa mengubah nama mereka. \nJika Anda perlu mengubah, harap hubungi administrator sekolah atau layanan pelanggan.</string>
+    <string name="remind_tea_exit_class">Meninggalkan kelas tidak akan menghapus kelas yang telah anda buat dalam kursus ini serta sumber dan kegiatan yang telah anda terbitkan. Jika kelas yang ditugaskan kepada anda tidak memiliki guru lain, kelas tersebut akan dialihkan kepada pencipta kursus. Yakin ingin keluar?</string>
+
+    <string name="resource_num" formatted="false">%d个资源</string>
+    <string name="resource_num_unread" formatted="false">%d个未查看</string>
+    <string name="resource_unread">未查看</string>
+    <string name="resource_read">已查看</string>
+    <string name="resource_watch">已看完</string>
+    <string name="teaching_activities_notification">教学活动消息</string>
+    <string name="test_work">测验</string>
+    <string name="question_bank">题库</string>
+    <string name="operation_check_all_unfold">展开</string>
+    <string name="login_org">机构账号</string>
+    <string name="login_org_title">机构账号登录</string>
+    <string name="login_org_hint">请输入机构名称</string>
+    <string name="login_org_hint2">请输入正确的机构名称</string>
+    <string name="login_name_hint">请输入学号/工号</string>
+    <string name="permission_bluetooth">为了保证您正常使用优学院内以下功能，需要您授权优学院访问附近的设备：\n\n直播</string>
+    <string name="permission_nearby_wifi_devices">为了保证您正常使用优学院内以下功能，需要您授权优学院访问附近的wifi设备：\n\n投屏</string>
+    <string name="permission_bluetooth_fail">您已禁用附近的设备权限，无法使用此功能，请进入手机【设置】进行授权</string>
+    <string name="login_sms_2">短信</string>
+    <string name="login_wechat_confirm_2">微信</string>
+</resources>
