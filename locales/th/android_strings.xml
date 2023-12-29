@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">ULearning 2.0</string>
-    <string name="app_name_debug">ULearning 2-D</string>
+    <string name="app_name">ULearning</string>
+    <string name="app_name_debug">ULearning-D</string>
 
     <string name="chat_press_talk">กดค้างไว้เมื่อพูด</string>
     <string name="chat_release_send">ปล่อยนิ้วออกเมื่อเสร็จสิ้น</string>
@@ -20,6 +20,7 @@
     <string name="server_error">ระบบอยู่ระหว่างการบํารุงรักษา โปรดลองอีกครั้งในภายหลัง</string>
     <string name="toast_other_lesson_progress" formatted="false">กำลังคัดลอกข้อมูลสื่อการสอนลงในหน่วยความจำแคช%s/%s</string>
     <string name="toast_please_check_if_the_SD_card_is_inserted">กรุณาตรวจสอบว่าการ์ด SD เสียบอยู่หรือไม่!</string>
+    <!--<string name="telphone">400 610 7808</string>-->
     <string name="dialog_quit" formatted="false">จบการทํางาน (%s)</string>
     <string name="dialog_confirm">ยืนยัน</string>
     <string name="dialog_cancel">ยกเลิก</string>
@@ -94,7 +95,7 @@
     <string name="course_practice_remind_text_once">การทดสอบนี้ได้รับอนุญาตให้ทำได้เพียง1ครั้ง</string>
     <string name="course_practice_word_score">คะแนน</string>
     <string name="please_set_the_recording_permission">กรุณาตั้งค่าสิทธิ์การบันทึก!</string>
-    <string name="please_set_the_video_and_photo_permissions">&quot;โปรดตั้งค่าสิทธิ์การบันทึกวิดีโอและการถ่ายภาพ!</string>
+    <string name="please_set_the_video_and_photo_permissions">โปรดตั้งค่าสิทธิ์การบันทึกวิดีโอและการถ่ายภาพ!</string>
     <string name="the_recording_failure">การบันทึกล้มเหลว</string>
     <string name="loading_record_component">คอมโพเนนต์ของการบันทึกกําลังถูกโหลด</string>
     <string name="capture_light_dark">\nสภาพแวดล้อมมืดเกินไป ให้เปิดแฟลช</string>
@@ -108,7 +109,7 @@
     <string name="the_teacher_invited_you_to_join_the_class">ครูเชิญคุณเข้าร่วมชั้นเรียน</string>
     <string name="back_umooc">กลับไปที่ULearning</string>
     <string name="wait_complete">ปรับปรุงในภายหลัง</string>
-    <string name="skip_setup">ข้ามการตั้งค่า&gt;&gt;</string>
+    <string name="skip_setup">ข้ามการตั้งค่า</string>
     <string name="complete_your_course">ปรับปรุงหลักสูตรของคุณ</string>
     <string name="change_your_course">แก้ไขข้อมูลหลักสูตร</string>
     <string name="select_your_school">เลือกคณะ</string>
@@ -156,7 +157,7 @@
     <string name="search">ค้นหา</string>
     <string name="activate_course">เปิดใช้งานหลักสูตร</string>
     <string name="activate_textbook">เปิดใช้งานสื่อการสอน</string>
-    <string name="input_active_code">- หรือป้อนรหัสเปิดใช้งาน</string>
+    <string name="input_active_code">--หรือป้อนรหัสเปิดใช้งาน--</string>
 
     <string name="recording">กำลังบันทึกเสียง</string>
     <string name="playback">กำลังเล่นย้อนหลังเสียงที่บันทึก</string>
@@ -269,17 +270,16 @@
     <string name="hint_input_pwd_please">กรุณาใส่รหัสผ่าน</string>
     <string name="hint_input_pwd">กรุณาใส่รหัสผ่านเก่า</string>
     <string name="hint_input_new_pwd">กรุณาใส่รหัสผ่านใหม่</string>
-    <string name="hint_input_new_pwd_rule">8\-16ตัวอักษรต้องมีตัวอักษรและตัวเลข (แยกตัวพิมพ์ใหญ่และตัวพิม์เล็ก)</string>
     <string name="hint_input_new_pwd_again">กรุณาใส่รหัสผ่านใหม่อีกครั้ง</string>
     <string name="hint_input_class_name">กรุณาใส่ชื่อชั้นเรียน</string>
     <string name="hint_input_course_name">กรุณาใส่ชื่อหลักสูตร</string>
-    <string name="hint_input_edit_class_name">กรุณาใส่ชื่อของชั้นเรียน หากมีหลายชั้นเรียน กรุณาคั่นด้วยเครื่องหมาย &quot;;&quot;</string>
+    <string name="hint_input_edit_class_name">กรุณาใส่ชื่อของชั้นเรียน หากมีหลายชั้นเรียน กรุณาคั่นด้วยเครื่องหมาย \&quot;;\&quot;</string>
     <string name="hint_search_contact">ค้นหาผู้ติดต่อ</string>
     <string name="hint_search_course">ค้นหาหลักสูตร</string>
     <string name="hint_search">ค้นหา</string>
     <string name="hint_now_relevance_telphone">หมายเลขโทรศัพท์มือถือที่เชื่อมโยงอยู่ในปัจจุบัน</string>
     <string name="hint_input_verification_code">กรุณาใส่รหัสยืนยัน</string>
-    <string name="hint_face_recognition">&quot;โปรดหันหน้าเข้าหากล้องและตรวจสอบให้แน่ใจว่าแสงสว่างเพียงพอ&quot;</string>
+    <string name="hint_face_recognition">โปรดหันหน้าเข้าหากล้องและตรวจสอบให้แน่ใจว่าแสงสว่างเพียงพอ</string>
     <string name="hint_qr_code">นำรหัส QR/บาร์โค้ดวางลงในช่องมองภาพเพื่อทำการสแกนอัตโนมัติ</string>
     <string name="hint_qr_code_error">รหัสคิวอาร์โค้ดผิดพลาด</string>
     <string name="hint_qr_code_touch">แตะเพื่อสแกนต่อ</string>
@@ -300,7 +300,7 @@
     <string name="hint_download_three_count">อนุญาตให้ดาวน์โหลดพร้อมกันได้สูงสุดสามรายการ</string>
     <string name="hint_download_three_count_support">รองรับการดาวน์โหลดทรัพยากรพร้อมกันได้สามรายการ!</string>
     <string name="hint_next_section_empty">ไม่มีเนื้อหาในส่วนถัดไป</string>
-    <string name="hint_section_no_grade">ส่วนนี้ยังไม่เสร็จ  \nยังไม่มีคะแนนจนกว่าจะเสร็จเรียบร้อย</string>
+    <string name="hint_section_no_grade">ส่วนนี้ยังไม่เสร็จ \nยังไม่มีคะแนนจนกว่าจะเสร็จเรียบร้อย</string>
     <string name="hint_no_sd_card">ไม่มีการ์ด SD</string>
     <string name="hint_clear_course">คุณต้องการล้างหลักสูตรใช่หรือไม่?</string>
     <string name="hint_confirm_delete_all_course">แน่ใจว่าจะล้างทรัพยากรในส่วนนี้?</string>
@@ -329,7 +329,7 @@
     <string name="hint_save_success">บันทึกสำเร็จ</string>
     <string name="hint_save_fail">การบันทึกล้มเหลว</string>
     <string name="hint_change_success">เปลี่ยนเรียบร้อยแล้ว</string>
-    <string name="hint_speech_grade">ครูกําหนดให้การออกเสียงในแต่ละประโยค/คําต้องได้%dคะแนนจึงจะถือว่าการเรียนเสร็จสิ้นสมบูรณ์  สู้ๆนะ เด็กๆ!</string>
+    <string name="hint_speech_grade">ครูกำหนดว่าการออกเสียงของแต่ละประโยค/คำต้องมีคะแนนถึง %d คะแนนจึงจะเรียนจบได้ เอาเลยไอ้หนู!</string>
     <string name="hint_speech_must_on_network">ฟังก์ชั่นการให้คะแนนอัตโนมัติของการบันทึกเสียงจำเป็นต้องเชื่อมต่อเครือข่ายอินเตอ์เน็ตจึงจะสามารถใช้งานได้  กรุณาเปิดการเชื่อมต่อเครือข่าย</string>
     <string name="hint_collect_success">เก็บสะสมสำเร็จ</string>
     <string name="hint_class_create_success_tell_class_code_to_student" formatted="false">การสร้างชั้นเรียนสําเร็จ\nโปรดบอกรหัสชั้นเรียน: %s ให้กับนักเรียน</string>
@@ -341,7 +341,6 @@
     <string name="warning_old_pwd_null">กรุณาใส่รหัสผ่านเก่า</string>
     <string name="warning_old_pwd_input_error">รหัสผ่านเก่าที่ป้อนผิดพลาด</string>
     <string name="warning_pwd_disagree">รหัสผ่านใหม่ทั้งสองครั้งไม่ตรงกัน</string>
-    <string name="warning_pwd_type">รหัสผ่านใหม่ต้องมีตัวอักษรและตัวเลข</string>
     <string name="warning_course_no_desc">ไม่มีข้อมูลแนะนำหลักสูตร</string>
     <string name="warning_not_preview_file">ขณะนี้ไฟล์นี้ยังไม่รองรับการแสดงตัวอย่าง\nคุณสามารถเปิดได้โดยใช้แอปอื่น</string>
     <string name="warning_course_resource_download_studyrecord">หลังจากที่บันทึกสื่อการเรียนลงในแคชหน่วยความจำแล้ว เมื่อต้องเล่นหรือแสดงทรัพยากรข้อมูลสื่อการสอนใดๆก็จะใช้เวลาในการรับส่งข้อมูลได้เร็วขึ้น!การล้างทรัพยากรบทเรียนที่เรียนจบแล้วจะไม่ส่งผลต่อคะแนนผลการเรียน</string>
@@ -350,7 +349,7 @@
     <string name="warning_course_resource_phone_space">พื้นที่ที่ยังว่างให้ใช้งาน</string>
     <string name="warning_course_expire">หลักสูตรหมดอายุแล้ว</string>
     <string name="warning_course_buy_go_on_study">หากคุณต้องการเรียนต่อ กรุณาซื้อหลักสูตรนี้อีกครั้ง</string>
-    <string name="warning_textbook_out_of_date">บทเรียนหมดอายุแล้ว หากต้องการเรียนต่อ ให้ซื้ออีกครั้ง&gt;&gt;</string>
+    <string name="warning_textbook_out_of_date">บทเรียนหมดอายุแล้ว หากต้องการเรียนต่อ ให้ซื้ออีกครั้ง</string>
     <string name="warning_textbook_get_data">เนื้อหาของบทเรียนได้รับการอัปเดตแล้ว โปรดสไลด์ลงเพื่อรีเฟรชรับบทเรียนใหม่อีกครั้ง</string>
     <string name="warning_chat_empty_message">บันทึกข้อความว่างเปล่า รีบหาคนคุยด้วยเถอะ ^. ^</string>
     <string name="warning_contact_empty">ไม่มีรายชื่อติดต่อที่ตรงกัน</string>
@@ -360,7 +359,7 @@
     <string name="warning_network_break">เครือข่ายปัจจุบันไม่พร้อมใช้งาน กรุณาตรวจสอบการเชื่อมต่อเครือข่าย</string>
     <string name="warning_web_break">เกิดข้อผิดพลาด ~ กําลังซ่อมแซมอย่างเร่งด่วน  โปรดลองอีกครั้งในภายหลัง</string>
     <string name="warning_qr_fail">สแกนล้มเหลว</string>
-    <string name="warning_qr_unsupport">ไม่รองรับรหัสคิวอาร์โค้ดดังกล่าว ขณะนี้รองรับเฉพาะ:\n1.คิวอาร์โค้ดหลักสูตร/สื่อสิ่งพิมพ์ที่สนับสนุนของULearning\n2.รหัสคิวอาร์โค้ดสำหรับแอดเข้าร่วมชั้นเรียน</string>
+    <string name="warning_qr_unsupport">ไม่รู้จัก โปรดสแกนรหัส QR ที่ถูกต้อง</string>
     <string name="warning_qr_textbook_not_active">คุณยังไม่ได้เปิดใช้ตําราเรียน  กรุณาเปิดใช้งานก่อนค่อยสแกนรหัสเพื่อเรียนรู้ 【ไปเปิดใช้งาน】</string>
     <string name="warning_qr_textbook_not_stu">โปรดใช้บัญชีนักเรียนลงชื่อเข้าใช้ก่อนแล้วจึงค่อยสแกน</string>
     <string name="warning_qr_textbook_out_of_date">สื่อการสอนหมดอายุแล้ว  หากต้องการเรียนต่อ กรุณาเปิดใช้งานอีกครั้ง【ไปเปิดใช้งาน】</string>
@@ -382,7 +381,7 @@
     <string name="warning_chat_message_forward_success">การส่งต่อสําเร็จ</string>
 
     <string name="warning_location_fail">เครือข่ายเซิร์ฟเวอร์ระบุตำแหน่งไม่พร้อมให้บริการ โปรดลองอีกครั้ง</string>
-    <string name="warning_location_permission_fail">กรุณาเปิดใช้บริการระบุตำแหน่งที่ตั้งในตั้งค่าระบบโทรศัพท์มือถือ  และอนุญาตให้ULearningใช้บริการระบุตำแหน่ง</string>
+    <string name="warning_location_permission_fail">กรุณาเปิดใช้บริการระบุตำแหน่งที่ตั้งในตั้งค่าระบบโทรศัพท์มือถือ และอนุญาตให้ULearningใช้บริการระบุตำแหน่ง</string>
     <string name="warning_notify_permission_fail">กรุณาไปที่การตั้งค่ามือถือเพื่อเปิดสิทธิ์การแจ้งเตือน พร้อมทั้งอนุญาตให้ULearningใช้สิทธิการแจ้งเตือนได้</string>
 
     <string name="warning_audio_file_not_found">ไม่พบไฟล์เสียง</string>
@@ -423,7 +422,7 @@
     <string name="warning_share_wxq_fail">การแชร์โมเม้นของเพื่อนล้มเหลว</string>
     <string name="warning_share_wxq_cancel">ยกเลิกการแชร์โม้เม้นของเพื่อน</string>
 
-    <string name="num">อันหรือคนเป็นหน่วยนับ</string>
+    <string name="num">ชิ้นส่วน</string>
     <string name="size_m">M</string>
     <string name="size_g">G</string>
     <string name="loading">กำลังโหลด</string>
@@ -494,7 +493,7 @@
     <string name="text_course_end_date" formatted="false">%s หมดเขต</string>
     <string name="submit_end_date" formatted="false">หมดเขตส่ง</string>
     <string name="peer_response_end_date" formatted="false">ปิดการประเมินซึ่งกันและกัน</string>
-    <string name="text_course_submit_end_date" formatted="false">%sหมดเขตส่ง</string>
+    <string name="text_course_submit_end_date" formatted="false">%s หมดเขตส่ง</string>
     <string name="text_course_peer_response_end_date" formatted="false">%sปิดการประเมินซึ่งกันและกัน</string>
     <string name="text_course_student_count" formatted="false">นักเรียน: %s</string>
     <string name="text_course_expired_date" formatted="false">หลักสูตรหมดอายุเมื่อ %s</string>
@@ -624,7 +623,7 @@
 
     <string name="tools_exam_title">สอบทางโทรศัพท์มือถือ</string>
     <string name="tools_exam_pc">สอบทางพีซีคอมพิวเตอร์</string>
-    <string name="tools_exam_mobile_pc">สอบทางโทรศัพท์มือถือ/พีซีคอมพิวเตอร์</string>
+    <string name="tools_exam_mobile_pc">มือถือ / เว็บ</string>
     <string name="tools_exam_text">ไม่มีห้องคอมพิวเตอร์ก็สามารถสอบออนไลน์ได้เช่นกัน</string>
     <string name="tools_mobile_title">ประเมินการสอนแบบเคลื่อนที่</string>
     <string name="tools_mobile_text">การประเมินในคลาสเรียน นำคำประเมินมาช่วยปรับปรุงพัฒนาการสอน</string>
@@ -701,10 +700,9 @@
     <string name="course_app_live">สตรีมแบบสด</string>
     <string name="course_app_class">ห้องเรียน</string>
     <string name="course_app_test">สอบ</string>
-    <string name="course_app_exam">การประเมิน</string>
+    <string name="course_app_assess">การประเมิน</string>
     <string name="course_app_words">การป้อนตามคําจริงของคํา</string>
     <string name="course_app_speak">การประเมินการพูด</string>
-    <string name="course_app_assess">วิเคราะห์</string>
     <string name="course_app_member">สมาชิก</string>
 
     <string name="course_home_course_textbook">สื่อการสอน</string>
@@ -765,15 +763,15 @@
     <string name="format_class_member_ranking" formatted="false">ชื่อลำดับที่%d</string>
 
     <string name="not_publish">ยังไม่ได้ประกาศ</string>
-    <string name="finished_lesson">บทเรียนที่เสร็จสมบูรณ์:</string>
-    <string name="study_time">การเรียนรู้สะสม:</string>
+    <string name="finished_lesson">บทเรียนที่เสร็จสมบูรณ์</string>
+    <string name="study_time">การเรียนรู้สะสม</string>
     <string name="collect_score">ผลคะแนนการเรียนรวม</string>
     <string name="score">คะแนนที่ได้</string>
     <string name="level">ระดับ</string>
     <string name="current_collect_score">คะแนนที่ได้ในขณะนี้</string>
     <string name="average_score">คะแนนผลการเรียนเฉลี่ย</string>
     <string name="collect_score_info">รายละเอียดคะแนนผลการเรียน</string>
-    <string name="assess_end_date">กําหนดเวลาสิ้นสุดการประเมิน : %s</string>
+    <string name="assess_end_date">กําหนดเวลาสิ้นสุดการประเมิน: %s</string>
     <string name="collect_score_remind">ครูได้กำหนดวิธีการประเมิน แต่ละส่วนมีสัดส่วนน้ำหนักที่ชัดเจน ช่วงระหว่างการเรียนรู้คะแนนผลการเรียนจะเปลี่ยนแปลงไปเรื่อยๆ กรุณายึดคะแนนผลการเรียนที่ได้หลังเวลาประเมินสิ้นสุดเป็นหลัก</string>
     <string name="active_text_book_not_edit_remind">ขูดแถบเคลือบที่อยู่ด้านหลังหนังสือเรียนหรือบัตรเรียน นำรหัสเปิดใช้งานป้อนลงในช่องว่างด้านล่าง</string>
     <string name="active_text_book_searched_remind">จากรหัสเปิดใช้งานที่ท่านป้อนค้นพบข้อมูลที่สอบถามตามด้านล่างนี้：</string>
@@ -871,7 +869,8 @@
     <string name="login_password">กรุณาใส่รหัสผ่าน</string>
     <string name="login_register">ลงชื่อสมัครใช้บัญชี</string>
     <string name="login_forget_password">ลืมรหัสผ่าน</string>
-    <string name="login_forget_password_line"><u>忘记密码?</u></string>
+    <string name="login_forget_password_line">
+        <u>忘记密码?</u>&lt;string name=&quot;login_forget_password_line&quot;&gt;&lt;u&gt;ลืมรหัสผ่าน?&lt;/u&gt;&lt;/string&gt;</string>
     <string name="register_activity_title">ลงชื่อสมัครใช้</string>
 
     <string name="register_stu">ฉันเป็นนักเรียน</string>
@@ -1021,7 +1020,7 @@
     <string name="remind_no_joinclass">คุณยังไม่ได้เข้าร่วมชั้นเรียนใดๆเลยน๊า ~</string>
     <string name="remind_no_create_class">คุณยังไม่ได้สร้างชั้นเรียนเลยน๊า~</string>
     <string name="remind_create_class">สร้างชั้นเรียน</string>
-    <string name="remind_set_class">การตั้งค่า</string>
+    <string name="remind_set_class">ตั้งค่าชั้นเรียน</string>
     <string name="remind_select_model_of_teach">โปรดเลือกโหมดการสอนของคุณ และปรับแต่งหลักสูตรของคุณ</string>
     <string name="remind_welcome_join_course">ยินดีต้อนรับสู่หลักสูตรนี้\nบทบาทของคุณในหลักสูตรคือ</string>
     <string name="remind_welcome_join_course_title">ยินดีต้อนรับสู่หลักสูตร</string>
@@ -1043,13 +1042,13 @@
     <string name="remind_create_class_course_same_name" formatted="false">โรงเรียนเรามีหลักสูตรที่มีชื่อเดียวกันอยู่แล้ว (สร้างขึ้นโดยครู %s) เราขอแนะนําให้คุณติดต่อครูผู้สร้างหลักสูตรก่อนเพื่อสื่อสารและยืนยัน เพื่อหลีกเลี่ยงความไม่สะดวกที่เกิดจากการสร้างหลักสูตรซ้ํา \nต้องการสร้างต่อหรือไม่?</string>
     <string name="remind_modify_class_course_same_name" formatted="false">โรงเรียนเรามีหลักสูตรที่มีชื่อเดียวกันอยู่แล้ว (สร้างขึ้นโดยครู %s) เราขอแนะนําให้คุณติดต่อครูผู้สร้างหลักสูตรก่อนเพื่อสื่อสารและยืนยัน เพื่อหลีกเลี่ยงความไม่สะดวกที่เกิดจากการสร้างหลักสูตรซ้ํา \nต้องการสร้างต่อหรือไม่?</string>
     <string name="remind_create_class_info_person">สร้างชั้นเรียนและเชิญนักเรียนเข้าร่วมชั้นเรียน (ระบบได้จัดเตรียมชั้นเรียนเริ่มต้นซึ่งสามารถปรับเปลี่ยนได้หลังจากเข้าหลักสูตรแล้ว)</string>
-    <string name="remind_select_course">นำเข้า</string>
+    <string name="remind_select_course">นําเข้าสื่อการเรียนการสอน</string>
     <string name="remind_select_course_info">นําเข้าบทเรียนแบบโต้ตอบ/เปิดสื่อการเรียนการสอนของหลักสูตรเพื่อให้นักเรียนสามารถเรียนรู้ได้ด้วยตัวเอง</string>
     <string name="remind_select_course_info_per">นําเข้าบทเรียนแบบโต้ตอบ/เปิดสื่อการเรียนการสอนของหลักสูตรเพื่อให้นักเรียนสามารถเรียนรู้ได้ด้วยตัวเอง</string>
     <string name="remind_select_course_info_is_admin">ผู้สร้างหลักสูตรยังไม่ได้ระบุสื่อการเรียนการสอน\nไม่ระบุก็ไม่เป็นไร~คุณสามารถโพสทรัพยากร การบ้านและกิจกรรมการสอนอื่นๆได้ตามปกติ  </string>
     <string name="remind_select_course_info_no_admin">ไม่มีบทเรียนชั่วคราว\nบทเรียนถูกกําหนดแบบรวมโดยผู้ดูแลหลักสูตร</string>
     <string name="remind_group_teacher">จัดตั้งทีมสอน</string>
-    <string name="remind_add_teacher">เพิ่ม</string>
+    <string name="remind_add_teacher">เพิ่มอาจารย์</string>
     <string name="remind_add_teacher_info">เพิ่มครูท่านอื่นลงในทีมการสอน ดูแลหลักสูตรร่วมกัน แบ่งคลาสชั้นเรียน</string>
     <string name="remind_add_teacher_info_per">สร้างชั้นเรียนและเชิญนักเรียนเข้าร่วมชั้นเรียน (ระบบได้จัดเตรียมชั้นเรียนเริ่มต้นซึ่งสามารถปรับเปลี่ยนได้หลังจากเข้าหลักสูตรแล้ว)</string>
     <string name="remind_add_teacher_info_tea">กรุณาสร้างชั้นเรียนของคุณหรือรอผู้ดูแลหลักสูตรกำหนดชั้นเรียนให้คุณ</string>
@@ -1074,7 +1073,7 @@
     <string name="remind_sync_record_ing">อยู่ในระหว่างการซิงค์ข้อมูล</string>
     <string name="remind_sync_record_success">ซิงค์ข้อมูลสำเร็จ</string>
     <string name="remind_sync_record_fail">ซิงค์ข้อมูลล้มเหลว เลื่อนลงรีเฟรชเพื่อลองอีกครั้ง</string>
-    <string name="remind_once_download_course_resource">ดาวน์โหลดแพ็คเกจบทเรียนออฟไลน์  เน็ตหลุดก็ยัง\nสามารถเรียนรู้ได้</string>
+    <string name="remind_once_download_course_resource">ดาวน์โหลดแพ็คเกจบทเรียนออฟไลน์ เน็ตหลุดก็ยัง\nสามารถเรียนรู้ได้</string>
     <string name="remind_once_collect_course_page">คลิ๊กเพื่อบุ๊คมาร์คหน้านี้</string>
     <string name="remind_once_section_study_undone">คุณมีหน้าที่ยังไม่เสร็จ คลิ๊กที่ไอคอนสีเทา\nเพื่อกลับไปเรียนรู้ต่อ</string>
     <string name="remind_once_course_content">คลิ๊กที่หน้าปกเพื่อดูเนื้อหาหลักสูตร</string>
@@ -1144,6 +1143,7 @@
     <string name="course_app_class_space">   หลักสูตร   </string>
 
 
+    <!-- 播放器提示内容 -->
     <string name="area_select_title">เลือกพื้นที่</string>
     <string name="area_select_latin_america">ละตินอเมริกา</string>
     <string name="area_select_asia_pacific">เอเชียแปซิฟิก</string>
@@ -1153,8 +1153,8 @@
     <!--新增替换服务端语言-->
     <string name="server_msg_repeat_folder">มีโฟลเดอร์ที่มีชื่อเดียวกันอยู่แล้ว โปรดเปลี่ยนชื่อโฟลเดอร์!</string>
 
-    <string name="first_in_resource_icon_name">pop_resource</string>
-    <string name="first_in_activity_icon_name">pop_activity</string>
+    <string name="first_in_resource_icon_name">pop_resource_th</string>
+    <string name="first_in_activity_icon_name">pop_activity_th</string>
 
     <string name="server_msg_course_name_unmatched">ชื่อหลักสูตรต้องมีความยาวไม่เกิน 2~100 ตัวอักษร</string>
 
@@ -1175,10 +1175,10 @@
     <string name="text_course_publish_date" formatted="false">%s ประกาศ</string>
     <string name="publish">เผยแพร่</string>
 
-    <string name="app_launch1">app_android1</string>
-    <string name="app_launch2">app_android2</string>
-    <string name="app_launch3">app_android3</string>
-    <string name="app_launch4">app_android4</string>
+    <string name="app_launch1">app_android1_th</string>
+    <string name="app_launch2">app_android2_th</string>
+    <string name="app_launch3">app_android3_th</string>
+    <string name="app_launch4">app_android4_th</string>
     <string name="textbook_cache" formatted="false">แคช: %s</string>
     <string name="more_language">สลับภาษา</string>
 
@@ -1245,7 +1245,8 @@
     <string name="tip_permission_camera_storage">ไม่อนุญาตให้ใช้กล้องถ่ายรูปและการ์ด SD โปรดเปิดใช้งานในตัวจัดการสิทธิ์</string>
     <string name="file_type_not_support">ประเภทไฟล์ที่ไม่รองรับ</string>
 
-    <!--custom multipleimageselect -->
+    <!--custom
+    multipleimageselect -->
     <string name="album_view">เลือกรูปภาพ</string>
     <string name="image_view">คลิกเลือก</string>
 
@@ -1293,7 +1294,7 @@
     <string name="study_progress">ความคืบหน้าการเรียนรู้</string>
     <string name="not_exam">ขาดสอบ</string>
     <string name="not_show_result">ไม่ประกาศผลคะแนนการเรียนชั่วคราว</string>
-    <string name="wait_reta">คำถามอัตนัยที่รอตรวจ</string>
+    <string name="wait_reta">ที่จะให้คะแนน</string>
     <string name="home_work_type">ประเภทของการบ้าน</string>
     <string name="submit_status">สถานะการส่ง</string>
     <string name="deadline_not_submit">เลยกำหนดเวลายังไม่ได้ส่ง</string>
@@ -1362,19 +1363,19 @@
 
     <string name="exit_class_ing">คุณได้สมัครออกจากหลักสูตรแล้ว โปรดรอการตรวจสอบจากครู</string>
     <string name="exit_class_cancel">ถอนออก</string>
-    <string name="active_code_use">&quot;รหัสเปิดใช้งานสามารถใช้ได้เพียงครั้งเดียว หากไม่ได้เปิดใช้งานด้วยตนเองคุณสามารถติดต่อเพื่อนร่วมชั้นของคุณว่าคุณต้องการใช้ตําราเรียนที่ไม่ถูกต้องหรือติดต่อฝ่ายบริการลูกค้า &quot;;</string>
+    <string name="active_code_use">รหัสเปิดใช้งานสามารถใช้ได้เพียงครั้งเดียว หากไม่ได้เปิดใช้งานด้วยตนเองคุณสามารถติดต่อเพื่อนร่วมชั้นของคุณว่าคุณต้องการใช้ตําราเรียนที่ไม่ถูกต้องหรือติดต่อฝ่ายบริการลูกค้า</string>
     <string name="active_code_use_person">รหัสเปิดใช้งานถูกใช้แล้วเพื่อเปิดใช้งานบัญชี:</string>
     <string name="exit_class_finish">คุณได้ออกจากหลักสูตรแล้ว</string>
 
     <string name="permission_apply">คําขอสิทธิ์</string>
     <string name="permission_overlay">เพื่อให้แน่ใจว่าคุณใช้คุณสมบัติต่อไปนี้ในวิทยาลัยยูนิเวอร์ดูตามปกติคุณจะต้องอนุญาตสิทธิ์การระงับของ UC: \n\nโยนหน้าจอและสตรีมสด</string>
-    <string name="permission_read_external">เพื่อให้แน่ใจว่าคุณใช้งานคุณลักษณะต่อไปนี้ใน Uber College ได้ตามปกติ คุณจะต้องอนุญาตให้ Ubergal อ่านสิทธิ์การจัดเก็บ: \n\nอ่านข้อมูลแคชแอป รูปภาพ และไฟล์</string>
     <string name="permission_camera">เพื่อให้แน่ใจว่าการใช้งานปกติของฟังก์ชั่นต่อไปนี้ใน ULearning, คุณจะต้องได้รับอนุญาตจาก ULearning ที่จะได้รับสิทธิ์กล้อง: \n\nกวาด, อัปโหลด / เปลี่ยนอวตาร, ถ่ายภาพในการประกาศ, การลงคะแนนเสียง, การบ้านและโมดูลการสอบเพื่ออัปโหลดสิ่งที่แนบมากับภาพ, การตรวจสอบใบหน้าและการตรวจสอบกล้องในการสอบ, การเรียนการสอนวิดีโอในสตรีมสด, การเชื่อมต่อวิดีโอของครูและนักเรียน, ระบบการบริการลูกค้า.</string>
     <string name="permission_location">เพื่อให้แน่ใจว่าคุณใช้การเช็คอินการสอบและฟังก์ชั่นการฉายหน้าจอในวิทยาลัยยูนิฟอร์มตามปกติคุณจะต้องได้รับอนุญาตจาก ULeanring เพื่อรับสิทธิ์ข้อมูลตําแหน่ง</string>
     <string name="permission_microphone">เพื่อให้แน่ใจว่าคุณใช้ฟังก์ชั่นต่อไปนี้ใน ULearning ตามปกติคุณจะต้องได้รับอนุญาตจาก ULearning เพื่อรับสิทธิ์ไมโครโฟน: \n\nแบบฝึกหัดการพูดการบ้านการพูดการเขียนตามคําบอกการประเมินการพูดการสอบในช่องปากฟังก์ชั่นการถ่ายทอดสดระบบบริการลูกค้า</string>
     <string name="permission_camera_fail">คุณได้ปิดสิทธิ์การใช้กล้อง ไม่สามารถใช้ฟังก์ชั่นดังกล่าวได้ โปรดไปที่ [การตั้งค่า] ในโทรศัพท์มือถือเพื่อดำเนินการให้สิทธิ์</string>
     <string name="permission_microphone_fail">คุณได้ปิดใช้งานสิทธิ์การบันทึกและไม่สามารถใช้คุณลักษณะนี้ได้ ให้ไปที่ [การตั้งค่า] ของโทรศัพท์เพื่ออนุญาต</string>
     <string name="permission_location_fail">คุณได้ปิดใช้งานสิทธิ์การกําหนดเป้าหมายและไม่สามารถใช้คุณลักษณะนี้ได้ ให้ไปที่ [การตั้งค่า] ของโทรศัพท์เพื่ออนุญาต</string>
+    <string name="permission_read_external">เพื่อให้แน่ใจว่าคุณใช้งานคุณลักษณะต่อไปนี้ใน ULearning ได้ตามปกติ คุณจะต้องอนุญาตให้ ULearning อ่านสิทธิ์การจัดเก็บ: \n\nอ่านข้อมูลแคชแอป รูปภาพ และไฟล์</string>
     <string name="permission_read_storage_fail">คุณได้ปิดใช้งานสิทธิ์ในการอ่านที่เก็บข้อมูลและไม่สามารถใช้คุณลักษณะนี้ได้ ให้ไปที่ [การตั้งค่า] ของโทรศัพท์เพื่ออนุญาต</string>
     <string name="permission_camera_microphone_fail">คุณได้ปิดใช้งานสิทธิ์ของกล้องหรือไมโครโฟนและไม่สามารถใช้คุณลักษณะนี้ได้ ให้ไปที่ [การตั้งค่า] ของโทรศัพท์เพื่ออนุญาต</string>
 
@@ -1392,7 +1393,66 @@
     <string name="screen_fail_2">อุปกรณ์ด้านการรับรีสตาร์ทหรือยกเลิกการเชื่อมต่อเครือข่าย</string>
     <string name="not_run_on_virtualmachine">อย่าเรียกใช้แอปในเครื่องเสมือน/จําลอง</string>
 
+    <string name="not_group_score_announced">ไม่ประกาศผล</string>
     <string name="screen_msg">ความไม่เสถียรของเครือข่ายอาจทําให้หน้าจอโยนหายไปและหากหน้าจอขนาดใหญ่ไม่แสดงหน้าจอโทรศัพท์เป็นเวลานานคุณสามารถหยุดและโยนหน้าจออีกครั้ง</string>
     <string name="screen_device">อุปกรณ์</string>
     <string name="screen_network">เครือข่าย</string>
+    <string name="trans_error">ไม่สามารถแยกวิเคราะห์รูปแบบการเข้ารหัสไฟล์ โปรดลองแปลงและอัปโหลด</string>
+    <string name="malaysia">มาเลเซีย</string>
+
+    <string name="import_something">นำเข้า</string>
+    <string name="add_something">เพิ่ม</string>
+    <string name="class_setting">การตั้งค่า</string>
+    <string name="permission_read_phone_state">เพื่อให้แน่ใจว่าคุณใช้ฟังก์ชันต่อไปนี้ใน ULearning ตามปกติ คุณต้องให้สิทธิ์โทรศัพท์ ULearning เพื่อรับสถานะการโทรและข้อมูลเครือข่าย:\n\nข้อความ</string>
+    <string name="permission_read_phone_state_fail">คุณได้ปิดใช้งานการอนุญาตทางโทรศัพท์และไม่สามารถใช้ฟังก์ชันนี้ได้ โปรดป้อนโทรศัพท์ [การตั้งค่า] เพื่ออนุญาต</string>
+    <string name="active_tab_photo_upload">ถ่ายรูปแล้วอัพโหลด</string>
+
+    <string name="active_item_normal_live">คลาสสด</string>
+    <string name="active_item_tencent_live">Tencent การประชุม</string>
+    <string name="permission_write_external">เพื่อให้แน่ใจว่าคุณใช้งานคุณลักษณะต่อไปนี้ใน ULearning ได้ตามปกติ คุณจะต้องอนุญาตให้ ULearning อ่านสิทธิ์การจัดเก็บ: \n\nอ่านข้อมูลแคชแอป รูปภาพ และไฟล์</string>
+    <string name="permission_write_storage_fail">คุณได้ปิดใช้งานสิทธิ์ในการอ่านที่เก็บข้อมูลและไม่สามารถใช้คุณลักษณะนี้ได้ ให้ไปที่ [การตั้งค่า] ของโทรศัพท์เพื่ออนุญาต</string>
+    <string name="scan_and_activate_book">สแกนรหัส QR เพื่อเปิดใช้งานสื่อการสอน</string>
+
+    <string name="live_order_asc">ลำดับปกติ</string>
+    <string name="live_order_des">เสียงต่ำ</string>
+    <string name="file_not_supported">ไม่รองรับไฟล์ประเภทนี้</string>
+    <string name="unable_to_identify">ไม่สามารถยืนยันด้วยการสแกนใบหน้า?</string>
+    <string name="code_enter_exam">ใช้รหัสยืนยันเพื่อเข้าสอบ</string>
+    <string name="active_tab_answer_sheet">คำถาม</string>
+
+    <string name="crop_saving">กำลังบันทึกภาพ</string>
+    <string name="crop_wait">โปรดรอ</string>
+    <string name="crop_pick_error">ไม่มีแหล่งที่มาของภาพ</string>
+
+    <string name="crop_done">เสร็จแล้ว</string>
+    <string name="crop_cancel">ยกเลิก</string>
+    <string name="crop_rotate">หมุน</string>
+
+    <string name="warning_pwd_type">รหัสผ่านต้องมีความยาว 8-16 อักขระและประกอบด้วยอักขระอย่างน้อย 3 ตัว (ตัวเลข ตัวอักษรพิมพ์ใหญ่ ตัวอักษรพิมพ์เล็ก หรือสัญลักษณ์พิเศษ)</string>
+    <string name="hint_input_new_pwd_rule">รหัสผ่านต้องมีความยาว 8-16 อักขระและประกอบด้วยอักขระอย่างน้อย 3 ตัว (ตัวเลข ตัวอักษรพิมพ์ใหญ่ ตัวอักษรพิมพ์เล็ก หรือสัญลักษณ์พิเศษ)</string>
+    <string name="token_expired_msg">ข้อมูลการเข้าสู่ระบบหมดอายุ กรุณาเข้าสู่ระบบอีกครั้ง</string>
+    <string name="manual_login">กรุณาออกจากระบบและเข้าสู่ระบบด้วยตนเอง</string>
+    <string name="course_app_units">หน่วย</string>
+    <string name="unable_modify_username">โรงเรียนห้ามนักเรียนเปลี่ยนชื่อ \nหากคุณต้องการแก้ไข โปรดติดต่อผู้ดูแลระบบของโรงเรียนหรือฝ่ายบริการลูกค้า</string>
+    <string name="remind_tea_exit_class">การออกจากหลักสูตรจะไม่มีวันลบชั้นเรียน ที่คุณสร้างขึ้นในหลักสูตรนี้ รวมถึงทรัพยากร และกิจกรรม ที่เผยแพร่หากไม่มีครูคนอื่นในชั้นเรียน ที่คุณรับผิดชอบแน่ใจ หรือว่า จะออกจากหลักสูตร?</string>
+
+    <string name="resource_num" formatted="false">%d个资源</string>
+    <string name="resource_num_unread" formatted="false">%d个未查看</string>
+    <string name="resource_unread">未查看</string>
+    <string name="resource_read">已查看</string>
+    <string name="resource_watch">已看完</string>
+    <string name="teaching_activities_notification">教学活动消息</string>
+    <string name="test_work">测验</string>
+    <string name="question_bank">题库</string>
+    <string name="operation_check_all_unfold">展开</string>
+    <string name="login_org">机构账号</string>
+    <string name="login_org_title">机构账号登录</string>
+    <string name="login_org_hint">请输入机构名称</string>
+    <string name="login_org_hint2">请输入正确的机构名称</string>
+    <string name="login_name_hint">请输入学号/工号</string>
+    <string name="permission_bluetooth">为了保证您正常使用优学院内以下功能，需要您授权优学院访问附近的设备：\n\n直播</string>
+    <string name="permission_nearby_wifi_devices">为了保证您正常使用优学院内以下功能，需要您授权优学院访问附近的wifi设备：\n\n投屏</string>
+    <string name="permission_bluetooth_fail">您已禁用附近的设备权限，无法使用此功能，请进入手机【设置】进行授权</string>
+    <string name="login_sms_2">短信</string>
+    <string name="login_wechat_confirm_2">微信</string>
 </resources>
