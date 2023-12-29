@@ -20,6 +20,7 @@
     <string name="server_error">Le système est en cours de maintenance, veuillez réessayer plus tard</string>
     <string name="toast_other_lesson_progress" formatted="false">Mise en cache des didacticiels%s/%s</string>
     <string name="toast_please_check_if_the_SD_card_is_inserted">Vérifiez la carte SD si elle est branchée!</string>
+    <!--<string name="telphone">400 610 7808</string>-->
     <string name="dialog_quit" formatted="false">Quitter(%s)</string>
     <string name="dialog_confirm">Confirmer</string>
     <string name="dialog_cancel">Annuler</string>
@@ -269,7 +270,6 @@
     <string name="hint_input_pwd_please">Veuillez entrer le mot de passe</string>
     <string name="hint_input_pwd">Veuillez saisir le mot de passe d’origine</string>
     <string name="hint_input_new_pwd">Veuillez saisir un nouveau mot de passe</string>
-    <string name="hint_input_new_pwd_rule">Le mot de passe doit comporter de 8 à 16 caractères et inclure des lettres et des chiffres (les mots de passe sont sensibles à la casse)</string>
     <string name="hint_input_new_pwd_again">Veuillez saisir à nouveau un nouveau mot de passe</string>
     <string name="hint_input_class_name">Entrez le nom de la classe</string>
     <string name="hint_input_course_name">Veuillez entrer le nom du cours</string>
@@ -341,7 +341,6 @@
     <string name="warning_old_pwd_null">Veuillez saisir le mot de passe d’origine</string>
     <string name="warning_old_pwd_input_error">Entré incorrecte du mot de passe d’origine!</string>
     <string name="warning_pwd_disagree">Mot de passe incohérent dans deux entrées</string>
-    <string name="warning_pwd_type">Le nouveau mot de passe doit être une combinaison de lettres et de chiffres</string>
     <string name="warning_course_no_desc">Pas d’info sur l’introduction brève du cours</string>
     <string name="warning_not_preview_file">Ne prenant pas en charge l’aperçu de ce document \n, vous pouvez utiliser d’autres applications pour l’ouvrir</string>
     <string name="warning_course_resource_download_studyrecord">Après avoir téléchargé des ressources, vous pouvez étudier sans connexion Internet. Pour supprimer terminé, les ressources hors ligne n’affecteront pas votre dossier d’étude et vos scores</string>
@@ -701,10 +700,9 @@
     <string name="course_app_live">Vivre</string>
     <string name="course_app_class">Salle de classe</string>
     <string name="course_app_test">Test</string>
-    <string name="course_app_exam">Évaluation</string>
+    <string name="course_app_assess">Analyse</string>
     <string name="course_app_words">Dictée</string>
     <string name="course_app_speak">Test d’anglais parlé</string>
-    <string name="course_app_assess">Analyse</string>
     <string name="course_app_member">Membres</string>
 
     <string name="course_home_course_textbook">Didacticiel</string>
@@ -871,7 +869,8 @@
     <string name="login_password">Mot de passe</string>
     <string name="login_register">S\'enregistrer</string>
     <string name="login_forget_password">Mot de passe oublié</string>
-    <string name="login_forget_password_line"><u>忘记密码?</u></string>
+    <string name="login_forget_password_line">
+        <u>忘记密码?</u>&lt;string name=&quot;login_forget_password_line&quot;&gt;&lt;u&gt;忘记密码?&lt;/u&gt;&lt;/string&gt;</string>
     <string name="register_activity_title">S\'enregistrer</string>
 
     <string name="register_stu">« Je suis étudiant »</string>
@@ -1146,6 +1145,7 @@ Continuer à épargner? </string>
     <string name="course_app_class_space">Salle de classe</string>
 
 
+    <!-- 播放器提示内容 -->
     <string name="area_select_title">Sélectionner une région</string>
     <string name="area_select_latin_america">Amérique Latine</string>
     <string name="area_select_asia_pacific">Asie-Pacifique</string>
@@ -1246,7 +1246,8 @@ Continuer à épargner? </string>
     <string name="tip_permission_camera_storage">Pas d’autorisation d’utiliser l’appareil photo et la carte SD, ouvrez la gestion des droits</string>
     <string name="file_type_not_support">fichier non pris en charge</string>
 
-    <!--custom multipleimageselect -->
+    <!--custom
+    multipleimageselect -->
     <string name="album_view">sélectionner une image</string>
     <string name="image_view">a sélectionner</string>
 
@@ -1372,13 +1373,13 @@ Continuer à épargner? </string>
 
     <string name="permission_apply">Demande d’autorisation</string>
     <string name="permission_overlay">Afin de vous assurer que vous pouvez normalement utiliser les fonctions suivantes dans le Ulearning, vous devez autoriser l’autorisation de suspension Ulearning: \n\n Écran tactile, diffusion en direct</string>
-    <string name="permission_read_external">Afin de vous assurer que vous pouvez utiliser les fonctions suivantes au sein de Ulearning, vous devez autoriser Ulearning à lire les autorisations de stockage : \n \n Lire les données, les images et les fichiers du cache de l’application</string>
     <string name="permission_camera">Afin de vous assurer que vous pouvez utiliser les fonctions suivantes dans le Ulearning, vous devez autoriser le Ulearning à obtenir des autorisations de caméra: \n\n\n Numériser, télécharger / remplacer l’avatar, prendre des photos et télécharger des pièces jointes dans les modules d’annonce, de vote, de devoirs et d’examen, effectuer la vérification du visage et la surveillance de la caméra dans l’examen, utiliser l’enseignement vidéo dans les émissions en direct et les microphones vidéo pour les enseignants et les étudiants, et le système de service à la clientèle.</string>
     <string name="permission_location">Afin de vous assurer que vous pouvez normalement utiliser les fonctions d’enregistrement par appel nominal, d’examen et de projection d’écran dans Ulearning, vous devez autoriser Ulearning à obtenir des autorisations d’informations de localisation.</string>
     <string name="permission_microphone">Afin d’assurer votre utilisation normale des fonctions suivantes dans le Ulearning, vous devez autoriser le Ulearning à obtenir des autorisations de microphone: \n\n/n Exercices d’expression orale, devoirs d’expression orale, dictée de mots, évaluation orale, test d’expression orale, fonction de diffusion en direct, système de service à la clientèle.</string>
     <string name="permission_camera_fail">Vous avez désactivé l’autorisation de l’appareil photo et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser</string>
     <string name="permission_microphone_fail">Vous avez désactivé l’autorisation d’enregistrement et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone mobile pour autoriser</string>
     <string name="permission_location_fail">Vous avez désactivé l’autorisation de localisation et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser</string>
+    <string name="permission_read_external">Afin de vous assurer que vous pouvez utiliser les fonctions suivantes au sein de Ulearning, vous devez autoriser Ulearning à lire les autorisations de stockage : \n \n Lire les données, les images et les fichiers du cache de l’application</string>
     <string name="permission_read_storage_fail">Vous avez désactivé l’autorisation de stockage de lecture et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser</string>
     <string name="permission_camera_microphone_fail">Vous avez désactivé l’autorisation de la caméra ou du microphone et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] de votre téléphone pour autoriser</string>
 
@@ -1397,6 +1398,7 @@ Continuer à épargner? </string>
 
     <string name="not_run_on_virtualmachine">N’exécutez pas l’application dans la machine virtuelle/émulateur</string>
 
+    <string name="not_group_score_announced">Les résultats ne sont pas annoncés</string>
     <string name="screen_msg">L’instabilité du réseau peut entraîner une perte de projection d’écran, si l’écran du téléphone n’est pas affiché sur le grand écran pendant une longue période, vous pouvez arrêter puis diffuser à nouveau l’écran.</string>
     <string name="screen_device">Appareil</string>
     <string name="screen_network">Internet</string>
@@ -1432,6 +1434,8 @@ Continuer à épargner? </string>
     <string name="crop_cancel">Annuler</string>
     <string name="crop_rotate">Rotation</string>
 
+    <string name="warning_pwd_type">Le nouveau mot de passe doit être une combinaison de lettres et de chiffres</string>
+    <string name="hint_input_new_pwd_rule">Le mot de passe doit comporter de 8 à 16 caractères et inclure des lettres et des chiffres (les mots de passe sont sensibles à la casse)</string>
     <string name="token_expired_msg">La connexion a dépassé, veuillez vous reconnecter!</string>
     <string name="manual_login">Veuillez vous déconnecter et vous connecter manuellement</string>
     <string name="course_app_units">Modules</string>
