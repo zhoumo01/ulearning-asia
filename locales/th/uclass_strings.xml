@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">UClass</string>
     <string name="app_name_2">แพลตฟอร์มซู่จื้อหม่าเยวี้ยน</string>
     <string name="version_update">การอัปเดตเวอร์ชัน</string>
@@ -17,6 +17,7 @@
     <string name="device">com.zzy.ulearning01.DeviceName</string>
 
 
+    <!--    分组研讨-->
     <string name="nav_broad">การออกอากาศหน้าจอ</string>
     <string name="broading">ออกอากาศ</string>
     <string name="stop_broad">ยกเลิกการออกอากาศ</string>
@@ -56,6 +57,7 @@
     <string name="title">เคล็ดลับ</string>
 
 
+    <!--    ABC为占位字符，请放于合适的位置-->
     <string name="click_connect_again">หากมีหน้าจอกลุ่มออฟไลน์โปรดให้นักเรียนเปิด UClass หน้าจอกลุ่ม \nหาก UClass หน้าจอกลุ่มเปิดอยู่ โปรด ABC เชื่อมต่อหน้าจอกลุ่ม</string>
     <string name="ABC">คลิกที่นี่อีกครั้ง</string>
 
@@ -74,6 +76,7 @@
     <string name="connect_interrupt_msg">การออกอากาศหน้าจอกลุ่มล้มเหลวโปรดตรวจสอบว่าหน้าจอกลุ่มออนไลน์อยู่หรือไม่แล้วลองอีกครั้ง คลิก \&quot;การตรวจหาข้อผิดพลาด\&quot;; บนอินเทอร์เฟซ UClass ของหน้าจอกลุ่มเพื่อดูสถานะของหน้าจอกลุ่มและทําตามคําแนะนําวิธีใช้</string>
 
 
+    <!--    白板相关-->
     <string name="wb_tool_name_pen">แปรง</string>
     <string name="wb_tool_name_eraser">ยางลบ</string>
     <string name="wb_tool_name_select">การเลือกวงกลม</string>
@@ -164,9 +167,11 @@
     <string name="language_in">Indonesia</string>
     <string name="language_th">ภาษาไทย</string>
     <string name="language_zh">繁體中文</string>
+    <string name="language_fr">Français</string>
     <string name="ethiopia">เอธิโอเปีย</string>
 
 
+    <!--    20230410翻译新增-->
     <string name="app_name_3">การโต้ตอบหลายหน้าจอของ UClass</string>
     <string name="watch_stu_screen">ดูกลุ่ม</string>
     <string name="license_0">เปิดใช้งานแล้ว</string>
@@ -209,15 +214,17 @@
     <string name="update_version" formatted="false">มีการอัปเดตเวอร์ชัน: UClass%s อัปเดตหรือไม่?</string>
     <string name="is_new_version">เวอร์ชันปัจจุบันเป็นเวอร์ชันล่าสุด</string>
 
+    <!--    自动广播需求-->
     <string name="auto_broadcast_tea_screen">ออกอากาศหน้าจอครูโดยอัตโนมัติ</string>
     <string name="stu_screen_offline_reminder">หากหน้าจอกลุ่มออฟไลน์อยู่ ให้ตรวจสอบว่าไคลเอ็นต์ UClass เปิดอยู่หรือไม่</string>
     <string name="groups_checking">ตรวจ จับ   </string>
     <string name="groups_off_line">ออฟไลน์</string>
     <string name="groups_on_line">ออนไลน์</string>
-    <string name="auto_staring">เริ่ม ต้น   </string>
+    <string name="auto_staring" tools:ignore="TypographyEllipsis">เริ่ม ต้น   </string>
     <string name="auto_start_success">เริ่มต้นสําเร็จ! กระจายหน้าจอครูไปยังหน้าจอกลุ่ม</string>
     <string name="auto_start_fail">การเปิดตัวล้มเหลว! โปรดคลิกปุ่ม &quot;Screen Broadcast&quot; ทางด้านขวาเพื่อเปิดการออกอากาศด้วยตนเอง</string>
 
+    <!--    投屏界面优化需求 -->
     <string name="classroom_lan">LAN ในห้องเรียน</string>
     <string name="yxy_app_name">ULearning</string>
     <string name="idea_share">แคสต์หน้าจอ</string>
