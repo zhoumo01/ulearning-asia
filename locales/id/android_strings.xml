@@ -592,7 +592,7 @@
     <string name="tools_word_text">Mempelajari kosa kata baru terlebih dahulu sebelum memulai kelas, kata-kata akan dipilih secara acak di dalam kelas untuk tes dikte</string>
     <string name="tools_speech_title">Penilaian percakapan</string>
     <string name="tools_speech_text">Penilaian kemampuan percakapan, gabungan antara pembelajaran, latihan dan ujian</string>
-    <string name="activity_home_work_test">Tes</string>
+    <string name="activity_home_work_test">Kuis</string>
     <string name="activity_home_work_group">Tugas kelompok</string>
     <string name="activity_home_work_person">Tugas individu</string>
     <string name="activity_public_activity">Memulai kegiatan</string>
@@ -804,8 +804,6 @@
     <string name="login_password">Silahkan masukkan kata sandi</string>
     <string name="login_register">Registrasi akun</string>
     <string name="login_forget_password">Lupa kata sandi</string>
-    <string name="login_forget_password_line">
-        <u>忘记密码?</u>&lt;string name=&quot;login_forget_password_line&quot;&gt;&lt;u&gt;Lupa kata sandi&lt;/u&gt;&lt;/string&gt;</string>
     <string name="register_activity_title">Registrasi</string>
 
     <string name="register_stu">Saya adalah siswa</string>
@@ -1299,14 +1297,14 @@
     <string name="exit_class_finish"> Anda telah keluar dari mata pelajaran </string>
 
     <string name="permission_apply"> aplikasi izin </string>
-    <string name="permission_overlay">Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di ULearning secara normal, Anda perlu mengesahkan izin penangguhan ULearning:\n\nScreencasting, siaran langsung</string>
-    <string name="permission_camera"> Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di You Academy secara normal, Anda perlu memberi otorisasi kepada You Academy untuk mendapatkan izin kamera: \n\nPindai, unggah / ubah avatar Anda, di Pengumuman, Modul Voting, Tugas dan Ujian Ambil gambar dan unggah lampiran gambar, lakukan verifikasi wajah dan pemantauan kamera selama ujian, gunakan pengajaran video dan penautan video guru dan siswa dalam siaran langsung. </string>
+    <string name="permission_overlay">ULearn memerlukan izin akses ke overlay layar pada perangkat Anda untuk menggunakan fitur berikut: \n\nCasting, Sesi langsung (konferensi video)</string>
+    <string name="permission_camera">ULearning memerlukan izin akses ke kamera pada perangkat Anda untuk menggunakan fitur-fitur berikut: \n\n Memindai, mengunggah/memperbarui foto profil, menggunakan kamera mengambil foto untuk pengumuman, jajak pendapat, tugas, ujian, dll., Verifikasi wajah, pemantauan kamera, konferensi video, dll.</string>
     <string name="permission_location">Untuk memastikan bahwa Anda dapat menggunakan fungsi roll-in, ujian, dan casting layar di ULearning secara normal, Anda perlu memberi otorisasi kepada perguruan tinggi unggulan tersebut untuk mendapatkan otoritas informasi lokasi. </string>
-    <string name="permission_microphone"> Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di You Academy secara normal, Anda perlu memberi otorisasi kepada You Academy untuk mendapatkan izin mikrofon: \n\nPraktik berbicara, pekerjaan rumah lisan, dikte kata, evaluasi lisan, ujian lisan, fungsi siaran langsung </string>
+    <string name="permission_microphone">ULearn memerlukan izin akses ke mikrofon pada perangkat Anda untuk menggunakan fitur-fitur berikut: \n\n Latihan bahasa Inggris lisan, tugas bahasa Inggris lisan, dikte kosa kata, bahasa Inggris lisan tes, konferensi video, dll</string>
     <string name="permission_camera_fail"> Anda telah menonaktifkan izin kamera dan tidak dapat menggunakan fungsi ini, silakan masuk ke telepon [Pengaturan] untuk otorisasi </string>
     <string name="permission_microphone_fail"> Anda telah menonaktifkan izin perekaman dan tidak dapat menggunakan fungsi ini, silakan masuk ke telepon [Pengaturan] untuk otorisasi </string>
     <string name="permission_location_fail"> Anda telah menonaktifkan izin lokasi, Anda tidak dapat menggunakan fitur ini, silakan masukkan telepon [Pengaturan] untuk otorisasi </string>
-    <string name="permission_read_external"> Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di You Academy secara normal, Anda perlu memberi otorisasi kepada You Academy untuk membaca izin penyimpanan: \n\nBaca data cache aplikasi, gambar, file </string>
+    <string name="permission_read_external">ULearn memerlukan izin akses ke penyimpanan di perangkat Anda untuk menggunakan fitur berikut: \n\nReading data cache aplikasi, gambar, dan dokumen</string>
     <string name="permission_read_storage_fail"> Anda telah menonaktifkan izin penyimpanan baca dan tidak dapat menggunakan fungsi ini, silakan masukkan telepon [Pengaturan] untuk otorisasi </string>
     <string name="permission_camera_microphone_fail">Anda telah menonaktifkan izin kamera atau mikrofon, Anda tidak dapat menggunakan fitur ini, silakan masukkan telepon Anda [Pengaturan] untuk mengotorisasi</string>
 
@@ -1340,7 +1338,7 @@
 
     <string name="active_item_normal_live">Kelas Langsung</string>
     <string name="active_item_tencent_live">Tencent Pertemuan</string>
-    <string name="permission_write_external">Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di You Academy secara normal, Anda perlu memberi otorisasi kepada You Academy untuk membaca izin penyimpanan: \n\nBaca data cache aplikasi, gambar, file </string>
+    <string name="permission_write_external">Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di Ulearning, Anda perlu mengotorisasi izin penyimpanan Ulearning:\n\nStore data cache aplikasi, gambar, dan file</string>
     <string name="permission_write_storage_fail"> Anda telah menonaktifkan izin penyimpanan baca dan tidak dapat menggunakan fungsi ini, silakan masukkan telepon [Pengaturan] untuk otorisasi </string>
     <string name="scan_and_activate_book">Pindai kode QR untuk mengaktifkan buku teks</string>
 
@@ -1367,23 +1365,23 @@
     <string name="unable_modify_username">Sekolah melarang siswa mengubah nama mereka. \nJika Anda perlu mengubah, harap hubungi administrator sekolah atau layanan pelanggan.</string>
     <string name="remind_tea_exit_class">Meninggalkan kelas tidak akan menghapus kelas yang telah anda buat dalam kursus ini serta sumber dan kegiatan yang telah anda terbitkan. Jika kelas yang ditugaskan kepada anda tidak memiliki guru lain, kelas tersebut akan dialihkan kepada pencipta kursus. Yakin ingin keluar?</string>
 
-    <string name="resource_num" formatted="false">%d个资源</string>
-    <string name="resource_num_unread" formatted="false">%d个未查看</string>
-    <string name="resource_unread">未查看</string>
-    <string name="resource_read">已查看</string>
-    <string name="resource_watch">已看完</string>
-    <string name="teaching_activities_notification">教学活动消息</string>
-    <string name="test_work">测验</string>
-    <string name="question_bank">题库</string>
-    <string name="operation_check_all_unfold">展开</string>
-    <string name="login_org">机构账号</string>
-    <string name="login_org_title">机构账号登录</string>
-    <string name="login_org_hint">请输入机构名称</string>
-    <string name="login_org_hint2">请输入正确的机构名称</string>
-    <string name="login_name_hint">请输入学号/工号</string>
-    <string name="permission_bluetooth">为了保证您正常使用优学院内以下功能，需要您授权优学院访问附近的设备：\n\n直播</string>
-    <string name="permission_nearby_wifi_devices">为了保证您正常使用优学院内以下功能，需要您授权优学院访问附近的wifi设备：\n\n投屏</string>
-    <string name="permission_bluetooth_fail">您已禁用附近的设备权限，无法使用此功能，请进入手机【设置】进行授权</string>
-    <string name="login_sms_2">短信</string>
-    <string name="login_wechat_confirm_2">微信</string>
+    <string name="resource_num" formatted="false">%d sumber</string>
+    <string name="resource_num_unread" formatted="false">%d tidak dilihat</string>
+    <string name="resource_unread">Belum lihat</string>
+    <string name="resource_read">Telah dilihat</string>
+    <string name="resource_watch">Telah selesai dilihat</string>
+    <string name="teaching_activities_notification">Pesan kegiatan pengajaran</string>
+    <string name="test_work">Kuis</string>
+    <string name="question_bank">Kumpulan soal</string>
+    <string name="operation_check_all_unfold">Perluas</string>
+    <string name="login_org">Nomor rekening institusional</string>
+    <string name="login_org_title">Masuk ke akun organisasi Anda</string>
+    <string name="login_org_hint">Masukkan nama organisasi Anda</string>
+    <string name="login_org_hint2">Silahkan masukkan nama lembaga</string>
+    <string name="login_name_hint">Silahkan masukkan NIM/No. Kerja</string>
+    <string name="permission_bluetooth">Untuk memastikan bahwa Anda dapat menggunakan fungsi berikut di Ulearning, Anda perlu mengotorisasi Ulearning untuk mengakses perangkat terdekat:\n\nLive streaming</string>
+    <string name="permission_nearby_wifi_devices">Untuk memastikan bahwa Anda dapat menggunakan fungsi-fungsi berikut di Ulearning, Anda perlu mengotorisasi Ulearning untuk mengakses perangkat WiFi terdekat:\n\nProjection</string>
+    <string name="permission_bluetooth_fail">Anda telah menonaktifkan izin perangkat terdekat dan tidak dapat menggunakan fitur ini, silakan buka [Pengaturan] ponsel Anda untuk mengotorisasi</string>
+    <string name="login_sms_2">SMS</string>
+    <string name="login_wechat_confirm_2">WeChat</string>
 </resources>
