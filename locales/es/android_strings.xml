@@ -804,8 +804,6 @@
     <string name="login_password">Por favor ingrese la contraseña</string>
     <string name="login_register">Registrar cuenta</string>
     <string name="login_forget_password">Olvidate tu contraseña</string>
-    <string name="login_forget_password_line">
-        <u>忘记密码?</u>&lt;string name=&quot;login_forget_password_line&quot;&gt;&lt;u&gt;contraseña olvidada?&lt;/u&gt;&lt;/string&gt;</string>
     <string name="register_activity_title">Registrarse</string>
 
     <string name="register_stu">Soy un alumno</string>
@@ -1300,13 +1298,13 @@
 
     <string name="permission_apply"> solicitud de permiso </string>
     <string name="permission_overlay">Para asegurarse de que puede usar las siguientes funciones en ULearning normalmente, debe autorizar el permiso de suspensión de ULearning: \ n \ nScreencasting, transmisión en vivo</string>
-    <string name="permission_camera"> Para asegurarse de que puede usar las siguientes funciones en You Academy normalmente, debe autorizar a You Academy para obtener permisos de cámara: \n\nEscanear, cargar / cambiar su avatar, en el Anuncio, Módulo de votación, asignación y examen Tome fotografías y cargue archivos adjuntos de imágenes, realice la verificación facial y el monitoreo de la cámara durante el examen, utilice la enseñanza por video y la vinculación de videos de maestros y estudiantes en la transmisión en vivo. </string>
-    <string name="permission_location"> Para asegurarse de que normalmente utiliza las funciones de registro y examen en la universidad excelente, debe autorizar a la universidad excelente para obtener la autoridad de información de ubicación. </string>
-    <string name="permission_microphone"> Para asegurarse de que puede utilizar las siguientes funciones en You Academy normalmente, debe autorizar a You Academy para obtener permisos de micrófono: \n\nPráctica de conversación, tarea oral, dictado de palabras, evaluación oral, examen oral, función de transmisión en vivo </string>
+    <string name="permission_camera">ULearning necesita permiso de acceso a la cámara de su dispositivo para usar las siguientes funciones: \n\n Escanear, cargar/actualizar fotos de perfil, usar la cámara para tomar fotos para anuncios, encuestas, tareas, exámenes, etc., verificación facial, monitoreo de cámaras, videoconferencias, etc.</string>
+    <string name="permission_location">ULearning necesita permiso de acceso a los servicios de ubicación en su dispositivo para usar las siguientes funciones: pases de lista, exámenes y transmisión de pantalla.</string>
+    <string name="permission_microphone">ULearning necesita permiso de acceso al micrófono de su dispositivo para usar las siguientes funciones: \n\n Práctica de inglés hablado, Tareas de inglés hablado, Dictado de vocabulario, Inglés hablado pruebas, videoconferencias, etc</string>
     <string name="permission_camera_fail"> Ha desactivado el permiso de la cámara y no puede usar esta función, ingrese la [Configuración] del teléfono para la autorización </string>
     <string name="permission_microphone_fail"> Ha deshabilitado el permiso de grabación y no puede usar esta función, ingrese la [Configuración] del teléfono para la autorización </string>
     <string name="permission_location_fail"> Ha deshabilitado el permiso de ubicación, no puede usar esta función, ingrese el teléfono [Configuración] para la autorización </string>
-    <string name="permission_read_external"> Para asegurarse de que puede utilizar las siguientes funciones en You Academy normalmente, debe autorizar a You Academy a leer los permisos de almacenamiento: \n\nLeer datos de caché de la aplicación, imágenes, archivos </string>
+    <string name="permission_read_external">ULearning necesita permiso de acceso al almacenamiento en su dispositivo para usar las siguientes funciones: \n\nLectura de datos, imágenes y documentos de caché de la aplicación</string>
     <string name="permission_read_storage_fail"> Ha deshabilitado el permiso de almacenamiento de lectura y no puede usar esta función, ingrese la [Configuración] del teléfono para la autorización </string>
     <string name="permission_camera_microphone_fail">Usted tiene permisos de cámara o micrófono deshabilitado, no puede usar esta función, ingrese su teléfono [Configuración] para autorizar</string>
 
@@ -1340,7 +1338,7 @@
 
     <string name="active_item_normal_live">Clase en vivo</string>
     <string name="active_item_tencent_live">Tencent Reunión</string>
-    <string name="permission_write_external"> Para asegurarse de que puede utilizar las siguientes funciones en You Academy normalmente, debe autorizar a You Academy a leer los permisos de almacenamiento: \n\nLeer datos de caché de la aplicación, imágenes, archivos </string>
+    <string name="permission_write_external">Para asegurarse de que puede utilizar las siguientes funciones en Ulearning, debe autorizar el permiso de almacenamiento de Ulearning:\n\nAlmacenar datos, imágenes y archivos de caché de aplicaciones</string>
     <string name="permission_write_storage_fail"> Ha deshabilitado el permiso de almacenamiento de lectura y no puede usar esta función, ingrese la [Configuración] del teléfono para la autorización </string>
     <string name="scan_and_activate_book">Escanea el código QR para activar el libro de texto</string>
 
@@ -1367,23 +1365,23 @@
     <string name="unable_modify_username">La escuela prohíbe a los estudiantes cambiar sus nombres. \nSi necesita modificar, comuníquese con el administrador de la escuela o con el servicio de atención al cliente.</string>
     <string name="remind_tea_exit_class">La salida de un curso no eliminará las clases creadas en este curso, así como los recursos y actividades publicados. Si no hay otros profesores en las clases bajo su responsabilidad, estas clases serán transferidas al creador de la lección. ¿Seguro de abandonar el curso?</string>
 
-    <string name="resource_num" formatted="false">%d个资源</string>
-    <string name="resource_num_unread" formatted="false">%d个未查看</string>
-    <string name="resource_unread">未查看</string>
-    <string name="resource_read">已查看</string>
-    <string name="resource_watch">已看完</string>
-    <string name="teaching_activities_notification">教学活动消息</string>
+    <string name="resource_num" formatted="false">%d recursos</string>
+    <string name="resource_num_unread" formatted="false">%d no visto</string>
+    <string name="resource_unread">No visto</string>
+    <string name="resource_read">Visto</string>
+    <string name="resource_watch">Completado</string>
+    <string name="teaching_activities_notification">Mensajes de actividades didácticas</string>
     <string name="test_work">测验</string>
-    <string name="question_bank">题库</string>
-    <string name="operation_check_all_unfold">展开</string>
-    <string name="login_org">机构账号</string>
-    <string name="login_org_title">机构账号登录</string>
-    <string name="login_org_hint">请输入机构名称</string>
-    <string name="login_org_hint2">请输入正确的机构名称</string>
-    <string name="login_name_hint">请输入学号/工号</string>
-    <string name="permission_bluetooth">为了保证您正常使用优学院内以下功能，需要您授权优学院访问附近的设备：\n\n直播</string>
-    <string name="permission_nearby_wifi_devices">为了保证您正常使用优学院内以下功能，需要您授权优学院访问附近的wifi设备：\n\n投屏</string>
-    <string name="permission_bluetooth_fail">您已禁用附近的设备权限，无法使用此功能，请进入手机【设置】进行授权</string>
-    <string name="login_sms_2">短信</string>
-    <string name="login_wechat_confirm_2">微信</string>
+    <string name="question_bank">Banco de pruebas</string>
+    <string name="operation_check_all_unfold">Desplegar</string>
+    <string name="login_org">Número de cuenta institucional</string>
+    <string name="login_org_title">Inicie sesión en la cuenta de su organización</string>
+    <string name="login_org_hint">Introduzca el nombre de su organización</string>
+    <string name="login_org_hint2">Ingrese el nombre correcto de la institución</string>
+    <string name="login_name_hint">Ingrese la ID del estudiante / ID del trabajo</string>
+    <string name="permission_bluetooth">Para asegurarse de que puede utilizar las siguientes funciones en Ulearning, debe autorizar a Ulearning a acceder a dispositivos cercanos:\n\nTransmisión en vivo</string>
+    <string name="permission_nearby_wifi_devices">Para asegurarse de que puede utilizar las siguientes funciones en Ulearning, debe autorizar a Ulearning a acceder a dispositivos WiFi cercanos:\n\nProyección</string>
+    <string name="permission_bluetooth_fail">Ha desactivado el permiso de los dispositivos cercanos y no puede usar esta función, vaya a la [Configuración] de su teléfono para autorizar</string>
+    <string name="login_sms_2">SMS</string>
+    <string name="login_wechat_confirm_2">WeChat</string>
 </resources>
