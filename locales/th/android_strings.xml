@@ -869,8 +869,6 @@
     <string name="login_password">กรุณาใส่รหัสผ่าน</string>
     <string name="login_register">ลงชื่อสมัครใช้บัญชี</string>
     <string name="login_forget_password">ลืมรหัสผ่าน</string>
-    <string name="login_forget_password_line">
-        <u>忘记密码?</u>&lt;string name=&quot;login_forget_password_line&quot;&gt;&lt;u&gt;ลืมรหัสผ่าน?&lt;/u&gt;&lt;/string&gt;</string>
     <string name="register_activity_title">ลงชื่อสมัครใช้</string>
 
     <string name="register_stu">ฉันเป็นนักเรียน</string>
@@ -1368,7 +1366,7 @@
     <string name="exit_class_finish">คุณได้ออกจากหลักสูตรแล้ว</string>
 
     <string name="permission_apply">คําขอสิทธิ์</string>
-    <string name="permission_overlay">เพื่อให้แน่ใจว่าคุณใช้คุณสมบัติต่อไปนี้ในวิทยาลัยยูนิเวอร์ดูตามปกติคุณจะต้องอนุญาตสิทธิ์การระงับของ UC: \n\nโยนหน้าจอและสตรีมสด</string>
+    <string name="permission_overlay">ULearning ต้องการสิทธิ์การเข้าถึงเพื่อวางซ้อนหน้าจอบนอุปกรณ์ของคุณเพื่อใช้คุณสมบัติต่อไปนี้: \n\nCasting, Live session (การประชุมทางวิดีโอ)</string>
     <string name="permission_camera">เพื่อให้แน่ใจว่าการใช้งานปกติของฟังก์ชั่นต่อไปนี้ใน ULearning, คุณจะต้องได้รับอนุญาตจาก ULearning ที่จะได้รับสิทธิ์กล้อง: \n\nกวาด, อัปโหลด / เปลี่ยนอวตาร, ถ่ายภาพในการประกาศ, การลงคะแนนเสียง, การบ้านและโมดูลการสอบเพื่ออัปโหลดสิ่งที่แนบมากับภาพ, การตรวจสอบใบหน้าและการตรวจสอบกล้องในการสอบ, การเรียนการสอนวิดีโอในสตรีมสด, การเชื่อมต่อวิดีโอของครูและนักเรียน, ระบบการบริการลูกค้า.</string>
     <string name="permission_location">เพื่อให้แน่ใจว่าคุณใช้การเช็คอินการสอบและฟังก์ชั่นการฉายหน้าจอในวิทยาลัยยูนิฟอร์มตามปกติคุณจะต้องได้รับอนุญาตจาก ULeanring เพื่อรับสิทธิ์ข้อมูลตําแหน่ง</string>
     <string name="permission_microphone">เพื่อให้แน่ใจว่าคุณใช้ฟังก์ชั่นต่อไปนี้ใน ULearning ตามปกติคุณจะต้องได้รับอนุญาตจาก ULearning เพื่อรับสิทธิ์ไมโครโฟน: \n\nแบบฝึกหัดการพูดการบ้านการพูดการเขียนตามคําบอกการประเมินการพูดการสอบในช่องปากฟังก์ชั่นการถ่ายทอดสดระบบบริการลูกค้า</string>
@@ -1436,23 +1434,23 @@
     <string name="unable_modify_username">โรงเรียนห้ามนักเรียนเปลี่ยนชื่อ \nหากคุณต้องการแก้ไข โปรดติดต่อผู้ดูแลระบบของโรงเรียนหรือฝ่ายบริการลูกค้า</string>
     <string name="remind_tea_exit_class">การออกจากหลักสูตรจะไม่มีวันลบชั้นเรียน ที่คุณสร้างขึ้นในหลักสูตรนี้ รวมถึงทรัพยากร และกิจกรรม ที่เผยแพร่หากไม่มีครูคนอื่นในชั้นเรียน ที่คุณรับผิดชอบแน่ใจ หรือว่า จะออกจากหลักสูตร?</string>
 
-    <string name="resource_num" formatted="false">%d个资源</string>
-    <string name="resource_num_unread" formatted="false">%d个未查看</string>
-    <string name="resource_unread">未查看</string>
-    <string name="resource_read">已查看</string>
-    <string name="resource_watch">已看完</string>
-    <string name="teaching_activities_notification">教学活动消息</string>
-    <string name="test_work">测验</string>
-    <string name="question_bank">题库</string>
-    <string name="operation_check_all_unfold">展开</string>
-    <string name="login_org">机构账号</string>
-    <string name="login_org_title">机构账号登录</string>
-    <string name="login_org_hint">请输入机构名称</string>
-    <string name="login_org_hint2">请输入正确的机构名称</string>
-    <string name="login_name_hint">请输入学号/工号</string>
-    <string name="permission_bluetooth">为了保证您正常使用优学院内以下功能，需要您授权优学院访问附近的设备：\n\n直播</string>
-    <string name="permission_nearby_wifi_devices">为了保证您正常使用优学院内以下功能，需要您授权优学院访问附近的wifi设备：\n\n投屏</string>
-    <string name="permission_bluetooth_fail">您已禁用附近的设备权限，无法使用此功能，请进入手机【设置】进行授权</string>
-    <string name="login_sms_2">短信</string>
-    <string name="login_wechat_confirm_2">微信</string>
+    <string name="resource_num" formatted="false">ทรัพยากร %d</string>
+    <string name="resource_num_unread" formatted="false">%d ไม่ได้ดู</string>
+    <string name="resource_unread">ยังไม่ได้ดู</string>
+    <string name="resource_read">ดูแล้ว</string>
+    <string name="resource_watch">ดูเสร็จเรียบร้อย</string>
+    <string name="teaching_activities_notification">ข้อความกิจกรรมการสอน</string>
+    <string name="test_work">ทดสอบ</string>
+    <string name="question_bank">คลังคำถาม</string>
+    <string name="operation_check_all_unfold">ขยาย</string>
+    <string name="login_org">หมายเลขบัญชีสถาบัน</string>
+    <string name="login_org_title">เข้าสู่ระบบบัญชีองค์กรของคุณ</string>
+    <string name="login_org_hint">โปรดป้อนชื่อองค์กรของคุณ</string>
+    <string name="login_org_hint2">โปรดป้อนชื่อองค์กรที่ถูกต้อง</string>
+    <string name="login_name_hint">กรุณาใส่รหัสนักเรียน/รหัสพนักงาน</string>
+    <string name="permission_bluetooth">เพื่อให้แน่ใจว่าคุณสามารถใช้ฟังก์ชันต่อไปนี้ใน Ulearning คุณต้องอนุญาตให้ Ulearning เข้าถึงอุปกรณ์ใกล้เคียง: \n\nLive streaming</string>
+    <string name="permission_nearby_wifi_devices">เพื่อให้แน่ใจว่าคุณสามารถใช้ฟังก์ชันต่อไปนี้ใน Ulearning คุณต้องอนุญาตให้ Ulearning เข้าถึงอุปกรณ์ WiFi ใกล้เคียง: \n\nProjection</string>
+    <string name="permission_bluetooth_fail">คุณได้ปิดใช้งานการอนุญาตของอุปกรณ์ใกล้เคียงและไม่สามารถใช้คุณสมบัตินี้ได้โปรดไปที่ [การตั้งค่า] ของโทรศัพท์ของคุณเพื่ออนุญาต</string>
+    <string name="login_sms_2">เอสเอ็มเอส</string>
+    <string name="login_wechat_confirm_2">WeChat</string>
 </resources>
