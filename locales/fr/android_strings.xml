@@ -20,6 +20,7 @@
     <string name="server_error">Le système est en cours de maintenance, veuillez réessayer plus tard</string>
     <string name="toast_other_lesson_progress" formatted="false">Mise en cache des didacticiels%s/%s</string>
     <string name="toast_please_check_if_the_SD_card_is_inserted">Vérifiez la carte SD si elle est branchée!</string>
+    <!--<string name="telphone">400 610 7808</string>-->
     <string name="dialog_quit" formatted="false">Quitter(%s)</string>
     <string name="dialog_confirm">Confirmer</string>
     <string name="dialog_cancel">Annuler</string>
@@ -250,8 +251,7 @@
     <string name="modify_success">Modifier avec succès</string>
     <string name="modify_fail">Échec de la modification</string>
     <string name="modify">Modifier</string>
-    <string name="logout_message">Après avoir annulé votre compte, vous ne pourrez plus utiliser ce compte pour vous connecter à U Academy et vous ne pourrez plus utiliser le même numéro de téléphone mobile ou la même adresse e-mail pour créer un nouveau compte.  Le système effacera vos informations personnelles et vos données historiques dans un certain laps de temps.
-     Veuillez noter que l’annulation d’un compte est une opération irrécupérable, alors soyez prudent! Êtes-vous sûr d’annuler ce compte?</string>
+    <string name="logout_message">Après la suppression de votre compte, vous ne pourrez plus l’utiliser pour vous connecter à ULearning et vous ne pourrez plus utiliser le même numéro de téléphone mobile ou la même adresse e-mail pour créer un nouveau compte. Le système effacera vos informations personnelles et vos données historiques dans un certain laps de temps.¶ Veuillez noter que la suppression d’un compte est une opération irrécupérable, alors soyez prudent ! Êtes-vous sûr de supprimer ce compte ?</string>
     <string name="confirm_logout">continuer la déconnexion</string>
     <string name="cancel_logout">Annuler</string>
 
@@ -269,7 +269,6 @@
     <string name="hint_input_pwd_please">Veuillez entrer le mot de passe</string>
     <string name="hint_input_pwd">Veuillez saisir le mot de passe d’origine</string>
     <string name="hint_input_new_pwd">Veuillez saisir un nouveau mot de passe</string>
-    <string name="hint_input_new_pwd_rule">Le mot de passe doit comporter de 8 à 16 caractères et inclure des lettres et des chiffres (les mots de passe sont sensibles à la casse)</string>
     <string name="hint_input_new_pwd_again">Veuillez saisir à nouveau un nouveau mot de passe</string>
     <string name="hint_input_class_name">Entrez le nom de la classe</string>
     <string name="hint_input_course_name">Veuillez entrer le nom du cours</string>
@@ -285,7 +284,7 @@
     <string name="hint_qr_code_touch">Touchez pour continuer la numérisation</string>
     <string name="hint_open_light">Activer le flash</string>
     <string name="hint_telphone_unwrite">Pas encore</string>
-    <string name="hint_email_unwrite">« Ce bug paresseux n’a pas laissé d’adresse e-mail »</string>
+    <string name="hint_email_unwrite">Ce bug paresseux n’a pas laissé d’adresse e-mail</string>
     <string name="hint_feature_online_follow_up">Cette fonctionnalité sera en ligne plus tard.</string>
     <string name="hint_course_page_not_study_finished">Vous n’avez pas fini d’étudier la page-</string>
     <string name="hint_course_important">Remarque importante</string>
@@ -341,7 +340,6 @@
     <string name="warning_old_pwd_null">Veuillez saisir le mot de passe d’origine</string>
     <string name="warning_old_pwd_input_error">Entré incorrecte du mot de passe d’origine!</string>
     <string name="warning_pwd_disagree">Mot de passe incohérent dans deux entrées</string>
-    <string name="warning_pwd_type">Le nouveau mot de passe doit être une combinaison de lettres et de chiffres</string>
     <string name="warning_course_no_desc">Pas d’info sur l’introduction brève du cours</string>
     <string name="warning_not_preview_file">Ne prenant pas en charge l’aperçu de ce document \n, vous pouvez utiliser d’autres applications pour l’ouvrir</string>
     <string name="warning_course_resource_download_studyrecord">Après avoir téléchargé des ressources, vous pouvez étudier sans connexion Internet. Pour supprimer terminé, les ressources hors ligne n’affecteront pas votre dossier d’étude et vos scores</string>
@@ -382,8 +380,8 @@
     <string name="warning_chat_message_forward_success">Avancer avec succès</string>
 
     <string name="warning_location_fail">Échec du positionnement du réseau du serveur</string>
-    <string name="warning_location_permission_fail">Veuillez ouvrir le service de localisation dans les paramètres du système de téléphonie mobile, vousvous devez connaître votre emplacement pour effectuer un appel nominal</string>
-    <string name="warning_notify_permission_fail">Veuillez activer la notification sur votre téléphone mobile et autoriser notre site Web à y accéder</string>
+    <string name="warning_location_permission_fail">Veuillez activer la localisation sur votre téléphone et activer le suivi de la localisation pour ULearning</string>
+    <string name="warning_notify_permission_fail">Veuillez activer la notification pour votre téléphone et activer la notification pour ULearning</string>
 
     <string name="warning_audio_file_not_found">Aucun fichier vidéo trouvé。</string>
     <string name="warning_record_time_short">Le temps d’enregistrement est trop court, veuillez arrêter après un certain temps</string>
@@ -530,7 +528,7 @@
 
     <string name="text_change_related_cell_phone">Chang linkup téléphone mobile</string>
     <string name="text_related_cell_phone">Lier le numéro de téléphone mobile</string>
-    <string name="text_back_umooc">Retour à U-Learning Institute</string>
+    <string name="text_back_umooc">Retour à ULearning</string>
     <string name="text_class_member">Étudiants de la classe</string>
     <string name="text_class_member_remove">Supprimer de la classe</string>
     <string name="text_course_remove">Supprimer du cours</string>
@@ -701,10 +699,9 @@
     <string name="course_app_live">Vivre</string>
     <string name="course_app_class">Salle de classe</string>
     <string name="course_app_test">Test</string>
-    <string name="course_app_exam">Évaluation</string>
+    <string name="course_app_assess">Analyse</string>
     <string name="course_app_words">Dictée</string>
     <string name="course_app_speak">Test d’anglais parlé</string>
-    <string name="course_app_assess">Analyse</string>
     <string name="course_app_member">Membres</string>
 
     <string name="course_home_course_textbook">Didacticiel</string>
@@ -856,7 +853,7 @@
     <string name="login_title">Connectez-vous avec le mot de passe du compte</string>
     <string name="login_bind">Lier</string>
     <string name="login_no_account">Pas de compte</string>
-    <string name="login_bind_title">Lier avec le compte ULearn</string>
+    <string name="login_bind_title">Lien avec le compte ULearning</string>
     <string name="login_bind_remind">Après la liaison, vous pouvez vous connecter directement avec une application tierce </string>
     <string name="logout_unbind_success_remind">Annuler la liaison avec succès</string>
     <string name="logout_bind_success_remind">Succès contraignant</string>
@@ -866,12 +863,11 @@
     <string name="login_binded_now">Lier maintenant</string>
     <string name="login_wechat_app_not_installed">Veuillez installer l’application WeChat </string>
     <string name="login_qq_confirm">Connexion QQ</string>
-    <string name="login_welcome">Bienvenue sur ULearn</string>
+    <string name="login_welcome">Bienvenue chez ULearning</string>
     <string name="login_name">Veuillez entrer le nom d’utilisateur/ numéro de téléphone/e-mail</string>
     <string name="login_password">Mot de passe</string>
     <string name="login_register">S\'enregistrer</string>
     <string name="login_forget_password">Mot de passe oublié</string>
-    <string name="login_forget_password_line"><u>忘记密码?</u></string>
     <string name="register_activity_title">S\'enregistrer</string>
 
     <string name="register_stu">« Je suis étudiant »</string>
@@ -1146,6 +1142,7 @@ Continuer à épargner? </string>
     <string name="course_app_class_space">Salle de classe</string>
 
 
+    <!-- 播放器提示内容 -->
     <string name="area_select_title">Sélectionner une région</string>
     <string name="area_select_latin_america">Amérique Latine</string>
     <string name="area_select_asia_pacific">Asie-Pacifique</string>
@@ -1246,7 +1243,8 @@ Continuer à épargner? </string>
     <string name="tip_permission_camera_storage">Pas d’autorisation d’utiliser l’appareil photo et la carte SD, ouvrez la gestion des droits</string>
     <string name="file_type_not_support">fichier non pris en charge</string>
 
-    <!--custom multipleimageselect -->
+    <!--custom
+    multipleimageselect -->
     <string name="album_view">sélectionner une image</string>
     <string name="image_view">a sélectionner</string>
 
@@ -1310,8 +1308,8 @@ Continuer à épargner? </string>
     <string name="dialog_new_version_title">Version mise à jour ~</string>
     <string name="update">Mettre à jour</string>
 
-    <string name="permisstion_store_hint">Votre téléphone portable vous interdit de télécharger des didacticiels depuis les États-Unis.app! \nVeuillez accorder à l’application Ulearning des autorisations de lecture et d’écriture de carte mémoire.</string>
-    <string name="permisstion_store_record_hint">Votre espace de stockage doit être utilisé pendant le processus d’enregistrement,\nVeuillez accorder à l’application Ulearning l’autorisation de lire la carte mémoire.</string>
+    <string name="permisstion_store_hint">Votre appareil mobile ne permet pas à ULearning de télécharger des didacticiels ! \nVeuillez activer ULearning pour accéder à l’espace de stockage sur votre appareil</string>
+    <string name="permisstion_store_record_hint">Votre espace de stockage doit être utilisé pendant le processus d’enregistrement,\nVeuillez accorder à l’application ULearning l’autorisation de lire la carte mémoire.L</string>
 
     <string name="operation_look_storage_permisstion_setting">Découvrez comment le configurer</string>
     <string name="dont_update">Plus de rappels</string>
@@ -1371,14 +1369,14 @@ Continuer à épargner? </string>
     <string name="exit_class_finish">Vous avez quitté le cours</string>
 
     <string name="permission_apply">Demande d’autorisation</string>
-    <string name="permission_overlay">Afin de vous assurer que vous pouvez normalement utiliser les fonctions suivantes dans le Ulearning, vous devez autoriser l’autorisation de suspension Ulearning: \n\n Écran tactile, diffusion en direct</string>
-    <string name="permission_read_external">Afin de vous assurer que vous pouvez utiliser les fonctions suivantes au sein de Ulearning, vous devez autoriser Ulearning à lire les autorisations de stockage : \n \n Lire les données, les images et les fichiers du cache de l’application</string>
-    <string name="permission_camera">Afin de vous assurer que vous pouvez utiliser les fonctions suivantes dans le Ulearning, vous devez autoriser le Ulearning à obtenir des autorisations de caméra: \n\n\n Numériser, télécharger / remplacer l’avatar, prendre des photos et télécharger des pièces jointes dans les modules d’annonce, de vote, de devoirs et d’examen, effectuer la vérification du visage et la surveillance de la caméra dans l’examen, utiliser l’enseignement vidéo dans les émissions en direct et les microphones vidéo pour les enseignants et les étudiants, et le système de service à la clientèle.</string>
-    <string name="permission_location">Afin de vous assurer que vous pouvez normalement utiliser les fonctions d’enregistrement par appel nominal, d’examen et de projection d’écran dans Ulearning, vous devez autoriser Ulearning à obtenir des autorisations d’informations de localisation.</string>
-    <string name="permission_microphone">Afin d’assurer votre utilisation normale des fonctions suivantes dans le Ulearning, vous devez autoriser le Ulearning à obtenir des autorisations de microphone: \n\n/n Exercices d’expression orale, devoirs d’expression orale, dictée de mots, évaluation orale, test d’expression orale, fonction de diffusion en direct, système de service à la clientèle.</string>
+    <string name="permission_overlay">ULearning a besoin d’une autorisation d’accès à la superposition d’écran sur votre appareil pour utiliser les fonctionnalités suivantes : \n\nCasting, session en direct (visioconférence)</string>
+    <string name="permission_camera">ULearning a besoin d’une autorisation d’accès à l’appareil photo de votre appareil pour utiliser les fonctionnalités suivantes : \n\n Numérisation, téléchargement/mise à jour de la photo de profil, utilisation de l’appareil photo pour la prise de photos pour les annonces, les sondages, les devoirs, les examens, etc., la vérification faciale, la surveillance par caméra, la vidéoconférence, etc.</string>
+    <string name="permission_location">ULearning necesita permiso de acceso a los servicios de ubicación en su dispositivo para usar las siguientes funciones : pases de lista, exámenes y transmisión de pantalla.</string>
+    <string name="permission_microphone">ULearning necesita permiso de acceso al micrófono de su dispositivo para usar las siguientes funciones : \n\n Práctica de inglés hablado, Tareas de inglés hablado, Dictado de vocabulario, Inglés Hablado pruebas, vidéoconférences, etc</string>
     <string name="permission_camera_fail">Vous avez désactivé l’autorisation de l’appareil photo et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser</string>
     <string name="permission_microphone_fail">Vous avez désactivé l’autorisation d’enregistrement et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone mobile pour autoriser</string>
     <string name="permission_location_fail">Vous avez désactivé l’autorisation de localisation et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser</string>
+    <string name="permission_read_external">ULearning a besoin d’une autorisation d’accès au stockage sur votre appareil pour utiliser la ou les fonctionnalités suivantes : \n\nLecture des données, des images et des documents du cache de l’application</string>
     <string name="permission_read_storage_fail">Vous avez désactivé l’autorisation de stockage de lecture et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] du téléphone pour autoriser</string>
     <string name="permission_camera_microphone_fail">Vous avez désactivé l’autorisation de la caméra ou du microphone et ne pouvez pas utiliser cette fonction, veuillez aller dans les [Paramètres] de votre téléphone pour autoriser</string>
 
@@ -1397,7 +1395,67 @@ Continuer à épargner? </string>
 
     <string name="not_run_on_virtualmachine">N’exécutez pas l’application dans la machine virtuelle/émulateur</string>
 
+    <string name="not_group_score_announced">Les résultats ne sont pas annoncés</string>
     <string name="screen_msg">L’instabilité du réseau peut entraîner une perte de projection d’écran, si l’écran du téléphone n’est pas affiché sur le grand écran pendant une longue période, vous pouvez arrêter puis diffuser à nouveau l’écran.</string>
     <string name="screen_device">Appareil</string>
     <string name="screen_network">Internet</string>
+
+    <string name="trans_error">Si le format d’encodage de fichier ne peut pas être analysé, essayez de transcoder en MP4 avant de télécharger.</string>
+    <string name="malaysia">Malaisie</string>
+
+    <string name="import_something">Importation</string>
+    <string name="add_something">Ajouter</string>
+    <string name="class_setting">Paramètres</string>
+    <string name="permission_read_phone_state">Afin de vous assurer que vous pouvez utiliser les fonctions suivantes dans la ULearning, vous devez autoriser l’autorisation téléphonique de la ULearning à obtenir l’état de l’appel et les informations réseau :\n\nMessage</string>
+    <string name="permission_read_phone_state_fail">Vous avez désactivé l’autorisation du téléphone et ne pouvez pas utiliser cette fonction, veuillez vous rendre dans les [Paramètres] de votre téléphone pour l’autoriser</string>
+    <string name="active_tab_photo_upload">Prenez une photo et téléchargez-la</string>
+
+    <string name="active_item_normal_live">Diffusion en direct des cours</string>
+    <string name="active_item_tencent_live">Réunions Tencent</string>
+    <string name="permission_write_external">Afin de vous assurer que vous pouvez utiliser les fonctions suivantes dans ULearning, vous devez autoriser l’autorisation de stockage ULearning :\n\nStocker les données, les images et les fichiers du cache de l’application</string>
+    <string name="permission_write_storage_fail">Vous avez désactivé l’autorisation de stockage et ne pouvez pas utiliser cette fonction, veuillez vous rendre dans les [Paramètres] de votre téléphone pour autoriser</string>
+    <string name="scan_and_activate_book">Scannez le code QR pour activer le matériel pédagogique</string>
+
+    <string name="live_order_asc">Ordre chronologique positif</string>
+    <string name="live_order_des">Ordre inversé par temps</string>
+    <string name="file_not_supported">Ce type de fichier n’est pas pris en charge</string>
+    <string name="unable_to_identify">Inconnu</string>
+    <string name="code_enter_exam">Utiliser le code de vérification</string>
+    <string name="active_tab_answer_sheet">Réponse</string>
+
+    <string name="crop_saving">Enregistrement de photos...</string>
+    <string name="crop_wait">Veuillez patienter...</string>
+    <string name="crop_pick_error">Image non valide</string>
+
+    <string name="crop_done">Terminé</string>
+    <string name="crop_cancel">Annuler</string>
+    <string name="crop_rotate">Rotation</string>
+
+    <string name="warning_pwd_type">Le nouveau mot de passe doit être une combinaison de lettres et de chiffres</string>
+    <string name="hint_input_new_pwd_rule">Le mot de passe doit comporter de 8 à 16 caractères et inclure des lettres et des chiffres (les mots de passe sont sensibles à la casse)</string>
+    <string name="token_expired_msg">La connexion a dépassé, veuillez vous reconnecter!</string>
+    <string name="manual_login">Veuillez vous déconnecter et vous connecter manuellement</string>
+    <string name="course_app_units">Modules</string>
+    <string name="unable_modify_username">L’école interdit aux élèves de changer de nom, veuillez donc contacter l’administrateur de votre école ou le service client</string>
+    <string name="remind_tea_exit_class">Le fait de quitter un cours ne supprime pas les cours que vous avez créés dans ce cours, ni les ressources et les activités que vous avez publiées. S’il n’y a pas d’autres enseignants dans vos classes, ces classes seront transférées au créateur du cours. Êtes-vous sûr d’abandonner le cours ?</string>
+
+    <string name="resource_num" formatted="false">%d ressources</string>
+    <string name="resource_num_unread" formatted="false">%d non consulté</string>
+    <string name="resource_unread">Pas commencé</string>
+    <string name="resource_read"> Vu </string>
+    <string name="resource_watch">Fini</string>
+    <string name="teaching_activities_notification">Messages d’activités pédagogiques</string>
+    <string name="test_work">Questionnaire</string>
+    <string name="question_bank">Banque de questions</string>
+    <string name="operation_check_all_unfold">Développer</string>
+    <string name="login_org">Numéro de compte institutionnel</string>
+    <string name="login_org_title">Connectez-vous à votre compte d’organisation</string>
+    <string name="login_org_hint">Veuillez entrer le nom de votre organisation</string>
+    <string name="login_org_hint2">Veuillez saisir un nom d’établissement valide</string>
+    <string name="login_name_hint">Veuillez saisir un numéro d’étudiant/un identifiant de travail</string>
+    <string name="permission_bluetooth">Afin de vous assurer que vous pouvez utiliser les fonctions suivantes dans ULearning, vous devez autoriser ULearning à accéder aux appareils à proximité :\n\nDiffusion en direct</string>
+    <string name="permission_nearby_wifi_devices">Afin de vous assurer que vous pouvez utiliser les fonctions suivantes dans ULearning, vous devez autoriser ULearning à accéder aux périphériques Wi-Fi à proximité :\n\nProjection</string>
+    <string name="permission_bluetooth_fail">Vous avez désactivé l’autorisation des appareils à proximité et ne pouvez pas utiliser cette fonctionnalité, veuillez vous rendre dans les [Paramètres] de votre téléphone pour l’autoriser</string>
+    <string name="login_sms_2">SMS</string>
+    <string name="login_wechat_confirm_2">WeChat</string>
 </resources>
