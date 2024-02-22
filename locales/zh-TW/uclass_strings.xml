@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">UClass</string>
+    <string name="app_name_2">人民数字马院</string>
+    <string name="version_update">版本更新</string>
+    <string name="update">更新</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">確定</string>
+    <string name="updateing_dont_close">更新中，請勿關閉頁面</string>
+    <string name="select_area">選擇地區</string>
+    <string name="select_area_msg">優學院為不同的地區提供獨立的服務，請在登錄前選擇您的組織所在的地區。</string>
+    <string name="latin_america">拉丁美洲</string>
+    <string name="asia_pacific">亞太</string>
+    <string name="china_mainland">中國</string>
+    <string name="africa">非洲</string>
+    <string name="sandBox">沙盒</string>
+    <string name="device">com.zzy.ulearning01.DeviceName</string>
+
+
+    <!--    分组研讨-->
+    <string name="nav_broad">屏幕廣播</string>
+    <string name="broading">廣播中</string>
+    <string name="stop_broad">取消廣播</string>
+    <string name="nav_compare">小組對比</string>
+    <string name="stop_compare">取消對比</string>
+    <string name="nav_screen">投屏</string>
+    <string name="stop_screen">取消投屏</string>
+
+    <string name="tea_group">教師屏</string>
+    <string name="stu_group">小組屏</string>
+    <string name="broad">廣播</string>
+    <string name="off_line">離線\n正在連接...</string>
+    <string name="title_group">小組</string>
+    <string name="msg_off_line"> 不在線</string>
+    <string name="msg_no_compare">點擊下方小組查看小組屏畫面</string>
+
+    <string name="title_screen">設置小組</string>
+    <string name="msg_screen">手機接入同一網絡後，將手機畫面投影到該屏幕上</string>
+    <string name="msg_screen_network">當前網絡：</string>
+    <string name="network_type">有線</string>
+    <string name="screen_apple">iOS</string>
+    <string name="screen_android">Android</string>
+    <string name="msg_apple">請打開AirPlay選擇投屏</string>
+    <string name="msg_android">請使用優學院掃碼投屏</string>
+    <string name="msg_pc_screen">電腦請使用HDMI線投屏</string>
+    <string name="title_screen_agent">手機投屏</string>
+    
+    <string name="request_permission_fail">申請權限失敗</string>
+    <string name="request_screen_permission_fail">應用申請錄屏權限失敗</string>
+    <string name="request_float_permission_fail">應用申請懸浮窗權限失敗</string>
+    <string name="max_screen">當前屏幕已滿，不能選擇</string>
+    <string name="click_too_fast">請勿頻繁點擊</string>
+    <string name="no_activation">未激活</string>
+    <string name="perfect_information">點擊完善屏幕設置</string>
+
+    <string name="network_check">請檢查網絡</string>
+    <string name="title">提示</string>
+
+
+    <!--    ABC为占位字符，请放于合适的位置-->
+    <string name="click_connect_again">有小組屏離線，請讓學生打開小組屏UClass。 \n如果小組屏UClass已打開，請ABC連接小組屏。</string>
+    <string name="ABC">點擊此處重新</string>
+
+    <string name="malaysia">馬來西亞</string>
+    <string name="float_msg">UClass需要懸浮框權限，保證多屏廣播時可以在後台運行。請點擊\&quot;確定\&quot;並在彈出的設置界面上開啟懸浮框權限。</string>
+    <string name="ip_msg">多屏互動功能需要使用固定IP，請勿隨意更改或者同時連接有線和WIFI等多個網絡。</string>
+    <string name="current_ip">當前IP:</string>
+    <string name="register_ip">組網IP:</string>
+    <string name="nav_whiteboard">白板</string>
+    <string name="zambia">贊比亞</string>
+
+    <string name="nav_course">課堂</string>
+    <string name="fault_detection">故障檢測</string>
+    <string name="group_num">小組序號</string>
+    <string name="group_num_modify_msg">註：為保障正常教學，請勿隨意更改小組序號，更改小組序號後，請在教師端刷新頁面或者重啟應用。</string>
+    <string name="connect_interrupt_msg">廣播小組屏失敗，請檢查小組屏是否在線後重試。在小組屏UClass界面點擊\&quot;故障檢測\&quot;查看小組屏狀態並按照幫助提示進行操作</string>
+
+
+    <!--    白板相关-->
+    <string name="wb_tool_name_pen">畫筆</string>
+    <string name="wb_tool_name_eraser">橡皮擦</string>
+    <string name="wb_tool_name_select">圈選</string>
+    <string name="wb_tool_name_canvas_mode">縮放</string>
+    <string name="wb_tool_name_previous">上一步</string>
+    <string name="wb_tool_name_next">下一步</string>
+    <string name="wb_tool_name_setting">設置</string>
+    <string name="wb_tool_name_save">保存</string>
+    <string name="wb_tool_name_open">打開</string>
+    <string name="wb_tool_name_thumbnail">縮略圖</string>
+
+    <string name="wb_tool_name_page_manager">頁面管理</string>
+
+    <string name="wb_tool_name_pen_pencil">鉛筆</string>
+    <string name="wb_tool_name_pen_finger">手指</string>
+    <string name="wb_tool_name_pen_brush">毛筆</string>
+    <string name="wb_tool_name_pen_smart">智能書寫</string>
+    <string name="wb_tool_name_pen_passive">筆尾擦除</string>
+    <string name="wb_tool_smart_pen_txt">文字</string>
+    <string name="wb_tool_smart_pen_graphic">圖形</string>
+    <string name="wb_tool_smart_pen_table">表格</string>
+    <string name="wb_tool_name_exit">關閉白板</string>
+    <string name="wb_tool_name_save_course">保存到課堂</string>
+    <string name="wb_tool_name_save_pic">導出圖片</string>
+    <string name="wb_tool_name_cancel">取消</string>
+    <string name="wb_tool_name_done">完成</string>
+    <string name="wb_tool_num">%1$02d / %2$02d</string>
+    <string name="wb_name_eraser">擦除</string>
+    <string name="wb_name_clear_screen">清屏</string>
+    <string name="wb_message_canvas_lock">頁面縮放已鎖定，可以雙人書寫</string>
+    <string name="wb_message_canvas_unlock">頁面縮放已解鎖，可以進行縮放</string>
+    <string name="double_writing">雙人書寫</string>
+    <string name="wb_tool_name_background">白板背景</string>
+    <string name="wb_message_canvas_unlock_at_smart_pen_type">智慧筆模式下不支持雙人書寫，頁面已解鎖</string>
+    <string name="common_task_finish_content">您有未保存的內容</string>
+    <string name="common_task_finish_delete_all">不保存</string>
+    <string name="common_task_finish_cancel">取消</string>
+    <string name="common_task_finish_save">保存</string>
+    <string name="common_delect_page_content">刪除頁面將不可恢復</string>
+    <string name="common_sure">確定</string>
+    <string name="common_delect_page_title">刪除</string>
+    <string name="common_save_failed">保存失敗</string>
+    <string name="common_save_success">已保存</string>
+    <string name="common_load_board_fail_title">加載白板失敗</string>
+    <string name="common_load_board_success">加載成功</string>
+    <string name="common_new_board_failed">新建白板失敗</string>
+    <string name="common_new_page_failed">新建頁失敗</string>
+    <string name="wb_page_max_error">已達最大頁數，無法創建</string>
+
+    <string name="exit_wb_msg">當前編輯的內容還未保存，關閉白板後將會清空已編輯內容，確認關閉白板嗎？</string>
+
+    <string name="title1">提醒</string>
+    <string name="close">關閉</string>
+    <string name="close_whiteboard">關閉白板</string>
+    <string name="back_and_save">返回保存</string>
+    <string name="open_wb_msg">暫時只支持打開本軟件保存路徑下文件。路徑：</string>
+    <string name="save_wb_msg">保存路徑：</string>
+    <string name="open_local_wb">打開本地文件</string>
+    <string name="open_course_wb">打開課堂中的文件</string>
+    <string name="continue_to_use">同意並繼續</string>
+    <string name="give_up_using">放棄使用</string>
+    <string name="title2">說明</string>
+    <string name="open_wb_not_save_msg">當前白板未保存，打開後將覆蓋當前白板</string>
+    <string name="not_save">未保存</string>
+    <string name="continue_do">繼續</string>
+    <string name="input_file_name">請輸入文件名</string>
+    <string name="duplicate_file_name">文件名重復</string>
+    <string name="wb_save_failed">保存失敗，試試更改文件名</string>
+    <string name="del_wb_msg">確定刪除當前頁面？</string>
+    <string name="wb_page_scale_min">頁面已經縮放到最小</string>
+    <string name="wb_page_scale_max">頁面已經縮放到最大</string>
+    <string name="wb_page_scale">畫布比例</string>
+
+    <string name="select_language">選擇語言</string>
+    <string name="language_cn">简体中文</string>
+    <string name="language_en">English</string>
+    <string name="simple_welcome">歡迎使用UClass多屏互動系統</string>
+    <string name="simple_not_activated">當前未激活多屏互動系統</string>
+    <string name="click_contact_us">如未購買該服務請DEF，如已購買請重啟軟件</string>
+    <string name="DEF">聯繫我們</string>
+    <string name="user_msg1">點擊右側按鈕開始使用</string>
+    <string name="user_msg2">輕觸屏幕，點擊屏幕2側的九宮格\n切換至其他應用或windows系統</string>
+    <string name="watch_tea_screen">正在觀看教師屏</string>
+    <string name="title_screen_1">掃碼投屏</string>
+    <string name="message_screen_1">安卓手機用戶請使用優學院APP掃碼</string>
+    <string name="language_ar">عربى</string>
+    <string name="language_es">Español</string>
+    <string name="language_in">Indonesia</string>
+    <string name="language_th">ภาษาไทย</string>
+    <string name="language_zh">繁體中文</string>
+    <string name="language_fr">Français</string>
+    <string name="ethiopia">埃塞俄比亞</string>
+
+
+    <!--    20230410翻译新增-->
+    <string name="app_name_3">UClass多屏互動</string>
+    <string name="watch_stu_screen">正在觀看小組</string>
+    <string name="license_0">已啟動</string>
+    <string name="license_10001">媒體協定埠佔用</string>
+    <string name="license_10002">控制協定埠佔用</string>
+    <string name="license_101">無法獲取Mac位址</string>
+    <string name="license_102">無法獲取硬體資訊</string>
+    <string name="license_103">檢驗Mac地址失敗</string>
+    <string name="license_104">檢查硬體信息失敗</string>
+    <string name="license_105">SDK類型不一致</string>
+    <string name="license_106">授權已過期</string>
+    <string name="license_107">無法解析license</string>
+    <string name="license_108">其他驗證錯誤</string>
+    <string name="license_109">LICENSE資訊為空</string>
+    <string name="license_110">平台類型不匹配</string>
+    <string name="license_111">productId不匹配</string>
+    <string name="license_112">輸入的sdkType參數不合法</string>
+    <string name="license_other">未知錯誤</string>
+    <string name="modify">修改直播</string>
+    <string name="save">儲存</string>
+    <string name="check_ip_tea">請檢查小組屏IP位址和組網資訊是否一致。 路徑：小組屏首頁&gt;設置&gt;高級設置&gt;有線網路。 如不一致，請修改小組屏IP或者修改組網資訊。</string>
+    <string name="check_running_tea">檢查小組屏的UClass是否正在運行</string>
+    <string name="try_restart">嘗試關閉並重新打開教師屏和小組屏的UClass軟體。</string>
+    <string name="check_ip_stu">在教師屏UClass內點擊“故障檢測”，查看組網資訊。 檢查小組屏IP位址和組網資訊是否一致。 如不一致，請修改小組屏IP或者修改組網資訊。</string>
+    <string name="modify_success_restart">修改成功，請關閉並重新打開UClass！</string>
+    <string name="modify_fail_reinput">格式有誤請核對參數</string>
+    <string name="device_info">當前設備資訊</string>
+    <string name="screen">螢幕</string>
+    <string name="mac_addr">MAC位址</string>
+    <string name="network_info">當前網路</string>
+    <string name="network_wifi_warn">當前網路：WIFI，為了保障廣播清晰度和穩定性請使用有線網路。</string>
+    <string name="network_cur_ip">當前IP</string>
+    <string name="license">證書</string>
+    <string name="version">版本</string>
+    <string name="media_port">通信埠</string>
+    <string name="agent_offline">如果小組屏離線：</string>
+    <string name="network_group_info">組網資訊</string>
+    <string name="back">返回</string>
+    <string name="no_group_msg">組網資訊錯誤，請使用備份文件進行修復</string>
+    <string name="update_version" formatted="false">更新版本可用：UClass%s，是否更新？</string>
+    <string name="is_new_version">當前版本是最新版本</string>
+
+    <!--    自动广播需求-->
+    <string name="auto_broadcast_tea_screen">自動廣播教師屏</string>
+    <string name="stu_screen_offline_reminder">如果有小組屏離線，請檢查小組屏UClass用戶端是否打開。</string>
+    <string name="groups_checking">檢測中...</string>
+    <string name="groups_off_line">離線</string>
+    <string name="groups_on_line">在線</string>
+    <string name="auto_staring" tools:ignore="TypographyEllipsis">啟動...</string>
+    <string name="auto_start_success">啟動成功！ 正在廣播教師屏至小組屏。</string>
+    <string name="auto_start_fail">啟動失敗！ 請點擊右側「螢幕廣播」按鈕手動開啟廣播。</string>
+
+    <!--    投屏界面优化需求 -->
+    <string name="classroom_lan">教室局域網</string>
+    <string name="yxy_app_name">優學院</string>
+    <string name="idea_share">投影</string>
+    <string name="msg_android2">僅支援安卓</string>
+    <string name="step1">Step1.</string>
+    <string name="step2">Step2.</string>
+    <string name="step3">Step3.</string>
+    <string name="welink_str">WeLink</string>
+    <string name="idea_share_str">IdeaShare</string>
+    <string name="share_type">IdeaShare</string>
+    <string name="ideashare_remind1">手機或電腦下載IdeaShare</string>
+    <string name="ideashare_remind2">手機或電腦連接到教室局域網</string>
+    <string name="ideashare_remind3">打開IdeaShare，輸入終端右上角投屏碼進行投屏</string>
+    <string name="ideashare_remind4">手機接入教室局域網後進行投屏</string>
+    <string name="ideashare_remind5">打開WeLink，點擊右上角 +號，選擇 「投影」，輸入終端右上角投屏碼進行投屏</string>
+    <string name="wifi">WIFI：</string>
+    <string name="wifi_password">密碼：</string>
+    <string name="wifi_save">儲存</string>
+    <string name="wifi_cancel">取消</string>
+    <string name="wifi_edit">手動修改</string>
+    <string name="wifi_remind">無法獲取教室WIFI資訊，請手動輸入</string>
+    <string name="storage_permission_reminder">請先授予存儲許可權</string>
+    <string name="wifi_unknown">未知</string>
+
+
+    <!--    20230816新增-->
+    <string name="can_not_connection">請開啟投屏頁面後重試</string>
+    <string name="cannot_connect_in_broadcast">廣播中不能連接</string>
+    <string name="screen_exceed_limit">大屏支持的投屏設備達到上限，請等其他人結束投屏再試試。</string>
+    <string name="screen_text_other">其他</string>
+    <string name="msg_apple2">打開AirPlay（屏幕鏡像）進行投屏</string>
+    <string name="msg_android3">在手機應用市場搜索並安裝優學院2.0APP，使用優學院APP掃碼投屏</string>
+    <string name="msg_other">在手機應用市場或電腦瀏覽器搜索並安裝IdeaShare，打開IdeaShare，輸入屏幕右上角投屏碼進行投屏</string>
+    <string name="screen_text_wifi_info">接入教室WIFI進行投屏。教室WIFI: %s \u00A0\u00A0\u00A0 密碼: %s</string>
+    <string name="screen_text_help">幫助</string>
+    <string name="yxy_app_name2">優學院2.0APP</string>
+    <string name="screen_text_help_info">請詢問管理人員獲取教室WIFI和密碼，點擊編輯按鈕可以填寫WIFI名稱和密碼，方便下次連接WIFI。</string>
+    <string name="wb_tool_name_classroom_blackboard">課堂板書</string>
+    <string name="wb_tool_name_share_board">分享板書</string>
+    <string name="wb_tool_name_save_local">保存到本地</string>
+    <string name="wb_tool_name_helptext">大屏爲公共設備，板書內容保存到本地存在潛在風險，建議使用“分享板書”將板書內容保存到您個人賬號下的課堂空間，保存後您可以在其它教室再次打開板書繼續編輯，或將板書以圖片格式分享給本堂課的學生。</string>
+    <string name="wb_tool_name_filename">名稱</string>
+    <string name="wb_tool_name_save_local_btn">保存到本地</string>
+    <string name="wifi_title_text">請輸入教室WIFI和密碼</string>
+    <string name="wb_tool_name_not_file">沒有保存的白板文件</string>
+    <string name="storage_permission_request_hint">UClass需要存儲權限。爲了方便快速定位軟件運行中發生的問題，UClass需要記錄軟件的運行日誌並存儲在本地。請點擊\“確定\”並在彈出的設置界面開啓存儲權限。</string>
+
+    <string name="record_occupation_hint">其他應用正在使用錄製螢幕功能，因此\n本應用停止錄屏</string>
+
+</resources>

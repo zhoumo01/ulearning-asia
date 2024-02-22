@@ -896,15 +896,15 @@
     "description": "smart-classroom 项目"
   },
   "score.clickToAddStu": {
-    "message": "انقر الزر الموجود على اليمين لإضافة الطلاب",
+    "message": "انقر فوق الزر الموجود على اليسار لإضافة الطلاب",
     "description": "smart-classroom 项目"
   },
   "score.clickToAddGroup": {
-    "message": "انقر الزر الموجود على اليمين لإضافة مجموعة",
+    "message": "انقر على الزر الموجود على اليسار لإضافة مجموعة",
     "description": "smart-classroom 项目"
   },
   "score.clickToAddObj": {
-    "message": "انقر الزر الموجود على اليمين لإضافة الطلاب/المجموعات لمراجعتها",
+    "message": "انقر فوق الزر الموجود على اليسار لإضافة مراجعة",
     "description": "smart-classroom 项目"
   },
   "score.endScore": {
@@ -1764,7 +1764,7 @@
     "description": "smart-classroom 项目"
   },
   "screen.leadTip3": {
-    "message": "3. عند الانتهاء من إعدادك، انقر فوق الزر \"Class\" على اليمين لبدء الفصل الدراسي.",
+    "message": "3. عند الانتهاء من الاستعدادات ، انقر فوق الزر \"فئة\" على اليسار لبدء الفصل.",
     "description": "smart-classroom 项目"
   },
   "vote.start": {
@@ -2584,7 +2584,7 @@
     "description": "smart-classroom 项目"
   },
   "photoUpload.msg1": {
-    "message": "يتم عرض الميزات المستخدمة بشكل متكرر في شريط القائمة الصحيح ، ويمكنك تحديد ما يصل إلى 6.",
+    "message": "سيتم عرض الوظائف المستخدمة بشكل متكرر في شريط القائمة الأيسر ، حدد ما يصل إلى 6",
     "description": "smart-classroom 项目"
   },
   "photoUpload.msg2": {
@@ -3432,7 +3432,7 @@
     "description": "smart-classroom 项目"
   },
   "welinkLive.msg": {
-    "message": "تعرض قائمة الحصص البث المباشر الذي قمت بإنشائه أو حجزه في مقررك الدراسي، ويمكنك اختيار الدخول إلى البث المباشر لتدريس الحصة. إذا كنت بحاجة إلى إنشاء بث مباشر ، فقم أولا بإنشاء فصل دراسي وانقر فوق الزر \"مباشر\" على اليمين لبدء البث المباشر.",
+    "message": "تعرض قائمة الحصص عمليات البث المباشر التي قمت بإنشائها أو حجزها في مقررك الدراسي، ويمكنك تحديدها للدخول إلى البث المباشر للتدريس. إذا كنت بحاجة إلى إنشاء بث مباشر ، فيرجى إنشاء فصل أولا والنقر فوق الزر \"مباشر\" على اليسار لبدء البث المباشر.",
     "description": "smart-classroom 项目"
   },
   "welinkLive.msg1": {
@@ -3608,7 +3608,7 @@
     "description": "smart-classroom 项目"
   },
   "student.clickToClassroom": {
-    "message": "يرجى النقر على قائمة الجلسة على اليمين لدخول الجلسة",
+    "message": "يرجى النقر على قائمة الفصول الدراسية على اليسار للدخول إلى الفصل الدراسي",
     "description": "smart-classroom 项目"
   },
   "screen.classResource": {
@@ -3857,6 +3857,82 @@
   },
   "screen.document": {
     "message": "وثائق",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.msg": {
+    "message": "ملاحظة: إذا كانت الدورة التدريبية تدار بشكل مشترك من قبل مجموعة التدريس والبحث، فأنت تحتاج فقط إلى قائد المقرر الدراسي لإنشاء المقرر الدراسي، ثم إضافة معلمين آخرين إلى فريق تدريس المقرر الدراسي، ولا يحتاج كل معلم إلى إنشائه بشكل منفصل.",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.noClass": {
+    "message": "ليس لديك دورة تدريبية قيد التقدم حتى الآن ، قم بإنشاء دورة تدريبية أولا.",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.noJoin": {
+    "message": "لم تنضم إلى الدورة بعد، يرجى الاتصال بمعلمك.",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.interceptCover": {
+    "message": "لقطة شاشة للغلاف",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.courseTitle": {
+    "message": "اسم الدورة",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.courseCover": {
+    "message": "غطاء الدورة الدراسية",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.localUpload": {
+    "message": "رفع محلي",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.upload": {
+    "message": "رفع",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.continueCreate": {
+    "message": "متابعة الإنشاء",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.resume": {
+    "message": "إستمرار",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.confirmMsg": {
+    "message": "توجد بالفعل دورة بنفس الاسم (تم إنشاؤها بواسطة {msg} teacher) في مدرستنا ، يوصى بالاتصال بالمعلم للتواصل والتأكيد أولا ، وذلك لتجنب الإزعاج الناجم عن الدورات المتكررة.\nهل تريد الاستمرار في الإنشاء؟",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.imgErr": {
+    "message": "يجب أن يكون نوع الصورة واحدا من .gif و jpeg و jpg و png و bmp",
+    "description": "smart-classroom 项目"
+  },
+  "photoUpload.coursewareScreenshots": {
+    "message": "لقطة شاشة للبرامج الدراسية",
+    "description": "smart-classroom 项目"
+  },
+  "whiteboard.blackboard": {
+    "message": "كتاب مجلس الفصل الدراسي",
+    "description": "smart-classroom 项目"
+  },
+  "wx.msg1": {
+    "message": "يقوم الطلاب بمسح الرمز ضوئيا للدخول إلى الفصل الدراسي على التطبيق",
+    "description": "smart-classroom 项目"
+  },
+  "screen.others": {
+    "message": "أخرى",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.msg3I18n": {
+    "message": "المسح الضوئي باستخدام تطبيق ULearning",
+    "description": "smart-classroom 项目"
+  },
+  "wxwb.msg6I18n": {
+    "message": "المسح الضوئي لتسجيل الدخول باستخدام تطبيق ULearning",
+    "description": "smart-classroom 项目"
+  },
+  "createClass.courseMsgErr": {
+    "message": "يجب أن تكون عناوين الدورات في حدود 2-100 كلمة",
     "description": "smart-classroom 项目"
   }
 }

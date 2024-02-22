@@ -2587,6 +2587,10 @@
     "message": "Le nom de l’examen doit être compris entre 2 et 100 caractères",
     "description": "2.0 exam.js"
   },
+  "pleaseSelectExamTime": {
+    "message": "La durée du test doit être supérieure ou égale à 0",
+    "description": "2.0 exam.js"
+  },
   "setExamTips16": {
     "message": "Gardez au moins un examen activé",
     "description": "2.0 exam.js"
@@ -3423,6 +3427,30 @@
     "message": "La durée de prolongation devrait être comprise entre 1 et 100.",
     "description": "2.0 exam.js"
   },
+  "roomTips16": {
+    "message": "La session en cours est terminée",
+    "description": "2.0 exam.js"
+  },
+  "exportAnalysisExcelreport": {
+    "message": "Exporter le rapport d’analyse",
+    "description": "2.0 exam.js"
+  },
+  "derivedExaminationAnalysisExcel": {
+    "message": "Exporter Excel",
+    "description": "2.0 exam.js"
+  },
+  "waitExeclDownload": {
+    "message": "Veuillez patienter, exporter...",
+    "description": "2.0 exam.js"
+  },
+  "donwloadFalse": {
+    "message": "Échec de l’export",
+    "description": "2.0 exam.js"
+  },
+  "excelMsg": {
+    "message": "Cette fonctionnalité vous permet d’exporter les données principales du rapport d’analyse vers le tableau Excel. Veuillez sélectionner la plage de classes qui doit être comptée en premier.",
+    "description": "2.0 exam.js"
+  },
   "derivedExaminationAnalysis": {
     "message": "Exporté le rapport d’analyse",
     "description": "2.0 exam.js"
@@ -3437,6 +3465,538 @@
   },
   "randomItem": {
     "message": "Mélanger les réponses",
+    "description": "2.0 exam.js"
+  },
+  "randomItemTip": {
+    "message": "Comprend des questions à choix unique et à choix multiple",
+    "description": "2.0 exam.js"
+  },
+  "waterMark": {
+    "message": "Activer le filigrane de réponse",
+    "description": "2.0 exam.js"
+  },
+  "waterMarkTip": {
+    "message": "Il peut être utilisé pour empêcher les captures d’écran de fuiter",
+    "description": "2.0 exam.js"
+  },
+  "maxTextInputTips1": {
+    "message": "Entrez un maximum de {n} caractères",
+    "description": "2.0 exam.js"
+  },
+  "sequentialAnswer": {
+    "message": "Il est interdit de sauter des questions",
+    "description": "2.0 exam.js"
+  },
+  "sequentialAnswerTip": {
+    "message": "Après l’ouverture, une seule question sera affichée sur chaque page lorsque les candidats répondront aux questions, et elles ne pourront être répondues que dans l’ordre",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip6": {
+    "message": "Veuillez sélectionner la gamme de types de questions qui doivent être remarquées :",
+    "description": "2.0 exam.js"
+  },
+  "radio1": {
+    "message": "Questions objectives uniquement",
+    "description": "2.0 exam.js"
+  },
+  "radio2": {
+    "message": "Tous les types de questions qui prennent en charge la notation du système (y compris les questions objectives, les questions à compléter, les questions de calcul de formule et les questions de lecture orale)",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip7": {
+    "message": "Remarque : La renotation n’affectera pas les notes des questions notées manuellement telles que les questions à réponse courte. Si le type de question qui prend en charge la notation du système, comme les questions à remplir en blanc, a été examiné manuellement, la nouvelle notation du système écrasera l’enregistrement de révision manuelle, veuillez faire preuve de prudence.",
+    "description": "2.0 exam.js"
+  },
+  "gradingAgain": {
+    "message": "Commencer à marquer",
+    "description": "2.0 exam.js"
+  },
+  "radio1Msg": {
+    "message": "Questions objectives uniquement (y compris les questions à choix unique, à choix multiples, le jugement, le tri, les choix déroulants, les questions à compléter, les questions à clos, les questions à compléter)",
+    "description": "2.0 exam.js"
+  },
+  "radio2Msg": {
+    "message": "Tous les types de questions qui prennent en charge le remarquage (y compris les types de questions objectives mentionnés ci-dessus, ainsi que les questions à trous et les questions orales à voix haute)",
+    "description": "2.0 exam.js"
+  },
+  "ownSpieltag": {
+    "message": "Il suffit de regarder le nombre de classes dans lesquelles se trouve ma classe",
+    "description": "2.0 exam.js"
+  },
+  "ownSpieltagMsg": {
+    "message": "Seul le créateur de l’examen peut le faire",
+    "description": "2.0 exam.js"
+  },
+  "teacherexamListNone": {
+    "message": "Il n’y a pas d’heure prévue pour l’examen",
+    "description": "2.0 exam.js"
+  },
+  "PCExeOrAppTips": {
+    "message": "Veuillez utiliser l’application ULearning APP/Exam pour passer l’examen",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips12": {
+    "message": "Le système constituera automatiquement la soumission",
+    "description": "2.0 exam.js"
+  },
+  "remarkTip5": {
+    "message": "Si vous modifiez les réponses aux questions ou aux points d’une épreuve après le début de l’examen, vous pouvez utiliser cette fonction pour corriger automatiquement la copie notée.",
+    "description": "2.0 exam.js"
+  },
+  "textCount": {
+    "message": "{n} mot",
+    "description": "2.0 exam.js"
+  },
+  "newOpenMonitorTips": {
+    "message": "Les candidats doivent allumer l’appareil photo et garder l’image stable à tout moment, et il n’est pas recommandé de l’utiliser pour les tests mobiles",
+    "description": "2.0 exam.js"
+  },
+  "choiceExamTypeTips": {
+    "message": "Veuillez sélectionner au moins une méthode d’essai",
+    "description": "2.0 exam.js"
+  },
+  "descriptionCl1": {
+    "message": "Le test prend en charge une variété de méthodes de participation, et les exigences en matière d’équipement et les différences dans les niveaux de triche sont les suivantes.",
+    "description": "2.0 exam.js"
+  },
+  "systemRequire": {
+    "message": "Configuration système requise",
+    "description": "2.0 exam.js"
+  },
+  "equipmentRequire": {
+    "message": "Exigences en matière d’équipement :",
+    "description": "2.0 exam.js"
+  },
+  "antiCheatingLevel": {
+    "message": "Indice anti-triche",
+    "description": "2.0 exam.js"
+  },
+  "systemRequireDesc1": {
+    "message": "- Windows 7 et versions ultérieures{br} - macOS 14 et versions ultérieures",
+    "description": "2.0 exam.js"
+  },
+  "systemRequireDesc2": {
+    "message": "- Navigateur : Google Chrome/Edge/Safari",
+    "description": "2.0 exam.js"
+  },
+  "systemRequireDesc3": {
+    "message": "- iOS 9.0 et versions ultérieures {br} - Android 6.0 et versions ultérieures",
+    "description": "2.0 exam.js"
+  },
+  "equipmentRequireDesc": {
+    "message": "- Des écouteurs intégrés/externes sont requis si les questions du test incluent de l’audio et de la vidéo. {br}- Des microphones intégrés/externes sont nécessaires si les questions d’examen contiennent des questions audio. {br1}- Si la reconnaissance faciale/la surveillance par caméra est activée pour l’examen, elle doit être équipée d’une caméra intégrée/externe.",
+    "description": "2.0 exam.js"
+  },
+  "antiCheatingLevelDesc1": {
+    "message": "Relativement lâche. {br} prend en charge toutes les méthodes de surveillance de base, mais il ne peut pas empêcher complètement les candidats de partir au milieu du processus.",
+    "description": "2.0 exam.js"
+  },
+  "antiCheatingLevelDesc2": {
+    "message": "Strictes. En plus de toutes les méthodes de surveillance de base, l’application dispose également de mesures anti-triche intégrées telles que l’interdiction de l’écran partagé et de l’enregistrement d’écran, et la détection du changement d’écran est également plus stricte.",
+    "description": "2.0 exam.js"
+  },
+  "antiCheatingLevelDesc3": {
+    "message": "Le plus strict. Les candidats doivent installer un client d’examen indépendant et, après avoir participé à l’examen, ils ne peuvent pas quitter l’interface de l’examen au milieu du test et ne peuvent quitter qu’après avoir soumis le document.",
+    "description": "2.0 exam.js"
+  },
+  "PCExe2": {
+    "message": "Client de l’écran de verrouillage",
+    "description": "2.0 exam.js"
+  },
+  "questionLevel": {
+    "message": "Difficulté:",
+    "description": "2.0 exam.js"
+  },
+  "subQuestionLevel": {
+    "message": "Difficulté de chaque question :",
+    "description": "2.0 exam.js"
+  },
+  "difficultyLevelArray1[0]": {
+    "message": "Facile",
+    "description": "2.0 exam.js"
+  },
+  "difficultyLevelArray1[1]": {
+    "message": "Facile",
+    "description": "2.0 exam.js"
+  },
+  "difficultyLevelArray1[2]": {
+    "message": "Moyenne",
+    "description": "2.0 exam.js"
+  },
+  "difficultyLevelArray1[3]": {
+    "message": "Plus dur",
+    "description": "2.0 exam.js"
+  },
+  "difficultyLevelArray1[4]": {
+    "message": "Dur",
+    "description": "2.0 exam.js"
+  },
+  "selectLevelip": {
+    "message": "Choisissez au moins une difficulté",
+    "description": "2.0 exam.js"
+  },
+  "localRecordTime1": {
+    "message": "L’heure à laquelle le registre local a été conservé",
+    "description": "2.0 exam.js"
+  },
+  "PCexeType": {
+    "message": "Navigateur de verrouillage ULearning",
+    "description": "2.0 exam.js"
+  },
+  "appType": {
+    "message": "ULearning APP",
+    "description": "2.0 exam.js"
+  },
+  "PCType": {
+    "message": "Portail Web ULearning",
+    "description": "2.0 exam.js"
+  },
+  "appOrPCType": {
+    "message": "ULearning APP / Portail Web",
+    "description": "2.0 exam.js"
+  },
+  "appOrPCexeType": {
+    "message": "ULearning APP / Navigateur de verrouillage",
+    "description": "2.0 exam.js"
+  },
+  "examTypeTips": {
+    "message": "Veuillez utiliser {type} pour passer le test",
+    "description": "2.0 exam.js"
+  },
+  "examSignIn": {
+    "message": "Enregistrement à l’examen",
+    "description": "2.0 exam.js"
+  },
+  "enableSignIn": {
+    "message": "Activer le code de connexion à l’examen",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInTip": {
+    "message": "Il ne s’applique qu’au test mobile, et lorsque cet élément est activé, les candidats ne peuvent accéder à l’examen qu’après avoir scanné le code QR et s’être connectés",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInIntro": {
+    "message": "L’inscription à l’examen s’applique aux examens qui se déroulent dans des salles de classe ou dans d’autres lieux désignés. {br} Lorsque la connexion à l’examen est activée, les candidats ne peuvent accéder à l’examen qu’après s’être connectés en scannant le code de connexion. {br1} Avant le début de l’examen, les enseignants peuvent afficher et présenter le code de connexion via l’application ULearning.",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInNote": {
+    "message": "Note:",
+    "description": "2.0 exam.js"
+  },
+  "enableSignInDesc": {
+    "message": "1. L’heure de début de l’enregistrement est basée sur l’heure à laquelle l’enseignant présente le code d’inscription et n’est pas limitée par l’heure de début du test. {br} 2. Si vous avez commencé le test d’enregistrement, il est recommandé de réserver le temps nécessaire à l’enregistrement sur place lors de l’organisation de la session de test afin d’éviter toute confusion. {br1} 3. S’il y a plusieurs tentatives pour répondre aux questions de l’examen, vous n’avez besoin de vous connecter qu’une seule fois. {br2} 4. Après l’enregistrement, les candidats ne peuvent utiliser l’appareil d’enregistrement que pour entrer dans le test et répondre aux questions. Si vous devez changer d’appareil dans des circonstances particulières, vous pouvez demander un code de vérification au surveillant.",
+    "description": "2.0 exam.js"
+  },
+  "signInCode": {
+    "message": "Code d’inscription à l’examen",
+    "description": "2.0 exam.js"
+  },
+  "facePhotoVerify": {
+    "message": "Examen des photos du visage",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTitle": {
+    "message": "Console de surveillance mobile",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeIntro": {
+    "message": "Le code d’inscription à l’examen est un code QR dynamique, veuillez utiliser l’application [U-Academy 2.0] pour accéder à la vue de l’examen, ou utilisez votre téléphone portable pour scanner le code QR ci-dessous pour entrer dans la station de surveillance mobile à visualiser.",
+    "description": "2.0 exam.js"
+  },
+  "mobileMonitorCodeTip": {
+    "message": "Conseils : Les professeurs qui ne font pas partie de l’équipe de cours peuvent également scanner ce code QR pour accéder à l’écran mobile. Lorsque vous utilisez le navigateur mobile pour y accéder, vous devez saisir le code de vérification de rechange.",
+    "description": "2.0 exam.js"
+  },
+  "refresh": {
+    "message": "Actualiser",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeDesc": {
+    "message": "Les candidats peuvent utiliser ce code de vérification pour participer à l’examen dans des circonstances particulières, notamment : {br}- Si la surveillance de l’appareil/de l’adresse IP est activée pour le test, le candidat doit changer d’appareil ou d’adresse IP au milieu du test. {br1}- Examens avec la reconnaissance faciale activée, les candidats ne peuvent pas réussir la vérification faciale",
+    "description": "2.0 exam.js"
+  },
+  "standbyVerificationCodeTip": {
+    "message": "Le code de vérification est valide en {minute}, veuillez le rafraîchir pour l’obtenir à nouveau après son expiration.",
+    "description": "2.0 exam.js"
+  },
+  "signedIn": {
+    "message": "Connecté",
+    "description": "2.0 exam.js"
+  },
+  "notSignIn": {
+    "message": "Non connecté",
+    "description": "2.0 exam.js"
+  },
+  "answerTimes1": {
+    "message": "Tentative {n}  ",
+    "description": "2.0 exam.js"
+  },
+  "answerDuration1": {
+    "message": "Temps d’examen utilisé : {count} ",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcel": {
+    "message": "Exporter l’enregistrement de connexion",
+    "description": "2.0 exam.js"
+  },
+  "exportSignInExcelDesc": {
+    "message": "Grâce à cette fonctionnalité, vous pouvez exporter les enregistrements d’enregistrement pour les sessions et les cours actuellement sélectionnés.",
+    "description": "2.0 exam.js"
+  },
+  "exportInfo": {
+    "message": "Informations sur l’exportation :",
+    "description": "2.0 exam.js"
+  },
+  "courseClass": {
+    "message": "Section du cours",
+    "description": "2.0 exam.js"
+  },
+  "college": {
+    "message": "Collège",
+    "description": "2.0 exam.js"
+  },
+  "naturalClass": {
+    "message": "Classe Affaires/Classe Nature",
+    "description": "2.0 exam.js"
+  },
+  "exportType": {
+    "message": "Exportation",
+    "description": "2.0 exam.js"
+  },
+  "exportType1": {
+    "message": "Exporter un fichier Excel avec toutes les classes dans une seule feuille de calcul",
+    "description": "2.0 exam.js"
+  },
+  "exportType2": {
+    "message": "Exporter un fichier Excel avec une feuille de calcul par classe",
+    "description": "2.0 exam.js"
+  },
+  "exportType3": {
+    "message": "Exporter un fichier Excel par classe",
+    "description": "2.0 exam.js"
+  },
+  "startExport": {
+    "message": "Commencer à exporter",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmit": {
+    "message": "Bobinage précoce",
+    "description": "2.0 exam.js"
+  },
+  "answerNums": {
+    "message": "Nombre de personnes ayant répondu : {num}",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip1": {
+    "message": "Avec cette fonctionnalité, la session en cours se terminera plus tôt et tous les étudiants qui répondent à la question seront obligés de récupérer les documents. Il peut y avoir un délai d’environ 10 secondes ~ 1 minute pour l’enroulement. Cette action est irréversible et doit être utilisée avec prudence.",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip3": {
+    "message": "Êtes-vous sûr de l’enroulement précoce ?",
+    "description": "2.0 exam.js"
+  },
+  "forceSubmitTip4": {
+    "message": "Le candidat répond à la question et, à l’aide de cette fonction, le papier du candidat sera recyclé de force. Il peut y avoir un délai d’environ 10 secondes ~ 1 minute pour l’enroulement. Cette action est irréversible et doit être utilisée avec prudence.",
+    "description": "2.0 exam.js"
+  },
+  "answerUsedTime": {
+    "message": "Le temps passé à répondre à la question est révolu",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips11": {
+    "message": "Les enseignants récupèrent les devoirs à l’avance",
+    "description": "2.0 exam.js"
+  },
+  "submitSuccess": {
+    "message": "La demande a été envoyée avec succès",
+    "description": "2.0 exam.js"
+  },
+  "submitFail": {
+    "message": "Échec du remontage précoce",
+    "description": "2.0 exam.js"
+  },
+  "student": {
+    "message": "Candidat:",
+    "description": "2.0 exam.js"
+  },
+  "submitStatus": {
+    "message": "Rembobinage",
+    "description": "2.0 exam.js"
+  },
+  "remarkSetting": {
+    "message": "Paramètres de notation",
+    "description": "2.0 exam.js"
+  },
+  "remarkSettingDesc": {
+    "message": "Des demi-points sont attribués pour la bonne partie à choix multiples",
+    "description": "2.0 exam.js"
+  },
+  "remarkSettingTip": {
+    "message": "Aucun point ne sera attribué pour le mauvais choix",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitor": {
+    "message": "Activer la surveillance des captures d’écran",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitorDesc": {
+    "message": "Il ne s’applique qu’au test du téléphone portable, et lorsqu’une capture d’écran est détectée, un avertissement sera donné pour la première fois et une soumission obligatoire de l’article sera imposée pour la deuxième fois",
+    "description": "2.0 exam.js"
+  },
+  "screenshotMonitorTip": {
+    "message": "En raison des caractéristiques du système de téléphonie mobile, cette fonction n’est valable que pour les téléphones mobiles Apple, et les téléphones Android ont directement interdit les captures d’écran pendant l’examen",
+    "description": "2.0 exam.js"
+  },
+  "screenshot": {
+    "message": "Capture d'écran",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips13": {
+    "message": "Captures d’écran des violations, soumission forcée par le système",
+    "description": "2.0 exam.js"
+  },
+  "studentExamRoom": {
+    "message": "Salle d’examen : {n}",
+    "description": "2.0 exam.js"
+  },
+  "questionTrain": {
+    "message": "Formation à la banque de questions",
+    "description": "2.0 exam.js"
+  },
+  "questionBankManage": {
+    "message": ">> de gestion de la banque de questions",
+    "description": "2.0 exam.js"
+  },
+  "openQuestion": {
+    "message": "Commencer la formation de la banque de questions",
+    "description": "2.0 exam.js"
+  },
+  "closeQuestion": {
+    "message": "Fermer la formation de la banque de questions",
+    "description": "2.0 exam.js"
+  },
+  "openQuestionMsg1": {
+    "message": "Cette fonctionnalité doit être activée/désactivée par l’administrateur du cours.",
+    "description": "2.0 exam.js"
+  },
+  "openQuestionMsg2": {
+    "message": "Après l’ouverture, les étudiants peuvent entrer dans la banque de questions pour pratiquer le Xi, êtes-vous sûr de l’activer ?",
+    "description": "2.0 exam.js"
+  },
+  "closeQuestionMsg": {
+    "message": "Après la fermeture, les étudiants ne peuvent pas entrer dans la banque de questions pour pratiquer le Xi, êtes-vous sûr qu’elle est fermée ?",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg1": {
+    "message": "À l’aide de la fonction [Formation à la banque de questions], vous pouvez ouvrir la banque de questions désignée pour que les étudiants puissent rafraîchir leurs questions avant l’examen et pratiquer le xi. Cette fonctionnalité doit être activée par l’administrateur du cours. Avant l’examen officiel, il est recommandé de fermer le portail de formation de la banque de questions.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg2": {
+    "message": "Module de formation de la banque de questions :",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg3": {
+    "message": "1. Tous les étudiants du cours peuvent entrer dans la banque de questions pour pratiquer le Xi et ne prennent en charge que l’accès à l’ordinateur pour le moment.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg4": {
+    "message": "2. La banque de questions de formation ne prend en charge que l’importation de questions objectives et de questions à compléter.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg5": {
+    "message": "3. Une fois chaque question soumise, vous pouvez afficher la bonne réponse et l’analyse, et il n’y a pas de limite au nombre de réponses.",
+    "description": "2.0 exam.js"
+  },
+  "helpMsg6": {
+    "message": "Note spéciale : La formation à la banque de questions est actuellement une fonction expérimentale, et les entrées et fonctions subséquentes peuvent changer.",
+    "description": "2.0 exam.js"
+  },
+  "getInToqueBank": {
+    "message": "Accéder à la banque de questions >>",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesNew": {
+    "message": "Nombre de soumissions",
+    "description": "2.0 exam.js"
+  },
+  "answeredTimesNew": {
+    "message": "Nombre de soumissions/dénombrements autorisés",
+    "description": "2.0 exam.js"
+  },
+  "studentBatch": {
+    "message": "Session : {startTime} - {endTime}",
+    "description": "2.0 exam.js"
+  },
+  "studentSeatNumber": {
+    "message": "Nombre de places assises : {n}",
+    "description": "2.0 exam.js"
+  },
+  "studentExamStudentOf": {
+    "message": "Candidat(e) : {n}",
+    "description": "2.0 exam.js"
+  },
+  "studentRemainSeat": {
+    "message": "Disponible : {n}",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboard": {
+    "message": "Activer le clavier sécurisé",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboardTip": {
+    "message": "Uniquement pour les téléphones mobiles, prend en charge le chinois et l’anglais, les chiffres et la ponctuation commune",
+    "description": "2.0 exam.js"
+  },
+  "openSafeKeyboardTip1": {
+    "message": "Le clavier de sécurité peut être utilisé pour empêcher la tricherie à l’aide des fonctions spéciales de la méthode de saisie du téléphone portable, mais l’expérience de saisie n’est pas aussi fluide que le clavier intégré du téléphone, et il n’est pas recommandé de l’activer s’il y a des questions dans le papier de test qui nécessitent une grande quantité de texte.",
+    "description": "2.0 exam.js"
+  },
+  "gradeTips14": {
+    "message": "À la fin du temps imparti, le système soumet automatiquement les documents",
+    "description": "2.0 exam.js"
+  },
+  "answerTimesOfNew": {
+    "message": "Nombre de commits : {count}",
+    "description": "2.0 exam.js"
+  },
+  "attachmentHelpDesc": {
+    "message": "Les pièces jointes prennent en charge les formats courants tels que les images, les documents, les vidéos et les audios. {lien} {br} Téléchargez un maximum de 10 pièces jointes par question. {br1} Upload côté ordinateur, un seul fichier ne doit pas dépasser 500M ; Téléchargez sur les téléphones mobiles, et un seul fichier ne doit pas dépasser 200M. {br2} La réponse côté ordinateur peut être sélectionnée localement ou scanner le code QR avec le téléphone portable pour prendre une photo et la télécharger.",
+    "description": "2.0 exam.js"
+  },
+  "attachmentHelpLink": {
+    "message": "Cliquez sur Afficher les formats de fichiers autorisés à télécharger",
+    "description": "2.0 exam.js"
+  },
+  "deleteExam": {
+    "message": "Supprimer l’examen",
+    "description": "2.0 exam.js"
+  },
+  "exportLayout": {
+    "message": "Formule lead-to-book",
+    "description": "2.0 exam.js"
+  },
+  "standardType": {
+    "message": "Édition Standard",
+    "description": "2.0 exam.js"
+  },
+  "compactType": {
+    "message": "Version compacte (permet d’économiser du papier d’impression)",
+    "description": "2.0 exam.js"
+  },
+  "attachments": {
+    "message": "Exporter des pièces jointes",
+    "description": "2.0 exam.js"
+  },
+  "yes": {
+    "message": "être",
+    "description": "2.0 exam.js"
+  },
+  "no": {
+    "message": "non",
+    "description": "2.0 exam.js"
+  },
+  "moreOperation": {
+    "message": "Actions",
     "description": "2.0 exam.js"
   }
 }
