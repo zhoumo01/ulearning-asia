@@ -864,7 +864,7 @@
     "description": "smart-classroom-admin 项目"
   },
   "recordedClass.recordingNew": {
-    "message": "共有{num}个录播教室",
+    "message": "学校共有{num}个录播教室",
     "description": "smart-classroom-admin 项目"
   },
   "recordedClass.cameraDetection": {
@@ -4072,7 +4072,7 @@
     "description": "smart-classroom-admin 项目"
   },
   "recordedClass.pleaseEnterTeacher": {
-    "message": "请输入教师",
+    "message": "请输入教师名称",
     "description": "smart-classroom-admin 项目"
   },
   "recordedClass.reservationSuccessful": {
@@ -4176,7 +4176,7 @@
     "description": "smart-classroom-admin 项目"
   },
   "videoPlayer.teacherBehaviorDistribution": {
-    "message": "教师行为分布",
+    "message": "教学行为分析",
     "description": "smart-classroom-admin 项目"
   },
   "videoPlayer.teacherBehaviorCue": {
@@ -4196,7 +4196,7 @@
     "description": "smart-classroom-admin 项目"
   },
   "videoPlayer.teacherBehavior": {
-    "message": "教师行为",
+    "message": "教学行为",
     "description": "smart-classroom-admin 项目"
   },
   "videoPlayer.stuBehavior": {
@@ -5169,6 +5169,482 @@
   },
   "resourcePortal.departmentalCurriculum": {
     "message": "插卡院系的课程",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.intelligentAnalysis": {
+    "message": "视频智能分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.classAnalysisStatistics": {
+    "message": "课堂分析统计",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.classroomDetail": {
+    "message": "课堂详情",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.courseEvaluationReport": {
+    "message": "课程评价报告",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.classroomQualityReport": {
+    "message": "课堂质量分析报告",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.vocationalEducation": {
+    "message": "职业教育",
+    "description": "smart-classroom-admin 项目"
+  },
+  "route.courseIdeologyAndPolitics": {
+    "message": "课程思政",
+    "description": "smart-classroom-admin 项目"
+  },
+  "login.login": {
+    "message": "登录中...",
+    "description": "smart-classroom-admin 项目"
+  },
+  "login.tip1": {
+    "message": "请输入账号",
+    "description": "smart-classroom-admin 项目"
+  },
+  "login.tip2": {
+    "message": "请输入密码",
+    "description": "smart-classroom-admin 项目"
+  },
+  "login.tip3": {
+    "message": "请使用管理员/督导员账号登录",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.shareByPhone": {
+    "message": "分享/手机查看",
+    "description": "smart-classroom-admin 项目"
+  },
+  "common.shareByPhoneTip": {
+    "message": "扫描二维码在手机上观看或分享",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.arriveAndShouldArrive": {
+    "message": "实到/应到人数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.lateAbsentLeaveEarly": {
+    "message": "迟到/缺勤/早退",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.AIIntelligentAnalysis": {
+    "message": "AI智能分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.learningSituationAnalysis": {
+    "message": "学情分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.classAttendance": {
+    "message": "课堂出勤",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.attitudeAnnotation": {
+    "message": "姿态标注",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.startLabeling": {
+    "message": "开始标注",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.tip1": {
+    "message": "在视频中将师生的行为标注出来。此功能为附加功能，不会课堂行为分析造成影响。在视频中标注姿态非常占用算力，系统不会自动对视频进行标注，如果有需要请管理员在任务管理中手动选择视频开始标注。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.tip2": {
+    "message": "在视频中将师生的行为标注出来",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.tip3": {
+    "message": "正在标注视频，大约持续1-2个小时",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.tip4": {
+    "message": "视频分析依赖字幕，如果没有字幕，先生成字幕再进行后续的分析。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.coursewareIndex": {
+    "message": "课件索引",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.coursewareSummary": {
+    "message": "课件摘要",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.courseReport": {
+    "message": "课程报告",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.numberOfClasses": {
+    "message": "课堂数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.averageAttentionRate": {
+    "message": "平均抬头率",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.averageSlouchingRate": {
+    "message": "平均趴桌率",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.averageAttendanceRate": {
+    "message": "平均出勤率",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingContent": {
+    "message": "教学内容",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingContentSummary": {
+    "message": "教学内容摘要",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.classroomKeywords": {
+    "message": "课堂关键词",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingExpression": {
+    "message": "教学表达",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.languageExpression": {
+    "message": "语言表达",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingSpeed": {
+    "message": "教学语速",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.volume": {
+    "message": "音量",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingEmotionAnalysis": {
+    "message": "教学情感分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingBehaviorAnalysis": {
+    "message": "教学行为分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingBehavior": {
+    "message": "教学行为",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingSegment": {
+    "message": "教学环节",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingModeAnalysis": {
+    "message": "教学模式分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teacherBehaviorAccounted": {
+    "message": "教师行为占比",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.studentBehaviorAccounted": {
+    "message": "学生行为占比",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teacherStudentBehaviorConversionRate": {
+    "message": "教师学生行为转换率",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.concentrationInClass": {
+    "message": "课堂专注度",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.studentBehaviorMonitoring": {
+    "message": "学生行为检测",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingMisconductMonitoring": {
+    "message": "教学违规监测",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teacherLate": {
+    "message": "教师迟到：",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.suspectedLate": {
+    "message": "疑似迟到",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.none": {
+    "message": "无",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachersLeaveEarly": {
+    "message": "教师早退：",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.suspectedLeaveEarly": {
+    "message": "疑似早退",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teacherAnswerPhone": {
+    "message": "教师接听电话：",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.suspectedAnswerPhone": {
+    "message": "疑似接听电话{num}次",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingMode1": {
+    "message": "授课型",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingMode2": {
+    "message": "练习型",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingMode3": {
+    "message": "问答型",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingMode4": {
+    "message": "混合型",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.behavior": {
+    "message": "行为",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.theNumberOf": {
+    "message": "次数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.proportion": {
+    "message": "占比",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.passive": {
+    "message": "消极",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.neutral": {
+    "message": "中性",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.positive": {
+    "message": "积极",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingTimingDistribution": {
+    "message": "教学时序分布",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingTimingAllocation": {
+    "message": "教学时间分配",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.questionAndAnswer": {
+    "message": "师生问答",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.studentDiscussion": {
+    "message": "学生讨论",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.studentPresentations": {
+    "message": "学生展示/发言",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.reviewOldKnowledge": {
+    "message": "旧知识回顾",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.knowledgeExplanation": {
+    "message": "知识讲解",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teacherQuestion": {
+    "message": "教师提问",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.quizOrAnswer": {
+    "message": "测验/答题",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.assignHomeworkOrTasks": {
+    "message": "布置作业/任务",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.lectureDuration": {
+    "message": "讲授时长",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.thousand": {
+    "message": "千",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.lectureWord": {
+    "message": "讲授字数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.wordMinute": {
+    "message": "字/分",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.averageSpeed": {
+    "message": "平均语速",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.time": {
+    "message": "时间: ",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.words": {
+    "message": "字数: ",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.semesterTotalDuration": {
+    "message": "本学期累计时长",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.classProportion": {
+    "message": "课堂占比",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingType": {
+    "message": "授课类型",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teachingAnalysis": {
+    "message": "教学分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.studentPerformance": {
+    "message": "学生课堂表现",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.recordBrowseCount": {
+    "message": "回放浏览量",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.knowledgeCount": {
+    "message": "课程知识点数量",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.knowledgeFragmentCount": {
+    "message": "知识点切片",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.lateNum": {
+    "message": "迟到人次",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.leaveEarlyNum": {
+    "message": "早退人次",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.usePhone": {
+    "message": "使用手机",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.listenLecture": {
+    "message": "听课",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.readAndWrite": {
+    "message": "读写",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teacherLateNum": {
+    "message": "教师迟到次数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teacherLeaveEarlyNum": {
+    "message": "教师早退次数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.teacherPhoneNum": {
+    "message": "教师接听电话次数",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.sort": {
+    "message": "排序",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.order": {
+    "message": "正序",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.descOrder": {
+    "message": "倒叙",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.analysisReport": {
+    "message": "分析报告",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.keywords": {
+    "message": "关键词：",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.summary": {
+    "message": "概要：",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.RTCHAnalysis": {
+    "message": "RT-CH分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.STAnalysis": {
+    "message": "S-T分析",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.content1": {
+    "message": "系统对课堂视频进行检测可以识别出教师的教学行为，包括教师讲授、板书等。系统可以统计教学行为的时长，在整个教学过程中的分布情况。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.content2": {
+    "message": "S-T教学分析法：对课堂中的教学行为进采样分析，T表示当前时间教师的行为占主导，包括教师讲授、板书、指导，S（非T行为）表示学生的行为占主导。S T教学分析法可以将教学行为量化，分析出课堂的教学模式。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.content3": {
+    "message": "系统对课堂视频进行检测可以识别出学生的姿态和行为，包括学生听课，趴桌睡觉等。学生的抬头率、趴桌率曲线的变化趋势一定程度上可以反应学生的学习状态的变化，给教学管理者 定的参考帮助。抬头率：学生听课行为占所有行为的占比。趴桌率：学生趴桌行为占所有行为的占比。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.content4": {
+    "message": "根据语义识别，可以在管理后台设置要识别的教学行为已经对应的语义库。",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.tip1": {
+    "message": "本节课的教学模式为：",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.tip2": {
+    "message": "本堂课授课音量大小平均为{avgDB}dB，最高{maxDB}dB，静默片段{noVolumeCount}个（10s以上没有授课声音）",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.tip3": {
+    "message": "方格表示课堂，彩色表示该节课发生了当前的教学环节",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.tip4": {
+    "message": "暂无课堂数据",
+    "description": "smart-classroom-admin 项目"
+  },
+  "intelligentAnalysis.tip5": {
+    "message": "标准语速为200-250字",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.recordingNew1": {
+    "message": "学校共有{num}个录播教室",
+    "description": "smart-classroom-admin 项目"
+  },
+  "recordedClass.pleaseEnterTeacher1": {
+    "message": "请输入教师名称",
+    "description": "smart-classroom-admin 项目"
+  },
+  "videoPlayer.teacherBehaviorDistribution1": {
+    "message": "教学行为分析",
     "description": "smart-classroom-admin 项目"
   }
 }
