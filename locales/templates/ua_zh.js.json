@@ -88,7 +88,7 @@
     "description": "UA"
   },
   "addExercise": {
-    "message": "添加练习",
+    "message": "添加题目",
     "description": "UA"
   },
   "addFolder": {
@@ -412,7 +412,7 @@
     "description": "UA"
   },
   "chapterNoQuestionTip": {
-    "message": "本章暂无练习，成绩报告组件仅能选择当前章内的练习，您可在章节中添加练习后再使用该组件~",
+    "message": "本章暂无练习，成绩报告组件仅能选择当前章内的练习，您可在章节中添加题目后再使用该组件~",
     "description": "UA"
   },
   "chapterOutlineTip": {
@@ -708,7 +708,7 @@
     "description": "UA"
   },
   "courseChapter": {
-    "message": "课程章节",
+    "message": "课件章节",
     "description": "UA"
   },
   "courseContent": {
@@ -844,7 +844,7 @@
     "description": "UA"
   },
   "createCourse": {
-    "message": "创建课程",
+    "message": "创建课件",
     "description": "UA"
   },
   "createCourseChapter": {
@@ -1188,7 +1188,7 @@
     "description": "UA"
   },
   "enterCourseName": {
-    "message": "请输入课程名称",
+    "message": "请输入课件名称",
     "description": "UA"
   },
   "enterDescriptionOrMaterial": {
@@ -1744,11 +1744,11 @@
     "description": "UA"
   },
   "importExercise": {
-    "message": "导入练习",
+    "message": "导入题目",
     "description": "UA"
   },
   "insertExercise": {
-    "message": "插入练习",
+    "message": "插入题目",
     "description": "UA"
   },
   "insertFlash": {
@@ -1804,7 +1804,7 @@
     "description": "UA"
   },
   "knowledgePoints": {
-    "message": "知识点/技能点/学习目标",
+    "message": "知识点",
     "description": "UA"
   },
   "konwComponentInstructions": {
@@ -3336,7 +3336,7 @@
     "description": "UA"
   },
   "updateCourse": {
-    "message": "更新课程",
+    "message": "更新课件",
     "description": "UA"
   },
   "updateMenu": {
@@ -3572,7 +3572,7 @@
     "description": "UA"
   },
   "withdrawCourses": {
-    "message": "撤回课程",
+    "message": "撤回课件",
     "description": "UA"
   },
   "withdrawSuccessfully": {
@@ -3936,7 +3936,7 @@
     "description": "UA"
   },
   "importEditorCourse": {
-    "message": "导入编辑账号课程",
+    "message": "导入编辑账号课件",
     "description": "UA"
   },
   "password": {
@@ -4537,6 +4537,102 @@
   },
   "exportCCFileError": {
     "message": "导出CC文件错误",
+    "description": "UA"
+  },
+  "confirmTakeOffCourse": {
+    "message": "课件下架后无法使用，也无法重新发布和上架。确定下架课件吗？",
+    "description": "UA"
+  },
+  "subjectBank": {
+    "message": "学科资源库",
+    "description": "UA"
+  },
+  "subjectDialogTitle": {
+    "message": "添加学科资源库资源",
+    "description": "UA"
+  },
+  "importSuccess": {
+    "message": "引入成功",
+    "description": "UA"
+  },
+  "importRepeat": {
+    "message": "存在重复引入的资源",
+    "description": "UA"
+  },
+  "editQuestion": {
+    "message": "修改题目",
+    "description": "UA"
+  },
+  "transcodingTips": {
+    "message": "转码中，请稍后查看",
+    "description": "UA"
+  },
+  "fileUnsupportPreviewdTips": {
+    "message": "该文件不支持在线预览",
+    "description": "UA"
+  },
+  "downloadForViewTips": {
+    "message": "请下载查看",
+    "description": "UA"
+  },
+  "relateKnowledgePoints": {
+    "message": "关联知识点",
+    "description": "UA"
+  },
+  "knowledgeGraph": {
+    "message": "知识图谱",
+    "description": "UA"
+  },
+  "numOfKnowledgePoints": {
+    "message": "{n}个知识点",
+    "description": "UA"
+  },
+  "template": {
+    "message": "模板",
+    "description": "UA"
+  },
+  "slotTemplateIntoContent": {
+    "message": "在内容中插入模板",
+    "description": "UA"
+  },
+  "exportPdf": {
+    "message": "导出PDF",
+    "description": "UA"
+  },
+  "exportPdfTips1": {
+    "message": "请选择要导出的目录内容",
+    "description": "UA"
+  },
+  "exportPdfTips2": {
+    "message": "导出时间可能较长，请耐心等待。",
+    "description": "UA"
+  },
+  "exportPdfTips3": {
+    "message": "如遇浏览器拦截弹窗，请选择始终允许网站弹出窗口。",
+    "description": "UA"
+  },
+  "exportPdfTips4": {
+    "message": "正在导出PDF...",
+    "description": "UA"
+  },
+  "cancelExport": {
+    "message": "取消导出",
+    "description": "UA"
+  },
+  "exportPdfWarning": {
+    "message": "请选择节名称或者页面名称",
+    "description": "UA"
+  },
+  "clickToView": {
+    "message": "点击查看",
+    "description": "UA"
+  },
+  "courseDeclarationTips": {
+    "message": "提示：【学期管理】功能，入口已迁移至班课列表页面的【课程申报】模块。",
+    "description": "UA"
+  },
+  "eachPageWordsTip2": {
+    "message": "每页内容不能超过10万字符（汉字5万字左右）。如果是从第三方编辑器粘贴过来的内容，样式也会占一定的字符量。",
     "description": "UA"
   }
 }
