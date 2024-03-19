@@ -1,3310 +1,827 @@
-{
-    "oralSubject": {
-        "message": "Questão discursiva de expressão oral",
-        "description": ""
-    },
-    "blankChoice": {
-        "message": "Exercício de preenchimento de lacunas",
-        "description": ""
-    },
-    "autoPaperSettings": {
-        "message": "Configurações para compor exames",
-        "description": ""
-    },
-    "startCreatPaper": {
-        "message": "Começar a compor exame",
-        "description": ""
-    },
-    "paperTip": {
-        "message": "Compondo teste, aguarde...",
-        "description": ""
-    },
-    "goView": {
-        "message": "Ver",
-        "description": ""
-    },
-    "screenMonitorTips3": {
-        "message": "Ativar monitoramento do uso da tela",
-        "description": ""
-    },
-    "screenMonitorTips8": {
-        "message": "Selecione pelo menos um método de monitoramento de alternância de tela",
-        "description": ""
-    },
-    "randomTips15": {
-        "message": "Restringido a adicionar no máximo 10 partes",
-        "description": ""
-    },
-    "remarkTip2": {
-        "message": "A reavaliação de pontuação aplica-se apenas a questões classificadas pelo sistema e não afetará as notas das questões classificadas manualmente.",
-        "description": ""
-    },
-    "remarkTip3": {
-        "message": "Confirmar se deseja reavaliar pontuação?",
-        "description": ""
-    },
-    "remarkTip4": {
-        "message": "A avaliação pode demorar. O sistema irá processá-la em segundo plano. Por favor, verifique a nova nota posteriormente.",
-        "description": ""
-    },
-    "remarkingTip": {
-        "message": "A tarefa de avaliação anterior ainda está sendo processada, verifique posteriormente.",
-        "description": ""
-    },
-    "paperTip1": {
-        "message": "Sucesso ao compor exame, armazenado no Índice atual do Banco de exercícios",
-        "description": ""
-    },
-    "restoreLocalRecord": {
-        "message": "Restaurar Registro de Resposta Local",
-        "description": ""
-    },
-    "localRecordTips5": {
-        "message": "Restaurar o registro de respostas local substituirá o registro de respostas já carregado na plataforma. Confirmar a restauração?",
-        "description": ""
-    },
-    "exportAllQuestion": {
-        "message": "Exportar todas as análises das provas de uma só vez",
-        "description": ""
-    },
-    "exceptionReminderTitle2": {
-        "message": "postura exceção",
-        "description": ""
-    },
-    "markExamArrangement": {
-        "message": "Correção de provas",
-        "description": ""
-    },
-    "batchClearPhoto": {
-        "message": "Limpar fotos em lote",
-        "description": ""
-    },
-    "previewExam": {
-        "message": "Pré-visualizar Avaliação",
-        "description": ""
-    },
-    "seatsOf": {
-        "message": "{n} assentos",
-        "description": ""
-    },
-    "examStructure": {
-        "message": "Estrutura de prova",
-        "description": ""
-    },
-    "monitorTips2": {
-        "message": "2. Este código de verificação é válido por 15 minutos, após o tempo limite, atualize para obter novamente",
-        "description": ""
-    },
-    "toBeApprovedNumberCl": {
-        "message": "Envios Pendentes:",
-        "description": ""
-    },
-    "abandonRate": {
-        "message": "taxa de desistência",
-        "description": ""
-    },
-    "deletePhoto": {
-        "message": "Excluir Foto",
-        "description": ""
-    },
-    "markingTips5": {
-        "message": "O total de pontuações atribuídas não pode exceder o número de provas que contêm questões subjetivas",
-        "description": ""
-    },
-    "exportAuthenticationInfo": {
-        "message": "exportar o certificado",
-        "description": ""
-    },
-    "auditFailed2": {
-        "message": "Reprovado na revisão",
-        "description": ""
-    },
-    "paperPartAnalysis": {
-        "message": "Análise dos pontos de cada parte da prova",
-        "description": ""
-    },
-    "remarkTips5": {
-        "message": "Aproximadamente respostas, se você reconhecer o resultado da identificação do sistema, clique em Confirmar para salvar a avaliação.",
-        "description": ""
-    },
-    "randomTips4": {
-        "message": "ainda não Criou um Índice",
-        "description": ""
-    },
-    "roomTips13": {
-        "message": "Selecione o candidato à avaliação (turma ou alunos)",
-        "description": ""
-    },
-    "toBeApproved": {
-        "message": "Envios Pendentes",
-        "description": ""
-    },
-    "roomEditorTips15": {
-        "message": "Selecione a sala de exame",
-        "description": ""
-    },
-    "examPaper": {
-        "message": "Prova",
-        "description": ""
-    },
-    "studentNumUp": {
-        "message": "Ordenar por número do aluno",
-        "description": ""
-    },
-    "faceAuthTips13": {
-        "message": "Valide primeiro se a Foto pode realizar o reconhecimento facial com sucesso",
-        "description": ""
-    },
-    "queTypeArray[11]": {
-        "message": "Questões de ordenação",
-        "description": ""
-    },
-    "deleteBatch": {
-        "message": "Excluir Turma",
-        "description": ""
-    },
-    "answerTimeMinite": {
-        "message": "Tempo gasto em Responder às perguntas (minutos)",
-        "description": ""
-    },
-    "remainSeatOf": {
-        "message": "{n} lugares restantes",
-        "description": ""
-    },
-    "examinationAnalysis": {
-        "message": "análise das provas",
-        "description": ""
-    },
-    "auditTips2": {
-        "message": "Formatos: formato de arquivo de imagem JPG, jpeg, PNG, bmp.",
-        "description": ""
-    },
-    "expectExamStuNum": {
-        "message": "O número de referência deve ser {0}",
-        "description": ""
-    },
-    "paperPartName": {
-        "message": "Nomes das partes da prova",
-        "description": ""
-    },
-    "inputNameSearch": {
-        "message": "Digite o Nome e pesquisar",
-        "description": ""
-    },
-    "nnallocated": {
-        "message": "Não atribuído",
-        "description": ""
-    },
-    "pleaseSelectExamPaper": {
-        "message": "Selecione a prova",
-        "description": ""
-    },
-    "queTotalNumberCl": {
-        "message": "Total de questões:",
-        "description": ""
-    },
-    "proportion2": {
-        "message": "proporção",
-        "description": ""
-    },
-    "timeDay": {
-        "message": "{days} dia(s)",
-        "description": ""
-    },
-    "chooseClass": {
-        "message": "Selecione uma turma:",
-        "description": ""
-    },
-    "examinationManagement": {
-        "message": "Gestão de avaliações",
-        "description": ""
-    },
-    "faceAuthTips14": {
-        "message": "O tamanho do ficheiro não pode exceder 10M",
-        "description": ""
-    },
-    "setExamTips2": {
-        "message": "É possível fazer avaliações tanto no computador quanto no Telefone celular",
-        "description": ""
-    },
-    "approvedNumberCl": {
-        "message": "Quantidade de provas corrigidas:",
-        "description": ""
-    },
-    "studentNumDown": {
-        "message": "Em ordem decrescente pelo Número do aluno",
-        "description": ""
-    },
-    "submissionStatus": {
-        "message": "Status de envio",
-        "description": ""
-    },
-    "notAttending": {
-        "message": "Não participar",
-        "description": ""
-    },
-    "auditTips22": {
-        "message": "Não foi encontrada nenhuma foto no ficheiro selecionado. Cheque se o ficheiro está correto.",
-        "description": ""
-    },
-    "queNumberCl": {
-        "message": "Quantidade de Exercícios:",
-        "description": ""
-    },
-    "discriminationTip": {
-        "message": "A discriminação refere-se ao grau de distinção ou habilidade discriminatória das questões do teste em relação aos alunos com diferentes níveis de proficiência acadêmica. A discriminação varia de -1 a +1, sendo que quanto maior o valor, melhor. Geralmente, é necessário que a discriminação das questões do teste seja superior a 0,3.",
-        "description": ""
-    },
-    "examTips": {
-        "message": "Normas do exame",
-        "description": ""
-    },
-    "roomEditorTips5": {
-        "message": "O sistema gerou automaticamente os resultados da atribuição com base no número de alunos por turma e no número de assentos na sala de exame. Você pode ajustar manualmente e confirmar para salvar.",
-        "description": ""
-    },
-    "auditTips16": {
-        "message": "Carregamento concluído, correspondendo as fotos...",
-        "description": ""
-    },
-    "minSubmitTimeTips1": {
-        "message": "Não é permitido entregar trabalhos dentro de {count}{minuteTip} após o início da avaliação",
-        "description": ""
-    },
-    "participantsNumber": {
-        "message": "Número de Participados",
-        "description": ""
-    },
-    "disabled": {
-        "message": "Desativado",
-        "description": ""
-    },
-    "upperPage": {
-        "message": "Página anterior",
-        "description": ""
-    },
-    "leaveExam": {
-        "message": "Sair da Avaliação",
-        "description": ""
-    },
-    "queTypeArray[5]": {
-        "message": "Questão de Correspondência",
-        "description": ""
-    },
-    "fullScoreCl": {
-        "message": "Nota máxima:",
-        "description": ""
-    },
-    "openAnonymousMarking": {
-        "message": "Ativar Correção anônima",
-        "description": ""
-    },
-    "photoAuditTimeCl": {
-        "message": "Duração da revisão de fotos",
-        "description": ""
-    },
-    "auditTips15": {
-        "message": "ZIPs carregados não podem exceder 1 GB",
-        "description": ""
-    },
-    "examHeadTips5": {
-        "message": "Aqui estão todas as Avaliações publicadas pelo professor. Antes de Entrar em uma Avaliação, Ver informações detalhadas sobre cada uma delas.",
-        "description": ""
-    },
-    "gradeTips1": {
-        "message": "A correção anônima foi ativada para esta avaliação.",
-        "description": ""
-    },
-    "modifyRoomTip": {
-        "message": "Mover {n} alunos da {className} (Total de alunos: {total}) para a seguinte sala de exame:",
-        "description": ""
-    },
-    "unfold": {
-        "message": "expandir",
-        "description": ""
-    },
-    "modifyScore": {
-        "message": "Editar nota",
-        "description": ""
-    },
-    "personnel2": {
-        "message": "{count} Número de pessoas",
-        "description": ""
-    },
-    "nonParticipantsNumber": {
-        "message": "Número de Pessoas Não Engajadas",
-        "description": ""
-    },
-    "setExamTips10": {
-        "message": "Serviço Expirado. Para Continuar, favor entrar em contacto com o Atendimento ao Cliente: 400-610-7808",
-        "description": ""
-    },
-    "exportDemoPaperSuccess": {
-        "message": "Exame modelo armazenado no Banco de exercícios",
-        "description": ""
-    },
-    "auditTips19": {
-        "message": "Zhang, os seguintes números de alunos ou formatos de arquivo estão incorretos (",
-        "description": ""
-    },
-    "peopleOf": {
-        "message": "[{n} pessoas]",
-        "description": ""
-    },
-    "discriminationTip1": {
-        "message": "Se a nota for boa, isso indica que a pergunta tem um bom nível de discriminação;",
-        "description": ""
-    },
-    "auditTips1": {
-        "message": "As avaliações que ativem a validação de reconhecimento facial precisam da foto do candidato antecipadamente. A foto pode ser importada em lote pelo professor ou pelo próprio aluno. As fotos enviadas pelo aluno podem ser verificadas pelo professor. Você pode escolher se permite que os alunos entrem na avaliação por reconhecimento facial sem que a foto de autenticação tenha sido verificada nas configurações da avaliação. Os alunos cujas fotos de autenticação não forem aprovadas pelo professor não poderão entrar na avaliação.",
-        "description": ""
-    },
-    "someBatch": {
-        "message": "Total de {count} sessões",
-        "description": ""
-    },
-    "monitorRecords": {
-        "message": "monitoramento de registro",
-        "description": ""
-    },
-    "detailTips3": {
-        "message": "1. Examens de monitoramento de equipamento e endereços de IP ativados. Caso ocorram circunstâncias especiais, o Aluno pode Entrar fornecendo este Código de Verificação após Substituir equipamento/Endereço de IP.",
-        "description": ""
-    },
-    "choosePaper": {
-        "message": "Selecione a Prova:",
-        "description": ""
-    },
-    "copyExamStructure": {
-        "message": "Copiar estrutura de prova",
-        "description": ""
-    },
-    "remarkTips3": {
-        "message": "Observação: pode-se avaliar de forma padronizada todos os alunos que enviaram respostas para essa questão. Depois da avaliação padronizada, pode-se editar a nota de cada aluno.",
-        "description": ""
-    },
-    "batchTips": {
-        "message": "Adicionar turmas ou alunos às sessões para que possam participar das avaliações. A duração da sessão é o intervalo de tempo que os alunos podem entrar na avaliação. Você também pode adicionar sessões após publicar a avaliação.",
-        "description": ""
-    },
-    "noPublish": {
-        "message": "Não divulgar",
-        "description": ""
-    },
-    "networkErrorTips": {
-        "message": "Erro de rede, clique",
-        "description": ""
-    },
-    "listeningQ": {
-        "message": "Questão de compreensão auditiva",
-        "description": ""
-    },
-    "verificationCodeError": {
-        "message": "Erro de Código de Verificação",
-        "description": ""
-    },
-    "markRecord": {
-        "message": "Registro de correção",
-        "description": ""
-    },
-    "confirmExamRoom": {
-        "message": "Confirmar sala de exame",
-        "description": ""
-    },
-    "passScore": {
-        "message": "nota mínima",
-        "description": ""
-    },
-    "afterExamFinishedTips1": {
-        "message": "Exibir após a conclusão da avaliação",
-        "description": ""
-    },
-    "cannotAllForbidden": {
-        "message": "Não pode desativar todos",
-        "description": ""
-    },
-    "paperName": {
-        "message": "Nome da prova",
-        "description": ""
-    },
-    "attachmentPreview": {
-        "message": "Pré-visualizar anexo",
-        "description": ""
-    },
-    "onlyPCExeTips": {
-        "message": "Usar {PCExe} para fazer a avaliação, depois que o candidato entrar na avaliação, não pode sair da interface da avaliação durante o processo. Aplicável a avaliações mais rígidas ou avaliações concentradas na sala de informática.",
-        "description": ""
-    },
-    "roomEditorTips11": {
-        "message": "Confirmar Exclusão da sala de exame?",
-        "description": ""
-    },
-    "etcOf": {
-        "message": "{name} e mais",
-        "description": ""
-    },
-    "examDurationCl": {
-        "message": "Duração da avaliação: {count} minutos",
-        "description": ""
-    },
-    "endDatePrefix": {
-        "message": "Concluir: {time}",
-        "description": ""
-    },
-    "attachAccess": {
-        "message": "Pergunta de resposta curta permite adicionar anexo",
-        "description": ""
-    },
-    "UTestLoginErr": {
-        "message": "Nome de usuário ou senha Incorreto",
-        "description": ""
-    },
-    "computerRoom": {
-        "message": "Sala de máquinas",
-        "description": ""
-    },
-    "roomTips5": {
-        "message": "Nenhuma turma encontrada com a pesquisa",
-        "description": ""
-    },
-    "randomTips1": {
-        "message": "Copiar a estrutura de prova de outras avaliações",
-        "description": ""
-    },
-    "confirmRecover": {
-        "message": "Confirmar restauração",
-        "description": ""
-    },
-    "expandSuccess": {
-        "message": "estender Sucesso",
-        "description": ""
-    },
-    "inputNameAndStuNoSearch": {
-        "message": "Digite o nome/número do aluno para pesquisar",
-        "description": ""
-    },
-    "roomEditorTips1": {
-        "message": "Número máximo de participantes por sessão única:",
-        "description": ""
-    },
-    "pullDownSelectionQ": {
-        "message": "questões de múltipla escolha",
-        "description": ""
-    },
-    "answerTrack": {
-        "message": "Rastreamento de Respostas",
-        "description": ""
-    },
-    "modifyBatchSuccess": {
-        "message": "Editado com Sucess",
-        "description": ""
-    },
-    "mobileApp": {
-        "message": "Aplicativo para celular",
-        "description": ""
-    },
-    "faceAuthTips2": {
-        "message": "Atenção:",
-        "description": ""
-    },
-    "chart": {
-        "message": "Gráfico",
-        "description": ""
-    },
-    "addBatch": {
-        "message": "Adicionar sessão",
-        "description": ""
-    },
-    "examinationBehaviorTrajectory": {
-        "message": "Linha de comportamento da avaliação",
-        "description": ""
-    },
-    "photoUploader": {
-        "message": "Pessoa que carregou a foto:",
-        "description": ""
-    },
-    "scoreTip2": {
-        "message": "Se os alunos tiverem vários Registros de Respostas, a Nota mais alta deles será considerada.",
-        "description": ""
-    },
-    "hasMarked": {
-        "message": "Classificado",
-        "description": ""
-    },
-    "fastExport": {
-        "message": "Exportar notas rapidamente",
-        "description": ""
-    },
-    "eachContainSubQue": {
-        "message": "Cada questão contém subquestões:",
-        "description": ""
-    },
-    "minSubmitTime": {
-        "message": "Horário de entrega da prova",
-        "description": ""
-    },
-    "writingQ": {
-        "message": "Exercício de redação",
-        "description": ""
-    },
-    "pleaseSelectCourse": {
-        "message": "Selecione a disciplina",
-        "description": ""
-    },
-    "queTypeArray[0]": {
-        "message": "questão de múltipla escolha",
-        "description": ""
-    },
-    "studentNumber": {
-        "message": "Número do aluno",
-        "description": ""
-    },
-    "auditTips7": {
-        "message": "Zhang San",
-        "description": ""
-    },
-    "openedFaceVerification": {
-        "message": "Verificação de rosto ativada",
-        "description": ""
-    },
-    "roomEditorTips3": {
-        "message": "Capacidade total de assentos das salas de exame selecionadas:",
-        "description": ""
-    },
-    "faceAuthTips5": {
-        "message": ", confirme a disponibilidade antes de enviar.",
-        "description": ""
-    },
-    "queTypeArray[4]": {
-        "message": "Pergunta de resposta curta",
-        "description": ""
-    },
-    "studentNOCl2": {
-        "message": "Número do aluno: {no}",
-        "description": ""
-    },
-    "nextQuestion": {
-        "message": "Próxima Questão",
-        "description": ""
-    },
-    "sets": {
-        "message": "Defina",
-        "description": ""
-    },
-    "commit": {
-        "message": "Enviar",
-        "description": ""
-    },
-    "onGoing": {
-        "message": "em andamento",
-        "description": ""
-    },
-    "discriminationTip2": {
-        "message": "quando a distinção é baixa, é recomendável editar",
-        "description": ""
-    },
-    "batchScore": {
-        "message": "Avaliar em Lote",
-        "description": ""
-    },
-    "containSubQueType": {
-        "message": "Tipos de itens incluídos:",
-        "description": ""
-    },
-    "unlimit": {
-        "message": "Todos",
-        "description": ""
-    },
-    "serialNumber": {
-        "message": "Número sequencial",
-        "description": ""
-    },
-    "setExamTips6": {
-        "message": "Finalizar exame forçadamente depois de",
-        "description": ""
-    },
-    "reAudit": {
-        "message": "Revisar novamente",
-        "description": ""
-    },
-    "auditTips5": {
-        "message": "É recomendado o uso da Foto do Aluno digitalizada no Sistema de gerenciamento de aprendizado.",
-        "description": ""
-    },
-    "timeLength": {
-        "message": "{days} dias {hours} horas {minutes} minutos {seconds} Segundo",
-        "description": ""
-    },
-    "authenticationPhotoRequire": {
-        "message": "Requisitos da foto de autenticação",
-        "description": ""
-    },
-    "referenceRate2": {
-        "message": "Padrão de referência: {0}% (Índice de anomalia: {1}%)",
-        "description": ""
-    },
-    "faceAuthTips16": {
-        "message": "É necessário carregar a Foto de identificação do aluno antes da prova",
-        "description": ""
-    },
-    "examResult": {
-        "message": "Resultados da Avaliação",
-        "description": ""
-    },
-    "modifyExam": {
-        "message": "Editar avaliação",
-        "description": ""
-    },
-    "sequencingQ": {
-        "message": "Questões de ordenação",
-        "description": ""
-    },
-    "queTypeArray[17]": {
-        "message": "Questão de Upload de Anexo",
-        "description": ""
-    },
-    "deviation1": {
-        "message": "Desvio de olhar",
-        "description": ""
-    },
-    "PCweb": {
-        "message": "computador",
-        "description": ""
-    },
-    "batch": {
-        "message": "sessão",
-        "description": ""
-    },
-    "examDuration": {
-        "message": "Duração da avaliação",
-        "description": ""
-    },
-    "localRecordTips1": {
-        "message": "Não há registro de resposta local",
-        "description": ""
-    },
-    "startRemark": {
-        "message": "começar Correção",
-        "description": ""
-    },
-    "roomEditorTips4": {
-        "message": "Selecione a sala de exame a ser utilizada para cada sessão. A capacidade total de assentos de cada sessão deve ser maior que o número de candidatos.",
-        "description": ""
-    },
-    "deviceMonitor2": {
-        "message": "Em casos especiais, pode solicitar ao professor o Código de Verificação para Substituir",
-        "description": ""
-    },
-    "exceptionReminder": {
-        "message": "Lembrete de Exceção",
-        "description": ""
-    },
-    "auditTips3": {
-        "message": "dimensão: Sugere-se usar foto de tamanho padrão 1 polegada (413*295 pixel) ou foto com proporção semelhante.",
-        "description": ""
-    },
-    "viewQue": {
-        "message": "Ver prova",
-        "description": ""
-    },
-    "noMark": {
-        "message": "Não avaliado",
-        "description": ""
-    },
-    "paperAnalysis": {
-        "message": "Análise de Prova",
-        "description": ""
-    },
-    "seeDetails": {
-        "message": "Ver Mais",
-        "description": ""
-    },
-    "queTypeArray[15]": {
-        "message": "Questão discursiva de expressão oral",
-        "description": ""
-    },
-    "exportMonitorInfo": {
-        "message": "exportar informações de monitoramento",
-        "description": ""
-    },
-    "examFaceVerification": {
-        "message": "Reconhecimento facial de avaliação",
-        "description": ""
-    },
-    "queTypeArray[13]": {
-        "message": "Exercícios de gramática",
-        "description": ""
-    },
-    "setExamTips7": {
-        "message": "Esta avaliação só pode ser realizada no celular e monitora se o aluno retornou à área de trabalho, fechou ou executou o APP no segundo plano.",
-        "description": ""
-    },
-    "setExamTips16": {
-        "message": "Manter pelo menos um teste habilitado",
-        "description": ""
-    },
-    "difficultyLevelArray[3]": {
-        "message": "difícil",
-        "description": ""
-    },
-    "roomEditorTips7": {
-        "message": "Você pode mudar a turma inteira para outra sala de exame ou selecionar parte dos alunos da turma atual para mover para outra sala.",
-        "description": ""
-    },
-    "inputSectionName": {
-        "message": "Digite o nome da parte",
-        "description": ""
-    },
-    "lateTimeSet": {
-        "message": "Tempo de atraso",
-        "description": ""
-    },
-    "authenticatePhoto": {
-        "message": "Foto de autenticação",
-        "description": ""
-    },
-    "objectiveQuestions": {
-        "message": "Nota da questão objetiva",
-        "description": ""
-    },
-    "viewMarkDetail": {
-        "message": "Ver Detalhes da Correção",
-        "description": ""
-    },
-    "auditTips10": {
-        "message": "A foto de autenticação do(a) aluno(a) está correta?",
-        "description": ""
-    },
-    "talk": {
-        "message": "Bate-papo durante o exame com uma pessoa",
-        "description": ""
-    },
-    "field": {
-        "message": "Total de {count} sessões",
-        "description": ""
-    },
-    "statisticsTips2": {
-        "message": "Se o aluno tiver vários registros de respostas, o cálculo será feito com base na melhor nota dele.",
-        "description": ""
-    },
-    "roomTips11": {
-        "message": "Confirmar a exclusão da sessão?",
-        "description": ""
-    },
-    "selectExamRoom": {
-        "message": "Selecionar sala de exame",
-        "description": ""
-    },
-    "thisTimeExamPhoto": {
-        "message": "Foto da Avaliação desta vez",
-        "description": ""
-    },
-    "viewStandbyVerificationCode": {
-        "message": "Ver código de verificação alternativo",
-        "description": ""
-    },
-    "batchExportPhotos": {
-        "message": "Importações em lote de Fotos",
-        "description": ""
-    },
-    "standardDeviation": {
-        "message": "Desvio padrão",
-        "description": ""
-    },
-    "selectCourse": {
-        "message": "selecionar disciplina",
-        "description": ""
-    },
-    "standardDeviationTip": {
-        "message": "O desvio padrão representa a dispersão das notas dos alunos. Um desvio padrão maior representa uma diferença maior entre a maioria dos valores e sua média; um desvio padrão menor representa esses valores mais próximos da média.",
-        "description": ""
-    },
-    "examStuNumber": {
-        "message": "Número de Candidatos",
-        "description": ""
-    },
-    "examinationResults": {
-        "message": "Pontuação do Exame",
-        "description": ""
-    },
-    "setExamTips11": {
-        "message": "Confirmar Excluir Turma?",
-        "description": ""
-    },
-    "setExamTips4": {
-        "message": "A prova {paperName} contém perguntas não suportadas, altere a forma de participação ou ajuste o conteúdo da prova",
-        "description": ""
-    },
-    "parsing": {
-        "message": "Análise",
-        "description": ""
-    },
-    "scoringRate": {
-        "message": "Percentual de nota",
-        "description": ""
-    },
-    "exportTip": {
-        "message": "Quando o aluno tem vários registros de respostas, somente a melhor nota deve ser exportada. Para fazer alterações, selecione Exportação personalizada.",
-        "description": ""
-    },
-    "exchangeExamRoom": {
-        "message": "Trocar de sala de exame",
-        "description": ""
-    },
-    "lastStep": {
-        "message": "Voltar ao passo anterior",
-        "description": ""
-    },
-    "exportDemoPaper": {
-        "message": "exportar questionário modelo",
-        "description": ""
-    },
-    "queTypeArray[8]": {
-        "message": "Exercício de redação",
-        "description": ""
-    },
-    "saveArranging": {
-        "message": "Salvar Organização",
-        "description": ""
-    },
-    "lexicalModule": {
-        "message": "Módulo de Vocabulário",
-        "description": ""
-    },
-    "selectExtractMenuCl": {
-        "message": "Selecione o índice da questão",
-        "description": ""
-    },
-    "exception2": {
-        "message": "Finalização forçada de exame pelo sistema",
-        "description": ""
-    },
-    "roomTips2": {
-        "message": "Confirmar a exclusão de todas as salas de exame e Fiscais de Exame na Sessão atual?",
-        "description": ""
-    },
-    "extractMenuCl": {
-        "message": "Índice de questões:",
-        "description": ""
-    },
-    "myself": {
-        "message": "Eu mesmo",
-        "description": ""
-    },
-    "batchExpand": {
-        "message": "Turma estendida por {count} minutos",
-        "description": ""
-    },
-    "batchClearAuthenticationPhoto": {
-        "message": "Limpar em lote as fotos de autenticação",
-        "description": ""
-    },
-    "detailTips4": {
-        "message": "2. Se o Exame que requer Reconhecimento Facial for ativado, os Alunos que não conseguirem entrar utilizando o reconhecimento facial podem usar esse Código de Verificação para entrar.",
-        "description": ""
-    },
-    "abnormalRecord": {
-        "message": "Registro de falha",
-        "description": ""
-    },
-    "answerSetting": {
-        "message": "Configurações de responder às perguntas",
-        "description": ""
-    },
-    "participtionWaysCl": {
-        "message": "Forma de Participação:",
-        "description": ""
-    },
-    "discriminationTip3": {
-        "message": "A discriminação é um valor negativo, indicando que há um problema com a prova ou com a resposta.",
-        "description": ""
-    },
-    "ipMonitor1": {
-        "message": "Ative o monitoramento de endereço de IP e proíba a substituição de endereço de IP durante a resposta às perguntas",
-        "description": ""
-    },
-    "objectivesQ": {
-        "message": "questão objetiva",
-        "description": ""
-    },
-    "confirmDeletePhoto2": {
-        "message": "Tem certeza de que deseja excluir a foto instantânea deste aluno?",
-        "description": ""
-    },
-    "randomTips2": {
-        "message": "(Índice caduco)",
-        "description": ""
-    },
-    "auditTips14": {
-        "message": "Selecione o aluno para limpar a foto",
-        "description": ""
-    },
-    "allBatch": {
-        "message": "Todas as turmas",
-        "description": ""
-    },
-    "weekAfterShow": {
-        "message": "Exibir após {count} semanas da Conclusão da Avaliação",
-        "description": ""
-    },
-    "exportCurrentQuestion": {
-        "message": "Exportar dados da página atual",
-        "description": ""
-    },
-    "referenceRate": {
-        "message": "Padrão de referência",
-        "description": ""
-    },
-    "noEnterExam": {
-        "message": "Não entrou na avaliação",
-        "description": ""
-    },
-    "examPaperFullScore": {
-        "message": "Nota máxima da prova:",
-        "description": ""
-    },
-    "answerDuration": {
-        "message": "Duração da prova",
-        "description": ""
-    },
-    "toBeApprovedNumber": {
-        "message": "Aguardando notas",
-        "description": ""
-    },
-    "faceAuthTips9": {
-        "message": "Solicite o Código de Verificação ao Fiscal de Exame e Digite",
-        "description": ""
-    },
-    "onMobileExam": {
-        "message": "Exame pelo celular",
-        "description": ""
-    },
-    "selectStudent": {
-        "message": "Selecione o aluno",
-        "description": ""
-    },
-    "previousQuestion": {
-        "message": "Questão anterior",
-        "description": ""
-    },
-    "expandFailed": {
-        "message": "Falha ao extender",
-        "description": ""
-    },
-    "randomTips3": {
-        "message": "Anotação: Exercícios integrados são questões abrangentes e, ao adicionar um novo tipo de questão de exercício integrado, apenas uma questão abrangente é extraída.",
-        "description": ""
-    },
-    "deviceMonitor1": {
-        "message": "Ativar monitoramento de equipamento, proibido substituir equipamento ou navegador durante",
-        "description": ""
-    },
-    "averageAchievement": {
-        "message": "Nota média",
-        "description": ""
-    },
-    "statisticsTips1": {
-        "message": "Todos os dados no relatório não incluem alunos ausentes",
-        "description": ""
-    },
-    "allBatches": {
-        "message": "Todas as sessões",
-        "description": ""
-    },
-    "userNum": {
-        "message": "Número de pessoas",
-        "description": ""
-    },
-    "gradeTips3": {
-        "message": "A quantidade de correções é determinada pelo responsável pela avaliação",
-        "description": ""
-    },
-    "faceAuthTips7": {
-        "message": "Teste se o reconhecimento facial é bem-sucedido",
-        "description": ""
-    },
-    "defaultExamTips": {
-        "message": "Salvar como Modelo Padrão e Continuar na Próxima Avaliação",
-        "description": ""
-    },
-    "beAnswering": {
-        "message": "A fazer uma prova",
-        "description": ""
-    },
-    "photoMonitor2": {
-        "message": "É necessário garantir que o dispositivo usado pelo aluno tenha uma câmera",
-        "description": ""
-    },
-    "publishExam": {
-        "message": "Publicar Avaliação",
-        "description": ""
-    },
-    "waitApproved": {
-        "message": "Envios Pendentes",
-        "description": ""
-    },
-    "examHeadTips4": {
-        "message": "Antes da Avaliação, confirme {detectEnv} rede, dispositivo, navegador, etc.",
-        "description": ""
-    },
-    "baseInformation": {
-        "message": "Informações básicas",
-        "description": ""
-    },
-    "quantity2": {
-        "message": "Quantidade de questões:",
-        "description": ""
-    },
-    "systemPhoto": {
-        "message": "Foto instantânea do Sistema",
-        "description": ""
-    },
-    "localRecordTips3": {
-        "message": "As respostas para esta avaliação foram enviadas, e o registro de respostas locais não pode ser restaurado.",
-        "description": ""
-    },
-    "PCExe": {
-        "message": "Cliente de bloqueio de computador",
-        "description": ""
-    },
-    "immediateDisplay": {
-        "message": "Exibir imediatamente",
-        "description": ""
-    },
-    "notShow": {
-        "message": "não exibir",
-        "description": ""
-    },
-    "auditTips6": {
-        "message": "Exemplo de nomeação de imagem",
-        "description": ""
-    },
-    "remarkTips4": {
-        "message": "O sistema encontrou  entre os alunos com avaliações pendentes",
-        "description": ""
-    },
-    "randomTips8": {
-        "message": "O nome da prova precisa ter entre 1 e 200 caracteres",
-        "description": ""
-    },
-    "batchAudit": {
-        "message": "Revisão em lote",
-        "description": ""
-    },
-    "remarkTips8": {
-        "message": "Digite a nota",
-        "description": ""
-    },
-    "examTips4": {
-        "message": "Cliente/Hospedeiro:",
-        "description": ""
-    },
-    "batchs": {
-        "message": "Turma",
-        "description": ""
-    },
-    "reTestTip2": {
-        "message": "Não há sessão de Avaliação adequada. Gostaria de adicionar uma nova Turma?",
-        "description": ""
-    },
-    "remarkTips6": {
-        "message": "Candidato não respondeu",
-        "description": ""
-    },
-    "timeHour": {
-        "message": "{hours} horas",
-        "description": ""
-    },
-    "resultPublicScopeCl": {
-        "message": "Escopos da divulgação de resultados:",
-        "description": ""
-    },
-    "discussionQ": {
-        "message": "Questões dissertativas",
-        "description": ""
-    },
-    "allExamRoom": {
-        "message": "Todas as salas de exame",
-        "description": ""
-    },
-    "setExamTips8": {
-        "message": "Permite que alunos com foto de autenticação pendente entrem na avaliação",
-        "description": ""
-    },
-    "proportion": {
-        "message": "Ponderação",
-        "description": ""
-    },
-    "eachQueScoreCl": {
-        "message": "A pontuação de cada questão é de:",
-        "description": ""
-    },
-    "roomTips9": {
-        "message": "A duração da extensão precisa estar entre 1 e 1000",
-        "description": ""
-    },
-    "roomEditorTips19": {
-        "message": "O número de pessoas movidas não pode ser maior que a capacidade de assentos",
-        "description": ""
-    },
-    "queTypeArray[3]": {
-        "message": "Questão de julgamento",
-        "description": ""
-    },
-    "openMonitorTips": {
-        "message": "O candidato deve manter a câmera ativada do começo ao fim e manter a imagem estável. Somente é possível fazer a avaliação em um computador.",
-        "description": ""
-    },
-    "maximumAnswerTime": {
-        "message": "Duração máxima para responder perguntas",
-        "description": ""
-    },
-    "gradeTips7": {
-        "message": "Quando a avaliação concluir, o sistema entregará os trabalhos de forma automática",
-        "description": ""
-    },
-    "authenticateSuccess": {
-        "message": "Validação aprovada",
-        "description": ""
-    },
-    "optionStuNum": {
-        "message": "Número de opções",
-        "description": ""
-    },
-    "readTip1": {
-        "message": "Envios Pendentes",
-        "description": ""
-    },
-    "appointExamPaper": {
-        "message": "Designar prova",
-        "description": ""
-    },
-    "addQuestionType": {
-        "message": "Adicionar tipo de item",
-        "description": ""
-    },
-    "subjectiveQ": {
-        "message": "Questao subjetiva",
-        "description": ""
-    },
-    "afterExamFinished": {
-        "message": "Após a conclusão da avaliação",
-        "description": ""
-    },
-    "queTypeArray[19]": {
-        "message": "questão de leitura (exercício de preenchimento de lacuna)",
-        "description": ""
-    },
-    "resultPublicTimeCl": {
-        "message": "Duração da divulgação dos resultados:",
-        "description": ""
-    },
-    "UTestDesc": {
-        "message": "Nota: Este cliente suporta apenas a participação de alunos nos exames. Para registo de conta, adesão a turmas, etc., inicie sessão no site ou na aplicação da Academia Premium com antecedência.",
-        "description": ""
-    },
-    "auditTips21": {
-        "message": "Foto de autenticação de Zhang",
-        "description": ""
-    },
-    "answeringCount": {
-        "message": "Na {n}ª tentativa de resposta",
-        "description": ""
-    },
-    "queOf": {
-        "message": "{n} questionários",
-        "description": ""
-    },
-    "checkAllWholePage": {
-        "message": "Selecionar todos",
-        "description": ""
-    },
-    "exception1": {
-        "message": "Sair da página > 5 segundo(s)",
-        "description": ""
-    },
-    "gradeTips4": {
-        "message": "Entrar na avaliação por verificação de rosto",
-        "description": ""
-    },
-    "examRoomName": {
-        "message": "Nome da sala de exame",
-        "description": ""
-    },
-    "setExamTips17": {
-        "message": "A nota mínima deve estar entre {range}",
-        "description": ""
-    },
-    "derivedExaminationAnalysis": {
-        "message": "Exportar a análise das avaliações",
-        "description": ""
-    },
-    "roomTips10": {
-        "message": "A exclusão da sessão pode fazer com que os registros das respostas sejam perdidos. Confirmar exclusão?",
-        "description": ""
-    },
-    "exportPhotos": {
-        "message": "Exportar foto",
-        "description": ""
-    },
-    "submitByPC": {
-        "message": "Página Enviar",
-        "description": ""
-    },
-    "clearExamRoomPlan": {
-        "message": "limpar a alocação da sala de exame",
-        "description": ""
-    },
-    "scoreAnalysis": {
-        "message": "Análise de Notas",
-        "description": ""
-    },
-    "derivedAchievements": {
-        "message": "Exportação de notas",
-        "description": ""
-    },
-    "confirmClearMonitorRecords": {
-        "message": "Tem certeza que deseja Limpar o registro de monitoramento?",
-        "description": ""
-    },
-    "answeredTimes": {
-        "message": "Número de tentativas/Número de tentativas permitidas",
-        "description": ""
-    },
-    "submissionTime": {
-        "message": "Horário de entrega da prova",
-        "description": ""
-    },
-    "inputTeaNameSearch": {
-        "message": "Digite o Nome Completo do Professor para pesquisar",
-        "description": ""
-    },
-    "minSubmitTime2": {
-        "message": "Horário de entrega da prova: {time}",
-        "description": ""
-    },
-    "auditFailed": {
-        "message": "Reprovado na revisão",
-        "description": ""
-    },
-    "onPCExam": {
-        "message": "Na avaliação de Computador",
-        "description": ""
-    },
-    "namePrefix": {
-        "message": "Nome: {name}",
-        "description": ""
-    },
-    "noStuRecord": {
-        "message": "Temporariamente, não há registros de respostas dos alunos!",
-        "description": ""
-    },
-    "unuploadedPhotos": {
-        "message": "Foto não carregada",
-        "description": ""
-    },
-    "queTypeArray[7]": {
-        "message": "Questão de compreensão auditiva",
-        "description": ""
-    },
-    "standbyVerificationCode": {
-        "message": "Código de verificação alternativo",
-        "description": ""
-    },
-    "schoolQuestionLibrary": {
-        "message": "Banco de Questões da Escola Atual",
-        "description": ""
-    },
-    "totalScoreDown": {
-        "message": "Ordenar por Pontuação total em ordem decrescente",
-        "description": ""
-    },
-    "myQuestionLibrary": {
-        "message": "Meu banco de questões",
-        "description": ""
-    },
-    "certPrefix": {
-        "message": "Número do certificado de avaliação: {no}",
-        "description": ""
-    },
-    "enabled": {
-        "message": "Habilitado",
-        "description": ""
-    },
-    "examRoom": {
-        "message": "sala de exame",
-        "description": ""
-    },
-    "uploadPhoto": {
-        "message": "Carregar Foto",
-        "description": ""
-    },
-    "gradeTips5": {
-        "message": "Entrar na Avaliação pelo Código de Verificação",
-        "description": ""
-    },
-    "openFaceVerification": {
-        "message": "Ativar reconhecimento facial",
-        "description": ""
-    },
-    "auditTips9": {
-        "message": "Preencha o motivo da reprovação, por exemplo: a foto não é da própria pessoa. Faça o upload novamente.",
-        "description": ""
-    },
-    "difficultyLevelArray[0]": {
-        "message": "fácil",
-        "description": ""
-    },
-    "faceAuthTips12": {
-        "message": "As fotos não correspondem à pessoa",
-        "description": ""
-    },
-    "form": {
-        "message": "Tabela",
-        "description": ""
-    },
-    "exceptionReminderTitle1": {
-        "message": "Exceção ao responder às perguntas",
-        "description": ""
-    },
-    "chooseInvigilator": {
-        "message": "Selecionar Fiscal de Exame",
-        "description": ""
-    },
-    "examTips2": {
-        "message": "Faça a avaliação utilizando o ULearning APP",
-        "description": ""
-    },
-    "completionQDisorder": {
-        "message": "Exercícios de preenchimento de lacunas em ordem aleatória",
-        "description": ""
-    },
-    "setExamTips15": {
-        "message": "O título do exame deve ter de 2 a 100 Letras",
-        "description": ""
-    },
-    "markTime": {
-        "message": "Tempo de correção",
-        "description": ""
-    },
-    "most": {
-        "message": "máximo",
-        "description": ""
-    },
-    "randomTips7": {
-        "message": "Adicionar Diretório de Pasta",
-        "description": ""
-    },
-    "averageFinishedTime": {
-        "message": "Tempo médio de conclusão",
-        "description": ""
-    },
-    "examinationPapers": {
-        "message": "Provas usadas",
-        "description": ""
-    },
-    "examPaperTitle": {
-        "message": "Título da prova",
-        "description": ""
-    },
-    "onlyPCWebBtnTips": {
-        "message": "Faça a Avaliação na web com um navegador",
-        "description": ""
-    },
-    "detectEnv": {
-        "message": "Detecção de Ambiente de Avaliação",
-        "description": ""
-    },
-    "replacePhoto": {
-        "message": "Substituir foto",
-        "description": ""
-    },
-    "deleteBatch2": {
-        "message": "Excluir sessão",
-        "description": ""
-    },
-    "UTestLogin": {
-        "message": "Entrar",
-        "description": ""
-    },
-    "auditTips24": {
-        "message": "Falha ao carregar, checar formato de ficheiro",
-        "description": ""
-    },
-    "UTestName": {
-        "message": "Sistema de Avaliação U-Test",
-        "description": ""
-    },
-    "markingTips2": {
-        "message": "Nota média distribuída ao professor de correção",
-        "description": ""
-    },
-    "submitByAPP": {
-        "message": "Enviar no APP",
-        "description": ""
-    },
-    "examTips1": {
-        "message": "Caso a avaliação em que você se inscreveu tenha autenticação de identidade por reconhecimento facial ativada, carregue sua foto de autenticação com antecedência para evitar atrasos ao responder às perguntas durante a avaliação.",
-        "description": ""
-    },
-    "notOpened": {
-        "message": "Ainda não ativado",
-        "description": ""
-    },
-    "auditTips4": {
-        "message": "O nome do ficheiro da foto deve conter o número do aluno, não contendo outros números arábicos além do número do aluno.",
-        "description": ""
-    },
-    "localRecordTime": {
-        "message": "duração do registro de respostas ao questionário local",
-        "description": ""
-    },
-    "ipMonitor2": {
-        "message": "Trocar de rede pode provocar alterações no Endereço de IP. Tenha cuidado ao usar. Em casos especiais, você pode pedir um Código de Verificação ao professor para Substituir",
-        "description": ""
-    },
-    "gradeTips2": {
-        "message": "Nota da Prova Atribuída a Mim:",
-        "description": ""
-    },
-    "setExamTips5": {
-        "message": "Monitoramento do número de vezes que os alunos Saíram da Avaliação durante o período da Avaliação",
-        "description": ""
-    },
-    "setUpRetest": {
-        "message": "Configurações para prova de recuperação",
-        "description": ""
-    },
-    "finished": {
-        "message": "finalizado",
-        "description": ""
-    },
-    "noBatch": {
-        "message": "Ainda não há turma",
-        "description": ""
-    },
-    "faceAuthTips15": {
-        "message": "Ative o reconhecimento facial para permitir o acesso à avaliação somente após a validação do rosto.",
-        "description": ""
-    },
-    "previewQuestion": {
-        "message": "Pré-visualizar prova",
-        "description": ""
-    },
-    "thisQueFullScore": {
-        "message": "Nota máxima desta questão: {grade} Nota",
-        "description": ""
-    },
-    "examTimeCl": {
-        "message": "Tempo de exame:",
-        "description": ""
-    },
-    "queTypeArray[10]": {
-        "message": "Exercício de preenchimento de texto",
-        "description": ""
-    },
-    "queTypeArray[21]": {
-        "message": "Questões de análise de material",
-        "description": ""
-    },
-    "examHeadTips2": {
-        "message": "Aqui estão disponibilizadas todas as avaliações publicadas pelo Professor. Verifique atentamente, pois as configurações das avaliações podem variar quanto ao Tempo de tolerância, Duração da prova, se permitem Respondês às perguntas mais de uma vez, etc.",
-        "description": ""
-    },
-    "goToIdentify": {
-        "message": "Certificar",
-        "description": ""
-    },
-    "difficultyLevelArray[1]": {
-        "message": "Simples",
-        "description": ""
-    },
-    "schoolPrefix": {
-        "message": "Escola: {org}",
-        "description": ""
-    },
-    "sort": {
-        "message": "Ordenar",
-        "description": ""
-    },
-    "roomEditorTips18": {
-        "message": "O número de pessoas não pode ser maior do que o total de alunos",
-        "description": ""
-    },
-    "localRecordTips4": {
-        "message": "O registro de respostas salvo na plataforma é mais recente que o registro de respostas local, então para evitar que a nota seja substituída, o registro de respostas não pode ser restaurado.",
-        "description": ""
-    },
-    "PCExe1": {
-        "message": "Cliente de computador",
-        "description": ""
-    },
-    "mobile": {
-        "message": "dispositivos móveis",
-        "description": ""
-    },
-    "queTypeArray[18]": {
-        "message": "Exercícios de Leitura Oral",
-        "description": ""
-    },
-    "chooseExamBatch": {
-        "message": "Selecione a turma para participar da Avaliação",
-        "description": ""
-    },
-    "minuteTip": {
-        "message": "minuto",
-        "description": ""
-    },
-    "reTry": {
-        "message": "Tentar novamente",
-        "description": ""
-    },
-    "queTypeArray[20]": {
-        "message": "Questões dissertativas",
-        "description": ""
-    },
-    "noParticipants": {
-        "message": "não participar",
-        "description": ""
-    },
-    "readedCl": {
-        "message": "Corrigida:",
-        "description": ""
-    },
-    "quantity": {
-        "message": "Quantidade",
-        "description": ""
-    },
-    "hasEnded": {
-        "message": "Concluído",
-        "description": ""
-    },
-    "reTestTip1": {
-        "message": "Após agendar para refazer, todos os registros do Aluno nesta Avaliação serão limpos. Você tem certeza que deseja que esse Aluno refaça?",
-        "description": ""
-    },
-    "openMonitorContent3": {
-        "message": "3. Gravação de exceção: Quando o sistema detecta postura anormal, a gravação de vídeo anormal é carregada automaticamente para revisão posterior.",
-        "description": ""
-    },
-    "setExamTips14": {
-        "message": "Manter pelo menos uma prova",
-        "description": ""
-    },
-    "auditTips18": {
-        "message": "Foto de autenticação de Zhang. Falha",
-        "description": ""
-    },
-    "approve": {
-        "message": "Corrigir",
-        "description": ""
-    },
-    "examNameCl": {
-        "message": "Título do exame:",
-        "description": ""
-    },
-    "randomTips5": {
-        "message": "Comece no",
-        "description": ""
-    },
-    "roomEditorTips14": {
-        "message": "A capacidade total de assentos da sala de exame selecionada deve ser maior que o Número máximo de participantes em uma sessão única.",
-        "description": ""
-    },
-    "userNumber": {
-        "message": "Número de usuários",
-        "description": ""
-    },
-    "queTypeArray[9]": {
-        "message": "Título traduzido",
-        "description": ""
-    },
-    "minimumScore": {
-        "message": "Pontuação mínima",
-        "description": ""
-    },
-    "shortAnswerQ": {
-        "message": "Pergunta de resposta curta",
-        "description": ""
-    },
-    "teacherCl": {
-        "message": "Professor:",
-        "description": ""
-    },
-    "intoExam": {
-        "message": "Entrar na avaliação",
-        "description": ""
-    },
-    "exportDate": {
-        "message": "Data de exportação: {date}",
-        "description": ""
-    },
-    "deleteTip": {
-        "message": "O registro das Respostas excluídas não poderá ser restaurado. Confirmar a exclusão?",
-        "description": ""
-    },
-    "remainSeatOf2": {
-        "message": "{roomName} (restante {n} assentos)",
-        "description": ""
-    },
-    "deleteRecords": {
-        "message": "Excluir registro",
-        "description": ""
-    },
-    "remarkTips7": {
-        "message": "Não foi encontrada nenhuma resposta próxima nas não avaliadas",
-        "description": ""
-    },
-    "examTimes": {
-        "message": "Número de tentativas do exame",
-        "description": ""
-    },
-    "modifyExamRoom": {
-        "message": "editar sala de exame",
-        "description": ""
-    },
-    "invigilator": {
-        "message": "Fiscal de Exame",
-        "description": ""
-    },
-    "listeningObjectivesQ": {
-        "message": "Exercício de compreensão oral",
-        "description": ""
-    },
-    "setExamTips19": {
-        "message": "Selecione o Candidato a Exame (Turma ou Aluno)",
-        "description": ""
-    },
-    "setExamTips18": {
-        "message": "entre",
-        "description": ""
-    },
-    "minimumAnswerTime": {
-        "message": "Duração mínima das respostas",
-        "description": ""
-    },
-    "answerTimesOf": {
-        "message": "Número de tentativas: {count}",
-        "description": ""
-    },
-    "queTypeArray[2]": {
-        "message": "Exercício de preenchimento de lacunas",
-        "description": ""
-    },
-    "difficultyTip": {
-        "message": "O nível de dificuldade é normalmente estabelecido de acordo com a taxa de aprovação da prova. Quanto maior o valor de dificuldade, mais fácil é a questão; quanto menor o valor, mais difícil é a questão. Em geral, o nível de dificuldade da questão deve estar entre 0,3 e 0,8.",
-        "description": ""
-    },
-    "refuseReasonCl": {
-        "message": "Motivo da Rejeição:",
-        "description": ""
-    },
-    "noShow": {
-        "message": "Não exibir",
-        "description": ""
-    },
-    "computeTip": {
-        "message": "OBSERVAÇÃO: Avaliação usa dados do terminal uma vez por pessoa",
-        "description": ""
-    },
-    "exportAnswerRecords": {
-        "message": "Exportar registro de respostas",
-        "description": ""
-    },
-    "noStart": {
-        "message": "não iniciado",
-        "description": ""
-    },
-    "byVerificationCode": {
-        "message": "Usar Código de Verificação",
-        "description": ""
-    },
-    "queTypeArray[23]": {
-        "message": "Exercício integrado",
-        "description": ""
-    },
-    "readingQ": {
-        "message": "questão de leitura",
-        "description": ""
-    },
-    "judgementQ": {
-        "message": "Questão de julgamento",
-        "description": ""
-    },
-    "detailTips2": {
-        "message": "2. Este código de verificação é válido por 15 minutos. Caso expire, é favor atualizar e obter novamente",
-        "description": ""
-    },
-    "examTips5": {
-        "message": "As notas ainda não serão divulgadas",
-        "description": ""
-    },
-    "modifyExamSuccess": {
-        "message": "Edição da avaliação feita com sucesso",
-        "description": ""
-    },
-    "participtionWay": {
-        "message": "Forma de Participação",
-        "description": ""
-    },
-    "remarkTips1": {
-        "message": "Anotação: Se o candidato enviar vários registros de resposta, o padrão é exibir o último registro",
-        "description": ""
-    },
-    "photoUploadTimeCl": {
-        "message": "Hora do upload da foto:",
-        "description": ""
-    },
-    "partOf": {
-        "message": "{n} unidades",
-        "description": ""
-    },
-    "behaviorTrace": {
-        "message": "Linha do comportamento",
-        "description": ""
-    },
-    "loadErrorTips": {
-        "message": "Carregar ocorreu um erro, Clique",
-        "description": ""
-    },
-    "batchAuditAuthenticationPhoto": {
-        "message": "Revisar em lote as fotos de autenticação",
-        "description": ""
-    },
-    "photoAuditorCl": {
-        "message": "Foto auditor:",
-        "description": ""
-    },
-    "moveDown": {
-        "message": "Mover para baixo",
-        "description": ""
-    },
-    "fold": {
-        "message": "Recolher",
-        "description": ""
-    },
-    "ISee": {
-        "message": "Entendi",
-        "description": ""
-    },
-    "auditTips12": {
-        "message": "Aguarde, por favor, o carregamento da imagem anterior",
-        "description": ""
-    },
-    "addExamRoom": {
-        "message": "Adicionar sala de exame",
-        "description": ""
-    },
-    "faceAuthTips3": {
-        "message": "A foto de autenticação é usada para o exame de reconhecimento facial, portanto, certifique-se de enviar uma foto real. Após o envio da foto, o professor pode revisá-la; se for descoberto que a foto não corresponde à pessoa, será considerada cola e pode fazer com que o desempenho do teste seja cancelado.",
-        "description": ""
-    },
-    "weekPublish": {
-        "message": "Divulgado em {n} semanas",
-        "description": ""
-    },
-    "passScoreCl": {
-        "message": "Nota mínima:",
-        "description": ""
-    },
-    "toBeApprovedCl": {
-        "message": "Envios Pendentes:",
-        "description": ""
-    },
-    "randomTips11": {
-        "message": "Estrutura da prova incompleta. Checar, editar e tentar novamente.",
-        "description": ""
-    },
-    "queTypeArray[16]": {
-        "message": "Exercício de preenchimento de lacunas",
-        "description": ""
-    },
-    "networkErrorTips2": {
-        "message": "Erro de rede, Clique em {button} Recarregar",
-        "description": ""
-    },
-    "onlyPCExeTips1": {
-        "message": "Selecione esta opção para instalar o Software do Cliente de Teste do ULearning em seu computador antes do Exame. Atualmente, apenas Sistemas Win7 ou mais recentes são suportados; Mac não é suportado. Para evitar exceções no Exame Oficial, é recomendável agendar com antecedência um Exame Simulado para teste.",
-        "description": ""
-    },
-    "examTips3": {
-        "message": "O tempo de atraso permitido foi excedido. Não é possível entrar na avaliação",
-        "description": ""
-    },
-    "roomTips12": {
-        "message": "Configure a duração do período da turma",
-        "description": ""
-    },
-    "totalScoreUp": {
-        "message": "Classificar por Pontuação total em ordem crescente",
-        "description": ""
-    },
-    "offlineTip": {
-        "message": "Configure o URL de avaliação desconectado antes de prosseguir.",
-        "description": ""
-    },
-    "difficulties": {
-        "message": "difícil",
-        "description": ""
-    },
-    "difficultyLevelArray[4]": {
-        "message": "difícil",
-        "description": ""
-    },
-    "openMonitorContent1": {
-        "message": "1. Captura contínua: Captura a foto do candidato a cada 1 minuto.",
-        "description": ""
-    },
-    "examHeadTips1": {
-        "message": "Aqui exibe uma lista com todas as avaliações, o Responsável pelo curso pode Publicar/Ver as avaliações para todas as Turmas, e o professor pode apenas Publicar/Ver as avaliações de sua própria Turma.",
-        "description": ""
-    },
-    "faceAuthTips6": {
-        "message": "Teste o reconhecimento facial com sucesso antes de carregar.",
-        "description": ""
-    },
-    "UTestLogout": {
-        "message": "Sair",
-        "description": ""
-    },
-    "deviceID": {
-        "message": "ID do dispositivo: {id}",
-        "description": ""
-    },
-    "gradeTips8": {
-        "message": "Duração de saída longa, exceção + 1",
-        "description": ""
-    },
-    "photoMonitor1": {
-        "message": "Ative a monitorização por captura de imagem, a cada 3 a 5 minutos serão capturadas fotos dos candidatos e exibidas na página de monitoramento de exames",
-        "description": ""
-    },
-    "expandEndTime": {
-        "message": "Estender data de conclusão",
-        "description": ""
-    },
-    "clearfixMonitorRecords": {
-        "message": "Limpar registro de monitoramento",
-        "description": ""
-    },
-    "general": {
-        "message": "Geral",
-        "description": ""
-    },
-    "attachUploadQ": {
-        "message": "Questão de Upload de Anexo",
-        "description": ""
-    },
-    "conceptDesc": {
-        "message": "Conceitos explicados:",
-        "description": ""
-    },
-    "auditTips25": {
-        "message": "Ocorreu uma exceção durante o carregamento",
-        "description": ""
-    },
-    "auditPassVerb": {
-        "message": "Revisado e aprovado",
-        "description": ""
-    },
-    "afterExamFinishedTips2": {
-        "message": "Exibir após {n} dias após a conclusão da avaliação",
-        "description": ""
-    },
-    "selectExam": {
-        "message": "Selecionar avaliação",
-        "description": ""
-    },
-    "batchNo": {
-        "message": "sessão{n}",
-        "description": ""
-    },
-    "unuploadedPhotosAlt": {
-        "message": "Foto não carregada",
-        "description": ""
-    },
-    "addExam": {
-        "message": "Adicionar Avaliação",
-        "description": ""
-    },
-    "waitTeaAudit": {
-        "message": "Pendente de revisão do professor",
-        "description": ""
-    },
-    "confirmDeletePhoto": {
-        "message": "Tem certeza de que deseja excluir a foto instantânea de todos os alunos da turma atual?",
-        "description": ""
-    },
-    "auditTips26": {
-        "message": "Ao limpar uma foto ela não pode ser recuperada, confirmar a limpeza?",
-        "description": ""
-    },
-    "roomTips8": {
-        "message": "Observação: após a prorrogação da Data de conclusão, o Tempo de exame dos Alunos que chegarem atrasados ou que por outros motivos tiveram tempo de Avaliação insuficiente será prorrogado conforme o necessário. As Avaliações normais e os Alunos que já Entregaram trabalhos não serão afetados.",
-        "description": ""
-    },
-    "batchExportAuthenticationPhoto": {
-        "message": "Importações em lote de fotos de autenticação",
-        "description": ""
-    },
-    "deletePhoto2": {
-        "message": "Excluir foto instantânea",
-        "description": ""
-    },
-    "setExamTips3": {
-        "message": "O exame pelo celular não suporta questões de fórmula.",
-        "description": ""
-    },
-    "scoreStatistics": {
-        "message": "Estatísticas de Nota",
-        "description": ""
-    },
-    "setExamStructure": {
-        "message": "Configurações da estrutura de prova",
-        "description": ""
-    },
-    "commitImmediatelyShow": {
-        "message": "Divulgar após a entrega do trabalho",
-        "description": ""
-    },
-    "batchNoTime": {
-        "message": "Sessão {n}: {startTime} a {endTime}",
-        "description": ""
-    },
-    "setExamTips9": {
-        "message": "(Este é um serviço pago e a sua Instituição de ensino ainda não o ativou. Se precisar de ativá-lo, entre em contato com o Atendimento ao Cliente: 400-610-7808)",
-        "description": ""
-    },
-    "searchTip": {
-        "message": "Digitar palavra-chave pesquisar",
-        "description": ""
-    },
-    "detailTips1": {
-        "message": "1. Sempre que o Aluno não conseguir entrar em uma Avaliação por meio de reconhecimento facial, ele poderá utilizar este Código de Verificação para acessar.",
-        "description": ""
-    },
-    "recoverErrorTips": {
-        "message": "Falha ao restaurar, tente novamente posteriormente!",
-        "description": ""
-    },
-    "auditTips20": {
-        "message": "Importação concluída, importação bem-sucedida",
-        "description": ""
-    },
-    "someClassAndStu": {
-        "message": "Turmas / Alunos",
-        "description": ""
-    },
-    "normalClassroom": {
-        "message": "Sala de aula",
-        "description": ""
-    },
-    "selectExamPaper": {
-        "message": "Selecionar prova",
-        "description": ""
-    },
-    "roomEditorTip16": {
-        "message": "Capacidade de assentos da sessão {n} é menor que o número de candidatos",
-        "description": ""
-    },
-    "markingTips3": {
-        "message": "Participar da correção",
-        "description": ""
-    },
-    "examDaysPublish": {
-        "message": "Após {n} dias do Conclusão da Avaliação, Divulgar",
-        "description": ""
-    },
-    "roomTips4": {
-        "message": "Este professor ainda não possui nenhuma turma",
-        "description": ""
-    },
-    "averageScore": {
-        "message": "Nota média",
-        "description": ""
-    },
-    "exportTable": {
-        "message": "exportar tabela",
-        "description": ""
-    },
-    "roomTips1": {
-        "message": "Sem dados, edite os critérios de consulta",
-        "description": ""
-    },
-    "auditTips23": {
-        "message": "Exceção na importação de imagem",
-        "description": ""
-    },
-    "remainSeat": {
-        "message": "Vagas disponíveis",
-        "description": ""
-    },
-    "auditTipsClassroom": {
-        "message": "Foi habilitada a validação por reconhecimento facial, é preciso fazer o upload da foto de autenticação do candidato. As fotos podem ser importadas em lote pelos professores ou podem ser carregadas pelos próprios alunos. As fotos dos próprios alunos podem ser revisadas pelos professores.",
-        "description": ""
-    },
-    "roomEditorTips17": {
-        "message": "O número de pessoas movidas não pode ser zero",
-        "description": ""
-    },
-    "examinationAchievementsAnalysis": {
-        "message": "Analisar notas de avaliação",
-        "description": ""
-    },
-    "queTypeArray[24]": {
-        "message": "Exercícios de cálculo com fórmulas",
-        "description": ""
-    },
-    "detailedAnalysis": {
-        "message": "Analisar em detalhes",
-        "description": ""
-    },
-    "commitTime": {
-        "message": "Data de envio",
-        "description": ""
-    },
-    "faceAuthTips10": {
-        "message": "Ajustar o tamanho e a posição da imagem",
-        "description": ""
-    },
-    "auditTips13": {
-        "message": "Selecione os Alunos a serem revisados",
-        "description": ""
-    },
-    "deviation": {
-        "message": "Desvio de olhar > 2 segundos",
-        "description": ""
-    },
-    "toBeAudit": {
-        "message": "Pendente",
-        "description": ""
-    },
-    "randomTips10": {
-        "message": "O nome das partes deve ter entre 1 e 200 Caracteres",
-        "description": ""
-    },
-    "markingTips1": {
-        "message": "Número de provas que contêm questões subjetivas:",
-        "description": ""
-    },
-    "paperAccuracy": {
-        "message": "Estatísticas de porcentagem de acertos da prova",
-        "description": ""
-    },
-    "exanStuList": {
-        "message": "Lista de Candidatos",
-        "description": ""
-    },
-    "classRange": {
-        "message": "Escopo da turma: {className}",
-        "description": ""
-    },
-    "leaveExamTip": {
-        "message": "O aluno Saiu da sala de aula mais vezes do que o número de vezes especificado e já finalizou forçadamente o Avaliação. Caso considere que o Alumno violou as regras do Avaliação, você pode permitir que ele faça uma Prova de recuperação",
-        "description": ""
-    },
-    "faceServiceTipsNew": {
-        "message": "Reconhecimento facial e Vigilância por câmera são serviço pago. Sua Instituição de ensino Ainda não ativou. Entre em contato com o Atendimento ao Cliente para ativar.",
-        "description": ""
-    },
-    "pdfGeneration": {
-        "message": "Gerando PDF...",
-        "description": ""
-    },
-    "noDataTip": {
-        "message": "Sem dados. Adicione estudantes à avaliação ou edite os critérios de pesquisa",
-        "description": ""
-    },
-    "roomTips14": {
-        "message": "Digite o número do aluno / nome para pesquisar",
-        "description": ""
-    },
-    "subQueScoreCl": {
-        "message": "Pontuação de cada questão:",
-        "description": ""
-    },
-    "faceAuthTips1": {
-        "message": "Clique para carregar a Foto de autenticação",
-        "description": ""
-    },
-    "seatNumber": {
-        "message": "Capacidade de assentos",
-        "description": ""
-    },
-    "randomTips9": {
-        "message": "Adicione pelo menos uma parte à prova",
-        "description": ""
-    },
-    "downloadPCExe": {
-        "message": "download o Software do cliente de teste",
-        "description": ""
-    },
-    "paperStatistics": {
-        "message": "Estatísticas de uso da prova",
-        "description": ""
-    },
-    "commitLimitTip": {
-        "message": "Proibido entregar trabalhos nos primeiros {count} minutos do início da Avaliação",
-        "description": ""
-    },
-    "mostExamCount": {
-        "message": "máximo {count} vez",
-        "description": ""
-    },
-    "faceAuthTips11": {
-        "message": "Arraste a caixa de linha tracejada para ajustar a dimensão e localização",
-        "description": ""
-    },
-    "randomTips6": {
-        "message": "【Meus bancos de questões】",
-        "description": ""
-    },
-    "addStudent": {
-        "message": "Adicionar alunos",
-        "description": ""
-    },
-    "roomEditorTips2": {
-        "message": "A capacidade total de assentos da sala de exame selecionada deve ser maior que este valor.",
-        "description": ""
-    },
-    "queTypeArray[14]": {
-        "message": "Questões de vocabulário",
-        "description": ""
-    },
-    "remoteRecordTime": {
-        "message": "Duração do salvamento do registro de respostas na plataforma",
-        "description": ""
-    },
-    "verificationType": {
-        "message": "Método de validação",
-        "description": ""
-    },
-    "chooseBatch": {
-        "message": "Selecione a turma para realizar a avaliação",
-        "description": ""
-    },
-    "examRoomArrangement": {
-        "message": "Gestão de Salas de Exame",
-        "description": ""
-    },
-    "onlyPCExeBtnTips": {
-        "message": "Utilize o software do cliente de teste da ULearning para realizar a avaliação",
-        "description": ""
-    },
-    "deleteFailed": {
-        "message": "Falha ao excluir",
-        "description": ""
-    },
-    "openMonitorItem": {
-        "message": "Ative a Vigilância por câmera, incluindo Captura contínua, Detecção de gestos por IA e Gravação de aula de Comportamento anômalo",
-        "description": ""
-    },
-    "difficultyLevelArray[2]": {
-        "message": "Geral",
-        "description": ""
-    },
-    "randomTips12": {
-        "message": "O índice não contém questões suficientes. Adicione questões.",
-        "description": ""
-    },
-    "comfirmDelete": {
-        "message": "Confirma exclusão?",
-        "description": ""
-    },
-    "afterDaysShow": {
-        "message": "Exibir em {n} dias",
-        "description": ""
-    },
-    "auditPassed": {
-        "message": "Revisado e aprovado",
-        "description": ""
-    },
-    "participantsClassAndStu": {
-        "message": "Participar da turma/aluno",
-        "description": ""
-    },
-    "setExamTips12": {
-        "message": "Provas repetidas removidas",
-        "description": ""
-    },
-    "openMonitorContent2": {
-        "message": "2. Detecção de Gestos por IA: O Sistema utiliza a Câmera para monitorar em tempo real a postura do Candidato, podendo detectar e registrar comportamentos como Abandonar o lugar, Desvio de olhar e Bate-papo durante o exame.",
-        "description": ""
-    },
-    "exceptionReminderFilter": {
-        "message": "Filtrar informações de exceção",
-        "description": ""
-    },
-    "startDatePrefix": {
-        "message": "começar em: {time}",
-        "description": ""
-    },
-    "queTypeArray[1]": {
-        "message": "Questões de múltipla escolha",
-        "description": ""
-    },
-    "peopleNum": {
-        "message": "Número de pessoas",
-        "description": ""
-    },
-    "deletePaper": {
-        "message": "Excluir Prova",
-        "description": ""
-    },
-    "roomEditorTips12": {
-        "message": "Digite o nome da sala de exame",
-        "description": ""
-    },
-    "examStudentOf": {
-        "message": "{n}Candidatos",
-        "description": ""
-    },
-    "roomTips3": {
-        "message": "Digite o nome ou o número do aluno para pesquisar",
-        "description": ""
-    },
-    "roomEditorTips6": {
-        "message": "Clique para selecionar uma Turma, você pode editar a sala de exame; clique em duas turmas, você pode trocar as salas de exame.",
-        "description": ""
-    },
-    "gradeSumCl": {
-        "message": "Questões objetivas/questões subjetivas/pontuação total",
-        "description": ""
-    },
-    "fractionalStatistics": {
-        "message": "Estatísticas de notas",
-        "description": ""
-    },
-    "spokenModule": {
-        "message": "Módulo Falar",
-        "description": ""
-    },
-    "remarkTips2": {
-        "message": "Não há prova para corrigir",
-        "description": ""
-    },
-    "etcOfPeople": {
-        "message": "{name} e mais {n} pessoa",
-        "description": ""
-    },
-    "queIndex": {
-        "message": "Questão {n}",
-        "description": ""
-    },
-    "batchOpration": {
-        "message": "Operação em lote",
-        "description": ""
-    },
-    "queTypeArray[22]": {
-        "message": "questões de múltipla escolha",
-        "description": ""
-    },
-    "auditTips8": {
-        "message": "Faça o upload de todas as fotos compactadas no formato ZIP.",
-        "description": ""
-    },
-    "totalQue": {
-        "message": "{n} cursos no total",
-        "description": ""
-    },
-    "seleteMenu": {
-        "message": "selecionar Índice",
-        "description": ""
-    },
-    "formulaQ": {
-        "message": "Exercícios de cálculo com fórmulas",
-        "description": ""
-    },
-    "noDesignatedExamRoom": {
-        "message": "Ainda não designou sala de exame",
-        "description": ""
-    },
-    "auditTimeCl": {
-        "message": "Duração da revisão:",
-        "description": ""
-    },
-    "PC": {
-        "message": "computador",
-        "description": ""
-    },
-    "exceptionRate": {
-        "message": "onde o Índice de Anomalia",
-        "description": ""
-    },
-    "myAuthenticationPhoto": {
-        "message": "Minha Foto de autenticação",
-        "description": ""
-    },
-    "passRate": {
-        "message": "Taxa de Aprovação",
-        "description": ""
-    },
-    "scoreTip1": {
-        "message": "*anotação: 1. todos os dados no relatório não incluem Aluno faltando.",
-        "description": ""
-    },
-    "classOf": {
-        "message": "Turma: {className}",
-        "description": ""
-    },
-    "inputClassNameSearch": {
-        "message": "Digite o nome da turma para pesquisar",
-        "description": ""
-    },
-    "unlimitTimes": {
-        "message": "Número ilimitado de tentativas",
-        "description": ""
-    },
-    "classAndStudent": {
-        "message": "Turma/Aluno",
-        "description": ""
-    },
-    "examStuNum": {
-        "message": "Avaliação feita por {0} pessoas",
-        "description": ""
-    },
-    "openMonitorContent": {
-        "message": "Vigilância por câmera inclui:",
-        "description": ""
-    },
-    "queTypeArray[6]": {
-        "message": "questão de leitura",
-        "description": ""
-    },
-    "questionNumber": {
-        "message": "Quantidade de questões:",
-        "description": ""
-    },
-    "resultPublic": {
-        "message": "Divulgação",
-        "description": ""
-    },
-    "maxTextInputTips": {
-        "message": "Digite no máximo 2000 letras",
-        "description": ""
-    },
-    "photoRemoved": {
-        "message": "Foto excluída",
-        "description": ""
-    },
-    "borwserTip": {
-        "message": "Atualmente seu navegador é o {browser}, utilize o Internet Explorer para realizar as avaliações!",
-        "description": ""
-    },
-    "readingQBankedCloze": {
-        "message": "questão de leitura (Exercício de preenchimento de lacuna)",
-        "description": ""
-    },
-    "noStudent": {
-        "message": "Nenhum aluno",
-        "description": ""
-    },
-    "autoGroupPaper": {
-        "message": "Compor exame automático",
-        "description": ""
-    },
-    "faceAuthTips8": {
-        "message": "Por favor, fique de frente para a câmera, garantindo que a iluminação seja adequada",
-        "description": ""
-    },
-    "readTip2": {
-        "message": "Indica que a prova contém questões subjetivas que precisam ser corrigidas manualmente.",
-        "description": ""
-    },
-    "examMonitorRecords": {
-        "message": "Registro de Monitoramento de Avaliações",
-        "description": ""
-    },
-    "inputExamName": {
-        "message": "Digite o título do exame",
-        "description": ""
-    },
-    "roomEditorTips20": {
-        "message": "Capacidade de assentos insuficiente",
-        "description": ""
-    },
-    "remarkTips9": {
-        "message": "Digite a Nota correta com uma casa decimal",
-        "description": ""
-    },
-    "roomEditorTips13": {
-        "message": "Digite um número maior que 0",
-        "description": ""
-    },
-    "faceVerificationCl": {
-        "message": "Verificação de rosto:",
-        "description": ""
-    },
-    "completionQ": {
-        "message": "Exercício de preenchimento de lacunas",
-        "description": ""
-    },
-    "allTeachers": {
-        "message": "Todos os professores",
-        "description": ""
-    },
-    "answerDurationCl": {
-        "message": "Duração da prova: {count}",
-        "description": ""
-    },
-    "monitorTips1": {
-        "message": "1. Se o aluno não puder entrar na avaliação por meio de reconhecimento facial, poderá usar este código de validação para entrar.",
-        "description": ""
-    },
-    "recommendedAnswer": {
-        "message": "Resposta recomendada:",
-        "description": ""
-    },
-    "pleaseSelectExam": {
-        "message": "Selecione a Avaliação",
-        "description": ""
-    },
-    "modifyBatch": {
-        "message": "editar sessão",
-        "description": ""
-    },
-    "timeSecond": {
-        "message": "{seconds} segundos",
-        "description": ""
-    },
-    "approximateAnswerBatchScore": {
-        "message": "Pontuar respostas aproximadas em lote",
-        "description": ""
-    },
-    "seatOf": {
-        "message": "{n} lugar(es)",
-        "description": ""
-    },
-    "auditTips17": {
-        "message": "Importação concluída, importada com sucesso",
-        "description": ""
-    },
-    "roomTips7": {
-        "message": "Ainda não há alunos",
-        "description": ""
-    },
-    "shouldArrivePeople": {
-        "message": "Comparecimento esperado",
-        "description": ""
-    },
-    "normalState": {
-        "message": "Estado normal",
-        "description": ""
-    },
-    "studentBrackets": {
-        "message": "Aluno",
-        "description": ""
-    },
-    "examPapers": {
-        "message": "Prova de Avaliação",
-        "description": ""
-    },
-    "recover": {
-        "message": "restaurar",
-        "description": ""
-    },
-    "questionNumSToL": {
-        "message": "Organizado do número menor para o maior",
-        "description": ""
-    },
-    "openedAnonymousMarking": {
-        "message": "Correção anônima ativada",
-        "description": ""
-    },
-    "setExamTips13": {
-        "message": "Não é possível Excluir uma Prova com Registro de Respostas",
-        "description": ""
-    },
-    "scoreCl": {
-        "message": "Pontuação:",
-        "description": ""
-    },
-    "descriptionCl": {
-        "message": "Observação:",
-        "description": ""
-    },
-    "subjectiveQuestions": {
-        "message": "Nota da questão subjetiva",
-        "description": ""
-    },
-    "UTestInputPsd": {
-        "message": "Digite sua senha",
-        "description": ""
-    },
-    "localRecordTips2": {
-        "message": "Atenção: O Registro de Respostas Local existe para impedir a perda do Registro de Respostas em casos extremos, como a falha na rede, entretanto, na maioria das vezes, não é necessário restaurá-lo manualmente. A restauração do Registro de Respostas Local substituirá o Registro de Respostas já Carregado na plataforma. Assim, caso seja necessário restaurar, compare a duração de salvamento do Registro de Respostas e opere com cautela.",
-        "description": ""
-    },
-    "allAnswer": {
-        "message": "Responder Todos",
-        "description": ""
-    },
-    "webEnvTest": {
-        "message": "Verificação do Ambiente de Avaliação Online",
-        "description": ""
-    },
-    "remarkByQuestion": {
-        "message": "Corrigir questão por questão",
-        "description": ""
-    },
-    "approvedNumber": {
-        "message": "Quantidade de Correções Vistas",
-        "description": ""
-    },
-    "personnel": {
-        "message": "Número de pessoas {0} / {1}%",
-        "description": ""
-    },
-    "extractQueNumberCl": {
-        "message": "Número de questões sorteadas:",
-        "description": ""
-    },
-    "customExport": {
-        "message": "Exportação Personalizada de Notas",
-        "description": ""
-    },
-    "enable": {
-        "message": "Habilitar",
-        "description": ""
-    },
-    "matchingQ": {
-        "message": "Questão de Correspondência",
-        "description": ""
-    },
-    "recoverLocalExamRecord": {
-        "message": "Restaurar registros locais de Respostas às Perguntas",
-        "description": ""
-    },
-    "roomTips6": {
-        "message": "Nenhum aluno correspondente encontrado na pesquisa",
-        "description": ""
-    },
-    "totalScore2": {
-        "message": "Pontuação total:",
-        "description": ""
-    },
-    "queTypeArray[12]": {
-        "message": "Módulo de Descrição",
-        "description": ""
-    },
-    "gradeTips6": {
-        "message": "Quando o comportamento anômalo exceder o número de vezes especificado, o sistema forçará a entrega de trabalhos.",
-        "description": ""
-    },
-    "inCorrectPhoto": {
-        "message": "A foto não corresponde à pessoa",
-        "description": ""
-    },
-    "examTips6": {
-        "message": "Nenhuma Avaliação encontrada",
-        "description": ""
-    },
-    "detailTips5": {
-        "message": "3. O código de verificação é válido por 15 minutos. Se ele expirar, atualize para obtê-lo novamente",
-        "description": ""
-    },
-    "remarkTips10": {
-        "message": "A nota não pode exceder a Pontuação total",
-        "description": ""
-    },
-    "questionNumLToS": {
-        "message": "Do maior ao menor do número da questão",
-        "description": ""
-    },
-    "participants": {
-        "message": "participar",
-        "description": ""
-    },
-    "examTips7": {
-        "message": "Deseja realmente excluir esta Avaliação?",
-        "description": ""
-    },
-    "closeAnonymousMarking": {
-        "message": "Fechar correção anônima",
-        "description": ""
-    },
-    "markPapers": {
-        "message": "Correção de Provas",
-        "description": ""
-    },
-    "faceServiceTips": {
-        "message": "O Reconhecimento facial e o Monitoramento de captura de imagem são serviços pagos e ainda não estão ativados em sua instituição. Entre em contato com o Atendimento ao Cliente para ativá-los.",
-        "description": ""
-    },
-    "pcAndMobile": {
-        "message": "computador e Telefone celular",
-        "description": ""
-    },
-    "dayShowExam": {
-        "message": "Exibir {n} dias após a conclusão da avaliação",
-        "description": ""
-    },
-    "faceAuthenticateFailed": {
-        "message": "A pessoa reprovou no Reconhecimento facial.",
-        "description": ""
-    },
-    "faceAuthTips4": {
-        "message": "A foto de autenticação não pode ser editada após ser carregada",
-        "description": ""
-    },
-    "markingTips4": {
-        "message": "Quantidade de correções atribuídas",
-        "description": ""
-    },
-    "showScope": {
-        "message": "Exibir alcance",
-        "description": ""
-    },
-    "previewPapers": {
-        "message": "Pré-visualizar Prova",
-        "description": ""
-    },
-    "modifyBatchs": {
-        "message": "Editar turma",
-        "description": ""
-    },
-    "recordProgressTips2": {
-        "message": "Se o navegador bloquear o pop-up, selecione sempre permitir janelas pop-up do website.",
-        "description": ""
-    },
-    "recordProgressTips3": {
-        "message": "Gerando registro de respostas, concluído",
-        "description": ""
-    },
-    "recordProgressTips1": {
-        "message": "O tempo de exportação pode levar mais tempo, por favor, aguarde.",
-        "description": ""
-    },
-    "cancelExport": {
-        "message": "Cancelar exportação",
-        "description": ""
-    },
-    "randomTips13": {
-        "message": "O número de questões sorteadas para cada Tipo de item deve ser um número inteiro entre 1 e 100",
-        "description": ""
-    },
-    "gradeTips9": {
-        "message": "Ao atingir o número de vezes especificado durante a saída da sala de aula, o sistema forçará o término do exame",
-        "description": ""
-    },
-    "screenMonitorTips7": {
-        "message": "Selecione pelo menos um dos dois modos de monitoramento",
-        "description": ""
-    },
-    "screenMonitorTips5": {
-        "message": "Finalização forçada de exame após sair por mais de {s} segundo(s)",
-        "description": ""
-    },
-    "screenMonitorTips6": {
-        "message": "Pode ser definido entre 5 e 300 segundos",
-        "description": ""
-    },
-    "screenMonitorTips4": {
-        "message": "Após acumular {n} saídas, a finalização forçada de exame será aplicada",
-        "description": ""
-    },
-    "randomTips14": {
-        "message": "A pontuação de cada questão deve estar entre 0 a 100",
-        "description": ""
-    },
-    "randomTips16": {
-        "message": "O tipo de item da prova selecionada não suporta copiar",
-        "description": ""
-    },
-    "gradeTips10": {
-        "message": "Se sair da sala de aula durante mais tempo do que o permitido, o sistema forçará a entrega dos trabalhos.",
-        "description": ""
-    },
-    "paperNum": {
-        "message": "Quantidade de exames compostos",
-        "description": ""
-    },
-    "macVersion": {
-        "message": "Versão Mac",
-        "description": ""
-    },
-    "macVersionDesc": {
-        "message": "Suporta Sistema macOS 10.11 e versões posteriores",
-        "description": ""
-    },
-    "windowsVersionDesc": {
-        "message": "Suporta Sistema operacional Windows 7 e versões superiores",
-        "description": ""
-    },
-    "windowsVersion": {
-        "message": "Versão para o Sistema operacional Windows",
-        "description": ""
-    },
-    "shareExamUrl": {
-        "message": "Partilhar URL da avaliação",
-        "description": ""
-    },
-    "shareExamDesc": {
-        "message": "Compartilhe o URL da avaliação com os candidatos, para que eles possam entrar e responder às perguntas da avaliação diretamente.",
-        "description": ""
-    },
-    "examUrl": {
-        "message": "URL da avaliação",
-        "description": ""
-    },
-    "noBatchTip1": {
-        "message": "Deseja criar uma nova sessão?",
-        "description": ""
-    },
-    "noBatchDesc": {
-        "message": "Nenhuma sessão não iniciada.",
-        "description": ""
-    },
-    "toAddBatch": {
-        "message": "Criar sessão",
-        "description": ""
-    },
-    "startTimeErrorTip": {
-        "message": "O Horário de Início não pode estar antes da Hora atual",
-        "description": ""
-    },
-    "noBatchTip": {
-        "message": "O Re-Teste pode adicionar um aluno apenas para uma Sessão não iniciada.",
-        "description": ""
-    },
-    "cannotAddTip": {
-        "message": "O tempo restante da sessão atual é insuficiente para estender o tempo de resposta para evitar confusão.",
-        "description": ""
-    },
-    "addTimeDesc": {
-        "message": "Esta funcionalidade pode ser usada para aumentar o tempo da prova em lote para todos os alunos que estão fazendo uma prova na sessão atual. Atenção:{br1}1. Isso só afetará os alunos que estão fazendo a prova. Os alunos que não entraram na prova e os que já entregaram os trabalhos não serão afetados.{br2}2. Após a extensão, a contagem regressiva no Portal do Aluno será atualizada em alguns Segundo.{br3}3. Se o Tempo restante na sessão atual for menor do que o tempo que você precisa estender, estenda a Data de conclusão da sessão ao mesmo tempo.",
-        "description": ""
-    },
-    "addBatchLabel": {
-        "message": "Estender simultaneamente a Data de conclusão da Sessão atual",
-        "description": ""
-    },
-    "addTimeTip": {
-        "message": "Digite um número inteiro entre 1 e 100",
-        "description": ""
-    },
-    "addAnswerTime": {
-        "message": "Estender a duração para responder às perguntas",
-        "description": ""
-    },
-    "editBatchTimeTip": {
-        "message": "Atenção: A sessão atual está em andamento, portanto não é possível editar o Horário de Início. A Data de conclusão pode ser adiada, mas não antecipada.",
-        "description": ""
-    },
-    "batchExpandNew": {
-        "message": "estender por {count} minuto",
-        "description": ""
-    },
-    "roomTips15": {
-        "message": "A duração da extensão precisa estar entre 1-100",
-        "description": ""
-    },
-    "roomTips16": {
-        "message": "Sessão atual concluída",
-        "description": ""
-    },
-    "activeExam": {
-        "message": "Ativar Avaliação",
-        "description": ""
-    },
-    "waitExeclDownload": {
-        "message": "Aguarde um momento, exportando...",
-        "description": ""
-    },
-    "derivedExaminationAnalysisExcel": {
-        "message": "Exportar para um arquivo do Microsoft Excel",
-        "description": ""
-    },
-    "donwloadFalse": {
-        "message": "Falha ao exportar",
-        "description": ""
-    },
-    "exportAnalysisExcelreport": {
-        "message": "exportar relatório de análise",
-        "description": ""
-    },
-    "pleaseSelectExamTime": {
-        "message": "A duração da prova deve ser maior ou igual a 0",
-        "description": ""
-    },
-    "excelMsg": {
-        "message": "Usando essa funcionalidade, é possível exportar os dados principais do relatório de análise para o Microsoft Excel. Selecione primeiro o intervalo de turmas que desejam analisar.",
-        "description": ""
-    },
-    "participantsPeople": {
-        "message": "Pessoas envolvidas:",
-        "description": ""
-    },
-    "disable": {
-        "message": "Desativar",
-        "description": ""
-    },
-    "setExamTips1": {
-        "message": "(Não é possível alterar depois de iniciar a Avaliação)",
-        "description": ""
-    },
-    "abnormalMonitor": {
-        "message": "Monitoramento de exceções",
-        "description": ""
-    },
-    "randomItemTip": {
-        "message": "Inclui questões de múltipla escolha e múltipla escolha",
-        "description": ""
-    },
-    "randomQuestion": {
-        "message": "Questões aleatórias",
-        "description": ""
-    },
-    "randomItem": {
-        "message": "Opções aleatórias",
-        "description": ""
-    },
-    "waterMark": {
-        "message": "Ativar Responder às perguntas com marca d'água",
-        "description": ""
-    },
-    "waterMarkTip": {
-        "message": "Pode ser usado para evitar vazamento de informações na captura de tela",
-        "description": ""
-    },
-    "maxTextInputTips1": {
-        "message": "Digite no máximo {n} caracteres",
-        "description": ""
-    },
-    "radio1": {
-        "message": "Apenas questões objetivas",
-        "description": ""
-    },
-    "remarkTip6": {
-        "message": "Selecione o alcance do tipo de item que precisa reavaliar pontuação:",
-        "description": ""
-    },
-    "radio2": {
-        "message": "Todos os tipos de questões compatíveis com a Avaliação do Sistema (incluindo questões objetivas, exercícios de preenchimento de lacunas, exercícios de cálculo com fórmulas, Exercícios de Leitura Oral)",
-        "description": ""
-    },
-    "gradingAgain": {
-        "message": "Iniciar avaliação",
-        "description": ""
-    },
-    "sequentialAnswer": {
-        "message": "Não é permitido pular questões",
-        "description": ""
-    },
-    "remarkTip7": {
-        "message": "Observação: A reavaliação da pontuação não afetará a nota de itens avaliados manualmente como perguntas de resposta curta. Exercícios de preenchimento de lacunas e outros tipos de item suportados pela classificação do sistema, se já tiverem sido corrigidos manualmente, a reavaliação da pontuação pelo sistema substituirá o registro de correção manual; use-a com cautela.",
-        "description": ""
-    },
-    "sequentialAnswerTip": {
-        "message": "Com esta opção ativada, apenas uma questão por página será exibida para o candidato responder e somente em Sequência.",
-        "description": ""
-    },
-    "radio2Msg": {
-        "message": "Todos os tipos de questão que suportam reavaliação de pontuação (incluindo os tipos de questão objetiva mencionados acima, mais exercícios de preenchimento de lacunas e exercícios de leitura oral)",
-        "description": ""
-    },
-    "radio1Msg": {
-        "message": "Somente questões objetivas (incluindo perguntas de múltipla escolha, múltipla escolha, julgamento, ordenação, seleção suspensa, exercício de preenchimento de lacuna e exercício de preenchimento de texto)",
-        "description": ""
-    },
-    "teacherexamListNone": {
-        "message": "Sem sessões avaliativas agendadas",
-        "description": ""
-    },
-    "ownSpieltagMsg": {
-        "message": "Somente o Criador da Avaliação pode operar",
-        "description": ""
-    },
-    "PCExeOrAppTips": {
-        "message": "Use o ULearning APP/Software do cliente de teste para participar da avaliação",
-        "description": ""
-    },
-    "systemRequireDesc1": {
-        "message": "- Sistema operacional Windows 7 ou superior{br}- macOS 14 ou superior",
-        "description": ""
-    },
-    "antiCheatingLevel": {
-        "message": "Nível Antibatota",
-        "description": ""
-    },
-    "equipmentRequireDesc": {
-        "message": "- Se a questão da prova contiver Vídeo, é necessário se equipar com Fone de ouvido interno/externo.{br}- Se a questão da prova contiver Gravação, é necessário se equipar Microfone interno/externo.{br1}- Se a Avaliação ativar o Reconhecimento facial/Vigilância por câmera, é necessário se equipar Câmera interna/externa.",
-        "description": ""
-    },
-    "systemRequire": {
-        "message": "Requisitos do Sistema",
-        "description": ""
-    },
-    "PCExe2": {
-        "message": "Cliente Bloqueia Tela",
-        "description": ""
-    },
-    "remarkTip5": {
-        "message": "Após o início da prova, se você editar a resposta ou a nota de uma questão da prova, use esta funcionalidade para avaliar novamente a prova classificada automaticamente.",
-        "description": ""
-    },
-    "descriptionCl1": {
-        "message": "A avaliação suporta vários Formas de Participação. Os requisitos de dispositivo e os níveis de prevenção de Batota variam de acordo com a Forma de Participação. selecionar o Forma de Participação adequado com base no cenário da avaliação.",
-        "description": ""
-    },
-    "systemRequireDesc3": {
-        "message": "Sistemas compatíveis: - iOS 9.0 ou superior<br>- Android 6.0 ou superior",
-        "description": ""
-    },
-    "antiCheatingLevelDesc3": {
-        "message": "Mais rigoroso. {br}Os candidatos precisam instalar um software de cliente de teste independente, depois de entrar no teste, não é possível sair da interface do teste no meio do caminho e só é possível sair entregando o trabalho.",
-        "description": ""
-    },
-    "antiCheatingLevelDesc1": {
-        "message": "Relativamente flexível.{br}Suporta todos os métodos de monitoramento básico, mas não pode restringir totalmente a saída do candidato durante o treinamento.",
-        "description": ""
-    },
-    "antiCheatingLevelDesc2": {
-        "message": "É muito rigoroso. {br}Além de todos os métodos básicos de monitoramento, o APP também possui vários mecanismos anti-fraude integrados, como proibir a divisão de tela e a gravação de tela; ao mesmo tempo, a detecção de comutação de tela também é mais rigorosa.",
-        "description": ""
-    },
-    "newOpenMonitorTips": {
-        "message": "O candidato deve manter a câmera ativada do começo ao fim e a imagem estável. Não é recomendado fazer o exame pelo celular.",
-        "description": ""
-    },
-    "equipmentRequire": {
-        "message": "Requisitos do dispositivo",
-        "description": ""
-    },
-    "systemRequireDesc2": {
-        "message": "- Navegador: Google Chrome / Edge / Safari",
-        "description": ""
-    },
-    "gradeTips12": {
-        "message": "Sistema Automático",
-        "description": ""
-    },
-    "choiceExamTypeTips": {
-        "message": "Por favor selecione pelo menos um tipo de avaliação",
-        "description": ""
-    },
-    "difficultyLevelArray1[4]": {
-        "message": "difícil",
-        "description": ""
-    },
-    "difficultyLevelArray1[2]": {
-        "message": "Geral",
-        "description": ""
-    },
-    "subQuestionLevel": {
-        "message": "Dificuldade de cada pergunta:",
-        "description": ""
-    },
-    "selectLevelip": {
-        "message": "Selecione pelo menos uma dificuldade",
-        "description": ""
-    },
-    "questionLevel": {
-        "message": "Nível de dificuldade da questão:",
-        "description": ""
-    },
-    "difficultyLevelArray1[1]": {
-        "message": "Relativamente fácil",
-        "description": ""
-    },
-    "difficultyLevelArray1[3]": {
-        "message": "difícil",
-        "description": ""
-    },
-    "difficultyLevelArray1[0]": {
-        "message": "fácil",
-        "description": ""
-    },
-    "localRecordTime1": {
-        "message": "Duração da gravação local",
-        "description": ""
-    },
-    "PCType": {
-        "message": "Faculdade ULearning",
-        "description": ""
-    },
-    "appOrPCexeType": {
-        "message": "ULearning APP / Cliente do software de avaliação",
-        "description": ""
-    },
-    "appOrPCType": {
-        "message": "ULearning APP/computador",
-        "description": ""
-    },
-    "examTypeTips": {
-        "message": "Utilize o {type} para acessar a Avaliação.",
-        "description": ""
-    },
-    "PCexeType": {
-        "message": "ULearning Software do cliente de teste",
-        "description": ""
-    },
-    "appType": {
-        "message": "ULearning APP",
-        "description": ""
-    },
-    "mobileMonitorCodeTitle": {
-        "message": "Console móvel de monitoramento",
-        "description": ""
-    },
-    "enableSignInDesc": {
-        "message": "1. O horário de início da inscrição começa no momento em que o professor apresentar o código de inscrição, independentemente do horário de início da prova; após o término de todas as sessões de prova, não será mais permitida a inscrição. {br}2. Para provas com inscrição ativada, recomenda-se reservar tempo para a inscrição no local ao agendar as sessões de prova para evitar confusão. {br1}3. Se a prova tiver várias oportunidades para responder, a inscrição é necessária apenas 1 vez. {br2}4. Após a inscrição, os candidatos podem acessar a prova para responder às perguntas somente com o dispositivo usado para inscrição. Se precisar trocar de dispositivo devido a uma situação especial, o candidato pode solicitar um código de verificação ao professor fiscal.",
-        "description": ""
-    },
-    "enableSignIn": {
-        "message": "Ativar o código de check-in do exame",
-        "description": ""
-    },
-    "exportType1": {
-        "message": "Exportar um ficheiro do Microsoft Excel com todas as turmas numa planilha de trabalho",
-        "description": ""
-    },
-    "answerNums": {
-        "message": "Número de pessoas fazendo uma prova: {num}",
-        "description": ""
-    },
-    "facePhotoVerify": {
-        "message": "Revisão da foto da pessoa",
-        "description": ""
-    },
-    "answerDuration1": {
-        "message": "Duração: {count}",
-        "description": ""
-    },
-    "courseClass": {
-        "message": "Disciplina - Turma",
-        "description": ""
-    },
-    "startExport": {
-        "message": "Começar a exportar",
-        "description": ""
-    },
-    "mobileMonitorCodeTip": {
-        "message": "dica: Se os professores que não fazem parte das equipes de disciplina precisarem contribuir para a supervisão, eles também podem usar o navegador do telefone para escanear este código QR e acessar o console de monitoramento móvel. Ao acessar usando o navegador do telefone, eles precisarão inserir o código de verificação alternativo.",
-        "description": ""
-    },
-    "exportType3": {
-        "message": "Exportar uma Ficheiro Microsoft Excel para cada Turma",
-        "description": ""
-    },
-    "exportInfo": {
-        "message": "Informações de Exportação:",
-        "description": ""
-    },
-    "naturalClass": {
-        "message": "Turma Administrativa / Turma Natural",
-        "description": ""
-    },
-    "enableSignInIntro": {
-        "message": "O check-in do exame é aplicável a cenários de exames concentrados em sala de aula, podendo ser usado para evitar exames substitutos fora do local. {br}Para exames com check-in ativado, os candidatos só poderão entrar no exame após fazerem o check-in por código QR. {br1}Antes do início do exame, o professor pode usar o celular para visualizar e exibir o código QR de check-in na página de monitoramento do exame do ULearning APP.",
-        "description": ""
-    },
-    "enableSignInTip": {
-        "message": "Válido apenas para Exame pelo celular. Ao ativar esta opção, os candidatos terão que fazer check-in por código QR para entrarem e responderem às perguntas.",
-        "description": ""
-    },
-    "mobileMonitorCodeIntro": {
-        "message": "O código de check-in do exame é um código QR dinâmico. Acesse o exame usando o APP 【Youxueyuan 2.0】 ou use o telefone celular para digitalizar o código QR abaixo para entrar no console móvel de monitoramento.",
-        "description": ""
-    },
-    "submitStatus": {
-        "message": "Coleta do papel em andamento",
-        "description": ""
-    },
-    "exportSignInExcel": {
-        "message": "Exportar registro",
-        "description": ""
-    },
-    "examSignIn": {
-        "message": "Check-in do exame",
-        "description": ""
-    },
-    "gradeTips11": {
-        "message": "Encerrar o exame antes do horário pelo professor",
-        "description": ""
-    },
-    "forceSubmitTip4": {
-        "message": "O aluno está respondendo às perguntas, ao utilizar esta funcionalidade, você irá forçar a coleta do papel do aluno. A coleta do papel pode ter um atraso de aproximadamente 10 segundos a 1 minuto. Essa operação é irrevogável, por isso, tenha cuidado ao utilizá-la.",
-        "description": ""
-    },
-    "enableSignInNote": {
-        "message": "Atenção:",
-        "description": ""
-    },
-    "exportSignInExcelDesc": {
-        "message": "Use essa funcionalidade para exportar o hist\\u00f3rico de presen\\u00e7a das sess\\u00f5es e das turmas selecionadas atualmente.",
-        "description": ""
-    },
-    "exportType": {
-        "message": "Forma de exportação:",
-        "description": ""
-    },
-    "exportType2": {
-        "message": "exportar um Ficheiro para o Microsoft Excel com uma Planilha de Trabalho para cada Turma",
-        "description": ""
-    },
-    "remarkSetting": {
-        "message": "Configurações de avaliação",
-        "description": ""
-    },
-    "gradeTips13": {
-        "message": "Captura de Tela de violação, Finalização forçada de exame do Sistema",
-        "description": ""
-    },
-    "screenshotMonitor": {
-        "message": "Ativar monitoramento de Captura de Tela",
-        "description": ""
-    },
-    "screenshotMonitorDesc": {
-        "message": "Válido apenas para o Exame pelo Celular, ao detectar que o Candidato realizou a Captura de Tela, na primeira vez é emitido um aviso, na segunda vez ocorre a Finalização forçada de exame",
-        "description": ""
-    },
-    "screenshotMonitorTip": {
-        "message": "Devido a características do sistema do telefone celular, esta funcionalidade está disponível apenas para iPhones; telefones Android já a proibiram diretamente durante avaliações",
-        "description": ""
-    },
-    "remarkSettingDesc": {
-        "message": "Questões de múltipla escolha parcialmente corretas",
-        "description": ""
-    },
-    "remarkSettingTip": {
-        "message": "Seleções erradas não geram Nota",
-        "description": ""
-    },
-    "openSafeKeyboard": {
-        "message": "Habilitar teclado antiscola",
-        "description": ""
-    },
-    "closeQuestionMsg": {
-        "message": "Depois de fechar, o aluno não poderá entrar no banco de questões para praticar. Deseja fechar?",
-        "description": ""
-    },
-    "studentExamStudentOf": {
-        "message": "Candidato: {n}",
-        "description": ""
-    },
-    "openSafeKeyboardTip1": {
-        "message": "O teclado seguro pode ser usado para evitar o comportamento de batota usando funções especiais do método de entrada do telefone celular, mas a experiência de entrada não é tão fluida quanto o teclado embutido do telefone celular. Se houver questões na prova que precisam digitar uma grande quantidade de texto, não é recomendado habilitá-lo.",
-        "description": ""
-    },
-    "helpMsg5": {
-        "message": "3. Cada questão pode ser Enviada após verificar a Resposta Certa e a Análise. Não há limites para o Número de tentativas.",
-        "description": ""
-    },
-    "attachmentHelpDesc": {
-        "message": "Os anexos suportam formatos comuns, como imagem, documento, vídeo e áudio. {link}{br}Para cada pergunta, é possível enviar até 10 anexos. {br1}Envio no Computador: o tamanho máximo do arquivo é de 500 MB; Envio no Dispositivo móvel: o tamanho máximo do arquivo é de 200 MB. {br2}Para responder às perguntas no Computador, é possível selecionar arquivos locais ou tirar uma foto com o QR code do celular.",
-        "description": ""
-    },
-    "studentBatch": {
-        "message": "Sessão: {startTime} - {endTime}",
-        "description": ""
-    },
-    "helpMsg3": {
-        "message": "1. Todos os Alunos na disciplina podem Entrar no Banco de questões para Exercício, temporariamente só é compatível com o computador pessoal.",
-        "description": ""
-    },
-    "helpMsg2": {
-        "message": "Módulo de treinamento do banco de questões:",
-        "description": ""
-    },
-    "closeQuestion": {
-        "message": "Fechar treinamento de questões",
-        "description": ""
-    },
-    "attachmentHelpLink": {
-        "message": "Clique para ver os formatos de arquivo permitidos para upload",
-        "description": ""
-    },
-    "openQuestionMsg1": {
-        "message": "Esta funcionalidade deve ser ativada / desativada pelo responsável pelo curso",
-        "description": ""
-    },
-    "helpMsg4": {
-        "message": "2. O banco de questões de treinamento suporta somente a importação de questões objetivas e de exercícios de preenchimento de lacunas.",
-        "description": ""
-    },
-    "openQuestionMsg2": {
-        "message": "Uma vez ativado, os alunos podem acessar o banco de questões para praticar. Confirmar ativação?",
-        "description": ""
-    },
-    "questionBankManage": {
-        "message": "Gerenciamento de Banco de Questões >>",
-        "description": ""
-    },
-    "openSafeKeyboardTip": {
-        "message": "Apenas para celulares, suporta a entrada de texto em chinês, inglês, números e símbolos de pontuação comuns",
-        "description": ""
-    },
-    "studentRemainSeat": {
-        "message": "Vagas disponíveis: {n}",
-        "description": ""
-    },
-    "studentSeatNumber": {
-        "message": "Capacidade de assentos: {n}",
-        "description": ""
-    },
-    "helpMsg6": {
-        "message": "Observação: O treinamento do banco de questões é um recurso experimental; a entrada e a funcionalidade estão sujeitas a alterações futuras.",
-        "description": ""
-    },
-    "gradeTips14": {
-        "message": "O tempo acabou, o sistema enviará o trabalho automaticamente",
-        "description": ""
-    },
-    "answerTimesOfNew": {
-        "message": "Número de submissões: {count}",
-        "description": ""
-    },
-    "getInToqueBank": {
-        "message": "Entrar no banco de questões >>",
-        "description": ""
-    },
-    "answeredTimesNew": {
-        "message": "Número de submissões / Número de tentativas permitidas",
-        "description": ""
-    },
-    "helpMsg1": {
-        "message": "A funcionalidade [Treinamento de questões] permite liberar um banco de questões específico para que os alunos pratiquem antes das avaliações. Esta funcionalidade deve ser ativada pelo Responsável pelo curso. Recomenda-se desativar a entrada do treinamento de questões antes da avaliação oficial.",
-        "description": ""
-    },
-    "openQuestion": {
-        "message": "Ativar Treinamento de Questões",
-        "description": ""
-    },
-    "answerTimesNew": {
-        "message": "Número de submissões",
-        "description": ""
-    },
-    "deleteExam": {
-        "message": "Excluir Avaliação",
-        "description": ""
-    },
-    "exportLayout": {
-        "message": "Exportar layout",
-        "description": ""
-    },
-    "standardType": {
-        "message": "Edição Standard",
-        "description": ""
-    },
-    "compactType": {
-        "message": "Versão compacta (economiza papel de impressão)",
-        "description": ""
-    },
-    "attachments": {
-        "message": "Exportar anexo",
-        "description": ""
-    },
-    "findExamTip": {
-        "message": "Se não encontrar a avaliação de que precisa na lista abaixo, verifique se entrou com a conta correta ou se participou da turma correta.",
-        "description": ""
-    },
-    "accountPrefix": {
-        "message": "conta: {account}",
-        "description": ""
-    },
-    "UTestInputName": {
-        "message": "Digite a conta",
-        "description": ""
-    }
-}
+oralSubject=Questão discursiva de expressão oral
+blankChoice=Exercício de preenchimento de lacunas
+autoPaperSettings=Configurações para compor exames
+startCreatPaper=Começar a compor exame
+paperTip=Compondo teste, aguarde...
+goView=Ver
+screenMonitorTips3=Ativar monitoramento do uso da tela
+screenMonitorTips8=Selecione pelo menos um método de monitoramento de alternância de tela
+randomTips15=Restringido a adicionar no máximo 10 partes
+remarkTip2=A reavaliação de pontuação aplica-se apenas a questões classificadas pelo sistema e não afetará as notas das questões classificadas manualmente.
+remarkTip3=Confirmar se deseja reavaliar pontuação?
+remarkTip4=A avaliação pode demorar. O sistema irá processá-la em segundo plano. Por favor, verifique a nova nota posteriormente.
+remarkingTip=A tarefa de avaliação anterior ainda está sendo processada, verifique posteriormente.
+paperTip1=Sucesso ao compor exame, armazenado no Índice atual do Banco de exercícios
+restoreLocalRecord=Restaurar Registro de Resposta Local
+localRecordTips5=Restaurar o registro de respostas local substituirá o registro de respostas já carregado na plataforma. Confirmar a restauração?
+exportAllQuestion=Exportar todas as análises das provas de uma só vez
+exceptionReminderTitle2=postura exceção
+markExamArrangement=Correção de provas
+batchClearPhoto=Limpar fotos em lote
+previewExam=Pré-visualizar Avaliação
+seatsOf={n} assentos
+examStructure=Estrutura de prova
+monitorTips2=2. Este código de verificação é válido por 15 minutos, após o tempo limite, atualize para obter novamente
+toBeApprovedNumberCl=Envios Pendentes:
+abandonRate=taxa de desistência
+deletePhoto=Excluir Foto
+markingTips5=O total de pontuações atribuídas não pode exceder o número de provas que contêm questões subjetivas
+exportAuthenticationInfo=exportar o certificado
+auditFailed2=Reprovado na revisão
+paperPartAnalysis=Análise dos pontos de cada parte da prova
+remarkTips5=Aproximadamente respostas, se você reconhecer o resultado da identificação do sistema, clique em Confirmar para salvar a avaliação.
+randomTips4=ainda não Criou um Índice
+roomTips13=Selecione o candidato à avaliação (turma ou alunos)
+toBeApproved=Envios Pendentes
+roomEditorTips15=Selecione a sala de exame
+examPaper=Prova
+studentNumUp=Ordenar por número do aluno
+faceAuthTips13=Valide primeiro se a Foto pode realizar o reconhecimento facial com sucesso
+queTypeArray[11]=Questões de ordenação
+deleteBatch=Excluir Turma
+answerTimeMinite=Tempo gasto em Responder às perguntas (minutos)
+remainSeatOf={n} lugares restantes
+examinationAnalysis=análise das provas
+auditTips2=Formatos: formato de arquivo de imagem JPG, jpeg, PNG, bmp.
+expectExamStuNum=O número de referência deve ser {0}
+paperPartName=Nomes das partes da prova
+inputNameSearch=Digite o Nome e pesquisar
+nnallocated=Não atribuído
+pleaseSelectExamPaper=Selecione a prova
+queTotalNumberCl=Total de questões:
+proportion2=proporção
+timeDay={days} dia(s)
+chooseClass=Selecione uma turma:
+examinationManagement=Gestão de avaliações
+faceAuthTips14=O tamanho do ficheiro não pode exceder 10M
+setExamTips2=É possível fazer avaliações tanto no computador quanto no Telefone celular
+approvedNumberCl=Quantidade de provas corrigidas:
+studentNumDown=Em ordem decrescente pelo Número do aluno
+submissionStatus=Status de envio
+notAttending=Não participar
+auditTips22=Não foi encontrada nenhuma foto no ficheiro selecionado. Cheque se o ficheiro está correto.
+queNumberCl=Quantidade de Exercícios:
+discriminationTip=A discriminação refere-se ao grau de distinção ou habilidade discriminatória das questões do teste em relação aos alunos com diferentes níveis de proficiência acadêmica. A discriminação varia de -1 a +1, sendo que quanto maior o valor, melhor. Geralmente, é necessário que a discriminação das questões do teste seja superior a 0,3.
+examTips=Normas do exame
+roomEditorTips5=O sistema gerou automaticamente os resultados da atribuição com base no número de alunos por turma e no número de assentos na sala de exame. Você pode ajustar manualmente e confirmar para salvar.
+auditTips16=Carregamento concluído, correspondendo as fotos...
+minSubmitTimeTips1=Não é permitido entregar trabalhos dentro de {count}{minuteTip} após o início da avaliação
+participantsNumber=Número de Participados
+disabled=Desativado
+upperPage=Página anterior
+leaveExam=Sair da Avaliação
+queTypeArray[5]=Questão de Correspondência
+fullScoreCl=Nota máxima:
+openAnonymousMarking=Ativar Correção anônima
+photoAuditTimeCl=Duração da revisão de fotos
+auditTips15=ZIPs carregados não podem exceder 1 GB
+examHeadTips5=Aqui estão todas as Avaliações publicadas pelo professor. Antes de Entrar em uma Avaliação, Ver informações detalhadas sobre cada uma delas.
+gradeTips1=A correção anônima foi ativada para esta avaliação.
+modifyRoomTip=Mover {n} alunos da {className} (Total de alunos: {total}) para a seguinte sala de exame:
+unfold=expandir
+modifyScore=Editar nota
+personnel2={count} Número de pessoas
+nonParticipantsNumber=Número de Pessoas Não Engajadas
+setExamTips10=Serviço Expirado. Para Continuar, favor entrar em contacto com o Atendimento ao Cliente: 400-610-7808
+exportDemoPaperSuccess=Exame modelo armazenado no Banco de exercícios
+auditTips19=Zhang, os seguintes números de alunos ou formatos de arquivo estão incorretos (
+peopleOf=[{n} pessoas]
+discriminationTip1=Se a nota for boa, isso indica que a pergunta tem um bom nível de discriminação;
+auditTips1=As avaliações que ativem a validação de reconhecimento facial precisam da foto do candidato antecipadamente. A foto pode ser importada em lote pelo professor ou pelo próprio aluno. As fotos enviadas pelo aluno podem ser verificadas pelo professor. Você pode escolher se permite que os alunos entrem na avaliação por reconhecimento facial sem que a foto de autenticação tenha sido verificada nas configurações da avaliação. Os alunos cujas fotos de autenticação não forem aprovadas pelo professor não poderão entrar na avaliação.
+someBatch=Total de {count} sessões
+monitorRecords=monitoramento de registro
+detailTips3=1. Examens de monitoramento de equipamento e endereços de IP ativados. Caso ocorram circunstâncias especiais, o Aluno pode Entrar fornecendo este Código de Verificação após Substituir equipamento/Endereço de IP.
+choosePaper=Selecione a Prova:
+copyExamStructure=Copiar estrutura de prova
+remarkTips3=Observação: pode-se avaliar de forma padronizada todos os alunos que enviaram respostas para essa questão. Depois da avaliação padronizada, pode-se editar a nota de cada aluno.
+batchTips=Adicionar turmas ou alunos às sessões para que possam participar das avaliações. A duração da sessão é o intervalo de tempo que os alunos podem entrar na avaliação. Você também pode adicionar sessões após publicar a avaliação.
+noPublish=Não divulgar
+networkErrorTips=Erro de rede, clique
+listeningQ=Questão de compreensão auditiva
+verificationCodeError=Erro de Código de Verificação
+markRecord=Registro de correção
+confirmExamRoom=Confirmar sala de exame
+passScore=nota mínima
+afterExamFinishedTips1=Exibir após a conclusão da avaliação
+cannotAllForbidden=Não pode desativar todos
+paperName=Nome da prova
+attachmentPreview=Pré-visualizar anexo
+onlyPCExeTips=Usar {PCExe} para fazer a avaliação, depois que o candidato entrar na avaliação, não pode sair da interface da avaliação durante o processo. Aplicável a avaliações mais rígidas ou avaliações concentradas na sala de informática.
+roomEditorTips11=Confirmar Exclusão da sala de exame?
+etcOf={name} e mais
+examDurationCl=Duração da avaliação: {count} minutos
+endDatePrefix=Concluir: {time}
+attachAccess=Pergunta de resposta curta permite adicionar anexo
+UTestLoginErr=Nome de usuário ou senha Incorreto
+computerRoom=Sala de máquinas
+roomTips5=Nenhuma turma encontrada com a pesquisa
+randomTips1=Copiar a estrutura de prova de outras avaliações
+confirmRecover=Confirmar restauração
+expandSuccess=estender Sucesso
+inputNameAndStuNoSearch=Digite o nome/número do aluno para pesquisar
+roomEditorTips1=Número máximo de participantes por sessão única:
+pullDownSelectionQ=questões de múltipla escolha
+answerTrack=Rastreamento de Respostas
+modifyBatchSuccess=Editado com Sucess
+mobileApp=Aplicativo para celular
+faceAuthTips2=Atenção:
+chart=Gráfico
+addBatch=Adicionar sessão
+examinationBehaviorTrajectory=Linha de comportamento da avaliação
+photoUploader=Pessoa que carregou a foto:
+scoreTip2=Se os alunos tiverem vários Registros de Respostas, a Nota mais alta deles será considerada.
+hasMarked=Classificado
+fastExport=Exportar notas rapidamente
+eachContainSubQue=Cada questão contém subquestões:
+minSubmitTime=Horário de entrega da prova
+writingQ=Exercício de redação
+pleaseSelectCourse=Selecione a disciplina
+queTypeArray[0]=questão de múltipla escolha
+studentNumber=Número do aluno
+auditTips7=Zhang San
+openedFaceVerification=Verificação de rosto ativada
+roomEditorTips3=Capacidade total de assentos das salas de exame selecionadas:
+faceAuthTips5=, confirme a disponibilidade antes de enviar.
+queTypeArray[4]=Pergunta de resposta curta
+studentNOCl2=Número do aluno: {no}
+nextQuestion=Próxima Questão
+sets=Defina
+commit=Enviar
+onGoing=em andamento
+discriminationTip2=quando a distinção é baixa, é recomendável editar
+batchScore=Avaliar em Lote
+containSubQueType=Tipos de itens incluídos:
+unlimit=Todos
+serialNumber=Número sequencial
+setExamTips6=Finalizar exame forçadamente depois de
+reAudit=Revisar novamente
+auditTips5=É recomendado o uso da Foto do Aluno digitalizada no Sistema de gerenciamento de aprendizado.
+timeLength={days} dias {hours} horas {minutes} minutos {seconds} Segundo
+authenticationPhotoRequire=Requisitos da foto de autenticação
+referenceRate2=Padrão de referência: {0}% (Índice de anomalia: {1}%)
+faceAuthTips16=É necessário carregar a Foto de identificação do aluno antes da prova
+examResult=Resultados da Avaliação
+modifyExam=Editar avaliação
+sequencingQ=Questões de ordenação
+queTypeArray[17]=Questão de Upload de Anexo
+deviation1=Desvio de olhar
+PCweb=computador
+batch=sessão
+examDuration=Duração da avaliação
+localRecordTips1=Não há registro de resposta local
+startRemark=começar Correção
+roomEditorTips4=Selecione a sala de exame a ser utilizada para cada sessão. A capacidade total de assentos de cada sessão deve ser maior que o número de candidatos.
+deviceMonitor2=Em casos especiais, pode solicitar ao professor o Código de Verificação para Substituir
+exceptionReminder=Lembrete de Exceção
+auditTips3=dimensão: Sugere-se usar foto de tamanho padrão 1 polegada (413*295 pixel) ou foto com proporção semelhante.
+viewQue=Ver prova
+noMark=Não avaliado
+paperAnalysis=Análise de Prova
+seeDetails=Ver Mais
+queTypeArray[15]=Questão discursiva de expressão oral
+exportMonitorInfo=exportar informações de monitoramento
+examFaceVerification=Reconhecimento facial de avaliação
+queTypeArray[13]=Exercícios de gramática
+setExamTips7=Esta avaliação só pode ser realizada no celular e monitora se o aluno retornou à área de trabalho, fechou ou executou o APP no segundo plano.
+setExamTips16=Manter pelo menos um teste habilitado
+difficultyLevelArray[3]=difícil
+roomEditorTips7=Você pode mudar a turma inteira para outra sala de exame ou selecionar parte dos alunos da turma atual para mover para outra sala.
+inputSectionName=Digite o nome da parte
+lateTimeSet=Tempo de atraso
+authenticatePhoto=Foto de autenticação
+objectiveQuestions=Nota da questão objetiva
+viewMarkDetail=Ver Detalhes da Correção
+auditTips10=A foto de autenticação do(a) aluno(a) está correta?
+talk=Bate-papo durante o exame com uma pessoa
+field=Total de {count} sessões
+statisticsTips2=Se o aluno tiver vários registros de respostas, o cálculo será feito com base na melhor nota dele.
+roomTips11=Confirmar a exclusão da sessão?
+selectExamRoom=Selecionar sala de exame
+thisTimeExamPhoto=Foto da Avaliação desta vez
+viewStandbyVerificationCode=Ver código de verificação alternativo
+batchExportPhotos=Importações em lote de Fotos
+standardDeviation=Desvio padrão
+selectCourse=selecionar disciplina
+standardDeviationTip=O desvio padrão representa a dispersão das notas dos alunos. Um desvio padrão maior representa uma diferença maior entre a maioria dos valores e sua média; um desvio padrão menor representa esses valores mais próximos da média.
+examStuNumber=Número de Candidatos
+examinationResults=Pontuação do Exame
+setExamTips11=Confirmar Excluir Turma?
+setExamTips4=A prova {paperName} contém perguntas não suportadas, altere a forma de participação ou ajuste o conteúdo da prova
+parsing=Análise
+scoringRate=Percentual de nota
+exportTip=Quando o aluno tem vários registros de respostas, somente a melhor nota deve ser exportada. Para fazer alterações, selecione Exportação personalizada.
+exchangeExamRoom=Trocar de sala de exame
+lastStep=Voltar ao passo anterior
+exportDemoPaper=exportar questionário modelo
+queTypeArray[8]=Exercício de redação
+saveArranging=Salvar Organização
+lexicalModule=Módulo de Vocabulário
+selectExtractMenuCl=Selecione o índice da questão
+exception2=Finalização forçada de exame pelo sistema
+roomTips2=Confirmar a exclusão de todas as salas de exame e Fiscais de Exame na Sessão atual?
+extractMenuCl=Índice de questões:
+myself=Eu mesmo
+batchExpand=Turma estendida por {count} minutos
+batchClearAuthenticationPhoto=Limpar em lote as fotos de autenticação
+detailTips4=2. Se o Exame que requer Reconhecimento Facial for ativado, os Alunos que não conseguirem entrar utilizando o reconhecimento facial podem usar esse Código de Verificação para entrar.
+abnormalRecord=Registro de falha
+answerSetting=Configurações de responder às perguntas
+participtionWaysCl=Forma de Participação:
+discriminationTip3=A discriminação é um valor negativo, indicando que há um problema com a prova ou com a resposta.
+ipMonitor1=Ative o monitoramento de endereço de IP e proíba a substituição de endereço de IP durante a resposta às perguntas
+objectivesQ=questão objetiva
+confirmDeletePhoto2=Tem certeza de que deseja excluir a foto instantânea deste aluno?
+randomTips2=(Índice caduco)
+auditTips14=Selecione o aluno para limpar a foto
+allBatch=Todas as turmas
+weekAfterShow=Exibir após {count} semanas da Conclusão da Avaliação
+exportCurrentQuestion=Exportar dados da página atual
+referenceRate=Padrão de referência
+noEnterExam=Não entrou na avaliação
+examPaperFullScore=Nota máxima da prova:
+answerDuration=Duração da prova
+toBeApprovedNumber=Aguardando notas
+faceAuthTips9=Solicite o Código de Verificação ao Fiscal de Exame e Digite
+onMobileExam=Exame pelo celular
+selectStudent=Selecione o aluno
+previousQuestion=Questão anterior
+expandFailed=Falha ao extender
+randomTips3=Anotação: Exercícios integrados são questões abrangentes e, ao adicionar um novo tipo de questão de exercício integrado, apenas uma questão abrangente é extraída.
+deviceMonitor1=Ativar monitoramento de equipamento, proibido substituir equipamento ou navegador durante
+averageAchievement=Nota média
+statisticsTips1=Todos os dados no relatório não incluem alunos ausentes
+allBatches=Todas as sessões
+userNum=Número de pessoas
+gradeTips3=A quantidade de correções é determinada pelo responsável pela avaliação
+faceAuthTips7=Teste se o reconhecimento facial é bem-sucedido
+defaultExamTips=Salvar como Modelo Padrão e Continuar na Próxima Avaliação
+beAnswering=A fazer uma prova
+photoMonitor2=É necessário garantir que o dispositivo usado pelo aluno tenha uma câmera
+publishExam=Publicar Avaliação
+waitApproved=Envios Pendentes
+examHeadTips4=Antes da Avaliação, confirme {detectEnv} rede, dispositivo, navegador, etc.
+baseInformation=Informações básicas
+quantity2=Quantidade de questões:
+systemPhoto=Foto instantânea do Sistema
+localRecordTips3=As respostas para esta avaliação foram enviadas, e o registro de respostas locais não pode ser restaurado.
+PCExe=Cliente de bloqueio de computador
+immediateDisplay=Exibir imediatamente
+notShow=não exibir
+auditTips6=Exemplo de nomeação de imagem
+remarkTips4=O sistema encontrou  entre os alunos com avaliações pendentes
+randomTips8=O nome da prova precisa ter entre 1 e 200 caracteres
+batchAudit=Revisão em lote
+remarkTips8=Digite a nota
+examTips4=Cliente/Hospedeiro:
+batchs=Turma
+reTestTip2=Não há sessão de Avaliação adequada. Gostaria de adicionar uma nova Turma?
+remarkTips6=Candidato não respondeu
+timeHour={hours} horas
+resultPublicScopeCl=Escopos da divulgação de resultados:
+discussionQ=Questões dissertativas
+allExamRoom=Todas as salas de exame
+setExamTips8=Permite que alunos com foto de autenticação pendente entrem na avaliação
+proportion=Ponderação
+eachQueScoreCl=A pontuação de cada questão é de:
+roomTips9=A duração da extensão precisa estar entre 1 e 1000
+roomEditorTips19=O número de pessoas movidas não pode ser maior que a capacidade de assentos
+queTypeArray[3]=Questão de julgamento
+openMonitorTips=O candidato deve manter a câmera ativada do começo ao fim e manter a imagem estável. Somente é possível fazer a avaliação em um computador.
+maximumAnswerTime=Duração máxima para responder perguntas
+gradeTips7=Quando a avaliação concluir, o sistema entregará os trabalhos de forma automática
+authenticateSuccess=Validação aprovada
+optionStuNum=Número de opções
+readTip1=Envios Pendentes
+appointExamPaper=Designar prova
+addQuestionType=Adicionar tipo de item
+subjectiveQ=Questao subjetiva
+afterExamFinished=Após a conclusão da avaliação
+queTypeArray[19]=questão de leitura (exercício de preenchimento de lacuna)
+resultPublicTimeCl=Duração da divulgação dos resultados:
+UTestDesc=Nota: Este cliente suporta apenas a participação de alunos nos exames. Para registo de conta, adesão a turmas, etc., inicie sessão no site ou na aplicação da Academia Premium com antecedência.
+auditTips21=Foto de autenticação de Zhang
+answeringCount=Na {n}ª tentativa de resposta
+queOf={n} questionários
+checkAllWholePage=Selecionar todos
+exception1=Sair da página > 5 segundo(s)
+gradeTips4=Entrar na avaliação por verificação de rosto
+examRoomName=Nome da sala de exame
+setExamTips17=A nota mínima deve estar entre {range}
+derivedExaminationAnalysis=Exportar a análise das avaliações
+roomTips10=A exclusão da sessão pode fazer com que os registros das respostas sejam perdidos. Confirmar exclusão?
+exportPhotos=Exportar foto
+submitByPC=Página Enviar
+clearExamRoomPlan=limpar a alocação da sala de exame
+scoreAnalysis=Análise de Notas
+derivedAchievements=Exportação de notas
+confirmClearMonitorRecords=Tem certeza que deseja Limpar o registro de monitoramento?
+answeredTimes=Número de tentativas/Número de tentativas permitidas
+submissionTime=Horário de entrega da prova
+inputTeaNameSearch=Digite o Nome Completo do Professor para pesquisar
+minSubmitTime2=Horário de entrega da prova: {time}
+auditFailed=Reprovado na revisão
+onPCExam=Na avaliação de Computador
+namePrefix=Nome: {name}
+noStuRecord=Temporariamente, não há registros de respostas dos alunos!
+unuploadedPhotos=Foto não carregada
+queTypeArray[7]=Questão de compreensão auditiva
+standbyVerificationCode=Código de verificação alternativo
+schoolQuestionLibrary=Banco de Questões da Escola Atual
+totalScoreDown=Ordenar por Pontuação total em ordem decrescente
+myQuestionLibrary=Meu banco de questões
+certPrefix=Número do certificado de avaliação: {no}
+enabled=Habilitado
+examRoom=sala de exame
+uploadPhoto=Carregar Foto
+gradeTips5=Entrar na Avaliação pelo Código de Verificação
+openFaceVerification=Ativar reconhecimento facial
+auditTips9=Preencha o motivo da reprovação, por exemplo: a foto não é da própria pessoa. Faça o upload novamente.
+difficultyLevelArray[0]=fácil
+faceAuthTips12=As fotos não correspondem à pessoa
+form=Tabela
+exceptionReminderTitle1=Exceção ao responder às perguntas
+chooseInvigilator=Selecionar Fiscal de Exame
+examTips2=Faça a avaliação utilizando o ULearning APP
+completionQDisorder=Exercícios de preenchimento de lacunas em ordem aleatória
+setExamTips15=O título do exame deve ter de 2 a 100 Letras
+markTime=Tempo de correção
+most=máximo
+randomTips7=Adicionar Diretório de Pasta
+averageFinishedTime=Tempo médio de conclusão
+examinationPapers=Provas usadas
+examPaperTitle=Título da prova
+onlyPCWebBtnTips=Faça a Avaliação na web com um navegador
+detectEnv=Detecção de Ambiente de Avaliação
+replacePhoto=Substituir foto
+deleteBatch2=Excluir sessão
+UTestLogin=Entrar
+auditTips24=Falha ao carregar, checar formato de ficheiro
+UTestName=Sistema de Avaliação U-Test
+markingTips2=Nota média distribuída ao professor de correção
+submitByAPP=Enviar no APP
+examTips1=Caso a avaliação em que você se inscreveu tenha autenticação de identidade por reconhecimento facial ativada, carregue sua foto de autenticação com antecedência para evitar atrasos ao responder às perguntas durante a avaliação.
+notOpened=Ainda não ativado
+auditTips4=O nome do ficheiro da foto deve conter o número do aluno, não contendo outros números arábicos além do número do aluno.
+localRecordTime=duração do registro de respostas ao questionário local
+ipMonitor2=Trocar de rede pode provocar alterações no Endereço de IP. Tenha cuidado ao usar. Em casos especiais, você pode pedir um Código de Verificação ao professor para Substituir
+gradeTips2=Nota da Prova Atribuída a Mim:
+setExamTips5=Monitoramento do número de vezes que os alunos Saíram da Avaliação durante o período da Avaliação
+setUpRetest=Configurações para prova de recuperação
+finished=finalizado
+noBatch=Ainda não há turma
+faceAuthTips15=Ative o reconhecimento facial para permitir o acesso à avaliação somente após a validação do rosto.
+previewQuestion=Pré-visualizar prova
+thisQueFullScore=Nota máxima desta questão: {grade} Nota
+examTimeCl=Tempo de exame:
+queTypeArray[10]=Exercício de preenchimento de texto
+queTypeArray[21]=Questões de análise de material
+examHeadTips2=Aqui estão disponibilizadas todas as avaliações publicadas pelo Professor. Verifique atentamente, pois as configurações das avaliações podem variar quanto ao Tempo de tolerância, Duração da prova, se permitem Respondês às perguntas mais de uma vez, etc.
+goToIdentify=Certificar
+difficultyLevelArray[1]=Simples
+schoolPrefix=Escola: {org}
+sort=Ordenar
+roomEditorTips18=O número de pessoas não pode ser maior do que o total de alunos
+localRecordTips4=O registro de respostas salvo na plataforma é mais recente que o registro de respostas local, então para evitar que a nota seja substituída, o registro de respostas não pode ser restaurado.
+PCExe1=Cliente de computador
+mobile=dispositivos móveis
+queTypeArray[18]=Exercícios de Leitura Oral
+chooseExamBatch=Selecione a turma para participar da Avaliação
+minuteTip=minuto
+reTry=Tentar novamente
+queTypeArray[20]=Questões dissertativas
+noParticipants=não participar
+readedCl=Corrigida:
+quantity=Quantidade
+hasEnded=Concluído
+reTestTip1=Após agendar para refazer, todos os registros do Aluno nesta Avaliação serão limpos. Você tem certeza que deseja que esse Aluno refaça?
+openMonitorContent3=3. Gravação de exceção: Quando o sistema detecta postura anormal, a gravação de vídeo anormal é carregada automaticamente para revisão posterior.
+setExamTips14=Manter pelo menos uma prova
+auditTips18=Foto de autenticação de Zhang. Falha
+approve=Corrigir
+examNameCl=Título do exame:
+randomTips5=Comece no
+roomEditorTips14=A capacidade total de assentos da sala de exame selecionada deve ser maior que o Número máximo de participantes em uma sessão única.
+userNumber=Número de usuários
+queTypeArray[9]=Título traduzido
+minimumScore=Pontuação mínima
+shortAnswerQ=Pergunta de resposta curta
+teacherCl=Professor:
+intoExam=Entrar na avaliação
+exportDate=Data de exportação: {date}
+deleteTip=O registro das Respostas excluídas não poderá ser restaurado. Confirmar a exclusão?
+remainSeatOf2={roomName} (restante {n} assentos)
+deleteRecords=Excluir registro
+remarkTips7=Não foi encontrada nenhuma resposta próxima nas não avaliadas
+examTimes=Número de tentativas do exame
+modifyExamRoom=editar sala de exame
+invigilator=Fiscal de Exame
+listeningObjectivesQ=Exercício de compreensão oral
+setExamTips19=Selecione o Candidato a Exame (Turma ou Aluno)
+setExamTips18=entre
+minimumAnswerTime=Duração mínima das respostas
+answerTimesOf=Número de tentativas: {count}
+queTypeArray[2]=Exercício de preenchimento de lacunas
+difficultyTip=O nível de dificuldade é normalmente estabelecido de acordo com a taxa de aprovação da prova. Quanto maior o valor de dificuldade, mais fácil é a questão; quanto menor o valor, mais difícil é a questão. Em geral, o nível de dificuldade da questão deve estar entre 0,3 e 0,8.
+refuseReasonCl=Motivo da Rejeição:
+noShow=Não exibir
+computeTip=OBSERVAÇÃO: Avaliação usa dados do terminal uma vez por pessoa
+exportAnswerRecords=Exportar registro de respostas
+noStart=não iniciado
+byVerificationCode=Usar Código de Verificação
+queTypeArray[23]=Exercício integrado
+readingQ=questão de leitura
+judgementQ=Questão de julgamento
+detailTips2=2. Este código de verificação é válido por 15 minutos. Caso expire, é favor atualizar e obter novamente
+examTips5=As notas ainda não serão divulgadas
+modifyExamSuccess=Edição da avaliação feita com sucesso
+participtionWay=Forma de Participação
+remarkTips1=Anotação: Se o candidato enviar vários registros de resposta, o padrão é exibir o último registro
+photoUploadTimeCl=Hora do upload da foto:
+partOf={n} unidades
+behaviorTrace=Linha do comportamento
+loadErrorTips=Carregar ocorreu um erro, Clique
+batchAuditAuthenticationPhoto=Revisar em lote as fotos de autenticação
+photoAuditorCl=Foto auditor:
+moveDown=Mover para baixo
+fold=Recolher
+ISee=Entendi
+auditTips12=Aguarde, por favor, o carregamento da imagem anterior
+addExamRoom=Adicionar sala de exame
+faceAuthTips3=A foto de autenticação é usada para o exame de reconhecimento facial, portanto, certifique-se de enviar uma foto real. Após o envio da foto, o professor pode revisá-la; se for descoberto que a foto não corresponde à pessoa, será considerada cola e pode fazer com que o desempenho do teste seja cancelado.
+weekPublish=Divulgado em {n} semanas
+passScoreCl=Nota mínima:
+toBeApprovedCl=Envios Pendentes:
+randomTips11=Estrutura da prova incompleta. Checar, editar e tentar novamente.
+queTypeArray[16]=Exercício de preenchimento de lacunas
+networkErrorTips2=Erro de rede, Clique em {button} Recarregar
+onlyPCExeTips1=Selecione esta opção para instalar o Software do Cliente de Teste do ULearning em seu computador antes do Exame. Atualmente, apenas Sistemas Win7 ou mais recentes são suportados; Mac não é suportado. Para evitar exceções no Exame Oficial, é recomendável agendar com antecedência um Exame Simulado para teste.
+examTips3=O tempo de atraso permitido foi excedido. Não é possível entrar na avaliação
+roomTips12=Configure a duração do período da turma
+totalScoreUp=Classificar por Pontuação total em ordem crescente
+offlineTip=Configure o URL de avaliação desconectado antes de prosseguir.
+difficulties=difícil
+difficultyLevelArray[4]=difícil
+openMonitorContent1=1. Captura contínua: Captura a foto do candidato a cada 1 minuto.
+examHeadTips1=Aqui exibe uma lista com todas as avaliações, o Responsável pelo curso pode Publicar/Ver as avaliações para todas as Turmas, e o professor pode apenas Publicar/Ver as avaliações de sua própria Turma.
+faceAuthTips6=Teste o reconhecimento facial com sucesso antes de carregar.
+UTestLogout=Sair
+deviceID=ID do dispositivo: {id}
+gradeTips8=Duração de saída longa, exceção + 1
+photoMonitor1=Ative a monitorização por captura de imagem, a cada 3 a 5 minutos serão capturadas fotos dos candidatos e exibidas na página de monitoramento de exames
+expandEndTime=Estender data de conclusão
+clearfixMonitorRecords=Limpar registro de monitoramento
+general=Geral
+attachUploadQ=Questão de Upload de Anexo
+conceptDesc=Conceitos explicados:
+auditTips25=Ocorreu uma exceção durante o carregamento
+auditPassVerb=Revisado e aprovado
+afterExamFinishedTips2=Exibir após {n} dias após a conclusão da avaliação
+selectExam=Selecionar avaliação
+batchNo=sessão{n}
+unuploadedPhotosAlt=Foto não carregada
+addExam=Adicionar Avaliação
+waitTeaAudit=Pendente de revisão do professor
+confirmDeletePhoto=Tem certeza de que deseja excluir a foto instantânea de todos os alunos da turma atual?
+auditTips26=Ao limpar uma foto ela não pode ser recuperada, confirmar a limpeza?
+roomTips8=Observação: após a prorrogação da Data de conclusão, o Tempo de exame dos Alunos que chegarem atrasados ou que por outros motivos tiveram tempo de Avaliação insuficiente será prorrogado conforme o necessário. As Avaliações normais e os Alunos que já Entregaram trabalhos não serão afetados.
+batchExportAuthenticationPhoto=Importações em lote de fotos de autenticação
+deletePhoto2=Excluir foto instantânea
+setExamTips3=O exame pelo celular não suporta questões de fórmula.
+scoreStatistics=Estatísticas de Nota
+setExamStructure=Configurações da estrutura de prova
+commitImmediatelyShow=Divulgar após a entrega do trabalho
+batchNoTime=Sessão {n}: {startTime} a {endTime}
+setExamTips9=(Este é um serviço pago e a sua Instituição de ensino ainda não o ativou. Se precisar de ativá-lo, entre em contato com o Atendimento ao Cliente: 400-610-7808)
+searchTip=Digitar palavra-chave pesquisar
+detailTips1=1. Sempre que o Aluno não conseguir entrar em uma Avaliação por meio de reconhecimento facial, ele poderá utilizar este Código de Verificação para acessar.
+recoverErrorTips=Falha ao restaurar, tente novamente posteriormente!
+auditTips20=Importação concluída, importação bem-sucedida
+someClassAndStu=Turmas / Alunos
+normalClassroom=Sala de aula
+selectExamPaper=Selecionar prova
+roomEditorTip16=Capacidade de assentos da sessão {n} é menor que o número de candidatos
+markingTips3=Participar da correção
+examDaysPublish=Após {n} dias do Conclusão da Avaliação, Divulgar
+roomTips4=Este professor ainda não possui nenhuma turma
+averageScore=Nota média
+exportTable=exportar tabela
+roomTips1=Sem dados, edite os critérios de consulta
+auditTips23=Exceção na importação de imagem
+remainSeat=Vagas disponíveis
+auditTipsClassroom=Foi habilitada a validação por reconhecimento facial, é preciso fazer o upload da foto de autenticação do candidato. As fotos podem ser importadas em lote pelos professores ou podem ser carregadas pelos próprios alunos. As fotos dos próprios alunos podem ser revisadas pelos professores.
+roomEditorTips17=O número de pessoas movidas não pode ser zero
+examinationAchievementsAnalysis=Analisar notas de avaliação
+queTypeArray[24]=Exercícios de cálculo com fórmulas
+detailedAnalysis=Analisar em detalhes
+commitTime=Data de envio
+faceAuthTips10=Ajustar o tamanho e a posição da imagem
+auditTips13=Selecione os Alunos a serem revisados
+deviation=Desvio de olhar > 2 segundos
+toBeAudit=Pendente
+randomTips10=O nome das partes deve ter entre 1 e 200 Caracteres
+markingTips1=Número de provas que contêm questões subjetivas:
+paperAccuracy=Estatísticas de porcentagem de acertos da prova
+exanStuList=Lista de Candidatos
+classRange=Escopo da turma: {className}
+leaveExamTip=O aluno Saiu da sala de aula mais vezes do que o número de vezes especificado e já finalizou forçadamente o Avaliação. Caso considere que o Alumno violou as regras do Avaliação, você pode permitir que ele faça uma Prova de recuperação
+faceServiceTipsNew=Reconhecimento facial e Vigilância por câmera são serviço pago. Sua Instituição de ensino Ainda não ativou. Entre em contato com o Atendimento ao Cliente para ativar.
+pdfGeneration=Gerando PDF...
+noDataTip=Sem dados. Adicione estudantes à avaliação ou edite os critérios de pesquisa
+roomTips14=Digite o número do aluno / nome para pesquisar
+subQueScoreCl=Pontuação de cada questão:
+faceAuthTips1=Clique para carregar a Foto de autenticação
+seatNumber=Capacidade de assentos
+randomTips9=Adicione pelo menos uma parte à prova
+downloadPCExe=download o Software do cliente de teste
+paperStatistics=Estatísticas de uso da prova
+commitLimitTip=Proibido entregar trabalhos nos primeiros {count} minutos do início da Avaliação
+mostExamCount=máximo {count} vez
+faceAuthTips11=Arraste a caixa de linha tracejada para ajustar a dimensão e localização
+randomTips6=【Meus bancos de questões】
+addStudent=Adicionar alunos
+roomEditorTips2=A capacidade total de assentos da sala de exame selecionada deve ser maior que este valor.
+queTypeArray[14]=Questões de vocabulário
+remoteRecordTime=Duração do salvamento do registro de respostas na plataforma
+verificationType=Método de validação
+chooseBatch=Selecione a turma para realizar a avaliação
+examRoomArrangement=Gestão de Salas de Exame
+onlyPCExeBtnTips=Utilize o software do cliente de teste da ULearning para realizar a avaliação
+deleteFailed=Falha ao excluir
+openMonitorItem=Ative a Vigilância por câmera, incluindo Captura contínua, Detecção de gestos por IA e Gravação de aula de Comportamento anômalo
+difficultyLevelArray[2]=Geral
+randomTips12=O índice não contém questões suficientes. Adicione questões.
+comfirmDelete=Confirma exclusão?
+afterDaysShow=Exibir em {n} dias
+auditPassed=Revisado e aprovado
+participantsClassAndStu=Participar da turma/aluno
+setExamTips12=Provas repetidas removidas
+openMonitorContent2=2. Detecção de Gestos por IA: O Sistema utiliza a Câmera para monitorar em tempo real a postura do Candidato, podendo detectar e registrar comportamentos como Abandonar o lugar, Desvio de olhar e Bate-papo durante o exame.
+exceptionReminderFilter=Filtrar informações de exceção
+startDatePrefix=começar em: {time}
+queTypeArray[1]=Questões de múltipla escolha
+peopleNum=Número de pessoas
+deletePaper=Excluir Prova
+roomEditorTips12=Digite o nome da sala de exame
+examStudentOf={n}Candidatos
+roomTips3=Digite o nome ou o número do aluno para pesquisar
+roomEditorTips6=Clique para selecionar uma Turma, você pode editar a sala de exame; clique em duas turmas, você pode trocar as salas de exame.
+gradeSumCl=Questões objetivas/questões subjetivas/pontuação total
+fractionalStatistics=Estatísticas de notas
+spokenModule=Módulo Falar
+remarkTips2=Não há prova para corrigir
+etcOfPeople={name} e mais {n} pessoa
+queIndex=Questão {n}
+batchOpration=Operação em lote
+queTypeArray[22]=questões de múltipla escolha
+auditTips8=Faça o upload de todas as fotos compactadas no formato ZIP.
+totalQue={n} cursos no total
+seleteMenu=selecionar Índice
+formulaQ=Exercícios de cálculo com fórmulas
+noDesignatedExamRoom=Ainda não designou sala de exame
+auditTimeCl=Duração da revisão:
+PC=computador
+exceptionRate=onde o Índice de Anomalia
+myAuthenticationPhoto=Minha Foto de autenticação
+passRate=Taxa de Aprovação
+scoreTip1=*anotação: 1. todos os dados no relatório não incluem Aluno faltando.
+classOf=Turma: {className}
+inputClassNameSearch=Digite o nome da turma para pesquisar
+unlimitTimes=Número ilimitado de tentativas
+classAndStudent=Turma/Aluno
+examStuNum=Avaliação feita por {0} pessoas
+openMonitorContent=Vigilância por câmera inclui:
+queTypeArray[6]=questão de leitura
+questionNumber=Quantidade de questões:
+resultPublic=Divulgação
+maxTextInputTips=Digite no máximo 2000 letras
+photoRemoved=Foto excluída
+borwserTip=Atualmente seu navegador é o {browser}, utilize o Internet Explorer para realizar as avaliações!
+readingQBankedCloze=questão de leitura (Exercício de preenchimento de lacuna)
+noStudent=Nenhum aluno
+autoGroupPaper=Compor exame automático
+faceAuthTips8=Por favor, fique de frente para a câmera, garantindo que a iluminação seja adequada
+readTip2=Indica que a prova contém questões subjetivas que precisam ser corrigidas manualmente.
+examMonitorRecords=Registro de Monitoramento de Avaliações
+inputExamName=Digite o título do exame
+roomEditorTips20=Capacidade de assentos insuficiente
+remarkTips9=Digite a Nota correta com uma casa decimal
+roomEditorTips13=Digite um número maior que 0
+faceVerificationCl=Verificação de rosto:
+completionQ=Exercício de preenchimento de lacunas
+allTeachers=Todos os professores
+answerDurationCl=Duração da prova: {count}
+monitorTips1=1. Se o aluno não puder entrar na avaliação por meio de reconhecimento facial, poderá usar este código de validação para entrar.
+recommendedAnswer=Resposta recomendada:
+pleaseSelectExam=Selecione a Avaliação
+modifyBatch=editar sessão
+timeSecond={seconds} segundos
+approximateAnswerBatchScore=Pontuar respostas aproximadas em lote
+seatOf={n} lugar(es)
+auditTips17=Importação concluída, importada com sucesso
+roomTips7=Ainda não há alunos
+shouldArrivePeople=Comparecimento esperado
+normalState=Estado normal
+studentBrackets=Aluno
+examPapers=Prova de Avaliação
+recover=restaurar
+questionNumSToL=Organizado do número menor para o maior
+openedAnonymousMarking=Correção anônima ativada
+setExamTips13=Não é possível Excluir uma Prova com Registro de Respostas
+scoreCl=Pontuação:
+descriptionCl=Observação:
+subjectiveQuestions=Nota da questão subjetiva
+UTestInputPsd=Digite sua senha
+localRecordTips2=Atenção: O Registro de Respostas Local existe para impedir a perda do Registro de Respostas em casos extremos, como a falha na rede, entretanto, na maioria das vezes, não é necessário restaurá-lo manualmente. A restauração do Registro de Respostas Local substituirá o Registro de Respostas já Carregado na plataforma. Assim, caso seja necessário restaurar, compare a duração de salvamento do Registro de Respostas e opere com cautela.
+allAnswer=Responder Todos
+webEnvTest=Verificação do Ambiente de Avaliação Online
+remarkByQuestion=Corrigir questão por questão
+approvedNumber=Quantidade de Correções Vistas
+personnel=Número de pessoas {0} / {1}%
+extractQueNumberCl=Número de questões sorteadas:
+customExport=Exportação Personalizada de Notas
+enable=Habilitar
+matchingQ=Questão de Correspondência
+recoverLocalExamRecord=Restaurar registros locais de Respostas às Perguntas
+roomTips6=Nenhum aluno correspondente encontrado na pesquisa
+totalScore2=Pontuação total:
+queTypeArray[12]=Módulo de Descrição
+gradeTips6=Quando o comportamento anômalo exceder o número de vezes especificado, o sistema forçará a entrega de trabalhos.
+inCorrectPhoto=A foto não corresponde à pessoa
+examTips6=Nenhuma Avaliação encontrada
+detailTips5=3. O código de verificação é válido por 15 minutos. Se ele expirar, atualize para obtê-lo novamente
+remarkTips10=A nota não pode exceder a Pontuação total
+questionNumLToS=Do maior ao menor do número da questão
+participants=participar
+examTips7=Deseja realmente excluir esta Avaliação?
+closeAnonymousMarking=Fechar correção anônima
+markPapers=Correção de Provas
+faceServiceTips=O Reconhecimento facial e o Monitoramento de captura de imagem são serviços pagos e ainda não estão ativados em sua instituição. Entre em contato com o Atendimento ao Cliente para ativá-los.
+pcAndMobile=computador e Telefone celular
+dayShowExam=Exibir {n} dias após a conclusão da avaliação
+faceAuthenticateFailed=A pessoa reprovou no Reconhecimento facial.
+faceAuthTips4=A foto de autenticação não pode ser editada após ser carregada
+markingTips4=Quantidade de correções atribuídas
+showScope=Exibir alcance
+previewPapers=Pré-visualizar Prova
+modifyBatchs=Editar turma
+recordProgressTips2=Se o navegador bloquear o pop-up, selecione sempre permitir janelas pop-up do website.
+recordProgressTips3=Gerando registro de respostas, concluído
+recordProgressTips1=O tempo de exportação pode levar mais tempo, por favor, aguarde.
+cancelExport=Cancelar exportação
+randomTips13=O número de questões sorteadas para cada Tipo de item deve ser um número inteiro entre 1 e 100
+gradeTips9=Ao atingir o número de vezes especificado durante a saída da sala de aula, o sistema forçará o término do exame
+screenMonitorTips7=Selecione pelo menos um dos dois modos de monitoramento
+screenMonitorTips5=Finalização forçada de exame após sair por mais de {s} segundo(s)
+screenMonitorTips6=Pode ser definido entre 5 e 300 segundos
+screenMonitorTips4=Após acumular {n} saídas, a finalização forçada de exame será aplicada
+randomTips14=A pontuação de cada questão deve estar entre 0 a 100
+randomTips16=O tipo de item da prova selecionada não suporta copiar
+gradeTips10=Se sair da sala de aula durante mais tempo do que o permitido, o sistema forçará a entrega dos trabalhos.
+paperNum=Quantidade de exames compostos
+macVersion=Versão Mac
+macVersionDesc=Suporta Sistema macOS 10.11 e versões posteriores
+windowsVersionDesc=Suporta Sistema operacional Windows 7 e versões superiores
+windowsVersion=Versão para o Sistema operacional Windows
+shareExamUrl=Partilhar URL da avaliação
+shareExamDesc=Compartilhe o URL da avaliação com os candidatos, para que eles possam entrar e responder às perguntas da avaliação diretamente.
+examUrl=URL da avaliação
+noBatchTip1=Deseja criar uma nova sessão?
+noBatchDesc=Nenhuma sessão não iniciada.
+toAddBatch=Criar sessão
+startTimeErrorTip=O Horário de Início não pode estar antes da Hora atual
+noBatchTip=O Re-Teste pode adicionar um aluno apenas para uma Sessão não iniciada.
+cannotAddTip=O tempo restante da sessão atual é insuficiente para estender o tempo de resposta para evitar confusão.
+addTimeDesc=Esta funcionalidade pode ser usada para aumentar o tempo da prova em lote para todos os alunos que estão fazendo uma prova na sessão atual. Atenção:{br1}1. Isso só afetará os alunos que estão fazendo a prova. Os alunos que não entraram na prova e os que já entregaram os trabalhos não serão afetados.{br2}2. Após a extensão, a contagem regressiva no Portal do Aluno será atualizada em alguns Segundo.{br3}3. Se o Tempo restante na sessão atual for menor do que o tempo que você precisa estender, estenda a Data de conclusão da sessão ao mesmo tempo.
+addBatchLabel=Estender simultaneamente a Data de conclusão da Sessão atual
+addTimeTip=Digite um número inteiro entre 1 e 100
+addAnswerTime=Estender a duração para responder às perguntas
+editBatchTimeTip=Atenção: A sessão atual está em andamento, portanto não é possível editar o Horário de Início. A Data de conclusão pode ser adiada, mas não antecipada.
+batchExpandNew=estender por {count} minuto
+roomTips15=A duração da extensão precisa estar entre 1-100
+roomTips16=Sessão atual concluída
+activeExam=Ativar Avaliação
+waitExeclDownload=Aguarde um momento, exportando...
+derivedExaminationAnalysisExcel=Exportar para um arquivo do Microsoft Excel
+donwloadFalse=Falha ao exportar
+exportAnalysisExcelreport=exportar relatório de análise
+pleaseSelectExamTime=A duração da prova deve ser maior ou igual a 0
+excelMsg=Usando essa funcionalidade, é possível exportar os dados principais do relatório de análise para o Microsoft Excel. Selecione primeiro o intervalo de turmas que desejam analisar.
+participantsPeople=Pessoas envolvidas:
+disable=Desativar
+setExamTips1=(Não é possível alterar depois de iniciar a Avaliação)
+abnormalMonitor=Monitoramento de exceções
+randomItemTip=Inclui questões de múltipla escolha e múltipla escolha
+randomQuestion=Questões aleatórias
+randomItem=Opções aleatórias
+waterMark=Ativar Responder às perguntas com marca d'água
+waterMarkTip=Pode ser usado para evitar vazamento de informações na captura de tela
+maxTextInputTips1=Digite no máximo {n} caracteres
+radio1=Apenas questões objetivas
+remarkTip6=Selecione o alcance do tipo de item que precisa reavaliar pontuação:
+radio2=Todos os tipos de questões compatíveis com a Avaliação do Sistema (incluindo questões objetivas, exercícios de preenchimento de lacunas, exercícios de cálculo com fórmulas, Exercícios de Leitura Oral)
+gradingAgain=Iniciar avaliação
+sequentialAnswer=Não é permitido pular questões
+remarkTip7=Observação: A reavaliação da pontuação não afetará a nota de itens avaliados manualmente como perguntas de resposta curta. Exercícios de preenchimento de lacunas e outros tipos de item suportados pela classificação do sistema, se já tiverem sido corrigidos manualmente, a reavaliação da pontuação pelo sistema substituirá o registro de correção manual; use-a com cautela.
+sequentialAnswerTip=Com esta opção ativada, apenas uma questão por página será exibida para o candidato responder e somente em Sequência.
+radio2Msg=Todos os tipos de questão que suportam reavaliação de pontuação (incluindo os tipos de questão objetiva mencionados acima, mais exercícios de preenchimento de lacunas e exercícios de leitura oral)
+radio1Msg=Somente questões objetivas (incluindo perguntas de múltipla escolha, múltipla escolha, julgamento, ordenação, seleção suspensa, exercício de preenchimento de lacuna e exercício de preenchimento de texto)
+teacherexamListNone=Sem sessões avaliativas agendadas
+ownSpieltagMsg=Somente o Criador da Avaliação pode operar
+PCExeOrAppTips=Use o ULearning APP/Software do cliente de teste para participar da avaliação
+systemRequireDesc1=- Sistema operacional Windows 7 ou superior{br}- macOS 14 ou superior
+antiCheatingLevel=Nível Antibatota
+equipmentRequireDesc=- Se a questão da prova contiver Vídeo, é necessário se equipar com Fone de ouvido interno/externo.{br}- Se a questão da prova contiver Gravação, é necessário se equipar Microfone interno/externo.{br1}- Se a Avaliação ativar o Reconhecimento facial/Vigilância por câmera, é necessário se equipar Câmera interna/externa.
+systemRequire=Requisitos do Sistema
+PCExe2=Cliente Bloqueia Tela
+remarkTip5=Após o início da prova, se você editar a resposta ou a nota de uma questão da prova, use esta funcionalidade para avaliar novamente a prova classificada automaticamente.
+descriptionCl1=A avaliação suporta vários Formas de Participação. Os requisitos de dispositivo e os níveis de prevenção de Batota variam de acordo com a Forma de Participação. selecionar o Forma de Participação adequado com base no cenário da avaliação.
+systemRequireDesc3=Sistemas compatíveis: - iOS 9.0 ou superior<br>- Android 6.0 ou superior
+antiCheatingLevelDesc3=Mais rigoroso. {br}Os candidatos precisam instalar um software de cliente de teste independente, depois de entrar no teste, não é possível sair da interface do teste no meio do caminho e só é possível sair entregando o trabalho.
+antiCheatingLevelDesc1=Relativamente flexível.{br}Suporta todos os métodos de monitoramento básico, mas não pode restringir totalmente a saída do candidato durante o treinamento.
+antiCheatingLevelDesc2=É muito rigoroso. {br}Além de todos os métodos básicos de monitoramento, o APP também possui vários mecanismos anti-fraude integrados, como proibir a divisão de tela e a gravação de tela; ao mesmo tempo, a detecção de comutação de tela também é mais rigorosa.
+newOpenMonitorTips=O candidato deve manter a câmera ativada do começo ao fim e a imagem estável. Não é recomendado fazer o exame pelo celular.
+equipmentRequire=Requisitos do dispositivo
+systemRequireDesc2=- Navegador: Google Chrome / Edge / Safari
+gradeTips12=Sistema Automático
+choiceExamTypeTips=Por favor selecione pelo menos um tipo de avaliação
+difficultyLevelArray1[4]=difícil
+difficultyLevelArray1[2]=Geral
+subQuestionLevel=Dificuldade de cada pergunta:
+selectLevelip=Selecione pelo menos uma dificuldade
+questionLevel=Nível de dificuldade da questão:
+difficultyLevelArray1[1]=Relativamente fácil
+difficultyLevelArray1[3]=difícil
+difficultyLevelArray1[0]=fácil
+localRecordTime1=Duração da gravação local
+PCType=Faculdade ULearning
+appOrPCexeType=ULearning APP / Cliente do software de avaliação
+appOrPCType=ULearning APP/computador
+examTypeTips=Utilize o {type} para acessar a Avaliação.
+PCexeType=ULearning Software do cliente de teste
+appType=ULearning APP
+mobileMonitorCodeTitle=Console móvel de monitoramento
+enableSignInDesc=1. O horário de início da inscrição começa no momento em que o professor apresentar o código de inscrição, independentemente do horário de início da prova; após o término de todas as sessões de prova, não será mais permitida a inscrição. {br}2. Para provas com inscrição ativada, recomenda-se reservar tempo para a inscrição no local ao agendar as sessões de prova para evitar confusão. {br1}3. Se a prova tiver várias oportunidades para responder, a inscrição é necessária apenas 1 vez. {br2}4. Após a inscrição, os candidatos podem acessar a prova para responder às perguntas somente com o dispositivo usado para inscrição. Se precisar trocar de dispositivo devido a uma situação especial, o candidato pode solicitar um código de verificação ao professor fiscal.
+enableSignIn=Ativar o código de check-in do exame
+exportType1=Exportar um ficheiro do Microsoft Excel com todas as turmas numa planilha de trabalho
+answerNums=Número de pessoas fazendo uma prova: {num}
+facePhotoVerify=Revisão da foto da pessoa
+answerDuration1=Duração: {count}
+courseClass=Disciplina - Turma
+startExport=Começar a exportar
+mobileMonitorCodeTip=dica: Se os professores que não fazem parte das equipes de disciplina precisarem contribuir para a supervisão, eles também podem usar o navegador do telefone para escanear este código QR e acessar o console de monitoramento móvel. Ao acessar usando o navegador do telefone, eles precisarão inserir o código de verificação alternativo.
+exportType3=Exportar uma Ficheiro Microsoft Excel para cada Turma
+exportInfo=Informações de Exportação:
+naturalClass=Turma Administrativa / Turma Natural
+enableSignInIntro=O check-in do exame é aplicável a cenários de exames concentrados em sala de aula, podendo ser usado para evitar exames substitutos fora do local. {br}Para exames com check-in ativado, os candidatos só poderão entrar no exame após fazerem o check-in por código QR. {br1}Antes do início do exame, o professor pode usar o celular para visualizar e exibir o código QR de check-in na página de monitoramento do exame do ULearning APP.
+enableSignInTip=Válido apenas para Exame pelo celular. Ao ativar esta opção, os candidatos terão que fazer check-in por código QR para entrarem e responderem às perguntas.
+mobileMonitorCodeIntro=O código de check-in do exame é um código QR dinâmico. Acesse o exame usando o APP 【Youxueyuan 2.0】 ou use o telefone celular para digitalizar o código QR abaixo para entrar no console móvel de monitoramento.
+submitStatus=Coleta do papel em andamento
+exportSignInExcel=Exportar registro
+examSignIn=Check-in do exame
+gradeTips11=Encerrar o exame antes do horário pelo professor
+forceSubmitTip4=O aluno está respondendo às perguntas, ao utilizar esta funcionalidade, você irá forçar a coleta do papel do aluno. A coleta do papel pode ter um atraso de aproximadamente 10 segundos a 1 minuto. Essa operação é irrevogável, por isso, tenha cuidado ao utilizá-la.
+enableSignInNote=Atenção:
+exportSignInExcelDesc=Use essa funcionalidade para exportar o hist\u00f3rico de presen\u00e7a das sess\u00f5es e das turmas selecionadas atualmente.
+exportType=Forma de exportação:
+exportType2=exportar um Ficheiro para o Microsoft Excel com uma Planilha de Trabalho para cada Turma
+remarkSetting=Configurações de avaliação
+gradeTips13=Captura de Tela de violação, Finalização forçada de exame do Sistema
+screenshotMonitor=Ativar monitoramento de Captura de Tela
+screenshotMonitorDesc=Válido apenas para o Exame pelo Celular, ao detectar que o Candidato realizou a Captura de Tela, na primeira vez é emitido um aviso, na segunda vez ocorre a Finalização forçada de exame
+screenshotMonitorTip=Devido a características do sistema do telefone celular, esta funcionalidade está disponível apenas para iPhones; telefones Android já a proibiram diretamente durante avaliações
+remarkSettingDesc=Questões de múltipla escolha parcialmente corretas
+remarkSettingTip=Seleções erradas não geram Nota
+openSafeKeyboard=Habilitar teclado antiscola
+closeQuestionMsg=Depois de fechar, o aluno não poderá entrar no banco de questões para praticar. Deseja fechar?
+studentExamStudentOf=Candidato: {n}
+openSafeKeyboardTip1=O teclado seguro pode ser usado para evitar o comportamento de batota usando funções especiais do método de entrada do telefone celular, mas a experiência de entrada não é tão fluida quanto o teclado embutido do telefone celular. Se houver questões na prova que precisam digitar uma grande quantidade de texto, não é recomendado habilitá-lo.
+helpMsg5=3. Cada questão pode ser Enviada após verificar a Resposta Certa e a Análise. Não há limites para o Número de tentativas.
+attachmentHelpDesc=Os anexos suportam formatos comuns, como imagem, documento, vídeo e áudio. {link}{br}Para cada pergunta, é possível enviar até 10 anexos. {br1}Envio no Computador: o tamanho máximo do arquivo é de 500 MB; Envio no Dispositivo móvel: o tamanho máximo do arquivo é de 200 MB. {br2}Para responder às perguntas no Computador, é possível selecionar arquivos locais ou tirar uma foto com o QR code do celular.
+studentBatch=Sessão: {startTime} - {endTime}
+helpMsg3=1. Todos os Alunos na disciplina podem Entrar no Banco de questões para Exercício, temporariamente só é compatível com o computador pessoal.
+helpMsg2=Módulo de treinamento do banco de questões:
+closeQuestion=Fechar treinamento de questões
+attachmentHelpLink=Clique para ver os formatos de arquivo permitidos para upload
+openQuestionMsg1=Esta funcionalidade deve ser ativada / desativada pelo responsável pelo curso
+helpMsg4=2. O banco de questões de treinamento suporta somente a importação de questões objetivas e de exercícios de preenchimento de lacunas.
+openQuestionMsg2=Uma vez ativado, os alunos podem acessar o banco de questões para praticar. Confirmar ativação?
+questionBankManage=Gerenciamento de Banco de Questões >>
+openSafeKeyboardTip=Apenas para celulares, suporta a entrada de texto em chinês, inglês, números e símbolos de pontuação comuns
+studentRemainSeat=Vagas disponíveis: {n}
+studentSeatNumber=Capacidade de assentos: {n}
+helpMsg6=Observação: O treinamento do banco de questões é um recurso experimental; a entrada e a funcionalidade estão sujeitas a alterações futuras.
+gradeTips14=O tempo acabou, o sistema enviará o trabalho automaticamente
+answerTimesOfNew=Número de submissões: {count}
+getInToqueBank=Entrar no banco de questões >>
+answeredTimesNew=Número de submissões / Número de tentativas permitidas
+helpMsg1=A funcionalidade [Treinamento de questões] permite liberar um banco de questões específico para que os alunos pratiquem antes das avaliações. Esta funcionalidade deve ser ativada pelo Responsável pelo curso. Recomenda-se desativar a entrada do treinamento de questões antes da avaliação oficial.
+openQuestion=Ativar Treinamento de Questões
+answerTimesNew=Número de submissões
+deleteExam=Excluir Avaliação
+exportLayout=Exportar layout
+standardType=Edição Standard
+compactType=Versão compacta (economiza papel de impressão)
+attachments=Exportar anexo
+findExamTip=Se não encontrar a avaliação de que precisa na lista abaixo, verifique se entrou com a conta correta ou se participou da turma correta.
+accountPrefix=conta: {account}
+UTestInputName=Digite a conta

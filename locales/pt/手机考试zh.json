@@ -1,286 +1,71 @@
-{
-    "empty": {
-        "message": "Nada",
-        "description": ""
-    },
-    "netWorkErrorNew": {
-        "message": "Exceção na rede, Checar a conexão de rede.",
-        "description": ""
-    },
-    "netWorkErrorMsg": {
-        "message": "A rede atual está instável, continuar respondendo às perguntas pode fazer com que o registro de respostas seja perdido. Se a rede não puder ser restaurada temporariamente, é recomendável sair da avaliação após obter o consentimento do professor e reagendá-la.",
-        "description": ""
-    },
-    "quiteExam": {
-        "message": "Sair da Avaliação",
-        "description": ""
-    },
-    "quiteExamAgain": {
-        "message": "Deseja sair agora?",
-        "description": ""
-    },
-    "submitPaperErrorMsg": {
-        "message": "Exceção de rede, falha ao enviar a avaliação!<br/>Você pode tentar novamente enviar. Se a rede continuar com problemas e não puder ser restaurada temporariamente, sugerimos que você saia da avaliação primeiro após obter a concordância do professor.",
-        "description": ""
-    },
-    "examType1": {
-        "message": "Página web do computador",
-        "description": ""
-    },
-    "screenRecordTips": {
-        "message": "É proibido Gravar Tela ou partilhar a Tela durante a Avaliação.",
-        "description": ""
-    },
-    "screenRecordTips1": {
-        "message": "Se a Gravação de Tela ou Partilha estiver ativada, feche-as antes de Entrar na Avaliação.",
-        "description": ""
-    },
-    "inExam": {
-        "message": "Durante a avaliação",
-        "description": ""
-    },
-    "forbidScreenRecord": {
-        "message": "Gravações de Tela/partilha de Tela não permitidas",
-        "description": ""
-    },
-    "screenRecordTips2": {
-        "message": "Se você estiver gravando sua tela ou compartilhando sua tela, feche-a e volte para o teste para continuar respondendo às perguntas",
-        "description": ""
-    },
-    "question9New": {
-        "message": "Leitura Oral",
-        "description": ""
-    },
-    "noSkippingTips": {
-        "message": "dica",
-        "description": ""
-    },
-    "noSkippingMsg": {
-        "message": "Não é permitido saltar questões nesta prova, por favor, responda na Sequência correta.",
-        "description": ""
-    },
-    "deviceSupportTip": {
-        "message": "Realize a avaliação usando seu telefone celular",
-        "description": ""
-    },
-    "examType2": {
-        "message": "Somente por telefone celular",
-        "description": ""
-    },
-    "examType3": {
-        "message": "Telefone celular/Web/Cliente",
-        "description": ""
-    },
-    "examType4": {
-        "message": "Cliente de computador",
-        "description": ""
-    },
-    "examType5": {
-        "message": "Telefone celular / Site",
-        "description": ""
-    },
-    "examType6": {
-        "message": "computador Web/Cliente",
-        "description": ""
-    },
-    "examType7": {
-        "message": "Cliente de telefone celular/computador",
-        "description": ""
-    },
-    "examTypeTip": {
-        "message": "Faça o {examType} para participar da avaliação",
-        "description": ""
-    },
-    "checkCamera": {
-        "message": "Depure a Câmera",
-        "description": ""
-    },
-    "cameraMonitorTip1": {
-        "message": "Se for ativada a vigilância por câmera no exame, o Sistema realizará a detecção e o registro em tempo real de exceções, como abandono do lugar pelo Candidato, tempo maior do que o normal com a linha de visão desviada e Bate-papo durante o exame.",
-        "description": ""
-    },
-    "cameraMonitorTip2": {
-        "message": "Antes de Entrar na avaliação, sugerimos que você deixe seu telefone fixo, ajuste o ângulo da câmera e sua postura, e mantenha-os estáveis durante a avaliação.",
-        "description": ""
-    },
-    "statusNormal": {
-        "message": "Estado normal",
-        "description": ""
-    },
-    "deviatedSight": {
-        "message": "Desvio de olhar",
-        "description": ""
-    },
-    "multiPerson": {
-        "message": "Bate-papo durante o exame",
-        "description": ""
-    },
-    "selectFileTip": {
-        "message": "Não suporta este tipo de Ficheiro",
-        "description": ""
-    },
-    "filePlayTip": {
-        "message": "Falha na Transcodificação do Ficheiro",
-        "description": ""
-    },
-    "examSignin": {
-        "message": "Check-in do exame",
-        "description": ""
-    },
-    "examSigninTip": {
-        "message": "A assinatura não foi feita para Avaliação, não é possível Entrar.",
-        "description": ""
-    },
-    "examSigninTip1": {
-        "message": "O dispositivo atual e o dispositivo utilizado para registrar são inconsistentes. Utilize o dispositivo registrado para entrar em Avaliação.",
-        "description": ""
-    },
-    "faceTip10": {
-        "message": "Esta avaliação já começou com reconhecimento facial. Você ainda não concluiu a verificação facial, não pode entrar para fazer a avaliação.",
-        "description": ""
-    },
-    "faceTip11": {
-        "message": "Irreconhecível?",
-        "description": ""
-    },
-    "signTime": {
-        "message": "Duração do Registro:",
-        "description": ""
-    },
-    "signLocation": {
-        "message": "Local de Registro:",
-        "description": ""
-    },
-    "signTip": {
-        "message": "A avaliação foi concluída e você não registrou sua presença a tempo",
-        "description": ""
-    },
-    "scanSignIn": {
-        "message": "Fazer check-in por código QR",
-        "description": ""
-    },
-    "scanSignTip": {
-        "message": "Este exame ativou o check-in do exame. Você deve concluir o check-in para entrar no exame.",
-        "description": ""
-    },
-    "scanSignTip1": {
-        "message": "Atenção, depois de se registrar, você só poderá entrar na prova e responder às perguntas usando o dispositivo utilizado no registro.",
-        "description": ""
-    },
-    "scanTip1": {
-        "message": "Você não está na Lista para essa Avaliação, incapaz de Registro",
-        "description": ""
-    },
-    "scanTip2": {
-        "message": "O código QR expirou, leia novamente",
-        "description": ""
-    },
-    "signPosition": {
-        "message": "Local de Registro",
-        "description": ""
-    },
-    "surround": {
-        "message": "Localização",
-        "description": ""
-    },
-    "locationWrong": {
-        "message": "Localização incorreta",
-        "description": ""
-    },
-    "posTitle": {
-        "message": "O desvio de localização é grande",
-        "description": ""
-    },
-    "posMsg1": {
-        "message": "Confirmar que a permissão de acesso à localização da ULearning não foi desabilitada",
-        "description": ""
-    },
-    "posMsg2": {
-        "message": "Se conectado a um ponto de acesso público, tente fechar o Wi-fi, ativar os dados móveis e localizar novamente.",
-        "description": ""
-    },
-    "getPos": {
-        "message": "Localizando",
-        "description": ""
-    },
-    "getPosAgain": {
-        "message": "Localizar novamente",
-        "description": ""
-    },
-    "openPos": {
-        "message": "Abra o localizador do seu telefone celular",
-        "description": ""
-    },
-    "requestFail": {
-        "message": "Falha na solicitação",
-        "description": ""
-    },
-    "signinSuccess": {
-        "message": "Registro efetuado com sucesso",
-        "description": ""
-    },
-    "signinFail": {
-        "message": "Falha no Registro",
-        "description": ""
-    },
-    "signinFail1": {
-        "message": "Conclua a localização e, em seguida, registre-se",
-        "description": ""
-    },
-    "signingIn": {
-        "message": "Registrando",
-        "description": ""
-    },
-    "mobilePluginTips1": {
-        "message": "Permita que o ULearning utilizar os serviços de localização, após a permissão, tente novamente",
-        "description": ""
-    },
-    "mobilePluginTips2": {
-        "message": "Por favor, ative os serviços de localização nas configurações do sistema do telefone celular e permita que a ULearning use os serviços de localização",
-        "description": ""
-    },
-    "mobilePluginTips3": {
-        "message": "Os serviços de localização são instáveis e incapazes de obter sua localização. Tente novamente posteriormente.",
-        "description": ""
-    },
-    "versionLowerTips1": {
-        "message": "A Versão atual é muito baixa. Por favor, atualize-a antes de se registrar!",
-        "description": ""
-    },
-    "forceSubmitting": {
-        "message": "Está sendo enviado...",
-        "description": ""
-    },
-    "forbitScreenShot": {
-        "message": "Captura de tela proibida",
-        "description": ""
-    },
-    "forbitScreenShotTip": {
-        "message": "É proibido tirar Capturas de Tela durante esta Avaliação. Por favor, cumpra rigorosamente a disciplina do exame.",
-        "description": ""
-    },
-    "forbitScreenShotTip1": {
-        "message": "Este comportamento de captura de tela foi relatado para a \"Área do Professor\". {forbitScreenShotTi2}",
-        "description": ""
-    },
-    "forbitScreenShotTi2": {
-        "message": "Se o Sistema detectar novamente comportamento de Captura de Tela, finalizará forçadamente o exame",
-        "description": ""
-    },
-    "forceSumitTitle": {
-        "message": "Finalização forçada de exame",
-        "description": ""
-    },
-    "forbitScreenShotSubmitTip": {
-        "message": "É proibido fazer Captura de Tela durante esta Avaliação. Você infringiu as regras novamente e o Sistema Finalização forçada de exame em breve.",
-        "description": ""
-    },
-    "studentExamRoom": {
-        "message": "sala de exame: {n}",
-        "description": ""
-    },
-    "answerTime1": {
-        "message": "Número de Submissões",
-        "description": ""
-    }
-}
+empty=Nada
+netWorkErrorNew=Exceção na rede, Checar a conexão de rede.
+netWorkErrorMsg=A rede atual está instável, continuar respondendo às perguntas pode fazer com que o registro de respostas seja perdido. Se a rede não puder ser restaurada temporariamente, é recomendável sair da avaliação após obter o consentimento do professor e reagendá-la.
+quiteExam=Sair da Avaliação
+quiteExamAgain=Deseja sair agora?
+submitPaperErrorMsg=Exceção de rede, falha ao enviar a avaliação!<br/>Você pode tentar novamente enviar. Se a rede continuar com problemas e não puder ser restaurada temporariamente, sugerimos que você saia da avaliação primeiro após obter a concordância do professor.
+examType1=Página web do computador
+screenRecordTips=É proibido Gravar Tela ou partilhar a Tela durante a Avaliação.
+screenRecordTips1=Se a Gravação de Tela ou Partilha estiver ativada, feche-as antes de Entrar na Avaliação.
+inExam=Durante a avaliação
+forbidScreenRecord=Gravações de Tela/partilha de Tela não permitidas
+screenRecordTips2=Se você estiver gravando sua tela ou compartilhando sua tela, feche-a e volte para o teste para continuar respondendo às perguntas
+question9New=Leitura Oral
+noSkippingTips=dica
+noSkippingMsg=Não é permitido saltar questões nesta prova, por favor, responda na Sequência correta.
+deviceSupportTip=Realize a avaliação usando seu telefone celular
+examType2=Somente por telefone celular
+examType3=Telefone celular/Web/Cliente
+examType4=Cliente de computador
+examType5=Telefone celular / Site
+examType6=computador Web/Cliente
+examType7=Cliente de telefone celular/computador
+examTypeTip=Faça o {examType} para participar da avaliação
+checkCamera=Depure a Câmera
+cameraMonitorTip1=Se for ativada a vigilância por câmera no exame, o Sistema realizará a detecção e o registro em tempo real de exceções, como abandono do lugar pelo Candidato, tempo maior do que o normal com a linha de visão desviada e Bate-papo durante o exame.
+cameraMonitorTip2=Antes de Entrar na avaliação, sugerimos que você deixe seu telefone fixo, ajuste o ângulo da câmera e sua postura, e mantenha-os estáveis durante a avaliação.
+statusNormal=Estado normal
+deviatedSight=Desvio de olhar
+multiPerson=Bate-papo durante o exame
+selectFileTip=Não suporta este tipo de Ficheiro
+filePlayTip=Falha na Transcodificação do Ficheiro
+examSignin=Check-in do exame
+examSigninTip=A assinatura não foi feita para Avaliação, não é possível Entrar.
+examSigninTip1=O dispositivo atual e o dispositivo utilizado para registrar são inconsistentes. Utilize o dispositivo registrado para entrar em Avaliação.
+faceTip10=Esta avaliação já começou com reconhecimento facial. Você ainda não concluiu a verificação facial, não pode entrar para fazer a avaliação.
+faceTip11=Irreconhecível?
+signTime=Duração do Registro:
+signLocation=Local de Registro:
+signTip=A avaliação foi concluída e você não registrou sua presença a tempo
+scanSignIn=Fazer check-in por código QR
+scanSignTip=Este exame ativou o check-in do exame. Você deve concluir o check-in para entrar no exame.
+scanSignTip1=Atenção, depois de se registrar, você só poderá entrar na prova e responder às perguntas usando o dispositivo utilizado no registro.
+scanTip1=Você não está na Lista para essa Avaliação, incapaz de Registro
+scanTip2=O código QR expirou, leia novamente
+signPosition=Local de Registro
+surround=Localização
+locationWrong=Localização incorreta
+posTitle=O desvio de localização é grande
+posMsg1=Confirmar que a permissão de acesso à localização da ULearning não foi desabilitada
+posMsg2=Se conectado a um ponto de acesso público, tente fechar o Wi-fi, ativar os dados móveis e localizar novamente.
+getPos=Localizando
+getPosAgain=Localizar novamente
+openPos=Abra o localizador do seu telefone celular
+requestFail=Falha na solicitação
+signinSuccess=Registro efetuado com sucesso
+signinFail=Falha no Registro
+signinFail1=Conclua a localização e, em seguida, registre-se
+signingIn=Registrando
+mobilePluginTips1=Permita que o ULearning utilizar os serviços de localização, após a permissão, tente novamente
+mobilePluginTips2=Por favor, ative os serviços de localização nas configurações do sistema do telefone celular e permita que a ULearning use os serviços de localização
+mobilePluginTips3=Os serviços de localização são instáveis e incapazes de obter sua localização. Tente novamente posteriormente.
+versionLowerTips1=A Versão atual é muito baixa. Por favor, atualize-a antes de se registrar!
+forceSubmitting=Está sendo enviado...
+forbitScreenShot=Captura de tela proibida
+forbitScreenShotTip=É proibido tirar Capturas de Tela durante esta Avaliação. Por favor, cumpra rigorosamente a disciplina do exame.
+forbitScreenShotTip1=Este comportamento de captura de tela foi relatado para a "Área do Professor". {forbitScreenShotTi2}
+forbitScreenShotTi2=Se o Sistema detectar novamente comportamento de Captura de Tela, finalizará forçadamente o exame
+forceSumitTitle=Finalização forçada de exame
+forbitScreenShotSubmitTip=É proibido fazer Captura de Tela durante esta Avaliação. Você infringiu as regras novamente e o Sistema Finalização forçada de exame em breve.
+studentExamRoom=sala de exame: {n}
+answerTime1=Número de Submissões
