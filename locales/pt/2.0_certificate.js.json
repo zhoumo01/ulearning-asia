@@ -1,500 +1,498 @@
 {
-    "exportClassData": {
-        "unqualifiedStuList": {
-            "message": "Lista de alunos reprovados",
-            "description": ""
-        },
-        "excellenceStuList": {
-            "message": "Lista de alunos notáveis",
-            "description": ""
-        },
-        "allStudentsList": {
-            "message": "Lista completa de alunos",
-            "description": ""
-        },
-        "passStuList": {
-            "message": "Lista de alunos qualificados",
-            "description": ""
-        },
-        "certificateReq": {
-            "message": "Requisitos de obtenção de certificação:",
-            "description": ""
-        },
-        "certificateConfirm": {
-            "message": "Confirmar emissão de Certificação?",
-            "description": ""
-        },
-        "certificateIssuedSuccess": {
-            "message": "Certificação concedida com sucesso",
-            "description": ""
-        },
-        "pass": {
-            "message": "Qualificado",
-            "description": ""
-        },
-        "batchIssueCertificates": {
-            "message": "Emitir Certificações em Lote",
-            "description": ""
-        },
-        "issueCertificateFailed": {
-            "message": "Falha na emissão da Certificação",
-            "description": ""
-        },
-        "issueCertificate": {
-            "message": "Emite certificado",
-            "description": ""
-        },
-        "batchTip": {
-            "message": "Deseja emitir Certificações para todos os Alunos elegíveis que ainda não receberam? A Certificação é irrevogável e não pode ser alterada após a emissão, portanto, opere com cautela.",
-            "description": ""
-        },
-        "certificateMaTip": {
-            "message": "Apenas o responsável pelo curso pode configurar os critérios para obtenção de certificados e emitir certificados",
-            "description": ""
-        },
-        "editTemplateName": {
-            "message": "Editar nome do modelo",
-            "description": ""
-        },
-        "sureSelect": {
-            "message": "Confirmar seleção",
-            "description": ""
-        },
-        "editText": {
-            "message": "Editar",
-            "description": ""
-        },
-        "createCertificateTip3": {
-            "message": "1. A imagem de fundo é uma opção obrigatória. Clique em \"Substituir\" para carregar uma imagem de fundo personalizada. Os formatos suportados são jpg/jpeg/png, com tamanho máximo de 2 MB. As dimensões recomendadas são 1754px*1240px (proporção A4).",
-            "description": ""
-        },
-        "outTime": {
-            "message": "Erro ao ler o código QR",
-            "description": ""
-        },
-        "noFinish": {
-            "message": "The electronic signature you selected is incomplete. Please {finishSign} or {cancelSelect}.",
-            "description": ""
-        },
-        "createDate": {
-            "message": "Data de Certificação",
-            "description": ""
-        },
-        "eligibleCertificateTem": {
-            "message": "Modelo de Certificado de Qualificação",
-            "description": ""
-        },
-        "finishSign": {
-            "message": "Concluir assinatura",
-            "description": ""
-        },
-        "createTemplate": {
-            "message": "Criar Modelo",
-            "description": ""
-        },
-        "selectedCertificateTem": {
-            "message": "Modelo de Certificação Selecionado",
-            "description": ""
-        },
-        "createCertificateTip4": {
-            "message": "2. 【Certificação】 pode ser personalizada e editada. 【Assinatura Eletrônica】 pode ser escaneada, assinada e anexada. Após selecionar esta opção, um botão de operacao estará disponível.",
-            "description": ""
-        },
-        "cancelSelect": {
-            "message": "Cancelar seleção",
-            "description": ""
-        },
-        "createSignature": {
-            "message": "Assinatura eletrônica",
-            "description": ""
-        },
-        "scanCode": {
-            "message": "Ler código QR",
-            "description": ""
-        },
-        "createCertificateTip6": {
-            "message": "4.【Número de certificado】、【Tempo de emissão】 são gerados automaticamente pelo sistema, não podem ser editados. Se este item for selecionado, o sistema gerará automaticamente quando o certificado for emitido.",
-            "description": ""
-        },
-        "changeBg": {
-            "message": "Substituir",
-            "description": ""
-        },
-        "excellentCertificateTem": {
-            "message": "Modelos de Certificação Excelentes",
-            "description": ""
-        },
-        "cropBgImg": {
-            "message": "Cortar imagem de fundo",
-            "description": ""
-        },
-        "issuingUnit": {
-            "message": "Entidade Certificadora",
-            "description": ""
-        },
-        "defaultSucMsg": {
-            "message": "Definir padrão com sucesso",
-            "description": ""
-        },
-        "editContentTip1": {
-            "message": "Observação: o nome da disciplina entre aspas é obtido automaticamente pelo sistema, você pode editar o conteúdo entre aspas, se tanto as aspas quanto o nome da disciplina forem apagados, este modelo não conseguirá obter automaticamente os dados do sistema, você deverá editar manualmente.",
-            "description": ""
-        },
-        "templateTip4": {
-            "message": "Modelo editado com sucesso",
-            "description": ""
-        },
-        "signErrorTip": {
-            "message": "Selecione primeiro a assinatura eletrônica",
-            "description": ""
-        },
-        "editContent": {
-            "message": "Editar o texto do certificado",
-            "description": ""
-        },
-        "templateTip1": {
-            "message": "O nome do Modelo não pode ficar vazio",
-            "description": ""
-        },
-        "createCertificateTip5": {
-            "message": "3.【Nome do estudante】、【Unidade emissora】 recuperar informações do perfil pessoal do usuário estudante, se selecionar este item, o sistema irá combinar automaticamente no momento da emissão do certificado, por favor instrua os estudantes a utilizar o nome verdadeiro na Minha Área.",
-            "description": ""
-        },
-        "systemTemplate": {
-            "message": "Modelo do Sistema",
-            "description": ""
-        },
-        "operating": {
-            "message": "Instruções de operação:",
-            "description": ""
-        },
-        "createCertificateTip1": {
-            "message": "selecione o modelo que constitui o projeto de Certificação",
-            "description": ""
-        },
-        "createCertificateTip2": {
-            "message": "Visualização do modelo de certificação",
-            "description": ""
-        },
-        "editTemplateTip": {
-            "message": "Nota: O nome do modelo não pode se repetir.",
-            "description": ""
-        },
-        "certificateBody": {
-            "message": "Corpo da Certificação",
-            "description": ""
-        },
-        "certificateNum": {
-            "message": "Número do certificado",
-            "description": ""
-        },
-        "createBgImage": {
-            "message": "Imagem de fundo",
-            "description": ""
-        },
-        "editTemplate": {
-            "message": "Editar Modelo",
-            "description": ""
-        },
-        "scanCodeTitle": {
-            "message": "Por favor, escaneie o código QR para assinar",
-            "description": ""
-        },
-        "templateTip2": {
-            "message": "O nome do Modelo não pode ser repetido.",
-            "description": ""
-        },
-        "templateTip3": {
-            "message": "Modelo criado com sucesso",
-            "description": ""
-        },
-        "passNum": {
-            "message": "Pessoas qualificadas",
-            "description": ""
-        },
-        "certificateRequest": {
-            "message": "Requisitos de Certificação",
-            "description": ""
-        },
-        "certSummary": {
-            "message": "Total de {total} alunos na disciplina, segundo critérios de obtenção do certificado, {qualified} pessoas qualificadas e {unqualified} pessoas não qualificadas, taxa de qualificação {rate}%",
-            "description": ""
-        },
-        "conformityCertificate": {
-            "message": "Certificação de qualificação",
-            "description": ""
-        },
-        "certSummary2": {
-            "message": "Na disciplina existem {total} alunos, de acordo com os critérios de obtenção da Certificação, {qualified} alunos foram aprovados, {unqualified} alunos foram reprovados, a taxa de aprovação é {rate} % e a taxa de excelência é {excellent}%",
-            "description": ""
-        },
-        "sample": {
-            "message": "",
-            "description": ""
-        },
-        "refreshGrade": {
-            "message": "atualizar Nota",
-            "description": ""
-        },
-        "excellentNotice": {
-            "message": "A nota da Avaliação do curso atingiu o requisito para obter a Certificação. Parabéns pela conquista.",
-            "description": ""
-        },
-        "newTemplateTip": {
-            "message": "Digite um Nome de Modelo",
-            "description": ""
-        },
-        "fileTypeError": {
-            "message": "Imagens para o fundo são suportadas somente nos formatos jpg/jpeg/png",
-            "description": ""
-        },
-        "cancelDefaultFail": {
-            "message": "Cancelar falha padrão",
-            "description": ""
-        },
-        "newTemplate": {
-            "message": "Digite o nome do modelo",
-            "description": ""
-        },
-        "delTemplate": {
-            "message": "Excluir Modelo",
-            "description": ""
-        },
-        "cancelDefaultSuc": {
-            "message": "Cancelar padrão com sucesso",
-            "description": ""
-        },
-        "certificateSignature": {
-            "message": "Assinatura eletrónica",
-            "description": ""
-        },
-        "contentErrorTip2": {
-            "message": "Digite o texto do certificado",
-            "description": ""
-        },
-        "copyTemplate": {
-            "message": "Copiar Modelo",
-            "description": ""
-        },
-        "deleteSuccessMsg": {
-            "message": "Excluído com sucesso",
-            "description": ""
-        },
-        "deleteFailMsg": {
-            "message": "Falha ao excluir",
-            "description": ""
-        },
-        "defaultText": {
-            "message": "padrão",
-            "description": ""
-        },
-        "defaultFailMsg": {
-            "message": "Configurações padrão falhadas",
-            "description": ""
-        },
-        "nameErrorTip": {
-            "message": "O nome do modelo não pode exceder 70 letras",
-            "description": ""
-        },
-        "copyFailMsg": {
-            "message": "Falha ao copiar",
-            "description": ""
-        },
-        "CertificateIssuing": {
-            "message": "Entidade Emissora",
-            "description": ""
-        },
-        "setDefault": {
-            "message": "definir como padrão",
-            "description": ""
-        },
-        "cancelDefault": {
-            "message": "Cancelar padrão",
-            "description": ""
-        },
-        "copySuccessMsg": {
-            "message": "Copiado com sucesso",
-            "description": ""
-        },
-        "createTemplate2": {
-            "message": "Criar modelo de Certificação",
-            "description": ""
-        },
-        "certTip": {
-            "message": "Para garantir a exatidão das informações do certificado, certifique-se de {informLink}",
-            "description": ""
-        },
-        "excellenceCertificate": {
-            "message": "Certificação de excelência",
-            "description": ""
-        },
-        "informLink": {
-            "message": "Complete suas informações básicas",
-            "description": ""
-        },
-        "unqualified": {
-            "message": "Não qualificado",
-            "description": ""
-        },
-        "actualName": {
-            "message": "Nome Completo",
-            "description": ""
-        },
-        "enterScoreTip": {
-            "message": "Digite a Nota correta, mantendo somente um decimal",
-            "description": ""
-        },
-        "issueDate": {
-            "message": "Data de emissão do certificado",
-            "description": ""
-        },
-        "qualifiedNotice": {
-            "message": "Parabéns! Você alcançou a pontuação necessária na avaliação de seu curso para obter o certificado e agora tem:",
-            "description": ""
-        },
-        "notSetCerTip": {
-            "message": "O professor ainda não configurou os requisitos para obter a certificação",
-            "description": ""
-        },
-        "noCourseAssessment": {
-            "message": "A estratégia de avaliação ainda não foi definida para esta disciplina, portanto, a lista de Certificações não pode ser obtida.",
-            "description": ""
-        },
-        "gradeRule1": {
-            "message": "Para receber um certificado, a nota final do curso deve ser igual ou superior a {input} pontos",
-            "description": ""
-        },
-        "gradeRule3": {
-            "message": "Se a nota final da disciplina for maior ou igual a {input}, o certificado de excelência será concedido.",
-            "description": ""
-        },
-        "myCertificate": {
-            "message": "Minha Certificação",
-            "description": ""
-        },
-        "enterScore": {
-            "message": "Digite uma nota",
-            "description": ""
-        },
-        "setPassAndExcellence": {
-            "message": "Configurações de Certificação de Aprovação e Mérito da Disciplina",
-            "description": ""
-        },
-        "NoResults": {
-            "message": "Filtrar ainda não",
-            "description": ""
-        },
-        "enterScoreTip5": {
-            "message": "Salvo com Sucesso",
-            "description": ""
-        },
-        "noCertificate": {
-            "message": "A disciplina ainda não definiu critérios para obtenção da certificação.",
-            "description": ""
-        },
-        "explanationContent": {
-            "message": "A nota da Avaliação do curso é usada como Nota dos Alunos para emissão de Certificação. Se o Aluno continuar aprendendo após a emissão da Certificação e sua Nota mudar, a Nota nova não será considerada para determinar o tipo de Certificação. A Certificação do Aluno ainda será determinada pela Nota usada na emissão da Certificação.",
-            "description": ""
-        },
-        "courseAssessmentScore": {
-            "message": "Nota da avaliação do curso",
-            "description": ""
-        },
-        "qualifiedCert2": {
-            "message": "Parabéns! Você concluiu a disciplina {coursename} e foi aprovado na avaliação!",
-            "description": ""
-        },
-        "certificateNo": {
-            "message": "Número do Certificado",
-            "description": ""
-        },
-        "enterScoreTip2": {
-            "message": "As notas de aprovação não podem exceder as notas de excelência",
-            "description": ""
-        },
-        "viewExample": {
-            "message": "Ver exemplos",
-            "description": ""
-        },
-        "enterScoreTip3": {
-            "message": "Apenas o responsável pela disciplina pode definir Configurações",
-            "description": ""
-        },
-        "enterScoreTip4": {
-            "message": "Certificações foram emitidas, as metas da avaliação não podem ser editadas",
-            "description": ""
-        },
-        "excellentCert2": {
-            "message": "Parabéns, você concluiu com sucesso a disciplina {coursename} e a avaliação, com excelente Nota.",
-            "description": ""
-        },
-        "lastCertificateIssued": {
-            "message": "Última emissão de Certificação:",
-            "description": ""
-        },
-        "certificateStuTip": {
-            "message": "Nota: se o instrutor emitir um certificado e o aluno continuar estudando e tiver resultados alterados, o certificado não será mais atualizado.",
-            "description": ""
-        },
-        "assessRule3": {
-            "message": "Nota da avaliação do curso: {n}Nota",
-            "description": ""
-        },
-        "clickToSet": {
-            "message": "Clique para Configurações >>",
-            "description": ""
-        },
-        "gradeRule2": {
-            "message": "Quando a nota final da disciplina for igual ou superior a {inputLow} pontos e menor que {inputHigh} pontos, será emitido um certificado de conclusão",
-            "description": ""
-        },
-        "enterScoreTip1": {
-            "message": "Nota não pode exceder 100",
-            "description": ""
-        },
-        "certificateTip2": {
-            "message": "Observações: apenas o Responsável pelo Curso pode definir a Certificação. Não é possível fazer Estatísticas do recebimento da Certificação para Turmas que não têm as Políticas de Nota definidas.",
-            "description": ""
-        },
-        "studentList": {
-            "message": "Lista de alunos",
-            "description": ""
-        },
-        "assessRule1": {
-            "message": "Avaliação do curso Nota ≥{min} Nota <{max}",
-            "description": ""
-        },
-        "downloadCertificate": {
-            "message": "download Certificação",
-            "description": ""
-        },
-        "noCerTip": {
-            "message": "Ainda não obteve a certificação na disciplina",
-            "description": ""
-        },
-        "certificateTip1": {
-            "message": "A certificação foi emitida, a edição das configurações de certificação não é suportada",
-            "description": ""
-        },
-        "assessRule2": {
-            "message": "Nota da Avaliação da Disciplina ≥ {n} Nota(s)",
-            "description": ""
-        },
-        "setPass": {
-            "message": "Configure apenas certificação para conclusão da disciplina",
-            "description": ""
-        },
-        "contentErrorTip3": {
-            "message": "O conteúdo do modelo não pode exceder 100 Letras",
-            "description": ""
-        },
-        "saveTemplateCheck": {
-            "message": "Marque pelo menos um item",
-            "description": ""
-        },
-        "contentErrorTip": {
-            "message": "O conteúdo do modelo não pode exceder 70 letras",
-            "description": ""
-        }
+    "unqualifiedStuList": {
+        "message": "Lista de alunos reprovados",
+        "description": ""
+    },
+    "excellenceStuList": {
+        "message": "Lista de alunos notáveis",
+        "description": ""
+    },
+    "allStudentsList": {
+        "message": "Lista completa de alunos",
+        "description": ""
+    },
+    "passStuList": {
+        "message": "Lista de alunos qualificados",
+        "description": ""
+    },
+    "certificateReq": {
+        "message": "Requisitos de obtenção de certificação:",
+        "description": ""
+    },
+    "certificateConfirm": {
+        "message": "Confirmar emissão de Certificação?",
+        "description": ""
+    },
+    "certificateIssuedSuccess": {
+        "message": "Certificação concedida com sucesso",
+        "description": ""
+    },
+    "pass": {
+        "message": "Qualificado",
+        "description": ""
+    },
+    "batchIssueCertificates": {
+        "message": "Emitir Certificações em Lote",
+        "description": ""
+    },
+    "issueCertificateFailed": {
+        "message": "Falha na emissão da Certificação",
+        "description": ""
+    },
+    "issueCertificate": {
+        "message": "Emite certificado",
+        "description": ""
+    },
+    "batchTip": {
+        "message": "Deseja emitir Certificações para todos os Alunos elegíveis que ainda não receberam? A Certificação é irrevogável e não pode ser alterada após a emissão, portanto, opere com cautela.",
+        "description": ""
+    },
+    "certificateMaTip": {
+        "message": "Apenas o responsável pelo curso pode configurar os critérios para obtenção de certificados e emitir certificados",
+        "description": ""
+    },
+    "editTemplateName": {
+        "message": "Editar nome do modelo",
+        "description": ""
+    },
+    "sureSelect": {
+        "message": "Confirmar seleção",
+        "description": ""
+    },
+    "editText": {
+        "message": "Editar",
+        "description": ""
+    },
+    "createCertificateTip3": {
+        "message": "1. A imagem de fundo é uma opção obrigatória. Clique em \"Substituir\" para carregar uma imagem de fundo personalizada. Os formatos suportados são jpg/jpeg/png, com tamanho máximo de 2 MB. As dimensões recomendadas são 1754px*1240px (proporção A4).",
+        "description": ""
+    },
+    "outTime": {
+        "message": "Erro ao ler o código QR",
+        "description": ""
+    },
+    "noFinish": {
+        "message": "The electronic signature you selected is incomplete. Please {finishSign} or {cancelSelect}.",
+        "description": ""
+    },
+    "createDate": {
+        "message": "Data de Certificação",
+        "description": ""
+    },
+    "eligibleCertificateTem": {
+        "message": "Modelo de Certificado de Qualificação",
+        "description": ""
+    },
+    "finishSign": {
+        "message": "Concluir assinatura",
+        "description": ""
+    },
+    "createTemplate": {
+        "message": "Criar Modelo",
+        "description": ""
+    },
+    "selectedCertificateTem": {
+        "message": "Modelo de Certificação Selecionado",
+        "description": ""
+    },
+    "createCertificateTip4": {
+        "message": "2. 【Certificação】 pode ser personalizada e editada. 【Assinatura Eletrônica】 pode ser escaneada, assinada e anexada. Após selecionar esta opção, um botão de operacao estará disponível.",
+        "description": ""
+    },
+    "cancelSelect": {
+        "message": "Cancelar seleção",
+        "description": ""
+    },
+    "createSignature": {
+        "message": "Assinatura eletrônica",
+        "description": ""
+    },
+    "scanCode": {
+        "message": "Ler código QR",
+        "description": ""
+    },
+    "createCertificateTip6": {
+        "message": "4.【Número de certificado】、【Tempo de emissão】 são gerados automaticamente pelo sistema, não podem ser editados. Se este item for selecionado, o sistema gerará automaticamente quando o certificado for emitido.",
+        "description": ""
+    },
+    "changeBg": {
+        "message": "Substituir",
+        "description": ""
+    },
+    "excellentCertificateTem": {
+        "message": "Modelos de Certificação Excelentes",
+        "description": ""
+    },
+    "cropBgImg": {
+        "message": "Cortar imagem de fundo",
+        "description": ""
+    },
+    "issuingUnit": {
+        "message": "Entidade Certificadora",
+        "description": ""
+    },
+    "defaultSucMsg": {
+        "message": "Definir padrão com sucesso",
+        "description": ""
+    },
+    "editContentTip1": {
+        "message": "Observação: o nome da disciplina entre aspas é obtido automaticamente pelo sistema, você pode editar o conteúdo entre aspas, se tanto as aspas quanto o nome da disciplina forem apagados, este modelo não conseguirá obter automaticamente os dados do sistema, você deverá editar manualmente.",
+        "description": ""
+    },
+    "templateTip4": {
+        "message": "Modelo editado com sucesso",
+        "description": ""
+    },
+    "signErrorTip": {
+        "message": "Selecione primeiro a assinatura eletrônica",
+        "description": ""
+    },
+    "editContent": {
+        "message": "Editar o texto do certificado",
+        "description": ""
+    },
+    "templateTip1": {
+        "message": "O nome do Modelo não pode ficar vazio",
+        "description": ""
+    },
+    "createCertificateTip5": {
+        "message": "3.【Nome do estudante】、【Unidade emissora】 recuperar informações do perfil pessoal do usuário estudante, se selecionar este item, o sistema irá combinar automaticamente no momento da emissão do certificado, por favor instrua os estudantes a utilizar o nome verdadeiro na Minha Área.",
+        "description": ""
+    },
+    "systemTemplate": {
+        "message": "Modelo do Sistema",
+        "description": ""
+    },
+    "operating": {
+        "message": "Instruções de operação:",
+        "description": ""
+    },
+    "createCertificateTip1": {
+        "message": "selecione o modelo que constitui o projeto de Certificação",
+        "description": ""
+    },
+    "createCertificateTip2": {
+        "message": "Visualização do modelo de certificação",
+        "description": ""
+    },
+    "editTemplateTip": {
+        "message": "Nota: O nome do modelo não pode se repetir.",
+        "description": ""
+    },
+    "certificateBody": {
+        "message": "Corpo da Certificação",
+        "description": ""
+    },
+    "certificateNum": {
+        "message": "Número do certificado",
+        "description": ""
+    },
+    "createBgImage": {
+        "message": "Imagem de fundo",
+        "description": ""
+    },
+    "editTemplate": {
+        "message": "Editar Modelo",
+        "description": ""
+    },
+    "scanCodeTitle": {
+        "message": "Por favor, escaneie o código QR para assinar",
+        "description": ""
+    },
+    "templateTip2": {
+        "message": "O nome do Modelo não pode ser repetido.",
+        "description": ""
+    },
+    "templateTip3": {
+        "message": "Modelo criado com sucesso",
+        "description": ""
+    },
+    "passNum": {
+        "message": "Pessoas qualificadas",
+        "description": ""
+    },
+    "certificateRequest": {
+        "message": "Requisitos de Certificação",
+        "description": ""
+    },
+    "certSummary": {
+        "message": "Total de {total} alunos na disciplina, segundo critérios de obtenção do certificado, {qualified} pessoas qualificadas e {unqualified} pessoas não qualificadas, taxa de qualificação {rate}%",
+        "description": ""
+    },
+    "conformityCertificate": {
+        "message": "Certificação de qualificação",
+        "description": ""
+    },
+    "certSummary2": {
+        "message": "Na disciplina existem {total} alunos, de acordo com os critérios de obtenção da Certificação, {qualified} alunos foram aprovados, {unqualified} alunos foram reprovados, a taxa de aprovação é {rate} % e a taxa de excelência é {excellent}%",
+        "description": ""
+    },
+    "sample": {
+        "message": "",
+        "description": ""
+    },
+    "refreshGrade": {
+        "message": "atualizar Nota",
+        "description": ""
+    },
+    "excellentNotice": {
+        "message": "A nota da Avaliação do curso atingiu o requisito para obter a Certificação. Parabéns pela conquista.",
+        "description": ""
+    },
+    "newTemplateTip": {
+        "message": "Digite um Nome de Modelo",
+        "description": ""
+    },
+    "fileTypeError": {
+        "message": "Imagens para o fundo são suportadas somente nos formatos jpg/jpeg/png",
+        "description": ""
+    },
+    "cancelDefaultFail": {
+        "message": "Cancelar falha padrão",
+        "description": ""
+    },
+    "newTemplate": {
+        "message": "Digite o nome do modelo",
+        "description": ""
+    },
+    "delTemplate": {
+        "message": "Excluir Modelo",
+        "description": ""
+    },
+    "cancelDefaultSuc": {
+        "message": "Cancelar padrão com sucesso",
+        "description": ""
+    },
+    "certificateSignature": {
+        "message": "Assinatura eletrónica",
+        "description": ""
+    },
+    "contentErrorTip2": {
+        "message": "Digite o texto do certificado",
+        "description": ""
+    },
+    "copyTemplate": {
+        "message": "Copiar Modelo",
+        "description": ""
+    },
+    "deleteSuccessMsg": {
+        "message": "Excluído com sucesso",
+        "description": ""
+    },
+    "deleteFailMsg": {
+        "message": "Falha ao excluir",
+        "description": ""
+    },
+    "defaultText": {
+        "message": "padrão",
+        "description": ""
+    },
+    "defaultFailMsg": {
+        "message": "Configurações padrão falhadas",
+        "description": ""
+    },
+    "nameErrorTip": {
+        "message": "O nome do modelo não pode exceder 70 letras",
+        "description": ""
+    },
+    "copyFailMsg": {
+        "message": "Falha ao copiar",
+        "description": ""
+    },
+    "CertificateIssuing": {
+        "message": "Entidade Emissora",
+        "description": ""
+    },
+    "setDefault": {
+        "message": "definir como padrão",
+        "description": ""
+    },
+    "cancelDefault": {
+        "message": "Cancelar padrão",
+        "description": ""
+    },
+    "copySuccessMsg": {
+        "message": "Copiado com sucesso",
+        "description": ""
+    },
+    "createTemplate2": {
+        "message": "Criar modelo de Certificação",
+        "description": ""
+    },
+    "certTip": {
+        "message": "Para garantir a exatidão das informações do certificado, certifique-se de {informLink}",
+        "description": ""
+    },
+    "excellenceCertificate": {
+        "message": "Certificação de excelência",
+        "description": ""
+    },
+    "informLink": {
+        "message": "Complete suas informações básicas",
+        "description": ""
+    },
+    "unqualified": {
+        "message": "Não qualificado",
+        "description": ""
+    },
+    "actualName": {
+        "message": "Nome Completo",
+        "description": ""
+    },
+    "enterScoreTip": {
+        "message": "Digite a Nota correta, mantendo somente um decimal",
+        "description": ""
+    },
+    "issueDate": {
+        "message": "Data de emissão do certificado",
+        "description": ""
+    },
+    "qualifiedNotice": {
+        "message": "Parabéns! Você alcançou a pontuação necessária na avaliação de seu curso para obter o certificado e agora tem:",
+        "description": ""
+    },
+    "notSetCerTip": {
+        "message": "O professor ainda não configurou os requisitos para obter a certificação",
+        "description": ""
+    },
+    "noCourseAssessment": {
+        "message": "A estratégia de avaliação ainda não foi definida para esta disciplina, portanto, a lista de Certificações não pode ser obtida.",
+        "description": ""
+    },
+    "gradeRule1": {
+        "message": "Para receber um certificado, a nota final do curso deve ser igual ou superior a {input} pontos",
+        "description": ""
+    },
+    "gradeRule3": {
+        "message": "Se a nota final da disciplina for maior ou igual a {input}, o certificado de excelência será concedido.",
+        "description": ""
+    },
+    "myCertificate": {
+        "message": "Minha Certificação",
+        "description": ""
+    },
+    "enterScore": {
+        "message": "Digite uma nota",
+        "description": ""
+    },
+    "setPassAndExcellence": {
+        "message": "Configurações de Certificação de Aprovação e Mérito da Disciplina",
+        "description": ""
+    },
+    "NoResults": {
+        "message": "Filtrar ainda não",
+        "description": ""
+    },
+    "enterScoreTip5": {
+        "message": "Salvo com Sucesso",
+        "description": ""
+    },
+    "noCertificate": {
+        "message": "A disciplina ainda não definiu critérios para obtenção da certificação.",
+        "description": ""
+    },
+    "explanationContent": {
+        "message": "A nota da Avaliação do curso é usada como Nota dos Alunos para emissão de Certificação. Se o Aluno continuar aprendendo após a emissão da Certificação e sua Nota mudar, a Nota nova não será considerada para determinar o tipo de Certificação. A Certificação do Aluno ainda será determinada pela Nota usada na emissão da Certificação.",
+        "description": ""
+    },
+    "courseAssessmentScore": {
+        "message": "Nota da avaliação do curso",
+        "description": ""
+    },
+    "qualifiedCert2": {
+        "message": "Parabéns! Você concluiu a disciplina {coursename} e foi aprovado na avaliação!",
+        "description": ""
+    },
+    "certificateNo": {
+        "message": "Número do Certificado",
+        "description": ""
+    },
+    "enterScoreTip2": {
+        "message": "As notas de aprovação não podem exceder as notas de excelência",
+        "description": ""
+    },
+    "viewExample": {
+        "message": "Ver exemplos",
+        "description": ""
+    },
+    "enterScoreTip3": {
+        "message": "Apenas o responsável pela disciplina pode definir Configurações",
+        "description": ""
+    },
+    "enterScoreTip4": {
+        "message": "Certificações foram emitidas, as metas da avaliação não podem ser editadas",
+        "description": ""
+    },
+    "excellentCert2": {
+        "message": "Parabéns, você concluiu com sucesso a disciplina {coursename} e a avaliação, com excelente Nota.",
+        "description": ""
+    },
+    "lastCertificateIssued": {
+        "message": "Última emissão de Certificação:",
+        "description": ""
+    },
+    "certificateStuTip": {
+        "message": "Nota: se o instrutor emitir um certificado e o aluno continuar estudando e tiver resultados alterados, o certificado não será mais atualizado.",
+        "description": ""
+    },
+    "assessRule3": {
+        "message": "Nota da avaliação do curso: {n}Nota",
+        "description": ""
+    },
+    "clickToSet": {
+        "message": "Clique para Configurações >>",
+        "description": ""
+    },
+    "gradeRule2": {
+        "message": "Quando a nota final da disciplina for igual ou superior a {inputLow} pontos e menor que {inputHigh} pontos, será emitido um certificado de conclusão",
+        "description": ""
+    },
+    "enterScoreTip1": {
+        "message": "Nota não pode exceder 100",
+        "description": ""
+    },
+    "certificateTip2": {
+        "message": "Observações: apenas o Responsável pelo Curso pode definir a Certificação. Não é possível fazer Estatísticas do recebimento da Certificação para Turmas que não têm as Políticas de Nota definidas.",
+        "description": ""
+    },
+    "studentList": {
+        "message": "Lista de alunos",
+        "description": ""
+    },
+    "assessRule1": {
+        "message": "Avaliação do curso Nota ≥{min} Nota <{max}",
+        "description": ""
+    },
+    "downloadCertificate": {
+        "message": "download Certificação",
+        "description": ""
+    },
+    "noCerTip": {
+        "message": "Ainda não obteve a certificação na disciplina",
+        "description": ""
+    },
+    "certificateTip1": {
+        "message": "A certificação foi emitida, a edição das configurações de certificação não é suportada",
+        "description": ""
+    },
+    "assessRule2": {
+        "message": "Nota da Avaliação da Disciplina ≥ {n} Nota(s)",
+        "description": ""
+    },
+    "setPass": {
+        "message": "Configure apenas certificação para conclusão da disciplina",
+        "description": ""
+    },
+    "contentErrorTip3": {
+        "message": "O conteúdo do modelo não pode exceder 100 Letras",
+        "description": ""
+    },
+    "saveTemplateCheck": {
+        "message": "Marque pelo menos um item",
+        "description": ""
+    },
+    "contentErrorTip": {
+        "message": "O conteúdo do modelo não pode exceder 70 letras",
+        "description": ""
     }
 }

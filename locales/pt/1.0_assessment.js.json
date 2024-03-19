@@ -1,512 +1,510 @@
 {
-    "exportClassData": {
-        "createFailTxt": {
-            "message": "Falha na criação",
-            "description": ""
-        },
-        "assignmentTxt": {
-            "message": "Tarefa",
-            "description": ""
-        },
-        "examResultTxt": {
-            "message": "Pontuação do Exame",
-            "description": ""
-        },
-        "assessRequired4": {
-            "message": "Para cada capítulo selecionado, deve atingir o Tempo acumulado de aprendizagem de {inputMax} minutos para obter a Nota máxima; para valores inferiores a {inputMin} minutos, a Nota será 0.",
-            "description": ""
-        },
-        "associatePaper": {
-            "message": "Associar prova",
-            "description": ""
-        },
-        "assessRequired3": {
-            "message": "Nota máxima é atingida quando o tempo acumulado de aprendizagem do capítulo selecionado atingir {inputMax} minutos. Tempo inferior a {inputMin} minutos recebe Nota zero.",
-            "description": ""
-        },
-        "createSucTxt": {
-            "message": "Criado com sucesso!",
-            "description": ""
-        },
-        "ruleTxt6": {
-            "message": "Uma nota média calculada a partir dos capítulos selecionados.",
-            "description": ""
-        },
-        "assessExplanation2": {
-            "message": "As notas do software para computador e as notas do aplicativo de dispositivo móvel são calculadas separadamente. Quando se trata de calcular a nota do capítulo, a nota mais alta é considerada a nota final. Os capítulos que só estão disponíveis no software para computador só serão considerados na nota final quando a nota for calculada no software para computador.",
-            "description": ""
-        },
-        "confirmDeleteTxt": {
-            "message": "Confirmar a exclusão deste item de avaliação?",
-            "description": ""
-        },
-        "tableTipsTxt": {
-            "message": "A tabela ainda contém conteúdo não preenchido.",
-            "description": ""
-        },
-        "scoreTipsTxt3": {
-            "message": "A soma do peso atual do item da avaliação excede 100%, edite o peso do item da avaliação.",
-            "description": ""
-        },
-        "inputTxtTips8": {
-            "message": "Um Prazo deve ser definido!",
-            "description": ""
-        },
-        "inputTxtTips9": {
-            "message": "É necessário selecionar uma turma associada!",
-            "description": ""
-        },
-        "inputTxtTips1": {
-            "message": "Precisa preencher o nome da estratégia!",
-            "description": ""
-        },
-        "summarizingTipsTxt3": {
-            "message": "Exceção durante a reunião",
-            "description": ""
-        },
-        "operationSetps4": {
-            "message": "Carregar ficheiros organizados",
-            "description": ""
-        },
-        "ruleTxt5": {
-            "message": "No capítulo selecionado, cada sessão de aprendizagem que atingir {max} minutos será pontuada com a nota máxima. As sessões com duração inferior a {min} minutos receberão nota zero.",
-            "description": ""
-        },
-        "selectCourseAndRulesTxt": {
-            "message": "Selecione o Capítulo da Disciplina e a Regra de Cálculo",
-            "description": ""
-        },
-        "typeTxt": {
-            "message": "Categorias",
-            "description": ""
-        },
-        "deleteSucTxt": {
-            "message": "Exclusão bem-sucedida!",
-            "description": ""
-        },
-        "moreExamTxt": {
-            "message": "Método de Cálculo de Pontuação de Várias Avaliações",
-            "description": ""
-        },
-        "inputTipsTxt1": {
-            "message": "Digite a Nota máxima do Tempo de aprendizagem",
-            "description": ""
-        },
-        "summarizingTipsTxt2": {
-            "message": "O relatório de notas desta política foi concluído. Após excluir esta política, professores e alunos não poderão mais visualizar o relatório de notas consolidado. Tenha cuidado. Se você tiver certeza de que deseja excluir, digite o código de verificação abaixo.",
-            "description": ""
-        },
-        "selectTipTxt": {
-            "message": "Nome do item de avaliação, como por exemplo: Tempo de estudo",
-            "description": ""
-        },
-        "ruleTxt2": {
-            "message": "Em cada Capítulo selecionado, o progresso de aprendizagem por Capítulo que atingir {max}% será a Nota Máxima, inferior a {min}% será 0 Nota.",
-            "description": ""
-        },
-        "assessExplanation3": {
-            "message": "(texto em vermelho é mostrado apenas no software para computador)",
-            "description": ""
-        },
-        "assessRequired5": {
-            "message": "Capítulo selecionado. A duração da sessão de aprendizagem atingiu {inputMax} min. nota máxima. Inferiores a {inputMin} min. a 0 pontos.",
-            "description": ""
-        },
-        "clickErrorTxt": {
-            "message": "Clicado errado",
-            "description": ""
-        },
-        "actionTxt": {
-            "message": "operação",
-            "description": ""
-        },
-        "operationSetps1": {
-            "message": "Siga estas orientações passo a passo:",
-            "description": ""
-        },
-        "examTipsTxt": {
-            "message": "Se uma avaliação permite que os alunos respondam várias vezes, a nota mais alta é selecionada por padrão como a nota do aluno nessa avaliação",
-            "description": ""
-        },
-        "haveRule": {
-            "message": "Políticas existentes",
-            "description": ""
-        },
-        "inputClassNameTxt": {
-            "message": "Digite o nome da turma",
-            "description": ""
-        },
-        "classTxt": {
-            "message": "Turma",
-            "description": ""
-        },
-        "loadDataTxt": {
-            "message": "Falha ao carregar dados, verifique a rede!",
-            "description": ""
-        },
-        "deleteTxt": {
-            "message": "Excluir",
-            "description": ""
-        },
-        "serviceErrorTxt": {
-            "message": "Incorreto no servidor. Tentar novamente posteriormente!",
-            "description": ""
-        },
-        "assessExplanation1": {
-            "message": "Como o conteúdo desta disciplina é diferente entre o aplicativo para computador e o aplicativo para dispositivo móvel, se o aluno realizar o aprendizado em ambos os dispositivos, o tempo total de estudo corresponderá à soma do tempo gasto em cada um deles.",
-            "description": ""
-        },
-        "notFoundTxt": {
-            "message": "Nenhuma disciplina encontrada, digite ou selecione novamente!",
-            "description": ""
-        },
-        "averageScoreTxt": {
-            "message": "Pontuação com base na nota média dos Capítulos selecionados",
-            "description": ""
-        },
-        "noDataTxt1": {
-            "message": "Não encontrado dados relacionados",
-            "description": ""
-        },
-        "highTxt": {
-            "message": "Nota mais alta",
-            "description": ""
-        },
-        "inputTxtTips4": {
-            "message": "O Nome da estratégia repete!",
-            "description": ""
-        },
-        "operationSetps3": {
-            "message": "download Modelo",
-            "description": ""
-        },
-        "inputTxt": {
-            "message": "Digitar manualmente",
-            "description": ""
-        },
-        "selectRule": {
-            "message": "Selecione capítulos da disciplina e regra de cálculo",
-            "description": ""
-        },
-        "selectByYearTxt": {
-            "message": "selecionar por Ano letivo",
-            "description": ""
-        },
-        "confirmCancel": {
-            "message": "Confirmar Cancelar",
-            "description": ""
-        },
-        "setCourseGrade": {
-            "message": "Configurar notas da disciplina",
-            "description": ""
-        },
-        "inputTxtTips3": {
-            "message": "Não pode conter caracteres especiais!",
-            "description": ""
-        },
-        "searchTxt": {
-            "message": "pesquisar e consultar",
-            "description": ""
-        },
-        "noAssiTxt": {
-            "message": "Não há lição de casa para o professor",
-            "description": ""
-        },
-        "examTxt": {
-            "message": "Avaliação",
-            "description": ""
-        },
-        "scoreTxt": {
-            "message": "Item de avaliação",
-            "description": ""
-        },
-        "alerttips": {
-            "message": "Esta política já foi resumida e excedeu o Prazo para isso. Não é possível resumir novamente",
-            "description": ""
-        },
-        "selectByTeacherTxt": {
-            "message": "Selecionar por professor",
-            "description": ""
-        },
-        "noAssiTxt1": {
-            "message": "Este professor ainda não tem Tarefa",
-            "description": ""
-        },
-        "selectNodeTxt": {
-            "message": "Esta disciplina ainda não tem estrutura, incapaz de selecionar o nó.",
-            "description": ""
-        },
-        "confirmCancelTxt": {
-            "message": "Esta operação fará com que o conteúdo editado nesta página não possa ser salvo. Confirmar ou cancelar?",
-            "description": ""
-        },
-        "tipsTxt2": {
-            "message": "Observação: caso precise fazer modificações, edite as Configurações do Prazo para entrega da avaliação.",
-            "description": ""
-        },
-        "ruleTxt3": {
-            "message": "O tempo de estudo acumulado do capítulo selecionado atinge {max} minutos para atingir a pontuação máxima. Abaixo de {min} minutos é 0 pontos.",
-            "description": ""
-        },
-        "selectTxt": {
-            "message": "Selecione",
-            "description": ""
-        },
-        "assessRequired1": {
-            "message": "O progresso cumulativo de aprendizagem do capítulo selecionado para atingir {inputMax}% recebe nota máxima e inferior a {inputMin}% recebe 0 pontos.",
-            "description": ""
-        },
-        "selectAllChpaterTxt": {
-            "message": "Selecionar todos os capítulos",
-            "description": ""
-        },
-        "inputTipsTxt2": {
-            "message": "Digite 0 como tempo de aprendizagem",
-            "description": ""
-        },
-        "operationSetps2": {
-            "message": "Faça o download do modelo e organize os dados de acordo com o formato do modelo",
-            "description": ""
-        },
-        "inputTxtTips2": {
-            "message": "O nome da estratégia deve ter menos de 200 letras!",
-            "description": ""
-        },
-        "setCourseTime": {
-            "message": "Configurações de duração do Tempo de estudo da disciplina",
-            "description": ""
-        },
-        "cancelTxt": {
-            "message": "Cancelar",
-            "description": ""
-        },
-        "classesTxt": {
-            "message": "{className} e outras {count} turmas",
-            "description": ""
-        },
-        "selectAllTxt": {
-            "message": "Selecionar todos",
-            "description": ""
-        },
-        "editTxt": {
-            "message": "editar",
-            "description": ""
-        },
-        "summarizingTipsTxt1": {
-            "message": "Você está calculando a nota final, não feche esta janela até concluir.",
-            "description": ""
-        },
-        "summarizingTipsTxt4": {
-            "message": "Exceção do servidor, reunindo Falha no início!",
-            "description": ""
-        },
-        "inputTxtTips6": {
-            "message": "Deve digitar a pontuação total!",
-            "description": ""
-        },
-        "inputTxtTips": {
-            "message": "O nome de usuário pode incluir apenas caracteres chineses, letras em inglês, números e sublinhados",
-            "description": ""
-        },
-        "tipsTxt1": {
-            "message": "O prazo de avaliação já se findou, sendo vedada a alteração dos Itens de Avaliação",
-            "description": ""
-        },
-        "noDataTxt": {
-            "message": "Nenhum dado encontrado. Por favor, tente novamente!",
-            "description": ""
-        },
-        "assessRequired2": {
-            "message": "Em cada sessão dos capítulos selecionados, se o progresso cumulativo de aprendizagem atingir {inputMax}%, será considerado nota máxima. Se for inferior a {inputMin}%, a nota será 0.",
-            "description": ""
-        },
-        "studyProgressTxt": {
-            "message": "Progresso da aprendizagem",
-            "description": ""
-        },
-        "inputTipsTxt3": {
-            "message": "Selecione a regra de pontuação",
-            "description": ""
-        },
-        "selectAssiTxt": {
-            "message": "selecionar Tarefa",
-            "description": ""
-        },
-        "courseAssess": {
-            "message": "Avaliação do curso",
-            "description": ""
-        },
-        "inputTipsTxt": {
-            "message": "Só é possível Digitar números inteiros entre 1 e 100.",
-            "description": ""
-        },
-        "averageScoreAssiTxt": {
-            "message": "Média das notas das atividades selecionadas",
-            "description": ""
-        },
-        "codeErrorTxt": {
-            "message": "O código de Verificação está errado!",
-            "description": ""
-        },
-        "inputTxtTips7": {
-            "message": "Digite um número inteiro positivo de 5 a 1000!",
-            "description": ""
-        },
-        "inputScoreTxt": {
-            "message": "Digitar nota",
-            "description": ""
-        },
-        "haveInputScore": {
-            "message": "Notas digitadas",
-            "description": ""
-        },
-        "selectExamTxt": {
-            "message": "selecionar Avaliação",
-            "description": ""
-        },
-        "scoreTipsTxt2": {
-            "message": "A soma da ponderação de cada item de avaliação atual não atinge 100%. Garanta que a soma da ponderação de todos os itens de avaliação é igual a 100% antes de clicar em Concluir.",
-            "description": ""
-        },
-        "inputTxtTips5": {
-            "message": "é preciso selecionar disciplinas relacionadas!",
-            "description": ""
-        },
-        "finishtxt": {
-            "message": "Concluir criação",
-            "description": ""
-        },
-        "teacherTxt": {
-            "message": "Tarefa designada pelo professor {teacherName}",
-            "description": ""
-        },
-        "fullMarkTxt": {
-            "message": "Nota máxima",
-            "description": ""
-        },
-        "notSelectAssiTxt": {
-            "message": "Não há tarefas selecionadas.",
-            "description": ""
-        },
-        "operationSetps5": {
-            "message": "Nota: Se precisar editar a nota do aluno, você pode fazer o upload do arquivo novamente.",
-            "description": ""
-        },
-        "scoreTipsTxt1": {
-            "message": "A soma das ponderações atuais de todos os itens de avaliação atingiu 100%. Para continuar adicionando itens de avaliação, edite a ponderação de outros itens de avaliação.",
-            "description": ""
-        },
-        "resourceTxt": {
-            "message": "Não suporta operação de disciplinas de recursos!",
-            "description": ""
-        },
-        "selectClassTxt": {
-            "message": "Selecionar Turma",
-            "description": ""
-        },
-        "courseTxt": {
-            "message": "disciplina",
-            "description": ""
-        },
-        "averageTxt": {
-            "message": "Nota média",
-            "description": ""
-        },
-        "selectCourseTxt": {
-            "message": "Selecione uma disciplina primeiro!",
-            "description": ""
-        },
-        "assignmentResultTxt": {
-            "message": "Nota da Tarefa",
-            "description": ""
-        },
-        "courseResultTxt": {
-            "message": "desempenho de aprendizagem",
-            "description": ""
-        },
-        "countRuleTxt": {
-            "message": "Regra de cálculo",
-            "description": ""
-        },
-        "othersTxt": {
-            "message": "outros",
-            "description": ""
-        },
-        "selectedHomeworkTxt": {
-            "message": "({count} Tarefas Selecionadas)",
-            "description": ""
-        },
-        "selectClassFirseTxt": {
-            "message": "Selecione uma Turma primeiro!",
-            "description": ""
-        },
-        "selectRelevantCourseTxt": {
-            "message": "Selecione primeiro a disciplina associada!",
-            "description": ""
-        },
-        "toSelectTxt": {
-            "message": "Selecione",
-            "description": ""
-        },
-        "operationSetps6": {
-            "message": "Ao carregar novamente, a nota do aluno será substituída pela nova nota",
-            "description": ""
-        },
-        "selectScoreTxt": {
-            "message": "Selecione os Critérios de avaliação",
-            "description": ""
-        },
-        "inputTipsTxt4": {
-            "message": "Selecione o Capítulo da Avaliação",
-            "description": ""
-        },
-        "noExamTxt": {
-            "message": "Professor ainda não tem Avaliações",
-            "description": ""
-        },
-        "selectedExamTxt": {
-            "message": "(Selecionado {count} avaliações)",
-            "description": ""
-        },
-        "scoreRuleTxt": {
-            "message": "Critérios de avaliação",
-            "description": ""
-        },
-        "notInputScoreTxt": {
-            "message": "Notas ainda não digitadas",
-            "description": ""
-        },
-        "examTipTxt": {
-            "message": "Não suporta operações de disciplinas Prova!",
-            "description": ""
-        },
-        "studyTimeTxt": {
-            "message": "Tempo de estudo",
-            "description": ""
-        },
-        "weightTxt": {
-            "message": "Ponderação (%)",
-            "description": ""
-        },
-        "operationSetps7": {
-            "message": "Carregar arquivo",
-            "description": ""
-        },
-        "failDeleteTxt": {
-            "message": "Falha ao excluir!",
-            "description": ""
-        },
-        "ruleTxt1": {
-            "message": "O progresso da aprendizagem acumulado do capítulo selecionado é Nota máxima de {max}% e 0 Nota inferior a {min}%",
-            "description": ""
-        },
-        "ruleTxt4": {
-            "message": "Na sessão selecionada, atingir {max} minutos de tempo de estudo para cada capítulo para obter Nota máxima, inferior a {min} minutos para obter Nota 0.",
-            "description": ""
-        },
-        "notSelectExamTxt": {
-            "message": "Avaliação não selecionada",
-            "description": ""
-        }
+    "createFailTxt": {
+        "message": "Falha na criação",
+        "description": ""
+    },
+    "assignmentTxt": {
+        "message": "Tarefa",
+        "description": ""
+    },
+    "examResultTxt": {
+        "message": "Pontuação do Exame",
+        "description": ""
+    },
+    "assessRequired4": {
+        "message": "Para cada capítulo selecionado, deve atingir o Tempo acumulado de aprendizagem de {inputMax} minutos para obter a Nota máxima; para valores inferiores a {inputMin} minutos, a Nota será 0.",
+        "description": ""
+    },
+    "associatePaper": {
+        "message": "Associar prova",
+        "description": ""
+    },
+    "assessRequired3": {
+        "message": "Nota máxima é atingida quando o tempo acumulado de aprendizagem do capítulo selecionado atingir {inputMax} minutos. Tempo inferior a {inputMin} minutos recebe Nota zero.",
+        "description": ""
+    },
+    "createSucTxt": {
+        "message": "Criado com sucesso!",
+        "description": ""
+    },
+    "ruleTxt6": {
+        "message": "Uma nota média calculada a partir dos capítulos selecionados.",
+        "description": ""
+    },
+    "assessExplanation2": {
+        "message": "As notas do software para computador e as notas do aplicativo de dispositivo móvel são calculadas separadamente. Quando se trata de calcular a nota do capítulo, a nota mais alta é considerada a nota final. Os capítulos que só estão disponíveis no software para computador só serão considerados na nota final quando a nota for calculada no software para computador.",
+        "description": ""
+    },
+    "confirmDeleteTxt": {
+        "message": "Confirmar a exclusão deste item de avaliação?",
+        "description": ""
+    },
+    "tableTipsTxt": {
+        "message": "A tabela ainda contém conteúdo não preenchido.",
+        "description": ""
+    },
+    "scoreTipsTxt3": {
+        "message": "A soma do peso atual do item da avaliação excede 100%, edite o peso do item da avaliação.",
+        "description": ""
+    },
+    "inputTxtTips8": {
+        "message": "Um Prazo deve ser definido!",
+        "description": ""
+    },
+    "inputTxtTips9": {
+        "message": "É necessário selecionar uma turma associada!",
+        "description": ""
+    },
+    "inputTxtTips1": {
+        "message": "Precisa preencher o nome da estratégia!",
+        "description": ""
+    },
+    "summarizingTipsTxt3": {
+        "message": "Exceção durante a reunião",
+        "description": ""
+    },
+    "operationSetps4": {
+        "message": "Carregar ficheiros organizados",
+        "description": ""
+    },
+    "ruleTxt5": {
+        "message": "No capítulo selecionado, cada sessão de aprendizagem que atingir {max} minutos será pontuada com a nota máxima. As sessões com duração inferior a {min} minutos receberão nota zero.",
+        "description": ""
+    },
+    "selectCourseAndRulesTxt": {
+        "message": "Selecione o Capítulo da Disciplina e a Regra de Cálculo",
+        "description": ""
+    },
+    "typeTxt": {
+        "message": "Categorias",
+        "description": ""
+    },
+    "deleteSucTxt": {
+        "message": "Exclusão bem-sucedida!",
+        "description": ""
+    },
+    "moreExamTxt": {
+        "message": "Método de Cálculo de Pontuação de Várias Avaliações",
+        "description": ""
+    },
+    "inputTipsTxt1": {
+        "message": "Digite a Nota máxima do Tempo de aprendizagem",
+        "description": ""
+    },
+    "summarizingTipsTxt2": {
+        "message": "O relatório de notas desta política foi concluído. Após excluir esta política, professores e alunos não poderão mais visualizar o relatório de notas consolidado. Tenha cuidado. Se você tiver certeza de que deseja excluir, digite o código de verificação abaixo.",
+        "description": ""
+    },
+    "selectTipTxt": {
+        "message": "Nome do item de avaliação, como por exemplo: Tempo de estudo",
+        "description": ""
+    },
+    "ruleTxt2": {
+        "message": "Em cada Capítulo selecionado, o progresso de aprendizagem por Capítulo que atingir {max}% será a Nota Máxima, inferior a {min}% será 0 Nota.",
+        "description": ""
+    },
+    "assessExplanation3": {
+        "message": "(texto em vermelho é mostrado apenas no software para computador)",
+        "description": ""
+    },
+    "assessRequired5": {
+        "message": "Capítulo selecionado. A duração da sessão de aprendizagem atingiu {inputMax} min. nota máxima. Inferiores a {inputMin} min. a 0 pontos.",
+        "description": ""
+    },
+    "clickErrorTxt": {
+        "message": "Clicado errado",
+        "description": ""
+    },
+    "actionTxt": {
+        "message": "operação",
+        "description": ""
+    },
+    "operationSetps1": {
+        "message": "Siga estas orientações passo a passo:",
+        "description": ""
+    },
+    "examTipsTxt": {
+        "message": "Se uma avaliação permite que os alunos respondam várias vezes, a nota mais alta é selecionada por padrão como a nota do aluno nessa avaliação",
+        "description": ""
+    },
+    "haveRule": {
+        "message": "Políticas existentes",
+        "description": ""
+    },
+    "inputClassNameTxt": {
+        "message": "Digite o nome da turma",
+        "description": ""
+    },
+    "classTxt": {
+        "message": "Turma",
+        "description": ""
+    },
+    "loadDataTxt": {
+        "message": "Falha ao carregar dados, verifique a rede!",
+        "description": ""
+    },
+    "deleteTxt": {
+        "message": "Excluir",
+        "description": ""
+    },
+    "serviceErrorTxt": {
+        "message": "Incorreto no servidor. Tentar novamente posteriormente!",
+        "description": ""
+    },
+    "assessExplanation1": {
+        "message": "Como o conteúdo desta disciplina é diferente entre o aplicativo para computador e o aplicativo para dispositivo móvel, se o aluno realizar o aprendizado em ambos os dispositivos, o tempo total de estudo corresponderá à soma do tempo gasto em cada um deles.",
+        "description": ""
+    },
+    "notFoundTxt": {
+        "message": "Nenhuma disciplina encontrada, digite ou selecione novamente!",
+        "description": ""
+    },
+    "averageScoreTxt": {
+        "message": "Pontuação com base na nota média dos Capítulos selecionados",
+        "description": ""
+    },
+    "noDataTxt1": {
+        "message": "Não encontrado dados relacionados",
+        "description": ""
+    },
+    "highTxt": {
+        "message": "Nota mais alta",
+        "description": ""
+    },
+    "inputTxtTips4": {
+        "message": "O Nome da estratégia repete!",
+        "description": ""
+    },
+    "operationSetps3": {
+        "message": "download Modelo",
+        "description": ""
+    },
+    "inputTxt": {
+        "message": "Digitar manualmente",
+        "description": ""
+    },
+    "selectRule": {
+        "message": "Selecione capítulos da disciplina e regra de cálculo",
+        "description": ""
+    },
+    "selectByYearTxt": {
+        "message": "selecionar por Ano letivo",
+        "description": ""
+    },
+    "confirmCancel": {
+        "message": "Confirmar Cancelar",
+        "description": ""
+    },
+    "setCourseGrade": {
+        "message": "Configurar notas da disciplina",
+        "description": ""
+    },
+    "inputTxtTips3": {
+        "message": "Não pode conter caracteres especiais!",
+        "description": ""
+    },
+    "searchTxt": {
+        "message": "pesquisar e consultar",
+        "description": ""
+    },
+    "noAssiTxt": {
+        "message": "Não há lição de casa para o professor",
+        "description": ""
+    },
+    "examTxt": {
+        "message": "Avaliação",
+        "description": ""
+    },
+    "scoreTxt": {
+        "message": "Item de avaliação",
+        "description": ""
+    },
+    "alerttips": {
+        "message": "Esta política já foi resumida e excedeu o Prazo para isso. Não é possível resumir novamente",
+        "description": ""
+    },
+    "selectByTeacherTxt": {
+        "message": "Selecionar por professor",
+        "description": ""
+    },
+    "noAssiTxt1": {
+        "message": "Este professor ainda não tem Tarefa",
+        "description": ""
+    },
+    "selectNodeTxt": {
+        "message": "Esta disciplina ainda não tem estrutura, incapaz de selecionar o nó.",
+        "description": ""
+    },
+    "confirmCancelTxt": {
+        "message": "Esta operação fará com que o conteúdo editado nesta página não possa ser salvo. Confirmar ou cancelar?",
+        "description": ""
+    },
+    "tipsTxt2": {
+        "message": "Observação: caso precise fazer modificações, edite as Configurações do Prazo para entrega da avaliação.",
+        "description": ""
+    },
+    "ruleTxt3": {
+        "message": "O tempo de estudo acumulado do capítulo selecionado atinge {max} minutos para atingir a pontuação máxima. Abaixo de {min} minutos é 0 pontos.",
+        "description": ""
+    },
+    "selectTxt": {
+        "message": "Selecione",
+        "description": ""
+    },
+    "assessRequired1": {
+        "message": "O progresso cumulativo de aprendizagem do capítulo selecionado para atingir {inputMax}% recebe nota máxima e inferior a {inputMin}% recebe 0 pontos.",
+        "description": ""
+    },
+    "selectAllChpaterTxt": {
+        "message": "Selecionar todos os capítulos",
+        "description": ""
+    },
+    "inputTipsTxt2": {
+        "message": "Digite 0 como tempo de aprendizagem",
+        "description": ""
+    },
+    "operationSetps2": {
+        "message": "Faça o download do modelo e organize os dados de acordo com o formato do modelo",
+        "description": ""
+    },
+    "inputTxtTips2": {
+        "message": "O nome da estratégia deve ter menos de 200 letras!",
+        "description": ""
+    },
+    "setCourseTime": {
+        "message": "Configurações de duração do Tempo de estudo da disciplina",
+        "description": ""
+    },
+    "cancelTxt": {
+        "message": "Cancelar",
+        "description": ""
+    },
+    "classesTxt": {
+        "message": "{className} e outras {count} turmas",
+        "description": ""
+    },
+    "selectAllTxt": {
+        "message": "Selecionar todos",
+        "description": ""
+    },
+    "editTxt": {
+        "message": "editar",
+        "description": ""
+    },
+    "summarizingTipsTxt1": {
+        "message": "Você está calculando a nota final, não feche esta janela até concluir.",
+        "description": ""
+    },
+    "summarizingTipsTxt4": {
+        "message": "Exceção do servidor, reunindo Falha no início!",
+        "description": ""
+    },
+    "inputTxtTips6": {
+        "message": "Deve digitar a pontuação total!",
+        "description": ""
+    },
+    "inputTxtTips": {
+        "message": "O nome de usuário pode incluir apenas caracteres chineses, letras em inglês, números e sublinhados",
+        "description": ""
+    },
+    "tipsTxt1": {
+        "message": "O prazo de avaliação já se findou, sendo vedada a alteração dos Itens de Avaliação",
+        "description": ""
+    },
+    "noDataTxt": {
+        "message": "Nenhum dado encontrado. Por favor, tente novamente!",
+        "description": ""
+    },
+    "assessRequired2": {
+        "message": "Em cada sessão dos capítulos selecionados, se o progresso cumulativo de aprendizagem atingir {inputMax}%, será considerado nota máxima. Se for inferior a {inputMin}%, a nota será 0.",
+        "description": ""
+    },
+    "studyProgressTxt": {
+        "message": "Progresso da aprendizagem",
+        "description": ""
+    },
+    "inputTipsTxt3": {
+        "message": "Selecione a regra de pontuação",
+        "description": ""
+    },
+    "selectAssiTxt": {
+        "message": "selecionar Tarefa",
+        "description": ""
+    },
+    "courseAssess": {
+        "message": "Avaliação do curso",
+        "description": ""
+    },
+    "inputTipsTxt": {
+        "message": "Só é possível Digitar números inteiros entre 1 e 100.",
+        "description": ""
+    },
+    "averageScoreAssiTxt": {
+        "message": "Média das notas das atividades selecionadas",
+        "description": ""
+    },
+    "codeErrorTxt": {
+        "message": "O código de Verificação está errado!",
+        "description": ""
+    },
+    "inputTxtTips7": {
+        "message": "Digite um número inteiro positivo de 5 a 1000!",
+        "description": ""
+    },
+    "inputScoreTxt": {
+        "message": "Digitar nota",
+        "description": ""
+    },
+    "haveInputScore": {
+        "message": "Notas digitadas",
+        "description": ""
+    },
+    "selectExamTxt": {
+        "message": "selecionar Avaliação",
+        "description": ""
+    },
+    "scoreTipsTxt2": {
+        "message": "A soma da ponderação de cada item de avaliação atual não atinge 100%. Garanta que a soma da ponderação de todos os itens de avaliação é igual a 100% antes de clicar em Concluir.",
+        "description": ""
+    },
+    "inputTxtTips5": {
+        "message": "é preciso selecionar disciplinas relacionadas!",
+        "description": ""
+    },
+    "finishtxt": {
+        "message": "Concluir criação",
+        "description": ""
+    },
+    "teacherTxt": {
+        "message": "Tarefa designada pelo professor {teacherName}",
+        "description": ""
+    },
+    "fullMarkTxt": {
+        "message": "Nota máxima",
+        "description": ""
+    },
+    "notSelectAssiTxt": {
+        "message": "Não há tarefas selecionadas.",
+        "description": ""
+    },
+    "operationSetps5": {
+        "message": "Nota: Se precisar editar a nota do aluno, você pode fazer o upload do arquivo novamente.",
+        "description": ""
+    },
+    "scoreTipsTxt1": {
+        "message": "A soma das ponderações atuais de todos os itens de avaliação atingiu 100%. Para continuar adicionando itens de avaliação, edite a ponderação de outros itens de avaliação.",
+        "description": ""
+    },
+    "resourceTxt": {
+        "message": "Não suporta operação de disciplinas de recursos!",
+        "description": ""
+    },
+    "selectClassTxt": {
+        "message": "Selecionar Turma",
+        "description": ""
+    },
+    "courseTxt": {
+        "message": "disciplina",
+        "description": ""
+    },
+    "averageTxt": {
+        "message": "Nota média",
+        "description": ""
+    },
+    "selectCourseTxt": {
+        "message": "Selecione uma disciplina primeiro!",
+        "description": ""
+    },
+    "assignmentResultTxt": {
+        "message": "Nota da Tarefa",
+        "description": ""
+    },
+    "courseResultTxt": {
+        "message": "desempenho de aprendizagem",
+        "description": ""
+    },
+    "countRuleTxt": {
+        "message": "Regra de cálculo",
+        "description": ""
+    },
+    "othersTxt": {
+        "message": "outros",
+        "description": ""
+    },
+    "selectedHomeworkTxt": {
+        "message": "({count} Tarefas Selecionadas)",
+        "description": ""
+    },
+    "selectClassFirseTxt": {
+        "message": "Selecione uma Turma primeiro!",
+        "description": ""
+    },
+    "selectRelevantCourseTxt": {
+        "message": "Selecione primeiro a disciplina associada!",
+        "description": ""
+    },
+    "toSelectTxt": {
+        "message": "Selecione",
+        "description": ""
+    },
+    "operationSetps6": {
+        "message": "Ao carregar novamente, a nota do aluno será substituída pela nova nota",
+        "description": ""
+    },
+    "selectScoreTxt": {
+        "message": "Selecione os Critérios de avaliação",
+        "description": ""
+    },
+    "inputTipsTxt4": {
+        "message": "Selecione o Capítulo da Avaliação",
+        "description": ""
+    },
+    "noExamTxt": {
+        "message": "Professor ainda não tem Avaliações",
+        "description": ""
+    },
+    "selectedExamTxt": {
+        "message": "(Selecionado {count} avaliações)",
+        "description": ""
+    },
+    "scoreRuleTxt": {
+        "message": "Critérios de avaliação",
+        "description": ""
+    },
+    "notInputScoreTxt": {
+        "message": "Notas ainda não digitadas",
+        "description": ""
+    },
+    "examTipTxt": {
+        "message": "Não suporta operações de disciplinas Prova!",
+        "description": ""
+    },
+    "studyTimeTxt": {
+        "message": "Tempo de estudo",
+        "description": ""
+    },
+    "weightTxt": {
+        "message": "Ponderação (%)",
+        "description": ""
+    },
+    "operationSetps7": {
+        "message": "Carregar arquivo",
+        "description": ""
+    },
+    "failDeleteTxt": {
+        "message": "Falha ao excluir!",
+        "description": ""
+    },
+    "ruleTxt1": {
+        "message": "O progresso da aprendizagem acumulado do capítulo selecionado é Nota máxima de {max}% e 0 Nota inferior a {min}%",
+        "description": ""
+    },
+    "ruleTxt4": {
+        "message": "Na sessão selecionada, atingir {max} minutos de tempo de estudo para cada capítulo para obter Nota máxima, inferior a {min} minutos para obter Nota 0.",
+        "description": ""
+    },
+    "notSelectExamTxt": {
+        "message": "Avaliação não selecionada",
+        "description": ""
     }
 }
