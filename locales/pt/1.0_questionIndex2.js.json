@@ -1,48 +1,194 @@
-shareSuccess=Partilhar Sucesso
-fileStats=Pastas: {count}
-enterTeacher=Digite o Nome do Professor para consultar
-noSelectTeacher=Nenhum Professor selecionado
-shareTeacher=compartilhar com todos os professores
-keepOnly=Manter as provas e excluir apenas a pasta
-copyRightRequire=Por questões de direitos autorais, somente poderá exportar questões criadas pelos professores da Escola Atual
-shareTips=Partilhe dicas
-share2=partilhar
-deleteFail1=Falha ao excluir
-folderNameIllegal=O nome da pasta é inválido
-model=Baixe o Modelo
-importNormal=Importar Normalmente
-shareAppointTeacher=Compartilhar com Professor designado da Escola Atual
-editFolderName=Nome da pasta editado com sucesso
-shareFolder=Partilhar todos os sub-pastas e questões desta pasta com
-notCreator=Quem não é criador da prova não pode editar
-onlyMe=Somente eu
-exportNote=Dica de exportação
-allDelete=Excluir todos
-inputEmailAd=Digite o endereço de e-mail
-ipuntEmail=Digite seu e-mail
-parameterError2=Erro de parâmetro da solicitação
-systemBusy=O Sistema está ocupado. Tente novamente posteriormente!
-currentFolder=A pasta atual inclui
-cellError=Linha {r}, Coluna {c} dados Incorretos: {msg}
-quesStats=Provas: {count}
-folderNameEmpty=O nome da pasta não pode ser vazio!
-noTest=Prova inexistente
-exportFail2=Falha ao exportar, entre em contato com o atendimento ao cliente!
-queueBusy=Fila ocupada
-leaveEmail=Como o volume de dados do banco de questões é grande, a exportação é demorada. Deixe seu endereço de e-mail. Assim que a exportação for concluída, enviaremos as questões para o seu e-mail.
-notGet=Citado, não pode ser deletado
-parameterError=Parâmetro inválido
-uploadFile2=Carregar ficheiro preparado
-cannotEdit=Esta prova já foi usada e não pode ser excluída
-checkCount=Ocorreu um erro ao consultar a quantidade
-downloadModel=Faça o download do modelo para organizar os dados de acordo com o formato do modelo
-confirmDeleteFolder=Tem certeza que deseja excluir? Ao excluir permanentemente, os testes na pasta também serão excluídos. Se o teste excluído for aplicativo em outras provas, elas ficarão indisponíveis.
-shareFail=Falha ao partilhar
-pleaseInputEmail=Digite um endereço de e-mail correto
-deleteAfter=Os dados não poderão ser recuperados após a exclusão. Confirma a exclusão?
-selectAddFolder=Selecione a pasta que você deseja Participar
-checkEmail=Exportação com sucesso, verifique seu e-mail
-shareTopic=Partilhe esta questão com:
-shareAllTeacher=Compartilhar com todos os professores da escola atual
-folderMore=As pastas não podem exceder 5 níveis
-No=Número: {id}
+{
+    "shareSuccess": {
+        "message": "Partilhar Sucesso",
+        "description": ""
+    },
+    "fileStats": {
+        "message": "Pastas: {count}",
+        "description": ""
+    },
+    "enterTeacher": {
+        "message": "Digite o Nome do Professor para consultar",
+        "description": ""
+    },
+    "noSelectTeacher": {
+        "message": "Nenhum Professor selecionado",
+        "description": ""
+    },
+    "shareTeacher": {
+        "message": "compartilhar com todos os professores",
+        "description": ""
+    },
+    "keepOnly": {
+        "message": "Manter as provas e excluir apenas a pasta",
+        "description": ""
+    },
+    "copyRightRequire": {
+        "message": "Por questões de direitos autorais, somente poderá exportar questões criadas pelos professores da Escola Atual",
+        "description": ""
+    },
+    "shareTips": {
+        "message": "Partilhe dicas",
+        "description": ""
+    },
+    "share2": {
+        "message": "partilhar",
+        "description": ""
+    },
+    "deleteFail1": {
+        "message": "Falha ao excluir",
+        "description": ""
+    },
+    "folderNameIllegal": {
+        "message": "O nome da pasta é inválido",
+        "description": ""
+    },
+    "model": {
+        "message": "Baixe o Modelo",
+        "description": ""
+    },
+    "importNormal": {
+        "message": "Importar Normalmente",
+        "description": ""
+    },
+    "shareAppointTeacher": {
+        "message": "Compartilhar com Professor designado da Escola Atual",
+        "description": ""
+    },
+    "editFolderName": {
+        "message": "Nome da pasta editado com sucesso",
+        "description": ""
+    },
+    "shareFolder": {
+        "message": "Partilhar todos os sub-pastas e questões desta pasta com",
+        "description": ""
+    },
+    "notCreator": {
+        "message": "Quem não é criador da prova não pode editar",
+        "description": ""
+    },
+    "onlyMe": {
+        "message": "Somente eu",
+        "description": ""
+    },
+    "exportNote": {
+        "message": "Dica de exportação",
+        "description": ""
+    },
+    "allDelete": {
+        "message": "Excluir todos",
+        "description": ""
+    },
+    "inputEmailAd": {
+        "message": "Digite o endereço de e-mail",
+        "description": ""
+    },
+    "ipuntEmail": {
+        "message": "Digite seu e-mail",
+        "description": ""
+    },
+    "parameterError2": {
+        "message": "Erro de parâmetro da solicitação",
+        "description": ""
+    },
+    "systemBusy": {
+        "message": "O Sistema está ocupado. Tente novamente posteriormente!",
+        "description": ""
+    },
+    "currentFolder": {
+        "message": "A pasta atual inclui",
+        "description": ""
+    },
+    "cellError": {
+        "message": "Linha {r}, Coluna {c} dados Incorretos: {msg}",
+        "description": ""
+    },
+    "quesStats": {
+        "message": "Provas: {count}",
+        "description": ""
+    },
+    "folderNameEmpty": {
+        "message": "O nome da pasta não pode ser vazio!",
+        "description": ""
+    },
+    "noTest": {
+        "message": "Prova inexistente",
+        "description": ""
+    },
+    "exportFail2": {
+        "message": "Falha ao exportar, entre em contato com o atendimento ao cliente!",
+        "description": ""
+    },
+    "queueBusy": {
+        "message": "Fila ocupada",
+        "description": ""
+    },
+    "leaveEmail": {
+        "message": "Como o volume de dados do banco de questões é grande, a exportação é demorada. Deixe seu endereço de e-mail. Assim que a exportação for concluída, enviaremos as questões para o seu e-mail.",
+        "description": ""
+    },
+    "notGet": {
+        "message": "Citado, não pode ser deletado",
+        "description": ""
+    },
+    "parameterError": {
+        "message": "Parâmetro inválido",
+        "description": ""
+    },
+    "uploadFile2": {
+        "message": "Carregar ficheiro preparado",
+        "description": ""
+    },
+    "cannotEdit": {
+        "message": "Esta prova já foi usada e não pode ser excluída",
+        "description": ""
+    },
+    "checkCount": {
+        "message": "Ocorreu um erro ao consultar a quantidade",
+        "description": ""
+    },
+    "downloadModel": {
+        "message": "Faça o download do modelo para organizar os dados de acordo com o formato do modelo",
+        "description": ""
+    },
+    "confirmDeleteFolder": {
+        "message": "Tem certeza que deseja excluir? Ao excluir permanentemente, os testes na pasta também serão excluídos. Se o teste excluído for aplicativo em outras provas, elas ficarão indisponíveis.",
+        "description": ""
+    },
+    "shareFail": {
+        "message": "Falha ao partilhar",
+        "description": ""
+    },
+    "pleaseInputEmail": {
+        "message": "Digite um endereço de e-mail correto",
+        "description": ""
+    },
+    "deleteAfter": {
+        "message": "Os dados não poderão ser recuperados após a exclusão. Confirma a exclusão?",
+        "description": ""
+    },
+    "selectAddFolder": {
+        "message": "Selecione a pasta que você deseja Participar",
+        "description": ""
+    },
+    "checkEmail": {
+        "message": "Exportação com sucesso, verifique seu e-mail",
+        "description": ""
+    },
+    "shareTopic": {
+        "message": "Partilhe esta questão com:",
+        "description": ""
+    },
+    "shareAllTeacher": {
+        "message": "Compartilhar com todos os professores da escola atual",
+        "description": ""
+    },
+    "folderMore": {
+        "message": "As pastas não podem exceder 5 níveis",
+        "description": ""
+    },
+    "No": {
+        "message": "Número: {id}",
+        "description": ""
+    }
+}

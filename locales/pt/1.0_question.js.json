@@ -1,52 +1,210 @@
-confirmReferenceAnswerContent=O Gabarito está vazio
-addFormulaTip=Adicione uma fórmula!
-enterkey=Confirmar ao pressionar Enter
-leastOption=Manter pelo menos duas opções
-subQues=Questão {n}
-relatedUnit=Associar módulos
-getDate=Ocorreu um erro ao obter dados do professor
-keyContent=Digite o conteúdo das opções
-keyTopic=Digite a questão
-deviationTip=A margem de erro permitida deve ser em Números!
-deleteQuestionFail=Falha ao excluir prova
-justSo=Geral
-selectTeacher2=Professores Selecionados
-noExpand=Não exceda 200 palavras
-subQues2=Questões
-keyboardBack=Backspace
-selectAdd=Selecione o tipo de item para adicionar
-keyboardClear=limpar
-varPrecision=Precisão
-formulaInputDemo=Demonstração de entrada de fórmulas
-enterKeyTip=Máximo de 3 linhas no formato até 30 Letras, pressione Enter para confirmar.
-formulaInputPrompt=Digite a fórmula
-formarError=Formato inválido
-topicNoEmpty=Questão vazia - Campo obrigatório
-keyTeacher=Digite o nome do professor para consultar
-complexEmpty=O exercício integrado com subquestões
-limitLable2=Adicionar até 3 Etiquetas
-DaoText={inputCount} opções
-formulaCheck=Detecção de fórmula
-confirmAnswerContent=O conteúdo dos Itens de Resposta Correta está vazio
-formulaVarRange=Defina o intervalo de valores da variável
-limitlable1=A etiqueta permite no máximo 30 caracteres
-formulaInputPlaceholder=Digite a fórmula para calcular esta resposta
-current=Quantidade atual de palavras
-varRangeTip=O intervalo de variáveis deve ter apenas números digitados!
-inputOptionContent=Digite o conteúdo das opções
-writeRead=Preencha o conteúdo da recitação
-addVar=Adicionar variável
-confirmSave=Foi detectado que você não preencheu nenhuma letra para a questão, deseja salvar mesmo assim?
-randomValue=Avaliação Random
-formulaUsedTip=Dica: Este exercício de cálculo de fórmula foi citado e não pode ser editado no momento.
-confirmAnswer=Campo de resposta certa é obrigatório
-getDateFormat=O formato dos dados obtidos está incorreto, entre em contato com o Atendimento ao Cliente
-keyTab=Pressione a tecla tab para criar uma Questao de preenchimento na posição do cursor
-checkFormulaTip=Verifique todas as fórmulas para garantir que a entrada esteja correta!
-formulaHelp=Instruções para os exercícios de cálculo com fórmulas
-enterTopic=Digite as questões e clique em adicionar questão para inserir mais uma.
-fillSubQTitle=Preencha a descrição ou o material de apoio e adicione uma questão auxiliar
-scoreValue=Nota
-deleteQuestionSuccess=Sucesso ao Excluir prova
-formulaInputError=Incapaz de calcular a resposta
-jquizTips=Observação: para atividades de ciências e tecnologia, você pode permitir que os alunos desenhem diagramas, criem gráficos ou escrevam respostas no papel e depois enviem o arquivo como um anexo (somente tirar fotos está disponível no celular). Você pode exigir ou proibir os alunos de usar este recurso antes de eles começarem a fazer a atividade.
+{
+    "confirmReferenceAnswerContent": {
+        "message": "O Gabarito está vazio",
+        "description": ""
+    },
+    "addFormulaTip": {
+        "message": "Adicione uma fórmula!",
+        "description": ""
+    },
+    "enterkey": {
+        "message": "Confirmar ao pressionar Enter",
+        "description": ""
+    },
+    "leastOption": {
+        "message": "Manter pelo menos duas opções",
+        "description": ""
+    },
+    "subQues": {
+        "message": "Questão {n}",
+        "description": ""
+    },
+    "relatedUnit": {
+        "message": "Associar módulos",
+        "description": ""
+    },
+    "getDate": {
+        "message": "Ocorreu um erro ao obter dados do professor",
+        "description": ""
+    },
+    "keyContent": {
+        "message": "Digite o conteúdo das opções",
+        "description": ""
+    },
+    "keyTopic": {
+        "message": "Digite a questão",
+        "description": ""
+    },
+    "deviationTip": {
+        "message": "A margem de erro permitida deve ser em Números!",
+        "description": ""
+    },
+    "deleteQuestionFail": {
+        "message": "Falha ao excluir prova",
+        "description": ""
+    },
+    "justSo": {
+        "message": "Geral",
+        "description": ""
+    },
+    "selectTeacher2": {
+        "message": "Professores Selecionados",
+        "description": ""
+    },
+    "noExpand": {
+        "message": "Não exceda 200 palavras",
+        "description": ""
+    },
+    "subQues2": {
+        "message": "Questões",
+        "description": ""
+    },
+    "keyboardBack": {
+        "message": "Backspace",
+        "description": ""
+    },
+    "selectAdd": {
+        "message": "Selecione o tipo de item para adicionar",
+        "description": ""
+    },
+    "keyboardClear": {
+        "message": "limpar",
+        "description": ""
+    },
+    "varPrecision": {
+        "message": "Precisão",
+        "description": ""
+    },
+    "formulaInputDemo": {
+        "message": "Demonstração de entrada de fórmulas",
+        "description": ""
+    },
+    "enterKeyTip": {
+        "message": "Máximo de 3 linhas no formato até 30 Letras, pressione Enter para confirmar.",
+        "description": ""
+    },
+    "formulaInputPrompt": {
+        "message": "Digite a fórmula",
+        "description": ""
+    },
+    "formarError": {
+        "message": "Formato inválido",
+        "description": ""
+    },
+    "topicNoEmpty": {
+        "message": "Questão vazia - Campo obrigatório",
+        "description": ""
+    },
+    "keyTeacher": {
+        "message": "Digite o nome do professor para consultar",
+        "description": ""
+    },
+    "complexEmpty": {
+        "message": "O exercício integrado com subquestões",
+        "description": ""
+    },
+    "limitLable2": {
+        "message": "Adicionar até 3 Etiquetas",
+        "description": ""
+    },
+    "DaoText": {
+        "message": "{inputCount} opções",
+        "description": ""
+    },
+    "formulaCheck": {
+        "message": "Detecção de fórmula",
+        "description": ""
+    },
+    "confirmAnswerContent": {
+        "message": "O conteúdo dos Itens de Resposta Correta está vazio",
+        "description": ""
+    },
+    "formulaVarRange": {
+        "message": "Defina o intervalo de valores da variável",
+        "description": ""
+    },
+    "limitlable1": {
+        "message": "A etiqueta permite no máximo 30 caracteres",
+        "description": ""
+    },
+    "formulaInputPlaceholder": {
+        "message": "Digite a fórmula para calcular esta resposta",
+        "description": ""
+    },
+    "current": {
+        "message": "Quantidade atual de palavras",
+        "description": ""
+    },
+    "varRangeTip": {
+        "message": "O intervalo de variáveis deve ter apenas números digitados!",
+        "description": ""
+    },
+    "inputOptionContent": {
+        "message": "Digite o conteúdo das opções",
+        "description": ""
+    },
+    "writeRead": {
+        "message": "Preencha o conteúdo da recitação",
+        "description": ""
+    },
+    "addVar": {
+        "message": "Adicionar variável",
+        "description": ""
+    },
+    "confirmSave": {
+        "message": "Foi detectado que você não preencheu nenhuma letra para a questão, deseja salvar mesmo assim?",
+        "description": ""
+    },
+    "randomValue": {
+        "message": "Avaliação Random",
+        "description": ""
+    },
+    "formulaUsedTip": {
+        "message": "Dica: Este exercício de cálculo de fórmula foi citado e não pode ser editado no momento.",
+        "description": ""
+    },
+    "confirmAnswer": {
+        "message": "Campo de resposta certa é obrigatório",
+        "description": ""
+    },
+    "getDateFormat": {
+        "message": "O formato dos dados obtidos está incorreto, entre em contato com o Atendimento ao Cliente",
+        "description": ""
+    },
+    "keyTab": {
+        "message": "Pressione a tecla tab para criar uma Questao de preenchimento na posição do cursor",
+        "description": ""
+    },
+    "checkFormulaTip": {
+        "message": "Verifique todas as fórmulas para garantir que a entrada esteja correta!",
+        "description": ""
+    },
+    "formulaHelp": {
+        "message": "Instruções para os exercícios de cálculo com fórmulas",
+        "description": ""
+    },
+    "enterTopic": {
+        "message": "Digite as questões e clique em adicionar questão para inserir mais uma.",
+        "description": ""
+    },
+    "fillSubQTitle": {
+        "message": "Preencha a descrição ou o material de apoio e adicione uma questão auxiliar",
+        "description": ""
+    },
+    "scoreValue": {
+        "message": "Nota",
+        "description": ""
+    },
+    "deleteQuestionSuccess": {
+        "message": "Sucesso ao Excluir prova",
+        "description": ""
+    },
+    "formulaInputError": {
+        "message": "Incapaz de calcular a resposta",
+        "description": ""
+    },
+    "jquizTips": {
+        "message": "Observação: para atividades de ciências e tecnologia, você pode permitir que os alunos desenhem diagramas, criem gráficos ou escrevam respostas no papel e depois enviem o arquivo como um anexo (somente tirar fotos está disponível no celular). Você pode exigir ou proibir os alunos de usar este recurso antes de eles começarem a fazer a atividade.",
+        "description": ""
+    }
+}
