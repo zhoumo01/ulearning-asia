@@ -1,1402 +1,1386 @@
 {
-  "teacher": {
-    "message": "Professor",
-    "description": "2.0 index.js"
-  },
-  "teacher2": {
-    "message": "professor",
-    "description": "2.0 index.js"
-  },
-  "welcomeTea": {
-    "message": "{name} Professor, bem-vindo",
-    "description": "印尼语翻译老师请注意：由于印尼语前面有一个性别称呼，因此，整个句子使用 “|” 分为三个部分，第一个部分对应女性，第二个部分对应男性，但三个部分对应性别未知。其它老师请无视。"
-  },
-  "day": {
-    "message": "dia",
-    "description": "2.0 index.js"
-  },
-  "hour": {
-    "message": "hora",
-    "description": "2.0 index.js"
-  },
-  "student": {
-    "message": "Aluno",
-    "description": "2.0 index.js"
-  },
-  "welcomeStu": {
-    "message": "{name} colega de classe, bem-vindo",
-    "description": "2.0 index.js"
-  },
-  "more": {
-    "message": "Mais",
-    "description": "2.0 index.js"
-  },
-  "allCourse": {
-    "message": "Todas as disciplinas",
-    "description": "2.0 index.js"
-  },
-  "publicCourse": {
-    "message": "Tornar público o curso",
-    "description": "2.0 index.js"
-  },
-  "searchCourse": {
-    "message": "pesquisar disciplina",
-    "description": "2.0 index.js"
-  },
-  "createCourse": {
-    "message": "Criar disciplina",
-    "description": "2.0 index.js"
-  },
-  "joinCourse": {
-    "message": "Participar da aula ao vivo",
-    "description": "2.0 index.js"
-  },
-  "activeTextbook": {
-    "message": "Ativar o material didático",
-    "description": "2.0 index.js"
-  },
-  "toSelectCourse": {
-    "message": "Acessar Seleção de Disciplinas",
-    "description": "2.0 index.js"
-  },
-  "create": {
-    "message": "Criar",
-    "description": "2.0 index.js"
-  },
-  "all": {
-    "message": "Todos",
-    "description": "2.0 index.js"
-  },
-  "ing": {
-    "message": "em andamento",
-    "description": "2.0 index.js"
-  },
-  "ended": {
-    "message": "Concluído",
-    "description": "2.0 index.js"
-  },
-  "end": {
-    "message": "Concluir",
-    "description": "2.0 index.js"
-  },
-  "close": {
-    "message": "Fechar",
-    "description": "2.0 index.js"
-  },
-  "cancel": {
-    "message": "Cancelar",
-    "description": "2.0 index.js"
-  },
-  "modify": {
-    "message": "editar",
-    "description": "2.0 index.js"
-  },
-  "delete": {
-    "message": "Excluir",
-    "description": "2.0 index.js"
-  },
-  "confirm": {
-    "message": "Confirmar",
-    "description": "2.0 index.js"
-  },
-  "unpublish": {
-    "message": "Não publicado",
-    "description": "2.0 index.js"
-  },
-  "published": {
-    "message": "Publicado",
-    "description": "2.0 index.js"
-  },
-  "waitForCheck": {
-    "message": "Solicitação de participação em andamento, aguarde a aprovação do professor",
-    "description": "2.0 index.js"
-  },
-  "undoApplication": {
-    "message": "Cancelar Solicitação de Participação",
-    "description": "2.0 index.js"
-  },
-  "none": {
-    "message": "não",
-    "description": "2.0 index.js"
-  },
-  "modifyCourse": {
-    "message": "Editar Disciplina",
-    "description": "2.0 index.js"
-  },
-  "endCourse": {
-    "message": "Concluir o curso",
-    "description": "2.0 index.js"
-  },
-  "deleteCourse": {
-    "message": "Excluir disciplina",
-    "description": "2.0 index.js"
-  },
-  "courseDetail": {
-    "message": "Detalhes do Curso",
-    "description": "2.0 index.js"
-  },
-  "quitCourse": {
-    "message": "Sair da disciplina",
-    "description": "2.0 index.js"
-  },
-  "checkCourseSummary": {
-    "message": "Ver Introdução da Disciplina",
-    "description": "2.0 index.js"
-  },
-  "class": {
-    "message": "Turma",
-    "description": "2.0 index.js"
-  },
-  "courseWillEnd": {
-    "message": "A disciplina Concluirá em {time}",
-    "description": "课程列表"
-  },
-  "courseHasEnd": {
-    "message": "Concluído em {time}",
-    "description": "课程列表 -> 已结束"
-  },
-  "courseCountdown": {
-    "message": "Faltam {n} dias para o início da disciplina",
-    "description": "课程列表 (需要课程为公开课)"
-  },
-  "searchNoCourse": {
-    "message": "Nenhuma disciplina encontrada com base em sua pesquisa",
-    "description": "2.0 index.js"
-  },
-  "noCourse": {
-    "message": "ainda não tem disciplina",
-    "description": "2.0 index.js"
-  },
-  "clickToCreateCourse": {
-    "message": "Clique no botão no canto superior direito para criar um curso!",
-    "description": "2.0 index.js"
-  },
-  "clickToJoinCourse": {
-    "message": "Clique no botão no canto superior direito para participar da Aula ao vivo!",
-    "description": "2.0 index.js"
-  },
-  "notJoinCourse": {
-    "message": "Ainda não participou de nenhuma disciplina",
-    "description": "2.0 index.js"
-  },
-  "netError": {
-    "message": "Erro de rede, clique em {reloadButton} para carregar novamente",
-    "description": "教师或学生账户 -> 课程列表"
-  },
-  "reload": {
-    "message": "Recarregar",
-    "description": "2.0 index.js"
-  },
-  "courseTitle": {
-    "message": "Nome do Curso",
-    "description": "2.0 index.js"
-  },
-  "courseExist": {
-    "message": "O nome do curso já existe.",
-    "description": "2.0 index.js"
-  },
-  "courseTitleTips": {
-    "message": "O professor já criou uma disciplina com o mesmo nome. Sugerimos entrar em contato com o responsável pelo curso para verificar se é necessária a criação de uma disciplina separada.",
-    "description": "2.0 index.js"
-  },
-  "courseTitleExistTips": {
-    "message": "A disciplina com nome já  já existe na Escola Atual (criado pelo(a) Professor(a) {name}), sugerimos que entre em contato com o(a) Professor(a) criador(a) do curso para comunicação e confirmação, a fim de evitar inconveniências ao duplicar o curso.",
-    "description": "2.0 index.js"
-  },
-  "isContinueCreate": {
-    "message": "Deseja continuar criando?",
-    "description": "2.0 index.js"
-  },
-  "continCreate": {
-    "message": "Continuar Criar",
-    "description": "2.0 index.js"
-  },
-  "continue": {
-    "message": "Continuar",
-    "description": "2.0 index.js"
-  },
-  "courseType": {
-    "message": "Tipo de disciplina",
-    "description": "2.0 index.js"
-  },
-  "unchangeableTips": {
-    "message": "Depois de criado não pode ser alterado, por favor opere com cuidado",
-    "description": "2.0 index.js"
-  },
-  "schoolCourse": {
-    "message": "Cursos no campus",
-    "description": "2.0 index.js"
-  },
-  "publicCcourseTips1": {
-    "message": "As aulas particulares por enquanto são disponibilizadas apenas para professores e escolas parceiras.",
-    "description": "2.0 index.js"
-  },
-  "publicCcourseTips2": {
-    "message": "Entre em contato com o atendimento ao cliente (400 610 7808) para solicitar a publicação ou registro online do seu projeto de disciplina, e entraremos em contato com você em breve.",
-    "description": "2.0 index.js"
-  },
-  "publicCcourseTips3": {
-    "message": "Disciplinas online, abertas a todos. Não suportam atividades em sala de aula nem divisão por turmas",
-    "description": "2.0 index.js"
-  },
-  "schoolCourseTips1": {
-    "message": "Privado dentro da escola, disponível apenas para seus alunos, suporta atividades em sala de aula e ensino por turma",
-    "description": "2.0 index.js"
-  },
-  "courseCover": {
-    "message": "Capa da disciplina",
-    "description": "2.0 index.js"
-  },
-  "localUpload": {
-    "message": "Enviar do computador",
-    "description": "2.0 index.js"
-  },
-  "courseTips": {
-    "message": "Dica: Se a disciplina for codirigida por uma equipe pedagógica, basta o responsável pela disciplina criar a disciplina e adicionar outros professores à equipe docente da disciplina, sem que cada professor precise criar individualmente.",
-    "description": "2.0 index.js"
-  },
-  "cropCover": {
-    "message": "Capturar capa",
-    "description": "2.0 index.js"
-  },
-  "deleteCourseTips1": {
-    "message": "Depois de excluído, não será possível restaurar o curso e os Alunos que Participaram nele não poderão Continuar aprendendo. Tenha cautela ao realizar esta operação!",
-    "description": "2.0 index.js"
-  },
-  "deleteCourseTips2": {
-    "message": "A disciplina está vinculada a outros cursos abertos. Para excluir, faça login e edite a conta para desvincular.",
-    "description": "2.0 index.js"
-  },
-  "pleaseInput": {
-    "message": "Digitar abaixo",
-    "description": "2.0 index.js"
-  },
-  "confirmDelete": {
-    "message": "Confirmar Exclusão",
-    "description": "2.0 index.js"
-  },
-  "openCourse": {
-    "message": "disciplina aberta",
-    "description": "2.0 index.js"
-  },
-  "editorAcount": {
-    "message": "Editar conta",
-    "description": "2.0 index.js"
-  },
-  "quitCourseTips1": {
-    "message": "Confirma a saída da disciplina? Após sair da disciplina, você:",
-    "description": "2.0 index.js"
-  },
-  "quitCourseTips2": {
-    "message": "1. Não é possível continuar a aprender o conteúdo do material didático;",
-    "description": "2.0 index.js"
-  },
-  "quitCourseTips3": {
-    "message": "2. Não é possível visualizar registros anteriores de tarefas, avaliações, atividades em sala de aula, etc.;",
-    "description": "2.0 index.js"
-  },
-  "quitCourseTips4": {
-    "message": "3. Não é possível continuar recebendo mensagens da Disciplina etc.",
-    "description": "2.0 index.js"
-  },
-  "quitCourseTips5": {
-    "message": "Depois de sair da disciplina, não será mais possível visualizar o conteúdo do material didático ou participar das atividades da disciplina.",
-    "description": "2.0 index.js"
-  },
-  "quitCourseTips6": {
-    "message": "Confirmar saída da disciplina?",
-    "description": "2.0 index.js"
-  },
-  "confirmQuit": {
-    "message": "Confirmar saída",
-    "description": "2.0 index.js"
-  },
-  "unshelveCourseTips1": {
-    "message": "Os professores não podem Publicar novos recursos ou atividades, nem editar o conteúdo existente da disciplina. Podem apenas Ver e Exportar Dados.",
-    "description": "2.0 index.js"
-  },
-  "unshelveCourseTips2": {
-    "message": "O aluno pode continuar a navegar pelo conteúdo da disciplina, mas não pode mais participar.",
-    "description": "2.0 index.js"
-  },
-  "unshelveCourseTips3": {
-    "message": "Após o término a disciplina não exibirá no website, incapaz de continuar participar novos Alunos;",
-    "description": "2.0 index.js"
-  },
-  "unshelveCourseTips4": {
-    "message": "Você não pode editar as informações e o conteúdo do curso após o término.",
-    "description": "2.0 index.js"
-  },
-  "unshelveCourseTips5": {
-    "message": "Os alunos que já haviam se juntado a esta disciplina ainda podem continuar aprendendo",
-    "description": "2.0 index.js"
-  },
-  "unshelveCourseTips6": {
-    "message": "Disciplinas concluídas não podem ser publicadas novamente.",
-    "description": "2.0 index.js"
-  },
-  "confirmEnd": {
-    "message": "Confirmar conclusão?",
-    "description": "2.0 index.js"
-  },
-  "confirmEndCourse": {
-    "message": "Confirmar a conclusão dessa disciplina?",
-    "description": "2.0 index.js"
-  },
-  "courseTitleRequired": {
-    "message": "O nome da disciplina não pode ser vazio",
-    "description": "2.0 index.js"
-  },
-  "courseTitleLengthTips": {
-    "message": "O nome da disciplina deve ter de 2 a 100 caracteres!",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips1": {
-    "message": "Preste atenção!",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips2": {
-    "message": "Colegas de classe, há duas maneiras de participar de uma aula ao vivo:",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips3": {
-    "message": "1. Use o ULearning APP para digitalizar o código QR da aula ao vivo e participe após confirmar as informações.",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips4": {
-    "message": "2. Digitar o código de convite para turma e buscar, depois de confirmar as informações, participar.",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips5": {
-    "message": "Ambas as formas exigem que o professor forneça o código QR e o código de convite para turma.",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips6": {
-    "message": "Dica para participar de uma aula ao vivo",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips7": {
-    "message": "Escola da turma",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips8": {
-    "message": ", diferente da escola em que você está atualmente, se continuar a participar, suas informações escolares serão alteradas para",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips9": {
-    "message": "Confirma sua participação?",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips10": {
-    "message": "Você já participou da turma, pode Entrar na disciplina e Iniciar aprendizagem",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips11": {
-    "message": "Os Cursos Matriculados desta Turma foram Concluídos e não é mais possível Participar",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips12": {
-    "message": "Você já participou de outras turmas desta disciplina, por favor, não participe novamente. Se você participou da turma incorreta, por favor, entre em contacto com o professor para substitui-la.",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips13": {
-    "message": "Solicitação de participação enviada. Aguardando aprovação do Professor.",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips14": {
-    "message": "Falha ao participar",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips15": {
-    "message": "O usuário atual não é um aluno e, portanto, não pode se inscrever em uma turma.",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips16": {
-    "message": "Parabéns, você se juntou com sucesso à aula ao vivo. Inicie a sua aprendizagem",
-    "description": "2.0 index.js"
-  },
-  "courseCodeTips1": {
-    "message": "Digite o código para buscar e participar",
-    "description": "2.0 index.js"
-  },
-  "courseCodeTips2": {
-    "message": "Após consultar o professor, digite o código de convite para turma acima",
-    "description": "2.0 index.js"
-  },
-  "courseCodeTips3": {
-    "message": "Não foi encontrada nenhuma turma, digite o código de convite para turma correto",
-    "description": "2.0 index.js"
-  },
-  "courseCodeTips4": {
-    "message": "Digite o código de convite para turma correto",
-    "description": "2.0 index.js"
-  },
-  "courseCodeTips5": {
-    "message": "Digite o código de convite para turma",
-    "description": "2.0 index.js"
-  },
-  "downloadUmoocTips": {
-    "message": "Digitalizar Código QR para download do ULearning 2.0",
-    "description": "2.0 index.js"
-  },
-  "className": {
-    "message": "Nome da turma",
-    "description": "2.0 index.js"
-  },
-  "orgName": {
-    "message": "Nome da instituição",
-    "description": "2.0 index.js"
-  },
-  "ownerCourse": {
-    "message": "Cursos Matriculados",
-    "description": "2.0 index.js"
-  },
-  "confirmJoin": {
-    "message": "Confirmar participação",
-    "description": "2.0 index.js"
-  },
-  "enterCourse": {
-    "message": "Acessar o curso",
-    "description": "2.0 index.js"
-  },
-  "closePage": {
-    "message": "Fechar esta página",
-    "description": "2.0 index.js"
-  },
-  "searching": {
-    "message": "Pesquisando...",
-    "description": "2.0 index.js"
-  },
-  "searchClass": {
-    "message": "Buscar Turma",
-    "description": "2.0 index.js"
-  },
-  "searchError": {
-    "message": "Falha na busca",
-    "description": "2.0 index.js"
-  },
-  "improveCourse": {
-    "message": "Aprimorar disciplina",
-    "description": "2.0 index.js"
-  },
-  "createCourseTips1": {
-    "message": "Parabéns por criar sua disciplina com sucesso! Por favor, continue aperfeiçoando sua disciplina com base no plano de ensino.",
-    "description": "2.0 index.js"
-  },
-  "courseTeam": {
-    "message": "Corpo docente",
-    "description": "2.0 index.js"
-  },
-  "courseTeamTips": {
-    "message": "Se a disciplina precisar de vários Professores e cada um responsável por uma Turma diferente, selecione Corpo docente.",
-    "description": "2.0 index.js"
-  },
-  "personalTeaching": {
-    "message": "Ensino individual",
-    "description": "2.0 index.js"
-  },
-  "teamTeaching": {
-    "message": "Ensino em equipe",
-    "description": "2.0 index.js"
-  },
-  "personalTeachingTips": {
-    "message": "Se você pretende gerenciar apenas todas as turmas de uma disciplina, selecione Ensino individual.",
-    "description": "2.0 index.js"
-  },
-  "currentCourseIs": {
-    "message": "Disciplina atual",
-    "description": "2.0 index.js"
-  },
-  "courseRoleTips": {
-    "message": "Modelo para usar no glossário deste",
-    "description": "2.0 index.js"
-  },
-  "improveCourseTips1": {
-    "message": "Por favor, complete as informações abaixo",
-    "description": "2.0 index.js"
-  },
-  "improveCourseTips2": {
-    "message": "O Gerente do Curso (responsável) tem a permissão máxima dentro da equipe de ensino e pode gerenciar todos os membros desse curso para visualizar o progresso da aprendizagem, o desempenho das atividades, as notas das avaliações e muito mais de todas as turmas.",
-    "description": "2.0 index.js"
-  },
-  "improveCourseTips3": {
-    "message": "No geral, docentes e monitores são adicionados à disciplina pelo gestor do curso. Docentes e monitores têm permissões diferentes para Gestão de Ensino e Gestão de Membros. Faça as configurações com base nas dicas a seguir.",
-    "description": "2.0 index.js"
-  },
-  "relateTextbook": {
-    "message": "Associar Material Didático",
-    "description": "2.0 index.js"
-  },
-  "textbookTips1": {
-    "message": "Designe material didático para esta disciplina. Se o ensino da sua disciplina não exigir material didático você pode deixar em branco.",
-    "description": "2.0 index.js"
-  },
-  "textbookTips2": {
-    "message": "Responsável pelo Curso ainda não designou Material Didático para esta disciplina",
-    "description": "2.0 index.js"
-  },
-  "textbookTips3": {
-    "message": "O material didático associado a esta disciplina é o seguinte:",
-    "description": "2.0 index.js"
-  },
-  "addTeacher": {
-    "message": "Adicionar instrutor",
-    "description": "2.0 index.js"
-  },
-  "createTeachingTeam": {
-    "message": "Organizar Corpo Docente",
-    "description": "2.0 index.js"
-  },
-  "teachingTeamTips1": {
-    "message": "Adicione instrutores a esta disciplina e atribua funções com base na divisão de atribuições, incluindo Responsável pelo curso, Professor e Auxiliar de Ensino.",
-    "description": "2.0 index.js"
-  },
-  "teachingTeamTips2": {
-    "message": "O Corpo docente da disciplina conta com os seguintes Membros:",
-    "description": "2.0 index.js"
-  },
-  "courseCreator": {
-    "message": "Criador do curso",
-    "description": "2.0 index.js"
-  },
-  "courseAdministrator": {
-    "message": "Responsável pelo curso",
-    "description": "2.0 index.js"
-  },
-  "teachingAssistant": {
-    "message": "Auxiliar de Ensino",
-    "description": "2.0 index.js"
-  },
-  "setClass": {
-    "message": "Configurações de Turma",
-    "description": "2.0 index.js"
-  },
-  "skipSetting": {
-    "message": "Pular configurações",
-    "description": "2.0 index.js"
-  },
-  "classSettingTips1": {
-    "message": "Crie uma turma (também permita que os professores do Corpo docente criem a sua própria turma) e designe um Professor da disciplina à turma.",
-    "description": "2.0 index.js"
-  },
-  "classSettingTips2": {
-    "message": "Crie sua turma ou espere o Administrador designá-la para você",
-    "description": "2.0 index.js"
-  },
-  "classSettingTips3": {
-    "message": "Aguarde, por favor, enquanto o Administradorlhe designa uma Turma",
-    "description": "2.0 index.js"
-  },
-  "classSettingTips4": {
-    "message": "Turmas desta disciplina:",
-    "description": "2.0 index.js"
-  },
-  "teachingProcess": {
-    "message": "Representação esquemática do Ensino",
-    "description": "2.0 index.js"
-  },
-  "processTips1": {
-    "message": "Como plataforma de blended learning em nuvem para o ensino superior, a ULearning se dedica a ajudar professores a implementar o modelo de ensino SPOC, que combina ensino online e presencial.",
-    "description": "2.0 index.js"
-  },
-  "processTips2": {
-    "message": "Para oferecer melhores serviços aos cursos em pequena escala online particulares (SPOC), o ULearning 2.0 passou da unidade de ensino por turma para a unidade de ensino por disciplina, prestando suporte para ensino individual e para o gerenciamento compartilhado de disciplinas por equipes pedagógicas, que ministram aulas compartilhadas por turma.",
-    "description": "2.0 index.js"
-  },
-  "processTips3": {
-    "message": "No modelo de ensino em equipe, o coordenador do curso pode incluir outros professores no corpo docente do curso, atribuir diferentes turmas a professores diferentes e definir diferentes permissões de funcionalidade. Todas as turmas do curso podem compartilhar recursos. Para o plano de ensino ou atividades unificados, basta que o responsável pelo curso defina-os de forma unificada, reduzindo assim significativamente a quantidade de trabalho repetitivo. Os professores de cada turma ainda podem publicar atividades personalizadas para suas turmas, como tarefas, testes e discussões.",
-    "description": "2.0 index.js"
-  },
-  "processTips4": {
-    "message": "É recomendável a seleção de um modelo de ensino adequado conforme o planejamento de ensino antes do início da aula. Caso a opção seja o ensino em equipe, é necessário que o responsável pela disciplina se comunique previamente com cada professor da turma. Com isso, apenas um professor pode criar o curso, evitando repetições e transtornos.",
-    "description": "2.0 index.js"
-  },
-  "processTips5": {
-    "message": "Estes são os fluxos de ensino para os modelos de ensino em equipe e individual, você pode clicar em cada botão para ver as operações correspondentes:",
-    "description": "2.0 index.js"
-  },
-  "startCourse": {
-    "message": "Iniciar Curso",
-    "description": "2.0 index.js"
-  },
-  "prepareTeachingContent": {
-    "message": "Preparar conteúdo do curso",
-    "description": "2.0 index.js"
-  },
-  "publishTeachingActivity": {
-    "message": "Publicar atividade didática",
-    "description": "2.0 index.js"
-  },
-  "classInteraction": {
-    "message": "Dinâmica de sala de aula",
-    "description": "2.0 index.js"
-  },
-  "assesment": {
-    "message": "Avaliação",
-    "description": "2.0 index.js"
-  },
-  "courseManager": {
-    "message": "Responsável pelo curso",
-    "description": "2.0 index.js"
-  },
-  "theTeacher": {
-    "message": "Professor da disciplina",
-    "description": "2.0 index.js"
-  },
-  "setCourseTeam": {
-    "message": "Configurações do Corpo docente",
-    "description": "2.0 index.js"
-  },
-  "designatedTextbook": {
-    "message": "Designar material didático",
-    "description": "2.0 index.js"
-  },
-  "setStudyPlan": {
-    "message": "Configurações do Plano de estudos",
-    "description": "2.0 index.js"
-  },
-  "setHomework": {
-    "message": "Dar tarefa",
-    "description": "2.0 index.js"
-  },
-  "rollcall": {
-    "message": "Chamada",
-    "description": "2.0 index.js"
-  },
-  "scheduleExam": {
-    "message": "Programar Avaliação",
-    "description": "2.0 index.js"
-  },
-  "inviteStudent": {
-    "message": "Convidar os alunos para participar da aula",
-    "description": "2.0 index.js"
-  },
-  "viewProgress": {
-    "message": "Ver Avaliação Progressiva",
-    "description": "2.0 index.js"
-  },
-  "publishDiscussion": {
-    "message": "Publicar discussão",
-    "description": "2.0 index.js"
-  },
-  "answer": {
-    "message": "Pergunta rápida",
-    "description": "2.0 index.js"
-  },
-  "setAssesmentRules": {
-    "message": "Configurações de critérios de avaliação",
-    "description": "2.0 index.js"
-  },
-  "publishAnnouncement": {
-    "message": "Publicar anúncio",
-    "description": "2.0 index.js"
-  },
-  "uploadResource": {
-    "message": "Carregar Recurso",
-    "description": "2.0 index.js"
-  },
-  "vote": {
-    "message": "Votação",
-    "description": "2.0 index.js"
-  },
-  "summaryGrade": {
-    "message": "Calcular nota final",
-    "description": "2.0 index.js"
-  },
-  "doHomework": {
-    "message": "Fazer Tarefa",
-    "description": "2.0 index.js"
-  },
-  "joinInteraction": {
-    "message": "Participe na Interação",
-    "description": "2.0 index.js"
-  },
-  "joinExam": {
-    "message": "Fazer avaliação",
-    "description": "2.0 index.js"
-  },
-  "viewAnnouncement": {
-    "message": "Ver Anúncio",
-    "description": "2.0 index.js"
-  },
-  "studyTextbook": {
-    "message": "Material didático de aprendizagem",
-    "description": "2.0 index.js"
-  },
-  "joinDiscussion": {
-    "message": "Participar da discussão",
-    "description": "2.0 index.js"
-  },
-  "viewTotalGrade": {
-    "message": "Ver notas finais",
-    "description": "2.0 index.js"
-  },
-  "viewResource": {
-    "message": "Ver recurso",
-    "description": "2.0 index.js"
-  },
-  "courseSource": {
-    "message": "Origem da disciplina",
-    "description": "2.0 index.js"
-  },
-  "courseSorts": {
-    "message": "Classificação pertencente",
-    "description": "2.0 index.js"
-  },
-  "total": {
-    "message": "Total",
-    "description": "2.0 index.js"
-  },
-  "totalTextbook": {
-    "message": "Total de {n} materiais didáticos",
-    "description": "非国际版首页 -> 更多教材"
-  },
-  "detail": {
-    "message": "Detalhes",
-    "description": "2.0 index.js"
-  },
-  "author": {
-    "message": "Autor",
-    "description": "2.0 index.js"
-  },
-  "press": {
-    "message": "Editora",
-    "description": "2.0 index.js"
-  },
-  "noTextbook": {
-    "message": "Ainda não há Material didático",
-    "description": "2.0 index.js"
-  },
-  "english": {
-    "message": "Inglês",
-    "description": "2.0 index.js"
-  },
-  "thought": {
-    "message": "educação moral e política",
-    "description": "2.0 index.js"
-  },
-  "generalEducation": {
-    "message": "Geral",
-    "description": "2.0 index.js"
-  },
-  "prepareTest": {
-    "message": "Preparar para exames",
-    "description": "2.0 index.js"
-  },
-  "wisdomTextbook": {
-    "message": "Material didático - ULearning",
-    "description": "2.0 index.js"
-  },
-  "onlineOpencourse": {
-    "message": "Cursos online - ULearning",
-    "description": "2.0 index.js"
-  },
-  "qualityCourse": {
-    "message": "Plataforma nacional de disciplinas abertas online de excelência",
-    "description": "2.0 index.js"
-  },
-  "integratedSort": {
-    "message": "Ordenar de forma abrangente",
-    "description": "2.0 index.js"
-  },
-  "sortByHot": {
-    "message": "Ordenar por mais recente",
-    "description": "2.0 index.js"
-  },
-  "sortByLatest": {
-    "message": "Ordenar por popularidade",
-    "description": "2.0 index.js"
-  },
-  "classification": {
-    "message": "classificar",
-    "description": "2.0 index.js"
-  },
-  "totalCourse": {
-    "message": "Um total de {n} disciplinas",
-    "description": "非国际版首页 -> 更多课程"
-  },
-  "nationalBoutique": {
-    "message": "Tesouros nacionais",
-    "description": "2.0 index.js"
-  },
-  "courseJoinCount": {
-    "message": "{n} pessoas participaram",
-    "description": "非国际版首页 -> 更多课程"
-  },
-  "summary": {
-    "message": "Introdução do conteúdo",
-    "description": "2.0 index.js"
-  },
-  "subjectWebsite": {
-    "message": "Website da disciplina",
-    "description": "2.0 index.js"
-  },
-  "shuziwaiyuan": {
-    "message": "Numerologia",
-    "description": "2.0 index.js"
-  },
-  "shuzimayuan": {
-    "message": "Instituto do Povo para o Estudo Digital do Marxismo",
-    "description": "2.0 index.js"
-  },
-  "renminshuangchuang": {
-    "message": "Inovação de pessoas",
-    "description": "2.0 index.js"
-  },
-  "dangjianyun": {
-    "message": "Faculdade de Construção de Partidos",
-    "description": "2.0 index.js"
-  },
-  "peoplePublic": {
-    "message": "Cursos Abertos do Povo",
-    "description": "2.0 index.js"
-  },
-  "haodaxue": {
-    "message": "Universidade Boa online",
-    "description": "2.0 index.js"
-  },
-  "jiaoshifazhanzhongxin": {
-    "message": "Centro de desenvolvimento de professores",
-    "description": "2.0 index.js"
-  },
-  "recommendCourse": {
-    "message": "Disciplinas recomendadas",
-    "description": "2.0 index.js"
-  },
-  "moreCourse": {
-    "message": "Mais disciplinas",
-    "description": "2.0 index.js"
-  },
-  "institution": {
-    "message": "Instituições",
-    "description": "2.0 index.js"
-  },
-  "moreInstitution": {
-    "message": "Mais instituições",
-    "description": "2.0 index.js"
-  },
-  "leiketang": {
-    "message": "sala de aula de Ray",
-    "description": "2.0 index.js"
-  },
-  "news": {
-    "message": "Notícias em destaque",
-    "description": "2.0 index.js"
-  },
-  "moreNews": {
-    "message": "Mais notícias",
-    "description": "2.0 index.js"
-  },
-  "starUmooc": {
-    "message": "Foco no site da ULearning",
-    "description": "2.0 index.js"
-  },
-  "umoocPublic": {
-    "message": "Conta oficial da Faculdade ULearning",
-    "description": "2.0 index.js"
-  },
-  "moreNews2": {
-    "message": "Obter mais informação",
-    "description": "2.0 index.js"
-  },
-  "inputCourseName": {
-    "message": "Digite o nome da disciplina",
-    "description": "2.0 index.js"
-  },
-  "ulearning": {
-    "message": "ULearning",
-    "description": "2.0 index.js"
-  },
-  "ulearning2APP": {
-    "message": "ULearning APP",
-    "description": "2.0 index.js"
-  },
-  "mobileTeachingSystem": {
-    "message": "Sistema de Ensino Mover",
-    "description": "2.0 index.js"
-  },
-  "download": {
-    "message": "download",
-    "description": "2.0 index.js"
-  },
-  "HomePage": {
-    "message": "Página inicial",
-    "description": "2.0 index.js"
-  },
-  "Textbook": {
-    "message": "Material didático",
-    "description": "2.0 index.js"
-  },
-  "Courses": {
-    "message": "disciplina",
-    "description": "2.0 index.js"
-  },
-  "Schools": {
-    "message": "Universidade em nuvem",
-    "description": "2.0 index.js"
-  },
-  "ResourceLibrary": {
-    "message": "Repositório de recursos",
-    "description": "2.0 index.js"
-  },
-  "QuestionLibrary": {
-    "message": "Banco de questões",
-    "description": "2.0 index.js"
-  },
-  "ExamLibrary": {
-    "message": "Banco de exercícios",
-    "description": "2.0 index.js"
-  },
-  "homePage": {
-    "message": "Página inicial",
-    "description": "2.0 index.js"
-  },
-  "lastPage": {
-    "message": "Última página",
-    "description": "2.0 index.js"
-  },
-  "frontPage": {
-    "message": "Página anterior",
-    "description": "2.0 index.js"
-  },
-  "backPage": {
-    "message": "Próxima página",
-    "description": "2.0 index.js"
-  },
-  "jumpPage": {
-    "message": "Avançar",
-    "description": "2.0 index.js"
-  },
-  "textbook": {
-    "message": "Material didático",
-    "description": "2.0 index.js"
-  },
-  "course": {
-    "message": "Disciplina",
-    "description": "2.0 index.js"
-  },
-  "schoolCloud": {
-    "message": "Escola na Nuvem",
-    "description": "2.0 index.js"
-  },
-  "searchTextbookCourse": {
-    "message": "pesquisar Material didático/disciplina/tornar público",
-    "description": "2.0 index.js"
-  },
-  "throwingScreen": {
-    "message": "espelhamento de tela",
-    "description": "2.0 index.js"
-  },
-  "app": {
-    "message": "APP",
-    "description": "2.0 index.js"
-  },
-  "downloadAPP": {
-    "message": "download APP",
-    "description": "2.0 index.js"
-  },
-  "help": {
-    "message": "Ajuda",
-    "description": "2.0 index.js"
-  },
-  "teachProcess": {
-    "message": "Processo de Ensino",
-    "description": "2.0 index.js"
-  },
-  "resourceLibrary": {
-    "message": "Repositório de recursos",
-    "description": "2.0 index.js"
-  },
-  "questionLibrary": {
-    "message": "Banco de questões",
-    "description": "2.0 index.js"
-  },
-  "examLibrary": {
-    "message": "Banco de exercícios",
-    "description": "2.0 index.js"
-  },
-  "littleTools": {
-    "message": "Mini aplicativo",
-    "description": "2.0 index.js"
-  },
-  "oralPractice": {
-    "message": "Avaliação da fala",
-    "description": "2.0 index.js"
-  },
-  "eventActivity": {
-    "message": "Atividades do concurso",
-    "description": "2.0 index.js"
-  },
-  "practiceTeaching": {
-    "message": "Ensino Prático",
-    "description": "2.0 index.js"
-  },
-  "wordsListenAndWrite": {
-    "message": "Ditado de palavras",
-    "description": "2.0 index.js"
-  },
-  "myOrder": {
-    "message": "Os Meus Pedidos",
-    "description": "2.0 index.js"
-  },
-  "myTextbook": {
-    "message": "Meus Materiais Didáticos",
-    "description": "2.0 index.js"
-  },
-  "message": {
-    "message": "Mensagem",
-    "description": "2.0 index.js"
-  },
-  "searchAllCourse": {
-    "message": "Pesquisar todas as disciplinas",
-    "description": "2.0 index.js"
-  },
-  "search": {
-    "message": "pesquisar",
-    "description": "2.0 index.js"
-  },
-  "aboutUsCl": {
-    "message": "Sobre nós:",
-    "description": "2.0 index.js"
-  },
-  "aboutWenhua": {
-    "message": "Sobre a Base",
-    "description": "2.0 index.js"
-  },
-  "contactUs": {
-    "message": "Fale conosco",
-    "description": "2.0 index.js"
-  },
-  "ulearnCloud": {
-    "message": "Youxueyun",
-    "description": "2.0 index.js"
-  },
-  "textbookList": {
-    "message": "Lista de materiais didáticos",
-    "description": "2.0 index.js"
-  },
-  "helpCenter": {
-    "message": "Central de ajuda",
-    "description": "2.0 index.js"
-  },
-  "friendLinkCl": {
-    "message": "Links Úteis:",
-    "description": "2.0 index.js"
-  },
-  "moocPublicCourse": {
-    "message": "Cursos Abertos do Povo",
-    "description": "2.0 index.js"
-  },
-  "teacherCenter": {
-    "message": "Centro de Desenvolvimento do Professor",
-    "description": "2.0 index.js"
-  },
-  "footerCopyRight": {
-    "message": "Copyright©2020 WenHua online Todos os direitos reservados",
-    "description": "2.0 index.js"
-  },
-  "footerStatement": {
-    "message": "Declaração de Privacidade",
-    "description": "2.0 index.js"
-  },
-  "footerClause": {
-    "message": "Termos de uso",
-    "description": "2.0 index.js"
-  },
-  "footerCertificateCode1": {
-    "message": "Licença do ICP - Pequim 120126",
-    "description": "2.0 index.js"
-  },
-  "footerCertificateCode2": {
-    "message": "Licença de publicação na Internet Novo Certificado Online (Pequim) de Número 218",
-    "description": "2.0 index.js"
-  },
-  "footerCertificateCode3": {
-    "message": "Permissão Comercial de Publicação Novo Partida do Número do Lote de Pequim 120206",
-    "description": "2.0 index.js"
-  },
-  "footerCertificateCode4": {
-    "message": "Número de registro: 11010502036460",
-    "description": "2.0 index.js"
-  },
-  "searchResult": {
-    "message": "Resultados da pesquisa",
-    "description": "2.0 index.js"
-  },
-  "textbookDetail": {
-    "message": "Detalhes do material didático",
-    "description": "2.0 index.js"
-  },
-  "thematicCurriculum": {
-    "message": "Unidade temática",
-    "description": "2.0 index.js"
-  },
-  "myHomePage": {
-    "message": "Minha Página inicial",
-    "description": "2.0 index.js"
-  },
-  "news2": {
-    "message": "Notícias",
-    "description": "2.0 index.js"
-  },
-  "manageMOOC": {
-    "message": "Gerenciamento do MOOC",
-    "description": "2.0 index.js"
-  },
-  "recoveryCourse": {
-    "message": "Restaurar disciplina",
-    "description": "2.0 index.js"
-  },
-  "copyCourse": {
-    "message": "Abrir o curso novamente",
-    "description": "2.0 index.js"
-  },
-  "copyCourseTip": {
-    "message": "Uma nova oferta de curso irá usar o curso atual como modelo, copiando seu conteúdo e atividades para o próximo período do curso. As atividades copiadas serão \"Não Publicadas\" por padrão. Você pode publicá-las uma por uma de acordo com o currículo.",
-    "description": "2.0 index.js"
-  },
-  "addClass": {
-    "message": "Criar Turma",
-    "description": "2.0 index.js"
-  },
-  "addClassPlaceHolder": {
-    "message": "Digite um nome de turma em cada linha. Não pode repetir.",
-    "description": "2.0 index.js"
-  },
-  "addClassTip": {
-    "message": "Sugerimos criar a turma simultaneamente à abertura da disciplina, o sistema publicará automaticamente as atividades para todas as turmas",
-    "description": "2.0 index.js"
-  },
-  "copyItem": {
-    "message": "Itens para copiar",
-    "description": "2.0 index.js"
-  },
-  "announcement": {
-    "message": "Anúncio",
-    "description": "2.0 index.js"
-  },
-  "courseware": {
-    "message": "Material didático",
-    "description": "2.0 index.js"
-  },
-  "resourse": {
-    "message": "recurso",
-    "description": "2.0 index.js"
-  },
-  "homework": {
-    "message": "Tarefa",
-    "description": "2.0 index.js"
-  },
-  "discusstion": {
-    "message": "discussão",
-    "description": "2.0 index.js"
-  },
-  "exam": {
-    "message": "Avaliação",
-    "description": "2.0 index.js"
-  },
-  "coursewareTip": {
-    "message": "(Copiar somente o conteúdo do material didático, não o plano de estudos)",
-    "description": "2.0 index.js"
-  },
-  "homeworkTip": {
-    "message": "(As tarefas copiadas têm o padrão \"rascunho\")",
-    "description": "2.0 index.js"
-  },
-  "examTip": {
-    "message": "(Copiar somente informações da avaliação, não copiar as sessões)",
-    "description": "2.0 index.js"
-  },
-  "confirmCopyCourse": {
-    "message": "Confirmar início da aula",
-    "description": "2.0 index.js"
-  },
-  "noClassTip": {
-    "message": "Turma Campo obrigatório",
-    "description": "2.0 index.js"
-  },
-  "sameClassTip": {
-    "message": "O nome da Turma não pode se repetir",
-    "description": "2.0 index.js"
-  },
-  "copyCourseError": {
-    "message": "Falha na criação do curso",
-    "description": "2.0 index.js"
-  },
-  "onlineTime": {
-    "message": "Duração online acumulada esta semana: {duration}",
-    "description": "2.0 index.js"
-  },
-  "courseStatus": {
-    "message": "estado da disciplina",
-    "description": "2.0 index.js"
-  },
-  "courseSort": {
-    "message": "Categoria do curso",
-    "description": "2.0 index.js"
-  },
-  "autoStudy": {
-    "message": "Aprendizagem independente",
-    "description": "2.0 index.js"
-  },
-  "courseHelpTitle": {
-    "message": "Duração online",
-    "description": "2.0 index.js"
-  },
-  "courseHelpExplain": {
-    "message": "Duração total online desta semana refere-se ao tempo em que você esteve ativo usando o computador ou aplicativo para celular para entrar na ULearning, nesta semana. Observação:",
-    "description": "2.0 index.js"
-  },
-  "courseHelpInfo[0]": {
-    "message": "Esta semana refere-se à semana natural, de segunda-feira a domingo.",
-    "description": "2.0 index.js"
-  },
-  "courseHelpInfo[1]": {
-    "message": "O login simultâneo no computador e no telefone celular não será registrado novamente.",
-    "description": "2.0 index.js"
-  },
-  "courseHelpInfo[2]": {
-    "message": "Permanecer muito tempo na página sem operação também será considerado ausência e não será registrado",
-    "description": "2.0 index.js"
-  },
-  "activityCalendar": {
-    "message": "Calendário",
-    "description": "2.0 index.js"
-  },
-  "activityFilters": {
-    "message": "Filtrar",
-    "description": "2.0 index.js"
-  },
-  "byType": {
-    "message": "Por tipo",
-    "description": "2.0 index.js"
-  },
-  "byCourse": {
-    "message": "por disciplina",
-    "description": "2.0 index.js"
-  },
-  "live": {
-    "message": "transmissão ao vivo",
-    "description": "2.0 index.js"
-  },
-  "start": {
-    "message": "começar",
-    "description": "2.0 index.js"
-  },
-  "allTimeOpen": {
-    "message": "Disponível por longo prazo",
-    "description": "2.0 index.js"
-  },
-  "backToCustomerService": {
-    "message": "Voltar para o Atendimento ao Cliente",
-    "description": "2.0 index.js"
-  },
-  "backToManagementCenter": {
-    "message": "Voltar para a central de gerenciamento",
-    "description": "2.0 index.js"
-  },
-  "toTeacher": {
-    "message": "Alternar para o modo professor",
-    "description": "2.0 index.js"
-  },
-  "toStudent": {
-    "message": "Alternar para o modo aluno",
-    "description": "2.0 index.js"
-  },
-  "bindTitle": {
-    "message": "dica",
-    "description": "2.0 index.js"
-  },
-  "bindTip": {
-    "message": "Prezado(a) usuário(a), a fim de melhorar a segurança da conta, primeiro associe seu número de celular ou e-mail (associar pelo menos um).",
-    "description": "2.0 index.js"
-  },
-  "bindPhone": {
-    "message": "Associar Telefone Celular",
-    "description": "2.0 index.js"
-  },
-  "bindMail": {
-    "message": "Associar Endereço de E-mail",
-    "description": "2.0 index.js"
-  },
-  "switchFail": {
-    "message": "Falha ao alternar",
-    "description": "2.0 index.js"
-  },
-  "courseFile": {
-    "message": "Pasta do Curso",
-    "description": "2.0 index.js"
-  },
-  "waitForCheckExit": {
-    "message": "Solicitação de saída enviada, aguardando aprovação do professor.",
-    "description": "2.0 index.js"
-  },
-  "moocPublicCourse2": {
-    "message": "Cursos Abertos do Povo",
-    "description": "2.0 index.js"
-  },
-  "courseRecorded": {
-    "message": "Vídeo Aula Pré-gravada na Sala de Aula",
-    "description": "2.0 index.js"
-  },
-  "eLearning": {
-    "message": "MOOC da Escola Atual",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips17": {
-    "message": "1. Envie um e-mail para avictvet@avic-intl.cn para solicitar uma nova conta e obter um código de convite para sua turma.",
-    "description": "2.0 index.js"
-  },
-  "joinCourseTips18": {
-    "message": "2. Entre em contacto com a sua escola ou professor para obter o código de convite para a turma.",
-    "description": "2.0 index.js"
-  },
-  "educationWisdom": {
-    "message": "Plataforma Nacional de Serviços Públicos de Educação Inteligente",
-    "description": "2.0 index.js"
-  },
-  "optional": {
-    "message": "(Opcional)",
-    "description": "2.0 index.js"
-  },
-  "wanfangchachong": {
-    "message": "WanFang Plagiarism Checker",
-    "description": "2.0 index.js"
-  },
-  "courseUnits": {
-    "message": "Módulo",
-    "description": "2.0 index.js"
-  },
-  "courseUnitsTip": {
-    "message": "(As atividades copiadas em um módulo ficam no estado \"nãoPublicado\" e as tarefas ficam no estado \"rascunho\")",
-    "description": "2.0 index.js"
-  },
-  "textbookBank": {
-    "message": "Base de Dados de Recursos Didáticos",
-    "description": "2.0 index.js"
-  },
-  "courseDeclaration": {
-    "message": "Declaração Disciplinar",
-    "description": "2.0 index.js"
-  },
-  "addClassTip2": {
-    "message": "Ao criar uma turma agora, o sistema publicará a atividade para todas as turmas recém-criadas e os alunos deverão entrar em cada turma por conta própria; você também poderá importar turmas e alunos em lote após o início do curso",
-    "description": "2.0 index.js"
-  },
-  "viewMore": {
-    "message": "Saiba mais",
-    "description": "2.0 index.js"
-  },
-  "importCCContent": {
-    "message": "Importar CC",
-    "description": "2.0 index.js"
-  },
-  "applicationCenter": {
-    "message": "Central de aplicativos",
-    "description": "2.0 index.js"
-  },
-  "knowledgeGraph": {
-    "message": "Grafo de Conhecimento",
-    "description": "2.0 index.js"
-  }
+    "addClassPlaceHolder": {
+        "message": "Digite um nome de turma em cada linha. Não pode repetir.",
+        "description": ""
+    },
+    "setClass": {
+        "message": "Configurações de Turma",
+        "description": ""
+    },
+    "allCourse": {
+        "message": "Todas as disciplinas",
+        "description": ""
+    },
+    "welcomeStu": {
+        "message": "{name} colega de classe, bem-vindo",
+        "description": ""
+    },
+    "welcomeTea": {
+        "message": "{name} Professor, bem-vindo",
+        "description": ""
+    },
+    "leiketang": {
+        "message": "sala de aula de Ray",
+        "description": ""
+    },
+    "courseWillEnd": {
+        "message": "A disciplina Concluirá em {time}",
+        "description": ""
+    },
+    "viewTotalGrade": {
+        "message": "Ver notas finais",
+        "description": ""
+    },
+    "courseHasEnd": {
+        "message": "Concluído em {time}",
+        "description": ""
+    },
+    "joinCourseTips3": {
+        "message": "1. Use o ULearning APP para digitalizar o código QR da aula ao vivo e participe após confirmar as informações.",
+        "description": ""
+    },
+    "courseCodeTips4": {
+        "message": "Digite o código de convite para turma correto",
+        "description": ""
+    },
+    "quitCourse": {
+        "message": "Sair da disciplina",
+        "description": ""
+    },
+    "undoApplication": {
+        "message": "Cancelar Solicitação de Participação",
+        "description": ""
+    },
+    "QuestionLibrary": {
+        "message": "Banco de questões",
+        "description": ""
+    },
+    "clickToCreateCourse": {
+        "message": "Clique no botão no canto superior direito para criar um curso!",
+        "description": ""
+    },
+    "toSelectCourse": {
+        "message": "Acessar Seleção de Disciplinas",
+        "description": ""
+    },
+    "joinCourseTips13": {
+        "message": "Solicitação de participação enviada. Aguardando aprovação do Professor.",
+        "description": ""
+    },
+    "improveCourseTips1": {
+        "message": "Por favor, complete as informações abaixo",
+        "description": ""
+    },
+    "courseCountdown": {
+        "message": "Faltam {n} dias para o início da disciplina",
+        "description": ""
+    },
+    "copyItem": {
+        "message": "Itens para copiar",
+        "description": ""
+    },
+    "deleteCourse": {
+        "message": "Excluir disciplina",
+        "description": ""
+    },
+    "toStudent": {
+        "message": "Alternar para o modo aluno",
+        "description": ""
+    },
+    "endCourse": {
+        "message": "Concluir o curso",
+        "description": ""
+    },
+    "activeTextbook": {
+        "message": "Ativar o material didático",
+        "description": ""
+    },
+    "waitForCheck": {
+        "message": "Solicitação de participação em andamento, aguarde a aprovação do professor",
+        "description": ""
+    },
+    "searchAllCourse": {
+        "message": "Pesquisar todas as disciplinas",
+        "description": ""
+    },
+    "setHomework": {
+        "message": "Dar tarefa",
+        "description": ""
+    },
+    "total": {
+        "message": "Total",
+        "description": ""
+    },
+    "teacher2": {
+        "message": "professor",
+        "description": ""
+    },
+    "HomePage": {
+        "message": "Página inicial",
+        "description": ""
+    },
+    "unpublish": {
+        "message": "Não publicado",
+        "description": ""
+    },
+    "checkCourseSummary": {
+        "message": "Ver Introdução da Disciplina",
+        "description": ""
+    },
+    "institution": {
+        "message": "Instituições",
+        "description": ""
+    },
+    "courseDetail": {
+        "message": "Detalhes do Curso",
+        "description": ""
+    },
+    "modifyCourse": {
+        "message": "Editar Disciplina",
+        "description": ""
+    },
+    "clickToJoinCourse": {
+        "message": "Clique no botão no canto superior direito para participar da Aula ao vivo!",
+        "description": ""
+    },
+    "recommendCourse": {
+        "message": "Disciplinas recomendadas",
+        "description": ""
+    },
+    "improveCourseTips3": {
+        "message": "No geral, docentes e monitores são adicionados à disciplina pelo gestor do curso. Docentes e monitores têm permissões diferentes para Gestão de Ensino e Gestão de Membros. Faça as configurações com base nas dicas a seguir.",
+        "description": ""
+    },
+    "homeworkTip": {
+        "message": "(As tarefas copiadas têm o padrão \"rascunho\")",
+        "description": ""
+    },
+    "moreNews2": {
+        "message": "Obter mais informação",
+        "description": ""
+    },
+    "courseCodeTips3": {
+        "message": "Não foi encontrada nenhuma turma, digite o código de convite para turma correto",
+        "description": ""
+    },
+    "processTips2": {
+        "message": "Para melhor atender ao ensino do SPOC na escola, o ULearning 2.0 mudou do modo de ensino baseado em \"Turma\" para o modo de ensino baseado em \"Disciplina\", que suporta tanto o ensino individual do professor quanto a gestão conjunta das disciplinas pela Equipe pedagógica e o ensino em equipe com base na divisão da Turma.",
+        "description": ""
+    },
+    "startCourse": {
+        "message": "Iniciar Curso",
+        "description": ""
+    },
+    "footerCertificateCode1": {
+        "message": "Licença do ICP - Pequim 120126",
+        "description": ""
+    },
+    "processTips1": {
+        "message": "Como plataforma de blended learning em nuvem para o ensino superior, a ULearning se dedica a ajudar professores a implementar o modelo de ensino SPOC, que combina ensino online e presencial.",
+        "description": ""
+    },
+    "eventActivity": {
+        "message": "Atividades do concurso",
+        "description": ""
+    },
+    "bindTitle": {
+        "message": "dica",
+        "description": ""
+    },
+    "skipSetting": {
+        "message": "Pular configurações",
+        "description": ""
+    },
+    "activityFilters": {
+        "message": "Filtrar",
+        "description": ""
+    },
+    "inviteStudent": {
+        "message": "Convidar os alunos para participar da aula",
+        "description": ""
+    },
+    "sortByHot": {
+        "message": "Ordenar por mais recente",
+        "description": ""
+    },
+    "copyCourse": {
+        "message": "Abrir o curso novamente",
+        "description": ""
+    },
+    "courseHelpInfo[0]": {
+        "message": "Esta semana refere-se à semana natural, de segunda-feira a domingo.",
+        "description": ""
+    },
+    "unshelveCourseTips2": {
+        "message": "O aluno pode continuar a navegar pelo conteúdo da disciplina, mas não pode mais participar.",
+        "description": ""
+    },
+    "onlineOpencourse": {
+        "message": "Cursos online - ULearning",
+        "description": ""
+    },
+    "classSettingTips2": {
+        "message": "Crie sua turma ou espere o Administrador designá-la para você",
+        "description": ""
+    },
+    "dangjianyun": {
+        "message": "Faculdade de Construção de Partidos",
+        "description": ""
+    },
+    "confirmEnd": {
+        "message": "Confirmar conclusão?",
+        "description": ""
+    },
+    "courseHelpInfo[1]": {
+        "message": "O login simultâneo no computador e no telefone celular não será registrado novamente.",
+        "description": ""
+    },
+    "integratedSort": {
+        "message": "Ordenar de forma abrangente",
+        "description": ""
+    },
+    "confirmEndCourse": {
+        "message": "Confirmar a conclusão dessa disciplina?",
+        "description": ""
+    },
+    "teachingTeamTips2": {
+        "message": "O Corpo docente da disciplina conta com os seguintes Membros:",
+        "description": ""
+    },
+    "resourse": {
+        "message": "recurso",
+        "description": ""
+    },
+    "coursewareTip": {
+        "message": "(Copiar somente o conteúdo do material didático, não o plano de estudos)",
+        "description": ""
+    },
+    "courseTitleRequired": {
+        "message": "O nome da disciplina não pode ser vazio",
+        "description": ""
+    },
+    "joinInteraction": {
+        "message": "Participe na Interação",
+        "description": ""
+    },
+    "setCourseTeam": {
+        "message": "Configurações do Corpo docente",
+        "description": ""
+    },
+    "footerCertificateCode2": {
+        "message": "Licença de publicação na Internet Novo Certificado Online (Pequim) de Número 218",
+        "description": ""
+    },
+    "autoStudy": {
+        "message": "Aprendizagem independente",
+        "description": ""
+    },
+    "copyCourseError": {
+        "message": "Falha na criação do curso",
+        "description": ""
+    },
+    "setStudyPlan": {
+        "message": "Configurações do Plano de estudos",
+        "description": ""
+    },
+    "courseware": {
+        "message": "Material didático",
+        "description": ""
+    },
+    "orgName": {
+        "message": "Nome da instituição",
+        "description": ""
+    },
+    "joinCourseTips15": {
+        "message": "O usuário atual não é um aluno e, portanto, não pode se inscrever em uma turma.",
+        "description": ""
+    },
+    "unshelveCourseTips4": {
+        "message": "Você não pode editar as informações e o conteúdo do curso após o término.",
+        "description": ""
+    },
+    "joinExam": {
+        "message": "Fazer avaliação",
+        "description": ""
+    },
+    "courseSorts": {
+        "message": "Classificação pertencente",
+        "description": ""
+    },
+    "searching": {
+        "message": "Pesquisando...",
+        "description": ""
+    },
+    "cropCover": {
+        "message": "Capturar capa",
+        "description": ""
+    },
+    "confirmJoin": {
+        "message": "Confirmar participação",
+        "description": ""
+    },
+    "publicCcourseTips2": {
+        "message": "Entre em contato com o atendimento ao cliente (400 610 7808) para solicitar a publicação ou registro online do seu projeto de disciplina, e entraremos em contato com você em breve.",
+        "description": ""
+    },
+    "designatedTextbook": {
+        "message": "Designar material didático",
+        "description": ""
+    },
+    "currentCourseIs": {
+        "message": "Disciplina atual",
+        "description": ""
+    },
+    "unshelveCourseTips6": {
+        "message": "Disciplinas concluídas não podem ser publicadas novamente.",
+        "description": ""
+    },
+    "sameClassTip": {
+        "message": "O nome da Turma não pode se repetir",
+        "description": ""
+    },
+    "courseHelpInfo[2]": {
+        "message": "Permanecer muito tempo na página sem operação também será considerado ausência e não será registrado",
+        "description": ""
+    },
+    "addClass": {
+        "message": "Criar Turma",
+        "description": ""
+    },
+    "courseTitleLengthTips": {
+        "message": "O nome da disciplina deve ter de 2 a 100 caracteres!",
+        "description": ""
+    },
+    "footerClause": {
+        "message": "Termos de uso",
+        "description": ""
+    },
+    "subjectWebsite": {
+        "message": "Website da disciplina",
+        "description": ""
+    },
+    "prepareTest": {
+        "message": "Preparar para exames",
+        "description": ""
+    },
+    "courseFile": {
+        "message": "Pasta do Curso",
+        "description": ""
+    },
+    "bindPhone": {
+        "message": "Associar Telefone Celular",
+        "description": ""
+    },
+    "joinDiscussion": {
+        "message": "Participar da discussão",
+        "description": ""
+    },
+    "wisdomTextbook": {
+        "message": "Material didático - ULearning",
+        "description": ""
+    },
+    "downloadAPP": {
+        "message": "download APP",
+        "description": ""
+    },
+    "closePage": {
+        "message": "Fechar esta página",
+        "description": ""
+    },
+    "courseAdministrator": {
+        "message": "Responsável pelo curso",
+        "description": ""
+    },
+    "joinCourseTips7": {
+        "message": "Escola da turma",
+        "description": ""
+    },
+    "ResourceLibrary": {
+        "message": "Repositório de recursos",
+        "description": ""
+    },
+    "viewAnnouncement": {
+        "message": "Ver Anúncio",
+        "description": ""
+    },
+    "publishTeachingActivity": {
+        "message": "Publicar atividade didática",
+        "description": ""
+    },
+    "joinCourseTips5": {
+        "message": "Ambas as formas exigem que o professor forneça o código QR e o código de convite para turma.",
+        "description": ""
+    },
+    "unshelveCourseTips3": {
+        "message": "Após o término a disciplina não exibirá no website, incapaz de continuar participar novos Alunos;",
+        "description": ""
+    },
+    "examLibrary": {
+        "message": "Banco de exercícios",
+        "description": ""
+    },
+    "sortByLatest": {
+        "message": "Ordenar por popularidade",
+        "description": ""
+    },
+    "summaryGrade": {
+        "message": "Calcular nota final",
+        "description": ""
+    },
+    "improveCourseTips2": {
+        "message": "O Gerente do Curso (responsável) tem a permissão máxima dentro da equipe de ensino e pode gerenciar todos os membros desse curso para visualizar o progresso da aprendizagem, o desempenho das atividades, as notas das avaliações e muito mais de todas as turmas.",
+        "description": ""
+    },
+    "joinCourseTips12": {
+        "message": "Você já participou de outras turmas desta disciplina, por favor, não participe novamente. Se você participou da turma incorreta, por favor, entre em contacto com o professor para substitui-la.",
+        "description": ""
+    },
+    "press": {
+        "message": "Editora",
+        "description": ""
+    },
+    "confirmCopyCourse": {
+        "message": "Confirmar início da aula",
+        "description": ""
+    },
+    "courseSort": {
+        "message": "Categoria do curso",
+        "description": ""
+    },
+    "publishAnnouncement": {
+        "message": "Publicar anúncio",
+        "description": ""
+    },
+    "joinCourseTips11": {
+        "message": "Os Cursos Matriculados desta Turma foram Concluídos e não é mais possível Participar",
+        "description": ""
+    },
+    "toTeacher": {
+        "message": "Alternar para o modo professor",
+        "description": ""
+    },
+    "scheduleExam": {
+        "message": "Programar Avaliação",
+        "description": ""
+    },
+    "ExamLibrary": {
+        "message": "Banco de exercícios",
+        "description": ""
+    },
+    "notJoinCourse": {
+        "message": "Ainda não participou de nenhuma disciplina",
+        "description": ""
+    },
+    "isContinueCreate": {
+        "message": "Deseja continuar criando?",
+        "description": ""
+    },
+    "studyTextbook": {
+        "message": "Material didático de aprendizagem",
+        "description": ""
+    },
+    "searchTextbookCourse": {
+        "message": "pesquisar Material didático/disciplina/tornar público",
+        "description": ""
+    },
+    "continCreate": {
+        "message": "Continuar Criar",
+        "description": ""
+    },
+    "teachProcess": {
+        "message": "Processo de Ensino",
+        "description": ""
+    },
+    "publishDiscussion": {
+        "message": "Publicar discussão",
+        "description": ""
+    },
+    "unchangeableTips": {
+        "message": "Depois de criado não pode ser alterado, por favor opere com cuidado",
+        "description": ""
+    },
+    "shuzimayuan": {
+        "message": "Instituto do Povo para o Estudo Digital do Marxismo",
+        "description": ""
+    },
+    "createCourseTips1": {
+        "message": "Parabéns por criar sua disciplina com sucesso! Por favor, continue aperfeiçoando sua disciplina com base no plano de ensino.",
+        "description": ""
+    },
+    "shuziwaiyuan": {
+        "message": "Numerologia",
+        "description": ""
+    },
+    "viewResource": {
+        "message": "Ver recurso",
+        "description": ""
+    },
+    "processTips3": {
+        "message": "No modelo de ensino em equipe, o coordenador do curso pode incluir outros professores no corpo docente do curso, atribuir diferentes turmas a professores diferentes e definir diferentes permissões de funcionalidade. Todas as turmas do curso podem compartilhar recursos. Para o plano de ensino ou atividades unificados, basta que o responsável pelo curso defina-os de forma unificada, reduzindo assim significativamente a quantidade de trabalho repetitivo. Os professores de cada turma ainda podem publicar atividades personalizadas para suas turmas, como tarefas, testes e discussões.",
+        "description": ""
+    },
+    "textbookTips1": {
+        "message": "Designe material didático para esta disciplina. Se o ensino da sua disciplina não exigir material didático você pode deixar em branco.",
+        "description": ""
+    },
+    "totalTextbook": {
+        "message": "Total de {n} materiais didáticos",
+        "description": ""
+    },
+    "practiceTeaching": {
+        "message": "Ensino Prático",
+        "description": ""
+    },
+    "joinCourseTips2": {
+        "message": "Colegas de classe, há duas maneiras de participar de uma aula ao vivo:",
+        "description": ""
+    },
+    "classSettingTips1": {
+        "message": "Crie uma turma (também permita que os professores do Corpo docente criem a sua própria turma) e designe um Professor da disciplina à turma.",
+        "description": ""
+    },
+    "ownerCourse": {
+        "message": "Cursos Matriculados",
+        "description": ""
+    },
+    "friendLinkCl": {
+        "message": "Links Úteis:",
+        "description": ""
+    },
+    "textbook": {
+        "message": "Material didático",
+        "description": ""
+    },
+    "unshelveCourseTips1": {
+        "message": "Os professores não podem Publicar novos recursos ou atividades, nem editar o conteúdo existente da disciplina. Podem apenas Ver e Exportar Dados.",
+        "description": ""
+    },
+    "courseTitleTips": {
+        "message": "O professor já criou uma disciplina com o mesmo nome. Sugerimos entrar em contato com o responsável pelo curso para verificar se é necessária a criação de uma disciplina separada.",
+        "description": ""
+    },
+    "quitCourseTips5": {
+        "message": "Depois de sair da disciplina, não será mais possível visualizar o conteúdo do material didático ou participar das atividades da disciplina.",
+        "description": ""
+    },
+    "textbookTips2": {
+        "message": "Responsável pelo Curso ainda não designou Material Didático para esta disciplina",
+        "description": ""
+    },
+    "pleaseInput": {
+        "message": "Digitar abaixo",
+        "description": ""
+    },
+    "wordsListenAndWrite": {
+        "message": "Ditado de palavras",
+        "description": ""
+    },
+    "doHomework": {
+        "message": "Fazer Tarefa",
+        "description": ""
+    },
+    "quitCourseTips6": {
+        "message": "Confirmar saída da disciplina?",
+        "description": ""
+    },
+    "ulearnCloud": {
+        "message": "Youxueyun",
+        "description": ""
+    },
+    "courseSource": {
+        "message": "Origem da disciplina",
+        "description": ""
+    },
+    "renminshuangchuang": {
+        "message": "Inovação de pessoas",
+        "description": ""
+    },
+    "textbookDetail": {
+        "message": "Detalhes do material didático",
+        "description": ""
+    },
+    "questionLibrary": {
+        "message": "Banco de questões",
+        "description": ""
+    },
+    "downloadUmoocTips": {
+        "message": "Digitalizar Código QR para baixar ULearning 2.0",
+        "description": ""
+    },
+    "qualityCourse": {
+        "message": "Plataforma nacional de disciplinas abertas online de excelência",
+        "description": ""
+    },
+    "searchError": {
+        "message": "Falha na busca",
+        "description": ""
+    },
+    "schoolCourseTips1": {
+        "message": "Privado dentro da escola, disponível apenas para seus alunos, suporta atividades em sala de aula e ensino por turma",
+        "description": ""
+    },
+    "quitCourseTips2": {
+        "message": "1. Não é possível continuar a aprender o conteúdo do material didático;",
+        "description": ""
+    },
+    "courseCodeTips1": {
+        "message": "Digite o código para buscar e participar",
+        "description": ""
+    },
+    "summary": {
+        "message": "Introdução do conteúdo",
+        "description": ""
+    },
+    "courseTitleExistTips": {
+        "message": "A disciplina com nome já  já existe na Escola Atual (criado pelo(a) Professor(a) {name}), sugerimos que entre em contato com o(a) Professor(a) criador(a) do curso para comunicação e confirmação, a fim de evitar inconveniências ao duplicar o curso.",
+        "description": ""
+    },
+    "joinCourseTips8": {
+        "message": ", diferente da escola em que você está atualmente, se continuar a participar, suas informações escolares serão alteradas para",
+        "description": ""
+    },
+    "joinCourseTips16": {
+        "message": "Parabéns, você se juntou com sucesso à aula ao vivo. Inicie a sua aprendizagem",
+        "description": ""
+    },
+    "teachingAssistant": {
+        "message": "Auxiliar de Ensino",
+        "description": ""
+    },
+    "byType": {
+        "message": "Por tipo",
+        "description": ""
+    },
+    "haodaxue": {
+        "message": "Universidade Boa online",
+        "description": ""
+    },
+    "manageMOOC": {
+        "message": "Gerenciamento do MOOC",
+        "description": ""
+    },
+    "joinCourseTips14": {
+        "message": "Falha ao participar",
+        "description": ""
+    },
+    "moreNews": {
+        "message": "Mais notícias",
+        "description": ""
+    },
+    "courseTitle": {
+        "message": "Nome do Curso",
+        "description": ""
+    },
+    "publicCcourseTips1": {
+        "message": "As aulas particulares por enquanto são disponibilizadas apenas para professores e escolas parceiras.",
+        "description": ""
+    },
+    "teachingTeamTips1": {
+        "message": "Adicione instrutores a esta disciplina e atribua funções com base na divisão de atribuições, incluindo Responsável pelo curso, Professor e Auxiliar de Ensino.",
+        "description": ""
+    },
+    "throwingScreen": {
+        "message": "espelhamento de tela",
+        "description": ""
+    },
+    "generalEducation": {
+        "message": "Geral",
+        "description": ""
+    },
+    "copyCourseTip": {
+        "message": "Uma nova oferta de curso irá usar o curso atual como modelo, copiando seu conteúdo e atividades para o próximo período do curso. As atividades copiadas serão \"Não Publicadas\" por padrão. Você pode publicá-las uma por uma de acordo com o currículo.",
+        "description": ""
+    },
+    "courseRoleTips": {
+        "message": "Modelo para usar no glossário deste",
+        "description": ""
+    },
+    "schoolCloud": {
+        "message": "Escola na Nuvem",
+        "description": ""
+    },
+    "searchClass": {
+        "message": "Buscar Turma",
+        "description": ""
+    },
+    "confirmQuit": {
+        "message": "Confirmar saída",
+        "description": ""
+    },
+    "courseCodeTips2": {
+        "message": "Após consultar o professor, digite o código de convite para turma acima",
+        "description": ""
+    },
+    "ulearning2APP": {
+        "message": "ULearning APP",
+        "description": ""
+    },
+    "footerCertificateCode4": {
+        "message": "Número de registro: 11010502036460",
+        "description": ""
+    },
+    "joinCourseTips1": {
+        "message": "Preste atenção!",
+        "description": ""
+    },
+    "jiaoshifazhanzhongxin": {
+        "message": "Centro de desenvolvimento de professores",
+        "description": ""
+    },
+    "courseHelpExplain": {
+        "message": "Duração total online desta semana refere-se ao tempo em que você esteve ativo usando o computador ou aplicativo para celular para entrar na ULearning, nesta semana. Observação:",
+        "description": ""
+    },
+    "joinCourseTips4": {
+        "message": "2. Digitar o código de convite para turma e buscar, depois de confirmar as informações, participar.",
+        "description": ""
+    },
+    "personalTeaching": {
+        "message": "Ensino individual",
+        "description": ""
+    },
+    "starUmooc": {
+        "message": "Foco no site da ULearning",
+        "description": ""
+    },
+    "aboutUsCl": {
+        "message": "Sobre nós:",
+        "description": ""
+    },
+    "thought": {
+        "message": "educação moral e política",
+        "description": ""
+    },
+    "backToManagementCenter": {
+        "message": "Voltar para a central de gerenciamento",
+        "description": ""
+    },
+    "quitCourseTips4": {
+        "message": "3. Não é possível continuar recebendo mensagens da Disciplina etc.",
+        "description": ""
+    },
+    "personalTeachingTips": {
+        "message": "Se você pretende gerenciar apenas todas as turmas de uma disciplina, selecione Ensino individual.",
+        "description": ""
+    },
+    "footerCertificateCode3": {
+        "message": "Permissão Comercial de Publicação Novo Partida do Número do Lote de Pequim 120206",
+        "description": ""
+    },
+    "createTeachingTeam": {
+        "message": "Organizar Corpo Docente",
+        "description": ""
+    },
+    "courseTips": {
+        "message": "Dica: Se a disciplina for codirigida por uma equipe pedagógica, basta o responsável pela disciplina criar a disciplina e adicionar outros professores à equipe docente da disciplina, sem que cada professor precise criar individualmente.",
+        "description": ""
+    },
+    "publicCcourseTips3": {
+        "message": "Disciplinas online, abertas a todos. Não suportam atividades em sala de aula nem divisão por turmas",
+        "description": ""
+    },
+    "textbookTips3": {
+        "message": "O material didático associado a esta disciplina é o seguinte:",
+        "description": ""
+    },
+    "theTeacher": {
+        "message": "Professor da disciplina",
+        "description": ""
+    },
+    "byCourse": {
+        "message": "por disciplina",
+        "description": ""
+    },
+    "searchResult": {
+        "message": "Resultados da pesquisa",
+        "description": ""
+    },
+    "joinCourseTips10": {
+        "message": "Você já participou da turma, pode Entrar na disciplina e Iniciar aprendizagem",
+        "description": ""
+    },
+    "quitCourseTips1": {
+        "message": "Confirma a saída da disciplina? Após sair da disciplina, você:",
+        "description": ""
+    },
+    "littleTools": {
+        "message": "Mini aplicativo",
+        "description": ""
+    },
+    "Schools": {
+        "message": "Universidade em nuvem",
+        "description": ""
+    },
+    "classInteraction": {
+        "message": "Dinâmica de sala de aula",
+        "description": ""
+    },
+    "unshelveCourseTips5": {
+        "message": "Os alunos que já haviam se juntado a esta disciplina ainda podem continuar aprendendo",
+        "description": ""
+    },
+    "recoveryCourse": {
+        "message": "Restaurar disciplina",
+        "description": ""
+    },
+    "viewProgress": {
+        "message": "Ver Avaliação Progressiva",
+        "description": ""
+    },
+    "detail": {
+        "message": "Detalhes",
+        "description": ""
+    },
+    "aboutWenhua": {
+        "message": "Sobre a Base",
+        "description": ""
+    },
+    "bindMail": {
+        "message": "Associar Endereço de E-mail",
+        "description": ""
+    },
+    "moreInstitution": {
+        "message": "Mais instituições",
+        "description": ""
+    },
+    "mobileTeachingSystem": {
+        "message": "Sistema de Ensino Mover",
+        "description": ""
+    },
+    "noClassTip": {
+        "message": "Turma Campo obrigatório",
+        "description": ""
+    },
+    "joinCourseTips6": {
+        "message": "Dica para participar de uma aula ao vivo",
+        "description": ""
+    },
+    "processTips5": {
+        "message": "Estes são os fluxos de ensino para os modelos de ensino em equipe e individual, você pode clicar em cada botão para ver as operações correspondentes:",
+        "description": ""
+    },
+    "classification": {
+        "message": "classificar",
+        "description": ""
+    },
+    "courseHelpTitle": {
+        "message": "Duração online",
+        "description": ""
+    },
+    "classSettingTips4": {
+        "message": "Turmas desta disciplina:",
+        "description": ""
+    },
+    "textbookList": {
+        "message": "Lista de materiais didáticos",
+        "description": ""
+    },
+    "switchFail": {
+        "message": "Falha ao alternar",
+        "description": ""
+    },
+    "news2": {
+        "message": "Notícias",
+        "description": ""
+    },
+    "processTips4": {
+        "message": "É recomendável a seleção de um modelo de ensino adequado conforme o planejamento de ensino antes do início da aula. Caso a opção seja o ensino em equipe, é necessário que o responsável pela disciplina se comunique previamente com cada professor da turma. Com isso, apenas um professor pode criar o curso, evitando repetições e transtornos.",
+        "description": ""
+    },
+    "nationalBoutique": {
+        "message": "Tesouros nacionais",
+        "description": ""
+    },
+    "oralPractice": {
+        "message": "Avaliação da fala",
+        "description": ""
+    },
+    "thematicCurriculum": {
+        "message": "Unidade temática",
+        "description": ""
+    },
+    "umoocPublic": {
+        "message": "Conta oficial da Faculdade ULearning",
+        "description": ""
+    },
+    "prepareTeachingContent": {
+        "message": "Preparar conteúdo do curso",
+        "description": ""
+    },
+    "discusstion": {
+        "message": "discussão",
+        "description": ""
+    },
+    "Courses": {
+        "message": "disciplina",
+        "description": ""
+    },
+    "uploadResource": {
+        "message": "Carregar Recurso",
+        "description": ""
+    },
+    "allTimeOpen": {
+        "message": "Disponível por longo prazo",
+        "description": ""
+    },
+    "teacherCenter": {
+        "message": "Centro de Desenvolvimento do Professor",
+        "description": ""
+    },
+    "courseExist": {
+        "message": "O nome do curso já existe.",
+        "description": ""
+    },
+    "relateTextbook": {
+        "message": "Associar Material Didático",
+        "description": ""
+    },
+    "news": {
+        "message": "Notícias em destaque",
+        "description": ""
+    },
+    "courseTeamTips": {
+        "message": "Se a disciplina precisar de vários Professores e cada um responsável por uma Turma diferente, selecione Corpo docente.",
+        "description": ""
+    },
+    "courseJoinCount": {
+        "message": "{n} pessoas participaram",
+        "description": ""
+    },
+    "classSettingTips3": {
+        "message": "Aguarde, por favor, enquanto o Administradorlhe designa uma Turma",
+        "description": ""
+    },
+    "teamTeaching": {
+        "message": "Ensino em equipe",
+        "description": ""
+    },
+    "quitCourseTips3": {
+        "message": "2. Não é possível visualizar registros anteriores de tarefas, avaliações, atividades em sala de aula, etc.;",
+        "description": ""
+    },
+    "assesment": {
+        "message": "Avaliação",
+        "description": ""
+    },
+    "joinCourseTips9": {
+        "message": "Confirma sua participação?",
+        "description": ""
+    },
+    "footerStatement": {
+        "message": "Declaração de Privacidade",
+        "description": ""
+    },
+    "waitForCheckExit": {
+        "message": "Solicitação de saída enviada, aguardando aprovação do professor.",
+        "description": ""
+    },
+    "courseCodeTips5": {
+        "message": "Digite o código de convite para turma",
+        "description": ""
+    },
+    "deleteCourseTips1": {
+        "message": "Depois de excluído, não será possível restaurar o curso e os Alunos que Participaram nele não poderão Continuar aprendendo. Tenha cautela ao realizar esta operação!",
+        "description": ""
+    },
+    "Textbook": {
+        "message": "Material didático",
+        "description": ""
+    },
+    "moocPublicCourse2": {
+        "message": "Cursos Abertos do Povo",
+        "description": ""
+    },
+    "courseRecorded": {
+        "message": "Vídeo Aula Pré-gravada na Sala de Aula",
+        "description": ""
+    },
+    "joinCourseTips18": {
+        "message": "2. Entre em contacto com a sua escola ou professor para obter o código de convite para a turma.",
+        "description": ""
+    },
+    "eLearning": {
+        "message": "MOOC da Escola Atual",
+        "description": ""
+    },
+    "joinCourseTips17": {
+        "message": "1. Envie um e-mail para avictvet@avic-intl.cn para solicitar uma nova conta e obter um código de convite para sua turma.",
+        "description": ""
+    },
+    "educationWisdom": {
+        "message": "Plataforma Nacional de Serviços Públicos de Educação Inteligente",
+        "description": ""
+    },
+    "footerCopyRight": {
+        "message": "Copyright©2020 WenHua online Todos os direitos reservados",
+        "description": ""
+    },
+    "addClassTip": {
+        "message": "Sugerimos criar a turma simultaneamente à abertura da disciplina, o sistema publicará automaticamente as atividades para todas as turmas",
+        "description": ""
+    },
+    "courseDeclaration": {
+        "message": "Declaração Disciplinar",
+        "description": ""
+    },
+    "courseUnits": {
+        "message": "Módulo",
+        "description": ""
+    },
+    "addClassTip2": {
+        "message": "Ao criar uma turma agora, o sistema publicará a atividade para todas as turmas recém-criadas e os alunos deverão entrar em cada turma por conta própria; você também poderá importar turmas e alunos em lote após o início do curso",
+        "description": ""
+    },
+    "courseUnitsTip": {
+        "message": "(As atividades copiadas em um módulo ficam no estado \"nãoPublicado\" e as tarefas ficam no estado \"rascunho\")",
+        "description": ""
+    },
+    "wanfangchachong": {
+        "message": "WanFang Plagiarism Checker",
+        "description": ""
+    },
+    "textbookBank": {
+        "message": "Base de Dados de Recursos Didáticos",
+        "description": ""
+    },
+    "moocPublicCourse": {
+        "message": "Cursos Abertos do Povo",
+        "description": ""
+    },
+    "peoplePublic": {
+        "message": "Cursos Abertos do Povo",
+        "description": ""
+    },
+    "importCCContent": {
+        "message": "Importar CC",
+        "description": ""
+    },
+    "applicationCenter": {
+        "message": "Central de aplicativos",
+        "description": ""
+    },
+    "bindTip": {
+        "message": "Prezado(a) usuário(a), a fim de melhorar a segurança da conta, primeiro associe seu número de celular ou e-mail (associar pelo menos um).",
+        "description": ""
+    },
+    "editorAcount": {
+        "message": "Editar conta",
+        "description": ""
+    },
+    "deleteCourseTips2": {
+        "message": "A disciplina está vinculada a outros cursos abertos. Para excluir, faça login e edite a conta para desvincular.",
+        "description": ""
+    },
+    "searchCourse": {
+        "message": "pesquisar disciplina",
+        "description": ""
+    },
+    "all": {
+        "message": "Todos",
+        "description": ""
+    },
+    "teacher": {
+        "message": "Professor",
+        "description": ""
+    },
+    "cancel": {
+        "message": "Cancelar",
+        "description": ""
+    },
+    "searchNoCourse": {
+        "message": "Nenhuma disciplina encontrada com base em sua pesquisa",
+        "description": ""
+    },
+    "ended": {
+        "message": "Concluído",
+        "description": ""
+    },
+    "courseCover": {
+        "message": "Capa da disciplina",
+        "description": ""
+    },
+    "ing": {
+        "message": "em andamento",
+        "description": ""
+    },
+    "joinCourse": {
+        "message": "Participar da aula ao vivo",
+        "description": ""
+    },
+    "modify": {
+        "message": "editar",
+        "description": ""
+    },
+    "more": {
+        "message": "Mais",
+        "description": ""
+    },
+    "delete": {
+        "message": "Excluir",
+        "description": ""
+    },
+    "day": {
+        "message": "dia",
+        "description": ""
+    },
+    "create": {
+        "message": "Criar",
+        "description": ""
+    },
+    "noCourse": {
+        "message": "ainda não tem disciplina",
+        "description": ""
+    },
+    "class": {
+        "message": "Turma",
+        "description": ""
+    },
+    "confirm": {
+        "message": "Confirmar",
+        "description": ""
+    },
+    "createCourse": {
+        "message": "Criar disciplina",
+        "description": ""
+    },
+    "close": {
+        "message": "Fechar",
+        "description": ""
+    },
+    "hour": {
+        "message": "hora",
+        "description": ""
+    },
+    "publicCourse": {
+        "message": "Tornar público o curso",
+        "description": ""
+    },
+    "published": {
+        "message": "Publicado",
+        "description": ""
+    },
+    "student": {
+        "message": "Aluno",
+        "description": ""
+    },
+    "end": {
+        "message": "Concluir",
+        "description": ""
+    },
+    "backToCustomerService": {
+        "message": "Voltar para o Atendimento ao Cliente",
+        "description": ""
+    },
+    "courseTeam": {
+        "message": "Corpo docente",
+        "description": ""
+    },
+    "courseManager": {
+        "message": "Responsável pelo curso",
+        "description": ""
+    },
+    "backPage": {
+        "message": "Próxima página",
+        "description": ""
+    },
+    "enterCourse": {
+        "message": "Acessar o curso",
+        "description": ""
+    },
+    "continue": {
+        "message": "Continuar",
+        "description": ""
+    },
+    "search": {
+        "message": "pesquisar",
+        "description": ""
+    },
+    "exam": {
+        "message": "Avaliação",
+        "description": ""
+    },
+    "setAssesmentRules": {
+        "message": "Configurações de critérios de avaliação",
+        "description": ""
+    },
+    "openCourse": {
+        "message": "disciplina aberta",
+        "description": ""
+    },
+    "help": {
+        "message": "Ajuda",
+        "description": ""
+    },
+    "myTextbook": {
+        "message": "Meus Materiais Didáticos",
+        "description": ""
+    },
+    "myHomePage": {
+        "message": "Minha Página inicial",
+        "description": ""
+    },
+    "onlineTime": {
+        "message": "Duração online acumulada esta semana: {duration}",
+        "description": ""
+    },
+    "course": {
+        "message": "Disciplina",
+        "description": ""
+    },
+    "netError": {
+        "message": "Erro de rede, clique em {reloadButton} para carregar novamente",
+        "description": ""
+    },
+    "message": {
+        "message": "Mensagem",
+        "description": ""
+    },
+    "homePage": {
+        "message": "Página inicial",
+        "description": ""
+    },
+    "answer": {
+        "message": "Pergunta rápida",
+        "description": ""
+    },
+    "moreCourse": {
+        "message": "Mais disciplinas",
+        "description": ""
+    },
+    "addTeacher": {
+        "message": "Adicionar instrutor",
+        "description": ""
+    },
+    "download": {
+        "message": "download",
+        "description": ""
+    },
+    "reload": {
+        "message": "Recarregar",
+        "description": ""
+    },
+    "contactUs": {
+        "message": "Fale conosco",
+        "description": ""
+    },
+    "author": {
+        "message": "Autor",
+        "description": ""
+    },
+    "resourceLibrary": {
+        "message": "Repositório de recursos",
+        "description": ""
+    },
+    "confirmDelete": {
+        "message": "Confirmar Exclusão",
+        "description": ""
+    },
+    "localUpload": {
+        "message": "Enviar do computador",
+        "description": ""
+    },
+    "courseType": {
+        "message": "Tipo de disciplina",
+        "description": ""
+    },
+    "helpCenter": {
+        "message": "Central de ajuda",
+        "description": ""
+    },
+    "rollcall": {
+        "message": "Chamada",
+        "description": ""
+    },
+    "improveCourse": {
+        "message": "Aprimorar disciplina",
+        "description": ""
+    },
+    "ulearning": {
+        "message": "ULearning",
+        "description": ""
+    },
+    "lastPage": {
+        "message": "Última página",
+        "description": ""
+    },
+    "noTextbook": {
+        "message": "Ainda não há Material didático",
+        "description": ""
+    },
+    "frontPage": {
+        "message": "Página anterior",
+        "description": ""
+    },
+    "live": {
+        "message": "transmissão ao vivo",
+        "description": ""
+    },
+    "className": {
+        "message": "Nome da turma",
+        "description": ""
+    },
+    "schoolCourse": {
+        "message": "Cursos no campus",
+        "description": ""
+    },
+    "announcement": {
+        "message": "Anúncio",
+        "description": ""
+    },
+    "activityCalendar": {
+        "message": "Calendário",
+        "description": ""
+    },
+    "courseCreator": {
+        "message": "Criador do curso",
+        "description": ""
+    },
+    "examTip": {
+        "message": "(Copiar somente informações da avaliação, não copiar as sessões)",
+        "description": ""
+    },
+    "jumpPage": {
+        "message": "Avançar",
+        "description": ""
+    },
+    "start": {
+        "message": "começar",
+        "description": ""
+    },
+    "totalCourse": {
+        "message": "Um total de {n} disciplinas",
+        "description": ""
+    },
+    "courseStatus": {
+        "message": "estado da disciplina",
+        "description": ""
+    },
+    "teachingProcess": {
+        "message": "Representação esquemática do Ensino",
+        "description": ""
+    },
+    "myOrder": {
+        "message": "Os Meus Pedidos",
+        "description": ""
+    },
+    "vote": {
+        "message": "Votação",
+        "description": ""
+    },
+    "homework": {
+        "message": "Tarefa",
+        "description": ""
+    },
+    "inputCourseName": {
+        "message": "Digite o nome da disciplina",
+        "description": ""
+    },
+    "app": {
+        "message": "APP",
+        "description": ""
+    },
+    "viewMore": {
+        "message": "Saiba mais",
+        "description": ""
+    }
 }

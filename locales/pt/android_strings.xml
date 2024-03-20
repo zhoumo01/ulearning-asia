@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+<?xml version='1.0' encoding='utf-8'?>
 <resources>
     <string name="app_name">ULearning 2.0</string>
     <string name="app_name_debug">ULearning 2.0</string>
@@ -23,7 +23,6 @@
 
     <string name="toast_please_check_if_the_SD_card_is_inserted">Cheque se o cartão SD está inserido corretamente!</string>
     
-    <!--<string name="telphone">400 610 7808</string>-->
     <string name="dialog_quit" formatted="false">Sair (%s)</string>
     <string name="dialog_confirm">Confirmar</string>
     <string name="dialog_cancel">Cancelar</string>
@@ -285,7 +284,7 @@ Atenção, o cancelamento de conta é uma operação irreversível, por isso fa�
     <string name="hint_input_new_pwd_again">Por favor Digite novamente a nova senha</string>
     <string name="hint_input_class_name">Digite o nome da turma</string>
     <string name="hint_input_course_name">Digite o nome do curso</string>
-    <string name="hint_input_edit_class_name">Digite os nomes das turmas, separando-as por &quot;,&quot;</string>
+    <string name="hint_input_edit_class_name">Digite o nome da turma, separe várias turmas com ';'</string>
     <string name="hint_search_contact">Pesquisar contactos</string>
     <string name="hint_search_course">pesquisar disciplina</string>
     <string name="hint_search">pesquisar</string>
@@ -587,8 +586,8 @@ Você pode usar outros aplicativos para abrir</string>
     <string name="text_join_class_apply_empty">Sem Solicitação de hora extra temporariamente</string>
     <string name="text_quit_class_apply_empty">Não há solicitação de saída de turma no momento</string>
     <string name="text_apply_count_format" formatted="false">%d Novas Solicitações</string>
-    <string name="text_apply_join_class_format" formatted="false">Solicitação para participar de &quot;%s&quot;</string>
-    <string name="text_apply_quit_class_format" formatted="false">Solicitação de saída de &quot;%s&quot;</string>
+    <string name="text_apply_join_class_format" formatted="false">Solicitação para participar de "%s"</string>
+    <string name="text_apply_quit_class_format" formatted="false">Solicitação de saída de "%s"</string>
 
     <string name="toast_other_lesson_downloading">Outros capítulos baixando</string>
     <string name="toast_course_expire">Disciplina expirada</string>
@@ -992,13 +991,11 @@ Você pode Abrir usando outros aplicativos</string>
     <string name="course_not_end_remind">Não há disciplinas concluídas</string>
 
     
-    <!--课程主页-->
     <string name="coures_home_course_end">A disciplina Concluiu!</string>
     <string name="coures_home_course_end_not_add">Você não pode mais editar disciplinas, publicar novos recursos ou atividades. Os alunos podem continuar a navegar pelo conteúdo do curso, mas não podem mais se inscrever no curso.</string>
     <string name="coures_home_course_end_look">Para ver o conteúdo do curso anterior e dados de aprendizagem do Aluno, use o computador</string>
 
     
-    <!--课件-->
     <string name="textbook_empty_remind">Ainda não há material didático, ele será designado pelo responsável pelo curso</string>
     <string name="textbook_empty_remind_stu">Ainda não há Material didático</string>
     <string name="textbook_my_textbook_course">As disciplinas abaixo utilizam o Material didático deste manual. Acesse o curso para estudar</string>
@@ -1009,7 +1006,6 @@ Você pode Abrir usando outros aplicativos</string>
     <string name="textbook_plan_chapter_not_start">A Hora atual é incapaz de aprender este Capítulo</string>
 
     
-    <!--活动-->
     <string name="activity_all_empty_stu">Não há publicações de atividades em sala de aula</string>
     <string name="activity_all_empty_tea">Temporariamente ainda não há conteúdo publicado</string>
     <string name="activity_type_empty">Nenhuma atividade corresponde aos critérios</string>
@@ -1040,7 +1036,6 @@ Você pode Abrir usando outros aplicativos</string>
 *A configuração acima é válida apenas para disciplinas acessadas pelo celular</string>
 
     
-    <!--活动-->
     <string name="activity_null_remind_stu">Temporariamente não há atividades~</string>
     <string name="activity_null_remind_tea">Vá criar uma atividade</string>
 
@@ -1067,7 +1062,7 @@ Você pode Abrir usando outros aplicativos</string>
 4. A turma não será mais exibida no portal do aluno;
 5. É possível restaurar turmas arquivadas cancelando o arquivamento.</string>
     <string name="speaking_item1">1. Depois de praticar, será enviado seu último exercício de gravação. Haverá uma tarifa de tráfego de dados durante a transferência. É recomendado que você selecione um ambiente Wi-Fi para praticar.</string>
-    <string name="speaking_item2">2. Mesmo sem acesso à rede, você pode praticar, mas não poderá carregar seu registro de gravação. Ao conectar-se à rede, clique em &quot;Sincronizar registro de aprendizagem&quot; para carregar seu registro de gravação e aprendizagem.</string>
+    <string name="speaking_item2">2. Mesmo sem acesso à rede, você pode praticar, mas não poderá carregar seu registro de gravação. Ao conectar-se à rede, clique em "Sincronizar registro de aprendizagem" para carregar seu registro de gravação e aprendizagem.</string>
 
     <string name="main_menu_item_selectcourse">Selecione uma disciplina</string>
     <string name="main_top_buycourse">Comprar Disciplina</string>
@@ -1157,7 +1152,6 @@ Você tem certeza de que deseja ingressar na turma?</string>
 
 
     
-    <!-- 消息 -->
     <string name="message_remind">Lembrete de mensagem</string>
     <string name="message">Mensagem</string>
     <string name="voice">som</string>
@@ -1169,9 +1163,6 @@ Você tem certeza de que deseja ingressar na turma?</string>
     <string name="newnotify">Receber notificações de novas mensagens</string>
     <string name="shake">Vibração</string>
     
-
-
-    <!-- 消息 -->
 
 
     <string name="file">Ficheiro</string>
@@ -1228,7 +1219,6 @@ Vá até a ativação de permissão ou remova a ocupação e tente novamente.</s
 
 
     
-    <!-- 播放器提示内容 -->
     <string name="area_select_title">Selecione a área</string>
     <string name="area_select_latin_america">América Latina</string>
     <string name="area_select_asia_pacific">Ásia-Pacífico</string>
@@ -1236,7 +1226,6 @@ Vá até a ativação de permissão ou remova a ocupação e tente novamente.</s
     <string name="area_select_south_africa">África</string>
 
     
-    <!--新增替换服务端语言-->
     <string name="server_msg_repeat_folder">Já existe uma Pasta com o mesmo Nome. Por favor, edite o Nome da Pasta!</string>
     <string name="first_in_resource_icon_name">pop_resource</string>
     <string name="first_in_activity_icon_name">atividade pop</string>
@@ -1336,8 +1325,6 @@ picturePath:%3$s</string>
     <string name="file_type_not_support">Não suporta o tipo de Ficheiro</string>
 
     
-    <!--custom
-    multipleimageselect -->
     <string name="album_view">Selecione uma imagem</string>
     <string name="image_view">Clique para selecionar</string>
 
@@ -1486,7 +1473,7 @@ Exercicios de fala, Tarefa de fala, Ditado de palavras, Avaliação de fala, Ava
 
 Ler dados de cache do aplicativo, imagens e ficheiros</string>
     <string name="permission_read_storage_fail">Você desabilitou a permissão de leitura do armazenamento, é incapaz de usar esta funcionalidade, por favor entre nas Configurações do Telefone celular para autorizar.</string>
-    <string name="permission_camera_microphone_fail">Você desativou a permissão da câmera ou do microfone, a funcionalidade não está disponível, entre nas &quot;Configurações&quot; do seu Telefone celular para autorizar</string>
+    <string name="permission_camera_microphone_fail">Você desativou a permissão da câmera ou do microfone, a funcionalidade não está disponível, entre nas "Configurações" do seu Telefone celular para autorizar</string>
 
     <string name="title_of_top">Fixar no topo</string>
     <string name="item_all_class">Todas as Classes</string>
@@ -1497,7 +1484,7 @@ Ler dados de cache do aplicativo, imagens e ficheiros</string>
     <string name="title_of_projection">espelhamento de tela</string>
     <string name="projection_on">Espelhamento de tela em andamento</string>
     <string name="stop">Parar</string>
-    <string name="permission_location_wifi_fail">Você desativou as permissões de localização, é incapaz de obter o nome da Wi-Fi, entre nas &quot;Configurações&quot; do seu Telefone celular para autorizar.</string>
+    <string name="permission_location_wifi_fail">Você desativou as permissões de localização, é incapaz de obter o nome da Wi-Fi, entre nas "Configurações" do seu Telefone celular para autorizar.</string>
     <string name="screen_fail_1">Falha ao espelhar a tela! Abra o cliente no Painel grande, ative a funcionalidade de espelhamento e verifique se o Telefone celular e o Painel grande estão na mesma Rede local.</string>
     <string name="screen_fail_2">O dispositivo receptor reiniciou ou desconectou da rede</string>
 
@@ -1526,7 +1513,7 @@ Mensagem</string>
     <string name="permission_write_external">Para garantir o uso normal das seguintes funcionalidades no ULearning, você precisa autorizar o ULearning a armazenar permissões:
 
 Armazenar dados de cache do aplicativo, imagens e arquivos</string>
-    <string name="permission_write_storage_fail">Você desabilitou a permissão de armazenamento, incapaz de usar esta funcionalidade, por favor entre nas &quot;Configurações&quot; do Telefone celular para autorizar</string>
+    <string name="permission_write_storage_fail">Você desabilitou a permissão de armazenamento, incapaz de usar esta funcionalidade, por favor entre nas "Configurações" do Telefone celular para autorizar</string>
     <string name="scan_and_activate_book">Verifique o código QR para ativar o material didático</string>
 
     <string name="live_order_asc">Por ordem cronológica</string>

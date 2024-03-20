@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources xmlns:tools="http://schemas.android.com/tools">
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:ns0="http://schemas.android.com/tools">
     <string name="app_name">UClass</string>
     <string name="app_name_2">Instituto do Povo para o Estudo Digital do Marxismo</string>
     <string name="version_update">Atualização de versão</string>
@@ -18,7 +18,6 @@
 
     
     
-    <!--    分组研讨-->
     <string name="nav_broad">Transmissão da tela</string>
     <string name="broading">transmitido</string>
     <string name="stop_broad">Parar transmissão</string>
@@ -60,13 +59,12 @@ conectando-se...</string>
 
     
     
-    <!--    ABC为占位字符，请放于合适的位置-->
     <string name="click_connect_again">Se a tela de grupo estiver off-line, peça aos aluno para abrir o UClass da tela de grupo.
 Se o UClass da tela de grupo estiver aberto, conecte ABC à tela de grupo.</string>
     <string name="ABC">Clique aqui para novamente</string>
 
     <string name="malaysia">Malásia</string>
-    <string name="float_msg">O UClass precisa da permissão de janela flutuante para garantir que ele possa ser executado em segundo plano durante a transmissão em várias telas. Clique em &quot;Confirmar&quot; e ative a permissão da janela flutuante na interface de configurações que aparece.</string>
+    <string name="float_msg">O UClass precisa da permissão de janela flutuante para garantir que ele possa ser executado em segundo plano durante a transmissão em várias telas. Clique em "Confirmar" e ative a permissão da janela flutuante na interface de configurações que aparece.</string>
     <string name="ip_msg">A funcionalidade de multitelas interativas requer um endereço de IP fixo. Evite alterar ou conectar simultaneamente a redes com e sem fio, como Wi-Fi.</string>
     <string name="current_ip">Endereço de IP atual:</string>
     <string name="register_ip">IP de LAN:</string>
@@ -77,11 +75,10 @@ Se o UClass da tela de grupo estiver aberto, conecte ABC à tela de grupo.</stri
     <string name="fault_detection">Detecção de falhas</string>
     <string name="group_num">Número do grupo</string>
     <string name="group_num_modify_msg">Observação: Para garantir aulas normais, não altere livremente o Número de Grupo. Após alterar o Número de Grupo, atualize a Página ou reinicie o aplicativo na Área do Professor.</string>
-    <string name="connect_interrupt_msg">A transmissão da tela do grupo falhou. Por favor, verifique se a tela do grupo está online e tente novamente. Clique em &quot;Detecção de falhas&quot; na interface do UClass da tela do grupo, veja o status da tela do grupo e siga as instruções da ajuda para operar.</string>
+    <string name="connect_interrupt_msg">A transmissão da tela do grupo falhou. Por favor, verifique se a tela do grupo está online e tente novamente. Clique em "Detecção de falhas" na interface do UClass da tela do grupo, veja o status da tela do grupo e siga as instruções da ajuda para operar.</string>
 
     
     
-    <!--    白板相关-->
     <string name="wb_tool_name_pen">Pincel</string>
     <string name="wb_tool_name_eraser">Borracha</string>
     <string name="wb_tool_name_select">selecionar</string>
@@ -167,7 +164,6 @@ Se o UClass da tela de grupo estiver aberto, conecte ABC à tela de grupo.</stri
     <string name="watch_tea_screen">Assistindo à tela do Professor</string>
     <string name="title_screen_1">Espelhamento de tela QR code</string>
     <string name="message_screen_1">Usuários de telefones Android, utilizem o QR code do ULearning APP</string>
-    <string name="language_ar">عربى</string>
     <string name="language_es">Espanhol</string>
     <string name="language_in">Indonésia</string>
     <string name="language_th">Tailandês</string>
@@ -177,7 +173,6 @@ Se o UClass da tela de grupo estiver aberto, conecte ABC à tela de grupo.</stri
 
 
     
-    <!--    20230410翻译新增-->
     <string name="app_name_3">Interação multitela da UClass</string>
     <string name="watch_stu_screen">Assistindo ao grupo</string>
     <string name="license_0">Ativado</string>
@@ -201,7 +196,7 @@ Se o UClass da tela de grupo estiver aberto, conecte ABC à tela de grupo.</stri
     <string name="check_ip_tea">Verifique se o endereço IP da tela do grupo e as informações da rede são consistentes. Caminho: Tela do grupo página inicial&gt; Configurações&gt; Configurações avançadas&gt; rede com fio. Se não for consistente, edite o IP da tela do grupo ou edite as informações da rede.</string>
     <string name="check_running_tea">Verifique se a Tela de grupo UClass está funcionando.</string>
     <string name="try_restart">Tente fechar e reabrir o software UClass na Tela do Professor e na Tela de Grupo.</string>
-    <string name="check_ip_stu">Na Tela do Professor UClass, clique em &quot;Detecção de falhas&quot; para ver as Informações da rede. Verifique se o Endereço IP da Tela de grupo e as Informações da rede são consistentes. Se não forem, edite o Endereço IP da Tela de grupo ou edite as Informações da rede.</string>
+    <string name="check_ip_stu">Na Tela do Professor UClass, clique em "Detecção de falhas" para ver as Informações da rede. Verifique se o Endereço IP da Tela de grupo e as Informações da rede são consistentes. Se não forem, edite o Endereço IP da Tela de grupo ou edite as Informações da rede.</string>
     <string name="modify_success_restart">Modificado com sucesso, por favor Feche e Reabra o UClass!</string>
     <string name="modify_fail_reinput">Formato incorreto, verifique os parâmetros</string>
     <string name="device_info">Informações do dispositivo atual</string>
@@ -221,18 +216,16 @@ Se o UClass da tela de grupo estiver aberto, conecte ABC à tela de grupo.</stri
     <string name="is_new_version">A Versão atual é a versão mais recente</string>
 
     
-    <!--    自动广播需求-->
     <string name="auto_broadcast_tea_screen">Transmissão automática da tela do professor</string>
     <string name="stu_screen_offline_reminder">Em caso de Tela de grupo desconectada, verificar se o Aplicativo UClass da Tela de grupo está aberto.</string>
     <string name="groups_checking">Carregando...</string>
     <string name="groups_off_line">desconectado</string>
     <string name="groups_on_line">online</string>
-    <string name="auto_staring" tools:ignore="TypographyEllipsis">inicializando</string>
+    <string name="auto_staring" ns0:ignore="TypographyEllipsis">inicializando</string>
     <string name="auto_start_success">Iniciado com sucesso! Transmitindo da Tela do Professor para a Tela do Grupo.</string>
-    <string name="auto_start_fail">A inicialização falhou! Clique no botão &quot;Transmissão da tela&quot; à direita para iniciar a transmissão manualmente.</string>
+    <string name="auto_start_fail">A inicialização falhou! Clique no botão "Transmissão da tela" à direita para iniciar a transmissão manualmente.</string>
 
     
-    <!--    投屏界面优化需求 -->
     <string name="classroom_lan">Rede local de sala de aula</string>
     <string name="yxy_app_name">ULearning</string>
     <string name="idea_share">espelhamento de tela</string>
@@ -247,7 +240,7 @@ Se o UClass da tela de grupo estiver aberto, conecte ABC à tela de grupo.</stri
     <string name="ideashare_remind2">Conectar o telefone celular ou o computador à Rede local de sala de aula</string>
     <string name="ideashare_remind3">Abra o IdeaShare, Digite o Código de espelhamento canto superior direito do terminal para espelhamento de tela</string>
     <string name="ideashare_remind4">Depois que o telefone celular se conectar à rede local da sala de aula, espelhar a tela</string>
-    <string name="ideashare_remind5">Abra o WeLink, clique em + no canto superior direito, selecione &quot;Projetar&quot; e digite o Código de espelhamento no canto superior direito do terminal para espelhar a tela</string>
+    <string name="ideashare_remind5">Abra o WeLink, clique em + no canto superior direito, selecione "Projetar" e digite o Código de espelhamento no canto superior direito do terminal para espelhar a tela</string>
     <string name="wifi">Wi-Fi:</string>
     <string name="wifi_password">Senha:</string>
     <string name="wifi_save">salvar</string>
@@ -259,13 +252,12 @@ Se o UClass da tela de grupo estiver aberto, conecte ABC à tela de grupo.</stri
 
 
     
-    <!--    20230816新增-->
     <string name="can_not_connection">Abra a página de espelhamento de tela e tente novamente</string>
     <string name="cannot_connect_in_broadcast">Não é possível se conectar a transmissão</string>
     <string name="screen_exceed_limit">O limite máximo de dispositivos com espelhamento de tela suportados pela tela grande foi atingido. Aguarde a conclusão do espelhamento de tela por outras pessoas e tente novamente.</string>
     <string name="screen_text_other">outras</string>
     <string name="msg_apple2">Abrir o AirPlay (Espelhamento de tela) para espelhar a tela</string>
-    <string name="msg_android3">Pesquise e instale o ULearning APP na loja de aplicativos, use o ULearning APP para espelhar a tela QR code.</string>
+    <string name="msg_android3">Pesquise e instale o aplicativo ULearning 2.0 na Loja de aplicativos, e use o aplicativo ULearning para espelhamento de tela QR code</string>
     <string name="msg_other">Pesquise e instale o IdeaShare na Loja de aplicativos ou no navegador da Web, abra o IdeaShare, digite o Código de espelhamento no canto superior direito da tela para espelhar</string>
     <string name="screen_text_wifi_info">Conecte-se ao Wi-Fi da sala de aula para espelhar a tela. Wi-Fi da sala de aula: %s     Senha: %s</string>
     <string name="screen_text_help">Ajuda</string>
@@ -274,12 +266,12 @@ Se o UClass da tela de grupo estiver aberto, conecte ABC à tela de grupo.</stri
     <string name="wb_tool_name_classroom_blackboard">Escrita no quadro</string>
     <string name="wb_tool_name_share_board">Partilhar Versão</string>
     <string name="wb_tool_name_save_local">Salvar localmente</string>
-    <string name="wb_tool_name_helptext">Como o painel grande é um dispositivo público, existe o risco do conteúdo do quadro branco salvo localmente. Sugerimos que você use o &quot;Compartilhar quadro branco&quot; para salvar o conteúdo do quadro em seu espaço de sala de aula localizado em sua conta pessoal. Depois de salvar, você poderá abrir o quadro branco novamente em outras salas de aula para continuar editando-o ou compartilhá-lo com os alunos da sala de aula atual no formato de imagem.</string>
+    <string name="wb_tool_name_helptext">Como o painel grande é um dispositivo público, existe o risco do conteúdo do quadro branco salvo localmente. Sugerimos que você use o "Compartilhar quadro branco" para salvar o conteúdo do quadro em seu espaço de sala de aula localizado em sua conta pessoal. Depois de salvar, você poderá abrir o quadro branco novamente em outras salas de aula para continuar editando-o ou compartilhá-lo com os alunos da sala de aula atual no formato de imagem.</string>
     <string name="wb_tool_name_filename">Nome</string>
     <string name="wb_tool_name_save_local_btn">Salvar localmente</string>
     <string name="wifi_title_text">Digite o Wi-Fi da sala de aula e a senha</string>
     <string name="wb_tool_name_not_file">Ficheiro do Quadro branco não salvo</string>
-    <string name="storage_permission_request_hint">O UClass precisa de permissão para armazenamento. Para localizar rapidamente problemas durante a execução do software, o UClass precisa registrar o Registro de execução do software e armazená-lo localmente. Clique em &quot;Confirmar&quot; e ative a permissão de armazenamento na interface de Configurações exibida.</string>
+    <string name="storage_permission_request_hint">O UClass precisa de permissão para armazenamento. Para localizar rapidamente problemas durante a execução do software, o UClass precisa registrar o Registro de execução do software e armazená-lo localmente. Clique em "Confirmar" e ative a permissão de armazenamento na interface de Configurações exibida.</string>
 
     <string name="record_occupation_hint">Outros aplicativos estão usando o recurso Gravação de Tela, então
 este aplicativo a gravação foi interrompida</string>
