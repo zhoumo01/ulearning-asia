@@ -1,0 +1,1565 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">Youxueyuan 2.0</string>
+    <string name="app_name_debug">ULearning 2.0</string>
+
+    <string name="chat_press_talk">Pressione para falar</string>
+    <string name="chat_release_send">Soltar para Concluir</string>
+    <string name="chat_image">imagem</string>
+    <string name="chat_file">Ficheiro</string>
+    <string name="chat_photo">tirar foto</string>
+    <string name="chat_video">Vídeo</string>
+
+    <string name="time_yesterday">ontem</string>
+    <string name="time_day">dia</string>
+    <string name="time_month">mês</string>
+    <string name="time_year">ano</string>
+
+    <string name="now_ready_data">Aguarde, estamos preparando os dados do material didático.</string>
+
+    <string name="server_error">O sistema está passando por manutenção, tente novamente posteriormente</string>
+
+    <string name="toast_other_lesson_progress" formatted="false">Fazendo cache de Material didático %s/%s</string>
+
+    <string name="toast_please_check_if_the_SD_card_is_inserted">Cheque se o cartão SD está inserido corretamente!</string>
+    
+    <string name="dialog_quit" formatted="false">Sair (%s)</string>
+    <string name="dialog_confirm">Confirmar</string>
+    <string name="dialog_cancel">Cancelar</string>
+    <string name="dialog_ask_logout">Deseja sair da sessão?</string>
+    <string name="normal_logout">Sair normalmente</string>
+
+    <string name="know">Entendi</string>
+    <string name="cancel">Cancelar</string>
+    <string name="ok">OK</string>
+    <string name="leave">Sair</string>
+    <string name="continue_to_create">Continuar Criar</string>
+    <string name="today">Hoje</string>
+    <string name="mult_select">Múltipla escolha</string>
+    <string name="operation_save">salvar</string>
+    <string name="operation_create">Criar</string>
+    <string name="operation_create_course">Criar Disciplina</string>
+    <string name="operation_create_course_next">Próximo</string>
+    <string name="operation_create_course_code">Ler código QR para participar da aula ao vivo</string>
+    <string name="scan_qrcode">Ler código QR</string>
+    <string name="operation_download">download</string>
+    <string name="operation_goon_study">Continuar! Tenho uma fortuna em prata</string>
+    <string name="operation_not_study">Cancelar</string>
+    <string name="operation_go_on_download">Continuar download</string>
+    <string name="operation_send">enviar</string>
+    <string name="operation_send_message">enviar Mensagem</string>
+    <string name="operation_archive">Arquivar</string>
+    <string name="operation_quit_account">Sair da sessão</string>
+    <string name="operation_quit_class">Sair da disciplina</string>
+    <string name="operation_delete_class">Excluir turma</string>
+    <string name="operation_student_list_sort_change">Alternar</string>
+    <string name="operation_go_on_study">Continuar a aprendizagem</string>
+    <string name="operation_course_download_clear_all">Limpar Todos</string>
+    <string name="operation_change_telphone">Alterar número de celular associado</string>
+    <string name="operation_relevance_telphone">Associar número de celular</string>
+    <string name="operation_get_verification_code">Receber o código de verificação</string>
+    <string name="operation_download_all">Baixar todos</string>
+    <string name="operation_reject_all">Rejeitar Todas</string>
+    <string name="operation_agree_all">Concordar com todos</string>
+    <string name="operation_reject">Recusar</string>
+    <string name="operation_agree">concordar</string>
+    <string name="operation_start_study">Iniciar aprendizagem</string>
+
+    <string name="operation_progress">Avaliação Progressiva</string>
+    <string name="operation_look_progress">Ver Avaliação Progressiva</string>
+    <string name="icourse_resource" translatable="false">Este material didático é fornecido pela AI Curso, por favor, veja as estatísticas do material didático no computador pessoal</string>
+    <string name="icourse_resource_student" translatable="false">Este recurso de Material Didático e os dados são todos fornecidos pela 【AI Curso】</string>
+    <string name="operation_go_study">Ai, volta a aprender</string>
+    <string name="operation_go_study_to_next_page">Entrar na Próxima Página</string>
+    <string name="operation_go_study_course">Acessar o curso</string>
+    <string name="operation_start_answer">Começar a responder às perguntas</string>
+    <string name="operation_refresh_page">atualizar</string>
+    <string name="operation_relogin">Entre novamente</string>
+    <string name="operation_check_grade">Visualizar Pontuação</string>
+    <string name="operation_check_all">Ver todos</string>
+    <string name="operation_check_all_close">Recolher</string>
+    <string name="operation_join_class">Fazer horas extras</string>
+    <string name="operation_join_class_course">Participar da Aula ao vivo</string>
+    <string name="operation_join">Participar</string>
+    <string name="operation_welcome">Bem-vindo</string>
+    <string name="operation_create_class">Crie uma turma</string>
+    <string name="operation_revocation_apply">Desfazer a solicitação</string>
+    <string name="operation_re_apply">Solicitar novamente</string>
+    <string name="operation_revocation">Desfazer</string>
+    <string name="please_permission">Permissão não Aberta</string>
+    <string name="operation_not_download">Não fazer o download ainda</string>
+    <string name="operation_cancel_download">Cancelar download</string>
+    <string name="operation_forward_download">ir para download</string>
+    <string name="operation_go_on">Continuar</string>
+    <string name="operation_redo">Refazer</string>
+    <string name="operation_cancel_collect">Cancelar favoritos</string>
+
+    <string name="operation_course_spoken_goon_study">Continuar aprendendo</string>
+    <string name="operation_course_spoken_leave_study">Sair desta página</string>
+    <string name="course_practice_remind_text_once">Esse teste só permite ser feito 1 vez</string>
+    <string name="course_practice_word_score">Nota</string>
+    <string name="please_set_the_recording_permission">Configure a permissão de Gravação!</string>
+    <string name="please_set_the_video_and_photo_permissions">Configure as permissões de gravação de aula e tirar uma foto!</string>
+    <string name="the_recording_failure">A gravação falhou</string>
+    <string name="loading_record_component">Carregando componente de gravação de áudio</string>
+    <string name="capture_light_dark">O ambiente está escuro demais, por favor Ative o Flash</string>
+    <string name="loading_record_component_fail">Falha ao carregar o componente de gravação</string>
+    <string name="microphone_permissions_are_not_allowed">A permissão do microfone não foi permitida</string>
+    <string name="cache_data_failed">Falha no cache de dados</string>
+    <string name="cache_data_null">Sem dados em cache</string>
+    <string name="request_failed">Falha na solicitação</string>
+    <string name="link_server_failed">Falha ao conectar ao Servidor. Tente novamente posteriormente</string>
+    <string name="page_not_found">Erro 404: página não encontrada</string>
+    
+	<string name="the_teacher_invited_you_to_join_the_class">O professor convida você a participar da turma</string>
+    <string name="back_umooc">Voltar para ULearning</string>
+    <string name="wait_complete">Será aprimorado posteriormente</string>
+    <string name="skip_setup">Saltar Configurações&gt;&gt;</string>
+    <string name="complete_your_course">Aprimore sua disciplina</string>
+    <string name="change_your_course">Editar Informações da Disciplina</string>
+    <string name="select_your_school">Selecionar Faculdade</string>
+    <string name="team_teaching">Ensino em equipe</string>
+    <string name="personal_teaching">Ensino pessoal</string>
+    <string name="net_is_broken">Sem conexão</string>
+    <string name="login_style">Outras formas de login</string>
+
+    <string name="close">Fechar</string>
+    <string name="play">Reproduzir</string>
+    <string name="change">Substituir</string>
+    <string name="classs">Turma</string>
+    <string name="type">tipo</string>
+    <string name="more">Mais</string>
+    <string name="move">Mover</string>
+    <string name="rename">renomear</string>
+    <string name="access_right">Permissão de acesso</string>
+    <string name="modify_resource">Modificar recurso</string>
+    <string name="immediate_experience">Experimente agora</string>
+    <string name="jump">Pular</string>
+    <string name="click_to_skip">Clique para ignorar</string>
+    <string name="change_textbook">Substituir</string>
+    <string name="setting">Configurações</string>
+    <string name="copy">Copiar</string>
+    <string name="delete">Excluir</string>
+    <string name="delete_ing">Excluindo</string>
+    <string name="move_ing">Mover</string>
+    <string name="delete_fail">Falha ao Excluir</string>
+    <string name="delete_success">Excluído com sucesso</string>
+    <string name="move_success">Movido com sucesso</string>
+    <string name="forward">Encaminhar</string>
+    <string name="select_contact">Selecione um contacto</string>
+    <string name="chat">Bate-papo</string>
+    <string name="contact">Contacto</string>
+    <string name="avatar">Foto de perfil</string>
+    <string name="username">Nome de usuário</string>
+    <string name="name">Nome</string>
+    <string name="gender">Gênero</string>
+    <string name="student_number">Número do aluno</string>
+    <string name="telphone">Telefone celular</string>
+    <string name="email">Endereço de e-mail</string>
+    <string name="activate">ativar</string>
+    <string name="go_activate">Desativar</string>
+    <string name="activate_code_wrong">Digite o código de ativação completo</string>
+    <string name="search">consultar</string>
+    <string name="activate_course">Ativar curso</string>
+    <string name="activate_textbook">Ativar o material didático</string>
+
+    <string name="input_active_code">——ou digite o código de ativação——</string>
+
+    <string name="recording">Em gravação</string>
+    <string name="playback">Em reprodução de gravações</string>
+    <string name="play_record">Reproduzir Gravação</string>
+    <string name="relect_role">Re-selecionar Função</string>
+    <string name="take_pic">tirar uma foto</string>
+    <string name="bulletin">Criar Anúncio</string>
+    <string name="announcement">Anúncio</string>
+    <string name="announcement_empty">Ainda não há anúncios</string>
+    <string name="quite">Tudo tranquilo~</string>
+    <string name="class_group">Grupos de Turma</string>
+    <string name="start">começar</string>
+    <string name="finish">Concluir</string>
+    <string name="published">Publicado</string>
+    <string name="draft">rascunho</string>
+    <string name="response">Avaliação entre pares</string>
+    <string name="need_rewrite">Necessita reescrita</string>
+    <string name="application">aplicativo</string>
+    <string name="video_type">Vídeo (MP4/AVI/MOV/FLV/RMVB/MPG)</string>
+    <string name="class_detail">Informação da turma</string>
+    <string name="class_info">Detalhes da turma</string>
+    <string name="personal_info">Perfil</string>
+    <string name="telphone_number">número de celular</string>
+    <string name="success">Sucesso</string>
+    <string name="fail">Falha</string>
+    <string name="system_informs">Notificações do Sistema</string>
+    <string name="yxy_teacher">professor</string>
+    <string name="assistant">Auxiliar de Ensino</string>
+    <string name="student">Aluno</string>
+    <string name="manager">Administrador</string>
+    <string name="course_manager">Responsável pelo Curso</string>
+    <string name="start_speak">comece a ler</string>
+    <string name="correct">correto</string>
+    <string name="wrong">Incorreto</string>
+    <string name="apply">Solicitação</string>
+
+
+    <string name="unstart">não iniciado</string>
+    <string name="goon">em andamento</string>
+    <string name="end">Concluir</string>
+    <string name="ended">Concluído</string>
+    <string name="deleted">Excluído</string>
+    <string name="course_end">Concluído</string>
+    <string name="wait_for_approval">Em revisão</string>
+
+    <string name="rewatch">Reprovável</string>
+    <string name="campus_list">Escola Atual</string>
+    <string name="outside_list">de outras universidades</string>
+    <string name="icourse_list" translatable="false">AI Curso</string>
+    <string name="wechat">WeChat</string>
+    <string name="chose_all">Selecionar todos</string>
+    <string name="cancel_chose_all">Cancelar Selecionar todos</string>
+    <string name="resource_folder">Pasta</string>
+    <string name="resource">recurso</string>
+    <string name="resource_select">Selecionado %d ficheiros</string>
+    <string name="resource_set_permit">Configurações de Permissão de acesso</string>
+    <string name="check_the_details">Ver Mais</string>
+    <string name="i_have_read">Visto</string>
+
+    <string name="download_recourse_type_video">Vídeo</string>
+    <string name="download_recourse_type_audio">Áudio</string>
+    <string name="download_recourse_type_word">documento</string>
+    <string name="download_recourse_type_image">imagem</string>
+    <string name="download_recourse_type_other">outros</string>
+
+
+    <string name="clear_cache">Limpar cache</string>
+
+    <string name="my_class">Minha turma</string>
+    <string name="look_my_class">Ver minha turma</string>
+    <string name="my_text_book">Meu material didático</string>
+    <string name="my_score">Meus Pontos</string>
+    <string name="class_status_apply">Solicitação de turma</string>
+    <string name="class_status_agreed">Já concorda</string>
+    <string name="class_status_rejected">Rejeitado</string>
+    <string name="class_status_apply_quiting">Solicitação de Saída em Andamento</string>
+    <string name="class_status_apply_joining">Solicitação de participação em andamento</string>
+
+    <string name="course_learn_status_finished">finalizado</string>
+    <string name="course_learn_status_unfinished">pendente</string>
+    <string name="course_learn_status_unstart">Não iniciado</string>
+    <string name="course_learn_status_ongoing">em andamento</string>
+    <string name="course_learn_status_expired">Vencido</string>
+
+    <string name="activity_status_need_rewrite">Necessário Reescrever</string>
+
+    <string name="sex_male">Masculino</string>
+    <string name="sex_madam">Mulher</string>
+
+    <string name="growth_student_level_default">Iniciante</string>
+    <string name="growth_teacher_level_default">Espadachim errante</string>
+
+    <string name="page_title_modify_pwd">Alterar senha</string>
+
+    <string name="modify_success">Modificado com sucesso</string>
+    <string name="modify_fail">Falha ao editar</string>
+
+    <string name="modify">editar</string>
+    <string name="logout_message">Após cancelar a conta, não conseguirá mais utilizar essa conta para entrar no ULearning e também não conseguirá se cadastrar com o mesmo número de celular ou endereço de e-mail. O sistema limpará as informações pessoais e o histórico de dados dentro de um período de tempo. 
+Atenção, o cancelamento de conta é uma operação irreversível, por isso faça isso com cautela! Confirmar cancelamento da conta?</string>
+    <string name="confirm_logout">Confirmar continuar com a desativação?</string>
+    <string name="cancel_logout">Não cancelar</string>
+
+    <string name="hint">dica</string>
+    <string name="hint_friendship">Lembrete amigável</string>
+    <string name="hint_tips">Dicas de lembrete</string>
+    <string name="hint_input_content_limit_500_word">Digite o conteúdo aqui (máximo de 500 letras)</string>
+    <string name="hint_input_answer">Digite a resposta aqui</string>
+    <string name="hint_input_new_telphone">Digite seu novo número de celular</string>
+    <string name="hint_input_right_code">Digite o código de convite da turma correto.</string>
+    <string name="hint_input_telphone">Digite o número de celular</string>
+    <string name="hint_input_username_pwd">Digite seu nome de usuário e senha</string>
+    <string name="hint_input_username">Digite o nome de usuário</string>
+    <string name="login_check_privacy_policy">Marque a caixa primeiro e depois faça o login</string>
+    <string name="hint_input_pwd_please">Digite sua senha</string>
+    <string name="hint_input_pwd">Digite a senha antiga</string>
+    <string name="hint_input_new_pwd">Digite uma nova senha</string>
+    <string name="hint_input_new_pwd_again">Por favor Digite novamente a nova senha</string>
+    <string name="hint_input_class_name">Digite o nome da turma</string>
+    <string name="hint_input_course_name">Digite o nome do curso</string>
+    <string name="hint_input_edit_class_name">Digite o nome da turma, separe várias turmas com ';'</string>
+    <string name="hint_search_contact">Pesquisar contactos</string>
+    <string name="hint_search_course">pesquisar disciplina</string>
+    <string name="hint_search">pesquisar</string>
+    <string name="hint_now_relevance_telphone">Atualmente está associado com o número de celular atual:</string>
+    <string name="hint_input_verification_code">Digite o Código de Verificação</string>
+    <string name="hint_face_recognition">Frente à câmera, certifique-se de que a iluminação seja boa -</string>
+    <string name="hint_qr_code">Basta colocar o código QR / Código de barras no local do visor para escanear automaticamente</string>
+    <string name="hint_qr_code_error">Não reconheceu o Código QR</string>
+    <string name="hint_qr_code_touch">Toque para continuar a digitalização</string>
+    <string name="hint_open_light">Abrir iluminação</string>
+
+    <string name="hint_telphone_unwrite">Não preenchido</string>
+    <string name="hint_email_unwrite">Esse sujeito é preguiçoso, nem deixou o endereço dele de e-mail~</string>
+    <string name="hint_feature_online_follow_up">Esta funcionalidade será lançada em breve.-.-</string>
+    <string name="hint_course_page_not_study_finished">Esta página ainda não foi concluída-</string>
+    <string name="hint_course_important">Dica importante</string>
+    <string name="hint_classname_input_require">2 a 30 caracteres, não são permitidos caracteres especiais (exceto sublinhado _, hífen -)!</string>
+    <string name="hint_classcode_input_require">6 a 20 letras and números e sublinhado_, hifen -!</string>
+    <string name="hint_classyear_input_require">Digite no formato correto do ano, como: 2015</string>
+    <string name="hint_chat_message_copy_success">Copiado com sucesso</string>
+    <string name="hint_copy_to_clipboard">Copiado com sucesso</string>
+    <string name="hint_class_member_empty">Não há alunos na turma. Peça aos alunos para pesquisar a turma usando o código da turma ou o nome do professor para entrarem.</string>
+    <string name="hint_first_page">Esta é a primeira página</string>
+    <string name="hint_time_out">Duração concluída</string>
+    <string name="hint_download_three_count">Máximo de três downloads simultâneos são permitidos</string>
+    <string name="hint_download_three_count_support">Máximo de três recursos para download simultâneo!</string>
+    <string name="hint_next_section_empty">Próxima Sessão sem conteúdo</string>
+    <string name="hint_section_no_grade">Esta sessão está Pendente. Você receberá Nota após a conclusão</string>
+    <string name="hint_no_sd_card">Nenhum Cartão SD</string>
+    <string name="hint_clear_course">Limpar esta disciplina?</string>
+    <string name="hint_confirm_delete_all_course">Confirmar limpar os recursos desta Sessão?</string>
+    <string name="hint_confirm_delete_offline_course">Confirmar a limpeza deste recurso?</string>
+    <string name="hint_audio_file_empty">Ainda não há ficheiros de áudio</string>
+    <string name="hint_glosarry_empty">A disciplina atual não tem um glossário</string>
+    <string name="hint_section_study_close">O professor fechou o conteúdo desta Sessão e Temporariamente está incapaz de aprendizagem</string>
+    <string name="hint_video_undownload_flow_play">O vídeo não foi baixado. Você está em um ambiente sem Wi-Fi e reproduzir o vídeo consumirá dados. Deseja reproduzir?</string>
+    <string name="hint_no_connect_wifi_ask_download">Não está conectado ao Wi-Fi, o download irá gerar tráfego de dados. Confirmar download?</string>
+    <string name="hint_no_connect_wifi_ask_play_video">Sem conexão ao Wi-Fi, a reprodução consumirá sua franquia de dados. Deseja continuar assistindo?</string>
+    <string name="hint_apply_join_class_wait_teacher_approval">Solicitação de participação na turma, aguarde a revisão do Professor.</string>
+    <string name="hint_join_class_need_approval">A participação do aluno na turma requer revisão</string>
+    <string name="hint_confirm_revocation_join_class_apply">Deseja desfazer a solicitação de hora extra?</string>
+    <string name="hint_revocation_success">Desfazer com sucesso</string>
+    <string name="hint_revocation_fail">Falha ao desfazer</string>
+    <string name="hint_not_download_course">Você não fez o download do material didático desta disciplina</string>
+    <string name="hint_keep_least_one_course">Por favor, mantenha pelo menos uma disciplina</string>
+    <string name="hint_keep_least_one_class">Selecione pelo menos uma turma</string>
+    <string name="hint_course_empty">Temporariamente não há disciplinas</string>
+    <string name="hint_choose_teach_course">Selecionar Material Didático</string>
+    <string name="hint_choose_course_cover">selecione uma Capa do curso</string>
+    <string name="hint_quit_class_info">Após sair da disciplina, você não poderá mais visualizar as atividades relacionadas a esta turma, como tarefas, avaliações, etc. Confirmar saída?</string>
+    <string name="hint_quit_class_success">Saída da turma realizada com sucesso!</string>
+    <string name="hint_quit_class_fail">Falha na saída da turma!</string>
+    <string name="hint_capture_join_class_fail">O Código QR está caduco, por favor, contacte o Professor da Turma</string>
+    <string name="hint_save_success">Salvo com sucesso</string>
+    <string name="hint_save_fail">Falha ao salvar</string>
+    <string name="hint_change_success">Alterado com sucesso</string>
+    <string name="hint_speech_grade">O professor determina que cada frase/palavra atinja uma nota de %d para conclusão do aprendizado. Vá em frente, jovem!</string>
+    <string name="hint_speech_must_on_network">A funcionalidade de avaliação automática de gravação só pode ser usada com conexão de rede. Abra a conexão de rede.</string>
+    <string name="hint_collect_success">Sucesso</string>
+    <string name="hint_class_create_success_tell_class_code_to_student" formatted="false">Turma criada com sucesso.
+Informe o código da turma para os alunos:
+%s</string>
+    <string name="hint_delete_class">Excluir turma?</string>
+
+    <string name="warning_input_text_too_long">O conteúdo digitado não pode exceder %d; caso contrário, partes do conteúdo não serão enviadas!</string>
+    <string name="warning_pwd_length_out_16">A nova senha não pode exceder 16 caracteres</string>
+    <string name="warning_pwd_length_less_8">A nova senha deve ter no mínimo 8 caracteres</string>
+    <string name="warning_old_pwd_null">Digite sua senha antiga</string>
+    <string name="warning_old_pwd_input_error">A senha antiga está incorreta.</string>
+    <string name="warning_pwd_disagree">As duas novas senhas não correspondem</string>
+    <string name="warning_course_no_desc">Ainda não há informações introdutórias sobre a disciplina</string>
+    <string name="warning_not_preview_file">Não suporta pré-visualizar este Ficheiro
+Você pode usar outros aplicativos para abrir</string>
+    <string name="warning_course_resource_download_studyrecord">Após armazenar o material didático em cache, os recursos de mídia não consomem mais tráfego durante a reprodução! Limpar os recursos do capítulo concluído não afetará o desempenho de aprendizagem.</string>
+    <string name="warning_course_resource_download_size">recurso em cache</string>
+    <string name="warning_course_resource_download_space">espaço ocupado</string>
+
+    <string name="warning_course_resource_phone_space">espaço livre</string>
+    <string name="warning_course_expire">Disciplina Expirada</string>
+    <string name="warning_course_buy_go_on_study">Se você quer continuar aprendendo, por favor, compre esta disciplina novamente.</string>
+    <string name="warning_textbook_out_of_date">Material didático vencido! Para continuar aprendendo, compre novamente&gt;&gt;</string>
+    <string name="warning_textbook_get_data">O conteúdo do Material didático tem uma atualização, por favor desça para atualizar e obter novamente o Material didático.</string>
+    <string name="warning_chat_empty_message">O registro de mensagens está vazio, vá falar com alguém ^. ^</string>
+    <string name="warning_contact_empty">Nenhuma pessoa de contacto correspondente</string>
+    <string name="warning_input_realinfo">Digite informações verdadeiras, caso contrário, isso afetará seu desempenho de aprendizagem</string>
+    <string name="warning_sys_notify_empty">As notificações do Sistema são vazias^.^</string>
+    <string name="warning_practice_finish_limittime">Conclua o exercício dentro do tempo especificado. O envio será realizado automaticamente quando o tempo terminar.</string>
+    <string name="warning_network_break">A rede atual está indisponível, verifique a conexão de rede.</string>
+    <string name="warning_web_break">ocorreu um erro. Estamos trabalhando para resolvê-lo. Tente novamente posteriormente</string>
+    <string name="warning_qr_fail">Falha ao ler código QR!</string>
+    <string name="warning_qr_unsupport">Irreconhecível, por favor escaneie o Código QR correto</string>
+    <string name="warning_qr_textbook_not_active">Você ainda não ativou o material didático, ative-o primeiro e depois escaneie o código QR para aprender. [Desativar]</string>
+    <string name="warning_qr_textbook_not_stu">Faça login com a conta do aluno e depois leia o código QR</string>
+    <string name="warning_qr_textbook_out_of_date">O Material Didático expirou, para continuar a aprendizagem, Reative-o novamente. 【Desativar】</string>
+    <string name="warning_qr_textbook_out_of_plan">Conforme o Plano de estudos configurado para a disciplina 《%s》, o capítulo atual do material didático não está disponível para aprendizagem. Você pode visitar a disciplina e acessar outros conteúdos 【Acessar o curso】</string>
+    <string name="warning_input_content">Digite o conteúdo!</string>
+    <string name="warning_classname_format_error">Nome da turma incorreto!</string>
+    <string name="warning_classcode_format_error">O código da turma está em formato incorreto!</string>
+    <string name="warning_token_and_password_change">A senha foi editada, entre novamente com a nova senha.</string>
+    <string name="warning_year_format_error">Formato de ano incorreto!</string>
+
+    <string name="warning_speech_no_speak">Você ainda não falou</string>
+    <string name="warning_speech_network_visit_error">Incapaz de avaliar automaticamente, por favor checar a conexão de rede</string>
+    <string name="warning_speech_no_network">Não é possível Avaliar Automaticamente, Checar Conexão de rede</string>
+
+    <string name="warning_chat_no_login">Não foi possível entrar no sistema de mensagens, tente novamente posteriormente!</string>
+    <string name="warning_chat_conversation_create_fail">Falha ao criar conversa</string>
+    <string name="warning_chat_conversation_unsupport_type">Não suporta tipos</string>
+    <string name="warning_chat_message_forward_fail">Falha ao encaminhar</string>
+    <string name="warning_chat_message_forward_success">Encaminhamento bem-sucedido</string>
+
+    <string name="warning_location_fail">Falha ao localizar a rede do servidor. Tente novamente.</string>
+    <string name="warning_location_permission_fail">Ative os serviços de localização nas configurações do sistema do telefone celular e permita que o ULearning use os serviços de localização</string>
+
+    <string name="warning_notify_permission_fail">Abra as permissões de notificação nas configurações do sistema do seu telefone celular e permita que o ULearning use a permissão de notificação</string>
+
+    <string name="warning_audio_file_not_found">Ficheiro de áudio não encontrado.</string>
+    <string name="warning_record_time_short">Gravação muito curta, interrompa posteriormente</string>
+    <string name="warning_audio_file_is_not_valid">Este não é um ficheiro de áudio válido!</string>
+    <string name="warning_speech_rejected">Você leu errado, desta vez não será avaliado, será mantida a sua última nota!</string>
+    <string name="warning_speech_start_fail">Falha na habilitação da avaliação, esta gravação não será avaliada, mas seu número será registrado.</string>
+    <string name="warning_record_permission_close">Permissão de gravação ainda não ativada</string>
+    <string name="warning_carema_permission_close">A permissão para tirar fotos ainda não foi ativada</string>
+    <string name="warning_file_not_select">Ficheiro não selecionado</string>
+    <string name="warning_file_could_not_open">Não há nenhum aplicativo instalado em seu telefone celular que possa abrir esse arquivo</string>
+    <string name="warning_resource_not_download">O recurso não foi baixado</string>
+    <string name="warning_file_size_limit">O ficheiro excede 200 M, por favor, carregue-o a partir do seu computador pessoal!</string>
+    <string name="warning_file_not_found">Não foi encontrado nenhum ficheiro!</string>
+    <string name="warning_file_download_fail">Falha no download</string>
+    <string name="warning_file_download_course_fail">Falha ao obter a disciplina. Puxe para baixo para capturar novamente.</string>
+
+    <string name="warning_download_fail">Falha no download</string>
+    <string name="warning_file_upload_fail">Falha ao carregar</string>
+    <string name="warning_update_fail">Falha na atualização</string>
+    <string name="warning_version_is_new">Atualmente é a versão mais recente</string>
+    <string name="warning_delete_bookmark_fail">Falha ao excluir marcador</string>
+    <string name="warning_delete_note_fail">Falha ao excluir nota!</string>
+    <string name="warning_practicing">O exercício está em andamento. Por favor, envie primeiro.</string>
+    <string name="warning_course_fail">Se o material didático apresentar algum problema, entre em contacto conosco!</string>
+    <string name="warning_storage_short">Memória do telefone celular insuficiente</string>
+    <string name="warning_storage_short_and_release_redownload">Não há memória suficiente no seu telefone celular. Libere parte do espaço e tente novamente.</string>
+
+    <string name="warning_share_qq_success">Compartilhar o QQ com sucesso</string>
+    <string name="warning_share_qq_fail">Falha ao partilhar QQ</string>
+    <string name="warning_share_qq_cancel">Cancelar partilha QQ</string>
+    <string name="warning_share_qqzone_success">Compartilhar no QQ space com sucesso</string>
+    <string name="warning_share_qqzone_fail">Falha ao partilhar no QQ</string>
+    <string name="warning_share_qqzone_cancel">Cancelar partilha QQ Espaço</string>
+    <string name="warning_share_wx_success">partilha com o WeChat bem-sucedida</string>
+    <string name="warning_share_wx_fail">Falha ao partilhar para o WeChat</string>
+    <string name="warning_share_wx_cancel">Cancelar partilha com amigos no WeChat</string>
+    <string name="warning_share_wxq_success">Compartilhado com sucesso no Círculo de amigos</string>
+    <string name="warning_share_wxq_fail">Falha ao partilhar no momento</string>
+    <string name="warning_share_wxq_cancel">Cancelar partilha de notas</string>
+
+
+    <string name="num">un</string>
+    <string name="size_m">M</string>
+    <string name="size_g">G</string>
+    <string name="loading">Carregando...</string>
+    <string name="activing">ativando</string>
+    <string name="updating">Atualizando</string>
+    <string name="creating_chat">Criar chat ao vivo</string>
+    <string name="loading_course">Carregando a Disciplina</string>
+    <string name="recording1">Gravando</string>
+    <string name="checking">Em deteção</string>
+    <string name="logining">Fazendo login</string>
+    <string name="saving">Salvando...</string>
+    <string name="scoring">Avaliação em andamento</string>
+    <string name="watching">assistindo</string>
+    <string name="unwatch">Não assistido</string>
+    <string name="class_creating">Criando</string>
+
+    <string name="pop_course_menu_detail">Detalhes do Curso</string>
+    <string name="pop_course_menu_score">Método de cálculo de Notas</string>
+    <string name="pop_course_menu_glosarry">Glossário de Terminologia</string>
+    <string name="pop_course_menu_mark">Lista de Favoritos</string>
+    <string name="pop_course_menu_recourse">Material didático em cache</string>
+
+    <string name="pop_course_menu_note">Lista de anotações</string>
+
+    <string name="pop_course_menu_class_member">Membros da turma</string>
+    <string name="pop_course_menu_exit_class">Sair da disciplina</string>
+
+    <string name="pop_course_menu_modify_course">Editar disciplina</string>
+    <string name="pop_course_menu_end_course">Concluir o curso</string>
+    <string name="pop_course_new_announcement">Últimos anúncios</string>
+    <string name="pop_course_menu_delete_course">Excluir disciplina</string>
+
+    <string name="setup_menu_only_wifi_download">Download/Carregar apenas pela Wi-Fi</string>
+    <string name="setup_menu_check_version">Detecção de nova versão</string>
+
+    <string name="text_course_score1">Nota média da disciplina:</string>
+    <string name="text_course_score2">Soma das notas de todos os capítulos desta disciplina / Total de capítulos</string>
+    <string name="text_course_score3">Pontuação do capítulo:</string>
+    <string name="text_course_score4">Soma total das Notas das Sessões concluídas neste Capítulo/Total de Sessões</string>
+    <string name="text_course_score5">Nota da Sessão:</string>
+    <string name="text_course_score6">Soma das Notas de todas as Páginas da Sessão/Total de Páginas</string>
+    <string name="text_course_score7">※Sessões pendentes não contam para a Nota</string>
+    <string name="text_course_score8">Nota da página:</string>
+    <string name="text_course_score9">Página de exercício: obter pontuação do exercício (a pontuação da última prática é obtida em práticas repetidas)</string>
+    <string name="text_course_score10">Página sem Exercícios: Registra apenas o Estado de Conclusão</string>
+    <string name="text_course_study_page_not_finished">Esta página ainda não foi concluída</string>
+    <string name="text_course_complete_status" formatted="false">Página: %d/%d</string>
+    <string name="text_course_download_stauts" formatted="false">%d total, baixado %d (%s)</string>
+    <string name="text_file_downloaded_local_path" formatted="false">Baixado: %s</string>
+    <string name="text_downloading_format" formatted="false">Baixando %s/%s</string>
+    <string name="text_downloading_fail_format" formatted="false">Falha no download %s/%s</string>
+    <string name="text_downloading_recourse_format" formatted="false">%s recursos</string>
+    <string name="text_downloading_recourse_finish_format" formatted="false">Baixado %s recursos</string>
+    <string name="text_downloading_recourse_about_format" formatted="false">aproximadamente %s</string>
+    <string name="text_downloading_recourse_progress" formatted="false">(%s %s)</string>
+
+    <string name="text_get_course">Obtendo disciplina</string>
+    <string name="text_pull_up_load_more">Carregar Mais</string>
+    <string name="text_disentangle_load_more">Solte para carregar mais</string>
+    <string name="text_loading">O Youyou está tentando Carregar</string>
+    <string name="text_timelimit_practice">Exercício com tempo limite</string>
+    <string name="text_teacher_close_study">Professor fechou a aprendizagem</string>
+    <string name="text_cancel_send_finger_upglide">Deslize o dedo para cima para Cancelar</string>
+    <string name="text_alum_select">Selecione no dispositivo</string>
+    <string name="text_course_expire_date" formatted="false">Data de vencimento da disciplina: %s</string>
+    <string name="text_course_class_count" formatted="false">Turma: %s</string>
+    <string name="text_course_class_count_more" formatted="false">Aguarde %d turmas</string>
+    <string name="text_course_start_date" formatted="false">%scomeçar</string>
+    <string name="text_course_end_date" formatted="false">Encerramento em %s</string>
+    <string name="submit_end_date" formatted="false">Prazo de entrega</string>
+    <string name="peer_response_end_date" formatted="false">Prazo para avaliação entre pares</string>
+    <string name="text_course_submit_end_date" formatted="false">%s Prazo de entrega</string>
+    <string name="text_course_peer_response_end_date" formatted="false">Prazo para avaliação entre pares de %s</string>
+    <string name="text_course_student_count" formatted="false">Aluno: %s</string>
+    <string name="text_course_expired_date" formatted="false">Disciplina expirada em %s</string>
+    <string name="text_course_study_record_empty">Sem registro de aprendizagem</string>
+    <string name="text_course_study_record_not_latest">Obtendo o registro de aprendizagem mais recente</string>
+    <string name="text_you_have_some_course_format" formatted="false">Você possui %d disciplinas</string>
+    <string name="text_choose_file_upload">Selecionar Ficheiro para Carregar</string>
+    <string name="text_teacher_size_format" formatted="false">professor (%d)</string>
+    <string name="text_student_size_format" formatted="false">Alunos (%d)</string>
+    <string name="text_practice_correct_count_good" formatted="false">Correto %d questões, muito bem!</string>
+    <string name="text_practice_correct_count" formatted="false">Corrigido %d caminho</string>
+    <string name="text_practice_wrong_count_good" formatted="false">Incorreto %d, continue se esforçando!</string>
+    <string name="text_practice_wrong_count" formatted="false">Incorreto em %d questões</string>
+    <string name="text_watched_format" formatted="false">Visualizado %d%%</string>
+    <string name="text_goto_look">Ver</string>
+
+    <string name="text_goto_study">Ir para aprendizagem</string>
+
+    <string name="growth_format" formatted="false">%d Crescimento</string>
+
+    <string name="confirm_course_spoken_leave">Esta página ainda possui palavras/frases/parágrafos pendentes. Confirmar para sair?</string>
+
+    <string name="text_chat_conversation_draft">rascunho</string>
+    <string name="text_chat_message_custom">[Mensagem Personalizada]</string>
+    <string name="text_chat_message_file">Ficheiro</string>
+    <string name="text_chat_message_image">imagem</string>
+    <string name="text_chat_message_video">Vídeo</string>
+
+    <string name="text_chat_send_to" formatted="false">enviar para %s</string>
+
+    <string name="text_practice_limit_time_use_time" formatted="false">Tempo: %s (tempo limite: %s)</string>
+    <string name="text_practice_limit_time">Limite de tempo %s</string>
+    <string name="text_practice_count_question">%d exercícios de fixação</string>
+    <string name="text_video_page_finish_condition"> (Duração de visualização do vídeo ≥ Duração do vídeo para ser concluído)</string>
+
+    <string name="text_change_related_cell_phone">Alterar Telefone Celular Associado</string>
+    <string name="text_related_cell_phone">associar telefone celular</string>
+    <string name="text_back_umooc">Voltar para o ULearning</string>
+    <string name="text_class_member">Membros da turma</string>
+    <string name="text_class_member_remove">Remover da turma</string>
+    <string name="text_course_remove">Remover do curso</string>
+    <string name="text_class_member_remove_fail">Falha ao remover</string>
+    <string name="text_class_member_remove_remind">Remover o aluno da turma removerá de forma sincronizada os registros de atividades como tarefas e avaliações do aluno na turma. Por favor, tenha cuidado com esta operação. Confirmar a remoção?</string>
+
+    <string name="text_detail">Detalhes</string>
+    <string name="text_me">Eu</string>
+    <string name="text_open_with_other_app">Abrir com outros aplicativos</string>
+    <string name="text_preview">Pré-visualizar</string>
+
+    <string name="text_book_preview">Pré-visualizar material didático</string>
+    <string name="text_book_relevance_course">Material didático associado a disciplina:</string>
+    <string name="text_book_relevance_course_study">Entrar na disciplina permite acessar o conteúdo do material didático</string>
+    <string name="text_book_un_activated">Não ativado</string>
+    <string name="text_book_my_empty">Você ainda não ativou o Material didático</string>
+    <string name="text_book_cached_empty">Não há materiais didáticos em cache no momento.</string>
+    <string name="out_of_date">Vencido</string>
+    <string name="text_next_section_title_format" formatted="false">Próxima sessão:%s</string>
+    <string name="text_chapter_finish">Concluído</string>
+    <string name="text_select_spoken_audio_file">Selecionar Ficheiro de Áudio da Narração</string>
+    <string name="text_pull_down_update_course">Arraste para atualizar a estrutura disciplinar</string>
+    <string name="text_put_down_update_course">Liberar atualização estrutura das disciplinas</string>
+    <string name="text_answer_detail">Detalhes da Resposta:</string>
+    <string name="text_refer_to_the_answer">Gabarito:</string>
+    <string name="text_answer_analysis">Análise de resposta:</string>
+    <string name="text_unanswer">Não respondido</string>
+    <string name="text_click_choose_answer">Clique para selecionar a Resposta</string>
+    <string name="text_org_course_empty">Não há disciplinas em sua instituição</string>
+    <string name="text_join_quit_class_apply">Solicitação de entrada ou saída da turma</string>
+    <string name="text_join_quit_class_apply_empty">Não há solicitações de entrada ou saída da turma</string>
+    <string name="text_join_class_apply_empty">Sem Solicitação de hora extra temporariamente</string>
+    <string name="text_quit_class_apply_empty">Não há solicitação de saída de turma no momento</string>
+    <string name="text_apply_count_format" formatted="false">%d Novas Solicitações</string>
+    <string name="text_apply_join_class_format" formatted="false">Solicitação para participar de "%s"</string>
+    <string name="text_apply_quit_class_format" formatted="false">Solicitação de saída de "%s"</string>
+
+    <string name="toast_other_lesson_downloading">Outros capítulos baixando</string>
+    <string name="toast_course_expire">Disciplina expirada</string>
+    <string name="toast_course_no_content">Disciplina sem conteúdo</string>
+    <string name="toast_no_more_activities">Não há mais atividades</string>
+    <string name="toast_file_download_fail_format" formatted="false">%s download falhou</string>
+    <string name="toast_apply_submited_wait_approve">Solicitação submetida. Aguarde a aprovação do Professor.</string>
+    <string name="toast_not_get_user_info">Não foi possível obter informações do usuário</string>
+    <string name="toast_name_empty">Nome vazio ou contém espaços!</string>
+    <string name="toast_course_name_empty">O nome do curso está vazio!</string>
+    <string name="toast_course_cover_empty">Selecione a capa do curso!</string>
+    <string name="toast_student_number_empty">O número do aluno está vazio ou contém espaços!</string>
+    <string name="toast_email_empty">Endereço de e-mail vazio ou contém espaços em branco!</string>
+    <string name="toast_email_format_error">O formato do endereço de e-mail está incorreto! Por favor digite novamente!</string>
+    <string name="toast_telphone_format_error">O formato do número de telefone está incorreto! Digite novamente!</string>
+    <string name="toast_telhpone_empty">Número de Celular ou Código de Verificação vazio!</string>
+    <string name="toast_telhpone_empty1">O número de celular está vazio!</string>
+    <string name="toast_same_telphone">Mantenha o mesmo número de celular atual!</string>
+    <string name="toast_send_fail">Falha ao enviar, tente novamente!</string>
+    <string name="toast_phone_number_has_been_occupied">O número de celular está ocupado, entre em contacto conosco pelo telefone de Atendimento ao Cliente 400 610 7808</string>
+    <string name="toast_has_no_more">Não há Mais</string>
+    <string name="toast_unable_to_locate_the_course_page">Incapaz de localizar a página do curso, clique no botão “Mais” da página do curso, selecione o curso e tente novamente</string>
+    <string name="toast_file_breakdown">O ficheiro está danificado. Volte à Página do Catálogo de Cursos para transferir novamente o recurso deste capítulo!</string>
+    <string name="toast_file_not_found">O arquivo não foi encontrado, volte para a página do catálogo de cursos e faça o download novamente deste capítulo!</string>
+    <string name="toast_play_file_not_found">Ficheiro de vídeos não encontrado para reprodução!</string>
+    <string name="toast_course_error_contact_us">Material didático incorreto. Ligue para o Atendimento ao Cliente no telefone 400 610 7808 para resolver o problema</string>
+    <string name="toast_your_answer_incomplete">Sua resposta não está completa!</string>
+    <string name="toast_you_not_select_answer">Ainda tens questões sem resposta! Garante que todas as questões atuais foram respondidas!</string>
+    <string name="toast_please_choose_class_course">Selecione as disciplinas que serão usadas na turma</string>
+    <string name="toast_create_class_fail">Falha na criação</string>
+    <string name="toast_change_course_fail">Edição falhou</string>
+
+    <string name="toast_delete_success">Excluído com sucesso</string>
+    <string name="toast_delete_success1">Limpeza realizada com sucesso</string>
+    <string name="toast_delete_fail">Falha ao excluir</string>
+    <string name="toast_set_success">Configurações salvas com sucesso</string>
+
+    <string name="about_menu_operation_guide">Guia de operação</string>
+    <string name="about_menu_operation_update_notify">Notificação de atualização</string>
+    <string name="about_menu_operation_feedback">Comentários</string>
+
+    <string name="privacy_policy">Política de Privacidade</string>
+    <string name="about_menu_operation_update">Verificar atualizações</string>
+
+    <string name="active_status_attendancing">Chamada em andamento</string>
+    <string name="active_tag_student_hp">Avaliação entre pares de Alunos</string>
+    <string name="active_tab_all">Todos</string>
+    <string name="active_tab_all_tea">Todos os professores</string>
+    <string name="active_tab_work">Tarefa</string>
+    <string name="active_tab_attendance">Chamada</string>
+    <string name="active_tab_vote">Votação</string>
+    <string name="active_tab_discuss">Discussão</string>
+    <string name="active_tab_interlocution">Pergunta rápida</string>
+
+    <string name="active_tab_live">transmissão ao vivo</string>
+    <string name="active_tab_choose">Selecionar pessoa</string>
+    <string name="active_tab_grade">avaliar</string>
+    <string name="active_tab_open_live">Transmissão ao vivo</string>
+
+    <string name="tools_exam_title">Exame pelo celular</string>
+    <string name="tools_exam_pc">Avaliação de computador</string>
+    <string name="tools_exam_mobile_pc">Avaliação por Telefone Celular/Computador</string>
+
+    <string name="tools_exam_text">Pode fazer exame online mesmo sem sala de informática</string>
+    <string name="tools_mobile_title">Mover avaliações</string>
+    <string name="tools_mobile_text">Fazer a avaliação na sala de aula para promover o ensino</string>
+    <string name="tools_word_title">Ditado de palavras</string>
+    <string name="tools_word_text">Revisão de vocabulário antes da aula, teste surpresa de vocabulário na sala de aula</string>
+    <string name="tools_speech_title">Avaliação oral</string>
+    <string name="tools_speech_text">Avaliação inteligente da fala, aprendizado, prática e exame integrados</string>
+
+    <string name="activity_home_work_test">Teste</string>
+    <string name="activity_home_work_group">Trabalho em grupo</string>
+    <string name="activity_home_work_person">Tarefa Individual</string>
+    <string name="activity_public_activity">iniciar uma atividade</string>
+
+    <string name="activity_more_menu_work">Tarefa Individual</string>
+    <string name="activity_more_menu_write">Tarefa de escrita</string>
+    <string name="activity_more_menu_spoken">Tarefa de fala</string>
+    <string name="activity_more_menu_upload">Carregar tarefa</string>
+    <string name="activity_more_menu_group_work">Trabalho em grupo</string>
+    <string name="activity_week_empty_tea_remind">Por enquanto, não há nenhuma atividade esta Semana~</string>
+    <string name="activity_week_empty_stu_remind">Clique no menu abaixo para ver outros conteúdos</string>
+    <string name="resource_more_menu_add_file">Adicionar Ficheiro</string>
+    <string name="resource_no_this_type">Nenhum recurso do tipo atual</string>
+    <string name="resource_delete_remind">Tem certeza que deseja excluir o recurso?</string>
+    <string name="resource_delete_child_remind">Confirmar a exclusão da pasta e de todos os recursos em suas subpastas?</string>
+    <string name="resource_move_path_no_change">O recurso que você está tentando mover já existe na pasta atual</string>
+    <string name="resource_move_self">Você não pode mover uma pasta para ela mesma ou para uma de suas subpastas</string>
+    <string name="resource_no_check">Selecione um recurso primeiro</string>
+    <string name="resource_no_permit_check">Selecione primeiro permissão</string>
+    <string name="resource_no_publish_resource_stu">O professor não Publicou nenhum recurso</string>
+    <string name="resource_no_publish_resource_tea">Nenhum conteúdo publicado temporariamente</string>
+    <string name="resource_from_who" formatted="false">de %s</string>
+    <string name="resource_more_menu_add_resource">Adicionar Recursos</string>
+    <string name="resource_class_count_more" formatted="false">%s e outras %s turmas</string>
+    <string name="resource_more_menu_add_pic">Adicionar conteúdo de imagem e texto</string>
+    <string name="resource_more_menu_add_link">Inserir um hiperlink</string>
+    <string name="resource_more_menu_create_file">Criar Pasta</string>
+    <string name="resource_permit_all_class">Todas as minhas turmas estão visíveis</string>
+
+    <string name="resource_permit_course_all_class">A disciplina está visível para todas as turmas</string>
+    <string name="resource_permit_specified_class">Designar a turma como visível</string>
+    <string name="resource_permit_to_child">Aplicativo em pastas e Recursos aninhados</string>
+    <string name="resource_please_select_class">Selecione a Turma</string>
+    <string name="resource_permit_to_child_warning">Ao ativar, o acesso aos recursos e pastas inferiores da pasta selecionada também será alterado</string>
+    <string name="resource_first_remind_1">Novos recursos do curso online!</string>
+    <string name="resource_first_remind_2">1. Você pode adicionar pastas aos recursos do curso</string>
+    <string name="resource_first_remind_3">2. Defina as permissões de acesso e envie para a turma designada</string>
+    <string name="resource_first_remind_4">Configurações de Permissão de Acesso</string>
+
+    <string name="file_tab_doc">documento</string>
+    <string name="file_tab_video">Áudio e Vídeo</string>
+    <string name="file_tab_pic">imagem</string>
+    <string name="file_tab_archive">Pacote compresso</string>
+
+    <string name="main_tab_home">Página inicial</string>
+    <string name="main_tab_course">disciplina</string>
+    <string name="main_tab_resource">recurso</string>
+    <string name="main_tab_activity">atividade</string>
+    <string name="main_tab_textbook">Material didático</string>
+    <string name="main_tab_other">Dinâmico</string>
+    <string name="main_tab_mine">Eu</string>
+    <string name="main_tab_tools">aplicativo</string>
+
+    <string name="type_video">Vídeo</string>
+    <string name="type_audio">Áudio</string>
+    <string name="type_word">documento</string>
+    <string name="type_pic">imagem</string>
+    <string name="type_link">link</string>
+    <string name="type_img_text">conteúdo de imagem e texto</string>
+    <string name="type_other">outros</string>
+
+    <string name="course_app_textbook">Material didático</string>
+    <string name="course_app_resource">recurso</string>
+    <string name="course_app_work">Tarefa</string>
+    <string name="course_app_discuss">discussão</string>
+    <string name="course_app_live">transmissão ao vivo</string>
+    <string name="course_app_class">sala de aula</string>
+    <string name="course_app_test">Avaliação</string>
+    <string name="course_app_assess">avaliação</string>
+    <string name="course_app_words">Ditado</string>
+    <string name="course_app_speak">Avaliação oral</string>
+    <string name="course_app_member">Membro</string>
+
+    <string name="course_home_course_textbook">Material didático</string>
+    <string name="course_cover">Capa do curso</string>
+    <string name="course_home_manage">Gestão</string>
+
+    <string name="class_year">Turma do ano</string>
+    <string name="course_school">Faculdade</string>
+    <string name="please_select">Selecione</string>
+    <string name="join_class_course_class_name" formatted="false">Nome da turma: %s</string>
+    <string name="join_class_course_course_name" formatted="false">Disciplina: %s</string>
+    <string name="join_class_course_tea_name" formatted="false">Professor: %s</string>
+    <string name="join_class_course_sch_name" formatted="false">Instituição: %s</string>
+    <string name="join_class_course_class_code" formatted="false">Código de turma:%s</string>
+
+    <string name="title_class_name">Nome da turma</string>
+    <string name="title_class_code">Código de turma</string>
+    <string name="title_class_teacher_name">Nome do Professor</string>
+    <string name="title_class_year">Ano letivo</string>
+    <string name="title_class_join_approval">O pedido de participação precisa de aprovação?</string>
+    <string name="title_class_quit_approval">A saída da solicitação requer aprovação?</string>
+    <string name="title_class_practice_show_correct_answer">Exibir a resposta certa após o exercício?</string>
+    <string name="title_class_practice_reanswer">Permitir repetir exercício?</string>
+    <string name="title_class_course">Disciplinas da turma</string>
+    <string name="title_class_join_apply">É necessário solicitar horas extras</string>
+    <string name="title_class_quit_apply">É necessário solicitar a saída da turma</string>
+
+    <string name="join_class_apply">Solicitação para Entrar na Turma</string>
+    <string name="join_class_course_apply_count">Solicitação de saída da turma</string>
+    <string name="quit_class_apply">Sair da solicitação da disciplina</string>
+
+    <string name="title_course_name">Nome do Curso</string>
+    <string name="qr">Leitura de Código QR</string>
+
+    <string name="face_recognition">Reconhecimento facial</string>
+    <string name="finish_qr">concluir</string>
+    <string name="photo_album">Fotos</string>
+
+    <string name="personal_information">Informações pessoais</string>
+    <string name="growth">Crescimento</string>
+    <string name="points">Crescimento</string>
+    <string name="achievement">Realizações</string>
+    <string name="get_growth_desc">O aluno pode obter um crescimento ao concluir o registro com sucesso.</string>
+
+    <string name="student_list">Lista de alunos</string>
+    <string name="student_list_sort_growth">Ordenar por Crescimento</string>
+    <string name="student_list_sort_studentno">Ordenar por Número do Aluno</string>
+
+    <string name="password_old">Senha antiga</string>
+    <string name="password_new">Nova senha</string>
+
+    <string name="class_apply">Uma solicitação</string>
+
+    <string name="course_author">Autor:</string>
+    <string name="course_copyright">Direitos autorais da disciplina:</string>
+    <string name="course_detail">Introdução da disciplina:</string>
+
+    <string name="download_process_format">Baixando (0kB/0MB)</string>
+    <string name="downloaded_process_format" formatted="false">Baixado %d recursos de %s</string>
+    <string name="format_class_member_ranking" formatted="false">%dº lugar</string>
+
+    <string name="not_publish">Não divulgado</string>
+    <string name="finished_lesson">Capítulos finalizados:</string>
+    <string name="study_time">Acumular aprendizagem:</string>
+    <string name="collect_score">Calcular nota final</string>
+    <string name="score">Nota</string>
+    <string name="level">Nível</string>
+    <string name="current_collect_score">Nota atual</string>
+    <string name="average_score">Média da nota</string>
+    <string name="collect_score_info">Detalhes da nota</string>
+    <string name="assess_end_date">Prazo para entrega da avaliação: %s</string>
+    <string name="collect_score_remind">O professor definiu um método de avaliação, com cada parte representando uma determinada ponderação. As notas mudarão continuamente ao longo do aprendizado, mas as notas finais serão consideradas após o Prazo para entrega da avaliação.</string>
+    <string name="active_text_book_not_edit_remind">Raspe o revestimento do material impresso ou do cartão de aprendizagem e digite o código de ativação na caixa de texto abaixo</string>
+    <string name="active_text_book_searched_remind">Consultar as seguintes informações com o código de ativação que você digitou:</string>
+    <string name="active_text_book_only_pc_remind">Esta disciplina não suporta aprendizagem no Telefone celular, use o computador para aprender</string>
+    <string name="active_text_book_not_edit_remind2">1. Raspe o revestimento na parte inferior do material didático impresso ou cartão de matrícula para obter o código de ativação ou código QR
+2. O material didático deve ser ativado na própria conta, não ative para outras pessoas</string>
+    <string name="active_text_book_special_remind">Dicas especiais:
+· Cada cartão de matrícula só pode ser ativado uma vez
+· O período de validade do Material Didático é de 180 dias a partir da data de ativação
+·
+Use sua própria conta para fazer login e ativar
+· Em caso de problemas, ligue para 400 610 7808</string>
+    <string name="active_text_book_search_remind">As seguintes informações foram consultadas com base no Código de ativação que você digitou:</string>
+    <string name="active_course_code_wrong">Digite o código de ativação de 16 dígitos correto</string>
+    <string name="active_course_not_same">O código de ativação não confere! Use o código de ativação deste material didático para ativar.</string>
+
+    <string name="active_course_right_course">Material didático correspondente ao Código de ativação:</string>
+    <string name="active_course_please_set">Digite o código de ativação</string>
+    <string name="active_course_please_set_keyboard">16 Letras/ Números, por favor digite no teclado inglês</string>
+    <string name="active_course_code_success">Material didático ativado com sucesso</string>
+    <string name="active_course_code_fail">Falha ao ativar o material didático. Tente novamente posteriormente.</string>
+    <string name="active_course_search_fail">Falha na consulta do material didático. Tentar novamente posteriormente</string>
+    <string name="active_course_code_uesd">O Código de ativação já foi usado. Se você não foi a pessoa que o ativou, entre em contacto com o Atendimento ao Cliente.</string>
+
+    //汇总成绩
+    <string name="calculation_time" formatted="false">Tempo %s Nota / Pontuação total %s</string>
+    <string name="calculation_process" formatted="false">Progresso %s/Pontuação total</string>
+    <string name="calculation_test" formatted="false">Avaliação %s Nota/Pontuação total %s</string>
+    <string name="calculation_score" formatted="false">Nota: %s / Pontuação total: %s</string>
+    <string name="calculation_total_score" formatted="false">Pontuação total %d</string>
+    <string name="calculation_total" formatted="false">Pontuação total</string>
+    <string name="calculation_work" formatted="false">Tarefa %s nota / Pontuação total %s</string>
+    <string name="calculation_other" formatted="false">Outros
+%s Pontos / Pontuação total %s</string>
+
+    //无策略的说明
+    <string name="calculation_one">· exibir Nota média do Capítulo</string>
+    <string name="calculation_two">· Capítulos pendentes valem 0 Nota</string>
+    <string name="calculation_three">· Arrastar para atualizar notas</string>
+
+    //汇总成绩说明
+    <string name="score_time" formatted="false">Duração: Pontuação total %s</string>
+    <string name="score_process" formatted="false">Progresso: Pontuação total %s</string>
+    <string name="score_test" formatted="false">Avaliação: Pontuação total %s</string>
+
+    <string name="score_score" formatted="false">Nota: Pontuação total %s</string>
+    <string name="score_work" formatted="false">Tarefa: Pontuação total: %s</string>
+    <string name="score_other" formatted="false">outros : Pontuação total %s</string>
+    <string name="score_total" formatted="false">Nota máxima: %s</string>
+
+    //汇总成绩说明
+    <string name="score_info_time" formatted="false">As sessões pontuáveis que o aluno acumular e estudar por mais de %s minutos alcançam a nota máxima; caso contrário, não pontuam.</string>
+    <string name="score_info_process" formatted="false">Seções pontuáveis acumulam aprendizagem para atingir a nota máxima de %s. Abaixo de %s não pontuam.</string>
+    <string name="score_info_test" formatted="false">Calcular conforme as notas de Avaliação selecionadas</string>
+    <string name="score_info_score" formatted="false">Calcular com base na nota média das seções pontuáveis</string>
+    <string name="score_info_work" formatted="false">Calcular por nota das Tarefas selecionadas</string>
+    <string name="score_info_other" formatted="false">Cálculo da nota importada pelo professor</string>
+
+    <string name="course_score">-- Nota</string>
+    <string name="course_score_fromat" formatted="false">%s Nota</string>
+    <string name="course_activity_size" formatted="false">%s cursos</string>
+    <string name="how_many_size" formatted="false">%s itens</string>
+    <string name="course_activity_date" formatted="false">%d ano %s mês</string>
+    <string name="course_study_plan_date" formatted="false">%s a %s disponível para o aprendizado</string>
+    <string name="average_scores">Nota média</string>
+    <string name="course_study_close_lesson">O professor fechou o aprendizado deste capítulo</string>
+    <string name="progress">Progresso</string>
+    <string name="grade">Nota</string>
+    <string name="grade1">Nota:</string>
+    <string name="minute">Nota</string>
+    <string name="second">Segundo</string>
+    <string name="clock">Sino</string>
+    <string name="time">Duração:</string>
+    <string name="minute_format" formatted="false"> %d Nota</string>
+    <string name="minute_format_str" formatted="false">%s Nota</string>
+    <string name="lesson_offline_resource">Material Didático em Cache</string>
+
+    <string name="dialog_content_clear_course">Quer limpar esta disciplina?</string>
+
+    <string name="practice_correct_answer">Resposta correta:</string>
+    <string name="practice_user_answer">Sua Resposta:</string>
+    <string name="practice_answer_analysis">Análise</string>
+
+    <string name="about_activity_title">Sobre nós</string>
+    <string name="feedback_activity_title">Feedback</string>
+    <string name="feedback_activity_submit">Enviar feedback</string>
+    <string name="pay_activity_title">Compra de disciplina</string>
+
+    <string name="login_confirm">Login</string>
+    <string name="login_title">Login com conta e senha</string>
+    <string name="login_bind">Vincular</string>
+    <string name="login_no_account">Sem conta</string>
+    <string name="login_bind_title">Associar a conta da ULearning</string>
+    <string name="login_bind_remind">Depois de associar, você pode usar esse aplicativo de terceiros para Entrar</string>
+    <string name="logout_unbind_success_remind">Desvinculação bem-sucedida</string>
+    <string name="logout_bind_success_remind">Vinculação bem-sucedida</string>
+    <string name="logout_bind_wechat_remind">Confirmar para remover a associação de conta?</string>
+    <string name="login_wechat_confirm">Entrar pelo WeChat</string>
+    <string name="login_wechat_binded">Vinculado, Clique para desvincular</string>
+    <string name="login_binded_now">Associar agora</string>
+    <string name="login_wechat_app_not_installed">Instale o cliente WeChat e mantenha-o ativado</string>
+    <string name="login_qq_confirm">Fazer login com QQ</string>
+    <string name="login_welcome">Bem-vindo ao ULearning Faculdade</string>
+    <string name="login_name">Digite seu nome de usuário/telefone celular/endereço de e-mail</string>
+    <string name="login_password">Digite a senha</string>
+    <string name="login_register">Cadastrar conta</string>
+    <string name="login_forget_password">Esqueceu a senha</string>
+    <string name="register_activity_title">cadastrar</string>
+
+    <string name="register_stu">Sou aluno</string>
+    <string name="register_tea">Eu sou professor</string>
+
+
+    <string name="main_logout">Sua conta foi acessada em outro telefone celular. Confirme se foi você quem fez isso. Caso contrário, recomendamos editar sua senha para aumentar a segurança de sua conta.</string>
+
+    <string name="main_menu_courses_title">disciplina</string>
+    <string name="main_menu_statistics_sync_success">O registro de aprendizagem foi sincronizado</string>
+    <string name="main_menu_statistics_sync_failed">Desculpe, falha na sincronização</string>
+    <string name="main_menu_statistics_review">Revisão</string>
+    <string name="main_menu_setting_font_small">pequeno</string>
+    <string name="main_menu_setting_font_normal">CN</string>
+    <string name="main_menu_setting_font_large">Grande</string>
+    <string name="main_menu_setting_clear_title">Limpar disciplinas para download</string>
+    <string name="main_menu_setting_service_title">Entre em contato com o atendimento ao cliente</string>
+
+    <string name="main_menu_setting_about_title">Sobre Nós</string>
+    <string name="main_menu_item_courselistgrade">Nota mínima para o exercício de pronúncia</string>
+    <string name="main_menu_setting_font_size">Configurações do tamanho da letra</string>
+    <string name="main_join_class">Entrar na turma</string>
+    <string name="main_join_class_course">Participar da Aula ao vivo</string>
+    <string name="main_join_class_course_code_size">Código de convite para turma</string>
+    <string name="main_join_class_course_code_hint">Digite o código de convite para turma</string>
+    <string name="main_menu_option_upgrade_none_message">Versão atual máxima</string>
+    <string name="main_menu_invalid_warn_message">Digite informações válidas</string>
+    <string name="main_menu_feedback_confirm_message">Enviado com sucesso, obrigado pelo seu feedback.</string>
+
+    <string name="package_download_none_wifi_confirm">Sem Wi-Fi?! Carregar a disciplina consumirá dados móveis, cuidado para não gastar todo o seu dinheiro!</string>
+    <string name="my_store_course_expired_label">A disciplina expirou e está incapaz de assistir.</string>
+
+    <string name="course_menu_glossaries_title">Glossário</string>
+    <string name="course_my_activity_count_title" formatted="false">Atividades desta semana (%d)</string>
+    <string name="course_my_grade_title">Notas da Disciplina</string>
+    <string name="course_my_grade_test_title">Critérios de avaliação</string>
+    <string name="course_my_grade_score">Nota atual</string>
+    <string name="course_my_grade_end_time" formatted="false">Avaliação encerrada, com nota final de %s</string>
+    <string name="course_my_grade_unend_time" formatted="false">Encerramento da avaliação %s</string>
+    <string name="course_my_publish_time" formatted="false">%s Publica em %s</string>
+    <string name="course_menu_bookmarks_title">Lista de favoritos</string>
+    <string name="course_menu_notes_title">Lista de notas</string>
+    <string name="course_menu_bookmarks_page_number">Página %d</string>
+    <string name="course_menu_notes_page_number">Página %d</string>
+    <string name="course_menu_notes_delete_dialog_message">Confirmar a exclusão da nota?</string>
+    <string name="course_menu_notes_empty_message">Você ainda não adicionou notas</string>
+    <string name="course_menu_bookmarks_delete_dialog_message">Confirmar a exclusão do marcador?</string>
+    <string name="course_checking_remind">Você já solicitou a inscrição na aula. Aguarde, por favor, a revisão do professor.</string>
+    <string name="course_select_change_remind">Após editar o Material didático, a Nota do Aluno na avaliação pode ser afetada. Confirmar?</string>
+    <string name="course_not_complete_remind">Você ainda não concluiu o curso, tem certeza que deseja sair?</string>
+    <string name="course_teach_group_finish">Você já formou o Corpo docente, não é possível Alterar o modo</string>
+    <string name="course_complete_other_tea" formatted="false">Turmas de outros professores:
+%s</string>
+    <string name="course_join_give_up">Desistir da turma</string>
+
+    <string name="course_join_give_up_confirm">Confirmar desistência da participação na aula ao vivo?</string>
+    <string name="course_menu_bookmarks_empty_message">Você ainda não adicionou favoritos</string>
+    <string name="course_detail_download_fail">Falha ao carregar o Catálogo de Cursos. Ligue para o Atendimento ao Cliente no telefone 400 610 7808 para resolver o problema.</string>
+    <string name="course_learn_page_option_submit">Enviar</string>
+    <string name="course_learn_page_practice_score">Sua Nota: %s Nota</string>
+    <string name="course_learn_page_bookmark_add">armazenado</string>
+    <string name="course_learn_page_bookmark_remove">Excluído com sucesso</string>
+    <string name="course_learn_page_end_of_lesson">Última página</string>
+    <string name="course_learn_page_lei_empty_transcript">Não foi encontrado o áudio original</string>
+    <string name="course_learn_page_lei_empty_record">Por favor, faça uma gravação de som primeiro</string>
+    <string name="course_learn_page_pronunciation_video_transcript">Texto da escuta</string>
+    <string name="course_learn_objective_activity_title">Objetivos de Aprendizagem</string>
+    <string name="course_learn_test_result_answer_wrong">Sua resposta: Incorreto</string>
+    <string name="course_learn_test_result_answer_correct">Sua resposta: correto</string>
+    <string name="course_learn_lei_practice_answer_activity_title">Respostas dos exercícios da disciplina</string>
+    <string name="course_learn_lei_role_play_help_option_a_title">exibir dica completa</string>
+    <string name="course_learn_lei_role_play_help_option_b_title">Exibir dicas parciais</string>
+    <string name="course_learn_lei_role_play_help_option_c_title">n exibir dicas</string>
+    <string name="course_learn_file_remind">Não suporta pré-visualizar o Ficheiro
+Você pode Abrir usando outros aplicativos</string>
+
+    <string name="course_not_create_remind">Você ainda não Criou uma disciplina</string>
+    <string name="course_not_join_remind">Você ainda não participou da disciplina</string>
+    <string name="course_not_learning_remind">Não há disciplinas em andamento</string>
+    <string name="course_not_end_remind">Não há disciplinas concluídas</string>
+
+    
+    <string name="coures_home_course_end">A disciplina Concluiu!</string>
+    <string name="coures_home_course_end_not_add">Você não pode mais editar disciplinas, publicar novos recursos ou atividades. Os alunos podem continuar a navegar pelo conteúdo do curso, mas não podem mais se inscrever no curso.</string>
+    <string name="coures_home_course_end_look">Para ver o conteúdo do curso anterior e dados de aprendizagem do Aluno, use o computador</string>
+
+    
+    <string name="textbook_empty_remind">Ainda não há material didático, ele será designado pelo responsável pelo curso</string>
+    <string name="textbook_empty_remind_stu">Ainda não há Material didático</string>
+    <string name="textbook_my_textbook_course">As disciplinas abaixo utilizam o Material didático deste manual. Acesse o curso para estudar</string>
+    <string name="textbook_select">Selecione o material didático</string>
+    <string name="textbook_out_of_date" formatted="false">%s expirado</string>
+    <string name="textbook_is_out_of_date">Esta disciplina está expirada</string>
+    <string name="textbook_plan_chapter_out_of_date">O tempo de estudo deste capítulo expirou</string>
+    <string name="textbook_plan_chapter_not_start">A Hora atual é incapaz de aprender este Capítulo</string>
+
+    
+    <string name="activity_all_empty_stu">Não há publicações de atividades em sala de aula</string>
+    <string name="activity_all_empty_tea">Temporariamente ainda não há conteúdo publicado</string>
+    <string name="activity_type_empty">Nenhuma atividade corresponde aos critérios</string>
+    <string name="activity_not_start">A atividade ainda não começou</string>
+
+    <string name="course_select_title">Selecione os materiais didáticos que você ensina</string>
+    <string name="class_select_title">Selecionar Turma</string>
+    <string name="all_class">Todos</string>
+    <string name="comfirm">Confirmar</string>
+
+    <string name="comfirm_num" formatted="false">Confirmar (%s)</string>
+
+    <string name="comment_activity_comment_compose">Escreva um comentário</string>
+    <string name="comment_activity_comment_my_compose">meus comentários</string>
+    <string name="comment_compose_create_activity_title">Escreva um Comentário</string>
+    <string name="comment_compose_reply_activity_title">Responder comentário</string>
+    <string name="comment_compose_send">Publicar</string>
+
+    <string name="downloads_clear_empty_message">disciplinas que você ainda não fez download</string>
+    <string name="downloads_clear_clear">limpar</string>
+    <string name="downloads_clear_expired_date">Duração expirada:</string>
+
+    <string name="setting_coursegrade_title">Configurações de Notas da Disciplina</string>
+    <string name="setting_coursegrade_top_remind">Estas configurações são válidas apenas para algumas disciplinas</string>
+    <string name="setting_course_all">Configurações unificadas</string>
+    <string name="setting_course_one">Configurações Por Turma</string>
+    <string name="setting_coursegrade_bottom_remind">*As notas dos exercícios orais dos alunos com notas abaixo da nota mínima não serão exibidas
+*A configuração acima é válida apenas para disciplinas acessadas pelo celular</string>
+
+    
+    <string name="activity_null_remind_stu">Temporariamente não há atividades~</string>
+    <string name="activity_null_remind_tea">Vá criar uma atividade</string>
+
+
+    <string name="activity_publisher_name" formatted="false">Publicado por: %s</string>
+    <string name="activity_duration" formatted="false">De %s a %s</string>
+    <string name="activity_always_open">discussão de longo prazo aberta</string>
+    <string name="activity_always_open_dis">Aberto a longo prazo</string>
+
+    <string name="activity_class" formatted="false">Turma: %s</string>
+    <string name="activity_classes" formatted="false">Turmas: %d turmas</string>
+
+
+    <string name="no_resource_remind">Você ainda não fez o download. Por favor, volte para a página do Módulo para fazer o download do Vídeo.</string>
+    <string name="course_resource_error_remind">A disciplina está danificada. Ligue para 400 610 7808 e resolveremos o problema imediatamente.</string>
+    <string name="record_file_not_found_remind">Não foram encontrados ficheiros de gravação ou a sua gravação foi perdida.</string>
+    <string name="mipca_not_find_course_remind">Infelizmente, a Página que você acessou foi perdida. Entre em contacto conosco pelo número 400—610—7808</string>
+    <string name="mipca_storecourse_null_remind">Nenhuma disciplina encontrada, confirme se você ativou a disciplina</string>
+    <string name="mipca_storecourse_null_remind_tea">A sua escola não ativou esta disciplina, por favor entre em contacto connosco para a experimentar</string>
+
+    <string name="archiveinfo">1. A turma não será mais exibida na página inicial do professor após o arquivamento;
+2. Não é possível visualizar o progresso e as notas da turma após o arquivamento;
+3. Não é possível definir planos de estudo, atribuir tarefas, agendar avaliações, publicar recursos etc. para a turma;
+4. A turma não será mais exibida no portal do aluno;
+5. É possível restaurar turmas arquivadas cancelando o arquivamento.</string>
+    <string name="speaking_item1">1. Depois de praticar, será enviado seu último exercício de gravação. Haverá uma tarifa de tráfego de dados durante a transferência. É recomendado que você selecione um ambiente Wi-Fi para praticar.</string>
+    <string name="speaking_item2">2. Mesmo sem acesso à rede, você pode praticar, mas não poderá carregar seu registro de gravação. Ao conectar-se à rede, clique em "Sincronizar registro de aprendizagem" para carregar seu registro de gravação e aprendizagem.</string>
+
+    <string name="main_menu_item_selectcourse">Selecione uma disciplina</string>
+    <string name="main_top_buycourse">Comprar Disciplina</string>
+
+    <string name="remind_no_courseactive">Aqui não há nada
+Ative a disciplina</string>
+    <string name="remind_no_course_tea">A sua instituição não ativou a disciplina
+Entre em contacto connosco através da Linha direta de apoio a clientes 4006107808.</string>
+    <string name="remind_no_joinclass">Ainda não participou de nenhuma turma!</string>
+    <string name="remind_no_create_class">Você ainda não criou uma turma~</string>
+    <string name="remind_create_class">Crie uma turma</string>
+    <string name="remind_set_class">Configurações da Turma</string>
+    <string name="remind_select_model_of_teach">Selecione seus Modelos de ensino e aprimore as disciplinas</string>
+    <string name="remind_welcome_join_course">Bem-vindo à disciplina
+Sua função na disciplina é</string>
+    <string name="remind_welcome_join_course_title">Bem-vindo para Participar da Disciplina</string>
+    <string name="remind_welcome_join_course_role">Sua função nessa disciplina é %s</string>
+    <string name="remind_welcome_join_course_admin">Você pode gerenciar o material didático, o corpo docente e os membros da turma usados no curso, visualizar o status do ensino de todas as turmas e também criar sua própria turma para ministrar aulas.</string>
+    <string name="remind_finish_course">Após a Conclusão da Disciplina:
+O professor não pode publicar novos recursos ou atividades, ou editar o conteúdo existente na disciplina, podendo apenas visualizar os dados do computador e exportá-los.
+O aluno pode continuar visualizando o conteúdo da disciplina, mas não pode mais participar dela.
+Confirmar a Conclusão da Disciplina?</string>
+    <string name="remind_exit_course">Após a saída de uma disciplina, os registros, como Tarefas, Discussões e Avaliações de sua Turma atual serão Limpos, o Registro de aprendizagem do Material didático não serão afetados. Confirmar Saída?</string>
+    <string name="remind_clear_file_cache">Confirmar para limpar os ficheiros cache da disciplina selecionada?</string>
+    <string name="remind_exit_course_fail">Falha ao sair da disciplina</string>
+    <string name="remind_exit_course_success">Você saiu da disciplina com sucesso, se quiser participar de uma nova turma, peça ao professor o Código QR ou o Código da turma.</string>
+
+    <string name="remind_exit_course_wait_for_review">O seu pedido de saída da turma foi enviado com Sucesso. Aguarde, por favor, a aprovação do professor. Antes da aprovação, é possível cancelar o pedido.</string>
+    <string name="remind_delete_course">Após a exclusão, a disciplina não poderá ser restaurada e os alunos que já participavam da disciplina não poderão continuar sua aprendizagem. Tenha muito cuidado!</string>
+    <string name="remind_welcome_join_course_assistant">O curso ou administrador designa sua turma para que você possa auxiliar o professor em seu ensino.</string>
+    <string name="remind_welcome_join_course_tea">O responsável pelo curso pode atribuir uma turma a você ou você mesmo pode criar uma turma na disciplina e iniciar o ensino.</string>
+    <string name="remind_create_class_info">Crie uma turma, atribua um professor da disciplina e convide alunos para participarem da turma. (Os professores de cada turma também podem criar.)</string>
+    <string name="remind_create_class_info_tea">Crie sua turma ou espere pelo Administrador designá-la a você.</string>
+
+    <string name="remind_create_class_info_ass">Aguarde, por favor, até que o Administrador o designe a uma Turma. Você pode acessar o curso diretamente.</string>
+    <string name="remind_create_class_course">Se a disciplina for gerenciada por uma Equipe de Educação, o Responsável pelo curso apenas precisa criar a disciplina e depois Participar os outros Professores para o Corpo docente. Não é necessário que cada Professor crie sua própria disciplina.</string>
+    <string name="remind_create_class_course_same_name" formatted="false">Já existe uma disciplina com o mesmo nome na sua escola (criada pelo Professor %s). Recomendamos que você entre em contacto com o Professor criador da disciplina para confirmar, a fim de evitar criar uma disciplina duplicada.
+Deseja continuar?</string>
+    <string name="remind_modify_class_course_same_name" formatted="false">Já existe um curso com este nome na sua escola (criado pelo professor %s). Sugerimos que contacte primeiro o professor criador do curso para confirmar e evitar duplicações. 
+Confirma que pretende guardar?</string>
+    <string name="remind_create_class_info_person">Crie uma turma e convide alunos para entrar nela. (Uma turma padrão foi definida pelo sistema e pode ser editada ao acessar o curso).</string>
+    <string name="remind_select_course">Importar material didático</string>
+    <string name="remind_select_course_info">Importe material didático da Interação ou de disciplina abertos da Escola Atual, para que o Aluno aprenda por conta própria.</string>
+    <string name="remind_select_course_info_per">Importar material didático da escola atual para interação entre professores e alunos.</string>
+    <string name="remind_select_course_info_is_admin">O criador do curso não designou material didático;
+Também não precisa designar ~ você pode publicar recursos, tarefas e outras atividades didáticas normalmente</string>
+    <string name="remind_select_course_info_no_admin">Ainda não há material didático
+O material é designado em conjunto pelo Responsável pelo curso</string>
+
+    <string name="remind_group_teacher">Formar Corpo Docente</string>
+    <string name="remind_add_teacher">Adicionar instrutor</string>
+    <string name="remind_add_teacher_info">Adicione outros professores ao corpo docente para gerenciar a disciplina e dividir as turmas.</string>
+    <string name="remind_add_teacher_info_per">Crie uma turma e convide os alunos a entrarem na turma. (O sistema já pré-definiu uma turma padrão, que pode ser editada após acessar o curso)</string>
+    <string name="remind_add_teacher_info_tea">Crie sua Turma ou Espere o Responsável pelo curso designar Turma para você.</string>
+    <string name="remind_once_create_class_tea">Clique aqui para criar uma turma</string>
+    <string name="remind_once_create_class_stu">Clique aqui para se inscrever e ativar a disciplina</string>
+
+    <string name="remind_join_class_course_wait_for_preview">Solicitação de participação enviada. Aguarde, por favor, a revisão do professor</string>
+    <string name="remind_join_class_course_wait_for_preview_to_another">Você se inscreveu em outras turmas desta disciplina. Aguarde, por favor, a revisão.</string>
+    <string name="remind_join_class_course_has_joined">Você já participou da Aula ao vivo, não participe novamente</string>
+    <string name="remind_join_class_course_finished">O curso ao qual esta turma pertence está concluído, então não é mais possível participar</string>
+
+    <string name="remind_join_class_course_code_wrong">Digite o código de turma correto</string>
+    <string name="remind_join_class_course_tea">O professor não pode trabalhar horas extras. Contacte o Criador do curso para o Adicionar à turma.</string>
+    <string name="remind_join_class_course_already_existed">Você já participou de outras turmas desta disciplina, não se inscreva novamente; se você participou da turma incorreta, entre em contacto com o professor para alterar a turma</string>
+    <string name="remind_join_class_course_different_org" formatted="false">Você está atualmente na escola:
+%s
+Depois de ingressar na turma, as informações da sua escola serão alteradas para
+%s
+Você tem certeza de que deseja ingressar na turma?</string>
+
+    <string name="remind_once_main_tab_mine">Veja aqui minhas turmas, mensagens, perfil e aplicativo</string>
+    <string name="remind_tools_empty">Nenhum aplicativo disponível</string>
+    <string name="remind_once_main_tab_activity">Aqui estão o Tarefa e atividades da Turma</string>
+    <string name="remind_once_lookup_student_course_progress">Clique no ícone para ver o progresso e as notas dos alunos</string>
+    <string name="remind_once_public_activity">Clique para iniciar uma atividade na turma</string>
+    <string name="remind_once_show_or_edit_profile">Clique para ver e completar informações pessoais</string>
+    <string name="remind_once_sync_study_record">Clique para sincronizar registro de aprendizagem</string>
+    <string name="remind_sync_record_ing">Sincronizando</string>
+    <string name="remind_sync_record_success">Sincronizar Sucesso</string>
+    <string name="remind_sync_record_fail">Falha na sincronização, tente atualizar</string>
+    <string name="remind_once_download_course_resource">Download de materiais para uso offline, permitindo o aprendizado sem conexão com a Internet</string>
+    <string name="remind_once_collect_course_page">Clique para Favoritar o Conteúdo da Página</string>
+    <string name="remind_once_section_study_undone">Você tem uma página pendente, clique no ícone cinza para retornar e continuar aprendendo</string>
+    <string name="remind_once_course_content">Clique na capa para ver o conteúdo da disciplina</string>
+    <string name="remind_once_course_progress_student">Clique no ícone para ver o progresso do aluno</string>
+
+
+    
+    <string name="message_remind">Lembrete de mensagem</string>
+    <string name="message">Mensagem</string>
+    <string name="voice">som</string>
+    <string name="move_up_to_cancel">Deslize para cima para cancelar o envio</string>
+    <string name="release_to_cancel">Solte o dedo paraCancelar o envio</string>
+    <string name="The_recording_time_is_too_short">Duração da gravação muito curta</string>
+
+    <string name="notify">Lembrete de mensagem nova</string>
+    <string name="newnotify">Receber notificações de novas mensagens</string>
+    <string name="shake">Vibração</string>
+    
+
+
+    <string name="file">Ficheiro</string>
+    <string name="folder">Índice</string>
+    <string name="include">%1$s Ficheiros, %2$s Índices</string>
+    <string name="yes">Sim</string>
+    <string name="no">Não</string>
+
+    <string name="detail_exam_submited">Você enviou a prova com sucesso</string>
+    <string name="detail_exam_public">A turma publicou uma avaliação</string>
+    <string name="feedback_default_text">Agradecemos sua escolha pelo ULearning. Ouviremos atentamente cada um dos seus comentários e faremos melhorias.</string>
+    <string name="download_wait_text">Esperar</string>
+
+    <string name="download_normal_text">Cache de material didático</string>
+    <string name="download_normal">download</string>
+    <string name="download_pause">Pausar</string>
+    <string name="download_clear_section_all">Limpar recursos da sessão</string>
+
+    <string name="person_info_1">Se não tiver nenhuma disciplina em sua conta, pode entrar em contacto connosco. Telefone: 400—610—7808</string>
+    <string name="person_info_2">Depois de verificarmos seus dados, você poderá testar gratuitamente nossos Cursos, Planos de Aula, Questões e outros Serviços Educacionais de Qualidade.</string>
+    <string name="person_info_have_tel">Depois de associar, você pode utilizar seu novo número de celular para acessar.</string>
+    <string name="person_info_not_have_tel">Para facilitar a recuperação de senha, associe o número de celular. Após a associação, você pode usar o novo número de celular para Entrar</string>
+
+    <string name="permission_string_help_text">O sistema não consegue acessar seu microfone, talvez você não tenha ativado a permissão ou o microfone esteja ocupado.
+Vá até a ativação de permissão ou remova a ocupação e tente novamente.</string>
+    <string name="permission_camera_string_help_text">Incapaz de acessar sua câmera, ative a permissão da câmera para o aplicativo.</string>
+    <string name="permission_hint">Dica de permissão</string>
+
+
+    <string name="filter_vcode" translatable="false">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="login_error_message_no_connection">A rede atual não está disponível, Checar as Configurações da rede</string>
+    <string name="networkerror">A rede atual não está disponível. Checar conexão de rede</string>
+    <string name="empty_data_error">Nenhum dado solicitado, tente atualizar a tela</string>
+    <string name="exception_parse_json_error">Análise de Dados Incorreta. Ligue para: 4006107808</string>
+    <string name="package_download_none_network_message">A rede atual não está disponível. Checar conexão de rede</string>
+    <string name="network_timeout">A rede não está funcionando, o acesso expirou, tente novamente posteriormente</string>
+    <string name="network_error_url">O conteúdo que você deseja acessar não foi encontrado. Ligue para 4006107808.</string>
+    <string name="network_error_server">Erro ao acessar o Servidor, por favor ligue para 4006107808</string>
+    <string name="network_error_json">Erro na Análise de Dados. Para obter ajuda, ligue para 4006107808</string>
+    <string name="server_data_error">Ocorreu um erro na atualização dos dados, tente atualizar deslizando para baixo</string>
+
+    <string name="font_size">Definir o tamanho da letra</string>
+    <string name="font_small">pequeno</string>
+    <string name="font_middle">Zhōng</string>
+    <string name="font_big">Grande</string>
+
+
+    <string name="active_tab_all_space">Todos</string>
+    <string name="course_app_work_space">Tarefa</string>
+    <string name="course_app_discuss_space">discussão</string>
+    <string name="course_app_live_space">transmissão ao vivo</string>
+    <string name="course_app_class_space">sala de aula</string>
+
+
+    
+    <string name="area_select_title">Selecione a área</string>
+    <string name="area_select_latin_america">América Latina</string>
+    <string name="area_select_asia_pacific">Ásia-Pacífico</string>
+    <string name="area_select_mainland_china">China</string>
+    <string name="area_select_south_africa">África</string>
+
+    
+    <string name="server_msg_repeat_folder">Já existe uma Pasta com o mesmo Nome. Por favor, edite o Nome da Pasta!</string>
+    <string name="first_in_resource_icon_name">pop_resource</string>
+    <string name="first_in_activity_icon_name">atividade pop</string>
+
+    <string name="server_msg_course_name_unmatched">O comprimento do nome da disciplina deve estar entre 2 e 100 letras</string>
+
+    <string name="agreement_title">Termos de Uso e Privacidade</string>
+    <string name="agreement_ok_accept">Concordar e usar</string>
+    <string name="agreement_no_accept">discordar</string>
+    <string name="agreement_no_accept_and_exit">Discordar e Sair</string>
+    <string name="agreement_no_accept_content">Ao não concordar, você será incapaz de utilizar nossos produtos e serviços e será redirecionado para Sair do APP.</string>
+    <string name="activity_public_homework">Publicar Tarefa</string>
+    <string name="activity_more_count" formatted="false">%d turmas</string>
+    <string name="my_resource">Repositório de recursos</string>
+    <string name="token_out_of_date">Login Expirado, por favor Entre novamente!</string>
+    <string name="main_tab_weike">Microaula</string>
+    <string name="type_weike">Microaula</string>
+    <string name="right_publish_homework">Enviar tarefa</string>
+    <string name="right_publish_discuss">Começar discussão</string>
+    <string name="edit">Editar</string>
+    <string name="text_course_publish_date" formatted="false">%s publicar</string>
+
+    <string name="publish">Publicar</string>
+
+    <string name="app_launch1">APP Android</string>
+    <string name="app_launch2">APP Android 2</string>
+    <string name="app_launch3">app_android3</string>
+    <string name="app_launch4">app_android4</string>
+    <string name="textbook_cache" formatted="false">Cache: %s</string>
+    <string name="more_language">Alternância de idioma</string>
+
+
+    <string name="login_sms">Login por mensagem de texto</string>
+    <string name="login_sms_code">Login por mensagem de texto do telefone celular</string>
+    <string name="login_sms_only_china">O login por mensagem de texto é compatível apenas com números de celular da China continental</string>
+    <string name="bind_account">Vincular conta</string>
+    <string name="not_account">Não tem conta?</string>
+    <string name="to_register">Vá cadastrar-se</string>
+    <string name="account_manager">Gestão de conta</string>
+    <string name="mine">Meu</string>
+    <string name="instructions">Instruções de operação</string>
+    <string name="school_info">Informações do Instituto</string>
+    <string name="school">Escola/instituição</string>
+    <string name="school_num">Número do aluno / Número de funcionário</string>
+    <string name="bind_other_account">Associe sua conta de terceiros</string>
+    <string name="logout_account">Sair da conta</string>
+    <string name="logout_account_success">Logout com sucesso</string>
+    <string name="to_bind">Desassociar</string>
+    <string name="to_unbind">Desvincular</string>
+
+    <string name="input_phone_error">O número do celular digitado está errado</string>
+    <string name="input_img_verify_code">Digite o Código de Verificação Gráfico</string>
+    <string name="input_sms_code_error">Código de Verificação Digitado Errado</string>
+    <string name="switch_to_student">Aluno Alternar Modo</string>
+    <string name="switch_to_teacher">Alternar para modo professor</string>
+    <string name="student_mode_not_modify_info">Não é possível editar as informações da conta no modo Aluno</string>
+    <string name="student_mode">Modo Aluno</string>
+    <string name="select_country_area">Selecione o país/região</string>
+    <string name="bind_phone">Associar telefone celular</string>
+    <string name="bind_email">Associar endereço de e-mail</string>
+    <string name="other_login_type">Outras formas de Entrar</string>
+
+    <string name="please_input_email">Digite seu Endereço de e-mail</string>
+    <string name="change_bind_email">Editar/Associar Endereço de E-mail</string>
+    <string name="single_register">cadastrar pessoa</string>
+    <string name="bind_welcom_info">Prezado usuário, para a segurança da sua conta, vincule antes o número do celular ou o Endereço de e-mail (vincule pelo menos um)</string>
+    <string name="school_num_input_hint">Digite uma string com comprimento entre 4 e 20 letras</string>
+
+
+    <string name="select_region">Selecionar região</string>
+    <string name="select_region_message">O ULearning oferece serviços independentes para diferentes regiões. Selecione a região em que está localizada a sua organização antes de entrar.</string>
+    <string name="latin_america">América Latina</string>
+    <string name="asia_pacific">Ásia-Pacífico</string>
+    <string name="china_mainland">China</string>
+
+
+    <string name="zambia">Zâmbia</string>
+    <string name="africa">África</string>
+    <string name="sandBox">Caixa de areia</string>
+    <string name="warning_new_pwd_null">Digite uma nova senha</string>
+    <string name="warning_pwd_length">A senha deve ter entre 6 a 16 caracteres</string>
+
+    <string name="tip_type_not_image">não é uma imagem selecionada</string>
+    <string name="tip_no_camera"> câmera ausente</string>
+    <string name="tip_tips">dica</string>
+    <string name="tip_compress">Comprimindo sua Foto</string>
+    <string name="tip_compress_failed">%1$s compactação de imagens falhou:%2$s
+picturePath:%3$s</string>
+    <string name="msg_crop_failed">Existem imagens com falha ao recortar</string>
+    <string name="msg_compress_failed">Existem imagens com erro de compressão</string>
+    <string name="msg_crop_canceled">Cancelar Corte</string>
+    <string name="msg_operation_canceled">Operação cancelada</string>
+    <string name="tip_permission_camera">Sem permissão para usar a câmera, ative-a nas configurações de permissão</string>
+    <string name="tip_permission_storage">Não há permissão para usar o cartão SD. Ative-a no gerenciamento de permissões.</string>
+    <string name="tip_permission_camera_storage">Não há permissão para usar a câmera e o cartão SD. Ative em Gerenciamento de permissões</string>
+
+    <string name="file_type_not_support">Não suporta o tipo de Ficheiro</string>
+
+    
+    <string name="album_view">Selecione uma imagem</string>
+    <string name="image_view">Clique para selecionar</string>
+
+    <string name="add">Confirmar</string>
+    <string name="selected">Selecionado</string>
+    <string name="limit_exceeded">Seleção máxima de %d</string>
+
+    <string name="permission_info">O APP requer
+permissão de armazenamento para exibir imagens.</string>
+    <string name="permission_force">O App requer
+permissão de Armazenamento para visualizar imagens. Toque em Configurações e vá para Permissões para concedê-las.</string>
+    <string name="permission_ok">OK</string>
+    <string name="permission_settings">Configurações</string>
+    <string name="permission_package">pacote</string>
+
+    <string name="select_local_file">Selecione o ficheiro do seu computador</string>
+    <string name="select_local_file_help">Caso não consiga digitalizar o Ficheiro de destino, selecione a partir do seu computador local</string>
+
+    <string name="file_size_too_big">O ficheiro excede os 200 M, carregue-o a partir do computador!</string>
+
+    <string name="voted">Já entregue</string>
+    <string name="not_voted">Não entregue</string>
+    <string name="absence">Falta</string>
+    <string name="arrived">Chegou</string>
+    <string name="sign_success">Registro bem-sucedido</string>
+    <string name="be_late">Atraso</string>
+    <string name="leave_early">Sair mais cedo</string>
+    <string name="sick_leave">Absenção por doença</string>
+    <string name="leave_story">Falta justificada</string>
+    <string name="has_rate">Corrigida</string>
+    <string name="commited">Submetido</string>
+    <string name="wait_rate">Envios Pendentes</string>
+    <string name="not_commit">Não Enviado</string>
+    <string name="evaluationed">avaliado</string>
+    <string name="evaluation_ing">Em avaliação entre pares</string>
+    <string name="not_evaluation">Não avaliado</string>
+    <string name="not_group_evaluation">Avaliação pendente</string>
+    <string name="un_answer">Não respondido</string>
+    <string name="un_select">Não selecionado</string>
+
+    <string name="to_be_rated">Pendente Avaliação</string>
+    <string name="rated">Classificado</string>
+    <string name="re_write">Reescrever</string>
+    <string name="un_join">Não participar</string>
+    <string name="complain_success">Recurso sucedido</string>
+    <string name="study_complete">Concluído</string>
+    <string name="not_study">Não estudado</string>
+    <string name="study_progress">Progresso da aprendizagem</string>
+    <string name="not_exam">Falta</string>
+    <string name="not_show_result">Não divulgar notas</string>
+    <string name="wait_reta">Envios Pendentes de Questao Subjetiva</string>
+    <string name="home_work_type">Tipos de Tarefa</string>
+    <string name="submit_status">Status de envio</string>
+    <string name="deadline_not_submit">Entregas em atraso</string>
+    <string name="integral">pontos</string>
+    <string name="has_join">Já participou</string>
+    <string name="complaining">Em recurso</string>
+    <string name="main_talk_person">Palestrante</string>
+    <string name="complain_fail">Falha no Recurso</string>
+    <string name="not_reta_wait_teacher">Envios Pendentes</string>
+
+
+    <string name="version_updating">Atualizando</string>
+    <string name="dialog_new_version_title">Atualização de versão</string>
+    <string name="update">atualização</string>
+
+    <string name="permisstion_store_hint">Seu celular proíbe a ULearning APP de baixar materiais didáticos!
+Por favor, conceda a permissão de leitura e escrita ao cartão de memória da ULearning APP.</string>
+    <string name="permisstion_store_record_hint">Durante a gravação, utilizaremos o seu espaço de armazenamento, 
+por favor conceda à ULearning APP permissão para ler o cartão de memória.</string>
+
+    <string name="operation_look_storage_permisstion_setting">Ver como configurar</string>
+    <string name="dont_update">Não lembrar mais</string>
+    <string name="course_player_loading">Atualização do Reprodutor de disciplina em andamento, aguarde.</string>
+    <string name="course_player_unzip">Aprendizagem prestes a começar, por favor, aguarde</string>
+    <string name="srl_header_pulling">Puxe para baixo para atualizar</string>
+    <string name="srl_header_refreshing">Atualizando...</string>
+    <string name="srl_header_loading">Carregando…</string>
+    <string name="srl_header_release">Solte para atualizar agora</string>
+    <string name="srl_header_finish">Atualização concluída</string>
+    <string name="srl_header_failed">Falha ao Atualizar</string>
+    <string name="srl_header_update">Última atualização: dd/MM HH:mm</string>
+    <string name="srl_header_secondary">Entrar no segundo andar</string>
+
+    <string name="srl_footer_pulling">Puxe para cima para carregar mais</string>
+    <string name="srl_footer_release">Carregar agora</string>
+    <string name="srl_footer_loading">Carregando...</string>
+    <string name="srl_footer_refreshing">Atualizando...</string>
+    <string name="srl_footer_finish">Carregamento concluído</string>
+    <string name="srl_footer_failed">Falha ao carregar</string>
+    <string name="srl_footer_nothing">Não há mais dados.</string>
+
+    <string name="srl_content_empty">O SmartRefreshLayout não encontrou a view de conteúdo. Você se esqueceu de Adicioná-lo no Ficheiro de Layout XML?</string>
+    <string name="srl_component_falsify" formatted="false">%s área de espaço reservado
+representa a altura de arrasto do tempo de execução【%.1fdp】
+sem exibir nada</string>
+
+    <string name="pull_to_refresh_pull_label">Puxe para atualizar</string>
+    <string name="pull_to_refresh_release_label">Publicar para atualizar</string>
+    <string name="pull_to_refresh_refreshing_label">Carregando</string>
+
+
+    <string name="feedback_hint">Por favor, deixe seus comentários ou sugestões</string>
+    <string name="feedback_log_hint">Enviar Registro</string>
+    <string name="only_add_ten_textbook">Pode adicionar apenas 10 materiais didáticos</string>
+    <string name="document_no_support_down">documento não suporta Cache</string>
+    <string name="teacher_not_support">Professores não suportam essa Funcinalidade</string>
+
+    <string name="app_setting">Configurações do aplicativo</string>
+    <string name="server_setting">Servidor</string>
+    <string name="language_setting">Idioma</string>
+    <string name="cube_ptr_pull_down">Puxe para baixo</string>
+    <string name="cube_ptr_pull_down_to_refresh">Puxe
+para baixo para atualizar</string>
+    <string name="cube_ptr_release_to_refresh">Solte para atualizar</string>
+    <string name="cube_ptr_refreshing">Atualizando</string>
+    <string name="cube_ptr_refresh_complete">Atualizado</string>
+
+    <string name="cube_ptr_last_update">última atualização:</string>
+
+    <string name="cube_ptr_seconds_ago">segundos atrás</string>
+    <string name="cube_ptr_minutes_ago">há minutos</string>
+    <string name="cube_ptr_hours_ago">há algumas horas</string>
+
+    <string name="exit_class_ing">Solicitação de saída da disciplina enviada. Aguarde a revisão do professor, por favor.</string>
+    <string name="exit_class_cancel">Recuar</string>
+    <string name="active_code_use">O código de ativação pode ser usado apenas uma vez. Se não foi você quem ativou, entre em contato com um colega de classe para verificar se ele pegou o material didático errado ou entre em contato com o Atendimento ao Cliente.</string>
+    <string name="active_code_use_person">O código de ativação foi usado para ativar a conta:</string>
+    <string name="exit_class_finish">Você saiu da disciplina</string>
+
+    <string name="permission_apply">Solicitação de permissão</string>
+    <string name="permission_overlay">Para garantir que você use normalmente os seguintes recursos no ULearning, você precisa autorizar a permissão de sobreposição do ULearning: 
+
+ transmissão ao vivo, espelhamento de tela</string>
+    <string name="permission_camera">Para que possa usar normalmente as funcionalidades abaixo do ULearning, é necessário que autorize o ULearning a obter a permissão para a câmera:
+
+Digitalizar Código QR, carregar/substituir Foto de perfil, na funcionalidade de Anúncio, Votação, Tarefa e Avaliação tirar uma foto para enviar no anexo da imagem, na Avaliação realizar a Verificação de rosto e Vigilância por câmera, na transmissão ao vivo usar o Vídeo para ministrar aula e Professores e alunos se conectarem por vídeo, Atendimento ao Cliente.</string>
+    <string name="permission_location">Para garantir que você use normalmente as funcionalidades de chamada, registro, avaliação e espelhamento de tela no ULearning, é necessário autorizar o ULearning a obter permissão para informações de localização.</string>
+    <string name="permission_microphone">Para garantir o uso normal dos seguintes recursos na ULearning:
+
+Exercicios de fala, Tarefa de fala, Ditado de palavras, Avaliação de fala, Avaliação de expressão oral, Funcionalidade de transmissão ao vivo, Atendimento ao Cliente.</string>
+    <string name="permission_camera_fail">Você desativou a permissão da câmera, incapaz de usar essa funcionalidade, por favor entre nas configurações do telefone celular para fazer a autorização</string>
+    <string name="permission_microphone_fail">Você desativou a permissão de Gravação, incapaz de usar esta funcionalidade. Entre nas Configurações do Telefone celular e autorize.</string>
+    <string name="permission_location_fail">Você desabilitou a permissão de localização, incapaz de usar esta funcionalidade. Entre nas Configurações do Telefone celular para autorizar.</string>
+    <string name="permission_read_external">Para garantir que você use normalmente as seguintes funcionalidades na ULearning, é necessário que você autorize a ULearning a ler as permissões de armazenamento:
+
+Ler dados de cache do aplicativo, imagens e ficheiros</string>
+    <string name="permission_read_storage_fail">Você desabilitou a permissão de leitura do armazenamento, é incapaz de usar esta funcionalidade, por favor entre nas Configurações do Telefone celular para autorizar.</string>
+    <string name="permission_camera_microphone_fail">Você desativou a permissão da câmera ou do microfone, a funcionalidade não está disponível, entre nas "Configurações" do seu Telefone celular para autorizar</string>
+
+    <string name="title_of_top">Fixar no topo</string>
+    <string name="item_all_class">Todas as Classes</string>
+    <string name="sso_login">Login SSO</string>
+    <string name="select_file_count_to_many">A quantidad de Ficheiros que você selecionou excedeu o limite</string>
+
+    <string name="not_allow_double_tap">Não clique com muita frequência</string>
+    <string name="title_of_projection">espelhamento de tela</string>
+    <string name="projection_on">Espelhamento de tela em andamento</string>
+    <string name="stop">Parar</string>
+    <string name="permission_location_wifi_fail">Você desativou as permissões de localização, é incapaz de obter o nome da Wi-Fi, entre nas "Configurações" do seu Telefone celular para autorizar.</string>
+    <string name="screen_fail_1">Falha ao espelhar a tela! Abra o cliente no Painel grande, ative a funcionalidade de espelhamento e verifique se o Telefone celular e o Painel grande estão na mesma Rede local.</string>
+    <string name="screen_fail_2">O dispositivo receptor reiniciou ou desconectou da rede</string>
+
+    <string name="not_run_on_virtualmachine">Não execute APP em máquina virtual/simulador</string>
+
+    <string name="not_group_score_announced">Nota não divulgada</string>
+    <string name="screen_msg">A instabilidade da rede pode causar a perda da imagem espelhada. Se a imagem do celular não for exibida no painel grande por um longo tempo, é possível parar e espelhar novamente.</string>
+    <string name="screen_device">dispositivo</string>
+    <string name="screen_network">rede</string>
+    
+    <string name="trans_error">O formato de codificação do ficheiro não pode ser analisado. Tente transcodificar para mp4 e carregue novamente.</string>
+    <string name="malaysia">Malásia</string>
+
+    <string name="import_something">Importar</string>
+    <string name="add_something">Adicionar</string>
+    <string name="class_setting">Configurações</string>
+    <string name="permission_read_phone_state">Para garantir que você consiga usar normalmente as seguintes funcionalidades no ULearning, você precisa autorizar o ULearning a acessar o telefone, para obter o estado da chamada e a informação da rede:
+
+Mensagem</string>
+    <string name="permission_read_phone_state_fail">Você desabilitou a permissão de telefone, incapaz de usar esta funcionalidade, entre nas Configurações do seu Telefone celular para autorização</string>
+
+    <string name="active_tab_photo_upload">Fotografar e enviar</string>
+
+    <string name="active_item_normal_live">Transmissão de Aula ao Vivo</string>
+    <string name="active_item_tencent_live">Tencent Meeting</string>
+    <string name="permission_write_external">Para garantir o uso normal das seguintes funcionalidades no ULearning, você precisa autorizar o ULearning a armazenar permissões:
+
+Armazenar dados de cache do aplicativo, imagens e arquivos</string>
+    <string name="permission_write_storage_fail">Você desabilitou a permissão de armazenamento, incapaz de usar esta funcionalidade, por favor entre nas "Configurações" do Telefone celular para autorizar</string>
+    <string name="scan_and_activate_book">Verifique o código QR para ativar o material didático</string>
+
+    <string name="live_order_asc">Por ordem cronológica</string>
+    <string name="live_order_des">Em ordem decrescente de duração</string>
+    <string name="file_not_supported">Não suporta este tipo de Ficheiro</string>
+    <string name="unable_to_identify">Irreconhecível?</string>
+    <string name="code_enter_exam">Entre usando o código de verificação</string>
+    <string name="active_tab_answer_sheet">Responder às perguntas</string>
+
+    <string name="crop_saving">Salvando Foto…</string>
+    <string name="crop_wait">Aguarde, por favor</string>
+    <string name="crop_pick_error">Imagem inválida</string>
+
+    <string name="crop_done">concluir</string>
+    <string name="crop_cancel">Cancelar</string>
+    <string name="crop_rotate">Rodar</string>
+
+    <string name="warning_pwd_type">8-16 Caracteres, incluindo pelo menos 3 tipos de caracteres (números, letras maiúsculas, letras minúsculas ou símbolos especiais)</string>
+    <string name="hint_input_new_pwd_rule">8 a 16 caracteres, incluindo pelo menos 3 tipos diferentes de caracteres (números, letras maiúsculas, letras minúsculas ou símbolos especiais)</string>
+    <string name="token_expired_msg">As informações de login expiraram, entre novamente</string>
+    <string name="manual_login">Faça logout e, em seguida, faça login manualmente</string>
+    <string name="course_app_units">Módulo</string>
+    <string name="unable_modify_username">A escola atual proíbe os alunos de editarem Nome.
+Se necessitar de editar, por favor, contate o administrador da escola ou o atendimento ao cliente.</string>
+
+    <string name="remind_tea_exit_class">Sair da disciplina não excluirá as turmas que você criou nesta disciplina, e nem os recursos e atividades publicados. Caso alguma das turmas que você seja responsável não tenha outros professores, essas turmas serão transferidas para o criador da disciplina. Confirmar saída da disciplina?</string>
+
+    <string name="resource_num" formatted="false">%d recursos</string>
+    <string name="resource_num_unread" formatted="false">%d Não lido</string>
+    <string name="resource_unread">Não lido</string>
+    <string name="resource_read">visto</string>
+    <string name="resource_watch">visto</string>
+    <string name="teaching_activities_notification">Mensagem de atividade didática</string>
+    <string name="test_work">Teste</string>
+    <string name="question_bank">Banco de questões</string>
+    <string name="operation_check_all_unfold">Expandir</string>
+    <string name="login_org">Conta da Instituição</string>
+    <string name="login_org_title">Login da conta da instituição</string>
+    <string name="login_org_hint">Digite o nome da instituição</string>
+    <string name="login_org_hint2">Digite o Nome correto da instituição</string>
+    <string name="login_name_hint">Digite o número do aluno/funcionário</string>
+    <string name="permission_bluetooth">Para garantir que você use normalmente as seguintes Funcionalidades dentro da ULearning, você precisa autorizar a ULearning a acessar os dispositivos nas proximidades:
+transmissão ao vivo</string>
+    <string name="permission_nearby_wifi_devices">Para garantir o uso normal das seguintes funcionalidades no ULearning, é necessário autorizar o ULearning a acessar dispositivos Wi-Fi próximos:
+espelhamento de tela</string>
+    <string name="permission_bluetooth_fail">Você desativou as permissões do dispositivo próximo, incapaz de usar esta funcionalidade. Entre nas [Configurações] do Telefone celular para autorizar.</string>
+    <string name="login_sms_2">Mensagem de texto</string>
+    <string name="login_wechat_confirm_2">WeChat</string>
+</resources>
