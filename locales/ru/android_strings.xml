@@ -1,0 +1,1572 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">ULearning 2.0</string>
+    <string name="app_name_debug">ULearning 2.0-D</string>
+
+    <string name="chat_press_talk">Нажмите и говорите</string>
+    <string name="chat_release_send">Отпустить
+Завершить</string>
+    <string name="chat_image">Изображение</string>
+    <string name="chat_file">файл</string>
+    <string name="chat_photo">фотографировать</string>
+    <string name="chat_video">Маленькое видео</string>
+
+    <string name="time_yesterday">Вчера</string>
+    <string name="time_day">День</string>
+    <string name="time_month">месяц</string>
+    <string name="time_year">год</string>
+
+    <string name="now_ready_data">Идет подготовка учебных материалов, пожалуйста, подождите.</string>
+
+    <string name="server_error">система находится на обслуживании, попробуйте немного позже</string>
+
+    <string name="toast_other_lesson_progress" formatted="false">Кеширование учебного материала %s из %s</string>
+
+    <string name="toast_please_check_if_the_SD_card_is_inserted">Проверьте, вставлена ли SD-карта!</string>
+    
+    <string name="dialog_quit" formatted="false">Выход (%s)</string>
+    <string name="dialog_confirm">Подтвердить</string>
+    <string name="dialog_cancel">Отменить</string>
+    <string name="dialog_ask_logout">Выйти из системы?</string>
+    <string name="normal_logout">Нормальный выход</string>
+
+    <string name="know">Понял</string>
+    <string name="cancel">Отменить</string>
+    <string name="ok">Ок</string>
+    <string name="leave">выйти</string>
+    <string name="continue_to_create">Продолжить создание</string>
+    <string name="today">сегодня</string>
+    <string name="mult_select">множественный выбор</string>
+    <string name="operation_save">сохранить</string>
+    <string name="operation_create">Создать</string>
+    <string name="operation_create_course">Создать курс</string>
+    <string name="operation_create_course_next">следующий</string>
+    <string name="operation_create_course_code">сканирование QR-кода для вступления на онлайн-курс</string>
+    <string name="scan_qrcode">сканирование QR-кода</string>
+    <string name="operation_download">Скачать</string>
+    <string name="operation_goon_study">Продолжить! А денег у меня много</string>
+    <string name="operation_not_study">Не важно</string>
+    <string name="operation_go_on_download">Продолжить загрузку</string>
+    <string name="operation_send">отправить</string>
+    <string name="operation_send_message">Отправить сообщение</string>
+    <string name="operation_archive">Архивирование</string>
+    <string name="operation_quit_account">Выйти из системы</string>
+    <string name="operation_quit_class">Выход из курса</string>
+    <string name="operation_delete_class">Удалить класс</string>
+    <string name="operation_student_list_sort_change">Переключить</string>
+    <string name="operation_go_on_study">Продолжить обучение</string>
+    <string name="operation_course_download_clear_all">очистить все</string>
+    <string name="operation_change_telphone">Изменить связанный номер мобильного телефона</string>
+    <string name="operation_relevance_telphone">Связать номер мобильного телефона</string>
+    <string name="operation_get_verification_code">Получить код подтверждения</string>
+    <string name="operation_download_all">Скачать все</string>
+    <string name="operation_reject_all">отклонить все</string>
+    <string name="operation_agree_all">согласиться на все</string>
+    <string name="operation_reject">Отклонить</string>
+    <string name="operation_agree">согласиться</string>
+    <string name="operation_start_study">Начать обучение</string>
+
+    <string name="operation_progress">текущая успеваемость</string>
+    <string name="operation_look_progress">Просмотр текущей успеваемости</string>
+    <string name="icourse_resource" translatable="false">Учебный материал предоставлен Эй-Цзи, вы можете просмотреть статистику учебного материала с компьютера.</string>
+    <string name="icourse_resource_student" translatable="false">Данные и учебные материалы этого курса предоставлены компанией Эй-Цзи</string>
+    <string name="operation_go_study">Эмма ~ Вернитесь к обучению</string>
+    <string name="operation_go_study_to_next_page">Войти на следующую страницу</string>
+    <string name="operation_go_study_course">Начать курс</string>
+    <string name="operation_start_answer">Начать отвечать</string>
+    <string name="operation_refresh_page">Обновить</string>
+    <string name="operation_relogin">войти снова</string>
+    <string name="operation_check_grade">Просмотр оценок</string>
+    <string name="operation_check_all">Показать все</string>
+    <string name="operation_check_all_close">Свернуть</string>
+    <string name="operation_join_class">после уроков</string>
+    <string name="operation_join_class_course">Вступать в онлайн-курс</string>
+    <string name="operation_join">вступать</string>
+    <string name="operation_welcome">Приветствовать</string>
+    <string name="operation_create_class">Создать класс</string>
+    <string name="operation_revocation_apply">Отменить заявку</string>
+    <string name="operation_re_apply">Подать заявку снова</string>
+    <string name="operation_revocation">отменить</string>
+    <string name="please_permission">право не открыт</string>
+    <string name="operation_not_download">Не загружать</string>
+    <string name="operation_cancel_download">Отменить Скачать</string>
+    <string name="operation_forward_download">Скачать</string>
+    <string name="operation_go_on">Продолжить</string>
+    <string name="operation_redo">Пересдача</string>
+    <string name="operation_cancel_collect">Отменить подписку</string>
+
+    <string name="operation_course_spoken_goon_study">Продолжить обучение</string>
+    <string name="operation_course_spoken_leave_study">выйти из этой страницы</string>
+    <string name="course_practice_remind_text_once">Тест разрешен пройти лишь один раз.</string>
+    <string name="course_practice_word_score">балл</string>
+    <string name="please_set_the_recording_permission">Настройте права для аудиозаписи!</string>
+    <string name="please_set_the_video_and_photo_permissions">настройки права Видеозапись Фотографировать!</string>
+    <string name="the_recording_failure">Не удалось записать аудиозапись</string>
+    <string name="loading_record_component">Загружается компонент Аудиозапись</string>
+    <string name="capture_light_dark">Слишком темно. Включите вспышку</string>
+    <string name="loading_record_component_fail">Не удалось загрузить компонент записи звука</string>
+    <string name="microphone_permissions_are_not_allowed">не разрешены права на Микрофон</string>
+    <string name="cache_data_failed">Не удалось сохранить данные в кеше</string>
+    <string name="cache_data_null">Нет кешированных данных</string>
+    <string name="request_failed">Запрос не выполнен</string>
+    <string name="link_server_failed">Не удалось подключиться к серверу, попробуйте Немного позже</string>
+    <string name="page_not_found">Страница не найдена</string>
+    
+	<string name="the_teacher_invited_you_to_join_the_class">Учитель приглашает тебя вступить в класс</string>
+    <string name="back_umooc">вернуться в ULearning</string>
+    <string name="wait_complete">Будет добавлено позже</string>
+    <string name="skip_setup">пропустить настройки &gt;&gt;</string>
+    <string name="complete_your_course">Улучшите Ваш курс</string>
+    <string name="change_your_course">Изменить учебный курс</string>
+    <string name="select_your_school">Выбрать факультет</string>
+    <string name="team_teaching">Командное преподавание</string>
+    <string name="personal_teaching">Персональное преподавание</string>
+    <string name="net_is_broken">Отключен от сети</string>
+    <string name="login_style">Другие способы входа</string>
+
+    <string name="close">Закрывать</string>
+    <string name="play">воспроизвести</string>
+    <string name="change">заменить</string>
+    <string name="classs">Класс</string>
+    <string name="type">Тип</string>
+    <string name="more">Больше</string>
+    <string name="move">переместить</string>
+    <string name="rename">переименовать</string>
+    <string name="access_right">право доступа</string>
+    <string name="modify_resource">Изменить ресурс</string>
+    <string name="immediate_experience">Попробуйте сейчас</string>
+    <string name="jump">Пропустить</string>
+    <string name="click_to_skip">Нажмите, чтобы пропустить</string>
+    <string name="change_textbook">заменить</string>
+    <string name="setting">настройки</string>
+    <string name="copy">Копировать</string>
+    <string name="delete">удалить</string>
+    <string name="delete_ing">в процессе удаления</string>
+    <string name="move_ing">перемещается</string>
+    <string name="delete_fail">Не удалось удалить</string>
+    <string name="delete_success">Удалено успешно</string>
+    <string name="move_success">Перемещение успешно</string>
+    <string name="forward">Переслать</string>
+    <string name="select_contact">Выбрать связь</string>
+    <string name="chat">Чат</string>
+    <string name="contact">Человек связи</string>
+    <string name="avatar">Аватар</string>
+    <string name="username">имя пользователя</string>
+    <string name="name">имя</string>
+    <string name="gender">Пол</string>
+    <string name="student_number">Номер учащегося</string>
+    <string name="telphone">мобильный телефон</string>
+    <string name="email">Адрес электронной почты</string>
+    <string name="activate">активировать</string>
+    <string name="go_activate">Деактивация</string>
+    <string name="activate_code_wrong">Введите полный Код активации</string>
+    <string name="search">запрос</string>
+    <string name="activate_course">Активировать курс</string>
+    <string name="activate_textbook">Активация учебника</string>
+
+    <string name="input_active_code">——или введите код активации——</string>
+
+    <string name="recording">В аудиозаписи</string>
+    <string name="playback">Воспроизведение аудиозаписи в данный момент</string>
+    <string name="play_record">Воспроизвести аудиозапись</string>
+    <string name="relect_role">перевыбрать Роль</string>
+    <string name="take_pic">Фотографировать</string>
+    <string name="bulletin">Опубликовать объявление</string>
+    <string name="announcement">Объявление</string>
+    <string name="announcement_empty">пока нет Объявлений</string>
+    <string name="quite">Тише!</string>
+    <string name="class_group">Группы классов</string>
+    <string name="start">Начать</string>
+    <string name="finish">завершить</string>
+    <string name="published">Опубликовано</string>
+    <string name="draft">Черновик</string>
+    <string name="response">взаимооценка</string>
+    <string name="need_rewrite">Требуется переработка</string>
+    <string name="application">приложение</string>
+    <string name="video_type">видео(MP4/AVI/MOV/FLV/RMVB/MPG)</string>
+    <string name="class_detail">Информация о классе</string>
+    <string name="class_info">Подробности класса</string>
+    <string name="personal_info">Личные данные</string>
+    <string name="telphone_number">номер мобильного телефона</string>
+    <string name="success">успешный</string>
+    <string name="fail">неудача</string>
+    <string name="system_informs">Уведомления системы</string>
+    <string name="yxy_teacher">учитель</string>
+    <string name="assistant">ассистент преподавателя</string>
+    <string name="student">Студент</string>
+    <string name="manager">Администратор</string>
+    <string name="course_manager">Администратор курса</string>
+    <string name="start_speak">Начать читать</string>
+    <string name="correct">правильный</string>
+    <string name="wrong">неправильный</string>
+    <string name="apply">заявка</string>
+
+
+    <string name="unstart">не начался</string>
+    <string name="goon">Текущий</string>
+    <string name="end">завершить</string>
+    <string name="ended">завершённый</string>
+    <string name="deleted">удаленный</string>
+    <string name="course_end">завершённый</string>
+    <string name="wait_for_approval">на проверке</string>
+
+    <string name="rewatch">Можно пересмотреть</string>
+    <string name="campus_list">наше учебное заведение</string>
+    <string name="outside_list">Не из нашей школы</string>
+    <string name="icourse_list" translatable="false">Эй-Цзи</string>
+    <string name="wechat">WeChat</string>
+    <string name="chose_all">Выбрать все</string>
+    <string name="cancel_chose_all">Отменить выбор всех</string>
+    <string name="resource_folder">папка</string>
+    <string name="resource">ресурсы</string>
+    <string name="resource_select">Выбрано %d файлов</string>
+    <string name="resource_set_permit">настройки права доступа</string>
+    <string name="check_the_details">Посмотреть подробности</string>
+    <string name="i_have_read">Прочитано</string>
+
+    <string name="download_recourse_type_video">видео</string>
+    <string name="download_recourse_type_audio">аудио</string>
+    <string name="download_recourse_type_word">Документ</string>
+    <string name="download_recourse_type_image">Изображение</string>
+    <string name="download_recourse_type_other">другие</string>
+
+
+    <string name="clear_cache">Очистить кеш</string>
+
+    <string name="my_class">Мой классный коллектив</string>
+    <string name="look_my_class">Просмотр Мой классный коллектив</string>
+    <string name="my_text_book">Мой учебник</string>
+    <string name="my_score">Мои баллы</string>
+    <string name="class_status_apply">Заявка на класс</string>
+    <string name="class_status_agreed">согласился</string>
+    <string name="class_status_rejected">Отклонено</string>
+    <string name="class_status_apply_quiting">ожидается заявка на Выход</string>
+    <string name="class_status_apply_joining">Заявка на вступление</string>
+
+    <string name="course_learn_status_finished">выполненный</string>
+    <string name="course_learn_status_unfinished">незавершенный</string>
+    <string name="course_learn_status_unstart">не начался</string>
+    <string name="course_learn_status_ongoing">Текущий</string>
+    <string name="course_learn_status_expired">истекший</string>
+
+    <string name="activity_status_need_rewrite">требует переписать</string>
+
+    <string name="sex_male">Муж</string>
+    <string name="sex_madam">Женский</string>
+
+    <string name="growth_student_level_default">Изучающий</string>
+    <string name="growth_teacher_level_default">Рыцарь, герой боевиков</string>
+
+    <string name="page_title_modify_pwd">Изменить пароль</string>
+
+    <string name="modify_success">Изменено успешно</string>
+    <string name="modify_fail">Изменить неудача</string>
+
+    <string name="modify">Изменить</string>
+    <string name="logout_message">После удаления Учетной записи, вы больше не сможете войти в систему ULearning под этой учетной записью, а также зарегистрировать новую учетную запись, используя тот же номер мобильного телефона или адрес электронной почты. Система очистит ваши Персональные данные и историю в течение определенного периода времени.
+Обратите внимание, что удаление Учетной записи является необратимой операцией, поэтому, пожалуйста, будьте осторожны! Подтвердите удаление этой Учетной записи?</string>
+    <string name="confirm_logout">Подтвердите продолжение отключения</string>
+    <string name="cancel_logout">Отменить регистрацию</string>
+
+    <string name="hint">подсказка</string>
+    <string name="hint_friendship">дружеское напоминание</string>
+    <string name="hint_tips">Советы по напоминаниям</string>
+    <string name="hint_input_content_limit_500_word">Введите здесь содержание (не более 500 слов)</string>
+    <string name="hint_input_answer">Введите ответ в этом поле</string>
+    <string name="hint_input_new_telphone">Введите новый номер мобильного телефона</string>
+    <string name="hint_input_right_code">Введите правильный код класса</string>
+    <string name="hint_input_telphone">Введите номер мобильного телефона</string>
+    <string name="hint_input_username_pwd">Введите имя пользователя и пароль</string>
+    <string name="hint_input_username">Введите имя пользователя</string>
+    <string name="login_check_privacy_policy">сначала отметить, чтобы войти</string>
+    <string name="hint_input_pwd_please">Введите Пароль</string>
+    <string name="hint_input_pwd">Введите старый пароль</string>
+    <string name="hint_input_new_pwd">Введите новый пароль</string>
+    <string name="hint_input_new_pwd_again">Введите Новый пароль снова</string>
+    <string name="hint_input_class_name">Введите название класса</string>
+    <string name="hint_input_course_name">Введите название курса</string>
+    <string name="hint_input_edit_class_name">Введите название класса, разделите названия классов точкой с запятой (;)</string>
+    <string name="hint_search_contact">Поиск связи человека</string>
+    <string name="hint_search_course">Поиск Курса</string>
+    <string name="hint_search">поиск</string>
+    <string name="hint_now_relevance_telphone">Текущий связанный номер мобильного телефона</string>
+    <string name="hint_input_verification_code">Введите код подтверждения</string>
+    <string name="hint_face_recognition">- повернитесь лицом к камере, убедитесь, что освещение достаточно яркое -</string>
+    <string name="hint_qr_code">Поместите QR-код / штрих-код в область кадрирования для автоматического сканирования</string>
+    <string name="hint_qr_code_error">QR-код не распознан</string>
+    <string name="hint_qr_code_touch">Нажмите, чтобы продолжить сканирование</string>
+    <string name="hint_open_light">открыть освещение</string>
+
+    <string name="hint_telphone_unwrite">не заполнен</string>
+    <string name="hint_email_unwrite">Этот человек немного ленив, даже свой адрес электронной почты не указал~</string>
+    <string name="hint_feature_online_follow_up">Этот функционал будет запущен позже.-.-</string>
+    <string name="hint_course_page_not_study_finished">Эта страница еще не пройдена-</string>
+    <string name="hint_course_important">Важная подсказка</string>
+    <string name="hint_classname_input_require">2—30 символов, не допускается использовать специальные символы (кроме нижнего подчеркивания _ и тире -)!</string>
+    <string name="hint_classcode_input_require">6-20 букв, цифр, подчеркиваний (_), дефисов (-)!</string>
+    <string name="hint_classyear_input_require">Введите дату в правильном формате, например: 2015</string>
+    <string name="hint_chat_message_copy_success">Скопировано успешно</string>
+    <string name="hint_copy_to_clipboard">Скопировано успешно</string>
+    <string name="hint_class_member_empty">В классе нет студентов,попросите студентов использовать уникальный код класса или фамилию учителя для поиска класса.</string>
+    <string name="hint_first_page">Уже первая страница</string>
+    <string name="hint_time_out">Время истекло</string>
+    <string name="hint_download_three_count">Разрешена одновременная загрузка до трёх файлов</string>
+    <string name="hint_download_three_count_support">Возможность одновременной загрузки не более трех ресурсов!</string>
+    <string name="hint_next_section_empty">Следующий раздел не содержит контента</string>
+    <string name="hint_section_no_grade">Этот раздел незавершен, Оценка будет доступна только после завершения</string>
+    <string name="hint_no_sd_card">Нет SD-карты</string>
+    <string name="hint_clear_course">Очистить ли этот курс?</string>
+    <string name="hint_confirm_delete_all_course">Подтвердите очистку ресурсов этого раздела?</string>
+    <string name="hint_confirm_delete_offline_course">Подтвердите очистку ресурсов?</string>
+    <string name="hint_audio_file_empty">Пока нет аудиофайлов</string>
+    <string name="hint_glosarry_empty">В текущем курсе отсутствует глоссарий</string>
+    <string name="hint_section_study_close">Учитель закрыл этот раздел; изучение временно невозможно</string>
+    <string name="hint_video_undownload_flow_play">Видео не загружено. В текущем не подключаетесь к Wi-Fi. Прямое воспроизведение видео повлечет расход трафика. Подтвердите, что хотите воспроизвести видео?</string>
+    <string name="hint_no_connect_wifi_ask_download">Вы не подключены к Wi-Fi, за скачивание может взиматься плата. Подтвердите скачивание?</string>
+    <string name="hint_no_connect_wifi_ask_play_video">Не подключен к Wi-Fi. При воспроизведении может возникнуть передача данных. Продолжить просмотр?</string>
+    <string name="hint_apply_join_class_wait_teacher_approval">Заявка на присоединение к классу отправлена, пожалуйста, подождите, пока учитель проверит заявку.</string>
+    <string name="hint_join_class_need_approval">Студенты, вступающие в класс, должны проходить проверку</string>
+    <string name="hint_confirm_revocation_join_class_apply">Подтвердите отмену заявки на сверхурочную работу?</string>
+    <string name="hint_revocation_success">Отменено успешно</string>
+    <string name="hint_revocation_fail">отменить неудачу</string>
+    <string name="hint_not_download_course">Вы не загрузили учебные материалы курса</string>
+    <string name="hint_keep_least_one_course">Пожалуйста, сохраните как минимум один курс.</string>
+    <string name="hint_keep_least_one_class">Выберите минимум один класс</string>
+    <string name="hint_course_empty">Временно отсутствуют Курсы</string>
+    <string name="hint_choose_teach_course">Выбрать учебный материал</string>
+    <string name="hint_choose_course_cover">Выберите обложку курса</string>
+    <string name="hint_quit_class_info">После выхода из курса просмотр занятий, таких как домашняя работа, экзамены и т. д., будет недоступен. Подтвердите выход?</string>
+    <string name="hint_quit_class_success">Успешное прекращение посещения занятий!</string>
+    <string name="hint_quit_class_fail">Оформление выхода из класса завершилось неудачей!</string>
+    <string name="hint_capture_join_class_fail">QR-код недействительный, свяжитесь с учителем класса</string>
+    <string name="hint_save_success">Сохранение прошло успешно</string>
+    <string name="hint_save_fail">Не удалось сохранить</string>
+    <string name="hint_change_success">Успешно изменено</string>
+    <string name="hint_speech_grade">Учитель требует достичь значения %d баллов для каждой фразы, чтобы завершить изучение. Удачи !</string>
+    <string name="hint_speech_must_on_network">Функционал автоматического оценивания Аудиозаписей доступен только при наличии Сетевого соединения. Пожалуйста, подключитесь к Сети.</string>
+    <string name="hint_collect_success">Собрание успешно</string>
+    <string name="hint_class_create_success_tell_class_code_to_student" formatted="false">Класс успешно создан
+Пожалуйста, сообщите Уникальный код класса:
+%s студентам</string>
+    <string name="hint_delete_class">Удалить класс?</string>
+
+    <string name="warning_input_text_too_long">Длина введенного контента не должна превышать %d баллов; раздел, превышающий указанное значение, не будет отправлен!</string>
+    <string name="warning_pwd_length_out_16">Новый пароль не должен превышать 16 символов</string>
+    <string name="warning_pwd_length_less_8">Новый пароль должен быть не менее 8 символов</string>
+    <string name="warning_old_pwd_null">Введите старый пароль</string>
+    <string name="warning_old_pwd_input_error">Ввод старого пароля неверен</string>
+    <string name="warning_pwd_disagree">Два новых пароля не совпадают</string>
+    <string name="warning_course_no_desc">Пока нет краткого описания курса</string>
+    <string name="warning_not_preview_file">Вы не можете просмотреть этот файл
+Вы можете открыть его другими приложениями</string>
+    <string name="warning_course_resource_download_studyrecord">Включите буферизация учебных материалов, тогда при воспроизведении медиаресурсы больше не будут расходовать трафик! Удаление ресурсов из уже пройденных разделов не повлияет на успеваемость</string>
+    <string name="warning_course_resource_download_size">Кэшированные ресурсы</string>
+    <string name="warning_course_resource_download_space">Места на диске</string>
+
+    <string name="warning_course_resource_phone_space">Доступное пространство</string>
+    <string name="warning_course_expire">Курс просроченный</string>
+    <string name="warning_course_buy_go_on_study">Чтобы продолжить обучение, снова купите этот курс</string>
+    <string name="warning_textbook_out_of_date">Учебный материал просрочен! Если хотите продолжить изучение, купите снова&gt;&gt;</string>
+    <string name="warning_textbook_get_data">Контент учебного материала обновлен. Прокрутите вниз, чтобы снова загрузить учебный материал.</string>
+    <string name="warning_chat_empty_message">История сообщений пуста, давайте быстрее найдем с кем пообщаться^.^</string>
+    <string name="warning_contact_empty">Контакт не найден</string>
+    <string name="warning_input_realinfo">Введите реальную информацию, иначе это повлияет на твою успеваемость</string>
+    <string name="warning_sys_notify_empty">Нет системных уведомлений^.^</string>
+    <string name="warning_practice_finish_limittime">Завершите упражнение в установленное время, в конце времени автоматически отправится</string>
+    <string name="warning_network_break">Текущая сеть недоступна, проверить сетевое соединение</string>
+    <string name="warning_web_break">Что-то пошло не так. Сейчас мы устраняем ошибку. Попробуйте немного позже</string>
+    <string name="warning_qr_fail">Не удалось отсканировать QR-код!</string>
+    <string name="warning_qr_unsupport">Неузнаваемый, пожалуйста, отсканируйте правильный QR-код</string>
+    <string name="warning_qr_textbook_not_active">Ты еще не активировал Учебник. Чтобы начать сканирование QR-кода, сначала активируй. 【Деактивация】</string>
+    <string name="warning_qr_textbook_not_stu">Отсканируйте QR-код после того, как войдёте под своей учетной записью студента</string>
+    <string name="warning_qr_textbook_out_of_date">Этот учебник просроченный. Для продолжения обучения, пожалуйста, его повторно активируйте. [Деактивация]</string>
+    <string name="warning_qr_textbook_out_of_plan">Согласно учебному плану Курса «%s» изучение текущего раздела учебника временно недоступно. Ты можешь приступить к курсу и посмотреть другие материалы</string>
+    <string name="warning_input_content">Введите контент!</string>
+    <string name="warning_classname_format_error">Неправильный формат названия класса!</string>
+    <string name="warning_classcode_format_error">Неправильный формат Уникального кода класса!</string>
+    <string name="warning_token_and_password_change">Пароль изменен, пожалуйста, войдите снова, используя новый пароль.</string>
+    <string name="warning_year_format_error"> Неправильный формат года!</string>
+
+    <string name="warning_speech_no_speak">Вы еще ничего не сказали</string>
+    <string name="warning_speech_network_visit_error">Невозможно автоматически оценивать, проверьте сетевое соединение</string>
+    <string name="warning_speech_no_network">невозможно автоматическое оценивание, проверять сетевое соединение</string>
+
+    <string name="warning_chat_no_login">Не вошли в систему сообщений, попробуйте немного позже!</string>
+    <string name="warning_chat_conversation_create_fail">Не удалось создать беседу</string>
+    <string name="warning_chat_conversation_unsupport_type">Тип не поддерживается</string>
+    <string name="warning_chat_message_forward_fail">Не удалось переслать</string>
+    <string name="warning_chat_message_forward_success">Отправлено успешно</string>
+
+    <string name="warning_location_fail">Серверная ошибка определения сетевого местоположения, попробуйте еще раз</string>
+    <string name="warning_location_permission_fail">Включите службу определения местоположения в настройках вашего мобильного телефона и разрешите ULearning использовать службу определения местоположения</string>
+
+    <string name="warning_notify_permission_fail">Откройте настройки уведомлений в системе вашего мобильного телефона и разрешите ULearning использовать право на уведомления.</string>
+
+    <string name="warning_audio_file_not_found">Не удается найти аудиофайл.</string>
+    <string name="warning_record_time_short">Время аудиозаписи слишком короткое, пожалуйста, немного позже остановите запись</string>
+    <string name="warning_audio_file_is_not_valid">Не соответствует требованиям аудиофайл!</string>
+    <string name="warning_speech_rejected">Вы прочитали неправильно, в этот раз баллы не присуждаются, сохраняются ваши баллы с прошлого раза!</string>
+    <string name="warning_speech_start_fail">Не удалось включить оценку, эта запись не будет оценена, но будет засчитана.</string>
+    <string name="warning_record_permission_close">Право на аудиозапись не включено</string>
+    <string name="warning_carema_permission_close">Не удалось открыть разрешение для фотосъемки</string>
+    <string name="warning_file_not_select">файл не выбран</string>
+    <string name="warning_file_could_not_open">В мобильном телефоне нет приложения, которое может открыть этот файл</string>
+    <string name="warning_resource_not_download">Ресурсы не были загружены</string>
+    <string name="warning_file_size_limit">Файл больше 200 Мб, пожалуйста, загрузите файл через компьютер!</string>
+    <string name="warning_file_not_found">Файл не найден!</string>
+    <string name="warning_file_download_fail">Скачать не удалось</string>
+    <string name="warning_file_download_course_fail">Не удалось получить курс, обновите, потянув вниз</string>
+
+    <string name="warning_download_fail">Скачать не удалось</string>
+    <string name="warning_file_upload_fail">Ошибка загрузки</string>
+    <string name="warning_update_fail">Не удалось обновить</string>
+    <string name="warning_version_is_new">Текущая версия — последняя</string>
+    <string name="warning_delete_bookmark_fail">Не удалось удалить закладку</string>
+    <string name="warning_delete_note_fail">Не удалось удалить заметки!</string>
+    <string name="warning_practicing">Текущее упражнение, пожалуйста, сначала приступите</string>
+    <string name="warning_course_fail">Если возникли проблемы с учебным материалом, Свяжитесь с нами!</string>
+    <string name="warning_storage_short">Недостаточно памяти на мобильном телефоне</string>
+    <string name="warning_storage_short_and_release_redownload">Память мобильного телефона недостаточная. Очистите часть памяти, затем попробуйте снова.</string>
+
+    <string name="warning_share_qq_success">Поделиться QQ успешным</string>
+    <string name="warning_share_qq_fail">Не удалось поделиться с помощью QQ</string>
+    <string name="warning_share_qq_cancel">Отменить общий доступ к QQ</string>
+    <string name="warning_share_qqzone_success">Удача в использовании общего пространства QQ</string>
+    <string name="warning_share_qqzone_fail">Не удалось поделиться в QQ-пространстве</string>
+    <string name="warning_share_qqzone_cancel">Отменить поделиться</string>
+    <string name="warning_share_wx_success">Удача, поделиться друзьями WeChat</string>
+    <string name="warning_share_wx_fail">Не удалось поделиться с другом WeChat</string>
+    <string name="warning_share_wx_cancel">Отменить публикацию в WeChat</string>
+    <string name="warning_share_wxq_success">Поделиться в соц. сетях - успешный</string>
+    <string name="warning_share_wxq_fail">Не удалось поделиться во ВКонтакте</string>
+    <string name="warning_share_wxq_cancel">Отменить публикацию в круге друзей</string>
+
+
+    <string name="num">штук</string>
+    <string name="size_m">М</string>
+    <string name="size_g">G</string>
+    <string name="loading">Загрузка...</string>
+    <string name="activing">Активируется</string>
+    <string name="updating">Обновление</string>
+    <string name="creating_chat">Создавать в чате</string>
+    <string name="loading_course">Загружается курс</string>
+    <string name="recording1">Идет аудиозапись</string>
+    <string name="checking">тестирование</string>
+    <string name="logining">В процессе входа</string>
+    <string name="saving">Сохранение...</string>
+    <string name="scoring">Идёт оценивание</string>
+    <string name="watching">Смотреть</string>
+    <string name="unwatch">Не просмотрено</string>
+    <string name="class_creating">Создание</string>
+
+    <string name="pop_course_menu_detail">Описание курса</string>
+    <string name="pop_course_menu_score">Метод расчёта оценки</string>
+    <string name="pop_course_menu_glosarry">Глоссарий</string>
+    <string name="pop_course_menu_mark">список Закладок</string>
+    <string name="pop_course_menu_recourse">Кэшированные учебные материалы</string>
+
+    <string name="pop_course_menu_note">Список заметок</string>
+
+    <string name="pop_course_menu_class_member">Ученики класса</string>
+    <string name="pop_course_menu_exit_class">Выход из курса</string>
+
+    <string name="pop_course_menu_modify_course">Изменить курс</string>
+    <string name="pop_course_menu_end_course">окончание курса</string>
+    <string name="pop_course_new_announcement">Последние объявления</string>
+    <string name="pop_course_menu_delete_course">Удалить курс</string>
+
+    <string name="setup_menu_only_wifi_download">Скачать/загрузить только через Wi-Fi</string>
+    <string name="setup_menu_check_version">тестирование новых версий</string>
+
+    <string name="text_course_score1">Средняя оценка по курсу:</string>
+    <string name="text_course_score2">Итоговая оценка всех глав в этом курсе / Общее количество глав</string>
+    <string name="text_course_score3">Оценки раздела：</string>
+    <string name="text_course_score4">Сумма оценок за все выполненные разделы в этой главе / Общее количество разделов</string>
+    <string name="text_course_score5">Оценка раздела：</string>
+    <string name="text_course_score6">Сумма оценок по всем страницам в этом разделе / Общее количество страниц</string>
+    <string name="text_course_score7">※Незавершенные разделы не учитываются в оценке</string>
+    <string name="text_course_score8">Оценка страницы:</string>
+    <string name="text_course_score9">страница упражнений: брать баллы за упражнение (в случае многих упражнений - за последнее)</string>
+    <string name="text_course_score10">Страница без упражнения: записывает только состояние завершения</string>
+    <string name="text_course_study_page_not_finished">Эта страница еще не завершена.</string>
+    <string name="text_course_complete_status" formatted="false">страница: %d/%d</string>
+    <string name="text_course_download_stauts" formatted="false">Всего %d, скачано %d (%s)</string>
+    <string name="text_file_downloaded_local_path" formatted="false">скачанный: %s</string>
+    <string name="text_downloading_format" formatted="false">Скачивается %s из %s</string>
+    <string name="text_downloading_fail_format" formatted="false">Скачать не удалось %s/%s</string>
+    <string name="text_downloading_recourse_format" formatted="false">%s ресурсов</string>
+    <string name="text_downloading_recourse_finish_format" formatted="false">скачано %s ресурсов</string>
+    <string name="text_downloading_recourse_about_format" formatted="false">около %s</string>
+    <string name="text_downloading_recourse_progress" formatted="false">(%s %s)</string>
+
+    <string name="text_get_course">Получение курса</string>
+    <string name="text_pull_up_load_more">подтянуть, чтобы загрузить еще</string>
+    <string name="text_disentangle_load_more">Отпустить, загрузка ещё</string>
+    <string name="text_loading">Yoyo усиленно загружает</string>
+    <string name="text_timelimit_practice">Упражнение на время</string>
+    <string name="text_teacher_close_study">Учитель закрыл обучение</string>
+    <string name="text_cancel_send_finger_upglide">Отменить и отправить проведением вверх</string>
+    <string name="text_alum_select">Выбрать локально</string>
+    <string name="text_course_expire_date" formatted="false">Срок окончания курса: %s</string>
+    <string name="text_course_class_count" formatted="false">Класс: %s</string>
+    <string name="text_course_class_count_more" formatted="false">Ждать %d класс</string>
+    <string name="text_course_start_date" formatted="false">%sНачать</string>
+    <string name="text_course_end_date" formatted="false">дедлайн %s</string>
+    <string name="submit_end_date" formatted="false">крайний срок сдачи</string>
+    <string name="peer_response_end_date" formatted="false">Крайний срок взаимооценки</string>
+    <string name="text_course_submit_end_date" formatted="false">%s крайний срок сдачи</string>
+    <string name="text_course_peer_response_end_date" formatted="false">Крайний срок взаимооценки %s</string>
+    <string name="text_course_student_count" formatted="false">Студент: %s</string>
+    <string name="text_course_expired_date" formatted="false">Курс просрочен с %s</string>
+    <string name="text_course_study_record_empty">Нет истории обучения</string>
+    <string name="text_course_study_record_not_latest">Получение Хронологии обучения</string>
+    <string name="text_you_have_some_course_format" formatted="false">У Вас %d курсов</string>
+    <string name="text_choose_file_upload">выбрать файл для загрузки</string>
+    <string name="text_teacher_size_format" formatted="false">учителей (%d)</string>
+    <string name="text_student_size_format" formatted="false">Студент (%d)</string>
+    <string name="text_practice_correct_count_good" formatted="false">Правильно %d, молодец!</string>
+    <string name="text_practice_correct_count" formatted="false">правильных ответов %d</string>
+    <string name="text_practice_wrong_count_good" formatted="false">Неправильно %d, Продолжить!</string>
+    <string name="text_practice_wrong_count" formatted="false">неправильный%d</string>
+    <string name="text_watched_format" formatted="false">Просмотрено %d%%</string>
+    <string name="text_goto_look">Перейти к просмотру</string>
+
+    <string name="text_goto_study">Перейти к изучению</string>
+
+    <string name="growth_format" formatted="false">%d Балл роста</string>
+
+    <string name="confirm_course_spoken_leave">На этой странице есть незавершенные слова / предложения / абзацы. Подтвердите выход?</string>
+
+    <string name="text_chat_conversation_draft">Черновик</string>
+    <string name="text_chat_message_custom">[Настраивать сообщение]</string>
+    <string name="text_chat_message_file">файл</string>
+    <string name="text_chat_message_image">Изображение</string>
+    <string name="text_chat_message_video">[видео]</string>
+
+    <string name="text_chat_send_to" formatted="false">отправить в %s</string>
+
+    <string name="text_practice_limit_time_use_time" formatted="false">Время использования: %s (ограничение по времени %s)</string>
+    <string name="text_practice_limit_time">на время %s</string>
+    <string name="text_practice_count_question">%d упражнений</string>
+    <string name="text_video_page_finish_condition">(Смотреть видео, продолжительностью не менее, чем само видео)</string>
+
+    <string name="text_change_related_cell_phone">Изменять связанный мобильный телефон</string>
+    <string name="text_related_cell_phone">Связать мобильный телефон</string>
+    <string name="text_back_umooc">вернуться в ULearning</string>
+    <string name="text_class_member">Ученики класса</string>
+    <string name="text_class_member_remove">исключать из класса</string>
+    <string name="text_course_remove">Удалить с курса</string>
+    <string name="text_class_member_remove_fail">Ошибка при исключении</string>
+    <string name="text_class_member_remove_remind">Исключить студента из класса, синхронизированно удалить записи о таких занятиях, как Домашняя работа, Экзамен, которые есть у студента в этом классе. Будьте осторожны. Подтвердите исключение?</string>
+
+    <string name="text_detail">Подробности</string>
+    <string name="text_me">Я</string>
+    <string name="text_open_with_other_app">Открыть в других приложениях</string>
+    <string name="text_preview">Предварительный просмотр</string>
+
+    <string name="text_book_preview">Предварительный просмотр учебного материала</string>
+    <string name="text_book_relevance_course">Курс, связанный с этим учебным материалом:</string>
+    <string name="text_book_relevance_course_study">Зайдя в курс можно изучать учебный материал</string>
+    <string name="text_book_un_activated">неактивированный</string>
+    <string name="text_book_my_empty">Ты еще не активировал(а) учебник</string>
+    <string name="text_book_cached_empty">В настоящее время нет материалов в кеше</string>
+    <string name="out_of_date">истекший</string>
+    <string name="text_next_section_title_format" formatted="false">Следующий раздел:%s</string>
+    <string name="text_chapter_finish">Глава завершена</string>
+    <string name="text_select_spoken_audio_file">Выбрать аудиофайл с озвучкой</string>
+    <string name="text_pull_down_update_course">Опустите список, чтобы обновить структуру курса</string>
+    <string name="text_put_down_update_course">Разрешить обновление структуры курса</string>
+    <string name="text_answer_detail">Подробности ответов</string>
+    <string name="text_refer_to_the_answer">Эталон ответа:</string>
+    <string name="text_answer_analysis">Анализ ответов:</string>
+    <string name="text_unanswer">Без ответа</string>
+    <string name="text_click_choose_answer">Нажмите, чтобы выбрать ответ</string>
+    <string name="text_org_course_empty">В организации нет курсов</string>
+    <string name="text_join_quit_class_apply">Заявка на зачисление / Прекращение посещения занятий</string>
+    <string name="text_join_quit_class_apply_empty">Нет заявок на вступление в классы или приостановку их посещения</string>
+    <string name="text_join_class_apply_empty">В данный момент заявки на сверхурочную работу отсутствуют</string>
+    <string name="text_quit_class_apply_empty">Временно нет заявок на прекращение посещения занятий</string>
+    <string name="text_apply_count_format" formatted="false">Всего %d новых заявки</string>
+    <string name="text_apply_join_class_format" formatted="false">Заявка на вступление в "%s"</string>
+    <string name="text_apply_quit_class_format" formatted="false">Заявка на выход из "%s"</string>
+
+    <string name="toast_other_lesson_downloading">Другие главы скачиваются</string>
+    <string name="toast_course_expire">Курс просрочен</string>
+    <string name="toast_course_no_content">В курсе нет контента</string>
+    <string name="toast_no_more_activities">Больше занятий нет</string>
+    <string name="toast_file_download_fail_format" formatted="false">%s Скачать не удалось</string>
+    <string name="toast_apply_submited_wait_approve">Заявка представлена, пожалуйста, ждите утверждения учителем</string>
+    <string name="toast_not_get_user_info">Не удалось получить сведения о пользователе</string>
+    <string name="toast_name_empty">Имя заполнено некорректно!</string>
+    <string name="toast_course_name_empty">Название курса пустое!</string>
+    <string name="toast_course_cover_empty">Выберите обложку курса!</string>
+    <string name="toast_student_number_empty">Номер учащегося пустой или содержит пробелы!</string>
+    <string name="toast_email_empty">Адрес электронной почты пуст или содержит пробелы!</string>
+    <string name="toast_email_format_error">Формат адреса электронной почты неправильный! Пожалуйста, введите снова!</string>
+    <string name="toast_telphone_format_error">Неверный формат мобильного телефона! Введите снова!</string>
+    <string name="toast_telhpone_empty">номер мобильного телефона или Код подтверждения Пустой!</string>
+    <string name="toast_telhpone_empty1">номер мобильного телефона Пустой!</string>
+    <string name="toast_same_telphone">Такой же, как и текущий номер мобильного телефона!</string>
+    <string name="toast_send_fail">Отправка не удалась, Повторите попытку</string>
+    <string name="toast_phone_number_has_been_occupied">Невозможно использовать номер мобильного телефона. Свяжитесь, пожалуйста, со Службой поддержки клиентов по телефону 400 610 7808</string>
+    <string name="toast_has_no_more">Больше нет</string>
+    <string name="toast_unable_to_locate_the_course_page">Невозможно определить местоположение страницы курса, нажмите кнопку «Больше» на странице курса, выберите этот курс и повторите попытку</string>
+    <string name="toast_file_breakdown">Файл поврежден, вернитесь на страницу каталога курсов, чтобы повторно загрузить ресурсы этой главы!</string>
+    <string name="toast_file_not_found">Файл не найден, пожалуйста, перейдите в страницу Каталога курсов, чтобы снова скачать ресурсы этой главы!</string>
+    <string name="toast_play_file_not_found">Не удалось найти видеофайл для воспроизведения!</string>
+    <string name="toast_course_error_contact_us">Материал неверный. Позвоните в службу поддержки клиентов по номеру 400 610 7808, чтобы устранить проблему.</string>
+    <string name="toast_your_answer_incomplete">Ваш ответ не полон!</string>
+    <string name="toast_you_not_select_answer">Вы еще не выбрали ответ на вопрос! Убедитесь, что вы ответили на все Текущий вопросы!</string>
+    <string name="toast_please_choose_class_course">Выберите курс, используемый в классе</string>
+    <string name="toast_create_class_fail">Создание не удалось</string>
+    <string name="toast_change_course_fail">Изменение не удалось</string>
+
+    <string name="toast_delete_success">Удалено успешно</string>
+    <string name="toast_delete_success1">очистка прошла успешно</string>
+    <string name="toast_delete_fail">Не удалось удалить</string>
+    <string name="toast_set_success">успешные настройки</string>
+
+    <string name="about_menu_operation_guide">Руководство по эксплуатации</string>
+    <string name="about_menu_operation_update_notify">Обновление</string>
+    <string name="about_menu_operation_feedback">Обратная связь</string>
+
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="about_menu_operation_update">проверить наличие обновлений</string>
+
+    <string name="active_status_attendancing">перекличка на занятиях</string>
+    <string name="active_tag_student_hp">Взаимооценка студентов</string>
+    <string name="active_tab_all">все</string>
+    <string name="active_tab_all_tea">Все учителя</string>
+    <string name="active_tab_work">Домашняя работа</string>
+    <string name="active_tab_attendance">перекличка</string>
+    <string name="active_tab_vote">Голосование</string>
+    <string name="active_tab_discuss">обсуждение</string>
+    <string name="active_tab_interlocution">Быстрый ответ</string>
+
+    <string name="active_tab_live">Прямой эфир</string>
+    <string name="active_tab_choose">Отбирать человека</string>
+    <string name="active_tab_grade">Оценивать</string>
+    <string name="active_tab_open_live">Прямая трансляция</string>
+
+    <string name="tools_exam_title">Мобильное тестирование</string>
+    <string name="tools_exam_pc">Компьютерный Экзамен</string>
+    <string name="tools_exam_mobile_pc">Экзамен с мобильного телефона/компьютера</string>
+
+    <string name="tools_exam_text">Экзамен в режиме онлайн без компьютерного класса</string>
+    <string name="tools_mobile_title">переместить оценки</string>
+    <string name="tools_mobile_text">Оценка в ходе урока, оценка для содействия образованию</string>
+    <string name="tools_word_title">Диктант слов</string>
+    <string name="tools_word_text">Предварительное изучение лексики перед уроком, случайная проверка диктанта в классе</string>
+    <string name="tools_speech_title">Оценка устной речи</string>
+    <string name="tools_speech_text">Умное оценивание устной речи, обучение, практика и проверка в одном</string>
+
+    <string name="activity_home_work_test">Тест</string>
+    <string name="activity_home_work_group">Групповая работа</string>
+    <string name="activity_home_work_person">индивидуальное задание</string>
+    <string name="activity_public_activity">инициировать мероприятие</string>
+
+    <string name="activity_more_menu_work">индивидуальное задание</string>
+    <string name="activity_more_menu_write">письменное задание</string>
+    <string name="activity_more_menu_spoken">Устная домашняя работа</string>
+    <string name="activity_more_menu_upload"> Загрузить домашнюю работу</string>
+    <string name="activity_more_menu_group_work">Групповая работа</string>
+    <string name="activity_week_empty_tea_remind">На этой неделе временно нет никаких занятий~</string>
+    <string name="activity_week_empty_stu_remind">Нажмите на меню внизу, чтобы увидеть Другие содержимое</string>
+    <string name="resource_more_menu_add_file">добавить файл</string>
+    <string name="resource_no_this_type">Нет ресурсов текущего типа</string>
+    <string name="resource_delete_remind">Подтвердите удаление ресурсов?</string>
+    <string name="resource_delete_child_remind">Подтвердите удаление папки и всех ресурсов в ней?</string>
+    <string name="resource_move_path_no_change">Ресурсы уже существуют в текущей папке</string>
+    <string name="resource_move_self">Невозможно переместить папку в саму себя или во вложенную папку</string>
+    <string name="resource_no_check">Сначала выберите ресурсы</string>
+    <string name="resource_no_permit_check">сначала выберите право</string>
+    <string name="resource_no_publish_resource_stu">Учитель не опубликовал никакие ресурсы</string>
+    <string name="resource_no_publish_resource_tea">Временно отсутствует опубликованный контент</string>
+    <string name="resource_from_who" formatted="false">Из %s</string>
+    <string name="resource_more_menu_add_resource">Добавить ресурс</string>
+    <string name="resource_class_count_more" formatted="false">%s и др. %s Классы</string>
+    <string name="resource_more_menu_add_pic">Добавить визуальный</string>
+    <string name="resource_more_menu_add_link">добавить ссылку</string>
+    <string name="resource_more_menu_create_file">Создать папку</string>
+    <string name="resource_permit_all_class">Вижу все созданные классы</string>
+
+    <string name="resource_permit_course_all_class">Данный курс будет доступен для всех созданных классов</string>
+    <string name="resource_permit_specified_class">назначить видимость классам</string>
+    <string name="resource_permit_to_child">приложение в подпапки и ресурсы</string>
+    <string name="resource_please_select_class">Выберите класс</string>
+    <string name="resource_permit_to_child_warning">Если включено, право доступа к ресурсам в выбранной папке и вложенным папкам также будет изменено.</string>
+    <string name="resource_first_remind_1">Обновление функционала учебных материалов</string>
+    <string name="resource_first_remind_2">В учебных материалах теперь можно добавлять папки</string>
+    <string name="resource_first_remind_3">2. можно настроить права доступа, чтобы предоставить доступ определенным классам, например,</string>
+    <string name="resource_first_remind_4">Добавить настройки права доступа</string>
+
+    <string name="file_tab_doc">Документ</string>
+    <string name="file_tab_video">Мультимедиа</string>
+    <string name="file_tab_pic">Изображение</string>
+    <string name="file_tab_archive">ZIP</string>
+
+    <string name="main_tab_home">Главная страница</string>
+    <string name="main_tab_course">Курс</string>
+    <string name="main_tab_resource">ресурсы</string>
+    <string name="main_tab_activity">занятие</string>
+    <string name="main_tab_textbook">учебный материал</string>
+    <string name="main_tab_other">Динамика</string>
+    <string name="main_tab_mine">Я</string>
+    <string name="main_tab_tools">приложение</string>
+
+    <string name="type_video">видео</string>
+    <string name="type_audio">аудио</string>
+    <string name="type_word">Документ</string>
+    <string name="type_pic">Изображение</string>
+    <string name="type_link">Ссылка</string>
+    <string name="type_img_text">Визуальный</string>
+    <string name="type_other">другие</string>
+
+    <string name="course_app_textbook">учебный материал</string>
+    <string name="course_app_resource">ресурсы</string>
+    <string name="course_app_work">Домашняя работа</string>
+    <string name="course_app_discuss">обсуждение</string>
+    <string name="course_app_live">Прямой эфир</string>
+    <string name="course_app_class">класс</string>
+    <string name="course_app_test">Экзамен</string>
+    <string name="course_app_assess">проверка знаний</string>
+    <string name="course_app_words">Прослушайте слова</string>
+    <string name="course_app_speak">Устный экзамен</string>
+    <string name="course_app_member">ученик</string>
+
+    <string name="course_home_course_textbook">учебный материал</string>
+    <string name="course_cover">Обложка курса</string>
+    <string name="course_home_manage">Управление</string>
+
+    <string name="class_year">год класса</string>
+    <string name="course_school">Факультет, к которому принадлежит</string>
+    <string name="please_select">Выберите</string>
+    <string name="join_class_course_class_name" formatted="false">Название класса: %s</string>
+    <string name="join_class_course_course_name" formatted="false">Курс: %s</string>
+    <string name="join_class_course_tea_name" formatted="false">Учитель: %s</string>
+    <string name="join_class_course_sch_name" formatted="false">Учебное заведение: %s</string>
+    <string name="join_class_course_class_code" formatted="false">Уникальный код класса: %s</string>
+
+    <string name="title_class_name">Название класса</string>
+    <string name="title_class_code">Уникальный код класса</string>
+    <string name="title_class_teacher_name">Имя учителя</string>
+    <string name="title_class_year">учебный год</string>
+    <string name="title_class_join_approval">нужно ли получить одобрение для заявки на присоединение</string>
+    <string name="title_class_quit_approval">Нужно ли утверждать заявку на выход</string>
+    <string name="title_class_practice_show_correct_answer">Показать правильный ответ после выполнения упражнения</string>
+    <string name="title_class_practice_reanswer">Разрешить повторение упражнений?</string>
+    <string name="title_class_course">Классы курса</string>
+    <string name="title_class_join_apply">Заявка на работу сверхурочно</string>
+    <string name="title_class_quit_apply">Для прекращения посещения занятий требуется подать заявку</string>
+
+    <string name="join_class_apply">Заявка на присоединение к классу</string>
+    <string name="join_class_course_apply_count">Заявка на прекращение посещения занятий</string>
+    <string name="quit_class_apply">Выход из Курса</string>
+
+    <string name="title_course_name">Название курса</string>
+    <string name="qr">Сканирование QR-кода</string>
+
+    <string name="face_recognition">Распознавание лиц</string>
+    <string name="finish_qr">Завершить</string>
+    <string name="photo_album">Альбом</string>
+
+    <string name="personal_information">Персональные данные</string>
+    <string name="growth">Балл роста</string>
+    <string name="points">Балл роста</string>
+    <string name="achievement">Достижения</string>
+    <string name="get_growth_desc">Студент получит Балл роста после успешной регистрации</string>
+
+    <string name="student_list">Список учащихся</string>
+    <string name="student_list_sort_growth">Балл роста сортировка</string>
+    <string name="student_list_sort_studentno">сортировка по Номеру учащегося</string>
+
+    <string name="password_old">Старый пароль</string>
+    <string name="password_new">Новый пароль</string>
+
+    <string name="class_apply">заявка</string>
+
+    <string name="course_author">Автор:</string>
+    <string name="course_copyright">Авторские права на курс:</string>
+    <string name="course_detail">Краткое описание курса:</string>
+
+    <string name="download_process_format">Скачивается (0,0 КБ из 0,0 МБ)</string>
+    <string name="downloaded_process_format" formatted="false">Скачанный %d ресурсов Общий объём %s</string>
+    <string name="format_class_member_ranking" formatted="false">№ %d</string>
+
+    <string name="not_publish">Не объявлено</string>
+    <string name="finished_lesson">Завершенные разделы:</string>
+    <string name="study_time">накапливать обучение:</string>
+    <string name="collect_score">Агрегирование результатов</string>
+    <string name="score">оценка</string>
+    <string name="level">Уровень</string>
+    <string name="current_collect_score">Текущая оценка</string>
+    <string name="average_score">Средняя оценка</string>
+    <string name="collect_score_info">Подробности оценки</string>
+    <string name="assess_end_date">Крайний срок для прохождения проверки знаний: %s</string>
+    <string name="collect_score_remind">Учитель задал вид проверки знаний. Каждый раздел имеет определенный вес. Во время обучения результаты будут меняться, учитывайте баллы после крайнего срока проверки знаний.</string>
+    <string name="active_text_book_not_edit_remind">Соскребите покрытие на обратной стороне печатного учебника или карты изучения и введите код активации в поле ниже.</string>
+    <string name="active_text_book_searched_remind">По введенному Коду активации был совершен следующий запрос:</string>
+    <string name="active_text_book_only_pc_remind">Данный курс не поддерживает обучение на мобильном телефоне, используйте компьютер для изучения</string>
+    <string name="active_text_book_not_edit_remind2">1. Сотрите защитный слой в нижней части печатного учебника или карты активации, чтобы получить код активации или QR-код.
+2. Учебник необходимо активировать в своей учетной записи. Не активируйте его для других.</string>
+    <string name="active_text_book_special_remind">Специальная подсказка:
+· Каждую карту активации можно активировать только один раз
+· Срок действия учебного материала, начиная с даты активации, составляет 180 дней
+·
+Пожалуйста, войдите в систему под своей учетной записью, чтобы активировать
+· Если у вас возникнут проблемы, позвоните по телефону 400 610 7808</string>
+    <string name="active_text_book_search_remind">Запрос по введенному Коду активации:</string>
+    <string name="active_course_code_wrong">Введите правильный 16-значный код активации</string>
+    <string name="active_course_not_same">Код активации не совпадает! Используйте код активации учебного материала.</string>
+
+    <string name="active_course_right_course">Учебный материал, соответствующий твоему Коду активации: %s</string>
+    <string name="active_course_please_set">Введите код активации</string>
+    <string name="active_course_please_set_keyboard">16 Букв/цифр, ввести на английской клавиатуре</string>
+    <string name="active_course_code_success">Активация учебного материала успешна</string>
+    <string name="active_course_code_fail">активация учебных материалов неудача, сделайте еще одну попытку немного позже</string>
+    <string name="active_course_search_fail">Запрос учебного материала не удался, попробуйте еще раз немного позже</string>
+    <string name="active_course_code_uesd">Код активации уже был использован. Если ты не активировал его лично, Свяжись со службой поддержки.</string>
+
+    //汇总成绩
+    <string name="calculation_time" formatted="false">время %s балл. / Итоговая оценка %s</string>
+    <string name="calculation_process" formatted="false">Прогресс %s баллов/Итоговая оценка %s</string>
+    <string name="calculation_test" formatted="false">Экзамен: %s балл / Итоговая оценка: %s</string>
+    <string name="calculation_score" formatted="false">Оценка %s баллов из итоговой оценки %s</string>
+    <string name="calculation_total_score" formatted="false">Итоговая оценка %d</string>
+    <string name="calculation_total" formatted="false">Итоговая оценка</string>
+    <string name="calculation_work" formatted="false">Домашняя работа %s балл/Итоговая оценка %s</string>
+    <string name="calculation_other" formatted="false">другие
+ %s балл/Итоговая оценка %s</string>
+
+    //无策略的说明
+    <string name="calculation_one">· отображать среднюю оценку раздела</string>
+    <string name="calculation_two">· незавершенные разделы считаются 0 баллов</string>
+    <string name="calculation_three">· Обновите оценки путем прокрутки вниз</string>
+
+    //汇总成绩说明
+    <string name="score_time" formatted="false">время: Итоговая оценка %s</string>
+    <string name="score_process" formatted="false">Прогресс: Итоговая оценка %s</string>
+    <string name="score_test" formatted="false">Экзамен: Итоговая оценка %s</string>
+
+    <string name="score_score" formatted="false">Оценка: Итоговая оценка %s</string>
+    <string name="score_work" formatted="false">Домашняя работа: Итоговая оценка %s балл</string>
+    <string name="score_other" formatted="false">другие: Итоговая оценка %s</string>
+    <string name="score_total" formatted="false">максимальный балл %s</string>
+
+    //汇总成绩说明
+    <string name="score_info_time" formatted="false">Разделы, участвующие в оценке, при накопленном Изучении в течение %s минут получают максимальный балл, а если менее %s минут, то Не засчитывается.</string>
+    <string name="score_info_process" formatted="false">Для разделов, участвующих в оценивании, накапливаемый результат обучения должен достигать %s. Если он ниже %s, то не засчитывается.</string>
+    <string name="score_info_test" formatted="false">Вычислять по выбранной оценке экзамена</string>
+    <string name="score_info_score" formatted="false">Рассчитать средний балл по участвующим в оценке разделам</string>
+    <string name="score_info_work" formatted="false">Вычислять по оценкам выбранных Домашних заданий</string>
+    <string name="score_info_other" formatted="false">Вычисление на основе импортируемых учителем баллов</string>
+
+    <string name="course_score">--баллов</string>
+    <string name="course_score_fromat" formatted="false">%s баллов</string>
+    <string name="course_activity_size" formatted="false">%s шт.</string>
+    <string name="how_many_size" formatted="false">%s</string>
+    <string name="course_activity_date" formatted="false">%d год %s месяц</string>
+    <string name="course_study_plan_date" formatted="false">Можно изучать с %s по %s</string>
+    <string name="average_scores">Средняя оценка</string>
+    <string name="course_study_close_lesson">Учитель закрыл изучение главы</string>
+    <string name="progress">Прогресс</string>
+    <string name="grade">оценка</string>
+    <string name="grade1">оценка:</string>
+    <string name="minute">балл</string>
+    <string name="second">секунда</string>
+    <string name="clock">колокол</string>
+    <string name="time">время:</string>
+    <string name="minute_format" formatted="false">%d балл</string>
+    <string name="minute_format_str" formatted="false">%s балл</string>
+    <string name="lesson_offline_resource">Кеш учебного материала</string>
+
+    <string name="dialog_content_clear_course">очистить данный Курс?</string>
+
+    <string name="practice_correct_answer">Правильный ответ:</string>
+    <string name="practice_user_answer">твой ответ</string>
+    <string name="practice_answer_analysis">парсинг</string>
+
+    <string name="about_activity_title">О нас</string>
+    <string name="feedback_activity_title">Обратная связь</string>
+    <string name="feedback_activity_submit">Подать отзыв</string>
+    <string name="pay_activity_title">Покупка курса</string>
+
+    <string name="login_confirm">Войти</string>
+    <string name="login_title">Вход по паролю</string>
+    <string name="login_bind">Связать</string>
+    <string name="login_no_account">Нет учетной записи</string>
+    <string name="login_bind_title">Привязать учетную запись ULearning</string>
+    <string name="login_bind_remind">После привязки можно напрямую войти в стороннее приложение</string>
+    <string name="logout_unbind_success_remind">Отвязано успешно</string>
+    <string name="logout_bind_success_remind">Подключение прошло успешно</string>
+    <string name="logout_bind_wechat_remind">Подтвердите убрать учетную запись из привязок?</string>
+    <string name="login_wechat_confirm">WeChat войти</string>
+    <string name="login_wechat_binded">Привязанный, нажмите Отвязать</string>
+    <string name="login_binded_now">Связать сейчас</string>
+    <string name="login_wechat_app_not_installed">Установите приложение WeChat client и не закрывайте его</string>
+    <string name="login_qq_confirm">Войти через QQ</string>
+    <string name="login_welcome">Приветствовать в ULearning</string>
+    <string name="login_name">Введите имя пользователя/мобильный телефон/адрес электронной почты</string>
+    <string name="login_password">Введите Пароль</string>
+    <string name="login_register">зарегистрироваться учетную запись</string>
+    <string name="login_forget_password">Забыть пароль</string>
+    <string name="register_activity_title">зарегистрироваться</string>
+
+    <string name="register_stu">Я Студент</string>
+    <string name="register_tea">Я учитель</string>
+
+
+    <string name="main_logout">На другом мобильном телефоне выполнен вход в вашу учетную запись. Подтвердите, что это вы. В случае отрицательного ответа, для усиления безопасности вашей учетной записи, рекомендуем вам изменить пароль.</string>
+
+    <string name="main_menu_courses_title">Курс</string>
+    <string name="main_menu_statistics_sync_success">История обучения синхронизирована</string>
+    <string name="main_menu_statistics_sync_failed">Простите, синхронизация неудачна.</string>
+    <string name="main_menu_statistics_review">Просмотр</string>
+    <string name="main_menu_setting_font_small">Маленький</string>
+    <string name="main_menu_setting_font_normal">С</string>
+    <string name="main_menu_setting_font_large">Большой</string>
+    <string name="main_menu_setting_clear_title">Очистить Загрузить Курсы</string>
+    <string name="main_menu_setting_service_title">Связаться со службой поддержки</string>
+
+    <string name="main_menu_setting_about_title">О нас</string>
+    <string name="main_menu_item_courselistgrade">Проходной балл за разговорные упражнения</string>
+    <string name="main_menu_setting_font_size">Измените размер букв</string>
+    <string name="main_join_class">Присоединиться к классу</string>
+    <string name="main_join_class_course">Вступать в онлайн-курс</string>
+    <string name="main_join_class_course_code_size">Код класса</string>
+    <string name="main_join_class_course_code_hint">Введите код онлайн-курса</string>
+    <string name="main_menu_option_upgrade_none_message">Текущая версия является самой высокой</string>
+    <string name="main_menu_invalid_warn_message">Введите допустимые данные</string>
+    <string name="main_menu_feedback_confirm_message">Подача прошла успешно, спасибо за Ваш отзыв.</string>
+
+    <string name="package_download_none_wifi_confirm">Нет Wi-Fi?! Загрузка курса будет потреблять трафик, будьте осторожны - ваш кошелек может опустеть!</string>
+    <string name="my_store_course_expired_label">Курс просроченный, невозможно Смотреть</string>
+
+    <string name="course_menu_glossaries_title">Глоссарий</string>
+    <string name="course_my_activity_count_title" formatted="false">Занятия этой недели （%d）</string>
+    <string name="course_my_grade_title">Оценки по курсу</string>
+    <string name="course_my_grade_test_title">Правила оценивания</string>
+    <string name="course_my_grade_score">Текущая оценка</string>
+    <string name="course_my_grade_end_time" formatted="false">Проверка знаний окончена, итоговый балл составляет %s</string>
+    <string name="course_my_grade_unend_time" formatted="false">Дедлайн проверки знаний — %s</string>
+    <string name="course_my_publish_time" formatted="false">%s опубликовать %s</string>
+    <string name="course_menu_bookmarks_title">Список избранных</string>
+    <string name="course_menu_notes_title">Список заметок</string>
+    <string name="course_menu_bookmarks_page_number">Страница %d</string>
+    <string name="course_menu_notes_page_number">Страница %d</string>
+    <string name="course_menu_notes_delete_dialog_message">Подтвердить удаление заметки?</string>
+    <string name="course_menu_notes_empty_message">Вы еще не добавили примечаний</string>
+    <string name="course_menu_bookmarks_delete_dialog_message">Подтвердить удаление закладки?</string>
+    <string name="course_checking_remind">Заявка на вступление в онлайн-курс подана. Пожалуйста, подождите проверки учителем</string>
+    <string name="course_select_change_remind">После внесения изменений в учебный материал, оценка проверки знаний участников может быть изменена. Подтвердите изменения?</string>
+    <string name="course_not_complete_remind">Вы ещё не закончили курс. Вы уверены, что хотите выйти?</string>
+    <string name="course_teach_group_finish">Вы создали педагогический коллектив, невозможно изменять режим</string>
+    <string name="course_complete_other_tea" formatted="false">Классы других учителей:
+%s</string>
+    <string name="course_join_give_up">отказаться от класса</string>
+
+    <string name="course_join_give_up_confirm">Подтвердите отказ от вступления в онлайн-курс?</string>
+    <string name="course_menu_bookmarks_empty_message">Вы еще не добавляли закладки</string>
+    <string name="course_detail_download_fail">Не удалось загрузить каталог курсов, позвоните в Службу поддержки клиентов по телефону 400 610 7808 для решения проблемы</string>
+    <string name="course_learn_page_option_submit">Подача</string>
+    <string name="course_learn_page_practice_score">Твоя оценка: %s балл</string>
+    <string name="course_learn_page_bookmark_add">Сохраненный</string>
+    <string name="course_learn_page_bookmark_remove">Удаление выполнено успешно</string>
+    <string name="course_learn_page_end_of_lesson">Это последняя страница</string>
+    <string name="course_learn_page_lei_empty_transcript">Исходный текст для аудирования не найден</string>
+    <string name="course_learn_page_lei_empty_record">сначала произведите запись звука</string>
+    <string name="course_learn_page_pronunciation_video_transcript">Исходный текст для прослушивания</string>
+    <string name="course_learn_objective_activity_title">Цели изучения</string>
+    <string name="course_learn_test_result_answer_wrong">ваш ответ: неправильный</string>
+    <string name="course_learn_test_result_answer_correct">Ваш ответ: правильный</string>
+    <string name="course_learn_lei_practice_answer_activity_title">Ответы к упражнениям курса</string>
+    <string name="course_learn_lei_role_play_help_option_a_title">отображать полную подсказку</string>
+    <string name="course_learn_lei_role_play_help_option_b_title">отображать подсказки раздела</string>
+    <string name="course_learn_lei_role_play_help_option_c_title">не отображать подсказку</string>
+    <string name="course_learn_file_remind">Предварительный просмотр этого файла не поддерживается.
+Ты можешь открыть его с помощью других приложений</string>
+
+    <string name="course_not_create_remind">Вы еще не создали курс</string>
+    <string name="course_not_join_remind">Вы еще не вступили в курс</string>
+    <string name="course_not_learning_remind">Нет текущих Курсов</string>
+    <string name="course_not_end_remind">Нет завершённых Курсов</string>
+
+    
+    <string name="coures_home_course_end">Курс завершён!</string>
+    <string name="coures_home_course_end_not_add">Вы не можете больше Изменять курс, публиковать новые ресурсы или занятия. Студент может продолжать просматривать Контент курса, но не может в него вступать</string>
+    <string name="coures_home_course_end_look">Для просмотра предыдущего учебного содержания и данных об обучении учащихся, пожалуйста, воспользуйтесь компьютером.</string>
+
+    
+    <string name="textbook_empty_remind">Пока нет учебных материалов, учебные материалы назначаются администратором курса</string>
+    <string name="textbook_empty_remind_stu">Пока нет учебного материала</string>
+    <string name="textbook_my_textbook_course">Следующие курсы используют учебный материал из этого учебника, пройдите курс для изучения</string>
+    <string name="textbook_select">Выбрать учебный материал</string>
+    <string name="textbook_out_of_date" formatted="false">Срок действия %s истекает</string>
+    <string name="textbook_is_out_of_date">Этот курс просрочен</string>
+    <string name="textbook_plan_chapter_out_of_date">Истекло время обучения для этого раздела</string>
+    <string name="textbook_plan_chapter_not_start">В настоящее время невозможно изучить данный раздел</string>
+
+    
+    <string name="activity_all_empty_stu">Нет опубликованной учебной деятельности!</string>
+    <string name="activity_all_empty_tea">Временно еще не опубликовано контент</string>
+    <string name="activity_type_empty">Нет занятия с соответствием условиям</string>
+    <string name="activity_not_start">занятие еще не началось</string>
+
+    <string name="course_select_title">Выбрать учебный материал, который вы преподаете</string>
+    <string name="class_select_title">Выбрать класс</string>
+    <string name="all_class">все</string>
+    <string name="comfirm">Подтвердите</string>
+
+    <string name="comfirm_num" formatted="false">Подтвердите (%s)</string>
+
+    <string name="comment_activity_comment_compose">добавить комментарий</string>
+    <string name="comment_activity_comment_my_compose">Мои комментарии</string>
+    <string name="comment_compose_create_activity_title">Написать комментарий</string>
+    <string name="comment_compose_reply_activity_title">ответить на комментарий</string>
+    <string name="comment_compose_send">Опубликовать</string>
+
+    <string name="downloads_clear_empty_message">Курсы, которые вы еще не скачали</string>
+    <string name="downloads_clear_clear">очищать</string>
+    <string name="downloads_clear_expired_date">Время истечения:</string>
+
+    <string name="setting_coursegrade_title">Настройки оценки курса</string>
+    <string name="setting_coursegrade_top_remind">Эти настройки действуют только на некоторые курсы</string>
+    <string name="setting_course_all">Единые настройки</string>
+    <string name="setting_course_one">Дифференцированные настройки для каждого класса</string>
+    <string name="setting_coursegrade_bottom_remind">* Балл за устное выступление студента ниже проходного не будет отображаться в оценке.
+*Эти настройки применимы только к мобильным курсам.</string>
+
+    
+    <string name="activity_null_remind_stu">Временно нет занятий~</string>
+    <string name="activity_null_remind_tea">Скорее приступайте к созданию занятия</string>
+
+
+    <string name="activity_publisher_name" formatted="false">Создатель: %s</string>
+    <string name="activity_duration" formatted="false">%s до %s</string>
+    <string name="activity_always_open">Долгосрочное открытое обсуждение</string>
+    <string name="activity_always_open_dis">Открыто в течение длительного времени</string>
+
+    <string name="activity_class" formatted="false">Класс: %s</string>
+    <string name="activity_classes" formatted="false">Классы: %d классов</string>
+
+
+    <string name="no_resource_remind">Вы еще не скачали файл, пожалуйста, вернитесь на страницу Модуля для скачивания аудио и видео.</string>
+    <string name="course_resource_error_remind">Курс поврежден. Позвоните по телефону 400 610 7808, и мы немедленно решим проблему.</string>
+    <string name="record_file_not_found_remind">Не найден файл Аудиозаписи или он был утерян.</string>
+    <string name="mipca_not_find_course_remind">К сожалению, страница, которую вы запросили, больше не доступна. Связаться с нами можно по телефону 400—610—7808.</string>
+    <string name="mipca_storecourse_null_remind">Курс не найден, проверьте, активирован ли он</string>
+    <string name="mipca_storecourse_null_remind_tea">Ваше учебное заведение не активировало данный курс, для прохождения свяжитесь с нами.</string>
+
+    <string name="archiveinfo">1.После архивации класса он не будет отображаться на главной странице учителя. 
+2. Нельзя просматривать текущую успеваемость заархивированных классов. 
+3. Нельзя настраивать учебный план для класса, задавать домашнюю работу, планировать экзамены, публиковать ресурсы и т. д. 
+4. На стороне студента этот класс больше не отображается. 
+5. Заархивированные классы можно восстановить, отменив архивацию.</string>
+    <string name="speaking_item1">1. После выполнения упражнения вы отправите последнюю аудиозапись. Загрузка аудиозаписи требует интернет-трафика, поэтому мы рекомендуем выбрать среду с Wi-Fi.</string>
+    <string name="speaking_item2">2. Вы можете заниматься и без подключения к сети, но Ваши записи не могут быть загружены. После подключения к сети нажмите «Синхронизировать обучение» для синхронизации записей и истории обучения.</string>
+
+    <string name="main_menu_item_selectcourse">Выбрать курс</string>
+    <string name="main_top_buycourse">Покупка курса</string>
+
+    <string name="remind_no_courseactive">Здесь пусто~
+Скорее активируйте курс</string>
+    <string name="remind_no_course_tea">Ваша организация еще не активировала курс
+Пожалуйста, свяжитесь с нами по Телефону службы поддержки клиентов 4006107808.</string>
+    <string name="remind_no_joinclass">Вы еще не вступили ни в один класс~</string>
+    <string name="remind_no_create_class">Вы еще не создали класс~</string>
+    <string name="remind_create_class">Создать класс</string>
+    <string name="remind_set_class">настройка Класса</string>
+    <string name="remind_select_model_of_teach">Выберите модель обучения и дополните курс</string>
+    <string name="remind_welcome_join_course">Приветствуем в курсе, 
+ Ваша роль в курсе</string>
+    <string name="remind_welcome_join_course_title">Приветствуем вас на Курсе</string>
+    <string name="remind_welcome_join_course_role">Ваша роль в этом курсе: %s</string>
+    <string name="remind_welcome_join_course_admin">Вы можете управлять используемыми в курсах учебными материалами, менять педагогический коллектив, просматривать список учеников для каждого класса, смотреть состояние преподавания в каждом из созданных классов, а также можете создать свой класс и начать преподавание.</string>
+    <string name="remind_finish_course">После окончания курса:
+Преподаватель не может публиковать новые ресурсы или задания, а также Изменить существующее содержание курса, он может только просматривать и Экспортировать данные с компьютера.
+Студент может Продолжить просмотр содержания курса, но не может больше вступать в курс.
+Подтвердите окончание курса?</string>
+    <string name="remind_exit_course">После выхода из курса, записи домашних работ, обсуждений, экзаменов и т.д. по вашему классу будут стерты, а история обучения с учебным материалом не будет затронута. Подтвердите, что вы хотите выйти?</string>
+    <string name="remind_clear_file_cache">Подтвердите очистку кеш-файлов выбранного Курса?</string>
+    <string name="remind_exit_course_fail">Не удалось выйти из Курса</string>
+    <string name="remind_exit_course_success">Вы успешно вышли с Курса. Если вам необходимо присоединиться к новому классу, попросите у учителя QR-код нового класса или Уникальный код класса.</string>
+
+    <string name="remind_exit_course_wait_for_review">Вы успешно Подача Прекращение посещения занятий заявка, Пожалуйста, ждать учитель проверка. Учитель Утвердить до может отозвать заявка.</string>
+    <string name="remind_delete_course">После удаления курс невозможно будет восстановить и те студенты, которые уже вступили в этот курс, не смогут продолжить изучение. Операцию следует проводить с осторожностью!</string>
+    <string name="remind_welcome_join_course_assistant">Администратор курса или учитель назначит вам класс, и вы сможете помочь учителю в обучении.</string>
+    <string name="remind_welcome_join_course_tea">Администратор курса может назначить вас в класс, или вы можете самостоятельно создать класс и преподавать в нем.</string>
+    <string name="remind_create_class_info">Создайте класс, назначьте учителя по предмету и пригласите студентов присоединиться к классу (также могут самостоятельно создать учителя класса)</string>
+    <string name="remind_create_class_info_tea">Создайте Ваш класс или ждите, пока администратор вас добавит.</string>
+
+    <string name="remind_create_class_info_ass">Пожалуйста, подождите, пока администратор назначит вас в класс или вы можете сразу приступить к курсу.</string>
+    <string name="remind_create_class_course">Если курс находится в совместном ведении методического объединения, достаточно, чтобы ответственный за курс создал курс и добавил других учителей в педагогический коллектив курса. Нет необходимости, чтобы каждый учитель создавал курс отдельно.</string>
+    <string name="remind_create_class_course_same_name" formatted="false">В нашей школе уже есть аналогичный курс (созданный преподавателем %s). Рекомендуем вам сначала связаться с разработчиком курса для обсуждения и подтверждения. Это поможет избежать неудобств, связанных с созданием дублирующих курсов.
+Продолжить создание?</string>
+    <string name="remind_modify_class_course_same_name" formatted="false">В нашей школе уже существует курс с таким же названием (созданный учителем: %s). Рекомендуется связаться с разработчиком курса для уточнения информации, чтобы избежать создания дублирующего курса.
+Сохранить?</string>
+    <string name="remind_create_class_info_person">Создайте класс и пригласите учащихся присоединиться к нему. (система устанавливает один класс по умолчанию, который можно изменить после того, как вы приступите к курсу)</string>
+    <string name="remind_select_course">Импортировать учебный материал</string>
+    <string name="remind_select_course_info">Импортируйте учебные материалы нашего учебного заведения с взаимодействием/из открытого курса, для самостоятельного изучения студента.</string>
+    <string name="remind_select_course_info_per">Импортировать учебные материалы интерактивных курсов / открытых курсов нашего учебного заведения, для самостоятельного изучения студентов.</string>
+    <string name="remind_select_course_info_is_admin">Создатель курса не назначил учебный материал;
+Не обязательно назначать - Вы можете публиковать ресурсы, домашние задания и другие учебные занятия</string>
+    <string name="remind_select_course_info_no_admin">Пока нет учебного материала
+Учебный материал назначает администратор курса.</string>
+
+    <string name="remind_group_teacher">Создание педагогического коллектива</string>
+    <string name="remind_add_teacher">Добавить преподавателя</string>
+    <string name="remind_add_teacher_info">Добавить других учителей в педагогический коллектив для совместного управления курсом, преподавания в классах.</string>
+    <string name="remind_add_teacher_info_per">Создайте класс и приглашайте учащихся присоединиться к классу. (Система по умолчанию создала класс, который можно изменить после начала курса)</string>
+    <string name="remind_add_teacher_info_tea">Создайте ваш Класс или ждите, пока администратор курса назначит вам Класс.</string>
+    <string name="remind_once_create_class_tea">Нажмите здесь, чтобы создать класс</string>
+    <string name="remind_once_create_class_stu">Нажмите здесь, чтобы добавить класс и активировать курс</string>
+
+    <string name="remind_join_class_course_wait_for_preview">Заявка на вступление подана. Пожалуйста, подождите, пока учитель проверит ее.</string>
+    <string name="remind_join_class_course_wait_for_preview_to_another">Вы подали заявку на другой класс данного курса, пожалуйста, ожидайте рассмотрения</string>
+    <string name="remind_join_class_course_has_joined">ты уже вступала в класс курса, пожалуйста, не вступай повторно</string>
+    <string name="remind_join_class_course_finished">Курс, которому принадлежит этот класс, завершён, поэтому присоединиться к нему невозможно</string>
+
+    <string name="remind_join_class_course_code_wrong">Введите правильный Уникальный код класса</string>
+    <string name="remind_join_class_course_tea">учитель не может работать сверхурочно, пожалуйста, свяжитесь с автором курса и попросите добавить вас в класс</string>
+    <string name="remind_join_class_course_already_existed">Ты уже участвуешь в другом классе этого курса, не вступай повторно; если ты вступил(а) в неправильный класс, свяжись с учителем для изменения класса</string>
+    <string name="remind_join_class_course_different_org" formatted="false">Текущий школа:
+%s
+После присоединения к Онлайн-курсу информация о твоей школе будет изменена на
+%s
+Подтверждаешь ли ты присоединение к этому Онлайн-курсу?</string>
+
+    <string name="remind_once_main_tab_mine">Просмотр моего школьного класса, сообщений, профиля и приложений здесь</string>
+    <string name="remind_tools_empty">Нет доступных приложений</string>
+    <string name="remind_once_main_tab_activity">Домашние задания и школьные занятия здесь</string>
+    <string name="remind_once_lookup_student_course_progress">Кликните на иконку, чтобы просмотреть текущую успеваемость студента</string>
+    <string name="remind_once_public_activity">Нажмите, чтобы инициировать занятие класса</string>
+    <string name="remind_once_show_or_edit_profile">Нажмите, чтобыпросмотреть и заполнить персональные данные</string>
+    <string name="remind_once_sync_study_record">Нажмите, чтобы синхронизировать История обучения</string>
+    <string name="remind_sync_record_ing">Синхронизируется</string>
+    <string name="remind_sync_record_success">Синхронизация успешна</string>
+    <string name="remind_sync_record_fail">Синхронизация не удалась, попробуйте обновить</string>
+    <string name="remind_once_download_course_resource">Скачать офлайн-учебный материал, можно и изучать</string>
+    <string name="remind_once_collect_course_page">Нажмите, чтобы сохранить содержимое страницы</string>
+    <string name="remind_once_section_study_undone">Ты не завершил страницу, нажми на серую
+иконку, чтобы вернуться и продолжить изучение</string>
+    <string name="remind_once_course_content">Нажмите на обложку, чтобы просмотреть содержание курса</string>
+    <string name="remind_once_course_progress_student">Нажмите на иконку, чтобы просмотреть прогресс студента</string>
+
+
+    
+    <string name="message_remind">Уведомление о сообщении</string>
+    <string name="message">сообщение</string>
+    <string name="voice">звук</string>
+    <string name="move_up_to_cancel">Проведите пальцем вверх, чтобы Отменить отправку</string>
+    <string name="release_to_cancel">Уберите палец, чтобы Отменить отправку</string>
+    <string name="The_recording_time_is_too_short">Слишком короткое время записи</string>
+
+    <string name="notify">новое напоминание о сообщении</string>
+    <string name="newnotify">Получайте уведомления о новых Сообщениях</string>
+    <string name="shake">вибрация</string>
+    
+
+
+    <string name="file">файл</string>
+    <string name="folder">каталог</string>
+    <string name="include">%1$s файлов, %2$s каталогов</string>
+    <string name="yes">Да</string>
+    <string name="no">Нет</string>
+
+    <string name="detail_exam_submited">Ты успешно подал экзаменационную работу</string>
+    <string name="detail_exam_public">Класс опубликовал Экзамен</string>
+    <string name="feedback_default_text">Спасибо, что Вы выбрали ULearning. Каждый Ваш отзыв, мы воспринимаем всерьёз и делам выводы.</string>
+    <string name="download_wait_text">ждать</string>
+
+    <string name="download_normal_text">Кешированные учебные материалы</string>
+    <string name="download_normal">Скачать</string>
+    <string name="download_pause">Пауза</string>
+    <string name="download_clear_section_all">очищать ресурсы раздела</string>
+
+    <string name="person_info_1">Если у вас нет Курсов в вашей учетной записи, вы можете связаться с нами. Телефон: 400—610—7808</string>
+    <string name="person_info_2">После проверки ваших данных вы можете бесплатно попробовать наши курсы, планы уроков, банк вопросов и другие, преподавательские услуги.</string>
+    <string name="person_info_have_tel">После связывания вы можете использовать новый номер мобильного телефона для входа в систему</string>
+    <string name="person_info_not_have_tel">Чтобы было проще восстанавливать пароль, привяжите свой номер мобильного телефона. После привязки можно будет входить с помощью нового номера</string>
+
+    <string name="permission_string_help_text">Система не может получить доступ к вашему Микрофону, возможно, он занят или отключен.
+Включите Микрофон или освободите его и попробуйте заново.</string>
+    <string name="permission_camera_string_help_text">доступ к камере невозможен. Включите право на ее использование приложением.</string>
+    <string name="permission_hint">Подсказка по правам</string>
+
+
+    <string name="filter_vcode" translatable="false">0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="login_error_message_no_connection">Текущая сеть недоступна. Проверьте свои сетевые настройки.</string>
+    <string name="networkerror">Текущая сеть недоступна, проверьте сетевое соединение</string>
+    <string name="empty_data_error">Не удалось запросить данные, попробуйте потянуть вниз для обновления</string>
+    <string name="exception_parse_json_error">Ошибка парсинга данных, обращайтесь по телефону</string>
+    <string name="package_download_none_network_message">Текущая сеть недоступна. Проверьте сетевое соединение.</string>
+    <string name="network_timeout">Сеть не работает должным образом. Истекло время ожидания доступа. Попробуйте немного позже.</string>
+    <string name="network_error_url">Не удалось найти запрашиваемый контент. Позвоните по номеру 4006107808.</string>
+    <string name="network_error_server">неправильный доступ к серверу, позвоните 4006107808</string>
+    <string name="network_error_json">Ошибка парсинга данных, Пожалуйста, позвоните 4006107808</string>
+    <string name="server_data_error">Ошибка обновления данных. Попробуйте перезагрузить страницу.</string>
+
+    <string name="font_size">Настройка размера шрифта</string>
+    <string name="font_small">маленький</string>
+    <string name="font_middle">я</string>
+    <string name="font_big">Крупный</string>
+
+
+    <string name="active_tab_all_space">все</string>
+    <string name="course_app_work_space">Домашняя работа</string>
+    <string name="course_app_discuss_space">обсуждение</string>
+    <string name="course_app_live_space">Прямой эфир</string>
+    <string name="course_app_class_space">класс</string>
+
+
+    
+    <string name="area_select_title">Выбрать область</string>
+    <string name="area_select_latin_america">Латинская Америка</string>
+    <string name="area_select_asia_pacific">Азиатско-Тихоокеанский регион</string>
+    <string name="area_select_mainland_china">Китай</string>
+    <string name="area_select_south_africa">Африка</string>
+
+    
+    <string name="server_msg_repeat_folder">Уже существует папка с тем же названием. Измените название папки!</string>
+    <string name="first_in_resource_icon_name">pop_resource</string>
+    <string name="first_in_activity_icon_name">pop_activity</string>
+
+    <string name="server_msg_course_name_unmatched">Длина названия курса должна быть в пределах от 2 до 100 букв</string>
+
+    <string name="agreement_title">Пользовательское соглашение и конфиденциальность</string>
+    <string name="agreement_ok_accept">согласиться и использовать</string>
+    <string name="agreement_no_accept">не согласен</string>
+    <string name="agreement_no_accept_and_exit">не согласен и Выход</string>
+    <string name="agreement_no_accept_content">Вы не согласны и не можете пользоваться нашими продуктами и услугами. Выйдите из Мобильное приложение.</string>
+    <string name="activity_public_homework">Опубликовать домашнюю работу</string>
+    <string name="activity_more_count" formatted="false">%d класс</string>
+    <string name="my_resource">Репозиторий ресурсов</string>
+    <string name="token_out_of_date">Срок действия сеанса истёк. Войдите снова!</string>
+    <string name="main_tab_weike">Микроурок</string>
+    <string name="type_weike">Микроурок</string>
+    <string name="right_publish_homework">Добавить домашнее задание</string>
+    <string name="right_publish_discuss">Начать обсуждение</string>
+    <string name="edit">Редактирование</string>
+    <string name="text_course_publish_date" formatted="false">%s опубликовать</string>
+
+    <string name="publish">опубликовать</string>
+
+    <string name="app_launch1">Мобильное приложение на базе ОС Андроид 1</string>
+    <string name="app_launch2">Мобильное приложение Андроид</string>
+    <string name="app_launch3">Мобильное приложение Операционная система Андроид 3</string>
+    <string name="app_launch4">Мобильное приложение Операционной системы Андроид с идентификатором 4</string>
+    <string name="textbook_cache" formatted="false">Кэш: %s</string>
+    <string name="more_language">Смена языка</string>
+
+
+    <string name="login_sms">вход через SMS</string>
+    <string name="login_sms_code">Вход через SMS на мобильный телефон</string>
+    <string name="login_sms_only_china">Вход через SMS поддерживается только для номеров мобильных телефонов материкового Китая</string>
+    <string name="bind_account">Привязать учетные записи</string>
+    <string name="not_account">Нет учетной записи?</string>
+    <string name="to_register">зарегистрироваться</string>
+    <string name="account_manager">Управление учетной записью</string>
+    <string name="mine">Мой</string>
+    <string name="instructions">инструкция по эксплуатации</string>
+    <string name="school_info">Информация об организации</string>
+    <string name="school">школа/организация</string>
+    <string name="school_num">Номер учащегося/табельный номер</string>
+    <string name="bind_other_account">Связать стороннюю учетную запись</string>
+    <string name="logout_account">Выйти из учетной записи</string>
+    <string name="logout_account_success">Выход из учетной записи успешный</string>
+    <string name="to_bind">отвязать</string>
+    <string name="to_unbind">разорвать связь</string>
+
+    <string name="input_phone_error">Неверный ввод номера мобильного телефона</string>
+    <string name="input_img_verify_code">Введите код подтверждения</string>
+    <string name="input_sms_code_error">Ошибка ввода кода подтверждения</string>
+    <string name="switch_to_student">Переключить на режим студента</string>
+    <string name="switch_to_teacher">Переключить в учительский режим</string>
+    <string name="student_mode_not_modify_info">В режиме студента нельзя Изменить данные своей учетной записи</string>
+    <string name="student_mode">Студенческий режим</string>
+    <string name="select_country_area">Выбрать страну/регион</string>
+    <string name="bind_phone">Связать мобильный телефон</string>
+    <string name="bind_email">Связать адрес электронной почты</string>
+    <string name="other_login_type">Другие способы войти</string>
+
+    <string name="please_input_email">Введите адрес электронной почты</string>
+    <string name="change_bind_email">Изменить/связать адрес электронной почты</string>
+    <string name="single_register">Регистрация человека</string>
+    <string name="bind_welcom_info">Уважаемый пользователь, во избежание проблем с безопасностью аккаунта, привяжите номер мобильного телефона или адрес электронной почты (минимум один вариант).</string>
+    <string name="school_num_input_hint">Введите строку длиной от 4 до 20 символов</string>
+
+
+    <string name="select_region">Выбрать область</string>
+    <string name="select_region_message">ULearning предоставляет независимые услуги для разных регионов. Пожалуйста, выберите группу, к которой относится ваша организация, перед тем, как войти.</string>
+    <string name="latin_america">Латинская Америка</string>
+    <string name="asia_pacific">Азиатско-Тихоокеанский регион</string>
+    <string name="china_mainland">Китай</string>
+
+
+    <string name="zambia">Замбия</string>
+    <string name="africa">Африка</string>
+    <string name="sandBox">песочница</string>
+    <string name="warning_new_pwd_null">Введите новый пароль</string>
+    <string name="warning_pwd_length">Длина пароля от 6 до 16 символов</string>
+
+    <string name="tip_type_not_image">Вы выбрали не изображение</string>
+    <string name="tip_no_camera">Нет камеры</string>
+    <string name="tip_tips">подсказка</string>
+    <string name="tip_compress">Сжимаем Фотографию</string>
+    <string name="tip_compress_failed">%1$s Сжатие изображения не удалось:%2$s
+picturePath:%3$s</string>
+    <string name="msg_crop_failed">Есть изображения с неудачной обрезкой</string>
+    <string name="msg_compress_failed">Есть сжатые изображения с неудачей</string>
+    <string name="msg_crop_canceled">Отменить кадрирование</string>
+    <string name="msg_operation_canceled">Операция отменена</string>
+    <string name="tip_permission_camera">Нет права на использование камеры. Пожалуйста, включите ее в управлении правами.</string>
+    <string name="tip_permission_storage">Нет права использовать SD-карту, включите управление правами</string>
+    <string name="tip_permission_camera_storage">Отсутствуют права к камере и SD-карте. Включите их в управлении правами.</string>
+
+    <string name="file_type_not_support">Не поддерживается тип файла</string>
+
+    
+    <string name="album_view">Выбрать изображение</string>
+    <string name="image_view">Нажмите кнопку выбрать</string>
+
+    <string name="add">Подтвердите</string>
+    <string name="selected">Выбранный</string>
+    <string name="limit_exceeded">максимальный %d шт.</string>
+
+    <string name="permission_info">Для просмотра изображений мобильному приложению
+требуется разрешение для доступа к хранилищу.</string>
+    <string name="permission_force">Мобильному приложению необходимы 
+разрешения к хранилищу для просмотра изображений. Щелкните «Настройки» и перейдите в раздел «Разрешения» для предоставления разрешений.</string>
+    <string name="permission_ok">OK</string>
+    <string name="permission_settings">Настройки</string>
+    <string name="permission_package">пакет</string>
+
+    <string name="select_local_file">Выбрать локальный файл</string>
+    <string name="select_local_file_help">Если целевой файл не отсканирован, пожалуйста, выберите с локального компьютера</string>
+
+    <string name="file_size_too_big">Если размер файла более 200 МБ, загрузите его с компьютера!</string>
+
+    <string name="voted">Голосовать</string>
+    <string name="not_voted">Новое</string>
+    <string name="absence">неявка</string>
+    <string name="arrived">Прибыл</string>
+    <string name="sign_success">Регистрация прошла успешно</string>
+    <string name="be_late">Опоздание</string>
+    <string name="leave_early">уходить досрочно</string>
+    <string name="sick_leave">больничный</string>
+    <string name="leave_story">Отпуск по личным обстоятельствам</string>
+    <string name="has_rate">Проверенный</string>
+    <string name="commited">Представлено</string>
+    <string name="wait_rate">Задания на проверке</string>
+    <string name="not_commit">Не подан</string>
+    <string name="evaluationed">оценено</string>
+    <string name="evaluation_ing">взаимооценка</string>
+    <string name="not_evaluation">Неоценено</string>
+    <string name="not_group_evaluation">Ожидает взаимооценки</string>
+    <string name="un_answer">Не отвечено</string>
+    <string name="un_select">Не выбрано</string>
+
+    <string name="to_be_rated">Ожидает оценки</string>
+    <string name="rated">оцененный</string>
+    <string name="re_write">Необходимо переписать</string>
+    <string name="un_join">не участвовал</string>
+    <string name="complain_success">апелляция успешная</string>
+    <string name="study_complete">Завершено обучение</string>
+    <string name="not_study">Не изучен</string>
+    <string name="study_progress">Прогресс обучения</string>
+    <string name="not_exam">Неявка</string>
+    <string name="not_show_result">не объявлять оценки</string>
+    <string name="wait_reta">Задания на проверке</string>
+    <string name="home_work_type">Тип задания</string>
+    <string name="submit_status">Текущее состояние</string>
+    <string name="deadline_not_submit">несвоевременная сдача</string>
+    <string name="integral">Балл</string>
+    <string name="has_join">Присоединился</string>
+    <string name="complaining">в апелляции</string>
+    <string name="main_talk_person">Лектор</string>
+    <string name="complain_fail">Неудача апелляции</string>
+    <string name="not_reta_wait_teacher">Задания на проверке</string>
+
+
+    <string name="version_updating">Обновляется</string>
+    <string name="dialog_new_version_title">Новая версия!</string>
+    <string name="update">Обновление</string>
+
+    <string name="permisstion_store_hint">Ваш мобильный телефон запрещает ULearning APP Скачать учебный материал!
+
+Пожалуйста, предоставьте ULearning APP право на чтение и запись карты памяти.</string>
+    <string name="permisstion_store_record_hint">Для аудиозаписи требуется использовать Ваше хранилище. 
+Пожалуйста, предоставьте ULearning APP разрешение на чтение карты памяти.</string>
+
+    <string name="operation_look_storage_permisstion_setting">Просмотр настроек</string>
+    <string name="dont_update">Больше не напоминать</string>
+    <string name="course_player_loading">Идет обновление плеера курса, пожалуйста, подождите </string>
+    <string name="course_player_unzip">Учеба сейчас начнется. Пожалуйста, подождите.</string>
+    <string name="srl_header_pulling">Потяните вниз, чтобы обновить</string>
+    <string name="srl_header_refreshing">Обновление…</string>
+    <string name="srl_header_loading">Загрузка…</string>
+    <string name="srl_header_release">Отменить Обновить сразу</string>
+    <string name="srl_header_finish">Обновление завершено</string>
+    <string name="srl_header_failed">Обновить не удалось</string>
+    <string name="srl_header_update">Последнее обновление M-d HH:mm</string>
+    <string name="srl_header_secondary">Разблокировать, чтобы войти на 2-й этаж</string>
+
+    <string name="srl_footer_pulling">подтяните, чтобы загрузить еще</string>
+    <string name="srl_footer_release">Освободить для немедленной загрузки</string>
+    <string name="srl_footer_loading">Загрузка…</string>
+    <string name="srl_footer_refreshing">Обновляется…</string>
+    <string name="srl_footer_finish">Загрузка завершена</string>
+    <string name="srl_footer_failed">Не удалось загрузить</string>
+    <string name="srl_footer_nothing">Больше нет данных</string>
+
+    <string name="srl_content_empty">В SmartRefreshLayout не найдено представления контента. Возможно, вы забыли добавить его в XML-файл макета?</string>
+    <string name="srl_component_falsify" formatted="false">%s фиктивный участок
+представляет высоту перетаскивания во время выполнения 【%.1fdp】 
+но не показывает ничего</string>
+
+    <string name="pull_to_refresh_pull_label">Потяните, чтобы обновить</string>
+    <string name="pull_to_refresh_release_label">опубликовать, чтобы обновить</string>
+    <string name="pull_to_refresh_refreshing_label">загружается</string>
+
+
+    <string name="feedback_hint">Оставьте свой отзыв или предложение</string>
+    <string name="feedback_log_hint">Подача лога</string>
+    <string name="only_add_ten_textbook">Добавлять можно не более 10 учебных материалов.</string>
+    <string name="document_no_support_down">Документы временно не поддерживают кэширование.</string>
+    <string name="teacher_not_support">Учителя не поддерживают эту функцию.</string>
+
+    <string name="app_setting">Настройки приложения</string>
+    <string name="server_setting">сервер</string>
+    <string name="language_setting">Язык</string>
+    <string name="cube_ptr_pull_down">раскрывающийся</string>
+    <string name="cube_ptr_pull_down_to_refresh">Потяните
+вниз, чтобы обновить</string>
+    <string name="cube_ptr_release_to_refresh">Обновите для выпуска</string>
+    <string name="cube_ptr_refreshing">Обновляется</string>
+    <string name="cube_ptr_refresh_complete">Обновлено</string>
+
+    <string name="cube_ptr_last_update">последнее обновление:</string>
+
+    <string name="cube_ptr_seconds_ago">секунд
+назад</string>
+    <string name="cube_ptr_minutes_ago">минут назад</string>
+    <string name="cube_ptr_hours_ago">часов назад</string>
+
+    <string name="exit_class_ing">Заявка на Выход из Курса отправлена. Пожалуйста, ждите проверки учителем.</string>
+    <string name="exit_class_cancel">Отменить</string>
+    <string name="active_code_use">Код активации
+    может быть использован только один раз. Если активация была произведена не вами, свяжитесь с Одноклассниками, чтобы узнать, не перепутали ли вы Учебники, или свяжитесь со Службой поддержки клиентов.</string>
+    <string name="active_code_use_person">Код активации использован, активировать учетную запись:</string>
+    <string name="exit_class_finish">Вы вышли из курса</string>
+
+    <string name="permission_apply">Заявка на права</string>
+    <string name="permission_overlay">Чтобы обеспечить для вас возможность использования следующего функционала ULearning, нужно предоставить для ULearning права в режиме многозадачности: 
+
+Трансляция экрана, Прямой эфир</string>
+    <string name="permission_camera">Чтобы гарантировать полноценное использование нижеперечисленных функций ULearning, вам необходимо предоставить ULearning доступ к камере:
+
+Сканирование, загрузка/изменение аватара, загрузка вложений в виде фотографий в модулях объявления, голосования, задания и экзамен, проверка по лицу и видеонаблюдение в режиме экзамена, видеоурок во время прямой трансляции, видеовызовы между преподавателем и учеником, система служба поддержки клиентов.</string>
+    <string name="permission_location">Для нормального использования функций регистрации, экзамена и трансляции экрана в ULearning необходимо предоставить ULearning право на доступ к информации о местоположении.</string>
+    <string name="permission_microphone">Чтобы вы могли нормально пользоваться следующими функционалами в ULearning, вам нужно уполномочить ULearning получить право на использование микрофона:
+
+Упражнения на устную речь, домашняя работа по устной речи, проверка словарного запаса на слух, устная оценка, устные экзамены, прямой эфир, служба поддержки клиентов.</string>
+    <string name="permission_camera_fail">Вы отключили право на доступ к камере, невозможно использовать эту функцию. Войдите в Настройки мобильного телефона para предоставить уполномочивание.</string>
+    <string name="permission_microphone_fail">Вы отключили право на аудиозапись, не может использовать данную функцию, пожалуйста, зайдите в раздел [настройки] на вашем телефоне, чтобы предоставить право</string>
+    <string name="permission_location_fail">Вы отключили разрешение на определение местоположения. Невозможно пользоваться этой функцией. Пожалуйста, зайдите в «Настройки» на своем мобильном телефоне, чтобы авторизоваться.</string>
+    <string name="permission_read_external">Для корректной работы следующих функций в ULearning вам следует предоставить ULearning право доступа к хранилищу:
+
+Чтение данных кеша приложения, изображения, файлы</string>
+    <string name="permission_read_storage_fail">Вы отключили право на чтение хранилища, невозможно использовать эту функцию. Войдите в [настройки] мобильного телефона для уполномочивания.</string>
+    <string name="permission_camera_microphone_fail">Вы отключили права на использование камеры или микрофона. Для использования этой функции перейдите в [Настройки] телефона и разрешите доступ.</string>
+
+    <string name="title_of_top">Прикрепить наверху</string>
+    <string name="item_all_class">Все классы</string>
+    <string name="sso_login">Войти через SSO</string>
+    <string name="select_file_count_to_many">Выбрано слишком много файлов</string>
+
+    <string name="not_allow_double_tap">Не нажимайте часто</string>
+    <string name="title_of_projection">Трансляция экрана</string>
+    <string name="projection_on">Трансляция экрана идет</string>
+    <string name="stop">остановить</string>
+    <string name="permission_location_wifi_fail">Вы отключили разрешение на определение местоположения, невозможно получить название Wi-Fi, пожалуйста, войдите в настройки мобильного телефона, чтобы авторизовать</string>
+    <string name="screen_fail_1">Трансляция экрана не прошла! Откройте клиент Большого экрана, откройте функцию трансляции экрана, убедитесь, что мобильный телефон и Большой экран находятся в одной локальной сети.</string>
+    <string name="screen_fail_2">Перезагрузка принимающего устройства или разрыв соединения с сетью</string>
+
+    <string name="not_run_on_virtualmachine">Не запускайте Мобильное приложение в виртуальной машине / имитаторе</string>
+
+    <string name="not_group_score_announced">Оценки не объявлены</string>
+    <string name="screen_msg">Нестабильная Сеть может привести к потере Изображения Трансляции экрана, если на Большом экране в течение длительного Времени не отображается Изображение мобильного телефона, можно остановить и снова Транслировать экран.</string>
+    <string name="screen_device">устройство</string>
+    <string name="screen_network">Сеть</string>
+    
+    <string name="trans_error">Невозможно разобрать формат Кода файла, попробуйте перекодировать в mp4 и после этого Загрузить.</string>
+    <string name="malaysia">Малайзия</string>
+
+    <string name="import_something">импортировать</string>
+    <string name="add_something">добавлять</string>
+    <string name="class_setting">настройки</string>
+    <string name="permission_read_phone_state">Чтобы вы могли беспрепятственно пользоваться следующими функциями ULearning, вам нужно выдать ULearning права доступа к телефону, получить сведения о состоянии звонка и сетевой информации:
+
+Сообщение</string>
+    <string name="permission_read_phone_state_fail">Вы отключили разрешение на доступ к телефону. невозможно использовать данную функцию. Войдите в раздел [Настройки] на мобильном телефоне, чтобы предоставить разрешение.</string>
+
+    <string name="active_tab_photo_upload">Фотографировать и загружать</string>
+
+    <string name="active_item_normal_live">Потоковая трансляция урока</string>
+    <string name="active_item_tencent_live">Тенсент Конференция</string>
+    <string name="permission_write_external">Для нормальной работы в ULearning с нижеперечисленным функционалом, предоставьте ему право использовать хранилище:
+
+хранить кеш-данные приложения, изображения, файлы</string>
+    <string name="permission_write_storage_fail">Вы отключили право на использование хранилища. Невозможно использовать эту функцию. Войдите в «Настройки» на своем мобильном телефоне и предоставьте уполномочивание.</string>
+    <string name="scan_and_activate_book">Сканировать QR-код активировать Учебник</string>
+
+    <string name="live_order_asc">По хронологическому порядку</string>
+    <string name="live_order_des">в обратном порядке времени</string>
+    <string name="file_not_supported">Не поддерживаются данный тип файла</string>
+    <string name="unable_to_identify">неузнаваемый?</string>
+    <string name="code_enter_exam">Войти с помощью кода подтверждения</string>
+    <string name="active_tab_answer_sheet">ответить</string>
+
+    <string name="crop_saving">Сохраняется фотография…</string>
+    <string name="crop_wait">Пожалуйста, подождите</string>
+    <string name="crop_pick_error">недействительное изображение</string>
+
+    <string name="crop_done">Завершить</string>
+    <string name="crop_cancel">Отменить</string>
+    <string name="crop_rotate">Повернуть</string>
+
+    <string name="warning_pwd_type">8-16 символов, содержащих минимум 3 типа символов (цифры, прописные буквы, строчные буквы или специальные символы)</string>
+    <string name="hint_input_new_pwd_rule">8-16 символов, как минимум 3 типа символов (цифры, заглавные буквы, строчные буквы или спецсимволы)</string>
+    <string name="token_expired_msg">Данные для входа устарели, пожалуйста, войдите снова</string>
+    <string name="manual_login">Пожалуйста, Выйти из системы и войти вручную</string>
+    <string name="course_app_units">Модуль</string>
+    <string name="unable_modify_username">Студентам запрещено менять свое имя в нашей школе.
+Если вам нужно внести изменения, свяжитесь с администратором школы или службой поддержки клиентов.</string>
+
+    <string name="remind_tea_exit_class">Выход из курса не приведёт к удалению созданного вами в данном курсе класса, а также опубликованных ресурсов и занятий. В случае отсутствия других учителей, ответственных за ваш класс, он будет передан создателю курса. Подтвердите выход из курса?</string>
+
+    <string name="resource_num" formatted="false">%d ресурсов</string>
+    <string name="resource_num_unread" formatted="false">%d непрочитанных</string>
+    <string name="resource_unread">Непросмотренный</string>
+    <string name="resource_read">отмечено как прочитанное</string>
+    <string name="resource_watch">Просмотренный</string>
+    <string name="teaching_activities_notification">Сообщение об учебных занятиях</string>
+    <string name="test_work">Тест</string>
+    <string name="question_bank">Банк вопросов</string>
+    <string name="operation_check_all_unfold">развернуть</string>
+    <string name="login_org">Учетная запись организации</string>
+    <string name="login_org_title">Войти в систему под своей учетной записью организации</string>
+    <string name="login_org_hint">Введите название организации</string>
+    <string name="login_org_hint2">Введите правильное название организации</string>
+    <string name="login_name_hint">Введите номер учащегося/табельный номер</string>
+    <string name="permission_bluetooth">Для возможности использования нижеперечисленных функций в ULearning, предоставьте ULearning доступ к ближайшим устройствам:
+
+ Прямой эфир</string>
+    <string name="permission_nearby_wifi_devices">Чтобы гарантировать нормальное использование указанного функционала в ULearning, необходимо уполномочить ULearning на доступ к близлежащим Wi-Fi устройствам.
+
+Трансляция экрана</string>
+    <string name="permission_bluetooth_fail">Вы отключили разрешение для близлежащих устройств, невозможно использовать эту функцию, Войдите в [Настройки] мобильного телефона для авторизации</string>
+    <string name="login_sms_2">СМС</string>
+    <string name="login_wechat_confirm_2">WeChat</string>
+</resources>

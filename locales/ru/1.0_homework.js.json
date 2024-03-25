@@ -1,1 +1,850 @@
-{}
+{
+    "appeal": {
+        "message": "апелляция",
+        "description": ""
+    },
+    "reDoText": {
+        "message": "Требуется переписать",
+        "description": ""
+    },
+    "importSucTxt": {
+        "message": "Импорт успешно выполнен!",
+        "description": ""
+    },
+    "fileSizeText": {
+        "message": "Размер файла: {size}",
+        "description": ""
+    },
+    "checkAllMemebers": {
+        "message": "Просмотр всех 12 учеников>>",
+        "description": ""
+    },
+    "saveDraftSuccess": {
+        "message": "Черновик сохранен",
+        "description": ""
+    },
+    "mediaDocText": {
+        "message": "Медиа-файл",
+        "description": ""
+    },
+    "noStuTip": {
+        "message": "Каждая группа должна иметь как минимум одного студента",
+        "description": ""
+    },
+    "syntaxError": {
+        "message": "【Синтаксическая ошибка】{message}",
+        "description": ""
+    },
+    "scoreProfile": {
+        "message": "Студенты выполняют фонетические упражнения, читая стоящий перед ними текст. Система автоматически сверяет произношение с текстом и дает оценку, это исключает необходимость преподавателю проверять работы каждого по отдельности. После системной оценки преподаватели также могут вносить изменения вручную.",
+        "description": ""
+    },
+    "evaluation": {
+        "message": "Количество домашних работ, выполненных оцененных этим студентом ",
+        "description": ""
+    },
+    "noMark": {
+        "message": "Домашняя работа данного студента не была ранее оценена одноклассниками и требует вашей проверки.",
+        "description": ""
+    },
+    "documentLoading": {
+        "message": "Загрузка ресурсов документов...",
+        "description": ""
+    },
+    "saveDraft": {
+        "message": "сохранить черновик",
+        "description": ""
+    },
+    "evaluateTimeText": {
+        "message": "Время оценки: {time}",
+        "description": ""
+    },
+    "topicNoempty": {
+        "message": "Домашняя работа, вопросы, не могут быть пустыми.",
+        "description": ""
+    },
+    "submitHomeworkFail": {
+        "message": "Не удалось отправить домашнюю работу",
+        "description": ""
+    },
+    "selectQ": {
+        "message": "Выберите тест",
+        "description": ""
+    },
+    "other": {
+        "message": "Разное",
+        "description": ""
+    },
+    "meanScoreText": {
+        "message": "Средний балл взаимооценки: {text}",
+        "description": ""
+    },
+    "sentenceError2": {
+        "message": "【лексическая ошибка】{message}, рекомендуется использовать {replace};",
+        "description": ""
+    },
+    "loginTimeOutText": {
+        "message": "Время сеанса истекло. Сохраните локально важную информацию и войдите снова!",
+        "description": ""
+    },
+    "answerRequire": {
+        "message": "Введите количество попыток",
+        "description": ""
+    },
+    "studentEvaluationsText": {
+        "message": "Оценки одноклассников",
+        "description": ""
+    },
+    "autoRemark": {
+        "message": "Выберите способ оценивания",
+        "description": ""
+    },
+    "uploadRecordText": {
+        "message": "Загрузите аудиозапись",
+        "description": ""
+    },
+    "myAssignmentText": {
+        "message": "Домашняя работа",
+        "description": ""
+    },
+    "noError": {
+        "message": "Ваша статья хороша, грамматических ошибок не обнаружено. Продолжайте в том же духе!",
+        "description": ""
+    },
+    "assignmentRequired": {
+        "message": "Требования к домашней работе превышают 5000 символов",
+        "description": ""
+    },
+    "selectEndTime": {
+        "message": "Выберите крайний срок сдачи",
+        "description": ""
+    },
+    "addMsgText": {
+        "message": "добавить комментарий",
+        "description": ""
+    },
+    "prejectStart": {
+        "message": "Запускается...",
+        "description": ""
+    },
+    "topicThanMore": {
+        "message": "Заголовок Домашней работы не должен быть короче 3 символов и не должен превышать 50 символов",
+        "description": ""
+    },
+    "caseText": {
+        "message": "При отправке, редактировании и отзыве задания, учитывайте мнение других учеников, не изменяйте и не удаляйте произвольно задания, что может повлиять на оценки всех учеников.",
+        "description": ""
+    },
+    "errorLogText": {
+        "message": "Запуск проекта идет. Не закрывайте эту страницу. Если запуск не удался, отображается журнал ошибок.",
+        "description": ""
+    },
+    "uploadFileText2": {
+        "message": "Загрузите файл",
+        "description": ""
+    },
+    "determinaWorkText": {
+        "message": "Подтвердите отмену домашней работы? Пожалуйста, убедитесь, что у тебя есть согласие других учеников группы.",
+        "description": ""
+    },
+    "complaintFailText": {
+        "message": "Апелляция не удалась",
+        "description": ""
+    },
+    "automaticText": {
+        "message": "Это Домашняя работа с автоматическим оцениванием. Весь контент должен быть изучен за 2 минуты, иначе система выдаст неудачу!",
+        "description": ""
+    },
+    "countMax": {
+        "message": "Численность группы максимальная - 20 человек",
+        "description": ""
+    },
+    "teacherSetText": {
+        "message": "Учитель настроил систему на автоматическую проверку домашних работ по английскому языку. В твоей работе количество слов составляет меньше 10. Система оценит ее на {score} баллов. Подтверждаешь ли ты отправку?",
+        "description": ""
+    },
+    "inputCountEach": {
+        "message": "Введите численность для каждой группы",
+        "description": ""
+    },
+    "groupAssignmentText": {
+        "message": "Это групповая работа. Пожалуйста, работайте вместе с участниками группы и закончите ее",
+        "description": ""
+    },
+    "checkComplaintText": {
+        "message": "Просмотр причины апелляции",
+        "description": ""
+    },
+    "workThanMoreText": {
+        "message": "Не превышать 3000 букв",
+        "description": ""
+    },
+    "uploadFileTipTxt": {
+        "message": "Загрузить подготовленный файл",
+        "description": ""
+    },
+    "submitOnText": {
+        "message": "{name} подал: {time}",
+        "description": ""
+    },
+    "msgText": {
+        "message": "Сообщение должно содержать текстовое содержимое или вложение",
+        "description": ""
+    },
+    "groupText": {
+        "message": "Домашняя работа группы {group}",
+        "description": ""
+    },
+    "answerDigits": {
+        "message": "Введите целое число от 1 до 100",
+        "description": ""
+    },
+    "editHomework": {
+        "message": "Изменить групповую работу",
+        "description": ""
+    },
+    "sureAbandon": {
+        "message": "Подтвердите отмену назначения Домашней работы?",
+        "description": ""
+    },
+    "compressedPack": {
+        "message": "Архив",
+        "description": ""
+    },
+    "teacherCommentText": {
+        "message": "Отзыв учителя: {comment}",
+        "description": ""
+    },
+    "meanScoreText2": {
+        "message": "Средний балл взаимооценки: {score} балл",
+        "description": ""
+    },
+    "startupSuccessText": {
+        "message": "Запуск проекта успешный",
+        "description": ""
+    },
+    "complaintText": {
+        "message": "апелляция обрабатывается",
+        "description": ""
+    },
+    "assignHomework": {
+        "message": "Задать задание",
+        "description": ""
+    },
+    "commentSuccessText": {
+        "message": "Комментарий успешно добавлен",
+        "description": ""
+    },
+    "selectClass": {
+        "message": "выбрать класс",
+        "description": ""
+    },
+    "inputFullScore": {
+        "message": "Введите максимальный балл",
+        "description": ""
+    },
+    "myComplaintText": {
+        "message": "Подать апелляцию",
+        "description": ""
+    },
+    "audio": {
+        "message": "аудиофайл",
+        "description": ""
+    },
+    "collapseText2": {
+        "message": "<<Свернуть",
+        "description": ""
+    },
+    "plzInputPoint": {
+        "message": "Введите оценку",
+        "description": ""
+    },
+    "assignmentSuccess": {
+        "message": "Домашняя работа опубликована успешно",
+        "description": ""
+    },
+    "saveDraftFail": {
+        "message": "Не удалось сохранить черновик",
+        "description": ""
+    },
+    "appealContent": {
+        "message": "Студент может подать апелляцию учителю о среднем балле взаимооценки. Учитель может изменить средний балл взаимооценки, но при этом все равно должен быть вычтен балл, удержанный у студента за то, что он не своевременно дал оценку Домашней работе.",
+        "description": ""
+    },
+    "backPartTip": {
+        "message": "Больше нет",
+        "description": ""
+    },
+    "netError": {
+        "message": "Ошибка в работе сети",
+        "description": ""
+    },
+    "peerReviewTime": {
+        "message": "Выберите крайний срок взаимооценки",
+        "description": ""
+    },
+    "revokeFailText": {
+        "message": "Отменить неудачу!",
+        "description": ""
+    },
+    "inputThanLess": {
+        "message": "Введите целое число меньше 999",
+        "description": ""
+    },
+    "testGrammarText": {
+        "message": "Домашняя работа содержит менее 10 английских слов, невозможно провести проверку грамматики",
+        "description": ""
+    },
+    "complaintAfterText": {
+        "message": "Преподавательская оценка после апелляции: {score} балл",
+        "description": ""
+    },
+    "projectAbText": {
+        "message": "Произошла исключительная ситуация в проекте",
+        "description": ""
+    },
+    "noComment": {
+        "message": "Он не оценивал эту работу",
+        "description": ""
+    },
+    "scoreDesc": {
+        "message": "Из-за технических ограничений функция оценки системой в настоящее время поддерживает оценку текстов для чтения вслух объемом до 200 слов и аудиозаписей продолжительностью до 2 минут, превышение этого предела приведет к сбою оценки. При заполнении поля ввода для текста для чтения вслух оно не должно превышать 200 слов.",
+        "description": ""
+    },
+    "unset": {
+        "message": " временно не заданы",
+        "description": ""
+    },
+    "frontPartTip": {
+        "message": "Больше нет",
+        "description": ""
+    },
+    "uploadFileTip2Txt": {
+        "message": "После повторной загрузки группы студентов будут заменены новыми группами",
+        "description": ""
+    },
+    "commitEnd": {
+        "message": "крайний срок сдачи",
+        "description": ""
+    },
+    "assignmentScoreText": {
+        "message": "Оценка домашней работы",
+        "description": ""
+    },
+    "editGroup": {
+        "message": "Изменить группы",
+        "description": ""
+    },
+    "endTimeTip": {
+        "message": "Крайний срок сдачи не может быть Пустой",
+        "description": ""
+    },
+    "uploadComplete": {
+        "message": "Загрузка завершена",
+        "description": ""
+    },
+    "evaluated": {
+        "message": "Количество домашних работ, полученных студентом для оценки",
+        "description": ""
+    },
+    "collapseText": {
+        "message": "Свернуть",
+        "description": ""
+    },
+    "topicExist": {
+        "message": "Уже существует Домашняя работа вопросы",
+        "description": ""
+    },
+    "teacherScoreText": {
+        "message": "Преподавательская оценка: {score}",
+        "description": ""
+    },
+    "compressedFile": {
+        "message": "Сжатый файл",
+        "description": ""
+    },
+    "textFile": {
+        "message": "Текстовый файл",
+        "description": ""
+    },
+    "assignmentScore": {
+        "message": "Баллы по домашним заданиям",
+        "description": ""
+    },
+    "assignmentDescriptionText": {
+        "message": "Описание домашней работы не должно превышать 1 000 символов. Текущий перерасход составляет {count} символов",
+        "description": ""
+    },
+    "picture": {
+        "message": "Файл изображения",
+        "description": ""
+    },
+    "dissatisfiedText": {
+        "message": "Объясните учителю, почему вы недовольны своей оценкой, но не более 1000 слов",
+        "description": ""
+    },
+    "saveSuccessText": {
+        "message": "Сохранено успешно!",
+        "description": ""
+    },
+    "addEvaluationText": {
+        "message": "добавить отзыв",
+        "description": ""
+    },
+    "fileType": {
+        "message": "Выберите Тип файла, подаваемого Студентом",
+        "description": ""
+    },
+    "uploadSameFile": {
+        "message": "Нельзя загрузить одинаковый файл",
+        "description": ""
+    },
+    "topicNoEmpty": {
+        "message": "Домашняя работа: Вопросы обязательны для заполнения",
+        "description": ""
+    },
+    "peerReviewDigits": {
+        "message": "Выберите целое число",
+        "description": ""
+    },
+    "inputThanMores": {
+        "message": "Введите целое число больше 1",
+        "description": ""
+    },
+    "uploadNoempty": {
+        "message": "Загружаемый файл Студента не может быть Пустым",
+        "description": ""
+    },
+    "adjustGroupingTipTxt": {
+        "message": "После изменения способа группировки исходные сгруппированные записи будут очищены. Подтвердить изменение группировки?",
+        "description": ""
+    },
+    "TEXT": {
+        "message": "ТЕКСТОВЫЙ файл",
+        "description": ""
+    },
+    "addHomework": {
+        "message": "Инициировать Групповую работу",
+        "description": ""
+    },
+    "lateText": {
+        "message": "просрочка",
+        "description": ""
+    },
+    "compositionText": {
+        "message": "Слишком длинное эссе, слов больше 500!",
+        "description": ""
+    },
+    "startupFailText": {
+        "message": "Запуск проекта завершился неудачей.",
+        "description": ""
+    },
+    "uploadFail": {
+        "message": "Ошибка загрузки",
+        "description": ""
+    },
+    "mutiTimesScoreTipText": {
+        "message": "Несколько ответов, принят самый высокий балл",
+        "description": ""
+    },
+    "anonymousText": {
+        "message": "анонимный",
+        "description": ""
+    },
+    "countMin": {
+        "message": "В каждой группе как минимум 2 Человек",
+        "description": ""
+    },
+    "runFailText": {
+        "message": "Проект не выполняется",
+        "description": ""
+    },
+    "uploadFileTip1Txt": {
+        "message": "Примечание: если нужно изменить группирование студентов, можно загрузить список группирования.",
+        "description": ""
+    },
+    "warnTip": {
+        "message": "Количество рецензий превышает численность класса",
+        "description": ""
+    },
+    "ppt": {
+        "message": "файл Презентации PowerPoint",
+        "description": ""
+    },
+    "systemAdvice": {
+        "message": "Система рекомендует оценку 0 баллов",
+        "description": ""
+    },
+    "charRequired": {
+        "message": "Требования домашней работы превысили 5000 букв",
+        "description": ""
+    },
+    "imageLoadError": {
+        "message": "Изображение не загрузилось, Обновите и повторите попытку!",
+        "description": ""
+    },
+    "onlyNo": {
+        "message": "Вводить только цифры.",
+        "description": ""
+    },
+    "confirmSubmitText": {
+        "message": "Подтвердить подачу",
+        "description": ""
+    },
+    "answerText": {
+        "message": "ответить",
+        "description": ""
+    },
+    "referSuggest": {
+        "message": "Следующая информация предназначена только для справки:",
+        "description": ""
+    },
+    "commentCountLimit": {
+        "message": "Отзыв Не превышать 1000 символ",
+        "description": ""
+    },
+    "completeText": {
+        "message": "выполненный",
+        "description": ""
+    },
+    "adjustGroupingTxt": {
+        "message": "Изменить метод группировки",
+        "description": ""
+    },
+    "timePlaceholder": {
+        "message": "Настройте время",
+        "description": ""
+    },
+    "validateNumber": {
+        "message": "Введите правильный балл, сохранив только один знак после запятой",
+        "description": ""
+    },
+    "referSameFile": {
+        "message": "Нельзя ссылаться на тот же файл",
+        "description": ""
+    },
+    "size": {
+        "message": "Размер:",
+        "description": ""
+    },
+    "scoreEmptyText": {
+        "message": "оценивание Обязательное для заполнения",
+        "description": ""
+    },
+    "sureDeleteText": {
+        "message": "Подтвердить удаление этого сообщения?",
+        "description": ""
+    },
+    "groupTitle": {
+        "message": "Домашняя работа по группам",
+        "description": ""
+    },
+    "shortWord": {
+        "message": "В домашней работе недостаточно 10 слов.",
+        "description": ""
+    },
+    "gradeRule": {
+        "message": "Оценка за домашнюю работу у студента = Средний балл за все взаимные оценки- Количество домашних работ, ожидающих оценивания * 5% * Итоговая оценка за домашнюю работу. Например, максимальный балл за домашнюю работу 100. После завершения взаимного оценивания студент набрал средний балл 80, но получил 4 задания, из которых оценил только 1, то есть в итоге не были оценены 3 задания. В таком случае, необходимо вычесть 3*5%*100. Итоговая оценка студента: 80 - 3*5%*100=65.",
+        "description": ""
+    },
+    "imageLoading": {
+        "message": "Изображение загружается...",
+        "description": ""
+    },
+    "expandText": {
+        "message": "развернуть",
+        "description": ""
+    },
+    "fillReasonText": {
+        "message": "заполнить причину апелляции",
+        "description": ""
+    },
+    "videoTranscoding": {
+        "message": "Идёт транскодирование видео...",
+        "description": ""
+    },
+    "selectStartTime": {
+        "message": "Выберите время начала",
+        "description": ""
+    },
+    "uploadFileText": {
+        "message": "Сначала загрузите файл проекта",
+        "description": ""
+    },
+    "validateScore": {
+        "message": "Оценка не должна превышать Итоговую оценку",
+        "description": ""
+    },
+    "downloadTemplateTipTxt": {
+        "message": "Скачать шаблон, в соответствии с форматом шаблона упорядочить данные погруппированным студентам",
+        "description": ""
+    },
+    "submitHomework": {
+        "message": "Подача домашней работы",
+        "description": ""
+    },
+    "scoreDescTitle": {
+        "message": "внимание к деталям",
+        "description": ""
+    },
+    "comment": {
+        "message": "отзыв",
+        "description": ""
+    },
+    "totalScoresText": {
+        "message": "Итоговая оценка {score} балл",
+        "description": ""
+    },
+    "plzSelectClass": {
+        "message": "Выберите класс",
+        "description": ""
+    },
+    "allowedText": {
+        "message": "запрещено вставлять, введите вручную",
+        "description": ""
+    },
+    "clickText": {
+        "message": "Нажмите кнопку записи, на открывшейся странице нажмите «Разрешить» для включения микрофона. Не забудьте нажать кнопку «Подача домашней работы», чтобы подать задание!",
+        "description": ""
+    },
+    "myAsssignmentText": {
+        "message": "Домашняя работа",
+        "description": ""
+    },
+    "assignmentDetailText": {
+        "message": "Подробности задания",
+        "description": ""
+    },
+    "submitSuccessText": {
+        "message": "Подача успешная!",
+        "description": ""
+    },
+    "answerDay": {
+        "message": "Выберите время объявления Ответа",
+        "description": ""
+    },
+    "kown": {
+        "message": "Я понял",
+        "description": ""
+    },
+    "revocationText": {
+        "message": "Подтвердить отмену",
+        "description": ""
+    },
+    "kindTips": {
+        "message": "Введите требования к домашней работе. Студенты могут отправить текст, аудиозапись или прикрепить файл в качестве домашней работы онлайн",
+        "description": ""
+    },
+    "sentenceError1": {
+        "message": "【лексическая ошибка】{message}",
+        "description": ""
+    },
+    "inputThanMore": {
+        "message": "Введите целое число больше 0",
+        "description": ""
+    },
+    "submiting": {
+        "message": "отправка в процессе",
+        "description": ""
+    },
+    "point": {
+        "message": "подсказка",
+        "description": ""
+    },
+    "video": {
+        "message": "видеофайл",
+        "description": ""
+    },
+    "complaintConText": {
+        "message": "В апелляции не может быть больше 1000 букв",
+        "description": ""
+    },
+    "assignmentCharacter": {
+        "message": "Заголовок домашней работы не может быть меньше 3 символов и не должен превышать 50 символов",
+        "description": ""
+    },
+    "countLimtTip": {
+        "message": "Частота теста ограничена, повторное прохождение после превышения данных ограничений невозможно. Подтвердите отправку?",
+        "description": ""
+    },
+    "deductionText": {
+        "message": "Домашняя работа со скидкой: {score} балл (тебе назначено {count} работ для взаимооценки, которые еще не оценены)",
+        "description": ""
+    },
+    "noEvaluation": {
+        "message": "Он не оценил остальных Человек",
+        "description": ""
+    },
+    "homeworkStart": {
+        "message": "Начать домашнее задание",
+        "description": ""
+    },
+    "assignmentFail": {
+        "message": "Сбой публикации домашней работы",
+        "description": ""
+    },
+    "noThan": {
+        "message": "Не превышать 100 баллов",
+        "description": ""
+    },
+    "submitTimeText": {
+        "message": "Срок сдачи: {time}",
+        "description": ""
+    },
+    "scoresText": {
+        "message": "оценивание",
+        "description": ""
+    },
+    "scoreText": {
+        "message": "{score} балл",
+        "description": ""
+    },
+    "msgsText": {
+        "message": "Сообщения",
+        "description": ""
+    },
+    "systemScoreText": {
+        "message": "Оценка системой",
+        "description": ""
+    },
+    "assignmentComText": {
+        "message": "После завершения Домашней работы выберите представителя, который сдаст одну Домашную работу, другие одноклассники сдавать не должны",
+        "description": ""
+    },
+    "excel": {
+        "message": "файл Excel",
+        "description": ""
+    },
+    "scoreProfileTitle": {
+        "message": "Краткое описание оценки системой",
+        "description": ""
+    },
+    "peerReviewCount": {
+        "message": "Выберите количество баллов оценивания",
+        "description": ""
+    },
+    "actionDesriptionText": {
+        "message": "инструкция по эксплуатации",
+        "description": ""
+    },
+    "submitDeadlineText": {
+        "message": "Подача дедлайн",
+        "description": ""
+    },
+    "compress": {
+        "message": "Сжатый файл",
+        "description": ""
+    },
+    "uploadContentText": {
+        "message": "Что ты загрузил?",
+        "description": ""
+    },
+    "revokeSuccessText": {
+        "message": "Отмена успешна!",
+        "description": ""
+    },
+    "pleaseEnterScoreText": {
+        "message": "Введите балл меньше итоговой оценки",
+        "description": ""
+    },
+    "complaintSubmintText": {
+        "message": "Апелляция успешно подана, ждите обработку учителем",
+        "description": ""
+    },
+    "stuAppealContent": {
+        "message": "Если студенты не удовлетворены средним баллом взаимооценки, они могут подать апелляцию преподавателю, который оценит работу. Итоговая оценка будет состоять из оценки преподавателя за вычетом 5 % от оценки за оцениваемую работу от общей оценки за работу.",
+        "description": ""
+    },
+    "downloadTemplateTxt": {
+        "message": "Скачать шаблон",
+        "description": ""
+    },
+    "charapterText": {
+        "message": "Текстовое содержание не может превышать 5000 букв",
+        "description": ""
+    },
+    "teamMemberText": {
+        "message": "После подачи домашней работы ученики смогут делиться оценками. Убедись, что твоя подача согласована с другими учениками группы.",
+        "description": ""
+    },
+    "mutualAvgScoreText": {
+        "message": "Средний балл взаимооценки студентов: {score} балл",
+        "description": ""
+    },
+    "uploadThan": {
+        "message": "Студент не может загрузить файл размером более 300 мегабайт",
+        "description": ""
+    },
+    "adjustGroupingBodyTitleTxt": {
+        "message": "Выполните операции в соответствии со следующими подсказками.",
+        "description": ""
+    },
+    "noticeText": {
+        "message": "внимание",
+        "description": ""
+    },
+    "confirmDelete": {
+        "message": "Подтвердите удаление?",
+        "description": ""
+    },
+    "assignmentText": {
+        "message": "Домашняя работа должна иметь текстовый контент или вложение",
+        "description": ""
+    },
+    "PDF": {
+        "message": "PDF-файл",
+        "description": ""
+    },
+    "studentEvaluationText": {
+        "message": "Нет оценки студентов",
+        "description": ""
+    },
+    "mutualReviewText": {
+        "message": "Взаимооценка завершена, ты вовремя не выставил оценку. Твоя <span>оценка снижена на {score} баллов</span> (5% от итоговой оценки за домашнюю работу)",
+        "description": ""
+    },
+    "homeworkTimeTip": {
+        "message": "Настройки времени домашней работы",
+        "description": ""
+    },
+    "uploadSize": {
+        "message": "Студент может загружать файлы не более указанного размера",
+        "description": ""
+    },
+    "statTimTip": {
+        "message": "Время начала обязательно для заполнения",
+        "description": ""
+    },
+    "beCheckText": {
+        "message": "Проверка",
+        "description": ""
+    },
+    "delQuestion": {
+        "message": "Удалить этот вопрос",
+        "description": ""
+    },
+    "AmendText": {
+        "message": "Изменить комментарий",
+        "description": ""
+    },
+    "startRecord": {
+        "message": "Начать аудиозапись",
+        "description": ""
+    },
+    "selectTime": {
+        "message": "Выберите время",
+        "description": ""
+    },
+    "publishSetting": {
+        "message": "Настройки публикации",
+        "description": ""
+    },
+    "beScoreText": {
+        "message": "Подлежит оцениванию",
+        "description": ""
+    },
+    "pasteHereText": {
+        "message": "Вставьте здесь",
+        "description": ""
+    }
+}

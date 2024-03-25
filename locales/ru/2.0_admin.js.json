@@ -1,1 +1,3858 @@
-{"userName": {"message": "Пользователя", "description": "2.0 admin.js"}, "organization": {"message": "Институт", "description": "2.0 admin.js"}, "confirm": {"message": "Подтвердить", "description": "2.0 admin.js"}, "login": {"message": "Входа", "description": "2.0 admin.js"}, "course": {"message": "Курс", "description": "2.0 admin.js"}, "view": {"message": "Вид", "description": "2.0 admin.js"}, "allTeacher": {"message": "Все учителя", "description": "2.0 admin.js"}, "screenDynamic.thisSemester": {"message": "Текущий семестр", "description": "2.0 admin.js"}, "screenDynamic.activeCourseClassTop": {"message": "Активные курсы Топ 10", "description": "2.0 admin.js"}, "dataCenter.attendancePublishRankingTop": {"message": "Roll Call опубликован рейтинг Топ 10", "description": "2.0 admin.js"}, "dataCenter.chapterDetailedStatistics": {"message": "Глава Подробная статистика", "description": "2.0 admin.js"}, "dataCenter.exerAverCompletionRate": {"message": "Средний уровень завершения упражнений", "description": "2.0 admin.js"}, "dataCenter.shortestVideoDuration": {"message": "Самая короткая продолжительность видео", "description": "2.0 admin.js"}, "dataCenter.loginNumTips": {"message": "Общее время входа с 2018-6-8", "description": "2.0 admin.js"}, "dataCenter.discussNum": {"message": "Нет. Темы", "description": "2.0 admin.js"}, "dataCenter.totalExamPeople": {"message": "Итого Номер из Испытуемых", "description": "2.0 admin.js"}, "dataCenter.link": {"message": "Ссылку", "description": "2.0 admin.js"}, "dataCenter.resourceNum": {"message": "Нет. ресурсов", "description": "2.0 admin.js"}, "dataCenter.publishAttendance": {"message": "Ролл звонки", "description": "2.0 admin.js"}, "dataCenter.publishScore": {"message": "Публикация скоринга", "description": "2.0 admin.js"}, "dataCenter.mostActiveCourseTop": {"message": "Топ 5 активных курсов", "description": "2.0 admin.js"}, "dataCenter.stuAverageChooseCourseCount": {"message": "Совокупное число учащихся, зачисленных в школу", "description": "2.0 admin.js"}, "dataCenter.courseSizeDistribution": {"message": "Распределение размера курса", "description": "2.0 admin.js"}, "dataCenter.dataTips34": {"message": "Топ 5 курсов с большинством опубликованных заданий", "description": "2.0 admin.js"}, "dataCenter.stuReplyTotalNum": {"message": "Студенческие ответы", "description": "2.0 admin.js"}, "dataCenter.liveAnalysis": {"message": "Аналитика сеансов в реальном времени", "description": "2.0 admin.js"}, "dataCenter.signAnalyzeXData1": {"message": "Поздно", "description": "2.0 admin.js"}, "courseDeclarationAdmin.undeclaredCourses": {"message": "Необъявленный курс", "description": "2.0 admin.js"}, "courseDeclarationAdmin.undeterminedCourse": {"message": "Неопределенный курс", "description": "2.0 admin.js"}, "courseDeclarationAdmin.openCourseSchool": {"message": "Институт открытия курса", "description": "2.0 admin.js"}, "courseDeclarationAdmin.courseManager": {"message": "Менеджер курса", "description": "2.0 admin.js"}, "courseDeclarationAdmin.subordinateProfessionalCode": {"message": "Основной код", "description": "2.0 admin.js"}, "courseDeclarationAdmin.courseLevel": {"message": "Уровень курса", "description": "2.0 admin.js"}, "courseDeclarationAdmin.courseCategory": {"message": "Категория курса", "description": "2.0 admin.js"}, "courseDeclarationAdmin.relatedMainCourseName": {"message": "Название связанного основного курса", "description": "2.0 admin.js"}, "teachingAdmin.teachingAdminTips4": {"message": "Подтвердите, что на сайте", "description": "2.0 admin.js"}, "teachingAdmin.teachingAdminTips7": {"message": "Импорт, не закройте окно......", "description": "2.0 admin.js"}, "teachingAdmin.teachingAdminTips10": {"message": "Введите имя/имя пользователя учителя для поиска", "description": "2.0 admin.js"}, "teachingAdmin.publisher": {"message": "Создатель", "description": "2.0 admin.js"}, "teachingAdmin.expiryDate": {"message": "Доступности", "description": "2.0 admin.js"}, "teachingAdmin.studentNO": {"message": "Идентификатор студента", "description": "2.0 admin.js"}, "teachingAdmin.schoolStuRate": {"message": "Процент учащихся в нашей школе", "description": "2.0 admin.js"}, "teachingAdmin.addClass": {"message": "Добавить класс", "description": "2.0 admin.js"}, "teachingAdmin.importTip5": {"message": "Нажмите, чтобы загрузить список студентов с существующими учетными записями", "description": "2.0 admin.js"}, "inputOpenCoursePlatform": {"message": "Пожалуйста, введите курсовую платформу", "description": "2.0 admin.js"}, "backToCustomerService": {"message": "Вернуться к обслуживанию клиентов", "description": "2.0 admin.js"}}
+{
+    "dataCenter.dataTips16": {
+        "message": "Опубликован удельный вес курса для экзамена",
+        "description": ""
+    },
+    "dataCenter.activityXData4": {
+        "message": "Экзамен",
+        "description": ""
+    },
+    "dataCenter.updateCoursewareNum": {
+        "message": "Обновление количества учебных материалов",
+        "description": ""
+    },
+    "dataCenter.examPublishRankingTop": {
+        "message": "Экзамен: опубликовано ТОП10",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips2": {
+        "message": "максимальный выбор из трех",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips20": {
+        "message": "Если вы хотите предоставить студентам отдельный пункт входа, рекомендуется использовать этот шаблон",
+        "description": ""
+    },
+    "dataCenter.liveTotalNum": {
+        "message": "Общее количество прямых эфиров",
+        "description": ""
+    },
+    "teachingAdmin.passCertificate": {
+        "message": "Сертификат",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips11": {
+        "message": "Выберите курс для присоединения к основному курсу",
+        "description": ""
+    },
+    "courseDeclarationAdmin.lastPage": {
+        "message": "Последняя страница",
+        "description": ""
+    },
+    "dataCenter.publishHomeworkTotalNum": {
+        "message": "Общее количество опубликованных домашних работ",
+        "description": ""
+    },
+    "dataCenter.dataTips45": {
+        "message": "Только статистика по созданным новым курсам в указанный период времени",
+        "description": ""
+    },
+    "courseDeclarationAdmin.backPage": {
+        "message": "Следующая страница",
+        "description": ""
+    },
+    "dataCenter.date": {
+        "message": "Дата",
+        "description": ""
+    },
+    "systemAdmin.administratorManage": {
+        "message": "Настройки администратора",
+        "description": ""
+    },
+    "teachingAdmin.phoneNumber": {
+        "message": "номер мобильного телефона",
+        "description": ""
+    },
+    "dataCenter.uploadResourceTotalNum": {
+        "message": "Общее количество загруженных ресурсов",
+        "description": ""
+    },
+    "allTeacher": {
+        "message": "Все учителя",
+        "description": ""
+    },
+    "dataCenter.publishVote": {
+        "message": "Опубликовать голосование",
+        "description": ""
+    },
+    "courseDeclarationAdmin.undergraduate": {
+        "message": "Бакалавриат",
+        "description": ""
+    },
+    "systemAdmin.websiteLanguage": {
+        "message": "Язык веб-сайта",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips26": {
+        "message": "Введён неправильный номер мобильного телефона",
+        "description": ""
+    },
+    "dataCenter.dataTips4": {
+        "message": "Курс на 201~1000 человек",
+        "description": ""
+    },
+    "teachingAdmin.enterName": {
+        "message": "ввод название курса поиск",
+        "description": ""
+    },
+    "teachingAdmin.setTypeTip": {
+        "message": "Нажмите кнопку «настройки», чтобы установить тип курсов школы, такие как, базовый курс, практический курс и т.д. При создании учителями нашей школы онлайн-курса, они будут выбирать в соответствии с установленным вами типом.",
+        "description": ""
+    },
+    "teachingAdmin.allClass": {
+        "message": "Все классы",
+        "description": ""
+    },
+    "dataCenter.createPracticeTotalNum": {
+        "message": "Создать общее количество заданий",
+        "description": ""
+    },
+    "inputOnlineTime": {
+        "message": "Введите начало публикации",
+        "description": ""
+    },
+    "courseDeclarationAdmin.openCoursePlatform": {
+        "message": "платформа для проведения курсов",
+        "description": ""
+    },
+    "dataCenterText": {
+        "message": "Центр данных",
+        "description": ""
+    },
+    "permissionTips2": {
+        "message": "Управление обучением: Управление MOOC в нашем учебном заведении (проверка публикации, изменение классификации и состояние отображения на сайте)",
+        "description": ""
+    },
+    "teachingAdmin.mergeCourse": {
+        "message": "объединение курсов",
+        "description": ""
+    },
+    "dataCenter.runningCoursewareNum": {
+        "message": "Количество запущенных учебных материалов",
+        "description": ""
+    },
+    "dataCenter.totalStudentTimes": {
+        "message": "Всего студентов",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips7": {
+        "message": "Идет импорт, не закрывайте okno...",
+        "description": ""
+    },
+    "teachingAdmin.allExam": {
+        "message": "все экзамены",
+        "description": ""
+    },
+    "delete": {
+        "message": "удалить",
+        "description": ""
+    },
+    "dataCenter.resourceType": {
+        "message": "Тип ресурсов",
+        "description": ""
+    },
+    "dataCenter.activeCourseNum": {
+        "message": "количество активных Курсов",
+        "description": ""
+    },
+    "dataCenter.examBatch": {
+        "message": "Экзаменационная сессия",
+        "description": ""
+    },
+    "dataCenter.examTypeXData0": {
+        "message": "назначить Экзаменационную рабочую тетрадь",
+        "description": ""
+    },
+    "courseDeclarationAdmin.cancelRelateMainCourse": {
+        "message": "Отменить связь с основным Курсом",
+        "description": ""
+    },
+    "courseDeclarationAdmin.openCoursePeriod": {
+        "message": "Семестр обучения",
+        "description": ""
+    },
+    "allStudent": {
+        "message": "Все студенты",
+        "description": ""
+    },
+    "permissionTips1": {
+        "message": "Управление обучением: Управление курсами в нашем учебном заведении (объединение/передача курсов, приступить к курсу, просмотр анализа курсов)",
+        "description": ""
+    },
+    "dataCenter.loginPeople": {
+        "message": "Число авторизаций",
+        "description": ""
+    },
+    "dataCenter.discussPublishRankingTop": {
+        "message": "Топ-10 популярных тем",
+        "description": ""
+    },
+    "teachingAdmin.stuJoinList": {
+        "message": "Список курсов студента",
+        "description": ""
+    },
+    "teachingAdmin.hasEnded": {
+        "message": "завершённый",
+        "description": ""
+    },
+    "dataCenter.assessmentPublishRankingTop": {
+        "message": "Топ-10 опубликованных политик",
+        "description": ""
+    },
+    "courseDeclarationAdmin.professionalCourse": {
+        "message": "Профессиональный предмет",
+        "description": ""
+    },
+    "courseDeclarationAdmin.selectedCourseTotalNum": {
+        "message": "Общее количество обучающихся",
+        "description": ""
+    },
+    "responsibleCollege": {
+        "message": "ответственный факультет",
+        "description": ""
+    },
+    "dataCenter.discussTypeDistribution": {
+        "message": "Распределение обсуждения по типам",
+        "description": ""
+    },
+    "teachingAdmin.addStudent": {
+        "message": "зачисление студентов",
+        "description": ""
+    },
+    "dataCenter.attendanceTotalNum": {
+        "message": "Общее количество перекличек",
+        "description": ""
+    },
+    "dataCenter.publishAnnouncementTotalNum": {
+        "message": "Общее количество опубликованных объявлений",
+        "description": ""
+    },
+    "dataCenter.exportReport1": {
+        "message": "Экспортировать отчеты за последние 2 недели",
+        "description": ""
+    },
+    "dataCenter.attendanceNum": {
+        "message": "количество перекличек",
+        "description": ""
+    },
+    "exerciseTotalNum": {
+        "message": "Общее количество упражнений",
+        "description": ""
+    },
+    "dataCenter.activityXData5": {
+        "message": "перекличка",
+        "description": ""
+    },
+    "dataCenter.last2weeks": {
+        "message": "Последние 2 недели",
+        "description": ""
+    },
+    "courseDeclarationAdmin.conversionToNondeclaration": {
+        "message": "Установить как необязательное",
+        "description": ""
+    },
+    "teachingAdmin.show": {
+        "message": "отображать",
+        "description": ""
+    },
+    "deleteApp": {
+        "message": "Удалить приложение",
+        "description": ""
+    },
+    "dataCenter.dataTips19": {
+        "message": "Только отчёты по изучению учебных материалов",
+        "description": ""
+    },
+    "dataCenter.resourceXData1": {
+        "message": "Микроурок",
+        "description": ""
+    },
+    "teachingAdmin.uploadAttachments": {
+        "message": "Прикрепить файл",
+        "description": ""
+    },
+    "courseDeclarationAdmin.courseCategory": {
+        "message": "Категория курса",
+        "description": ""
+    },
+    "teachingAdmin.add": {
+        "message": "Продолжить добавление",
+        "description": ""
+    },
+    "login": {
+        "message": "войти",
+        "description": ""
+    },
+    "addAdminTips1": {
+        "message": "Выберите роль",
+        "description": ""
+    },
+    "teachingAdmin.thisSchool": {
+        "message": "наше учебное заведение",
+        "description": ""
+    },
+    "dataCenter.courseActivityAnalysis": {
+        "message": "Анализ учебной деятельности",
+        "description": ""
+    },
+    "teachingAdmin.schoolStuJoinStatistics": {
+        "message": "статистика выбора курсов нашими студентами",
+        "description": ""
+    },
+    "college": {
+        "message": "факультет",
+        "description": ""
+    },
+    "changePermissionTips": {
+        "message": "После изменения ролевых разрешений необходимо нажать «Сохранить»",
+        "description": ""
+    },
+    "teachingAdmin.openCourse": {
+        "message": "Открытый курс",
+        "description": ""
+    },
+    "permissionTips10": {
+        "message": "Просмотр и управление подсистемами",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips17": {
+        "message": "Существующее название класса",
+        "description": ""
+    },
+    "dataCenter.activityAnalysis": {
+        "message": "Анализ занятий",
+        "description": ""
+    },
+    "courseDeclarationAdmin.cancelSuccess": {
+        "message": "Отмена выполнена успешно",
+        "description": ""
+    },
+    "dataCenter.publishHomeworkRankingTop": {
+        "message": "Топ-10 опубликованных домашних заданий",
+        "description": ""
+    },
+    "courseDeclarationAdmin.courseDeclarationInfoAdmin": {
+        "message": "Управление информацией о заявках на курсы",
+        "description": ""
+    },
+    "dataCenter.practiceCreateAnalysis": {
+        "message": "Анализ создания задач",
+        "description": ""
+    },
+    "dataCenter.teaReplyTotalNum": {
+        "message": "Общее количество ответов на посты учителя",
+        "description": ""
+    },
+    "dataCenter.singleLiveViewNum": {
+        "message": "Максимальное количество зрителей одноразового прямого эфира",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips22": {
+        "message": "Введите имя пользователя",
+        "description": ""
+    },
+    "teachingAdmin.grade": {
+        "message": "оценка",
+        "description": ""
+    },
+    "dataCenter.dataTips27": {
+        "message": "Общее количество опубликованных ресурсов Курса",
+        "description": ""
+    },
+    "dataCenter.replyNum": {
+        "message": "количество ответов на пост",
+        "description": ""
+    },
+    "confirmDelete": {
+        "message": "Подтвердите удаление приложения?",
+        "description": ""
+    },
+    "teacherNum": {
+        "message": "Численность учителей",
+        "description": ""
+    },
+    "dataCenter.assessment": {
+        "message": "Стратегия оценивания",
+        "description": ""
+    },
+    "interExerAverCompletionRate": {
+        "message": "Средний процент выполнения интерактивных упражнений",
+        "description": ""
+    },
+    "dataCenter.dataTips35": {
+        "message": "Опубликовать топ-5 учителей с максимальным количеством обсуждений",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips7": {
+        "message": "После удаления классификации курсы и специальности, связанные с ней, будут установлены как неклассифицированные. Удалить?",
+        "description": ""
+    },
+    "dataCenter.homeworkType": {
+        "message": "Тип задания",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips14": {
+        "message": "Подтвердите удаление?",
+        "description": ""
+    },
+    "systemAdmin.menuTypeTemplate": {
+        "message": "Меню",
+        "description": ""
+    },
+    "dataCenter.collegeCompare": {
+        "message": "Сравнение факультетов",
+        "description": ""
+    },
+    "screenDynamic.semesterActiveUsers": {
+        "message": "количество активных пользователей в семестре",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips25": {
+        "message": "Введите номер мобильного телефона",
+        "description": ""
+    },
+    "dataCenter.publishAttendance": {
+        "message": "Опубликовать перекличку",
+        "description": ""
+    },
+    "dataCenter.dataTips6": {
+        "message": "Курс для не более 50 человек",
+        "description": ""
+    },
+    "teachingAdmin.agree": {
+        "message": "согласиться",
+        "description": ""
+    },
+    "dataCenter.resourceXData2": {
+        "message": "Изображение",
+        "description": ""
+    },
+    "nearly15days": {
+        "message": "Последние 15 день",
+        "description": ""
+    },
+    "watchVideoAverCompletionRate": {
+        "message": "Средний процент завершения просмотра видео",
+        "description": ""
+    },
+    "dataCenter.collegeCumulativeLoginNum": {
+        "message": "Общее количество входов в систему для каждого факультета",
+        "description": ""
+    },
+    "permission": {
+        "message": "право",
+        "description": ""
+    },
+    "courseDeclarationAdmin.homePage": {
+        "message": "Первая страница",
+        "description": ""
+    },
+    "dataCenter.coursewareSaveTips2": {
+        "message": "Настройки соотношения педагога с учебным планом",
+        "description": ""
+    },
+    "dataCenter.weeksArray[5]": {
+        "message": "Пятница",
+        "description": ""
+    },
+    "courseDeclarationAdmin.courseName": {
+        "message": "Название курса",
+        "description": ""
+    },
+    "onlineTime": {
+        "message": "Время выполнения",
+        "description": ""
+    },
+    "dataCenter.chargeTeacher": {
+        "message": "Ответственный учитель",
+        "description": ""
+    },
+    "systemAdmin.superAdministrator": {
+        "message": "Главный администратор",
+        "description": ""
+    },
+    "teachingAdmin.stuNameList": {
+        "message": "Список учащихся",
+        "description": ""
+    },
+    "inputOpenCoursePeriod": {
+        "message": "Введите период старта курса",
+        "description": ""
+    },
+    "dataCenter.teacherLoginTrend": {
+        "message": "Тенденция входа учителей в систему",
+        "description": ""
+    },
+    "dataCenter.publishHomework": {
+        "message": "Опубликовать домашнюю работу",
+        "description": ""
+    },
+    "rolePermissionSetting": {
+        "message": "Ролевые разрешения",
+        "description": ""
+    },
+    "dataCenter.refreshTip": {
+        "message": "Данные от 0 до 24 часов, обновляются каждые 5 минут",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips3": {
+        "message": "Вторичный раздел (множественный выбор)",
+        "description": ""
+    },
+    "dataCenter.publishPeopleNum": {
+        "message": "Численность создателей",
+        "description": ""
+    },
+    "dataAnalysis": {
+        "message": "Анализ данных",
+        "description": ""
+    },
+    "dataCenter.createPeopleNum": {
+        "message": "Число автор",
+        "description": ""
+    },
+    "teachingAdmin.noShowInWebsite": {
+        "message": "Не отображать на сайте",
+        "description": ""
+    },
+    "totalAnswerTimes": {
+        "message": "Всего ответов",
+        "description": ""
+    },
+    "dataCenter.dataTips38": {
+        "message": "5 Топ курсов с максимальным количеством опубликованных прямых эфиров",
+        "description": ""
+    },
+    "dataCenter.resourceTypeDistribution": {
+        "message": "Распределение типов ресурсов",
+        "description": ""
+    },
+    "teachingAdmin.noticeAnnouncement": {
+        "message": "Уведомления",
+        "description": ""
+    },
+    "inputCourseName": {
+        "message": "Введите название курса",
+        "description": ""
+    },
+    "exerciseAverageAccuracyRate": {
+        "message": "Средний процент правильных ответов упражнений",
+        "description": ""
+    },
+    "teachingAdmin.excellenceCertificate": {
+        "message": "Сертификат отличника",
+        "description": ""
+    },
+    "dataCenter.teacherTimes": {
+        "message": "Человек-раз преподаватель",
+        "description": ""
+    },
+    "dataCenter.todayDynamic": {
+        "message": "Лента",
+        "description": ""
+    },
+    "installed2": {
+        "message": "Установлено",
+        "description": ""
+    },
+    "numberOf": {
+        "message": "{n} шт.",
+        "description": ""
+    },
+    "subsystem.wordSpelling": {
+        "message": "Проверка орфографии",
+        "description": ""
+    },
+    "dataCenter.activityXData8": {
+        "message": "отбирать людей",
+        "description": ""
+    },
+    "dataCenter.uploadResource": {
+        "message": "Загрузить ресурсы",
+        "description": ""
+    },
+    "dataCenter.useCoursewareTotalNum": {
+        "message": "Общее количество используемых учебных материалов",
+        "description": ""
+    },
+    "dataCenter.averagePassRate": {
+        "message": "Средний процент завершения курса",
+        "description": ""
+    },
+    "teachingAdmin.inputAnnouncementName": {
+        "message": "Введите название объявления",
+        "description": ""
+    },
+    "teachingAdmin.loading": {
+        "message": "Загрузка...",
+        "description": ""
+    },
+    "dataCenter.pickTotalNum": {
+        "message": "Общее количество выбранных",
+        "description": ""
+    },
+    "courseDeclarationAdminText": {
+        "message": "Управление заявками на курсы",
+        "description": ""
+    },
+    "dataCenter.signAnalyzeXData4": {
+        "message": "больничный",
+        "description": ""
+    },
+    "dataCenter.totalStudentNum": {
+        "message": "Общее количество студентов",
+        "description": ""
+    },
+    "dataCenter.coursewareSaveTips4": {
+        "message": "настройки расписания и просмотр оценок",
+        "description": ""
+    },
+    "installed": {
+        "message": "активировано",
+        "description": ""
+    },
+    "dataCenter.stuAverageChooseCourseCount": {
+        "message": "Число моментов выбора курсов студентами в общей сложности",
+        "description": ""
+    },
+    "mobileTerminal": {
+        "message": "переместить",
+        "description": ""
+    },
+    "courseDeclarationAdmin.undeclaredCourses": {
+        "message": "Незаявленные Курсы",
+        "description": ""
+    },
+    "dataCenter.announcementNumber": {
+        "message": "Количество объявлений",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips3": {
+        "message": "Вы действительно хотите удалить? После удаления пользователь не сможет войти в систему.",
+        "description": ""
+    },
+    "dataCenter.publishAttendanceTeaNum": {
+        "message": "Опубликовать численность учителей на перекличке",
+        "description": ""
+    },
+    "operation": {
+        "message": "операция",
+        "description": ""
+    },
+    "dataCenter.practiceTypeDistribution": {
+        "message": "Распределение типов вопросов",
+        "description": ""
+    },
+    "permissionTips9": {
+        "message": "Настройки администратора (добавить/изменить/удалить администратора, назначить роль пользователя)",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips8": {
+        "message": "Сменить автора курса 【{courseName}】 с 【{creator}】 на:",
+        "description": ""
+    },
+    "teachingAdmin.confirmDelete": {
+        "message": "Подтвердите удаление",
+        "description": ""
+    },
+    "dataCenter.publishAssessmentTeacherNum": {
+        "message": "Число учителей, опубликовавших политику",
+        "description": ""
+    },
+    "teachingAdmin.certificate": {
+        "message": "Сертификат",
+        "description": ""
+    },
+    "teachingAdmin.typeEg": {
+        "message": "Например: базовый курс",
+        "description": ""
+    },
+    "teachingAdmin.certificateRate": {
+        "message": "Процент получения сертификатов",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips12": {
+        "message": "Если Вы желаете настроить меню или содержимое главной страницы, рекомендуем использовать данный шаблон",
+        "description": ""
+    },
+    "dataCenter.dataTips8": {
+        "message": "Курсы, в которых количество опубликованных учебных занятий, помимо объявлений, учебных материалов и ресурсов, меньше 5",
+        "description": ""
+    },
+    "systemAdmin.confirmPassword": {
+        "message": "Подтверждение пароля",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips5": {
+        "message": "Подтвердите скрытие этого курса на веб-сайте?",
+        "description": ""
+    },
+    "teachingAdmin.editClass": {
+        "message": "Изменить класс",
+        "description": ""
+    },
+    "dataCenter.courseActivityRankingTop": {
+        "message": "ТОП-30 наиболее активных курсов",
+        "description": ""
+    },
+    "dataCenter.questionTotalNum": {
+        "message": "Общее количество банков вопросов",
+        "description": ""
+    },
+    "dataCenter.answerNum": {
+        "message": "Количество вопросов и ответов",
+        "description": ""
+    },
+    "dataCenter.platformActivityAnalysis": {
+        "message": "Анализ активности платформа",
+        "description": ""
+    },
+    "dataCenter.dataTips1": {
+        "message": "Средний процент посещаемости действительных лекции и прямого эфира инициированных в тот же день",
+        "description": ""
+    },
+    "courseDeclarationAdmin.courseID": {
+        "message": "Код курса",
+        "description": ""
+    },
+    "dataCenter.longestVideoDuration": {
+        "message": "Максимальная продолжительность видео",
+        "description": ""
+    },
+    "organization": {
+        "message": "организация",
+        "description": ""
+    },
+    "courseDeclarationAdmin.convToNondeclFailed": {
+        "message": "Заявка отправлена успешно",
+        "description": ""
+    },
+    "dataCenter.attendanceAnalysis": {
+        "message": "Анализ переклички",
+        "description": ""
+    },
+    "teachingAdmin.exportDataDesc": {
+        "message": "Экспортировав данные, вы сможете просмотреть подробную информацию о рабочем состоянии курса",
+        "description": ""
+    },
+    "teachingAdmin.inToCourse": {
+        "message": "приступить к курсу",
+        "description": ""
+    },
+    "teachingAdmin.checkTip2": {
+        "message": "Курс требует вашу проверку.",
+        "description": ""
+    },
+    "teachingAdmin.gender": {
+        "message": "Пол",
+        "description": ""
+    },
+    "close": {
+        "message": "Закрывать",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips11": {
+        "message": "Сначала выберите курс, который нужно импортировать",
+        "description": ""
+    },
+    "teachingAdmin.teacherName": {
+        "message": "Имя учителя",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips13": {
+        "message": "Выбрать минимум два курса",
+        "description": ""
+    },
+    "userName": {
+        "message": "имя пользователя",
+        "description": ""
+    },
+    "dataCenter.activeReplyStudentRankingTop": {
+        "message": "Топ-10 активных студентов по ответам на посты",
+        "description": ""
+    },
+    "dataCenter.dataTips12": {
+        "message": "В курсе опубликовано более 20 Домашних работ, обсуждений, Прямых эфиров, Учебных занятий, которые включают по меньшей мере 3 вида занятий, при этом Удельный вес Прямых эфиров и Учебных занятий составляет менее 50%",
+        "description": ""
+    },
+    "teachingAdmin.schoolCourse": {
+        "message": "Курсы нашего учебного заведения",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips16": {
+        "message": "Выберите Класс",
+        "description": ""
+    },
+    "department": {
+        "message": "факультет",
+        "description": ""
+    },
+    "dataCenter.comeInCourseAsViewed": {
+        "message": "Входя на страницу курса, пользователь начинает просмотр",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips8": {
+        "message": "Подтвердите отменить связь с основным курсом?",
+        "description": ""
+    },
+    "dataCenter.dataTips22": {
+        "message": "Статистика занятий, опубликованных только в выбранный период",
+        "description": ""
+    },
+    "teachingAdmin.addClass2": {
+        "message": "добавлять класс",
+        "description": ""
+    },
+    "teachingAdmin.moocPageTip": {
+        "message": "В этой таблице отображаются курсы MOOC, опубликованные учителями нашего учебного заведения.",
+        "description": ""
+    },
+    "dataCenter.dataTips18": {
+        "message": "В том числе:",
+        "description": ""
+    },
+    "dataCenter.deleteAnnouncementTotalNum": {
+        "message": "удалить общее количество Объявлений",
+        "description": ""
+    },
+    "dataCenter.totalLoginTimes": {
+        "message": "общее количество вошедших",
+        "description": ""
+    },
+    "dataCenter.participantsDiscussStudentNum": {
+        "message": "Количество студентов, участвующих в обсуждениях",
+        "description": ""
+    },
+    "dataCenter.weeksArray[2]": {
+        "message": "вторник",
+        "description": ""
+    },
+    "add": {
+        "message": "добавлять",
+        "description": ""
+    },
+    "dataCenter.teacherRaplyDiscussNum": {
+        "message": "количество ответов учителя на посты",
+        "description": ""
+    },
+    "teachingAdmin.female": {
+        "message": "Ж",
+        "description": ""
+    },
+    "courseUnit": {
+        "message": "{courseCount} курсов",
+        "description": ""
+    },
+    "dataCenter.participantsstudentRate": {
+        "message": "Процент студентов, учавствующих в курсах",
+        "description": ""
+    },
+    "teachingAdmin.courseAnalysis": {
+        "message": "Анализ курса",
+        "description": ""
+    },
+    "dataCenter.votePublishRankingTop": {
+        "message": "Обнародовать ТОП-10 результатов голосования",
+        "description": ""
+    },
+    "teachingAdmin.attachments": {
+        "message": "вложение",
+        "description": ""
+    },
+    "dataCenter.resourceXData6": {
+        "message": "аудио",
+        "description": ""
+    },
+    "dataCenter.activeReplyTeacherRankingTop": {
+        "message": "Топ-10 активных учителей по количеству ответов на посты",
+        "description": ""
+    },
+    "editRole": {
+        "message": "Изменить роль",
+        "description": ""
+    },
+    "courseCode": {
+        "message": "Номер курса",
+        "description": ""
+    },
+    "teachingAdmin.className": {
+        "message": "Название класса",
+        "description": ""
+    },
+    "dataCenter.chapterDetailedStatistics": {
+        "message": "Детальная статистика по разделу",
+        "description": ""
+    },
+    "dataCenter.activityXData2": {
+        "message": "обсуждение",
+        "description": ""
+    },
+    "dataCenter.coursewareSetAnalysis": {
+        "message": "Анализ настроек учебного материала",
+        "description": ""
+    },
+    "dataCenter.publishPickTeaNum": {
+        "message": "Опубликовать количество отобранных учителей",
+        "description": ""
+    },
+    "dataCenter.stuReplyTotalNum": {
+        "message": "Общее количество ответов студентов",
+        "description": ""
+    },
+    "saveSuccess": {
+        "message": "Сохранение завершено успешно",
+        "description": ""
+    },
+    "student": {
+        "message": "Студент",
+        "description": ""
+    },
+    "courseDeclarationAdmin.batchConvToNondecl": {
+        "message": "массовый перевод в не заявленные",
+        "description": ""
+    },
+    "dataCenter.liveXData1": {
+        "message": "1-2 часа",
+        "description": ""
+    },
+    "cancel": {
+        "message": "Отменить",
+        "description": ""
+    },
+    "teachingAdmin.allYears": {
+        "message": "все годы",
+        "description": ""
+    },
+    "teachingAdmin.inputKeywordSearch": {
+        "message": "Введите ключевое слово для поиска",
+        "description": ""
+    },
+    "totalOfItems": {
+        "message": "Всего {n} элементов",
+        "description": ""
+    },
+    "dataCenter.dataTips44": {
+        "message": "количество курсов на факультете",
+        "description": ""
+    },
+    "dataCenter.assessmentAnalysis": {
+        "message": "Анализ стратегии оценивания",
+        "description": ""
+    },
+    "dataCenter.voteTotalNum": {
+        "message": "Общее количество голосов",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips10": {
+        "message": "Введите имя пользователя или имя преподавателя",
+        "description": ""
+    },
+    "dataCenter.resourceXData4": {
+        "message": "другие",
+        "description": ""
+    },
+    "dataCenter.coursewareSaveTips1": {
+        "message": "Настройки сохранения учебного плана считать обновлением учебного материала",
+        "description": ""
+    },
+    "dataCenter.homeworkAnalysis": {
+        "message": "Анализ Домашней работы",
+        "description": ""
+    },
+    "dataCenter.PCweb": {
+        "message": "Веб-сайт",
+        "description": ""
+    },
+    "dataCenter.publishDiscuss": {
+        "message": "Опубликовать обсуждение",
+        "description": ""
+    },
+    "dataCenter.twoWeeksDynamic": {
+        "message": "Динаміка останніх 2 тижнів",
+        "description": ""
+    },
+    "systemAdmin.deleteClassification": {
+        "message": "Удалить классифицировать",
+        "description": ""
+    },
+    "dataCenter.weeksArray[6]": {
+        "message": "суббота",
+        "description": ""
+    },
+    "dataCenter.dataTips15": {
+        "message": "Собирать статистику только по новым курсам, созданным в выбранном промежутке времени, исключая курсы с количеством студентов менее 10 человек",
+        "description": ""
+    },
+    "lastMonth": {
+        "message": "В прошлом месяце",
+        "description": ""
+    },
+    "systemAdmin.wensiteManage": {
+        "message": "Управление Веб-сайтом",
+        "description": ""
+    },
+    "subsystem.practiceTeaching": {
+        "message": "Практические занятия по преподаванию",
+        "description": ""
+    },
+    "dataCenter.announcementPublishAnalysis": {
+        "message": "Анализ публикации объявлений",
+        "description": ""
+    },
+    "dataCenter.teacherParticipantionRate": {
+        "message": "Процентная доля участия учителей",
+        "description": ""
+    },
+    "subsystem.excellentCourses": {
+        "message": "Веб-сайт курсов",
+        "description": ""
+    },
+    "dataCenter.progress": {
+        "message": "Прогресс",
+        "description": ""
+    },
+    "dataCenter.studentViewTimes": {
+        "message": "Количество просмотров ученика",
+        "description": ""
+    },
+    "teachingAdmin.allCourse": {
+        "message": "Все курсы",
+        "description": ""
+    },
+    "dataCenter.resourceContributionTop": {
+        "message": "Топ-10 по рейтингу вклада ресурсов",
+        "description": ""
+    },
+    "dataCenter.signAnalyzeXData5": {
+        "message": "Получено",
+        "description": ""
+    },
+    "teachingAdmin.updateStudents": {
+        "message": "Массовое обновление данных студента",
+        "description": ""
+    },
+    "dataCenter.cumulativeLiveDuration": {
+        "message": "Накопившаяся продолжительность трансляции",
+        "description": ""
+    },
+    "dataCenter.createPractice": {
+        "message": "Создать упражнение",
+        "description": ""
+    },
+    "teachingAdmin.allState": {
+        "message": "все состояния",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips10": {
+        "message": "Отмеченные курсы имеют уже привязанные к основным курсам курсы",
+        "description": ""
+    },
+    "dataCenter.averageTestNum": {
+        "message": "среднее количество вопросов Теста",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips16": {
+        "message": "Объединение нельзя отменить, выполняйте операцию с осторожностью.",
+        "description": ""
+    },
+    "dataCenter.stuAverageChooseCourseNum": {
+        "message": "Среднее количество курсов, выбранных студентами",
+        "description": ""
+    },
+    "teachingAdmin.notGet": {
+        "message": "Не получилось",
+        "description": ""
+    },
+    "dataCenter.publishNum": {
+        "message": "Количество опубликованных материалов",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips11": {
+        "message": "Домен веб-сайта не может быть Пустой",
+        "description": ""
+    },
+    "dataCenter.studentActivityRankingTop": {
+        "message": "ТОП-30 по активности студентов",
+        "description": ""
+    },
+    "systemAdmin.addClassification": {
+        "message": "добавить классификацию",
+        "description": ""
+    },
+    "dataCenter.discussTopic": {
+        "message": "Обсуждение темы",
+        "description": ""
+    },
+    "dataCenter.publishAnnouncementTeacherNum": {
+        "message": "Число учителей, которые опубликовали объявления",
+        "description": ""
+    },
+    "dataCenter.courseSizeDistribution": {
+        "message": "Распределение баллов по курсам",
+        "description": ""
+    },
+    "dataCenter.singleExamPeopleNum": {
+        "message": "Максимальное количество участников одного занятия",
+        "description": ""
+    },
+    "teachingAdmin.relateTextbook": {
+        "message": "Связанный учебный материал",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips20": {
+        "message": "Введите имя, номер учащегося или имя пользователя для поиска",
+        "description": ""
+    },
+    "dataCenter.publishDiscussTotalNum": {
+        "message": "Общее количество созданных тем",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips5": {
+        "message": "Введите целое положительное число",
+        "description": ""
+    },
+    "dataCenter.stuSignStatusDistribution": {
+        "message": "Распределение статуса посещаемости студентов",
+        "description": ""
+    },
+    "dataCenter.currentAnnouncementNum": {
+        "message": "Количество текущих объявлений",
+        "description": ""
+    },
+    "configURL": {
+        "message": "Адрес конфигурации",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips12": {
+        "message": "Выбрать только один курс",
+        "description": ""
+    },
+    "courseDeclarationAdmin.courseType": {
+        "message": "Тип курса",
+        "description": ""
+    },
+    "teachingAdmin.phoneNum": {
+        "message": "номер мобильного телефона",
+        "description": ""
+    },
+    "teachingAdmin.joinDate": {
+        "message": "время вступления",
+        "description": ""
+    },
+    "dataCenter.publishAnnouncementTeacherRate": {
+        "message": "Удельный вес учителей, создающих и публикующих объявления",
+        "description": ""
+    },
+    "teachingAdmin.studentNO": {
+        "message": "Номер учащегося",
+        "description": ""
+    },
+    "teachingAdmin.noStuJoin": {
+        "message": "В нашем учебном заведении пока нет Студентов, которые вступали",
+        "description": ""
+    },
+    "teachingAdmin.allSchools": {
+        "message": "Все школы",
+        "description": ""
+    },
+    "dataCenter.activityTotalNum": {
+        "message": "Общее количество занятий",
+        "description": ""
+    },
+    "systemAdmin.websiteName": {
+        "message": "Название веб-сайта",
+        "description": ""
+    },
+    "dataCenter.resourceNum": {
+        "message": "Количество ресурсов",
+        "description": ""
+    },
+    "teachingAdmin.stuList": {
+        "message": "Список курсов",
+        "description": ""
+    },
+    "teachingAdmin.participantsNumber": {
+        "message": "Количество участников",
+        "description": ""
+    },
+    "dataCenter.resourceXData5": {
+        "message": "Документ",
+        "description": ""
+    },
+    "openedStudentNum": {
+        "message": "Число активированных студентов",
+        "description": ""
+    },
+    "dataCenter.link": {
+        "message": "Ссылка",
+        "description": ""
+    },
+    "dataCenter.exerAccuracyRate": {
+        "message": "Процент правильных ответов в упражнениях",
+        "description": ""
+    },
+    "courseDeclarationAdmin.subcourseAdmin": {
+        "message": "Управление подкурсами",
+        "description": ""
+    },
+    "dataCenter.runCourseNum": {
+        "message": "Количество активных курсов",
+        "description": ""
+    },
+    "modify": {
+        "message": "Изменить",
+        "description": ""
+    },
+    "dataCenter.dataTips20": {
+        "message": "Включить класс-ролл и эффективность в проверку знаний",
+        "description": ""
+    },
+    "dataCenter.publishAnswerTeaNum": {
+        "message": "Опубликовать численность учителей быстрого ответа",
+        "description": ""
+    },
+    "dataCenter.signAnalyzeXData0": {
+        "message": "неявка",
+        "description": ""
+    },
+    "dataCenter.teaMarkHomeworkNum": {
+        "message": "Количество работ, проверенных учителем",
+        "description": ""
+    },
+    "dataCenter.topicNum": {
+        "message": "Количество тем",
+        "description": ""
+    },
+    "clickFold": {
+        "message": "Нажмите свернуть",
+        "description": ""
+    },
+    "dataCenter.liveTeaNum": {
+        "message": "Численность преподавателей в прямом эфире",
+        "description": ""
+    },
+    "dataCenter.discussAnalysis": {
+        "message": "Анализ тем",
+        "description": ""
+    },
+    "module": {
+        "message": "Модуль",
+        "description": ""
+    },
+    "dataCenter.dataTips28": {
+        "message": "Количество учителей, разместивших ресурсы",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips5": {
+        "message": "Введите название факультета",
+        "description": ""
+    },
+    "systemAdmin.departmentsSetting": {
+        "message": "Настройки факультетов",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips21": {
+        "message": "Введите номер учащегося",
+        "description": ""
+    },
+    "internalApp": {
+        "message": "Внутреннее приложение",
+        "description": ""
+    },
+    "courseManage": {
+        "message": "Управление обучением",
+        "description": ""
+    },
+    "dataCenter.signAnalyzeXData1": {
+        "message": "Опоздание",
+        "description": ""
+    },
+    "dataCenter.generalStatistics": {
+        "message": "Статистика обзора",
+        "description": ""
+    },
+    "dataCenter.coursewareSaveTips3": {
+        "message": "Настройки количества преподавателей учебного плана",
+        "description": ""
+    },
+    "dataCenter.dataTips25": {
+        "message": "Топ 5 курсов с наибольшим объемом опубликованных учебных занятий",
+        "description": ""
+    },
+    "screenDynamic.activeTeacherTop": {
+        "message": "Активные учителя Топ 10",
+        "description": ""
+    },
+    "teachingAdmin.source": {
+        "message": "Источник",
+        "description": ""
+    },
+    "dataCenter.homeworkNum": {
+        "message": "Количество домашних работ",
+        "description": ""
+    },
+    "dataCenter.discussionXData1": {
+        "message": "Долгосрочное обсуждение",
+        "description": ""
+    },
+    "role": {
+        "message": "Роль",
+        "description": ""
+    },
+    "dataCenter.PCExe": {
+        "message": "Компьютерный клиент",
+        "description": ""
+    },
+    "courseDeclarationAdmin.batchRelatedMainCourse": {
+        "message": "Связать курсы массово",
+        "description": ""
+    },
+    "dataCenter.liveDuration": {
+        "message": "Продолжительность трансляции",
+        "description": ""
+    },
+    "dataCenter.weeksArray[3]": {
+        "message": "среда",
+        "description": ""
+    },
+    "teachingAdmin.exportData": {
+        "message": "Экспорт данных",
+        "description": ""
+    },
+    "dataCenter.participantsTeacherRate": {
+        "message": "Пропорция участвующих учителей",
+        "description": ""
+    },
+    "dataCenter.teacherActivityRankingTop": {
+        "message": "ТОП 30 активных учителей",
+        "description": ""
+    },
+    "dataCenter.publishVoteTeaNum": {
+        "message": "ОпубликоватьГолосованиеучительЧисленностьЧеловек",
+        "description": ""
+    },
+    "courseDeclarationAdmin.currentDeclaredCourse": {
+        "message": "Текущий курс:",
+        "description": ""
+    },
+    "courseDeclarationAdmin.relatedMainCourseId": {
+        "message": "Идентификатор связанного основного курса",
+        "description": ""
+    },
+    "dataCenter.examPaperTotalNum": {
+        "message": "Общее количество экзаменационных работ",
+        "description": ""
+    },
+    "totalOfVideo": {
+        "message": "Всего {n} видео",
+        "description": ""
+    },
+    "dataCenter.dataTips32": {
+        "message": "Топ 5 курсов с максимальным количеством опубликованных ресурсов",
+        "description": ""
+    },
+    "dataCenter.cumulativeLiveViewNum": {
+        "message": "Суммарное количество просмотров прямых эфиров",
+        "description": ""
+    },
+    "dataCenter.examNum": {
+        "message": "Количество экзаменов",
+        "description": ""
+    },
+    "orderNumber": {
+        "message": "порядковый номер",
+        "description": ""
+    },
+    "teachingAdmin.email": {
+        "message": "Адрес электронной почты",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips2": {
+        "message": "Подтвердите отключение связи?",
+        "description": ""
+    },
+    "classes": {
+        "message": "Класс",
+        "description": ""
+    },
+    "systemAdmin.modifyAdministrator": {
+        "message": "Изменить Администратора",
+        "description": ""
+    },
+    "computerTerminal": {
+        "message": "компьютер",
+        "description": ""
+    },
+    "appManage": {
+        "message": "Управление приложениями",
+        "description": ""
+    },
+    "dataCenter.videoNum": {
+        "message": "количество видео",
+        "description": ""
+    },
+    "teachingAdmin.timeBetween": {
+        "message": "от {startTime} до {endTime}",
+        "description": ""
+    },
+    "consumerKey": {
+        "message": "Ключ доступа для потребителей",
+        "description": ""
+    },
+    "dataCenter.courseEvaluationAnalysis": {
+        "message": "Анализ методов оценки Курсов",
+        "description": ""
+    },
+    "screenDynamic.thisSemester": {
+        "message": "в текущем семестре",
+        "description": ""
+    },
+    "dataCenter.teacherTotalNum": {
+        "message": "Общее количество учителей",
+        "description": ""
+    },
+    "teachingAdmin.modifyTeahcer": {
+        "message": "Изменить учителя",
+        "description": ""
+    },
+    "screenDynamic.activeCourseClassTop": {
+        "message": "Топ 10 самых активных онлайн-курсов",
+        "description": ""
+    },
+    "dataCenter.topic": {
+        "message": "тема",
+        "description": ""
+    },
+    "dataCenter.publishScore": {
+        "message": "Опубликовать оценку",
+        "description": ""
+    },
+    "deleteRoleTips": {
+        "message": "Вы уверены, что хотите удалить роль? Удаление роли не удалит соответствующих пользователей. Вы можете назначить пользователям новую роль.",
+        "description": ""
+    },
+    "dataCenter.attendancePublishRankingTop": {
+        "message": "Опубликовать рейтинг 10 лучших посещаемости",
+        "description": ""
+    },
+    "dataCenter.teaLoginNum": {
+        "message": "Количество учителей, которые вошли в систему",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips3": {
+        "message": "Подтвердите переход в режим необучаемого?",
+        "description": ""
+    },
+    "dataCenter.coursewarevideoDuration": {
+        "message": "Общая продолжительность видео учебного материала",
+        "description": ""
+    },
+    "teachingAdmin.receiver": {
+        "message": "Получатели",
+        "description": ""
+    },
+    "teachingAdmin.publishDate": {
+        "message": "Дата публикации",
+        "description": ""
+    },
+    "dataCenter.dataTips42": {
+        "message": "ТОП 5 экзаменов с наибольшим количеством участников",
+        "description": ""
+    },
+    "screenDynamic.weekLoginUsers": {
+        "message": "Численность пользователей, вошедших на этой неделе",
+        "description": ""
+    },
+    "dataCenter.homeworkTest": {
+        "message": "Тест",
+        "description": ""
+    },
+    "dataCenter.publishAnswer": {
+        "message": "опубликовать Быстрый ответ",
+        "description": ""
+    },
+    "manageCenter": {
+        "message": "Центр управления",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips9": {
+        "message": "Связанный курс не может быть пустым",
+        "description": ""
+    },
+    "courseDeclarationAdmin.selectDeclaredCourse": {
+        "message": "Выбрать регистрируемый Курс",
+        "description": ""
+    },
+    "dataCenter.discussNum": {
+        "message": "Количество тем",
+        "description": ""
+    },
+    "fullName": {
+        "message": "имя",
+        "description": ""
+    },
+    "teachingAdmin.studentManage": {
+        "message": "Управление учащимися",
+        "description": ""
+    },
+    "teachingAdmin.typeTip3": {
+        "message": "Этой классификации еще не существует",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips10": {
+        "message": "Название веб-сайта не может быть Пустым",
+        "description": ""
+    },
+    "exerciseTotalTimes": {
+        "message": "Общее количество упражнений",
+        "description": ""
+    },
+    "teachingAdmin.studentSource": {
+        "message": "Статистика источников студентов",
+        "description": ""
+    },
+    "dataCenter.dataTips13": {
+        "message": "Другие типы курсов",
+        "description": ""
+    },
+    "exit": {
+        "message": "Выход",
+        "description": ""
+    },
+    "teachingAdmin.addTeacher": {
+        "message": "Добавить преподавателя",
+        "description": ""
+    },
+    "dataCenter.publishHomeworkTeacherRate": {
+        "message": "Удельный вес учителей по опубликованным домашним работам",
+        "description": ""
+    },
+    "permissionTips6": {
+        "message": "Управление реальными классами (добавление/изменение/удаление реальных классов)",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips6": {
+        "message": "Данные сейчас в запросе, пожалуйста, попробуйте немного позже",
+        "description": ""
+    },
+    "teachingAdmin.importClass": {
+        "message": "Импортировать класс",
+        "description": ""
+    },
+    "teachingAdmin.refused": {
+        "message": "Отклонено",
+        "description": ""
+    },
+    "dataCenter.liveCourseNum": {
+        "message": "количество онлайн-занятий",
+        "description": ""
+    },
+    "dataCenter.currentOverallLearningProgress": {
+        "message": "Текущий общий прогресс обучения",
+        "description": ""
+    },
+    "dataCenter.participantsstudentNum": {
+        "message": "Количество учащихся, участвующих",
+        "description": ""
+    },
+    "courseDeclarationAdmin.noSearchCourse": {
+        "message": "Нет результатов поиска",
+        "description": ""
+    },
+    "teachingAdmin.examName": {
+        "message": "Название экзамена",
+        "description": ""
+    },
+    "dataCenter.createPracticeTeacherNum": {
+        "message": "Создать количество учителей вопросодателей",
+        "description": ""
+    },
+    "subsystem.mobileEvaluation": {
+        "message": "Переместить оценку",
+        "description": ""
+    },
+    "dataCenter.exam": {
+        "message": "Экзамен",
+        "description": ""
+    },
+    "studentNum": {
+        "message": "Количество студентов",
+        "description": ""
+    },
+    "dataCenter.discussionXData0": {
+        "message": "Обсуждение на время",
+        "description": ""
+    },
+    "dataCenter.dataTips41": {
+        "message": "Общее количество экзаменационных работ, статистика от общего количества, созданных учителями нашего учебного заведения, не зависит от выбранного периода времени",
+        "description": ""
+    },
+    "dataCenter.activityXData0": {
+        "message": "Объявление",
+        "description": ""
+    },
+    "dataCenter.externalIntroduction": {
+        "message": "Внешняя ссылка",
+        "description": ""
+    },
+    "dataCenter.studentRaplyDiscussNum": {
+        "message": "Количество ответов на посты студентов",
+        "description": ""
+    },
+    "teachingAdmin.importTip4": {
+        "message": "Отменить текущий импорт",
+        "description": ""
+    },
+    "dataCenter.uploadPeopleNum": {
+        "message": "Загруженных человек",
+        "description": ""
+    },
+    "dataCenter.examDeviceXData1": {
+        "message": "мобильный телефон",
+        "description": ""
+    },
+    "checkAll": {
+        "message": "Выбрать все",
+        "description": ""
+    },
+    "teachingAdmin.schoolStuRate": {
+        "message": "Удельный вес студентов нашего учебного заведения",
+        "description": ""
+    },
+    "sharedSecret": {
+        "message": "Общий секрет",
+        "description": ""
+    },
+    "courseDeclarationAdmin.conversionToDeclarationCourse": {
+        "message": "Преобразовать курс для подписки",
+        "description": ""
+    },
+    "courseDeclarationAdmin.courseLevel": {
+        "message": "Структура курса",
+        "description": ""
+    },
+    "teachingAdmin.searchByClass": {
+        "message": "Введите название класса для поиска",
+        "description": ""
+    },
+    "teachingAdmin.schoolMooc": {
+        "message": "наше учебное заведение разработало MOOC",
+        "description": ""
+    },
+    "teachingAdmin.courseCreator": {
+        "message": "Создатель курса",
+        "description": ""
+    },
+    "dataCenter.dataTips2": {
+        "message": "Статистика только по созданным новым курсам за выбранный период времени и не включая курсы с численностью студентов менее 10 человек",
+        "description": ""
+    },
+    "courseDeclarationAdmin.undeterminedCourse": {
+        "message": "Курсы ожидания",
+        "description": ""
+    },
+    "systemAdmin.websiteTemplate": {
+        "message": "Шаблон веб-сайта",
+        "description": ""
+    },
+    "dataCenter.activityXData9": {
+        "message": "оценивать",
+        "description": ""
+    },
+    "dataCenter.voteNum": {
+        "message": "Количество голосов",
+        "description": ""
+    },
+    "teachingAdmin.naturalClass": {
+        "message": "естественный класс",
+        "description": ""
+    },
+    "dataCenter.dataTips29": {
+        "message": "Количество просмотров ресурсов студентами",
+        "description": ""
+    },
+    "courseDeclarationAdmin.relatedSubcourses": {
+        "message": "Связанные дочерние курсы",
+        "description": ""
+    },
+    "inputOpenCoursePlatform": {
+        "message": "Введите платформа запуска курсов",
+        "description": ""
+    },
+    "addAdminTips2": {
+        "message": "Выберите минимум один факультет",
+        "description": ""
+    },
+    "courseDeclarationAdmin.currentCourse": {
+        "message": "Текущий курс:",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips18": {
+        "message": "Подтвердите удаление объявления",
+        "description": ""
+    },
+    "dataCenter.uploadTeacherTotalNum": {
+        "message": "ЗагрузитьОбщее количествоучителей",
+        "description": ""
+    },
+    "teachingAdmin.noShow": {
+        "message": "не отображать",
+        "description": ""
+    },
+    "videoAllDuration": {
+        "message": "Общее время видео",
+        "description": ""
+    },
+    "dataCenter.publishDiscussTeaNum": {
+        "message": "Число учителей, опубликовавших обсуждения",
+        "description": ""
+    },
+    "dataCenter.videoStudyTime": {
+        "message": "Продолжительность изучения видео",
+        "description": ""
+    },
+    "teachingAdmin.schoolStuNum": {
+        "message": "Число участвующих в отборе из нашего учебного заведения",
+        "description": ""
+    },
+    "courseDeclarationAdmin.confirmRelate": {
+        "message": "Подтвердите связывание",
+        "description": ""
+    },
+    "dataCenter.answerTotalNum": {
+        "message": "Общее количество методом вопросов и ответов",
+        "description": ""
+    },
+    "dataCenter.loginTimes": {
+        "message": "Частота входа",
+        "description": ""
+    },
+    "teachingAdmin.downloadTemplate": {
+        "message": "Скачать шаблон",
+        "description": ""
+    },
+    "dataCenter.dataTips14": {
+        "message": "Курсы, не входящие в первые 3 категории",
+        "description": ""
+    },
+    "dataCenter.dataRefreshTips": {
+        "message": "Данные обновляются каждые 5 минут",
+        "description": ""
+    },
+    "dataCenter.teachingDynamic": {
+        "message": "Динамика преподавания",
+        "description": ""
+    },
+    "systemAdministrator": {
+        "message": " Системный Администратор",
+        "description": ""
+    },
+    "confirm": {
+        "message": "Подтвердите",
+        "description": ""
+    },
+    "nearly30days": {
+        "message": "Последние 30 дней",
+        "description": ""
+    },
+    "dataCenter.videoAverageDuration": {
+        "message": "Средняя продолжительность видео",
+        "description": ""
+    },
+    "teachingAdmin.staticTable": {
+        "message": "Статистический график",
+        "description": ""
+    },
+    "teachingAdmin.school": {
+        "message": "школа",
+        "description": ""
+    },
+    "dataCenter.practiceNum": {
+        "message": "количество заданий",
+        "description": ""
+    },
+    "dataCenter.cumulativeExamPeopleNum": {
+        "message": "Всего экзаменов (чел-раз)",
+        "description": ""
+    },
+    "dataCenter.dataTips31": {
+        "message": "Пятерка преподавателей, разместивших максимальное количество ресурсов",
+        "description": ""
+    },
+    "courseDeclarationAdmin.cancelRelateMainCourseSuccess": {
+        "message": "Отмена связывания главного курса успешна",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips14": {
+        "message": "Объединение курсов приведет к тому, что классы, объявления, учебные материалы, ресурсы, домашняя работа, обсуждения, учебные занятия, экзамены, стратегии оценивания выбранных курсов будут объединены в последний созданный курс.",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips1": {
+        "message": "Введите название курса либо имя учителя для поиска",
+        "description": ""
+    },
+    "subsystem.oralTest": {
+        "message": "Голосовая оценка",
+        "description": ""
+    },
+    "dataCenter.dataTips30": {
+        "message": "Статистика загруженных учителем ресурсов",
+        "description": ""
+    },
+    "courseDeclarationAdmin.modifyCourseDeclarationInfo": {
+        "message": "Изменить данные заявки на курс",
+        "description": ""
+    },
+    "dataCenter.examTypeDistribution": {
+        "message": "Распределение Экзамена по типам",
+        "description": ""
+    },
+    "dataCenter.exportReport3": {
+        "message": "Экспортировать месячный отчет по семестру",
+        "description": ""
+    },
+    "teachingAdmin.createTime": {
+        "message": "Дата создания",
+        "description": ""
+    },
+    "name": {
+        "message": "Название",
+        "description": ""
+    },
+    "courseDeclarationAdmin.exportDeclarationInfo4": {
+        "message": "Экспортировать данные 【таблица 06】",
+        "description": ""
+    },
+    "dataCenter.setStudyPlan": {
+        "message": "Настройки учебного плана",
+        "description": ""
+    },
+    "liveManagement": {
+        "message": "Прямой эфир",
+        "description": ""
+    },
+    "teacher": {
+        "message": "учитель",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips19": {
+        "message": "Имя пользователя не должно содержать пробелы и специальные символы, длина от 4 до 50 символов",
+        "description": ""
+    },
+    "teachingAdmin.addClass": {
+        "message": "добавлять естественный класс",
+        "description": ""
+    },
+    "teachingAdmin.inSchoolCourse": {
+        "message": "Внутренний курс",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips4": {
+        "message": "Подтвердите отображение этого курса на веб-сайте?",
+        "description": ""
+    },
+    "screenDynamic.thisWeek": {
+        "message": "На этой неделе",
+        "description": ""
+    },
+    "dataCenter.visitCourseTips": {
+        "message": "Количество курсов, посещаемость которых в тот же день превысила 0 чел-раз",
+        "description": ""
+    },
+    "view": {
+        "message": "Просмотр",
+        "description": ""
+    },
+    "dataCenter.publishLive": {
+        "message": "Опубликовать прямой эфир",
+        "description": ""
+    },
+    "screenDynamicText": {
+        "message": "Данные большого экрана",
+        "description": ""
+    },
+    "dataCenter.richtext": {
+        "message": "Визуальный",
+        "description": ""
+    },
+    "teachingAdmin.schoolStuJoinNum": {
+        "message": "Численность студентов нашего учебного заведения",
+        "description": ""
+    },
+    "teachingTeacher": {
+        "message": "Учитель",
+        "description": ""
+    },
+    "dataCenter.dataTips40": {
+        "message": "Банк вопросов: Общее количество созданных вопросов преподавателями нашего учебного заведения вне зависимости от выбранного временного периода",
+        "description": ""
+    },
+    "dataCenter.dataTips10": {
+        "message": "В курсе опубликовано более 20 заданий, обсуждений, прямых эфиров, учебных занятий, при этом прямой эфир и учебные занятия составляют более 80%",
+        "description": ""
+    },
+    "dataCenter.mostActiveCourseTop": {
+        "message": "Топ-5 самых активных курсов",
+        "description": ""
+    },
+    "all": {
+        "message": "все",
+        "description": ""
+    },
+    "systemAdmin.websiteLanguageTip": {
+        "message": "Язык веб-сайта Обязательное для заполнения",
+        "description": ""
+    },
+    "dataCenter.resourceUploadAnalysis": {
+        "message": "Анализ загрузки ресурсов",
+        "description": ""
+    },
+    "courseDeclarationAdmin.publicBasicCourses": {
+        "message": "Общеобразовательные учебные предметы",
+        "description": ""
+    },
+    "dataCenter.examTypeXData1": {
+        "message": "Случайное составление теста",
+        "description": ""
+    },
+    "courseDeclarationAdmin.frontPage": {
+        "message": "Предыдущая страница",
+        "description": ""
+    },
+    "teachingAdmin.agreed": {
+        "message": "согласиться",
+        "description": ""
+    },
+    "teachingAdmin.confirmMerge": {
+        "message": "Подтвердите объединение",
+        "description": ""
+    },
+    "teachingAdmin.noStu": {
+        "message": "пока нет Студентов вступило",
+        "description": ""
+    },
+    "teachingAdmin.classNum": {
+        "message": "Количество классов",
+        "description": ""
+    },
+    "search": {
+        "message": "поиск",
+        "description": ""
+    },
+    "teachingAdmin.importTip6": {
+        "message": "импорт завершен, всего активировано",
+        "description": ""
+    },
+    "courseDeclarationAdmin.courseManager": {
+        "message": "Ответственный за Курс",
+        "description": ""
+    },
+    "viewMore": {
+        "message": "Подробности",
+        "description": ""
+    },
+    "unInstalled": {
+        "message": "Не активировано",
+        "description": ""
+    },
+    "teachingAdmin.joinNum": {
+        "message": "Численность студентов на выборных курсах",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips8": {
+        "message": "Введите название раздела",
+        "description": ""
+    },
+    "dataCenter.stuCommitHomeworkNum": {
+        "message": "Количество поданных студентами домашних работ",
+        "description": ""
+    },
+    "dataCenter.teachContentAnalysis": {
+        "message": "Анализ учебного контента",
+        "description": ""
+    },
+    "dataCenter.teaLoginCount": {
+        "message": "Число входов учителя",
+        "description": ""
+    },
+    "dataCenter.discussionAnalysis": {
+        "message": "Обсуждение Анализ",
+        "description": ""
+    },
+    "dataCenter.activityXData1": {
+        "message": "Домашняя работа",
+        "description": ""
+    },
+    "dataCenter.participantsDiscussStudentRate": {
+        "message": "Процент студентов, участвующих в обсуждении темы",
+        "description": ""
+    },
+    "screenDynamic.activeOrganizationTop": {
+        "message": "Топ-10 активных организаций",
+        "description": ""
+    },
+    "dataCenter.shortestVideoDuration": {
+        "message": "минимальная продолжительность видео",
+        "description": ""
+    },
+    "teachingManagement": {
+        "message": "Управление обучением",
+        "description": ""
+    },
+    "courseDeclarationAdmin.batchConvToNondeclSuccess": {
+        "message": "Массовое превращение в незаявленные было успешным",
+        "description": ""
+    },
+    "systemAdminText": {
+        "message": "Управление системой",
+        "description": ""
+    },
+    "exerciseCompletionRate": {
+        "message": "Процент выполнения упражнений",
+        "description": ""
+    },
+    "dataCenter.courseTotalNum": {
+        "message": "Общее количество курсов",
+        "description": ""
+    },
+    "teachingAdmin.publishAnnouncement": {
+        "message": "Создать и опубликовать объявление",
+        "description": ""
+    },
+    "courseDeclarationAdmin.allOrganization": {
+        "message": "все организации",
+        "description": ""
+    },
+    "dataCenter.publishAssessmentTotalNum": {
+        "message": "Общее количество опубликованных политик",
+        "description": ""
+    },
+    "dataCenter.homeworkTypeDistribution": {
+        "message": "Распределение по типам заданий",
+        "description": ""
+    },
+    "dataCenter.dataTips23": {
+        "message": "Отображается статистика только оконченных перекличек студентов, чьё посещение лекций составляет более 80%",
+        "description": ""
+    },
+    "courseDeclarationAdmin.onlineYear": {
+        "message": "Год запуска",
+        "description": ""
+    },
+    "course": {
+        "message": "Курс",
+        "description": ""
+    },
+    "teachingAdmin.viewScore": {
+        "message": "Просмотр оценок",
+        "description": ""
+    },
+    "videoDuration": {
+        "message": "Продолжительность видео",
+        "description": ""
+    },
+    "courseDeclarationAdmin.exportDeclarationInfo1": {
+        "message": "Экспортировать данные 【таблицы 01】 (для просмотра полных данных выполните экспорт)",
+        "description": ""
+    },
+    "dataCenter.weeksArray[4]": {
+        "message": "четверг",
+        "description": ""
+    },
+    "courseDeclarationAdmin.willRelateMainCourse": {
+        "message": "Связать с основным курсом:",
+        "description": ""
+    },
+    "videoName": {
+        "message": "Название видео",
+        "description": ""
+    },
+    "dataCenter.voteAnalysis": {
+        "message": "Анализ голосования",
+        "description": ""
+    },
+    "courseDeclarationAdmin.exportDeclarationInfo2": {
+        "message": "Экспортировать данные 【таблицы 04】",
+        "description": ""
+    },
+    "dataCenter.dataTips7": {
+        "message": "Курс изучения ресурсов",
+        "description": ""
+    },
+    "dataCenter.personalHomework": {
+        "message": "индивидуальное задание",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips15": {
+        "message": "После объединения можно изменить автора курса с помощью [Перенос курса].",
+        "description": ""
+    },
+    "inputProfessionalCode": {
+        "message": "Введите код специальности",
+        "description": ""
+    },
+    "dataCenter.mostActiveStuTop": {
+        "message": "Топ-5 самых активных студентов",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips19": {
+        "message": "Файл Не превышать 1Г",
+        "description": ""
+    },
+    "teachingAdmin.notDisplayOnWebsite": {
+        "message": "не отображать на веб-сайте",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips24": {
+        "message": "Введённый адрес электронной почты неправильного формата",
+        "description": ""
+    },
+    "teachingAdmin.refuse": {
+        "message": "Отклонить",
+        "description": ""
+    },
+    "dataCenter.selectCourseware": {
+        "message": "Выбрать учебный материал",
+        "description": ""
+    },
+    "dataCenter.homeworkTotalNum": {
+        "message": "Общее количество домашних заданий",
+        "description": ""
+    },
+    "dataCenter.classroomInteractionAnalysis": {
+        "message": "Анализ взаимодействия в классе",
+        "description": ""
+    },
+    "clickUnfold": {
+        "message": "Нажмите развернуть",
+        "description": ""
+    },
+    "teachingAdmin.noData": {
+        "message": "пока нет данных",
+        "description": ""
+    },
+    "dataCenter.studentLoginTrend": {
+        "message": "Тенденции входа студентов",
+        "description": ""
+    },
+    "courseDeclarationAdmin.relatedMainCourseName": {
+        "message": "Связанное название основного курса",
+        "description": ""
+    },
+    "dataCenter.averageClassRate": {
+        "message": "Средний процент посещаемости",
+        "description": ""
+    },
+    "dataCenter.coursewareOperationTop": {
+        "message": "ТОП-10 операций с учебным материалом",
+        "description": ""
+    },
+    "dataCenter.teachActivitiesAnalysis": {
+        "message": "Анализ учебной деятельности",
+        "description": ""
+    },
+    "courseDeclarationAdmin.publishOrg": {
+        "message": "организация-издатель",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips2": {
+        "message": "Введите Пароль",
+        "description": ""
+    },
+    "appCenter": {
+        "message": "Центр приложений",
+        "description": ""
+    },
+    "teachingAdmin.schoolStuDistribution": {
+        "message": "Распределение студентов по факультетам нашего учебного заведения",
+        "description": ""
+    },
+    "dataCenter.loginNumTips": {
+        "message": "Статистика общего количества входов: Начать с 2018-6-8",
+        "description": ""
+    },
+    "systemAdmin.websiteTemplateTip": {
+        "message": "Выберите шаблон сайта",
+        "description": ""
+    },
+    "subsystem.mobileTest": {
+        "message": "Мобильное тестирование",
+        "description": ""
+    },
+    "dataCenter.resourceXData7": {
+        "message": "видео",
+        "description": ""
+    },
+    "dataCenter.participantsTeacherNum": {
+        "message": "Количество участвующих учителей",
+        "description": ""
+    },
+    "courseDeclarationAdmin.convToNondeclSuccess": {
+        "message": "Переход к незаявленной успешный",
+        "description": ""
+    },
+    "teachingAdmin.checkTip1": {
+        "message": "Текущий",
+        "description": ""
+    },
+    "permissionTips8": {
+        "message": "Настройки ролевых разрешений (добавление/изменение/удаление ролей, настройка ролевых разрешений)",
+        "description": ""
+    },
+    "dataCenter.publishExamTeaNum": {
+        "message": "Опубликовать численность учителей по экзаменам",
+        "description": ""
+    },
+    "exerciseNum": {
+        "message": "Количество упражнений",
+        "description": ""
+    },
+    "teachingAdmin.uploadFile": {
+        "message": "Загрузить файл",
+        "description": ""
+    },
+    "dataCenter.viewScoreProgress": {
+        "message": "Просмотр текущей успеваемости",
+        "description": ""
+    },
+    "dataCenter.signAnalyzeXData2": {
+        "message": "уходить досрочно",
+        "description": ""
+    },
+    "dataCenter.todayLogin": {
+        "message": "Войти сегодня",
+        "description": ""
+    },
+    "exerciseStatisticAnalysis": {
+        "message": "Анализ статистики упражнений",
+        "description": ""
+    },
+    "teachingAdmin.publisher": {
+        "message": "Создатель",
+        "description": ""
+    },
+    "courseDeclarationAdmin.ulearningSubjectClassification": {
+        "message": "Классификация предметов ULearning",
+        "description": ""
+    },
+    "dataCenter.signAnalyzeXData3": {
+        "message": "Отпуск по личным обстоятельствам",
+        "description": ""
+    },
+    "dataCenter.liveXData2": {
+        "message": "Больше 2 часов",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips17": {
+        "message": "объединение...Немного позже",
+        "description": ""
+    },
+    "dataCenter.dataTips5": {
+        "message": "Курс для 51-200 человек",
+        "description": ""
+    },
+    "dataCenter.activityDataTips": {
+        "message": "Больше данных о занятии. Экспортируйте для отображения подробностей",
+        "description": ""
+    },
+    "dataCenter.coursewareTotalNum": {
+        "message": "Общее количество учебных материалов",
+        "description": ""
+    },
+    "dataCenter.dataTips43": {
+        "message": "Статистика входов только в выбранном диапазоне времени",
+        "description": ""
+    },
+    "dataCenter.averageBatchPeople": {
+        "message": "Среднее число человек за сеанс",
+        "description": ""
+    },
+    "dataCenter.semester": {
+        "message": "семестр",
+        "description": ""
+    },
+    "teachingAdmin.reCheck": {
+        "message": "снова проверить",
+        "description": ""
+    },
+    "addApp": {
+        "message": "Добавьте приложение",
+        "description": ""
+    },
+    "dataCenter.exportReport2": {
+        "message": "Экспортировать недельный отчет за семестр",
+        "description": ""
+    },
+    "dataCenter.exerAverCompletionRate": {
+        "message": "Средний процент завершения упражнений",
+        "description": ""
+    },
+    "dataCenter.dataTips17": {
+        "message": "Удельный вес Курсов с настроенными Правилами оценивания",
+        "description": ""
+    },
+    "teachingAdmin.check": {
+        "message": "опубликовать проверку",
+        "description": ""
+    },
+    "courseDeclarationAdmin.vocationalSchool": {
+        "message": "ВЫСШЕЕ ПРОФЕССИОНАЛЬНОЕ ОБРАЗОВАНИЕ",
+        "description": ""
+    },
+    "permissionTips3": {
+        "message": "Управление обучением: внешний импорт управления курсом",
+        "description": ""
+    },
+    "dataCenter.liveAnalysis": {
+        "message": "Анализ прямого эфира",
+        "description": ""
+    },
+    "subsystem.live": {
+        "message": "Прямой эфир",
+        "description": ""
+    },
+    "teachingAdmin.subordinateCourse": {
+        "message": "Учебный курс",
+        "description": ""
+    },
+    "dataCenter.runningCourseNum": {
+        "message": "Количество активных курсов",
+        "description": ""
+    },
+    "teachingAdmin.importSuccess": {
+        "message": "Импорт выполнен успешно",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips6": {
+        "message": "Подтвердить удаление факультета?",
+        "description": ""
+    },
+    "dataCenter.updateCoursewareTimes": {
+        "message": "Обновление учебного материала чел-раз",
+        "description": ""
+    },
+    "teachingAdmin.publishAnnouncement2": {
+        "message": "Создать и опубликовать объявление",
+        "description": ""
+    },
+    "teachingAdmin.grade2": {
+        "message": "Класс",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips1": {
+        "message": "Введите имя",
+        "description": ""
+    },
+    "dataCenter.responderTotalNum": {
+        "message": "Общее количество быстрых ответов",
+        "description": ""
+    },
+    "courseDeclarationAdmin.relateSuccess": {
+        "message": "Связывание прошло успешно",
+        "description": ""
+    },
+    "ltiApp": {
+        "message": "LTI интегрированное приложение",
+        "description": ""
+    },
+    "subsystemText": {
+        "message": "подсистема",
+        "description": ""
+    },
+    "dataCenter.dataTips11": {
+        "message": "Смешанный курс",
+        "description": ""
+    },
+    "dataCenter.discussTotalNum": {
+        "message": "Общее количество обсуждений",
+        "description": ""
+    },
+    "dataCenter.participantsDiscussTeacherNum": {
+        "message": "Количество учителей, участвующих в теме",
+        "description": ""
+    },
+    "teachingAdmin.classification": {
+        "message": "классифицировать",
+        "description": ""
+    },
+    "teachingAdmin.announcementName": {
+        "message": "Наименование объявления",
+        "description": ""
+    },
+    "backToCustomerService": {
+        "message": "Вернуться в Службу поддержки клиентов",
+        "description": ""
+    },
+    "professionalCode": {
+        "message": "Код специальности",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips27": {
+        "message": "Введите имя учителя или имя пользователя для поиска",
+        "description": ""
+    },
+    "dataCenter.weeksArray[0]": {
+        "message": "воскресенье",
+        "description": ""
+    },
+    "teachingAdmin.otherMoocPageTip": {
+        "message": "Эта таблица отображает MOOC внешних организаций.",
+        "description": ""
+    },
+    "dataCenter.hour": {
+        "message": "час",
+        "description": ""
+    },
+    "dataCenter.teachingModeAnalysis": {
+        "message": "Анализ модели обучения",
+        "description": ""
+    },
+    "teachingAdmin.notStart": {
+        "message": "не начался",
+        "description": ""
+    },
+    "teachingAdmin.toSet": {
+        "message": "В настройки",
+        "description": ""
+    },
+    "dataCenter.publishScoreTeaNum": {
+        "message": "Опубликовать количество оценивающих учителей",
+        "description": ""
+    },
+    "screenDynamic.todayLoginUsers": {
+        "message": "Численность пользователей, вошедших сегодня",
+        "description": ""
+    },
+    "dataCenter.totalExamPeople": {
+        "message": "Общее количество прошедших экзамены",
+        "description": ""
+    },
+    "dataCenter.dataTips3": {
+        "message": "Курс > 1000 человек",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips6": {
+        "message": "Скачайте шаблон, заполните информацию согласно указаниям в шаблоне, затем загрузите документ и импортируйте:",
+        "description": ""
+    },
+    "courseDeclarationAdmin.ulearningCourseDeclarationInfoAdmin": {
+        "message": "ULearning: информация о заявках на курс факультета",
+        "description": ""
+    },
+    "inputRoleName": {
+        "message": "Введите название роли",
+        "description": ""
+    },
+    "dataCenter.exerAverAnswerTime": {
+        "message": "Среднее время ответа на упражнение",
+        "description": ""
+    },
+    "teachingAdmin.subordinateDepartment": {
+        "message": "Факультет",
+        "description": ""
+    },
+    "teachingAdmin.transferCourse": {
+        "message": "Передача курса",
+        "description": ""
+    },
+    "courseDeclarationAdmin.conversionToDeclaration": {
+        "message": "Для просмотра",
+        "description": ""
+    },
+    "dataCenter.classTotalNum": {
+        "message": "Общее количество классов",
+        "description": ""
+    },
+    "systemAdmin.websiteDomain": {
+        "message": "Домен сайта",
+        "description": ""
+    },
+    "dataCenter.practiceContributionTop": {
+        "message": "Топ-10 участников, внесших наибольший вклад в упражнения",
+        "description": ""
+    },
+    "dataCenter.publishHomeworkTeacherNum": {
+        "message": "Количество учителей, опубликовавших задание",
+        "description": ""
+    },
+    "courseDeclarationAdmin.modifyInfo": {
+        "message": "Изменить данные",
+        "description": ""
+    },
+    "dataCenter.announcementPublishRankingTop": {
+        "message": "Топ-10 опубликованных объявлений",
+        "description": ""
+    },
+    "dataCenter.courseName": {
+        "message": "Название курса",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips15": {
+        "message": "Название класса слишком длинное",
+        "description": ""
+    },
+    "systemAdmin.default": {
+        "message": "по умолчанию",
+        "description": ""
+    },
+    "teachingAdmin.exportList": {
+        "message": "Экспортировать список",
+        "description": ""
+    },
+    "dataCenter.totalPublishPeople": {
+        "message": "Общее число создателей",
+        "description": ""
+    },
+    "permissionTips7": {
+        "message": "Уведомления и объявления (опубликовать/изменить/удалить объявление)",
+        "description": ""
+    },
+    "teachingAdmin.websiteShow": {
+        "message": "отображать веб-сайт",
+        "description": ""
+    },
+    "teachingAdmin.displayOnWebsite": {
+        "message": "отображать на веб-сайте",
+        "description": ""
+    },
+    "teachingAdmin.nonschoolCourse": {
+        "message": "Курсы не нашего учебного заведения",
+        "description": ""
+    },
+    "teachingAdmin.modifyClassification": {
+        "message": "Изменить классификацию",
+        "description": ""
+    },
+    "saveModify": {
+        "message": "сохранить изменения",
+        "description": ""
+    },
+    "dataCenter.schoolCreatedCourse": {
+        "message": "наше учебное заведение самостоятельно создало",
+        "description": ""
+    },
+    "averageAnswerTime": {
+        "message": "Среднее время ответа",
+        "description": ""
+    },
+    "systemAdmin.courseClassification": {
+        "message": "Классификация курсов",
+        "description": ""
+    },
+    "dataCenter.homeworkPublishAnalysis": {
+        "message": "Анализ публикации Домашней работы",
+        "description": ""
+    },
+    "teachingAdmin.plzInputClassName": {
+        "message": "Введите название класса",
+        "description": ""
+    },
+    "dataCenter.uploadNum": {
+        "message": "Количество загружаемых",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips23": {
+        "message": "Введите Адрес электронной почты",
+        "description": ""
+    },
+    "teachingAdmin.otherMooc": {
+        "message": "Внешние ссылки МООК",
+        "description": ""
+    },
+    "dataCenter.discussTopicAnalysis": {
+        "message": "Анализ обсуждения темы",
+        "description": ""
+    },
+    "courseDeclarationAdmin.relevantSubcourses": {
+        "message": "Связать дочерние курсы",
+        "description": ""
+    },
+    "teachingAdmin.examManage": {
+        "message": "Управление экзаменами",
+        "description": ""
+    },
+    "inputOpenSchool": {
+        "message": "Введите высшее учебное заведение, открывшее курс",
+        "description": ""
+    },
+    "ranking": {
+        "message": "Рейтинг",
+        "description": ""
+    },
+    "courseDeclarationAdmin.yes": {
+        "message": "Да",
+        "description": ""
+    },
+    "chapterName": {
+        "message": "Название раздела",
+        "description": ""
+    },
+    "courseDeclarationAdmin.exportDeclarationInfo3": {
+        "message": "Экспортировать данные [таблица 05]",
+        "description": ""
+    },
+    "averageWatchVideoDuration": {
+        "message": "Средняя продолжительность просмотра видео студентами",
+        "description": ""
+    },
+    "dataCenter.answerAnalysis": {
+        "message": "Метод вопросов и ответов Балл Анализ",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips13": {
+        "message": "Данный префикс доменного имени уже используется",
+        "description": ""
+    },
+    "dataCenter.resourceXData0": {
+        "message": "Ссылка",
+        "description": ""
+    },
+    "dataCenter.weeksArray[1]": {
+        "message": "Понедельник",
+        "description": ""
+    },
+    "dataCenter.liveXData0": {
+        "message": "менее часа",
+        "description": ""
+    },
+    "teachingAdmin.typeTip2": {
+        "message": "Название категории не должно превышать 50 символов",
+        "description": ""
+    },
+    "videoStatisticAnalysis": {
+        "message": "Анализ статистики видео",
+        "description": ""
+    },
+    "dataCenter.coursewareStudyAnalysis": {
+        "message": "Анализ изученного учебного материала",
+        "description": ""
+    },
+    "dataCenter.scoreTotalNum": {
+        "message": "Общее количество баллов",
+        "description": ""
+    },
+    "courseDeclarationAdmin.skip": {
+        "message": "Перейти",
+        "description": ""
+    },
+    "dataCenter.stuLoginCount": {
+        "message": "Студент войти чел-раз",
+        "description": ""
+    },
+    "dataCenter.mostActiveTeaTop": {
+        "message": "топ 5 самых активных учителей",
+        "description": ""
+    },
+    "confirm2": {
+        "message": "Подтвердить",
+        "description": ""
+    },
+    "courseDeclarationAdmin.relieveAssociation": {
+        "message": "Разъединить связь",
+        "description": ""
+    },
+    "dataCenter.dataTips36": {
+        "message": "Опубликовать ТОП 5 наиболее обсуждаемых курсов",
+        "description": ""
+    },
+    "teachingAdmin.showInWebsite": {
+        "message": " отображать на веб-сайте",
+        "description": ""
+    },
+    "teachingAdmin.allCollege": {
+        "message": "все факультеты",
+        "description": ""
+    },
+    "subsystem.DigitalMarx": {
+        "message": "Числовой кентавр",
+        "description": ""
+    },
+    "dataCenter.dataTips39": {
+        "message": "Статистика экзаменов, опубликованных в указанном временном промежутке",
+        "description": ""
+    },
+    "teachingAdmin.subordinateCollege": {
+        "message": "Факультет, к которому принадлежит",
+        "description": ""
+    },
+    "dataCenter.dataTips24": {
+        "message": "ТОП-5 Учителей с максимальным количеством опубликованных учебных занятий",
+        "description": ""
+    },
+    "averageWatchDuration": {
+        "message": "Средняя продолжительность просмотра студентов",
+        "description": ""
+    },
+    "dataCenter.resourceAnalysis": {
+        "message": "Анализ ресурсов",
+        "description": ""
+    },
+    "dataCenter.chargeCourse": {
+        "message": "Ответственный за курс",
+        "description": ""
+    },
+    "dataCenter.activityXData7": {
+        "message": "Быстрый ответ",
+        "description": ""
+    },
+    "dataCenter.assessmentNum": {
+        "message": "количество проверок знаний",
+        "description": ""
+    },
+    "dataCenter.resourceXData3": {
+        "message": "Визуальный",
+        "description": ""
+    },
+    "dataCenter.totalTeacherTimes": {
+        "message": "Общее количество учителей",
+        "description": ""
+    },
+    "dataCenter.publishExam": {
+        "message": "Опубликовать экзамен",
+        "description": ""
+    },
+    "teachingAdmin.onGoing": {
+        "message": "Текущий",
+        "description": ""
+    },
+    "deleteSuccess": {
+        "message": "Удаление прошло успешно",
+        "description": ""
+    },
+    "teachingAdmin.courseStatistics": {
+        "message": "Аналитика курса",
+        "description": ""
+    },
+    "screenDynamic.activityRanking": {
+        "message": "Активность в рейтинге",
+        "description": ""
+    },
+    "dataCenter.publishHomeworkTeaNum": {
+        "message": "численность учителей, опубликовавших домашнюю работу",
+        "description": ""
+    },
+    "teachingAdmin.male": {
+        "message": "Мужчина",
+        "description": ""
+    },
+    "interExerAccuracyRate": {
+        "message": "Процент правильных ответов в упражнениях",
+        "description": ""
+    },
+    "dataCenter.dataTips21": {
+        "message": "Включить результаты экзамена в проверку знаний",
+        "description": ""
+    },
+    "teachingAdmin.allGrade": {
+        "message": "все классы",
+        "description": ""
+    },
+    "courseDeclarationAdmin.publishWebsite": {
+        "message": "опубликовать Cайт",
+        "description": ""
+    },
+    "dataCenter.answerPublishRankingTop": {
+        "message": "Топ-10 опубликованных вопросов и ответов",
+        "description": ""
+    },
+    "systemAdmin.courseClassificationSetting": {
+        "message": "Настройка классификации курсов",
+        "description": ""
+    },
+    "editInfoTips": {
+        "message": "внимание: Изменить вышеуказанные два параметра, автоматически синхронизирует Учебный курс в платформе, будьте осторожны при выполнении данной операции",
+        "description": ""
+    },
+    "dataCenter.dataTips26": {
+        "message": "Общее количество загруженных ресурсов в репозитории",
+        "description": ""
+    },
+    "courseDeclarationAdmin.relieveSuccess": {
+        "message": "Отменено успешно",
+        "description": ""
+    },
+    "dataCenter.activityXData6": {
+        "message": "Голосование",
+        "description": ""
+    },
+    "systemAdmin.password": {
+        "message": "Пароль",
+        "description": ""
+    },
+    "dataCenter.totalTeacherNum": {
+        "message": "Общее количество учителей",
+        "description": ""
+    },
+    "courseDeclarationAdmin.subordinateProfessionalCode": {
+        "message": "Код специальности",
+        "description": ""
+    },
+    "systemAdmin.addAdministrator": {
+        "message": "Добавить администратора",
+        "description": ""
+    },
+    "systemAdmin.loginTypeTemplate": {
+        "message": "тип входа",
+        "description": ""
+    },
+    "systemAdmin.supportOtherLanguages": {
+        "message": "Поддерживает другие языки",
+        "description": ""
+    },
+    "courseDeclarationAdmin.coreCurriculum": {
+        "message": "Общеобразовательный курс",
+        "description": ""
+    },
+    "teachingAdmin.typeTip1": {
+        "message": "Название классификации не может быть Пустым",
+        "description": ""
+    },
+    "subsystem.competitionActivities": {
+        "message": "Праздничные занятия",
+        "description": ""
+    },
+    "teachingAdmin.typeTip4": {
+        "message": "Названия категории не должны повторяться",
+        "description": ""
+    },
+    "dataCenter.examAnalysis": {
+        "message": "Анализ экзамена",
+        "description": ""
+    },
+    "teachingAdmin.inputExanNameTeaNameSearch": {
+        "message": "Введите название экзамена или имя учителя для поиска",
+        "description": ""
+    },
+    "dataCenter.dataTips9": {
+        "message": "Курс на основе взаимодействия в классе",
+        "description": ""
+    },
+    "dataCenter.studentTotalNum": {
+        "message": "Общее число студентов",
+        "description": ""
+    },
+    "dataCenter.stuLoginNum": {
+        "message": "Численность вошедших студентов",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips9": {
+        "message": "Введите название веб-сайта",
+        "description": ""
+    },
+    "dataCenter.examDeviceXData0": {
+        "message": "компьютер",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips12": {
+        "message": "Выберите курс для перевода в статус «Без заявления»",
+        "description": ""
+    },
+    "inputCourseManager": {
+        "message": "Введите ответственного за курс",
+        "description": ""
+    },
+    "publishTime": {
+        "message": "Дата публикации",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips4": {
+        "message": "Вводимое число не может быть больше",
+        "description": ""
+    },
+    "teachingAdmin.teacherManage": {
+        "message": "Управление преподавателями",
+        "description": ""
+    },
+    "saveFailed": {
+        "message": "Не удалось сохранить",
+        "description": ""
+    },
+    "dataCenter.studentTimes": {
+        "message": "Студент-раз",
+        "description": ""
+    },
+    "dataCenter.dataTips34": {
+        "message": "ТОП-5 курсов с максимальным количеством опубликованных домашних работ",
+        "description": ""
+    },
+    "courseDeclarationAdmin.relateMainCourse": {
+        "message": "Связать основной курс",
+        "description": ""
+    },
+    "dataCenter.createNum": {
+        "message": "Создать количество",
+        "description": ""
+    },
+    "dataCenter.announcementNum": {
+        "message": "Общее количество объявлений",
+        "description": ""
+    },
+    "teachingAdmin.state": {
+        "message": "состояние",
+        "description": ""
+    },
+    "courseDeclarationAdmin.openCourseSchool": {
+        "message": "Учебное заведение",
+        "description": ""
+    },
+    "dataCenter.publishPick": {
+        "message": "Опубликовать отбор людей",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips1": {
+        "message": "Данные подчиненного курса будут объединены с данными основного курса в текущем предложении",
+        "description": ""
+    },
+    "dataCenter.file": {
+        "message": "файл",
+        "description": ""
+    },
+    "dataCenter.examTotalNum": {
+        "message": "Общее количество экзаменов",
+        "description": ""
+    },
+    "teachingAdmin.announcementContent": {
+        "message": "Контент объявления",
+        "description": ""
+    },
+    "teachingAdmin.modifyStudent": {
+        "message": "Изменить студента",
+        "description": ""
+    },
+    "dataCenter.dataTips33": {
+        "message": "Топ-5 учителей, опубликовавших наибольшее количество домашних заданий",
+        "description": ""
+    },
+    "dataCenter.groupHomework": {
+        "message": "Групповая работа",
+        "description": ""
+    },
+    "dataCenter.courseWorking": {
+        "message": "Анализ Курса",
+        "description": ""
+    },
+    "dataCenter.averageExerNum": {
+        "message": "Среднее количество тестов",
+        "description": ""
+    },
+    "teachingAdmin.setType": {
+        "message": "Настроить тип курса для онлайн-курса в нашем учебном заведении",
+        "description": ""
+    },
+    "courseDeclarationAdmin.provincialProjectNotes": {
+        "message": "Имеются ли замечания по региональному проекту (необязательно)",
+        "description": ""
+    },
+    "dataCenter.activityXData3": {
+        "message": "Прямой эфир",
+        "description": ""
+    },
+    "teachingAdmin.announcementPublisher": {
+        "message": "Автор объявления:",
+        "description": ""
+    },
+    "onlySystemTips": {
+        "message": "доступно только администраторам системы",
+        "description": ""
+    },
+    "systemAdmin.classificationName": {
+        "message": "Название классификации",
+        "description": ""
+    },
+    "dataCenter.activityRanking": {
+        "message": "Рейтинг активности",
+        "description": ""
+    },
+    "dataCenter.teaAverageTeachCourseNum": {
+        "message": "Среднее количество учеников на учителя",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips4": {
+        "message": "Введённые пароли не совпадают",
+        "description": ""
+    },
+    "courseDeclarationAdmin.declaredCourseTips7": {
+        "message": "Введите название курса или идентификатор для запроса",
+        "description": ""
+    },
+    "dataCenter.dataTips37": {
+        "message": "топ 5 учителей, опубликовавших максимум прямых эфиров",
+        "description": ""
+    },
+    "addRole": {
+        "message": "добавить Роль",
+        "description": ""
+    },
+    "teachingAdmin.expiryDate": {
+        "message": "Срок действия",
+        "description": ""
+    },
+    "teachingAdmin.searchByName": {
+        "message": "Ввод название поиск",
+        "description": ""
+    },
+    "teachingAdmin.modifyCourseShow": {
+        "message": "Изменить отображение курса",
+        "description": ""
+    },
+    "dataCenter.examDeviceDistribution": {
+        "message": "Распределение  устройств для ответа на вопросы Экзамена",
+        "description": ""
+    },
+    "assignTo": {
+        "message": "Назначено:",
+        "description": ""
+    },
+    "meetingDisable": {
+        "message": "Деактивация",
+        "description": ""
+    },
+    "searchTeacherTip": {
+        "message": "Введите имя пользователя/имя для поиска",
+        "description": ""
+    },
+    "addTeacher": {
+        "message": "Добавить преподавателя",
+        "description": ""
+    },
+    "meetingNormal": {
+        "message": "Нормальный",
+        "description": ""
+    },
+    "selectedTeacher": {
+        "message": "Выбранные учителя:",
+        "description": ""
+    },
+    "meetingDescInvalid": {
+        "message": "Длина не более 100 символов",
+        "description": ""
+    },
+    "teacherStats": {
+        "message": "всего {n} учителей",
+        "description": ""
+    },
+    "modifyMeeting": {
+        "message": "Изменить виртуальную комнату совещаний",
+        "description": ""
+    },
+    "meetingNameInvalid": {
+        "message": "Длина от 1 до 30 символов",
+        "description": ""
+    },
+    "settings": {
+        "message": "настройки",
+        "description": ""
+    },
+    "expireTime": {
+        "message": "Время истечения",
+        "description": ""
+    },
+    "meetingExpire": {
+        "message": "скоро истекает",
+        "description": ""
+    },
+    "assignTeacher": {
+        "message": "Назначение учителя",
+        "description": ""
+    },
+    "seats": {
+        "message": "Количество мест",
+        "description": ""
+    },
+    "meetingDescTip": {
+        "message": "Введите описание виртуальной комнаты совещаний",
+        "description": ""
+    },
+    "meetingNameTip": {
+        "message": "Введите название виртуальной комнаты совещаний",
+        "description": ""
+    },
+    "cloudMeetingRoom": {
+        "message": "Виртуальная комната совещаний",
+        "description": ""
+    },
+    "systemAdmin.passwordLengthTips": {
+        "message": "Введите пароль длиной не менее шести символов",
+        "description": ""
+    },
+    "modifyFailed": {
+        "message": "Изменение неудачно",
+        "description": ""
+    },
+    "modifySuccess": {
+        "message": "Изменено успешно",
+        "description": ""
+    },
+    "description": {
+        "message": "описание",
+        "description": ""
+    },
+    "teachingAdmin.memoPlaceholder": {
+        "message": "Введите дополнение",
+        "description": ""
+    },
+    "teachingAdmin.memo": {
+        "message": "примечания",
+        "description": ""
+    },
+    "cloudMeetingRoomManagement": {
+        "message": "Управление виртуальными комнатами для совещаний",
+        "description": ""
+    },
+    "teachingAdmin.withoutCourse": {
+        "message": "Нет необязательных Курсов",
+        "description": ""
+    },
+    "teachingAdmin.clearFilter": {
+        "message": "Очистить",
+        "description": ""
+    },
+    "teachingAdmin.activityAuthor": {
+        "message": "автор",
+        "description": ""
+    },
+    "teachingAdmin.enterTeacher": {
+        "message": "ввод учителя",
+        "description": ""
+    },
+    "teachingAdmin.endTime": {
+        "message": "Окончание",
+        "description": ""
+    },
+    "teachingAdmin.actType1": {
+        "message": "учебный материал",
+        "description": ""
+    },
+    "teachingAdmin.missionEnd": {
+        "message": "завершить",
+        "description": ""
+    },
+    "teachingAdmin.startTime": {
+        "message": "время начала",
+        "description": ""
+    },
+    "teachingAdmin.activityName": {
+        "message": "Название занятия",
+        "description": ""
+    },
+    "teachingAdmin.filterTitle": {
+        "message": "Фильтр задач",
+        "description": ""
+    },
+    "teachingAdmin.activityType": {
+        "message": "Тип",
+        "description": ""
+    },
+    "teachingAdmin.chartView": {
+        "message": "Вид календаря",
+        "description": ""
+    },
+    "teachingAdmin.timeType": {
+        "message": "По времени начала",
+        "description": ""
+    },
+    "teachingAdmin.enterCourse": {
+        "message": "Ввести курс",
+        "description": ""
+    },
+    "teachingAdmin.actType3": {
+        "message": "обсуждение",
+        "description": ""
+    },
+    "teachingAdmin.searchByClassification": {
+        "message": "По типу",
+        "description": ""
+    },
+    "teachingAdmin.teachingCalendar": {
+        "message": "Учебный календарь",
+        "description": ""
+    },
+    "teachingAdmin.activityDetail": {
+        "message": "Подробности занятия",
+        "description": ""
+    },
+    "teachingAdmin.listView": {
+        "message": "Вид списка",
+        "description": ""
+    },
+    "teachingAdmin.missionBegin": {
+        "message": "Начать",
+        "description": ""
+    },
+    "teachingAdmin.actType5": {
+        "message": "Экзамен",
+        "description": ""
+    },
+    "teachingAdmin.actType2": {
+        "message": "Домашняя работа",
+        "description": ""
+    },
+    "teachingAdmin.actType4": {
+        "message": "Прямой эфир",
+        "description": ""
+    },
+    "teachingAdmin.startTimeTOendTime": {
+        "message": "До",
+        "description": ""
+    },
+    "teachingAdmin.filterByStart": {
+        "message": "По времени начала",
+        "description": ""
+    },
+    "teachingAdmin.filterByEnd": {
+        "message": "По времени окончания",
+        "description": ""
+    },
+    "necessary": {
+        "message": "Обязательные поля не могут быть пустыми",
+        "description": ""
+    },
+    "teachingAdmin.pragramFormSection2": {
+        "message": "описание",
+        "description": ""
+    },
+    "teachingAdmin.btnMsg1": {
+        "message": "Редактирование",
+        "description": ""
+    },
+    "teachingAdmin.settingsTip3": {
+        "message": "С полуночи времени начала до конца крайнего срока",
+        "description": ""
+    },
+    "teachingAdmin.detailInfo": {
+        "message": "Подробная информация",
+        "description": ""
+    },
+    "teachingAdmin.formErrTitle": {
+        "message": "подсказка",
+        "description": ""
+    },
+    "teachingAdmin.detailInfoTitle1": {
+        "message": "Специальное предложение",
+        "description": ""
+    },
+    "teachingAdmin.deltoast": {
+        "message": "Удаление прошло успешно",
+        "description": ""
+    },
+    "teachingAdmin.pragramFormSection4": {
+        "message": "время обучения",
+        "description": ""
+    },
+    "teachingAdmin.creatTime": {
+        "message": "Дата создания",
+        "description": ""
+    },
+    "teachingAdmin.pragramFormSection8": {
+        "message": "Формат изучения",
+        "description": ""
+    },
+    "teachingAdmin.programAction": {
+        "message": "операция",
+        "description": ""
+    },
+    "teachingAdmin.whritingLanguage": {
+        "message": "Вы сейчас редактируете упрощенный {language} контент",
+        "description": ""
+    },
+    "teachingAdmin.settingsTip1": {
+        "message": "Опубликовать на портале",
+        "description": ""
+    },
+    "teachingAdmin.editProgram": {
+        "message": "Редактирование специальности",
+        "description": ""
+    },
+    "teachingAdmin.newProgram": {
+        "message": "Не опубликовано",
+        "description": ""
+    },
+    "teachingAdmin.programStatus": {
+        "message": "Состояние публикации",
+        "description": ""
+    },
+    "teachingAdmin.updatedProgram": {
+        "message": "Опубликовано",
+        "description": ""
+    },
+    "teachingAdmin.allowApply": {
+        "message": "Открыта регистрация",
+        "description": ""
+    },
+    "teachingAdmin.programAdmin": {
+        "message": "Управление экспертными знаниями",
+        "description": ""
+    },
+    "teachingAdmin.programCompany": {
+        "message": "Организация-организатор",
+        "description": ""
+    },
+    "teachingAdmin.fonfirm": {
+        "message": "Подтвердите",
+        "description": ""
+    },
+    "teachingAdmin.btnMsg2": {
+        "message": "настройки",
+        "description": ""
+    },
+    "teachingAdmin.settingTitle": {
+        "message": "настройки профиля",
+        "description": ""
+    },
+    "teachingAdmin.language": {
+        "message": "язык",
+        "description": ""
+    },
+    "teachingAdmin.settingsTip2": {
+        "message": "Отправить заявку",
+        "description": ""
+    },
+    "teachingAdmin.pragramFormSection7": {
+        "message": "Сертификат",
+        "description": ""
+    },
+    "teachingAdmin.programList": {
+        "message": "список специальностей",
+        "description": ""
+    },
+    "teachingAdmin.creatProgramPlaceholder1": {
+        "message": "Введите название специальности",
+        "description": ""
+    },
+    "teachingAdmin.applySetting": {
+        "message": "настройка заявки",
+        "description": ""
+    },
+    "teachingAdmin.applyInfo": {
+        "message": "Данные заявки",
+        "description": ""
+    },
+    "teachingAdmin.disableAlliy": {
+        "message": "Заявки не принимаются",
+        "description": ""
+    },
+    "teachingAdmin.readingLanguage": {
+        "message": "Сейчас вы просматриваете {language} контент",
+        "description": ""
+    },
+    "teachingAdmin.programClass": {
+        "message": "Классифицировать по специальности",
+        "description": ""
+    },
+    "teachingAdmin.btnMsg3": {
+        "message": "удалить",
+        "description": ""
+    },
+    "teachingAdmin.settingTitle2": {
+        "message": "период подачи заявок открыт",
+        "description": ""
+    },
+    "teachingAdmin.pragramFormSection5": {
+        "message": "Стоимость обучения",
+        "description": ""
+    },
+    "teachingAdmin.ProgramDelTip": {
+        "message": "Подтвердите удаление этой специальности?",
+        "description": ""
+    },
+    "teachingAdmin.baseInfo": {
+        "message": "Основная информация",
+        "description": ""
+    },
+    "teachingAdmin.programLogo": {
+        "message": "Профессиональная миниатюра",
+        "description": ""
+    },
+    "teachingAdmin.pragramFormSection9": {
+        "message": "Профессиональное классифицирование",
+        "description": ""
+    },
+    "teachingAdmin.formErrTip1": {
+        "message": "Данные изменены. Сохранить?",
+        "description": ""
+    },
+    "teachingAdmin.uploadmsg": {
+        "message": "Поддерживаются изображения в формате JPG/JPEG/PNG, размером не более 2 Мб, рекомендуемые размеры 1280 пикселей * 720 пикселей (16:9)",
+        "description": ""
+    },
+    "teachingAdmin.pragramFormSection3": {
+        "message": "Организация-хозяин",
+        "description": ""
+    },
+    "teachingAdmin.pragramFormSection6": {
+        "message": "баллы",
+        "description": ""
+    },
+    "teachingAdmin.sendSetting": {
+        "message": "Настройки публикации",
+        "description": ""
+    },
+    "teachingAdmin.cancel": {
+        "message": "Отменить",
+        "description": ""
+    },
+    "teachingAdmin.programPreview": {
+        "message": "Предварительный просмотр",
+        "description": ""
+    },
+    "teachingAdmin.noSave": {
+        "message": "Не сохранять",
+        "description": ""
+    },
+    "teachingAdmin.pragramFormSection1": {
+        "message": "Профессиональное название",
+        "description": ""
+    },
+    "teachingAdmin.programSave": {
+        "message": "сохранить",
+        "description": ""
+    },
+    "teachingAdmin.creatProgramPlaceholder2": {
+        "message": "Введите контент",
+        "description": ""
+    },
+    "teachingAdmin.programName": {
+        "message": "Профессиональное название",
+        "description": ""
+    },
+    "teachingAdmin.settingTitle3": {
+        "message": "Численность набора",
+        "description": ""
+    },
+    "teachingAdmin.ableApply": {
+        "message": "Открыт набор заявок",
+        "description": ""
+    },
+    "teachingAdmin.uploadTip": {
+        "message": "Нажмите Загрузить",
+        "description": ""
+    },
+    "teachingAdmin.creatProgram": {
+        "message": "создать новую специальность",
+        "description": ""
+    },
+    "teachingAdmin.openStatus2": {
+        "message": "Закрыта",
+        "description": ""
+    },
+    "teachingAdmin.openStatus1": {
+        "message": "открыто",
+        "description": ""
+    },
+    "teachingAdmin.programNameErr": {
+        "message": "Повторить название специальности",
+        "description": ""
+    },
+    "settingErr2": {
+        "message": "Заполните время начала и окончания полностью",
+        "description": ""
+    },
+    "settingErr1": {
+        "message": "Пожалуйста, заполните время начала и окончания полностью.",
+        "description": ""
+    },
+    "teachingAdmin.uploadFileTips1": {
+        "message": "Файл не должен превышать 2m",
+        "description": ""
+    },
+    "teachingAdmin.maxlengthTip1": {
+        "message": "Подробная информация не должна превышать 5000 символов",
+        "description": ""
+    },
+    "settingErr3": {
+        "message": "Заполните полностью количество набранных студентов",
+        "description": ""
+    },
+    "teachingAdmin.creatProgramPlaceholder3": {
+        "message": "Выберите категорию",
+        "description": ""
+    },
+    "systemAdmin.chooseImage": {
+        "message": "Выбрать изображение",
+        "description": ""
+    },
+    "systemAdmin.websiteicon": {
+        "message": "Иконка веб-сайта",
+        "description": ""
+    },
+    "allMajor": {
+        "message": "все специальности",
+        "description": ""
+    },
+    "phone": {
+        "message": "телефон",
+        "description": ""
+    },
+    "applyOther": {
+        "message": "дополнительная информация",
+        "description": ""
+    },
+    "changeMajor": {
+        "message": "Связанные специальности",
+        "description": ""
+    },
+    "copy": {
+        "message": "Копировать",
+        "description": ""
+    },
+    "deleteApplyMsg": {
+        "message": "Подтвердите удаление заявки?",
+        "description": ""
+    },
+    "majorType": {
+        "message": "Категория специализации",
+        "description": ""
+    },
+    "applicationName": {
+        "message": "подавший заявку человек",
+        "description": ""
+    },
+    "deleteFail": {
+        "message": "Ошибка удаления",
+        "description": ""
+    },
+    "isreply2": {
+        "message": "Не отвечено",
+        "description": ""
+    },
+    "copySuccess": {
+        "message": "Скопировано успешно",
+        "description": ""
+    },
+    "isreply": {
+        "message": "Отвечен",
+        "description": ""
+    },
+    "email": {
+        "message": "Электронная почта",
+        "description": ""
+    },
+    "majorName": {
+        "message": "Специальность",
+        "description": ""
+    },
+    "inputNameEmail": {
+        "message": "Введите имя или электронный адрес заявителя для запроса",
+        "description": ""
+    },
+    "applyTime": {
+        "message": "Время подачи заявки",
+        "description": ""
+    },
+    "systemAdmin.timeAreaSettingTip": {
+        "message": "Настройте часовой пояс",
+        "description": ""
+    },
+    "systemAdmin.timeAreaSetting": {
+        "message": "Настройки часового пояса",
+        "description": ""
+    },
+    "systemAdmin.uploadTip": {
+        "message": "Рекомендуем использовать ico файл 48*48",
+        "description": ""
+    },
+    "systemAdmin.chooseImageTips1": {
+        "message": "файл ico должен быть меньше 500 КБ",
+        "description": ""
+    },
+    "systemAdmin.chooseImageLoading": {
+        "message": "Выгрузка",
+        "description": ""
+    },
+    "deleteCategoryTip": {
+        "message": "После удаления категории привязанные к ней курсы и специальности будут установлены как неклассифицированные. Подтвердите удаление?",
+        "description": ""
+    },
+    "multilingual": {
+        "message": "Редактирование на разных языках",
+        "description": ""
+    },
+    "teachingAdmin.restoreAccount": {
+        "message": "Восстановление учетной записи",
+        "description": ""
+    },
+    "dataCenter.cumulativeNumberOfEntrants": {
+        "message": "накапливать число вошедших",
+        "description": ""
+    },
+    "teachingAdmin.cancelled": {
+        "message": "Заметки",
+        "description": ""
+    },
+    "dataCenter.dataDisplay": {
+        "message": "Данные о посещении",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips21": {
+        "message": "Данная учетная запись была аннулирована, Подтвердите восстановление?",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips29": {
+        "message": "Введите Уникальный идентификатор преподавателя",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips22": {
+        "message": "Данная учетная запись заморожена, подтвердите разморозку?",
+        "description": ""
+    },
+    "teachingAdmin.freeze": {
+        "message": "заморожено",
+        "description": ""
+    },
+    "teachingAdmin.teachingAdminTips28": {
+        "message": "Формат кода файла невозможно разобрать, попробуйте перекодировать в mp4 и затем загрузить.",
+        "description": ""
+    },
+    "teachersWorkNumber": {
+        "message": "Уникальный идентификатор преподавателя",
+        "description": ""
+    },
+    "teachingAdmin.thawAccount": {
+        "message": "Разморозить учетную запись",
+        "description": ""
+    },
+    "systemAdmin.sisSync": {
+        "message": "Синхронизировать студенческую информационную систему",
+        "description": ""
+    },
+    "systemAdmin.sis3Tip": {
+        "message": "Введите логин студенческой информационной системы",
+        "description": ""
+    },
+    "systemAdmin.sisErrorTip": {
+        "message": "Ошибка синхронизации SIS. Хотите перейти к управлению веб-сайтом для настройки параметров SIS?",
+        "description": ""
+    },
+    "systemAdmin.choose": {
+        "message": "Выберите",
+        "description": ""
+    },
+    "systemAdmin.sis5Tip": {
+        "message": "Введите URL студенческой информационной системы",
+        "description": ""
+    },
+    "systemAdmin.fileUploadingTip": {
+        "message": "Выгрузка вложения",
+        "description": ""
+    },
+    "systemAdmin.sis5": {
+        "message": "Адрес студенческой информационной системы",
+        "description": ""
+    },
+    "systemAdmin.sis2Tip": {
+        "message": "Введите идентификатор студенческой информационной системы",
+        "description": ""
+    },
+    "systemAdmin.sis4": {
+        "message": "пароль студенческой информационной системы",
+        "description": ""
+    },
+    "systemAdmin.sis4Tip": {
+        "message": "Введите пароль студенческой информационной системы",
+        "description": ""
+    },
+    "systemAdmin.sisSyncLoading": {
+        "message": "Синхронизация с СТУДЕНЧЕСКОЙ ИНФОРМАЦИОННОЙ СИСТЕМОЙ...",
+        "description": ""
+    },
+    "systemAdmin.sis1": {
+        "message": "Тип студенческой информационной системы",
+        "description": ""
+    },
+    "systemAdmin.sis3": {
+        "message": "Имя_пользователя_студенческой_информационной_системы",
+        "description": ""
+    },
+    "systemAdmin.sis2": {
+        "message": "идентификатор клиента SIS",
+        "description": ""
+    },
+    "customizeLTI2": {
+        "message": "Основные настройки",
+        "description": ""
+    },
+    "customizeLTI11": {
+        "message": "демонстрировать учителю на ПК",
+        "description": ""
+    },
+    "customizeLTI7": {
+        "message": "Область применения",
+        "description": ""
+    },
+    "customizeLTI4": {
+        "message": "иконка",
+        "description": ""
+    },
+    "customizeLTI8": {
+        "message": "демонстрация на Мобильном приложении Студенту",
+        "description": ""
+    },
+    "customizeLTI1": {
+        "message": "Добавить настраиваемое приложение",
+        "description": ""
+    },
+    "customizeLTI13": {
+        "message": "версия LTI",
+        "description": ""
+    },
+    "customizeLTI3": {
+        "message": "Название",
+        "description": ""
+    },
+    "customizeLTI5": {
+        "message": "Ссылка на справку",
+        "description": ""
+    },
+    "customizeLTI10": {
+        "message": "демонстрация студенту на ПК",
+        "description": ""
+    },
+    "customizeLTI6": {
+        "message": "интегрированные настройки",
+        "description": ""
+    },
+    "customizeLTI12": {
+        "message": "Конфигурация приложения",
+        "description": ""
+    },
+    "customizeLTI9": {
+        "message": "демонстрация учителю в мобильном приложении",
+        "description": ""
+    },
+    "customizeLTI14": {
+        "message": "Изменить настраиваемое приложение",
+        "description": ""
+    },
+    "customizeLTI15": {
+        "message": "Введите {label}",
+        "description": ""
+    },
+    "customizeLTI16": {
+        "message": "Пожалуйста, загрузите иконку",
+        "description": ""
+    },
+    "customizeLTI17": {
+        "message": "Введите корректную ссылку",
+        "description": ""
+    },
+    "customizeLTI18": {
+        "message": "Не превышать {num} символов",
+        "description": ""
+    },
+    "teachingAdmin.importTip3": {
+        "message": "Обновить личную информацию для студентов с учетной записью (обновить только сведения о классе, факультете и т.д., не редактировать имя пользователя и пароль)",
+        "description": ""
+    },
+    "teachingAdmin.importTip2": {
+        "message": "Пропустить импорт студентов с существующей учетной записью",
+        "description": ""
+    },
+    "courseDeclarationAdmin.editAccount": {
+        "message": "Редактирование учетной записи",
+        "description": ""
+    },
+    "teachingAdmin.inToAccount": {
+        "message": "Войти в учетную запись",
+        "description": ""
+    },
+    "teachingAdmin.importTip7": {
+        "message": "Пропустить учетные записи студентов",
+        "description": ""
+    },
+    "permissionTips4": {
+        "message": "Управление преподавателями (добавление/изменение/удаление преподавателя, вход в учетную запись преподавателя)",
+        "description": ""
+    },
+    "systemAdmin.accountOpendTime": {
+        "message": "Время активации учетной записи",
+        "description": ""
+    },
+    "teachingAdmin.downloadImportResult": {
+        "message": "Скачать результаты активации учетной записи",
+        "description": ""
+    },
+    "dataCenter.pleaseUseAdminAccount": {
+        "message": " войдите в систему под своей учетной записью Администратора",
+        "description": ""
+    },
+    "teachingAdmin.batchOpenStuAccount": {
+        "message": "Массовая активация учётных записей студентов",
+        "description": ""
+    },
+    "permissionTips5": {
+        "message": "Управление учащимися (добавление, изменение, удаление учащихся, вход в учетную запись учащегося)",
+        "description": ""
+    },
+    "teachingAdmin.importTip8": {
+        "message": "Студент с уже существующей учетной записью.",
+        "description": ""
+    },
+    "teachingAdmin.importTip5": {
+        "message": "Нажмите, чтобы загрузить список студентов с уже имеющимися учетными записями",
+        "description": ""
+    },
+    "systemAdmin.systemAdminTips18": {
+        "message": "учетная запись Существующий",
+        "description": ""
+    },
+    "teachingAdmin.importTip1": {
+        "message": "В разделе таблицы у некоторых студентов уже есть учетная запись, Выберите способ решения:",
+        "description": ""
+    },
+    "teachingAdmin.batchOpenTeaAccount": {
+        "message": "Массовая активация учетных записей преподавателей",
+        "description": ""
+    },
+    "systemAdmin.usernum": {
+        "message": "Количество пользователей",
+        "description": ""
+    },
+    "systemAdmin.effecttime": {
+        "message": "ВрДействительный емя",
+        "description": ""
+    },
+    "systemAdmin.resettiptitle": {
+        "message": "Сброс токена",
+        "description": ""
+    },
+    "systemAdmin.resourcestatus": {
+        "message": "Состояние ресурсов",
+        "description": ""
+    },
+    "systemAdmin.resetsuccess": {
+        "message": "Сброс successful",
+        "description": ""
+    },
+    "systemAdmin.totalquota2": {
+        "message": "Общая квота",
+        "description": ""
+    },
+    "systemAdmin.instnum": {
+        "message": "Количество организаций",
+        "description": ""
+    },
+    "systemAdmin.resetbutton": {
+        "message": "сброс",
+        "description": ""
+    },
+    "systemAdmin.orgResource": {
+        "message": "ресурсы организации",
+        "description": ""
+    },
+    "systemAdmin.over": {
+        "message": "завершить",
+        "description": ""
+    },
+    "systemAdmin.resettipbody": {
+        "message": "Эта операция сбросит токен синхронизации SIS, продолжить?",
+        "description": ""
+    },
+    "systemAdmin.totalquota1": {
+        "message": " общая квота",
+        "description": ""
+    },
+    "systemAdmin.site": {
+        "message": "Сайт",
+        "description": ""
+    }
+}
