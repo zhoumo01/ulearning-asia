@@ -1,3078 +1,3082 @@
 {
-    "exam": {
-        "message": "Экзамен",
-        "description": ""
-    },
-    "passwordErr": {
-        "message": "Неверное имя пользователя/пароль",
-        "description": ""
-    },
-    "personalInfo": {
-        "message": "Личный кабинет",
-        "description": ""
-    },
-    "freezeTip": {
-        "message": "Система обнаружила, что данная учетная запись при изучении курса {names} допускала мошенничество и другие виды ненадлежащего поведения, поэтому учетная запись была автоматически заморожена, пожалуйста, свяжитесь с классным руководителем или с платформой для дальнейшего разрешения данной ситуации.",
-        "description": ""
-    },
-    "examMonitor": {
-        "message": "Мониторинг экзамена",
-        "description": ""
-    },
-    "password": {
-        "message": "Пароль",
-        "description": ""
-    },
-    "faceSuccess": {
-        "message": "Авторизация пройдена, через 3 секунды начнется Экзамен",
-        "description": ""
-    },
-    "deviceAbnormalityTip": {
-        "message": "Во время этого экзамена активирован мониторинг оборудования, поэтому во время экзамена запрещено заменять оборудование или Браузер. Для ответа на вопросы используйте устройство, на которое вы впервые Вошли для начала экзамена.",
-        "description": ""
-    },
-    "faceVerificationTip": {
-        "message": "Ты еще не завершил(а) аутентификацию по лицу, невозможно войти в Экзамен через распознавание лиц.",
-        "description": ""
-    },
-    "loadError": {
-        "message": "Запрос не выполнен",
-        "description": ""
-    },
-    "notSupportTip": {
-        "message": "Этот Экзамен не поддерживает ответы через страницу, пожалуйста, Войти в экзамен согласно указанному способу участия",
-        "description": ""
-    },
-    "quit": {
-        "message": "Выйти из системы",
-        "description": ""
-    },
-    "cancel": {
-        "message": "Отменить",
-        "description": ""
-    },
-    "examCodeError": {
-        "message": "Неправильный код подтверждения",
-        "description": ""
-    },
-    "faceMonitorTip": {
-        "message": "ативирован {faceMonitor}, необходимо пройти проверку через распознавание лица для перехода к экзамену",
-        "description": ""
-    },
-    "useCodeEnter": {
-        "message": "Использовать код подтверждения, чтобы войти экзамен",
-        "description": ""
-    },
-    "home": {
-        "message": "Главная страница",
-        "description": ""
-    },
-    "cameraMonitor": {
-        "message": "видеонаблюдение",
-        "description": ""
-    },
-    "confirm": {
-        "message": "Подтвердите",
-        "description": ""
-    },
-    "notStart": {
-        "message": "не начался",
-        "description": ""
-    },
-    "ipMonitorTip": {
-        "message": "Активирован {ipMonitor}, во время работы не переключать Сеть",
-        "description": ""
-    },
-    "multipleSessions": {
-        "message": "Этот экзамен содержит несколько поэтапных сессий, сессии и конкретное время, в которое экзаменуемые могут принять участие, пожалуйста, войдите, чтобы просмотреть",
-        "description": ""
-    },
-    "goToCertification": {
-        "message": "Сертификат",
-        "description": ""
-    },
-    "lateLimitTip": {
-        "message": "Войти в экзамен запрещено через {min} минут после его начала",
-        "description": ""
-    },
-    "useCode": {
-        "message": "Использовать код подтверждения",
-        "description": ""
-    },
-    "cutScreenMonitorTip1": {
-        "message": "Если активирован {cutScreenMonitor}, при однократном выходе более чем на {s} секунд или накоплении {times} выходов, система принудительно завершит и отправит работу",
-        "description": ""
-    },
-    "examNotes": {
-        "message": "Правила экзамена",
-        "description": ""
-    },
-    "lateLimit": {
-        "message": "Ограничение по опозданиям",
-        "description": ""
-    },
-    "faceVerificationTip1": {
-        "message": "Прав сейчас {goToCertification} или {useCodeEnter}",
-        "description": ""
-    },
-    "deviceAbnormality": {
-        "message": "Оборудование не работает",
-        "description": ""
-    },
-    "app": {
-        "message": "Мобильное приложение",
-        "description": ""
-    },
-    "faceVerification": {
-        "message": "Проверка через распознавание лиц",
-        "description": ""
-    },
-    "inputPas": {
-        "message": "Введите пароль",
-        "description": ""
-    },
-    "submitLimit": {
-        "message": "Ограничение сдачи экзаменационной работы",
-        "description": ""
-    },
-    "exe": {
-        "message": "Клиент блокировки компьютера",
-        "description": ""
-    },
-    "lateTip": {
-        "message": "Ты превысил разрешённое время опоздания к экзамену, войти нельзя.",
-        "description": ""
-    },
-    "expireTip": {
-        "message": "Сеанс авторизации истек, пожалуйста, войдите снова.",
-        "description": ""
-    },
-    "resultsNotYetAnnounce": {
-        "message": " оценки пока не объявлены",
-        "description": ""
-    },
-    "debugCamera": {
-        "message": "Отладка камеры",
-        "description": ""
-    },
-    "mac": {
-        "message": "Мак-версия",
-        "description": ""
-    },
-    "noCameraTip2": {
-        "message": "В этот раз экзамен включает в себя видеонаблюдение, используйте устройство с включённой камерой для участия в экзамене.",
-        "description": ""
-    },
-    "download": {
-        "message": "Скачать",
-        "description": ""
-    },
-    "overErrorTimes": {
-        "message": "Вы уже ошиблись 5 раз подряд, попробуйте еще через 3 минуты",
-        "description": ""
-    },
-    "checkFirst": {
-        "message": "Пожалуйста, отметьте",
-        "description": ""
-    },
-    "agreenExamNotes": {
-        "message": "Я прочитал и согласен с правилами экзамена",
-        "description": ""
-    },
-    "minute": {
-        "message": "{n} минут",
-        "description": ""
-    },
-    "examNotStart": {
-        "message": "Экзамен не начался",
-        "description": ""
-    },
-    "downloadExe": {
-        "message": "Скачать клиентскую программу для экзаменов",
-        "description": ""
-    },
-    "ipAbnormality": {
-        "message": "Исключение IP-адреса",
-        "description": ""
-    },
-    "limitTime": {
-        "message": "Срок действия Экзамена",
-        "description": ""
-    },
-    "timeLimit": {
-        "message": "Экзамен по времени",
-        "description": ""
-    },
-    "identification": {
-        "message": "отменить сертификацию",
-        "description": ""
-    },
-    "subjectiveQuestionsToBeReviewed": {
-        "message": "Задания на проверке по субъективному вопросу",
-        "description": ""
-    },
-    "faceFail": {
-        "message": "Аутентификация по лицу непройденная.",
-        "description": ""
-    },
-    "loginFail": {
-        "message": "Сбой при входе в систему",
-        "description": ""
-    },
-    "downloadApp": {
-        "message": "Скачать мобильное приложение ULearning 2.0",
-        "description": ""
-    },
-    "usedTimes": {
-        "message": "Использованное кол-во попыток",
-        "description": ""
-    },
-    "useCodeTip": {
-        "message": "В случае возникновения необходимости замены устройства обратитесь к контролёру экзамена за кодом подтверждения, {useCode}, чтобы войти.",
-        "description": ""
-    },
-    "stratExam": {
-        "message": "Начать экзамен",
-        "description": ""
-    },
-    "myScore": {
-        "message": "Моя оценка",
-        "description": ""
-    },
-    "userNameLogin": {
-        "message": "Вход по учетной записи и паролю",
-        "description": ""
-    },
-    "noPermissionTip": {
-        "message": "У тебя нет права участвовать в этом Экзамене, если есть вопросы, свяжись с организатором Экзамена.",
-        "description": ""
-    },
-    "windowsTip": {
-        "message": "Поддержка Майнрософт Виндовс 7 и более поздних версий системой",
-        "description": ""
-    },
-    "noCameraTip1": {
-        "message": "Данный экзамен предусматривает использование системы распознавания лиц, пожалуйста, используйте устройство с камерой.",
-        "description": ""
-    },
-    "deviceMonitor": {
-        "message": "Мониторинг оборудования",
-        "description": ""
-    },
-    "cutScreenMonitorTip2": {
-        "message": "Активирован {cutScreenMonitor}, накапливать выйти более {times} раз, система сдать экзаменационную работу Принудительное завершение и отправка",
-        "description": ""
-    },
-    "inProgress": {
-        "message": "Текущий",
-        "description": ""
-    },
-    "ipPermissionsTip": {
-        "message": "Текущий IP-адрес: {ip} не имеет права войти. Пожалуйста, выполните вход с установленного компьютера.",
-        "description": ""
-    },
-    "notLimit": {
-        "message": "Неограниченный",
-        "description": ""
-    },
-    "openApp": {
-        "message": "Перейдите в мобильное приложение ULearning 2.0 для сдачи Экзамена",
-        "description": ""
-    },
-    "cameraMonitorTip": {
-        "message": "Камера {cameraMonitor} активирована. Держите камеру включенной на протяжении всего времени, направляя её прямо на себя.",
-        "description": ""
-    },
-    "noCameraTip": {
-        "message": "Камера занята или для нее запрещены права доступа. Разрешите права доступа к камере или закройте другие приложения, использующие камеру.",
-        "description": ""
-    },
-    "getIt": {
-        "message": "Я понял",
-        "description": ""
-    },
-    "login": {
-        "message": "войти",
-        "description": ""
-    },
-    "fileSizeLimitType": {
-        "message": "Размер вложения не превышать {maxSize}",
-        "description": ""
-    },
-    "cutScreenMonitor": {
-        "message": "Мониторинг переключения приложений",
-        "description": ""
-    },
-    "testCamera": {
-        "message": "Тестирование камеры",
-        "description": ""
-    },
-    "submitLimitType": {
-        "message": "Начать Экзамен разрешено не ранее, чем через {min} минут",
-        "description": ""
-    },
-    "score": {
-        "message": "{n} балл",
-        "description": ""
-    },
-    "macTip": {
-        "message": "Поддерживается система macOS 10.11 и более поздних версий",
-        "description": ""
-    },
-    "noFaceTip": {
-        "message": "Распознавание лиц было включено для этого Экзамена. Чтобы принять участие в Экзамене, необходимо Завершить Аутентификацию по лицу.",
-        "description": ""
-    },
-    "ipMonitor": {
-        "message": "Контроль IP-адресов",
-        "description": ""
-    },
-    "inputUserName": {
-        "message": "Введите имя пользователя/номер мобильного телефона/адрес электронной почты",
-        "description": ""
-    },
-    "cutScreenMonitorTip3": {
-        "message": "Включено {cutScreenMonitor}, если вы выйдите хотя бы раз больше, чем на {s} секунд, система принудительно завершит и отправит работу",
-        "description": ""
-    },
-    "note": {
-        "message": "подсказка",
-        "description": ""
-    },
-    "examTime": {
-        "message": "время экзамена",
-        "description": ""
-    },
-    "examEnvironmentTesting": {
-        "message": "Проверка экзаменационной среды",
-        "description": ""
-    },
-    "forgetPassword": {
-        "message": "Забыть пароль",
-        "description": ""
-    },
-    "pc": {
-        "message": "Компьютерная версия сайта",
-        "description": ""
-    },
-    "downloadAppBtn": {
-        "message": "Скачать мобильное приложение",
-        "description": ""
-    },
-    "retry": {
-        "message": "Сделать еще одну попытку",
-        "description": ""
-    },
-    "ended": {
-        "message": "завершённый",
-        "description": ""
-    },
-    "faceMonitor": {
-        "message": "Распознавание лиц",
-        "description": ""
-    },
-    "deviceMonitorTip": {
-        "message": "Активирован {deviceMonitor}, не заменяйте устройства во время использования",
-        "description": ""
-    },
-    "examCode": {
-        "message": "Код подтверждения экзамена",
-        "description": ""
-    },
-    "joinTypes": {
-        "message": "Веб-интерфейс для Компьютера / Мобильное приложение / Клиент для Блокировки компьютера",
-        "description": ""
-    },
-    "examCodeTip": {
-        "message": "Попросите контролёра экзамена предоставить код подтверждения и введите его:",
-        "description": ""
-    },
-    "ipAbnormalityTip": {
-        "message": "Текущий экзамен активировал контроль IP-адресов. Запрещена замена IP-адресов во время (переключение сети может привести к изменению IP-адреса).",
-        "description": ""
-    },
-    "loginToExam": {
-        "message": "Выполнить вход и начать экзамен",
-        "description": ""
-    },
-    "resultsNotAnnounce": {
-        "message": "Результаты этого экзамена не будут объявлены",
-        "description": ""
-    },
-    "windows": {
-        "message": "Настольное приложение",
-        "description": ""
-    },
-    "faceVerificationDesc": {
-        "message": "Пожалуйста, перейдите прямо к камере, чтобы обеспечить хорошее освещение. Нет возможности проверить лицо?",
-        "description": ""
-    },
-    "cameraMonitorDesc": {
-        "message": "Включен экзамен с видеонаблюдением, система будет в режиме реального времени тестировать и записывать поведение экзаменуемых, например, ненормальное поведение экзаменуемого, когда экзаменуемый отлучается, взгляд надолго отводит, переговаривается. Поэтому, обратите внимание:{br}1. Перед экзаменом, пожалуйста, отрегулируйте угол камеры, чтобы лицо полностью было в кадре, и по возможности прямо перед камерой.{br}2. В процессе экзамена, взгляд сохраняйте сфокусированным на Экране, не отлучайтесь, не ведите беседы.",
-        "description": ""
-    },
-    "joinType": {
-        "message": "Способ участия",
-        "description": ""
-    },
-    "examEnded": {
-        "message": "Экзамен завершён",
-        "description": ""
-    },
-    "allowedTimes": {
-        "message": "Разрешить количество попыток",
-        "description": ""
-    },
-    "userName": {
-        "message": "имя пользователя / номер мобильного телефона / Адрес электронной почты",
-        "description": ""
-    },
-    "noCamera": {
-        "message": "Камера не обнаружена.",
-        "description": ""
-    },
-    "leaveSeat": {
-        "message": "отлучаться",
-        "description": ""
-    },
-    "ltiTip1": {
-        "message": "Если для участия в Экзамене используется Мобильное приложение / Клиент на экране блокировки, используй учетную запись U-Test для входа. Твое имя пользователя: {loginName}, исходный пароль совпадает с именем пользователя.",
-        "description": ""
-    },
-    "toUpdatePsd": {
-        "message": "Изменить пароль",
-        "description": ""
-    },
-    "ltiTip2": {
-        "message": "Войди в свою учетную запись U-Test, чтобы сдать экзамен с помощью мобильного приложения или Клиента блокировки экрана. Ты вошел в систему как {loginName}. Твой первоначальный пароль совпадает с твоим именем пользователя. После входа в учетную запись ты можешь изменить свой пароль или добавить персональные данные.",
-        "description": ""
-    },
-    "examName": {
-        "message": "Название экзамена",
-        "description": ""
-    },
-    "userInfo": {
-        "message": "Твоя учетная запись ULearning:",
-        "description": ""
-    },
-    "examInfo": {
-        "message": "Информация по экзамену",
-        "description": ""
-    },
-    "userName1": {
-        "message": "имя пользователя",
-        "description": ""
-    },
-    "openAppTip": {
-        "message": "Если не удалось успешно запустить Мобильное приложение ULearning 2.0, проверьте, установлено ли оно. Если еще нет, сначала загрузите и установите его.",
-        "description": ""
-    },
-    "accountTipContent": {
-        "message": "Здравствуйте, добро пожаловать в систему экзаменов ULearning. Мы уже зарегистрировали вас в ULearning. Если Вам нужно сдавать экзамен с телефона, сначала скачайте приложение [ULearning 2.0] и залогиньтесь в свой аккаунт ULearning.",
-        "description": ""
-    },
-    "passwordTip": {
-        "message": "исходный пароль совпадает с именем пользователя и может быть изменен после входа в систему.",
-        "description": ""
-    },
-    "openAppBtn": {
-        "message": "Запуск мобильного приложения ULearning 2.0",
-        "description": ""
-    },
-    "accountTipHead": {
-        "message": "Привет, {name}",
-        "description": ""
-    },
-    "mute": {
-        "message": "Отключить звук",
-        "description": ""
-    },
-    "confirmExit": {
-        "message": "Подтвердите выход?",
-        "description": ""
-    },
-    "answerRight": {
-        "message": "Правильный ответ",
-        "description": ""
-    },
-    "analy": {
-        "message": "парсинг",
-        "description": ""
-    },
-    "addPartQuestionTip": {
-        "message": "В каждом разделе можно добавить не более {n} вопросов.",
-        "description": ""
-    },
-    "playTimesOver": {
-        "message": "Использовавшееся количество воспроизведений",
-        "description": ""
-    },
-    "answerHistory": {
-        "message": "Запись ответов",
-        "description": ""
-    },
-    "used": {
-        "message": "использованный",
-        "description": ""
-    },
-    "guide5": {
-        "message": "Обратите внимание, что созданные в экзаменационной работе вопросы по умолчанию автоматически не сохраняются в Банке вопросов. При необходимости, вы можете использовать функционал \"Импортировать из экзаменационной работы\" в Банке вопросов, чтобы данные вопросы импортировались из экзаменационной работы.",
-        "description": ""
-    },
-    "select": {
-        "message": "Выберите",
-        "description": ""
-    },
-    "inputPaperNameTip": {
-        "message": "Название экзаменационной работы не может быть пустым",
-        "description": ""
-    },
-    "clear": {
-        "message": "очищать",
-        "description": ""
-    },
-    "createPaper": {
-        "message": "Создать экзаменационную работу",
-        "description": ""
-    },
-    "reRecord": {
-        "message": "Повторное выполнение записи",
-        "description": ""
-    },
-    "inputAnswerTip4": {
-        "message": "Ответ обязательное для заполнения",
-        "description": ""
-    },
-    "judgment": {
-        "message": "суждение",
-        "description": ""
-    },
-    "leaveTimesTip": {
-        "message": "Ты вышел с экзамена {n} раз!",
-        "description": ""
-    },
-    "pause": {
-        "message": "Приостановить",
-        "description": ""
-    },
-    "addPart": {
-        "message": "добавлять раздел",
-        "description": ""
-    },
-    "manualRefresh": {
-        "message": "Загрузить вручную",
-        "description": ""
-    },
-    "saving": {
-        "message": "Сохранение...",
-        "description": ""
-    },
-    "inputQuestionTitle": {
-        "message": "Введите контент вопросов",
-        "description": ""
-    },
-    "exitTip1": {
-        "message": "Вопрос № {n} не сохранён. Если вы выйдете, изменения не сохранятся. Подтвердите выход.",
-        "description": ""
-    },
-    "max": {
-        "message": "максимальное значение",
-        "description": ""
-    },
-    "inputCommentsTip1": {
-        "message": "Отзыв не должен превышать {n} символов",
-        "description": ""
-    },
-    "playedTimes": {
-        "message": "Воспроизведено {n} раз",
-        "description": ""
-    },
-    "batchEditTimes": {
-        "message": "Изменить массово частоту воспроизведения аудио в этой части",
-        "description": ""
-    },
-    "uploadFileError5": {
-        "message": "Не удалось перекодировать",
-        "description": ""
-    },
-    "correctAnswer": {
-        "message": "Правильный ответ",
-        "description": ""
-    },
-    "notExitTip": {
-        "message": "Во время экзамена запрещается выходить на весь экран или выходить из интерфейса экзамена!",
-        "description": ""
-    },
-    "uploadFileError2": {
-        "message": "Файл не должен превышать {size}",
-        "description": ""
-    },
-    "paperUsedTip1": {
-        "message": "Этот экзаменационный билет уже используется в экзамене. Разрешается изменить только содержание, ответы и баллы вопросов, нельзя изменять структуру билета, а также добавлять или удалять вопросы. Для вопросов, содержащих подвопросы, не допускается добавление или удаление подвопросов.{br} Если вы измените ответы или баллы вопроса, уже оцененные экзаменационные билеты должны быть переоценены во время экзамена.",
-        "description": ""
-    },
-    "guide6": {
-        "message": "Массовые настройки баллов за вопросы и частоты воспроизведения аудио были перемещены сюда",
-        "description": ""
-    },
-    "selectQuestionType": {
-        "message": "Выберите тип вопроса для добавления",
-        "description": ""
-    },
-    "examineeRecording": {
-        "message": "Аудиозапись экзаменуемого",
-        "description": ""
-    },
-    "batchEditScore": {
-        "message": "Изменить баллы вопросов в этом разделе массово",
-        "description": ""
-    },
-    "unmute": {
-        "message": "Отменить беззвучный режим",
-        "description": ""
-    },
-    "range": {
-        "message": "Допустимая погрешность",
-        "description": ""
-    },
-    "answered": {
-        "message": "Answered",
-        "description": ""
-    },
-    "clozeQ": {
-        "message": "Заполнение пробела",
-        "description": ""
-    },
-    "deletePartTip1": {
-        "message": "Сохранить минимум один раздел.",
-        "description": ""
-    },
-    "save": {
-        "message": "сохранить",
-        "description": ""
-    },
-    "inputPartNameTip": {
-        "message": " названия разделов не должны превышать {n} символ",
-        "description": ""
-    },
-    "networkErrorTip3": {
-        "message": "Возникло исключение, невозможно загружать экзаменационную работу, свяжитесь со службой поддержки.",
-        "description": ""
-    },
-    "remarkSuccess": {
-        "message": "Проверка успешна!",
-        "description": ""
-    },
-    "addFile": {
-        "message": "Добавить вложение",
-        "description": ""
-    },
-    "completeRemarkTip": {
-        "message": "Поздравляем! Все работы учащихся вашего класса уже проверены!",
-        "description": ""
-    },
-    "optionContentTip1": {
-        "message": "Контент варианта не может быть пустым",
-        "description": ""
-    },
-    "toBeRated": {
-        "message": "ожидает оценивания",
-        "description": ""
-    },
-    "paramErrorTip": {
-        "message": "Неполные параметры страницы",
-        "description": ""
-    },
-    "inputReferenceAnswer": {
-        "message": "Введите эталон ответа",
-        "description": ""
-    },
-    "uploadMediaError": {
-        "message": "аудио-и видеоматериалы не могут превышать {size}",
-        "description": ""
-    },
-    "guide8": {
-        "message": "Когда редактирование экзаменационной работы будет завершено, не забудьте нажать [сохранить].",
-        "description": ""
-    },
-    "defineRange": {
-        "message": "Определить диапазон значений случайной величины",
-        "description": ""
-    },
-    "multipleQ": {
-        "message": "Множественного выбора",
-        "description": ""
-    },
-    "guide1": {
-        "message": "Приветствовать в новую версию экзаменационной работы, приходите скорее посмотреть, какие изменения!",
-        "description": ""
-    },
-    "sortTip": {
-        "message": "Перетаскивайте варианты для сортировки",
-        "description": ""
-    },
-    "inputCommentsTip": {
-        "message": "оставляйте отзыв, необязательно",
-        "description": ""
-    },
-    "batchSetting": {
-        "message": "массовые настройки",
-        "description": ""
-    },
-    "inputScore": {
-        "message": "Ввод баллов",
-        "description": ""
-    },
-    "totalScore": {
-        "message": "Итоговая оценка",
-        "description": ""
-    },
-    "addBlankTip": {
-        "message": "Добавлять до {n} вопросов с заполняемым полем",
-        "description": ""
-    },
-    "inputPartName": {
-        "message": "заполнить название раздела",
-        "description": ""
-    },
-    "enableUploadTip": {
-        "message": "При публикации экзамена можно выбрать разрешить экзаменуемым прикреплять файлы",
-        "description": ""
-    },
-    "precision": {
-        "message": "Точность",
-        "description": ""
-    },
-    "examinee": {
-        "message": "экзаменуемый",
-        "description": ""
-    },
-    "paperUsedTip": {
-        "message": "Данная экзаменационная работа уже используется в экзамене, разрешается изменять только контент вопросов, ответы и балл, запрещено изменять структуру экзаменационной работы, а также добавлять или удалять вопросы. Запрещено добавлять или удалять подвопросы в вопросах, содержащих подвопросы.",
-        "description": ""
-    },
-    "completion": {
-        "message": "заполнение пробела",
-        "description": ""
-    },
-    "sortingQ": {
-        "message": "упорядочивание",
-        "description": ""
-    },
-    "wordNum": {
-        "message": "Количество слов",
-        "description": ""
-    },
-    "inputAnswerTip": {
-        "message": "заполните здесь ответ",
-        "description": ""
-    },
-    "submitTipAboutUpload": {
-        "message": "Файл загружается, нажмите кнопку \"Подача\" немного позже.",
-        "description": ""
-    },
-    "submitFail": {
-        "message": "отправка не удалась",
-        "description": ""
-    },
-    "uploadImgError": {
-        "message": "Размер изображения не может превышать {size}",
-        "description": ""
-    },
-    "nextPaper": {
-        "message": "Следующий",
-        "description": ""
-    },
-    "scoreResult": {
-        "message": "оценка",
-        "description": ""
-    },
-    "nextStep": {
-        "message": "следующий",
-        "description": ""
-    },
-    "subjectiveQuestionScore": {
-        "message": "Оценка субъективного вопроса",
-        "description": ""
-    },
-    "shortAnswer": {
-        "message": "Вопрос с кратким ответом",
-        "description": ""
-    },
-    "previewPaper": {
-        "message": "Предварительный просмотр экзаменационной работы",
-        "description": ""
-    },
-    "backSpace": {
-        "message": "Пробел",
-        "description": ""
-    },
-    "autoLoadNext": {
-        "message": "Автоматически загружать следующее задание",
-        "description": ""
-    },
-    "playTimesError": {
-        "message": "Ошибочный параметр частоты воспроизведения",
-        "description": ""
-    },
-    "previewTip": {
-        "message": "Чтобы сохранить или просмотреть, нужно добавить минимум один вопрос в каждый раздел",
-        "description": ""
-    },
-    "savingTip": {
-        "message": "Сохраняется…",
-        "description": ""
-    },
-    "newPaper": {
-        "message": "создать новую экзаменационную работу",
-        "description": ""
-    },
-    "uploadAudioFail": {
-        "message": "Ошибка при загрузке аудио, проверьте сетевое соединение",
-        "description": ""
-    },
-    "preview": {
-        "message": "Предварительный просмотр",
-        "description": ""
-    },
-    "comments": {
-        "message": "отзыв",
-        "description": ""
-    },
-    "batchEntry": {
-        "message": "Массовый ввод",
-        "description": ""
-    },
-    "notAllowedSubmitTip": {
-        "message": "Запрещено сдавать экзаменационную работу в течение {time} минут с начала Экзамена.",
-        "description": ""
-    },
-    "saveAndExit": {
-        "message": "Сохранить и выйти",
-        "description": ""
-    },
-    "objectiveQuestionScore": {
-        "message": "Оценка за объективные вопросы",
-        "description": ""
-    },
-    "toBeGradedManually": {
-        "message": "Некоторые вопросы должны оцениваться вручную",
-        "description": ""
-    },
-    "confirmDelete": {
-        "message": "Подтвердите удаление?",
-        "description": ""
-    },
-    "faceVerificationDesc1": {
-        "message": "Невозможно пройти проверку через распознавание лиц?",
-        "description": ""
-    },
-    "isLast": {
-        "message": "Это конец",
-        "description": ""
-    },
-    "numberOfQuestions": {
-        "message": "Количество вопросов",
-        "description": ""
-    },
-    "deleteMark": {
-        "message": "Удалить комментарии",
-        "description": ""
-    },
-    "partName": {
-        "message": "Настроить название",
-        "description": ""
-    },
-    "formula": {
-        "message": "Формула",
-        "description": ""
-    },
-    "multiple": {
-        "message": "множественный выбор",
-        "description": ""
-    },
-    "uploadFail": {
-        "message": "Ошибка загрузки",
-        "description": ""
-    },
-    "editSuccess": {
-        "message": "Изменено успешно",
-        "description": ""
-    },
-    "previewTip1": {
-        "message": "Вопрос № {n} не сохранён, сначала сохраните вопросы.",
-        "description": ""
-    },
-    "option": {
-        "message": "вариант",
-        "description": ""
-    },
-    "readTextTip1": {
-        "message": "Текст для озвучивания не может быть пустым",
-        "description": ""
-    },
-    "confirmDeleteQuestion": {
-        "message": "Подтвердите удаление вопроса?",
-        "description": ""
-    },
-    "readTextTip": {
-        "message": "Только английский, не более {n} слов",
-        "description": ""
-    },
-    "transcodeTip": {
-        "message": "файл в данный момент обрабатывается, попытайтесь воспроизвести чуть позже.",
-        "description": ""
-    },
-    "dropDownQ": {
-        "message": "Выпадающий список",
-        "description": ""
-    },
-    "guide4": {
-        "message": "В новом тесте можно создавать и редактировать вопросы напрямую! Выберите здесь тип вопроса, чтобы добавить новый вопрос. Конечно, также можно импортировать вопросы из банка вопросов или вводить их массово.",
-        "description": ""
-    },
-    "timeOverTip": {
-        "message": "Время использовано. Через 3 секунды экзаменационная работа сдаётся автоматически.",
-        "description": ""
-    },
-    "firstPart": {
-        "message": "Раздел 1",
-        "description": ""
-    },
-    "inputAnswerTip2": {
-        "message": "баллы, если есть несколько Ответов, то разделите их //.",
-        "description": ""
-    },
-    "confirmCancelEdit": {
-        "message": "Подтвердите отмену Изменить?",
-        "description": ""
-    },
-    "playTimesAllowed": {
-        "message": "Разрешено воспроизводить: {n} раз",
-        "description": ""
-    },
-    "switchPartTipAboutRecording": {
-        "message": "Текущая аудиозапись будет остановлена при переключении. Подтвердите переключение раздела?",
-        "description": ""
-    },
-    "inputDeviationTip": {
-        "message": "Размер погрешности должен быть между 0-{n}",
-        "description": ""
-    },
-    "questionTitleTip2": {
-        "message": "Содержание вопросов не может превышать {n} символов",
-        "description": ""
-    },
-    "rating": {
-        "message": "Оценивание",
-        "description": ""
-    },
-    "shortAnswer1": {
-        "message": "Короткий ответ",
-        "description": ""
-    },
-    "addSubQuestionTip": {
-        "message": "Максимальное количество добавляемых вопросов: {n}",
-        "description": ""
-    },
-    "inputFormula": {
-        "message": "Введите формулу",
-        "description": ""
-    },
-    "interruptAnswer": {
-        "message": "Прерывание ответа",
-        "description": ""
-    },
-    "savePaper": {
-        "message": "сохранить экзаменационную работу",
-        "description": ""
-    },
-    "desc": {
-        "message": "Описание",
-        "description": ""
-    },
-    "end": {
-        "message": "завершить",
-        "description": ""
-    },
-    "saveAnswerRecord": {
-        "message": "Сохранить запись ответов",
-        "description": ""
-    },
-    "singleQ": {
-        "message": "вопрос с выбором одного варианта ответа",
-        "description": ""
-    },
-    "importFromBank": {
-        "message": "Импортировать из банка вопросов",
-        "description": ""
-    },
-    "questionNum": {
-        "message": "порядков",
-        "description": ""
-    },
-    "confirmPaper": {
-        "message": "Подтвердите сдачу экзаменационной работы",
-        "description": ""
-    },
-    "showAnswer": {
-        "message": "Отобразить ответ",
-        "description": ""
-    },
-    "correctAnswerNotAnnounce": {
-        "message": "Правильные ответы к экзамену пока не объявлены",
-        "description": ""
-    },
-    "insertBlankTip": {
-        "message": "Или введите tab, для вставки вопроса с заполняемым полем",
-        "description": ""
-    },
-    "remarkFail": {
-        "message": "Сохранение проверки завершилось неудачей",
-        "description": ""
-    },
-    "yourAnswer": {
-        "message": "Твой Ответ",
-        "description": ""
-    },
-    "inputPartDescTip": {
-        "message": "Раздел описания не должен превышать {n} символов",
-        "description": ""
-    },
-    "close": {
-        "message": "Закрывать",
-        "description": ""
-    },
-    "noRecordingTip": {
-        "message": "Право на аудиозапись отклонено, включите право на аудиозапись в настройках Браузера",
-        "description": ""
-    },
-    "delete": {
-        "message": "удалить",
-        "description": ""
-    },
-    "confirmPaperTip1": {
-        "message": "Вопрос № {n} не отвечен. Подтвердите, что вы хотите завершить экзамен?",
-        "description": ""
-    },
-    "clickToTry": {
-        "message": "Нажмите Сделать еще одну попытку",
-        "description": ""
-    },
-    "saveTipAboutUpload": {
-        "message": "файл загружается, после завершения нажмите сохранить",
-        "description": ""
-    },
-    "exitRemark": {
-        "message": "Выход из проверки",
-        "description": ""
-    },
-    "uploadFailTip": {
-        "message": "Не удалось загрузить или перекодировать вложение. Удалите его и загрузите снова.",
-        "description": ""
-    },
-    "view": {
-        "message": "Просмотр",
-        "description": ""
-    },
-    "guide3": {
-        "message": "Нажмите здесь, чтобы изменить название и описание раздела.",
-        "description": ""
-    },
-    "saved": {
-        "message": "Сохраненный",
-        "description": ""
-    },
-    "deletePart": {
-        "message": "удалить раздел",
-        "description": ""
-    },
-    "examLimitTime": {
-        "message": "установка крайнего срока",
-        "description": ""
-    },
-    "answerPrecision": {
-        "message": "Точность ответа",
-        "description": ""
-    },
-    "importFail": {
-        "message": "импорт неудачен",
-        "description": ""
-    },
-    "numberOfPlaysAllowed": {
-        "message": "Разрешить воспроизводить частотой",
-        "description": ""
-    },
-    "confirmPaperTip": {
-        "message": "Подтвердите сдачу экзаменационной работы?",
-        "description": ""
-    },
-    "restoringAnswerRecords": {
-        "message": "Идет восстановление записи ответов, подождите, пожалуйста...",
-        "description": ""
-    },
-    "inputAnalyTip": {
-        "message": "Парсинг не превышать {n} символ",
-        "description": ""
-    },
-    "addMark": {
-        "message": "добавлять комментарий",
-        "description": ""
-    },
-    "inputAnswerTip3": {
-        "message": "Ответ не должен превышать {n} символов",
-        "description": ""
-    },
-    "questionScore": {
-        "message": "({n} баллов)",
-        "description": ""
-    },
-    "continueAnswer": {
-        "message": "Продолжить отвечать",
-        "description": ""
-    },
-    "addQuestionTip1": {
-        "message": "добавлять минимум один подвопрос",
-        "description": ""
-    },
-    "notLimit1": {
-        "message": "Неограниченный",
-        "description": ""
-    },
-    "questionTitleTip1": {
-        "message": "Обязательное содержание вопросов",
-        "description": ""
-    },
-    "subjectiveQToBeGraded": {
-        "message": "Субъективные вопросы не проверены",
-        "description": ""
-    },
-    "editFail": {
-        "message": "Изменение не получилось",
-        "description": ""
-    },
-    "optionContentTip": {
-        "message": "Контент варианта не должен превышать {n} буквы",
-        "description": ""
-    },
-    "editPaper": {
-        "message": "Редактирование экзаменационной работы",
-        "description": ""
-    },
-    "oralSubjectQ": {
-        "message": "Субъективный вопрос по устной речи",
-        "description": ""
-    },
-    "skip": {
-        "message": "Пропустить",
-        "description": ""
-    },
-    "inputAnswer": {
-        "message": "Введите ответ",
-        "description": ""
-    },
-    "more": {
-        "message": "Больше",
-        "description": ""
-    },
-    "answerCanChangeTip": {
-        "message": "Ответы на пробелы можно менять в любой последовательности",
-        "description": ""
-    },
-    "notExitFullScreenTip": {
-        "message": "Во время экзамена не выходите из полноэкранного режима, иначе это будет расцениваться как выход из экзамена, что может быть признано как списывание и повлиять на результат экзамена.",
-        "description": ""
-    },
-    "remarkTip": {
-        "message": "Вопрос {n} не оценен. Завершить?",
-        "description": ""
-    },
-    "nextPart": {
-        "message": "Следующий раздел",
-        "description": ""
-    },
-    "result": {
-        "message": "оценка",
-        "description": ""
-    },
-    "addOption": {
-        "message": "добавлять вариант",
-        "description": ""
-    },
-    "oralReadingQ": {
-        "message": "устный тест на чтение",
-        "description": ""
-    },
-    "scoreNum": {
-        "message": "Балл",
-        "description": ""
-    },
-    "hideAnswer": {
-        "message": "Скрыть ответ",
-        "description": ""
-    },
-    "submitPaperErrorTip2": {
-        "message": "Отправка не удалась, пожалуйста не закрывайте страницу, система снова отправляет ...",
-        "description": ""
-    },
-    "faceSuccess1": {
-        "message": "Аутентификация прошла успешно",
-        "description": ""
-    },
-    "uploadFileError1": {
-        "message": "Загрузить не более {n} вложений",
-        "description": ""
-    },
-    "exitTip": {
-        "message": "еще не сохранены вопросы и экзаменационная работа, сейчас выход, создать новый вопрос невозможно. Выйти?",
-        "description": ""
-    },
-    "blankQ": {
-        "message": "упражнение на выбор слов для заполнения пропусков",
-        "description": ""
-    },
-    "completion1": {
-        "message": "Заполните пробелы",
-        "description": ""
-    },
-    "recordingTip": {
-        "message": "Есть уже записываемый аудио. Закрываем сначала.",
-        "description": ""
-    },
-    "submitPaperErrorTip1": {
-        "message": "Текущая сеть нестабильна, проверьте, правильно ли установлено сетевое соединение.",
-        "description": ""
-    },
-    "questionType": {
-        "message": "Тип вопроса",
-        "description": ""
-    },
-    "remarked": {
-        "message": "Проверенный",
-        "description": ""
-    },
-    "editPart": {
-        "message": "Изменить раздел",
-        "description": ""
-    },
-    "guide2": {
-        "message": "Слева можно добавлять, перемещать, удалять разделы экзаменационной работы. Нажмите на заголовок раздела, чтобы переключить соответствующий раздел.",
-        "description": ""
-    },
-    "joinExamByCode": {
-        "message": "Войти в Экзамен с помощью Кода подтверждения",
-        "description": ""
-    },
-    "saveSuccess": {
-        "message": "Сохранение завершено успешно",
-        "description": ""
-    },
-    "fullscreen": {
-        "message": "на весь экран",
-        "description": ""
-    },
-    "teacherRemark": {
-        "message": "Проверка учителем",
-        "description": ""
-    },
-    "inputFormulaTip1": {
-        "message": "Длина формулы должна быть от 1 до {n} символов",
-        "description": ""
-    },
-    "completeRemark": {
-        "message": "Завершить проверку",
-        "description": ""
-    },
-    "inputPaperNameTip1": {
-        "message": "Название экзаменационной работы не должно превышать {n} символов",
-        "description": ""
-    },
-    "inputAnaly": {
-        "message": "Введите парсинг",
-        "description": ""
-    },
-    "referenceAnswer": {
-        "message": "Эталон ответа",
-        "description": ""
-    },
-    "readText": {
-        "message": "Воспроизвести текст",
-        "description": ""
-    },
-    "totalNumberOfQuestions": {
-        "message": "Число вопросов",
-        "description": ""
-    },
-    "networkError": {
-        "message": "Сетевая ошибка, отправка экзаменационной работы не удалась!",
-        "description": ""
-    },
-    "uploadFileError4": {
-        "message": "Размер файла не соответствует",
-        "description": ""
-    },
-    "exitFullscreen": {
-        "message": "Выход с полного экрана",
-        "description": ""
-    },
-    "submiting": {
-        "message": "отправка в процессе, пожалуйста подождите…",
-        "description": ""
-    },
-    "play": {
-        "message": "воспроизвести",
-        "description": ""
-    },
-    "deleteQuestion": {
-        "message": "удалить вопросы",
-        "description": ""
-    },
-    "optionContentTip2": {
-        "message": "максимальный добавьте {n} вариант",
-        "description": ""
-    },
-    "addQuestionTip": {
-        "message": "Максимально добавить {n} подвопросов",
-        "description": ""
-    },
-    "guide7": {
-        "message": "при редактировании нажмите здесь, чтобы просмотреть экзаменационную работу в режиме предварительного просмотра",
-        "description": ""
-    },
-    "questionDesc": {
-        "message": "{n} вопрос(ы), всего {score} балл(ов)",
-        "description": ""
-    },
-    "stuAnswer": {
-        "message": "Ответ экзаменуемого",
-        "description": ""
-    },
-    "graded": {
-        "message": "оцененный",
-        "description": ""
-    },
-    "saveFail": {
-        "message": "Не удалось сохранить",
-        "description": ""
-    },
-    "answerTip": {
-        "message": "Во всех пустых местах этого вопроса можно поменять Ответы",
-        "description": ""
-    },
-    "networkErrorTip1": {
-        "message": "система временно сохранила запись ответа локально, не покидайте страницу и не закрывайте ее, попробуйте отправить вручную немного позже",
-        "description": ""
-    },
-    "optionContent": {
-        "message": "Введите контент варианта",
-        "description": ""
-    },
-    "addPartTip": {
-        "message": "Максимальное количество разделов для одной экзаменационной работы - {n}.",
-        "description": ""
-    },
-    "inputAnswerTip1": {
-        "message": "Настройте правильный ответ",
-        "description": ""
-    },
-    "mark": {
-        "message": "Метки",
-        "description": ""
-    },
-    "getDataFail": {
-        "message": "Получение данных не удалось",
-        "description": ""
-    },
-    "single": {
-        "message": "задание с выбором одного ответа",
-        "description": ""
-    },
-    "inputFormulaTip": {
-        "message": "Введите формулу для вычисления Ответа",
-        "description": ""
-    },
-    "addBlankTip1": {
-        "message": "Добавьте минимум один вопрос с заполняемым полем",
-        "description": ""
-    },
-    "leftTimeTip": {
-        "message": "Осталось менее 1 минуты",
-        "description": ""
-    },
-    "clickToRecord": {
-        "message": "Нажмите на иконку, чтобы начать аудиозапись",
-        "description": ""
-    },
-    "detectionFormula": {
-        "message": "тестирование формулы",
-        "description": ""
-    },
-    "judgmentQ": {
-        "message": "Заявление истинности или ложности",
-        "description": ""
-    },
-    "networkErrorTip2": {
-        "message": "Исключение в текущей сети, невозможно загрузить экзаменационную работу, проверьте локальную сеть и войдите в экзамен после восстановления сети.",
-        "description": ""
-    },
-    "allowedDeviation": {
-        "message": "Разрешить погрешность",
-        "description": ""
-    },
-    "comprehensiveQ": {
-        "message": "Комплексное задание",
-        "description": ""
-    },
-    "submitPaperErrorTip": {
-        "message": "Пожалуйста, не закрывайте веб-страницу, система отправляет экзаменационную работу...",
-        "description": ""
-    },
-    "minimum": {
-        "message": "минимальное значение",
-        "description": ""
-    },
-    "deletePartTip": {
-        "message": "Удалив раздел, вы одновременно удалите все тесты в этом разделе. Тесты, недавно добавленные в экзаменационную работу, по умолчанию не сохраняются в Банке вопросов. После удаления восстановление невозможно, поэтому выполняйте эту операцию с осторожностью. Подтвердите удаление?",
-        "description": ""
-    },
-    "uploadFileError3": {
-        "message": "Не поддерживается тип файла",
-        "description": ""
-    },
-    "submitPaper": {
-        "message": "сдать экзаменационную работу",
-        "description": ""
-    },
-    "answer": {
-        "message": "Ответ",
-        "description": ""
-    },
-    "inputRangeTip": {
-        "message": "Введите правильный диапазон значений",
-        "description": ""
-    },
-    "finish": {
-        "message": "Завершить",
-        "description": ""
-    },
-    "addSubQuestion": {
-        "message": "добавлять подвопрос",
-        "description": ""
-    },
-    "readTextTip2": {
-        "message": "Текст диктора не должен Не превышать {n} слов",
-        "description": ""
-    },
-    "fullScore": {
-        "message": "максимальный балл",
-        "description": ""
-    },
-    "editName": {
-        "message": "Изменить название",
-        "description": ""
-    },
-    "formulaCalculationQ": {
-        "message": "Задачи с вычислениями по формулам",
-        "description": ""
-    },
-    "submitSuccess": {
-        "message": "Подача успешна",
-        "description": ""
-    },
-    "unableToCalculateAnswer": {
-        "message": "Невозможно вычислить Ответ",
-        "description": ""
-    },
-    "inputScoreTip": {
-        "message": "Введите {num} балл с одним десятичным знаком",
-        "description": ""
-    },
-    "answerError": {
-        "message": "Неправильный ответ",
-        "description": ""
-    },
-    "transcodeTip1": {
-        "message": "Идет перекодирование файла, попробуйте позже",
-        "description": ""
-    },
-    "cameraNoStartTip": {
-        "message": "Включите камеру",
-        "description": ""
-    },
-    "cameraErrorTip": {
-        "message": "Возникло исключение видеонаблюдения, запуск камеры не удался. Проверьте наличие следующих обстоятельств:{br}1. Не включено право на использование камеры{br}2. Камера занята другими программами или веб-сайтами{br}3. Сетевая ошибка{br}Если существуют вышеперечисленные ситуации, пожалуйста, устраните их, прежде чем нажимать кнопку «Продолжить ответ».",
-        "description": ""
-    },
-    "hardlevels1": {
-        "message": "лёгкий",
-        "description": ""
-    },
-    "goBack": {
-        "message": "вернуться",
-        "description": ""
-    },
-    "search": {
-        "message": "поиск",
-        "description": ""
-    },
-    "writeSearch": {
-        "message": "поиск вопросы/папка",
-        "description": ""
-    },
-    "copyQuestion": {
-        "message": "вопросы",
-        "description": ""
-    },
-    "deleteAll": {
-        "message": "Удалить все",
-        "description": ""
-    },
-    "incompleteMessage2": {
-        "message": "Менее двух вариантов",
-        "description": ""
-    },
-    "stemArea": {
-        "message": "Пожалуйста, введите здесь часть вопроса",
-        "description": ""
-    },
-    "completionAnswer": {
-        "message": "быстрее || выше || сильнее",
-        "description": ""
-    },
-    "batchType3": {
-        "message": "делиться",
-        "description": ""
-    },
-    "incompleteMessage4": {
-        "message": "Правильный ответ Обязательное для заполнения",
-        "description": ""
-    },
-    "deleteConfirm3": {
-        "message": "Сохранить вопросы, удалить только папку",
-        "description": ""
-    },
-    "allQuestionsType": {
-        "message": "Все типы вопросов",
-        "description": ""
-    },
-    "addFail": {
-        "message": "Ошибка добавления",
-        "description": ""
-    },
-    "hardlevels3": {
-        "message": "Основные",
-        "description": ""
-    },
-    "bankNameError4": {
-        "message": "Максимально можно добавлять 5 уровней папок, Текущий каталог находится на уровне {l}, не может добавлять вложенные папки",
-        "description": ""
-    },
-    "moveSuccess": {
-        "message": "Перемещение успешно",
-        "description": ""
-    },
-    "deleteConfirm2": {
-        "message": "Если выбрать «все удалить», то вопросы в папке будут удалены.",
-        "description": ""
-    },
-    "paperChoiceQueMsg": {
-        "message": "Выберите вопросы",
-        "description": ""
-    },
-    "detailDescription": {
-        "message": "Подробное описание",
-        "description": ""
-    },
-    "incompleteMessage6": {
-        "message": "заполнить содержание вопроса или удалить ненужный вариант",
-        "description": ""
-    },
-    "scoreTips": {
-        "message": "Введите корректные баллы",
-        "description": ""
-    },
-    "choiceQueType": {
-        "message": "Выбрать тип вопроса",
-        "description": ""
-    },
-    "paperChoiceQueMsg2": {
-        "message": "максимально импортировать 200 задач",
-        "description": ""
-    },
-    "saveOutText": {
-        "message": "У вас есть вопросы которые не сохранены. Вы уверены что хотите выйти?",
-        "description": ""
-    },
-    "questionEdit4": {
-        "message": "4. После импорта вопросов проверьте тип вопроса, баллы, ответ, разбор в области предварительного просмотра справа и подтвердите, что они верны, а затем сохраните.",
-        "description": ""
-    },
-    "schoolTeacher": {
-        "message": "Учителя нашего учебного заведения",
-        "description": ""
-    },
-    "choiceAll": {
-        "message": "Выбрать все",
-        "description": ""
-    },
-    "importBankErrorMsg": {
-        "message": "Экспорт неудачный",
-        "description": ""
-    },
-    "deleteConfirm4": {
-        "message": "Подтвердите удаление {x} и еще {n} другого контента?",
-        "description": ""
-    },
-    "incompleteMessage10": {
-        "message": "Контент эталона ответа не может быть пустым",
-        "description": ""
-    },
-    "allTeacher": {
-        "message": "Все учителя",
-        "description": ""
-    },
-    "questionEditarea": {
-        "message": "Область редактирования вопросов",
-        "description": ""
-    },
-    "searchTeacher": {
-        "message": "Введите имя учителя и нажмите поиск",
-        "description": ""
-    },
-    "importExcelLoadMsg": {
-        "message": "Идет импорт, пожалуйста подождите...",
-        "description": ""
-    },
-    "importLoadMsg3": {
-        "message": "Экспорт ... Завершено {n}/{m}",
-        "description": ""
-    },
-    "mineQueBank": {
-        "message": "Мой банк вопросов",
-        "description": ""
-    },
-    "writeBankName": {
-        "message": "Введите название папки",
-        "description": ""
-    },
-    "titleDetails": {
-        "message": "Подробности вопросов",
-        "description": ""
-    },
-    "importQuestions": {
-        "message": "Пакетный импорт вопросов",
-        "description": ""
-    },
-    "copyFolder": {
-        "message": "папка",
-        "description": ""
-    },
-    "importLoadMsg": {
-        "message": "Идет экспорт, пожалуйста, подождите...",
-        "description": ""
-    },
-    "quesOrder": {
-        "message": "Вопрос {n},",
-        "description": ""
-    },
-    "cancelExportRecord": {
-        "message": "Отменить экспорт",
-        "description": ""
-    },
-    "batchType2": {
-        "message": "переместить",
-        "description": ""
-    },
-    "bankNameError2": {
-        "message": "Название папки не должно превышать 200 символов",
-        "description": ""
-    },
-    "incompleteMessage8": {
-        "message": "Правильный ответ не должен содержать невариантных элементов",
-        "description": ""
-    },
-    "uploadFileErrorMsg": {
-        "message": "{n}-я строка, {m}-й столбец.",
-        "description": ""
-    },
-    "completionStem": {
-        "message": "Олимпийский дух - это ( ) 、 ( ) 、 ( )",
-        "description": ""
-    },
-    "importBankOverNum": {
-        "message": "Предельное количество экспорта вопросов превышено.",
-        "description": ""
-    },
-    "saveErrorTips2": {
-        "message": "Не удалось сохранить раздел теста",
-        "description": ""
-    },
-    "importBank": {
-        "message": "Экспортировать банк вопросов",
-        "description": ""
-    },
-    "hardLevel": {
-        "message": "Сложность",
-        "description": ""
-    },
-    "deleteLoadMsg": {
-        "message": "Идет удаление. Подождите...",
-        "description": ""
-    },
-    "paperChoiceQueMsg1": {
-        "message": "Максимальный объем импорта за один раз составляет 200 вопросов.",
-        "description": ""
-    },
-    "choicesallTeacher": {
-        "message": "Все учителя",
-        "description": ""
-    },
-    "queBankStatistics": {
-        "message": "Статистика по банку вопросов",
-        "description": ""
-    },
-    "hardDistribution": {
-        "message": "Распределение сложности",
-        "description": ""
-    },
-    "deleteConfirm6": {
-        "message": "После удаления восстановление данных невозможно.",
-        "description": ""
-    },
-    "shareLoadMsg": {
-        "message": "Сохраняется...",
-        "description": ""
-    },
-    "queLocation": {
-        "message": "Местоположение",
-        "description": ""
-    },
-    "parsentArea": {
-        "message": "Текущая позиция",
-        "description": ""
-    },
-    "incompleteMessage5": {
-        "message": "Контент поля «Правильный ответ» не может быть пустым",
-        "description": ""
-    },
-    "hardlevels4": {
-        "message": "сложный",
-        "description": ""
-    },
-    "incompleteMessage3": {
-        "message": "Варианты Не превышать 20 шт.",
-        "description": ""
-    },
-    "deleteConfirm7": {
-        "message": "Подтвердить удаление? После удаления данные невозможно будет восстановить.",
-        "description": ""
-    },
-    "downloadDesc3": {
-        "message": "3、Используйте инструмент конвертации, чтобы преобразовать экспортируемый Moodle XML-файл в формат Excel.",
-        "description": ""
-    },
-    "hardlevels5": {
-        "message": "сложный",
-        "description": ""
-    },
-    "subQuestionNum": {
-        "message": "{n} вопросов",
-        "description": ""
-    },
-    "questionEdit3": {
-        "message": "3. Существуют два способа добавления вопросов: (1) нажмите на «Тип вопроса» выше и добавьте новый вопрос, отредактируйте его согласно шаблону. (2) скопируйте текст вопроса из документа word и вставьте его сюда. Система автоматически определит тип вопроса и сгенерирует вопрос.",
-        "description": ""
-    },
-    "sameQueinPaper": {
-        "message": "В экзаменационной работе уже есть похожие вопросы",
-        "description": ""
-    },
-    "totleFolderNum": {
-        "message": "Общее количество папок",
-        "description": ""
-    },
-    "choiceQue": {
-        "message": "выбрать вопросы",
-        "description": ""
-    },
-    "questionEdit2": {
-        "message": "2. В настоящее время поддерживается только импорт чистого текста, не поддерживается импорт вопросов с картинками, формулами, видео или аудио.",
-        "description": ""
-    },
-    "uploadFileMsg": {
-        "message": "Загрузите заполненный файл Excel",
-        "description": ""
-    },
-    "incorrect": {
-        "message": "неправильный",
-        "description": ""
-    },
-    "downloadMoodleTitle": {
-        "message": "Использование",
-        "description": ""
-    },
-    "changeShareRange": {
-        "message": "Изменить параметры общего доступа",
-        "description": ""
-    },
-    "shareNumOver": {
-        "message": "Выбрать до 100 преподавателей",
-        "description": ""
-    },
-    "rootDirectory": {
-        "message": "Корневой каталог",
-        "description": ""
-    },
-    "alreadyChoices": {
-        "message": "Выбранный {n} вопрос",
-        "description": ""
-    },
-    "importLoadMsg2": {
-        "message": "Если браузер блокирует всплывающее окно, то выберите, чтобы всегда разрешать веб-сайту показывать всплывающие окна.",
-        "description": ""
-    },
-    "choiceB": {
-        "message": "Вариант 2",
-        "description": ""
-    },
-    "moveFail": {
-        "message": "Перемещение не удалось",
-        "description": ""
-    },
-    "choiceschoolAllTeacher": {
-        "message": "Все преподаватели нашего учебного заведения",
-        "description": ""
-    },
-    "currentDirectory": {
-        "message": "Текущий каталог",
-        "description": ""
-    },
-    "editQuestions": {
-        "message": "Изменить вопросы",
-        "description": ""
-    },
-    "addBank": {
-        "message": "добавить папку",
-        "description": ""
-    },
-    "uploadFile": {
-        "message": "Загрузить файл",
-        "description": ""
-    },
-    "choiceTeacherError2": {
-        "message": "Выберите, с кем поделиться",
-        "description": ""
-    },
-    "choiceD": {
-        "message": "вариант 4",
-        "description": ""
-    },
-    "bankNameError1": {
-        "message": "Название папки не может быть Пустым",
-        "description": ""
-    },
-    "downloadDesc4": {
-        "message": "4. Используйте функцию пакетного импорта ULearning, загрузите файл Excel и завершите импорт банка вопросов.",
-        "description": ""
-    },
-    "shortAnsAnswer": {
-        "message": "Заполните ответ на вопрос с кратким ответом здесь",
-        "description": ""
-    },
-    "deleteFail": {
-        "message": "Ошибка удаления",
-        "description": ""
-    },
-    "uploadFileError": {
-        "message": "в файле некоторые вопросы нестандартны, проверьте и измените их, а затем загрузите",
-        "description": ""
-    },
-    "deleteConfirmNew": {
-        "message": "Подтвердите удаление 【{n}】?",
-        "description": ""
-    },
-    "incompleteMessage12": {
-        "message": "Добавить не более 20 вопросов с заполняемым полем",
-        "description": ""
-    },
-    "shareTeacherEmpty": {
-        "message": "пока нет назначенного учителя",
-        "description": ""
-    },
-    "paperImportError": {
-        "message": "Импортирование экзаменационной работы, иерархия папок превысит предельное значение. Банк вопросов поддерживает до 5 уровней каталогов. Пожалуйста, выберите папку для импортирования снова.",
-        "description": ""
-    },
-    "justOwn": {
-        "message": "Только мне",
-        "description": ""
-    },
-    "addQuestions": {
-        "message": "добавлять вопросы",
-        "description": ""
-    },
-    "queBankEmpty": {
-        "message": "В текущем каталоге нет вопросов",
-        "description": ""
-    },
-    "queBank": {
-        "message": "Банк вопросов",
-        "description": ""
-    },
-    "alreadyinPaper": {
-        "message": "Уже в экзаменационной работе",
-        "description": ""
-    },
-    "choiceTeacher": {
-        "message": "Выбрать учителя",
-        "description": ""
-    },
-    "addSuccess": {
-        "message": "Добавление прошло успешно",
-        "description": ""
-    },
-    "textImport": {
-        "message": "Импорт текста",
-        "description": ""
-    },
-    "changeScoreText": {
-        "message": "Подтвердите массовое изменение баллов?",
-        "description": ""
-    },
-    "numExceededTips": {
-        "message": "Количество вводимых вопросов за раз не должно превышать 200",
-        "description": ""
-    },
-    "schoolQueBank": {
-        "message": "Банк вопросов нашего учебного заведения",
-        "description": ""
-    },
-    "choiceA": {
-        "message": "Вариант 1",
-        "description": ""
-    },
-    "batchType5": {
-        "message": "Изменить",
-        "description": ""
-    },
-    "questionPreviewarea": {
-        "message": "Область предварительного просмотра вопросов",
-        "description": ""
-    },
-    "batchType6": {
-        "message": "Копировать",
-        "description": ""
-    },
-    "allQuestionsTime": {
-        "message": "По убыванию даты создания",
-        "description": ""
-    },
-    "incompleteMessage11": {
-        "message": "Количество правильных ответов не должно быть меньше количества пустых",
-        "description": ""
-    },
-    "appointTeacher": {
-        "message": "Назначить учителя",
-        "description": ""
-    },
-    "downloadTemplateMsg": {
-        "message": "Скачать шаблон Excel и заполнить вопросы в соответствии с требованиями шаблона",
-        "description": ""
-    },
-    "tagsMsg": {
-        "message": "Тег (не более 30 символов, нажмите Enter для подтверждения, можно добавить до 3):",
-        "description": ""
-    },
-    "moveLoadMsg": {
-        "message": "Перемещение данных, ожидайте...",
-        "description": ""
-    },
-    "downloadTemplate": {
-        "message": "Скачать шаблон",
-        "description": ""
-    },
-    "moveFailMsg2": {
-        "message": "В целевой папке есть папка с таким же названием, перемещение невозможно.",
-        "description": ""
-    },
-    "NextPage": {
-        "message": "Следующая страница",
-        "description": ""
-    },
-    "bindDownload": {
-        "message": "Скачать инструмент конвертации форматов банка вопросов Moodle",
-        "description": ""
-    },
-    "excelImport": {
-        "message": "Импортировать из Excel",
-        "description": ""
-    },
-    "totleQueNum": {
-        "message": "Общее количество вопросов",
-        "description": ""
-    },
-    "shortAnsStem": {
-        "message": "Введите здесь формулировку вопроса с кратким ответом",
-        "description": ""
-    },
-    "copyLoadMsg": {
-        "message": "Копирование, подождите...",
-        "description": ""
-    },
-    "setScoreTips": {
-        "message": "Создать тест",
-        "description": ""
-    },
-    "own": {
-        "message": "Я сам",
-        "description": ""
-    },
-    "choiceTeacherError1": {
-        "message": "Выберите назначенного учителя",
-        "description": ""
-    },
-    "choicePage": {
-        "message": "Перейти",
-        "description": ""
-    },
-    "completionAnswerTips": {
-        "message": "Примечание. Ответы данного вопроса можно менять, если содержимое соответствует",
-        "description": ""
-    },
-    "editBank": {
-        "message": "Изменить папку",
-        "description": ""
-    },
-    "deleteConfirm1": {
-        "message": "Если выбрать [сохранить вопросы, удалить только папку], после удаления вопросы, содержащиеся в папке, будут перемещены в корневой каталог.",
-        "description": ""
-    },
-    "batchType1": {
-        "message": "переименовать",
-        "description": ""
-    },
-    "deleteSuccess": {
-        "message": "Удаление прошло успешно",
-        "description": ""
-    },
-    "copySuccess": {
-        "message": "Скопировано успешно! {y} скопировано в твой {x}.",
-        "description": ""
-    },
-    "choiceC": {
-        "message": "Вариант 3",
-        "description": ""
-    },
-    "incompleteMessage9": {
-        "message": "Правильный ответ содержит дубликаты",
-        "description": ""
-    },
-    "downloadDesc2": {
-        "message": "2. Экспортировать банк вопросов в XML-файл из платформы Moodle (поддерживаются только вопросов с выбором, утверждений истинности/ложности, заполнения пробелов и кратких ответов).",
-        "description": ""
-    },
-    "allQuestionsTimePositive": {
-        "message": "По Дата создания",
-        "description": ""
-    },
-    "copyFail": {
-        "message": "Копирование не удалось",
-        "description": ""
-    },
-    "questionEdit1": {
-        "message": "1. Данная функция поддерживает следующие типы вопросов: выбор одного ответа, множественный выбор, суждение, заполнение пропусков, краткий ответ.",
-        "description": ""
-    },
-    "targetFolder": {
-        "message": "Выберите целевую папку.",
-        "description": ""
-    },
-    "allQuestions": {
-        "message": "все вопросы",
-        "description": ""
-    },
-    "allQuestionsLevel": {
-        "message": "вся сложность",
-        "description": ""
-    },
-    "previousPage": {
-        "message": "Предыдущая страница",
-        "description": ""
-    },
-    "importSuccess": {
-        "message": "Импорт выполнен успешно",
-        "description": ""
-    },
-    "incompleteMessage1": {
-        "message": "вопросы Обязательное для заполнения",
-        "description": ""
-    },
-    "shareBank": {
-        "message": "Делиться Банком вопросов",
-        "description": ""
-    },
-    "imporBanktNone": {
-        "message": "В этом каталоге нет вопросов для экспорта.",
-        "description": ""
-    },
-    "insert": {
-        "message": "Вставить",
-        "description": ""
-    },
-    "correct": {
-        "message": "правильный",
-        "description": ""
-    },
-    "paperImport": {
-        "message": "импортировать из экзаменационной работы",
-        "description": ""
-    },
-    "choiceschoolTeacher": {
-        "message": "Учителя назначены нашим учебным заведением",
-        "description": ""
-    },
-    "downloadDesc1": {
-        "message": "1、Загрузите и установите инструмент преобразования форматов (поддерживается только система Windows).",
-        "description": ""
-    },
-    "importLoadMsg1": {
-        "message": "Экспорт может занять некоторое время, пожалуйста, подождите.",
-        "description": ""
-    },
-    "hardlevels2": {
-        "message": "Относительно легко",
-        "description": ""
-    },
-    "batchChangeScore": {
-        "message": "Массовое изменение баллов",
-        "description": ""
-    },
-    "analysisTit": {
-        "message": "Здесь заполните парсинг, если нет, не заполняйте",
-        "description": ""
-    },
-    "moveFailMsg1": {
-        "message": "Глубина вложенности папок не может превышать 5 уровней. Суммарные уровни вложенности целевой и текущей папки превышают предельное значение. Переместить невозможно.",
-        "description": ""
-    },
-    "founder": {
-        "message": "автор",
-        "description": ""
-    },
-    "incompleteMessage7": {
-        "message": "Количество правильных ответов не может превышать количество вариантов",
-        "description": ""
-    },
-    "sharePeople": {
-        "message": "Поделиться текущими вопросами со следующими участниками:",
-        "description": ""
-    },
-    "queTypeDistribution": {
-        "message": "Распределение типов вопросов",
-        "description": ""
-    },
-    "importLoadFirst1": {
-        "message": "1.С помощью этого функционала можно Экспортировать вопросы, которые находятся в Текущей папке и ее подпапках.",
-        "description": ""
-    },
-    "importLoadFirst2": {
-        "message": "2. В настоящее время поддерживается только экспорт Excel, в настоящее время не поддерживается экспорт вложений, таких как рисунки, аудио и видео в question.",
-        "description": ""
-    },
-    "startImport": {
-        "message": "Начать экспортировать",
-        "description": ""
-    },
-    "alreadyChoicesAll": {
-        "message": "Выбранные {n} позиции",
-        "description": ""
-    },
-    "queBankEmptyNew": {
-        "message": "Не найдено вопросов, удовлетворяющих условиям",
-        "description": ""
-    },
-    "examUploadTipNew": {
-        "message": "Когда вы выбираете файл, система кратковременно выйдет из полноэкранного режима. Выберите вкладываемый файл и вернитесь на страницу экзамена в течение 60 секунд. Чтобы снова включить полноэкранный режим, нажмите на любом пустом месте страницы. В противном случае система запишет, что вы вышли с экзамена.",
-        "description": ""
-    },
-    "nextQue": {
-        "message": "Следующий вопрос",
-        "description": ""
-    },
-    "remarkScoreTip": {
-        "message": "Пожалуйста, оценивайте в соответствии с назначенным диапазоном",
-        "description": ""
-    },
-    "textCount": {
-        "message": "{n} буква",
-        "description": ""
-    },
-    "finallyQue": {
-        "message": "Достигнут конец списка",
-        "description": ""
-    },
-    "preQue": {
-        "message": "Предыдущий вопрос",
-        "description": ""
-    },
-    "noSkipping": {
-        "message": "В ходе данного экзамена запрещено пропускать вопросы. Отвечайте, пожалуйста, в том порядке, в котором расположены вопросы.",
-        "description": ""
-    },
-    "changeLastTime": {
-        "message": "Последнее изменение: {time}",
-        "description": ""
-    },
-    "networkMsg2": {
-        "message": "Если восстановление Сети временно невозможно, рекомендуется, получив согласие учителя, Выход из Экзамена и повторный экзамен в другое время.",
-        "description": ""
-    },
-    "quitExam": {
-        "message": "Выход из Экзамена",
-        "description": ""
-    },
-    "networkMsg1": {
-        "message": "Текущая сеть нестабильна, продолжение теста может привести к потере записи ответов.",
-        "description": ""
-    },
-    "leaveLimitTip": {
-        "message": "При выходе страницы более {n} раз система принудительно завершит и отправит экзаменационную работу!",
-        "description": ""
-    },
-    "submissionExam": {
-        "message": "Принудительное завершение и отправка",
-        "description": ""
-    },
-    "submissionExamTip2": {
-        "message": "ты покинул(а) Экзамен больше, чем на {n} секунд. Согласно настройкам мониторинга Экзамена, экзаменационная работа скоро будет принудительно завершена и отправлена.",
-        "description": ""
-    },
-    "submitingNew": {
-        "message": "отправка в процессе...",
-        "description": ""
-    },
-    "leaveLimitTimeTip": {
-        "message": "Вы вышли {n} секунд назад, если выйдете ещё больше чем на {m} секунд, система принудительно завершит и отправит вашу работу!",
-        "description": ""
-    },
-    "uploadFinishTip": {
-        "message": "Завершив выбор вложений, нажмите [Продолжить], чтобы вернуться к Экзамен.",
-        "description": ""
-    },
-    "submissionExamTip1": {
-        "message": "Ты достиг(ла) {n} раз(а) состояние выхода из Экзамена и по настройкам Мониторинга экзамена скоро произойдёт Принудительное завершение и отправка экзаменационной работы.",
-        "description": ""
-    },
-    "uploadFileType": {
-        "message": "Прикрепить файл",
-        "description": ""
-    },
-    "examUploadTip": {
-        "message": "при выборе файла система временно выйдет из полноэкранного режима, пожалуйста, завершите выбор вложения и вернитесь на страницу экзамена, затем нажмите на любое пустое место, чтобы вернуться на весь экран. В противном случае система будет записывать в это время выход из экзамена.",
-        "description": ""
-    },
-    "selectImg": {
-        "message": "Выбрать из альбома",
-        "description": ""
-    },
-    "exitUploadTip": {
-        "message": "файл не подан. Подтвердите выход?",
-        "description": ""
-    },
-    "codeUploadTip4": {
-        "message": "Загрузить не более {n} вложения на один вопрос",
-        "description": ""
-    },
-    "submitToPC": {
-        "message": "Подача на компьютер",
-        "description": ""
-    },
-    "codeUploadTip3": {
-        "message": "Размер файла, загруженного в мобильное приложение, не должен превышать {size}",
-        "description": ""
-    },
-    "uploadFirst": {
-        "message": "Загрузите файл перед началом",
-        "description": ""
-    },
-    "submitFileFail": {
-        "message": "Ошибка загрузки",
-        "description": ""
-    },
-    "scanCodeUploadDesc": {
-        "message": "Просканируйте с помощью мобильного телефона QR-код в браузере или WeChat и загрузите файл на компьютер.",
-        "description": ""
-    },
-    "selectFile": {
-        "message": "выбрать файл",
-        "description": ""
-    },
-    "exit": {
-        "message": "Выход",
-        "description": ""
-    },
-    "continueUpload": {
-        "message": "Продолжить загрузку",
-        "description": ""
-    },
-    "codeUploadTip5": {
-        "message": "Файл загружается, пожалуйста, подождите завершения загрузки и затем нажмите Подача",
-        "description": ""
-    },
-    "codeUploadTip1": {
-        "message": "отдельный файл не должен превышать {size}",
-        "description": ""
-    },
-    "scanCodeUploadDesc1": {
-        "message": "QR-код действует в течение {num} минут. По истечении срока действия откройте всплывающее окно снова и отсканируйте QR-код.",
-        "description": ""
-    },
-    "codeUploadTip2": {
-        "message": "Загрузите не более {num} файлов за раз",
-        "description": ""
-    },
-    "submitFileSuccess": {
-        "message": "Загрузка прошла успешно!",
-        "description": ""
-    },
-    "qrCodeOver": {
-        "message": "QR-код недействительный, нажмите {refresh}",
-        "description": ""
-    },
-    "scanCodeUpload": {
-        "message": "Загрузить с помощью сканирования QR-кода",
-        "description": ""
-    },
-    "refresh": {
-        "message": "Обновить",
-        "description": ""
-    },
-    "scanCodeUploadTip1": {
-        "message": "Ссылка истекла",
-        "description": ""
-    },
-    "scanCodeUploadTip": {
-        "message": "Используйте мобильное устройство для сканирования QR-кода или измените тип устройства в браузере",
-        "description": ""
-    },
-    "uploadByPhone": {
-        "message": "Загрузить с помощью сканирования QR-кода",
-        "description": ""
-    },
-    "verificationCode": {
-        "message": "Запасной проверочный код",
-        "description": ""
-    },
-    "noMore": {
-        "message": "Нет больше",
-        "description": ""
-    },
-    "wx": {
-        "message": "WeChat",
-        "description": ""
-    },
-    "enterTip": {
-        "message": "Введите номер учащегося или имя",
-        "description": ""
-    },
-    "publisher": {
-        "message": "Создатель",
-        "description": ""
-    },
-    "commitExamTip5": {
-        "message": "Учитель завершит экзамен и соберет работы до окончания отведенного времени",
-        "description": ""
-    },
-    "copyLink": {
-        "message": "Копировать ссылку",
-        "description": ""
-    },
-    "scanTip": {
-        "message": "Сканируйте правильный QR-код",
-        "description": ""
-    },
-    "forceSubmit": {
-        "message": "Завершить экзамен и собрать работы до окончания отведенного времени",
-        "description": ""
-    },
-    "loading": {
-        "message": "Загрузка...",
-        "description": ""
-    },
-    "notApproved": {
-        "message": "Задания на проверке",
-        "description": ""
-    },
-    "forceSubmitTip": {
-        "message": "Учитель завершает экзамен и собирает работы до окончания отведенного времени. Экзаменационная работа будет Автоматически Подана через {seconds} секунд. Не выходите и не Закрывайте страницу.",
-        "description": ""
-    },
-    "notEnter": {
-        "message": "Не вошли",
-        "description": ""
-    },
-    "pulling": {
-        "message": "Потяните вниз, чтобы обновить...",
-        "description": ""
-    },
-    "allClasses": {
-        "message": "Все классы",
-        "description": ""
-    },
-    "answerTimeLimit": {
-        "message": "Ограничение времени заданий",
-        "description": ""
-    },
-    "replaceDevice": {
-        "message": "Замена оборудования",
-        "description": ""
-    },
-    "totalBatch": {
-        "message": "Всего {n} сессий",
-        "description": ""
-    },
-    "commitExamTip1": {
-        "message": "При выходе по истечении допустимого количества, система Принудительно завершит и отправит",
-        "description": ""
-    },
-    "answerUsedTime": {
-        "message": "использованная длительность тестирования",
-        "description": ""
-    },
-    "forceSubmitTip1": {
-        "message": "Если экзаменуемый сдает тест, при использовании этого функционала экзаменационная работа будет принудительно собрана. Сбор выполненных работ может занять около 10 секунд ~ 1 минуты. Эта операция неотменимая, используйте с осторожностью.",
-        "description": ""
-    },
-    "shareTip": {
-        "message": "Сначала установите WeChat Клиент",
-        "description": ""
-    },
-    "examBatch": {
-        "message": "Экзаменационная сессия",
-        "description": ""
-    },
-    "shareTo": {
-        "message": "Поделиться",
-        "description": ""
-    },
-    "batchIndex": {
-        "message": "Сессии {index}",
-        "description": ""
-    },
-    "commitExamTip3": {
-        "message": "Автоматическое зачисление системой",
-        "description": ""
-    },
-    "signinCode": {
-        "message": "Код регистрации на экзамен",
-        "description": ""
-    },
-    "forceSubmiting": {
-        "message": "Сбор выполненных работ",
-        "description": ""
-    },
-    "loosing": {
-        "message": "Отпустите, чтобы обновить...",
-        "description": ""
-    },
-    "refreshInterval": {
-        "message": "Интервал обновления",
-        "description": ""
-    },
-    "commitExam": {
-        "message": "сдать экзаменационную работу",
-        "description": ""
-    },
-    "handInExam": {
-        "message": "Сдано",
-        "description": ""
-    },
-    "errorTip": {
-        "message": "Запрос не выполнен. Обновите.",
-        "description": ""
-    },
-    "allBatchs": {
-        "message": "все сессии",
-        "description": ""
-    },
-    "answering": {
-        "message": "отвечает",
-        "description": ""
-    },
-    "selectClass": {
-        "message": "выбрать класс",
-        "description": ""
-    },
-    "answerTimes": {
-        "message": "{n} раз",
-        "description": ""
-    },
-    "noStudentTip": {
-        "message": "Отсутствие данных. Зачислите студентов в экзамен или измените условия поиска",
-        "description": ""
-    },
-    "intervalTime": {
-        "message": "{seconds} секунда",
-        "description": ""
-    },
-    "replaceIp": {
-        "message": "Заменить IP-адрес",
-        "description": ""
-    },
-    "exe1": {
-        "message": "Локальный клиент",
-        "description": ""
-    },
-    "selectBatch": {
-        "message": "Выбрать сессии",
-        "description": ""
-    },
-    "monitorConsole": {
-        "message": "Мобильная система мониторинга экзамена",
-        "description": ""
-    },
-    "commitExamTip2": {
-        "message": "Если покинуть экзамен и превысить установленное время, система принудительно завершит и отправит",
-        "description": ""
-    },
-    "examViewTip": {
-        "message": "Пожалуйста, проверьте и просмотрите Тестовую работу на компьютере",
-        "description": ""
-    },
-    "forceSubmitFail": {
-        "message": "Неудача при завершении экзамена и сборе работ до окончания отведенного времени",
-        "description": ""
-    },
-    "standbyVerificationCodeDesc": {
-        "message": "Если экзаменуемый не может войти в экзамен ввиду особых обстоятельств, то он может войти, используя этот Код подтверждения. В том числе:{br}- включен экзамен с мониторингом устройства / IP-адреса, экзаменуемый во время должен Заменить оборудование или IP-адрес.{br1}- Включен экзамен с распознаванием лиц, экзаменуемый не может пройти проверку через распознавание лиц.",
-        "description": ""
-    },
-    "examBatchNums": {
-        "message": " {n} шт.",
-        "description": ""
-    },
-    "tokenTip": {
-        "message": "Вы вошли на конечных устройствах другие",
-        "description": ""
-    },
-    "notSignIn": {
-        "message": "не отметившийся",
-        "description": ""
-    },
-    "answerTimes1": {
-        "message": "ответить {n} раз",
-        "description": ""
-    },
-    "examMonitorConsole": {
-        "message": "Мониторинг экзамена",
-        "description": ""
-    },
-    "signedIn": {
-        "message": "вход выполненный",
-        "description": ""
-    },
-    "forceSubmitTip3": {
-        "message": "Подтвердите завершение экзамена и сбор работ до окончания отведенного времени?",
-        "description": ""
-    },
-    "readed": {
-        "message": "Проверенный",
-        "description": ""
-    },
-    "class": {
-        "message": "Класс",
-        "description": ""
-    },
-    "student": {
-        "message": "Студент",
-        "description": ""
-    },
-    "haveEntered": {
-        "message": "Войти",
-        "description": ""
-    },
-    "intoPage": {
-        "message": "Войти на страницу",
-        "description": ""
-    },
-    "codeInvalid": {
-        "message": "Код подтверждения недействительный",
-        "description": ""
-    },
-    "signinCodeTip": {
-        "message": "1. Осуществите вход в мобильное приложение 【ULearning】 и выполните регистрацию по QR-коду. {br}2. После регистрации войдите через подписанное устройство для прохождения теста.  Препятствует смена устройства во время теста. В случае возникновения исключительных обстоятельств вы должны запросить проверочный код у супервайзера теста для замены.",
-        "description": ""
-    },
-    "all": {
-        "message": "все",
-        "description": ""
-    },
-    "forceSubmitSuccess": {
-        "message": "Сообщение успешно отправлено",
-        "description": ""
-    },
-    "leavePage": {
-        "message": "Выйти из страницы",
-        "description": ""
-    },
-    "refreshed": {
-        "message": "Обновлено",
-        "description": ""
-    },
-    "noData": {
-        "message": "пока нет данных",
-        "description": ""
-    },
-    "leave": {
-        "message": "выйти",
-        "description": ""
-    },
-    "enterCode": {
-        "message": "Введи запасной проверочный код экзамена",
-        "description": ""
-    },
-    "totalNums": {
-        "message": "Общая численность",
-        "description": ""
-    },
-    "uploadFailTipNew": {
-        "message": "Ошибка загрузки файла или его конвертирования. Попробуйте конвертировать файл перед повторной загрузкой.",
-        "description": ""
-    },
-    "commitExamTip4": {
-        "message": "Время ответа истекло, система автоматически собирает выполненные работы",
-        "description": ""
-    },
-    "examVerificationCode": {
-        "message": "Запасной проверочный код для экзамена",
-        "description": ""
-    },
-    "ownSpieltag": {
-        "message": "Показать только те сессии, в которых участвует Мой классный коллектив",
-        "description": ""
-    },
-    "batchArrangement": {
-        "message": "Расписание сессий",
-        "description": ""
-    },
-    "signInCode": {
-        "message": "Код регистрации",
-        "description": ""
-    },
-    "behaviorRecord": {
-        "message": "мониторить записи",
-        "description": ""
-    },
-    "copySuccess1": {
-        "message": "Скопировано",
-        "description": ""
-    },
-    "noExamTip": {
-        "message": "Ничего не найдено",
-        "description": ""
-    },
-    "leavePageTimeTip": {
-        "message": "если время неактивности > 5 секунд",
-        "description": ""
-    },
-    "intoExamTime": {
-        "message": "Время экзамена",
-        "description": ""
-    },
-    "notSubmitted": {
-        "message": "Не передано",
-        "description": ""
-    },
-    "standbyVerificationCodeTip": {
-        "message": "Код подтверждения действителен в течение {minute}. Если он стал недействительным — Обновите, чтобы получить снова.",
-        "description": ""
-    },
-    "screenshot": {
-        "message": "Скриншот",
-        "description": ""
-    },
-    "commitExamTip6": {
-        "message": "Запрещенный скриншот, сдача экзамена принудительно завершена",
-        "description": ""
-    },
-    "allowedTimesNew": {
-        "message": "разрешить Количество отправок",
-        "description": ""
-    },
-    "previewError": {
-        "message": "Данный вопрос удален из Банка вопросов",
-        "description": ""
-    },
-    "errorRate": {
-        "message": "Кол-во неправильных ответов (процент неправильных ответов)",
-        "description": ""
-    },
-    "remarkBackBtn2": {
-        "message": "Подтвердить выход",
-        "description": ""
-    },
-    "questionDeleteTip": {
-        "message": "вопросы удалены с системы",
-        "description": ""
-    },
-    "practice": {
-        "message": "последовательность упражнение",
-        "description": ""
-    },
-    "remarkMsg": {
-        "message": "Вниманиe: Если студент несколько раз отправлял запись, то при массовой проверке будет отображаться только последняя запись",
-        "description": ""
-    },
-    "openLockScreenMsg": {
-        "message": "эта страница вызовет Клиент блокировки",
-        "description": ""
-    },
-    "mark1": {
-        "message": "комментарий",
-        "description": ""
-    },
-    "showDetail": {
-        "message": "Посмотреть подробности",
-        "description": ""
-    },
-    "remarkScoreTip1": {
-        "message": "Введите {num} цифр",
-        "description": ""
-    },
-    "lateTimeTip": {
-        "message": "Запрещено входить более чем на {minute} минут",
-        "description": ""
-    },
-    "ltiTip3": {
-        "message": "Обратите внимание: если после запуска клиентского приложения вход не будет выполнен автоматически, вы можете попытаться войти в систему со своей учетной записью ULearning. Ваше имя пользователя: {loginName} , исходный пароль совпадает с именем пользователя.",
-        "description": ""
-    },
-    "deleteBankMsg": {
-        "message": "Подтвердите очистку банка вопросов?",
-        "description": ""
-    },
-    "submitTime": {
-        "message": "Срок сдачи экзамена",
-        "description": ""
-    },
-    "lateTime": {
-        "message": "Опоздание",
-        "description": ""
-    },
-    "choiceRemarkPaper": {
-        "message": "Выберите экзаменационную работу для проверки",
-        "description": ""
-    },
-    "studentName": {
-        "message": "имя",
-        "description": ""
-    },
-    "searchStu": {
-        "message": "Поиск студента",
-        "description": ""
-    },
-    "remarkBackTip": {
-        "message": "Если вы выйдете и снова войдёте, вам придётся снова проверить. Подтвердить выход?",
-        "description": ""
-    },
-    "ps": {
-        "message": "{n} строк на странице",
-        "description": ""
-    },
-    "trainProgress": {
-        "message": "Прогресс в обучении",
-        "description": ""
-    },
-    "anonymous": {
-        "message": "анонимный",
-        "description": ""
-    },
-    "progress": {
-        "message": "Прогресс",
-        "description": ""
-    },
-    "commitExamTip7": {
-        "message": "Время истекло, система автоматически сдала экзаменационную работу",
-        "description": ""
-    },
-    "submitRecord": {
-        "message": "Подача записи",
-        "description": ""
-    },
-    "questionTrain": {
-        "message": "Тренировка по банку вопросов",
-        "description": ""
-    },
-    "batchDelete": {
-        "message": "удалить с системы массовый",
-        "description": ""
-    },
-    "selectFileByCamera": {
-        "message": "Фотографировать",
-        "description": ""
-    },
-    "errorQuestion": {
-        "message": "Неверные ответы",
-        "description": ""
-    },
-    "rightRate": {
-        "message": "процент правильных ответов",
-        "description": ""
-    },
-    "questionTrainManage": {
-        "message": "Управление тренировками по банку вопросов",
-        "description": ""
-    },
-    "inputContent": {
-        "message": "Введите контент",
-        "description": ""
-    },
-    "bankClosed": {
-        "message": "Банк вопросов закрыт",
-        "description": ""
-    },
-    "submitSuccessTip": {
-        "message": "сдан экзамен",
-        "description": ""
-    },
-    "remarkQueEmpty": {
-        "message": "В этой экзаменационной работе нет вопросов, требующих оценивания Человеком",
-        "description": ""
-    },
-    "noQuestionTip": {
-        "message": "пока нет вопросов",
-        "description": ""
-    },
-    "answeredNum": {
-        "message": "Число ответивших людей",
-        "description": ""
-    },
-    "roate": {
-        "message": "Вращение",
-        "description": ""
-    },
-    "usedPaperTip1": {
-        "message": "{n} набор",
-        "description": ""
-    },
-    "usedTimesNew": {
-        "message": "Использованное количество отправок",
-        "description": ""
-    },
-    "trainMsg": {
-        "message": "Выберите задания, открытые для студентов с личного / институционального банка в текущий банк заданий. Только администратор курса может загрузить / удалить задачи.",
-        "description": ""
-    },
-    "usedPaperTip2": {
-        "message": "Случайным образом составлять тест",
-        "description": ""
-    },
-    "openLockScreenMsg1": {
-        "message": "Если клиент не установлен или переход невозможен, сначала скачайте и установите клиент.",
-        "description": ""
-    },
-    "previewQue": {
-        "message": "Предварительный просмотр вопросов",
-        "description": ""
-    },
-    "averageAnsweredNumNew": {
-        "message": "Средняя частота отправок",
-        "description": ""
-    },
-    "trainPageTip": {
-        "message": "Тренировка по банку вопросов временно доступна только на компьютерах",
-        "description": ""
-    },
-    "firstAccuracy": {
-        "message": "Процент правильных ответов в первом заходе",
-        "description": ""
-    },
-    "batchRemark": {
-        "message": "Массовая проверка",
-        "description": ""
-    },
-    "importQue": {
-        "message": "импортировать вопросы",
-        "description": ""
-    },
-    "noScore": {
-        "message": "Не оценен",
-        "description": ""
-    },
-    "export": {
-        "message": "Экспортировать",
-        "description": ""
-    },
-    "errorRate1": {
-        "message": "Процент ошибок",
-        "description": ""
-    },
-    "continueRemark": {
-        "message": "Продолжить проверку",
-        "description": ""
-    },
-    "noBank": {
-        "message": "Банк вопросов не существует",
-        "description": ""
-    },
-    "studentID": {
-        "message": "Номер учащегося",
-        "description": ""
-    },
-    "removeQue": {
-        "message": "удалить с системы",
-        "description": ""
-    },
-    "removeQueTitle": {
-        "message": "удалить с системы вопросы",
-        "description": ""
-    },
-    "remarkPageTip": {
-        "message": "В режиме оценки отображаются только задания на проверке.",
-        "description": ""
-    },
-    "usedPaper": {
-        "message": "использованная экзаменационная работа",
-        "description": ""
-    },
-    "goToExamDetile": {
-        "message": "вернуться к Подробностям Экзамена",
-        "description": ""
-    },
-    "clickHere": {
-        "message": "Нажмите здесь",
-        "description": ""
-    },
-    "remarkBackBtn1": {
-        "message": "Пока не выходите",
-        "description": ""
-    },
-    "remarkTip1": {
-        "message": "Вопрос {n} еще не проверен. Вы уверены, что хотите завершить проверку?",
-        "description": ""
-    },
-    "networkErrorTip4": {
-        "message": "Система временно сохранила записи ответов локально, немного позже снова попробуйте подать вручную.",
-        "description": ""
-    },
-    "operation": {
-        "message": "операция",
-        "description": ""
-    },
-    "questionDeleteFail": {
-        "message": "не удалось удалить вопросы",
-        "description": ""
-    },
-    "queNum": {
-        "message": "Количество вопросов: {n}",
-        "description": ""
-    },
-    "importQueSuccessMsg2": {
-        "message": "Тренировка по банку вопросов поддерживает только объективные вопросы и заполнение пробелов, неподдерживаемые типы вопросов автоматически пропускаются.",
-        "description": ""
-    },
-    "enteredExamTip1": {
-        "message": "Если произошла ошибка, запросите у учителя код подтверждения и введите его в поле для входа.",
-        "description": ""
-    },
-    "answerProgress": {
-        "message": "Кол-во отвеченных вопросов (Прогресс)",
-        "description": ""
-    },
-    "averageAnsweredNum": {
-        "message": "Среднее количество попыток",
-        "description": ""
-    },
-    "enteredExamTip": {
-        "message": "Система обнаружила, что ты уже вошел на экзамен с другой страницы. Если нужно войти снова, Закрытьсначала другую страницу(страницы) с ответами.",
-        "description": ""
-    },
-    "subQue": {
-        "message": "субъективный вопрос：",
-        "description": ""
-    },
-    "scoreTips1": {
-        "message": "введите балл",
-        "description": ""
-    },
-    "importQueSuccessMsg1": {
-        "message": "Импорт успешный, добавлено {n} вопросов.",
-        "description": ""
-    },
-    "submit": {
-        "message": "Подача",
-        "description": ""
-    },
-    "openLockScreenMsg2": {
-        "message": "Если установлена, нажмите {clickHere} и нажмите Кнопку \"Открыть приложение блокировки\" в диалоговом окне, которое появится в браузере.",
-        "description": ""
-    },
-    "questionDelete": {
-        "message": "Вопросы удалены, обновите страницу и повторите попытку",
-        "description": ""
-    },
-    "noStudentSubmit": {
-        "message": "Нет студенческих работ",
-        "description": ""
-    },
-    "openLockScreen": {
-        "message": "Запуск клиента блокировки экрана",
-        "description": ""
-    },
-    "answerErrorNum": {
-        "message": "Неверный ответ",
-        "description": ""
-    },
-    "answerCard": {
-        "message": "Карточка с ответами",
-        "description": ""
-    },
-    "removeQueMsg": {
-        "message": "Удалить выбранные вопросы?",
-        "description": ""
-    },
-    "deleteBank": {
-        "message": "Очистить банк вопросов",
-        "description": ""
-    },
-    "remarkProgress": {
-        "message": "Прогресс проверки:",
-        "description": ""
-    },
-    "notAnswerNum": {
-        "message": "Без ответа",
-        "description": ""
-    },
-    "completeRemarkTip1": {
-        "message": "Поздравляем! Все экзаменационные работы проверены!",
-        "description": ""
-    },
-    "submitTimeTip": {
-        "message": "Запрещено сдавать экзаменационную работу в течение {minute} минут",
-        "description": ""
-    },
-    "downloadLockScreen": {
-        "message": "Скачать клиент блокировки экрана",
-        "description": ""
-    },
-    "allowedTimes1": {
-        "message": "Количество разрешенных отправок",
-        "description": ""
-    },
-    "openLockScreenError": {
-        "message": "Блокировка экрана клиента не обнаружена, сначала подтвердите, правильно ли выполнены установка. Если при установке всё еще невозможно запустить, можно попробовать удалить ее и снова установить последнюю версию.",
-        "description": ""
-    },
-    "answerHistoryTimes": {
-        "message": "{n}-й раз",
-        "description": ""
-    },
-    "notAnswer": {
-        "message": "Не ответил",
-        "description": ""
-    },
-    "times": {
-        "message": "{n}й раз",
-        "description": ""
-    }
+  "home": {
+    "message": "Главная страница",
+    "description": "考试快捷地址"
+  },
+  "note": {
+    "message": "подсказка",
+    "description": "考试快捷地址"
+  },
+  "getIt": {
+    "message": "Я понял",
+    "description": "考试快捷地址"
+  },
+  "confirm": {
+    "message": "Подтвердите",
+    "description": "考试快捷地址"
+  },
+  "cancel": {
+    "message": "Отменить",
+    "description": "考试快捷地址"
+  },
+  "userNameLogin": {
+    "message": "Вход по учетной записи и паролю",
+    "description": "考试快捷地址"
+  },
+  "login": {
+    "message": "войти",
+    "description": "考试快捷地址"
+  },
+  "forgetPassword": {
+    "message": "Забыть пароль",
+    "description": "考试快捷地址"
+  },
+  "userName": {
+    "message": "имя пользователя / номер мобильного телефона / Адрес электронной почты",
+    "description": "考试快捷地址"
+  },
+  "password": {
+    "message": "Пароль",
+    "description": "考试快捷地址"
+  },
+  "inputUserName": {
+    "message": "Введите имя пользователя/номер мобильного телефона/адрес электронной почты",
+    "description": "考试快捷地址"
+  },
+  "inputPas": {
+    "message": "Введите пароль",
+    "description": "考试快捷地址"
+  },
+  "freezeTip": {
+    "message": "Система обнаружила, что данная учетная запись при изучении курса {names} допускала мошенничество и другие виды ненадлежащего поведения, поэтому учетная запись была автоматически заморожена, пожалуйста, свяжитесь с классным руководителем или с платформой для дальнейшего разрешения данной ситуации.",
+    "description": "考试快捷地址"
+  },
+  "overErrorTimes": {
+    "message": "Вы уже ошиблись 5 раз подряд, попробуйте еще через 3 минуты",
+    "description": "考试快捷地址"
+  },
+  "passwordErr": {
+    "message": "Неверное имя пользователя/пароль",
+    "description": "考试快捷地址"
+  },
+  "loginFail": {
+    "message": "Сбой при входе в систему",
+    "description": "考试快捷地址"
+  },
+  "personalInfo": {
+    "message": "Личный кабинет",
+    "description": "考试快捷地址"
+  },
+  "quit": {
+    "message": "Выйти из системы",
+    "description": "考试快捷地址"
+  },
+  "faceSuccess": {
+    "message": "Авторизация пройдена, через 3 секунды начнется Экзамен",
+    "description": "考试快捷地址"
+  },
+  "faceFail": {
+    "message": "Аутентификация по лицу непройденная.",
+    "description": "考试快捷地址"
+  },
+  "retry": {
+    "message": "Сделать еще одну попытку",
+    "description": "考试快捷地址"
+  },
+  "leaveSeat": {
+    "message": "отлучаться",
+    "description": "考试快捷地址"
+  },
+  "exam": {
+    "message": "Экзамен",
+    "description": "考试快捷地址"
+  },
+  "joinType": {
+    "message": "Способ участия",
+    "description": "考试快捷地址"
+  },
+  "limitTime": {
+    "message": "Срок действия Экзамена",
+    "description": "考试快捷地址"
+  },
+  "openApp": {
+    "message": "Перейдите в мобильное приложение ULearning 2.0 для сдачи Экзамена",
+    "description": "考试快捷地址"
+  },
+  "downloadApp": {
+    "message": "Скачать мобильное приложение ULearning 2.0",
+    "description": "考试快捷地址"
+  },
+  "pc": {
+    "message": "Компьютерная версия сайта",
+    "description": "考试快捷地址"
+  },
+  "app": {
+    "message": "Мобильное приложение",
+    "description": "考试快捷地址"
+  },
+  "exe": {
+    "message": "Клиент блокировки компьютера",
+    "description": "考试快捷地址"
+  },
+  "noCameraTip": {
+    "message": "Камера занята или для нее запрещены права доступа. Разрешите права доступа к камере или закройте другие приложения, использующие камеру.",
+    "description": "考试快捷地址"
+  },
+  "fileSizeLimitType": {
+    "message": "Размер вложения не превышать {maxSize}",
+    "description": "考试快捷地址"
+  },
+  "notSupportTip": {
+    "message": "Этот Экзамен не поддерживает ответы через страницу, пожалуйста, Войти в экзамен согласно указанному способу участия",
+    "description": "考试快捷地址"
+  },
+  "noFaceTip": {
+    "message": "Распознавание лиц было включено для этого Экзамена. Чтобы принять участие в Экзамене, необходимо Завершить Аутентификацию по лицу.",
+    "description": "考试快捷地址"
+  },
+  "identification": {
+    "message": "отменить сертификацию",
+    "description": "考试快捷地址"
+  },
+  "timeLimit": {
+    "message": "Экзамен по времени",
+    "description": "考试快捷地址"
+  },
+  "minute": {
+    "message": "{n} минут",
+    "description": "考试快捷地址"
+  },
+  "allowedTimes": {
+    "message": "Разрешить количество попыток",
+    "description": "考试快捷地址"
+  },
+  "notLimit": {
+    "message": "Неограниченный",
+    "description": "考试快捷地址"
+  },
+  "myScore": {
+    "message": "Моя оценка",
+    "description": "考试快捷地址"
+  },
+  "score": {
+    "message": "{n} балл",
+    "description": "考试快捷地址"
+  },
+  "usedTimes": {
+    "message": "Использованное кол-во попыток",
+    "description": "考试快捷地址"
+  },
+  "examTime": {
+    "message": "время экзамена",
+    "description": "考试快捷地址"
+  },
+  "lateLimit": {
+    "message": "Ограничение по опозданиям",
+    "description": "考试快捷地址"
+  },
+  "lateLimitTip": {
+    "message": "Войти в экзамен запрещено через {min} минут после его начала",
+    "description": "考试快捷地址"
+  },
+  "submitLimit": {
+    "message": "Ограничение сдачи экзаменационной работы",
+    "description": "考试快捷地址"
+  },
+  "submitLimitType": {
+    "message": "Начать Экзамен разрешено не ранее, чем через {min} минут",
+    "description": "考试快捷地址"
+  },
+  "examMonitor": {
+    "message": "Мониторинг экзамена",
+    "description": "考试快捷地址"
+  },
+  "deviceMonitorTip": {
+    "message": "Активирован {deviceMonitor}, не заменяйте устройства во время использования",
+    "description": "考试快捷地址"
+  },
+  "deviceMonitor": {
+    "message": "Мониторинг оборудования",
+    "description": "考试快捷地址"
+  },
+  "ipMonitorTip": {
+    "message": "Активирован {ipMonitor}, во время работы не переключать Сеть",
+    "description": "考试快捷地址"
+  },
+  "ipMonitor": {
+    "message": "Контроль IP-адресов",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitorTip1": {
+    "message": "Если активирован {cutScreenMonitor}, при однократном выходе более чем на {s} секунд или накоплении {times} выходов, система принудительно завершит и отправит работу",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitorTip2": {
+    "message": "Активирован {cutScreenMonitor}, накапливать выйти более {times} раз, система сдать экзаменационную работу Принудительное завершение и отправка",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitorTip3": {
+    "message": "Включено {cutScreenMonitor}, если вы выйдите хотя бы раз больше, чем на {s} секунд, система принудительно завершит и отправит работу",
+    "description": "考试快捷地址"
+  },
+  "cutScreenMonitor": {
+    "message": "Мониторинг переключения приложений",
+    "description": "考试快捷地址"
+  },
+  "faceMonitorTip": {
+    "message": "ативирован {faceMonitor}, необходимо пройти проверку через распознавание лица для перехода к экзамену",
+    "description": "考试快捷地址"
+  },
+  "faceMonitor": {
+    "message": "Распознавание лиц",
+    "description": "考试快捷地址"
+  },
+  "cameraMonitorTip": {
+    "message": "Камера {cameraMonitor} активирована. Держите камеру включенной на протяжении всего времени, направляя её прямо на себя.",
+    "description": "考试快捷地址"
+  },
+  "cameraMonitor": {
+    "message": "видеонаблюдение",
+    "description": "考试快捷地址"
+  },
+  "debugCamera": {
+    "message": "Отладка камеры",
+    "description": "考试快捷地址"
+  },
+  "stratExam": {
+    "message": "Начать экзамен",
+    "description": "考试快捷地址"
+  },
+  "noPermissionTip": {
+    "message": "У тебя нет права участвовать в этом Экзамене, если есть вопросы, свяжись с организатором Экзамена.",
+    "description": "考试快捷地址"
+  },
+  "multipleSessions": {
+    "message": "Этот экзамен содержит несколько поэтапных сессий, сессии и конкретное время, в которое экзаменуемые могут принять участие, пожалуйста, войдите, чтобы просмотреть",
+    "description": "考试快捷地址"
+  },
+  "loginToExam": {
+    "message": "Выполнить вход и начать экзамен",
+    "description": "考试快捷地址"
+  },
+  "downloadAppBtn": {
+    "message": "Скачать мобильное приложение",
+    "description": "考试快捷地址"
+  },
+  "downloadExe": {
+    "message": "Скачать клиентскую программу для экзаменов",
+    "description": "考试快捷地址"
+  },
+  "windows": {
+    "message": "Настольное приложение",
+    "description": "考试快捷地址"
+  },
+  "windowsTip": {
+    "message": "Поддержка Майнрософт Виндовс 7 и более поздних версий системой",
+    "description": "考试快捷地址"
+  },
+  "download": {
+    "message": "Скачать",
+    "description": "考试快捷地址"
+  },
+  "mac": {
+    "message": "Мак-версия",
+    "description": "考试快捷地址"
+  },
+  "macTip": {
+    "message": "Поддерживается система macOS 10.11 и более поздних версий",
+    "description": "考试快捷地址"
+  },
+  "examEnvironmentTesting": {
+    "message": "Проверка экзаменационной среды",
+    "description": "考试快捷地址"
+  },
+  "deviceAbnormality": {
+    "message": "Оборудование не работает",
+    "description": "考试快捷地址"
+  },
+  "ipAbnormality": {
+    "message": "Исключение IP-адреса",
+    "description": "考试快捷地址"
+  },
+  "deviceAbnormalityTip": {
+    "message": "Во время этого экзамена активирован мониторинг оборудования, поэтому во время экзамена запрещено заменять оборудование или Браузер. Для ответа на вопросы используйте устройство, на которое вы впервые Вошли для начала экзамена.",
+    "description": "考试快捷地址"
+  },
+  "ipAbnormalityTip": {
+    "message": "Текущий экзамен активировал контроль IP-адресов. Запрещена замена IP-адресов во время (переключение сети может привести к изменению IP-адреса).",
+    "description": "考试快捷地址"
+  },
+  "useCodeTip": {
+    "message": "В случае возникновения необходимости замены устройства обратитесь к контролёру экзамена за кодом подтверждения, {useCode}, чтобы войти.",
+    "description": "考试快捷地址"
+  },
+  "useCode": {
+    "message": "Использовать код подтверждения",
+    "description": "考试快捷地址"
+  },
+  "faceVerification": {
+    "message": "Проверка через распознавание лиц",
+    "description": "考试快捷地址"
+  },
+  "faceVerificationTip": {
+    "message": "Ты еще не завершил(а) аутентификацию по лицу, невозможно войти в Экзамен через распознавание лиц.",
+    "description": "考试快捷地址"
+  },
+  "faceVerificationTip1": {
+    "message": "Прав сейчас {goToCertification} или {useCodeEnter}",
+    "description": "考试快捷地址"
+  },
+  "goToCertification": {
+    "message": "Сертификат",
+    "description": "考试快捷地址"
+  },
+  "useCodeEnter": {
+    "message": "Использовать код подтверждения, чтобы войти экзамен",
+    "description": "考试快捷地址"
+  },
+  "examNotes": {
+    "message": "Правила экзамена",
+    "description": "考试快捷地址"
+  },
+  "agreenExamNotes": {
+    "message": "Я прочитал и согласен с правилами экзамена",
+    "description": "考试快捷地址"
+  },
+  "checkFirst": {
+    "message": "Пожалуйста, отметьте",
+    "description": "考试快捷地址"
+  },
+  "faceVerificationDesc": {
+    "message": "Пожалуйста, перейдите прямо к камере, чтобы обеспечить хорошее освещение. Нет возможности проверить лицо?",
+    "description": "考试快捷地址"
+  },
+  "examCode": {
+    "message": "Код подтверждения экзамена",
+    "description": "考试快捷地址"
+  },
+  "examCodeTip": {
+    "message": "Попросите контролёра экзамена предоставить код подтверждения и введите его:",
+    "description": "考试快捷地址"
+  },
+  "examCodeError": {
+    "message": "Неправильный код подтверждения",
+    "description": "考试快捷地址"
+  },
+  "cameraMonitorDesc": {
+    "message": "Включен экзамен с видеонаблюдением, система будет в режиме реального времени тестировать и записывать поведение экзаменуемых, например, ненормальное поведение экзаменуемого, когда экзаменуемый отлучается, взгляд надолго отводит, переговаривается. Поэтому, обратите внимание:{br}1. Перед экзаменом, пожалуйста, отрегулируйте угол камеры, чтобы лицо полностью было в кадре, и по возможности прямо перед камерой.{br}2. В процессе экзамена, взгляд сохраняйте сфокусированным на Экране, не отлучайтесь, не ведите беседы.",
+    "description": "考试快捷地址"
+  },
+  "notStart": {
+    "message": "не начался",
+    "description": "考试快捷地址"
+  },
+  "inProgress": {
+    "message": "Текущий",
+    "description": "考试快捷地址"
+  },
+  "ended": {
+    "message": "завершённый",
+    "description": "考试快捷地址"
+  },
+  "joinTypes": {
+    "message": "Веб-интерфейс для Компьютера / Мобильное приложение / Клиент для Блокировки компьютера",
+    "description": "考试快捷地址"
+  },
+  "resultsNotAnnounce": {
+    "message": "Результаты этого экзамена не будут объявлены",
+    "description": "考试快捷地址"
+  },
+  "resultsNotYetAnnounce": {
+    "message": " оценки пока не объявлены",
+    "description": "考试快捷地址"
+  },
+  "subjectiveQuestionsToBeReviewed": {
+    "message": "Задания на проверке по субъективному вопросу",
+    "description": "考试快捷地址"
+  },
+  "ipPermissionsTip": {
+    "message": "Текущий IP-адрес: {ip} не имеет права войти. Пожалуйста, выполните вход с установленного компьютера.",
+    "description": "考试快捷地址"
+  },
+  "lateTip": {
+    "message": "Ты превысил разрешённое время опоздания к экзамену, войти нельзя.",
+    "description": "考试快捷地址"
+  },
+  "noCamera": {
+    "message": "Камера не обнаружена.",
+    "description": "考试快捷地址"
+  },
+  "noCameraTip1": {
+    "message": "Данный экзамен предусматривает использование системы распознавания лиц, пожалуйста, используйте устройство с камерой.",
+    "description": "考试快捷地址"
+  },
+  "noCameraTip2": {
+    "message": "В этот раз экзамен включает в себя видеонаблюдение, используйте устройство с включённой камерой для участия в экзамене.",
+    "description": "考试快捷地址"
+  },
+  "testCamera": {
+    "message": "Тестирование камеры",
+    "description": "考试快捷地址"
+  },
+  "examNotStart": {
+    "message": "Экзамен не начался",
+    "description": "考试快捷地址"
+  },
+  "examEnded": {
+    "message": "Экзамен завершён",
+    "description": "考试快捷地址"
+  },
+  "loadError": {
+    "message": "Запрос не выполнен",
+    "description": "考试快捷地址"
+  },
+  "expireTip": {
+    "message": "Сеанс авторизации истек, пожалуйста, войдите снова.",
+    "description": "考试快捷地址"
+  },
+  "ltiTip1": {
+    "message": "Если для участия в Экзамене используется Мобильное приложение / Клиент на экране блокировки, используй учетную запись U-Test для входа. Твое имя пользователя: {loginName}, исходный пароль совпадает с именем пользователя.",
+    "description": "考试快捷地址"
+  },
+  "ltiTip2": {
+    "message": "Войди в свою учетную запись U-Test, чтобы сдать экзамен с помощью мобильного приложения или Клиента блокировки экрана. Ты вошел в систему как {loginName}. Твой первоначальный пароль совпадает с твоим именем пользователя. После входа в учетную запись ты можешь изменить свой пароль или добавить персональные данные.",
+    "description": "考试快捷地址"
+  },
+  "toUpdatePsd": {
+    "message": "Изменить пароль",
+    "description": "考试快捷地址"
+  },
+  "accountTipHead": {
+    "message": "Привет, {name}",
+    "description": "考试快捷地址"
+  },
+  "accountTipContent": {
+    "message": "Здравствуйте, добро пожаловать в систему экзаменов ULearning. Мы уже зарегистрировали вас в ULearning. Если Вам нужно сдавать экзамен с телефона, сначала скачайте приложение [ULearning 2.0] и залогиньтесь в свой аккаунт ULearning.",
+    "description": "考试快捷地址"
+  },
+  "userInfo": {
+    "message": "Твоя учетная запись ULearning:",
+    "description": "考试快捷地址"
+  },
+  "userName1": {
+    "message": "имя пользователя",
+    "description": "考试快捷地址"
+  },
+  "passwordTip": {
+    "message": "исходный пароль совпадает с именем пользователя и может быть изменен после входа в систему.",
+    "description": "考试快捷地址"
+  },
+  "examInfo": {
+    "message": "Информация по экзамену",
+    "description": "考试快捷地址"
+  },
+  "examName": {
+    "message": "Название экзамена",
+    "description": "考试快捷地址"
+  },
+  "openAppTip": {
+    "message": "Если не удалось успешно запустить Мобильное приложение ULearning 2.0, проверьте, установлено ли оно. Если еще нет, сначала загрузите и установите его.",
+    "description": "考试快捷地址"
+  },
+  "openAppBtn": {
+    "message": "Запуск мобильного приложения ULearning 2.0",
+    "description": "考试快捷地址"
+  },
+  "save": {
+    "message": "сохранить",
+    "description": "考试快捷地址"
+  },
+  "faceSuccess1": {
+    "message": "Аутентификация прошла успешно",
+    "description": "考试快捷地址"
+  },
+  "faceVerificationDesc1": {
+    "message": "Невозможно пройти проверку через распознавание лиц?",
+    "description": "考试快捷地址"
+  },
+  "close": {
+    "message": "Закрывать",
+    "description": "考试快捷地址"
+  },
+  "view": {
+    "message": "Просмотр",
+    "description": "考试快捷地址"
+  },
+  "delete": {
+    "message": "удалить",
+    "description": "考试快捷地址"
+  },
+  "confirmDelete": {
+    "message": "Подтвердите удаление?",
+    "description": "考试快捷地址"
+  },
+  "transcodeTip": {
+    "message": "файл в данный момент обрабатывается, попытайтесь воспроизвести чуть позже.",
+    "description": "考试快捷地址"
+  },
+  "transcodeTip1": {
+    "message": "Идет перекодирование файла, попробуйте позже",
+    "description": "考试快捷地址"
+  },
+  "clickToTry": {
+    "message": "Нажмите Сделать еще одну попытку",
+    "description": "考试快捷地址"
+  },
+  "mute": {
+    "message": "Отключить звук",
+    "description": "考试快捷地址"
+  },
+  "unmute": {
+    "message": "Отменить беззвучный режим",
+    "description": "考试快捷地址"
+  },
+  "play": {
+    "message": "воспроизвести",
+    "description": "考试快捷地址"
+  },
+  "pause": {
+    "message": "Приостановить",
+    "description": "考试快捷地址"
+  },
+  "fullscreen": {
+    "message": "на весь экран",
+    "description": "考试快捷地址"
+  },
+  "exitFullscreen": {
+    "message": "Выход с полного экрана",
+    "description": "考试快捷地址"
+  },
+  "clickToRecord": {
+    "message": "Нажмите на иконку, чтобы начать аудиозапись",
+    "description": "考试快捷地址"
+  },
+  "saving": {
+    "message": "Сохранение...",
+    "description": "考试快捷地址"
+  },
+  "saveFail": {
+    "message": "Не удалось сохранить",
+    "description": "考试快捷地址"
+  },
+  "saveSuccess": {
+    "message": "Сохранение завершено успешно",
+    "description": "考试快捷地址"
+  },
+  "reRecord": {
+    "message": "Повторное выполнение записи",
+    "description": "考试快捷地址"
+  },
+  "recordingTip": {
+    "message": "Есть уже записываемый аудио. Закрываем сначала.",
+    "description": "考试快捷地址"
+  },
+  "noRecordingTip": {
+    "message": "Право на аудиозапись отклонено, включите право на аудиозапись в настройках Браузера",
+    "description": "考试快捷地址"
+  },
+  "uploadAudioFail": {
+    "message": "Ошибка при загрузке аудио, проверьте сетевое соединение",
+    "description": "考试快捷地址"
+  },
+  "addFile": {
+    "message": "Добавить вложение",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError1": {
+    "message": "Загрузить не более {n} вложений",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError2": {
+    "message": "Файл не должен превышать {size}",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError3": {
+    "message": "Не поддерживается тип файла",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError4": {
+    "message": "Размер файла не соответствует",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError5": {
+    "message": "Не удалось перекодировать",
+    "description": "考试快捷地址"
+  },
+  "uploadImgError": {
+    "message": "Размер изображения не может превышать {size}",
+    "description": "考试快捷地址"
+  },
+  "uploadMediaError": {
+    "message": "аудио-и видеоматериалы не могут превышать {size}",
+    "description": "考试快捷地址"
+  },
+  "uploadFail": {
+    "message": "Ошибка загрузки",
+    "description": "考试快捷地址"
+  },
+  "mark": {
+    "message": "Метки",
+    "description": "考试快捷地址"
+  },
+  "clear": {
+    "message": "очищать",
+    "description": "考试快捷地址"
+  },
+  "addMark": {
+    "message": "добавлять комментарий",
+    "description": "考试快捷地址"
+  },
+  "deleteMark": {
+    "message": "Удалить комментарии",
+    "description": "考试快捷地址"
+  },
+  "playTimesError": {
+    "message": "Ошибочный параметр частоты воспроизведения",
+    "description": "考试快捷地址"
+  },
+  "manualRefresh": {
+    "message": "Загрузить вручную",
+    "description": "考试快捷地址"
+  },
+  "selectQuestionType": {
+    "message": "Выберите тип вопроса для добавления",
+    "description": "考试快捷地址"
+  },
+  "questionNum": {
+    "message": "порядков",
+    "description": "考试快捷地址"
+  },
+  "questionType": {
+    "message": "Тип вопроса",
+    "description": "考试快捷地址"
+  },
+  "singleQ": {
+    "message": "вопрос с выбором одного варианта ответа",
+    "description": "考试快捷地址"
+  },
+  "multipleQ": {
+    "message": "Множественного выбора",
+    "description": "考试快捷地址"
+  },
+  "judgmentQ": {
+    "message": "Заявление истинности или ложности",
+    "description": "考试快捷地址"
+  },
+  "completion": {
+    "message": "заполнение пробела",
+    "description": "考试快捷地址"
+  },
+  "shortAnswer": {
+    "message": "Вопрос с кратким ответом",
+    "description": "考试快捷地址"
+  },
+  "sortingQ": {
+    "message": "упорядочивание",
+    "description": "考试快捷地址"
+  },
+  "comprehensiveQ": {
+    "message": "Комплексное задание",
+    "description": "考试快捷地址"
+  },
+  "formulaCalculationQ": {
+    "message": "Задачи с вычислениями по формулам",
+    "description": "考试快捷地址"
+  },
+  "blankQ": {
+    "message": "упражнение на выбор слов для заполнения пропусков",
+    "description": "考试快捷地址"
+  },
+  "clozeQ": {
+    "message": "Заполнение пробела",
+    "description": "考试快捷地址"
+  },
+  "dropDownQ": {
+    "message": "Выпадающий список",
+    "description": "考试快捷地址"
+  },
+  "oralSubjectQ": {
+    "message": "Субъективный вопрос по устной речи",
+    "description": "考试快捷地址"
+  },
+  "oralReadingQ": {
+    "message": "устный тест на чтение",
+    "description": "考试快捷地址"
+  },
+  "single": {
+    "message": "задание с выбором одного ответа",
+    "description": "考试快捷地址"
+  },
+  "multiple": {
+    "message": "множественный выбор",
+    "description": "考试快捷地址"
+  },
+  "judgment": {
+    "message": "суждение",
+    "description": "考试快捷地址"
+  },
+  "completion1": {
+    "message": "Заполните пробелы",
+    "description": "考试快捷地址"
+  },
+  "shortAnswer1": {
+    "message": "Короткий ответ",
+    "description": "考试快捷地址"
+  },
+  "stuAnswer": {
+    "message": "Ответ экзаменуемого",
+    "description": "考试快捷地址"
+  },
+  "correctAnswer": {
+    "message": "Правильный ответ",
+    "description": "考试快捷地址"
+  },
+  "questionScore": {
+    "message": "({n} баллов)",
+    "description": "考试快捷地址"
+  },
+  "questionDesc": {
+    "message": "{n} вопрос(ы), всего {score} балл(ов)",
+    "description": "考试快捷地址"
+  },
+  "answer": {
+    "message": "Ответ",
+    "description": "考试快捷地址"
+  },
+  "answerCanChangeTip": {
+    "message": "Ответы на пробелы можно менять в любой последовательности",
+    "description": "考试快捷地址"
+  },
+  "range": {
+    "message": "Допустимая погрешность",
+    "description": "考试快捷地址"
+  },
+  "examineeRecording": {
+    "message": "Аудиозапись экзаменуемого",
+    "description": "考试快捷地址"
+  },
+  "notAnswer": {
+    "message": "Не ответил",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip": {
+    "message": "заполните здесь ответ",
+    "description": "考试快捷地址"
+  },
+  "enableUploadTip": {
+    "message": "При публикации экзамена можно выбрать разрешить экзаменуемым прикреплять файлы",
+    "description": "考试快捷地址"
+  },
+  "referenceAnswer": {
+    "message": "Эталон ответа",
+    "description": "考试快捷地址"
+  },
+  "examUploadTip": {
+    "message": "при выборе файла система временно выйдет из полноэкранного режима, пожалуйста, завершите выбор вложения и вернитесь на страницу экзамена, затем нажмите на любое пустое место, чтобы вернуться на весь экран. В противном случае система будет записывать в это время выход из экзамена.",
+    "description": "考试快捷地址"
+  },
+  "uploadFailTip": {
+    "message": "Не удалось загрузить или перекодировать вложение. Удалите его и загрузите снова.",
+    "description": "考试快捷地址"
+  },
+  "sortTip": {
+    "message": "Перетаскивайте варианты для сортировки",
+    "description": "考试快捷地址"
+  },
+  "yourAnswer": {
+    "message": "Твой Ответ",
+    "description": "考试快捷地址"
+  },
+  "inputFormulaTip": {
+    "message": "Введите формулу для вычисления Ответа",
+    "description": "考试快捷地址"
+  },
+  "backSpace": {
+    "message": "Пробел",
+    "description": "考试快捷地址"
+  },
+  "answerRight": {
+    "message": "Правильный ответ",
+    "description": "考试快捷地址"
+  },
+  "answerError": {
+    "message": "Неправильный ответ",
+    "description": "考试快捷地址"
+  },
+  "scoreResult": {
+    "message": "оценка",
+    "description": "考试快捷地址"
+  },
+  "graded": {
+    "message": "оцененный",
+    "description": "考试快捷地址"
+  },
+  "toBeRated": {
+    "message": "ожидает оценивания",
+    "description": "考试快捷地址"
+  },
+  "comments": {
+    "message": "отзыв",
+    "description": "考试快捷地址"
+  },
+  "analy": {
+    "message": "парсинг",
+    "description": "考试快捷地址"
+  },
+  "rating": {
+    "message": "Оценивание",
+    "description": "考试快捷地址"
+  },
+  "inputScoreTip": {
+    "message": "Введите {num} балл с одним десятичным знаком",
+    "description": "考试快捷地址"
+  },
+  "inputCommentsTip": {
+    "message": "оставляйте отзыв, необязательно",
+    "description": "考试快捷地址"
+  },
+  "inputCommentsTip1": {
+    "message": "Отзыв не должен превышать {n} символов",
+    "description": "考试快捷地址"
+  },
+  "option": {
+    "message": "вариант",
+    "description": "考试快捷地址"
+  },
+  "optionContent": {
+    "message": "Введите контент варианта",
+    "description": "考试快捷地址"
+  },
+  "addOption": {
+    "message": "добавлять вариант",
+    "description": "考试快捷地址"
+  },
+  "inputAnaly": {
+    "message": "Введите парсинг",
+    "description": "考试快捷地址"
+  },
+  "inputAnalyTip": {
+    "message": "Парсинг не превышать {n} символ",
+    "description": "考试快捷地址"
+  },
+  "addQuestionTip1": {
+    "message": "добавлять минимум один подвопрос",
+    "description": "考试快捷地址"
+  },
+  "optionContentTip": {
+    "message": "Контент варианта не должен превышать {n} буквы",
+    "description": "考试快捷地址"
+  },
+  "optionContentTip1": {
+    "message": "Контент варианта не может быть пустым",
+    "description": "考试快捷地址"
+  },
+  "optionContentTip2": {
+    "message": "максимальный добавьте {n} вариант",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip1": {
+    "message": "Настройте правильный ответ",
+    "description": "考试快捷地址"
+  },
+  "inputQuestionTitle": {
+    "message": "Введите контент вопросов",
+    "description": "考试快捷地址"
+  },
+  "questionTitleTip1": {
+    "message": "Обязательное содержание вопросов",
+    "description": "考试快捷地址"
+  },
+  "questionTitleTip2": {
+    "message": "Содержание вопросов не может превышать {n} символов",
+    "description": "考试快捷地址"
+  },
+  "insertBlankTip": {
+    "message": "Или введите tab, для вставки вопроса с заполняемым полем",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip2": {
+    "message": "баллы, если есть несколько Ответов, то разделите их //.",
+    "description": "考试快捷地址"
+  },
+  "inputAnswer": {
+    "message": "Введите ответ",
+    "description": "考试快捷地址"
+  },
+  "answerTip": {
+    "message": "Во всех пустых местах этого вопроса можно поменять Ответы",
+    "description": "考试快捷地址"
+  },
+  "addBlankTip1": {
+    "message": "Добавьте минимум один вопрос с заполняемым полем",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip3": {
+    "message": "Ответ не должен превышать {n} символов",
+    "description": "考试快捷地址"
+  },
+  "inputAnswerTip4": {
+    "message": "Ответ обязательное для заполнения",
+    "description": "考试快捷地址"
+  },
+  "addSubQuestion": {
+    "message": "добавлять подвопрос",
+    "description": "考试快捷地址"
+  },
+  "addSubQuestionTip": {
+    "message": "Максимальное количество добавляемых вопросов: {n}",
+    "description": "考试快捷地址"
+  },
+  "defineRange": {
+    "message": "Определить диапазон значений случайной величины",
+    "description": "考试快捷地址"
+  },
+  "minimum": {
+    "message": "минимальное значение",
+    "description": "考试快捷地址"
+  },
+  "max": {
+    "message": "максимальное значение",
+    "description": "考试快捷地址"
+  },
+  "precision": {
+    "message": "Точность",
+    "description": "考试快捷地址"
+  },
+  "answerPrecision": {
+    "message": "Точность ответа",
+    "description": "考试快捷地址"
+  },
+  "allowedDeviation": {
+    "message": "Разрешить погрешность",
+    "description": "考试快捷地址"
+  },
+  "detectionFormula": {
+    "message": "тестирование формулы",
+    "description": "考试快捷地址"
+  },
+  "inputFormula": {
+    "message": "Введите формулу",
+    "description": "考试快捷地址"
+  },
+  "inputFormulaTip1": {
+    "message": "Длина формулы должна быть от 1 до {n} символов",
+    "description": "考试快捷地址"
+  },
+  "inputDeviationTip": {
+    "message": "Размер погрешности должен быть между 0-{n}",
+    "description": "考试快捷地址"
+  },
+  "unableToCalculateAnswer": {
+    "message": "Невозможно вычислить Ответ",
+    "description": "考试快捷地址"
+  },
+  "inputRangeTip": {
+    "message": "Введите правильный диапазон значений",
+    "description": "考试快捷地址"
+  },
+  "readText": {
+    "message": "Воспроизвести текст",
+    "description": "考试快捷地址"
+  },
+  "readTextTip": {
+    "message": "Только английский, не более {n} слов",
+    "description": "考试快捷地址"
+  },
+  "wordNum": {
+    "message": "Количество слов",
+    "description": "考试快捷地址"
+  },
+  "readTextTip1": {
+    "message": "Текст для озвучивания не может быть пустым",
+    "description": "考试快捷地址"
+  },
+  "readTextTip2": {
+    "message": "Текст диктора не должен Не превышать {n} слов",
+    "description": "考试快捷地址"
+  },
+  "inputReferenceAnswer": {
+    "message": "Введите эталон ответа",
+    "description": "考试快捷地址"
+  },
+  "formula": {
+    "message": "Формула",
+    "description": "考试快捷地址"
+  },
+  "remarked": {
+    "message": "Проверенный",
+    "description": "考试快捷地址"
+  },
+  "toBeGradedManually": {
+    "message": "Некоторые вопросы должны оцениваться вручную",
+    "description": "考试快捷地址"
+  },
+  "correctAnswerNotAnnounce": {
+    "message": "Правильные ответы к экзамену пока не объявлены",
+    "description": "考试快捷地址"
+  },
+  "select": {
+    "message": "Выберите",
+    "description": "考试快捷地址"
+  },
+  "paramErrorTip": {
+    "message": "Неполные параметры страницы",
+    "description": "考试快捷地址"
+  },
+  "getDataFail": {
+    "message": "Получение данных не удалось",
+    "description": "考试快捷地址"
+  },
+  "subjectiveQToBeGraded": {
+    "message": "Субъективные вопросы не проверены",
+    "description": "考试快捷地址"
+  },
+  "autoLoadNext": {
+    "message": "Автоматически загружать следующее задание",
+    "description": "考试快捷地址"
+  },
+  "completeRemark": {
+    "message": "Завершить проверку",
+    "description": "考试快捷地址"
+  },
+  "exitRemark": {
+    "message": "Выход из проверки",
+    "description": "考试快捷地址"
+  },
+  "nextPaper": {
+    "message": "Следующий",
+    "description": "考试快捷地址"
+  },
+  "completeRemarkTip": {
+    "message": "Поздравляем! Все работы учащихся вашего класса уже проверены!",
+    "description": "考试快捷地址"
+  },
+  "remarkTip": {
+    "message": "Вопрос {n} не оценен. Завершить?",
+    "description": "考试快捷地址"
+  },
+  "end": {
+    "message": "завершить",
+    "description": "考试快捷地址"
+  },
+  "remarkSuccess": {
+    "message": "Проверка успешна!",
+    "description": "考试快捷地址"
+  },
+  "remarkFail": {
+    "message": "Сохранение проверки завершилось неудачей",
+    "description": "考试快捷地址"
+  },
+  "answerHistoryTimes": {
+    "message": "{n}-й раз",
+    "description": "考试快捷地址"
+  },
+  "showAnswer": {
+    "message": "Отобразить ответ",
+    "description": "考试快捷地址"
+  },
+  "hideAnswer": {
+    "message": "Скрыть ответ",
+    "description": "考试快捷地址"
+  },
+  "used": {
+    "message": "использованный",
+    "description": "考试快捷地址"
+  },
+  "preview": {
+    "message": "Предварительный просмотр",
+    "description": "考试快捷地址"
+  },
+  "saveAndExit": {
+    "message": "Сохранить и выйти",
+    "description": "考试快捷地址"
+  },
+  "more": {
+    "message": "Больше",
+    "description": "考试快捷地址"
+  },
+  "batchEntry": {
+    "message": "Массовый ввод",
+    "description": "考试快捷地址"
+  },
+  "importFromBank": {
+    "message": "Импортировать из банка вопросов",
+    "description": "考试快捷地址"
+  },
+  "batchEditScore": {
+    "message": "Изменить баллы вопросов в этом разделе массово",
+    "description": "考试快捷地址"
+  },
+  "inputScore": {
+    "message": "Ввод баллов",
+    "description": "考试快捷地址"
+  },
+  "batchEditTimes": {
+    "message": "Изменить массово частоту воспроизведения аудио в этой части",
+    "description": "考试快捷地址"
+  },
+  "batchSetting": {
+    "message": "массовые настройки",
+    "description": "考试快捷地址"
+  },
+  "partName": {
+    "message": "Настроить название",
+    "description": "考试快捷地址"
+  },
+  "desc": {
+    "message": "Описание",
+    "description": "考试快捷地址"
+  },
+  "savePaper": {
+    "message": "сохранить экзаменационную работу",
+    "description": "考试快捷地址"
+  },
+  "editName": {
+    "message": "Изменить название",
+    "description": "考试快捷地址"
+  },
+  "fullScore": {
+    "message": "максимальный балл",
+    "description": "考试快捷地址"
+  },
+  "inputPartName": {
+    "message": "заполнить название раздела",
+    "description": "考试快捷地址"
+  },
+  "inputPartNameTip": {
+    "message": " названия разделов не должны превышать {n} символ",
+    "description": "考试快捷地址"
+  },
+  "inputPartDescTip": {
+    "message": "Раздел описания не должен превышать {n} символов",
+    "description": "考试快捷地址"
+  },
+  "inputPaperNameTip": {
+    "message": "Название экзаменационной работы не может быть пустым",
+    "description": "考试快捷地址"
+  },
+  "inputPaperNameTip1": {
+    "message": "Название экзаменационной работы не должно превышать {n} символов",
+    "description": "考试快捷地址"
+  },
+  "newPaper": {
+    "message": "создать новую экзаменационную работу",
+    "description": "考试快捷地址"
+  },
+  "firstPart": {
+    "message": "Раздел 1",
+    "description": "考试快捷地址"
+  },
+  "paperUsedTip1": {
+    "message": "Этот экзаменационный билет уже используется в экзамене. Разрешается изменить только содержание, ответы и баллы вопросов, нельзя изменять структуру билета, а также добавлять или удалять вопросы. Для вопросов, содержащих подвопросы, не допускается добавление или удаление подвопросов.{br} Если вы измените ответы или баллы вопроса, уже оцененные экзаменационные билеты должны быть переоценены во время экзамена.",
+    "description": "考试快捷地址"
+  },
+  "previewTip": {
+    "message": "Чтобы сохранить или просмотреть, нужно добавить минимум один вопрос в каждый раздел",
+    "description": "考试快捷地址"
+  },
+  "previewTip1": {
+    "message": "Вопрос № {n} не сохранён, сначала сохраните вопросы.",
+    "description": "考试快捷地址"
+  },
+  "savingTip": {
+    "message": "Сохраняется…",
+    "description": "考试快捷地址"
+  },
+  "addPartTip": {
+    "message": "Максимальное количество разделов для одной экзаменационной работы - {n}.",
+    "description": "考试快捷地址"
+  },
+  "editPart": {
+    "message": "Изменить раздел",
+    "description": "考试快捷地址"
+  },
+  "deletePart": {
+    "message": "удалить раздел",
+    "description": "考试快捷地址"
+  },
+  "deletePartTip": {
+    "message": "Удалив раздел, вы одновременно удалите все тесты в этом разделе. Тесты, недавно добавленные в экзаменационную работу, по умолчанию не сохраняются в Банке вопросов. После удаления восстановление невозможно, поэтому выполняйте эту операцию с осторожностью. Подтвердите удаление?",
+    "description": "考试快捷地址"
+  },
+  "deletePartTip1": {
+    "message": "Сохранить минимум один раздел.",
+    "description": "考试快捷地址"
+  },
+  "addPartQuestionTip": {
+    "message": "В каждом разделе можно добавить не более {n} вопросов.",
+    "description": "考试快捷地址"
+  },
+  "confirmCancelEdit": {
+    "message": "Подтвердите отмену Изменить?",
+    "description": "考试快捷地址"
+  },
+  "deleteQuestion": {
+    "message": "удалить вопросы",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteQuestion": {
+    "message": "Подтвердите удаление вопроса?",
+    "description": "考试快捷地址"
+  },
+  "editSuccess": {
+    "message": "Изменено успешно",
+    "description": "考试快捷地址"
+  },
+  "editFail": {
+    "message": "Изменение не получилось",
+    "description": "考试快捷地址"
+  },
+  "importFail": {
+    "message": "импорт неудачен",
+    "description": "考试快捷地址"
+  },
+  "exitTip": {
+    "message": "еще не сохранены вопросы и экзаменационная работа, сейчас выход, создать новый вопрос невозможно. Выйти?",
+    "description": "考试快捷地址"
+  },
+  "exitTip1": {
+    "message": "Вопрос № {n} не сохранён. Если вы выйдете, изменения не сохранятся. Подтвердите выход.",
+    "description": "考试快捷地址"
+  },
+  "confirmExit": {
+    "message": "Подтвердите выход?",
+    "description": "考试快捷地址"
+  },
+  "answered": {
+    "message": "Answered",
+    "description": "考试快捷地址"
+  },
+  "interruptAnswer": {
+    "message": "Прерывание ответа",
+    "description": "考试快捷地址"
+  },
+  "saveAnswerRecord": {
+    "message": "Сохранить запись ответов",
+    "description": "考试快捷地址"
+  },
+  "submitPaper": {
+    "message": "сдать экзаменационную работу",
+    "description": "考试快捷地址"
+  },
+  "joinExamByCode": {
+    "message": "Войти в Экзамен с помощью Кода подтверждения",
+    "description": "考试快捷地址"
+  },
+  "examLimitTime": {
+    "message": "установка крайнего срока",
+    "description": "考试快捷地址"
+  },
+  "saved": {
+    "message": "Сохраненный",
+    "description": "考试快捷地址"
+  },
+  "networkError": {
+    "message": "Сетевая ошибка, отправка экзаменационной работы не удалась!",
+    "description": "考试快捷地址"
+  },
+  "networkErrorTip1": {
+    "message": "система временно сохранила запись ответа локально, не покидайте страницу и не закрывайте ее, попробуйте отправить вручную немного позже",
+    "description": "考试快捷地址"
+  },
+  "leftTimeTip": {
+    "message": "Осталось менее 1 минуты",
+    "description": "考试快捷地址"
+  },
+  "restoringAnswerRecords": {
+    "message": "Идет восстановление записи ответов, подождите, пожалуйста...",
+    "description": "考试快捷地址"
+  },
+  "networkErrorTip2": {
+    "message": "Исключение в текущей сети, невозможно загрузить экзаменационную работу, проверьте локальную сеть и войдите в экзамен после восстановления сети.",
+    "description": "考试快捷地址"
+  },
+  "networkErrorTip3": {
+    "message": "Возникло исключение, невозможно загружать экзаменационную работу, свяжитесь со службой поддержки.",
+    "description": "考试快捷地址"
+  },
+  "notExitFullScreenTip": {
+    "message": "Во время экзамена не выходите из полноэкранного режима, иначе это будет расцениваться как выход из экзамена, что может быть признано как списывание и повлиять на результат экзамена.",
+    "description": "考试快捷地址"
+  },
+  "submitPaperErrorTip": {
+    "message": "Пожалуйста, не закрывайте веб-страницу, система отправляет экзаменационную работу...",
+    "description": "考试快捷地址"
+  },
+  "submitPaperErrorTip1": {
+    "message": "Текущая сеть нестабильна, проверьте, правильно ли установлено сетевое соединение.",
+    "description": "考试快捷地址"
+  },
+  "submitPaperErrorTip2": {
+    "message": "Отправка не удалась, пожалуйста не закрывайте страницу, система снова отправляет ...",
+    "description": "考试快捷地址"
+  },
+  "submitSuccess": {
+    "message": "Подача успешна",
+    "description": "考试快捷地址"
+  },
+  "submitFail": {
+    "message": "отправка не удалась",
+    "description": "考试快捷地址"
+  },
+  "submiting": {
+    "message": "отправка в процессе, пожалуйста подождите…",
+    "description": "考试快捷地址"
+  },
+  "notAllowedSubmitTip": {
+    "message": "Запрещено сдавать экзаменационную работу в течение {time} минут с начала Экзамена.",
+    "description": "考试快捷地址"
+  },
+  "confirmPaperTip": {
+    "message": "Подтвердите сдачу экзаменационной работы?",
+    "description": "考试快捷地址"
+  },
+  "confirmPaperTip1": {
+    "message": "Вопрос № {n} не отвечен. Подтвердите, что вы хотите завершить экзамен?",
+    "description": "考试快捷地址"
+  },
+  "confirmPaper": {
+    "message": "Подтвердите сдачу экзаменационной работы",
+    "description": "考试快捷地址"
+  },
+  "timeOverTip": {
+    "message": "Время использовано. Через 3 секунды экзаменационная работа сдаётся автоматически.",
+    "description": "考试快捷地址"
+  },
+  "nextPart": {
+    "message": "Следующий раздел",
+    "description": "考试快捷地址"
+  },
+  "isLast": {
+    "message": "Это конец",
+    "description": "考试快捷地址"
+  },
+  "examinee": {
+    "message": "экзаменуемый",
+    "description": "考试快捷地址"
+  },
+  "result": {
+    "message": "оценка",
+    "description": "考试快捷地址"
+  },
+  "objectiveQuestionScore": {
+    "message": "Оценка за объективные вопросы",
+    "description": "考试快捷地址"
+  },
+  "subjectiveQuestionScore": {
+    "message": "Оценка субъективного вопроса",
+    "description": "考试快捷地址"
+  },
+  "totalNumberOfQuestions": {
+    "message": "Число вопросов",
+    "description": "考试快捷地址"
+  },
+  "totalScore": {
+    "message": "Итоговая оценка",
+    "description": "考试快捷地址"
+  },
+  "numberOfQuestions": {
+    "message": "Количество вопросов",
+    "description": "考试快捷地址"
+  },
+  "scoreNum": {
+    "message": "Балл",
+    "description": "考试快捷地址"
+  },
+  "addPart": {
+    "message": "добавлять раздел",
+    "description": "考试快捷地址"
+  },
+  "numberOfPlaysAllowed": {
+    "message": "Разрешить воспроизводить частотой",
+    "description": "考试快捷地址"
+  },
+  "notLimit1": {
+    "message": "Неограниченный",
+    "description": "考试快捷地址"
+  },
+  "playTimesAllowed": {
+    "message": "Разрешено воспроизводить: {n} раз",
+    "description": "考试快捷地址"
+  },
+  "playedTimes": {
+    "message": "Воспроизведено {n} раз",
+    "description": "考试快捷地址"
+  },
+  "playTimesOver": {
+    "message": "Использовавшееся количество воспроизведений",
+    "description": "考试快捷地址"
+  },
+  "switchPartTipAboutRecording": {
+    "message": "Текущая аудиозапись будет остановлена при переключении. Подтвердите переключение раздела?",
+    "description": "考试快捷地址"
+  },
+  "submitTipAboutUpload": {
+    "message": "Файл загружается, нажмите кнопку \"Подача\" немного позже.",
+    "description": "考试快捷地址"
+  },
+  "saveTipAboutUpload": {
+    "message": "файл загружается, после завершения нажмите сохранить",
+    "description": "考试快捷地址"
+  },
+  "addBlankTip": {
+    "message": "Добавлять до {n} вопросов с заполняемым полем",
+    "description": "考试快捷地址"
+  },
+  "addQuestionTip": {
+    "message": "Максимально добавить {n} подвопросов",
+    "description": "考试快捷地址"
+  },
+  "notExitTip": {
+    "message": "Во время экзамена запрещается выходить на весь экран или выходить из интерфейса экзамена!",
+    "description": "考试快捷地址"
+  },
+  "leaveTimesTip": {
+    "message": "Ты вышел с экзамена {n} раз!",
+    "description": "考试快捷地址"
+  },
+  "continueAnswer": {
+    "message": "Продолжить отвечать",
+    "description": "考试快捷地址"
+  },
+  "finish": {
+    "message": "Завершить",
+    "description": "考试快捷地址"
+  },
+  "nextStep": {
+    "message": "следующий",
+    "description": "考试快捷地址"
+  },
+  "skip": {
+    "message": "Пропустить",
+    "description": "考试快捷地址"
+  },
+  "guide1": {
+    "message": "Приветствовать в новую версию экзаменационной работы, приходите скорее посмотреть, какие изменения!",
+    "description": "考试快捷地址"
+  },
+  "guide2": {
+    "message": "Слева можно добавлять, перемещать, удалять разделы экзаменационной работы. Нажмите на заголовок раздела, чтобы переключить соответствующий раздел.",
+    "description": "考试快捷地址"
+  },
+  "guide3": {
+    "message": "Нажмите здесь, чтобы изменить название и описание раздела.",
+    "description": "考试快捷地址"
+  },
+  "guide4": {
+    "message": "В новом тесте можно создавать и редактировать вопросы напрямую! Выберите здесь тип вопроса, чтобы добавить новый вопрос. Конечно, также можно импортировать вопросы из банка вопросов или вводить их массово.",
+    "description": "考试快捷地址"
+  },
+  "guide5": {
+    "message": "Обратите внимание, что созданные в экзаменационной работе вопросы по умолчанию автоматически не сохраняются в Банке вопросов. При необходимости, вы можете использовать функционал \"Импортировать из экзаменационной работы\" в Банке вопросов, чтобы данные вопросы импортировались из экзаменационной работы.",
+    "description": "考试快捷地址"
+  },
+  "guide6": {
+    "message": "Массовые настройки баллов за вопросы и частоты воспроизведения аудио были перемещены сюда",
+    "description": "考试快捷地址"
+  },
+  "guide7": {
+    "message": "при редактировании нажмите здесь, чтобы просмотреть экзаменационную работу в режиме предварительного просмотра",
+    "description": "考试快捷地址"
+  },
+  "guide8": {
+    "message": "Когда редактирование экзаменационной работы будет завершено, не забудьте нажать [сохранить].",
+    "description": "考试快捷地址"
+  },
+  "paperUsedTip": {
+    "message": "Данная экзаменационная работа уже используется в экзамене, разрешается изменять только контент вопросов, ответы и балл, запрещено изменять структуру экзаменационной работы, а также добавлять или удалять вопросы. Запрещено добавлять или удалять подвопросы в вопросах, содержащих подвопросы.",
+    "description": "考试快捷地址"
+  },
+  "createPaper": {
+    "message": "Создать экзаменационную работу",
+    "description": "考试快捷地址"
+  },
+  "editPaper": {
+    "message": "Редактирование экзаменационной работы",
+    "description": "考试快捷地址"
+  },
+  "previewPaper": {
+    "message": "Предварительный просмотр экзаменационной работы",
+    "description": "考试快捷地址"
+  },
+  "teacherRemark": {
+    "message": "Проверка учителем",
+    "description": "考试快捷地址"
+  },
+  "answerHistory": {
+    "message": "Запись ответов",
+    "description": "考试快捷地址"
+  },
+  "cameraErrorTip": {
+    "message": "Возникло исключение видеонаблюдения, запуск камеры не удался. Проверьте наличие следующих обстоятельств:{br}1. Не включено право на использование камеры{br}2. Камера занята другими программами или веб-сайтами{br}3. Сетевая ошибка{br}Если существуют вышеперечисленные ситуации, пожалуйста, устраните их, прежде чем нажимать кнопку «Продолжить ответ».",
+    "description": "考试快捷地址"
+  },
+  "cameraNoStartTip": {
+    "message": "Включите камеру",
+    "description": "考试快捷地址"
+  },
+  "choiceQue": {
+    "message": "выбрать вопросы",
+    "description": "考试快捷地址"
+  },
+  "queBank": {
+    "message": "Банк вопросов",
+    "description": "考试快捷地址"
+  },
+  "insert": {
+    "message": "Вставить",
+    "description": "考试快捷地址"
+  },
+  "alreadyChoices": {
+    "message": "Выбранный {n} вопрос",
+    "description": "考试快捷地址"
+  },
+  "mineQueBank": {
+    "message": "Мой банк вопросов",
+    "description": "考试快捷地址"
+  },
+  "schoolQueBank": {
+    "message": "Банк вопросов нашего учебного заведения",
+    "description": "考试快捷地址"
+  },
+  "shareBank": {
+    "message": "Делиться Банком вопросов",
+    "description": "考试快捷地址"
+  },
+  "goBack": {
+    "message": "вернуться",
+    "description": "考试快捷地址"
+  },
+  "allQuestions": {
+    "message": "все вопросы",
+    "description": "考试快捷地址"
+  },
+  "parsentArea": {
+    "message": "Текущая позиция",
+    "description": "考试快捷地址"
+  },
+  "search": {
+    "message": "поиск",
+    "description": "考试快捷地址"
+  },
+  "addQuestions": {
+    "message": "добавлять вопросы",
+    "description": "考试快捷地址"
+  },
+  "editQuestions": {
+    "message": "Изменить вопросы",
+    "description": "考试快捷地址"
+  },
+  "importQuestions": {
+    "message": "Пакетный импорт вопросов",
+    "description": "考试快捷地址"
+  },
+  "addBank": {
+    "message": "добавить папку",
+    "description": "考试快捷地址"
+  },
+  "editBank": {
+    "message": "Изменить папку",
+    "description": "考试快捷地址"
+  },
+  "bankNameError1": {
+    "message": "Название папки не может быть Пустым",
+    "description": "考试快捷地址"
+  },
+  "bankNameError2": {
+    "message": "Название папки не должно превышать 200 символов",
+    "description": "考试快捷地址"
+  },
+  "bankNameError3": {
+    "message": "Имя папки не должно содержать символы: <>*?:\"|/\\~",
+    "description": "考试快捷地址"
+  },
+  "bankNameError4": {
+    "message": "Максимально можно добавлять 5 уровней папок, Текущий каталог находится на уровне {l}, не может добавлять вложенные папки",
+    "description": "考试快捷地址"
+  },
+  "writeBankName": {
+    "message": "Введите название папки",
+    "description": "考试快捷地址"
+  },
+  "addSuccess": {
+    "message": "Добавление прошло успешно",
+    "description": "考试快捷地址"
+  },
+  "addFail": {
+    "message": "Ошибка добавления",
+    "description": "考试快捷地址"
+  },
+  "queBankStatistics": {
+    "message": "Статистика по банку вопросов",
+    "description": "考试快捷地址"
+  },
+  "importBank": {
+    "message": "Экспортировать банк вопросов",
+    "description": "考试快捷地址"
+  },
+  "importBankOverNum": {
+    "message": "Предельное количество экспорта вопросов превышено.",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg": {
+    "message": "Идет экспорт, пожалуйста, подождите...",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg1": {
+    "message": "Экспорт может занять некоторое время, пожалуйста, подождите.",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg2": {
+    "message": "Если браузер блокирует всплывающее окно, то выберите, чтобы всегда разрешать веб-сайту показывать всплывающие окна.",
+    "description": "考试快捷地址"
+  },
+  "importLoadMsg3": {
+    "message": "Экспорт ... Завершено {n}/{m}",
+    "description": "考试快捷地址"
+  },
+  "cancelExportRecord": {
+    "message": "Отменить экспорт",
+    "description": "考试快捷地址"
+  },
+  "imporBanktNone": {
+    "message": "В этом каталоге нет вопросов для экспорта.",
+    "description": "考试快捷地址"
+  },
+  "importBankErrorMsg": {
+    "message": "Экспорт неудачный",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsType": {
+    "message": "Все типы вопросов",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsLevel": {
+    "message": "вся сложность",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsTime": {
+    "message": "По убыванию даты создания",
+    "description": "考试快捷地址"
+  },
+  "allQuestionsTimePositive": {
+    "message": "По Дата создания",
+    "description": "考试快捷地址"
+  },
+  "writeSearch": {
+    "message": "поиск вопросы/папка",
+    "description": "考试快捷地址"
+  },
+  "titleDetails": {
+    "message": "Подробности вопросов",
+    "description": "考试快捷地址"
+  },
+  "choiceQueType": {
+    "message": "Выбрать тип вопроса",
+    "description": "考试快捷地址"
+  },
+  "textImport": {
+    "message": "Импорт текста",
+    "description": "考试快捷地址"
+  },
+  "paperImport": {
+    "message": "импортировать из экзаменационной работы",
+    "description": "考试快捷地址"
+  },
+  "paperImportError": {
+    "message": "Импортирование экзаменационной работы, иерархия папок превысит предельное значение. Банк вопросов поддерживает до 5 уровней каталогов. Пожалуйста, выберите папку для импортирования снова.",
+    "description": "考试快捷地址"
+  },
+  "excelImport": {
+    "message": "Импортировать из Excel",
+    "description": "考试快捷地址"
+  },
+  "importExcelLoadMsg": {
+    "message": "Идет импорт, пожалуйста подождите...",
+    "description": "考试快捷地址"
+  },
+  "importSuccess": {
+    "message": "Импорт выполнен успешно",
+    "description": "考试快捷地址"
+  },
+  "hardlevels1": {
+    "message": "лёгкий",
+    "description": "考试快捷地址"
+  },
+  "hardlevels2": {
+    "message": "Относительно легко",
+    "description": "考试快捷地址"
+  },
+  "hardlevels3": {
+    "message": "Основные",
+    "description": "考试快捷地址"
+  },
+  "hardlevels4": {
+    "message": "сложный",
+    "description": "考试快捷地址"
+  },
+  "hardlevels5": {
+    "message": "сложный",
+    "description": "考试快捷地址"
+  },
+  "downloadTemplate": {
+    "message": "Скачать шаблон",
+    "description": "考试快捷地址"
+  },
+  "downloadTemplateMsg": {
+    "message": "Скачать шаблон Excel и заполнить вопросы в соответствии с требованиями шаблона",
+    "description": "考试快捷地址"
+  },
+  "uploadFile": {
+    "message": "Загрузить файл",
+    "description": "考试快捷地址"
+  },
+  "uploadFileMsg": {
+    "message": "Загрузите заполненный файл Excel",
+    "description": "考试快捷地址"
+  },
+  "uploadFileError": {
+    "message": "в файле некоторые вопросы нестандартны, проверьте и измените их, а затем загрузите",
+    "description": "考试快捷地址"
+  },
+  "uploadFileErrorMsg": {
+    "message": "{n}-я строка, {m}-й столбец.",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg": {
+    "message": "Выберите вопросы",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg1": {
+    "message": "Максимальный объем импорта за один раз составляет 200 вопросов.",
+    "description": "考试快捷地址"
+  },
+  "paperChoiceQueMsg2": {
+    "message": "максимально импортировать 200 задач",
+    "description": "考试快捷地址"
+  },
+  "choiceAll": {
+    "message": "Выбрать все",
+    "description": "考试快捷地址"
+  },
+  "moveSuccess": {
+    "message": "Перемещение успешно",
+    "description": "考试快捷地址"
+  },
+  "moveFail": {
+    "message": "Перемещение не удалось",
+    "description": "考试快捷地址"
+  },
+  "moveFailMsg1": {
+    "message": "Глубина вложенности папок не может превышать 5 уровней. Суммарные уровни вложенности целевой и текущей папки превышают предельное значение. Переместить невозможно.",
+    "description": "考试快捷地址"
+  },
+  "moveFailMsg2": {
+    "message": "В целевой папке есть папка с таким же названием, перемещение невозможно.",
+    "description": "考试快捷地址"
+  },
+  "moveLoadMsg": {
+    "message": "Перемещение данных, ожидайте...",
+    "description": "考试快捷地址"
+  },
+  "changeShareRange": {
+    "message": "Изменить параметры общего доступа",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacherError1": {
+    "message": "Выберите назначенного учителя",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacherError2": {
+    "message": "Выберите, с кем поделиться",
+    "description": "考试快捷地址"
+  },
+  "shareTeacherEmpty": {
+    "message": "пока нет назначенного учителя",
+    "description": "考试快捷地址"
+  },
+  "shareNumOver": {
+    "message": "Выбрать до 100 преподавателей",
+    "description": "考试快捷地址"
+  },
+  "shareLoadMsg": {
+    "message": "Сохраняется...",
+    "description": "考试快捷地址"
+  },
+  "queBankEmpty": {
+    "message": "В текущем каталоге нет вопросов",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirmNew": {
+    "message": "Подтвердите удаление 【{n}】?",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm1": {
+    "message": "Если выбрать [сохранить вопросы, удалить только папку], после удаления вопросы, содержащиеся в папке, будут перемещены в корневой каталог.",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm2": {
+    "message": "Если выбрать «все удалить», то вопросы в папке будут удалены.",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm3": {
+    "message": "Сохранить вопросы, удалить только папку",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm4": {
+    "message": "Подтвердите удаление {x} и еще {n} другого контента?",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm6": {
+    "message": "После удаления восстановление данных невозможно.",
+    "description": "考试快捷地址"
+  },
+  "deleteConfirm7": {
+    "message": "Подтвердить удаление? После удаления данные невозможно будет восстановить.",
+    "description": "考试快捷地址"
+  },
+  "deleteLoadMsg": {
+    "message": "Идет удаление. Подождите...",
+    "description": "考试快捷地址"
+  },
+  "deleteAll": {
+    "message": "Удалить все",
+    "description": "考试快捷地址"
+  },
+  "deleteSuccess": {
+    "message": "Удаление прошло успешно",
+    "description": "考试快捷地址"
+  },
+  "deleteFail": {
+    "message": "Ошибка удаления",
+    "description": "考试快捷地址"
+  },
+  "hardLevel": {
+    "message": "Сложность",
+    "description": "考试快捷地址"
+  },
+  "schoolTeacher": {
+    "message": "Учителя нашего учебного заведения",
+    "description": "考试快捷地址"
+  },
+  "allTeacher": {
+    "message": "Все учителя",
+    "description": "考试快捷地址"
+  },
+  "appointTeacher": {
+    "message": "Назначить учителя",
+    "description": "考试快捷地址"
+  },
+  "sameQueinPaper": {
+    "message": "В экзаменационной работе уже есть похожие вопросы",
+    "description": "考试快捷地址"
+  },
+  "alreadyinPaper": {
+    "message": "Уже в экзаменационной работе",
+    "description": "考试快捷地址"
+  },
+  "subQuestionNum": {
+    "message": "{n} вопросов",
+    "description": "考试快捷地址"
+  },
+  "changeLastTime": {
+    "message": "Последнее изменение: {time}",
+    "description": "考试快捷地址"
+  },
+  "queLocation": {
+    "message": "Местоположение",
+    "description": "考试快捷地址"
+  },
+  "founder": {
+    "message": "автор",
+    "description": "考试快捷地址"
+  },
+  "own": {
+    "message": "Я сам",
+    "description": "考试快捷地址"
+  },
+  "batchType1": {
+    "message": "переименовать",
+    "description": "考试快捷地址"
+  },
+  "batchType2": {
+    "message": "переместить",
+    "description": "考试快捷地址"
+  },
+  "batchType3": {
+    "message": "делиться",
+    "description": "考试快捷地址"
+  },
+  "batchType5": {
+    "message": "Изменить",
+    "description": "考试快捷地址"
+  },
+  "batchType6": {
+    "message": "Копировать",
+    "description": "考试快捷地址"
+  },
+  "copySuccess": {
+    "message": "Скопировано успешно! {y} скопировано в твой {x}.",
+    "description": "考试快捷地址"
+  },
+  "copyQuestion": {
+    "message": "вопросы",
+    "description": "考试快捷地址"
+  },
+  "copyFolder": {
+    "message": "папка",
+    "description": "考试快捷地址"
+  },
+  "copyFail": {
+    "message": "Копирование не удалось",
+    "description": "考试快捷地址"
+  },
+  "copyLoadMsg": {
+    "message": "Копирование, подождите...",
+    "description": "考试快捷地址"
+  },
+  "currentDirectory": {
+    "message": "Текущий каталог",
+    "description": "考试快捷地址"
+  },
+  "rootDirectory": {
+    "message": "Корневой каталог",
+    "description": "考试快捷地址"
+  },
+  "targetFolder": {
+    "message": "Выберите целевую папку.",
+    "description": "考试快捷地址"
+  },
+  "sharePeople": {
+    "message": "Поделиться текущими вопросами со следующими участниками:",
+    "description": "考试快捷地址"
+  },
+  "justOwn": {
+    "message": "Только мне",
+    "description": "考试快捷地址"
+  },
+  "choiceschoolTeacher": {
+    "message": "Учителя назначены нашим учебным заведением",
+    "description": "考试快捷地址"
+  },
+  "choiceschoolAllTeacher": {
+    "message": "Все преподаватели нашего учебного заведения",
+    "description": "考试快捷地址"
+  },
+  "choicesallTeacher": {
+    "message": "Все учителя",
+    "description": "考试快捷地址"
+  },
+  "choiceTeacher": {
+    "message": "Выбрать учителя",
+    "description": "考试快捷地址"
+  },
+  "searchTeacher": {
+    "message": "Введите имя учителя и нажмите поиск",
+    "description": "考试快捷地址"
+  },
+  "previousPage": {
+    "message": "Предыдущая страница",
+    "description": "考试快捷地址"
+  },
+  "NextPage": {
+    "message": "Следующая страница",
+    "description": "考试快捷地址"
+  },
+  "choicePage": {
+    "message": "Перейти",
+    "description": "考试快捷地址"
+  },
+  "totleQueNum": {
+    "message": "Общее количество вопросов",
+    "description": "考试快捷地址"
+  },
+  "totleFolderNum": {
+    "message": "Общее количество папок",
+    "description": "考试快捷地址"
+  },
+  "hardDistribution": {
+    "message": "Распределение сложности",
+    "description": "考试快捷地址"
+  },
+  "queTypeDistribution": {
+    "message": "Распределение типов вопросов",
+    "description": "考试快捷地址"
+  },
+  "tagsMsg": {
+    "message": "Тег (не более 30 символов, нажмите Enter для подтверждения, можно добавить до 3):",
+    "description": "考试快捷地址"
+  },
+  "analysisTit": {
+    "message": "Здесь заполните парсинг, если нет, не заполняйте",
+    "description": "考试快捷地址"
+  },
+  "stemArea": {
+    "message": "Пожалуйста, введите здесь часть вопроса",
+    "description": "考试快捷地址"
+  },
+  "choiceA": {
+    "message": "Вариант 1",
+    "description": "考试快捷地址"
+  },
+  "choiceB": {
+    "message": "Вариант 2",
+    "description": "考试快捷地址"
+  },
+  "choiceC": {
+    "message": "Вариант 3",
+    "description": "考试快捷地址"
+  },
+  "choiceD": {
+    "message": "вариант 4",
+    "description": "考试快捷地址"
+  },
+  "completionStem": {
+    "message": "Олимпийский дух - это ( ) 、 ( ) 、 ( )",
+    "description": "考试快捷地址"
+  },
+  "completionAnswer": {
+    "message": "быстрее || выше || сильнее",
+    "description": "考试快捷地址"
+  },
+  "shortAnsStem": {
+    "message": "Введите здесь формулировку вопроса с кратким ответом",
+    "description": "考试快捷地址"
+  },
+  "shortAnsAnswer": {
+    "message": "Заполните ответ на вопрос с кратким ответом здесь",
+    "description": "考试快捷地址"
+  },
+  "saveErrorTips2": {
+    "message": "Не удалось сохранить раздел теста",
+    "description": "考试快捷地址"
+  },
+  "numExceededTips": {
+    "message": "Количество вводимых вопросов за раз не должно превышать 200",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage1": {
+    "message": "вопросы Обязательное для заполнения",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage2": {
+    "message": "Менее двух вариантов",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage3": {
+    "message": "Варианты Не превышать 20 шт.",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage4": {
+    "message": "Правильный ответ Обязательное для заполнения",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage5": {
+    "message": "Контент поля «Правильный ответ» не может быть пустым",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage6": {
+    "message": "заполнить содержание вопроса или удалить ненужный вариант",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage7": {
+    "message": "Количество правильных ответов не может превышать количество вариантов",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage8": {
+    "message": "Правильный ответ не должен содержать невариантных элементов",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage9": {
+    "message": "Правильный ответ содержит дубликаты",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage10": {
+    "message": "Контент эталона ответа не может быть пустым",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage11": {
+    "message": "Количество правильных ответов не должно быть меньше количества пустых",
+    "description": "考试快捷地址"
+  },
+  "incompleteMessage12": {
+    "message": "Добавить не более 20 вопросов с заполняемым полем",
+    "description": "考试快捷地址"
+  },
+  "completionAnswerTips": {
+    "message": "Примечание. Ответы данного вопроса можно менять, если содержимое соответствует",
+    "description": "考试快捷地址"
+  },
+  "changeScoreText": {
+    "message": "Подтвердите массовое изменение баллов?",
+    "description": "考试快捷地址"
+  },
+  "scoreTips": {
+    "message": "Введите корректные баллы",
+    "description": "考试快捷地址"
+  },
+  "setScoreTips": {
+    "message": "Создать тест",
+    "description": "考试快捷地址"
+  },
+  "detailDescription": {
+    "message": "Подробное описание",
+    "description": "考试快捷地址"
+  },
+  "batchChangeScore": {
+    "message": "Массовое изменение баллов",
+    "description": "考试快捷地址"
+  },
+  "questionEditarea": {
+    "message": "Область редактирования вопросов",
+    "description": "考试快捷地址"
+  },
+  "questionPreviewarea": {
+    "message": "Область предварительного просмотра вопросов",
+    "description": "考试快捷地址"
+  },
+  "questionEdit1": {
+    "message": "1. Данная функция поддерживает следующие типы вопросов: выбор одного ответа, множественный выбор, суждение, заполнение пропусков, краткий ответ.",
+    "description": "考试快捷地址"
+  },
+  "questionEdit2": {
+    "message": "2. В настоящее время поддерживается только импорт чистого текста, не поддерживается импорт вопросов с картинками, формулами, видео или аудио.",
+    "description": "考试快捷地址"
+  },
+  "questionEdit3": {
+    "message": "3. Существуют два способа добавления вопросов: (1) нажмите на «Тип вопроса» выше и добавьте новый вопрос, отредактируйте его согласно шаблону. (2) скопируйте текст вопроса из документа word и вставьте его сюда. Система автоматически определит тип вопроса и сгенерирует вопрос.",
+    "description": "考试快捷地址"
+  },
+  "questionEdit4": {
+    "message": "4. После импорта вопросов проверьте тип вопроса, баллы, ответ, разбор в области предварительного просмотра справа и подтвердите, что они верны, а затем сохраните.",
+    "description": "考试快捷地址"
+  },
+  "correct": {
+    "message": "правильный",
+    "description": "考试快捷地址"
+  },
+  "incorrect": {
+    "message": "неправильный",
+    "description": "考试快捷地址"
+  },
+  "quesOrder": {
+    "message": "Вопрос {n},",
+    "description": "考试快捷地址"
+  },
+  "saveOutText": {
+    "message": "У вас есть вопросы которые не сохранены. Вы уверены что хотите выйти?",
+    "description": "考试快捷地址"
+  },
+  "bindDownload": {
+    "message": "Скачать инструмент конвертации форматов банка вопросов Moodle",
+    "description": "考试快捷地址"
+  },
+  "downloadMoodleTitle": {
+    "message": "Использование",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc1": {
+    "message": "1、Загрузите и установите инструмент преобразования форматов (поддерживается только система Windows).",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc2": {
+    "message": "2. Экспортировать банк вопросов в XML-файл из платформы Moodle (поддерживаются только вопросов с выбором, утверждений истинности/ложности, заполнения пробелов и кратких ответов).",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc3": {
+    "message": "3、Используйте инструмент конвертации, чтобы преобразовать экспортируемый Moodle XML-файл в формат Excel.",
+    "description": "考试快捷地址"
+  },
+  "downloadDesc4": {
+    "message": "4. Используйте функцию пакетного импорта ULearning, загрузите файл Excel и завершите импорт банка вопросов.",
+    "description": "考试快捷地址"
+  },
+  "alreadyChoicesAll": {
+    "message": "Выбранные {n} позиции",
+    "description": "考试快捷地址"
+  },
+  "importLoadFirst1": {
+    "message": "1.С помощью этого функционала можно Экспортировать вопросы, которые находятся в Текущей папке и ее подпапках.",
+    "description": "考试快捷地址"
+  },
+  "importLoadFirst2": {
+    "message": "2. В настоящее время поддерживается только экспорт Excel, в настоящее время не поддерживается экспорт вложений, таких как рисунки, аудио и видео в question.",
+    "description": "考试快捷地址"
+  },
+  "startImport": {
+    "message": "Начать экспортировать",
+    "description": "考试快捷地址"
+  },
+  "queBankEmptyNew": {
+    "message": "Не найдено вопросов, удовлетворяющих условиям",
+    "description": "考试快捷地址"
+  },
+  "examUploadTipNew": {
+    "message": "Когда вы выбираете файл, система кратковременно выйдет из полноэкранного режима. Выберите вкладываемый файл и вернитесь на страницу экзамена в течение 60 секунд. Чтобы снова включить полноэкранный режим, нажмите на любом пустом месте страницы. В противном случае система запишет, что вы вышли с экзамена.",
+    "description": "考试快捷地址"
+  },
+  "remarkScoreTip": {
+    "message": "Пожалуйста, оценивайте в соответствии с назначенным диапазоном",
+    "description": "考试快捷地址"
+  },
+  "textCount": {
+    "message": "{n} буква",
+    "description": "考试快捷地址"
+  },
+  "noSkipping": {
+    "message": "В ходе данного экзамена запрещено пропускать вопросы. Отвечайте, пожалуйста, в том порядке, в котором расположены вопросы.",
+    "description": "考试快捷地址"
+  },
+  "preQue": {
+    "message": "Предыдущий вопрос",
+    "description": "考试快捷地址"
+  },
+  "nextQue": {
+    "message": "Следующий вопрос",
+    "description": "考试快捷地址"
+  },
+  "finallyQue": {
+    "message": "Достигнут конец списка",
+    "description": "考试快捷地址"
+  },
+  "quitExam": {
+    "message": "Выход из Экзамена",
+    "description": "考试快捷地址"
+  },
+  "networkMsg1": {
+    "message": "Текущая сеть нестабильна, продолжение теста может привести к потере записи ответов.",
+    "description": "考试快捷地址"
+  },
+  "networkMsg2": {
+    "message": "Если восстановление Сети временно невозможно, рекомендуется, получив согласие учителя, Выход из Экзамена и повторный экзамен в другое время.",
+    "description": "考试快捷地址"
+  },
+  "submissionExam": {
+    "message": "Принудительное завершение и отправка",
+    "description": "考试快捷地址"
+  },
+  "submissionExamTip1": {
+    "message": "Ты достиг(ла) {n} раз(а) состояние выхода из Экзамена и по настройкам Мониторинга экзамена скоро произойдёт Принудительное завершение и отправка экзаменационной работы.",
+    "description": "考试快捷地址"
+  },
+  "submissionExamTip2": {
+    "message": "ты покинул(а) Экзамен больше, чем на {n} секунд. Согласно настройкам мониторинга Экзамена, экзаменационная работа скоро будет принудительно завершена и отправлена.",
+    "description": "考试快捷地址"
+  },
+  "submitingNew": {
+    "message": "отправка в процессе...",
+    "description": "考试快捷地址"
+  },
+  "leaveLimitTip": {
+    "message": "При выходе страницы более {n} раз система принудительно завершит и отправит экзаменационную работу!",
+    "description": "考试快捷地址"
+  },
+  "leaveLimitTimeTip": {
+    "message": "Вы вышли {n} секунд назад, если выйдете ещё больше чем на {m} секунд, система принудительно завершит и отправит вашу работу!",
+    "description": "考试快捷地址"
+  },
+  "uploadFileType": {
+    "message": "Прикрепить файл",
+    "description": "考试快捷地址"
+  },
+  "uploadFinishTip": {
+    "message": "Завершив выбор вложений, нажмите [Продолжить], чтобы вернуться к Экзамен.",
+    "description": "考试快捷地址"
+  },
+  "scanCodeUpload": {
+    "message": "Загрузить с помощью сканирования QR-кода",
+    "description": "考试快捷地址"
+  },
+  "uploadByPhone": {
+    "message": "Загрузить с помощью сканирования QR-кода",
+    "description": "考试快捷地址"
+  },
+  "scanCodeUploadDesc": {
+    "message": "Просканируйте с помощью мобильного телефона QR-код в браузере или WeChat и загрузите файл на компьютер.",
+    "description": "考试快捷地址"
+  },
+  "scanCodeUploadDesc1": {
+    "message": "QR-код действует в течение {num} минут. По истечении срока действия откройте всплывающее окно снова и отсканируйте QR-код.",
+    "description": "考试快捷地址"
+  },
+  "scanCodeUploadTip": {
+    "message": "Используйте мобильное устройство для сканирования QR-кода или измените тип устройства в браузере",
+    "description": "考试快捷地址"
+  },
+  "scanCodeUploadTip1": {
+    "message": "Ссылка истекла",
+    "description": "考试快捷地址"
+  },
+  "selectImg": {
+    "message": "Выбрать из альбома",
+    "description": "考试快捷地址"
+  },
+  "selectFile": {
+    "message": "выбрать файл",
+    "description": "考试快捷地址"
+  },
+  "uploadFirst": {
+    "message": "Загрузите файл перед началом",
+    "description": "考试快捷地址"
+  },
+  "submitToPC": {
+    "message": "Подача на компьютер",
+    "description": "考试快捷地址"
+  },
+  "submitFileSuccess": {
+    "message": "Загрузка прошла успешно!",
+    "description": "考试快捷地址"
+  },
+  "submitFileFail": {
+    "message": "Ошибка загрузки",
+    "description": "考试快捷地址"
+  },
+  "continueUpload": {
+    "message": "Продолжить загрузку",
+    "description": "考试快捷地址"
+  },
+  "codeUploadTip1": {
+    "message": "отдельный файл не должен превышать {size}",
+    "description": "考试快捷地址"
+  },
+  "codeUploadTip2": {
+    "message": "Загрузите не более {num} файлов за раз",
+    "description": "考试快捷地址"
+  },
+  "codeUploadTip3": {
+    "message": "Размер файла, загруженного в мобильное приложение, не должен превышать {size}",
+    "description": "考试快捷地址"
+  },
+  "codeUploadTip4": {
+    "message": "Загрузить не более {n} вложения на один вопрос",
+    "description": "考试快捷地址"
+  },
+  "codeUploadTip5": {
+    "message": "Файл загружается, пожалуйста, подождите завершения загрузки и затем нажмите Подача",
+    "description": "考试快捷地址"
+  },
+  "exit": {
+    "message": "Выход",
+    "description": "考试快捷地址"
+  },
+  "exitUploadTip": {
+    "message": "файл не подан. Подтвердите выход?",
+    "description": "考试快捷地址"
+  },
+  "qrCodeOver": {
+    "message": "QR-код недействительный, нажмите {refresh}",
+    "description": "考试快捷地址"
+  },
+  "refresh": {
+    "message": "Обновить",
+    "description": "考试快捷地址"
+  },
+  "uploadFailTipNew": {
+    "message": "Ошибка загрузки файла или его конвертирования. Попробуйте конвертировать файл перед повторной загрузкой.",
+    "description": "考试快捷地址"
+  },
+  "publisher": {
+    "message": "Создатель",
+    "description": "考试快捷地址"
+  },
+  "examBatch": {
+    "message": "Экзаменационная сессия",
+    "description": "考试快捷地址"
+  },
+  "examBatchNums": {
+    "message": " {n} шт.",
+    "description": "考试快捷地址"
+  },
+  "examMonitorConsole": {
+    "message": "Мониторинг экзамена",
+    "description": "考试快捷地址"
+  },
+  "enterCode": {
+    "message": "Введи запасной проверочный код экзамена",
+    "description": "考试快捷地址"
+  },
+  "monitorConsole": {
+    "message": "Мобильная система мониторинга экзамена",
+    "description": "考试快捷地址"
+  },
+  "codeInvalid": {
+    "message": "Код подтверждения недействительный",
+    "description": "考试快捷地址"
+  },
+  "answerTimeLimit": {
+    "message": "Ограничение времени заданий",
+    "description": "考试快捷地址"
+  },
+  "answerTimes": {
+    "message": "{n} раз",
+    "description": "考试快捷地址"
+  },
+  "batchArrangement": {
+    "message": "Расписание сессий",
+    "description": "考试快捷地址"
+  },
+  "allBatchs": {
+    "message": "все сессии",
+    "description": "考试快捷地址"
+  },
+  "allClasses": {
+    "message": "Все классы",
+    "description": "考试快捷地址"
+  },
+  "all": {
+    "message": "все",
+    "description": "考试快捷地址"
+  },
+  "notApproved": {
+    "message": "Задания на проверке",
+    "description": "考试快捷地址"
+  },
+  "readed": {
+    "message": "Проверенный",
+    "description": "考试快捷地址"
+  },
+  "notSubmitted": {
+    "message": "Не передано",
+    "description": "考试快捷地址"
+  },
+  "examViewTip": {
+    "message": "Пожалуйста, проверьте и просмотрите Тестовую работу на компьютере",
+    "description": "考试快捷地址"
+  },
+  "selectBatch": {
+    "message": "Выбрать сессии",
+    "description": "考试快捷地址"
+  },
+  "selectClass": {
+    "message": "выбрать класс",
+    "description": "考试快捷地址"
+  },
+  "totalBatch": {
+    "message": "Всего {n} сессий",
+    "description": "考试快捷地址"
+  },
+  "ownSpieltag": {
+    "message": "Показать только те сессии, в которых участвует Мой классный коллектив",
+    "description": "考试快捷地址"
+  },
+  "batchIndex": {
+    "message": "Сессии {index}",
+    "description": "考试快捷地址"
+  },
+  "totalNums": {
+    "message": "Общая численность",
+    "description": "考试快捷地址"
+  },
+  "class": {
+    "message": "Класс",
+    "description": "考试快捷地址"
+  },
+  "student": {
+    "message": "Студент",
+    "description": "考试快捷地址"
+  },
+  "signInCode": {
+    "message": "Код регистрации",
+    "description": "考试快捷地址"
+  },
+  "verificationCode": {
+    "message": "Запасной проверочный код",
+    "description": "考试快捷地址"
+  },
+  "notEnter": {
+    "message": "Не вошли",
+    "description": "考试快捷地址"
+  },
+  "signedIn": {
+    "message": "вход выполненный",
+    "description": "考试快捷地址"
+  },
+  "haveEntered": {
+    "message": "Войти",
+    "description": "考试快捷地址"
+  },
+  "leave": {
+    "message": "выйти",
+    "description": "考试快捷地址"
+  },
+  "answering": {
+    "message": "отвечает",
+    "description": "考试快捷地址"
+  },
+  "handInExam": {
+    "message": "Сдано",
+    "description": "考试快捷地址"
+  },
+  "answerTimes1": {
+    "message": "ответить {n} раз",
+    "description": "考试快捷地址"
+  },
+  "copyLink": {
+    "message": "Копировать ссылку",
+    "description": "考试快捷地址"
+  },
+  "wx": {
+    "message": "WeChat",
+    "description": "考试快捷地址"
+  },
+  "shareTo": {
+    "message": "Поделиться",
+    "description": "考试快捷地址"
+  },
+  "behaviorRecord": {
+    "message": "мониторить записи",
+    "description": "考试快捷地址"
+  },
+  "exe1": {
+    "message": "Локальный клиент",
+    "description": "考试快捷地址"
+  },
+  "notSignIn": {
+    "message": "не отметившийся",
+    "description": "考试快捷地址"
+  },
+  "intoPage": {
+    "message": "Войти на страницу",
+    "description": "考试快捷地址"
+  },
+  "leavePage": {
+    "message": "Выйти из страницы",
+    "description": "考试快捷地址"
+  },
+  "leavePageTimeTip": {
+    "message": "если время неактивности > 5 секунд",
+    "description": "考试快捷地址"
+  },
+  "replaceDevice": {
+    "message": "Замена оборудования",
+    "description": "考试快捷地址"
+  },
+  "replaceIp": {
+    "message": "Заменить IP-адрес",
+    "description": "考试快捷地址"
+  },
+  "commitExam": {
+    "message": "сдать экзаменационную работу",
+    "description": "考试快捷地址"
+  },
+  "commitExamTip1": {
+    "message": "При выходе по истечении допустимого количества, система Принудительно завершит и отправит",
+    "description": "考试快捷地址"
+  },
+  "commitExamTip2": {
+    "message": "Если покинуть экзамен и превысить установленное время, система принудительно завершит и отправит",
+    "description": "考试快捷地址"
+  },
+  "commitExamTip3": {
+    "message": "Автоматическое зачисление системой",
+    "description": "考试快捷地址"
+  },
+  "commitExamTip4": {
+    "message": "Время ответа истекло, система автоматически собирает выполненные работы",
+    "description": "考试快捷地址"
+  },
+  "signinCode": {
+    "message": "Код регистрации на экзамен",
+    "description": "考试快捷地址"
+  },
+  "refreshed": {
+    "message": "Обновлено",
+    "description": "考试快捷地址"
+  },
+  "refreshInterval": {
+    "message": "Интервал обновления",
+    "description": "考试快捷地址"
+  },
+  "intervalTime": {
+    "message": "{seconds} секунда",
+    "description": "考试快捷地址"
+  },
+  "signinCodeTip": {
+    "message": "1. Осуществите вход в мобильное приложение 【ULearning】 и выполните регистрацию по QR-коду. {br}2. После регистрации войдите через подписанное устройство для прохождения теста.  Препятствует смена устройства во время теста. В случае возникновения исключительных обстоятельств вы должны запросить проверочный код у супервайзера теста для замены.",
+    "description": "考试快捷地址"
+  },
+  "examVerificationCode": {
+    "message": "Запасной проверочный код для экзамена",
+    "description": "考试快捷地址"
+  },
+  "standbyVerificationCodeDesc": {
+    "message": "Если экзаменуемый не может войти в экзамен ввиду особых обстоятельств, то он может войти, используя этот Код подтверждения. В том числе:{br}- включен экзамен с мониторингом устройства / IP-адреса, экзаменуемый во время должен Заменить оборудование или IP-адрес.{br1}- Включен экзамен с распознаванием лиц, экзаменуемый не может пройти проверку через распознавание лиц.",
+    "description": "考试快捷地址"
+  },
+  "standbyVerificationCodeTip": {
+    "message": "Код подтверждения действителен в течение {minute}. Если он стал недействительным — Обновите, чтобы получить снова.",
+    "description": "考试快捷地址"
+  },
+  "noExamTip": {
+    "message": "Ничего не найдено",
+    "description": "考试快捷地址"
+  },
+  "noMore": {
+    "message": "Нет больше",
+    "description": "考试快捷地址"
+  },
+  "errorTip": {
+    "message": "Запрос не выполнен. Обновите.",
+    "description": "考试快捷地址"
+  },
+  "noStudentTip": {
+    "message": "Отсутствие данных. Зачислите студентов в экзамен или измените условия поиска",
+    "description": "考试快捷地址"
+  },
+  "pulling": {
+    "message": "Потяните вниз, чтобы обновить...",
+    "description": "考试快捷地址"
+  },
+  "loosing": {
+    "message": "Отпустите, чтобы обновить...",
+    "description": "考试快捷地址"
+  },
+  "loading": {
+    "message": "Загрузка...",
+    "description": "考试快捷地址"
+  },
+  "enterTip": {
+    "message": "Введите номер учащегося или имя",
+    "description": "考试快捷地址"
+  },
+  "noData": {
+    "message": "пока нет данных",
+    "description": "考试快捷地址"
+  },
+  "copySuccess1": {
+    "message": "Скопировано",
+    "description": "考试快捷地址"
+  },
+  "shareTip": {
+    "message": "Сначала установите WeChat Клиент",
+    "description": "考试快捷地址"
+  },
+  "tokenTip": {
+    "message": "Вы вошли на конечных устройствах другие",
+    "description": "考试快捷地址"
+  },
+  "scanTip": {
+    "message": "Сканируйте правильный QR-код",
+    "description": "考试快捷地址"
+  },
+  "forceSubmit": {
+    "message": "Завершить экзамен и собрать работы до окончания отведенного времени",
+    "description": "考试快捷地址"
+  },
+  "forceSubmitTip": {
+    "message": "Учитель завершает экзамен и собирает работы до окончания отведенного времени. Экзаменационная работа будет Автоматически Подана через {seconds} секунд. Не выходите и не Закрывайте страницу.",
+    "description": "考试快捷地址"
+  },
+  "commitExamTip5": {
+    "message": "Учитель завершит экзамен и соберет работы до окончания отведенного времени",
+    "description": "考试快捷地址"
+  },
+  "intoExamTime": {
+    "message": "Время экзамена",
+    "description": "考试快捷地址"
+  },
+  "answerUsedTime": {
+    "message": "использованная длительность тестирования",
+    "description": "考试快捷地址"
+  },
+  "forceSubmitTip1": {
+    "message": "Если экзаменуемый сдает тест, при использовании этого функционала экзаменационная работа будет принудительно собрана. Сбор выполненных работ может занять около 10 секунд ~ 1 минуты. Эта операция неотменимая, используйте с осторожностью.",
+    "description": "考试快捷地址"
+  },
+  "forceSubmitTip3": {
+    "message": "Подтвердите завершение экзамена и сбор работ до окончания отведенного времени?",
+    "description": "考试快捷地址"
+  },
+  "forceSubmitSuccess": {
+    "message": "Сообщение успешно отправлено",
+    "description": "考试快捷地址"
+  },
+  "forceSubmitFail": {
+    "message": "Неудача при завершении экзамена и сборе работ до окончания отведенного времени",
+    "description": "考试快捷地址"
+  },
+  "forceSubmiting": {
+    "message": "Сбор выполненных работ",
+    "description": "考试快捷地址"
+  },
+  "screenshot": {
+    "message": "Скриншот",
+    "description": "考试快捷地址"
+  },
+  "commitExamTip6": {
+    "message": "Запрещенный скриншот, сдача экзамена принудительно завершена",
+    "description": "考试快捷地址"
+  },
+  "questionTrain": {
+    "message": "Тренировка по банку вопросов",
+    "description": "考试快捷地址"
+  },
+  "questionTrainManage": {
+    "message": "Управление тренировками по банку вопросов",
+    "description": "考试快捷地址"
+  },
+  "trainProgress": {
+    "message": "Прогресс в обучении",
+    "description": "考试快捷地址"
+  },
+  "importQue": {
+    "message": "импортировать вопросы",
+    "description": "考试快捷地址"
+  },
+  "importQueSuccessMsg1": {
+    "message": "Импорт успешный, добавлено {n} вопросов.",
+    "description": "考试快捷地址"
+  },
+  "importQueSuccessMsg2": {
+    "message": "Тренировка по банку вопросов поддерживает только объективные вопросы и заполнение пробелов, неподдерживаемые типы вопросов автоматически пропускаются.",
+    "description": "考试快捷地址"
+  },
+  "trainMsg": {
+    "message": "Выберите задания, открытые для студентов с личного / институционального банка в текущий банк заданий. Только администратор курса может загрузить / удалить задачи.",
+    "description": "考试快捷地址"
+  },
+  "deleteBank": {
+    "message": "Очистить банк вопросов",
+    "description": "考试快捷地址"
+  },
+  "deleteBankMsg": {
+    "message": "Подтвердите очистку банка вопросов?",
+    "description": "考试快捷地址"
+  },
+  "previewError": {
+    "message": "Данный вопрос удален из Банка вопросов",
+    "description": "考试快捷地址"
+  },
+  "batchDelete": {
+    "message": "удалить с системы массовый",
+    "description": "考试快捷地址"
+  },
+  "queNum": {
+    "message": "Количество вопросов: {n}",
+    "description": "考试快捷地址"
+  },
+  "answeredNum": {
+    "message": "Число ответивших людей",
+    "description": "考试快捷地址"
+  },
+  "averageAnsweredNum": {
+    "message": "Среднее количество попыток",
+    "description": "考试快捷地址"
+  },
+  "firstAccuracy": {
+    "message": "Процент правильных ответов в первом заходе",
+    "description": "考试快捷地址"
+  },
+  "operation": {
+    "message": "операция",
+    "description": "考试快捷地址"
+  },
+  "removeQue": {
+    "message": "удалить с системы",
+    "description": "考试快捷地址"
+  },
+  "removeQueTitle": {
+    "message": "удалить с системы вопросы",
+    "description": "考试快捷地址"
+  },
+  "removeQueMsg": {
+    "message": "Удалить выбранные вопросы?",
+    "description": "考试快捷地址"
+  },
+  "previewQue": {
+    "message": "Предварительный просмотр вопросов",
+    "description": "考试快捷地址"
+  },
+  "searchStu": {
+    "message": "Поиск студента",
+    "description": "考试快捷地址"
+  },
+  "export": {
+    "message": "Экспортировать",
+    "description": "考试快捷地址"
+  },
+  "studentID": {
+    "message": "Номер учащегося",
+    "description": "考试快捷地址"
+  },
+  "studentName": {
+    "message": "имя",
+    "description": "考试快捷地址"
+  },
+  "answerProgress": {
+    "message": "Кол-во отвеченных вопросов (Прогресс)",
+    "description": "考试快捷地址"
+  },
+  "errorRate": {
+    "message": "Кол-во неправильных ответов (процент неправильных ответов)",
+    "description": "考试快捷地址"
+  },
+  "progress": {
+    "message": "Прогресс",
+    "description": "考试快捷地址"
+  },
+  "rightRate": {
+    "message": "процент правильных ответов",
+    "description": "考试快捷地址"
+  },
+  "practice": {
+    "message": "последовательность упражнение",
+    "description": "考试快捷地址"
+  },
+  "errorQuestion": {
+    "message": "Неверные ответы",
+    "description": "考试快捷地址"
+  },
+  "bankClosed": {
+    "message": "Банк вопросов закрыт",
+    "description": "考试快捷地址"
+  },
+  "noBank": {
+    "message": "Банк вопросов не существует",
+    "description": "考试快捷地址"
+  },
+  "notAnswerNum": {
+    "message": "Без ответа",
+    "description": "考试快捷地址"
+  },
+  "answerErrorNum": {
+    "message": "Неверный ответ",
+    "description": "考试快捷地址"
+  },
+  "errorRate1": {
+    "message": "Процент ошибок",
+    "description": "考试快捷地址"
+  },
+  "submit": {
+    "message": "Подача",
+    "description": "考试快捷地址"
+  },
+  "answerCard": {
+    "message": "Карточка с ответами",
+    "description": "考试快捷地址"
+  },
+  "questionDelete": {
+    "message": "Вопросы удалены, обновите страницу и повторите попытку",
+    "description": "考试快捷地址"
+  },
+  "questionDeleteTip": {
+    "message": "вопросы удалены с системы",
+    "description": "考试快捷地址"
+  },
+  "questionDeleteFail": {
+    "message": "не удалось удалить вопросы",
+    "description": "考试快捷地址"
+  },
+  "noQuestionTip": {
+    "message": "пока нет вопросов",
+    "description": "考试快捷地址"
+  },
+  "trainPageTip": {
+    "message": "Тренировка по банку вопросов временно доступна только на компьютерах",
+    "description": "考试快捷地址"
+  },
+  "enteredExamTip": {
+    "message": "Система обнаружила, что ты уже вошел на экзамен с другой страницы. Если нужно войти снова, Закрытьсначала другую страницу(страницы) с ответами.",
+    "description": "考试快捷地址"
+  },
+  "enteredExamTip1": {
+    "message": "Если произошла ошибка, запросите у учителя код подтверждения и введите его в поле для входа.",
+    "description": "考试快捷地址"
+  },
+  "submitSuccessTip": {
+    "message": "сдан экзамен",
+    "description": "考试快捷地址"
+  },
+  "commitExamTip7": {
+    "message": "Время истекло, система автоматически сдала экзаменационную работу",
+    "description": "考试快捷地址"
+  },
+  "networkErrorTip4": {
+    "message": "Система временно сохранила записи ответов локально, немного позже снова попробуйте подать вручную.",
+    "description": "考试快捷地址"
+  },
+  "batchRemark": {
+    "message": "Массовая проверка",
+    "description": "考试快捷地址"
+  },
+  "lateTime": {
+    "message": "Опоздание",
+    "description": "考试快捷地址"
+  },
+  "lateTimeTip": {
+    "message": "Запрещено входить более чем на {minute} минут",
+    "description": "考试快捷地址"
+  },
+  "submitTime": {
+    "message": "Срок сдачи экзамена",
+    "description": "考试快捷地址"
+  },
+  "submitTimeTip": {
+    "message": "Запрещено сдавать экзаменационную работу в течение {minute} минут",
+    "description": "考试快捷地址"
+  },
+  "usedPaper": {
+    "message": "использованная экзаменационная работа",
+    "description": "考试快捷地址"
+  },
+  "usedPaperTip1": {
+    "message": "{n} набор",
+    "description": "考试快捷地址"
+  },
+  "usedPaperTip2": {
+    "message": "Случайным образом составлять тест",
+    "description": "考试快捷地址"
+  },
+  "submitRecord": {
+    "message": "Подача записи",
+    "description": "考试快捷地址"
+  },
+  "times": {
+    "message": "{n}й раз",
+    "description": "考试快捷地址"
+  },
+  "remarkPageTip": {
+    "message": "В режиме оценки отображаются только задания на проверке.",
+    "description": "考试快捷地址"
+  },
+  "remarkScoreTip1": {
+    "message": "Введите {num} цифр",
+    "description": "考试快捷地址"
+  },
+  "choiceRemarkPaper": {
+    "message": "Выберите экзаменационную работу для проверки",
+    "description": "考试快捷地址"
+  },
+  "subQue": {
+    "message": "субъективный вопрос：",
+    "description": "考试快捷地址"
+  },
+  "remarkProgress": {
+    "message": "Прогресс проверки:",
+    "description": "考试快捷地址"
+  },
+  "remarkMsg": {
+    "message": "Вниманиe: Если студент несколько раз отправлял запись, то при массовой проверке будет отображаться только последняя запись",
+    "description": "考试快捷地址"
+  },
+  "remarkQueEmpty": {
+    "message": "В этой экзаменационной работе нет вопросов, требующих оценивания Человеком",
+    "description": "考试快捷地址"
+  },
+  "noScore": {
+    "message": "Не оценен",
+    "description": "考试快捷地址"
+  },
+  "noStudentSubmit": {
+    "message": "Нет студенческих работ",
+    "description": "考试快捷地址"
+  },
+  "anonymous": {
+    "message": "анонимный",
+    "description": "考试快捷地址"
+  },
+  "mark1": {
+    "message": "комментарий",
+    "description": "考试快捷地址"
+  },
+  "inputContent": {
+    "message": "Введите контент",
+    "description": "考试快捷地址"
+  },
+  "roate": {
+    "message": "Вращение",
+    "description": "考试快捷地址"
+  },
+  "showDetail": {
+    "message": "Посмотреть подробности",
+    "description": "考试快捷地址"
+  },
+  "continueRemark": {
+    "message": "Продолжить проверку",
+    "description": "考试快捷地址"
+  },
+  "remarkTip1": {
+    "message": "Вопрос {n} еще не проверен. Вы уверены, что хотите завершить проверку?",
+    "description": "考试快捷地址"
+  },
+  "completeRemarkTip1": {
+    "message": "Поздравляем! Все экзаменационные работы проверены!",
+    "description": "考试快捷地址"
+  },
+  "remarkBackTip": {
+    "message": "Если вы выйдете и снова войдёте, вам придётся снова проверить. Подтвердить выход?",
+    "description": "考试快捷地址"
+  },
+  "remarkBackBtn1": {
+    "message": "Пока не выходите",
+    "description": "考试快捷地址"
+  },
+  "remarkBackBtn2": {
+    "message": "Подтвердить выход",
+    "description": "考试快捷地址"
+  },
+  "allowedTimes1": {
+    "message": "Количество разрешенных отправок",
+    "description": "考试快捷地址"
+  },
+  "scoreTips1": {
+    "message": "введите балл",
+    "description": "考试快捷地址"
+  },
+  "openLockScreen": {
+    "message": "Запуск клиента блокировки экрана",
+    "description": "考试快捷地址"
+  },
+  "openLockScreenMsg": {
+    "message": "эта страница вызовет Клиент блокировки",
+    "description": "考试快捷地址"
+  },
+  "openLockScreenMsg1": {
+    "message": "Если клиент не установлен или переход невозможен, сначала скачайте и установите клиент.",
+    "description": "考试快捷地址"
+  },
+  "clickHere": {
+    "message": "Нажмите здесь",
+    "description": "考试快捷地址"
+  },
+  "openLockScreenMsg2": {
+    "message": "Если установлена, нажмите {clickHere} и нажмите Кнопку \"Открыть приложение блокировки\" в диалоговом окне, которое появится в браузере.",
+    "description": "考试快捷地址"
+  },
+  "downloadLockScreen": {
+    "message": "Скачать клиент блокировки экрана",
+    "description": "考试快捷地址"
+  },
+  "goToExamDetile": {
+    "message": "вернуться к Подробностям Экзамена",
+    "description": "考试快捷地址"
+  },
+  "ltiTip3": {
+    "message": "Обратите внимание: если после запуска клиентского приложения вход не будет выполнен автоматически, вы можете попытаться войти в систему со своей учетной записью ULearning. Ваше имя пользователя: {loginName} , исходный пароль совпадает с именем пользователя.",
+    "description": "考试快捷地址"
+  },
+  "allowedTimesNew": {
+    "message": "разрешить Количество отправок",
+    "description": "考试快捷地址"
+  },
+  "usedTimesNew": {
+    "message": "Использованное количество отправок",
+    "description": "考试快捷地址"
+  },
+  "averageAnsweredNumNew": {
+    "message": "Средняя частота отправок",
+    "description": "考试快捷地址"
+  },
+  "selectFileByCamera": {
+    "message": "Фотографировать",
+    "description": "考试快捷地址"
+  },
+  "ps": {
+    "message": "{n} строк на странице",
+    "description": "考试快捷地址"
+  },
+  "openLockScreenError": {
+    "message": "Блокировка экрана клиента не обнаружена, сначала подтвердите, правильно ли выполнены установка. Если при установке всё еще невозможно запустить, можно попробовать удалить ее и снова установить последнюю версию.",
+    "description": "考试快捷地址"
+  }
 }

@@ -1,5 +1,5 @@
-<?xml version='1.0' encoding='utf-8'?>
-<resources xmlns:ns0="http://schemas.android.com/tools">
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">UClass</string>
     <string name="app_name_2">Народная цифровая школа марксизма</string>
     <string name="version_update">Обновление версии</string>
@@ -18,6 +18,7 @@
 
     
     
+    <!--    分组研讨-->
     <string name="nav_broad">Трансляция экрана</string>
     <string name="broading">Трансляция</string>
     <string name="stop_broad">Остановить вещание</string>
@@ -59,12 +60,13 @@
 
     
     
+    <!--    ABC为占位字符，请放于合适的位置-->
     <string name="click_connect_again">Если групповые экраны отключены, ученикам необходимо включить UClass на групповом экране.
 Если UClass на групповом экране уже включен, ученики должны подключиться к групповому экрану.</string>
     <string name="ABC">Нажмите здесь, чтобы начать снова</string>
 
     <string name="malaysia">Малайзия</string>
-    <string name="float_msg">UClass требует прав на Парящее окно, чтобы гарантировать, что при трансляции на нескольких экранах можно запустить фоновое воспроизведение. Нажмите "Подтвердите" и включите права на "Парящее окно" в появившемся окне настроек.</string>
+    <string name="float_msg">UClass требует прав на Парящее окно, чтобы гарантировать, что при трансляции на нескольких экранах можно запустить фоновое воспроизведение. Нажмите &quot;Подтвердите&quot; и включите права на &quot;Парящее окно&quot; в появившемся окне настроек.</string>
     <string name="ip_msg">Функционал многоэкранного взаимодействия использует статический IP-адрес. Не Изменять произвольно и не подключать одновременно с проводной и Wi-Fi сетью.</string>
     <string name="current_ip">Текущий IP-адрес:</string>
     <string name="register_ip">Внутренний IP-адрес сети LAN:</string>
@@ -79,6 +81,7 @@
 
     
     
+    <!--    白板相关-->
     <string name="wb_tool_name_pen">Кисть</string>
     <string name="wb_tool_name_eraser">Ластик</string>
     <string name="wb_tool_name_select">Выделить кружком</string>
@@ -168,12 +171,14 @@
     <string name="language_ar">Арабский</string>
     <string name="language_es">Испанский</string>
     <string name="language_in">Индонезия</string>
+    <string name="language_th">ภาษาไทย</string>
     <string name="language_zh">Китайский (традиционный)</string>
     <string name="language_fr">Французский</string>
     <string name="ethiopia">Эфиопия</string>
 
 
     
+    <!--    20230410翻译新增-->
     <string name="app_name_3">Многоэкранная интерактивность UClass</string>
     <string name="watch_stu_screen">Смотреть группу</string>
     <string name="license_0">Активирован</string>
@@ -217,16 +222,18 @@
     <string name="is_new_version">Текущая версия — последняя версия</string>
 
     
+    <!--    自动广播需求-->
     <string name="auto_broadcast_tea_screen">Автоматическая трансляция экрана преподавателя</string>
     <string name="stu_screen_offline_reminder">В случае, если групповой экран находится в автономном режиме, проверьте, запущено ли программное приложение для интерактивной панели UClass.</string>
     <string name="groups_checking">тестирование</string>
     <string name="groups_off_line">офлайн</string>
     <string name="groups_on_line">онлайн</string>
-    <string name="auto_staring" ns0:ignore="TypographyEllipsis">Запускается...</string>
+    <string name="auto_staring" tools:ignore="TypographyEllipsis">Запускается...</string>
     <string name="auto_start_success">Запуск успешный! Трансляция с экрана для преподавателя на групповой экран.</string>
     <string name="auto_start_fail">Запуск неудачен! Нажмите кнопку справа «Трансляция экрана» для ручного включения трансляции.</string>
 
     
+    <!--    投屏界面优化需求 -->
     <string name="classroom_lan">Локальная сеть в классе</string>
     <string name="yxy_app_name">ULearning</string>
     <string name="idea_share">Трансляция экрана</string>
@@ -253,6 +260,7 @@
 
 
     
+    <!--    20230816新增-->
     <string name="can_not_connection">Откройте страницу зеркального отражения экрана и попробуйте еще раз</string>
     <string name="cannot_connect_in_broadcast">Во время Трансляции нельзя подключиться</string>
     <string name="screen_exceed_limit">Лимит устройств для трансляции экрана на Большой экран достигнут; подождите, пока другие закончат, и попробуйте снова</string>
