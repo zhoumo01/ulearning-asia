@@ -3078,5 +3078,761 @@
   "openLockScreenError": {
     "message": "未检测到锁屏客户端，请先确认是否已正确安装。如果已安装仍然无法启动，可以尝试卸载后重新安装最新版本。",
     "description": "考试快捷地址"
+  },
+  "changeLastTime1": {
+    "message": "上次修改时间",
+    "description": "考试快捷地址"
+  },
+  "enteredExamTip2": {
+    "message": "如果确定没有同时打开多个答题页面，或已经关闭其他页面，仍然出现此提示，请先{closeBrowser}，然后重新进入考试。",
+    "description": "考试快捷地址"
+  },
+  "closeBrowser": {
+    "message": "关闭浏览器",
+    "description": "考试快捷地址"
+  },
+  "enteredExamTip3": {
+    "message": "如遇其他异常情况，也可以向教师索取验证码，使用验证码进入考试。",
+    "description": "考试快捷地址"
+  },
+  "banks": {
+    "message": "试卷/题库",
+    "description": "考试快捷地址"
+  },
+  "paperBank": {
+    "message": "试卷库",
+    "description": "考试快捷地址"
+  },
+  "selectPaper": {
+    "message": "选择试卷",
+    "description": "考试快捷地址"
+  },
+  "selectedPaper": {
+    "message": "已选 {n} 个",
+    "description": "考试快捷地址"
+  },
+  "myExamPaper": {
+    "message": "我的试卷",
+    "description": "考试快捷地址"
+  },
+  "schoolExamPaper": {
+    "message": "本校试卷",
+    "description": "考试快捷地址"
+  },
+  "archivePwdSet": {
+    "message": "设置或更改封存密码",
+    "description": "考试快捷地址"
+  },
+  "addExamPaper": {
+    "message": "添加试卷",
+    "description": "考试快捷地址"
+  },
+  "aotoGroupExamPaper": {
+    "message": "自动组卷",
+    "description": "考试快捷地址"
+  },
+  "searchPaper": {
+    "message": "搜索文件夹/试卷",
+    "description": "考试快捷地址"
+  },
+  "batchAction": {
+    "message": "批量操作",
+    "description": "考试快捷地址"
+  },
+  "updateDate": {
+    "message": "更新时间",
+    "description": "考试快捷地址"
+  },
+  "name": {
+    "message": "名称",
+    "description": "考试快捷地址"
+  },
+  "shareFolder": {
+    "message": "共享文件夹",
+    "description": "考试快捷地址"
+  },
+  "lock": {
+    "message": "封存",
+    "description": "考试快捷地址"
+  },
+  "unLock": {
+    "message": "解封",
+    "description": "考试快捷地址"
+  },
+  "inputFolderTip": {
+    "message": "请输入文件夹名称",
+    "description": "考试快捷地址"
+  },
+  "createShareFolder": {
+    "message": "创建共享文件夹",
+    "description": "考试快捷地址"
+  },
+  "searchShareFolder": {
+    "message": "搜索共享文件夹",
+    "description": "考试快捷地址"
+  },
+  "permissionSettings": {
+    "message": "权限设置",
+    "description": "考试快捷地址"
+  },
+  "exitShare": {
+    "message": "退出共享",
+    "description": "考试快捷地址"
+  },
+  "exitSuccess": {
+    "message": "退出成功",
+    "description": "考试快捷地址"
+  },
+  "exitFail": {
+    "message": "退出失败",
+    "description": "考试快捷地址"
+  },
+  "actionLog": {
+    "message": "操作日志",
+    "description": "考试快捷地址"
+  },
+  "shareFolderDesc": {
+    "message": "共享文件夹支持多人协作，创建后可以邀请其他教师参与管理。",
+    "description": "考试快捷地址"
+  },
+  "usePermission": {
+    "message": "使用权限",
+    "description": "考试快捷地址"
+  },
+  "usePermission1": {
+    "message": "仅管理团队成员可用",
+    "description": "考试快捷地址"
+  },
+  "usePermission2": {
+    "message": "全校可用",
+    "description": "考试快捷地址"
+  },
+  "canCopy": {
+    "message": "允许使用者复制副本",
+    "description": "考试快捷地址"
+  },
+  "managementTeam": {
+    "message": "管理团队",
+    "description": "考试快捷地址"
+  },
+  "teamNums": {
+    "message": "{n}人",
+    "description": "考试快捷地址"
+  },
+  "addMembers": {
+    "message": "添加成员",
+    "description": "考试快捷地址"
+  },
+  "owner": {
+    "message": "所有者",
+    "description": "考试快捷地址"
+  },
+  "allCollege": {
+    "message": "全部学院",
+    "description": "考试快捷地址"
+  },
+  "searchTeachers": {
+    "message": "搜索教师",
+    "description": "考试快捷地址"
+  },
+  "jobNumber": {
+    "message": "工号",
+    "description": "考试快捷地址"
+  },
+  "college": {
+    "message": "学院",
+    "description": "考试快捷地址"
+  },
+  "removeMember": {
+    "message": "移除",
+    "description": "考试快捷地址"
+  },
+  "removeMemberNote": {
+    "message": "移除成员",
+    "description": "考试快捷地址"
+  },
+  "removeMemberTip": {
+    "message": "被移除的成员将不再能查看和使用共享文件夹中的试卷。",
+    "description": "考试快捷地址"
+  },
+  "removeMemberTip1": {
+    "message": "确定将 {name} 移除吗？",
+    "description": "考试快捷地址"
+  },
+  "createdDate": {
+    "message": "创建时间",
+    "description": "考试快捷地址"
+  },
+  "paperNum": {
+    "message": "试卷数量",
+    "description": "考试快捷地址"
+  },
+  "moveTo": {
+    "message": "移动到",
+    "description": "考试快捷地址"
+  },
+  "moveTip": {
+    "message": "移动的对象包含其他人创建的试卷或文件夹，仅支持在当前共享文件夹内部移动。",
+    "description": "考试快捷地址"
+  },
+  "questionMoveTip": {
+    "message": "移动的对象包含其他人创建的题目或文件夹，仅支持在当前共享文件夹内部移动。",
+    "description": "考试快捷地址"
+  },
+  "deletePaperTip": {
+    "message": "试卷已经在考试中使用过，不能删除。",
+    "description": "考试快捷地址"
+  },
+  "deletePaperTip1": {
+    "message": "{name}已经在考试中使用过，不能删除。",
+    "description": "考试快捷地址"
+  },
+  "deletePaperTip2": {
+    "message": "{name}不是创建者不能删除。",
+    "description": "考试快捷地址"
+  },
+  "deletePaperTip3": {
+    "message": "{name}不存在",
+    "description": "考试快捷地址"
+  },
+  "deletePaper": {
+    "message": "删除试卷",
+    "description": "考试快捷地址"
+  },
+  "deleteFolder": {
+    "message": "删除文件夹",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderIntro1": {
+    "message": "如果选择 【保留试卷，只删除文件夹】，删除后，文件夹中包含的试卷将被移动到根目录下。",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderIntro2": {
+    "message": "如果选择【全部删除】，文件夹中的试卷将被一并删除。",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderIntro3": {
+    "message": "保留试卷，只删除文件夹",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderTip": {
+    "message": "文件夹中包含其他人创建的试卷，不能直接删除。<br />如需删除请先将其他人创建的试卷移出。",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderTip1": {
+    "message": "文件夹中包含已在考试中使用的试卷，不能直接删除。",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderTip2": {
+    "message": "文件夹中包含不存在的试卷，不能直接删除。",
+    "description": "考试快捷地址"
+  },
+  "batchDelete1": {
+    "message": "批量删除",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelected": {
+    "message": "确定批量删除所选{n}项吗？",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelectedTip": {
+    "message": "所选项目中包含其他人创建的试卷，不能批量删除。",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelectedTip1": {
+    "message": "所选项目中包含已在考试中使用的试卷，不能批量删除。",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelectedTip2": {
+    "message": "所选项目中包含不存在的试卷，不能批量删除。",
+    "description": "考试快捷地址"
+  },
+  "noPaperTip": {
+    "message": "没有找到符合条件的试卷",
+    "description": "考试快捷地址"
+  },
+  "noShareFolderTip": {
+    "message": "没有找到符合条件的共享文件夹",
+    "description": "考试快捷地址"
+  },
+  "loadErrorTip": {
+    "message": "网络异常，请点击{reload}",
+    "description": "考试快捷地址"
+  },
+  "reload": {
+    "message": "重新加载",
+    "description": "考试快捷地址"
+  },
+  "copySuccess2": {
+    "message": "复制成功",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolder": {
+    "message": "删除共享文件夹",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolderTip1": {
+    "message": "删除共享文件夹，其中包含的子文件夹和试卷将被移回到各位创建人的个人目录中，不会被同步删除。",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolderTip3": {
+    "message": "删除共享文件夹，其中包含的子文件夹和题目将被移回到各位创建人的个人目录中，不会被同步删除。",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolderTip2": {
+    "message": "确定删除此共享文件夹吗？",
+    "description": "考试快捷地址"
+  },
+  "exitShareTip": {
+    "message": "退出后将不能再查看和使用共享文件夹中的试卷。",
+    "description": "考试快捷地址"
+  },
+  "exitShareTip1": {
+    "message": "确定退出共享吗？",
+    "description": "考试快捷地址"
+  },
+  "inputPw": {
+    "message": "输入密码",
+    "description": "考试快捷地址"
+  },
+  "inputCheckPw": {
+    "message": "请输入访问密码",
+    "description": "考试快捷地址"
+  },
+  "forgetPw": {
+    "message": "忘记密码",
+    "description": "考试快捷地址"
+  },
+  "authentication": {
+    "message": "身份验证",
+    "description": "考试快捷地址"
+  },
+  "authenticationMethods": {
+    "message": "验证方式",
+    "description": "考试快捷地址"
+  },
+  "mobileSMS": {
+    "message": "手机短信",
+    "description": "考试快捷地址"
+  },
+  "email": {
+    "message": "邮箱",
+    "description": "考试快捷地址"
+  },
+  "captcha": {
+    "message": "图形验证码",
+    "description": "考试快捷地址"
+  },
+  "emailCaptcha": {
+    "message": "邮箱验证码",
+    "description": "考试快捷地址"
+  },
+  "SMSCaptcha": {
+    "message": "短信验证码",
+    "description": "考试快捷地址"
+  },
+  "getCaptcha": {
+    "message": "获取验证码",
+    "description": "考试快捷地址"
+  },
+  "reacquiredSeconds": {
+    "message": "{s}秒后可重新获取",
+    "description": "考试快捷地址"
+  },
+  "setLockPw": {
+    "message": "设置封存密码",
+    "description": "考试快捷地址"
+  },
+  "updateLockPw": {
+    "message": "更改封存密码",
+    "description": "考试快捷地址"
+  },
+  "oldPw": {
+    "message": "旧密码",
+    "description": "考试快捷地址"
+  },
+  "newPw": {
+    "message": "新密码",
+    "description": "考试快捷地址"
+  },
+  "newPwAgain": {
+    "message": "再次输入新密码",
+    "description": "考试快捷地址"
+  },
+  "deleteLockPw": {
+    "message": "删除封存密码",
+    "description": "考试快捷地址"
+  },
+  "inputAgain": {
+    "message": "再次输入",
+    "description": "考试快捷地址"
+  },
+  "setLockPwTip": {
+    "message": "设置封存密码后，可以将指定试卷或文件夹封存，被封存的试卷或文件夹，需要输入密码才可查看或解封。",
+    "description": "考试快捷地址"
+  },
+  "inputCodeTip": {
+    "message": "请输入验证码",
+    "description": "考试快捷地址"
+  },
+  "lockTip": {
+    "message": "你的帐号还没有绑定手机或邮箱，为防止忘记密码，请先在个人资料中绑定手机或邮箱。",
+    "description": "考试快捷地址"
+  },
+  "bindBtn": {
+    "message": "去绑定",
+    "description": "考试快捷地址"
+  },
+  "pwNotSame": {
+    "message": "两次输入的密码不一致",
+    "description": "考试快捷地址"
+  },
+  "pwError": {
+    "message": "密码错误",
+    "description": "考试快捷地址"
+  },
+  "pwError1": {
+    "message": "密码应为6-16位数字或字母",
+    "description": "考试快捷地址"
+  },
+  "deleteLockPwTip": {
+    "message": "删除封存密码后，被封存的试卷和文件夹将全部被解封。",
+    "description": "考试快捷地址"
+  },
+  "captchaError": {
+    "message": "图形验证码错误",
+    "description": "考试快捷地址"
+  },
+  "inputCaptcha": {
+    "message": "请输入图形验证码",
+    "description": "考试快捷地址"
+  },
+  "codeError": {
+    "message": "验证码错误",
+    "description": "考试快捷地址"
+  },
+  "codeInvalid1": {
+    "message": "验证码已失效，请重新获取",
+    "description": "考试快捷地址"
+  },
+  "inputPasswordAgain": {
+    "message": "请再次输入密码",
+    "description": "考试快捷地址"
+  },
+  "paper": {
+    "message": "试卷",
+    "description": "考试快捷地址"
+  },
+  "teamsMaxCount": {
+    "message": "最多添加{n}个成员",
+    "description": "考试快捷地址"
+  },
+  "selectPaperIntro": {
+    "message": "选中试卷，将试卷中的题目导入到当前题库目录中，每次最多选择{n}套试卷。（每套试卷中的题目将以试卷、部分两级文件夹的方式保存）",
+    "description": "考试快捷地址"
+  },
+  "insertPaperTip": {
+    "message": "请选择试卷",
+    "description": "考试快捷地址"
+  },
+  "insertPaperTip1": {
+    "message": "每次最多选择{n}套试卷",
+    "description": "考试快捷地址"
+  },
+  "insertSuccess": {
+    "message": "导入成功",
+    "description": "考试快捷地址"
+  },
+  "insertFail": {
+    "message": "导入失败",
+    "description": "考试快捷地址"
+  },
+  "allPaper": {
+    "message": "全部试卷",
+    "description": "考试快捷地址"
+  },
+  "statistics": {
+    "message": "统计",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[0]": {
+    "message": "默认排序",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[1]": {
+    "message": "收藏最多",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[2]": {
+    "message": "题目最多",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[3]": {
+    "message": "最近更新",
+    "description": "考试快捷地址"
+  },
+  "searchBank": {
+    "message": "搜索题库",
+    "description": "考试快捷地址"
+  },
+  "from": {
+    "message": "来源",
+    "description": "考试快捷地址"
+  },
+  "questionNums": {
+    "message": "题数",
+    "description": "考试快捷地址"
+  },
+  "updateTime": {
+    "message": "最近更新时间",
+    "description": "考试快捷地址"
+  },
+  "timeOver": {
+    "message": "已到期",
+    "description": "考试快捷地址"
+  },
+  "deadLine": {
+    "message": "有效期至",
+    "description": "考试快捷地址"
+  },
+  "collect": {
+    "message": "收藏",
+    "description": "考试快捷地址"
+  },
+  "cancelCollect": {
+    "message": "取消收藏",
+    "description": "考试快捷地址"
+  },
+  "requestSuccess": {
+    "message": "{msg}成功",
+    "description": "考试快捷地址"
+  },
+  "requestFail": {
+    "message": "{msg}失败",
+    "description": "考试快捷地址"
+  },
+  "noShareBank": {
+    "message": "没有找到符合条件的题库",
+    "description": "考试快捷地址"
+  },
+  "shareBankTip": {
+    "message": "从外部引进的共享题库，全校教师可用。",
+    "description": "考试快捷地址"
+  },
+  "shareFolderTip": {
+    "message": "共享文件夹升级啦！",
+    "description": "考试快捷地址"
+  },
+  "shareFolderTip1": {
+    "message": "新版共享文件夹，支持教师团队协作，在同一个文件夹中管理试卷或题目。同时，原试卷/题目共享功能已下线，如需继续将试卷或题目共享给其他教师，可以在【共享文件夹】中创建一个文件夹，设置好共享团队成员，并将需要共享的内容移动到对应的文件夹中。",
+    "description": "考试快捷地址"
+  },
+  "updateDesc": {
+    "message": "更新说明：",
+    "description": "考试快捷地址"
+  },
+  "paperUpdateDesc": {
+    "message": "原【本校试卷】和【共享试卷】功能已下线，教师团队共享试卷请使用【我的试卷】中的【共享文件夹】。",
+    "description": "考试快捷地址"
+  },
+  "link": {
+    "message": "旧版入口",
+    "description": "考试快捷地址"
+  },
+  "questionUpdateDesc": {
+    "message": "原【本校题库】和【共享题库】功能已下线，教师团队共享题目请使用【我的题库】中的【共享文件夹】。",
+    "description": "考试快捷地址"
+  },
+  "moveErrorTip1": {
+    "message": "试卷或文件夹不存在",
+    "description": "考试快捷地址"
+  },
+  "moveErrorTip4": {
+    "message": "题目或文件夹不存在",
+    "description": "考试快捷地址"
+  },
+  "mobileGoBack": {
+    "message": "返回上一级目录",
+    "description": "考试快捷地址"
+  },
+  "quitCheckAll": {
+    "message": "取消全选",
+    "description": "考试快捷地址"
+  },
+  "notAllowCopy": {
+    "message": "不允许复制",
+    "description": "考试快捷地址"
+  },
+  "isArchiveTip": {
+    "message": "当前共享文件夹已被封存。",
+    "description": "考试快捷地址"
+  },
+  "moveQue": {
+    "message": "移动题目",
+    "description": "考试快捷地址"
+  },
+  "createQue": {
+    "message": "创建题目",
+    "description": "考试快捷地址"
+  },
+  "appCreateQueMsg": {
+    "message": "手机端暂不支持创建其他题型题目，请从电脑端创建。",
+    "description": "考试快捷地址"
+  },
+  "saveCreateQue": {
+    "message": "保存并继续创建题目",
+    "description": "考试快捷地址"
+  },
+  "submitQue": {
+    "message": "完成创建",
+    "description": "考试快捷地址"
+  },
+  "queScoreError": {
+    "message": "分值需在0-100之间，可保留一位小数",
+    "description": "考试快捷地址"
+  },
+  "saveQue": {
+    "message": "保存题目",
+    "description": "考试快捷地址"
+  },
+  "choicePict": {
+    "message": "选择相册",
+    "description": "考试快捷地址"
+  },
+  "choicePict1": {
+    "message": "从本机选择",
+    "description": "考试快捷地址"
+  },
+  "moveMsg": {
+    "message": "移动的对象包含其他人创建的题目，仅支持在当前共享文件夹内部移动。",
+    "description": "考试快捷地址"
+  },
+  "noFolder": {
+    "message": "没有子文件夹",
+    "description": "考试快捷地址"
+  },
+  "choiceMsg": {
+    "message": "点击选项字母，设为正确答案",
+    "description": "考试快捷地址"
+  },
+  "setAnswer": {
+    "message": "设置答案",
+    "description": "考试快捷地址"
+  },
+  "changeTabMsg": {
+    "message": "切换题型后，已编辑的内容不会保存。确定切换吗？",
+    "description": "考试快捷地址"
+  },
+  "goBackMsg": {
+    "message": "返回后已编辑的题目内容不会保存，确定返回吗？",
+    "description": "考试快捷地址"
+  },
+  "optionContentNew": {
+    "message": "请输入选项内容",
+    "description": "考试快捷地址"
+  },
+  "soundRecording": {
+    "message": "点击开始录音",
+    "description": "考试快捷地址"
+  },
+  "soundRecording1": {
+    "message": "录音中，点击波纹停止",
+    "description": "考试快捷地址"
+  },
+  "soundRecording2": {
+    "message": "重新上传",
+    "description": "考试快捷地址"
+  },
+  "soundRecording3": {
+    "message": "备注，非必填，不超过200字",
+    "description": "考试快捷地址"
+  },
+  "insertQue": {
+    "message": "插入填空项",
+    "description": "考试快捷地址"
+  },
+  "deleQueNote": {
+    "message": "确定删除题目吗？",
+    "description": "考试快捷地址"
+  },
+  "imgloading": {
+    "message": "图片上传中",
+    "description": "考试快捷地址"
+  },
+  "fileLoading": {
+    "message": "有文件正在上传中，请稍后上传",
+    "description": "考试快捷地址"
+  },
+  "AIQuestionTitle": {
+    "message": "AI智能出题",
+    "description": "考试快捷地址"
+  },
+  "questionTextType1": {
+    "message": "根据描述生成题目",
+    "description": "考试快捷地址"
+  },
+  "questionTextType2": {
+    "message": "根据文本生成题目",
+    "description": "考试快捷地址"
+  },
+  "questionTextDesc1": {
+    "message": "请在下方输入出题要求（题目由AI大模型生成，不能完全保障内容正确性，建议检查后再保存）",
+    "description": "考试快捷地址"
+  },
+  "questionTextDesc2": {
+    "message": "请在下方输入出题要求，文本越具体，题目生成结果越准确。",
+    "description": "考试快捷地址"
+  },
+  "questionPlaceholder1": {
+    "message": "输入出题要求，实例：辛亥革命",
+    "description": "考试快捷地址"
+  },
+  "questionPlaceholder2": {
+    "message": "输入文本素材，AI将从中提炼要点并生成题目。",
+    "description": "考试快捷地址"
+  },
+  "AIQuestionBtn": {
+    "message": "生成题目",
+    "description": "考试快捷地址"
+  },
+  "AIQuestionTip": {
+    "message": "正在生成题目，请稍候...",
+    "description": "考试快捷地址"
+  },
+  "beta": {
+    "message": "内测",
+    "description": "考试快捷地址"
+  },
+  "maxCountTip": {
+    "message": "最多输入{max}个字",
+    "description": "考试快捷地址"
+  },
+  "knowledgePoints": {
+    "message": "知识点",
+    "description": "考试快捷地址"
+  },
+  "relateKnowledgePoints": {
+    "message": "关联知识点",
+    "description": "考试快捷地址"
+  },
+  "completeRemarkTip2": {
+    "message": "当前列表中的考生都已批阅完成！若想继续批阅试卷，请退出后重新筛选考生进行批阅。",
+    "description": "考试快捷地址"
+  },
+  "qrQuestionAnswer": {
+    "message": "扫一扫 看答案",
+    "description": "考试快捷地址"
+  },
+  "exerciseQuestion": {
+    "message": "练习题",
+    "description": "考试快捷地址"
+  },
+  "draft": {
+    "message": "草稿",
+    "description": "考试快捷地址"
+  },
+  "draftTip": {
+    "message": "请在PC端编辑考试信息",
+    "description": "考试快捷地址"
   }
 }
