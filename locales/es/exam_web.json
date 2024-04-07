@@ -3127,8 +3127,536 @@
     "message": "Agregar examen",
     "description": "考试快捷地址"
   },
+  "aotoGroupExamPaper": {
+    "message": "Prueba automática",
+    "description": "考试快捷地址"
+  },
   "searchPaper": {
     "message": "Búsqueda de carpetas/exámenes",
+    "description": "考试快捷地址"
+  },
+  "batchAction": {
+    "message": "Operaciones a granel",
+    "description": "考试快捷地址"
+  },
+  "updateDate": {
+    "message": "Actualizado el",
+    "description": "考试快捷地址"
+  },
+  "name": {
+    "message": "Nombre",
+    "description": "考试快捷地址"
+  },
+  "shareFolder": {
+    "message": "Carpetas compartidas",
+    "description": "考试快捷地址"
+  },
+  "lock": {
+    "message": "Sellado",
+    "description": "考试快捷地址"
+  },
+  "unLock": {
+    "message": "Sin seal",
+    "description": "考试快捷地址"
+  },
+  "inputFolderTip": {
+    "message": "Introduzca un nombre de carpeta",
+    "description": "考试快捷地址"
+  },
+  "createShareFolder": {
+    "message": "Crear una carpeta compartida",
+    "description": "考试快捷地址"
+  },
+  "searchShareFolder": {
+    "message": "Buscar una carpeta compartida",
+    "description": "考试快捷地址"
+  },
+  "permissionSettings": {
+    "message": "Configuración de permisos",
+    "description": "考试快捷地址"
+  },
+  "exitShare": {
+    "message": "Salir del uso compartido",
+    "description": "考试快捷地址"
+  },
+  "exitSuccess": {
+    "message": "La salida fue exitosa",
+    "description": "考试快捷地址"
+  },
+  "exitFail": {
+    "message": "Error de salida",
+    "description": "考试快捷地址"
+  },
+  "actionLog": {
+    "message": "Registro de acciones",
+    "description": "考试快捷地址"
+  },
+  "shareFolderDesc": {
+    "message": "Las carpetas compartidas admiten la colaboración de varias personas y puede invitar a otros profesores a participar en la administración después de la creación.",
+    "description": "考试快捷地址"
+  },
+  "usePermission": {
+    "message": "Derechos de uso",
+    "description": "考试快捷地址"
+  },
+  "usePermission1": {
+    "message": "Disponible solo para los miembros del equipo directivo",
+    "description": "考试快捷地址"
+  },
+  "usePermission2": {
+    "message": "Disponible en toda la escuela",
+    "description": "考试快捷地址"
+  },
+  "canCopy": {
+    "message": "Permitir que los consumidores hagan copias",
+    "description": "考试快捷地址"
+  },
+  "managementTeam": {
+    "message": "Equipo directivo",
+    "description": "考试快捷地址"
+  },
+  "teamNums": {
+    "message": "{n} personas",
+    "description": "考试快捷地址"
+  },
+  "addMembers": {
+    "message": "Agregar miembros",
+    "description": "考试快捷地址"
+  },
+  "owner": {
+    "message": "Dueño",
+    "description": "考试快捷地址"
+  },
+  "allCollege": {
+    "message": "Todas las escuelas",
+    "description": "考试快捷地址"
+  },
+  "searchTeachers": {
+    "message": "Búsqueda de profesores",
+    "description": "考试快捷地址"
+  },
+  "jobNumber": {
+    "message": "ID de profesor",
+    "description": "考试快捷地址"
+  },
+  "college": {
+    "message": "Universidad",
+    "description": "考试快捷地址"
+  },
+  "removeMember": {
+    "message": "Eliminar",
+    "description": "考试快捷地址"
+  },
+  "removeMemberNote": {
+    "message": "Eliminar miembros",
+    "description": "考试快捷地址"
+  },
+  "removeMemberTip": {
+    "message": "El miembro eliminado ya no podrá ver ni utilizar los documentos de la carpeta compartida.",
+    "description": "考试快捷地址"
+  },
+  "removeMemberTip1": {
+    "message": "¿Estás seguro de que quieres eliminar {nombre}?",
+    "description": "考试快捷地址"
+  },
+  "createdDate": {
+    "message": "Tiempo de creación",
+    "description": "考试快捷地址"
+  },
+  "paperNum": {
+    "message": "Número de pruebas",
+    "description": "考试快捷地址"
+  },
+  "moveTo": {
+    "message": "Mover a",
+    "description": "考试快捷地址"
+  },
+  "moveTip": {
+    "message": "Los objetos que se mueven contienen exámenes o carpetas creadas por otros usuarios solo se pueden mover dentro de la carpeta compartida actual.",
+    "description": "考试快捷地址"
+  },
+  "questionMoveTip": {
+    "message": "El objeto movido contiene un tema o una carpeta creados por otra persona y solo se puede mover dentro de la carpeta compartida actual.",
+    "description": "考试快捷地址"
+  },
+  "deletePaperTip": {
+    "message": "El papel de examen ya se ha utilizado en el examen y no se puede eliminar.",
+    "description": "考试快捷地址"
+  },
+  "deletePaperTip1": {
+    "message": "{name} ya se ha utilizado en el examen y no se puede eliminar.",
+    "description": "考试快捷地址"
+  },
+  "deletePaperTip2": {
+    "message": "{nombre} no es el creador y no se puede eliminar.",
+    "description": "考试快捷地址"
+  },
+  "deletePaperTip3": {
+    "message": "{nombre} no existe",
+    "description": "考试快捷地址"
+  },
+  "deletePaper": {
+    "message": "Eliminar examen",
+    "description": "考试快捷地址"
+  },
+  "deleteFolder": {
+    "message": "Eliminar carpeta",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderIntro1": {
+    "message": "Si selecciona Conservar exámenes, eliminar solo carpetas, los exámenes contenidos en la carpeta se moverán al directorio raíz después de la eliminación.",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderIntro2": {
+    "message": "Si selecciona Eliminar todo, también se eliminarán los exámenes de la carpeta.",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderIntro3": {
+    "message": "Guardar el examen, eliminar solo la carpeta",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderTip": {
+    "message": "La carpeta contiene exámenes creados por otros y no se puede eliminar directamente.<br />Si desea eliminarlo, primero elimine el papel de prueba creado por otra persona.",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderTip1": {
+    "message": "La carpeta contiene los trabajos que se han utilizado en el examen y no se pueden eliminar.",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderTip2": {
+    "message": "La carpeta contiene exámenes que no existen y no se pueden eliminar directamente.",
+    "description": "考试快捷地址"
+  },
+  "batchDelete1": {
+    "message": "Eliminación masiva",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelected": {
+    "message": "¿Está seguro de eliminar los {n} elementos seleccionados de forma masiva?",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelectedTip": {
+    "message": "Los elementos seleccionados contienen pruebas creadas por otros y no se pueden eliminar de forma masiva.",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelectedTip1": {
+    "message": "El elemento seleccionado contiene documentos que ya se han utilizado en el examen y no se pueden eliminar de forma masiva.",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelectedTip2": {
+    "message": "Los elementos seleccionados contienen pruebas que no existen y no se pueden eliminar de forma masiva.",
+    "description": "考试快捷地址"
+  },
+  "noPaperTip": {
+    "message": "No se encontraron documentos elegibles",
+    "description": "考试快捷地址"
+  },
+  "noShareFolderTip": {
+    "message": "No se encontraron carpetas compartidas aptas",
+    "description": "考试快捷地址"
+  },
+  "loadErrorTip": {
+    "message": "Si la red es anormal, haga clic en {recargar}",
+    "description": "考试快捷地址"
+  },
+  "reload": {
+    "message": "Recargar",
+    "description": "考试快捷地址"
+  },
+  "copySuccess2": {
+    "message": "Copiado exitosamente",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolder": {
+    "message": "Eliminar carpeta",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolderTip1": {
+    "message": "Si elimina una carpeta compartida, las subcarpetas y los exámenes contenidos en ella se moverán de nuevo al directorio personal del creador y no se eliminarán de forma sincronizada.",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolderTip3": {
+    "message": "Si eliminas una carpeta compartida, las subcarpetas y las preguntas contenidas en ella se moverán de nuevo al directorio personal del creador y no se eliminarán de forma sincronizada.",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolderTip2": {
+    "message": "¿Estás seguro de que quieres eliminar esta carpeta compartida?",
+    "description": "考试快捷地址"
+  },
+  "exitShareTip": {
+    "message": "Una vez que lo abandone, ya no podrá ver ni usar los documentos en la carpeta compartida.",
+    "description": "考试快捷地址"
+  },
+  "exitShareTip1": {
+    "message": "¿Está seguro de que desea optar por no compartir?",
+    "description": "考试快捷地址"
+  },
+  "inputPw": {
+    "message": "Introduzca su contraseña",
+    "description": "考试快捷地址"
+  },
+  "inputCheckPw": {
+    "message": "Por favor introduzca la contraseña",
+    "description": "考试快捷地址"
+  },
+  "forgetPw": {
+    "message": "contraseña olvidada",
+    "description": "考试快捷地址"
+  },
+  "authentication": {
+    "message": "Autenticación",
+    "description": "考试快捷地址"
+  },
+  "authenticationMethods": {
+    "message": "Cómo verificar",
+    "description": "考试快捷地址"
+  },
+  "mobileSMS": {
+    "message": "SMS",
+    "description": "考试快捷地址"
+  },
+  "email": {
+    "message": "Buzón",
+    "description": "考试快捷地址"
+  },
+  "captcha": {
+    "message": "Captcha gráfico",
+    "description": "考试快捷地址"
+  },
+  "emailCaptcha": {
+    "message": "El código de verificación del buzón",
+    "description": "考试快捷地址"
+  },
+  "SMSCaptcha": {
+    "message": "Código de verificación por SMS",
+    "description": "考试快捷地址"
+  },
+  "getCaptcha": {
+    "message": "Obtener código de verificación",
+    "description": "考试快捷地址"
+  },
+  "reacquiredSeconds": {
+    "message": "{s} segundos después",
+    "description": "考试快捷地址"
+  },
+  "setLockPw": {
+    "message": "Establecer una contraseña sellada",
+    "description": "考试快捷地址"
+  },
+  "updateLockPw": {
+    "message": "Cambiar la contraseña sellada",
+    "description": "考试快捷地址"
+  },
+  "oldPw": {
+    "message": "Contraseña anterior",
+    "description": "考试快捷地址"
+  },
+  "newPw": {
+    "message": "Nueva contraseña",
+    "description": "考试快捷地址"
+  },
+  "newPwAgain": {
+    "message": "Vuelva a introducir la nueva contraseña",
+    "description": "考试快捷地址"
+  },
+  "deleteLockPw": {
+    "message": "Eliminar la contraseña sellada",
+    "description": "考试快捷地址"
+  },
+  "inputAgain": {
+    "message": "Entrar de nuevo",
+    "description": "考试快捷地址"
+  },
+  "setLockPwTip": {
+    "message": "Después de establecer una contraseña de archivo, puede archivar un documento de prueba o una carpeta especificados, y debe introducir una contraseña para ver o desprecintar el papel de prueba o la carpeta sellados.",
+    "description": "考试快捷地址"
+  },
+  "inputCodeTip": {
+    "message": "Introduzca un código de verificación",
+    "description": "考试快捷地址"
+  },
+  "lockTip": {
+    "message": "Tu cuenta no está vinculada a tu teléfono o correo electrónico, por lo que para evitar que olvides tu contraseña, primero vincula tu teléfono o correo electrónico en tu perfil.",
+    "description": "考试快捷地址"
+  },
+  "bindBtn": {
+    "message": "Ir a atar",
+    "description": "考试快捷地址"
+  },
+  "pwNotSame": {
+    "message": "La contraseña introducida dos veces es inconsistente",
+    "description": "考试快捷地址"
+  },
+  "pwError": {
+    "message": "Contraseña incorrecta",
+    "description": "考试快捷地址"
+  },
+  "pwError1": {
+    "message": "La contraseña debe ser de 6-16 dígitos o letras",
+    "description": "考试快捷地址"
+  },
+  "deleteLockPwTip": {
+    "message": "Después de eliminar la contraseña archivada, se abrirán todos los exámenes y carpetas sellados.",
+    "description": "考试快捷地址"
+  },
+  "captchaError": {
+    "message": "Error de captcha gráfico",
+    "description": "考试快捷地址"
+  },
+  "inputCaptcha": {
+    "message": "Introduzca el código de verificación gráfico",
+    "description": "考试快捷地址"
+  },
+  "codeError": {
+    "message": "Error de código de verificación",
+    "description": "考试快捷地址"
+  },
+  "codeInvalid1": {
+    "message": "El código de verificación ha caducado, por favor recupérelo",
+    "description": "考试快捷地址"
+  },
+  "inputPasswordAgain": {
+    "message": "Vuelva a introducir la contraseña",
+    "description": "考试快捷地址"
+  },
+  "paper": {
+    "message": "Examen",
+    "description": "考试快捷地址"
+  },
+  "teamsMaxCount": {
+    "message": "Se puede agregar un máximo de {n} miembros",
+    "description": "考试快捷地址"
+  },
+  "selectPaperIntro": {
+    "message": "Seleccione el cuestionario e importe las preguntas del cuestionario al directorio actual del banco de preguntas, seleccionando hasta {n} conjuntos de cuestionarios a la vez. ",
+    "description": "考试快捷地址"
+  },
+  "insertPaperTip": {
+    "message": "Por favor seleccione un examen",
+    "description": "考试快捷地址"
+  },
+  "insertPaperTip1": {
+    "message": "Seleccione hasta {n} conjuntos de cuestionarios a la vez",
+    "description": "考试快捷地址"
+  },
+  "insertSuccess": {
+    "message": "Importación exitosa",
+    "description": "考试快捷地址"
+  },
+  "insertFail": {
+    "message": "Importación fallida",
+    "description": "考试快捷地址"
+  },
+  "allPaper": {
+    "message": "Todos los exámenes",
+    "description": "考试快捷地址"
+  },
+  "statistics": {
+    "message": "Estadísticas",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[0]": {
+    "message": "Orden predeterminado",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[1]": {
+    "message": "El más coleccionable",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[2]": {
+    "message": "La mayoría de los temas",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[3]": {
+    "message": "Última actualización",
+    "description": "考试快捷地址"
+  },
+  "searchBank": {
+    "message": "Buscar en el banco de preguntas",
+    "description": "考试快捷地址"
+  },
+  "from": {
+    "message": "Original",
+    "description": "考试快捷地址"
+  },
+  "questionNums": {
+    "message": "Número de preguntas",
+    "description": "考试快捷地址"
+  },
+  "updateTime": {
+    "message": "Ultima actualización",
+    "description": "考试快捷地址"
+  },
+  "timeOver": {
+    "message": "Caducado",
+    "description": "考试快捷地址"
+  },
+  "deadLine": {
+    "message": "Válido hasta",
+    "description": "考试快捷地址"
+  },
+  "collect": {
+    "message": "Favorito",
+    "description": "考试快捷地址"
+  },
+  "cancelCollect": {
+    "message": "No favorito",
+    "description": "考试快捷地址"
+  },
+  "requestSuccess": {
+    "message": "{msg} éxito",
+    "description": "考试快捷地址"
+  },
+  "requestFail": {
+    "message": "{msg} falló",
+    "description": "考试快捷地址"
+  },
+  "noShareBank": {
+    "message": "No se han encontrado grupos coincidentes",
+    "description": "考试快捷地址"
+  },
+  "shareBankTip": {
+    "message": "Un banco de preguntas compartido importado del exterior está disponible para todos los profesores de la escuela.",
+    "description": "考试快捷地址"
+  },
+  "shareFolderTip": {
+    "message": "¡Se han actualizado las carpetas compartidas!",
+    "description": "考试快捷地址"
+  },
+  "shareFolderTip1": {
+    "message": "Una nueva versión de las carpetas compartidas permite a los profesores trabajar juntos como un equipo para administrar trabajos o preguntas en la misma carpeta. Si necesitas seguir compartiendo exámenes o preguntas con otros profesores, puedes crear una carpeta en [Carpeta compartida], configurar los miembros del equipo de uso compartido y mover el contenido que se va a compartir a la carpeta correspondiente.",
+    "description": "考试快捷地址"
+  },
+  "updateDesc": {
+    "message": "Descripción de la actualización:",
+    "description": "考试快捷地址"
+  },
+  "paperUpdateDesc": {
+    "message": "Las funciones originales [Nuestros exámenes escolares] y [Compartir exámenes] han estado fuera de línea, utilice la [Carpeta compartida] en [Mis exámenes] para que el equipo docente comparta los exámenes.",
+    "description": "考试快捷地址"
+  },
+  "link": {
+    "message": "Entrada de legado",
+    "description": "考试快捷地址"
+  },
+  "questionUpdateDesc": {
+    "message": "Las funciones originales [Banco de preguntas de la escuela local] y [Banco de preguntas compartidas] han estado fuera de línea, use la [Carpeta compartida] en [Mi banco de preguntas] para que los maestros compartan preguntas.",
+    "description": "考试快捷地址"
+  },
+  "moveErrorTip1": {
+    "message": "El papel o la carpeta del examen no existe",
+    "description": "考试快捷地址"
+  },
+  "moveErrorTip4": {
+    "message": "La pregunta o carpeta no existe",
+    "description": "考试快捷地址"
+  },
+  "mobileGoBack": {
+    "message": "Retrocede un nivel",
+    "description": "考试快捷地址"
+  },
+  "quitCheckAll": {
+    "message": "Cancelar seleccionar todo",
     "description": "考试快捷地址"
   }
 }
