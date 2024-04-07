@@ -3290,5 +3290,549 @@
   "deletePaperTip2": {
     "message": "{name} ไม่ใช่ผู้สร้างและไม่สามารถลบได้",
     "description": "考试快捷地址"
+  },
+  "deletePaperTip3": {
+    "message": "{name} ไม่มีอยู่",
+    "description": "考试快捷地址"
+  },
+  "deletePaper": {
+    "message": "ลบข้อสอบ",
+    "description": "考试快捷地址"
+  },
+  "deleteFolder": {
+    "message": "ลบโฟลเดอร์",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderIntro1": {
+    "message": "หากคุณเลือกเก็บเอกสารทดสอบลบเฉพาะโฟลเดอร์เอกสารทดสอบที่อยู่ในโฟลเดอร์จะถูกย้ายไปยังไดเรกทอรีรากหลังจากการลบ",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderIntro2": {
+    "message": "หากคุณเลือกลบทั้งหมดเอกสารทดสอบในโฟลเดอร์จะถูกลบเช่นกัน",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderIntro3": {
+    "message": "เก็บข้อสอบไว้ ลบเพียงแฟ้มเอกสาร",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderTip": {
+    "message": "โฟลเดอร์นี้มีเอกสารทดสอบที่สร้างโดยผู้อื่นและไม่สามารถลบได้โดยตรง<br />หากคุณต้องการลบก่อนอื่นให้นํากระดาษทดสอบที่สร้างโดยบุคคลอื่นออก",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderTip1": {
+    "message": "โฟลเดอร์ประกอบด้วยเอกสารที่ใช้ในการสอบและไม่สามารถลบได้",
+    "description": "考试快捷地址"
+  },
+  "deleteFolderTip2": {
+    "message": "โฟลเดอร์ประกอบด้วยเอกสารทดสอบที่ไม่มีอยู่และไม่สามารถลบได้โดยตรง",
+    "description": "考试快捷地址"
+  },
+  "batchDelete1": {
+    "message": "ลบเป็นกลุ่ม",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelected": {
+    "message": "คุณแน่ใจหรือไม่ว่าจะลบรายการ {n} ที่เลือกเป็นกลุ่ม",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelectedTip": {
+    "message": "รายการที่เลือกมีเอกสารทดสอบที่สร้างโดยผู้อื่นและไม่สามารถลบเป็นกลุ่มได้",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelectedTip1": {
+    "message": "รายการที่เลือกประกอบด้วยเอกสารที่ใช้ในการสอบแล้วและไม่สามารถลบเป็นกลุ่มได้",
+    "description": "考试快捷地址"
+  },
+  "confirmDeleteSelectedTip2": {
+    "message": "รายการที่เลือกประกอบด้วยเอกสารทดสอบที่ไม่มีอยู่และไม่สามารถลบเป็นกลุ่มได้",
+    "description": "考试快捷地址"
+  },
+  "noPaperTip": {
+    "message": "ไม่พบเอกสารที่เข้าเกณฑ์",
+    "description": "考试快捷地址"
+  },
+  "noShareFolderTip": {
+    "message": "ไม่พบโฟลเดอร์ที่ใช้ร่วมกันที่มีสิทธิ์",
+    "description": "考试快捷地址"
+  },
+  "loadErrorTip": {
+    "message": "หากเครือข่ายผิดปกติ โปรดคลิก {reload}",
+    "description": "考试快捷地址"
+  },
+  "reload": {
+    "message": "โหลดใหม่",
+    "description": "考试快捷地址"
+  },
+  "copySuccess2": {
+    "message": "คัดลอกสำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolder": {
+    "message": "ลบโฟลเดอร์ที่แชร์",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolderTip1": {
+    "message": "หากคุณลบโฟลเดอร์ที่แชร์โฟลเดอร์ย่อยและเอกสารทดสอบที่อยู่ในโฟลเดอร์นั้นจะถูกย้ายกลับไปยังไดเรกทอรีส่วนตัวของผู้สร้างและจะไม่ถูกลบพร้อมกัน",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolderTip3": {
+    "message": "หากคุณลบโฟลเดอร์ที่แชร์โฟลเดอร์ย่อยและคําถามที่อยู่ในโฟลเดอร์นั้นจะถูกย้ายกลับไปยังไดเรกทอรีส่วนตัวของผู้สร้างและจะไม่ถูกลบพร้อมกัน",
+    "description": "考试快捷地址"
+  },
+  "deleteShareFolderTip2": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบโฟลเดอร์ที่แชร์นี้",
+    "description": "考试快捷地址"
+  },
+  "exitShareTip": {
+    "message": "เมื่อคุณปล่อยไว้ คุณจะไม่สามารถดูและใช้เอกสารในโฟลเดอร์ที่แชร์ได้อีกต่อไป",
+    "description": "考试快捷地址"
+  },
+  "exitShareTip1": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการแชร์",
+    "description": "考试快捷地址"
+  },
+  "inputPw": {
+    "message": "ป้อนรหัสผ่าน",
+    "description": "考试快捷地址"
+  },
+  "inputCheckPw": {
+    "message": "โปรดป้อนรหัสผ่านการเข้าถึง",
+    "description": "考试快捷地址"
+  },
+  "forgetPw": {
+    "message": "ลืมรหัสผ่าน",
+    "description": "考试快捷地址"
+  },
+  "authentication": {
+    "message": "ยืนยันตัวตน",
+    "description": "考试快捷地址"
+  },
+  "authenticationMethods": {
+    "message": "รูปแบบการยืนยัน",
+    "description": "考试快捷地址"
+  },
+  "mobileSMS": {
+    "message": "เอสเอ็มเอส",
+    "description": "考试快捷地址"
+  },
+  "email": {
+    "message": "ตู้จดหมาย",
+    "description": "考试快捷地址"
+  },
+  "captcha": {
+    "message": "captcha แบบกราฟิก",
+    "description": "考试快捷地址"
+  },
+  "emailCaptcha": {
+    "message": "รหัสยืนยันทางอีเมล",
+    "description": "考试快捷地址"
+  },
+  "SMSCaptcha": {
+    "message": "รหัสยืนยัน SMS",
+    "description": "考试快捷地址"
+  },
+  "getCaptcha": {
+    "message": "รับรหัสยืนยัน",
+    "description": "考试快捷地址"
+  },
+  "reacquiredSeconds": {
+    "message": "{s} วินาทีต่อมา",
+    "description": "考试快捷地址"
+  },
+  "setLockPw": {
+    "message": "ตั้งรหัสผ่านที่เก็บถาวร",
+    "description": "考试快捷地址"
+  },
+  "updateLockPw": {
+    "message": "เปลี่ยนรหัสผ่านที่ปิดผนึกไว้",
+    "description": "考试快捷地址"
+  },
+  "oldPw": {
+    "message": "รหัสผ่านเก่า",
+    "description": "考试快捷地址"
+  },
+  "newPw": {
+    "message": "รหัสผ่านใหม่",
+    "description": "考试快捷地址"
+  },
+  "newPwAgain": {
+    "message": "ป้อนรหัสผ่านใหม่อีกครั้ง",
+    "description": "考试快捷地址"
+  },
+  "deleteLockPw": {
+    "message": "ลบรหัสผ่านที่ปิดผนึกไว้",
+    "description": "考试快捷地址"
+  },
+  "inputAgain": {
+    "message": "ป้อนอีกครั้ง",
+    "description": "考试快捷地址"
+  },
+  "setLockPwTip": {
+    "message": "หลังจากตั้งค่ารหัสผ่านที่ปิดผนึกแล้ว คุณสามารถปิดผนึกเอกสารหรือโฟลเดอร์ที่ระบุ",
+    "description": "考试快捷地址"
+  },
+  "inputCodeTip": {
+    "message": "กรุณาใส่รหัสยืนยัน",
+    "description": "考试快捷地址"
+  },
+  "lockTip": {
+    "message": "บัญชีของคุณไม่ได้เชื่อมโยงกับโทรศัพท์มือถือหรือที่อยู่อีเมลดังนั้นในกรณีที่คุณลืมรหัสผ่านโปรดผูกโทรศัพท์มือถือหรือที่อยู่อีเมลของคุณกับโปรไฟล์ของคุณก่อน",
+    "description": "考试快捷地址"
+  },
+  "bindBtn": {
+    "message": "ไปผูก",
+    "description": "考试快捷地址"
+  },
+  "pwNotSame": {
+    "message": "รหัสผ่านที่ป้อนสองครั้งไม่ตรงกัน",
+    "description": "考试快捷地址"
+  },
+  "pwError": {
+    "message": "รหัสผ่านไม่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "pwError1": {
+    "message": "รหัสผ่านควรเป็นตัวเลขหรือตัวอักษร 6-16 หลัก",
+    "description": "考试快捷地址"
+  },
+  "deleteLockPwTip": {
+    "message": "หลังจากลบรหัสผ่านที่เก็บถาวรเอกสารทดสอบและโฟลเดอร์ที่ปิดผนึกทั้งหมดจะถูกปิดผนึก",
+    "description": "考试快捷地址"
+  },
+  "captchaError": {
+    "message": "รหัสยืนยันไม่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "inputCaptcha": {
+    "message": "กรุณาใส่รหัสยืนยันแบบกราฟิก",
+    "description": "考试快捷地址"
+  },
+  "codeError": {
+    "message": "รหัสยืนยันไม่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "codeInvalid1": {
+    "message": "รหัสยืนยันไม่ถูกต้องโปรดรับอีกครั้ง",
+    "description": "考试快捷地址"
+  },
+  "inputPasswordAgain": {
+    "message": "กรุณาใส่รหัสผ่านอีกครั้ง",
+    "description": "考试快捷地址"
+  },
+  "paper": {
+    "message": "กระดาษทดสอบ",
+    "description": "考试快捷地址"
+  },
+  "teamsMaxCount": {
+    "message": "สามารถเพิ่มสมาชิกได้สูงสุด {n} คน",
+    "description": "考试快捷地址"
+  },
+  "selectPaperIntro": {
+    "message": "เลือกกระดาษแบบทดสอบและนําเข้าคําถามจากกระดาษแบบทดสอบไปยังไดเรกทอรีธนาคารคําถามปัจจุบัน โดยเลือกเอกสารแบบทดสอบได้ครั้งละไม่เกิน {n} ชุด",
+    "description": "考试快捷地址"
+  },
+  "insertPaperTip": {
+    "message": "กรุณาเลือกข้อสอบ",
+    "description": "考试快捷地址"
+  },
+  "insertPaperTip1": {
+    "message": "เลือกเอกสารแบบทดสอบได้ครั้งละไม่เกิน {n} ชุด",
+    "description": "考试快捷地址"
+  },
+  "insertSuccess": {
+    "message": "นำเข้าสำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "insertFail": {
+    "message": "นำเข้าไม่สำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "allPaper": {
+    "message": "ข้อสอบทั้งหมด",
+    "description": "考试快捷地址"
+  },
+  "statistics": {
+    "message": "สถิติ",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[0]": {
+    "message": "การจัดเรียงเริ่มต้น",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[1]": {
+    "message": "ของสะสมมากที่สุด",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[2]": {
+    "message": "หัวข้อมากที่สุด",
+    "description": "考试快捷地址"
+  },
+  "bankSortTypes[3]": {
+    "message": "อัปเดตครั้งล่าสุด",
+    "description": "考试快捷地址"
+  },
+  "searchBank": {
+    "message": "ค้นหาคลังคําถาม",
+    "description": "考试快捷地址"
+  },
+  "from": {
+    "message": "แหล่งที่มา",
+    "description": "考试快捷地址"
+  },
+  "questionNums": {
+    "message": "จํานวนคําถาม",
+    "description": "考试快捷地址"
+  },
+  "updateTime": {
+    "message": "อัพเดทล่าสุด",
+    "description": "考试快捷地址"
+  },
+  "timeOver": {
+    "message": "หมด อายุ",
+    "description": "考试快捷地址"
+  },
+  "deadLine": {
+    "message": "ใช้ได้จนถึง",
+    "description": "考试快捷地址"
+  },
+  "collect": {
+    "message": "เหล่า",
+    "description": "考试快捷地址"
+  },
+  "cancelCollect": {
+    "message": "ไม่ชอบ",
+    "description": "考试快捷地址"
+  },
+  "requestSuccess": {
+    "message": "{msg} สําเร็จ",
+    "description": "考试快捷地址"
+  },
+  "requestFail": {
+    "message": "{msg} ล้มเหลว",
+    "description": "考试快捷地址"
+  },
+  "noShareBank": {
+    "message": "ไม่พบพูลที่ตรงกัน",
+    "description": "考试快捷地址"
+  },
+  "shareBankTip": {
+    "message": "ธนาคารคําถามที่ใช้ร่วมกันที่นําเข้าจากภายนอกมีให้สําหรับครูทุกคนในโรงเรียน",
+    "description": "考试快捷地址"
+  },
+  "shareFolderTip": {
+    "message": "โฟลเดอร์ที่ใช้ร่วมกันได้รับการอัปเกรดแล้ว!",
+    "description": "考试快捷地址"
+  },
+  "shareFolderTip1": {
+    "message": "โฟลเดอร์ที่ใช้ร่วมกันเวอร์ชันใหม่ช่วยให้ครูสามารถทํางานร่วมกันเป็นทีมเพื่อจัดการเอกสารหรือคําถามในโฟลเดอร์เดียวกันได้ หากคุณต้องการแชร์เอกสารทดสอบหรือคําถามกับครูคนอื่นๆ ต่อไป คุณสามารถสร้างโฟลเดอร์ใน [โฟลเดอร์ที่ใช้ร่วมกัน] ตั้งค่าสมาชิกในทีมที่แชร์ และย้ายเนื้อหาที่จะแชร์ไปยังโฟลเดอร์ที่เกี่ยวข้อง",
+    "description": "考试快捷地址"
+  },
+  "updateDesc": {
+    "message": "ปรับปรุงคําอธิบาย:",
+    "description": "考试快捷地址"
+  },
+  "paperUpdateDesc": {
+    "message": "ฟังก์ชัน [Our School Test Papers] และ [Share Test Papers] ดั้งเดิมออฟไลน์อยู่ โปรดใช้ [Shared Folder] ใน [My Test Papers] เพื่อให้ทีมครูแชร์เอกสารทดสอบ",
+    "description": "考试快捷地址"
+  },
+  "link": {
+    "message": "ทางเข้ามรดก",
+    "description": "考试快捷地址"
+  },
+  "questionUpdateDesc": {
+    "message": "ฟังก์ชัน [Local School Question Bank] และ [Shared Question Bank] ดั้งเดิมออฟไลน์อยู่ โปรดใช้ [Shared Folder] ใน [My Question Bank] เพื่อให้ครูแบ่งปันคําถาม",
+    "description": "考试快捷地址"
+  },
+  "moveErrorTip1": {
+    "message": "ไม่มีกระดาษหรือโฟลเดอร์ข้อสอบ",
+    "description": "考试快捷地址"
+  },
+  "moveErrorTip4": {
+    "message": "ไม่มีคําถามหรือโฟลเดอร์",
+    "description": "考试快捷地址"
+  },
+  "mobileGoBack": {
+    "message": "กลับไปยังระดับก่อนหน้าของเนื้อหา",
+    "description": "考试快捷地址"
+  },
+  "quitCheckAll": {
+    "message": "ยกเลิกการเลือกทั้งหมด",
+    "description": "考试快捷地址"
+  },
+  "notAllowCopy": {
+    "message": "ไม่อนุญาตให้มีการจําลองแบบ",
+    "description": "考试快捷地址"
+  },
+  "isArchiveTip": {
+    "message": "โฟลเดอร์ที่ใช้ร่วมกันในปัจจุบันถูกเก็บถาวร",
+    "description": "考试快捷地址"
+  },
+  "moveQue": {
+    "message": "ย้ายคําถาม",
+    "description": "考试快捷地址"
+  },
+  "createQue": {
+    "message": "สร้างคําถาม",
+    "description": "考试快捷地址"
+  },
+  "appCreateQueMsg": {
+    "message": "เทอร์มินัลมือถือไม่รองรับการสร้างคําถามประเภทอื่นๆ โปรดสร้างจากคอมพิวเตอร์",
+    "description": "考试快捷地址"
+  },
+  "saveCreateQue": {
+    "message": "บันทึกและสร้างคําถามต่อไป",
+    "description": "考试快捷地址"
+  },
+  "submitQue": {
+    "message": "สร้างสำเร็จ",
+    "description": "考试快捷地址"
+  },
+  "queScoreError": {
+    "message": "คะแนนต้องอยู่ระหว่าง 0 ถึง 100 โดยมีทศนิยมหนึ่งตําแหน่ง",
+    "description": "考试快捷地址"
+  },
+  "saveQue": {
+    "message": "บันทึกคําถาม",
+    "description": "考试快捷地址"
+  },
+  "choicePict": {
+    "message": "เลือกอัลบั้ม",
+    "description": "考试快捷地址"
+  },
+  "choicePict1": {
+    "message": "เลือกจากเครื่องนี้",
+    "description": "考试快捷地址"
+  },
+  "moveMsg": {
+    "message": "วัตถุที่ย้ายมีคําถามที่สร้างโดยผู้อื่น และสามารถย้ายได้ภายในโฟลเดอร์ที่แชร์ปัจจุบันเท่านั้น",
+    "description": "考试快捷地址"
+  },
+  "noFolder": {
+    "message": "ไม่มีโฟลเดอร์ย่อย",
+    "description": "考试快捷地址"
+  },
+  "choiceMsg": {
+    "message": "คลิกที่ตัวอักษรตัวเลือกเพื่อตั้งค่าเป็นคําตอบที่ถูกต้อง",
+    "description": "考试快捷地址"
+  },
+  "setAnswer": {
+    "message": "ตั้งคําตอบ",
+    "description": "考试快捷地址"
+  },
+  "changeTabMsg": {
+    "message": "เมื่อคุณสลับประเภทคําถาม เนื้อหาที่แก้ไขแล้วจะไม่ถูกบันทึก คุณแน่ใจเกี่ยวกับสวิตช์หรือไม่?",
+    "description": "考试快捷地址"
+  },
+  "goBackMsg": {
+    "message": "หลังจากกลับมาเนื้อหาที่แก้ไขของคําถามจะไม่ถูกบันทึกคุณแน่ใจว่าจะส่งคืนหรือไม่",
+    "description": "考试快捷地址"
+  },
+  "optionContentNew": {
+    "message": "โปรดป้อนตัวเลือก",
+    "description": "考试快捷地址"
+  },
+  "soundRecording": {
+    "message": "คลิกเริ่มบันทึกเสียง",
+    "description": "考试快捷地址"
+  },
+  "soundRecording1": {
+    "message": "กำลังบันทึกเสียงอยู่ คลิกรูประลอกเพิ่อหยุดบันทึกเสียง",
+    "description": "考试快捷地址"
+  },
+  "soundRecording2": {
+    "message": "อัปโหลดอีกครั้ง",
+    "description": "考试快捷地址"
+  },
+  "soundRecording3": {
+    "message": "หมายเหตุ ไม่จำเป็นต้องกรอก ไม่เกิน 200 ตัวอักษร",
+    "description": "考试快捷地址"
+  },
+  "insertQue": {
+    "message": "แทรกรายการเติมในช่องว่าง",
+    "description": "考试快捷地址"
+  },
+  "deleQueNote": {
+    "message": "คุณแน่ใจหรือไม่ว่าต้องการลบคําถาม",
+    "description": "考试快捷地址"
+  },
+  "imgloading": {
+    "message": "กําลังอัปโหลดรูปภาพ",
+    "description": "考试快捷地址"
+  },
+  "fileLoading": {
+    "message": "มีไฟล์อยู่ในขั้นตอนการอัปโหลด โปรดอัปโหลดในภายหลัง",
+    "description": "考试快捷地址"
+  },
+  "AIQuestionTitle": {
+    "message": "คําถามอัจฉริยะ AI",
+    "description": "考试快捷地址"
+  },
+  "questionTextType1": {
+    "message": "สร้างคําถามตามคําอธิบาย",
+    "description": "考试快捷地址"
+  },
+  "questionTextType2": {
+    "message": "สร้างคําถามตามข้อความ",
+    "description": "考试快捷地址"
+  },
+  "questionTextDesc1": {
+    "message": "โปรดป้อนข้อกําหนดคําถามด้านล่าง (คําถามถูกสร้างขึ้นโดยโมเดลขนาดใหญ่ AI ซึ่งไม่สามารถรับประกันความถูกต้องของเนื้อหาได้อย่างเต็มที่ ขอแนะนําให้ตรวจสอบก่อนบันทึก)",
+    "description": "考试快捷地址"
+  },
+  "questionTextDesc2": {
+    "message": "โปรดป้อนข้อกําหนดด้านล่างยิ่งข้อความเจาะจงมากเท่าไหร่ผลการสร้างคําถามก็จะยิ่งแม่นยํามากขึ้นเท่านั้น",
+    "description": "考试快捷地址"
+  },
+  "questionPlaceholder1": {
+    "message": "ป้อนข้อกําหนดของคําถาม เช่น การปฏิวัติซินไห่",
+    "description": "考试快捷地址"
+  },
+  "questionPlaceholder2": {
+    "message": "ป้อนเนื้อหาข้อความ จากนั้น AI จะดึงประเด็นหลักออกจากเนื้อหาและสร้างคําถาม",
+    "description": "考试快捷地址"
+  },
+  "AIQuestionBtn": {
+    "message": "สร้างคําถาม",
+    "description": "考试快捷地址"
+  },
+  "AIQuestionTip": {
+    "message": "กําลังสร้างคําถาม โปรดรอสักครู่...",
+    "description": "考试快捷地址"
+  },
+  "beta": {
+    "message": "เบต้าแบบปิด",
+    "description": "考试快捷地址"
+  },
+  "maxCountTip": {
+    "message": "ป้อนอักขระได้สูงสุด {max}",
+    "description": "考试快捷地址"
+  },
+  "knowledgePoints": {
+    "message": "จุดความรู้",
+    "description": "考试快捷地址"
+  },
+  "relateKnowledgePoints": {
+    "message": "เชื่อมโยงจุดความรู้",
+    "description": "考试快捷地址"
+  },
+  "completeRemarkTip2": {
+    "message": "หากคุณต้องการทําเครื่องหมายเอกสารทดสอบต่อไปโปรดออกและคัดกรองผู้สมัครอีกครั้งเพื่อทําเครื่องหมาย",
+    "description": "考试快捷地址"
+  },
+  "qrQuestionAnswer": {
+    "message": "สแกนเพื่อดูคําตอบ",
+    "description": "考试快捷地址"
+  },
+  "exerciseQuestion": {
+    "message": "ออก กำลัง กาย",
+    "description": "考试快捷地址"
+  },
+  "draft": {
+    "message": "แบบร่าง",
+    "description": "考试快捷地址"
+  },
+  "draftTip": {
+    "message": "โปรดแก้ไขข้อมูลการสอบบนพีซีของคุณ",
+    "description": "考试快捷地址"
   }
 }
