@@ -1,10 +1,4502 @@
 {
+  "organization.orgnization": {
+    "message": "إدارة المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgDesc": {
+    "message": "عرض قائمة مؤسسات المنظمة وإنشاء المجموعات الفرعية وإدارتها",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addTenant": {
+    "message": "إضافة المستأجر",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addOrganization": {
+    "message": "أضف فرع مؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.search": {
+    "message": "بحث",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.allStatus": {
+    "message": "الحالة الكلية",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.trial": {
+    "message": "تجربة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.normal": {
+    "message": "عادي",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.expiringSoon": {
+    "message": "قارب على الانتهاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.discontinued": {
+    "message": "إيقاف",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.suspend": {
+    "message": "إيقاف",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.archive": {
+    "message": "أرشيف",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgName": {
+    "message": "اسم المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.admin": {
+    "message": "مسؤول النظام",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.startTime": {
+    "message": "موعد البدء",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.status": {
+    "message": "حالة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.action": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.view": {
+    "message": "عرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.edit": {
+    "message": "تعديل",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addSubOrg": {
+    "message": "إضافة مؤسسة فرعية",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.activate": {
+    "message": "تنشيط",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addTenantDesc": {
+    "message": "أضف مؤسسة فرعية، وانقر على إدارة المؤسسة لعرض المعلومات التفصيلية",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.parentOrg": {
+    "message": "مؤسسة أعلى",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgType": {
+    "message": "نوع المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.remarkOptional": {
+    "message": "ملاحظات (اختياري)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.cancel": {
+    "message": "إلغاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.save": {
+    "message": "حفظ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.createdSuccess": {
+    "message": "تم الإنشاء بنجاح.",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.createdSuccessDesc": {
+    "message": "تم إنشاء المستأجر الجديد بنجاح. انقر فوق زر الرجوع للعودة إلى الواجهة. انقر فوق الرابط أدناه لإعداد المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.generalSettings": {
+    "message": "الإعدادات الأساسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.accountSettings": {
+    "message": "إضافة حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.featuresSettings": {
+    "message": "إعداد الميزات",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.back": {
+    "message": "رجوع",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.serverError": {
+    "message": "خطأ في الخادم",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.serverErrorDesc": {
+    "message": "حدث خطأ في الخادم ولم يتم إرسال البيانات. انقر فوق \"إعادة المحاولة\" لإعادة الإرسال، أو انقر فوق \"إلغاء\" لإغلاق النافذة المنبثقة وإعادة المحاولة لاحقًا.",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.tryAgain": {
+    "message": "حاول مجدداً",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.settings": {
+    "message": "إعدادات",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.settingsDesc": {
+    "message": "قم بتكوين المؤسسة، وأظهر «إعدادات المؤسسة» لعرض التفاصيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.general": {
+    "message": "إعدادات عامة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.features": {
+    "message": "إعدادات الميزات",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.resources": {
+    "message": "إعدادات المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.apps": {
+    "message": "تطبيق",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.basicSettings": {
+    "message": "إعدادات النظام",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.remark": {
+    "message": "ملاحظات",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.detailSettings": {
+    "message": "إعدادات مفصلة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgId": {
+    "message": "معرف المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgLogo": {
+    "message": "أيقونة المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.defaultTimezone": {
+    "message": "المنطقة الزمنية الافتراضية",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.language": {
+    "message": "اللغة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteNameOptional": {
+    "message": "اسم الموقع (اختياري)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.customDomain": {
+    "message": "تخصيص اسم المجال",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.orgAddressOptional": {
+    "message": "مسار المؤسسة (اختياري)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.phoneOptional": {
+    "message": "رقم الهاتف (اختياري)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.emailOptional": {
+    "message": "إيميل تواصل (اختياري)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.privacyPolicies": {
+    "message": "إعدادات الخصوصية",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.policyType": {
+    "message": "نوع الخصوصية",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.policyContent": {
+    "message": "محتويات اتفاقية الخصوصية",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.updateSettings": {
+    "message": "تحديث الإعدادات",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.reset": {
+    "message": "إعادة تعيين",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.default": {
+    "message": "افتراضي",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.custom": {
+    "message": "تخصيص",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.resetconfirm": {
+    "message": "تأكيد إعادة التعيين",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.resetconfirmDesc": {
+    "message": "لقد أجريت بعض التعديلات على هذه الحقول، هل تؤكد إعادة تعيينها؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.confirm": {
+    "message": "التأكيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.updateSuccess": {
+    "message": "تُحديث ناجح",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.saveSuccess": {
+    "message": "تم الحفظ بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.title": {
+    "message": "تسجيل الدخول",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.username": {
+    "message": "اسم المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.password": {
+    "message": "كلمة المرور",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.logIn": {
+    "message": "تسجيل الدخول",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.tokenTips": {
+    "message": "انتهاء صلاحية حالة تسجيل الدخول",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.loginStatus": {
+    "message": "لقد انتهت صلاحية دخولك! يمكنك إلغاء البقاء على هذه الصفحة، أو النقر فوق [تأكيد] لتسجيل الدخول مرة أخرى",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.reloginBtn": {
+    "message": "أكّد",
+    "description": "新版管理后台 zh.json"
+  },
+  "login.cancelBtn": {
+    "message": "إلغاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.organizationManager": {
+    "message": "إدارة المؤسسات",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.organizationSetting": {
+    "message": "إعدادات المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.setting": {
+    "message": "إعدادات",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.permissionManager": {
+    "message": "إدارة الصلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.announcements": {
+    "message": "إعلان رسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.courseManager": {
+    "message": "إدارة الدورات",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.courseStatistics": {
+    "message": "إحصاءات المقرر",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.courseAnalysis": {
+    "message": "تحليل المادة الدراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.examManage": {
+    "message": "إدارة الامتحانات",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.examAnalysis": {
+    "message": "تحليل الامتحان",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.routerBack": {
+    "message": "رجوع",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.people": {
+    "message": "المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.liveOptions": {
+    "message": "إعداد غرفة اجتماعات السحابة",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.live": {
+    "message": "بث مباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.liveAnalysis": {
+    "message": "تحليل البث المباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionDesc": {
+    "message": "إدارة أذونات وإعدادات النظام والدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionRegist": {
+    "message": "تسجيل الصلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroup": {
+    "message": "مجموعة الصلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManager": {
+    "message": "إدارة الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicManager": {
+    "message": "إدارة الوظائف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.keywordPlaceholder": {
+    "message": "أدخل كلمة مفتاحية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.statusPlaceholder": {
+    "message": "الكل درجات تقسيم إلى مجموعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristic": {
+    "message": "جديد",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader1": {
+    "message": "الاسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader2": {
+    "message": "المؤسسة المناسبة",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader3": {
+    "message": "تقسيم إلى مجموعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader4": {
+    "message": "وسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader5": {
+    "message": "هل يمكن تمكينها؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader6": {
+    "message": "هل تعرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader7": {
+    "message": "هل يتم القفل",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.characteristicListHeader8": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicAdd": {
+    "message": "ميزات جديدة",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicEdit": {
+    "message": "تعديل الميزات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.saveBtn": {
+    "message": "حفظ",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.cancelBtn": {
+    "message": "إلغاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem1": {
+    "message": "الاسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder1": {
+    "message": "إدخال اسم الخاصية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem2": {
+    "message": "المُعَرِّف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder2": {
+    "message": "أدخل اسم المعرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem3": {
+    "message": "تقسيم إلى مجموعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder3": {
+    "message": "الرجاء اختيار التقسيم إلى مجموعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem4": {
+    "message": "وسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder4": {
+    "message": "إضافة وسم لهذه الخاصية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem5": {
+    "message": "المؤسسات ذات الصلة",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem6": {
+    "message": "الصلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder6": {
+    "message": "قم بتعيين الصلاحيات المرتبطة بالميزة، فعند إغلاق الميزة، لا يمكن لأي دور في المؤسسة الوصول إلى مصادر هذه الصلاحيات.",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem7": {
+    "message": "هل تمكين",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem8": {
+    "message": "هل تريد العرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem9": {
+    "message": "هل يمكن قفله",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicFormitem10": {
+    "message": "الوصف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addCharacteristicplaceholder10": {
+    "message": "أضف توضيحًا للميزة",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.OrgType1": {
+    "message": "مؤسسة إدارية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.OrgType2": {
+    "message": "مؤسسة التدريس",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.OrgType3": {
+    "message": "مؤسسة داخلية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.edit": {
+    "message": "تعديل",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.delete": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.requierTip": {
+    "message": "حقل مطلوب",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.repeatTip": {
+    "message": "هذا الاسم مستخدم بالفعل، يرجى استخدام اسم آخر",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.formTip1": {
+    "message": "يجب ألا يتجاوز النص {num} حرفًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.saveSuccessTip": {
+    "message": "تمت إضافة الخاصية بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.editSuccessTip": {
+    "message": "تم تعديل الخاصية بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteSuccessTip": {
+    "message": "إزالة السمة بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionConfirmTitle": {
+    "message": "تأكيد العمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionConfirmDesc": {
+    "message": "ستؤثر هذه العملية على جميع المؤسسات في النظام، يرجى التأكيد ثم المتابعة.",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionConfirmTip": {
+    "message": "إدخال '{msg}' للتأكيد على العملية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionConfirmMsg": {
+    "message": "تغيير الميزات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteConfirmTitle": {
+    "message": "حذف الميزة",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteConfirmDesc": {
+    "message": "حذف الصفة فستتم في نفس الوقت إزالة إعدادات المنظمة لهذه الصفة هذه العملية لا رجعة فيها تأكد من الانتهاء من تجهيز التعليمات البرمجية ذات الصلة قبل متابعة هذه العملية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.confirmBtn": {
+    "message": "التأكيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.features": {
+    "message": "ميزات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteBtn": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader1": {
+    "message": "الاسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader2": {
+    "message": "تطبيق",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader3": {
+    "message": "نوع",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader4": {
+    "message": "بيان الصلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader5": {
+    "message": "رتب",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader6": {
+    "message": "توجيه",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader7": {
+    "message": "واجهة",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader8": {
+    "message": "هل تعرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionHeader9": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.appPickerPlaceholder": {
+    "message": "الكل التطبيقات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.menuType1": {
+    "message": "فهرس",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.menuType2": {
+    "message": "قائمة",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.menuType3": {
+    "message": "صفحة",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.menuType4": {
+    "message": "عناصر الصفحة",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionCheckPwd": {
+    "message": "أدخل كلمة مرور المسؤول للتأكيد على الإجراء أعلاه",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader1": {
+    "message": "الاسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader2": {
+    "message": "مجال الأدوار",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader3": {
+    "message": "تصنيف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader4": {
+    "message": "رتب",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader5": {
+    "message": "إظهار؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupHeader6": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGriupFilterPlaceholder1": {
+    "message": "كل الأدوار",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGriupFilterPlaceholder2": {
+    "message": "الكل",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupAdd": {
+    "message": "إضافة مجموعة صلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGroupEdit": {
+    "message": "مجموعة صلاحيات التحرير",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem1": {
+    "message": "الاسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder1": {
+    "message": "أدخل اسم مجموعة التصاريح",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem2": {
+    "message": "مجال الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder2": {
+    "message": "إختر مجال الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem3": {
+    "message": "تصنيف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder3": {
+    "message": "إختر التصنيف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem4": {
+    "message": "الصلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder4": {
+    "message": "إختر الصلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem5": {
+    "message": "رتب",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder5": {
+    "message": "أدخل رقم مجموعة الصلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem6": {
+    "message": "هل ترغب في العرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItem7": {
+    "message": "الوصف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionGropuFormItemPlaceholder7": {
+    "message": "إدخال معلومات الوصف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deletePermissionGroupConfirmTitle": {
+    "message": "تأكيد العمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deletePermissionGroupConfirmDesc": {
+    "message": "هل أنت متأكد أنك تريد حذف مجموعة الصلاحيات هذه؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deletePermissionGroupConfirmTitle1": {
+    "message": "تحذير",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deletePermissionGroupConfirmBtn": {
+    "message": "أغلق",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deletePermissionGroupConfirmDesc1": {
+    "message": "تم ربط مجموعة الأذونات هذه بالدور، يرجى الاتصال بالدور المرتبط قبل تنفيذ عملية الحذف.",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.changeStatusDesc": {
+    "message": "هل انت متأكد من تعديل مجموعة الصلاحيات، حيث ستؤثر على جميع الأدوار المرتبطة بمجموعة الصلاحيات هذه؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionCreatetSuccess": {
+    "message": "تمت الإضافة مجموعة الصلاحيات بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionEditSuccess": {
+    "message": "تم تعديل مجموعة الصلاحيات بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.permissionDeleteSuccess": {
+    "message": "حُذفت مجموعة الصلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.saveSuccess": {
+    "message": "حفظ ناجح",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManageradd": {
+    "message": "إضافة",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerPlaceload1": {
+    "message": "جميع مجالات الأدوار",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerPlaceload2": {
+    "message": "كل الأدوار الأساسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader1": {
+    "message": "الاسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader2": {
+    "message": "صلاحية الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader3": {
+    "message": "الدور الأساسي",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader4": {
+    "message": "نطاق الاستخدام",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader5": {
+    "message": "تعليمات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader6": {
+    "message": "عدد الأشخاص ذوي الأدوار",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerHeader7": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormTitle": {
+    "message": "إضافة الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem1": {
+    "message": "اسم الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem2": {
+    "message": "مجال الأدوار",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem3": {
+    "message": "الأدوار الأساسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem4": {
+    "message": "نطاق دور الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem5": {
+    "message": "نطاق البيانات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem6": {
+    "message": "إرشادات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem7": {
+    "message": "تطبيق فقط على هذه المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItem8": {
+    "message": "تطبيق على هذه المؤسسة والمؤسسات الفرعية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItemSubmit": {
+    "message": "تحديث الإعدادات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItemPlaceholder1": {
+    "message": "إدخال اسم الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerFormItemPlaceholder2": {
+    "message": "أدخل اسم الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerSettingPermission": {
+    "message": "تكوين الصلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerViewRole": {
+    "message": "عرض المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerAddUser": {
+    "message": "إضافة مستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerCreateByRole": {
+    "message": "إنشاء حسب الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleManagerDeleteRole": {
+    "message": "حذف الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleSettingPermissionSetting": {
+    "message": "إدارة الأذونات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleSettingFilter": {
+    "message": "تصفية حسب الاسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleNameTips": {
+    "message": "أدخل اسم الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleRoleAreaPlaceload": {
+    "message": "حدد نطاق الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleBaseRolePlaceload": {
+    "message": "إختر الدور الأساسي",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleDataRangePlaceload": {
+    "message": "اختر نطاق البيانات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleDataRangeOption1": {
+    "message": "هذه المؤسسة والمؤسسات الفرعية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleDataRangeOption2": {
+    "message": "للمؤسسة فقط",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleTextareaPlaceload": {
+    "message": "إدخال ملاحظات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionconfirmDeleteRole": {
+    "message": "هل تريد التأكيد على حذف هذا الدور؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionConfirm": {
+    "message": "تأكيد العملية",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionconfirmBtnMsg": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionRoleChange": {
+    "message": "تغيير الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.actionRoleByDel": {
+    "message": "الدور محذوف",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmRoleSetting": {
+    "message": "لقد غيرت الدور الأساسي، هل تريد إعادة تعيين الصلاحيات وفقًا للدور الأساسي الجديد؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText1": {
+    "message": "تأكيد العمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText2": {
+    "message": "تغيير فقط بدون إعادة تعيين",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText3": {
+    "message": "تغيير، في نفس الوقت إعادة تعيين",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText4": {
+    "message": "تم تحديث الدور بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.isConfirmText5": {
+    "message": "إلغاء تحديث الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addRoleSuccess": {
+    "message": "أضيف الدور بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.addRoleFail": {
+    "message": "فشل إضافة الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.noPermissionUpdate": {
+    "message": "ليس لديك صلاحيات تعديل هذا الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.rolePermissionSuccess": {
+    "message": "تم تعديل صلاحيات الدور بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleAllSort": {
+    "message": "الكل الفئات",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.roleNull": {
+    "message": "لا",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.warning": {
+    "message": "تحذير",
+    "description": "新版管理后台 zh.json"
+  },
+  "permission.deleteRoleFail": {
+    "message": "تم ربط هذا الدور بالمستخدم، ولا يمكن حذفه، يرجى إزالة هذا الدور مع ارتباط المستخدمين ثم تابع عملية الحذف.",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.uploadBtn": {
+    "message": "رفع الصورة",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.imageUploadTips": {
+    "message": "انقر لرفع الصورة",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.confirmBtn": {
+    "message": "التأكيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.deleteBtn": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.cancelBtn": {
+    "message": "إلغاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportBtn": {
+    "message": "تصدير",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.startDate": {
+    "message": "موعد البدء",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.endDate": {
+    "message": "موعد الانتهاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dateTo": {
+    "message": "إلى",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.closeBtn": {
+    "message": "أغلق",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportTitle": {
+    "message": "تصدير دفعة",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportDesc": {
+    "message": "يمكن تصدير البيانات المحددة لنطاق مرة واحدة",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportTip": {
+    "message": "الرجاء إعداد نطاق البيانات المطلوب تصديره",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportSuccess": {
+    "message": "تصدير البيانات ناجح، يرجى الانتباه إلى الاستلام",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.selectPlaceholder": {
+    "message": "الرجاء الاختيار",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.back": {
+    "message": "رجوع إلى الصفحة السابقة",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.newAnno": {
+    "message": "إنشاء إعلان رسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.title": {
+    "message": "عنوان الإعلان الرسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.content": {
+    "message": "محتويات الإعلان",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.upload": {
+    "message": "إضـافة المـرفق",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.successUpload": {
+    "message": "تم رفع الملف بنجاح!",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errUpload": {
+    "message": "يسمح بحد أقصى بتحديد {0} ملف، لقد حددت {1} ملف، المجموع {2}",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.delUpload": {
+    "message": "ستحذف هذه العملية هذا العنصر، هل تريد الاستمرار؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.hint": {
+    "message": "إرشاد",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.organizations": {
+    "message": "نطاق المؤسسة المستلمة",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.addOrg": {
+    "message": "الرجاء اختيار المؤسسة التي ستستقبل هذا الإعلان الرسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.check": {
+    "message": "عرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.edit": {
+    "message": "تعديل",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.range": {
+    "message": "المستلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Admins": {
+    "message": "جميع المسؤولين",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Teachers": {
+    "message": "جميع المعلمين",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Students": {
+    "message": "الطلاب الكل",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.methods": {
+    "message": "طريقة النشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.now": {
+    "message": "نشر الآن",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.later": {
+    "message": "نشر مجدول",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.pubTime": {
+    "message": "موعد النشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.selectTime": {
+    "message": "الرجاء اختيار موعد النشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.moreOptions": {
+    "message": "المزيد من الإعدادات",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.sendEmail": {
+    "message": "مزامنة الإرسال إلى البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.isSendEmail": {
+    "message": "هل تتم المزامنة وإرسالها إلى البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.sendIntro": {
+    "message": "تم إرسال هذا الإشعار بشكل متزامن إلى البريد الإلكتروني للمستلم (لن يتم الإرسال إذا لم يكن لدى المستلم بريد إلكتروني)",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.showAnno": {
+    "message": "عرض التذكير في الصفحة",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.showIntro": {
+    "message": "عرض الرسائل إما أعلى الصفحة أو في نافذة منبثقة، وستتوقف عن الظهور عند انتهاء صلاحيتها.",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.showWay": {
+    "message": "طريقة العرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.atTop": {
+    "message": "تذكيرات عليا",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.topIntro": {
+    "message": "تظهر الإشعارات في الأعلى حتى يغلقها أو يعرضها المستلم.",
+    "description": "新版管理后台 zh.json"
+  },
   "notice.atRight": {
-    "message": "نافذة منبثقة على الجانب الأيسر تذكرك",
+    "message": "تذكير في النافذة الجانبية اليمنى",
     "description": "新版管理后台 zh.json"
   },
   "notice.rightIntro": {
-    "message": "يتم عرض الإشعار على الجانب الأيسر وسيختفي تلقائيا بعد 10 ثوان",
+    "message": "تظهر الإشعارات على اليمين وتختفي تلقائيًا بعد 10 ثوانٍ",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Expiration": {
+    "message": "تاريخ انتهاء الصلاحية",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.ExpirationIntro": {
+    "message": "بعد مرور هذه المدة، لن تتوصل إلى طرق التنبيه المذكورة أعلاه",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.selectExpiration": {
+    "message": "الرجاء اختيار تاريخ انتهاء الصلاحية",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.publishAnno": {
+    "message": "إصدار إعلان",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.orgRange": {
+    "message": "الرجاء اختيار نطاق المؤسسات التي يجب إخطارها",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.orgRanges": {
+    "message": "نطاق المؤسسات المستقبلة:",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Organizaiton": {
+    "message": "مؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.cancel": {
+    "message": "إلغاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.confirm": {
+    "message": "التأكيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.delSuccess": {
+    "message": "الحذف ناجح",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.delFail": {
+    "message": "إلغاء الحذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errTitle": {
+    "message": "أدخل عنوان الإعلان الرسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errTitle1": {
+    "message": "أقصى حد لإدخال 100 حرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errContent": {
+    "message": "انقر لإدخال محتوى الإعلان",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errContent1": {
+    "message": "يجب ألا يتجاوز النص {num} حرفًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errRange": {
+    "message": "الرجاء اختيار المستلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errWay": {
+    "message": "الرجاء اختيار طريقة الإرسال",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errSendTime": {
+    "message": "يرجى ضبط موعد النشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errExpiration": {
+    "message": "يرجى إعداد تاريخ انتهاء الصلاحية",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errShowWay": {
+    "message": "الرجاء تعيين طريقة العرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.errForm": {
+    "message": "لم تتم تعبئة معلومات الإعلان بشكل كامل",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.successPub": {
+    "message": "تم نشر الإعلان بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.failPub": {
+    "message": "فشل إصدار الإعلان",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.announcements": {
+    "message": "إعلان رسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.searchAnno": {
+    "message": "أدخل عنوان الإعلان الرسمي للبحث",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.readTotal": {
+    "message": "قراءة /إجمالي العدد",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.pubUser": {
+    "message": "الناشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.annoEdit": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.annoView": {
+    "message": "عرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.annodel": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.viewAnno": {
+    "message": "عرض الإعلان الرسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.Attachment": {
+    "message": "ملف مرفق:",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.download": {
+    "message": "تنزيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.AllStudents": {
+    "message": "الكل طالب",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.AllTeachers": {
+    "message": "الكل معلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.AllAdmins": {
+    "message": "مسؤولو النظام الكل",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.No": {
+    "message": "لا",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.selectStatus": {
+    "message": "الرجاء إختيار الحالة",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.status": {
+    "message": "حالة",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.all": {
+    "message": "الكل",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.read": {
+    "message": "قراءة",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.unread": {
+    "message": "غير مقروء",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.knowMore": {
+    "message": "المزيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.sendAndFailErr": {
+    "message": "يجب ألا يكون وقت الإرسال مساويًا أو لاحقًا لوقت انتهاء الصلاحية",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.noPublish": {
+    "message": "لم يتم النشر بعد",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.fileErr": {
+    "message": "تنسيق الملف المرفوع غير صحيح!",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.checkMore": {
+    "message": "عرض المزيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.okDown": {
+    "message": "تمّ التنزيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.delete": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseManager": {
+    "message": "إدارة الدورات",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseDesc": {
+    "message": "دورات دراسية تستضيفها المدرسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseStatistics": {
+    "message": "إحصاءات المقرر",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseStatisticsDesc": {
+    "message": "ملاحظة: يتم تحديث البيانات مرة واحدة يوميًا، وآخر تحديث لها كان في {date}",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseTypeSettings": {
+    "message": "إعدادات نوع المادة الدراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.createCourse": {
+    "message": "إنشاء مادة دراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.fullYear": {
+    "message": "الكل",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.allOrg": {
+    "message": "الكل مؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.allState": {
+    "message": "جميع الحالات",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.processing": {
+    "message": "جار",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.over": {
+    "message": "مكتمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.allType": {
+    "message": "جميع الأنواع",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.searchPlaceholder": {
+    "message": "إدخال اسم المقرر الدراسي أو اسم المعلم للبحث",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseID": {
+    "message": "كود الدورة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseName": {
+    "message": "اسم الدورة التدريبية",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseCode": {
+    "message": "كود الدورة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseType": {
+    "message": "نوع المادة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.subordinateCollege": {
+    "message": "المؤسسة التابعة لها",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.state": {
+    "message": "حالة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseCreator": {
+    "message": "منشئ الدورة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.createTime": {
+    "message": "تاريخ الإنشاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.teacherNum": {
+    "message": "عدد المعلمين",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.classNum": {
+    "message": "عدد الصفوف",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.studentNum": {
+    "message": "عدد الطلاب",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.actions": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.editCourse": {
+    "message": "تعديل المادة الدراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.addPerson": {
+    "message": "أضف شخصًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.joinCourse": {
+    "message": "إدخل المادة الدراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseAnalysis": {
+    "message": "تحليل المادة الدراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.to": {
+    "message": "إلى",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.startDate": {
+    "message": "موعد البدء",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.endDate": {
+    "message": "موعد الانتهاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.setTheClassTypeOfTheSchoolClass": {
+    "message": "إعدادات نوع المادة الدراسية لدروس جماعية في جامعتنا",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.delete": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.addContinue": {
+    "message": "استمر في إضافة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.cancel": {
+    "message": "إلغاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.confirm": {
+    "message": "التأكيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.selectOrg": {
+    "message": "إختر مؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseGeneral": {
+    "message": "إحصائيات الملخص",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseGeneralDesc": {
+    "message": "إحصاء المواد الدراسية التي تم إنشاؤها حديثًا فقط ضمن نطاق الوقت المحدد، وعدم تضمين المواد الدراسية التي يقل عدد طلابها عن 10 طلاب.",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.numberOfCoursesRunning": {
+    "message": "عدد مواد الدراسة لصفوف الدراسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.totalNumberOfCoursewareUsed": {
+    "message": "إجمالي عدد المواد التعليمية المستخدمة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.numberOfLecturesPerTeacher": {
+    "message": "عدد الدروس التي يدرسها كل معلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.numberOfCoursesTakenPerStudent": {
+    "message": "عدد الدورات لكل طالب",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.theCumulativeNumberOfStudentsEnrolledInCourses": {
+    "message": "عدد الطلاب المتراكم في الدورات المُختارة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseSizeDistribution": {
+    "message": "توزيع درجات المواد الدراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.courseSizeDistributionDesc": {
+    "message": "أحص إحصائيات الدورات الجديدة فقط في نطاق الوقت المحدد، باستثناء الدورات التي يقل عدد طلابها عن 10",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.peopleCouse": {
+    "message": "{num} مادة لشخص",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.teachModelAnalyze": {
+    "message": "تحليل نموذج التدريس",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.teachModelAnalyzeDesc": {
+    "message": "الإحصائيات القائمة على المواد الدراسية يمكن إنشاؤها فقط في الإطار الزمني المحدد دون تضمين المواد الدراسية التي يقل عدد طلابها عن 10 طلاب.",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.resourceLearningClass": {
+    "message": "مصادر نموذج التعلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.resourceLearningClassDesc": {
+    "message": "الدورات التي نشرت فيها أنشطة تعليمية بخلاف الإعلانات الرسمية والمواد التعليمية والمصادر، ويقل عددها عن 5 أنشطة",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.classroomInteractiveCourse": {
+    "message": "مادة دراسية تعتمد على التفاعل الصفي",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.classroomInteractiveCourseDesc": {
+    "message": "إذا ما نشرت خلال المادة الدراسية واجبات أو مناقشات أو بث مباشر أو أنشطة صفية تراكم أكثر من 20، ونسبة البث المباشر والأنشطة الصفية تتخطى الـ80",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.blendedCourse": {
+    "message": "التعليم الهجين للمادة الدراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.blendedCourseDesc": {
+    "message": "تراكم الأنشطة المنشورة في المادة الدراسية، مثل الواجبات والنقاشات والبث المباشر والأنشطة الصفية، أكثر من 20 نشاطًا، ويجب أن تحتوي على 3 فئات من الأنشطة على الأقل، ونسبة البث المباشر والأنشطة الصفية أقل من 50",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.otherTypesOfCourses": {
+    "message": "مواد دراسية من أنواع أخرى",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.otherTypesOfCoursesDesc": {
+    "message": "المواد الدراسية التي لا تندرج تحت الفئات الثلاث الأولى",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.evaluationMethod": {
+    "message": "تحليل طرق تقييم المادة الدراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.evaluationMethodDesc": {
+    "message": "إحصائيات المواد الدراسية التي تم إنشاؤها حديثًا في نطاق الوقت المحدد, ولا تشمل المواد الدراسية التي يقل عدد الطلاب فيها عن 10",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.examPercentage": {
+    "message": "تم نشر نسبة المادة الدراسية للامتحان",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.theProportionOfAssessmentRules": {
+    "message": "نسبة المواد الدراسية التي تم إعداد معايير التقييم لها",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.in": {
+    "message": "من بينها:",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.onlyStatisticsOfCoursewareLearning": {
+    "message": "إحصائيات التحصيل الدراسي لمواد تعليمية فقط",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.includeClassRollCallAndPerformanceInTheAssessment": {
+    "message": "إضافة حضور الطلاب وأدائهم في الصف إلى الاختبارات",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.incorporateTestScoresIntoAssessments": {
+    "message": "دمج درجات الامتحان لاختبار",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.requireTip": {
+    "message": "مطلوب ملؤه",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.lengthTip": {
+    "message": "الطول 2-200",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.saveError": {
+    "message": "فشل الحفظ",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.saveErrorRepeat": {
+    "message": "فشل الحفظ، اسم الدورة التدريبية متكرر",
+    "description": "新版管理后台 zh.json"
+  },
+  "course.back": {
+    "message": "رجوع",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.analysis": {
+    "message": "تحليل",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder1": {
+    "message": "إدخال اسم معلم أو امتحان للبحث",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder2": {
+    "message": "نطاق وقت الاسترجاع",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder3": {
+    "message": "جميع الامتحانات",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.filterPlaceholder4": {
+    "message": "إختر مؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead1": {
+    "message": "اسم الامتحان",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead2": {
+    "message": "الناشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead3": {
+    "message": "الدورات التي تم الانتساب إليها",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead4": {
+    "message": "المؤسسة التابعة لها",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead5": {
+    "message": "حالة",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead6": {
+    "message": "مدة الصلاحية",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead7": {
+    "message": "عدد المشاركين",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examsTableHead8": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examGrade": {
+    "message": "عرض الدرجات",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.analysisTitle1": {
+    "message": "معلومات أساسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.baseTip1": {
+    "message": "عدد الامتحانات المنشورة",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.baseTip2": {
+    "message": "عدد مشاركات طلاب الامتحان",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.baseTip3": {
+    "message": "عدد مشاركة طلاب الامتحان",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.examAnalysisTitle": {
+    "message": "ملخص الامتحان",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.selectOrg": {
+    "message": "إختر مؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status1": {
+    "message": "جميع الامتحانات",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status2": {
+    "message": "لم يبدأ",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status3": {
+    "message": "جار",
+    "description": "新版管理后台 zh.json"
+  },
+  "exams.status4": {
+    "message": "مكتمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.userManager": {
+    "message": "إدارة المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.userDesc1": {
+    "message": "إدارة حِسابات المستخدمين في المؤسسات، انقر",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.userDesc2": {
+    "message": "إدارة المستخدمين",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.userDesc3": {
+    "message": "عرض المزيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountManager": {
+    "message": "إدارة الحساب",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerManager": {
+    "message": "إدارة التسجيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.account": {
+    "message": "حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountfilter1": {
+    "message": "ابحث عن طريق الاسم، عنوان البريد الإلكتروني، معرف نظام معلومات الطالب (SIS)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountfilter2": {
+    "message": "الكل حالة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction1": {
+    "message": "تدعو المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction2": {
+    "message": "إنشاء حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction3": {
+    "message": "إضافة الدفعة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction4": {
+    "message": "مزامنة مع نظام معلومات الطالب",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction5": {
+    "message": "تصدير",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction6": {
+    "message": "إحصائيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountAction7": {
+    "message": "إعدادات",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable1": {
+    "message": "اسم العرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable2": {
+    "message": "عنوان البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable3": {
+    "message": "معرف نظام معلومات الطالب",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable4": {
+    "message": "حالة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable5": {
+    "message": "تاريخ الإنشاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable6": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTable7": {
+    "message": "قائمة الإيميلات",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTableAction1": {
+    "message": "تعديل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTableAction2": {
+    "message": "تغيير كلمة المرور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTableAction3": {
+    "message": "إيقاف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTableAction4": {
+    "message": "تنشيط حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountTableAction5": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createAccount": {
+    "message": "إنشاء حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editAccount": {
+    "message": "تعديل حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm1": {
+    "message": "الاسم الكامل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm2": {
+    "message": "اسم العرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm3": {
+    "message": "معرّف (اختياري) نظام معلومات الطالب",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm4": {
+    "message": "البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm5": {
+    "message": "إنشاء كلمة المرور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm6": {
+    "message": "التسجيل في",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm7": {
+    "message": "الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createForm8": {
+    "message": "إرسال إشعار بالبريد الإلكتروني بعد إنشاء الحساب",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder1": {
+    "message": "سيتم استخدام الاسم الكامل الخاص بك في الشهادات والتقارير الرسمية",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder2": {
+    "message": "الاسم الذي يظهر في النظام",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder3": {
+    "message": "المعرف في نظام معلومات الطالب",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder4": {
+    "message": "إدخال عنوان البريد الإلكتروني للتأكيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder5": {
+    "message": "على الأقل 8 أحرف من كلمة المرور تتضمن حروف وأرقام",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder6": {
+    "message": "اسمك الكامل الذي سيستخدم في الشهادة والتقرير الرسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder7": {
+    "message": "اسمك الكامل، سيستخدم في الشهادة والتقرير الرسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormPlaceholder8": {
+    "message": "اسمك الكامل سيستخدم في الشهادة والتقرير الرسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr1": {
+    "message": "يجب عليك ملء الاسم بالكامل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr2": {
+    "message": "طول النص لا يزيد عن 128 حرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr3": {
+    "message": "يجب ملء اسم العرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr4": {
+    "message": "لا يمكن أن يكون محتوى النص أكثر من 64 حرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr5": {
+    "message": "يجب ألا يتجاوز طول النص 128 حرفًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr6": {
+    "message": "يجب ملء عنوان البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr7": {
+    "message": "عنوان البريد الإلكتروني مستخدم بالفعل، يرجى استبداله بآخر",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr8": {
+    "message": "عنوان البريد الإلكتروني غير صحيح",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr9": {
+    "message": "كلمة المرور على الأقل 8 أحرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr10": {
+    "message": "كلمة المرور بين 8-20 حرف، تحتوي على حروف وأرقام",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr11": {
+    "message": "يجب ملء كلمة المرور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createFormErr12": {
+    "message": "اختر على الأقل دورًا واحدًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteUser": {
+    "message": "تدعو المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteTitle": {
+    "message": "تدعو المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteDesc": {
+    "message": "دعوة عبر البريد الإلكتروني لإنشاء حساب مستخدم جديد",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm1": {
+    "message": "عنوان البريد الإلكتروني (استخدم فاصلة للفصل)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm2": {
+    "message": "إضافة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm3": {
+    "message": "الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm4": {
+    "message": "رسائل إضافية (اختياري)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm5": {
+    "message": "وقت انتهاء صلاحية الدعوة (اختياري)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteForm6": {
+    "message": "قائمة البريد الإلكتروني (مفصولة بفواصل)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder1": {
+    "message": "مثال: sample@example.net, sample2@example.net",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder2": {
+    "message": "إضافة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder3": {
+    "message": "إختر الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder4": {
+    "message": "المعلومات الإضافية في رسالة الدعوة الإلكترونية",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder5": {
+    "message": "إختر التاريخ",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder6": {
+    "message": "التحقق من الرسائل المرفقة في الإيميل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteFormPlaceholder7": {
+    "message": "أدخل عناوين البريد الإلكتروني لحسابات المستخدم الموجودة لديك، مع الفصل باستخدام الفواصل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteTable1": {
+    "message": "البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteTable2": {
+    "message": "إضافة إلى",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteTable3": {
+    "message": "الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteTable4": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.deleteAccount": {
+    "message": "حذف حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.disableAccount": {
+    "message": "إيقاف حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.removeAccount": {
+    "message": "حذف التسجيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeAccount": {
+    "message": "تفعيل الحساب",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.deleteDesc": {
+    "message": "حذف حساب المستخدم سيؤدي بشكل دائم إلى إزالة بيانات المستخدم (بما في ذلك المادة الدراسية والدرجات) وملفات المستخدم، ولا رجعة في هذا الإجراء.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.disableDesc": {
+    "message": "بعد إيقاف الحساب، لا يمكن للمستخدم تسجيل الدخول إلى النظام، ولن يتم حذف بيانات المستخدم ويمكن إعادة تمكين الحساب. انقر فوق الزر أدناه لتأكيد هذه العملية.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.removeDesc": {
+    "message": "بعد إزالة علاقة التسجيل، لا يمكن لحساب المستخدم استخدام موارد ومُتطلبات هذه المؤسسة، وسيتم الاحتفاظ بالبيانات التي تم إنشاؤها بواسطة حساب المستخدم في هذه المؤسسة، هل تؤكد رغبتك في إزالة حساب المستخدم؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeDesc": {
+    "message": "بعد إلغاء تنشيط حساب المستخدم، سيعمل على نحو سليم ويستخدم جميع ميزاته، هل تؤكد تنشيط هذا الحساب؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.delete": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.disable": {
+    "message": "إيقاف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.remove": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.active": {
+    "message": "تنشيط",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendUserMail": {
+    "message": "إرسال إشعار إلى بريد المستخدم الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPassword": {
+    "message": "تغيير كلمة المرور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.amendBtn": {
+    "message": "تعديل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.allStatus": {
+    "message": "الكل:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.passStatus": {
+    "message": "عن طريق:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.errorStatus": {
+    "message": "خطأ:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerfilter1": {
+    "message": "استرجاع حسب الإسم أو عنوان البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerfilter2": {
+    "message": "الكل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerfilter3": {
+    "message": "الكل الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAccount": {
+    "message": "التسجيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAction1": {
+    "message": "إضافة (دفعة)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAction2": {
+    "message": "مزامنة نظام معلومات الطالب",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAction3": {
+    "message": "تصدير",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAction4": {
+    "message": "إحصائيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTable1": {
+    "message": "حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTable2": {
+    "message": "انتماء الحساب",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTable3": {
+    "message": "التسجيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTable4": {
+    "message": "الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTable5": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTableAction1": {
+    "message": "تعديل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTableAction2": {
+    "message": "حذف المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTableAction3": {
+    "message": "نتائج التعليم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTableAction4": {
+    "message": "سِجِل التدريس",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTableAction5": {
+    "message": "إدارة السِّجِل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerFormTitle": {
+    "message": "التسجيل للحصول على حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerFormDesc": {
+    "message": "قم بإضافة حساب موجود إلى مؤسستك، وإذا كنت بحاجة لإنشاء حساب جديد، فيُرجى الاتصال بمسؤول الحساب",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerForm1": {
+    "message": "اختيار حسابك الحالي",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerBtnText": {
+    "message": "التسجيل لحساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.preStep": {
+    "message": "العودة إلى الصفحة السابقة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.nextStep": {
+    "message": "التالي",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.cancel": {
+    "message": "إلغاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.close": {
+    "message": "أغلق",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.save": {
+    "message": "حفظ",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.create": {
+    "message": "إنشاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.edit": {
+    "message": "تعديل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPasswordErr1": {
+    "message": "أدخل كلمة المرور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPasswordErr2": {
+    "message": "يجب أن تحتوي كلمة المرور على ما بين 8 و 20 حرفًا و رقمًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPasswordErr3": {
+    "message": "لا يجب أن تطابق كلمة المرور الجديدة كلمة المرور الأصلية",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPasswordErr4": {
+    "message": "يرجى تأكيد كلمة المرور مرة أخرى",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editPasswordErr5": {
+    "message": "إدخال كلمة المرور غير متناسق",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.mailNull": {
+    "message": "يجب ملء عنوان البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.mailOver": {
+    "message": "لا يمكن أن يكون أكثر من 5000 حرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editRegister": {
+    "message": "تعديل التسجيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerTo": {
+    "message": "التسجيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editUserRet": {
+    "message": "تم تعديل العلاقة المسجلة لحساب المستخدم {mail}",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerAccountRet": {
+    "message": "حسابات مثل {mail} {count} إلخ تم إنشاءها",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteUserErr": {
+    "message": "وصل عدد الحسابات الحد الأقصى لحسابات المؤسسة، لا يمكن إنشاء حسابات جديدة، يرجى التواصل مع مسؤول النظام لشراء حسابات جديدة.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteUserSuccess": {
+    "message": "تم إرسال دعوة تسجيل إلى {count} من عناوين البريد الإلكتروني مثل {mail}.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.passwordSuccess": {
+    "message": "تم تعديل كلمة المرور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.passwordFail": {
+    "message": "فشل تعديل كلمة المرور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeAccountErr": {
+    "message": "لقد وصل عدد الحسابات النشطة إلى أقصى حد، ولا يمكن إضافة أي حسابات نشطة جديدة، يرجى الاتصال بمسؤول النظام لشراء حسابات نشطة جديدة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountOver": {
+    "message": "لقد تجاوز عدد الحسابات الحد الأقصى لحسابات مؤسستك، ولا يمكن إنشاء حسابات جديدة، يرجى التواصل مع مسؤول النظام لشراء حسابات جديدة.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.delRegisterRole1": {
+    "message": "المزيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.delRegisterRole2": {
+    "message": "إدارة التسجيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.loadingText1": {
+    "message": "قيد المعالجة، يرجى الانتظار...",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.loadingText2": {
+    "message": "قيد المعالجة، يرجى الانتظار...",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendCodeToMail": {
+    "message": "أرسل بريد إلكتروني للتحقق إلى البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.selectUser": {
+    "message": "اختر المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.usersCount": {
+    "message": "عدد العناصر",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.selected": {
+    "message": "مُحدد:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.select": {
+    "message": "إختر",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.search": {
+    "message": "بحث ...",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.isNew": {
+    "message": "الأحدث أولاً",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.isNotNew": {
+    "message": "الأحدث أولاً",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.newPassword": {
+    "message": "كلمة مرور جديدة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.autoGenerate": {
+    "message": "يولد تلقائيًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.autoGenerateSuccess": {
+    "message": "كلمة المرور التي تم إنشاؤها تلقائيًا لنسخها إلى الحافظة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.confirmPassword": {
+    "message": "تأكيد كلمة المرور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.lastLogin": {
+    "message": "آخر تسجيل دخول:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.usersItem1": {
+    "message": "محادثات متاحة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.usersItem2": {
+    "message": "المادة الدراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.usersItem3": {
+    "message": "تخزين",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.stopUserSuccess": {
+    "message": "تم إيقاف حساب المستخدم بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.stopUserFail": {
+    "message": "فشل إيقاف حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeUserSuccess": {
+    "message": "تم تفعيل الحساب بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeUserFail": {
+    "message": "فشل تنشيط حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.deleteUserSuccess": {
+    "message": "حذف حساب المستخدم بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.deleteUserFail": {
+    "message": "فشل حذف حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.lessOneUser": {
+    "message": "أضف حساب مستخدم واحد على الأقل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.lessOneMail": {
+    "message": "أضف بريدًا إلكترونيًا واحدًا على الأقل لتدعو",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createAccountSuccess": {
+    "message": "تم إنشاء حساب المستخدم بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.createAccountFail": {
+    "message": "فشل إنشاء حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteMailSuccess": {
+    "message": "تم إرسال {num} دعوة للتسجيل إلى بريد إلكتروني مثل {mail}.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.registerMailSuccess": {
+    "message": "تم تسجيل {num} حساب مستخدم مثل {mail} في مؤسسة {org}",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.inviteMailFail": {
+    "message": "تم إرسال دعوة تسجيل إلى {num1} بريدًا إلكترونيًا مثل {mail1}. وفشل في إرسال بريد إلكتروني إلى {num2} بريدًا إلكترونيًا مثل {mail2} يمكنك القيام بما يلي:",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeStatus": {
+    "message": "تنشيط",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.suspendStatus": {
+    "message": "إيقاف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.pendingStatus": {
+    "message": "غير نشط",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.removeAccountSuccess": {
+    "message": "حذف علاقة التسجيل بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.removeAccountFail": {
+    "message": "فشل حذف التسجيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.editRegisterFail": {
+    "message": "فشلت تعديل علاقة التسجيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.noAccount": {
+    "message": "حساب المستخدم غير موجود، لا يمكن إضافته، تواصل مع مسؤول النظام لإضافة حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountList": {
+    "message": "قائمة حسابات المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.byEmail": {
+    "message": "عن طريق البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.byAccount": {
+    "message": "عبر الحساب",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendNewMail": {
+    "message": "بعد تغيير البريد الإلكتروني، أرسل بريدًا إلكترونيًا للتحقق إلى البريد الإلكتروني الجديد",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.tabItem1": {
+    "message": "إعداد",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.tabItem2": {
+    "message": "إدارة المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsForm1": {
+    "message": "موفر خادم سحابي",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsForm2": {
+    "message": "حالة تمكين غرفة الاجتماعات الافتراضية",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsForm3": {
+    "message": "حساب مسؤول النظام",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsForm4": {
+    "message": "حالة ميزات تسجيل المحاضرات السحابية تمكين",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.updateBtn": {
+    "message": "تحديث",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFilterPlaceholder1": {
+    "message": "إدخال اسم غرفة الاجتماعات للبحث",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFilterPlaceholder2": {
+    "message": "جميع الحالات",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.addResource": {
+    "message": "إنشاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader1": {
+    "message": "معرف غرفة الاجتماعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader2": {
+    "message": "الاسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader3": {
+    "message": "الوصف",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader4": {
+    "message": "السعة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader5": {
+    "message": "حالة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader6": {
+    "message": "وقت الانتهاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader7": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader8": {
+    "message": "مؤسسة الدرجة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableHeader9": {
+    "message": "إسناد معلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction1": {
+    "message": "تعديل",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction3": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction4": {
+    "message": "تكوين",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction5": {
+    "message": "تمكين",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsTableAction6": {
+    "message": "إيقاف",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel1": {
+    "message": "اسم غرفة الاجتماعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel1Placeholder": {
+    "message": "أدخل اسم غرفة الاجتماعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel2": {
+    "message": "معرف غرفة الاجتماعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel2Placeholder": {
+    "message": "أدخل معرف قاعة الاجتماعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel3": {
+    "message": "السعة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel3Placeholder": {
+    "message": ":أدخل السعة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel4": {
+    "message": "وقت الاستحقاق",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel4Placeholder": {
+    "message": "حدد تاريخ انتهاء الصلاحية",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel5": {
+    "message": "الوصف",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel5Placeholder": {
+    "message": "يمكنك توفير وصف بسيط لغرفة الاجتماعات هذه (اختياري).",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel6": {
+    "message": "مخصص للمؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel6Placeholder": {
+    "message": "الرجاء اختيار المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel7": {
+    "message": "نقاط التوزيع للمعلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.optionsFormLabel7Placeholder": {
+    "message": "الرجاء اختيار معلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.filterPlaceholder1": {
+    "message": "إدخال اسم المعلم/البث المباشر بحث",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.filterPlaceholder2": {
+    "message": "استرجاع نطاق الوقت",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.filterPlaceholder3": {
+    "message": "جميع الحالات",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.filterPlaceholder4": {
+    "message": "إختر مؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead1": {
+    "message": "عنوان البث المباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead2": {
+    "message": "معلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead3": {
+    "message": "الدورات التي تم الانتساب إليها",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead4": {
+    "message": "المؤسسة التابعة لها",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead5": {
+    "message": "حالة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead6": {
+    "message": "وقت البث المباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead8": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableHead9": {
+    "message": "عدد الحضور المتوقع",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.baseTip1": {
+    "message": "المجموع الكلي للبث المباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.baseTip2": {
+    "message": "عدد المعلمين التى تتم بثها مباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.baseTip3": {
+    "message": "عدد مرات مشاهدة بث مباشر تراكمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.baseTip4": {
+    "message": "العدد الأقصى للأشخاص الذين يشاهدون بثًا مباشرًا واحدًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.baseTip5": {
+    "message": "مدة البث التراكمية",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveAnalysisTitle": {
+    "message": "نظرة عامة على البث المباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.selectOrg": {
+    "message": "إختر مؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status1": {
+    "message": "لم يبدأ",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status2": {
+    "message": "جارٍ",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status3": {
+    "message": "مكتمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status4": {
+    "message": "عادي",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status5": {
+    "message": "قريبًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.status6": {
+    "message": "إيقاف",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveTableAction1": {
+    "message": "إدخل إلى الاجتماع",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveHeaderAction1": {
+    "message": "تصدير القائمة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveHeaderAction2": {
+    "message": "إعداد مصادر غرفة الاجتماعات السحابية",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.analysis": {
+    "message": "تحليل إحصائي",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.analysisTitle1": {
+    "message": "البيانات الأساسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveChartTitle1": {
+    "message": "مدة البث المباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveChartTitle2": {
+    "message": "أكثر 5 معلمين بثوا بثًا مباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.liveChartTitle3": {
+    "message": "أعلى 5 مواد دراسية في بث مباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.hour": {
+    "message": "{hour} ساعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.moreHour": {
+    "message": "أكثر من {hour} ساعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.lessHour": {
+    "message": "في غضون {hour} ساعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormLabel1": {
+    "message": "نطاق المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormPlaceholder1": {
+    "message": "الرجاء اختيار نطاق المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormLabel2": {
+    "message": "نطاق الوقت",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormPlaceholder2": {
+    "message": "يرجى اختيار نطاق الوقت",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFormLabel3": {
+    "message": "حالة البث المباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.distributeTeachersTip": {
+    "message": "اختر المعلمين المخصصين للمؤسسة فقط.<br/>يُختار افتراضيًا جميع المعلمين المخصصين للمؤسسة.",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider1": {
+    "message": "اجتماع سحابي",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider2": {
+    "message": "توكوكلاود",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider3": {
+    "message": "باوليوي",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider4": {
+    "message": "وي لينك",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider5": {
+    "message": "Tencent Cloud Conferencing",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.saveMeetingOptionSuccess": {
+    "message": "تم تحديث تكوين غرفة اجتماعات السحابة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.createMeetingRoomTitle": {
+    "message": "إنشاء غرفة اجتماعات السحابة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.editMeetingRoomTitle": {
+    "message": "تعديل غرفة اجتماعات السحابة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.createMeetingRoomSuccess": {
+    "message": "تم إنشاء غرفة الاجتماعات بنجاح.",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.editMeetingRoomSuccess": {
+    "message": "تم تعديل غرفة الاجتماع بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomTitle": {
+    "message": "حذف مصادر غرفة الاجتماعات هذه",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomDesc": {
+    "message": "عند حذف موارد الموارد الخاصّة بغرفة اﻵجتماعات هذه، سيتمّ حذف كافّة البيانات المرتبطة بموارد غرفة اﻵجتماعات هذه، وسيُفرج عن مساحة التخزين، هذه العملية غير قابلة للعكس، هل تؤكّد أنّك تريد تنفيذ هذه العملية؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomConfirm": {
+    "message": "حذف مصادر غرفة الاجتماعات",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.deleteMeetingRoomSuccess": {
+    "message": "تم حذف غرفة الاجتماع بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.selctTea": {
+    "message": "إختر معلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.setMeetingRoomTitle": {
+    "message": "إعداد غرفة اجتماعات السحابة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.exportFileTitle": {
+    "message": "قائمة البث المباشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.title": {
+    "message": "مصادر المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.desc": {
+    "message": "عرض مصادر المؤسسة المتاحة والمستعملة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resource": {
+    "message": "حالة المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.start": {
+    "message": "بدأ",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.end": {
+    "message": "إنهاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.used": {
+    "message": "مستعمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.max": {
+    "message": "أقصى",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.expired": {
+    "message": "منتهية الصلاحية",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.expired1": {
+    "message": "منتهية الصلاحية",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.total": {
+    "message": "المجموع الكلي",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.totalQuota": {
+    "message": "الحصة الإجمالية",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.serverTitle": {
+    "message": "تاريخ انتهاء الخدمة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.storeTitle": {
+    "message": "وقت انتهاء الأرشفة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.totalAccountTitle": {
+    "message": "إجمالي عدد الحسابات",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.activeAccountTitle": {
+    "message": "الحسابات النشطة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.yunTitle": {
+    "message": "تخزين السحاب",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.yunMeetingTitle": {
+    "message": "غرفة اجتماعات السحابة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.lesseeTitle": {
+    "message": "مستأجر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.totalActiveAccountTitle": {
+    "message": "إجمالي الحسابات النشطة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.bigScreen": {
+    "message": "شاشة كبيرة ذكية",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.baseResourceSetting": {
+    "message": "تكوين المصادر الأساسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceSettingDesc1": {
+    "message": "التحكم في الموارد المتاحة للمؤسسة ، انقر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceSettingDesc2": {
+    "message": "إدارة المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceSettingDesc3": {
+    "message": "عرض المزيد من المعلومات",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceTitle1": {
+    "message": "مدة الإيجار",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceTitle2": {
+    "message": "تخزين سحابي",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceTitle3": {
+    "message": "عدد حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceItem1": {
+    "message": "وقت انتهاء الخدمة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceItem2": {
+    "message": "وقت انتهاء الأرشفة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceItem3": {
+    "message": "أقصى مساحة تخزين (جيجا بايت)",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceItem4": {
+    "message": "أقصى عدد لحسابات المستخدمين",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceItem5": {
+    "message": "أقصى عدد للحسابات النشطة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceSubmit": {
+    "message": "تحديث الإعدادات",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceReset": {
+    "message": "إعادة تعيين",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm1": {
+    "message": "تغيير المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm2": {
+    "message": "ستتغير الموارد التالية، يجب التأكيد قبل الاستمرار",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm3": {
+    "message": "حول",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm4": {
+    "message": "تغيير المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm5": {
+    "message": "إرسال إيميل إشعار إلى مسؤول النظام للمؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.confirm6": {
+    "message": "التأكيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resourceChange": {
+    "message": "تغيير المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.sendMail": {
+    "message": "إرسال إيميل إشعار إلى مسؤول النظام",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips1": {
+    "message": "إنتهاء الصلاحية فى أقل من شهر، يرجى التخطيط لاستخدامك",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips2": {
+    "message": "تم تحقيق مدة الخدمة، اتصل بمدير العملاء لتوسيع المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips3": {
+    "message": "الوقت المتبقي حتى انتهاء مهلة الأرشفة غير كافٍ، لذا يُرجى عمل نسخة احتياطية",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips4": {
+    "message": "لقد تجاوز محفوظات ملفك وقت انتهاء الصلاحية، سيتم حذفه خلال 5 أيام عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips5": {
+    "message": "حساب المستخدم استخدم أكثر من 80٪ من المساحة المتاحة، لذا يرجى التخطيط للاستخدام",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips6": {
+    "message": "لقد تم الوصول إلى أقصى عدد من حساب المستخدم، ولا يمكن إنشاء حساب جديد، وتواصل مع مدير الحساب لتوسيع المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips7": {
+    "message": "لقد تجاوزت الحسابات النشطة 80% من السعة، يرجى التخطيط لاستخدامها",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips8": {
+    "message": "لقد بلغت الحد الأقصى لعدد الحسابات النشطة، ولا يمكنك إضافة أو تنشيط حسابات جديدة، يرجى الاتصال بمدير الحساب لتوسيع المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips9": {
+    "message": "استهلك التخزين السحابي أكثر من 80٪ً، يرجى التخطيط لاستخدامه",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips10": {
+    "message": "لقد حققت الحد الأقصى للتخزين، تواصل مع مدير الحساب لتوسعة المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips11": {
+    "message": "انتهت صلاحية بعض قاعات الاجتماعات. يرجى الاتصال بمدير الحساب لتجديد الاشتراك في الوقت المناسب",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.tips12": {
+    "message": "جميع غرف الاجتماعات منتهية الصلاحية لا يمكن استخدامها، يرجى التواصل مع مدير الحساب لتجديدها في الوقت المناسب",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule1": {
+    "message": "حقل مطلوب",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule2": {
+    "message": "لا يمكن أن يكون الحد الأقصى لمساحة التخزين أقل من 1",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule3": {
+    "message": "يرجى التواصل مع مندوب المبيعات إذا تجاوزت مساحة التخزين 1000 جيجابايت",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule4": {
+    "message": "يجب ألا يقل العدد الأقصى لحسابات المستخدم عن 100",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule5": {
+    "message": "أقصى ما يمكن أن يكون لا يمكن أن يكون أكثر من 10 مليون",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule6": {
+    "message": "عدد حسابات المستخدمين النشطة لا يمكن أن يكون أقل من 100",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.rule7": {
+    "message": "لا يمكن أن يكون عدد حسابات المستخدم أكثر من الحد الأقصى",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.downloadErrlog": {
+    "message": "تنزيل سجل الأخطاء",
+    "description": "新版管理后台"
+  },
+  "users.passwordP1": {
+    "message": "8-20 حرفًا، تتضمن أحرفًا وأرقامًا",
+    "description": "新版管理后台"
+  },
+  "users.passwordP2": {
+    "message": "مرة أخرى إدخال كلمة المرور للتأكيد",
+    "description": "新版管理后台"
+  },
+  "users.mailAddressErr": {
+    "message": "عنوان البريد الإلكتروني مُسجل بالفعل",
+    "description": "新版管理后台"
+  },
+  "users.editAccountSuccess": {
+    "message": "تم تعديل حساب المستخدم بنجاح",
+    "description": "新版管理后台"
+  },
+  "live.liveTableAction2": {
+    "message": "انتهت الدورة",
+    "description": "新版管理后台"
+  },
+  "organization.choseAdmin": {
+    "message": "اختر مسؤول النظام",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.choseAdminTip": {
+    "message": "أدخل الإسم أو البريد الإلكتروني، ثم اضغط enter للبحث",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.loading": {
+    "message": "جار التحميل",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.nomore": {
+    "message": "لا يوجد المزيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType1": {
+    "message": "مؤسسة إدارية",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType2": {
+    "message": "مؤسسة تدريس",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.OrgType3": {
+    "message": "مؤسسة معتمدة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepTitle": {
+    "message": "إنشاء مستأجر جديد",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step1": {
+    "message": "إعدادات",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step2": {
+    "message": "إعدادات معلومات المستأجر الأساسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step3": {
+    "message": "إعدادات المصادر",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step4": {
+    "message": "تكوين الموارد المتوفرة للمستأجر",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step5": {
+    "message": "إعدادات مسؤول النظام",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step6": {
+    "message": "إنشاء مدير الأعلي لهذا العميل",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step7": {
+    "message": "إخطار الشخص ذي الصلة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step8": {
+    "message": "إرسال إيميل الإعلام إلى الشخص المعني",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.step9": {
+    "message": "معاينة الإيميل",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepDesc": {
+    "message": "بعد إنشاء المستأجر، يتم إرسال بريد إلكتروني لشخص معين لإخطاره بمعلومات مفصلة حول هذا المستأجر. سيتم إرسال البريد الإلكتروني إلى مسؤول وكيل إدارة المستأجر ومسؤول النظام. في حالة الحاجة إلى إرسال البريد الإلكتروني إلى أشخاص آخرين معنيين، أدخل عنوان البريد الإلكتروني أدناه.",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn1": {
+    "message": "التالي",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn2": {
+    "message": "العودة إلى الصفحة السابقة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn3": {
+    "message": "إنشاء المستأجر",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepBtn4": {
+    "message": "أغلق",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.stepSuccess": {
+    "message": "تم إنشاء المُستأجر بنجاح.<br> انقر فوق الزر <span dir=\"ltr\">إغلاق</span> أدناه للعودة إلى الصفحة السابقة.<br> انقر فوق عنوان الرابط التالي لمواصلة إعداد هذا المستأجر.",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp1": {
+    "message": "عزيزي",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp2": {
+    "message": "شكرًا لك على استخدام ULearning، وفيما يلي تفاصيل طلبيتك",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp3": {
+    "message": "معلومات عامة:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp4": {
+    "message": "اسم المستأجر:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp5": {
+    "message": "مصادر:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp6": {
+    "message": "موعد بدء الخدمة:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp7": {
+    "message": "وقت انتهاء الصلاحية:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp8": {
+    "message": "تاريخ انتهاء الصلاحية:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp9": {
+    "message": "الحد الأقصى لعدد حسابات المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp10": {
+    "message": "أقصى عدد حسابات مستخدمين نشطة:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp11": {
+    "message": "أقصى سعة تخزين سحابية:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp12": {
+    "message": "استعرض المعلومات التالية التي من شأنها مساعدتك في الاستخدام:",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp13": {
+    "message": "دليل مستخدم ULearning (النسخة الإنجليزية)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp14": {
+    "message": "كيفية استخدام مقاطع الفيديو للمعلمين (إنجليزي)",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp15": {
+    "message": "كيفية استخدام مقاطع الفيديو للطلاب",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp16": {
+    "message": "إذا كانت لديك أي استفسارات، فيُرجى التواصل مع مدير حسابك",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp17": {
+    "message": "مع خالص التقدير",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp18": {
+    "message": "فريق ULearning",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailTemp19": {
+    "message": "sg.service@ulearning.asia",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.repeatTip": {
+    "message": "اسم المستخدم مستخدم، الرجاء استخدام اسم آخر",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addRuleErr1": {
+    "message": "أدخل المعلومات المطلوبة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.addRuleErr2": {
+    "message": "يجب ألا يتجاوز النص {num} أحرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.mailerr": {
+    "message": "صيغة البريد الإلكتروني غير صحيحة {mail}",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.toggleOrgSuccess": {
+    "message": "تم تبديل المؤسسة بنجاح، سيتم تحديث الصفحة قريبًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.addAnnouncement": {
+    "message": "إنشاء إعلان رسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.announcementDetail": {
+    "message": "عرض الإعلان الرسمي",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.orgResource": {
+    "message": "مصادر المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.baseResourceSetting": {
+    "message": "إعدادات الموارد الأساسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.rolePermissionSetting": {
+    "message": "تكوين الصلاحيات",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.homePage": {
+    "message": "الصفحة الرئيسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.baseResourceSettingSuccess": {
+    "message": "تم تكوين المصادر الأساسية بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.error": {
+    "message": "لم يتم تنفيذ العملية بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.updateconfirmDesc": {
+    "message": "هل أنت متأكد من أنك تريد تحديث هذه الحقول التي عدلتها؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.repeatTip1": {
+    "message": "تم احتلال المعرف هذا بالفعل، يُرجى استخدام معرف آخر",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.uploadLogoTip": {
+    "message": "يجب أن تكون أيقونة التحميل بتنسيق png أو jpg أو jpeg أو gif!",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.emailErrorTip": {
+    "message": "أدخل بريد إلكتروني صحيح",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementType": {
+    "message": "نوع اتفاقية المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementContent": {
+    "message": "محتويات اتفاقية المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.userAgreementContentTip": {
+    "message": "لا يمكن أن تكون محتويات اتفاقية المستخدم فارغة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.policyContentTip": {
+    "message": "لا يمكن أن تكون محتويات سياسة الخصوصية فارغة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.updatepolicyContentSuccess": {
+    "message": "تم تحديث إعدادات الخصوصية بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate1": {
+    "message": "قوالب موقع ويب",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate2": {
+    "message": " قائمة",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate3": {
+    "message": "إذا كنت ترغب في تخصيص المحتوى الخاص بك في قائمة الطعام أو الصفحة الرئيسية بنفسك، فمن المستحسن استخدام هذا النموذج",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate4": {
+    "message": "نمط تسجيل الدخول",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.siteTemplate5": {
+    "message": "إذا أردت أن يكون لدى الطلاب بوابة تسجيل دخول منفصلة فمن المستحسن استخدام هذا القالب ",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.errorTip1": {
+    "message": "هذا المعرف مستخدم بالفعل، يرجى استخدام معرف آخر",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.errorTip2": {
+    "message": "اسم النطاق هذا مشغول، يُرجى إدخال اسم مختلف",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAdd": {
+    "message": "إضافة الدفعة",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.uploaderTitle": {
+    "message": "إختر ملف",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.uploaderDesc": {
+    "message": "اسحب الملفات إلى هنا أو اختر ملف (.csv .xlsx)",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddErrorTip1": {
+    "message": "تم تحديد تنسيق ملف غير صالح, الرجاء إختيار ملف بلاحقة .csv أو .xlsx",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddErrorTip2": {
+    "message": "الملف لا يمكن أن يكون أكثر من 5 ميجابايت",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.backStepBtn": {
+    "message": "العودة إلى الصفحة السابقة",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.nextStepBtn": {
+    "message": "التالي",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.continueBtn": {
+    "message": "استمر",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataTotal": {
+    "message": "المجموع",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataFail": {
+    "message": "إدخال الخطأ",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.dataPass": {
+    "message": "تم التحقق بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.options": {
+    "message": "خيارات",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.batchAddMaxTip": {
+    "message": "لا يمكن استيراد أكثر من {n} سجل دفعة واحدة. يُرجى الاستيراد على دفعات.",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.exportErrorList": {
+    "message": "تنزيل بيانات خاطئة",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.inputRequireErrorTip": {
+    "message": "أدخل {labelTitle}",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.selectRequireErrorTip": {
+    "message": "الرجاء اختيار {labelTitle}",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.minErrorTip": {
+    "message": "يجب ألا يقل المحتوى عن {min} حرفًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.maxErrorTip": {
+    "message": "يجب ألا يتجاوز المحتوى {max} حرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountTitle": {
+    "message": "إضافة الدفعة حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountDesc": {
+    "message": "إضافة بيانات متعددة مرة واحدة من خلال الملف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddCountRule": {
+    "message": "استيراد ما يصل إلى 1000 عنصر دفعة واحدة، بحد أقصى 5 ميجابايت للملف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.template1": {
+    "message": "قوالب (.csv)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.template2": {
+    "message": "قوالب(.xlsx)",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRuleTitle": {
+    "message": "متطلبات البيانات",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule1": {
+    "message": "نص 【fullname】، حقل إلزامي، لا يزيد عن 128 حرفًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule2": {
+    "message": "نص [display_name]، مطلوب، لا يزيد عن 64 حرفًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule3": {
+    "message": "【البريد الإلكتروني】 مطلوب ملؤه ولا يمكن التكرار مرة أخرى",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule4": {
+    "message": "اختياري، نص، لا يزيد عن 128 حرفًا، ولا يُسمح بالتكرار",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule5": {
+    "message": "【password】 مطلوب ملؤه، نص، 8-20 حرفًا، يتضمن أحرفًا وأرقامًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule6": {
+    "message": "【enroll_to】 اختياري، تسجيل افتراضي في هذه المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.dataRule7": {
+    "message": "يجب ملء [الدور] وفصل الأدوار المتعددة بفاصلة. قائمة بالأدوار التي تدعمها المؤسسة التي يسجل فيها المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendEmailTitle": {
+    "message": "إرسال رسالة بريد إلكتروني للإشعار بعد إنشاء حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.sendEmailDesc": {
+    "message": "سيتم إرسال رسالة إلكترونية عند إضافة الحساب إلى المستخدم على عنوان بريد المستخدم الإلكتروني.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.submitBtn": {
+    "message": "إضافة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.accountMaxTip": {
+    "message": "لقد وصل عدد الحسابات إلى الحد الأقصى لمؤسستك، ولا يمكن إنشاء حسابات جديدة،<br/> يرجى الاتصال بمسؤول النظام لشراء حسابات جديدة.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.activeAccountMaxTip": {
+    "message": "لقد وصل عدد حسابات المستخدمين النشطة إلى أقصى حد، ولا يمكن إنشاء حسابات جديدة،<br/> يُرجى التواصل مع مسؤول النظام لشراء حسابات مستخدمين نشطة جديدة.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip1": {
+    "message": "أدخل اسم حسابك بالكامل",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip2": {
+    "message": "يجب ألا يتجاوز الاسم الكامل 128 حرفًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip3": {
+    "message": "أدخل اسم العرض",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip4": {
+    "message": "لا يمكن أن يكون اسم العرض أكثر من 64 حرفًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip5": {
+    "message": "أدخل عنوان البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip6": {
+    "message": "صيغة الإيميل غير صحيحة، أدخل عنوان البريد الإلكتروني الصحيح",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip7": {
+    "message": "تم تسجيل عنوان البريد الإلكتروني هذا، يرجى استخدام بريد إلكتروني آخر.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip8": {
+    "message": "يوجد تكرار في عنوان البريد الإلكتروني الموجود في الملف، يرجى التأكد من أن عنوان البريد الإلكتروني فريد في الملف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip9": {
+    "message": "لا يمكن أن يكون معرف نظام معلومات الطالب أكثر من 128 حرفًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip10": {
+    "message": "تم استخدام معرف نم نظام المعلومات الخاص بالطالب هذا، يرجى استخدام معرف آخر",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip11": {
+    "message": "هناك تكرار في معرّف نظام معلومات الطالب، تأكد من أن معرّف نظام معلومات الطالب الموجود في الملف فريد من نوعه",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip12": {
+    "message": "أدخل كلمة المرور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip13": {
+    "message": "يجب ألا تقل كلمة المرور عن 8 أحرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip14": {
+    "message": "يجب ألا تتجاوز كلمة المرور 20 حرفًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip15": {
+    "message": "يجب أن تتضمن كلمة المرور حروفًا وأرقامًا.",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip16": {
+    "message": "أدخل اسم المؤسسة التي تريد التسجيل فيها",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip17": {
+    "message": "لم يتم العثور على اسم المؤسسة، يرجى استخدام الاسم الصحيح للمؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip18": {
+    "message": "لا يمكن أن يتجاوز اسم المؤسسة 256 حرفًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip19": {
+    "message": "يجب ألّا يقل اسم المؤسسة عن حرفين",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip20": {
+    "message": "أدخل الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip21": {
+    "message": "لا يمكن التحقق، أدخل اسم الدور الذي تريد توزيعه",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip22": {
+    "message": "لا يمكن أن يكون اسم الدور أكثر من 128 حرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip23": {
+    "message": " الرجاء استخدام الدور الذي تدعمه هذه المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddUserErrorTip24": {
+    "message": "لا تحتوي البيانات الحالية على التحقق، يرجى إعادة الاستيراد",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddSuccessTip": {
+    "message": "تم إضافة {n} حساب مستخدم بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.batchAddFailTip": {
+    "message": "فشل إضافة {n} حساب مستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.exportErrorData": {
+    "message": "انقر لتصدير بيانات خاطئة",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.addCountMaxTip": {
+    "message": "لا يمكن إنشاء حساب جديد لأن عدد الحسابات التي سيتم إنشاؤها ({addNum}) قد تجاوز عدد الحسابات النشطة المتبقية المتوفرة في مؤسستك ({maxNum})، يُرجى التواصل مع مسؤول النظام لشراء حسابات جديدة.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth1": {
+    "message": "تسجيل الدخول والمصادقة",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth2": {
+    "message": "إعدادات تسجيل دخول المستخدم وطريقة المصادقة والمصادقة أحادية المصدر",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth3": {
+    "message": "إعدادات",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth4": {
+    "message": "إعدادات المصادقة",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth5": {
+    "message": "بيانات أساسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth6": {
+    "message": "رابط صفحة تسجيل الدخول",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth7": {
+    "message": "إعدادات الصفحة",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth8": {
+    "message": "إعدادات تسجيل الدخول",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth9": {
+    "message": "يسمح بتسجيل الدخول باستخدام كلمة مرور البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth10": {
+    "message": "يسمح للمُستخدمين بتسجيل الدخول إلى النظام باستخدام اسم المستخدم وكلمة المرور. يؤدي إيقاف هذه الميزة إلى عدم تمكن المُستخدمين من تسجيل الدخول باستخدام البريد الإلكتروني وكلمة المرور، كما لا يمكنهم تعديل كلمات المرور الشخصية.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth11": {
+    "message": "تسجيل الدخول بإستخدام كلمة مرور البريد الإلكتروني غير مسموح به",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.auth12": {
+    "message": "لن يسمح هذا الإعداد للمستخدمين بتسجيل الدخول باستخدام البريد الإلكتروني وكلمة المرور. تأكد من امتلاك المستخدمين لطريقة تسجيل دخول بديلة قبل إجراء التغييرات. انقر على زر التأكيد لتطبيق التغييرات.",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.switchOldVersion": {
+    "message": "تبديل للإصدار القديم",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.switchRole": {
+    "message": "تبديل الدور",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.switchRoleDesc": {
+    "message": "إختر الدور الذي تود استخدامه",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.setting": {
+    "message": "إعدادات",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.logout": {
+    "message": "تسجيل الخروج",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.hello": {
+    "message": "مرحبا، {userNickName}",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.email": {
+    "message": "البريد الإلكتروني: {email}",
+    "description": "新版管理后台 zh.json"
+  },
+  "layout.userId": {
+    "message": "معرف المستخدم: {userId}",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.dashboard": {
+    "message": "لوحة أجهزة التحكم",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso": {
+    "message": "تسجيل دخول فردي",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.ssoSetting": {
+    "message": "إعدادات تسجيل الدخول الموحد",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.openSSO": {
+    "message": "تفعيل تسجيل الدخول الموحد",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.openSSOTip": {
+    "message": "بعد تفعيل تسجيل الدخول الفردي، يسمح النظام للمستخدمين بتسجيل الدخول من خلال بدء مزود الخدمة أو جانب مزود الهوية. بعد الإغلاق، لن يُسمح للمستخدمين بتسجيل الدخول باستخدام طريقة تسجيل الدخول الفردي",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.addSSO": {
+    "message": "إضافة SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.SSOName": {
+    "message": "اسم SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.SSOList": {
+    "message": "قائمة SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.connectType": {
+    "message": "نوع الاتصال",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.status": {
+    "message": "حالة",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.isDefault": {
+    "message": "افتراضي",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSO": {
+    "message": "إنشاء اتصال SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.baseSetting": {
+    "message": "الإعدادات الأساسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.attrMapping": {
+    "message": "تعيين الخاصية",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.roleMapping": {
+    "message": "تعيين الأدوار",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.options": {
+    "message": "خيارات",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSAMLConnect": {
+    "message": "إنشاء اتصال SAML",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso18": {
+    "message": "الاسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso19": {
+    "message": "إعادة توجيه عنوان الموقع",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso20": {
+    "message": "إعدادات IdP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso21": {
+    "message": "احصل على ملف التعريف من معرف مزود الهوية الخاص بك وقم بتحميله هنا أو أدخل القيم يدويًا.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso22": {
+    "message": "رفع معرف XML",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso23": {
+    "message": "سلسلة الناشر أو معرف الكيان",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso24": {
+    "message": "نقطة إعادة توجيه مزود خدمة الهوية",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso25": {
+    "message": "إسم سمه موضوع هويه SAML",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso26": {
+    "message": "شهادة X.509 العامة",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso27": {
+    "message": "توقيع AuthnRequest",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso28": {
+    "message": "تعطيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso29": {
+    "message": "نعم",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso30": {
+    "message": "ربط طلب SAML",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso31": {
+    "message": "HTTP إعادة التوجيه",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso32": {
+    "message": "HTTP-Post (افتراضي)",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso33": {
+    "message": "بما في ذلك بروتوكول استخدام مطالب مؤكدة لخدمة المستخدم.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso34": {
+    "message": "خوارزمية توقيع طلب المصادقة",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso35": {
+    "message": "SHA1",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso36": {
+    "message": "SHA256 (تلقائي)",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso37": {
+    "message": "AuthnContextClassRef",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.spSetting": {
+    "message": "إعدادات SP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.downloadSPXML": {
+    "message": "تنزيل SP Metadata XML",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.XMLDownloadTips": {
+    "message": "الرجاء تنزيل بعد إكمال إعدادات المعرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.emailIdpAttr": {
+    "message": "خصائص بريد إلكتروني IdP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputEmailIdp": {
+    "message": "إدخال الخاصية IdP المقابل لعنوان البريد الإلكتروني",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.nameIdpAttr": {
+    "message": "اسم IdP الكامل",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputnameIdp": {
+    "message": "إدخال مُعرّف الموفر الخاص بالمستخدم المطابق لاسم المستخدم الكامل",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputnameIdpTip": {
+    "message": "في حالة عدم إعداد إعدادات، سيتم استخدام عنوان بريد المستخدم الإلكتروني كاسم كامل",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.usernameIdpAttr": {
+    "message": "اسم المستخدم IDP الخاصية.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputusernameIdp": {
+    "message": "إدخال معرف اسم المستخدم المطابق لـ IdP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputusernameIdpTip": {
+    "message": "إذا لم يتم الإعداد، سيتم استخدام عنوان بريد المستخدم الإلكتروني كاسم كامل",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.customMapping": {
+    "message": "تفعيل تعيين الخاصية المخصصة",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdpMappingLMS": {
+    "message": "إقران سمات IdP بسمات المستخدم الخاصة بـ LMS",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.add": {
+    "message": "إضافة",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.LMSAttr": {
+    "message": "خصائص نظام إدارة التعلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdpAttr": {
+    "message": "خصائص IdP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.action": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultOrg": {
+    "message": "مؤسسة افتراضية",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdPOrgAttr": {
+    "message": "سمات مؤسسة مزود الهوية",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.setIdPOrgAttr": {
+    "message": "إعداد خصائص المؤسسة من جانب IdP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso48": {
+    "message": "قواعد تخطيط المؤسسات",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.IdpAttrVal": {
+    "message": "قيمة سمة IdP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso50": {
+    "message": "مؤسسة نظام إدارة التعلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption1": {
+    "message": "تفعيل الحساب تلقائيًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption2": {
+    "message": "إذا لم يوجد معرف متطابق عند تسجيل الدخول، سيتم إنشاء حساب مستخدم جديد تلقائيًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption3": {
+    "message": "تحديث خصائص المستخدم عند تسجيل الدخول",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption4": {
+    "message": "تحديث خصائص المستخدم تلقائيًا إذا تم اكتشاف تغييرات على خصائص جانب IdP عند تسجيل دخول المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption5": {
+    "message": "تعيين كإتصال افتراضي SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOOption6": {
+    "message": "اجعل هذا الـ SSO الخاص بالنظام افتراضيًا، ويقوم المستخدم بتسجيل الدخول من خلال هذا الـ SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso57": {
+    "message": "قواعد توزيع الأدوار",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.active": {
+    "message": "تنشيط",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.stop": {
+    "message": "إيقاف",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.edit": {
+    "message": "تعديل",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso61": {
+    "message": "إختبار",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.del": {
+    "message": "حذف",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.delSSO": {
+    "message": "حذف اتصال SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.delSSOTip": {
+    "message": "أنت على وشك حذف اتصال SSO التالي، مما سيعطل دخول المستخدمين عبر بدء تشغيل sp وبدء تشغيل idp. تأكد من متابعة الحذف.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso65": {
+    "message": "الاسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso66": {
+    "message": "نوع",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sso67": {
+    "message": "مقدم الهوية",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSO": {
+    "message": "تنشيط اتصال SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSOTip": {
+    "message": "أنت على وشك تنشيط اتصال SSO التالي، مما يتيح للمستخدمين تسجيل الدخول إلى النظام باستخدام sp-initate و idp-initate. إذا لم تكن هناك حاجة لذلك، فيرجى تعطيل هذه الإعدادات.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.stopSSO": {
+    "message": "إيقاف اتصال SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.stopSSOTip": {
+    "message": "أنت على وشك إيقاف اتصال SSO التالي، مما سيعطل المستخدمين من استخدام sp-initate و idp-initate لتسجيل الدخول إلى النظام.",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.nextStep": {
+    "message": "التالي",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.save": {
+    "message": "حفظ",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.cancel": {
+    "message": "إلغاء",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.close": {
+    "message": "أغلق",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.createSSOSuccess": {
+    "message": "تم حفظ اتصال SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.copySuccess": {
+    "message": "نسخ بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.NameErrTip1": {
+    "message": "أدخل الاسم",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.NameErrTip2": {
+    "message": "لا يمكن أن يكون أكثر من 64 حرف",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.NameErrTip3": {
+    "message": "الاسم مستخدم، يرجى إعادة إدخاله",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.uploadIdpErr": {
+    "message": "الحد الأقصى الحالي لاختيار {num} ملف",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr1": {
+    "message": "أدخل سلسلة مُصدر الهوية أو المُصدر",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr2": {
+    "message": "أدخل نقطة نهاية إعادة توجيه IDP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr3": {
+    "message": "أدخل اسم الخاصية الشخصية لموضوع SAML",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.creatSSOErr4": {
+    "message": "أدخل شهادة X.509 العامة",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO": {
+    "message": "اختبار تسجيل الدخول الفردي",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO1": {
+    "message": "اتبع الخطوات الآتية لاختبار اتصال تسجيل الدخول الفردي",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO2": {
+    "message": "اختبار الاتصال",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO3": {
+    "message": "اختبار الاتصال",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO4": {
+    "message": "تسجيل الدخول للاختبار",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO5": {
+    "message": "اتبع الخطوات التالية لاختبار تسجيل الدخول الفردي",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO6": {
+    "message": "مسار تسجيل الدخول",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO7": {
+    "message": "خروج",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO8": {
+    "message": "اتبع هذه الخطوات لاختبار خروج SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSSO9": {
+    "message": "مسار الخروج",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.testSuccess": {
+    "message": "الاتصال جيد",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.copy": {
+    "message": "نسخ",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Accounts": {
+    "message": "حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Courses": {
+    "message": "المادة الدراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CourseEnrollments": {
+    "message": "التسجيل في المادة الدراسية",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Activities": {
+    "message": "نشاط التعلم",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserLogin": {
+    "message": "اتجاهات تسجيل دخول المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Detail": {
+    "message": "معلومات مفصلة",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Description": {
+    "message": "وصف المؤشر",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.DataScope": {
+    "message": "نطاق البيانات",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.Update": {
+    "message": "تحديث البيانات",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.timeFilterWeek": {
+    "message": "الأيام السبعة الماضية",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.timeFilterMonth": {
+    "message": "30 اليوم الماضي",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.AccountsDescription": {
+    "message": " إجمالي عدد حساب المستخدم للمؤسسة والكيانات التابعة لها والتغييرات في هذا العدد أمس",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.AccountsDataScope": {
+    "message": "نطاق المؤسسة: هذه المؤسسة والفرع<br/>  نطاق الحساب: جميع الحسابات، بما في ذلك الحسابات النشطة والحسابات المجمدة<br/>  فترة زمنية: كل مرة",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.AccountsUpdate": {
+    "message": "تحديث يومي<br/>اخر تحديث: {time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesDescription": {
+    "message": "عدد كل موادك الدراسية، أنت والمؤسسات الفرعية التابعة لك، وكذلك التغير في هذا الرقم بالأمس",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesDataScope": {
+    "message": "نطاق المؤسسة: هذه المؤسسة والفروع<br/>نطاق الدورة: جميع الدورات بما في ذلك الجاري، والمكمل، والمنتهية صلاحيتها<br/>نطاق الوقت: كل الأوقات",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesUpdate": {
+    "message": "تحديث يومي\nآخر تحديث: {time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesEnrollmentsDescription": {
+    "message": "عدد الطلاب المسجلين في جميع المواد الدراسية التابعة لهذه المؤسسة والتابعة لها، بالإضافة إلى التغير الذي طرأ على هذا العدد بالأمس",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesEnrollmentsDataScope": {
+    "message": "نطاق المؤسسة: هذه المؤسسة والوحدات الفرعية<br/>نطاق الدورة: جميع الدورات، بما في ذلك الجاري والمنتهي والأرشيف<br/>نطاق زمني: الوقت كله",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.CoursesEnrollmentsUpdate": {
+    "message": "يتم التحديث يوميًا<br/>آخر وقت للتحديث:‏ {time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.ActivitiesDescription": {
+    "message": "عدد أنشطة التعلم لجميع المواد الدراسية التابعة للمؤسسة والفرع التابعة لها والتغير اليومي لهذا العدد، وتشمل أنشطة التعلم الواجبات والاختبارات والمناقشات والصفوف الدراسية والبث المباشر والامتحانات.",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.ActivitiesDataScope": {
+    "message": "نطاق المؤسسة: هذه المؤسسة والمنظمات الفرعية <br/> نطاق الدورة: جميع الدورات، بما في ذلك الدورات الجارية والمكملة والمحفوظة <br/> الإطار الزمني: طوال الوقت",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.ActivitiesUpdate": {
+    "message": "تحديث يومي<br/>تم التحديث في: {time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserloginDescription": {
+    "message": "عرض عدد المستخدمين الذين سجلوا الدخول إلى النظام يوميًا",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserloginDataScope": {
+    "message": "نطاق المؤسسة: هذه المؤسسة والمؤسسات الفرعية<br/>نطاق الحساب: جميع الحسابات المخصصة لهذه المؤسسة وللمؤسسات الفرعية<br/> النطاق الزمني: 00:00-24:00 بالتوقيت المحلي للمؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "dashboard.UserloginUpdate": {
+    "message": "ال تحديث اليومي<br/>آخر تحديث في: {time}",
+    "description": "新版管理后台 zh.json"
+  },
+  "organization.uploadLogoTip2": {
+    "message": "الرجاء رفع صورة بنسبة {ratio}",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.editSSO": {
+    "message": "تعديل اتصال SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.disabledSSO": {
+    "message": "إيقاف تشغيل الدخول الموحد SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.disabledSSOTip": {
+    "message": "سيمنع تعطيل هذا الإعداد المستخدم من استخدام SSO للاتصال للدخول، بما في ذلك الدخول الذي بدأته SP وبدءه IDP. انقر فوق تأكيد المتابعة",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.xmlParseError": {
+    "message": "فشل تحليل XML",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.address": {
+    "message": "مسار",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.phtone": {
+    "message": "رقم الهاتف",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.sex": {
+    "message": "الجنس",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultRole": {
+    "message": "الدور الافتراضي للمستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.selectDefaultRole": {
+    "message": "الرجاء اختيار الدور الافتراضي للمستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultRoleMapping": {
+    "message": "سمات دور هوية الموفر",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.settingDefaultRoleMapping": {
+    "message": "أدخل خصائص الدور من جانب IdP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultErrtip1": {
+    "message": "إختر المؤسسة الافتراضية",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultErrtip2": {
+    "message": "ادخل صفات المؤسسة IdP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultErrtip3": {
+    "message": "الرجاء اختيار الدور الافتراضي للمستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.defaultErrtip4": {
+    "message": "أدخل خصائص دور مزود الهوية",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.inputIdPValue": {
+    "message": "أدخل خصائص IdP",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.delSSOSuccess": {
+    "message": "حذف SSO ناجح",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSsoSuccess": {
+    "message": "تم تمكين تسجيل الدخول الموحد",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.disableSsoSuccess": {
+    "message": "تم إغلاق تسجيل الدخول الموحد",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSOTitle": {
+    "message": "تمكين SSO",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSODesc": {
+    "message": "تتيح لك هذه الإعدادات تمكين المستخدم من تسجيل الدخول باستخدام SSO، بما في ذلك التسجيل الذي بدأه موفر الخدمة وتسجيل الدخول الذي بدأه موفر الهوية. انقر فوق زر التأكيد للمتابعة",
+    "description": "新版管理后台 zh.json"
+  },
+  "auth.activeSSOBtn": {
+    "message": "تمكين",
+    "description": "新版管理后台 zh.json"
+  },
+  "routers.cloudStorage": {
+    "message": "تخزين سحابي",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.detail": {
+    "message": "تفاصيل",
+    "description": "新版管理后台 zh.json"
+  },
+  "common.action": {
+    "message": "عمل",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.yes": {
+    "message": "نعم",
+    "description": "新版管理后台 zh.json"
+  },
+  "notice.no": {
+    "message": "لا",
+    "description": "新版管理后台 zh.json"
+  },
+  "users.loginUser": {
+    "message": "إدخل حساب المستخدم",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage1": {
+    "message": "إدخال الاسم بحث",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage2": {
+    "message": "مؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage3": {
+    "message": "مستخدم (جيجا بايت)",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage4": {
+    "message": "الحصص (جيجا بايت)",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage5": {
+    "message": "نسبة",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.cloudStorage6": {
+    "message": "عرض مصادر المؤسسة",
+    "description": "新版管理后台 zh.json"
+  },
+  "live.cloudMeetingProvider6": {
+    "message": "ندوة وي لينك",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.reset": {
+    "message": "إعادة تعيين",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.plot": {
+    "message": "موقع ويب",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.instnum": {
+    "message": "عدد المؤسسات",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.usernum": {
+    "message": "عدد المستخدمين",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.effectivetime": {
+    "message": "الوقت المتوفر",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resetTip": {
+    "message": "ستعيد هذه العملية تعيين الرمز المميز لمزامنة نظام معلومات الطالب، هل تريد المتابعة؟",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resetToken": {
+    "message": "إعادة تعيين الرمز المميز",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.resetOK": {
+    "message": "تم إعادة تعيين بنجاح",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.LVCMax": {
+    "message": "توافق LVC",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.forever": {
+    "message": "صالح إلى الأبد",
+    "description": "新版管理后台 zh.json"
+  },
+  "saas.concurrencyNum": {
+    "message": "توافق",
     "description": "新版管理后台 zh.json"
   }
 }
