@@ -59,17 +59,9 @@
     "message": "Mulai menjawab ",
     "description": "UA播放器内层"
   },
-  "questionNumber1": {
-    "message": "Total",
-    "description": "UA播放器内层"
-  },
-  "questionNumber2": {
-    "message": "soal",
-    "description": "UA播放器内层"
-  },
-  "questionNumber3": {
-    "message": "soal",
-    "description": "UA播放器内层"
+  "totalQuestions": {
+    "message": "Total {n} pertanyaan",
+    "description": "学生 -> 作答练习题"
   },
   "oneChance": {
     "message": "Hanya dapat menjawab 1 kali ",
@@ -79,8 +71,12 @@
     "message": "Ulang lagi ",
     "description": "UA播放器内层"
   },
-  "answerTime1": {
-    "message": "Jawab dalam ",
+  "answerTimeLimit": {
+    "message": "Terbatas pada {time}",
+    "description": "学生 -> 作答练习题"
+  },
+  "score": {
+    "message": "{n} menit",
     "description": "UA播放器内层"
   },
   "submit": {
@@ -129,14 +125,6 @@
   },
   "viewAnalysis": {
     "message": "Lihat analisis jawaban ",
-    "description": "UA播放器内层"
-  },
-  "answerRightTip": {
-    "message": "Lanjut soal berikutnya, atau ",
-    "description": "UA播放器内层"
-  },
-  "answerWrongTip": {
-    "message": "Anda bisa",
     "description": "UA播放器内层"
   },
   "correctAnswer": {
@@ -339,10 +327,6 @@
     "message": "Setiap kata/kalimat/paragraf harus dibaca ",
     "description": "UA播放器内层"
   },
-  "oralRecordingTipsCount": {
-    "message": " kali",
-    "description": "UA播放器内层"
-  },
   "oralRecording": {
     "message": "Sedang merekam, klik untuk berhenti ",
     "description": "UA播放器内层"
@@ -390,5 +374,21 @@
   "inputedText": {
     "message": "Telah menulis {count} kata",
     "description": "UA播放器内层"
+  },
+  "logTip": {
+    "message": "Anda sudah masuk di terminal lain.",
+    "description": "UA播放器内层"
+  },
+  "videoSetting": {
+    "message": "Pengaturan",
+    "description": "视频播放界面开启一个弹框，供用户开启字幕或跳过片头"
+  },
+  "enableSubtitle": {
+    "message": "Caption:",
+    "description": "冒号后面是一个 switch 按钮"
+  },
+  "skipVideoHead": {
+    "message": "Lewati intro:",
+    "description": "冒号后面是一个 switch 按钮"
   }
 }
