@@ -59,17 +59,9 @@
     "message": "Comenzar a responder preguntas",
     "description": "UA播放器内层"
   },
-  "questionNumber1": {
-    "message": "Total",
-    "description": "UA播放器内层"
-  },
-  "questionNumber2": {
-    "message": "Pregunta",
-    "description": "UA播放器内层"
-  },
-  "questionNumber3": {
-    "message": "Pregunta",
-    "description": "UA播放器内层"
+  "totalQuestions": {
+    "message": "Un total de {n} preguntas",
+    "description": "学生 -> 作答练习题"
   },
   "oneChance": {
     "message": "Sólo responder 1 vez",
@@ -79,8 +71,12 @@
     "message": "Opción múltiple.",
     "description": "UA播放器内层"
   },
-  "answerTime1": {
-    "message": "Límite",
+  "answerTimeLimit": {
+    "message": "Limitado a {time}",
+    "description": "学生 -> 作答练习题"
+  },
+  "score": {
+    "message": "{n} puntos",
     "description": "UA播放器内层"
   },
   "submit": {
@@ -129,14 +125,6 @@
   },
   "viewAnalysis": {
     "message": "Ver análisis de respuestas",
-    "description": "UA播放器内层"
-  },
-  "answerRightTip": {
-    "message": "Continuar con la siguiente pregunta, o",
-    "description": "UA播放器内层"
-  },
-  "answerWrongTip": {
-    "message": "Puedes",
     "description": "UA播放器内层"
   },
   "correctAnswer": {
@@ -339,10 +327,6 @@
     "message": "Cada palabra/frase/párrafo necesitan ser leídos",
     "description": "UA播放器内层"
   },
-  "oralRecordingTipsCount": {
-    "message": "Veces",
-    "description": "UA播放器内层"
-  },
   "oralRecording": {
     "message": "Grabando, haga clic para detener",
     "description": "UA播放器内层"
@@ -394,5 +378,17 @@
   "logTip": {
     "message": "Ya ha iniciado sesión en otro terminal",
     "description": "UA播放器内层"
+  },
+  "videoSetting": {
+    "message": "Configuraciones",
+    "description": "视频播放界面开启一个弹框，供用户开启字幕或跳过片头"
+  },
+  "enableSubtitle": {
+    "message": "Subtítulo:",
+    "description": "冒号后面是一个 switch 按钮"
+  },
+  "skipVideoHead": {
+    "message": "Saltar introducción:",
+    "description": "冒号后面是一个 switch 按钮"
   }
 }
