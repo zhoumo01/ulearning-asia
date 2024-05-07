@@ -99,6 +99,10 @@
     "message": "Nilai sempurna",
     "description": "测验项目"
   },
+  "totalScoreOf": {
+    "message": "Skor penuh: $1 poin",
+    "description": "测验项目"
+  },
   "成长值": {
     "message": "Nilai pertumbuhan",
     "description": "测验项目"
@@ -335,16 +339,12 @@
     "message": "Beri tugas esai",
     "description": "测验项目"
   },
-  "每人批阅": {
-    "message": "Setiap orang koreksi",
+  "evalPer": {
+    "message": "$1 per orang",
     "description": "测验项目"
   },
-  "份": {
-    "message": "Buah",
-    "description": "测验项目"
-  },
-  "分": {
-    "message": "poin",
+  "points": {
+    "message": "$1 poin",
     "description": "测验项目"
   },
   "作业时间": {
@@ -407,8 +407,8 @@
     "message": "Penjelasan tugas",
     "description": "测验项目"
   },
-  "个字": {
-    "message": "kata",
+  "words": {
+    "message": "$1 kata",
     "description": "测验项目"
   },
   "评价作业": {
@@ -1231,12 +1231,8 @@
     "message": "Tulis tugas di sini",
     "description": "测验项目"
   },
-  "已写": {
-    "message": "Telah menulis",
-    "description": "测验项目"
-  },
-  "字": {
-    "message": "kata",
+  "writtenWords": {
+    "message": "$1 kata tertulis",
     "description": "测验项目"
   },
   "提交作业": {
@@ -1359,16 +1355,8 @@
     "message": "Hari ini",
     "description": "测验项目"
   },
-  "年": {
-    "message": " tahun ",
-    "description": "测验项目"
-  },
-  "月": {
-    "message": " bulan ",
-    "description": "测验项目"
-  },
-  "日": {
-    "message": " hari",
+  "currentDate": {
+    "message": "$ 1 tahun $ 2 bulan",
     "description": "测验项目"
   },
   "正在加载中": {
@@ -2027,20 +2015,8 @@
     "message": "Jawaban anda",
     "description": "测验项目"
   },
-  "共": {
-    "message": "Total ",
-    "description": "测验项目"
-  },
-  "次答题机会,已用": {
-    "message": " kali kesempatan menjawab, telah dipakai ",
-    "description": "测验项目"
-  },
-  "次，剩余": {
-    "message": " kali, sisa ",
-    "description": "测验项目"
-  },
-  "次": {
-    "message": " kali",
+  "examTip1": {
+    "message": "Total upaya $ 1, $ 2 telah digunakan, dan $ 3 tersisa",
     "description": "测验项目"
   },
   "已提醒学生交作业": {
@@ -2109,6 +2085,94 @@
   },
   "plzInputAnswer": {
     "message": "Silahkan masukkan jawaban",
+    "description": "测验项目"
+  },
+  "markdone": {
+    "message": "Anda tidak menilai tugas<br/>Atau siswa belum menyelesaikan pekerjaan rumahnya<br/>Atau... Anda lupa menandainya ~",
+    "description": "测验项目"
+  },
+  "going": {
+    "message": "Tidak ada siswa yang belajar,<br/>Pergi ke tempat lain ~",
+    "description": "测验项目"
+  },
+  "class": {
+    "message": "Tidak ada kelas yang dibuat,<br/>Silakan pergi ke platform untuk membuat kelas terlebih dahulu ~",
+    "description": "测验项目"
+  },
+  "start": {
+    "message": "Para siswa telah belajar,<br/> Semuanya bagus!",
+    "description": "测验项目"
+  },
+  "submit": {
+    "message": "Para siswa telah selesai mengerjakan pekerjaan rumah mereka,<br/>Mereka melakukan pekerjaan dengan baik!",
+    "description": "测验项目"
+  },
+  "timeout": {
+    "message": "Itu terputus ... Silakan periksa jaringan seluler thia ~",
+    "description": "测验项目"
+  },
+  "homewrok-type": {
+    "message": "Anda belum menetapkan jenis tugas tersebut",
+    "description": "测验项目"
+  },
+  "hw-stu-all": {
+    "message": "Tidak ada siswa yang ditemukan di kelas ini",
+    "description": "测验项目"
+  },
+  "hw-stu-weitijiao": {
+    "message": "Semua siswa menyerahkan tugas mereka!luar biasa!",
+    "description": "测验项目"
+  },
+  "hw-stu-daipiyue": {
+    "message": "Tidak ada tugas yang perlu dikoreksi, istirahat sebentar~",
+    "description": "测验项目"
+  },
+  "hw-stu-xuchongxie": {
+    "message": "Tidak ada siswa yang perlu menulis ulang",
+    "description": "测验项目"
+  },
+  "hw-stu-weikaishi": {
+    "message": "Penugasan belum dimulai",
+    "description": "测验项目"
+  },
+  "hw-stu-xitong": {
+    "message": "Skor sistem sangat tepat waktu,<br/>Tidak boleh ada siswa yang menyerahkan tugas ~",
+    "description": "测验项目"
+  },
+  "hw-stu-wancheng": {
+    "message": "Siswa belum selesai, pergi dan awasi",
+    "description": "测验项目"
+  },
+  "hw-stu-jieshu": {
+    "message": "Tidak ada yang menyerahkan pekerjaan rumah mereka!",
+    "description": "测验项目"
+  },
+  "hw-stu-yuqi": {
+    "message": "Semua siswa menyerahkan tugas mereka!",
+    "description": "测验项目"
+  },
+  "hw-stu-huping": {
+    "message": "Tidak ada tugas yang dievaluasi oleh rekan sejawat",
+    "description": "测验项目"
+  },
+  "hw-stu-shensu": {
+    "message": "Tidak ada keluhan siswa",
+    "description": "测验项目"
+  },
+  "hw-stu-sschenggong": {
+    "message": "Tidak apa-apa~",
+    "description": "测验项目"
+  },
+  "stu-hw-type": {
+    "message": "Guru tidak menugaskan jenis tugas ini",
+    "description": "测验项目"
+  },
+  "homeworkExpired": {
+    "message": "Penugasan harus diserahkan",
+    "description": "测验项目"
+  },
+  "notShowAnswerRecord": {
+    "message": "Tugas ini diatur untuk tidak menampilkan riwayat jawaban",
     "description": "测验项目"
   }
 }
