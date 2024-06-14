@@ -36,7 +36,7 @@
     "description": "1.0 autoexam.js"
   },
   "collectText2": {
-    "message": "{nombre} questions,",
+    "message": "{count} questions,",
     "description": "1.0 autoexam.js"
   },
   "collectText3": {
@@ -44,7 +44,7 @@
     "description": "1.0 autoexam.js"
   },
   "collectText": {
-    "message": "{parties} {questions} {points}",
+    "message": "{parts}{questions}{marks}\n",
     "description": "{parts} 插值对应上面的 collectText1，{questions}插值对应上面的 collectText2，{marks}插值对应上面的collectText3，也就是说这三个分句组成一句话，翻译可根据需要调整三个分句的顺序，或者添加标点符号。"
   },
   "surePaperNameLess": {
