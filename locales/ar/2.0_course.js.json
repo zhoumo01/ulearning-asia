@@ -728,7 +728,7 @@
     "description": "2.0 course.js"
   },
   "minute": {
-    "message": "{عدد} دقيقة ",
+    "message": "{count} دقيقة",
     "description": "2.0 course.js"
   },
   "averageCompletionRate": {
@@ -988,7 +988,7 @@
     "description": "2.0 course.js"
   },
   "stuScore": {
-    "message": "{stuName}: {عدد} نقطة (نقاط) ",
+    "message": "{stuName}: {count} نقاط",
     "description": "2.0 course.js"
   },
   "points": {
@@ -1024,7 +1024,7 @@
     "description": "2.0 course.js"
   },
   "studyScoreOf": {
-    "message": "نتيجة تعلم أدوات المنهج دراسي: {نسبة مئوية}٪",
+    "message": "لنتائج الدراسية: {percent}%",
     "description": "2.0 course.js"
   },
   "averageScoreByChapter": {
@@ -1032,7 +1032,7 @@
     "description": "2.0 course.js"
   },
   "studyTimeColon": {
-    "message": "المدة الزمنية لتعلم المنهج دراسي: {نسبة مئوية}٪",
+    "message": "وقت الدراسة: {percent}%",
     "description": "2.0 course.js"
   },
   "totalStudyTimeAchieve": {
@@ -1040,15 +1040,15 @@
     "description": "2.0 course.js"
   },
   "chapterStudyTimeAchieve": {
-    "message": "يصل زمن تعلم الوحدة إلى {أقصى} دقيقة من أجل إجمالي الإمكانات؛ أقل من {دقيقة} دقيقة لـ 0 نقطة",
+    "message": "يتم منح العلامات الكاملة ل {max} دقيقة من وقت الدراسة في كل فصل ، ويتم منح 0 نقطة لأقل من {min} دقيقة",
     "description": "2.0 course.js"
   },
   "sectionStudyTimeAchieve": {
-    "message": "يصل زمن تعلم الوحدة إلى {أقصى} دقيقة من أجل إجمالي الإمكانات؛ أقل من {دقيقة} دقيقة لـ 0 نقطة",
+    "message": "يتم منح العلامات الكاملة ل {max} دقيقة من وقت الدراسة في كل جلسة ، ويتم منح 0 نقطة لأقل من {min} دقيقة",
     "description": "2.0 course.js"
   },
   "studyProgressColon": {
-    "message": "المدة الزمنية لتعلم المنهج دراسي: {نسبة مئوية}٪",
+    "message": "تقدم التعلم: {percent}٪",
     "description": "2.0 course.js"
   },
   "totalStudyProgress": {
@@ -1132,7 +1132,7 @@
     "description": "教师账号 -> 考核 -> 查看策略 \n 教师账号 -> 考核 -> 查看成绩 (汇总成绩后才会出现查看成绩这个按钮)"
   },
   "classesEtc": {
-    "message": "{الفصول الدراسية}، ... - {count} الفصول الدراسية",
+    "message": "{classes} , ... , {count} فصل",
     "description": "教师账号 -> 考核 \n 教师账号 -> 课堂 \n 教师账号 -> 成员 -> 教学团队"
   },
   "classesLink": {
@@ -1860,11 +1860,11 @@
     "description": "2.0 course.js"
   },
   "homeworkBetweenTime": {
-    "message": "توفر المهام: {وقت البدء} إلى {نهاية الوقت} ",
+    "message": "وقت المهمة: {startTime} إلى {endTime}",
     "description": "2.0 course.js"
   },
   "betweenTime": {
-    "message": "{وقت البدء} إلى {نهاية الوقت} ",
+    "message": "{startTime} إلى {endTime} ",
     "description": "2.0 course.js"
   },
   "commitEnd": {
@@ -2432,7 +2432,7 @@
     "description": "2.0 course.js"
   },
   "batchReplaceStudents": {
-    "message": "نقل {الطلاب} إلى {إستمارة الفصول الدراسية}",
+    "message": "استبدل {students} ب: {classesForm}",
     "description": "教师账号 -> 成员 -> 学生管理 -> 更换班级"
   },
   "appointClassForTeacher": {
@@ -2908,7 +2908,7 @@
     "description": "2.0 course.js"
   },
   "resourceHeadTips": {
-    "message": "فيما يلي المصادر المتاحة للطلاب. يمكنك إضافة مصادر مباشرة هنا أو من &quot;مكتبة المصادر &quot;. يمكنك تعيين أذونات وصول مختلفة لفئات مختلفة.",
+    "message": "فيما يلي المصادر المتاحة للطلاب. يمكنك إضافة مصادر مباشرة هنا أو من \"مكتبة المصادر\". يمكنك تعيين أذونات وصول مختلفة لفئات مختلفة.",
     "description": "2.0 course.js"
   },
   "currentPosition": {
@@ -3636,7 +3636,7 @@
     "description": "2.0 course.js"
   },
   "totalQuantityCl": {
-    "message": "المجموع: {n} ",
+    "message": "الكمية الإجمالية: {count}",
     "description": "2.0 course.js"
   },
   "nonVideoResource": {
@@ -3652,7 +3652,7 @@
     "description": "2.0 course.js"
   },
   "quantityCl": {
-    "message": "الإجمالي: {عدد}",
+    "message": "الإجمالي: {count}",
     "description": "2.0 course.js"
   },
   "homeworkAndTest": {
@@ -3688,7 +3688,7 @@
     "description": "2.0 course.js"
   },
   "examQueNumberOf": {
-    "message": "أسئلة الامتحان:",
+    "message": "عدد الأسئلة: {n} أسئلة",
     "description": "2.0 course.js"
   },
   "passPeopleOf": {
@@ -4512,11 +4512,11 @@
     "description": "2.0 course.js"
   },
   "scoreItemType2Option2": {
-    "message": "يصل زمن تعلم الوحدة إلى {أقصى} دقيقة من أجل إجمالي الإمكانات؛ أقل من {دقيقة} دقيقة لـ 0 نقطة",
+    "message": "يتم إعطاء درجة كاملة ل {max} دقيقة من الدراسة في كل فصل ، و 0 نقطة لأقل من {min} دقيقة",
     "description": "2.0 course.js"
   },
   "scoreItemType2Option3": {
-    "message": "يصل زمن تعلم الوحدة إلى {أقصى} دقيقة من أجل إجمالي الإمكانات؛ أقل من {دقيقة} دقيقة لـ 0 نقطة",
+    "message": "يتم إعطاء درجة كاملة ل {max} دقيقة من الدراسة في كل جلسة ، و 0 نقطة لأقل من {min} دقيقة",
     "description": "2.0 course.js"
   },
   "scoreItemType3": {
@@ -4568,7 +4568,7 @@
     "description": "2.0 course.js"
   },
   "scoreItemType7Option1": {
-    "message": "نقاط كاملة إذا وصل مجموع درجات المناقشة إلى {نقاط}",
+    "message": "نقاط كاملة إذا وصل مجموع نتائج المناقشة إلى {score}",
     "description": "2.0 course.js"
   },
   "scoreItemType8": {
@@ -5228,7 +5228,7 @@
     "description": "2.0 course.js"
   },
   "pollOf": {
-    "message": "{n} أصوات - {نسبة مئوية}٪",
+    "message": "{n} أصوات - {percent}٪",
     "description": "教师账号 -> 直播 -> 直播统计 -> 直播互动 -> 问卷 (非拓课云直播才有直播互动数据)"
   },
   "liveAnalysisTips": {
@@ -5372,7 +5372,7 @@
     "description": "2.0 course.js"
   },
   "weights": {
-    "message": "{نسبة}٪,{عد} pts",
+    "message": "{percent}%, {count} نقطة",
     "description": "2.0 course.js"
   },
   "importBBCourse": {
@@ -7717,6 +7717,14 @@
   },
   "uploadFail5": {
     "message": "فشل التحميل ولا يمكن أن يكون اسم الملف فارغا",
+    "description": "2.0 course.js"
+  },
+  "uploadFileMaxLimit": {
+    "message": "يجب ألا تتجاوز ملفات التحميل ",
+    "description": "2.0 course.js"
+  },
+  "uploaderLoadingTip": {
+    "message": "جاري التحميل، يرجى عدم إغلاق الصفحة الحالية",
     "description": "2.0 course.js"
   }
 }
